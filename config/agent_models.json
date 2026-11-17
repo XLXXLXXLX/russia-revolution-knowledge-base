@@ -1,0 +1,359 @@
+{
+  "updated_at": "2026-11-18",
+  "verified_by_live_test": true,
+  "description": "经全量实测验证通过的 T3 Code 跨 Provider 模型绑定表（已剔除周额度受限与接口不兼容模型）",
+  "verified_working_models_count": 17,
+  "excluded_models_from_live_test": [
+    { "provider": "cursor", "model": "claude-opus-5-5", "reason": "Weekly usage quota restriction on Cursor (use antigravity_2/claude-opus-5-5 instead)" },
+    { "provider": "cursor", "model": "claude-sonnet-5-5", "reason": "Weekly usage quota restriction on Cursor (use antigravity_2/claude-sonnet-5-5 instead)" },
+    { "provider": "cursor", "model": "claude-fable-5-2", "reason": "Weekly usage quota restriction on Cursor" },
+    { "provider": "cursor", "model": "kimi-k3", "reason": "Weekly usage quota restriction on Cursor" },
+    { "provider": "cursor", "model": "glm-5p3", "reason": "Weekly usage quota restriction on Cursor" },
+    { "provider": "opencode", "model": "google/deep-research-max-preview-04-2026", "reason": "Google Interactions Agent endpoint, not a standard chat model field" }
+  ],
+  "agents": {
+    "source-extractor": {
+      "title": "原文提取与规整官",
+      "t3_role": "implementation",
+      "opencode_native_model": "google/gemini-4-argon#high",
+      "bindings": [
+        {
+          "slot": "primary-script",
+          "family": "openai",
+          "dispatch": "delegate_task",
+          "target": {
+            "providerInstanceId": "codex",
+            "driverKind": "codex",
+            "model": "gpt-6-luna",
+            "options": { "reasoningEffort": "medium" }
+          },
+          "use_when": "✅ 实测通过：运行 Python 脚本拆解复杂 PDF/EPUB、分章切片与生成 toc.md"
+        },
+        {
+          "slot": "multimodal-pdf-verify",
+          "family": "google",
+          "dispatch": "opencode_subagent",
+          "target": {
+            "providerInstanceId": "opencode",
+            "driverKind": "opencode",
+            "model": "google/gemini-4-argon",
+            "options": { "variant": "high" }
+          },
+          "use_when": "✅ 实测通过：直读多语种（俄/英/中）PDF 扉页、版权页与扫描版面核验"
+        },
+        {
+          "slot": "fast-batch",
+          "family": "deepseek",
+          "dispatch": "opencode_subagent",
+          "target": {
+            "providerInstanceId": "opencode",
+            "driverKind": "opencode",
+            "model": "deepseek/deepseek-flash",
+            "options": { "variant": "high" }
+          },
+          "use_when": "✅ 实测通过：大批量文本/EPUB 章节规整与快速摘要分拣"
+        },
+        {
+          "slot": "vl-metadata-free",
+          "family": "nvidia-vl",
+          "dispatch": "opencode_subagent",
+          "target": {
+            "providerInstanceId": "opencode",
+            "driverKind": "opencode",
+            "model": "opencode/nemotron-3.5-super-vl-free",
+            "options": { "variant": "high" }
+          },
+          "use_when": "✅ 实测通过：轻量级 YAML 元数据提取与视觉图表辅助识别"
+        }
+      ]
+    },
+    "close-reader": {
+      "title": "全文精读与论断提炼官",
+      "t3_role": "research",
+      "opencode_native_model": "google/gemini-4-hydrogen#high",
+      "bindings": [
+        {
+          "slot": "primary-deep-humanities",
+          "family": "anthropic",
+          "dispatch": "delegate_task",
+          "target": {
+            "providerInstanceId": "antigravity_2",
+            "driverKind": "antigravity",
+            "model": "claude-opus-5-5",
+            "options": { "thinking_level": "high" }
+          },
+          "use_when": "✅ 实测通过：高密度史学专著、党内论战反讽与思想史文本深度整章精读"
+        },
+        {
+          "slot": "primary-strict-sandbox",
+          "family": "google",
+          "dispatch": "opencode_subagent",
+          "target": {
+            "providerInstanceId": "opencode",
+            "driverKind": "opencode",
+            "model": "google/gemini-4-hydrogen",
+            "options": { "variant": "high" }
+          },
+          "use_when": "✅ 实测通过：OpenCode 禁 grep 硬围栏下俄/英/中长章顺读（亦可切 antigravity_2/gemini-4-hydrogen）"
+        },
+        {
+          "slot": "quantitative-econ-history",
+          "family": "openai",
+          "dispatch": "delegate_task",
+          "target": {
+            "providerInstanceId": "codex",
+            "driverKind": "codex",
+            "model": "gpt-6.1-sol",
+            "options": { "reasoningEffort": "high" }
+          },
+          "use_when": "✅ 实测通过：精读含统计序列、价格机制与严密因果链的经济史与政治史专著"
+        },
+        {
+          "slot": "zh-marxist-theory",
+          "family": "deepseek",
+          "dispatch": "opencode_subagent",
+          "target": {
+            "providerInstanceId": "opencode",
+            "driverKind": "opencode",
+            "model": "deepseek/deepseek-v4-pro",
+            "options": { "variant": "high" }
+          },
+          "use_when": "✅ 实测通过：中文马列译本、路线论战与多流派理论辨析精读"
+        },
+        {
+          "slot": "fast-close-read",
+          "family": "cursor-native",
+          "dispatch": "delegate_task",
+          "target": {
+            "providerInstanceId": "cursor",
+            "driverKind": "cursor",
+            "model": "composer-2.5",
+            "options": { "fastMode": true }
+          },
+          "use_when": "✅ 实测通过：前言/导论/短篇论文高速结构化精读（辅以 cursor/grok-4.7 500k 窗口）"
+        }
+      ]
+    },
+    "web-scout": {
+      "title": "外网史料与学术侦察官",
+      "t3_role": "research",
+      "opencode_native_model": "google/gemini-4-carbon#high",
+      "bindings": [
+        {
+          "slot": "primary-open-web",
+          "family": "xai",
+          "dispatch": "delegate_task",
+          "target": {
+            "providerInstanceId": "grok",
+            "driverKind": "grok",
+            "model": "grok-4.7",
+            "options": { "reasoningEffort": "high" }
+          },
+          "use_when": "✅ 实测惊艳：跨俄/英/法/中多语种外网深挖冷门报刊底本（如 Inprecor、1000切钥文献）与版本源流考证"
+        },
+        {
+          "slot": "fast-web-check",
+          "family": "xai",
+          "dispatch": "delegate_task",
+          "target": {
+            "providerInstanceId": "grok",
+            "driverKind": "grok",
+            "model": "grok-4.7-build-fast",
+            "options": { "reasoningEffort": "high" }
+          },
+          "use_when": "✅ 实测惊艳：快速核校文献口授/发表日期、全集卷次页码与在线全文 URL"
+        },
+        {
+          "slot": "archival-capture",
+          "family": "anthropic",
+          "dispatch": "delegate_task",
+          "target": {
+            "providerInstanceId": "antigravity_2",
+            "driverKind": "antigravity",
+            "model": "claude-sonnet-5-5",
+            "options": { "thinking_level": "high" }
+          },
+          "use_when": "✅ 实测通过：抓取在线长篇一手档案并规范化入库至 sources/web-archive/"
+        },
+        {
+          "slot": "native-scout",
+          "family": "google",
+          "dispatch": "opencode_subagent",
+          "target": {
+            "providerInstanceId": "opencode",
+            "driverKind": "opencode",
+            "model": "google/gemini-4-carbon",
+            "options": { "variant": "high" }
+          },
+          "use_when": "✅ 实测通过：日常书目排摸、译名核查与 BIBLIOGRAPHY_WISHLIST.md 维护"
+        }
+      ]
+    },
+    "chronicle-weaver": {
+      "title": "多尺度编年史官",
+      "t3_role": "implementation",
+      "opencode_native_model": "deepseek/deepseek-v4-pro#high",
+      "bindings": [
+        {
+          "slot": "primary-precision-chronology",
+          "family": "openai",
+          "dispatch": "delegate_task",
+          "target": {
+            "providerInstanceId": "codex",
+            "driverKind": "codex",
+            "model": "gpt-6.1-sol",
+            "options": { "reasoningEffort": "high" }
+          },
+          "use_when": "✅ 实测通过：构建 L3 逐日/逐小时高密度危机时间线与复杂俄历/公历交叉核对"
+        },
+        {
+          "slot": "routine-chronology",
+          "family": "openai",
+          "dispatch": "delegate_task",
+          "target": {
+            "providerInstanceId": "codex",
+            "driverKind": "codex",
+            "model": "gpt-6-astra",
+            "options": { "reasoningEffort": "high" }
+          },
+          "use_when": "✅ 实测通过：日常增量编年织入与历史人物/事件卡快速构建"
+        },
+        {
+          "slot": "native-sandbox-ledger",
+          "family": "deepseek",
+          "dispatch": "opencode_subagent",
+          "target": {
+            "providerInstanceId": "opencode",
+            "driverKind": "opencode",
+            "model": "deepseek/deepseek-v4-pro",
+            "options": { "variant": "high" }
+          },
+          "use_when": "✅ 实测通过：OpenCode 目录围栏内维护 events_ledger.jsonl 与事件卡片"
+        },
+        {
+          "slot": "long-span-synthesis",
+          "family": "anthropic",
+          "dispatch": "delegate_task",
+          "target": {
+            "providerInstanceId": "antigravity_2",
+            "driverKind": "antigravity",
+            "model": "claude-sonnet-5-5",
+            "options": { "thinking_level": "high" }
+          },
+          "use_when": "✅ 实测通过：跨长时段提炼 L1/L2 阶段脉络"
+        }
+      ]
+    },
+    "graph-curator": {
+      "title": "知识图谱与卡片策展官",
+      "t3_role": "design",
+      "opencode_native_model": "google/gemini-4-carbon#high",
+      "bindings": [
+        {
+          "slot": "primary-curation",
+          "family": "anthropic",
+          "dispatch": "delegate_task",
+          "target": {
+            "providerInstanceId": "antigravity_2",
+            "driverKind": "antigravity",
+            "model": "claude-sonnet-5-5",
+            "options": { "thinking_level": "high" }
+          },
+          "use_when": "✅ 实测通过：撰写高水准 [T1]/[T2]/[T3] 卡片、150字定性微摘要与多学派争鸣矩阵"
+        },
+        {
+          "slot": "conceptual-and-graph-schema",
+          "family": "openai",
+          "dispatch": "delegate_task",
+          "target": {
+            "providerInstanceId": "codex",
+            "driverKind": "codex",
+            "model": "gpt-6.1-terra",
+            "options": { "reasoningEffort": "high" }
+          },
+          "use_when": "✅ 实测通过：编纂 CON-* 概念系谱卡、重构 edges.jsonl 时效边与编译 1-Hop 平衡上下文包"
+        },
+        {
+          "slot": "native-curator",
+          "family": "google",
+          "dispatch": "opencode_subagent",
+          "target": {
+            "providerInstanceId": "opencode",
+            "driverKind": "opencode",
+            "model": "google/gemini-4-carbon",
+            "options": { "variant": "high" }
+          },
+          "use_when": "✅ 实测通过：原生 subagent 通道下译名/化名消歧与卡片快速织网"
+        },
+        {
+          "slot": "flagship-debate-synthesis",
+          "family": "anthropic",
+          "dispatch": "delegate_task",
+          "target": {
+            "providerInstanceId": "antigravity_2",
+            "driverKind": "antigravity",
+            "model": "claude-opus-5-5",
+            "options": { "thinking_level": "high" }
+          },
+          "use_when": "✅ 实测通过：重大史学公案 DEB-* 深度综合与跨时期结构重组"
+        }
+      ]
+    },
+    "dialectic-auditor": {
+      "title": "史学史对勘与反偏见审计官",
+      "t3_role": "review",
+      "opencode_native_model": "deepseek/deepseek-v4-pro#max",
+      "cross_family_rule": "异源模型交叉审计铁律：审计某卡片/综述时，必须选用与主撰写 Agent 不同模型家族（family）的实测可用模型！",
+      "bindings": [
+        {
+          "slot": "adversarial-anthropic",
+          "family": "anthropic",
+          "dispatch": "delegate_task",
+          "target": {
+            "providerInstanceId": "antigravity_2",
+            "driverKind": "antigravity",
+            "model": "claude-opus-5-5",
+            "options": { "thinking_level": "high" }
+          },
+          "use_when": "✅ 实测极惊艳：揪出头衔错置、断章取义、年代矛盾、目的论倾向与史学流派混同"
+        },
+        {
+          "slot": "adversarial-openai",
+          "family": "openai",
+          "dispatch": "delegate_task",
+          "target": {
+            "providerInstanceId": "codex",
+            "driverKind": "codex",
+            "model": "gpt-6.1-sol",
+            "options": { "reasoningEffort": "xhigh" }
+          },
+          "use_when": "✅ 实测通过：严查因果跳跃、统计口径陷阱与双历法硬伤（异源审计 Claude/Gemini 产出）"
+        },
+        {
+          "slot": "adversarial-xai",
+          "family": "xai",
+          "dispatch": "delegate_task",
+          "target": {
+            "providerInstanceId": "grok",
+            "driverKind": "grok",
+            "model": "grok-4.7",
+            "options": { "reasoningEffort": "xhigh" }
+          },
+          "use_when": "✅ 实测通过：结合一手版本考据挑战二手定见，核查引文与译名失真"
+        },
+        {
+          "slot": "adversarial-deepseek",
+          "family": "deepseek",
+          "dispatch": "opencode_subagent",
+          "target": {
+            "providerInstanceId": "opencode",
+            "driverKind": "opencode",
+            "model": "deepseek/deepseek-v4-pro",
+            "options": { "variant": "max" }
+          },
+          "use_when": "✅ 实测通过：OpenCode 只读围栏内审查马列原著与党内路线论战逻辑链条"
+        }
+      ]
+    }
+  }
+}

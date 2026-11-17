@@ -1,0 +1,15 @@
+# Python & 虚拟环境
+.venv/
+__pycache__/
+*.pyc
+
+# 文献投递箱中的大体积原始电子书二进制文件（4GB+，不入 Git 库；目录清单由 sources/inbox_inventory.jsonl 追踪）
+inbox/*
+!inbox/README.md
+
+# 浏览器未完成下载与系统临时文件
+*.crdownload
+*.part
+*.tmp
+.DS_Store
+Thumbs.db
