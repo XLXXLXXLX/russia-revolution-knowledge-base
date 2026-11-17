@@ -1,0 +1,57 @@
+# 俄国革命多语种译名、革命化名与机构缩写消歧表
+# 供 graph-curator 与 scripts/kb.py 统一标准 ID，防止同一历史对象裂变为多张孤立卡片
+
+entities:
+  ORG-narodnaya-volya:
+    canonical_zh: "民意党"
+    ru: "Народная воля"
+    en: "Narodnaya Volya / People's Will"
+    aliases: ["人民意志党", "民意社"]
+
+  ORG-chernyi-peredel:
+    canonical_zh: "土地平分社"
+    ru: "Чёрный передел"
+    en: "Black Repartition"
+    aliases: ["黑土重分派", "土地重分社"]
+
+  PER-lenin:
+    canonical_zh: "弗拉基米尔·列宁"
+    ru: "Владимир Ильич Ульянов (Ленин)"
+    en: "Vladimir Ilyich Lenin"
+    aliases: ["乌里扬诺夫", "伊里奇", "老头子 (Старик)", "弗雷 (Фрей)", "尼·列宁", "图林 (К. Тулин)"]
+
+  PER-trotsky:
+    canonical_zh: "列夫·托洛茨基"
+    ru: "Лев Давидович Троцкий (Бронштейн)"
+    en: "Leon Trotsky"
+    aliases: ["勃朗施坦", "笔杆子 (Перо)", "安季德·奥托 (Антид Ото)"]
+
+  PER-stalin:
+    canonical_zh: "约瑟夫·斯大林"
+    ru: "Иосиф Виссарионович Сталин (Джугашвили)"
+    en: "Joseph Stalin"
+    aliases: ["朱加什维利", "科巴 (Коба)", "伊万诺维奇"]
+
+  PER-bukharin:
+    canonical_zh: "尼古拉·布哈林"
+    ru: "Николай Иванович Бухарин"
+    en: "Nikolai Ivanovich Bukharin"
+    aliases: ["布哈林", "Бухарчик"]
+
+  PER-preobrazhensky:
+    canonical_zh: "叶夫根尼·普列奥布拉任斯基"
+    ru: "Евгений Алексеевич Преображенский"
+    en: "Yevgeni Preobrazhensky"
+    aliases: ["普列奥布拉任斯基"]
+
+  POL-nep:
+    canonical_zh: "新经济政策"
+    ru: "Новая экономическая политика (НЭП)"
+    en: "New Economic Policy (NEP)"
+    aliases: ["НЭП", "NEP", "新经济政策时期"]
+
+  CON-smychka:
+    canonical_zh: "工农结合（工农联盟）"
+    ru: "Смычка"
+    en: "Smychka (Worker-Peasant Alliance / Link)"
+    aliases: ["工农经济结合", "城乡结合", "Смычка города и деревни"]
