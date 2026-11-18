@@ -6,25 +6,31 @@
 
 ---
 
-## 一、角色分工与跨 Provider 多模型分派准则（Orchestration Roster）
+## 一、角色分工与三层预算/复杂度模型调度准则（Orchestration Roster）
 
-本工作区同时接入 T3 Code 当前启用的 **5 大模型 Provider**（`codex`、`cursor`、`grok`、`antigravity_2`、`opencode`），机器可读绑定表位于 `config/agent_models.json`，完整盘点见 `docs/MODEL_ROUTING.md`。
+本工作区严格执行 **“订阅额度优先 → 极复杂任务动用王牌 → 额度耗尽降级 OpenCode”** 的三层算力策略（配置见 `config/agent_models.json`，详参 `docs/MODEL_ROUTING.md`）：
 
-| Agent ID | 角色名称 | 绑定的跨 Provider 可用模型池（主力 → 专长备选） | 写目录边界 |
-| :--- | :--- | :--- | :--- |
-| `source-extractor` | **原文提取与规整官** | ① `codex`: `gpt-6-luna`<br>② `opencode`: `google/gemini-4-argon#high`<br>③ `opencode`: `deepseek/deepseek-flash#high`<br>④ `opencode`: `opencode/nemotron-3.5-super-vl-free#high` | `sources/*`, `inbox/*`, `BIBLIOGRAPHY_WISHLIST.md`, `scripts/*` |
-| `close-reader` | **全文精读与论断提炼官**<br>*(禁 grep/shell/web)* | ① `antigravity_2`: `claude-opus-5-5`<br>② `opencode`: `google/gemini-4-hydrogen#high` (及 `antigravity_2` 同款)<br>③ `codex`: `gpt-6.1-sol`<br>④ `opencode`: `deepseek/deepseek-v4-pro#high`<br>⑤ `cursor`: `composer-2.5` / `grok-4.7` (500k) | `reading-notes/*`, `historiography/claims/*` |
-| `web-scout` | **外网史料与学术侦察官** | ① `grok`: `grok-4.7`<br>② `grok`: `grok-4.7-build-fast`<br>③ `antigravity_2`: `claude-sonnet-5-5`<br>④ `opencode`: `google/gemini-4-carbon#high` | `sources/web-archive/*`, `sources/WEB_REPOSITORIES.md`, `reading-notes/web-briefs/*`, `BIBLIOGRAPHY_WISHLIST.md` |
-| `chronicle-weaver` | **多尺度编年史官** | ① `codex`: `gpt-6.1-sol`<br>② `codex`: `gpt-6-astra`<br>③ `opencode`: `deepseek/deepseek-v4-pro#high`<br>④ `antigravity_2`: `claude-sonnet-5-5` | `timeline/*`, `cards/events/*` |
-| `graph-curator` | **知识图谱与卡片策展官** | ① `antigravity_2`: `claude-sonnet-5-5`<br>② `codex`: `gpt-6.1-terra`<br>③ `opencode`: `google/gemini-4-carbon#high`<br>④ `antigravity_2`: `claude-opus-5-5` | `cards/*`, `graph/*`, `historiography/debates/*`, `historiography/scholars/*`, `glossary/*` |
-| `dialectic-auditor` | **史学史对勘与审计官**<br>*(纯只读异源交叉审计)* | ① `antigravity_2`: `claude-opus-5-5`<br>② `codex`: `gpt-6.1-sol` (`xhigh`)<br>③ `grok`: `grok-4.7` (`xhigh`)<br>④ `opencode`: `deepseek/deepseek-v4-pro#max` | `audits/*` |
+1. **🟢 第一顺位（日常默认 `--tier subscription`）**：优先消耗 **`codex`（GPT 订阅）**、**`grok`（Grok 订阅）**、**`antigravity_2`（Antigravity 订阅）** 中的常规模型（`gpt-6.1-sol/terra`、`gpt-6-luna`、`grok-4.7/fast`、`claude-sonnet-5-5`、`gemini-4-hydrogen/argon`）。**严禁将 `gpt-6-astra` 与 `antigravity_2/claude-opus-5-5`（稀缺少量额度）消耗在普通日常任务上！**
+2. **🔴 尖峰攻坚（额度未耗尽但任务极为复杂 `--tier apex`）**：仅在攻克极艰深理论原著、多源冲突的逐时风暴眼考证、核心概念系谱或枢纽大卡终审时，动用 **`codex/gpt-6-astra`**、**`antigravity_2/claude-opus-5-5`（稀缺）** 或 **`opencode/google/gemini-4-carbon#high`**。
+3. **🟡 额度耗尽兜底（切换至 `opencode`）**：
+   - **简单任务（`--tier fallback-simple`）**：统一用 **`opencode` / `deepseek/deepseek-flash#high`（`ds4.1f`）**；
+   - **复杂任务（`--tier fallback-complex`）**：优先用 **`opencode` / `google/gemini-4-argon#high`**，极高难度时再升至 **`google/gemini-4-carbon#high`**。
+
+| Agent ID | 角色名称 | 🟢 日常订阅主力 (`subscription`) | 🔴 极复杂攻坚 (`apex`) | 🟡 额度耗尽兜底 (`fallback`) | 写目录边界 |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| `source-extractor` | **原文提取与规整官** | `codex/gpt-6-luna`<br>`antigravity_2/gemini-4-argon` | `codex/gpt-6-astra` | 简：`ds4.1f`<br>繁：`gemini-4-argon` | `sources/*`, `inbox/*`, `BIBLIOGRAPHY_WISHLIST.md`, `scripts/*` |
+| `close-reader` | **全文精读与论断官**<br>*(禁 grep/shell/web)* | `antigravity_2/claude-sonnet-5-5`<br>`antigravity_2/gemini-4-hydrogen`<br>`codex/gpt-6.1-sol` | `antigravity_2/claude-opus-5-5`<br>`codex/gpt-6-astra`<br>`opencode/gemini-4-carbon` | 简：`ds4.1f`<br>繁：`gemini-4-argon` *(至 `carbon`)* | `reading-notes/*`, `historiography/claims/*` |
+| `web-scout` | **外网史料侦察官** | `grok/grok-4.7` & `build-fast`<br>`antigravity_2/claude-sonnet-5-5` | `opencode/gemini-4-carbon`<br>`codex/gpt-6-astra` | 简：`ds4.1f`<br>繁：`gemini-4-argon` *(至 `carbon`)* | `sources/web-archive/*`, `sources/WEB_REPOSITORIES.md`, `reading-notes/web-briefs/*`, `BIBLIOGRAPHY_WISHLIST.md` |
+| `chronicle-weaver` | **多尺度编年史官** | `codex/gpt-6.1-sol`<br>`antigravity_2/claude-sonnet-5-5` | `codex/gpt-6-astra` (`xhigh`)<br>`opencode/gemini-4-carbon` | 简：`ds4.1f`<br>繁：`gemini-4-argon` *(至 `carbon`)* | `timeline/*`, `cards/events/*` |
+| `graph-curator` | **图谱与卡片策展官** | `antigravity_2/claude-sonnet-5-5`<br>`codex/gpt-6.1-terra` | `antigravity_2/claude-opus-5-5`<br>`codex/gpt-6-astra`<br>`opencode/gemini-4-carbon` | 简：`ds4.1f`<br>繁：`gemini-4-argon` *(至 `carbon`)* | `cards/*`, `graph/*`, `historiography/debates/*`, `historiography/scholars/*`, `glossary/*` |
+| `dialectic-auditor` | **史学史对勘审计官**<br>*(异源交叉审计)* | `codex/gpt-6.1-sol` (`xhigh`)<br>`grok/grok-4.7` (`xhigh`)<br>`antigravity_2/claude-sonnet-5-5` | `antigravity_2/claude-opus-5-5`<br>`codex/gpt-6-astra` (`xhigh`)<br>`opencode/gemini-4-carbon` | 简：`ds4.1f`<br>繁：`gemini-4-argon` *(至 `carbon`)* | `audits/*` |
 
 ### 编排与跨模型调度铁律
-1. **双通道择优派发**：
-   - 派发至 **`codex` / `cursor` / `grok` / `antigravity_2`**（或指定跨驱动参数）时：先保证当前线程已调用过一次 `orchestrator_capabilities`，再用 `delegate_task` 传入 `config/agent_models.json` 中对应的 `target`，并在 `task` 中附带 `.opencode/agents/<role>.md` 的角色规约（可通过 `python scripts/kb.py delegate-prompt <role> --task "..."` 一键生成载荷）。
-   - 派发至 **`opencode`** 绑定模型时：可直接调用原生 `subagent` 工具，自动挂载 `.opencode/agents/<role>.md` 硬权限围栏。
-2. **异源模型交叉审计（Cross-Family Adversarial Audit）**：指派 `dialectic-auditor` 审计某张卡片或综述时，**必须选择与撰写该卡片的模型不同家族（Family）的模型**（如 Claude 撰写的卡片交由 GPT-6.1 或 Grok 4.7 审计），杜绝同源模型的思维定势与叙事盲区。
-3. **入库与阐释分离、并行无冲突**：新书进 `inbox/` 后先派 `source-extractor` 生成章节与 `toc.md`，再派 `close-reader` 整章精读，最后由 `chronicle-weaver` 与 `graph-curator` 并行织网；缺书随时登记至 `BIBLIOGRAPHY_WISHLIST.md`。
+1. **双通道派发与后置写边界验尸**：
+   - 优先通过 `delegate_task` 派发至 **`codex` / `grok` / `antigravity_2`** 订阅模型（可用 `python scripts/kb.py delegate-prompt <role> --tier subscription --task "..."` 生成含完整角色禁令的载荷），任务完成后用 `git status / git diff` 核验未越界写文件。
+   - 触发额度耗尽降级或需物理封锁 `grep/shell` 时，调用 `opencode` 对应槽位。
+2. **异源模型交叉审计（Cross-Family Adversarial Audit）**：指派 `dialectic-auditor` 时必须选用与主撰写模型不同家族（Family）的模型（日常在 GPT-6.1、Grok 4.7、Claude Sonnet 5.5 间交叉；核心大卡终审才动用 Opus / Astra / Carbon）。
+3. **入库与阐释分离、并行无冲突**：新书先派 `source-extractor` 拆解生成 `toc.md`，再派 `close-reader` 整章精读，最后由 `chronicle-weaver` 与 `graph-curator` 并行织网。
 
 ---
 

@@ -1,24 +1,38 @@
 {
   "updated_at": "2026-11-18",
   "verified_by_live_test": true,
-  "description": "经全量实测验证通过的 T3 Code 跨 Provider 模型绑定表（已剔除周额度受限与接口不兼容模型）",
-  "verified_working_models_count": 17,
-  "excluded_models_from_live_test": [
-    { "provider": "cursor", "model": "claude-opus-5-5", "reason": "Weekly usage quota restriction on Cursor (use antigravity_2/claude-opus-5-5 instead)" },
-    { "provider": "cursor", "model": "claude-sonnet-5-5", "reason": "Weekly usage quota restriction on Cursor (use antigravity_2/claude-sonnet-5-5 instead)" },
-    { "provider": "cursor", "model": "claude-fable-5-2", "reason": "Weekly usage quota restriction on Cursor" },
-    { "provider": "cursor", "model": "kimi-k3", "reason": "Weekly usage quota restriction on Cursor" },
-    { "provider": "cursor", "model": "glm-5p3", "reason": "Weekly usage quota restriction on Cursor" },
-    { "provider": "opencode", "model": "google/deep-research-max-preview-04-2026", "reason": "Google Interactions Agent endpoint, not a standard chat model field" }
-  ],
+  "description": "按订阅优先级、任务复杂度与额度耗尽降级策略编排的三层跨 Provider 模型路由表",
+  "routing_policy": {
+    "1_subscription_workhorse": {
+      "summary": "第一顺位（日常默认）：优先使用 codex (GPT)、grok、antigravity_2 三个订阅池中的常规模型。",
+      "protected_scarce_models": [
+        "codex/gpt-6-astra (留作极复杂任务)",
+        "antigravity_2/claude-opus-5-5 (订阅内少量稀缺额度，严禁日常滥用)"
+      ]
+    },
+    "2_apex_ultra_complex": {
+      "summary": "尖峰攻坚（订阅未耗尽，但任务极为复杂时启用）：",
+      "models": [
+        "codex/gpt-6-astra",
+        "antigravity_2/claude-opus-5-5 (少量稀缺配额)",
+        "opencode/google/gemini-4-carbon (Gemini API 高阶模型)"
+      ]
+    },
+    "3_quota_exhausted_fallback": {
+      "summary": "降级兜底（当 GPT / Grok / Antigravity 订阅额度耗尽时切换至 OpenCode）：",
+      "simple_tasks": "opencode/deepseek/deepseek-flash#high (即 DeepSeek V4.1 Flash / ds4.1f)",
+      "complex_tasks": "opencode/google/gemini-4-argon#high (极高难度再升级至 google/gemini-4-carbon#high)"
+    }
+  },
   "agents": {
     "source-extractor": {
       "title": "原文提取与规整官",
       "t3_role": "implementation",
-      "opencode_native_model": "google/gemini-4-argon#high",
+      "opencode_native_model": "deepseek/deepseek-flash#high",
       "bindings": [
         {
-          "slot": "primary-script",
+          "slot": "sub-primary",
+          "tier": "subscription",
           "family": "openai",
           "dispatch": "delegate_task",
           "target": {
@@ -27,187 +41,24 @@
             "model": "gpt-6-luna",
             "options": { "reasoningEffort": "medium" }
           },
-          "use_when": "✅ 实测通过：运行 Python 脚本拆解复杂 PDF/EPUB、分章切片与生成 toc.md"
+          "use_when": "【日常订阅主力】编写/运行 Python 脚本拆解 PDF/EPUB、植入页码锚点与生成 toc.md"
         },
         {
-          "slot": "multimodal-pdf-verify",
+          "slot": "sub-pdf-layout",
+          "tier": "subscription",
           "family": "google",
-          "dispatch": "opencode_subagent",
-          "target": {
-            "providerInstanceId": "opencode",
-            "driverKind": "opencode",
-            "model": "google/gemini-4-argon",
-            "options": { "variant": "high" }
-          },
-          "use_when": "✅ 实测通过：直读多语种（俄/英/中）PDF 扉页、版权页与扫描版面核验"
-        },
-        {
-          "slot": "fast-batch",
-          "family": "deepseek",
-          "dispatch": "opencode_subagent",
-          "target": {
-            "providerInstanceId": "opencode",
-            "driverKind": "opencode",
-            "model": "deepseek/deepseek-flash",
-            "options": { "variant": "high" }
-          },
-          "use_when": "✅ 实测通过：大批量文本/EPUB 章节规整与快速摘要分拣"
-        },
-        {
-          "slot": "vl-metadata-free",
-          "family": "nvidia-vl",
-          "dispatch": "opencode_subagent",
-          "target": {
-            "providerInstanceId": "opencode",
-            "driverKind": "opencode",
-            "model": "opencode/nemotron-3.5-super-vl-free",
-            "options": { "variant": "high" }
-          },
-          "use_when": "✅ 实测通过：轻量级 YAML 元数据提取与视觉图表辅助识别"
-        }
-      ]
-    },
-    "close-reader": {
-      "title": "全文精读与论断提炼官",
-      "t3_role": "research",
-      "opencode_native_model": "google/gemini-4-hydrogen#high",
-      "bindings": [
-        {
-          "slot": "primary-deep-humanities",
-          "family": "anthropic",
           "dispatch": "delegate_task",
           "target": {
             "providerInstanceId": "antigravity_2",
             "driverKind": "antigravity",
-            "model": "claude-opus-5-5",
+            "model": "gemini-4-argon",
             "options": { "thinking_level": "high" }
           },
-          "use_when": "✅ 实测通过：高密度史学专著、党内论战反讽与思想史文本深度整章精读"
+          "use_when": "【日常订阅主力】多语种（俄/英/中）PDF 扉页、版权页与扫描版面核验（轻量快筛亦可用 antigravity_2/gemini-3.8-flash）"
         },
         {
-          "slot": "primary-strict-sandbox",
-          "family": "google",
-          "dispatch": "opencode_subagent",
-          "target": {
-            "providerInstanceId": "opencode",
-            "driverKind": "opencode",
-            "model": "google/gemini-4-hydrogen",
-            "options": { "variant": "high" }
-          },
-          "use_when": "✅ 实测通过：OpenCode 禁 grep 硬围栏下俄/英/中长章顺读（亦可切 antigravity_2/gemini-4-hydrogen）"
-        },
-        {
-          "slot": "quantitative-econ-history",
-          "family": "openai",
-          "dispatch": "delegate_task",
-          "target": {
-            "providerInstanceId": "codex",
-            "driverKind": "codex",
-            "model": "gpt-6.1-sol",
-            "options": { "reasoningEffort": "high" }
-          },
-          "use_when": "✅ 实测通过：精读含统计序列、价格机制与严密因果链的经济史与政治史专著"
-        },
-        {
-          "slot": "zh-marxist-theory",
-          "family": "deepseek",
-          "dispatch": "opencode_subagent",
-          "target": {
-            "providerInstanceId": "opencode",
-            "driverKind": "opencode",
-            "model": "deepseek/deepseek-v4-pro",
-            "options": { "variant": "high" }
-          },
-          "use_when": "✅ 实测通过：中文马列译本、路线论战与多流派理论辨析精读"
-        },
-        {
-          "slot": "fast-close-read",
-          "family": "cursor-native",
-          "dispatch": "delegate_task",
-          "target": {
-            "providerInstanceId": "cursor",
-            "driverKind": "cursor",
-            "model": "composer-2.5",
-            "options": { "fastMode": true }
-          },
-          "use_when": "✅ 实测通过：前言/导论/短篇论文高速结构化精读（辅以 cursor/grok-4.7 500k 窗口）"
-        }
-      ]
-    },
-    "web-scout": {
-      "title": "外网史料与学术侦察官",
-      "t3_role": "research",
-      "opencode_native_model": "google/gemini-4-carbon#high",
-      "bindings": [
-        {
-          "slot": "primary-open-web",
-          "family": "xai",
-          "dispatch": "delegate_task",
-          "target": {
-            "providerInstanceId": "grok",
-            "driverKind": "grok",
-            "model": "grok-4.7",
-            "options": { "reasoningEffort": "high" }
-          },
-          "use_when": "✅ 实测惊艳：跨俄/英/法/中多语种外网深挖冷门报刊底本（如 Inprecor、1000切钥文献）与版本源流考证"
-        },
-        {
-          "slot": "fast-web-check",
-          "family": "xai",
-          "dispatch": "delegate_task",
-          "target": {
-            "providerInstanceId": "grok",
-            "driverKind": "grok",
-            "model": "grok-4.7-build-fast",
-            "options": { "reasoningEffort": "high" }
-          },
-          "use_when": "✅ 实测惊艳：快速核校文献口授/发表日期、全集卷次页码与在线全文 URL"
-        },
-        {
-          "slot": "archival-capture",
-          "family": "anthropic",
-          "dispatch": "delegate_task",
-          "target": {
-            "providerInstanceId": "antigravity_2",
-            "driverKind": "antigravity",
-            "model": "claude-sonnet-5-5",
-            "options": { "thinking_level": "high" }
-          },
-          "use_when": "✅ 实测通过：抓取在线长篇一手档案并规范化入库至 sources/web-archive/"
-        },
-        {
-          "slot": "native-scout",
-          "family": "google",
-          "dispatch": "opencode_subagent",
-          "target": {
-            "providerInstanceId": "opencode",
-            "driverKind": "opencode",
-            "model": "google/gemini-4-carbon",
-            "options": { "variant": "high" }
-          },
-          "use_when": "✅ 实测通过：日常书目排摸、译名核查与 BIBLIOGRAPHY_WISHLIST.md 维护"
-        }
-      ]
-    },
-    "chronicle-weaver": {
-      "title": "多尺度编年史官",
-      "t3_role": "implementation",
-      "opencode_native_model": "deepseek/deepseek-v4-pro#high",
-      "bindings": [
-        {
-          "slot": "primary-precision-chronology",
-          "family": "openai",
-          "dispatch": "delegate_task",
-          "target": {
-            "providerInstanceId": "codex",
-            "driverKind": "codex",
-            "model": "gpt-6.1-sol",
-            "options": { "reasoningEffort": "high" }
-          },
-          "use_when": "✅ 实测通过：构建 L3 逐日/逐小时高密度危机时间线与复杂俄历/公历交叉核对"
-        },
-        {
-          "slot": "routine-chronology",
+          "slot": "apex-complex-archive",
+          "tier": "apex",
           "family": "openai",
           "dispatch": "delegate_task",
           "target": {
@@ -216,41 +67,44 @@
             "model": "gpt-6-astra",
             "options": { "reasoningEffort": "high" }
           },
-          "use_when": "✅ 实测通过：日常增量编年织入与历史人物/事件卡快速构建"
+          "use_when": "【极复杂任务升级】版式极度混乱的多卷档案汇编、复杂统计表与残损 OCR 结构重建"
         },
         {
-          "slot": "native-sandbox-ledger",
+          "slot": "fallback-simple",
+          "tier": "fallback-simple",
           "family": "deepseek",
           "dispatch": "opencode_subagent",
           "target": {
             "providerInstanceId": "opencode",
             "driverKind": "opencode",
-            "model": "deepseek/deepseek-v4-pro",
+            "model": "deepseek/deepseek-flash",
             "options": { "variant": "high" }
           },
-          "use_when": "✅ 实测通过：OpenCode 目录围栏内维护 events_ledger.jsonl 与事件卡片"
+          "use_when": "【额度耗尽·简单任务兜底】使用 ds4.1f 执行常规章节切分、目录生成与元数据提取"
         },
         {
-          "slot": "long-span-synthesis",
-          "family": "anthropic",
-          "dispatch": "delegate_task",
+          "slot": "fallback-complex",
+          "tier": "fallback-complex",
+          "family": "google",
+          "dispatch": "opencode_subagent",
           "target": {
-            "providerInstanceId": "antigravity_2",
-            "driverKind": "antigravity",
-            "model": "claude-sonnet-5-5",
-            "options": { "thinking_level": "high" }
+            "providerInstanceId": "opencode",
+            "driverKind": "opencode",
+            "model": "google/gemini-4-argon",
+            "options": { "variant": "high" }
           },
-          "use_when": "✅ 实测通过：跨长时段提炼 L1/L2 阶段脉络"
+          "use_when": "【额度耗尽·复杂任务兜底】使用 opencode 的 Gemini Argon 处理复杂多语种扫描 PDF"
         }
       ]
     },
-    "graph-curator": {
-      "title": "知识图谱与卡片策展官",
-      "t3_role": "design",
-      "opencode_native_model": "google/gemini-4-carbon#high",
+    "close-reader": {
+      "title": "全文精读与论断提炼官",
+      "t3_role": "research",
+      "opencode_native_model": "google/gemini-4-argon#high",
       "bindings": [
         {
-          "slot": "primary-curation",
+          "slot": "sub-primary-humanities",
+          "tier": "subscription",
           "family": "anthropic",
           "dispatch": "delegate_task",
           "target": {
@@ -259,22 +113,135 @@
             "model": "claude-sonnet-5-5",
             "options": { "thinking_level": "high" }
           },
-          "use_when": "✅ 实测通过：撰写高水准 [T1]/[T2]/[T3] 卡片、150字定性微摘要与多学派争鸣矩阵"
+          "use_when": "【日常订阅主力】整章连续精读史学专著、回忆录与党内路线论战文本"
         },
         {
-          "slot": "conceptual-and-graph-schema",
+          "slot": "sub-long-multilingual",
+          "tier": "subscription",
+          "family": "google",
+          "dispatch": "delegate_task",
+          "target": {
+            "providerInstanceId": "antigravity_2",
+            "driverKind": "antigravity",
+            "model": "gemini-4-hydrogen",
+            "options": { "thinking_level": "high" }
+          },
+          "use_when": "【日常订阅主力】俄/英/中超长章节连续顺读与一手文献引文核对"
+        },
+        {
+          "slot": "sub-econ-quantitative",
+          "tier": "subscription",
           "family": "openai",
           "dispatch": "delegate_task",
           "target": {
             "providerInstanceId": "codex",
             "driverKind": "codex",
-            "model": "gpt-6.1-terra",
+            "model": "gpt-6.1-sol",
             "options": { "reasoningEffort": "high" }
           },
-          "use_when": "✅ 实测通过：编纂 CON-* 概念系谱卡、重构 edges.jsonl 时效边与编译 1-Hop 平衡上下文包"
+          "use_when": "【日常订阅主力】精读含密集统计序列与价格模型的经济史专著（如卡尔/戴维斯/莱文/埃利希）"
         },
         {
-          "slot": "native-curator",
+          "slot": "apex-opus",
+          "tier": "apex",
+          "family": "anthropic",
+          "dispatch": "delegate_task",
+          "target": {
+            "providerInstanceId": "antigravity_2",
+            "driverKind": "antigravity",
+            "model": "claude-opus-5-5",
+            "options": { "thinking_level": "high" }
+          },
+          "use_when": "【极复杂攻坚·稀缺配额】仅用于思想史最艰深原著（文图里/瓦利茨基/《新经济学》）或充满反讽暗语的核心决战速记"
+        },
+        {
+          "slot": "apex-astra",
+          "tier": "apex",
+          "family": "openai",
+          "dispatch": "delegate_task",
+          "target": {
+            "providerInstanceId": "codex",
+            "driverKind": "codex",
+            "model": "gpt-6-astra",
+            "options": { "reasoningEffort": "high" }
+          },
+          "use_when": "【极复杂攻坚】跨多部专著理论推演链条严密拆解（或调用 opencode/google/gemini-4-carbon#high）"
+        },
+        {
+          "slot": "fallback-simple",
+          "tier": "fallback-simple",
+          "family": "deepseek",
+          "dispatch": "opencode_subagent",
+          "target": {
+            "providerInstanceId": "opencode",
+            "driverKind": "opencode",
+            "model": "deepseek/deepseek-flash",
+            "options": { "variant": "high" }
+          },
+          "use_when": "【额度耗尽·简单任务兜底】短篇导论、前言或书评提要阅读（ds4.1f）"
+        },
+        {
+          "slot": "fallback-complex",
+          "tier": "fallback-complex",
+          "family": "google",
+          "dispatch": "opencode_subagent",
+          "target": {
+            "providerInstanceId": "opencode",
+            "driverKind": "opencode",
+            "model": "google/gemini-4-argon",
+            "options": { "variant": "high" }
+          },
+          "use_when": "【额度耗尽·复杂任务兜底】整章深度精读与论断提炼（极难核心章可升级至 google/gemini-4-carbon#high）"
+        }
+      ]
+    },
+    "web-scout": {
+      "title": "外网史料与学术侦察官",
+      "t3_role": "research",
+      "opencode_native_model": "deepseek/deepseek-flash#high",
+      "bindings": [
+        {
+          "slot": "sub-primary-grok",
+          "tier": "subscription",
+          "family": "xai",
+          "dispatch": "delegate_task",
+          "target": {
+            "providerInstanceId": "grok",
+            "driverKind": "grok",
+            "model": "grok-4.7",
+            "options": { "reasoningEffort": "high" }
+          },
+          "use_when": "【日常订阅主力】跨俄/英/法/中外网深挖一手报刊底本、档案站与学术书评"
+        },
+        {
+          "slot": "sub-fast-grok",
+          "tier": "subscription",
+          "family": "xai",
+          "dispatch": "delegate_task",
+          "target": {
+            "providerInstanceId": "grok",
+            "driverKind": "grok",
+            "model": "grok-4.7-build-fast",
+            "options": { "reasoningEffort": "high" }
+          },
+          "use_when": "【日常订阅主力】快速核校写作/发表日期、全集卷次页码与在线 URL"
+        },
+        {
+          "slot": "sub-capture-sonnet",
+          "tier": "subscription",
+          "family": "anthropic",
+          "dispatch": "delegate_task",
+          "target": {
+            "providerInstanceId": "antigravity_2",
+            "driverKind": "antigravity",
+            "model": "claude-sonnet-5-5",
+            "options": { "thinking_level": "high" }
+          },
+          "use_when": "【日常订阅主力】抓取清洗长篇在线一手文献入库 sources/web-archive/"
+        },
+        {
+          "slot": "apex-deep-provenance",
+          "tier": "apex",
           "family": "google",
           "dispatch": "opencode_subagent",
           "target": {
@@ -283,10 +250,142 @@
             "model": "google/gemini-4-carbon",
             "options": { "variant": "high" }
           },
-          "use_when": "✅ 实测通过：原生 subagent 通道下译名/化名消歧与卡片快速织网"
+          "use_when": "【极复杂攻坚】多语种疑难伪书/异文考辨与复杂学术史谱系梳理（亦可调 codex/gpt-6-astra）"
         },
         {
-          "slot": "flagship-debate-synthesis",
+          "slot": "fallback-simple",
+          "tier": "fallback-simple",
+          "family": "deepseek",
+          "dispatch": "opencode_subagent",
+          "target": {
+            "providerInstanceId": "opencode",
+            "driverKind": "opencode",
+            "model": "deepseek/deepseek-flash",
+            "options": { "variant": "high" }
+          },
+          "use_when": "【额度耗尽·简单任务兜底】常规网页检索、链接核验与书单更新（ds4.1f）"
+        },
+        {
+          "slot": "fallback-complex",
+          "tier": "fallback-complex",
+          "family": "google",
+          "dispatch": "opencode_subagent",
+          "target": {
+            "providerInstanceId": "opencode",
+            "driverKind": "opencode",
+            "model": "google/gemini-4-argon",
+            "options": { "variant": "high" }
+          },
+          "use_when": "【额度耗尽·复杂任务兜底】跨语种长篇文献检索考证（极难升至 google/gemini-4-carbon#high）"
+        }
+      ]
+    },
+    "chronicle-weaver": {
+      "title": "多尺度编年史官",
+      "t3_role": "implementation",
+      "opencode_native_model": "google/gemini-4-argon#high",
+      "bindings": [
+        {
+          "slot": "sub-primary-sol",
+          "tier": "subscription",
+          "family": "openai",
+          "dispatch": "delegate_task",
+          "target": {
+            "providerInstanceId": "codex",
+            "driverKind": "codex",
+            "model": "gpt-6.1-sol",
+            "options": { "reasoningEffort": "high" }
+          },
+          "use_when": "【日常订阅主力】L1/L2/常规L3双历法时间线编织、俄历/公历换算核对与 events_ledger.jsonl 维护"
+        },
+        {
+          "slot": "sub-synthesis-sonnet",
+          "tier": "subscription",
+          "family": "anthropic",
+          "dispatch": "delegate_task",
+          "target": {
+            "providerInstanceId": "antigravity_2",
+            "driverKind": "antigravity",
+            "model": "claude-sonnet-5-5",
+            "options": { "thinking_level": "high" }
+          },
+          "use_when": "【日常订阅主力】事件卡片撰写与长时段阶段脉络聚合"
+        },
+        {
+          "slot": "apex-micro-chronology",
+          "tier": "apex",
+          "family": "openai",
+          "dispatch": "delegate_task",
+          "target": {
+            "providerInstanceId": "codex",
+            "driverKind": "codex",
+            "model": "gpt-6-astra",
+            "options": { "reasoningEffort": "xhigh" }
+          },
+          "use_when": "【极复杂攻坚】多份冲突史料下的逐日/逐小时风暴眼对表（如1917二月/十月、1929四月全会；备选 opencode/google/gemini-4-carbon#high）"
+        },
+        {
+          "slot": "fallback-simple",
+          "tier": "fallback-simple",
+          "family": "deepseek",
+          "dispatch": "opencode_subagent",
+          "target": {
+            "providerInstanceId": "opencode",
+            "driverKind": "opencode",
+            "model": "deepseek/deepseek-flash",
+            "options": { "variant": "high" }
+          },
+          "use_when": "【额度耗尽·简单任务兜底】单条明确日期事件入账与格式核验（ds4.1f）"
+        },
+        {
+          "slot": "fallback-complex",
+          "tier": "fallback-complex",
+          "family": "google",
+          "dispatch": "opencode_subagent",
+          "target": {
+            "providerInstanceId": "opencode",
+            "driverKind": "opencode",
+            "model": "google/gemini-4-argon",
+            "options": { "variant": "high" }
+          },
+          "use_when": "【额度耗尽·复杂任务兜底】多源编年整合与双历法考辨（极难升至 google/gemini-4-carbon#high）"
+        }
+      ]
+    },
+    "graph-curator": {
+      "title": "知识图谱与卡片策展官",
+      "t3_role": "design",
+      "opencode_native_model": "google/gemini-4-argon#high",
+      "bindings": [
+        {
+          "slot": "sub-primary-sonnet",
+          "tier": "subscription",
+          "family": "anthropic",
+          "dispatch": "delegate_task",
+          "target": {
+            "providerInstanceId": "antigravity_2",
+            "driverKind": "antigravity",
+            "model": "claude-sonnet-5-5",
+            "options": { "thinking_level": "high" }
+          },
+          "use_when": "【日常订阅主力】撰写 [T1]/[T2]/[T3] 卡片、150字定性微摘要与常规 DEB-* 争鸣卡"
+        },
+        {
+          "slot": "sub-graph-terra",
+          "tier": "subscription",
+          "family": "openai",
+          "dispatch": "delegate_task",
+          "target": {
+            "providerInstanceId": "codex",
+            "driverKind": "codex",
+            "model": "gpt-6.1-terra",
+            "options": { "reasoningEffort": "high" }
+          },
+          "use_when": "【日常订阅主力】维护 edges.jsonl 时效关系边、译名消歧表与编译 1-Hop 平衡上下文包"
+        },
+        {
+          "slot": "apex-flagship-synthesis",
+          "tier": "apex",
           "family": "anthropic",
           "dispatch": "delegate_task",
           "target": {
@@ -295,30 +394,45 @@
             "model": "claude-opus-5-5",
             "options": { "thinking_level": "high" }
           },
-          "use_when": "✅ 实测通过：重大史学公案 DEB-* 深度综合与跨时期结构重组"
+          "use_when": "【极复杂攻坚·稀缺配额】横跨近七十年的核心概念系谱卡（CON-*）与最重大史学公案顶层架构（同级王牌: codex/gpt-6-astra、opencode/google/gemini-4-carbon#high）"
+        },
+        {
+          "slot": "fallback-simple",
+          "tier": "fallback-simple",
+          "family": "deepseek",
+          "dispatch": "opencode_subagent",
+          "target": {
+            "providerInstanceId": "opencode",
+            "driverKind": "opencode",
+            "model": "deepseek/deepseek-flash",
+            "options": { "variant": "high" }
+          },
+          "use_when": "【额度耗尽·简单任务兜底】译名补充、简单边表更新与 pack 批量重编（ds4.1f）"
+        },
+        {
+          "slot": "fallback-complex",
+          "tier": "fallback-complex",
+          "family": "google",
+          "dispatch": "opencode_subagent",
+          "target": {
+            "providerInstanceId": "opencode",
+            "driverKind": "opencode",
+            "model": "google/gemini-4-argon",
+            "options": { "variant": "high" }
+          },
+          "use_when": "【额度耗尽·复杂任务兜底】深度人物/组织/争鸣卡编纂（极难升至 google/gemini-4-carbon#high）"
         }
       ]
     },
     "dialectic-auditor": {
       "title": "史学史对勘与反偏见审计官",
       "t3_role": "review",
-      "opencode_native_model": "deepseek/deepseek-v4-pro#max",
-      "cross_family_rule": "异源模型交叉审计铁律：审计某卡片/综述时，必须选用与主撰写 Agent 不同模型家族（family）的实测可用模型！",
+      "opencode_native_model": "google/gemini-4-argon#high",
+      "cross_family_rule": "异源交叉审计 + 配额分级：日常用订阅池中的异源模型交叉挑刺；仅在核心枢纽卡终审时动用 Opus / Astra / Carbon 王牌！",
       "bindings": [
         {
-          "slot": "adversarial-anthropic",
-          "family": "anthropic",
-          "dispatch": "delegate_task",
-          "target": {
-            "providerInstanceId": "antigravity_2",
-            "driverKind": "antigravity",
-            "model": "claude-opus-5-5",
-            "options": { "thinking_level": "high" }
-          },
-          "use_when": "✅ 实测极惊艳：揪出头衔错置、断章取义、年代矛盾、目的论倾向与史学流派混同"
-        },
-        {
-          "slot": "adversarial-openai",
+          "slot": "sub-audit-openai",
+          "tier": "subscription",
           "family": "openai",
           "dispatch": "delegate_task",
           "target": {
@@ -327,10 +441,11 @@
             "model": "gpt-6.1-sol",
             "options": { "reasoningEffort": "xhigh" }
           },
-          "use_when": "✅ 实测通过：严查因果跳跃、统计口径陷阱与双历法硬伤（异源审计 Claude/Gemini 产出）"
+          "use_when": "【日常订阅主力】异源审计 Claude/Gemini 撰写的卡片，严查逻辑跳跃、统计口径与历法硬伤"
         },
         {
-          "slot": "adversarial-xai",
+          "slot": "sub-audit-grok",
+          "tier": "subscription",
           "family": "xai",
           "dispatch": "delegate_task",
           "target": {
@@ -339,19 +454,59 @@
             "model": "grok-4.7",
             "options": { "reasoningEffort": "xhigh" }
           },
-          "use_when": "✅ 实测通过：结合一手版本考据挑战二手定见，核查引文与译名失真"
+          "use_when": "【日常订阅主力】异源挑战主流定见，核查引文底本与边缘派别盲区"
         },
         {
-          "slot": "adversarial-deepseek",
+          "slot": "sub-audit-sonnet",
+          "tier": "subscription",
+          "family": "anthropic",
+          "dispatch": "delegate_task",
+          "target": {
+            "providerInstanceId": "antigravity_2",
+            "driverKind": "antigravity",
+            "model": "claude-sonnet-5-5",
+            "options": { "thinking_level": "high" }
+          },
+          "use_when": "【日常订阅主力】异源审计 GPT/Grok 撰写的卡片，审查目的论倾向与概念时代错置"
+        },
+        {
+          "slot": "apex-audit-opus",
+          "tier": "apex",
+          "family": "anthropic",
+          "dispatch": "delegate_task",
+          "target": {
+            "providerInstanceId": "antigravity_2",
+            "driverKind": "antigravity",
+            "model": "claude-opus-5-5",
+            "options": { "thinking_level": "high" }
+          },
+          "use_when": "【极复杂终审·稀缺配额】对知识库最核心的枢纽人物/路线大公案进行里程碑级终审（异源同级王牌: codex/gpt-6-astra、opencode/google/gemini-4-carbon#high）"
+        },
+        {
+          "slot": "fallback-simple",
+          "tier": "fallback-simple",
           "family": "deepseek",
           "dispatch": "opencode_subagent",
           "target": {
             "providerInstanceId": "opencode",
             "driverKind": "opencode",
-            "model": "deepseek/deepseek-v4-pro",
-            "options": { "variant": "max" }
+            "model": "deepseek/deepseek-flash",
+            "options": { "variant": "high" }
           },
-          "use_when": "✅ 实测通过：OpenCode 只读围栏内审查马列原著与党内路线论战逻辑链条"
+          "use_when": "【额度耗尽·简单任务兜底】格式完整性、双历法标注与基础硬伤初筛（ds4.1f）"
+        },
+        {
+          "slot": "fallback-complex",
+          "tier": "fallback-complex",
+          "family": "google",
+          "dispatch": "opencode_subagent",
+          "target": {
+            "providerInstanceId": "opencode",
+            "driverKind": "opencode",
+            "model": "google/gemini-4-argon",
+            "options": { "variant": "high" }
+          },
+          "use_when": "【额度耗尽·复杂任务兜底】深度史学流派对勘审计（极难核心卡终审升至 google/gemini-4-carbon#high）"
         }
       ]
     }

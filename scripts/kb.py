@@ -564,17 +564,20 @@ def cmd_models(args: argparse.Namespace) -> int:
     else:
         targets = agents_cfg
 
-    print("# Agent 跨 Provider 可用模型绑定表\n")
+    print("# Agent 三层预算与复杂度模型绑定表\n")
     for role_id, info in targets.items():
-        print(f"## `{role_id}` — {info.get('title')} (OpenCode 默认: `{info.get('opencode_native_model')}`)")
+        print(f"## `{role_id}` — {info.get('title')} (OpenCode 兜底默认: `{info.get('opencode_native_model')}`)")
         if info.get("cross_family_rule"):
             print(f"> 💡 {info['cross_family_rule']}")
         for idx, b in enumerate(info.get("bindings", [])):
+            if args.tier and b.get("tier") != args.tier:
+                continue
             t = b["target"]
             opts = json.dumps(t.get("options", {}), ensure_ascii=False)
+            tier_tag = b.get("tier", "subscription")
             print(
-                f"  [{idx}] `{b['slot']}` ({b['family']}) -> provider=`{t['providerInstanceId']}`, "
-                f"model=`{t['model']}`, options=`{opts}`, via=`{b['dispatch']}`"
+                f"  [{idx}] ({tier_tag}) `{b['slot']}` [{b['family']}] -> provider=`{t['providerInstanceId']}`, "
+                f"model=`{t['model']}`, options=`{opts}`"
             )
             print(f"      适用场景: {b['use_when']}")
         print()
@@ -591,10 +594,16 @@ def cmd_delegate_prompt(args: argparse.Namespace) -> int:
     info = agents_cfg[args.role]
     bindings = info.get("bindings", [])
     chosen = None
-    for idx, b in enumerate(bindings):
-        if args.slot in (str(idx), b["slot"]):
-            chosen = b
-            break
+    if args.slot:
+        for idx, b in enumerate(bindings):
+            if args.slot in (str(idx), b["slot"]):
+                chosen = b
+                break
+    if chosen is None and args.tier:
+        for b in bindings:
+            if b.get("tier") == args.tier:
+                chosen = b
+                break
     if chosen is None:
         chosen = bindings[0]
 
@@ -699,11 +708,23 @@ def build_parser() -> argparse.ArgumentParser:
 
     p_models = sub.add_parser("models", help="查看各 Agent 绑定的跨 Provider 模型池")
     p_models.add_argument("--role", default=None, help="按角色 ID 过滤，如 close-reader")
+    p_models.add_argument(
+        "--tier",
+        default=None,
+        choices=["subscription", "apex", "fallback-simple", "fallback-complex"],
+        help="按预算/复杂度层级过滤",
+    )
     p_models.set_defaults(func=cmd_models)
 
     p_dp = sub.add_parser("delegate-prompt", help="生成跨 Provider T3 delegate_task 标准载荷")
     p_dp.add_argument("role", help="角色 ID，如 close-reader / dialectic-auditor")
-    p_dp.add_argument("--slot", default="0", help="模型槽位名或序号，默认 0 (主力槽位)")
+    p_dp.add_argument("--slot", default=None, help="指定具体模型槽位名或序号")
+    p_dp.add_argument(
+        "--tier",
+        default="subscription",
+        choices=["subscription", "apex", "fallback-simple", "fallback-complex"],
+        help="预算层级，默认优先走 subscription 订阅池",
+    )
     p_dp.add_argument("--task", required=True, help="派发给该子 Agent 的具体任务说明")
     p_dp.set_defaults(func=cmd_delegate_prompt)
 

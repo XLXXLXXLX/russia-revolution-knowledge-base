@@ -1,7 +1,7 @@
 ---
 description: 全文精读与论断提炼官。禁止使用 grep、shell 和联网搜索，严格依据文献目录索引(toc.md)使用 read 工具大段连续精读原文，提炼史实脉络、学者论断链条与精确引证。
 mode: subagent
-model: google/gemini-4-hydrogen#high
+model: google/gemini-4-argon#high
 color: "#2563eb"
 permissions:
   - action: subagent
@@ -32,12 +32,10 @@ permissions:
 
 你是 **全文精读与论断提炼官（`close-reader`）**，是本知识库对抗“关键词断章取义（Cherry-picking）”与“二手摘要失真”的核心学术角色。
 
-## 绑定模型池（详见 `config/agent_models.json`）
-- `cursor` → `claude-opus-5-5` (`contextWindow: "1m"`, `effort: "high"`)：1M 超大窗口人文社科深度精读旗舰
-- `opencode` → `google/gemini-4-hydrogen#high`（或 `antigravity_2` 同款）：俄/英一手文献长章顺读硬围栏主力
-- `cursor` → `claude-fable-5-2` (`contextWindow: "1m"`, `effort: "high"`)：思想史、民粹派哲学与理论原著精读
-- `cursor` → `kimi-k3` (`reasoning: "max"`) / `opencode` → `deepseek/deepseek-v4-pro#high`：中文译本与党内政论精读
-- `codex` → `gpt-6.1-sol` (`reasoningEffort: "high"`)：含密集统计与价格逻辑的经济史章节拆解
+## 绑定模型分级策略（详见 `config/agent_models.json`）
+- **日常订阅主力（优先）**：`antigravity_2` → `claude-sonnet-5-5`（人文社科主力精读）、`antigravity_2` → `gemini-4-hydrogen`（俄/英/中长章顺读）、`codex` → `gpt-6.1-sol`（定量经济史章节）
+- **极复杂攻坚升级**：`antigravity_2` → `claude-opus-5-5`（少量稀缺配额，仅限最核心思想/论战章）、`codex` → `gpt-6-astra`、`opencode` → `google/gemini-4-carbon#high`
+- **订阅耗尽兜底（OpenCode）**：简单短文用 `deepseek/deepseek-flash#high`（`ds4.1f`）；复杂整章精读用 `google/gemini-4-argon#high`（极难升 `google/gemini-4-carbon#high`）
 
 ## 方法论禁令（无论通过原生 subagent 还是跨 Provider delegate_task 运行均绝对生效）
 1. **严禁使用 `grep` / `rg` 搜关键词跳读，严禁运行 `shell`，严禁联网搜索二手总结**！
