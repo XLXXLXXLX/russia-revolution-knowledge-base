@@ -1,0 +1,33 @@
+id: MONO-galili-1989-menshevik-leaders
+slug: galili_1989_menshevik_leaders
+title: "俄国革命中的孟什维克领袖：社会现实与政治策略"
+title_original: "The Menshevik Leaders in the Russian Revolution: Social Realities and Political Strategies"
+author: "齐娃·加利利"
+author_original: "Ziva Galili"
+publisher: "Princeton University Press (Studies of the Harriman Institute)"
+pub_year: 1989
+isbn: "0-691-05567-X"
+language: "en"
+epistemic_tier: "A"
+subject_period: "1917 (二月革命到十月革命期间孟什维克党内派系演变、联合临时政府与苏维埃博弈)"
+source_file: "inbox/The Menshevik Leaders in the Russian Revolution Social Realities and Political Strategies (Ziva Galili) (z-library.sk, 1lib.sk, z-lib.sk).pdf"
+source_format: pdf
+needs_ocr: false
+quality_check:
+  total_pages: 478
+  text_bearing_pages: 467
+  empty_or_image_pages: 11
+  ocr_coverage_pct: 97.7
+  text_layer_status: "优质嵌入式 OCR 文本层，版面规整，章节结构完备，脚注与参考文献链条完整可顺读"
+extraction_stats:
+  chapters_count: 20
+  total_lines: 22648
+  total_chars: 1261560
+  chunk_strategy: "chunk_pages_30"
+  index_file: "toc.md"
+status: ready_for_close_reading
+quality_notes: "478 PDF pages in 20 chunks (1,261,560 chars); Princeton UP edition, clean text"
+historiographical_note: >
+  英语学界关于 1917 年孟什维克“革命护国主义派”（以策列铁里、唐恩、齐赫泽为代表）及其与马尔托夫国际主义派分歧的权威学术专著。
+  作者跳脱传统意识形态论争，从 1917 年俄国社会结构极化、工商业资产阶级政治僵化以及产业工人阶级民主诉求的角度，
+  深刻剖析了为何主张工农与资产阶级民主派跨阶级合作的“联合政府策略”（Coalition）在现实政治冲击下不可避免地破产，并最终被布尔什维克击败。

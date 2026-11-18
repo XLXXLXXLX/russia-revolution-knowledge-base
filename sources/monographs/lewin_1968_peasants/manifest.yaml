@@ -1,0 +1,32 @@
+id: MONO-lewin-1968-peasants
+title: 俄国农民与苏维埃政权：农业集体化研究
+title_original: "Russian Peasants and Soviet Power: A Study of Collectivization"
+title_french_original: "La Paysannerie et le Pouvoir Soviétique (Mouton, 1966)"
+author: 莫希·莱文
+author_original: Moshe Lewin
+translator: Irene Nove (with John Biggart)
+preface_by: Alec Nove
+publisher: George Allen & Unwin Ltd / Northwestern University Press
+pub_year: 1968
+edition: First English Edition (Evanston, 1968)
+loc_catalog: "67-31683"
+subject_period: "1925–1930 (重点: 1927–1929 粮食收购危机、十五大与右翼反对派决战)"
+source_file: "inbox/Russian Peasants and Soviet Power A Study of Collectivization (Moshe Lewin) (z-library.sk, 1lib.sk, z-lib.sk).pdf"
+source_format: pdf
+needs_ocr: false
+quality_check:
+  total_pages: 539
+  text_bearing_pages: 541
+  empty_or_image_pages: 1
+  ocr_coverage_pct: 99.8
+  text_layer_status: "高精度嵌入式文本层，全书目录与一级/二级书签结构完备，各页页码与正文完全对齐"
+extraction_stats:
+  chapters_count: 23
+  total_lines: 25837
+  total_chars: 1447057
+  chunk_strategy: "toc_bookmarks_with_subsplit"
+  index_file: "toc.md"
+status: ready_for_close_reading
+historiographical_note: >
+  社会史学派（Social History School）与经验农村社会学对 1920 年代末苏联农村危机、粮食收购体制和全盘集体化决策过程的开创性研究。
+  深入剖析了农村阶级分化假说（富农/中农/贫农）的政治虚构性，详细考证了 1928 年“非常措施”（乌拉尔-西伯利亚方法）如何瓦解新经济政策机制并压制布哈林集团。

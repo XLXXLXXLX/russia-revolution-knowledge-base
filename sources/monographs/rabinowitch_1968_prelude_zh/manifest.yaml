@@ -1,0 +1,30 @@
+slug: rabinowitch_1968_prelude_zh
+title: "革命的前奏：彼得格勒布尔什维克与1917年七月起义"
+title_original: "Prelude to Revolution: The Petrograd Bolsheviks and the July 1917 Uprising"
+author: "Alexander Rabinowitch (亚历山大·拉宾诺维奇)"
+translator_or_uploader: "一个普通的人（民译自校本）"
+year: 1968
+edition: "1991 Midland Book Edition 中译本（底本为 Indiana University Press 1968年初版 / 1991年 Midland 版，附作者 1991 年 1 月《米德兰版序言》）"
+publisher: "Indiana University Press (Bloomington and Indianapolis)"
+language: zh
+original_language: en
+source_tier: A
+category: monograph
+historiographical_school: "西方社会史与政党组织史修正派（打破冷战极权主义学派与斯大林主义正统派将1917年布尔什维克视为铁板一块的迷思，揭示中央委员会、彼得堡委员会与全俄军事组织三层机构的张力与分歧）"
+time_coverage: "1917-02 – 1917-07 (聚焦 1917年6月10日流产示威与7月3–5日 [O.S.] 七月事变)"
+calendar_note: "正文日期采用1917年俄国通行的俄历（儒略历 O.S.），换算公历需 +13 天。"
+source_file: "inbox/革命的前奏 彼得格勒布尔什维克与1917年七月起义 Prelude to Revolution The Petrograd Bolsheviks and the July 1917 Uprising (一个普通的人) (z-library.sk, 1lib.sk, z-lib.sk).pdf"
+extraction:
+  tool: "scripts/extract_book.py"
+  chunk_pages: 25
+  total_pdf_pages: 173
+  chapters_count: 13
+  total_lines: 6211
+  total_chars: 221014
+  toc_file: "toc.md"
+quality_notes:
+  text_layer: "原生数字排版 PDF，按一级书签完整切分为前页、米德兰版序言、序幕、正文第1–8章、选定书目与全书尾注（ch12_注释.md）。"
+  warnings:
+    - "本文件为网友（ID：一个普通的人）依据1991年印第安纳大学出版社 Midland 版翻译制作的中译本，非官方出版物。行文整体通顺，但部分俄文人名、地名与书名音译存在非标准译法（如将 Kronstadt 偶译作‘克隆斯塔特’或‘喀琅施塔得’混用，Marc Ferro 译作‘马考·费罗’）。"
+    - "在 `ch01_米德兰版序言.md` 和 `ch12_注释.md` 中，部分尾注编号在原译本排版时偶有省略或纯文本化，精读引证关键史料与引文时，建议结合 `ch11_选定书目.md` 与 `ch12_注释.md` 的英文/俄文原文献名核对。"
+    - "PDF 第 1、3、10 页为封面或插图页无文字层，第 4–8 页保留了历史照片的图注文字。"

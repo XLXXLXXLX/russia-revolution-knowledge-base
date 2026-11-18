@@ -1,0 +1,65 @@
+# 1-Hop 平衡上下文包：`PER-kerensky` (亚历山大·克伦斯基)
+
+> 本文件由 `python scripts/kb.py pack` 自动编译，旨在将失控的 `1+N` 随机读取压缩为**等权重、带时效边实质与史学盲区告警**的单次全景读取。
+
+## 0. 认知完备度与反偏斜仪表盘 (Epistemic & Skew Warnings)
+- **主卡路径**: `cards/people/PER-kerensky.md`
+- **完备度等级**: `draft`
+- **已覆盖视角**: `social-political-galili, archival-rabinowitch, dual-power-revision, liberal-totalitarian`
+- **待补齐视角**: `memoir-hagiography-kerensky`
+- **偏斜风险提示**:
+  - ⚠️ 主卡当前完备度为 `draft`，尚未达到多源交叉核实定稿状态。
+  - ⚠️ 主卡显式声明尚缺以下视角待补: `memoir-hagiography-kerensky`。
+
+## 1. 主卡核心层 ([T1] + [T2])
+## [T1] 60秒定性微摘要
+俄国杜马劳动派律师、1917年临时政府司法部长（3月起）、陆海军部长（5月起）与总理（俄历7月8日起至十月）。二月革命中率先筹建杜马军事委员会；6月发动加里西亚攻势失败，7月事变后接掌总理，8月底与科尔尼洛夫决裂；十月起义当日上午离京求援失败后长期流亡欧美。
+
+## [T2] 核心脉络、时效关系边表与史学争鸣光谱
+
+### 2.1 核心历史脉络
+- **劳动派议员与法庭演说家（1912–1917.02）**：第四届国家杜马劳动派（Trudovik）党团领袖与政治辩护律师（1917年春转挂社会革命党籍），以反宫廷演说赢得首都声望，自视为连接资产阶级自由派与苏维埃“革命民主派”的桥梁。
+- **二月接权与首任司法部长（1917.02–04）**：`1917-02-27 [O.S.] / 1917-03-12 [N.S.]` 在塔夫利达宫率先建立接待哗变部队的“革命参谋部”，扩编为国家杜马临时委员会军事委员会——时间上先于彼得格勒苏维埃军事委员会（`CLM-hasegawa-2018-duma-committee-revision`）。随后同时担任彼得格勒苏维埃副主席与首届临时政府司法部长（系内阁唯一社会主义者）；`1917-03-03 [O.S.] / 1917-03-16 [N.S.]` 与米留可夫等排挤罗将柯、宣布临时政府握有不受杜马监督的“全部完满权力”（`CLM-hasegawa-2018-dual-power-origins`）。
+- **陆海军部长、夏季攻势与接任总理（1917.05–07）**：`1917-05-05 [O.S.] / 1917-05-18 [N.S.]` 第一届联合内阁成立后转任陆海军部长；`1917-06-18 [O.S.] / 1917-07-01 [N.S.]` 在苏维埃多数派背书下发动加里西亚攻势，迅速溃败并引爆首都驻军抗调危机（`CLM-galili-1989-menshevik-worker-alienation`, `[pp. 312–320]`；`CLM-rabinowitch-1968-grassroots-soldier-sailor-radicalism`, PDF pp. 63–65, 80–84）。7月3–5日[O.S.]七月事变期间以陆海军部长身份从前线调兵入京镇压；`1917-07-07 [O.S.]` 李沃夫辞职后，于 `1917-07-08 [O.S.] / 1917-07-21 [N.S.]` 正式接任临时政府总理。
+- **科尔尼洛夫决裂与十月溃败（1917.08–1970）**：`1917-08-26/27 [O.S.]` 经休斯电报机对质宣布免除最高统帅科尔尼洛夫职务并自兼最高统帅，被迫借重苏维埃与赤卫队阻截第3骑兵军，致使个人权威在左右夹击中彻底空心化。`1917-10-25 [O.S.] / 1917-11-07 [N.S.]` 上午乘车离开彼得格勒赴北方前线求援（留守冬宫的阁员于次日凌晨被捕），率克拉斯诺夫哥萨克反扑普尔科沃高地失败后转入地下，1918年夏经摩尔曼斯克流亡西欧与美国。
+
+### 2.2 时效关系摘要边表（Typed & Temporalized Edges）
+| 关联节点 ID | 关系类型 | 有效时段 | 一句话关系实质摘要（防 N+1 盲跳） | 核心依据/争鸣 |
+| :--- | :--- | :--- | :--- | :--- |
+| `EVT-1917-02-february-revolution` | `military-organizer -> minister` | 1917-02至03 | 在杜马临时委员会一侧率先整编起义卫戍部队，架起二月政权转移的军事桥梁 | `CLM-hasegawa-2018-duma-committee-revision`, `CLM-sukhanov-1922-dual-power-pact` |
+| `PER-milyukov` | `cabinet-ally -> successor` | 1917-03至05 | 共同确立3月3日独裁全权内阁；米留可夫倒台后克伦斯基影响力上升 | `CLM-hasegawa-2018-dual-power-origins` |
+| `EVT-1917-10-october-revolution` | `ousted-premier` | 1917-10 | 冬宫之夜逃离，象征临时政府军事—政治动员的最终失败 | `CLM-pipes-1990-october-classic-coup`, `CLM-sukhanov-1922-october-walkout-tragedy` |
+| `ORG-mensheviks` | `coalition-partner` | 1917-05至07 | 与孟什维克护国派共担联合政府责任，六月攻势与七月镇压加深苏维埃与群众裂痕 | `CLM-galili-1989-menshevik-worker-alienation` |
+| `EVT-1918-01-constituent-assembly-dispersal` | `absent-rival` | 1918-01 | 布尔什维克在驱散立宪会议前夕仍宣传其回国阴谋（`CLM-rabinowitch-2007-constituent-assembly` 兼参 Pipes ch.21） | 见 `EVT-1918-01-constituent-assembly-dispersal` |
+
+### 2.3 史学争鸣光谱（Historiographical Spectrum）
+- **经验共识**：克伦斯基是1917年3–10月俄国实际上最有面孔的临时政府领袖；其夏季攻势与七月镇压直接恶化了前线与首都驻军情绪，为其在科尔尼洛夫与十月两次危机中的孤立埋下伏笔。
+- **主要解释分歧**：
+  - **[加利利苏维埃社会史 / Ziva Galili]** (`CLM-galili-1989-menshevik-worker-alienation`, `CLM-galili-1989-coalition-government-trap`)：从孟什维克视角揭示联合政府陷阱——克伦斯基时代的战争动员使社会主义部长站在五金工人与驻军的“客观对立面”，并非个人虚荣可单独解释。
+  - **[拉比诺维奇草根激进主义 / Alexander Rabinowitch]** (`CLM-rabinowitch-1968-grassroots-soldier-sailor-radicalism`)：七月骚乱首要动因是抽兵上前线与撤编威胁，克伦斯基政府象征士兵厌恶的一切；突显自下而上动力对“克伦斯基英雄—奸雄”传记叙事的修正。
+  - **[长谷川杜马—苏维埃三角框架 / Hasegawa]** (`CLM-hasegawa-2018-duma-committee-revision`, `CLM-hasegawa-2018-dual-power-origins`)：重评克伦斯基在杜马军事委员会中的先手角色，质疑将其仅塑造成苏维埃“自愿让权”被动主体的旧说。
+  - **[派普斯极权起源论 / Richard Pipes]** (`CLM-pipes-1990-october-classic-coup`)：把克伦斯基看成延续了沙皇缺失权威后无法制度化军队的“面子政府”，布尔什维克利用双重政权惯例完成经典政变；强调其误判与民意冷漠而非群众社会主义觉醒。
+  - **[苏汉诺夫亲历悲剧论 / N. N. Sukhanov]** (`CLM-sukhanov-1922-dual-power-pact`, `CLM-sukhanov-1922-october-walkout-tragedy`)：二月谈判中见克伦斯基沉默的旁观者；十月退场被他视为民主社会主义者自毁苏维埃阵地之痛。
+
+## 2. 一跳邻域等权重微摘要 (共 1 个关联节点，严防大卡霸占上下文)
+### 邻居节点: `EVT-1917-07-july-days`
+- **时效关系边** (`PER-kerensky` → `EVT-1917-07-july-days` | `suppressed-then-premier` | 有效时段: `1917-07 [O.S.]`): 六月攻势溃败引爆七月兵工武装示威后，调前线部队镇压并通缉列宁，旋即接替李沃夫出任临时政府总理。
+- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): `1917-07-03 [O.S.] / 07-16 [N.S.]` 至 `07-05 / 07-18` 彼得格勒武装群众危机。第一机枪团、喀琅施塔得水兵与普梯洛夫工人自发抗议六月攻势及内阁危机；分裂为中央、军事组织与彼得堡委员会的布尔什维克被动卷入，遭苏维埃护国派与临时政府调军镇压。
+
+## 3. 关联史学争鸣光谱 (Historiographical Debates)
+### `DEB-1917-october-coup-or-social-revolution`：十月革命：少数派政变还是社会革命？
+## [T1] 核心问题定义
+1917年十月彼得格勒的武装夺权，如何与工人、士兵及农民的社会革命联系起来？争议同时涉及夺权方式、支持的范围及政治合法性；城市苏维埃多数、全国选民多数和全国社会诉求不能互相替代。
+
+## [T2] 各学派立场对照矩阵
+
+**经验共识**：彼得格勒军事革命委员会组织武装行动，临时政府于1917-10-25 [O.S.] / 1917-11-07 [N.S.] 被推翻；同一时期苏维埃、军队、工厂和乡村的政治动员有不同节奏。第二次全俄苏维埃代表大会的组成与后续制宪会议选举反映不同选举机制和时点。
+
+| 取向与代表著作 | 解释及依据 | 争议与检验 |
+| :--- | :--- | :--- |
+| 少数派政变：Richard Pipes, *The Russian Revolution* | 强调列宁领导的组织利用国家崩解、武装力量和政治时机夺权，质疑以苏维埃多数等同全国民主授权。 | 注重夺权机制和强制，但被批评低估支持和平、土地及苏维埃权力的群众动员；武装行动的组织性本身不能证明社会支持不存在。 |
+| 社会史与开放性政党：Alexander Rabinowitch, *The Bolsheviks Come to Power*；S. A. Smith, *Red Petrograd*；Diane P. Koenker, *Moscow Workers and the 1917 Revolution* | 分别从彼得格勒政党与驻军、工厂政治及莫斯科工人研究基层激进化。Rabinowitch强调布党在1917年的地方主动性和内部争论及其与群众诉求的互动。 | 城市、行业、驻军与地方不能代表全部农民或全国；支持苏维埃权力、某项政策与支持单党统治也不是同一指标。三位作者的解释重点并不完全相同。 |
+| 托洛茨基的双重政权：Leon Trotsky, *The History of the Russian Revolution* | 将临时政府与苏维埃并存视为社会力量分裂的暂时均衡，并把十月解释为群众革命与有领导的起义结合。 | 是重要的一手参与者及事后政治史解释，不能将其自我辩护视为独立证据；需对照其他政党、地方与农村记录。 |
+
+- ⚠️ 引用了尚未创建的争鸣卡 `DEB-spontaneity-vs-conspiracy-july-1917`
+## 4. 关联时间线锚点 (共 0 条)

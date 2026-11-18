@@ -1,0 +1,121 @@
+# 1-Hop 平衡上下文包：`PER-pyatakov` (格奥尔基·皮达可夫)
+
+> 本文件由 `python scripts/kb.py pack` 自动编译，旨在将失控的 `1+N` 随机读取压缩为**等权重、带时效边实质与史学盲区告警**的单次全景读取。
+
+## 0. 认知完备度与反偏斜仪表盘 (Epistemic & Skew Warnings)
+- **主卡路径**: `cards/people/PER-pyatakov.md`
+- **完备度等级**: `multi-perspective`
+- **已覆盖视角**: `institutional-realist-carr, revisionist-lewin, post-soviet-archival-zhukov, trotskyist-biographical-deutscher`
+- **待补齐视角**: `ukrainian-national-historiography, 1930s-narkomtiazhprom-industrial-archives`
+- **偏斜风险提示**:
+  - ⚠️ 主卡显式声明尚缺以下视角待补: `ukrainian-national-historiography, 1930s-narkomtiazhprom-industrial-archives`。
+
+## 1. 主卡核心层 ([T1] + [T2])
+## [T1] 60秒定性微摘要
+乌克兰布尔什维克左派与苏维埃工业金融干才（1890–1937，本卡至1929年）。列宁《遗嘱》点名的六位核心领袖之一；1923年任最高国民经济委员会副主席起草盈利令引发剪刀差争论，联署《四十六人声明》并任联合反对派骨干；1928年率先脱离托洛茨基复职执掌国家银行，支持一五工业化冲刺。
+
+## [T2] 核心脉络、时效关系边表与史学争鸣光谱
+
+### 2.1 核心历史脉络
+- **基辅豪商家庭叛逆者与乌克兰布尔什维克左派（1890–1922）**：`1890-08-18`（俄历 `1890-08-06 [O.S.]`）生于基辅省切尔卡瑟糖厂主与工程师家庭；青年时由无政府主义转入俄国社会民主工党（1910年入布尔什维克）。一战流亡瑞士期间与布哈林、博什结成理论同盟，在民族问题上激烈反对列宁的“民族自决权”口号，主张无产阶级国际主义直接超越民族国家边界。1917年主持基辅布尔什维克委员会，1918年初加入反布列斯特和约的“左派共产主义者”集团（`ORG-left-communists-1918`），同年7月当选乌克兰共产党（布）首任中央书记并主导激进的乌克兰临时工农政府；1919年3月俄共（布）八大（`MTG-1919-03-8th-party-congress`）上再度挑战列宁民族自决纲领。内战后期转向经济与行政铁腕管理，主持顿巴斯煤炭工业恢复（1920–1921），1922年起任国家计划委员会副主席与外租借委员会主席。`1922-12-24/25` 列宁在口授《给代表大会的信》（即《列宁遗嘱》）中将其与布哈林并列为党内最杰出的两位青年领袖，肯定其“无疑是有坚强意志和杰出才能的人”，同时警示其“太热衷于行政手段和事情的行政方面，以致在严重的政治问题上不能指望他”（`CLM-lewin-1968-testament-intent`；`RN-W1-testament-and-cooperation`）。
+- **最高国民经济委员会副主席、1923“剪刀差”盈利令与《四十六人声明》（1923–1925）**：1923年任最高国民经济委员会（`INS-vsnkh-and-gosplan`）副主席，成为国营大工业利益的核心代言人。`1923-07` 由皮达可夫亲自起草最高国民经济委员会指令，将利润最大化确立为国营托拉斯的指导原则，客观上推高工业品垄断价格并促发1923年秋工农业比价悬殊的“剪刀差危机”（`EVT-1923-scissors-crisis`；`CLM-carr-1954-scissors-crisis-mechanics`）。当财政人民委员索科尔尼科夫于8月底单方面收缩国家银行信贷冲击国营工业时，皮达可夫于 `1923-09-19` 与主席李可夫联名呈递备忘录抗议现行体制令工业难以为继，旋即参与联署 `1923-10-15`《四十六人声明》，抨击中央缺乏有计划的工业领导与信贷混乱（`CLM-carr-1954-platform-of-46-economic-roots`），同年10月奉共产国际之命与拉狄克秘密赴德督导德国革命流产（`RN-W10-other-side-of-nep-and-zinoviev-arc`）。`1924-01` 在第十三次党代表会议上反驳李可夫“生产过剩论”，直指国家银行信贷骤缩引发流通瘫痪（`CLM-other-nep-1923-sokolnikov-monetary-discipline`）。捷尔任斯基接掌最高国民经济委员会后，皮达可夫留任副主席抓重工业扩建，但因主张提高工业积累在 `1926-07-20` 中央全会上被捷尔任斯基临终演讲痛斥为与加米涅夫一道把“面向农村”变成“拳头对着农村”（`CLM-stalin-war-1920-polish-war-lessons`）。
+- **联合反对派骨干、十五大除名与1928率先“投降”掌舵国家银行（1926–1929）**：1926–1927年作为托—季联合反对派（`ORG-left-and-united-opposition`）核心工业专家，系统鼓吹高速度超工业化纲领；1927年外放驻法商务代表，`1927-12` 联共（布）十五大（`MTG-1927-12-15th-party-congress`）被开除出党。然而面对1928年初斯大林在粮食收购危机（`EVT-1928-grain-procurement-crisis`）中强行启动反富农“非常措施”与超工业化转向，视国家工业化高于派别政治的皮达可夫于 **`1928-02`** 在原托洛茨基派高层中**第一个发表声明宣布同托洛茨基决裂**、承认错误（`CLM-deutscher-1959-alma-ata-bukharin-stalin-split`；`RN-W6-prophet-unarmed-1923-1929`）。同年获准恢复党籍，旋即出任苏联国家银行（Gosbank）董事会副主席并于 `1929` 年春升任国家银行董事会主席，利用信用扩张与银行结算改革全力支撑第一个五年计划（`POL-first-five-year-plan`）重工业冲刺（后于1930年代任重工业人民委员部第一副委员，1937年1月在第二次莫斯科审判中被处决）。
+
+### 2.2 时效关系摘要边表（Typed & Temporalized Edges）
+| 关联节点 ID | 关系类型 | 有效时段 | 一句话关系实质摘要（防 N+1 盲跳） | 核心依据/争鸣 |
+| :--- | :--- | :--- | :--- | :--- |
+| `PER-lenin` | `ideological_debater -> testament_nominee` | 1915–1923.01 | 在民族自决与布列斯特和约上屡同列宁争辩，仍因非凡组织干才被列宁《遗嘱》列为六位核心领袖之一并戒其“行政狂热” | `CLM-lewin-1968-testament-intent`; `DEB-1922-lenin-testament-and-stalin-rise` |
+| `PER-bukharin` | `theoretical_partner -> economic_foe` | 1915–1918 结盟；1923–1929 对立 | 一战与1918左共时期亲密合作，1920年代围绕工业积累速度与新经济政策市场均衡彻底走向路线对立 | `DEB-1928-bukharin-alternative`; `ORG-left-communists-1918` |
+| `INS-vsnkh-and-gosplan` | `deputy_chair_industrializer` | 1923–1926 | 任最高国民经济委员会副主席起草1923年7月托拉斯盈利指令，代表大工业部门抗衡财政部紧缩路线 | `CLM-carr-1954-scissors-crisis-mechanics`; `CLM-other-nep-1923-sokolnikov-monetary-discipline` |
+| `EVT-1923-scissors-crisis` | `policy_catalyst_and_critic` | 1923.07–1924.01 | 其盈利最大化指令助推工业品涨价剪刀差，而其本人在十三大代表会议上将危机归咎于索科尔尼科夫突然抽贷 | `CLM-carr-1954-scissors-crisis-mechanics`; `CLM-carr-1954-platform-of-46-economic-roots` |
+| `PER-sokolnikov` | `institutional_rival` | 1923–1925 | 国营重工业信贷扩张诉求与财政人民委员捍卫切尔文金本位的通货紧缩纪律正面冲突 | `CLM-other-nep-1923-sokolnikov-monetary-discipline` |
+| `PER-dzerzhinsky` | `vsnkh_subordinate_clashed` | 1924.02–1926.07 | 在最高国民经济委员会共事抓重工业，但捷尔任斯基临终抨击皮达可夫超工业化方案系“拳头对着农村” | `CLM-stalin-war-1920-polish-war-lessons` |
+| `PER-trotsky` | `faction_lieutenant -> first_capitulator` | 1923.10–1928.02 | 自《四十六人声明》至联合反对派均为左翼经济主将，1928年2月率先公开背离托洛茨基向斯大林归顺 | `ORG-left-and-united-opposition`; `CLM-deutscher-1959-alma-ata-bukharin-stalin-split` |
+| `PER-stalin` | `opposition_target -> technocratic_executor` | 1923–1927 对抗；1928–1929 归附 | 十五大被斯大林除名，但在大转变前夕复职出掌国家银行，成为斯大林一五计划工业化冲刺的首席金融技术官僚 | `POL-first-five-year-plan`; `DEB-1929-collectivization-and-dekulakization-causes` |
+
+### 2.3 史学争鸣光谱（Historiographical Spectrum）
+- **经验共识**：皮达可夫是布尔什维克党内罕见的兼具早期左派理论资历与大型重工业、银行管理能力的实干家；列宁《遗嘱》关于他“过分迷恋行政手段（*administrirovanie*）”的评语，精准预示了他在1923年托拉斯定价、1926年超工业化方案及1928年迅速归顺斯大林指令经济时的行为逻辑。
+- **主要解释分歧**（详参 `DEB-1922-lenin-testament-and-stalin-rise`, `DEB-1928-bukharin-alternative`）：
+  - **[制度现实主义 / E. H. Carr]** (`CLM-carr-1954-scissors-crisis-mechanics`, `CLM-carr-1954-platform-of-46-economic-roots`)：强调1923年政治危机的制度经济根源——皮达可夫7月起草的最高国民经济委员会盈利指令直接促成了消费托拉斯抬价囤货的剪刀差，而10月《四十六人声明》首先是最高国民经济委员会与计划专家针对无计划信贷震荡开出的“计划化与工业合理化”药方，党内民主诉求则是其政治延伸。
+  - **[修正派列宁晚年研究 / Moshe Lewin]** (`CLM-lewin-1968-testament-intent`)：在分析列宁《遗嘱》权力制衡架构时指出，列宁之所以既拔擢皮达可夫又严厉警告其“行政癖”，是因为列宁晚年已敏锐察觉内战遗留的纯行政命令作风若不加政治约束，极易将苏维埃国家推向背离工农联盟的官僚强制轨道。
+  - **[后苏联经济政治档案派 / Yuri Zhukov]** (`CLM-other-nep-1923-sokolnikov-monetary-discipline`)：依据1924年1月十三次代表会议未删节速记修正传统“皮达可夫抬价全责论”，揭示剪刀差秋季崩盘的直接触发器是国家银行在8月底切尔文逼近发行上限时未经协商单方面截断工业与中央联社信贷；皮达可夫与索科尔尼科夫之争实质是新经济政策内部“重工业复兴冲动”与“金本位无赤字预算硬约束”之间的结构性死结。
+  - **[托洛茨基派政治传记传统 / Isaac Deutscher]** (`CLM-deutscher-1959-united-opposition-defeat`, `CLM-deutscher-1959-alma-ata-bukharin-stalin-split`)：将皮达可夫1928年2月的率先“投降”诠释为左翼反对派被斯大林“工业化左转”瓦解的原型悲剧——对于毕生崇拜重工业计划与行政效率的皮达可夫而言，一旦斯大林接过超工业化旗帜，为党内民主坚守流放便丧失了意义，从而使前反对派专家心甘情愿沦为斯大林“自上而下革命”的技术齿轮。
+
+## 2. 一跳邻域等权重微摘要 (共 1 个关联节点，严防大卡霸占上下文)
+### 邻居节点: `INS-vsnkh-and-gosplan`
+- **时效关系边** (`PER-pyatakov` → `INS-vsnkh-and-gosplan` | `industrial-centralizer` | 有效时段: `1923-1929`): 长期任最高国民经济委员会副主席，1923盈利令卷入剪刀差争议，作为左翼反对派经济骨干于1928率先向斯大林妥协投身一五计划冲刺。
+- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 苏维埃俄国经济指挥双中枢：1917年12月设立最高国民经济委员会（VSNKh）统辖国有化工业，内战期形成垂直“总局主义”；1921年2月设立国家计划委员会（Gosplan）创制年度“控制数字”，1927–1929年VSNKh（古比雪夫）与Gosplan目的论派（斯特鲁米林）联手以高指标一五计划压倒发生学派。
+
+## 3. 关联史学争鸣光谱 (Historiographical Debates)
+### `DEB-1922-lenin-testament-and-stalin-rise`：列宁晚年、格鲁吉亚事件与斯大林崛起机制
+## [T1] 核心问题定义
+列宁晚年口授文稿和格鲁吉亚冲突，是反官僚与反斯大林的总体“最后斗争”，还是对共同集权框架内具体做法的修正？斯大林的上升又如何由个人策略、干部机关、集体领导与反对派困境共同解释？
+
+## [T2] 各学派立场对照矩阵
+| 学派/取向 | 代表学者与著作 | 核心论点摘要 | 支撑论断卡 | 主要受批评盲点 |
+| :--- | :--- | :--- | :--- | :--- |
+| 修正派 | Moshe Lewin, *Lenin's Last Struggle* (1968) | 将晚年文稿读为反大国沙文主义、官僚主义及撤换斯大林的政治计划；但列宁未明确放弃禁派或强制。 | `CLM-lewin-1968-testament-intent`; `CLM-lewin-1968-georgian-affair-bureaucracy`; `CLM-lewin-1968-cooperation-shift` | 连贯“总体计划”的程度与其实施机会有争议。 |
+| 民族政策修正 | Jeremy Smith, *The Bolsheviks and the National Question* (1999) | 强调列斯对集权原则的共识、地方利益及具体冲突，并据十二大特别会议材料揭示本土化妥协。 | `CLM-smith-jeremy-1999-georgian-affair-reassessed`; `CLM-smith-jeremy-1999-twelfth-congress-korenizatsiia` | 行政协调解释需与民族代表对胁迫和权力不平等的证词对照。 |
+| 后苏联档案与制度 | Oleg Khlevniuk, *Stalin* (2015) | 书记处议程和干部权带来优势；1920年代集体领导真实存在，其瓦解并非1922年已注定。 | `CLM-khlevniuk-2015-secretariat-and-nomenklatura`; `CLM-khlevniuk-2015-collective-leadership-erosion` | 不能将成熟时期干部名册规模倒推到1922年。 |
+| 左翼传记与政治史 | Isaac Deutscher, *The Prophet Unarmed* (1959) | 反对派要求党内民主却维护党对政权的垄断，纪律机器成为其组织性困境。 | `CLM-deutscher-1959-disarmed-prophet-paradox`; `CLM-deutscher-1959-united-opposition-defeat` | 侧重托洛茨基与反对派，须结合机关和地方档案。 |
+| 俄国政治思想史 | V. A. Sakharov (2012) | 将《论合作社》读为含有重要文本变化的遗产争夺；其关于后续集体化的判断是一种有争议解释，并非遗嘱真伪或格鲁吉亚事件的直接证据。 | `CLM-sakharov-2012-lenin-cooperative-plan-debates`; `CLM-sakharov-2012-nep-crossroads-1928` | 对布哈林及强制集体化的解释需要与其他史家交叉检验。 |
+
+### `DEB-1923-nationality-and-empire`：布尔什维克民族政策、格鲁吉亚事件与苏维埃“肯定性行动帝国”性质之争
+## [T1] 核心问题定义
+1922—1923年格鲁吉亚冲突与十二大民族妥协，布尔什维克是在建设多民族“帝国”内的肯定性本土化福利国，还是以先锋队垄断维系的大俄罗斯官僚集权？争论焦点是经验制度成果与各派因果—价值判断之分。
+
+## [T2] 各学派立场对照矩阵
+| 学派/取向 | 代表学者与著作 | 核心论点摘要 | 支撑论断卡 | 主要受批评盲点 |
+| :--- | :--- | :--- | :--- | :--- |
+| 列宁晚期斗争论 | Moshe Lewin, *Lenin's Last Struggle* (1968) | 格鲁吉亚事件暴露大国沙文主义与官僚机器合流，列宁晚年誓以政治清算对抗 *dzerzhimordy*；民族问题是撤换斯大林问责的实质切口之一。 | `CLM-lewin-1968-georgian-affair-bureaucracy`; `CLM-lewin-1968-testament-intent` | 易将散落笔记读成连贯“遗嘱计划”；未充分吸纳1990年代解密全会速记。 |
+| 自由主义—极权连续论 | Richard Pipes, *Russia under the Bolshevik Regime* 等 | 苏联民族政策是先锋队专政逻辑的延伸；十二大被写作斯大林中央集权对自治的胜利（Smith 正面驳斥此说）。 | （经 `CLM-smith-jeremy-1999-twelfth-congress-korenizatsiia` 对勘引述） | 档案研究显示十二大民族妥协比“一方全胜”叙事更复杂。 |
+| 解密档案民族妥协论 | Jeremy D. Smith, *The Bolsheviks and the National Question, 1917–1923* (1999) | 列宁—斯大林在集权原则上确有共识，但十二大特别会议显示边疆代表迫使中央退让，奠定1920年代本土化相对稳固期；格鲁吉亚危机不宜简化为二人生死对决。 | `CLM-smith-jeremy-1999-twelfth-congress-korenizatsiia`; `CLM-smith-jeremy-1999-georgian-affair-reassessed` | 本土化繁荣期止于1930年代逆转，分期须清晰。 |
+| 帝国史学框架 | Ronald Grigor Suny, *The Red Flag Unfurled* (2017) 等 | 沙俄—苏联宜在“宗主—边缘不平等从属”的帝国框架下理解民族建构；1991年后“苏联=帝国”共识含事后归因风险。 | `CLM-suny-2017-empire-and-nationality-dimension` | 帝国理论有助于宏观定位，但不能替代全代会速记级制度考证。 |
+| 乌克兰社会史与本土化悖论 | George Liber, *Soviet Nationality Policy, Urban Growth, and Identity Change in the Ukrainian SSR 1923–1934* (1992) | 本土化整合城乡乌克兰人、扩张乌克兰语公共领域的同时，制度化语言分裂并孕育难以中央完全消化的地方民族诉求。 | `CLM-liber-1992-korenizatsiia-paradox-late-1920s`; `CLM-liber-1992-ukrainianization-and-urban-working-class` | 侧重乌克兰案例，外高加索与中亚须分区域检验。 |
+| “肯定性行动帝国”概念（史学界常用语） | Terry Martin, *The Affirmative Action Empire* (2001) 等 | 1920年代苏联对“前发达”民族实施制度化优待（干部、语言、教育配额），以党国垄断为前提整合帝国边缘——成功与潜在离心并存。 | （本库待补 `CLM-martin-2001-affirmative-action-empire`；可 interim 参照 `reading-notes/` 与 `POL-korenizatsiia`） | 术语易与美式种族平权政策混同，须严守苏联党国语境。 |
+
+### `DEB-1924-socialism-in-one-country`：一国建成社会主义与不断革命论
+## [T1] 核心问题定义
+欧洲革命迟滞后，苏联能否凭国内资源建成社会主义，还是其完成须依赖国际革命？1924—1927年的论战同时涉及农民联盟、经济发展、国际安全与党内权力，不能把不同意义的“胜利”等同起来。
+
+## [T2] 各学派立场对照矩阵
+
+**经验共识**：斯大林与布哈林在反对左翼反对派时形成理论和政治联盟；季诺维也夫在1925年前后转而批评斯大林，1926年与托洛茨基等结成联合反对派。各方均以国际环境为问题，并非一方支持革命、另一方完全放弃国际事务。
+
+| 立场或研究 | 核心论点及依据 | 争议和限制 |
+| :--- | :--- | :--- |
+| 斯大林、布哈林 | 苏联可以依靠工农联盟及国内建设发展社会主义；1925年党内文件区分国内建设的胜利与免受资本主义复辟和外部干预的最终保障。 | 两人论述及政策侧重点不完全相同，不能把1928年之后的分歧倒投到整个联盟时期。 |
+| 托洛茨基及联合反对派 | 不断革命论强调革命发展跨越民主与社会主义任务、国内阶级关系与世界经济的相互依赖；孤立国家的社会主义完成依赖国际革命。 | 不等于主张等待外国革命而停止苏联经济建设；季诺维也夫的立场有自身演变。 |
+| E. H. Carr, *Socialism in One Country*；Isaac Deutscher, *The Prophet Unarmed* | Carr把理论置于制度和国际关系发展的综合叙事中；Deutscher重视托洛茨基及党内政治斗争与国际革命前景。 | 各自叙事规模与政治解释不同，不应合并为统一学派；其具体论证仍需按章节细读。 |
+| Stephen Kotkin, *Stalin*, vol. 1；萨哈罗夫（Sakharov）的相关研究待核 | Kotkin利用党内文本与档案追踪理论措辞及权力联盟；本地 Sakharov 文献可供核查党内权力机制。 | 不将萨哈罗夫预先归入任何确定立场：其本地著作的准确书目信息及与本争论的直接关系须核实。 |
+
+### `DEB-1928-bukharin-alternative`：“布哈林替代方案”与新经济政策终结之争（1928–1929）
+## [T1] 核心问题定义
+1927–1929年新经济政策瓦解与斯大林击败布哈林集团，究竟源于小农低商品率与布尔什维克高工业化/价格管制目标之间无法调和的结构性死结，还是源于1926–1928年具体经济政策失误与党内权力机器垄断扼杀了布哈林所主张的市场-合作社均衡工业化替代路径？
+
+## [T2] 各学派立场对照矩阵
+
+| 学派/研究取向 | 代表学者与馆藏著作 | 核心论点摘要 | 已核实馆藏依据 | 主要受批评局限 |
+| :--- | :--- | :--- | :--- | :--- |
+| **政治传记“替代方案论”** | Stephen F. Cohen (`cohen_1973_bukharin`) | 新经济政策并未枯竭；布哈林基于列宁《论合作社》与《经济学家札记》（1928-09-30）提出了协调工农利益的可行渐进规划；但1928年1月政治局起初一致批准临时非常措施（p. 278），随后斯大林将其升级为常态路线并凭组织机器获胜。 | Cohen pp. 177, 278, `PDF p. 318` | 被批评高估了布哈林方案在重工业资本积累缺口与布尔什维克反市场意识形态下的政治可持续性。 |
+| **农村社会史与长短周期分离论** | Moshe Lewin (`lewin_1968_peasants`) | 区分1927–28年粮食危机与1929–30年冬全盘强制集体化：同情渐进合作化，但直言布哈林部分理论“仅在短期有效”，而普列奥布拉任斯基对中长期工业投资瓶颈的诊断更具预见性（Preface `PDF p. 12`）。 | Lewin `PDF pp. 10, 12, 68` | — |
+| **发展经济学与计划经济史派** | Alexander Erlich (`erlich_1960_industrialization`)、Carr & Davies (`carr_davies_1969_foundations_v1p1`)、Alec Nove (`nove_1964_was_stalin_necessary`) | Erlich 证明1924–28论战双方（含普列奥布拉任斯基，pp. 44, 177）均未预设暴力全盘集体化；Carr & Davies 与 Nove 揭示国家人为压低谷物收购价（相对于畜牧和经济作物）及工业品饥荒造成1927冬收购锐减。 | Erlich pp. 44, 177; Carr & Davies Vol.1 | 经济上本可通过调价与温和税收缓和，但与党领导层既定超高速军重工业目标直接冲突。 |
+| **政治局体制与新经济政策死胡同论** | Oleg Khlevniuk (`khlevniuk_2015_stalin`) | 一方面指出1927年危机表明新经济政策发展模式受多重因素制约已难以为继（Ch. 3）；另一方面从中央书记处干部任命制（Nomenklatura）与政治局纪律剖析布哈林集团为何在组织上迅速瓦解。 | Khlevniuk EPUB Ch. 3 | 偏重高层权力与体制锁死，对非强制替代经济路径的计量效率讨论较少。 |
+| **意识形态死结与能动性决断论** | Stephen Kotkin (`kotkin_2014_stalin_v1`, Ch. 13–14 & Coda) | “新经济政策若经济成功便在布尔什维克阶级政治上自我失败”（商品粮依赖大播户即潜伏“富农”）；但同时反对结构宿命论，指出若无斯大林1928年1月西伯利亚督粮的个人铁腕决断，强制全盘集体化概率极低。 | `CLM-kotkin-2014-siberian-grain-turn`, `CLM-kotkin-2014-bukharin-dilemma` | 第1卷叙事止于1928年底，1929年4月与11月全会交锋待补第2卷与全会速记。 |
+
+### `DEB-1929-collectivization-and-dekulakization-causes`：1929年全盘集体化与消灭富农阶级动因总公案
+## [T1] 核心问题定义
+1929年秋斯大林体制性推进全盘集体化并宣布“消灭富农作为阶级”，究竟是因为新经济政策（NEP）道路在工农价格剪刀差与工业化投资缺口下已结构性破产、布哈林渐进方案被权力机器扼杀（还有何种替代仍可能），还是因为1927–28粮食统计失真、地方征粮竞速与所谓“战争恐慌”触发的螺旋，再叠加领袖对外备战焦虑与反市场意识形态而成为一种可被避免却未被避免的急转弯？
+
+## [T2] 各学派立场对照矩阵
+
+**经验共识**：1927冬—1928春出现严重粮食收购危机；1928年1月西伯利亚“非常措施”与乌拉尔-西伯利亚方法将行政强制包装为村社压力（`POL-ural-siberian-method`）；1929年4月与11月中央全会后集体化指标急剧跃升；1929年12月通过关于富农政策措施，公开的阶级清洗话语制度化。
+
+| 学派/取向 | 代表学者与著作 | 核心论点摘要 | 支撑论断卡 | 主要受批评盲点 |
+| :--- | :--- | :--- | :--- | :--- |
+| **布哈林 NEP 可行替代论** | Stephen F. Cohen, *Bukharin and the Bolshevik Revolution* (1973); Moshe Lewin, *Russian Peasants and Soviet Power* (1968) | Cohen：1928年布哈林仍提出可调节市场—合作社渐进工业化；斯大林将临时征粮升级为路线并凭组织拳头获胜。Lewin：区分1927–28危机与1929–30暴力集体化，警告勿将“富农”范畴自然化。 | `CLM-cohen-1973-nep-viability`, `CLM-cohen-1973-bukharin-organizational-defeat`, `CLM-cohen-1973-notes-of-an-economist`, `CLM-lewin-peasants-1968-grain-procurement-crisis`, `CLM-lewin-peasants-1968-kulak-myth-and-serednyak`, `CLM-lewin-peasants-1968-ural-siberian-method` | 替代方案在政治意识形态与国防重工业目标下是否可赢得多数派，争议未终结。 |
+| **统计失真与地方竞速螺旋论** | R. W. Davies, *The Socialist Offensive* (1980) 及集体化史系列；Nikolai Ivnitskii（富农消灭过程档案研究） | Davies：批判将1929秋单纯回溯为1928秋“大转变已定局”的史学叙事；地方各级党委在指标竞赛中层层加码。Ivnitskii：实际操作中“富农”划界高度政治化且地区差异巨大。 | `CLM-davies-1980-autumn-1929-great-turn-fabrication`, `CLM-davies-1980-november-plenum-to-dekulakization` | 计量史学与农村社会史接点仍薄；Ivnitskii 著作本库精读未完。 |
+| **外部备战焦虑与意识形态死结论** | Stephen Kotkin, *Stalin*, vol. 1 (2014); David R. Shearer（警察国家与工业化）；Lynne Viola 等集体化执行史 | Kotkin：新经济政策在经济成功时亦在布尔什维克阶级政治上自我失败；1928斯大林个人决断打开全盘集体化概率。Shearer/Velikanova 补充高压执行与恐慌政治。 | `CLM-kotkin-2014-siberian-grain-turn`, `CLM-kotkin-2014-bukharin-dilemma`, `CLM-kotkin-2014-geopolitics-and-ideology`, `CLM-velikanova-2013-war-scare-hoarding-and-grain-crisis`, `CLM-velikanova-2013-leadership-manipulation-and-self-deception` | Kotkin 第1卷止1928底；1929全会细节待续卷与速记。 |
+| **结构与投资缺口论** | Alexander Erlich (1960); Oleg Khlevniuk (2015) | Erlich：论战各方1924–28均未预设暴力全盘集体化，但工业投资瓶颈真实。Khlevniuk：政治局体制与新经济政策“死胡同”从组织面解释布哈林集团迅速溃败。 | `CLM-erlich-1960-preobrazhensky-dilemma`, `CLM-erlich-1960-stalin-overkill-turn`, `CLM-khlevniuk-2015-secretariat-and-nomenklatura` | 结构制约论易被误读为取消领袖能动性或农民抵抗作用。 |
+
+## 4. 关联时间线锚点 (共 0 条)

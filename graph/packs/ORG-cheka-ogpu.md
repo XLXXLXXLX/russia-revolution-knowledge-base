@@ -1,0 +1,62 @@
+# 1-Hop 平衡上下文包：`ORG-cheka-ogpu` (全俄肃反委员会—国家政治保卫局)
+
+> 本文件由 `python scripts/kb.py pack` 自动编译，旨在将失控的 `1+N` 随机读取压缩为**等权重、带时效边实质与史学盲区告警**的单次全景读取。
+
+## 0. 认知完备度与反偏斜仪表盘 (Epistemic & Skew Warnings)
+- **主卡路径**: `cards/organizations/ORG-cheka-ogpu.md`
+- **完备度等级**: `multi-perspective`
+- **已覆盖视角**: `institutional-police-state-leggett, liberal-totalitarian-pipes, contextual-contingency-rabinowitch, party-apparatus-khlevniuk`
+- **待补齐视角**: `regional-cheka-social-history, post-soviet-fsb-archival-series`
+- **偏斜风险提示**:
+  - ⚠️ 主卡显式声明尚缺以下视角待补: `regional-cheka-social-history, post-soviet-fsb-archival-series`。
+
+## 1. 主卡核心层 ([T1] + [T2])
+## [T1] 60秒定性微摘要
+苏俄与苏联早期政治警察机关（1917–1934），由捷尔任斯基创立。历经全俄肃反委员会（ВЧК，1917–1922）、国家政治保卫局（ГПУ，1922–1923）与国家政治保卫总局（ОГПУ，1923–1934）三阶段，从法外非常机构演变为直属政治局的常设宪制部门，执行红色恐怖与强制集体化。
+
+## [T2] 核心脉络、时效关系边表与史学争鸣光谱
+
+### 2.1 核心历史脉络
+- **法外行政起源与直属人民委员会的宪制设计（1917.12–1918.06）**：`1917-12-05 [O.S.] / 1917-12-18 [N.S.]` 彼得格勒军事革命委员会（MRC）解散后，面对全俄公务员罢工危机，捷尔任斯基于 `1917-12-07 [O.S.] / 1917-12-20 [N.S.]` 向人民委员会（Sovnarkom）提交报告，宣称“我们现在不需要正义，现在是你死我活的战争”，人民委员会以第21号会议**第9项内部行政决定**（非公开发布的国家法令）批准成立“全俄肃反委员会（ВЧК）”；直至1918年11月前无成文章程（Leggett pp. 17–18, `CLM-leggett-1981-vecheka-extra-legal-origins`）。契卡挂靠人民委员会以规避全俄中执委多党监督；列宁修正案架空施坦因贝格对政治逮捕的事先同意权（Leggett pp. 21–22, 47–49）。1918年上半年亚历山德罗维奇等左翼社革党副主席对政治处决行使否决权（Leggett pp. 49–59; Rabinowitch pp. 274–282）。**1918-07-07至08-22** 米尔巴赫遇刺后捷尔任斯基停职受查，**彼得斯** 代理主席至8月22日法令恢复其职务（Leggett pp. 74–77）。
+- **左翼社革党清洗、红色恐怖制度化与“国中之国”确立（1918.07–1921）**：`1918-07-06` 刺杀米尔巴赫事件后，契卡于7月7日枪决副主席亚历山德罗维奇等13名左翼社革党人，清除内部制动阀（Leggett pp. 59, 77）。`1918-08-30` 乌里茨基遇刺与列宁遇刺后，人民委员会于 `1918-09-05` 颁布《关于红色恐怖的法令》（Leggett pp. 108–110）。俄共（布）中央 `1919-02-08` 公开信宣称契卡“完全是作为党的直接机关而创立、存在和工作的”，`1919-03-16` 捷尔任斯基兼任内务人民委员（Leggett pp. 144, 151, 358–359）。
+- **1922年改组为 GPU/OGPU 与“恐怖入法”（1922–1926）**：`1922-02-06` 全俄中执委法令废除 ВЧК，在内务人民委员部下设 **GPU**，**内务人民委员兼 GPU 主席仍由捷尔任斯基出任**（组织换牌、首脑未变）。列宁 `1922-05-17` 致库尔斯基指令“恐怖入法”、条文尽可能宽泛（Leggett pp. 344–347）。`1923-07-06` 苏联宪法确立全联盟 GPU；**`1923-11-15`** 全苏中执委与苏联人民委员会批准 **《国家政治保卫总局条例》**，ОГПУ 成为直属苏联人民委员会的常设宪制机关（Leggett pp. 346–352）。1923年9月起监控党内反对派。
+- **メン任斯基时代：党内反对派镇压、强迫劳动营扩张与强制集体化尖兵（1926–1934）**：`1926-07-20` 捷尔任斯基猝死后，维亚切斯拉夫·门任斯基（V. R. Menzhinsky）继任 OGPU 主席（雅戈达任实权副主席）。1927年底至1929年，OGPU 直接执行对托洛茨基—季诺维也夫联合反对派的搜查、逮捕、流放与驱逐出境，并在1928年制造“沙赫特案”技术专家审判；1928–1933年在大转变与全盘集体化运动中，OGPU 成为执行乌拉尔—西伯利亚非常征粮、“消灭富农阶级”大流放及组建古拉格（GULAG，1930年正式设局）强迫劳动体系的核心暴力支柱，直至 `1934-07-10` 并入全联盟内务人民委员部（NKVD）国家安全总局（Leggett pp. 351–363; Khlevniuk pp. 97–115; Kotkin ch. 14）。
+
+### 2.2 时效关系摘要边表（Typed & Temporalized Edges）
+| 关联节点 ID | 关系类型 | 有效时段 | 一句话关系实质摘要（防 N+1 盲跳） | 核心依据/争鸣 |
+| :--- | :--- | :--- | :--- | :--- |
+| `PER-dzerzhinsky` | `founder-and-chairman` | 1917.12–1926.07 | 提议创立并连续执掌 ВЧК–ГПУ–ОГПУ（1918年7–8月经彼得斯代理44日），锻造超越常规司法约束的政治警察机器 | `CLM-leggett-1981-vecheka-extra-legal-origins`, `CLM-leggett-1981-red-terror-institutionalization` |
+| `PER-lenin` | `chief-political-architect-and-protector` | 1917.12–1923.03 | 在宪制设计、挫败司法部与党内温和派制约、发动红色恐怖及1922年“恐怖入法”中为契卡/GPU 提供最高政治授权与庇护 | `CLM-leggett-1981-vecheka-extra-legal-origins`, `CLM-leggett-1981-red-terror-institutionalization`, `CLM-leggett-1981-cheka-to-gpu-continuity` |
+| `ORG-left-srs` | `junior-partner-watchdog -> purge-target` | 1918.01–1918.07 | 1918年上半年左翼社革党人入驻契卡委员会并对政治处决行使否决权；7月6日刺杀米尔巴赫后遭清洗处决，契卡自此由布尔什维克独占 | `CLM-leggett-1981-red-terror-institutionalization`, `CLM-rabinowitch-2007-left-sr-coalition-collapse` |
+| `POL-war-communism` | `coercive-enforcement-pillar` | 1918–1921 | 承担武装征粮督导、打击黑市投机、镇压工人罢工与农民起义（坦波夫、喀琅施塔得）及管理强制劳动营的全面专政职能 | `CLM-leggett-1981-red-terror-institutionalization`, `CLM-mawdsley-1987-civil-war-militarized-regime` |
+| `POL-nep` | `tactical-rebranding-and-political-lock` | 1921–1928 | 在经济退却同时通过将 ВЧК 改组为常设 ГПУ/ОГПУ 并严厉镇压孟什维克、社革党与党内异议，锁死新经济政策演化为政治多元化的可能 | `CLM-leggett-1981-cheka-to-gpu-continuity` |
+| `PER-stalin` | `instrument-of-personal-dictatorship` | 1926–1934 | 斯大林将其从政治局集体专政工具转化为监控高级干部、粉碎左/右翼反对派、制造专家伪案与强推全盘集体化的极权机器 | `CLM-leggett-1981-cheka-to-gpu-continuity`, `CLM-khlevniuk-2015-collective-leadership-erosion` |
+
+### 2.3 史学争鸣光谱（Historiographical Spectrum）
+- **经验共识**：全俄契卡于1917年12月凭人民委员会行政决议成立，集侦查、逮捕、审判与行刑大权于一身；1918年7月清洗左翼社革党后于9月正式启动制度化“红色恐怖”；1922–1923年改组为 GPU/OGPU 后成为写进苏联宪法的常设国家机关。
+- **主要解释分歧**（详参 `DEB-1918-war-communism-ideology-or-emergency`）：
+  - **[制度史与警察国家连续性派 / George Leggett, Leonard Schapiro]** (`CLM-leggett-1981-vecheka-extra-legal-origins`, `CLM-leggett-1981-red-terror-institutionalization`, `CLM-leggett-1981-cheka-to-gpu-continuity`): 通过详实的法令与机构考据指出：（1）契卡直属人民委员会而非内务部或中执委，在宪制上复归了沙皇尼古拉一世直属皇室办公厅“第三厅”的专断传统，且其杀戮规模与法外特权远超沙皇奥赫拉那（列宁执政6年间契卡直接处决约14万人，镇压起义与集中营致死又至少14万人）；（2）红色恐怖在时序上早于协约国实质武装干涉，源于列宁的阶级消灭学说；（3）1922年改组为 GPU 是掩人耳目的政治伪装，在列宁“恐怖入法”指令下迅速恢复法外特权。Leggett 同时审慎区分了“技术前提”与“历史必然性”——斯大林的大清洗并非列宁统治的必然宿命，但正是列宁打造的契卡—OGPU 警察国家机器使斯大林的强制集体化、古拉格与大清洗在技术上成为可能。
+  - **[自由-极权主义内生决定论 / Richard Pipes]** (`CLM-pipes-1990-red-terror-leninist-logic`): 认为法国大革命以恐怖告终，而俄国十月革命“以恐怖开始”；布尔什维克在尚无有组织武装反抗的1917年12月即建立契卡，并在1920年内战胜利后拒不废除，证明恐怖绝非战时应急手段，而是少数派政权弥补缺乏民意支持的“永久替代物（surrogate for popular support）”与废法专政（rule unrestricted by any law）的本质体现。
+  - **[危机演进与地方情境修正派 / Alexander Rabinowitch]** (`CLM-rabinowitch-2007-contingency-of-dictatorship`, `CLM-rabinowitch-2007-left-sr-coalition-collapse`): 基于彼得格勒党政与契卡档案反驳“自夺权首日即按极权蓝图行事”的先验决定论，指出在1918年上半年彼得格勒，由于乌里茨基、克列斯廷斯基与左翼社革党内务委员普罗相的联合节制，彼得格勒契卡长期避免政治处决（甚至在4月和6月两度被讨论废除）；直到《布列斯特和约》分裂、严重饥荒、合格党员枯竭、左翼社革党于7月被清洗及协约国干涉引发极端“围城心态（siege mentality）”，基层区委自下而上的压力才与中央指令汇合，在8月30日乌里茨基遇刺后引爆系统性红色恐怖。
+
+## 2. 一跳邻域等权重微摘要 (共 1 个关联节点，严防大卡霸占上下文)
+### 邻居节点: `PER-dzerzhinsky`
+- **时效关系边** (`PER-dzerzhinsky` → `ORG-cheka-ogpu` | `founder-chairman` | 有效时段: `1917.12-1926.07`): 长期执掌契卡—GPU—OGPU，将其从临时行政预审机构打造为兼具反间谍、镇压异议与监控经济民情(svodki)的常设党国安全机器。
+- **节点定性微摘要 [T1]** (完备度 `draft`): 波兰立陶宛社民党（SDKPiL）与布尔什维克杰出领导人。苏俄国家安全机器奠基人，首任全俄肃反委员会（全俄契卡/格别乌）主席，内战期铁腕推行“红色恐怖”；1924–1926年任最高国民经济委员会主席，在新经济政策大论战中坚决主张财政平衡、降低工业成本、稳定货币与维护城乡商品流转，逝于中央全会讲台。
+
+## 3. 关联史学争鸣光谱 (Historiographical Debates)
+### `DEB-1918-war-communism-ideology-or-emergency`：战时共产主义与一党制起源：意识形态、紧急状态还是混合驱动？
+## [T1] 核心问题定义
+1918–1921年的征粮、国有化与市场管制，以及反对派被排除出政治竞争，源自先在意识形态蓝图、内战生存危机，还是二者与制度选择的互动？经济政策与一党制形成相关，却是需要分别解释的过程。
+
+## [T2] 各学派立场对照矩阵
+
+**经验共识**：国家控制与强制征粮在经济崩溃、战争和供应危机中扩展；革命政权与反对派关系逐步恶化。1917年底至1918年存在布尔什维克与左派社会革命党联盟，其破裂及镇压是过程中的关键转折，不应说十月当天即形成成熟一党体制。
+
+| 取向与代表著作 | 解释及依据 | 争议与检验 |
+| :--- | :--- | :--- |
+| 意识形态与组织连续性：Martin Malia, *The Soviet Tragedy*；Richard Pipes, *The Russian Revolution* | 强调反市场社会主义目标、布尔什维克的权力观及暴力政治倾向，认为危机使既有目标得以激进实施。 | 二人论证不完全相同；“乌托邦蓝图”是解释类型而非已证实的统一政策时间表。须检验各措施出台前的实际主张，而非由结果倒推计划。 |
+| 应急与制度史：E. H. Carr, *The Bolshevik Revolution, 1917–1923*；Moshe Lewin, *The Making of the Soviet System* | 注重经济瓦解、内战与国家能力不足，并追踪政策和制度如何在压力下演化；两人对意识形态和社会结构的权重并不相同。 | 单以危机不能解释为何在不同可行选项中选择特定强制措施，也不能假定所有压制都是军事上必需。 |
+| 危机与选择交互：Alexander Rabinowitch, *The Bolsheviks in Power*；Evan Mawdsley, *The Russian Civil War* | Rabinowitch以彼得格勒首年政治危机和联盟变化解释权力集中；Mawdsley的内战研究提供军事、政治及区域背景。混合框架检验思想、战争、资源与政治竞争的互动。 | 彼得格勒不等于全国；战时共经济政策与一党政治的时间线也不能混同。把两位作者归于同一假说仅是分析性并置，不代表其因果权重一致。 |
+
+## 4. 关联时间线锚点 (共 0 条)

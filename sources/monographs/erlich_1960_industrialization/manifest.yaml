@@ -1,0 +1,30 @@
+id: MONO-erlich-1960-industrialization
+title: 苏联工业化争论（1924–1928）
+title_original: "The Soviet Industrialization Debate, 1924–1928"
+author: 亚历山大·埃尔利赫
+author_original: Alexander Erlich
+series: "Russian Research Center Studies, 41"
+publisher: Harvard University Press (Cambridge, Massachusetts)
+pub_year: 1960
+edition: Second Printing (1967)
+loc_catalog: "60-13287"
+subject_period: "1924–1928 (苏联工业化大辩论全景)"
+source_file: "inbox/The Soviet Industrialization Debate, 1924–1928 (Alexander Erlich) (z-library.sk, 1lib.sk, z-lib.sk).pdf"
+source_format: pdf
+needs_ocr: false
+quality_check:
+  total_pages: 228
+  text_bearing_pages: 228
+  empty_or_image_pages: 0
+  ocr_coverage_pct: 100.0
+  text_layer_status: "100% 完整嵌入式文本层，全书两大部分（Part One: The Debate; Part Two: The Issues and Aftermath）与附录目录索引完整"
+extraction_stats:
+  chapters_count: 16
+  total_lines: 9320
+  total_chars: 464039
+  chunk_strategy: "toc_bookmarks_with_subsplit"
+  index_file: "toc.md"
+status: ready_for_close_reading
+historiographical_note: >
+  经济史与理论模型领域关于 1920 年代苏联经济大辩论的奠基之作。
+  细致解析了普列奥布拉任斯基（“原始社会主义积累规律”）、布哈林（“蜗牛爬行速度”、“工农结合”平衡论）、沙宁（Shanin，农业优先累积）、巴扎罗夫（Bazarov）、费尔德曼（Feldman 增长模型）及斯大林派在资本积累率、工农业产品交换比价和重工业投资周期上的理论交锋。

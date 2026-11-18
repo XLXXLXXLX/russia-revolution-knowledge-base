@@ -2,7 +2,18 @@
 
 # 俄国革命多层级知识库（1860s 早期民粹派 — 1929 斯大林击败布哈林）
 
-本工作区是一个面向历史学与社会科学深度研究的**多 Agent 协同知识库**。由主会话担任**总编排者（Orchestrator）**，协同 6 个权限与职责严格隔离的专职子 Agent，系统梳理从 19 世纪六七十年代民粹派运动兴起、1905 与 1917 革命、内战、新经济政策，直至 1929 年斯大林在党内决战中击败布哈林集团的完整历史进程与学术争鸣。
+本工作区是一个面向历史学与社会科学深度研究的**多层级俄国革命知识库与双模态史学研究平台**，时间跨度覆盖 **1861 年农奴制改革与早期民粹派运动直至 1929 年底斯大林击败布哈林集团（“大转变”与全盘集体化定局）**。
+
+- **对外问答与专题写作模态（默认面向读者）**：后台静默调用 `graph/packs/` 1-Hop 防偏斜上下文包、L3 逐日微距卷、精读札记与多语种一手原典，前台隐藏一切数据库标签与机器黑话，输出**鲜活饱满、富有人物肌理与多学派纵深的长篇历史叙事**（出处统一折叠于文末 `<details>`）。
+- **对内建库与多 Agent 编排模态**：由总编排者协同 6 个职责与写目录严格隔离的专职子 Agent（提取、精读、外网侦察、编年、图谱、异源对抗审计），持续消化馆藏专著与解密档案。
+
+---
+
+## 当前馆藏与知识图谱规模
+
+- **四级双历法时间线（`timeline/`）**：1 个 L0 十阶段总览 + 114 节点 L1 骨干大事记 + **10 卷 L2 分期月度编年（`E01–E10` 全覆盖）** + **20 卷 L3 逐日/逐时风暴眼微距卷** + **612 条**经俄历/公历数学核验的 `events_ledger.jsonl` 原子事件。
+- **三层防偏斜卡片与概念系谱（`cards/` & `glossary/`）**：覆盖核心人物、政党派别、党国制度、历史事件、代表大会、经济政策以及 **11 张横跨数十年的核心概念系谱卡（`CON-*`）** 与 25 概念跨期语义裂变排雷总表（[`glossary/CONCEPT_GENEALOGY_INDEX.md`](./glossary/CONCEPT_GENEALOGY_INDEX.md)）。
+- **多元史学争鸣与原子论断库（`historiography/` & `reading-notes/`）**：累计 **460+ 张** 校验通过的卡片/争鸣母题（`DEB-*`）/学者档案（`SCH-*`）/带原文直引页码锚点的原子论断卡（`CLM-*`），配套 **130+ 条** 时效有向关系边与 1-Hop 上下文包、**6 份** 定量微序列档案（`data/DATA-01..06`）、**35+ 篇** 多语种 S 级一手历史文献（`sources/web-archive/`）以及 **129 部** 已拆解分章的本地专著与档案汇编。
 
 ---
 
@@ -10,14 +21,14 @@
 
 | 模块 | 路径 | 说明 |
 | :--- | :--- | :--- |
-| **编排总纲与角色定义** | [`AGENTS.md`](./AGENTS.md) / [`.opencode/agents/`](./.opencode/agents/) | 6 大专职 Subagent 角色分工、权限边界与五大史学铁律 |
-| **跨 Provider 模型绑定表** | [`docs/MODEL_ROUTING.md`](./docs/MODEL_ROUTING.md) / [`config/agent_models.json`](./config/agent_models.json) | 盘点 T3 Code 5 大可用 Provider（Codex / Cursor / Grok / Antigravity / OpenCode）并为每类 Agent 绑定专属模型池 |
+| **双模态交互总则与编排规范** | [`AGENTS.md`](./AGENTS.md) / [`.opencode/agents/`](./.opencode/agents/) | 对外讲史文风规范、6 大专职 Subagent 角色权限边界与五大史学铁律 |
+| **跨 Provider 模型路由表** | [`docs/MODEL_ROUTING.md`](./docs/MODEL_ROUTING.md) / [`config/agent_models.json`](./config/agent_models.json) | Antigravity Gemini Ultra 5x / Codex / Grok / OpenCode 分层调度矩阵 |
 | **方法论与架构设计** | [`docs/ARCHITECTURE.md`](./docs/ARCHITECTURE.md) | 四级双历法时间线、反 N+1 偏斜图谱机制、延迟向量化路线图 |
-| **标准卡片与论断模板** | [`docs/TEMPLATES.md`](./docs/TEMPLATES.md) | 人物/组织/事件/会议/概念/制度卡、争鸣母题卡与原子论断卡规范 |
-| **待寻电子书需求清单** | [`BIBLIOGRAPHY_WISHLIST.md`](./BIBLIOGRAPHY_WISHLIST.md) | **您找书的对照表**：找到电子版直接丢入 [`inbox/`](./inbox/) 即可 |
-| **公开互联网档案导航** | [`sources/WEB_REPOSITORIES.md`](./sources/WEB_REPOSITORIES.md) | MIA（俄/英/中）、IstMat、CyberLeninka、俄罗斯国家历史图书馆等入口 |
-| **L0–L3 多尺度时间线** | [`timeline/L0_macro_epochs.md`](./timeline/L0_macro_epochs.md) | L0 十阶段总览 → L1 骨干大事记 → L2 月度脉络 → L3 逐日/逐时微距卷 |
-| **知识卡片与争鸣示范** | [`cards/`](./cards/) / [`historiography/`](./historiography/) | 已初始化 `ORG-narodnaya-volya`、`PER-bukharin`、`POL-nep` 与 `DEB-1928-bukharin-alternative` |
+| **标准卡片与论断模板** | [`docs/TEMPLATES.md`](./docs/TEMPLATES.md) | `[T1]/[T2]/[T3]` 卡片、争鸣母题卡与原子论断卡规范 |
+| **概念系谱与反讽排雷总表** | [`glossary/CONCEPT_GENEALOGY_INDEX.md`](./glossary/CONCEPT_GENEALOGY_INDEX.md) | 25 个核心概念在 1860s–1929 七个时段的语义漂移与误读排雷 |
+| **定量经济与政治微序列** | [`data/`](./data/) | 罢工选票、剪刀差指数、涅姆奇诺夫表五重批判、契卡—OGPU 统计与集体化跃升 |
+| **L0–L3 多尺度时间线** | [`timeline/L0_macro_epochs.md`](./timeline/L0_macro_epochs.md) | L0 十阶段 → L1 骨干大事 → L2 十卷分期脉络 → L3 二十卷微距编年 |
+| **待寻电子书需求清单** | [`BIBLIOGRAPHY_WISHLIST.md`](./BIBLIOGRAPHY_WISHLIST.md) | 本地 `inbox/` 205 部库存对照与少量待补卷次清单 |
 
 ---
 

@@ -1,0 +1,124 @@
+# 1-Hop 平衡上下文包：`PER-dzerzhinsky` (费利克斯·捷尔任斯基)
+
+> 本文件由 `python scripts/kb.py pack` 自动编译，旨在将失控的 `1+N` 随机读取压缩为**等权重、带时效边实质与史学盲区告警**的单次全景读取。
+
+## 0. 认知完备度与反偏斜仪表盘 (Epistemic & Skew Warnings)
+- **主卡路径**: `cards/people/PER-dzerzhinsky.md`
+- **完备度等级**: `multi-perspective`
+- **已覆盖视角**: `state-institutional, revisionist-economic, liberal-totalitarian, post-soviet-archival-ratkovsky-plekhanov, security-archive-mozokhin, geopolitical-shearer`
+- **待补齐视角**: `polish-national-historiography`
+- **偏斜风险提示**:
+  - ⚠️ 主卡显式声明尚缺以下视角待补: `polish-national-historiography`。
+
+## 1. 主卡核心层 ([T1] + [T2])
+## [T1] 60秒定性微摘要
+波兰立陶宛社民党与布尔什维克领导人。1917年建全俄肃反委员会（契卡）并续掌GPU/OGPU至逝世，奠定苏维埃安全与法外镇压体制；1924–1926年兼任最高国民经济委员会主席，力挺新经济政策市场均衡、保护技术专家并反对超工业化，1926年7月预警“红色独裁者”后猝逝于中央全会。
+
+## [T2] 核心脉络、时效关系边表与史学争鸣光谱
+
+### 2.1 核心历史脉络
+- **波兰社民党斗士与苦役流放（1895–1917）**：生于 `1877-08-30 [O.S.] / 1877-09-11 [N.S.]` 明斯克省波兰贵族家庭；1895年投身立陶宛社民党，自称“民族主义最坚决的敌人”，批判立陶宛与波兰社会党民族分离倾向，化名“天文学家（Astronom）”参与组建波兰立陶宛王国社民党（SDKPiL），与罗莎·卢森堡共事；长期在华沙与彼得堡从事地下工作，六次被捕、累计监禁苦役逾十一年并三度逃亡，直至二月革命爆发才从莫斯科布特尔卡监狱获释（`CLM-plekhanov-am-dzerzhinsky-cheka-institutionalization`）。
+- **执掌安全机关、布列斯特自制与法外镇压体制化（1917.12–1923）**：1917年8月并入布尔什维克并当选中央委员；十月起义中任彼得格勒军事革命委员会委员。`1917-12-07 [O.S.] / 1917-12-20 [N.S.]` 针对全国公职人员罢工危机，苏俄人民委员会第21号会议第9项秘密行政决定批准组建 **全俄肃反委员会（ВЧК）**（初期编制连司机信差仅23人）；`1917-12-19 [O.S.] / 1918-01-01 [N.S.]` 与 `12-21 [O.S.] / 1918-01-03 [N.S.]` 人民委员会在与左翼社革党司法人民委员施泰因贝格的管辖冲突中，确立契卡直隶人民委员会而独立于司法部程序监督的原则（`CLM-leggett-1981-vecheka-extra-legal-origins`, `CLM-cheka-chronicle-suppression-of-socialist-rivals`）。1918年2月捷尔任斯基反对《布列斯特和约》，却基于 SDKPiL“党团统一高于路线分歧”伦理在2月23日关键表决投下弃权票避免党分裂并留任契卡；3–5月建40省365县契卡网络收拢地方私刑，4月缴械无政府主义者；7月6日米尔巴赫遇刺后于7月7日以证人身份主动请辞受查，由**雅各布·彼得斯**代理至 `1918-08-22` 复职；9月5日《关于红色恐怖的决定》（由库尔斯基、彼得罗夫斯基、邦奇-布鲁耶维奇签署，捷尔任斯基此前已于9月2日另发契卡命令）在升级镇压的同时将地方无序处决收归中央监督并处决约60名贪腐契卡人员（`CLM-cheka-chronicle-hostage-and-local-autonomy`, `WEB-1918-09-05-red-terror`）。1922年2月6日契卡改组为 **GPU**、1923年升格 **OGPU**，捷尔任斯基继续担任主席至逝世，并在经历 `1922-08-10`、`1922-10-16` 与 `1924-03-28`（设 OGPU 特别会议）法外权力复辟的同时，于 `1923-08-16` 致信副手温什利希特要求限缩和平时期极刑适用（`CLM-mozokhin-cheka-to-ogpu-extrajudicial-jurisdiction-1918-1929`, `CLM-plekhanov-am-dzerzhinsky-cheka-institutionalization`）。
+- **兼掌最高国民经济委员会（VSNKh）、捍卫 NEP 均衡与预警猝逝（1924–1926.07）**：继1921–1923年兼任交通人民委员（1923年8月3日草拟致斯大林信直言国营部门“无法靠农民的赔偿生活”）后，捷尔任斯基于1924年2月接替李可夫出任 **最高国民经济委员会（ВСНХ）主席** 并任政治局候补委员。他将“使木制、树皮鞋的俄国变成金属的俄国”的工业抱负严格锚定于工农商品交换与硬通货平衡：力挺索科尔尼科夫切尔文改革、压降国营托拉斯出厂价、戳穿虚报75%劳动生产率假象、反对“巨型工程狂热”（`1925-08-10` 致信斯大林要求延缓第聂伯河水电站工程），并在 Retail 环节主张借助规范化私商竞争打破80%–100%国营加价；在政治与用人上，他在1925年4月十四次代表会议上提出**“专家应当凭良心工作，而非出于恐惧”**，重用并庇护金兹堡、卡芬豪斯、瓦连京诺夫等非党及前孟什维克专家（`CLM-plekhanov-am-dzerzhinsky-vsnkh-nep-industrialism-1924-1926`）。1926年5月波兰毕苏斯基政变后，他研判英波可能在1927年发动对苏战争，却由此推导出**必须捍卫新经济政策、严防歧视农民给乌克兰和白俄罗斯白卫及波兰势力提供土壤**的结论（`CLM-stalin-war-1920-polish-war-lessons`）。`1926-07-03` 致信副手古比雪夫，痛陈政治局与劳动国防委员会（СТО）官僚瘫痪，斥托洛茨基—季诺维也夫—皮达可夫超工业化路线必毁党国，并预警若找不到正确经济路线与速度，国家终将产生墨索里尼、毕苏斯基式的**“前红色分子”独裁者——“革命的掘墓人”**。`1926-07-20` 在联共（布）中央与中央监委联席全会作两小时报告痛斥加米涅夫与皮达可夫后，突发心肌梗死于当日16时40分逝世。
+
+### 2.2 时效关系摘要边表（Typed & Temporalized Edges）
+| 关联节点 ID | 关系类型 | 有效时段 | 一句话关系实质摘要（防 N+1 盲跳） | 核心依据/争鸣 |
+| :--- | :--- | :--- | :--- | :--- |
+| `INS-cheka-gpu-ogpu` | `founder-and-chairman` | 1917.12–1926.07 | 缔造契卡并在1922年2月改组后继任GPU/OGPU主席至死，构建直隶党政最高层的法外安全机器 | `CLM-plekhanov-am-dzerzhinsky-cheka-institutionalization`, `CLM-mozokhin-cheka-to-ogpu-extrajudicial-jurisdiction-1918-1929` |
+| `INS-vsnkh-and-gosplan` | `vsnkh-chairman` | 1924.02–1926.07 | 掌管最高国民经济委员会期间坚持降本增效、硬预算约束与护卫技术专家，反对盲目重工业跃进 | `CLM-plekhanov-am-dzerzhinsky-vsnkh-nep-industrialism-1924-1926` |
+| `PER-lenin` | `security-chief -> friction` | 1917–1924 | 长期受列宁倚重直掌契卡与交通；1922年底格鲁吉亚调查组包庇奥尔忠尼启则遭病中列宁严厉批判 | `CLM-leggett-1981-vecheka-extra-legal-origins`, `CLM-lewin-1968-georgian-affair-bureaucracy` |
+| `POL-nep` | `industrial-guardian` | 1924–1926.07 | 拒绝“靠农民赔偿”发展国营工业，以降低工业出厂价、容许规范私商及工农商品结合护航NEP | `CLM-plekhanov-am-dzerzhinsky-vsnkh-nep-industrialism-1924-1926`, `CLM-stalin-war-1920-polish-war-lessons` |
+| `PER-sokolnikov` | `fiscal-monetary-ally` | 1924–1926 | 力挺切尔文金本位改革与紧缩财政纪律，共同抵制通货膨胀式工业信贷扩张 | `CLM-plekhanov-am-dzerzhinsky-vsnkh-nep-industrialism-1924-1926` |
+| `PER-bukharin` | `macroeconomic-ally` | 1924–1926.07 | 在工业化与市场均衡之争中结盟，共同反击普列奥布拉任斯基—托洛茨基—皮达可夫超工业化方案 | `CLM-cohen-1973-nep-viability`, `CLM-plekhanov-am-dzerzhinsky-vsnkh-nep-industrialism-1924-1926` |
+| `PER-stalin` | `ally-with-anxiety` | 1920–1926.07 | 政治上协同反击托季反对派，但1925–1926在延缓巨型工程与官僚僵化上屡致密信抗议并在死前预警独裁者危险 | `CLM-plekhanov-am-dzerzhinsky-vsnkh-nep-industrialism-1924-1926`, `Kotkin (2014)` |
+| `PER-kuibyshev` | `deputy-and-confidant -> successor` | 1924–1926.07 | 1926-07-03致古比雪夫绝笔信吐露绝望并预警“红色掘墓人”；其猝死后古比雪夫接任VSNKh并转向高速重工业化 | `CLM-plekhanov-am-dzerzhinsky-vsnkh-nep-industrialism-1924-1926`, `CLM-cohen-1973-notes-of-an-economist` |
+| `ORG-left-srs` | `coalition-check -> suppressor` | 1917.12–1918.07 | 1918.01–06左翼社革党委员在契卡内以一致决否决政治死刑并掣肘施泰因贝格司法监督；7.6叛乱后遭清洗 | `CLM-cheka-chronicle-suppression-of-socialist-rivals`, `CLM-plekhanov-am-dzerzhinsky-cheka-institutionalization` |
+
+### 2.3 史学争鸣光谱（Historiographical Spectrum）
+- **经验共识**：捷尔任斯基兼具清教徒式的个人道德自律与毫不留情的国家安全手腕；1924–1926年他作为最高国民经济委员会主席与 OGPU 主席的双重身份，构成了苏联最高层内部捍卫新经济政策市场均衡、保护非党专家并阻挡激进超工业化的最强实权支点。
+- **主要解释分歧**：
+  - **[自由主义与制度极权论 / George Leggett, Richard Pipes]** (`CLM-leggett-1981-vecheka-extra-legal-origins`, `CLM-leggett-1981-cheka-to-gpu-continuity`, `CLM-pipes-1990-red-terror-leninist-logic`)：强调契卡创立决议脱离司法审查的法外行政基因与“宁可错杀无辜”原则，认为其摧毁了苏俄法治雏形与社会主义多党空间，并经由 GPU/OGPU 直接衔接斯大林主义恐怖体制。
+  - **[俄罗斯安全档案与制度史学 / А. М. Плеханов, И. С. Ратьковский]** (`CLM-plekhanov-am-dzerzhinsky-cheka-institutionalization`, `CLM-cheka-chronicle-hostage-and-local-autonomy`, `CLM-cheka-chronicle-suppression-of-socialist-rivals`)：修正“预先极权蓝图”说，证明1917年12月契卡乃应对全国罢工的23人应急机构，1918年春—秋地方自发私刑先于中央9月5日法令而起，后者反而起到收束地方失控与降频规范的作用；同时指出捷尔任斯基1923年主动主张限缩和平时期死刑。
+  - **[FSB 档案法外权限批判派 / О. Б. Мозохин]** (`CLM-mozokhin-cheka-to-ogpu-extrajudicial-jurisdiction-1918-1929`)：据 `ЦА ФСБ РФ` 与政治局特藏指出，内战战时法外权限（如 `1920-04-05` 无足够证据亦可关押劳改营5年）在1922年2月撤销契卡后，经政治局主导于 `1922–1924` 年迅速复辟为 OGPU 特别会议与“三人小组”，使普通法院沦为政治局的“遮羞布”，客观上为1928–1930年代无紧急状态下的大规模镇压备好了机构工具。
+  - **[修正派经济史与地缘反推 / E. H. Carr, Stephen Cohen, David Shearer]** (`CLM-plekhanov-am-dzerzhinsky-vsnkh-nep-industrialism-1924-1926`, `CLM-stalin-war-1920-polish-war-lessons`)：发掘捷尔任斯基在 VSNKh 的“市场—硬通货—专家庇护”路线，指出这为科恩的 NEP 替代方案提供了强力部门与重工业主帅的内部支撑；Shearer 更指出1926年捷尔任斯基与1928年斯大林虽同感波兰军事威胁，前者却从中推出必须护农保 NEP，其猝死消除了阻挡1929年集体化转向的最关键实权制衡（尽管到1926年夏捷尔任斯基本人亦面临固定资本更新与速度滞后的结构焦灼）。
+
+## 2. 一跳邻域等权重微摘要 (共 3 个关联节点，严防大卡霸占上下文)
+### 邻居节点: `POL-war-communism`
+- **时效关系边** (`PER-dzerzhinsky` → `POL-war-communism` | `security-enforcer` | 有效时段: `1917.12-1921`): 主持创立全俄肃反委员会(契卡)并在内战期执行红色恐怖；1924年后任最高国民经济委员会主席转而支持新经济政策财政平衡。
+- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 1918年夏至1921年3月苏维埃经济政策总称：余粮收集制、中小工业国有化、取缔私商、货币贬值与实物配给并举；因内战饥荒与国家能力崩溃而强化，却在1921年喀琅施塔得与坦波夫危机下为新经济政策实物税所取代；其性质是应急、乌托邦跃进还是国家统制传统延续，史家分歧剧烈。
+
+### 邻居节点: `ORG-cheka-ogpu`
+- **时效关系边** (`PER-dzerzhinsky` → `ORG-cheka-ogpu` | `founder-chairman` | 有效时段: `1917.12-1926.07`): 长期执掌契卡—GPU—OGPU，将其从临时行政预审机构打造为兼具反间谍、镇压异议与监控经济民情(svodki)的常设党国安全机器。
+- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 苏俄与苏联早期政治警察机关（1917–1934），由捷尔任斯基创立。历经全俄肃反委员会（ВЧК，1917–1922）、国家政治保卫局（ГПУ，1922–1923）与国家政治保卫总局（ОГПУ，1923–1934）三阶段，从法外非常机构演变为直属政治局的常设宪制部门，执行红色恐怖与强制集体化。
+
+### 邻居节点: `INS-cheka-gpu-ogpu`
+- **时效关系边** (`PER-dzerzhinsky` → `INS-cheka-gpu-ogpu` | `founder-chairman` | 有效时段: `1917.12-1926.07`): 主持创立全俄肃反委员会并在1922-1923年主导其向GPU/OGPU常规化转型，保留法外特别会议流放与处决权及全苏舆情监控网。
+- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 苏维埃政治警察演进谱系（兼参 `ORG-cheka-ogpu`）。1917年12月依人民委员会内部决议创立契卡，历经1918红色恐怖与地方失控之争；1922改组GPU/OGPU仍重建法外特别会议，一面以 *svodki* 监测工农情绪，一面在1927恐慌、沙赫特案及1929强制征粮中充当暴力中枢。
+
+## 3. 关联史学争鸣光谱 (Historiographical Debates)
+### `DEB-1918-red-terror-and-civil-war-origins`：红色恐怖、契卡扩张与内战期一党专政起源之争（1918–1921）
+## [T1] 核心问题定义
+1918–1921年红色恐怖、契卡法外处决、对社会主义反对派的镇压，以及内战期间政党竞争被压缩为一党统治，应被解释为布尔什维克意识形态与列宁主义权力逻辑的宿命展开，还是多重危机（经济崩溃、联盟破裂、地方失控、内战动员）下可错链条上的制度选择？恐怖与一党制是同一过程还是须分时段因果？
+
+## [T2] 各学派立场对照矩阵
+
+**经验共识**：1917年12月契卡（全俄肃反委员会）成立；1918年7月左派社会革命党起义后左翼社会主义者被逐出权力结构；1918年9月5日人民委员会颁布《关于红色恐怖》决议；内战1918–1920在多条战线同时进行；1918–1921征粮与契卡行动在地方相互嵌合。
+
+| 学派/取向 | 代表学者与著作 | 核心论点摘要 | 支撑论断卡 | 主要受批评盲点 |
+| :--- | :--- | :--- | :--- | :--- |
+| **意识形态宿命论** | Richard Pipes, *The Russian Revolution* (1990); Orlando Figes, *A People's Tragedy* (1996) | 强调反自由主义知识分子传统、列宁废法统治与阶级敌人话语，使恐怖成为夺取与巩固权力的内在逻辑；Figes 另重农民“悲剧”道德经济。 | `CLM-pipes-1990-red-terror-leninist-logic` | 时间线易前推到1917末，低估联盟期与反对派选项；Figes 与 Pipes 因果权重不一。 |
+| **复合危机与联盟破裂论** | Alexander Rabinowitch, *The Bolsheviks in Power* (2007) 等 | 彼得格勒首年追踪与左派社革党联盟从执政到破裂；恐怖升级与粮食危机、暗杀、前线失败交织，而非单线预谋。 | `CLM-rabinowitch-2007-left-sr-coalition-collapse`, `CLM-rabinowitch-2007-contingency-of-dictatorship` | 首都政党政治详尽，偏远地方契卡实践待补。 |
+| **制度史与阶段论** | George Leggett, *The Cheka: Lenin's Political Police* (1981); Ilya S. Ratkovsky（及契卡编年史学） | Leggett：契卡从法外 origin 到 GPU 连续体制化；Ratkovsky：1918 夏已有人质与处决规模，9月5日法令是公开化节点而非“零起点”。 | `CLM-leggett-1981-vecheka-extra-legal-origins`, `CLM-leggett-1981-red-terror-institutionalization`, `CLM-leggett-1981-cheka-to-gpu-continuity`, `CLM-cheka-chronicle-hostage-and-local-autonomy`, `CLM-cheka-chronicle-suppression-of-socialist-rivals` | Leggett 偏重中央法令；地方自治与契卡失控需档案对勘。 |
+| **1914–1921 总体战治理连续论** | David G. Hoffmann, *Cultivating the Masses: Modern State Practices and Soviet Socialism, 1914–1939* (2011) | 征粮、动员、战备与“培养大众”技术沿袭一战国家实践；苏联社会主义是欧洲现代国家治理谱系的一极，而非凭空乌托邦。 | `CLM-hoffmann-2011-continuum-of-total-war-1914-1929`, `CLM-hoffmann-2011-enlightenment-and-coercion-duality`, `CLM-hoffmann-2011-soviet-socialism-as-european-modernity` | 连续性不等于免除布尔什维克政党特有选择责任。 |
+| **内战军事—地理决定论（背景）** | Evan Mawdsley, *The Russian Civil War* (1987) | 红军人口—工业内线优势与白军结构性政策失败解释内战结局；为恐怖与征粮提供战略背景，不单独承担一党制意识形态解释。 | `CLM-mawdsley-1987-civil-war-militarized-regime`, `CLM-mawdsley-1987-sovdepia-demographic-industrial-base` | 军事动员不等于党内反对派清洗因果。 |
+
+### `DEB-1918-war-communism-ideology-or-emergency`：战时共产主义与一党制起源：意识形态、紧急状态还是混合驱动？
+## [T1] 核心问题定义
+1918–1921年的征粮、国有化与市场管制，以及反对派被排除出政治竞争，源自先在意识形态蓝图、内战生存危机，还是二者与制度选择的互动？经济政策与一党制形成相关，却是需要分别解释的过程。
+
+## [T2] 各学派立场对照矩阵
+
+**经验共识**：国家控制与强制征粮在经济崩溃、战争和供应危机中扩展；革命政权与反对派关系逐步恶化。1917年底至1918年存在布尔什维克与左派社会革命党联盟，其破裂及镇压是过程中的关键转折，不应说十月当天即形成成熟一党体制。
+
+| 取向与代表著作 | 解释及依据 | 争议与检验 |
+| :--- | :--- | :--- |
+| 意识形态与组织连续性：Martin Malia, *The Soviet Tragedy*；Richard Pipes, *The Russian Revolution* | 强调反市场社会主义目标、布尔什维克的权力观及暴力政治倾向，认为危机使既有目标得以激进实施。 | 二人论证不完全相同；“乌托邦蓝图”是解释类型而非已证实的统一政策时间表。须检验各措施出台前的实际主张，而非由结果倒推计划。 |
+| 应急与制度史：E. H. Carr, *The Bolshevik Revolution, 1917–1923*；Moshe Lewin, *The Making of the Soviet System* | 注重经济瓦解、内战与国家能力不足，并追踪政策和制度如何在压力下演化；两人对意识形态和社会结构的权重并不相同。 | 单以危机不能解释为何在不同可行选项中选择特定强制措施，也不能假定所有压制都是军事上必需。 |
+| 危机与选择交互：Alexander Rabinowitch, *The Bolsheviks in Power*；Evan Mawdsley, *The Russian Civil War* | Rabinowitch以彼得格勒首年政治危机和联盟变化解释权力集中；Mawdsley的内战研究提供军事、政治及区域背景。混合框架检验思想、战争、资源与政治竞争的互动。 | 彼得格勒不等于全国；战时共经济政策与一党政治的时间线也不能混同。把两位作者归于同一假说仅是分析性并置，不代表其因果权重一致。 |
+
+### `DEB-1928-bukharin-alternative`：“布哈林替代方案”与新经济政策终结之争（1928–1929）
+## [T1] 核心问题定义
+1927–1929年新经济政策瓦解与斯大林击败布哈林集团，究竟源于小农低商品率与布尔什维克高工业化/价格管制目标之间无法调和的结构性死结，还是源于1926–1928年具体经济政策失误与党内权力机器垄断扼杀了布哈林所主张的市场-合作社均衡工业化替代路径？
+
+## [T2] 各学派立场对照矩阵
+
+| 学派/研究取向 | 代表学者与馆藏著作 | 核心论点摘要 | 已核实馆藏依据 | 主要受批评局限 |
+| :--- | :--- | :--- | :--- | :--- |
+| **政治传记“替代方案论”** | Stephen F. Cohen (`cohen_1973_bukharin`) | 新经济政策并未枯竭；布哈林基于列宁《论合作社》与《经济学家札记》（1928-09-30）提出了协调工农利益的可行渐进规划；但1928年1月政治局起初一致批准临时非常措施（p. 278），随后斯大林将其升级为常态路线并凭组织机器获胜。 | Cohen pp. 177, 278, `PDF p. 318` | 被批评高估了布哈林方案在重工业资本积累缺口与布尔什维克反市场意识形态下的政治可持续性。 |
+| **农村社会史与长短周期分离论** | Moshe Lewin (`lewin_1968_peasants`) | 区分1927–28年粮食危机与1929–30年冬全盘强制集体化：同情渐进合作化，但直言布哈林部分理论“仅在短期有效”，而普列奥布拉任斯基对中长期工业投资瓶颈的诊断更具预见性（Preface `PDF p. 12`）。 | Lewin `PDF pp. 10, 12, 68` | — |
+| **发展经济学与计划经济史派** | Alexander Erlich (`erlich_1960_industrialization`)、Carr & Davies (`carr_davies_1969_foundations_v1p1`)、Alec Nove (`nove_1964_was_stalin_necessary`) | Erlich 证明1924–28论战双方（含普列奥布拉任斯基，pp. 44, 177）均未预设暴力全盘集体化；Carr & Davies 与 Nove 揭示国家人为压低谷物收购价（相对于畜牧和经济作物）及工业品饥荒造成1927冬收购锐减。 | Erlich pp. 44, 177; Carr & Davies Vol.1 | 经济上本可通过调价与温和税收缓和，但与党领导层既定超高速军重工业目标直接冲突。 |
+| **政治局体制与新经济政策死胡同论** | Oleg Khlevniuk (`khlevniuk_2015_stalin`) | 一方面指出1927年危机表明新经济政策发展模式受多重因素制约已难以为继（Ch. 3）；另一方面从中央书记处干部任命制（Nomenklatura）与政治局纪律剖析布哈林集团为何在组织上迅速瓦解。 | Khlevniuk EPUB Ch. 3 | 偏重高层权力与体制锁死，对非强制替代经济路径的计量效率讨论较少。 |
+| **意识形态死结与能动性决断论** | Stephen Kotkin (`kotkin_2014_stalin_v1`, Ch. 13–14 & Coda) | “新经济政策若经济成功便在布尔什维克阶级政治上自我失败”（商品粮依赖大播户即潜伏“富农”）；但同时反对结构宿命论，指出若无斯大林1928年1月西伯利亚督粮的个人铁腕决断，强制全盘集体化概率极低。 | `CLM-kotkin-2014-siberian-grain-turn`, `CLM-kotkin-2014-bukharin-dilemma` | 第1卷叙事止于1928年底，1929年4月与11月全会交锋待补第2卷与全会速记。 |
+
+### `DEB-1929-collectivization-and-dekulakization-causes`：1929年全盘集体化与消灭富农阶级动因总公案
+## [T1] 核心问题定义
+1929年秋斯大林体制性推进全盘集体化并宣布“消灭富农作为阶级”，究竟是因为新经济政策（NEP）道路在工农价格剪刀差与工业化投资缺口下已结构性破产、布哈林渐进方案被权力机器扼杀（还有何种替代仍可能），还是因为1927–28粮食统计失真、地方征粮竞速与所谓“战争恐慌”触发的螺旋，再叠加领袖对外备战焦虑与反市场意识形态而成为一种可被避免却未被避免的急转弯？
+
+## [T2] 各学派立场对照矩阵
+
+**经验共识**：1927冬—1928春出现严重粮食收购危机；1928年1月西伯利亚“非常措施”与乌拉尔-西伯利亚方法将行政强制包装为村社压力（`POL-ural-siberian-method`）；1929年4月与11月中央全会后集体化指标急剧跃升；1929年12月通过关于富农政策措施，公开的阶级清洗话语制度化。
+
+| 学派/取向 | 代表学者与著作 | 核心论点摘要 | 支撑论断卡 | 主要受批评盲点 |
+| :--- | :--- | :--- | :--- | :--- |
+| **布哈林 NEP 可行替代论** | Stephen F. Cohen, *Bukharin and the Bolshevik Revolution* (1973); Moshe Lewin, *Russian Peasants and Soviet Power* (1968) | Cohen：1928年布哈林仍提出可调节市场—合作社渐进工业化；斯大林将临时征粮升级为路线并凭组织拳头获胜。Lewin：区分1927–28危机与1929–30暴力集体化，警告勿将“富农”范畴自然化。 | `CLM-cohen-1973-nep-viability`, `CLM-cohen-1973-bukharin-organizational-defeat`, `CLM-cohen-1973-notes-of-an-economist`, `CLM-lewin-peasants-1968-grain-procurement-crisis`, `CLM-lewin-peasants-1968-kulak-myth-and-serednyak`, `CLM-lewin-peasants-1968-ural-siberian-method` | 替代方案在政治意识形态与国防重工业目标下是否可赢得多数派，争议未终结。 |
+| **统计失真与地方竞速螺旋论** | R. W. Davies, *The Socialist Offensive* (1980) 及集体化史系列；Nikolai Ivnitskii（富农消灭过程档案研究） | Davies：批判将1929秋单纯回溯为1928秋“大转变已定局”的史学叙事；地方各级党委在指标竞赛中层层加码。Ivnitskii：实际操作中“富农”划界高度政治化且地区差异巨大。 | `CLM-davies-1980-autumn-1929-great-turn-fabrication`, `CLM-davies-1980-november-plenum-to-dekulakization` | 计量史学与农村社会史接点仍薄；Ivnitskii 著作本库精读未完。 |
+| **外部备战焦虑与意识形态死结论** | Stephen Kotkin, *Stalin*, vol. 1 (2014); David R. Shearer（警察国家与工业化）；Lynne Viola 等集体化执行史 | Kotkin：新经济政策在经济成功时亦在布尔什维克阶级政治上自我失败；1928斯大林个人决断打开全盘集体化概率。Shearer/Velikanova 补充高压执行与恐慌政治。 | `CLM-kotkin-2014-siberian-grain-turn`, `CLM-kotkin-2014-bukharin-dilemma`, `CLM-kotkin-2014-geopolitics-and-ideology`, `CLM-velikanova-2013-war-scare-hoarding-and-grain-crisis`, `CLM-velikanova-2013-leadership-manipulation-and-self-deception` | Kotkin 第1卷止1928底；1929全会细节待续卷与速记。 |
+| **结构与投资缺口论** | Alexander Erlich (1960); Oleg Khlevniuk (2015) | Erlich：论战各方1924–28均未预设暴力全盘集体化，但工业投资瓶颈真实。Khlevniuk：政治局体制与新经济政策“死胡同”从组织面解释布哈林集团迅速溃败。 | `CLM-erlich-1960-preobrazhensky-dilemma`, `CLM-erlich-1960-stalin-overkill-turn`, `CLM-khlevniuk-2015-secretariat-and-nomenklatura` | 结构制约论易被误读为取消领袖能动性或农民抵抗作用。 |
+
+## 4. 关联时间线锚点 (共 6 条)
+- **1921-03-18 [N.S.]** (`TL-W7-1921-03-18-01`, L3): **[双线A] 巴黎公社五十周年日黎明：战列舰易手，喀琅施塔得要塞全面陷落** — 3月18日拂晓红军军校生攻克两艘主力舰并救出库兹明等被押党政人员，午间全岛最终陷落；约8,000名军民踏冰流亡芬兰，被俘人员旋遭秘密处决或流放。同日苏联在里加与波兰签约撤出东欧战场，以血与火锁闭“经济退却+一党专政”体制。
+- **1922-12-30 [N.S.]** (`TL-W8-1922-12-30-01`, L3): **苏联正式宣告成立同日，列宁绝密口授《关于民族或“自治化”问题》痛斥斯大林—奥尔忠尼启则“大俄罗斯沙文主义暴行”** — 正当全苏一大宣告成立USSR之际，列宁得悉奥尔忠尼启则殴打格鲁吉亚同志及捷尔任斯基包庇内情，于12月30–31日口授三段绝密札记，痛斥“真正俄罗斯的杰尔日莫尔达”、呼吁不惜缩编联盟仅留军外两部，并直指斯大林应负政治责任且须严惩奥尔忠尼启则。
+- **1923-01-24 [N.S.]** (`TL-W8-1923-01-24-01`, L3): **列宁索要捷尔任斯基格鲁吉亚调查卷宗；政治局拖延并于25日抢先背书奥尔忠尼启则报告** — 列宁突破禁令责令福季耶娃调取全案卷宗并设立私人复查三人组；1月25日政治局却趁其未阅卷先期批准了为奥尔忠尼启则开脱、反斥姆迪瓦尼的结论，直至2月1日迫于压力才交出原始卷宗。
+- **1923-03-03 [N.S.]** (`TL-W8-1923-03-03-01`, L3): **私人复核三人小组呈交格鲁吉亚档案核查备忘，证实奥尔忠尼启则粗暴殴打与包庇内情** — 福季耶娃、戈尔布诺夫与格利亚塞尔经一月细致审档向列宁呈报结论，从原始笔录实证奥尔忠尼启则打人事实与高加索区委—捷尔任斯基调查组对格鲁吉亚投诉的压制遮掩，促使列宁决定发起终局清算。
+- **1926-07-03 [N.S.]** (`TL-W25-1926-07-03-01`, L3): **捷尔任斯基致古比雪夫绝密信警告“披红羽的独裁者”** — 捷尔任斯基在辞世前十七日私下致信古比雪夫，痛陈STO与政治局官僚空转令经济窒息，警告若找不到正确速度与党内团结，国家必将迎来如墨索里尼、毕苏斯基般的“独裁者——革命的掘墓人”。
+- **1926-07-20 [N.S.]** (`TL-W25-1926-07-20-01`, L3): **捷尔任斯基在全会讲坛痛斥反对派后于16:40猝逝** — VSNKh兼OGPU主席捷尔任斯基抱病演讲两小时激烈痛斥加米涅夫与皮达可夫后，在克里姆林宫公寓心脏病突发于16:40辞世；同日反对派提交《补充声明》，8月5日古比雪夫接任VSNKh。

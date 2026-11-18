@@ -1,0 +1,33 @@
+id: MONO-leggett-1981-cheka
+slug: leggett_1981_cheka
+title: "契卡：列宁的政治警察——全俄肃清反革命及怠工非常委员会（1917年12月至1922年2月）"
+title_original: "The Cheka: Lenin's Political Police: The All-Russian Extraordinary Commission for Combating Counter-Revolution and Sabotage (December 1917 to February 1922)"
+author: "乔治·莱格特"
+author_original: "George Leggett"
+publisher: "Clarendon Press / Oxford University Press"
+pub_year: 1981
+isbn: "0-19-822552-0"
+language: "en"
+epistemic_tier: "A"
+subject_period: "1917–1922 (十月革命、内战、红色恐怖、契卡的创立、职能演变与改组为国家政治保卫局 GPU)"
+source_file: "inbox/The Cheka  Lenins political police  the all-Russian extraordinary commission for combating counter-revolution and sabotage,… (Leggett, George) (z-library.sk, 1lib.sk, z-lib.sk).pdf"
+source_format: pdf
+needs_ocr: false
+quality_check:
+  total_pages: 564
+  text_bearing_pages: 548
+  empty_or_image_pages: 16
+  ocr_coverage_pct: 97.2
+  text_layer_status: "牛津克拉伦登出版社权威版本，嵌入式 OCR 文本层清晰完整，附录、人事考证、机构组织图与详尽注释均保留完好"
+extraction_stats:
+  chapters_count: 19
+  total_lines: 28103
+  total_chars: 1489398
+  chunk_strategy: "chunk_pages_30"
+  index_file: "toc.md"
+status: ready_for_close_reading
+quality_notes: "564 PDF pages in 19 chunks (1,489,398 chars); Oxford Clarendon Press edition, clean text"
+historiographical_note: >
+  西方学界关于苏维埃早期安全机构（契卡 Cheka）起源与制度建构的实证主义经典力作。
+  全书以翔实的文献档案考证了从十月革命军事革命委员会治安职能、1917年12月列宁与捷尔任斯基创设契卡、
+  1918年红色恐怖法令的推行、对左翼社会革命党与无政府主义者的镇压，直到1922年内战结束后契卡改组为国家政治保卫局（GPU）的制度制度化全过程。

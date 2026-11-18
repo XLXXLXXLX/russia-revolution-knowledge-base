@@ -187,6 +187,7 @@ def cmd_toc(args: argparse.Namespace) -> int:
 
 def parse_simple_frontmatter(md_text: str) -> tuple[dict[str, Any], str]:
     """轻量解析本库标准 YAML Frontmatter 与正文 (零外部依赖)。"""
+    md_text = md_text.replace("\r\n", "\n")
     if not md_text.startswith("---\n"):
         return {}, md_text
     end_idx = md_text.find("\n---\n", 4)
@@ -677,6 +678,46 @@ def cmd_scan_inbox(args: argparse.Namespace) -> int:
     return 0
 
 
+def cmd_merge_timeline(_args: argparse.Namespace) -> int:
+    ledger_path = ROOT / "timeline" / "events_ledger.jsonl"
+    by_id: dict[str, dict[str, Any]] = {}
+    for ev in load_jsonl(ledger_path):
+        by_id[ev["id"]] = ev
+
+    cand_files = sorted((ROOT / "timeline").rglob("_*events.jsonl"))
+    merged_count = 0
+    for cf in cand_files:
+        for ev in load_jsonl(cf):
+            # 标准化保留核心字段
+            clean = {
+                "id": ev["id"],
+                "date_ns": ev["date_ns"],
+                "date_os": ev.get("date_os"),
+                "precision": ev.get("precision", "day"),
+                "level": ev.get("level", 2),
+                "era": ev.get("era", ""),
+                "title": ev.get("title", ""),
+                "summary": ev.get("summary", ""),
+                "actors": ev.get("actors", []),
+                "cards": ev.get("cards", []),
+                "debates": ev.get("debates", []),
+                "sources": ev.get("sources", []),
+            }
+            if ev.get("time_of_day"):
+                clean["time_of_day"] = ev["time_of_day"]
+            by_id[clean["id"]] = clean
+            merged_count += 1
+        cf.unlink()
+
+    sorted_items = sorted(by_id.values(), key=lambda x: (x.get("date_ns", ""), x.get("time_of_day") or "", x.get("id", "")))
+    ledger_path.write_text(
+        "\n".join(json.dumps(x, ensure_ascii=False) for x in sorted_items) + "\n",
+        encoding="utf-8",
+    )
+    print(f"已归并 {len(cand_files)} 个候选文件中的 {merged_count} 条记录 -> 主台账当前共 {len(sorted_items)} 条独立事件。")
+    return 0
+
+
 def build_parser() -> argparse.ArgumentParser:
     parser = argparse.ArgumentParser(description="俄国革命知识库核心管理 CLI")
     sub = parser.add_subparsers(dest="cmd", required=True)
@@ -731,6 +772,9 @@ def build_parser() -> argparse.ArgumentParser:
     p_scan = sub.add_parser("scan-inbox", help="扫描 inbox/ 生成轻量级 Git 追踪元数据清单")
     p_scan.add_argument("--write", action="store_true", help="写入 sources/inbox_inventory.jsonl")
     p_scan.set_defaults(func=cmd_scan_inbox)
+
+    p_merge_tl = sub.add_parser("merge-timeline", help="归并候选事件 JSONL 进入主 events_ledger.jsonl")
+    p_merge_tl.set_defaults(func=cmd_merge_timeline)
 
     return parser
 

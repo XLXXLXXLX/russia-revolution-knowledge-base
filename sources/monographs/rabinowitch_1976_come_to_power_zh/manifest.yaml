@@ -1,0 +1,31 @@
+slug: rabinowitch_1976_come_to_power_zh
+title: "布尔什维克掌权：1917年彼得格勒革命"
+title_original: "The Bolsheviks Come to Power: The Revolution of 1917 in Petrograd"
+title_intermediary_ru: "Большевики приходят к власти: Революция 1917 года в Петрограде"
+author: "Alexander Rabinowitch (亚历山大·拉宾诺维奇)"
+translator_or_uploader: "一个普通的人（自1989年莫斯科进步出版社俄文版转译的中译本）"
+year: 1976
+edition: "1989年苏联俄文版（Прогресс / Progress Publishers）转译本，附作者1989年4月撰写的《致苏联读者》序言（英文原版初版于1976年由 W. W. Norton 出版）"
+publisher: "W. W. Norton & Company (1976 EN) / Прогресс (1989 RU)"
+language: zh
+original_language: en
+intermediary_language: ru
+source_tier: A
+category: monograph
+historiographical_school: "西方社会史与政党组织史修正派（论证1917年布尔什维克在彼得格勒夺权并非孤立军事政变，而是得益于党组织的内部民主、开放性、策略灵活性以及‘全部政权归苏维埃’口号与基层工兵水兵诉求的契合）"
+time_coverage: "1917-07 – 1917-10 (从七月事变余波、科尔尼洛夫叛乱直至十月武装起义与全俄苏维埃二大)"
+calendar_note: "正文所有日期均按1917年俄国使用的旧历（儒略历 O.S.）给出，换算公历需 +13 天。"
+source_file: "inbox/布尔什维克掌权1917年彼得格勒革命 (一个普通的人) (z-library.sk, 1lib.sk, z-lib.sk).epub"
+extraction:
+  tool: "scripts/extract_book.py"
+  format: epub
+  chapters_count: 20
+  total_lines: 2592
+  total_chars: 361728
+  toc_file: "toc.md"
+quality_notes:
+  text_layer: "EPUB 结构清晰，按 OPF spine 提取为20个章节文件（含 Annotation、致苏联读者、前言、正文第1–15章、尾声、精选书目），每章末尾完整附有该章注释。"
+  warnings:
+    - "【转译版本警告】本文件并非从1976年英文原版直接翻译，而是由俄文版《Большевики приходят к власти》（莫斯科进步出版社1989年版）转译为中文，且包含机器辅助翻译与译者校订痕迹。"
+    - "由于经俄文版中转及OCR底本影响，存在若干典型转译与OCR瑕疵：(1) 个别章节将‘苏维埃代表大会（Съезд Советов）’误译为‘苏联大会’（如 `ch02_前言.md` 第51行）；(2) 第1号命令被俄文底本脚注号连写污染为‘第123号命令’（`ch02_前言.md` 第43行）；(3) 战壕报刊《Окопная правда（战壕真理报）》在注释中被音译为‘奥坑真理报’（`ch03_1_七月起义.md` 第64行）；(4) 部分注释保留了未译出的俄文原文或俄文OCR乱码（如 `11анкратовым`、`Л.` 代替 `A.`）。"
+    - "EPUB 无原始英文纸书页码锚点（仅标注 `epub:index_split_XXX.xhtml`），引用论断时请标注章节号与节内段落/注释号，并注意修正上述俄转中专有名词偏差。"

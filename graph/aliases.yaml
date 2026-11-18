@@ -2,6 +2,42 @@
 # 供 graph-curator 与 scripts/kb.py 统一标准 ID，防止同一历史对象裂变为多张孤立卡片
 
 entities:
+  PER-herzen:
+    canonical_zh: "亚历山大·赫尔岑"
+    ru: "Александр Иванович Герцен"
+    en: "Alexander Ivanovich Herzen"
+    aliases: ["赫尔岑", "伊斯坎德尔 (Искандер)"]
+
+  PER-chernyshevsky:
+    canonical_zh: "尼古拉·车尔尼雪夫斯基"
+    ru: "Николай Гаврилович Чернышевский"
+    en: "Nikolai Gavrilovich Chernyshevsky"
+    aliases: ["车尔尼雪夫斯基"]
+
+  PER-tkachev:
+    canonical_zh: "彼得·特卡乔夫"
+    ru: "Пётр Никитич Ткачёв"
+    en: "Pyotr Nikitich Tkachev"
+    aliases: ["特卡乔夫"]
+
+  PER-zhelyabov:
+    canonical_zh: "安德烈·热利亚博夫"
+    ru: "Андрей Иванович Желябов"
+    en: "Andrei Ivanovich Zhelyabov"
+    aliases: ["热利亚博夫"]
+
+  ORG-zemlya-i-volya:
+    canonical_zh: "土地与自由社"
+    ru: "Земля и воля"
+    en: "Zemlya i Volya (Land and Liberty)"
+    aliases: ["土地与自由"]
+
+  ORG-osvobozhdenie-truda:
+    canonical_zh: "劳动解放社"
+    ru: "Группа «Освобождение труда»"
+    en: "Emancipation of Labour Group"
+    aliases: ["劳动解放小组"]
+
   ORG-narodnaya-volya:
     canonical_zh: "民意党"
     ru: "Народная воля"
@@ -14,11 +50,515 @@ entities:
     en: "Black Repartition"
     aliases: ["黑土重分派", "土地重分社"]
 
+  ORG-psr:
+    canonical_zh: "社会革命党"
+    ru: "Партия социалистов-революционеров (ПСР)"
+    en: "Socialist Revolutionary Party (SRs)"
+    aliases: ["社革党", "社会革命党人", "Эсеры", "PSR"]
+
+  ORG-left-srs:
+    canonical_zh: "左翼社会革命党"
+    ru: "Партия левых социалистов-революционеров (ПЛСР)"
+    en: "Left Socialist-Revolutionaries (Left SRs)"
+    aliases: ["左翼社革党", "ПЛСР"]
+
+  ORG-mensheviks:
+    canonical_zh: "孟什维克"
+    ru: "Меньшевики"
+    en: "Mensheviks"
+    aliases: ["俄国社会民主工党（孟什维克）", "少数派"]
+
+  ORG-cheka-ogpu:
+    canonical_zh: "全俄肃反委员会—国家政治保卫局"
+    ru: "ВЧК–ГПУ–ОГПУ"
+    en: "Cheka / GPU / OGPU"
+    aliases: ["契卡", "格伯乌", "全俄非常委员会", "Vecheka"]
+
+  ORG-workers-opposition:
+    canonical_zh: "工人反对派"
+    ru: "Рабочая оппозиция"
+    en: "Workers' Opposition"
+    aliases: ["俄共（布）工人反对派"]
+
+  CON-socialism-in-one-country:
+    canonical_zh: "一国建成社会主义"
+    ru: "Построение социализма в одной стране"
+    en: "Socialism in One Country"
+    aliases: ["一国社会主义"]
+
+  CON-primitive-socialist-accumulation:
+    canonical_zh: "社会主义原始积累"
+    ru: "Первоначальное социалистическое накопление"
+    en: "Primitive Socialist Accumulation"
+    aliases: ["社会主义原始积累规律"]
+
+  CON-democratic-centralism-and-vanguard:
+    canonical_zh: "先锋队政党与民主集中制"
+    ru: "Демократический централизм и партия нового типа"
+    en: "Democratic Centralism and Vanguard Party"
+    aliases: ["民主集中制", "职业革命家组织", "新型政党"]
+
+  CON-state-capitalism:
+    canonical_zh: "国家资本主义"
+    ru: "Государственный капитализм (Госкапитализм)"
+    en: "State Capitalism"
+    aliases: ["苏维埃国家资本主义", "租让制与国家资本主义"]
+
+  INS-vsnkh-and-gosplan:
+    canonical_zh: "最高国民经济委员会与国家计划委员会"
+    ru: "ВСНХ и Госплан"
+    en: "VSNKh and Gosplan"
+    aliases: ["最高国民经济委员会", "国家计划委员会", "国家计委"]
+
+  INS-rkka-red-army-and-rvr:
+    canonical_zh: "工农红军与共和国革命军事委员会"
+    ru: "РККА и РВСР"
+    en: "Workers' and Peasants' Red Army and RVSR"
+    aliases: ["工农红军", "共和国革军委", "红军"]
+
+  EVT-1918-03-brest-litovsk-treaty:
+    canonical_zh: "1918年布列斯特-里托夫斯克和约危机"
+    ru: "Брестский кризис и Брестский мир"
+    en: "Brest-Litovsk Crisis and Treaty (1918)"
+    aliases: ["布列斯特危机", "布列斯特签约"]
+
+  EVT-1918-09-red-terror-and-left-sr-rupture:
+    canonical_zh: "1918年夏左翼社革党决裂与红色恐怖"
+    ru: "Разрыв с левыми эсерами и красный террор"
+    en: "Left SR Rupture and Red Terror (1918)"
+    aliases: ["红色恐怖启动", "左翼社革党七月事件"]
+
+  EVT-1923-scissors-crisis:
+    canonical_zh: "1923年剪刀差危机与四十六人声明"
+    ru: "Кризис «ножниц» 1923 г. и Заявление 46-ти"
+    en: "Scissors Crisis and Platform of the Forty-Six (1923)"
+    aliases: ["1923剪刀差危机", "四十六人声明危机"]
+
+  EVT-1929-great-turn-and-dekulakization-launch:
+    canonical_zh: "1929年秋大转变与全盘集体化、消灭富农启动"
+    ru: "Великий перелом и переход к ликвидации кулачества как класса"
+    en: "The Great Turn and Launch of Dekulakization (Autumn–Winter 1929)"
+    aliases: ["1929大转变", "全盘集体化启动", "把富农作为阶级消灭"]
+
+  EVT-1918-1920-russian-civil-war:
+    canonical_zh: "俄国内战（1918–1920）"
+    ru: "Гражданская война в России"
+    en: "Russian Civil War (1918–1920)"
+    aliases: ["苏俄内战", "红白内战"]
+
+  EVT-1920-1921-tambov-and-peasant-revolts:
+    canonical_zh: "坦波夫起义与农民绿军风暴（1920–1921）"
+    ru: "Тамбовское восстание (Антоновщина)"
+    en: "Tambov Rebellion and Peasant Green Revolts (1920–1921)"
+    aliases: ["安东诺夫起义", "坦波夫农民起义", "绿军起义"]
+
+  MTG-1919-03-8th-party-congress:
+    canonical_zh: "俄共（布）第八次代表大会"
+    ru: "VIII съезд РКП(б)"
+    en: "Eighth Congress of the RCP(b)"
+    aliases: ["俄共八大"]
+
+  MTG-1924-05-13th-party-congress:
+    canonical_zh: "俄共（布）第十三次代表大会"
+    ru: "XIII съезд РКП(б)"
+    en: "Thirteenth Congress of the RCP(b)"
+    aliases: ["俄共十三大"]
+
+  PER-frunze:
+    canonical_zh: "米哈伊尔·伏龙芝"
+    ru: "Михаил Васильевич Фрунзе"
+    en: "Mikhail Vasilyevich Frunze"
+    aliases: ["伏龙芝"]
+
+  PER-krupskaya:
+    canonical_zh: "娜杰日达·克鲁普斯卡娅"
+    ru: "Надежда Константиновна Крупская"
+    en: "Nadezhda Konstantinovna Krupskaya"
+    aliases: ["克鲁普斯卡娅", "克鲁普斯卡亚"]
+
+  INS-politburo-orgburo-secretariat:
+    canonical_zh: "政治局—组织局—书记处与名册制"
+    ru: "Политбюро, Оргбюро, Секретариат ЦК и Номенклатура"
+    en: "Politburo, Orgburo, Secretariat, and Nomenklatura"
+    aliases: ["中央书记处", "政治局", "组织局", "官职等级名册制"]
+
+  INS-cheka-gpu-ogpu:
+    canonical_zh: "全俄肃反委员会—国家政治保卫总局（制度沿革）"
+    ru: "ВЧК – ГПУ – ОГПУ"
+    en: "VChK – GPU – OGPU (Institutional Architecture)"
+    aliases: ["契卡-格别乌-奥格别乌", "特别会议", "三人小组"]
+
+  ORG-comintern:
+    canonical_zh: "共产国际（第三国际）"
+    ru: "Коммунистический интернационал (Коминтерн)"
+    en: "Communist International (Comintern)"
+    aliases: ["第三国际", "共产国际执委会", "ECCI"]
+
+  PER-sverdlov:
+    canonical_zh: "雅科夫·斯维尔德洛夫"
+    ru: "Яков Михайлович Свердлов"
+    en: "Yakov Mikhailovich Sverdlov"
+    aliases: ["斯维尔德洛夫", "安德烈同志"]
+
+  PER-molotov:
+    canonical_zh: "维亚切斯拉夫·莫洛托夫"
+    ru: "Вячеслав Михайлович Молотов (Скрябин)"
+    en: "Vyacheslav Mikhailovich Molotov"
+    aliases: ["莫洛托夫", "斯克里亚宾", "铁屁股"]
+
+  PER-ordzhonikidze:
+    canonical_zh: "格里戈里·奥尔忠尼启则"
+    ru: "Григорий Константинович (Серго) Орджоникидзе"
+    en: "Grigol (Sergo) Ordzhonikidze"
+    aliases: ["奥尔忠尼启则", "谢尔戈"]
+
+  PER-chicherin:
+    canonical_zh: "格奥尔基·契切林"
+    ru: "Георгий Васильевич Чичерин"
+    en: "Georgy Vasilyevich Chicherin"
+    aliases: ["契切林", "齐契林"]
+
+  PER-lunacharsky:
+    canonical_zh: "阿纳托利·卢那察尔斯基"
+    ru: "Анатолий Васильевич Луначарский"
+    en: "Anatoly Vasilyevich Lunacharsky"
+    aliases: ["卢那察尔斯基", "沃伊诺夫 (Воинов)"]
+
+  PER-bogdanov:
+    canonical_zh: "亚历山大·波格丹诺夫"
+    ru: "Александр Александрович Богданов (Малиновский)"
+    en: "Alexander Alexandrovich Bogdanov"
+    aliases: ["波格丹诺夫", "马林诺夫斯基", "马克西莫夫"]
+
+  PER-rakovsky:
+    canonical_zh: "克里斯蒂安·拉柯夫斯基"
+    ru: "Христиан Георгиевич Раковский"
+    en: "Christian Georgievich Rakovsky"
+    aliases: ["拉柯夫斯基", "拉科夫斯基"]
+
+  PER-kolchak:
+    canonical_zh: "亚历山大·高尔察克"
+    ru: "Александр Васильевич Колчак"
+    en: "Alexander Vasilyevich Kolchak"
+    aliases: ["高尔察克", "全俄最高执政"]
+
+  PER-denikin:
+    canonical_zh: "安东·邓尼金"
+    ru: "Антон Иванович Деникин"
+    en: "Anton Ivanovich Denikin"
+    aliases: ["邓尼金", "南俄武装力量总司令"]
+
+  EVT-1918-worker-protest-and-izhevsk-uprising:
+    canonical_zh: "1918年苏俄工人抗议、全权代表运动与伊热夫斯克—沃特金斯克起义"
+    ru: "Рабочий протест, движение уполномоченных и Ижевско-Воткинское восстание (1918)"
+    en: "Worker Protest, Factory Plenipotentiaries, and Izhevsk-Votkinsk Uprising (1918)"
+    aliases: ["伊热夫斯克起义", "工厂全权代表会议运动"]
+
+  EVT-1922-sr-show-trial:
+    canonical_zh: "1922年莫斯科社会革命党公开大审判"
+    ru: "Московский процесс правых эсеров (1922)"
+    en: "1922 Moscow Trial of the Socialist Revolutionaries"
+    aliases: ["1922社革党审判", "右翼社革党审判"]
+
+  ORG-factory-committees-1917:
+    canonical_zh: "彼得格勒与全俄工厂委员会（1917–1918）"
+    ru: "Фабрично-заводские комитеты (Фабзавкомы)"
+    en: "Factory-Shop Committees (Fabzavkomy, 1917–1918)"
+    aliases: ["工厂委员会", "法布扎夫科姆"]
+
+  ORG-komuch-and-democratic-counterrevolution:
+    canonical_zh: "萨马拉立宪会议成员委员会（科穆奇）与乌法督政府"
+    ru: "Комитет членов Учредительного собрания (Комуч) и Уфимская директория"
+    en: "Komuch and Ufa Directory (Democratic Counterrevolution, 1918)"
+    aliases: ["科穆奇", "乌法督政府", "萨马拉政权"]
+
+  MTG-1912-01-prague-conference:
+    canonical_zh: "俄国社会民主工党第六次（布拉格）全俄代表会议"
+    ru: "VI (Пражская) Всероссийская конференция РСДРП"
+    en: "Sixth (Prague) All-Russian Conference of the RSDLP (1912)"
+    aliases: ["布拉格代表会议", "1912布拉格会议"]
+
+  MTG-1928-07-comintern-6th-congress:
+    canonical_zh: "共产国际第六次代表大会"
+    ru: "VI конгресс Коминтерна (1928)"
+    en: "Sixth World Congress of the Communist International (1928)"
+    aliases: ["共产国际六大", "第三时期大会"]
+
+  ORG-provisional-government:
+    canonical_zh: "俄国临时政府（1917）"
+    ru: "Временное правительство России"
+    en: "Russian Provisional Government (1917)"
+    aliases: ["临时政府", "联立临时政府"]
+
+  ORG-petrograd-soviet:
+    canonical_zh: "彼得格勒工兵代表苏维埃"
+    ru: "Петроградский Совет рабочих и солдатских депутатов"
+    en: "Petrograd Soviet of Workers' and Soldiers' Deputies"
+    aliases: ["彼得格勒苏维埃", "首都苏维埃"]
+
+  ORG-bund:
+    canonical_zh: "立陶宛、波兰和俄罗斯犹太工人总同盟（崩得）"
+    ru: "Всеобщий еврейский рабочий союз в Литве, Польше и России (Бунд)"
+    en: "General Jewish Labour Bund in Lithuania, Poland and Russia"
+    aliases: ["崩得", "犹太工人总同盟"]
+
+  ORG-makhnovshchina:
+    canonical_zh: "乌克兰革命起义军（马赫诺运动）"
+    ru: "Повстанческая армия Украины (Махновщина)"
+    en: "Revolutionary Insurgent Army of Ukraine (Makhnovshchina)"
+    aliases: ["马赫诺黑军", "马赫诺运动"]
+
+  POL-april-theses-1917:
+    canonical_zh: "《四月提纲》（1917）"
+    ru: "Апрельские тезисы"
+    en: "April Theses (1917)"
+    aliases: ["论无产阶级在这次革命中的任务", "四月提纲"]
+
+  POL-first-five-year-plan:
+    canonical_zh: "第一个五年计划（一五计划）"
+    ru: "Первый пятилетний план (Первая пятилетка)"
+    en: "First Five-Year Plan"
+    aliases: ["一五计划", "最高方案"]
+
+  CON-kulak:
+    canonical_zh: "富农"
+    ru: "Кулак"
+    en: "Kulak"
+    aliases: ["村社食利者 (мироед)", "农村资产阶级", "意识形态富农"]
+
+  CON-permanent-revolution:
+    canonical_zh: "不断革命论"
+    ru: "Перманентная революция"
+    en: "Permanent Revolution"
+    aliases: ["不断革命", "总结与前瞻"]
+
+  CON-workers-control:
+    canonical_zh: "工人监督"
+    ru: "Рабочий контроль"
+    en: "Workers' Control"
+    aliases: ["工人控制生产", "生产监督"]
+
+  CON-thermidor-and-bureaucracy:
+    canonical_zh: "苏维埃热月与官僚主义蜕变"
+    ru: "Советский термидор и бюрократизм"
+    en: "Soviet Thermidor and Bureaucracy"
+    aliases: ["热月危险", "官僚中间派", "红色波拿巴争论"]
+
+  PER-pyatakov:
+    canonical_zh: "格奥尔基·皮达可夫"
+    ru: "Георгий Леонидович Пятаков"
+    en: "Georgy Leonidovich Pyatakov"
+    aliases: ["皮达可夫", "皮亚塔科夫"]
+
+  PER-spiridonova:
+    canonical_zh: "玛丽亚·斯皮里多诺娃"
+    ru: "Мария Александровна Спиридонова"
+    en: "Maria Aleksandrovna Spiridonova"
+    aliases: ["斯皮里多诺娃"]
+
+  PER-makhno:
+    canonical_zh: "涅斯托尔·马赫诺"
+    ru: "Нестор Иванович Махно"
+    en: "Nestor Ivanovich Makhno"
+    aliases: ["马赫诺", "马赫诺老爹 (Батько Махно)"]
+
+  PER-tukhachevsky:
+    canonical_zh: "米哈伊尔·图哈切夫斯基"
+    ru: "Михаил Николаевич Тухачевский"
+    en: "Mikhail Nikolayevich Tukhachevsky"
+    aliases: ["图哈切夫斯基"]
+
+  PER-voroshilov:
+    canonical_zh: "克利缅特·伏罗希洛夫"
+    ru: "Климент Ефремович Ворошилов"
+    en: "Kliment Yefremovich Voroshilov"
+    aliases: ["伏罗希洛夫", "沃罗希洛夫"]
+
+  PER-kirov:
+    canonical_zh: "谢尔盖·基洛夫"
+    ru: "Сергей Миронович Киров (Костриков)"
+    en: "Sergei Mironovich Kirov"
+    aliases: ["基洛夫", "科斯特里科夫"]
+
+  PER-bakunin:
+    canonical_zh: "米哈伊尔·巴枯宁"
+    ru: "Михаил Александрович Бакунин"
+    en: "Mikhail Aleksandrovich Bakunin"
+    aliases: ["巴枯宁"]
+
+  PER-lavrov:
+    canonical_zh: "彼得·拉夫罗夫"
+    ru: "Пётр Лаврович Лавров"
+    en: "Pyotr Lavrovich Lavrov"
+    aliases: ["拉夫罗夫", "米尔托夫 (Миртов)"]
+
+  PER-dan:
+    canonical_zh: "费奥多尔·但"
+    ru: "Фёдор Ильич Дан (Гурвич)"
+    en: "Fyodor Ilyich Dan"
+    aliases: ["费奥多尔·但", "丹 (Дан)", "古尔维奇"]
+
+  PER-witte:
+    canonical_zh: "谢尔盖·维特"
+    ru: "Сергей Юльевич Витте"
+    en: "Sergei Yulyevich Witte"
+    aliases: ["维特", "维特伯爵"]
+
+  PER-nicholas-ii:
+    canonical_zh: "尼古拉二世"
+    ru: "Николай II Александрович"
+    en: "Nicholas II of Russia"
+    aliases: ["末代沙皇", "尼古拉·罗曼诺夫"]
+
+  PER-kornilov:
+    canonical_zh: "拉夫尔·科尔尼洛夫"
+    ru: "Лавр Георгиевич Корнилов"
+    en: "Lavr Georgiyevich Kornilov"
+    aliases: ["科尔尼洛夫", "科尔尼洛夫将军"]
+
+  EVT-1874-going-to-the-people:
+    canonical_zh: "1874年“到民间去”运动"
+    ru: "Хождение в народ (1874)"
+    en: "Going to the People (1874)"
+    aliases: ["到民间去", "狂热之夏", "193人案"]
+
+  EVT-1881-03-assassination-of-alexander-ii:
+    canonical_zh: "1881年“三月一日案”刺杀亚历山大二世"
+    ru: "Первое марта 1881 года (Цареубийство Александра II)"
+    en: "Assassination of Alexander II (March 1 / 13, 1881)"
+    aliases: ["三月一日案", "亚历山大二世遇刺"]
+
+  MTG-1903-07-rsdlp-2nd-congress:
+    canonical_zh: "俄国社会民主工党第二次代表大会（布鲁塞尔—伦敦）"
+    ru: "II съезд РСДРП (1903)"
+    en: "Second Congress of the RSDLP (1903)"
+    aliases: ["俄社民工党二大", "1903年伦敦二大"]
+
+  EVT-1912-04-lena-goldfields-massacre:
+    canonical_zh: "1912年勒拿金矿惨案与战前工运高涨"
+    ru: "Ленский расстрел (1912)"
+    en: "Lena Goldfields Massacre (1912)"
+    aliases: ["勒拿惨案", "博代博枪杀案"]
+
+  EVT-1917-08-kornilov-affair:
+    canonical_zh: "1917年8月科尔尼洛夫事件"
+    ru: "Корниловское выступление (Корниловский мятеж)"
+    en: "Kornilov Affair (August 1917)"
+    aliases: ["科尔尼洛夫叛乱", "科尔尼洛夫兵变"]
+
+  EVT-1927-war-scare-and-opposition-expulsion:
+    canonical_zh: "1927年战争恐慌与联合反对派清洗"
+    ru: "Военная тревога 1927 года и разгром Объединённой оппозиции"
+    en: "1927 War Scare and Expulsion of the United Opposition"
+    aliases: ["1927战争恐慌", "十周年反对派游行"]
+
+  PER-plekhanov:
+    canonical_zh: "格奥尔基·普列汉诺夫"
+    ru: "Георгий Валентинович Плеханов"
+    en: "Georgi Valentinovich Plekhanov"
+    aliases: ["普列汉诺夫", "别尔托夫 (Н. Бельтов)"]
+
+  PER-zasulich:
+    canonical_zh: "维拉·查苏利奇"
+    ru: "Вера Ивановна Засулич"
+    en: "Vera Ivanovna Zasulich"
+    aliases: ["查苏利奇", "萨苏利奇"]
+
+  PER-axelrod:
+    canonical_zh: "帕维尔·阿克雪里罗得"
+    ru: "Павел Борисович Аксельрод"
+    en: "Pavel Borisovich Axelrod"
+    aliases: ["阿克雪里罗得", "阿克谢利罗德"]
+
+  ORG-left-communists-1918:
+    canonical_zh: "左翼共产主义者（1918）"
+    ru: "«Левые коммунисты»"
+    en: "Left Communists (1918)"
+    aliases: ["左派共产主义者"]
+
+  ORG-left-and-united-opposition:
+    canonical_zh: "左翼与联合反对派（1923–1927）"
+    ru: "Левая и Объединённая оппозиция"
+    en: "Left and United Opposition"
+    aliases: ["托季联合反对派", "布尔什维克列宁主义者（反对派）"]
+
+  ORG-right-opposition-1928:
+    canonical_zh: "右翼反对派（布哈林集团，1928–1929）"
+    ru: "Правая оппозиция (Правый уклон)"
+    en: "Right Opposition (Bukharin-Rykov-Tomsky Group)"
+    aliases: ["右倾机会主义集团", "布哈林集团"]
+
+  POL-korenizatsiia:
+    canonical_zh: "本土化政策"
+    ru: "Коренизация"
+    en: "Korenizatsiia (Indigenization)"
+    aliases: ["民族干部本土化", "乌克兰化"]
+
+  POL-ural-siberian-method:
+    canonical_zh: "乌拉尔-西伯利亚方法"
+    ru: "Урало-сибирский метод"
+    en: "Ural-Siberian Method"
+    aliases: ["非常征粮措施", "五倍罚款制"]
+
+  MTG-1923-04-12th-party-congress:
+    canonical_zh: "俄共（布）第十二次代表大会"
+    ru: "XII съезд РКП(б)"
+    en: "Twelfth Congress of the RCP(b)"
+    aliases: ["俄共十二大", "第十二次党代表大会"]
+
+  PER-radek:
+    canonical_zh: "卡尔·拉狄克"
+    ru: "Карл Бернгардович Радек"
+    en: "Karl Bernhardovich Radek"
+    aliases: ["拉狄克", "卡·拉狄克", "Karl Sobelsohn"]
+
+  PER-shlyapnikov:
+    canonical_zh: "亚历山大·什利亚普尼科夫"
+    ru: "Александр Гаврилович Шляпников"
+    en: "Alexander Gavrilovich Shlyapnikov"
+    aliases: ["什利亚普尼科夫", "施略普尼柯夫", "别列宁 (Беленин)"]
+
+  PER-perovskaya:
+    canonical_zh: "索菲亚·佩罗夫斯卡娅"
+    ru: "Софья Львовна Перовская"
+    en: "Sofia Lvovna Perovskaya"
+    aliases: ["佩罗夫斯卡娅", "苏菲亚·佩罗夫斯卡娅"]
+
+  PER-figner:
+    canonical_zh: "维拉·菲格涅尔"
+    ru: "Вера Николаевна Фигнер"
+    en: "Vera Nikolayevna Figner"
+    aliases: ["菲格涅尔", "薇拉·菲格涅尔"]
+
+  PER-kalinin:
+    canonical_zh: "米哈伊尔·加里宁"
+    ru: "Михаил Иванович Калинин"
+    en: "Mikhail Ivanovich Kalinin"
+    aliases: ["加里宁", "全俄老爹", "全苏老爹"]
+
+  PER-kuibyshev:
+    canonical_zh: "瓦列里安·古比雪夫"
+    ru: "Валериан Владимирович Куйбышев"
+    en: "Valerian Vladimirovich Kuibyshev"
+    aliases: ["古比雪夫", "匡比舍夫"]
+
+  PER-kaganovich:
+    canonical_zh: "拉扎尔·卡冈诺维奇"
+    ru: "Лазарь Моисеевич Каганович"
+    en: "Lazar Moiseyevich Kaganovich"
+    aliases: ["卡冈诺维奇", "卡岗诺维奇"]
+
   PER-lenin:
     canonical_zh: "弗拉基米尔·列宁"
     ru: "Владимир Ильич Ульянов (Ленин)"
     en: "Vladimir Ilyich Lenin"
     aliases: ["乌里扬诺夫", "伊里奇", "老头子 (Старик)", "弗雷 (Фрей)", "尼·列宁", "图林 (К. Тулин)"]
+
+  PER-martov-l:
+    canonical_zh: "尤利·马尔托夫"
+    ru: "Юлий Осипович Мартов (Цедербаум)"
+    en: "Julius Martov (Iulii Osipovich Tsederbaum)"
+    aliases: ["尤里·马尔托夫", "马尔托夫", "策德尔鲍姆", "L. Martov"]
 
   PER-trotsky:
     canonical_zh: "列夫·托洛茨基"
@@ -30,7 +570,7 @@ entities:
     canonical_zh: "约瑟夫·斯大林"
     ru: "Иосиф Виссарионович Сталин (Джугашвили)"
     en: "Joseph Stalin"
-    aliases: ["朱加什维利", "科巴 (Коба)", "伊万诺维奇"]
+    aliases: ["朱加什维利", "科巴 (Коба)", "伊万诺维奇", "索索 (Сосо)"]
 
   PER-bukharin:
     canonical_zh: "尼古拉·布哈林"
@@ -42,7 +582,121 @@ entities:
     canonical_zh: "叶夫根尼·普列奥布拉任斯基"
     ru: "Евгений Алексеевич Преображенский"
     en: "Yevgeni Preobrazhensky"
-    aliases: ["普列奥布拉任斯基"]
+    aliases: ["普列奥布拉任斯基", "普列奥布拉仁斯基"]
+
+  PER-zinoviev:
+    canonical_zh: "格里戈里·季诺维也夫"
+    ru: "Григорий Евсеевич Зиновьев (Радомысльский)"
+    en: "Grigory Yevseyevich Zinoviev"
+    aliases: ["季诺维也夫", "拉多梅斯利斯基"]
+
+  PER-kamenev:
+    canonical_zh: "列夫·加米涅夫"
+    ru: "Лев Борисович Каменев (Розенфельд)"
+    en: "Lev Borisovich Kamenev"
+    aliases: ["加米涅夫", "罗森菲尔德"]
+
+  PER-rykov:
+    canonical_zh: "阿列克谢·李可夫"
+    ru: "Алексей Иванович Рыков"
+    en: "Alexei Ivanovich Rykov"
+    aliases: ["李可夫"]
+
+  PER-tomsky:
+    canonical_zh: "米哈伊尔·托姆斯基"
+    ru: "Михаил Павлович Томский (Ефремов)"
+    en: "Mikhail Pavlovich Tomsky"
+    aliases: ["托姆斯基", "托木斯基"]
+
+  PER-chernov:
+    canonical_zh: "维克托·切尔诺夫"
+    ru: "Виктор Михайлович Чернов"
+    en: "Viktor Mikhailovich Chernov"
+    aliases: ["切尔诺夫"]
+
+  PER-dzerzhinsky:
+    canonical_zh: "费利克斯·捷尔任斯基"
+    ru: "Феликс Эдмундович Дзержинский"
+    en: "Felix Edmundovich Dzerzhinsky"
+    aliases: ["捷尔任斯基", "钢铁费利克斯"]
+
+  PER-milyukov:
+    canonical_zh: "帕维尔·米留可夫"
+    ru: "Павел Николаевич Милюков"
+    en: "Pavel Nikolaevich Milyukov"
+    aliases: ["米留科夫", "米留可夫"]
+
+  PER-stolypin:
+    canonical_zh: "彼得·斯托雷平"
+    ru: "Пётр Аркадьевич Столыпин"
+    en: "Pyotr Arkadyevich Stolypin"
+    aliases: ["斯托雷平"]
+
+  PER-kerensky:
+    canonical_zh: "亚历山大·克伦斯基"
+    ru: "Александр Фёдорович Керенский"
+    en: "Alexander Fyodorovich Kerensky"
+    aliases: ["克伦斯基"]
+
+  PER-tsereteli:
+    canonical_zh: "伊拉克利·策烈铁里"
+    ru: "Ираклий Георгиевич Церетели"
+    en: "Irakli Georgievich Tsereteli"
+    aliases: ["策烈铁里", "采列铁里"]
+
+  PER-kollontai:
+    canonical_zh: "亚历山德拉·柯伦泰"
+    ru: "Александра Михайловна Коллонтай"
+    en: "Alexandra Mikhailovna Kollontai"
+    aliases: ["柯伦泰"]
+
+  PER-sokolnikov:
+    canonical_zh: "格里戈里·索科尔尼科夫"
+    ru: "Григорий Яковлевич Сокольников (Бриллиант)"
+    en: "Grigory Yakovlevich Sokolnikov"
+    aliases: ["索科尔尼科夫", "布里利安特"]
+
+  PER-uglanov:
+    canonical_zh: "尼古拉·乌格拉诺夫"
+    ru: "Николай Александрович Угланов"
+    en: "Nikolai Aleksandrovich Uglanov"
+    aliases: ["乌格拉诺夫", "乌格兰诺夫"]
+
+  ORG-kadets:
+    canonical_zh: "立宪民主党"
+    ru: "Конституционно-демократическая партия (Кадеты)"
+    en: "Constitutional Democratic Party (Kadets)"
+    aliases: ["卡德特", "人民自由党"]
+
+  EVT-1917-02-february-revolution:
+    canonical_zh: "二月革命"
+    ru: "Февральская революция"
+    en: "February Revolution (1917)"
+    aliases: ["1917年二月革命"]
+
+  EVT-1917-10-october-revolution:
+    canonical_zh: "十月革命"
+    ru: "Октябрьская революция"
+    en: "October Revolution (1917)"
+    aliases: ["十月武装起义", "1917年十月革命"]
+
+  POL-war-communism:
+    canonical_zh: "战时共产主义"
+    ru: "Военный коммунизм"
+    en: "War Communism"
+    aliases: ["军事共产主义"]
+
+  POL-brest-litovsk-treaty:
+    canonical_zh: "布列斯特-立陶夫斯克和约"
+    ru: "Брестский мир"
+    en: "Treaty of Brest-Litovsk"
+    aliases: ["布列斯特和约"]
+
+  POL-ban-on-factions-1921:
+    canonical_zh: "《关于党的统一》派别禁令"
+    ru: "О единстве партии"
+    en: "Resolution On Party Unity (Ban on Factions)"
+    aliases: ["十大禁止派别决议", "秘密第七条"]
 
   POL-nep:
     canonical_zh: "新经济政策"
@@ -50,8 +704,20 @@ entities:
     en: "New Economic Policy (NEP)"
     aliases: ["НЭП", "NEP", "新经济政策时期"]
 
+  CON-narodnichestvo:
+    canonical_zh: "民粹主义"
+    ru: "Народничество"
+    en: "Russian Populism (Narodnichestvo)"
+    aliases: ["俄国民粹派"]
+
+  CON-soviet:
+    canonical_zh: "苏维埃"
+    ru: "Совет"
+    en: "Soviet (Council)"
+    aliases: ["工兵农代表苏维埃", "代表委员会"]
+
   CON-smychka:
-    canonical_zh: "工农结合（工农联盟）"
+    canonical_zh: "工农结合"
     ru: "Смычка"
-    en: "Smychka (Worker-Peasant Alliance / Link)"
+    en: "Smychka (Town-Country Link)"
     aliases: ["工农经济结合", "城乡结合", "Смычка города и деревни"]

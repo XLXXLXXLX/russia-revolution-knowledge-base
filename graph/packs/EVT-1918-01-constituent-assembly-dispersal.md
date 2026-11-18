@@ -1,0 +1,76 @@
+# 1-Hop 平衡上下文包：`EVT-1918-01-constituent-assembly-dispersal` (1918年1月全俄立宪会议召开与解散)
+
+> 本文件由 `python scripts/kb.py pack` 自动编译，旨在将失控的 `1+N` 随机读取压缩为**等权重、带时效边实质与史学盲区告警**的单次全景读取。
+
+## 0. 认知完备度与反偏斜仪表盘 (Epistemic & Skew Warnings)
+- **主卡路径**: `cards/events/EVT-1918-01-constituent-assembly-dispersal.md`
+- **完备度等级**: `draft`
+- **已覆盖视角**: `archival-rabinowitch, liberal-totalitarian-pipes, populist-structural-hildermeier, soviet-orthodox`
+- **待补齐视角**: `provincial-deputy-networks, ukrainian-assembly-parallel`
+- **偏斜风险提示**:
+  - ⚠️ 主卡当前完备度为 `draft`，尚未达到多源交叉核实定稿状态。
+  - ⚠️ 主卡显式声明尚缺以下视角待补: `provincial-deputy-networks, ukrainian-assembly-parallel`。
+
+## 1. 主卡核心层 ([T1] + [T2])
+## [T1] 60秒定性微摘要
+1918年1月5–6日（俄历）/1月18–19日（公历），全俄立宪会议在塔夫利达宫召开唯一常会，社革党切尔诺夫以244:153当选主席。5日白天保卫立宪会议游行在利捷伊内大街遭枪击（15至21人死亡），6日凌晨水兵卫队勒令清场关闭，西方式多党议会制尝试终结。
+
+## [T2] 核心脉络、时效关系边表与史学争鸣光谱
+
+### 2.1 核心历史脉络
+- **延宕选举与布尔什维克党内斗争（1917.11–12）**：1917年11—12月完成的立宪会议普选中，各派社会革命党（含乌克兰等民族社革党）合计得票过半（俄国社革党本党约38%–40%居第一，布尔什维克约24%获约175席，立宪民主党约4.7%获约17席，`DATA-01`）。1917年12月加米涅夫等布尔什维克立宪会议党团临时局温和派主张尊重议会权威，遭列宁《关于立宪会议的提纲》压服改组（`CLM-rabinowitch-2007-constituent-assembly`, `[pp. 89–91, 127]`）。
+- **1月5日（O.S.）白天的议会与利捷伊内大街枪击（1918-01-05 [O.S.] / 1918-01-18 [N.S.]）**：保卫立宪会议联盟组织无武装游行，多数工厂工人与士兵留在驻地；赤卫队与水兵在利捷伊内大街北段（与施帕列尔纳亚、基罗奇纳亚街口）通往塔夫利达宫的街垒向游行队伍开火，造成15人（高尔基《新生活报》医院调查）至21人（斯维尔德洛夫1月11日报告）死亡（同卡, `[pp. 106, 109]`）。议会大厅内切尔诺夫以244票对左翼社革党斯皮里多诺娃153票当选主席，在否决苏维埃《被剥削劳动人民权利宣言》后连夜通过土地社会化与和平呼吁，孟什维克策烈铁里发表长篇抗辩。
+- **强制清场与解散（1918-01-06 [O.S.] / 1918-01-19 [N.S.]）**：布尔什维克与左翼社革党代表先后退席后，凌晨4时许无政府主义水兵警卫队长热列兹尼亚科夫以“警卫累了”勒令切尔诺夫休会清场；同日深夜全俄中央执行委员会正式颁布解散立宪会议法令（同卡, `[pp. 113–126]`），随后于 `1918-01-10 [O.S.] / 1918-01-23 [N.S.]` 召开的全俄苏维埃第三次代表大会宣告苏维埃联邦制取代立宪会议法统。场外因社革党中央禁止武装政变、卫戍部队冷漠观望而未爆发军事抵抗（Pipes, `ch21_section.md`）。
+- **后果链条（1918年1月后）**：派普斯认为大众对立宪会议命运表现疲惫式冷漠，布尔什维克暴力驱散反而巩固了“真实政府”感知（`sources/monographs/pipes_1990_russian_rev/ch21_section.md`, §“dissolution met with surprising indifference”）。社会革命党右翼后来在科穆奇等处试图以“立宪会议成员委员会”延续合法性（`PER-chernov`）。
+
+### 2.2 时效关系摘要边表（Typed & Temporalized Edges）
+| 关联节点 ID | 关系类型 | 有效时段 | 一句话关系实质摘要（防 N+1 盲跳） | 核心依据/争鸣 |
+| :--- | :--- | :--- | :--- | :--- |
+| `PER-chernov` | `chair -> dispersed assembly` | 1918-01-05/06 [O.S.] | 凭借社革党选举多数主持唯一常会，却拒绝军事自卫路线 | `CLM-rabinowitch-2007-constituent-assembly`, Hildermeier on SR political naivety |
+| `PER-lenin` | `dissolver` | 1917-12至1918-01 | 12月清洗党内尊重议会的温和派，1月下令武力终结立宪会议 | `CLM-rabinowitch-2007-constituent-assembly` |
+| `ORG-psr` | `parliamentary-majority` | 1917-11至1918-01 | 赢得全国普选却在核心时刻缺乏保卫议会制度的武力决断 | `CLM-rabinowitch-2007-constituent-assembly`；`CLM-rabinowitch-2007-left-sr-coalition-collapse` |
+| `ORG-kadets` | `demonstration-ally` | 1917-11至1918-01 | 保卫立宪会议联盟成员，1月5日游行主体为职员与学生而非工厂多数 | Pipes `ch21_section.md` |
+| `EVT-1917-10-october-revolution` | `legitimacy-duel` | 1917-10至1918-01 | 十月后的苏维埃政权与 delayed 普选结果在立宪会议厅内正面冲突 | `DEB-1917-october-coup-or-social-revolution` |
+| `ORG-mensheviks` | `defense-speech -> walkout` | 1918-01-05/06 | 策烈铁里在塔夫利达宫的发言成为议会社会主义最后广播 | `CLM-rabinowitch-2007-constituent-assembly` |
+
+### 2.3 史学争鸣光谱（Historiographical Spectrum）
+- **经验共识**：1918年1月5–6日（O.S.）/18–19日（N.S.）的立宪会议只开会一次即遭武力关闭；彼得格勒街头发生致死性枪击；苏维埃政权自该日起无需再认真对待选举授权反对派。
+- **主要解释分歧**：
+  - **[Rabinowitch 档案综合派 / Alexander Rabinowitch]** (`CLM-rabinowitch-2007-constituent-assembly`)：强调因果多重性——列宁镇压、布尔什维克街头暴力、社革党拒绝军事自卫与大众根本冷漠共同推动结局；保留党内温和派（加米涅夫、梁赞诺夫）抗争细节。
+  - **[Pipes 自由—极权连续性 / Richard Pipes]**（`sources/monographs/pipes_1990_russian_rev/ch21_section.md`, `ch27_section.md`）：将关闭立宪会议与屠杀游行者与1917年11月逮捕卡德特一并纳入列宁主义恐怖制度化起点；主张民众疲惫与欠缺武装反对铸就布尔什维克1月后“真实政府”地位，甚至超过十月政变意义。
+  - **[Hildermeier 社革党结构论 / Manfred Hildermeier]**（`sources/monographs/hildermeier_psr/`, `BIB-005`；`PER-chernov` 卡引）: 社革党制度上倚重合法议会神话却长期弱化军事组织，1918年切尔诺夫路线体现新民粹主义领袖在暴力门槛前的政治天真，与其1917年入阁时土地立法困境一体。
+  - **[苏联正统 / 列宁《关于立宪会议的提纲》]**：视立宪会议为“曾经落后于无产阶级和贫农苏维埃运动”的资产阶级形式，解散是更高苏维埃民主的体现——须与 `CLM-rabinowitch-2007-constituent-assembly` 对照，避免单源定论。
+
+## 2. 一跳邻域等权重微摘要 (共 1 个关联节点，严防大卡霸占上下文)
+### 邻居节点: `PER-lenin`
+- **时效关系边** (`PER-lenin` → `EVT-1918-01-constituent-assembly-dispersal` | `ordered-dissolution` | 有效时段: `1918-01-05至06 [O.S.]`): 在社革党占多数的立宪会议拒不批准《被剥削劳动人民权利宣言》后，以苏维埃民主高于资产阶级议会制为由下令强制解散。
+- **节点定性微摘要 [T1]** (完备度 `draft`): 布尔什维克党缔造者、苏俄人民委员会主席（1917–1924）。1893年投身马克思主义运动，1903年促成布尔什维克分化；1917年发表《四月提纲》并领导十月夺权，历经布列斯特和约、内战与战时共产主义；1921年主持转向新经济政策，晚年（1922–1923）就官僚化与接班人同斯大林冲突。
+
+## 3. 关联史学争鸣光谱 (Historiographical Debates)
+### `DEB-1918-constituent-assembly-and-soviet-democracy`：解散立宪会议与多党苏维埃民主的命运
+## [T1] 核心问题定义
+1918年立宪会议被武力解散，是否意味着一党统治已不可避免？争论涉及普选制宪与阶级性苏维埃两种合法性、群众动员和镇压，以及此后左翼多党合作与体制内反对派仍有多少政治空间。
+
+## [T2] 各学派立场对照矩阵
+| 学派/取向 | 代表学者与著作 | 核心论点摘要 | 支撑论断卡 | 主要受批评盲点 |
+| :--- | :--- | :--- | :--- | :--- |
+| 修正派与地方档案 | Alexander Rabinowitch, *The Bolsheviks in Power* (2007) | 解散由党内斗争、布尔什维克与左翼社革派行动及相当程度的民众冷漠共同促成；多党苏维埃空间在危机中逐步收缩。 | `CLM-rabinowitch-2007-constituent-assembly`; `CLM-rabinowitch-2007-contingency-of-dictatorship`; `CLM-rabinowitch-2007-left-sr-coalition-collapse` | 彼得格勒经验能否推广全国、危机解释是否低估意识形态与主动镇压，均有争议。 |
+| 自由主义制度批判 | Richard Pipes, *The Russian Revolution* (1990) | 其政变及早期恐怖论强调夺权意志和强制逻辑；相关卡为比较性依据，并非解散会议的专项证据。 | `CLM-pipes-1990-october-classic-coup`; `CLM-pipes-1990-red-terror-leninist-logic` | 对地方苏维埃、多党合作与党内分歧的解释有待对照。 |
+| 孟什维克政治史 | Israel Getzler, *Martov* (1967) | 马尔托夫先谋求社会主义联合政府，后在苏维埃内开展合法或半合法反对，表明反对白军与反对一党恐怖可以并存。 | `CLM-getzler-1967-martov-soviet-opposition` | 传记视角须结合基层选举和代表权记录。 |
+| 比较社会与政治史 | Manfred Hildermeier | 是需对读的相关学者；目前未找到本库针对该议题的 CLM，尚不代其归纳具体判断。 | 待建 | 需先核对具体著作、版本和页码。 |
+
+### `DEB-1917-october-coup-or-social-revolution`：十月革命：少数派政变还是社会革命？
+## [T1] 核心问题定义
+1917年十月彼得格勒的武装夺权，如何与工人、士兵及农民的社会革命联系起来？争议同时涉及夺权方式、支持的范围及政治合法性；城市苏维埃多数、全国选民多数和全国社会诉求不能互相替代。
+
+## [T2] 各学派立场对照矩阵
+
+**经验共识**：彼得格勒军事革命委员会组织武装行动，临时政府于1917-10-25 [O.S.] / 1917-11-07 [N.S.] 被推翻；同一时期苏维埃、军队、工厂和乡村的政治动员有不同节奏。第二次全俄苏维埃代表大会的组成与后续制宪会议选举反映不同选举机制和时点。
+
+| 取向与代表著作 | 解释及依据 | 争议与检验 |
+| :--- | :--- | :--- |
+| 少数派政变：Richard Pipes, *The Russian Revolution* | 强调列宁领导的组织利用国家崩解、武装力量和政治时机夺权，质疑以苏维埃多数等同全国民主授权。 | 注重夺权机制和强制，但被批评低估支持和平、土地及苏维埃权力的群众动员；武装行动的组织性本身不能证明社会支持不存在。 |
+| 社会史与开放性政党：Alexander Rabinowitch, *The Bolsheviks Come to Power*；S. A. Smith, *Red Petrograd*；Diane P. Koenker, *Moscow Workers and the 1917 Revolution* | 分别从彼得格勒政党与驻军、工厂政治及莫斯科工人研究基层激进化。Rabinowitch强调布党在1917年的地方主动性和内部争论及其与群众诉求的互动。 | 城市、行业、驻军与地方不能代表全部农民或全国；支持苏维埃权力、某项政策与支持单党统治也不是同一指标。三位作者的解释重点并不完全相同。 |
+| 托洛茨基的双重政权：Leon Trotsky, *The History of the Russian Revolution* | 将临时政府与苏维埃并存视为社会力量分裂的暂时均衡，并把十月解释为群众革命与有领导的起义结合。 | 是重要的一手参与者及事后政治史解释，不能将其自我辩护视为独立证据；需对照其他政党、地方与农村记录。 |
+
+## 4. 关联时间线锚点 (共 0 条)

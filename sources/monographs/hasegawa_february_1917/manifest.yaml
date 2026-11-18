@@ -1,0 +1,33 @@
+slug: hasegawa_february_1917
+title: "The February Revolution, Petrograd, 1917: The End of the Tsarist Regime and the Birth of Dual Power"
+title_zh: "1917年彼得格勒二月革命：沙皇政权的终结与双重政权的诞生（2018年扩充修订版）"
+author: "Tsuyoshi Hasegawa (长谷川毅)"
+year: 2018
+first_published: 1981
+edition: "Revised, enlarged and reinterpreted edition (Brill, Historical Materialism Book Series, Vol. 149; first published 1981 by University of Washington Press)"
+publisher: "Koninklijke Brill NV (Leiden / Boston)"
+isbn:
+  hardback: "978-90-04-22560-2"
+  ebook: "978-90-04-35493-7"
+  first_edition_1981: "978-0-295-95765-4"
+language: en
+source_tier: A
+category: monograph
+historiographical_school: "西方社会史与高政治综合派 / 后苏联档案修正（吸收 A. B. Nikolaev、V. I. Startsev 等人关于国家杜马临时委员会与双重政权起源的最新档案研究）"
+time_coverage: "1914-07 – 1917-03 (重点为 1917-02-23 至 1917-03-03 [O.S.])"
+calendar_note: "正文叙事默认使用俄历（儒略历 O.S.），1917年换算公历需 +13 天。"
+source_file: "inbox/The February Revolution, Petrograd, 1917 The End of the Tsarist Regime and the Birth of Dual Power (Hasegawa Tsuyoshi) (z-library.sk, 1lib.sk, z-lib.sk).pdf"
+extraction:
+  tool: "scripts/extract_book.py"
+  chunk_pages: 30
+  total_pdf_pages: 732
+  chapters_count: 44
+  total_lines: 33617
+  total_chars: 1864505
+  toc_file: "toc.md"
+quality_notes:
+  text_layer: "原生数字排版 PDF（Brill 2018 电子版），文本完整清晰，当页脚注均完整保留在对应 `[PDF p. N]` 页面底部。"
+  warnings:
+    - "虽然书名常按1981年初版征引，但本文件实为2018年 Brill 扩充重订版（Historical Materialism 149）。长谷川毅在此版中吸收了1991年后公开的彼得格勒苏维埃会议记录、国家杜马临时委员会记录、波利耶夫克托夫委员会1917年访谈录及尼古拉耶夫（A. B. Nikolaev）的研究，修正了1981年版将杜马委员会视为单纯‘勉强革命者’的观点，并新增了第29章专论临时政府、国家杜马与双重政权的诞生。引用时须注明2018年修订版（或区分1981初版与2018修订版）。"
+    - "PyMuPDF 文本提取中偶见行末两端对齐导致的英文单词连写（如 `TheFebruaryRevolution`、`betweentheseupheavals`），阅读与引证时请结合上下文自然分词。"
+    - "PDF 第 1、7、19-20、23、153、221、333、481、585 页为封面、地图或篇章隔页无文字层，属正常版面现象。"

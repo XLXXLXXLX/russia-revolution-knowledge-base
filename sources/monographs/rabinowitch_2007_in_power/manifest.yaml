@@ -1,0 +1,29 @@
+slug: rabinowitch_2007_in_power
+title: "The Bolsheviks in Power: The First Year of Soviet Rule in Petrograd"
+title_zh: "布尔什维克执政：彼得格勒苏维埃统治的第一年"
+author: "Alexander Rabinowitch (亚历山大·拉宾诺维奇)"
+year: 2007
+edition: "First Edition (Indiana University Press, 2007)"
+publisher: "Indiana University Press (Bloomington and Indianapolis)"
+isbn: "978-0-253-34943-9"
+language: en
+source_tier: A
+category: monograph
+historiographical_school: "西方社会史修正派与后苏联档案实证结合（基于1991年后解密的 RGASPI、GARF、TsGA SPb、TsGAIPD 及前克格勃 AU FSB 档案，追踪1917年相对开放民主的布尔什维克与多党苏维埃如何在1917年10月至1918年11月政治、军事、粮食与安全危机互动中演变为高度集权的一党威权体制）"
+time_coverage: "1917-10 – 1918-11 (从十月革命夺权、解散立宪会议、布列斯特和约危机、左翼社会革命党决裂直至红色恐怖与十月革命一周年庆典)"
+calendar_note: "原书说明：1918年2月1日/14日苏俄改历前采用俄历（儒略历 O.S.），改历后采用公历（格里高利历 N.S.），均与当时俄国官方通行历法一致。"
+source_file: "inbox/The Bolsheviks in Power The First Year of Soviet Rule in Petrograd.pdf"
+extraction:
+  tool: "scripts/extract_book.py"
+  chunk_pages: 25
+  total_pdf_pages: 518
+  chapters_count: 27
+  total_lines: 24515
+  total_chars: 1410974
+  toc_file: "toc.md"
+quality_notes:
+  text_layer: "原生数字排版 PDF，按书签完整切分为27个文件（含前言、缩略语表、序章、四部分共15章正文、大事年表 `ch23_chronology_of_key_events.md`、尾注 `ch24_notes.md`、参考书目与索引）。"
+  warnings:
+    - "原 PDF 字体中英文连字（ligatures 如 `fi`、`fl`）与连字符在提取文本层时带有尾随空格（例如 `ﬁ rst`、`inﬂ uential`、`ofﬁ cially`、`non- Bolshevik`），直接引用英文原文时请手动合并连字空格。"
+    - "原 PDF 第1章书签拼写漏字母写作 `1. Formng a Government`（对应文件名 `ch05_1_formng_a_government.md`），正文标题实为 `1. Forming a Government`。"
+    - "全书采用尾注制，正文各章的注释集中于 `ch24_notes.md`（PDF pp. 432–477，纸书 pp. 409–454），研读各章时须配合 `ch24_notes.md` 核查档案全宗号与原始出处。"

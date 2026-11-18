@@ -1,0 +1,33 @@
+id: MONO-bonnell-1983-roots-rebellion
+slug: bonnell_1983_roots_rebellion
+title: "反叛的根源：圣彼得堡与莫斯科的工人政治与组织（1900–1914）"
+title_original: "Roots of Rebellion: Workers' Politics and Organizations in St. Petersburg and Moscow, 1900–1914"
+author: "维多利亚·E·邦内尔"
+author_original: "Victoria E. Bonnell"
+publisher: "University of California Press (Berkeley, Los Angeles, London)"
+pub_year: 1983
+isbn: "0-520-04740-0"
+language: "en"
+epistemic_tier: "A"
+subject_period: "1900–1914 (沙皇晚期俄国工人的组织化历程、1905年革命中的工会运动与一战前激进化)"
+source_file: "inbox/Roots of Rebellion - Workers Politics and Organizations in St. Petersburg and Moscow, 1900-1914. (Victoria E. Bonnell) (z-library.sk, 1lib.sk, z-lib.sk).pdf"
+source_format: pdf
+needs_ocr: true
+quality_check:
+  total_pages: 586
+  text_bearing_pages: 0
+  empty_or_image_pages: 586
+  ocr_coverage_pct: 0.0
+  text_layer_status: "纯扫描图像 PDF（无嵌入式文本层），拥有完整的章节书签目录大纲，正文各页需经 OCR 识别后方可进行全文检索与精读"
+extraction_stats:
+  chapters_count: 32
+  total_lines: 2444
+  total_chars: 35952
+  chunk_strategy: "chunk_pages_30"
+  index_file: "toc.md"
+status: needs_ocr
+quality_notes: "586 PDF pages in 32 chunks; scanned image PDF without embedded text layer (needs_ocr: true)"
+historiographical_note: >
+  欧美俄国革命社会史学派（Revisionist / Social History School）开山经典之一。
+  邦内尔通过对圣彼得堡和莫斯科两地手工业与现代工厂工人的阶级意识、行业协会与工会组织演变，以及 1905–1914 年间工运激进化历程的详尽实证研究，
+  推翻了传统的列宁主义“外部灌输论”与自由主义/孟什维克“自发改良论”的简单两分法，系统展现了俄国熟练产业工人自下而上的自主阶级形成（Class Formation）与政治激进化机制。

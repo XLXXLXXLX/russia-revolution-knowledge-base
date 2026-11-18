@@ -1,0 +1,51 @@
+# 1-Hop 平衡上下文包：`PER-milyukov` (帕维尔·米留可夫)
+
+> 本文件由 `python scripts/kb.py pack` 自动编译，旨在将失控的 `1+N` 随机读取压缩为**等权重、带时效边实质与史学盲区告警**的单次全景读取。
+
+## 0. 认知完备度与反偏斜仪表盘 (Epistemic & Skew Warnings)
+- **主卡路径**: `cards/people/PER-milyukov.md`
+- **完备度等级**: `draft`
+- **已覆盖视角**: `liberal-constitutional, revisionist-social-history, dual-power-revision`
+- **待补齐视角**: `soviet-orthodox, trotskyist`
+- **偏斜风险提示**:
+  - ⚠️ 主卡当前完备度为 `draft`，尚未达到多源交叉核实定稿状态。
+  - ⚠️ 主卡显式声明尚缺以下视角待补: `soviet-orthodox, trotskyist`。
+
+## 1. 主卡核心层 ([T1] + [T2])
+## [T1] 60秒定性微摘要
+俄国历史学家、立宪民主党（卡德特党）核心领袖。曾主持“解放同盟”并提出四尾制宪与有偿征地纲领；1915年组建战时“进步同盟”；1917年二月后任首届临时政府外交部长，在3月3日（俄历）/3月16日（公历）会议上架空国家杜马、宣称“全部完满权力”，5月因坚持参战照会下野。
+
+## [T2] 核心脉络、时效关系边表与史学争鸣光谱
+
+### 2.1 核心历史脉络
+- **史学与自由主义意识形态奠基（1880s–1904）**：莫斯科大学教授，以《俄国文化史大纲》奠定其作为“自由派历史学家”的声望；1902–1904年参与组织“解放同盟”（*Soyuz Osvobozhdeniya*），起草October 1904政纲——四尾制宪会议、按公正估价强制征地、八小时工作制，成为立宪民主党土地—宪政路线的理论母体（`CLM-treadgold-1955-kadet-agrarian-and-tactical-failure`, `[p. 144]`）。
+- **1905年革命与杜马路线（1905–1907）**：1905年革命中既反对抵制杜马选举，又拒绝对暴力作原则性拥护，强调“革命是手段而非目的”（`CLM-treadgold-1955-four-party-competition-1905`, `[pp. 138–139]`；`CLM-treadgold-1955-kadet-agrarian-and-tactical-failure`, `[pp. 201–216]`）。在1906–1907年第一、第二届国家杜马中立宪民主党居议会核心；但在 `1907-06-03 [O.S.] / 1907-06-16 [N.S.]` 六三政变解散第二届杜马后，立宪民主党在第三届杜马缙绅操控的新选举法下遭边缘化（`CLM-manning-1982-june-third-coup-social-basis` 引其讽第三届杜马为“老爷与奴才的杜马”, `[p. 239]`）。
+- **战时反对派与二月革命掌权（1914–1917.05）**：一战爆发后站在护国主义与协约国战争目标立场上主导1915年“进步同盟”（Progressive Bloc），以“信任内阁”替代“责任内阁”攻击宫廷无能（如 `1916-11-01 [O.S.]`“愚蠢还是叛国”演说）却拒不承担战时行政责任（`CLM-gaida-2003-progressive-bloc-dilemma`, `[pp. 135–136, 166–168]`）。`1917-02-27 [O.S.] / 1917-03-12 [N.S.]` 起在塔夫利达宫被动卷入政权真空；`1917-03-03 [O.S.] / 1917-03-16 [N.S.]` 在临时政府首次正式会议上排挤罗将柯、宣布1906年《基本法》失效并宣称临时政府拥有不受杜马制约的“全部完满权力”，在政治上架空国家杜马（第四届杜马直至 `1917-10-06 [O.S.]` 方由法令正式解散，`CLM-hasegawa-2018-dual-power-origins`, `[pp. 626–631 / PDF pp. 647–659]`）。`1917-05-02 [O.S.] / 1917-05-15 [N.S.]` 在“四月危机”余波中因坚持协约国参战承诺与照会风波辞去外交部长职务。
+- **反布尔什维克流亡与“新策略”（1917.10–1943）**：十月革命后赴顿河参与组建反布尔什维克志愿军政治委员会；1918年后流亡西欧，在巴黎提出承认苏俄内部演变的“新策略”导致卡德特流亡组织分裂，以《俄国第二次革命史》等著述延续自由主义革命史学，1943年逝于法国。
+
+### 2.2 时效关系摘要边表（Typed & Temporalized Edges）
+| 关联节点 ID | 关系类型 | 有效时段 | 一句话关系实质摘要（防 N+1 盲跳） | 核心依据/争鸣 |
+| :--- | :--- | :--- | :--- | :--- |
+| `ORG-kadets` | `founder-chief-theorist` | 1905–1921 | 从解放同盟政纲主笔升格为卡德特党公开领袖，奠定议会中心、有偿征地与拒绝对暴力的自由派底线 | `CLM-treadgold-1955-kadet-agrarian-and-tactical-failure` |
+| `EVT-1917-02-february-revolution` | `provisional-gov-minister -> structural-actor` | 1917-03至05 | 3月3日[O.S.]政治架空杜马、自授全权的外交部长，以自由派宪制抉择催生临时政府合法性赤字 | `CLM-hasegawa-2018-dual-power-origins`, `CLM-gaida-2003-liberals-in-february-1917` |
+| `PER-kerensky` | `cabinet-colleague` | 1917-03至05 | 二月临时政府筹组与3月3日[O.S.]全权决议中与克伦斯基同属排挤罗将柯的内阁核心，5月因外交路线决裂下野 | `CLM-hasegawa-2018-dual-power-origins` |
+| `EVT-1905-revolution` | `tactical-leader` | 1905–1906 | 在四党革命类型学竞争中代表“立宪革命”路线，既参加杜马又警惕社会主义者混合革命阶段 | `CLM-treadgold-1955-four-party-competition-1905` |
+| `PER-lenin` | `ideological-rival` | 1905–1917 | 列宁反复将其标为“帝国主义资产阶级”典型，他却短期仍认为可与温和社会主义者共享宪政阶段 | `CLM-treadgold-1955-kadet-agrarian-and-tactical-failure`, `[pp. 176–177]` |
+
+### 2.3 史学争鸣光谱（Historiographical Spectrum）
+- **经验共识**：米留可夫是1905–1917年俄国宪政自由派无可争议的思想与组织领袖；1917年3月3日[O.S.]他推动临时政府宣布不受国家杜马监督而独立行使行政与立法全权，切断了杜马代议制背书。
+- **主要解释分歧**：
+  - **[盖达档案—心理政治派 / Fedor Gaida]** (`CLM-gaida-2003-liberals-in-february-1917`, `CLM-gaida-2003-progressive-bloc-dilemma`)：强调自由派是“叹着气的革命者”与“革命的俘虏”，战争期间“信任内阁”口号背后的三重权力算计与组织废墟状态，解释其既无法政变又不得不在二月被动接权的结构性虚弱。
+  - **[长谷川毅宪法博弈派 / Tsuyoshi Hasegawa]** (`CLM-hasegawa-2018-dual-power-origins`)：将双重政权起源从“苏维埃让权论”转向“米留可夫废杜马导致临时政府只剩革命合法性”的宪政悖论，指出其在实力上占优却必须仰赖分裂苏维埃的结构性困境。
+  - **[特雷德戈尔德思想史派 / Donald W. Treadgold]** (`CLM-treadgold-1955-four-party-competition-1905`, `CLM-treadgold-1955-kadet-agrarian-and-tactical-failure`)：在1905“四党竞争”框架中展现米留可夫如何以革命手段论调和孟什维克，却在农民土地心与左翼夺权阶段遭战略失分。
+  - **[曼宁缙绅社会史派 / Roberta Thompson Manning]** (`CLM-manning-1982-june-third-coup-social-basis`)：揭示1907年六三政变后立宪民主党缙绅右翼率先拥抱斯托雷平式保守选举机器，自由派议会路线与地主阶层再结盟。
+
+## 2. 一跳邻域等权重微摘要 (共 1 个关联节点，严防大卡霸占上下文)
+### 邻居节点: `ORG-kadets`
+- **时效关系边** (`PER-milyukov` → `ORG-kadets` | `chief-leader` | 有效时段: `1905-1918`): 创立并领导立宪民主党，1915年组建杜马“进步同盟”，1917年3月任首届临时政府外交部长并因四月照会危机辞职。
+- **节点定性微摘要 [T1]** (完备度 `draft`): 1905年10月从“解放同盟”蜕变的俄国自由主义核心政党。主张四尾制宪、有偿征地与议会中心路线，主导1906–1907年前两届杜马；一战时组建进步同盟。1917年二月主导首届临时政府，5月后在战争与土地危机中流失社会基础；十月后被宣布为“人民公敌”并在内战与流亡分裂中瓦解。
+
+## 3. 关联史学争鸣光谱 (Historiographical Debates)
+- ⚠️ 引用了尚未创建的争鸣卡 `DEB-1917-february-liberal-role-and-dual-power`
+- ⚠️ 引用了尚未创建的争鸣卡 `DEB-1917-liberal-collapse`
+## 4. 关联时间线锚点 (共 0 条)

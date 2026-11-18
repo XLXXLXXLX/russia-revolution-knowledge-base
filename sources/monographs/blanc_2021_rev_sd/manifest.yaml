@@ -1,0 +1,33 @@
+id: MONO-blanc-2021-rev-sd
+slug: blanc_2021_rev_sd
+title: "革命社会民主党：俄罗斯帝国全境的工人阶级政治（1882–1917）"
+title_original: "Revolutionary Social Democracy: Working-Class Politics Across the Russian Empire (1882–1917)"
+author: "埃里克·布兰克"
+author_original: "Eric Blanc"
+publisher: "Brill (Historical Materialism Book Series, Vol. 228) / Haymarket Books"
+pub_year: 2021
+isbn: "978-90-04-44991-6"
+language: "en"
+epistemic_tier: "A"
+subject_period: "1882–1917 (沙皇俄国非俄罗斯边疆区马克思主义政党组织、1905革命与十月革命全帝国工人运动)"
+source_file: "inbox/Revolutionary Social Democracy. Working-Class Politics Across the Russian Empire (1882–1917) (Eric Blanc) (z-library.sk, 1lib.sk, z-lib.sk).pdf"
+source_format: pdf
+needs_ocr: false
+quality_check:
+  total_pages: 469
+  text_bearing_pages: 466
+  empty_or_image_pages: 3
+  ocr_coverage_pct: 99.4
+  text_layer_status: "高清晰原生数字排版 PDF，嵌入式文本层完整无损，包含完整学术注释体系、图表与页码锚点"
+extraction_stats:
+  chapters_count: 20
+  total_lines: 21317
+  total_chars: 1220886
+  chunk_strategy: "chunk_pages_30"
+  index_file: "toc.md"
+status: ready_for_close_reading
+quality_notes: "469 PDF pages in 20 chunks (1,220,886 chars); clean digital text with full notes"
+historiographical_note: >
+  当代西方新一代马克思主义史学代表作。颠覆了传统以彼得格勒与莫斯科为中心的“俄罗斯中心论”（Russian-centric bias），
+  系统发掘波兰、芬兰、格鲁吉亚、乌克兰与波罗的海等非俄罗斯边疆区（Borderlands）多民族工运文献。
+  论证了边疆区革命政党与工人运动在1905与1917年帝国危机中的决定性联动作用，并重新评估了考茨基正统马克思主义战略在全帝国革命工人阶级中的深刻实践与历史意义。

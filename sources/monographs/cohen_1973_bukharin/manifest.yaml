@@ -1,0 +1,29 @@
+id: MONO-cohen-1973-bukharin
+title: 布哈林与布尔什维克革命：政治传记（1888–1938）
+title_original: "Bukharin and the Bolshevik Revolution: A Political Biography, 1888–1938"
+author: 斯蒂芬·F·科恩
+author_original: Stephen F. Cohen
+publisher: Alfred A. Knopf (1973) / Vintage Books (Random House, 1975)
+pub_year: 1973
+edition: Vintage Books Edition (1975)
+isbn: "0-394-71261-7"
+subject_period: "1888–1938 (核心聚焦点: 1921–1929 新经济政策与党内斗争)"
+source_file: "inbox/Bukharin and the Bolshevik Revolution A Political Biography 1888-1938 (Stephen F. Cohen) (z-library.sk, 1lib.sk, z-lib.sk).pdf"
+source_format: pdf
+needs_ocr: false
+quality_check:
+  total_pages: 543
+  text_bearing_pages: 527
+  empty_or_image_pages: 16
+  ocr_coverage_pct: 97.1
+  text_layer_status: "清晰嵌入式文本层，含完整章节与页码锚点，脚注与引注均可连续顺读"
+extraction_stats:
+  chapters_count: 22
+  total_lines: 26617
+  total_chars: 1466931
+  chunk_strategy: "chunk_pages_25"
+  index_file: "toc.md"
+status: ready_for_close_reading
+historiographical_note: >
+  英语学界修正派（Revisionist School）关于新经济政策（NEP）可行性与“布哈林替代方案（Bukharin Alternative）”的奠基性经典。
+  系统论证了新经济政策并非权宜之计，而是一条兼顾工农联盟（Смычка）、渐进工业化与党内体制改革的社会主义可行发展道路。

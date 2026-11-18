@@ -1,0 +1,22 @@
+{
+  "campaign_name": "Russian Revolution KB (1861-1929) Weekly Subscription Burn (Gemini Ultra 5x Main Fleet)",
+  "started_at": "2026-11-18",
+  "concurrency_governor": {
+    "max_antigravity_gemini_concurrent": 10,
+    "max_codex_concurrent": 0,
+    "max_grok_concurrent": 2,
+    "max_cursor_concurrent": 2,
+    "rule": "实测确认：Antigravity 即使在 Ultra 5x 下 Claude 子池额度亦极少（已耗尽），而 Gemini 4 全系（gemini-4-carbon / gemini-4-hydrogen / gemini-4-argon / gemini-3.8-flash）及 gpt-oss-120b-medium 额度极其充沛！Codex 5h 窗口冷却至 16:28。现以 Antigravity Gemini 4 家族（≤10 路高并发）+ Grok（≤2）+ Cursor（≤2）全速推进！"
+  },
+  "provider_quota_status": {
+    "antigravity_2_gemini": "active_ultra_5x_abundant_main_workhorse",
+    "antigravity_2_gpt_oss": "active_available_for_cross_family",
+    "antigravity_2_claude": "exhausted_tiny_sub_bucket",
+    "codex": "cooling_until_16_28_window",
+    "grok": "active_steady_burn",
+    "cursor_included": "active_steady_burn",
+    "opencode_fallback": "standby"
+  },
+  "books_extracted_count": 115,
+  "current_wave": 22
+}

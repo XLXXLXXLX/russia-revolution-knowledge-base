@@ -18,7 +18,7 @@
 | `BIB-002` | 🟠 P1 | 《资本主义论战：俄国民粹派社会哲学研究》 | *The Controversy over Capitalism* | Andrzej Walicki | 📥 **已在 inbox**（`The controversy over capitalism... (Walicki, Andrzej).pdf`） |
 | `BIB-003` | 🔴 P0 | 《俄国马克思主义者与布尔什维主义的起源》 | *The Russian Marxists and the Origins of Bolshevism* | Leopold H. Haimson | 📥 **已在 inbox**（`Russian Marxists and the Origins of Bolshevism (Leopold H. Haimson).pdf`，另附海姆森访谈录 *The Making of Three Russian Revolutionaries* 及 Lars Lih *Lenin Rediscovered* 中英双版） |
 | `BIB-004` | 🟠 P1 | 《马尔托夫：一位俄国社会民主党人的政治传记》 | *Martov: A Political Biography* | Israel Getzler | 📥 **已在 inbox**（`Martov a political biography... (Getzler, Israel).pdf`，另附 *Martov and Zinoviev: Head to Head in Halle*） |
-| `BIB-005` | 🟠 P1 | 《一战前的俄国社会革命党》及相关社革党专著 | *The Russian Socialist Revolutionary Party Before WWI* | Manfred Hildermeier 等 | 📥 **已在 inbox**（`The Russian Socialist Revolutionary Party Before the First World War (Hildermeier).epub` + `俄国社会革命党研究1901-1925.pdf` + `锤击镰刀：被布尔什维克镇压的社会革命党.pdf` + Elizabeth White 专著） |
+| `BIB-005` | 🟠 P1 | 《一战前的俄国社会革命党》及相关社革党专著 | *The Russian Socialist Revolutionary Party Before WWI* | Manfred Hildermeier 等 | 🌓 **主体已在 inbox，待补 Scott Smith (2011)**（已有 `Hildermeier.epub` + `俄国社会革命党研究1901-1925.pdf` + Elizabeth White 专著；经扉页核实 `锤击镰刀.pdf` 真身为 Oliver H. Radkey 1963 *The Sickle under the Hammer*，待补寻 Scott B. Smith, *Captives of Revolution*, 2011） |
 
 ---
 
@@ -67,5 +67,6 @@
 | `BIB-023` | 🔴 P0 | 《斯大林（第1卷：权力的悖论 1878–1928；第2卷：等待希特勒 1929–1941）》 | *Stalin, Vol. I & Vol. II* | Stephen Kotkin | 🌓 **第1卷已在 inbox，待补第2卷**（已有 `Stalin, Volume 1 Paradoxes of Power, 1878–1928.epub`；1929年决战下半场在第2卷开篇） |
 | `BIB-024` | 🔴 P0 | 《先知三部曲（武装的先知 / 被解除武装的先知 / 流亡的先知）》 | *The Prophet Armed / Unarmed / Outcast* | Isaac Deutscher | 📥 **已在 inbox**（`先知三部曲（全新插图修订本）...epub`） |
 | `BIB-025` | 🟠 P1 | 《苏联工业化大论战（1924–1928）》 | *The Soviet Industrialization Debate, 1924–1928* | Alexander Erlich | 📥 **已在 inbox**（`The Soviet Industrialization Debate, 1924–1928 (Alexander Erlich).pdf`，另附普列奥布拉任斯基《新经济学》与《平衡与非平衡》） |
-| `BIB-026` | 🟠 P1 | 《苏维埃俄国史（含过渡期 1923–24、计划经济基础 1926–29 等）》 | *A History of Soviet Russia* / *Foundations of a Planned Economy* | E. H. Carr & R. W. Davies | 📥 **已在 inbox**（`A History of Soviet Russia.epub` 557MB合集 + `The Interregnum` + `Foundations of a Planned Economy` + 中文版《布尔什维克革命》1–3卷 + Davies *Industrialisation*） |
+| `BIB-026` | 🟠 P1 | 《苏维埃俄国史（含过渡期 1923–24、一国社会主义 1924–26、计划经济基础 1926–29）》 | *A History of Soviet Russia* (14 vols.) | E. H. Carr & R. W. Davies | 🌓 **大部分已在 inbox，待补缺卷**（已有《布尔什维克革命》1–3卷中英本 + `The Interregnum` + `Foundations Vol. 1-I & Vol. 3-II` + 1979总括本；经扉页核实 `A History of Soviet Russia.epub` 仅为第2卷扫描版，待补寻 *Socialism in One Country, 1924–1926* Vols. 1–3 与 *Foundations* Vol. 2 / Vol. 3-I & III） |
 | `BIB-027` | 🟠 P1 | 《斯大林：独裁者新传》 | *Stalin: New Biography of a Dictator* | Oleg V. Khlevniuk | 📥 **已在 inbox**（`Stalin New Biography of a Dictator (Oleg V. Khlevniuk).epub`，另附阿帕利科夫《联共(布)党内斗争》、梅里代尔《莫斯科政治与斯大林崛起 1925–32》） |
+| `BIB-028` | 🔵 P2 | 《列宁政治生涯（第二、三卷）》 | *Lenin: A Political Life, Vols. 2–3* | Robert Service | ⏳ **待寻找**（第1卷 `1870–1910.01` 已在 `inbox/`，覆盖 1910–1924 的第2–3卷待补，目前已有洛吉诺夫《列宁全传》互补） |

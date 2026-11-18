@@ -1,0 +1,4 @@
+id: SRC-nationalization-docs-1917-1920-zh
+directory_name: nationalization_docs_1917_1920_zh
+needs_ocr: true
+note: "原始 PDF 为 841 页纯扫描图像无嵌入式文本层（PDF-I），禁止伪造未提取的汉译原文直引，待后续 OCR 流水线补提。"

@@ -1,0 +1,26 @@
+id: MONO-sakharov-2012-crossroads
+title: 在十字路口：关于苏联社会发展前景与道路的讨论（1921–1929）
+title_original: "На распутье: Дискуссии о путях и перспективах развития советского общества (1921–1929 гг.)"
+author: 瓦连京·亚历山德罗维奇·萨哈罗夫
+author_original: Валентин Александрович Сахаров
+publisher: “阿克瓦-捷尔姆”出版中心 (Издательский центр «Аква-Терм», Москва)
+pub_year: 2012
+subject_period: "1921–1929 (新经济政策、党内反对派路线演变与权力更迭)"
+source_file: "inbox/在十字路口_关于苏联社会发展前景与道路的讨论(1921-1929) -- 瓦连京·亚历山德罗维奇·萨哈罗夫 -- 2012 -- “阿克瓦-捷尔姆”出版中心 -- b11a224b129d02d167f84c1a1a4efc0e -- Anna’s Archive.epub"
+source_hash: b11a224b129d02d167f84c1a1a4efc0e
+source_format: epub
+source_note: "Anna's Archive"
+needs_ocr: false
+quality_check:
+  total_pages: null # 原生 EPUB 无固定印刷页码
+  text_layer_status: "原生电子书 (EPUB) 结构化 XHTML 文本，中文字符编码完备，章节点、注释体系与附录文献均完整保留"
+extraction_stats:
+  chapters_count: 22
+  total_lines: 5270
+  total_chars: 222612
+  chunk_strategy: "epub_spine_sections"
+  index_file: "toc.md"
+status: ready_for_close_reading
+historiographical_note: >
+  当代俄罗斯后苏联档案派史学家（莫斯科国立大学教授）对 1920 年代苏联各派发展方案的深度学术争鸣专著。
+  对托洛茨基“世界革命/资本主义世界分工依附论”、布哈林“蜗牛步调/曲解列宁/批判马克思”的替代方案以及斯大林派的“一国建成社会主义/本土资源动员”路径进行了尖锐的史料与理论剖析，并附有布哈林起草的十四大中央总结决议未刊草案等罕见文献。
