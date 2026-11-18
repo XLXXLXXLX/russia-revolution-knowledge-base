@@ -1,9 +1,28 @@
-bib_id: "BIB-024"
-slug: "deutscher_prophet_trilogy_zh"
-title: "先知三部曲（武装的先知 / 被解除武装的先知 / 流亡的先知）"
-original_title: "The Prophet Armed / The Prophet Unarmed / The Prophet Outcast"
-author: "Isaac Deutscher (艾萨克·多伊彻)"
-year: 1959
-language: "zh"
-epistemic_tier: "A"
-quality_notes: "41 EPUB chapters (1,289,263 chars); Vol. 1 & Vol. 2 cover 1879-1929 directly"
+id: MONO-deutscher-prophet-trilogy
+slug: deutscher_prophet_trilogy_zh
+title: "先知三部曲：武装的先知；被解除武装的先知；流亡的先知"
+title_original: "The Prophet Armed: Trotsky, 1879–1921; The Prophet Unarmed: Trotsky, 1921–1929; The Prophet Outcast: Trotsky, 1929–1940"
+author: "伊萨克·多伊彻"
+author_original: "Isaac Deutscher"
+publisher: "Oxford University Press（原版三卷）；当前 EPUB 未载中文版本出版项"
+pub_year: 1954
+edition: "三卷原版分别初版于 1954、1959、1963；当前为中文套装 EPUB，版权页/译者出版信息未见"
+language: zh
+epistemic_tier: B
+subject_period: "托洛茨基生平与政治活动，1879–1940"
+source_file: "inbox/先知三部曲(套装共3册) ( etc.) (z-library.sk, 1lib.sk, z-lib.sk).epub"
+source_format: epub
+needs_ocr: false
+quality_check:
+  total_pages: null
+  text_bearing_pages: null
+  empty_or_image_pages: null
+  text_layer_status: "EPUB 内嵌文本可提取；三卷卷首、译者前言及目录结构已核对"
+extraction_stats:
+  chapters_count: 41
+  total_lines: 12403
+  total_chars: 1287295
+  chunk_strategy: "EPUB OPF spine 顺序按 XHTML 文档拆分"
+  index_file: toc.md
+status: ready_for_close_reading
+quality_notes: "译者前言明确列出三卷原版题名、作者及 1954/1959/1963 年初版信息；当前电子文件中文版本的译者和出版项未见可靠版权页，不作推定。"

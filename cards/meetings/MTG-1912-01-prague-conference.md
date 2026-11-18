@@ -5,67 +5,71 @@ title: 俄国社会民主工党第六次（布拉格）全俄代表会议
 names:
   ru: VI (Пражская) Всероссийская конференция РСДРП
   en: Sixth (Prague) All-Russian Conference of the RSDLP
-  aliases: ["布拉格会议", "布拉格代表会议", "俄国社会民主工党六大代表会议", "Пражская конференция"]
+  aliases: ["布拉格会议", "布拉格代表会议", "俄国社会民主工党第六次代表会议", "Пражская конференция"]
 dates:
   start_ns: "1912-01-18"
   end_ns: "1912-01-30"
 coverage_status: multi-perspective
-perspectives_present: ["soviet-orthodox", "western-political-history-kotkin", "menshevik-historiography-getzler", "revisionist-lih"]
+perspectives_present: ["soviet-orthodox", "western-political-history-kotkin", "menshevik-historiography-getzler", "revisionist-lih", "empire-wide-comparative-blanc"]
 perspectives_missing: ["primary-prague-protocols-direct-transcript"]
 related_debates: ["DEB-1903-bolshevik-menshevik-split", "DEB-1914-haimson-thesis-stability"]
 updated_at: "2026-11-18"
 ---
 
 ## [T1] 60秒定性微摘要
-1912年1月5–17日[O.S.] / 1月18–30日[N.S.]列宁派在布拉格召开的秘密代表会议。会议自任俄国社会民主工党最高全权机关，将孟什维克取消派正式驱逐出党，废除1910年巴黎协议，选出纯布尔什维克中央委员会并增补斯大林入中委及俄罗斯局，完成两派组织决裂。
+1912-01-18至1912-01-30 [N.S.]列宁派在奥匈帝国布拉格召开的秘密代表会议。会议自任俄国社会民主工党最高全权机关，宣布《我们的曙光》等孟什维克取消派已置身党外，废除1910年巴黎协议，选出布尔什维克主导的中央委员会并会后增补斯大林入中委及俄罗斯局，建立起独立领导中央并加深两派组织决裂（尽管俄国国内地方联合委员会与基层合作仍长期延续）。
 
 ## [T2] 核心脉络、时效关系边表与史学争鸣光谱
 
 ### 2.1 核心历史脉络
-> **双历特别提示**：会议举行地布拉格属奥匈帝国，当地使用格里高利历（公历 `1912-01-18` 至 `1912-01-30 [N.S.]`），对应沙俄国内俄历 **`1912-01-05` 至 `1912-01-17 [O.S.]`**（相差13天）。`start_ns` / `end_ns` 取标准公历。
+> **会场历法说明**：会议举行地布拉格（时属奥匈帝国）及此前巴黎筹备会议均位于西欧公历区，依规仅标当地格里高利历（公历 **`1912-01-18` 至 `1912-01-30 [N.S.]`**）；涉及沙俄境内流放地或地方组织的具体日级事件则另按俄国地点双历规则处理。
 
-- **1910年巴黎全会破产与筹备机器争夺（`1910-01` 至 `1911-12`）**：`1910-01` 巴黎统一全会曾试图弥合派别裂痕，却因俄国内“实务派”抵制与列宁重启《社会民主党人报》攻势而瓦解；随后列宁与普列汉诺夫派（护党孟什维克）结成短暂反“取消派”同盟。`1911` 年夏秋列宁派退出海外调和性技术机构并派奥尔忠尼启则、斯潘达良赴俄国国内组建“俄国组织委员会”（РОК），`1911-12-27` 至 `12-30` 在巴黎先行召开国外布尔什维克小组会议，确立“以两个政党为基础”将取消派驱逐出党的方针。
-- **代表构成、篡夺党统与驱逐取消派（`1912-01-05/18` 至 `01-17/30`）**：出席布拉格会议的正式代表约18—20人（其中有表决权14人，多为俄国主要城市地下组织布尔什维克，外加2名护党孟什维克）；崩得、拉脱维亚社会民主党、托洛茨基派与国外孟什维克中心均拒绝出席或未获邀，普列汉诺夫亦婉拒。会议随即在列宁主导下援引“旧中央委员会已停止活动”，自行宣布为“党的最高机关——全俄党代表会议”，废除1910年1月全会协议，正式宣告以《我们的曙光》《生活事业》为核心的孟什维克取消派“已将自己置于党外”，并责令高尔基、列宁之外的海外派别（《前进》派、托洛茨基《真理报》派）不得擅用“俄国社会民主工党”名义。
-- **纯布尔什维克中央与斯大林跃升核心圈（`1912-01` 至 `1912-02`）**：会议选出以列宁为首的全新全布尔什维克中央委员会（包括列宁、季诺维也夫、奥尔忠尼启则、斯潘达良、戈洛晓金、施瓦茨曼，以及后被揭露为沙皇暗探局密探的罗曼·马利诺夫斯基），并决议在国内设立**中央委员会俄罗斯局**。紧接着在新中委第一次全体会议上，列宁在缺席状态下将当时流放于沃洛格达的**斯大林（约瑟夫·朱加什维利）**与五金工人伊万·别洛斯托茨基增补（co-opt）为中央委员并指定斯大林入俄罗斯局（1912年2月初由奥尔忠尼启则赴流放地通知，每月配发50卢布党费津贴）。
-- **维也纳“八月联盟”反击与《真理报》崛起（`1912-04` 至 `1912-08`）**：布拉格会议确立的合法机关与经费控制权在1912年4月勒拿河金矿惨案引发的罢工高潮中迅速兑现为政治红利（彼得堡布尔什维克日报《星报》及随后的《真理报》销量远超孟什维克周报，1912年末第四届国家杜马工人选区席位全由布尔什维克夺得）。遭开除各派在托洛茨基与马尔托夫协调下于 `1912-08` 在维也纳召开反制会议组成“八月联盟”，却旋即因内部分歧溃散，未能动摇布尔什维克对俄国社会民主工党名义与地下机器的实际占有。
+- **1910年巴黎全会破产与筹备机器争夺（`1910-01` 至 `1911-12`）**：`1910-01` 巴黎统一全会曾试图弥合派别裂痕，却因俄国内“实务派”抵制与列宁重启《社会民主党人报》攻势而瓦解；随后列宁与普列汉诺夫派（护党孟什维克）结成反“取消派”同盟。`1911` 年夏秋列宁派退出海外调和性技术机构并派奥尔忠尼启则、斯潘达良等赴俄国国内组建“俄国组织委员会”（РОК），`1911-12-27` 至 `12-30 [N.S.]` 在巴黎先行召开国外布尔什维克小组会议，提出“站在两个党的基础上”孤立取消派的方针。
+- **代表构成异文、夺取党统与驱逐取消派（`1912-01-18` 至 `01-30 [N.S.]`）**：关于参会代表构成，不同史学叙述口径有别且需区分表决权与列席身份（原始代表资格审查名册 `Шелохаев 2008` 本库未录）：Kotkin 记与会代表共 **20人**（列宁派占18人，另有2名孟什维克）；Blanc 指出筹备方曾向波兰王国和立陶宛社会民主党（SDKPiL）、崩得、拉脱维亚社会民主党、托洛茨基维也纳《真理报》派、普列汉诺夫派、《前进》派及格鲁吉亚孟什维克广泛发函，最终非布尔什维克受邀者中仅有**基辅与叶卡捷琳诺斯拉夫的护党孟什维克委员会代表**到会并参与争辩；Getzler 则从马尔托夫派视角指称列宁“拒绝邀请孟什维克（主流/取消派中心）出席”；苏联官方史述强调代表来自俄国主要工业中心并挂名“37个城市党组织”（通行参考统计常记其中持正式表决权代表为14人，其余为发言/咨询或列席人员，具体名册待核），普列汉诺夫以代表性不足婉拒出席，高尔基因病未到并致贺信。会议在列宁主导下援引“旧中央委员会已停止活动”，自行宣布为“党的最高机关——全俄党代表会议”，废除1910年一月全会与托洛茨基派《真理报》协议，宣告围绕合法刊物《我们的曙光》《生活事业》集结的取消派“已使自己完全置身于党外”，并通过《关于国外的党组织》决议规定凡不服从中央委员会、绕过中央与国内建立特殊关系的海外集团不得使用“俄国社会民主工党”名义。
+- **中央委员会组建与斯大林跃升核心圈（`1912-01` 至 `1912-02`）**：会议选出以列宁为首的新中央委员会——Kotkin 将其概括为“全布尔什维克中央”（含列宁、季诺维也夫、奥尔忠尼启则、斯潘达良、戈洛晓金、施瓦茨曼，以及后被揭露为沙皇暗探局密探的罗曼·马利诺夫斯基），Blanc 则据施瓦茨曼等护党孟什维克背景严格界定为“以布尔什维克为主导但非排他（predominantly, not exclusively Bolshevik）的中央”——并决议在国内设立**中央委员会俄罗斯局**。紧接着在新中委第一次全体会议上，列宁在缺席状态下将当时流放于俄国境内沃洛格达的**斯大林（约瑟夫·朱加什维利）**与五金工人伊万·别洛斯托茨基增补（co-opt）为中央委员并指定斯大林入俄罗斯局（1912年2月初由奥尔忠尼启则赴沃洛格达流放地当面通报，每月配发50卢布党费津贴）。
+- **维也纳“八月联盟”反制、报刊扩张与国内基层的长期联合实态（`1912-04` 至 `1914-07`）**：1912年4月勒拿河金矿惨案引发罢工高潮后，布尔什维克合法报刊《星报》（实为周刊至每周两三刊，Getzler 混称为日报）及随后创刊的日报《真理报》销量显著压过孟什维克报刊；在1912年末第四届国家杜马选举中，布尔什维克在彼得堡、莫斯科等设专门工人选举团的6个关键工业省夺得专门工人团的6名代表席位（Getzler 记6席全为布尔什维克而无孟什维克，但高加索等混合选区仍有孟什维克当选）。遭排斥各派在托洛茨基与马尔托夫协调下于 `1912-08` 在维也纳组成松散的“八月联盟”，旋即陷入内耗。然而 Eric Blanc 的帝国全域考证表明，布拉格会议并未立即在俄国国内造成普遍组织分裂：《真理报》创刊初期恰恰作为联合护党孟什维克的“非派别”日报公开呼吁“不惜代价维护统一”（就连斯大林本人在1912年夏亦曾倡导统一），彼得堡党组织的首次公开报刊分裂反而始于右翼孟什维克于 `1912-08` 另办《光线报》（*Luch*）；在彼得堡以外的各省与民族边疆（如基辅、巴库、格鲁吉亚、拉脱维亚），两派联合委员会仍是常态，外省杜马工人代表多系在社会民主党联合平台上当选，杜马党团迟至 `1913-11` 才在流亡中央强压下分立，而全国范围内普遍建立独立布尔什维克地方委员会直至 `1917` 年夏秋才最终定型。
 
 ### 2.2 时效关系摘要边表（Typed & Temporalized Edges）
 | 关联节点 ID | 关系类型 | 有效时段 | 一句话关系实质摘要（防 N+1 盲跳） | 核心依据/争鸣 |
 | :--- | :--- | :--- | :--- | :--- |
-| `PER-lenin` | `architect-and-drafter` | 1911–1912 | 主导筹备并起草全部核心决议，借布拉格少数派会议完成与孟什维克取消派的组织决裂并独揽党统与经费 | Kotkin 2014 `ch09`; Getzler 1967 `ch06` |
-| `PER-stalin` | `co-opted-to-inner-circle` | 1912.01–02 | 会后即由列宁提议缺席增补为纯布尔什维克中委暨俄罗斯局成员，完成从外高加索实干者向全俄十二人核心圈的决定性一跃 | Kotkin 2014 `ch09#L463-L487` |
-| `PER-ordzhonikidze` | `organizer-and-courier` | 1911–1912.02 | 担任俄国组织委员会核心组织者并在布拉格当选中委，会后受命亲赴沃洛格达向流放中的斯大林通报入委决定 | Kotkin 2014 `ch09#L483`; `struggle_against_trotskyism_zh/ch03` |
-| `PER-zinoviev` | `cc-lieutenant` | 1912.01 | 当选布拉格全会产生的中央委员会委员及中央机关报核心成员，巩固列宁流亡核心二把手地位 | Kotkin 2014 `ch09`; `zhukov_zinoviev_zh/ch00` |
-| `ORG-mensheviks` | `expelled-rival` | 1912.01–08 | 会议以缺席定罪方式将取消派驱逐出党，迫使马尔托夫与托洛茨基在1912年8月维也纳仓促拼凑脆弱“八月联盟” | Getzler 1967 `ch06#L347-L420` |
-| `PER-martov-l` | `outmaneuvered-opponent` | 1910–1912 | 因1908–1911年对列宁优柔错失先手并将《社会民主党人报》与施密特遗产信托主动权让出，至1912年1月痛失党统名号 | Getzler 1967 `ch06#L259-L394` |
-| `MTG-1903-rsdlp-2nd-congress` | `organizational-rupture-completion` | 1903→1912 | 若说1903年二大产生最初的“多数派/少数派”派别分野，1912年布拉格会议才在组织建制上把两派彻底分割为独立政党 | `DEB-1903-bolshevik-menshevik-split`; `CLM-lih-2006-textbook-myth-critique` |
+| `PER-lenin` | `architect-and-drafter` | 1911–1912 | 主导筹备并起草核心决议，借布拉格会议建立布尔什维克主导的独立中央、驱逐《我们的曙光》取消派并掌控正式党名与经费 | Kotkin 2014 `ch09`; Getzler 1967 `ch06`; Blanc 2021 `ch13` |
+| `PER-stalin` | `co-opted-to-inner-circle` | 1912.01–02 | 会后即由列宁提议缺席增补为中委暨俄罗斯局成员，完成从外高加索实干者向全俄十二人核心圈的关键跃升 | Kotkin 2014 `ch09#L463-L487` |
+| `PER-ordzhonikidze` | `organizer-and-courier` | 1911–1912.02 | 担任俄国组织委员会核心组织者并在布拉格当选中委，会后赴沃洛格达向流放中的斯大林通报增补决定 | Kotkin 2014 `ch09#L483`; `struggle_against_trotskyism_zh/ch03` |
+| `PER-zinoviev` | `cc-lieutenant` | 1912.01 | 当选布拉格会议产生的中央委员会委员及中央机关报核心成员，巩固列宁流亡核心助手地位 | Kotkin 2014 `ch09`; `zhukov_zinoviev_zh/ch00` |
+| `ORG-mensheviks` | `expelled-rival` | 1912.01–08 | 会议宣布《我们的曙光》等取消派已置身党外（仅2名护党孟什维克与会），促使马尔托夫与托洛茨基于1912年8月维也纳组建“八月联盟” | Getzler 1967 `ch06#L347-L420`; Blanc 2021 `ch13#L1548-L1578` |
+| `PER-martov-l` | `outmaneuvered-opponent` | 1910–1912 | 因1908–1911年对列宁优柔错失先手并将《社会民主党人报》与施密特遗产信托主动权让出，至1912年1月痛失中央党统名号 | Getzler 1967 `ch06#L259-L394` |
+| `MTG-1903-rsdlp-2nd-congress` | `organizational-rupture-deepening` | 1903→1912 | 1903年二大形成最初派别分野，1912年布拉格会议在中央领导层建制上树起独立旗帜并加深组织决裂，但地方基层彻底分党仍延续至1917年 | `DEB-1903-bolshevik-menshevik-split`; Blanc 2021 `ch13#L1585-L1695` |
 
 ### 2.3 史学争鸣光谱（Historiographical Spectrum）
-- **经验共识**：布拉格会议在人数上只是一场规模有限的布尔什维克主导集会（约18—20名代表，且无主要少数民族与非布尔什维克党团正式出席），但它通过自行宣布代表大会权限与选出纯布尔什维克中央委员会，事实上完成了俄国社会民主工党组织分裂并标志着斯大林跻身最高领导层。
+- **经验共识**：布拉格会议在规模上只是一场参会人数很少、由布尔什维克主导的代表会议（除基辅、叶卡捷琳诺斯拉夫的2名护党孟什维克代表外，各民族社会民主党、孟什维克主流与取消派及海外中间派集团均未出席），但它通过自赋党代表大会级全权、宣布《我们的曙光》等取消派置身党外并选出布尔什维克主导的新中央委员会，在最高领导层建制上确立了独立运转的布尔什维克中央，同时标志着斯大林跻身全俄核心领导圈。
 - **主要解释分歧**（详参 `DEB-1903-bolshevik-menshevik-split`, `DEB-1914-haimson-thesis-stability`）：
-  - **[斯大林主义与苏联正统史学]**：奉布拉格会议为“新型布尔什维克政党”正式诞生的决定性里程碑——尤其注意 Lars Lih 考证指出（`CLM-lih-2006-textbook-myth-critique`），1938年《联共（布）党史简明教程》实际上正是把 **1912年布拉格会议**（而非1902年《怎么办？》）定为清除了孟什维克与托派机会主义、创立独立新型政党的起点，并刻意强化托洛茨基对会议的破坏指控。
-  - **[西方自由派与斯大林传记派 / Stephen Kotkin (2014)]**（`kotkin_2014_stalin_v1/ch09`）：将布拉格会议定性为列宁借助极少数派自封最高权力的“狡黠党内政变（underhanded internal party action）”，并揭示斯大林跻身十二人核心圈绝非偶然，而是列宁高度赏识这个在高加索不择手段、忠诚高效的非俄罗斯族实干者；同时指出仅半年后（1912.07）列宁便为墨索里尼将改良派逐出意大利社会党喝彩。
-  - **[孟什维克史学与政治传记派 / Israel Getzler (1967)]**（`getzler_1967_martov/ch06`）：以马尔托夫视角复盘1908–1911年“错失的机遇（The Missed Opportunity）”，痛惜孟什维克在1910年巴黎全会上手握“征款丑闻”道义优势却因顾惜统一未果断另立党统，反而通过妥协决议武装了列宁打击“取消派”的手腕，导致1912年1月列宁从容收割正式党名、考茨基托管基金与合法出版主导权。
-  - **[修正式社会民主主义语境派 / Lars T. Lih (2006)]**（`CLM-lih-2006-textbook-myth-critique`）：提醒不可把1912年布拉格决裂简单投射回1902—1903年；恰恰在战前欧洲社会民主党“清除机会主义”的国际语境中，列宁视驱逐《我们的曙光》取消派为捍卫地下马克思主义政党正统，且战后“《怎么办？》即建党创世书”的教科书神话反而是斯大林死后苏联教材与冷战学者合谋追溯的产物。
+  - **[斯大林主义与苏联正统史学]**：奉布拉格会议为清除机会主义、正式确立“新型布尔什维克政党”的决定性里程碑——Lars Lih 考证指出（`CLM-lih-2006-textbook-myth-critique`），1938年《联共（布）党史简明教程》正是把 **1912年布拉格会议**（而非1902年《怎么办？》）定为清除了孟什维克与托派机会主义、建立独立新型政党的历史起点，并着重渲染托洛茨基对会议的破坏指控。
+  - **[西方政治传记派 / Stephen Kotkin (2014)]**（`kotkin_2014_stalin_v1/ch09`）：将布拉格会议定性为列宁借助极少数派自封最高权力的“狡黠党内行动（underhanded internal party action）”，并揭示斯大林缺席增补进入十二人核心圈源于列宁高度倚重这名在高加索历经地下考验、忠诚果决的非俄罗斯族实干者；同时注意到即便到1912年夏，国内的斯大林自己仍在呼吁“不惜一切代价实现党内统一”`[p. 154 / ch09#L490]`。
+  - **[孟什维克史学与政治传记派 / Israel Getzler (1967)]**（`getzler_1967_martov/ch06`）：以马尔托夫视角复盘1908–1911年“错失的机遇（The Missed Opportunity）”，认为孟什维克在1910年巴黎全会上手握“征款丑闻”道义优势却因顾惜统一未果断另立党统，反而通过反取消主义妥协决议武装了列宁，使列宁得以在1912年1月收割正式党名、托管基金与合法出版先机。
+  - **[修正式社会民主主义语境派与帝国基层比较派 / Lars T. Lih (2006, 2012) & Eric Blanc (2021)]**（`CLM-lih-2006-textbook-myth-critique`; `blanc_2021_rev_sd/ch13`）：反对把布拉格会议神化或妖魔化为“一夜之间建成纯粹先锋党”的断裂点。Lih 与 Blanc 指出，会议仅驱逐公开否定地下党的《我们的曙光》取消派而未排除护党孟什维克，且在俄国国内强烈的“非派别统一”工人情绪制约下，《真理报》最初以联合护党孟什维克的非派别面貌运作，外省与边疆两派联合委员会一直延续至1917年夏秋——布尔什维克后来的群众霸权恰恰得益于长期留在更广泛的社会民主党框架内争夺多数，而非过早自我孤立为狭隘宗派。
 
 ## [T3] 深度考证、分期细目与原文引证档案
 
 ### 3.1 布拉格会议组织构成与人事结果核查表
-| 项目 | 核心事实与数字 | 史料来源与备注 |
+| 项目 | 核心事实与不同文献口径 | 史料来源与备注 |
 | :--- | :--- | :--- |
-| **会期与双历** | `1912-01-05` 至 `01-17 [O.S.]` / **`1912-01-18` 至 `01-30 [N.S.]`** | 奥匈帝国布拉格当地使用公历 N.S.；`E04` 编年与标准双历校验 |
-| **代表规模** | 约 **18–20 名**代表（Kotkin 记 20 人中 18 名布尔什维克 + 2 名护党孟什维克；苏联史记代表俄国主要工业中心、并列37个城市名义；14人持表决权） | Kotkin 2014 `p. 152`; `struggle_against_trotskyism_zh/ch03` `[PDF p. 96]` |
-| **缺席/拒绝方** | 崩得、拉脱维亚社会民主党、托洛茨基维也纳《真理报》派、《前进》派、国外孟什维克中心及普列汉诺夫均未出席 | `struggle_against_trotskyism_zh/ch03` `[PDF pp. 96–97]`; Getzler 1967 `p. 134` |
-| **选出中委与增补** | 会上选出：列宁、季诺维也夫、奥尔忠尼启则、斯潘达良、戈洛晓金、施瓦茨曼、**马利诺夫斯基（后证实为暗探局间谍）**；会后首次全会增补：**斯大林（缺席）**、别洛斯托茨基，设**俄罗斯局** | Kotkin 2014 `pp. 152–153, 160–161`; `E04` 编年 |
+| **会期与历法** | **`1912-01-18` 至 `1912-01-30 [N.S.]`** | 布拉格属奥匈帝国西欧公历区，依规仅标当地公历 `[N.S.]` |
+| **代表构成各家口径** | ① **Kotkin 口径**：共 **20名**代表（列宁派占18人 + 2名孟什维克）；<br>② **Blanc 口径**：非布尔什维克受邀团体中仅**基辅与叶卡捷琳诺斯拉夫护党孟什维克委员会**代表到会参辩；<br>③ **苏联史述与通行统计**：称代表俄国主要无产阶级中心、挂名37个城市党组织；通行统计常记 **14名持正式表决权代表**（其余为咨询/发言或列席身份，原始代表名册 `Шелохаев 2008` 待核） | Kotkin 2014 `p. 152`; Blanc 2021 `printed p. 269 / PDF p. 283`; `struggle_against_trotskyism_zh/ch03` `[PDF p. 96]` |
+| **未出席/拒绝方** | 波兰王国和立陶宛社会民主党（SDKPiL）、崩得、拉脱维亚社会民主党、托洛茨基维也纳《真理报》派、《前进》派、格鲁吉亚及国外孟什维克主流中心、普列汉诺夫均未出席（Getzler 称列宁拒绝邀请孟什维克；高尔基因病未到并致贺信） | Blanc 2021 `printed p. 269`; `struggle_against_trotskyism_zh/ch03` `[PDF pp. 96–97]`; Getzler 1967 `p. 134` |
+| **选出中委与增补** | 会上选出：列宁、季诺维也夫、奥尔忠尼启则、斯潘达良、戈洛晓金、施瓦茨曼（基辅护党孟什维克背景，故 Blanc 称中委“以布尔什维克为主而非排他”，Kotkin 则概括为“全布尔什维克”）、**马利诺夫斯基（后证实为暗探局密探）**；会后首次全会缺席增补：**斯大林**、别洛斯托茨基，并设**俄罗斯局** | Kotkin 2014 `pp. 152–153, 160–161`; Blanc 2021 `printed pp. 269–270` |
+| **后续选举与国内实态** | 1912年末第四届杜马选举中布尔什维克夺得彼得堡、莫斯科等6个专门工人选举团工业省的 **6席**（外省多以联合名单参选）；国内多数省份两派联合委员会延续至1917年夏秋 | Getzler 1967 `p. 135`；Blanc 2021 `printed pp. 270–274, 280` |
 
 ### 3.2 原文直引与档案文献锚点
 - **Kotkin 对布拉格会议政变性质及斯大林缺席增补的考证**（Stephen Kotkin 2014, *Stalin: Paradoxes of Power, 1878–1928*, `ch09`）：
   > "In January 1912, the Bolsheviks called a tiny party conference—not a congress—in Prague, where Lenin’s faction managed to claim eighteen of the twenty delegates; aside from two Mensheviks, most of the non-Bolshevik faction of Social Democrats refused to attend. On the dubious grounds that the party’s old Central Committee had 'ceased to function,' the conference assigned itself the powers of a congress and named a new (and all-Bolshevik) Central Committee." `[printed p. 152 / ch09#L463]`
   > "Immediately thereupon, at the first plenum of the new Central Committee, Lenin decided to co-opt Jughashvili (in Vologda exile) in absentia as a new Central Committee member. The Prague gathering also created a Central Committee 'Russia bureau' (for those located on Russian territory), which Stalin had been insisting upon, and on which he was now placed. Stalin became one of twelve top Bolshevik insiders, and one of three such from the Caucasus." `[printed p. 153 / ch09#L465]`
-- **Getzler 对孟什维克错失先手与布拉格会议政治后果的总结**（Israel Getzler 1967, *Martov*, `ch06`）：
-  > "The initiative was now in Lenin's hands. In January 1912 he did at last convoke a party conference in Prague, and did at last formally split the party by refusing to invite the Mensheviks to attend. When at long last the August bloc of Mensheviks, Bundists, Trotsky's Pravda group, and the secessionist left wing of the Polish Socialist Party (P.P.S. Levitsa) was formed in Vienna in August 1912 ... it could do little more than register the fact that the Bolsheviks had captured and purged the Russian Social Democratic Party, controlled its institutions and its funds, and were forging ahead in conquering positions in the open, legal areas of activity which they had hitherto spurned..." `[printed pp. 134–135 / PDF pp. 156–157]`
+- **Eric Blanc 对布拉格会议非排他性与国内基层长期联合实态的考证**（Eric Blanc 2021, *Revolutionary Social Democracy*, `ch13`）：
+  > "Of the many non-Bolshevik invitees, only the Kiev and Ekaterinoslav committees led by Party-Mensheviks ended up participating. The Party-Menshevik delegates fought for their own political perspectives and they were elected to the new Central Committee. Moreover, the Prague conference neither called for a split in the rsdrp nor did it exclude most Mensheviks. It only affirmed that the group of liquidationists organised around the Nasha Zaria and Delo Zhizni journals 'has once and for all placed itself outside of the party'." `[printed pp. 269–270 / PDF pp. 283–284]`
+  > "Prague established a predominantly (not exclusively) Bolshevik Central Committee, but it took many more years before an analogous organisational cleavage became the norm within Russia. ... Their main publication was Pravda (The Truth) – an explicitly non-factional legal newspaper published jointly with Party-Mensheviks – that called for 'unity at all costs'." `[printed p. 270 / PDF p. 284]`
+- **Getzler 对孟什维克错失先手与1912年末工人选举团结果的记述**（Israel Getzler 1967, *Martov*, `ch06`）：
+  > "The initiative was now in Lenin's hands. In January 1912 he did at last convoke a party conference in Prague, and did at last formally split the party by refusing to invite the Mensheviks to attend. ... Late in 1912 in the elections to the workers' electoral colleges of the Duma six Bolshevik deputies were elected in Petersburg and Moscow and not one Menshevik." `[printed pp. 134–135 / PDF pp. 156–157]` *(注：Getzler 同段 `L382` 将《星报》与《真理报》笼统并称为 daily，实则《星报》为周刊至每周两三刊，1912年春创刊的《真理报》方为日报；6名布尔什维克工人代表对应设专门工人选举团的6个工业省，而非帝国全部杜马选区。)*
 - **Lars Lih 对《简明教程》将“新型政党”置于 1912 布拉格会议而非 1902《怎么办？》的文献反证**（`CLM-lih-2006-textbook-myth-critique`）：
   > "Stalin's interpretation of WITBD differ from the Western textbook interpretation in two fundamental respects. First, he did not see WITBD as the charter document of a 'party of a new type'." `[p. 31]` *(Lih `p. 31 fn. 54` 指出 1938 年版《简明教程》将“新型政党”诞生锚定在 1912 年布拉格会议。)*
-- **苏联官方正统叙事中的列宁《工人报》与驱逐决议摘录**（`sources/monographs/struggle_against_trotskyism_zh/ch03_pages_76-100.md`）：
-  - 会议宣称以《我们的曙光》和《生活事业》为中心的取消派“已使它们自己完全置身于党外”`[PDF p. 97]`，列宁致信高尔基称“我们终于成功——不顾取消派恶棍们——恢复了党和其中央委员会”`[PDF p. 97]`。
-- **馆藏对接清单**：`kotkin_2014_stalin_v1/ch09_chapter_4.md`、`getzler_1967_martov/ch06_pages_151-175.md`、`CLM-lih-2006-textbook-myth-critique`、`struggle_against_trotskyism_zh/ch03_pages_76-100.md`、`timeline/L2_chronicles/E04_1907-1914_stolypin_and_labor_upsurge.md`。
+- **苏联官方正统叙事中的驱逐取消派与《关于国外的党组织》决议摘录**（`sources/monographs/struggle_against_trotskyism_zh/ch03_pages_76-100.md`）：
+  - 会议宣称围绕《我们的曙光》和《生活事业》集结的取消派“已使它们自己完全置身于党外”`[PDF p. 97]`，《关于国外的党组织》决议宣布凡不服从中央委员会、绕过中央与俄国建立特殊关系以破坏工作的国外集团“不得使用俄国社会民主工党的名义”`[PDF p. 98]`；会后列宁致信高尔基称“我们终于成功——不顾取消派恶棍们——恢复了党和其中央委员会”`[PDF p. 97]`。
+- **馆藏对接清单**：`kotkin_2014_stalin_v1/ch09_chapter_4.md`、`blanc_2021_rev_sd/ch13_chapter_7_the_party_question.md`、`getzler_1967_martov/ch06_pages_151-175.md`、`CLM-lih-2006-textbook-myth-critique`、`struggle_against_trotskyism_zh/ch03_pages_76-100.md`、`timeline/L2_chronicles/E04_1907-1914_stolypin_and_labor_upsurge.md`。

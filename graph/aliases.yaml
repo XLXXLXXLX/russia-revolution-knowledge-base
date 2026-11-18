@@ -428,7 +428,7 @@ entities:
     en: "Assassination of Alexander II (March 1 / 13, 1881)"
     aliases: ["三月一日案", "亚历山大二世遇刺"]
 
-  MTG-1903-07-rsdlp-2nd-congress:
+  MTG-1903-rsdlp-2nd-congress:
     canonical_zh: "俄国社会民主工党第二次代表大会（布鲁塞尔—伦敦）"
     ru: "II съезд РСДРП (1903)"
     en: "Second Congress of the RSDLP (1903)"
@@ -721,3 +721,357 @@ entities:
     ru: "Смычка"
     en: "Smychka (Town-Country Link)"
     aliases: ["工农经济结合", "城乡结合", "Смычка города и деревни"]
+
+  CON-constituent-assembly:
+    canonical_zh: "立宪会议（全俄立宪会议）"
+    ru: "Учредительное собрание (Всероссийское Учредительное собрание)"
+    en: "Constituent Assembly (All-Russian Constituent Assembly)"
+    aliases: ["立宪会议", "全俄立宪会议", "制宪会议", "Учредительное собрание", "四尾普选制宪会议", "четырёххвостка", "土地的主人", "хозяин земли русской", "萨马拉立宪会议委员委员会", "Комуч"]
+
+  CON-dual-power:
+    canonical_zh: "双重政权（两个政权并存）"
+    ru: "Двоевластие"
+    en: "Dual Power"
+    aliases: ["双重政权", "两个政权并存", "两个政权", "二元政权", "Двоевластие", "dvoevlastie", "Dual Authority", "多中心政权", "многовластие", "无政权状态", "безвластие"]
+
+  CON-intelligentsia-and-vekhi:
+    canonical_zh: "俄国知识分子阶层、《路标》论战与“资产阶级专家”"
+    ru: "Русская интеллигенция, «Вехи» и «буржуазные специалисты» (спецы)"
+    en: "Russian Intelligentsia, the Vekhi Controversy, and \"Bourgeois Specialists\" (Spetsy)"
+    aliases: ["俄国知识分子", "интеллигенция", "平民知识分子", "разночинцы", "批判思维的个人", "路标派", "Вехи", "Vekhi", "路标转换派", "Смена вех", "资产阶级专家", "спецы", "军事专家", "военспецы", "哲学船", "Философский пароход", "红色专家", "выдвиженцы"]
+
+  CON-peasant-commune-obshchina:
+    canonical_zh: "农村公社（米尔 / 村社）"
+    ru: "Община / Мир (Сельское общество / Земельное общество)"
+    en: "Peasant Commune / Mir"
+    aliases: ["农村公社", "村社", "米尔", "重分地村社", "Община", "Мир", "передельная община", "круговая порука", "连环保", "земельное общество", "土地社", "сход", "村民大会"]
+
+  CON-revolutionary-defensism-and-defeatism:
+    canonical_zh: "革命护国主义与革命失败主义"
+    ru: "Революционное оборончество и революционное пораженчество"
+    en: "Revolutionary Defensism and Revolutionary Defeatism"
+    aliases: ["革命护国主义", "革命失败主义", "护国主义", "失败主义", "Революционное оборончество", "пораженчество", "оборончество", "самооборончество", "齐美尔瓦尔德国际主义", "变帝国主义战争为国内战争", "无割地无赔款的民主和平", "革命战争", "淫威和约"]
+
+  CON-united-front-and-third-period:
+    canonical_zh: "共产国际“统一战线”与“第三时期/社会法西斯论”（1921–1929）"
+    ru: "Единый рабочий фронт, «третий период» и теория «социал-фашизма»"
+    en: "United Front, the \"Third Period\", and \"Social-Fascism\" (1921–1929)"
+    aliases: ["工人统一战线", "Единый фронт", "自下而上的统一战线", "自上而下的统一战线", "阶级反对阶级", "Класс против класса", "Class against Class", "第三时期", "Третий период", "Third Period", "社会法西斯主义", "Социал-фашизм", "Social-Fascism"]
+
+  EVT-1905-01-bloody-sunday:
+    canonical_zh: "1905年流血星期日与革命爆发"
+    ru: "Кровавое воскресенье"
+    en: "Bloody Sunday"
+    aliases: ["血腥星期日", "一月九日惨案"]
+
+  EVT-1905-12-moscow-armed-uprising:
+    canonical_zh: "1905年12月莫斯科武装起义与普列斯尼亚街垒战"
+    ru: "Декабрьское вооружённое восстание в Москве (1905)"
+    en: "Moscow Armed Uprising of December 1905"
+    aliases: ["莫斯科十二月起义", "莫斯科十二月武装起义", "普列斯尼亚街垒战", "普列斯尼亚起义", "Декабрьское восстание 1905 года", "Красная Пресня"]
+
+  EVT-1905-revolution:
+    canonical_zh: "1905–1907年俄国第一次革命"
+    ru: "Первая русская революция (1905–1907)"
+    en: "Russian Revolution of 1905–1907"
+    aliases: ["1905年革命", "第一次俄国革命", "1905 Revolution"]
+
+  EVT-1917-07-july-days:
+    canonical_zh: "1917年七月事变"
+    ru: "Июльские дни 1917 года"
+    en: "July Days of 1917"
+    aliases: ["Июльский кризис", "Июльское восстание", "July Crisis of 1917", "七月危机", "七月流血事件"]
+
+  EVT-1918-01-constituent-assembly-dispersal:
+    canonical_zh: "1918年1月全俄立宪会议召开与解散"
+    ru: "Российское учредительное собрание (роспуск 6 (19) января 1918 г.)"
+    en: "Convocation and Dispersal of the All-Russian Constituent Assembly"
+    aliases: ["立宪会议解散", "塔夫利达宫立宪会议", "1918年立宪会议"]
+
+  EVT-1921-1922-volga-famine-and-church-valuables-crisis:
+    canonical_zh: "伏尔加—乌拉尔饥荒、国际救济与教会珍宝冲突"
+    ru: "Голод в Поволжье и изъятие церковных ценностей"
+    en: "Volga famine and church valuables crisis"
+    aliases: ["1921—1922年大饥荒", "没收教会珍宝"]
+
+  EVT-1921-kronstadt:
+    canonical_zh: "喀琅施塔得水兵起义"
+    ru: "Кронштадтское восстание"
+    en: "Kronstadt Rebellion"
+    aliases: ["喀琅施塔得起义", "Kronstadt Uprising", "1921年喀琅施塔得"]
+
+  EVT-1922-georgian-affair-and-ussr-formation:
+    canonical_zh: "格鲁吉亚事件、自治化之争与苏联成立"
+    ru: "Грузинское дело и образование СССР"
+    en: "Georgian affair and formation of the USSR"
+    aliases: ["格鲁吉亚事件", "自治化争论", "苏联建盟"]
+
+  EVT-1928-grain-procurement-crisis:
+    canonical_zh: "1927冬–1929年粮食收购危机"
+    ru: "Хлебозаготовительный кризис 1927—1929 годов"
+    en: "Grain Procurement Crisis of 1927–1929"
+    aliases: ["EVT-1928-grain-crisis", "Хлебозаготовительный кризис 1927/1928 года", "Soviet Grain Crisis of 1928", "1928年粮食收购危机", "1927—1928年粮食危机", "乌拉尔—西伯利亚方法"]
+
+  EVT-1928-shakhty-affair-show-trial:
+    canonical_zh: "沙赫特事件与技术专家公开审判"
+    ru: "Шахтинское дело"
+    en: "Shakhty affair and show trial"
+    aliases: ["沙赫蒂审判", "沙赫特案件"]
+
+  INS-gosbank-and-narkomfin:
+    canonical_zh: "财政人民委员部与国家银行（革命财政、货币与信贷）"
+    ru: "Народный комиссариат финансов; Государственный банк РСФСР и СССР"
+    en: "People's Commissariat for Finance; State Bank of the RSFSR and USSR"
+    aliases: ["财政人民委员部", "财政人民委员", "国家银行", "人民银行", "Наркомфин", "Госбанк", "Narkomfin", "Gosbank"]
+
+  INS-rabkrin-and-ccc:
+    canonical_zh: "中央监察委员会与工农检查人民委员部（联合工作体制）"
+    ru: "Центральная контрольная комиссия и Народный комиссариат рабоче-крестьянской инспекции"
+    en: "Central Control Commission and Workers' and Peasants' Inspectorate"
+    aliases: ["中央监察委员会", "工农检查院", "中监委", "ЦКК", "РКИ", "CCC–RKI", "Rabkrin"]
+
+  INS-sovnarkom-and-vtsik:
+    canonical_zh: "人民委员会与全俄、全苏中央执行委员会"
+    ru: "Совет народных комиссаров; Всероссийский и Центральный исполнительные комитеты"
+    en: "Council of People's Commissars; All-Russian and Union Central Executive Committees"
+    aliases: ["人民委员会", "苏俄人民委员会", "全俄中执委", "全苏中执委", "Sovnarkom", "VTsIK", "TsIK"]
+
+  INS-state-duma-1906-1917:
+    canonical_zh: "俄罗斯帝国国家杜马（第一至第四届）"
+    ru: "Государственная дума Российской империи"
+    en: "State Duma of the Russian Empire"
+    aliases: ["国家杜马", "帝国杜马", "四届杜马"]
+
+  MTG-1906-04-rsdlp-4th-stockholm-congress:
+    canonical_zh: "俄国社会民主工党第四次（统一）代表大会（1906年）"
+    ru: "Четвёртый (Объединительный) съезд РСДРП"
+    en: "Fourth (Unity) Congress of the RSDLP"
+    aliases: ["斯德哥尔摩统一大会", "俄社民工党四大"]
+
+  MTG-1917-04-7th-april-party-conference:
+    canonical_zh: "俄国社会民主工党（布尔什维克）第七次全国代表会议（四月会议）"
+    ru: "Седьмая (Апрельская) Всероссийская конференция РСДРП(б)"
+    en: "Seventh (April) All-Russian Conference of the RSDLP(B)"
+    aliases: ["四月会议", "布尔什维克第七次全国代表会议"]
+
+  MTG-1917-07-rsdlp-6th-congress:
+    canonical_zh: "俄国社会民主工党（布尔什维克）第六次代表大会"
+    ru: "VI съезд РСДРП(б) (Шестой съезд Российской социал-демократической рабочей партии (большевиков))"
+    en: "Sixth Congress of the Russian Social Democratic Labour Party (Bolsheviks)"
+    aliases: ["俄社民工党(布)六大", "布尔什维克六大", "第六次党代表大会", "半地下代表大会", "VI съезд РСДРП(б)"]
+
+  MTG-1917-10-2nd-congress-of-soviets:
+    canonical_zh: "第二届全俄工兵代表苏维埃代表大会"
+    ru: "II Всероссийский съезд Советов рабочих и солдатских депутатов"
+    en: "Second All-Russian Congress of Soviets of Workers' and Soldiers' Deputies"
+    aliases: ["全俄苏维埃二大", "斯莫尔尼代表大会", "苏维埃第二次代表大会"]
+
+  MTG-1918-07-5th-congress-of-soviets:
+    canonical_zh: "第五次全俄工农兵与哥萨克苏维埃代表大会（1918年7月）"
+    ru: "Пятый Всероссийский съезд Советов рабочих, крестьянских, солдатских и казачьих депутатов"
+    en: "Fifth All-Russian Congress of Soviets"
+    aliases: ["全俄苏维埃五大", "第五次全俄苏维埃代表大会"]
+
+  MTG-1921-rcpb-10th-congress:
+    canonical_zh: "俄国共产党（布尔什维克）第十次代表大会"
+    ru: "Десятый съезд РКП(б)"
+    en: "Tenth Congress of the Russian Communist Party (Bolsheviks)"
+    aliases: ["俄共（布）十大"]
+
+  MTG-1922-03-11th-party-congress:
+    canonical_zh: "俄国共产党（布尔什维克）第十一次代表大会（1922年）"
+    ru: "Одиннадцатый съезд РКП(б)"
+    en: "Eleventh Congress of the Russian Communist Party (Bolsheviks)"
+    aliases: ["俄共十一大", "第十一次党代表大会"]
+
+  MTG-1925-12-14th-party-congress:
+    canonical_zh: "联共（布）第十四次代表大会"
+    ru: "XIV съезд ВКП(б)"
+    en: "Fourteenth Congress of the Communist Party of the Soviet Union (Bolsheviks)"
+    aliases: ["十四大", "工业化代表大会"]
+
+  MTG-1927-12-15th-party-congress:
+    canonical_zh: "联共（布）第十五次代表大会"
+    ru: "XV съезд ВКП(б)"
+    en: "Fifteenth Congress of the All-Union Communist Party (Bolsheviks)"
+    aliases: ["十五大", "集体化代表大会"]
+
+  MTG-1929-04-cc-joint-plenum:
+    canonical_zh: "联共（布）中央委员会与中央监察委员会四月联席全会"
+    ru: "Объединённый пленум ЦК и ЦКК ВКП(б)"
+    en: "Joint Plenum of the Central Committee and Central Control Commission of the CPSU(B)"
+    aliases: ["1929年四月联席全会"]
+
+  MTG-1929-11-cc-plenum:
+    canonical_zh: "联共（布）中央委员会十一月全会（1929）"
+    ru: "Пленум ЦК ВКП(б) 10–17 ноября 1929 г."
+    en: "November Plenum of the Central Committee of the CPSU(B) (1929)"
+    aliases: ["1929年十一月全会", "大转变全会"]
+
+  ORG-bolsheviks-rcpb-vkpb:
+    canonical_zh: "布尔什维克派—俄共（布）—联共（布）"
+    ru: "Большевики; Российская коммунистическая партия (большевиков); Всесоюзная коммунистическая партия (большевиков)"
+    en: "Bolsheviks; Russian Communist Party (Bolsheviks); All-Union Communist Party (Bolsheviks)"
+    aliases: ["布尔什维克", "俄共（布）", "联共（布）", "РКП(б)", "ВКП(б)"]
+
+  ORG-democratic-centralists:
+    canonical_zh: "民主集中派"
+    ru: "Группа демократического централизма; децисты"
+    en: "Democratic Centralists; Democratic Centralism Group"
+    aliases: ["民主集中制派", "德齐斯特", "децисты", "Децисты"]
+
+  ORG-octobrists-and-progressive-bloc:
+    canonical_zh: "十月十七日同盟与进步同盟"
+    ru: "Союз 17 октября; Прогрессивный блок"
+    en: "Union of October 17; Progressive Bloc"
+    aliases: ["十月党", "十月党人", "进步同盟", "十月十七日同盟"]
+
+  ORG-vikzhel:
+    canonical_zh: "全俄铁路雇员与工人联合会执行委员会（维克热尔）"
+    ru: "Всероссийский исполнительный комитет железнодорожного профессионального союза; Викжель"
+    en: "All-Russian Executive Committee of the Railway Workers' Union; Vikzhel"
+    aliases: ["维克热尔", "全俄铁路工会执行委员会", "Викжель", "Vikzhel"]
+
+  PER-alexander-ii:
+    canonical_zh: "亚历山大二世"
+    ru: "Александр II Николаевич (Романов)"
+    en: "Alexander II (Aleksandr Nikolaevich Romanov)"
+    aliases: ["Александр II", "Александр Освободитель", "亚历山大·尼古拉耶维奇·罗曼诺夫", "解放者沙皇 (Tsar-Liberator)"]
+
+  PER-antonov:
+    canonical_zh: "亚历山大·安东诺夫"
+    ru: "Александр Степанович Антонов"
+    en: "Alexander Stepanovich Antonov"
+    aliases: ["亚历山大·斯捷潘诺维奇·安东诺夫", "А. С. Антонов", "安东诺夫", "Alexander Antonov"]
+
+  PER-chayanov:
+    canonical_zh: "亚历山大·恰亚诺夫"
+    ru: "Александр Васильевич Чаянов"
+    en: "Alexander Vasilyevich Chayanov"
+    aliases: ["A. V. Chayanov", "А. В. Чаянов", "亚历山大·瓦西里耶维奇·恰亚诺夫", "恰扬诺夫", "恰亚诺夫"]
+
+  PER-gapon:
+    canonical_zh: "格奥尔吉·阿波罗诺维奇·加邦"
+    ru: "Георгий Аполлонович Гапон"
+    en: "Georgy Apollonovich Gapon"
+    aliases: ["加邦神父", "格奥尔基·加邦", "Отец Георгий Гапон", "Father Gapon"]
+
+  PER-gorky:
+    canonical_zh: "马克西姆·高尔基"
+    ru: "Максим Горький"
+    en: "Maxim Gorky"
+    aliases: ["Алексей Максимович Пешков", "Aleksei Maksimovich Peshkov", "阿列克谢·马克西莫维奇·彼什科夫", "M. Gorky", "М. Горький", "高尔基"]
+
+  PER-guchkov:
+    canonical_zh: "亚历山大·伊万诺维奇·古契科夫"
+    ru: "Александр Иванович Гучков"
+    en: "Alexander Ivanovich Guchkov"
+    aliases: ["古奇科夫", "古契柯夫", "А. И. Гучков"]
+
+  PER-kondratiev:
+    canonical_zh: "尼古拉·康德拉季耶夫"
+    ru: "Николай Дмитриевич Кондратьев"
+    en: "Nikolai Dmitrievich Kondratiev"
+    aliases: ["N. D. Kondratiev", "N. D. Kondrat'ev", "Н. Д. Кондратьев", "尼古拉·德米特里耶维奇·康德拉季耶夫", "康德拉季耶夫"]
+
+  PER-lvov:
+    canonical_zh: "格奥尔吉·叶夫根尼耶维奇·李沃夫"
+    ru: "Георгий Евгеньевич Львов"
+    en: "Georgy Yevgenyevich Lvov"
+    aliases: ["李沃夫亲王", "李沃夫公爵", "Князь Г. Е. Львов", "Prince Georgy Lvov"]
+
+  PER-mikoyan:
+    canonical_zh: "阿纳斯塔斯·米高扬"
+    ru: "Анастас Иванович Микоян"
+    en: "Anastas Ivanovich Mikoyan"
+    aliases: ["阿纳斯塔斯·米柯扬", "Անաստաս Միկոյան"]
+
+  PER-nechayev:
+    canonical_zh: "谢尔盖·根纳季耶维奇·涅恰耶夫"
+    ru: "Сергей Геннадьевич Нечаев"
+    en: "Sergey Gennadevich Nechayev"
+    aliases: ["涅恰也夫", "涅恰耶夫", "С. Г. Нечаев", "Sergey Nechaev"]
+
+  PER-osinsky:
+    canonical_zh: "瓦列里安·奥博连斯基（N·奥新斯基）"
+    ru: "Валериан Валерианович Оболенский (Н. Осинский)"
+    en: "Valerian Valerianovich Obolensky (N. Osinsky)"
+    aliases: ["奥新斯基", "N·奥新斯基", "瓦列里安·奥博连斯基", "Valerian Obolensky", "N. Osinsky", "Н. Осинский"]
+
+  PER-rodzianko:
+    canonical_zh: "米哈伊尔·弗拉基米罗维奇·罗将柯"
+    ru: "Михаил Владимирович Родзянко"
+    en: "Mikhail Vladimirovich Rodzianko"
+    aliases: ["罗将科", "罗江科", "М. В. Родзянко"]
+
+  PER-sapronov:
+    canonical_zh: "季莫费·萨普罗诺夫"
+    ru: "Тимофей Владимирович Сапронов"
+    en: "Timofei Vladimirovich Sapronov"
+    aliases: ["萨普罗诺夫", "季莫费·萨普罗诺夫", "Timofei Sapronov", "Т. В. Сапронов"]
+
+  PER-savinkov:
+    canonical_zh: "鲍里斯·维克托罗维奇·萨温科夫"
+    ru: "Борис Викторович Савинков"
+    en: "Boris Viktorovich Savinkov"
+    aliases: ["萨文科夫", "В. Ропшин", "V. Ropshin"]
+
+  PER-strumilin:
+    canonical_zh: "斯坦尼斯拉夫·斯特鲁米林"
+    ru: "Станислав Густавович Струмилин (Струмилло-Петрашкевич)"
+    en: "Stanislav Gustavovich Strumilin"
+    aliases: ["斯特鲁米林", "Струмилло-Петрашкевич"]
+
+  PER-struve:
+    canonical_zh: "彼得·伯恩哈多维奇·司徒卢威"
+    ru: "Пётр Бернгардович Струве"
+    en: "Peter Berngardovich Struve"
+    aliases: ["彼得·斯特鲁维", "斯特鲁维", "П. Б. Струве"]
+
+  PER-sukhanov:
+    canonical_zh: "尼古拉·苏汉诺夫"
+    ru: "Николай Николаевич Суханов (Гиммер)"
+    en: "Nikolai Nikolaevich Sukhanov (Gimmer)"
+    aliases: ["格伊默尔", "吉默尔", "N. N. Sukhanov"]
+
+  PER-ustryalov:
+    canonical_zh: "尼古拉·乌斯特里亚洛夫"
+    ru: "Николай Васильевич Устрялов"
+    en: "Nikolai Vasilyevich Ustryalov"
+    aliases: ["N. V. Ustryalov", "N. V. Ustrialov", "Н. В. Устрялов", "尼古拉·瓦西里耶维奇·乌斯特里亚洛夫", "乌斯特里亚洛夫"]
+
+  PER-wrangel:
+    canonical_zh: "彼得·弗兰格尔"
+    ru: "Пётр Николаевич Врангель"
+    en: "Pyotr Nikolayevich Wrangel"
+    aliases: ["彼得·尼古拉耶维奇·弗兰格尔", "П. Н. Врангель", "黑男爵", "Baron Wrangel", "Pyotr Wrangel"]
+
+  PER-yagoda:
+    canonical_zh: "亨里希·雅戈达"
+    ru: "Генрих Григорьевич Ягода"
+    en: "Genrikh Grigorievich Yagoda"
+    aliases: ["格恩里赫·雅戈达", "Генох Иегуда"]
+
+  POL-decrees-on-peace-and-land-1917:
+    canonical_zh: "1917年和平法令与土地法令"
+    ru: "Декрет о мире и Декрет о земле"
+    en: "Decrees on Peace and Land"
+    aliases: ["和平法令", "土地法令"]
+
+  POL-october-manifesto-and-1906-fundamental-laws:
+    canonical_zh: "十月宣言、国家根本法与六三体制"
+    ru: "Манифест 17 октября и Основные государственные законы"
+    en: "October Manifesto and Fundamental Laws"
+    aliases: ["十月宣言", "六三体制"]
+
+  POL-sokolnikov-chervonets-monetary-reform:
+    canonical_zh: "索科利尼科夫与切尔沃涅茨币制改革"
+    ru: "Денежная реформа 1922–1924 годов и червонец"
+    en: "Sokolnikov and the chervonets monetary reform"
+    aliases: ["切尔文改革", "切尔沃涅茨改革"]
+
+  POL-stolypin-agrarian-reform:
+    canonical_zh: "斯托雷平土地改革"
+    ru: "Столыпинская аграрная реформа"
+    en: "Stolypin agrarian reform"
+    aliases: ["斯托雷平改革"]

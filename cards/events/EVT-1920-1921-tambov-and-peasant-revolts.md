@@ -12,7 +12,7 @@ dates:
 coverage_status: draft
 perspectives_present: ["peasant-social-history", "soviet-military-history", "provincial-power-archival"]
 perspectives_missing: ["partisan-women-gendered"]
-related_debates: ["DEB-1918-war-communism-ideology-vs-emergency"]
+related_debates: ["DEB-1918-war-communism-ideology-or-emergency"]
 updated_at: "2026-11-18"
 ---
 

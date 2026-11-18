@@ -1,0 +1,28 @@
+id: ARTICLE-smith-1996-workers-intelligentsia-marxist-parties
+slug: zelnik_1999_workers_intelligentsia_marxist_parties
+title: "Workers, the Intelligentsia and Marxist Parties: St Petersburg, 1895–1917 and Shanghai, 1921–1927"
+author: "Steve A. Smith"
+author_original: "Steve A. Smith"
+publisher: "International Review of Social History, vol. 41 (1996), pp. 1–56"
+pub_year: 1996
+edition: "期刊论文 PDF；DOI: 10.1017/S0020859000113689"
+language: en
+epistemic_tier: A
+subject_period: "圣彼得堡 1895–1917；上海 1921–1927；工人、知识分子与马克思主义政党关系"
+source_file: "inbox/Workers_the_Intelligentsia_and_Marxist_P.pdf"
+source_format: pdf
+needs_ocr: false
+quality_check:
+  total_pages: 56
+  text_bearing_pages: 56
+  empty_or_image_pages: 0
+  ocr_coverage_pct: 100.0
+  text_layer_status: "全页有嵌入式文本；首页标题和作者、期刊信息均核对"
+extraction_stats:
+  chapters_count: 3
+  total_lines: 3259
+  total_chars: 180926
+  chunk_strategy: "无书签 PDF 按 25 页分块"
+  index_file: toc.md
+status: ready_for_close_reading
+quality_notes: "输入文件名暗示 Zelnik/1999，但 PDF 首页与期刊首页明确作者为 Steve A. Smith、刊于 1996 年 International Review of Social History 41:1–56；目录 slug 按用户指定保留，书目身份按原件订正。"

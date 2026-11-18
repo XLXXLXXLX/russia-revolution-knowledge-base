@@ -32,7 +32,7 @@ updated_at: "2026-11-18"
 | `INS-rkka-red-army-and-rvr` | `institutional-vehicle` | 1918–1920 | 红军专家—政委体制与突击战线铁路调配承载内线战略 | `CLM-mawdsley-1987-sovdepia-demographic-industrial-base` |
 | `ORG-psr` | `third-force-collapsed` | 1918夏 | Komuch 借捷克斯洛伐克军团起事却因战争狂热与无自有兵力遭白卫政变清扫 | `CLM-smith-scott-2011-psr-third-force-collapse` |
 | `PER-trotsky` | `commanded-red-army` | 1918–1920 | 主持建军、起用военспецы并统筹多战线，奠定胜利组织框架 | `CLM-kakurin-1928-red-army-interior-lines-strategy` |
-| `POL-war-communism` | `sustained-mobilization` | 1918–1920 | 余粮征集与强制征用支撑红军规模亦激化农村敌对 | `DEB-1918-war-communism-ideology-vs-emergency` |
+| `POL-war-communism` | `sustained-mobilization` | 1918–1920 | 余粮征集与强制征用支撑红军规模亦激化农村敌对 | `DEB-1918-war-communism-ideology-or-emergency` |
 | `EVT-1918-03-brest-litovsk-treaty` | `enabled-pivot` | 1918.03起 | 退出大战释放兵力与政治注意力投入内战 | `POL-brest-litovsk-treaty` |
 | `POL-brest-litovsk-treaty` | `context` | 1918 | 和约边界划定苏维埃初期战略纵深 | 同上 |
 

@@ -4,9 +4,24 @@
 > - 您已向 [`inbox/`](./inbox/) 投递 **205 个文献文件（共 4.24 GB）**！原始二进制大文件已在 `.gitignore` 中排除以免撑爆 Git 仓库，文件元数据清单由 Git 追踪在 [`sources/inbox_inventory.jsonl`](./sources/inbox_inventory.jsonl)。
 > - 首批 27 项核心书单中，**高达 25 项（含大量中英文双版本！）已成功命中并进入 `inbox/`** 🎉！
 > - **当前仅剩 3 项缺口待寻**：
->   1. `BIB-006`：Abraham Ascher, *The Revolution of 1905* (Vol. 1 & 2)（阿舍尔两卷本《1905年俄国革命》，目前 `inbox/` 已有托洛茨基《1905》可先行支撑，缺西方现代综合专著对照）；
+>   1. `BIB-006`：Abraham Ascher, *The Revolution of 1905* (Vol. 1 & 2)（阿舍尔两卷本《1905年俄国革命》，已完成中译本规范拆解：[`sources/primary/trotsky_1905_zh/`](./sources/primary/trotsky_1905_zh/)；仍缺西方现代综合专著对照）；
 >   2. `BIB-022`：*Как ломали НЭП. Стенограммы пленумов ЦК ВКП(б) 1928–1929 гг.*（5卷本俄文解密档案：《新经济政策是如何被打破的：1928–1929年联共（布）中央全会速记记录》，目前 `inbox/` 已有丹尼洛夫主编姊妹篇《苏联农村的悲剧》第2卷 1929.11–1930.12）；
 >   3. `BIB-023b`：Stephen Kotkin, *Stalin, Vol. II: Waiting for Hitler, 1929–1941*（科特金《斯大林》第2卷，覆盖 1929 年四月与十一月全会收官；第1卷 `1878–1928` 已在 `inbox/` 中）。
+
+---
+
+## 本次规范提取登记（2026-11-18）
+
+以下六份来源均已完成分章 Markdown、`toc.md` 与书目 `manifest.yaml`。库存检查显示它们已存在于 `sources/inbox_inventory.jsonl`（该文件当前有 205 条记录），因此未重复追加。
+
+| 文献 | 规范化目录 | 书目核验备注 |
+| :--- | :--- | :--- |
+| 拉比诺维奇，《布尔什维克当权》 | [`rabinowitch_2007_bolsheviks_in_power_zh`](./sources/monographs/rabinowitch_2007_bolsheviks_in_power_zh/) | EPUB 实际为俄文文本；2007 年英文原版 |
+| 多伊彻，《先知三部曲》 | [`deutscher_prophet_trilogy_zh`](./sources/monographs/deutscher_prophet_trilogy_zh/) | 三卷原版年份 1954、1959、1963；中文 EPUB 未载版权页版次 |
+| 托洛茨基，《1905》中文译校本 | [`trotsky_1905_zh`](./sources/primary/trotsky_1905_zh/) | 扉页署 Uni 佐仓绫奈译校；文件未标现代译本出版项；3 页无文本层 |
+| Steve A. Smith, “Workers, the Intelligentsia and Marxist Parties” | [`zelnik_1999_workers_intelligentsia_marxist_parties`](./sources/monographs/zelnik_1999_workers_intelligentsia_marxist_parties/) | 原 PDF 核实为 1996 年期刊论文（非 Zelnik 著作）；目录沿用指定路径 |
+| Siegelbaum 与 Suny 编，《Making Workers Soviet》 | [`siegelbaum_suny_1994_making_workers_soviet_zh`](./sources/monographs/siegelbaum_suny_1994_making_workers_soviet_zh/) | Cornell University Press 1994 年英文版；7 页无文本层 |
+| 泽姆斯科夫，《斯大林时代》 | [`stalin_era_economy_repression_1924_1954_zh`](./sources/monographs/stalin_era_economy_repression_1924_1954_zh/) | 俄文原版 2018；中文文件标注老胡译、2024 年 6 月校对 |
 
 ---
 
@@ -49,7 +64,7 @@
 
 | 编号 | 优先级 | 常用中文书名/译名 | 原书名 / 检索名 | 作者 | 状态 / `inbox/` 对应文件 |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| `BIB-015` | 🟠 P1 | 《布尔什维克执政：彼得格勒苏维埃政权第一年》 | *The Bolsheviks in Power* | Alexander Rabinowitch | 📥 **已在 inbox**（英文原版 `The Bolsheviks in Power...pdf` + 中文版 `.epub`/`.pdf`） |
+| `BIB-015` | 🟠 P1 | 《布尔什维克执政：彼得格勒苏维埃政权第一年》 | *The Bolsheviks in Power* | Alexander Rabinowitch | 📚 **已规范拆解**（英文原版 PDF 另有收存；本次 EPUB 实际为俄文文本，见 [`rabinowitch_2007_bolsheviks_in_power_zh`](./sources/monographs/rabinowitch_2007_bolsheviks_in_power_zh/)） |
 | `BIB-016` | 🟠 P1 | 《俄国内战》 | *The Russian Civil War* | Evan Mawdsley | 📥 **已在 inbox**（英文原版 `The Russian Civil War (Evan...pdf` + 中文版 `俄国内战 Evan Mawdsley.pdf`） |
 | `BIB-017` | 🔴 P0 | 《革命的良心：苏维埃俄国的共产主义反对派》 | *The Conscience of the Revolution* | Robert V. Daniels | 📥 **已在 inbox**（`The conscience of the revolution Communist opposition in Soviet Russia (Daniels).pdf`，另附柯伦泰 *The Workers' Opposition*） |
 | `BIB-018` | 🟠 P1 | 《1921年喀琅施塔得》 | *Kronstadt, 1921* | Paul Avrich | 📥 **已在 inbox**（`Kronstadt, 1921 (Paul Avrich).pdf`） |
@@ -65,7 +80,7 @@
 | `BIB-021` | 🔴 P0 | 《俄国农民与苏维埃政权：集体化研究》 | *Russian Peasants and Soviet Power* | Moshe Lewin | 📥 **已在 inbox**（`Russian Peasants and Soviet Power... (Moshe Lewin).pdf`） |
 | `BIB-022` | 🔴 P0 | 《新经济政策是如何被打破的：1928–1929年联共（布）中央全会速记记录》（5卷本） | *Как ломали НЭП. Стенограммы пленумов ЦК ВКП(б) 1928–1929 гг.* | В. П. Данилов, О. В. Хлевнюк 编 | ⏳ **待寻找** *(最硬核俄文一手全会速记档案；目前 `inbox/` 已有同系列后续卷《苏联农村的悲剧》第2卷 1929.11–1930.12)* |
 | `BIB-023` | 🔴 P0 | 《斯大林（第1卷：权力的悖论 1878–1928；第2卷：等待希特勒 1929–1941）》 | *Stalin, Vol. I & Vol. II* | Stephen Kotkin | 🌓 **第1卷已在 inbox，待补第2卷**（已有 `Stalin, Volume 1 Paradoxes of Power, 1878–1928.epub`；1929年决战下半场在第2卷开篇） |
-| `BIB-024` | 🔴 P0 | 《先知三部曲（武装的先知 / 被解除武装的先知 / 流亡的先知）》 | *The Prophet Armed / Unarmed / Outcast* | Isaac Deutscher | 📥 **已在 inbox**（`先知三部曲（全新插图修订本）...epub`） |
+| `BIB-024` | 🔴 P0 | 《先知三部曲（武装的先知 / 被解除武装的先知 / 流亡的先知）》 | *The Prophet Armed / Unarmed / Outcast* | Isaac Deutscher | 📚 **已规范拆解**（本次套装 EPUB：[`deutscher_prophet_trilogy_zh`](./sources/monographs/deutscher_prophet_trilogy_zh/)；另有全新插图修订本） |
 | `BIB-025` | 🟠 P1 | 《苏联工业化大论战（1924–1928）》 | *The Soviet Industrialization Debate, 1924–1928* | Alexander Erlich | 📥 **已在 inbox**（`The Soviet Industrialization Debate, 1924–1928 (Alexander Erlich).pdf`，另附普列奥布拉任斯基《新经济学》与《平衡与非平衡》） |
 | `BIB-026` | 🟠 P1 | 《苏维埃俄国史（含过渡期 1923–24、一国社会主义 1924–26、计划经济基础 1926–29）》 | *A History of Soviet Russia* (14 vols.) | E. H. Carr & R. W. Davies | 🌓 **大部分已在 inbox，待补缺卷**（已有《布尔什维克革命》1–3卷中英本 + `The Interregnum` + `Foundations Vol. 1-I & Vol. 3-II` + 1979总括本；经扉页核实 `A History of Soviet Russia.epub` 仅为第2卷扫描版，待补寻 *Socialism in One Country, 1924–1926* Vols. 1–3 与 *Foundations* Vol. 2 / Vol. 3-I & III） |
 | `BIB-027` | 🟠 P1 | 《斯大林：独裁者新传》 | *Stalin: New Biography of a Dictator* | Oleg V. Khlevniuk | 📥 **已在 inbox**（`Stalin New Biography of a Dictator (Oleg V. Khlevniuk).epub`，另附阿帕利科夫《联共(布)党内斗争》、梅里代尔《莫斯科政治与斯大林崛起 1925–32》） |

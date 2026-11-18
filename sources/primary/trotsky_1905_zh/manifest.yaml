@@ -1,0 +1,30 @@
+id: PRIMARY-trotsky-1905-zh
+slug: trotsky_1905_zh
+title: "1905"
+title_original: "1905 (俄文原作；初版相关文本收入 Our Revolution, 1907)"
+author: "列夫·达维多维奇·托洛茨基"
+author_original: "Лев Давидович Троцкий (Leon Trotsky)"
+translator: "Uni 佐仓绫奈（译校；据 PDF 扉页）"
+publisher: "当前中文 PDF 未标明出版机构"
+pub_year: 1907
+edition: "中文译校 PDF；文件未载译本出版年份、出版社或 ISBN；俄文初版文本信息据原作书目"
+language: zh
+epistemic_tier: B
+subject_period: "1905年俄国革命；含托洛茨基的事后政治解释与历史论断"
+source_file: "inbox/列夫·托洛茨基《1905》中文译本（最终版）.pdf"
+source_format: pdf
+needs_ocr: false
+quality_check:
+  total_pages: 498
+  text_bearing_pages: 495
+  empty_or_image_pages: 3
+  ocr_coverage_pct: 99.4
+  text_layer_status: "嵌入式文本层可提取；3 页无文本层（可能为空白页或图像），未伪造补录"
+extraction_stats:
+  chapters_count: 22
+  total_lines: 13698
+  total_chars: 332140
+  chunk_strategy: "PDF 书签章节切分；超长章节按 25 页续分"
+  index_file: toc.md
+status: ready_for_close_reading
+quality_notes: "PDF 第 1 页署作者及译校者；未见可确认现代中文译本版次的版权页。托洛茨基为亲历者，其书既含在场见证也含事后政治阐释，引用时需区分。"

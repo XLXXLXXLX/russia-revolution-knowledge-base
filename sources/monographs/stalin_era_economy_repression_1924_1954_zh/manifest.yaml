@@ -1,0 +1,30 @@
+id: MONO-zemskov-2018-stalin-era-zh
+slug: stalin_era_economy_repression_1924_1954_zh
+title: "斯大林时代：经济、镇压、工业化，1924–1954"
+title_original: "Сталинская эпоха. Экономика, репрессии, индустриализация. 1924–1954"
+author: "维克托·尼古拉耶维奇·泽姆斯科夫"
+author_original: "Виктор Николаевич Земсков"
+translator: "老胡（据文件首页署名）"
+publisher: "Вече, Москва (俄文原版, 2018)；当前中文 PDF 未标出版机构"
+pub_year: 2018
+edition: "中文 PDF 首页注明 2024 年 6 月校对；未载中文出版年份、出版社或 ISBN"
+language: zh
+epistemic_tier: B
+subject_period: "苏联集体化、经济、政治镇压与工业化，1924–1954"
+source_file: "inbox/《斯大林时代：经济·镇压·工业化，1924-1954》正版.pdf"
+source_format: pdf
+needs_ocr: false
+quality_check:
+  total_pages: 191
+  text_bearing_pages: 191
+  empty_or_image_pages: 0
+  ocr_coverage_pct: 100.0
+  text_layer_status: "全页有嵌入式文本；首页核实原作、译者与校对信息"
+extraction_stats:
+  chapters_count: 8
+  total_lines: 7366
+  total_chars: 282006
+  chunk_strategy: "无书签 PDF 按 25 页分块"
+  index_file: toc.md
+status: ready_for_close_reading
+quality_notes: "原版书目信息据俄文书目核对为莫斯科韦切出版社 2018 年版；中文文件首页标注译者老胡及 2024 年 6 月校对。本书作者关于集体化和镇压的判断属于其史学解释，不作无主语事实定论。"

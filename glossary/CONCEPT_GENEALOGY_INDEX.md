@@ -6,35 +6,37 @@
 
 ---
 
-## 一、25 核心概念对照总表
+## 一、27 核心概念对照总表
 
-| # | 俄语 | 英语惯用译 | 中文标准译 | 建议 `CON-*` / 关联卡 | 首要争鸣 / 政策接口 |
+| # | 俄语 | 英语惯用译 | 中文标准译 | 已建 `CON-*` / 关联卡 | 首要争鸣 / 政策接口 |
 | :-: | :--- | :--- | :--- | :--- | :--- |
 | 1 | Совет | Soviet / council | 苏维埃 | `CON-soviet` | `DEB-1917-october-coup-or-social-revolution` |
 | 2 | Народничество | Narodnichestvo / populism (careful) | 民粹主义（俄国） | `CON-narodnichestvo` | `DEB-1879-narodnaya-volya-to-bolshevism` |
-| 3 | Община | Commune / mir (village commune) | 村社 | （待建 `CON-obshchina`） | — |
-| 4 | Учредительное собрание | Constituent Assembly | 立宪会议 | `EVT-1918-01-constituent-assembly-dispersal` | `DEB-1918-constituent-assembly-and-soviet-democracy` |
-| 5 | Демократическая диктатура пролетариата и крестьянства | Democratic dictatorship of proletariat and peasantry | 工农民主专政 | （待建 `CON-democratic-dictatorship`） | `DEB-1903-bolshevik-menshevik-split` |
-| 6 | Перманентная революция | Permanent revolution | 不断革命 | （待建 `CON-permanent-revolution`） | `DEB-1924-socialism-in-one-country` |
-| 7 | Революционное оборончество | Revolutionary defensism | 革命护国主义 | — | `DEB-1917-dual-power-and-february-origins` |
-| 8 | Двоевластие | Dual power | 双重政权 | — | `DEB-1917-dual-power-and-february-origins` |
-| 9 | Рабочий контроль | Workers’ control | 工人监督 | — | `POL-war-communism`；`CLM-smith-sa-1983-defensive-workers-control` |
-| 10 | Военный коммунизм | War Communism | 战时共产主义 | `POL-war-communism` | `DEB-1918-war-communism-ideology-vs-emergency` |
-| 11 | Продразвёрстка | Surplus-grain appropriation / prodrazvyorstka | 余粮收集制 | `POL-war-communism` | 同上 |
+| 3 | Община / Мир | Commune / mir (village commune) | 农村公社 / 米尔 | `CON-peasant-commune-obshchina` | `DEB-1906-stolypin-wager-and-agrarian-viability` |
+| 4 | Учредительное собрание | Constituent Assembly | 立宪会议 | `CON-constituent-assembly`；`EVT-1918-01-constituent-assembly-dispersal` | `DEB-1918-constituent-assembly-and-soviet-democracy` |
+| 5 | Демократическая диктатура пролетариата и крестьянства | Democratic dictatorship of proletariat and peasantry | 工农民主专政 | `POL-april-theses-1917`（参 `1905-07_lenin-two-tactics`） | `DEB-1903-bolshevik-menshevik-split` |
+| 6 | Перманентная революция | Permanent revolution | 不断革命 | `CON-permanent-revolution` | `DEB-1924-socialism-in-one-country` |
+| 7 | Революционное оборончество / пораженчество | Revolutionary defensism & defeatism | 革命护国主义与革命失败主义 | `CON-revolutionary-defensism-and-defeatism` | `DEB-1917-dual-power-and-february-origins` |
+| 8 | Двоевластие | Dual power | 双重政权 | `CON-dual-power` | `DEB-1917-dual-power-and-february-origins` |
+| 9 | Рабочий контроль | Workers’ control | 工人监督 | `CON-workers-control`；`ORG-factory-committees-1917` | `POL-war-communism`；`CLM-smith-sa-1983-defensive-workers-control` |
+| 10 | Военный коммунизм | War Communism | 战时共产主义 | `POL-war-communism` | `DEB-1918-war-communism-ideology-or-emergency` |
+| 11 | Продразвёрстка | Surplus-grain appropriation / prodrazvyorstka | 余粮收集制 | `POL-war-communism` | `DEB-1918-war-communism-ideology-or-emergency` |
 | 12 | НЭП / Новая экономическая политика | NEP / New Economic Policy | 新经济政策 | `POL-nep` | `DEB-1928-bukharin-alternative` |
-| 13 | Государственный капитализм | State capitalism | 国家资本主义 | `CON-state-capitalism` | `DEB-1921-kronstadt-and-nep-origins` |
-| 14 | Смычка | Smychka / worker-peasant alliance | 工农联盟 | `CON-smychka` | `DEB-1928-bukharin-alternative` |
-| 15 | Ножницы (цен) | Price scissors | 剪刀差 | — | `DEB-1928-bukharin-alternative`；`DATA-02-1922-1924-scissors-crisis-and-chervonets` |
-| 16 | Социалистическое накопление | Socialist accumulation | 社会主义原始积累 | `CON-primitive-socialist-accumulation` | `DEB-1928-bukharin-alternative` |
+| 13 | Государственный капитализм | State capitalism | 国家资本主义 | `CON-state-capitalism` | `DEB-1918-war-communism-ideology-or-emergency`；`DEB-1921-kronstadt-and-nep-origins` |
+| 14 | Смычка | Smychka / worker-peasant alliance | 工农联盟（结合） | `CON-smychka` | `DEB-1928-bukharin-alternative` |
+| 15 | Ножницы (цен) | Price scissors | 剪刀差 | `EVT-1923-scissors-crisis` | `DEB-1928-bukharin-alternative`；`DATA-02-1922-1924-scissors-crisis-and-chervonets` |
+| 16 | Первоначальное социалистическое накопление | Primitive socialist accumulation | 社会主义原始积累 | `CON-primitive-socialist-accumulation` | `DEB-1928-bukharin-alternative` |
 | 17 | Социализм в одной стране | Socialism in one country | 一国建成社会主义 | `CON-socialism-in-one-country` | `DEB-1924-socialism-in-one-country` |
-| 18 | Демократический централизм | Democratic centralism | 民主集中制 | `CON-democratic-centralism-and-vanguard` | `DEB-1903-bolshevik-menshevik-split` |
-| 19 | Номенклатура | Nomenklatura | 官职等级名册制 | — | `CLM-khlevniuk-2015-secretariat-and-nomenklatura` |
-| 20 | Коренизация | Korenizatsiia / indigenization | 本土化 | `POL-korenizatsiia` | `DEB-1923-nationality-and-empire` |
-| 21 | Кулак | Kulak | 富农 | （待建 `CON-kulak`） | `DEB-1929-collectivization-and-dekulakization-causes` |
-| 22 | Серединник / середняк | Seredniak / middle peasant | 中农 | — | `CLM-lewin-peasants-1968-kulak-myth-and-serednyak` |
-| 23 | Правый уклон | Right deviation | 右倾 | — | `DEB-1928-bukharin-alternative` |
-| 24 | Советский Термидор | Soviet Thermidor | 苏维埃热月 | — | 托派史学；与 `DEB-1921-kronstadt-and-nep-origins` 交叉 |
-| 25 | Великий перелом | Great Break / Great Turn | 大转变 | — | `DEB-1929-collectivization-and-dekulakization-causes` |
+| 18 | Демократический централизм | Democratic centralism | 民主集中制与先锋队 | `CON-democratic-centralism-and-vanguard` | `DEB-1903-bolshevik-menshevik-split`；`DEB-1921-trade-union-controversy-and-party-unity` |
+| 19 | Номенклатура | Nomenklatura | 官职等级名册制 | `INS-politburo-orgburo-secretariat` | `CLM-khlevniuk-2015-secretariat-and-nomenklatura` |
+| 20 | Коренизация | Korenizatsiia / indigenization | 本土化政策 | `POL-korenizatsiia` | `DEB-1923-nationality-and-empire` |
+| 21 | Кулак | Kulak | 富农 | `CON-kulak` | `DEB-1929-collectivization-and-dekulakization-causes` |
+| 22 | Середняк | Seredniak / middle peasant | 中农 | `CON-kulak`；`DATA-08` | `CLM-lewin-peasants-1968-kulak-myth-and-serednyak` |
+| 23 | Правый уклон | Right deviation | 右倾 | `ORG-right-opposition-1928` | `DEB-1928-bukharin-alternative` |
+| 24 | Советский Термидор / Бюрократизм | Soviet Thermidor & bureaucracy | 苏维埃热月与官僚主义 | `CON-thermidor-and-bureaucracy`；`PER-ustryalov` | `DEB-1922-lenin-testament-and-stalin-rise` |
+| 25 | Великий перелом | Great Break / Great Turn | 大转变 | `EVT-1929-great-turn-and-dekulakization-launch` | `DEB-1929-collectivization-and-dekulakization-causes` |
+| 26 | Интеллигенция / «Вехи» / Спецы | Intelligentsia, Vekhi & bourgeois specialists | 知识分子、《路标》与资产阶级专家 | `CON-intelligentsia-and-vekhi` | `DEB-1928-shakhty-specialist-baiting-and-cultural-revolution` |
+| 27 | Единый фронт / Третий период / Социал-фашизм | United Front, Third Period & social-fascism | 统一战线、第三时期与社会法西斯论 | `CON-united-front-and-third-period` | `MTG-1928-07-comintern-6th-congress`；`ORG-comintern` |
 
 ---
 
@@ -85,7 +87,7 @@
 | 革命护国主义 | 当作布尔什维克 4 月前立场 | 孟什维克/社革党 **1914–17** 主流自卫战争论 | 布尔什维克早期反战；4 月后“革命防御”分化 |
 | 双重政权 | 外推至省县机械均势 | 托洛茨基 **分析范畴** + 1917 彼得格勒经验 | 见 `DEB-1917-dual-power-and-february-origins` |
 | 工人监督 | 等同工人政权或全面国有化 | 1917–18 **账目/供货监督**，非普遍自我管理 | 对照 `CLM-smith-sa-1983-defensive-workers-control` 与 `CLM-smith-1983-workers-control-pragmatism` |
-| 战时共产主义 | 当作 1918 列宁既定总蓝图名 | **1921 年** retrospective 标签；措施分批演进 | `DEB-1918-war-communism-ideology-vs-emergency` |
+| 战时共产主义 | 当作 1918 列宁既定总蓝图名 | **1921 年** retrospective 标签；措施分批演进 | `DEB-1918-war-communism-ideology-or-emergency` |
 | 余粮收集制 | 与 1929 统购统销混为一谈 | **1918–21 `prodrazvyorstka`**；1921 后为 `prodnalog` | 挂钩 `POL-war-communism`，禁外延至集体化 |
 | 新经济政策 | “恢复资本主义”=背叛社会主义（斯大林后设） | 列宁 **国家调控市场** 过渡论 | `POL-nep` + 布哈林 debates |
 | 国家资本主义 | 用后来官僚国家一语概括 1918 列宁 | 1918 **雇工+无产阶级国家租让** 特定公式 | `CON-state-capitalism` 分期栏 |

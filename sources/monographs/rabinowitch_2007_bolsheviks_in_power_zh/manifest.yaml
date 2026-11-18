@@ -1,0 +1,29 @@
+id: MONO-rabinowitch-2007-bolsheviks-in-power
+slug: rabinowitch_2007_bolsheviks_in_power_zh
+title: "布尔什维克当权：彼得格勒苏维埃时代的第一年"
+title_original: "The Bolsheviks in Power: The First Year of Soviet Rule in Petrograd"
+title_source_language: "Большевики у власти. Первый год советской эпохи в Петрограде"
+author: "亚历山大·拉比诺维奇"
+author_original: "Alexander Rabinowitch (Александр Евгеньевич Рабинович)"
+publisher: "Indiana University Press (原版, 2007)；当前 EPUB 为俄文版，未见译本出版项"
+pub_year: 2007
+edition: "原版 2007；所提取 EPUB 为俄文文本，版本出版信息未载于 EPUB 元数据"
+language: ru
+epistemic_tier: A
+subject_period: "1917年十月革命后至1918年彼得格勒苏维埃政权第一年"
+source_file: "inbox/布尔什维克当权彼得格勒苏维埃时代的第一年 (一个普通的人) (z-library.sk, 1lib.sk, z-lib.sk).epub"
+source_format: epub
+needs_ocr: false
+quality_check:
+  total_pages: null
+  text_bearing_pages: null
+  empty_or_image_pages: null
+  text_layer_status: "EPUB 内嵌文本可提取；前置 Annotation、致俄罗斯读者、前言及正文结构均已核对"
+extraction_stats:
+  chapters_count: 21
+  total_lines: 3397
+  total_chars: 439438
+  chunk_strategy: "EPUB OPF spine 顺序按 XHTML 文档拆分"
+  index_file: toc.md
+status: ready_for_close_reading
+quality_notes: "EPUB 元数据确认作者与俄文题名；原版书名、2007 年版次及出版社据 Indiana University Press 书目核对。来源文件不是中文 EPUB，文件名与实际文本语言不符。"

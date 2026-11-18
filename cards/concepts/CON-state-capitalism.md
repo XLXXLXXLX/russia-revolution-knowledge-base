@@ -8,7 +8,7 @@ names:
   aliases: ["国家资本主义", "苏维埃政权下的国家资本主义", "Госкапитализм", "государственно-монополистический капитализм", "state-monopoly capitalism", "国家垄断资本主义"]
 dates:
   start_ns: "1917-09-23" # 列宁《大难临头，出路何在？》写于1917年9月10–14日[O.S.]（即9月23–27日[N.S.]），将“国家垄断资本主义”称为社会主义的物质准备；日期与原文均待核
-  end_ns: "1925-12-31" # 俄共（布）十四大闭幕；新反对派反用“国家资本主义”攻击布哈林—斯大林NEP路线失败，概念退出党内正统话语，转入托派与左翼对苏联体制的批判性“后世”
+  end_ns: "1925-12-31" # 俄共（布）十四大闭幕；新反对派反用“国家资本主义”攻击布哈林—斯大林NEP路线失败，本卡追踪至十四大这一重要论战节点；后续使用另作延伸
 coverage_status: multi-perspective
 perspectives_present: ["bukharinist-revisionist-cohen", "left-communist-opposition-daniels", "lenin-late-writings-lewin", "russian-archival-zhukov-sakharov", "liberal-institutional-carr"]
 perspectives_missing: ["lenin-1917-09-impending-catastrophe-original-pages", "lenin-1918-05-left-wing-childishness-original-pages", "lenin-1921-tax-in-kind-original-pages", "kommunist-1918-left-communist-theses-original", "14th-congress-stenogram-original-pages"]
@@ -22,7 +22,7 @@ updated_at: "2026-11-18"
 ## [T2] 核心脉络、时效关系边表与史学争鸣光谱
 
 > [!IMPORTANT]
-> **第五铁律警示**：“国家资本主义”在1917–1925年间**至少翻转了三次价值符号**：(1) 列宁1918年的**褒义**——比小农与投机经济“更高级”的进步阶梯；(2) 左派共产主义者1918年与布哈林1918–1921年的**贬义**——“金融资本的完全统治”“软煮的靴子”；(3) 季诺维也夫1925年的**指控义**——NEP美化资本主义、修正列宁主义。1929年后它更被托派与左翼用来定性**苏联体制本身**。同一词，不同时段，含义与立场完全相反，引用时必须锁定年份与言说者。
+> **第五铁律警示**：“国家资本主义”在1917–1925年间**至少翻转了三次价值符号**：(1) 列宁1918年的**褒义**——比小农与投机经济“更高级”的进步阶梯；(2) 左派共产主义者1918年与布哈林1918–1921年的**贬义**——“金融资本的完全统治”“软煮的靴子”；(3) 季诺维也夫1925年的**指控义**——NEP美化资本主义、修正列宁主义。1929年后部分左翼理论家用它定性**苏联体制本身**；托洛茨基则坚持蜕化的工人国家论。同一词，不同时段，含义与立场完全相反，引用时必须锁定年份与言说者。
 
 ### 2.1 分期语义裂变脉络
 
@@ -36,13 +36,13 @@ updated_at: "2026-11-18"
   - **内涵**：俄国经济由宗法、小商品、私人资本主义、国家资本主义与社会主义五种成分构成；主要敌人不是国家资本主义而是**小资产阶级自发势力与投机**。因此国家资本主义“将是我们的救星”，是“社会主义的四分之三”，应“学习德国人的国家资本主义”（Cohen p. 70）。这一阶段的国家资本主义包括与资本家合作经营、托拉斯化、雇用资产阶级专家、计件工资等。
   - **对立面**：左派共产主义者（`ORG-left-communists-1918`，布哈林、奥新斯基、普列奥布拉任斯基等）在《共产主义者》杂志提纲中警告其导致“金融资本的完全统治”与“官僚集中制”（Cohen p. 71; `CLM-daniels-1960-left-communists-1918`）。布哈林讥讽：“无产阶级专政下的国家资本主义——这是荒谬，是软煮的靴子……‘非资本主义的资本主义’——这是混乱的顶点”（Cohen p. 76）。
   - **政治功能**：与布列斯特和约（`POL-brest-litovsk-treaty`）同构的“喘息”战略——对外退让帝国主义，对内退让资本与专家。
-  - **短命性**：1918年夏内战与全面国有化爆发，此一和解型国家资本主义“随战时共产主义一起成为历史”（Cohen p. 78; `POL-war-communism`）。它日后的重要性是**回溯性**的——因其与NEP相似（Cohen p. 71）。
+  - **短命性**：1918年夏内战与全面国有化爆发，此一和解型国家资本主义被后来称为战时共产主义的路线取代（Cohen p. 78; `POL-war-communism`）。它日后的重要性是**回溯性**的——因其与NEP相似（Cohen p. 71）。
 
 - **裂变 2｜1921年4–5月：《论粮食税》——国家资本主义被重定义为NEP的制度清单**
   - **持有者**：列宁，《论粮食税》（1921年4月下旬写成、5月出版，日期待核），并大段重引1918年文章。
-  - **内涵**：NEP即“回到国家资本主义”；列出四种形式——**租让制、合作社、代国家销售产品的私商、租赁**（Cohen p. 134）；国营企业则被界定为“彻底社会主义类型”（Cohen p. 135）。
-  - **布哈林的保留**：他私下对列宁说“你滥用了‘资本主义’这个词”，并将现实形容为“一个社会主义的小岛，其余都是国家资本主义”；又提出“通过国家资本主义走向社会主义的过道”（Cohen p. 135）。
-  - **实践失败**：租让制到1922年9月已基本失败；合作社被归为“一种国家资本主义”（Cohen p. 136）。概念的实际指涉物迅速萎缩。
+  - **内涵**：列宁当时用国家资本主义说明NEP的若干形式，NEP并不完全等同于这些形式；列出四种形式——**租让制、合作社、代国家销售产品的私商、租赁**（Cohen p. 134）；国营企业则被界定为“彻底社会主义类型”（Cohen p. 135）。
+  - **布哈林的保留**：Cohen称他曾公开及私下批评列宁滥用“资本主义”一词；布哈林后来回顾列宁的看法，称其仿佛看到“社会主义的小岛，其余都是国家资本主义”，这不是1921年私下谈话逐字记录；布哈林又提出“通过国家资本主义走向社会主义的过道”（Cohen p. 135）。
+  - **实践限制**：据Cohen的判断，租让方案至1922年9月未达到预期规模；合作社被归为“一种国家资本主义”（Cohen p. 136）。概念的实际指涉物迅速萎缩。
   - **政治功能**：在喀琅施塔得（`EVT-1921-kronstadt`）与农民战争后，为 `POL-nep` 退却提供“仍在列宁主义轨道上”的连续性叙事（参 `DEB-1921-kronstadt-and-nep-origins`）。
 
 - **裂变 3｜1923年1月：《论合作社》——从“国家资本主义”到“文明合作社工作者的制度”**
@@ -57,14 +57,14 @@ updated_at: "2026-11-18"
   - **语义翻转**：1918年列宁用以**为退让辩护**的术语，在1925年被反对派用来**谴责退让过头**；而1918年的激烈批评者布哈林，到1925年却成为拒绝把国营工业称作“国家资本主义”以捍卫NEP社会主义性质的一方。
   - **政治结局**：`MTG-1925-12-14th-party-congress` 上新反对派以压倒性劣势失败；斯大林“你们想要布哈林的血？”（Zhukov ch20 L20–23）宣示多数派不容此种攻击。
 
-- **后世（超出本卡时段，仅作语义边界标记）**：1929年后，“国家资本主义”被托派异端、部分孟什维克流亡者及后来的左翼理论家（如 Tony Cliff 1948/1955）用于定性**苏联体制本身**；托洛茨基则坚持“蜕化的工人国家”说，反对此用法。该“后世”与1917–1925年党内用法**方向完全相反**，不得混用（参 `sources/primary/socialism_in_one_country_debate_docs_zh/ch15–17`）。
+- **后世（超出本卡时段，仅作语义边界标记）**：1929年后，“国家资本主义”被部分孟什维克流亡者及后来的左翼理论家（如 Tony Cliff 1948/1955）用于定性**苏联体制本身**；托洛茨基则坚持“蜕化的工人国家”说，反对此用法。该“后世”与1917–1925年党内用法**方向完全相反**，不得混用（参 `sources/primary/socialism_in_one_country_debate_docs_zh/ch15–17`）。
 
 ### 2.2 时效关系边表（Typed & Temporalized Edges）
 | 关联节点 ID | 关系类型 | 有效时段 | 一句话关系实质摘要 | 核心依据/争鸣 |
 | :--- | :--- | :--- | :--- | :--- |
 | `PER-lenin` | `coined-praised-redefined-and-quietly-shelved-by` | 1917-09–1923-01 | 由褒义进步阶梯（1918）到NEP制度清单（1921），再在《论合作社》中以合作制取而代之 | Cohen pp. 70, 134–135; 《论合作社》S级 |
 | `ORG-left-communists-1918` | `principal-critic` | 1918-03–1918-06 | 视其为向金融资本与官僚集中制投降，是对列宁“喘息”战略的经济学反击 | Cohen p. 71; `CLM-daniels-1960-left-communists-1918` |
-| `PER-bukharin` | `critic (1918) -> reluctant-user (1921) -> semantic-rejector-defending-nep (1925)` | 1918–1925 | 从“软煮的靴子”式嘲讽，到“社会主义小岛”式保留，再到拒绝把国营工业称作国家资本主义 | Cohen pp. 76–77, 135; Zhukov ch19 L88–91 |
+| `PER-bukharin` | `critic (1918) -> reluctant-user (1921) -> semantic-rejector-defending-nep (1925)` | 1918–1925 | 从“软煮的靴子”式嘲讽，到后来以“社会主义小岛”概述列宁的看法，再到拒绝把国营工业称作国家资本主义 | Cohen pp. 76–77, 135; Zhukov ch19 L88–91 |
 | `PER-preobrazhensky` | `left-communist-co-critic` | 1918 | 1918年左派共产主义者之一；1920年代转以“社会主义原始积累”另立过渡经济理论 | `CON-primitive-socialist-accumulation` |
 | `POL-brest-litovsk-treaty` | `external-twin-of-internal-retreat` | 1918-03–1918-05 | 对外“喘息”与对内国家资本主义构成同一退让战略的两面，同遭左派共产主义者反对 | Cohen pp. 70–71 |
 | `POL-war-communism` | `displaced-by` | 1918-06–1921-03 | 内战与全面国有化使和解型国家资本主义作废 | Cohen p. 78; `DEB-1918-war-communism-ideology-or-emergency` |
@@ -72,16 +72,16 @@ updated_at: "2026-11-18"
 | `CON-smychka` | `superseded-by-cooperative-route` | 1923–1925 | 《论合作社》后，工农结合 + 合作社取代国家资本主义成为NEP社会主义论证核心 | `CLM-lewin-1968-cooperation-shift` |
 | `PER-zinoviev` | `weaponizer-against-nep-majority` | 1925 | 把“国家资本主义”定义扩至国营工业，以此指控布哈林—斯大林美化资本主义、修正列宁 | `CLM-zhukov-zinoviev-1925-leningrad-opposition` |
 | `PER-kamenev` | `co-weaponizer` | 1925 | 与季诺维也夫联署“四人秘密报告”，攻击“发财吧”与富农倾向 | Zhukov ch19 L29–32 |
-| `MTG-1925-12-14th-party-congress` | `site-of-final-polemical-use` | 1925-12-18–1925-12-31 | 该词作为党内正统论战武器的最后一次大规模使用 | Zhukov ch19–20 |
+| `MTG-1925-12-14th-party-congress` | `site-of-important-polemical-use` | 1925-12-18–1925-12-31 | 本卡追踪的一个重要党内论战节点 | Zhukov ch19–20 |
 | `CON-kulak` | `class-correlate-in-1925-polemic` | 1925 | 新反对派将“国家资本主义美化”与“富农危险”捆绑，构成十四大双重指控 | `CON-kulak` |
 | `CON-socialism-in-one-country` | `rival-frame` | 1924-12–1925-12 | “一国社会主义”需要NEP经济被定性为社会主义而非国家资本主义；新反对派恰从此处切入 | `DEB-1924-socialism-in-one-country` |
 
 ### 2.3 多流派争鸣光谱
-- **经验共识**：列宁1918年春以德国战时经济为样板、褒义使用该词；左派共产主义者激烈反对；1921年《论粮食税》以重引1918年文章为NEP命名；租让制实践很快失败；1923年《论合作社》改以合作制为中心；1925年新反对派反用该词。分歧在于**列宁的思想是连续发展还是断裂转向**，以及**NEP是否本质上即“国家资本主义”**。
-- **[布哈林主义修正派 / Stephen F. Cohen]**（`sources/monographs/cohen_1973_bukharin/ch03, ch06`）：强调1918年版本的短命性与回溯性；布哈林从批评者到NEP理论家的转变是真实的思想演进，而非投机；国家资本主义概念在NEP实践中因租让失败而“名存实亡”。
+- **经验共识**：列宁1918年春以德国战时经济为样板、褒义使用该词；左派共产主义者激烈反对；1921年《论粮食税》以重引1918年文章为NEP命名；Cohen认为租让方案的实际规模未达预期；1923年《论合作社》改以合作制为中心；1925年新反对派反用该词。分歧在于**列宁的思想是连续发展还是断裂转向**，以及**NEP是否本质上即“国家资本主义”**。
+- **[布哈林主义修正派 / Stephen F. Cohen]**（`sources/monographs/cohen_1973_bukharin/ch03, ch06`）：强调1918年版本的短命性与回溯性；布哈林从批评者到NEP理论家的转变是真实的思想演进，而非投机；国家资本主义概念在NEP实践中随租让规模未达预期而实际指涉收缩。
 - **[列宁晚期思想断裂论 / Moshe Lewin]**（`CLM-lewin-1968-cooperation-shift`）：《论合作社》是“完全的理论大转弯”，国家资本主义在实践失败后被不情愿地放弃，合作制填补空位；晚期列宁更接近布哈林而非斯大林。
 - **[左派共产主义—反对派谱系 / Robert V. Daniels]**（`CLM-daniels-1960-left-communists-1918`）：1918年左派共产主义者的批评构成后来民主集中派、工人反对派与托派的思想源头；“国家资本主义 = 官僚化”的警告在1920年代以不同面目反复回归。
-- **[俄罗斯档案文献派 / Yu. Zhukov, V. Sakharov]**（`CLM-zhukov-zinoviev-1925-leningrad-opposition`, `CLM-sakharov-2012-lenin-cooperative-plan-debates`）：十四大上的“国家资本主义”之争是列宁格勒组织与中央之间的**权力斗争外衣**；《论合作社》的文本学（两份口授稿）本身就是1925年论战的争夺对象。
+- **[俄罗斯档案文献派 / Yu. Zhukov, V. Sakharov]**（`CLM-zhukov-zinoviev-1925-leningrad-opposition`, `CLM-sakharov-2012-lenin-cooperative-plan-debates`）：分别讨论十四大的经济分类争议、组织斗争及《论合作社》两份口授稿的文本学问题；不能将思想差异简化为权力斗争的外衣。
 - **[制度史 / E. H. Carr]**（`sources/monographs/carr_bolshevik_rev_v2_zh/ch04` L700–730，页码待核）：将1918年国家资本主义置于“工人监督—国有化—最高国民经济委员会”的制度演化链中，视其为布尔什维克尚无成型经济纲领时的务实拼凑。
 
 ## [T3] 原文引证、语义漂移对照与反讽引述警示
@@ -93,10 +93,10 @@ updated_at: "2026-11-18"
 | 1918-04/05 | 列宁 | 苏维埃政权下与资本、专家合作的统制经济；德国样板 | 褒（“救星”“四分之三”） | “喘息”期内对抗小资产阶级自发势力 | Cohen p. 70 |
 | 1918-04/05 | 左派共产主义者；布哈林 | 金融资本统治 + 官僚集中制；“非资本主义的资本主义” | 贬 | 反对布列斯特式退让 | Cohen pp. 71, 76 |
 | 1921-04/05 | 列宁 | 租让、合作社、代销私商、租赁 | 中性—褒 | 为NEP命名、建立连续性 | Cohen p. 134 |
-| 1921–1922 | 布哈林 | “社会主义小岛”外的一切 | 保留 | 限定概念范围，保护国营工业的社会主义性质 | Cohen p. 135 |
+| 后来回顾1921年 | 布哈林转述列宁 | 列宁眼中的“社会主义小岛”之外为国家资本主义 | 保留 | 限定概念范围，保护国营工业的社会主义性质 | Cohen p. 135 |
 | 1923-01 | 列宁 | 仅租让属“纯粹国家资本主义”；合作社 ≈ 社会主义企业 | 退场 | 以合作制取代国家资本主义 | 《论合作社》S级 |
 | 1925 | 季诺维也夫 | 国家资本主义不仅是租让租赁，而应涵盖更广的NEP经济 | 指控 | 指控多数派美化资本主义、修正列宁 | Zhukov ch19 L83 |
-| 1929+（后世） | 托派异端、左翼理论家 | 苏联体制本身 | 批判 | 定性斯大林体制 | 超出本卡时段 |
+| 1929+（后世） | 部分左翼理论家 | 苏联体制本身 | 批判 | 定性斯大林体制 | 超出本卡时段 |
 
 ### 3.2 原文直引档案
 - **列宁1918年（经 Cohen 转引；A级研究转引S级原文）**（`sources/monographs/cohen_1973_bukharin/ch03_pages_76-100.md`, p. 70）：
@@ -105,8 +105,8 @@ updated_at: "2026-11-18"
   > “State capitalism under the dictatorship of the proletariat—this is an absurdity, soft-boiled boots… ‘Noncapitalist capitalism’—this is the height of confusion.”
 - **Cohen 论回溯意义（A级研究判断）**（p. 71）：
   > “Lenin's ‘state capitalism’ of April–May 1918 acquired retrospective significance because of its resemblance to… NEP.”
-- **布哈林1921年对列宁（经 Cohen 转引）**（`ch06_pages_151-175.md`, p. 135）：
-  > “a tiny island of socialism, and all the rest was state capitalism”；“you misuse the word ‘capitalism’”。
+- **Cohen记述布哈林后来对列宁观点的回顾，以及另有的批评**（`ch06_pages_151-175.md`, p. 135）：
+  > “a tiny island of socialism, and all the rest was state capitalism”——Cohen明言此为布哈林后来转述列宁的看法；布哈林另曾公开和私下反对列宁滥用“资本主义”一词。
 - **列宁《论合作社》（1923；S级）**（`sources/web-archive/E02_E10_core_classics/1923-01-04_on-cooperation.md` L61–67, L142–148, L202–208）：
   > 列宁说明使用该术语“首先是为了把现在的论述同……与所谓左派共产主义者的论战在历史上联系起来”，并论证国家资本主义“比我们现存的经济要高”；租让企业属“纯粹国家资本主义类型”；在土地与生产资料属于国家的条件下，合作企业“同社会主义企业没有区别”。
 - **季诺维也夫十四大副报告（经 Zhukov 转引；A级研究转引S级原文）**（`sources/monographs/zhukov_zinoviev_zh/ch19_section.md` L83）：

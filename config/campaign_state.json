@@ -1,19 +1,30 @@
 {
   "campaign_name": "Russian Revolution KB (1861-1929) Weekly Subscription Burn",
   "started_at": "2026-11-18",
-  "status": "paused_cleanly_after_full_quota_burn_and_audit_closure",
+  "resumed_at": "2026-11-18T18:00:00+08:00",
+  "status": "paused",
+  "paused_at": "2026-11-18T21:38:00+08:00",
+  "pause_after_in_flight": false,
+  "resume_checkpoint": {
+    "completed_in_session": "Waves 32-36 全部落盘并织网（572 卡 / 1102 边 / 722 双历事件 / 179 个 1-Hop 包 / 44 份一手原典 / DATA-07..08）；AUD-13/14 完成闭环；AUD-15A（7 张 Codex 人物卡异源审计）已落盘且 4 项 P0 硬伤已当场清零。",
+    "next_on_resume": [
+      "拆分为 <=7 卡增量落盘策略执行 AUD-15B（剩余 7 张 Codex PER-* 卡）与 AUD-16A/16B（14 张 Codex 制度/会议/政策/事件卡），避免单次 14 卡长思考触发 15 分钟静默流超时",
+      "集中闭环精修 AUD-15A/15B/16 的 P1/P2 站内 S/A 级原典回链与 L3 时间线挂接"
+    ]
+  },
   "concurrency_governor": {
     "max_grok_concurrent": 0,
-    "max_antigravity_concurrent": 0,
-    "max_codex_concurrent": 0,
-    "rule": "三大订阅池（Codex 5h窗口、Antigravity Gemini Ultra 5x 周期配额、Grok Build 周配额）均已圆满烧完；AUD-01 至 AUD-12 全部闭环修复并重编全库 1-Hop 上下文包，当前处于干净暂停状态。"
+    "max_antigravity_concurrent": 2,
+    "max_codex_concurrent": 3,
+    "rule": "恢复运行时：Antigravity 保持 <=2~3 路稳态并发且审计批次控制在 <=7 卡增量落盘；Codex 23:09 重置后保持 <=3 路稳态并发。"
   },
   "provider_quota_status": {
-    "codex": "100%_burned_for_5h_window",
-    "antigravity_2": "100%_burned_for_period_ultra_5x",
-    "grok": "100%_burned_weekly_balance",
+    "codex": "100%_burned_for_5h_window_resets_23_09",
+    "antigravity_2": "paused_by_user_with_quota_remaining",
+    "grok": "100%_burned_weekly_balance_402",
     "opencode_fallback": "standby_untouched"
   },
-  "books_extracted_count": 134,
-  "completed_waves": 31
+  "books_extracted_count": 146,
+  "completed_waves": 36,
+  "active_wave": 37
 }

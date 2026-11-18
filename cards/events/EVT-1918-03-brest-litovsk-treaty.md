@@ -69,7 +69,7 @@ updated_at: "2026-11-18"
 - `CLM-rabinowitch-2007-left-sr-coalition-collapse`——3月批准直接导致农村政治盟友退席。
 - `CLM-rabinowitch-2007-contingency-of-dictatorship`——和约后干部枯竭与城市党员流失放大专政偶然性与必然性争论。
 - `POL-brest-litovsk-treaty`——和约废止与长期领土后果索引。
-- 辩论库备注：`DEB-1918-one-party-dictatorship-origins` 暂未建卡，故已从本卡 `related_debates` 摘除；库内另有一份重复母题卡 `DEB-1918-war-communism-ideology-vs-emergency`。
+- 辩论库备注：`DEB-1918-one-party-dictatorship-origins` 暂未建卡，故已从本卡 `related_debates` 摘除；库内另有一份重复母题卡 `DEB-1918-war-communism-ideology-or-emergency`。
 
 ### 3.4 S 级待核
 第七次代表大会速记记录；中央委员会 `1918-02-17/18`、`02-18` 上午、`02-18/19` 夜三次会议记录及 `1918-02-23` 中央委员会会议纪要（Истпарт 出版或 RGASPI fond 2）。

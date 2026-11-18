@@ -12,7 +12,7 @@ dates:
 coverage_status: draft
 perspectives_present: ["military-institutional", "trotskyist", "liberal-totalitarian"]
 perspectives_missing: ["soldier-experience-micro"]
-related_debates: ["DEB-1918-red-terror-and-civil-war-origins", "DEB-1918-war-communism-ideology-vs-emergency"]
+related_debates: ["DEB-1918-red-terror-and-civil-war-origins", "DEB-1918-war-communism-ideology-or-emergency"]
 updated_at: "2026-11-18"
 ---
 
@@ -71,4 +71,4 @@ updated_at: "2026-11-18"
 
 ### 3.4 双历法与辩论库备注
 - 建军法令签署于改历前的 `1918-01-15 [O.S.] / 1918-01-28 [N.S.]`（`+13` 天，切勿再减或误用 `+12`）；1918年2月14日改历后的普遍兵役制（`1918-05-29`）、全俄中执委决议（`1918-09-02`）与人民委员会颁令（`1918-09-06`）均为纯粹公历。
-- 库内现有 `DEB-1918-war-communism-ideology-or-emergency` 与 `DEB-1918-war-communism-ideology-vs-emergency` 两份重复母题卡，本卡仅作标注而不另建新卡。
+- 库内现有 `DEB-1918-war-communism-ideology-or-emergency` 与 `DEB-1918-war-communism-ideology-or-emergency` 两份重复母题卡，本卡仅作标注而不另建新卡。

@@ -1,0 +1,29 @@
+id: MONO-siegelbaum-suny-1994-making-workers-soviet
+slug: siegelbaum_suny_1994_making_workers_soviet_zh
+title: "Making Workers Soviet: Power, Class, and Identity"
+title_original: "Making Workers Soviet: Power, Class, and Identity"
+author: "Lewis H. Siegelbaum、Ronald Grigor Suny（编）"
+author_original: "Edited by Lewis H. Siegelbaum and Ronald Grigor Suny"
+publisher: "Cornell University Press, Ithaca and London"
+pub_year: 1994
+edition: "First published 1994；ISBN 0-8014-3022-4（精装）、0-8014-8211-9（平装）"
+language: en
+epistemic_tier: A
+subject_period: "苏联工人阶级的权力、阶级形成与身份；论文集"
+source_file: "inbox/让工人成为苏维埃：权力、阶级和身份.pdf"
+source_format: pdf
+needs_ocr: false
+quality_check:
+  total_pages: 416
+  text_bearing_pages: 409
+  empty_or_image_pages: 7
+  ocr_coverage_pct: 98.3
+  text_layer_status: "大部分页面有嵌入式文本；7 页无文本层（含封面/图像页可能性），未伪造补录"
+extraction_stats:
+  chapters_count: 21
+  total_lines: 19435
+  total_chars: 1181263
+  chunk_strategy: "PDF 一级/二级书签章节切分；超长章节按 25 页续分"
+  index_file: toc.md
+status: ready_for_close_reading
+quality_notes: "版权页（PDF p. 5）核实编者、Cornell University Press 与 1994 年首版。PDF 文本为英文，非中文译本。"
