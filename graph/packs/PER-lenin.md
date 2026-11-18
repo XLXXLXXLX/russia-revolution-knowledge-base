@@ -62,15 +62,15 @@
 
 ### 邻居节点: `PER-martov-l`
 - **时效关系边** (`PER-martov-l` → `PER-lenin` | `ally-then-rival` | 有效时段: `1895-1903合作; 1903-1923对立`): 共建彼得堡斗争协会与《火星报》；1903分裂后分别领衔孟什维克国际主义派与布尔什维克，十月后在苏维埃内激烈交锋。
-- **节点定性微摘要 [T1]** (完备度 `draft`): 尤利·马尔托夫（1873–1923，生于君士坦丁堡犹太启蒙家庭，原姓策德尔鲍姆），俄国社会民主主义运动核心领袖与孟什维克国际主义派旗手。早年与列宁共建彼得堡斗争协会与《火星报》，1903年二大围绕党章第一条与编委会改组同列宁决裂；一战坚持反战国际主义，1917年十月后力主清一色社会主义联合政府并在苏维埃体制内开展合法反对派抗争，1920年秋赴德出席哈雷大会后流亡柏林病逝。
+- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 孟什维克核心领袖与国际主义左翼旗手。1903年二大凭党章第一条（28:22:1）与列宁分道；1917年七月夜倡“清一色社会主义政府”遭党内主流否决，十月二大率派退场；1918年工人抗议浪潮中坚持苏维埃合法反对派立场，1920年哈雷大会与季诺维也夫正面交锋痛斥恐怖与二十一条，后流亡柏林病逝。
 
 ### 邻居节点: `PER-plekhanov`
 - **时效关系边** (`PER-plekhanov` → `PER-lenin` | `mentor-ally-then-opponent` | 有效时段: `1900-1903合作; 1904-1918对立`): 1903二大一度力挺列宁，旋因反对列宁不妥协分裂而转向孟什维克；1914持护国主义并于1917痛批《四月提纲》。
-- **节点定性微摘要 [T1]** (完备度 `draft`): “俄国马克思主义之父”，第二国际著名理论家。早年领导民粹派“土地平分社”，1883年在日内瓦创立俄国首个马克思主义团体“劳动解放社”，奠定阶段革命论；1900年参与创办《火星报》，1903年二大后转入孟什维克；一战中持护国主义立场，1917年反对列宁《四月提纲》并坚决反对十月武装夺权。
+- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): “俄国马克思主义之父”。1879年拒恐怖另立土地平分社，1883年在日内瓦创劳动解放社奠定两阶段革命论；1901年首创社民“山岳派”隐喻，1903二大助列宁裁撤老编委又于11月倒向马尔托夫，1905后斥“不该拿起武器”；一战与1917办《统一报》极右护国并坚决反对十月夺权。
 
 ### 邻居节点: `PER-trotsky`
 - **时效关系边** (`PER-trotsky` → `PER-lenin` | `critic-then-co-leader` | 有效时段: `1903-1917.04论战; 1917.07-1923结盟`): 早年痛批列宁替代主义；1917夏入党后主持十月军革委起义与红军建设，1922年末受病中列宁托付共抗斯大林官僚集权。
-- **节点定性微摘要 [T1]** (完备度 `draft`): 俄国马克思主义革命家、“不断革命论”提出者，曾任1905年彼得堡苏维埃实际领袖与1917年彼得格勒苏维埃主席；主导十月军事革命委员会夺权，内战期任陆海军人民委员缔造正规红军。1923–1927年领衔左翼与联合反对派对抗斯大林书记处集权，1927年被开除出党，1929年2月被驱逐出苏联。
+- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 俄国革命家、“不断革命论”提出者，1905年彼得堡苏维埃实际领袖与1917年彼得格勒苏维埃主席；借军革委与苏维埃二大衔接统筹十月夺权，内战期起用4.8万军事专家缔造红军。1923–1927年领衔左翼与联合反对派抗衡斯大林集权并受“红色波拿巴”污名围剿，1927年被开除出党，1929年被驱逐出境。
 
 ### 邻居节点: `ORG-psr`
 - **时效关系边** (`PER-lenin` → `ORG-psr` | `tactical-coalition-then-suppression` | 有效时段: `1917.10-1922.08`): 十月《土地法令》吸纳社革党农民委托书并与左翼社革党短暂联合执政；1918解散立宪会议及7月决裂后全面取缔并于1922公审。
@@ -110,7 +110,7 @@
 
 ### 邻居节点: `PER-bogdanov`
 - **时效关系边** (`PER-bogdanov` → `PER-lenin` | `co-leader-to-philosophical-rival` | 有效时段: `1904-1920`): 1904-1907任布尔什维克中心二号领袖，1908-1909因第三届杜马召回主义与经验一元论同列宁彻底决裂组建前进派，十月后主持无产阶级文化协会再遭压制。
-- **节点定性微摘要 [T1]** (完备度 `draft`): 波格丹诺夫（1873–1928），布尔什维克第二号理论家、经验一元论与组织学先驱；1908–1909因召回主义与哲学论战同列宁决裂建“前进派”；1917–1920任无产阶级文化协会精神领袖遭压制；1928年输血实验身亡。
+- **节点定性微摘要 [T1]** (完备度 `draft`): 波格丹诺夫（1873–1928），早期布尔什维克核心理论家（后世评述常称1904–1907年地位仅次于列宁的“二号人物”）、经验一元论与组织学先驱；1908–1909因召回主义与哲学论战同列宁决裂建“前进派”；1917–1920任无产阶级文化协会精神领袖遭压制；1928年输血实验身亡。
 
 ### 邻居节点: `MTG-1912-01-prague-conference`
 - **时效关系边** (`PER-lenin` → `MTG-1912-01-prague-conference` | `convened-and-split-party` | 有效时段: `1912.01`): 召集布拉格全俄代表会议驱逐孟什维克取消派、组建纯布尔什维克中央委员会，会后将斯大林增补入中委与俄国局。
@@ -118,7 +118,7 @@
 
 ### 邻居节点: `POL-april-theses-1917`
 - **时效关系边** (`PER-lenin` → `POL-april-theses-1917` | `author` | 有效时段: `1917.04`): 返抵彼得格勒即抛出《四月提纲》，扭转国内布尔什维克温和路线，确立不给临时政府任何支持与“全部政权归苏维埃”的战略方向。
-- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 1917年4月列宁归国后提出的十项纲领：宣布不给临时政府任何支持、批判“革命护国主义”、主张从资产阶级革命第一阶段向工兵苏维埃掌权第二阶段过渡，并倡议银行国有化、土地社会化与改党名；打破加米涅夫—斯大林有条件支持临时政府路线，经党内激烈辩论逐步重塑布尔什维克战略。
+- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 1917年4月列宁归国后提出的十项纲领：宣布不给临时政府任何支持、批判“革命护国主义”、主张从资产阶级革命第一阶段向工兵苏维埃掌权第二阶段过渡，并倡议没收地主土地实现全部土地国有化、全国银行合并受苏维埃监督与更改党名；打破加米涅夫—斯大林有条件支持临时政府路线，经党内激烈辩论逐步重塑布尔什维克战略。
 
 ## 3. 关联史学争鸣光谱 (Historiographical Debates)
 ### `DEB-1879-narodnaya-volya-to-bolshevism`：民意党与布尔什维主义：密谋传统的连续性与异质性
@@ -130,8 +130,9 @@
 | :--- | :--- | :--- | :--- | :--- |
 | 自由主义思想史 | Isaiah Berlin, Venturi 英译本导论 (1960) | 承认职业密谋组织形态的先例，强调民粹伦理、个人良知与后来的党专政存在断裂。 | `CLM-berlin-1960-populism-moral-core` | 理想型可能淡化民意党内部的强制与雅各宾倾向。 |
 | 政治思想与运动史 | Franco Venturi, *Roots of Revolution* (1960) | 1879年组织分裂源自农村工作困境与策略冲突；民意党融合社会革命和制宪目标，同时保留临时专政的张力。 | `CLM-venturi-1960-lipetsk-voronezh-split`; `CLM-venturi-1960-narodnaya-volya-constitutionalism` | 运动史不等同于完整的思想史；立宪主张的实际执行仍需检验。 |
-| 观念社会史 | Andrzej Walicki, *The Controversy over Capitalism* (1969) | 区分民粹主义思潮与组织；马克思和民粹派存在理论互动，普列汉诺夫的反少数派夺权传统则展示另一条转化路径。 | `CLM-walicki-1969-narodnichestvo-definition`; `CLM-walicki-1969-marx-populist-affinity`; `CLM-walicki-1969-plekhanov-rational-reality` | 思想结构不直接证明组织传承，且对基层参与者关注有限。 |
-| 自由主义制度批判 | Richard Pipes, *The Russian Revolution* (1990) | 其关于激进知识分子与专制制度对立、布尔什维克夺权及恐怖的论证，可提供长期政治文化比较；现有卡并未直接证明民意党至布党的一条传承线。 | `CLM-pipes-1990-patrimonial-state-and-intelligentsia`; `CLM-pipes-1990-october-classic-coup`; `CLM-pipes-1990-red-terror-leninist-logic` | 将不同年代政治目标与组织条件视为同一现象的风险；具体谱系须另核原文。 |
+| 观念社会史与晚年马克思互动 | Andrzej Walicki, *The Controversy over Capitalism* (1969) | 区分民粹主义思潮与组织；1881年马克思复查苏利奇信及草稿承认俄国村社有条件充当社会再生支点，普列汉诺夫的反少数派夺权传统则展示另一条转化路径。 | `CLM-walicki-1969-narodnichestvo-definition`; `CLM-walicki-1969-marx-populist-affinity`; `CLM-walicki-1969-plekhanov-rational-reality` | 思想结构不直接证明组织传承，且对基层参与者关注有限。 |
+| 爱尔福特正统重审与雅各宾概念史 | Lars T. Lih, *Lenin Rediscovered* (2006); Robert Mayer (1999) | 正面证伪“特卡乔夫/民意党密谋传统→列宁《怎么办？》”直线谱系：列宁以德国社民党（SPD）公开群众党为理想模板，因警察国家才借用秘密外壳；其“社会民主党雅各宾派”隐喻直接承自普列汉诺夫1901年反机会主义修辞而非特卡乔夫。 | `CLM-lih-2006-erfurtian-merger-formula`; `CLM-lih-2006-textbook-myth-critique`; `CLM-mayer-1999-lenin-jacobin-metaphor-vs-blanquism` | 还原1901–1902年正统语境并不能消解1903年后真实发生的组织集权裂变。 |
+| 自由主义制度批判 | Richard Pipes, *The Russian Revolution* (1990) | 其关于激进知识分子与家产专制国家对立、布尔什维克夺权及恐怖的论证，提供长期政治文化比较视角。 | `CLM-pipes-1990-patrimonial-state-and-intelligentsia`; `CLM-pipes-1990-october-classic-coup` | 将不同年代政治目标与组织条件回溯拉平的风险。 |
 
 ### `DEB-1903-bolshevik-menshevik-split`：《怎么办？》与1903年布尔什维克—孟什维克分裂实质之争
 ## [T1] 核心问题定义
@@ -200,10 +201,10 @@
 ## [T2] 各学派立场对照矩阵
 | 学派/取向 | 代表学者与著作 | 核心论点摘要 | 支撑论断卡 | 主要受批评盲点 |
 | :--- | :--- | :--- | :--- | :--- |
-| 修正派与地方档案 | Alexander Rabinowitch, *The Bolsheviks in Power* (2007) | 解散由党内斗争、布尔什维克与左翼社革派行动及相当程度的民众冷漠共同促成；多党苏维埃空间在危机中逐步收缩。 | `CLM-rabinowitch-2007-constituent-assembly`; `CLM-rabinowitch-2007-contingency-of-dictatorship`; `CLM-rabinowitch-2007-left-sr-coalition-collapse` | 彼得格勒经验能否推广全国、危机解释是否低估意识形态与主动镇压，均有争议。 |
-| 自由主义制度批判 | Richard Pipes, *The Russian Revolution* (1990) | 其政变及早期恐怖论强调夺权意志和强制逻辑；相关卡为比较性依据，并非解散会议的专项证据。 | `CLM-pipes-1990-october-classic-coup`; `CLM-pipes-1990-red-terror-leninist-logic` | 对地方苏维埃、多党合作与党内分歧的解释有待对照。 |
-| 孟什维克政治史 | Israel Getzler, *Martov* (1967) | 马尔托夫先谋求社会主义联合政府，后在苏维埃内开展合法或半合法反对，表明反对白军与反对一党恐怖可以并存。 | `CLM-getzler-1967-martov-soviet-opposition` | 传记视角须结合基层选举和代表权记录。 |
-| 比较社会与政治史 | Manfred Hildermeier | 是需对读的相关学者；目前未找到本库针对该议题的 CLM，尚不代其归纳具体判断。 | 待建 | 需先核对具体著作、版本和页码。 |
+| 修正派与地方档案 | Alexander Rabinowitch, *The Bolsheviks in Power* (2007) | 解散由布尔什维克党内温和派（加米涅夫等）败给列宁、左翼社革党配合及相当程度的工农冷漠共同促成；多党苏维埃空间是在1918年春夏危机中分阶段收缩的。 | `CLM-rabinowitch-2007-constituent-assembly`; `CLM-rabinowitch-2007-contingency-of-dictatorship`; `CLM-rabinowitch-2007-left-sr-coalition-collapse` | 彼得格勒经验能否推广全国、危机解释是否低估意识形态与主动镇压，均有争议。 |
+| 社会革命党与选举史奠基派 | Oliver H. Radkey, *The Sickle under the Hammer* (1963) | 拆解社革党选票内部俄/乌与左右翼裂痕（299俄社革+81乌社革），揭示右翼社革党领导层因迷信合法议会程序、禁止武装保卫议会而自缚手脚，随后在萨马拉—西伯利亚沦为白卫军官“保护色”。 | `CLM-smith-scott-2011-psr-third-force-collapse`（馆藏真身 Radkey 1963）；`DATA-01` | 对精英策略失误的严厉道德批评有时低估了士兵厌战的结构性约束。 |
+| 自由主义制度批判 | Richard Pipes, *The Russian Revolution* (1990) | 将1918年1月枪击保卫立宪会议游行与武力关闭议会视为列宁夺权意志与极权恐怖制度化的真正起点，认为布尔什维克借民众疲惫确立了不受制约的专政。 | `CLM-pipes-1990-october-classic-coup`; `CLM-pipes-1990-red-terror-leninist-logic` | 对地方苏维埃多党合作与1918年上半年布尔什维克党内争论关注不足。 |
+| 孟什维克与议会民主传记派 | Israel Getzler, *Martov* (1967); W. H. Roobol, *Tsereteli* (1976) | 策烈铁里在 `1918-01-05 [O.S.]` 立宪会议讲坛作最后跨阶级议会民主抗辩；马尔托夫则在会后转入苏维埃体制内开展半合法反对（直至 `1918-06-14` 全俄中执委驱逐右社革与孟什维克）。 | `CLM-getzler-1967-martov-soviet-opposition`; `CLM-roobol-1976-tsereteli-tragedy-of-moderation` | 领袖政治伦理需与工厂全权代表会议（丘拉科夫 `CLM-churakov-2004-*`）实证规模对勘。 |
 
 ### `DEB-1918-red-terror-and-civil-war-origins`：红色恐怖、契卡扩张与内战期一党专政起源之争（1918–1921）
 ## [T1] 核心问题定义
@@ -242,37 +243,38 @@
 ## [T2] 各学派立场对照矩阵
 | 学派/取向 | 代表学者与著作 | 核心论点摘要 | 支撑论断卡 | 主要受批评盲点 |
 | :--- | :--- | :--- | :--- | :--- |
-| 社会史与反阴谋论 | Paul Avrich, *Kronstadt, 1921* (1970) | 水兵构成有变化但老兵仍领导起义；诉求为去除单党垄断的劳动者苏维埃，证据不支持流亡白卫事先操纵。 | `CLM-avrich-1970-sailor-social-composition`; `CLM-avrich-1970-soviets-without-bolsheviks`; `CLM-avrich-1970-white-plot-refutation` | 起义者内部差异及苏联海军档案仍需核验；事后外援不能证明事前策划。 |
-| 政治组织史 | Robert V. Daniels, *The Conscience of the Revolution* (1960) | 十大对派别的限制形成组织史转折，改变此后反对派活动条件。 | `CLM-daniels-1960-tenth-congress-turning-point` | 党内规则并不单独解释农村经济或全部镇压机制。 |
-| 农村社会史 | Orlando Figes, *A People's Tragedy* (1996) | 1920—1921年农村反征粮战争对经济退却形成重大压力；不能把坦波夫口号无条件套给喀琅施塔得。 | `CLM-figes-1996-peasant-wars-and-nep-retreat` | 农民运动地区差异与领导人内部决策仍需细化。 |
-| 苏维埃官方／布尔什维克当事人 | 1921年政府指控与十大材料 | 指称反革命及外部干预风险，主张统一和武装镇压；这是当时政治立场，非已证实的阴谋事实。 | `CLM-avrich-1970-white-plot-refutation`; `CLM-daniels-1960-tenth-congress-turning-point` | 需区分真实外援企图、起义起源及事后宣传。 |
+| 社会史与反阴谋论 | Paul Avrich, *Kronstadt, 1921* (1970) | 水兵构成有变化但老兵仍领导起义；诉求为去除单党垄断的多左翼劳动者苏维埃，证据不支持流亡白卫事先操纵，也未提出米留可夫伪造的“不要共产党人的苏维埃”口号。 | `CLM-avrich-1970-sailor-social-composition`; `CLM-avrich-1970-soviets-without-bolsheviks`; `CLM-avrich-1970-white-plot-refutation` | 起义者内部差异及后苏联解密海军档案仍需补充。 |
+| 党内组织史与国家—社会契约论 | Robert V. Daniels (1960); Lewis Siegelbaum (1992) | 十大《关于党的统一》（含秘密第7条）构成布尔什维克组织史决定性转折；1921年新政实质是“放开经济市民社会空间，同时彻底封闭党内外政治异议空间”。 | `CLM-daniels-1960-tenth-congress-turning-point`; `CLM-siegelbaum-1992-nep-fragile-social-compromise`; `CLM-carr-1952-nep-retreat-and-commanding-heights` | 党内规则与宏观契约仍需结合外省微距失控过程。 |
+| 农村反征粮战争与外省地方史 | Orlando Figes (1996); Donald J. Raleigh (2001) | 1920—1921年坦波夫、西西伯利亚农村战争与萨拉托夫“地方喀琅施塔得”工潮早于水兵起义撼动政权根基，迫使列宁在2月上旬先行酝酿粮食税退却。 | `CLM-figes-1996-peasant-wars-and-nep-retreat`; `CLM-raleigh-2001-center-periphery-weak-state-nep` | 农民起义口号不可无差别套用于喀琅施塔得水兵。 |
+| 苏维埃官方／布尔什维克当事人 | 1921年政府通告与十大材料 | 指称白卫反革命及冰融后外国干涉风险，主张铁血镇压与党内绝对统一；属当时政权危机认知与宣传，非已证实的事前阴谋事实。 | `CLM-avrich-1970-white-plot-refutation` | 混淆事后白卫侨民募款企图与水兵起义真实起源。 |
 
 ### `DEB-1922-lenin-testament-and-stalin-rise`：列宁晚年、格鲁吉亚事件与斯大林崛起机制
 ## [T1] 核心问题定义
-列宁晚年口授文稿和格鲁吉亚冲突，是反官僚与反斯大林的总体“最后斗争”，还是对共同集权框架内具体做法的修正？斯大林的上升又如何由个人策略、干部机关、集体领导与反对派困境共同解释？
+列宁晚年口授文稿和格鲁吉亚冲突，是反官僚与反斯大林的总体“最后斗争”，还是对共同集权框架内具体做法的修正？《遗嘱》本身是否存在文本流转疑点？斯大林的上升又如何由个人策略、书记处机关、寡头集体领导与反对派失策共同解释？
 
 ## [T2] 各学派立场对照矩阵
 | 学派/取向 | 代表学者与著作 | 核心论点摘要 | 支撑论断卡 | 主要受批评盲点 |
 | :--- | :--- | :--- | :--- | :--- |
-| 修正派 | Moshe Lewin, *Lenin's Last Struggle* (1968) | 将晚年文稿读为反大国沙文主义、官僚主义及撤换斯大林的政治计划；但列宁未明确放弃禁派或强制。 | `CLM-lewin-1968-testament-intent`; `CLM-lewin-1968-georgian-affair-bureaucracy`; `CLM-lewin-1968-cooperation-shift` | 连贯“总体计划”的程度与其实施机会有争议。 |
-| 民族政策修正 | Jeremy Smith, *The Bolsheviks and the National Question* (1999) | 强调列斯对集权原则的共识、地方利益及具体冲突，并据十二大特别会议材料揭示本土化妥协。 | `CLM-smith-jeremy-1999-georgian-affair-reassessed`; `CLM-smith-jeremy-1999-twelfth-congress-korenizatsiia` | 行政协调解释需与民族代表对胁迫和权力不平等的证词对照。 |
-| 后苏联档案与制度 | Oleg Khlevniuk, *Stalin* (2015) | 书记处议程和干部权带来优势；1920年代集体领导真实存在，其瓦解并非1922年已注定。 | `CLM-khlevniuk-2015-secretariat-and-nomenklatura`; `CLM-khlevniuk-2015-collective-leadership-erosion` | 不能将成熟时期干部名册规模倒推到1922年。 |
-| 左翼传记与政治史 | Isaac Deutscher, *The Prophet Unarmed* (1959) | 反对派要求党内民主却维护党对政权的垄断，纪律机器成为其组织性困境。 | `CLM-deutscher-1959-disarmed-prophet-paradox`; `CLM-deutscher-1959-united-opposition-defeat` | 侧重托洛茨基与反对派，须结合机关和地方档案。 |
-| 俄国政治思想史 | V. A. Sakharov (2012) | 将《论合作社》读为含有重要文本变化的遗产争夺；其关于后续集体化的判断是一种有争议解释，并非遗嘱真伪或格鲁吉亚事件的直接证据。 | `CLM-sakharov-2012-lenin-cooperative-plan-debates`; `CLM-sakharov-2012-nep-crossroads-1928` | 对布哈林及强制集体化的解释需要与其他史家交叉检验。 |
+| 反官僚最后斗争论 | Moshe Lewin, *Lenin's Last Struggle* (1968) | 将晚年口授群读为反大国沙文主义、改组监察院及撤换斯大林的连贯政治改革方案；但指出列宁始终未废除派别禁令与一党垄断。 | `CLM-lewin-1968-testament-intent`; `CLM-lewin-1968-georgian-affair-bureaucracy`; `CLM-lewin-1968-cooperation-shift` | 写于苏联全开档案前，连贯“总体计划”程度及12月22日电话定年受后续考据挑战。 |
+| 民族政策修正 | Jeremy Smith, *The Bolsheviks and the National Question* (1999) | 强调列斯在集中制大原则上的长期共识，并据十二大特别会议解密速记揭示斯大林被迫作出的本土化妥协。 | `CLM-smith-jeremy-1999-georgian-affair-reassessed`; `CLM-smith-jeremy-1999-twelfth-congress-korenizatsiia` | 行政协调解释须与列宁1923年3月5–6日对斯大林绝交信的激烈措辞并观。 |
+| 后苏联档案与寡头共治论 | Oleg Khlevniuk, *Stalin* (2015) | 以斯大林1923–1927年多次亲口承认遗嘱存在及3月7日复函驳斥伪造论；指出1月4日补遗重在“权力再平衡”而非逐出高层，且1920年代寡头集体领导真实存在。 | `CLM-khlevniuk-2015-secretariat-and-nomenklatura`; `CLM-khlevniuk-2015-collective-leadership-erosion` | 需注意勿将1920年代末成熟名册规模倒推回1922年。 |
+| 文献流转质疑与重定年派 | Stephen Kotkin, *Stalin, Vol. 1* (2014, Ch. 11) | 指出《给代表大会的信》缺失列宁亲签与原始速记底本、打字件经克鲁普斯卡娅与秘书圈流转存有加工疑窦，并据斯大林3月7日复函“约五周前”将电话冲突重定年于1923年1月下旬；同时强调斯大林不可替代的机关功能使其难因一纸信函下台。 | `CLM-kotkin-2014-geopolitics-and-ideology`; `L3 1922-12` 专章对勘 | 尚无直接物证证明秘书团凭空捏造，且难以解释斯大林本人在十三大与1927全会从未质疑文件真伪。 |
+| 左翼悲剧论 vs 政治失误批判 | Isaac Deutscher (1959) vs Robert Service, *Trotsky* (2009) | 多伊彻痛惜托洛茨基3月6日拒绝落井下石错失良机且受困一党纪律；瑟维斯则据档案批评托洛茨基共享威权前提、两拒人民委员会副主席职务并在十二大傲慢避战，纯属政治判断失误。 | `CLM-deutscher-1959-disarmed-prophet-paradox`; `CLM-service-2009-trotsky-authoritarian-consensus`; `CLM-service-2009-trotsky-political-tactical-blunders` | 需将个人性格失误置于书记处与三驾马车结构结盟中评估。 |
+| 俄国“伪列宁文本”极端派 | V. A. Sakharov (2003 遗嘱专著; 2012《十字路口》) | 其2003年专著极端断言遗嘱与民族札记系克鲁普斯卡娅—托派伪造；库内已入库的2012年著作则聚焦《论合作社》两稿差异与1920年代路线争夺（两书议题边界须严格区分）。 | `CLM-sakharov-2012-lenin-cooperative-plan-debates`; `CLM-sakharov-2012-nep-crossroads-1928` | 全盘伪造说遭赫列夫纽克、洛吉诺夫等主流俄罗斯档案学者一致否证。 |
 
 ### `DEB-1923-nationality-and-empire`：布尔什维克民族政策、格鲁吉亚事件与苏维埃“肯定性行动帝国”性质之争
 ## [T1] 核心问题定义
-1922—1923年格鲁吉亚冲突与十二大民族妥协，布尔什维克是在建设多民族“帝国”内的肯定性本土化福利国，还是以先锋队垄断维系的大俄罗斯官僚集权？争论焦点是经验制度成果与各派因果—价值判断之分。
+`1922-08` 至 `1923-04-25`（自“自治化”方案、格鲁吉亚冲突至俄共十二大民族问题特别会议闭幕）及其后1920年代本土化实践，布尔什维克是在建设多民族“肯定性行动帝国”内的制度化本土化体制，还是以先锋队组织垄断维系的大俄罗斯官僚集权？争论焦点在于解密速记揭示的制度妥协与各学派因果—价值判断之分。
 
 ## [T2] 各学派立场对照矩阵
 | 学派/取向 | 代表学者与著作 | 核心论点摘要 | 支撑论断卡 | 主要受批评盲点 |
 | :--- | :--- | :--- | :--- | :--- |
-| 列宁晚期斗争论 | Moshe Lewin, *Lenin's Last Struggle* (1968) | 格鲁吉亚事件暴露大国沙文主义与官僚机器合流，列宁晚年誓以政治清算对抗 *dzerzhimordy*；民族问题是撤换斯大林问责的实质切口之一。 | `CLM-lewin-1968-georgian-affair-bureaucracy`; `CLM-lewin-1968-testament-intent` | 易将散落笔记读成连贯“遗嘱计划”；未充分吸纳1990年代解密全会速记。 |
-| 自由主义—极权连续论 | Richard Pipes, *Russia under the Bolshevik Regime* 等 | 苏联民族政策是先锋队专政逻辑的延伸；十二大被写作斯大林中央集权对自治的胜利（Smith 正面驳斥此说）。 | （经 `CLM-smith-jeremy-1999-twelfth-congress-korenizatsiia` 对勘引述） | 档案研究显示十二大民族妥协比“一方全胜”叙事更复杂。 |
-| 解密档案民族妥协论 | Jeremy D. Smith, *The Bolsheviks and the National Question, 1917–1923* (1999) | 列宁—斯大林在集权原则上确有共识，但十二大特别会议显示边疆代表迫使中央退让，奠定1920年代本土化相对稳固期；格鲁吉亚危机不宜简化为二人生死对决。 | `CLM-smith-jeremy-1999-twelfth-congress-korenizatsiia`; `CLM-smith-jeremy-1999-georgian-affair-reassessed` | 本土化繁荣期止于1930年代逆转，分期须清晰。 |
-| 帝国史学框架 | Ronald Grigor Suny, *The Red Flag Unfurled* (2017) 等 | 沙俄—苏联宜在“宗主—边缘不平等从属”的帝国框架下理解民族建构；1991年后“苏联=帝国”共识含事后归因风险。 | `CLM-suny-2017-empire-and-nationality-dimension` | 帝国理论有助于宏观定位，但不能替代全代会速记级制度考证。 |
-| 乌克兰社会史与本土化悖论 | George Liber, *Soviet Nationality Policy, Urban Growth, and Identity Change in the Ukrainian SSR 1923–1934* (1992) | 本土化整合城乡乌克兰人、扩张乌克兰语公共领域的同时，制度化语言分裂并孕育难以中央完全消化的地方民族诉求。 | `CLM-liber-1992-korenizatsiia-paradox-late-1920s`; `CLM-liber-1992-ukrainianization-and-urban-working-class` | 侧重乌克兰案例，外高加索与中亚须分区域检验。 |
-| “肯定性行动帝国”概念（史学界常用语） | Terry Martin, *The Affirmative Action Empire* (2001) 等 | 1920年代苏联对“前发达”民族实施制度化优待（干部、语言、教育配额），以党国垄断为前提整合帝国边缘——成功与潜在离心并存。 | （本库待补 `CLM-martin-2001-affirmative-action-empire`；可 interim 参照 `reading-notes/` 与 `POL-korenizatsiia`） | 术语易与美式种族平权政策混同，须严守苏联党国语境。 |
+| 列宁晚期斗争与反官僚论 | Moshe Lewin, *Lenin's Last Struggle* (1968) | 格鲁吉亚事件暴露大俄罗斯沙文主义“为整个政府机器所服务”并与官僚机构合流，列宁晚年警觉最高层专政退化风险，准备清算 *dzerzhimordy*；民族问题是撤换斯大林问责的实质切口之一。 | `CLM-lewin-1968-georgian-affair-bureaucracy`; `CLM-lewin-1968-testament-intent` | 易将列宁口述笔记重构为高度连贯的“遗嘱计划”；写于1990年代十二大特别会议速记解密之前。 |
+| 自由主义—极权连续论 | Richard Pipes, *The Formation of the Soviet Union: Communism and Nationalism, 1917–1923* (1954; rev. ed. 1964) | 论证布尔什维克以红军武力征服外高加索与边疆，通过单一集权党中央架空形式上的联邦制；十二大被定性为斯大林行政中央集权对民族自治的彻底胜利（Smith 正面驳斥此说）。 | `CLM-carr-1950-self-determination-to-federal-reunion`；`CLM-smith-jeremy-1999-twelfth-congress-korenizatsiia` 对勘引述 | 1991年解密的十二大民族问题特别会议速记显示边疆代表反击与中央制度让步远比“单方全胜”复杂。 |
+| 解密档案民族妥协论 | Jeremy D. Smith, *The Bolsheviks and the National Question, 1917–1923* (1999) | 列宁—斯大林在集中制原则上确有共识，但 `1923-04` 十二大民族问题特别会议显示边疆代表迫使斯大林大幅退让，奠定1920年代本土化相对稳固期；格鲁吉亚危机不宜简化为列斯个人生死对决。 | `CLM-smith-jeremy-1999-twelfth-congress-korenizatsiia`; `CLM-smith-jeremy-1999-georgian-affair-reassessed` | 本土化制度繁荣期止于1930年代逆转，分期边界须清晰。 |
+| 帝国史学框架 | Ronald Grigor Suny, *The Red Flag Unfurled* (2017) 等 | 沙俄—苏联宜在“宗主—边缘不平等从属与差异治理”的帝国框架下理解民族建构；1991年后“苏联=帝国”共识含事后目的论归因风险。 | `CLM-suny-2017-empire-and-nationality-dimension` | 帝国理论有助于宏观比较定位，但不能替代十二大速记级制度考证。 |
+| 乌克兰社会史与本土化悖论 | George Liber, *Soviet Nationality Policy, Urban Growth, and Identity Change in the Ukrainian SSR 1923–1934* (1992) | 本土化整合城乡乌克兰人、扩张乌克兰语公共领域的同时，制度化语言边界并孕育中央难以完全消化的地方民族诉求。 | `CLM-liber-1992-korenizatsiia-paradox-late-1920s`; `CLM-liber-1992-ukrainianization-and-urban-working-class` | 侧重乌克兰工业城市化案例，外高加索与中亚须分区域检验。 |
+| “肯定性行动帝国”概念框架 | Terry Martin, *The Affirmative Action Empire* (2001) 等 | 1920年代苏联对非俄罗斯民族实施制度化优待（干部、语言、教育与领土配额），以党国政治垄断为前提整合多民族边缘——动员成效与潜在离心张力并存。 | （Martin 专著独立论断卡尚待 `close-reader` 入库；现阶段参看 `POL-korenizatsiia` 与 `CLM-smith-jeremy-1999-twelfth-congress-korenizatsiia`） | 概念易被字面混同于当代西方多元主义平权政策，须严守一党专政前提。 |
 
 ### `DEB-1928-bukharin-alternative`：“布哈林替代方案”与新经济政策终结之争（1928–1929）
 ## [T1] 核心问题定义

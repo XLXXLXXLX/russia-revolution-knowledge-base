@@ -4,40 +4,41 @@
 
 ## 0. 认知完备度与反偏斜仪表盘 (Epistemic & Skew Warnings)
 - **主卡路径**: `cards/meetings/MTG-1923-04-12th-party-congress.md`
-- **完备度等级**: `draft`
-- **已覆盖视角**: `nationalities-archival-smith, economic-interregnum-carr, party-opposition-trotsky`
+- **完备度等级**: `multi-perspective`
+- **已覆盖视角**: `revisionist-lewin, nationalities-archival-smith, economic-interregnum-carr, party-opposition-trotsky`
 - **待补齐视角**: `full-stenogram-economic-commission`
 - **偏斜风险提示**:
-  - ⚠️ 主卡当前完备度为 `draft`，尚未达到多源交叉核实定稿状态。
   - ⚠️ 主卡显式声明尚缺以下视角待补: `full-stenogram-economic-commission`。
 
 ## 1. 主卡核心层 ([T1] + [T2])
 ## [T1] 60秒定性微摘要
-1923年4月17—25日莫斯科举行。列宁病重首次缺席全会，托洛茨基报告“剪刀差”并主张计划化工业化；大会秘密传达列宁民族问题笔记，民族特别会议通过本土化妥协决议，同时维持党的统一垄断。
+1923年4月17—25日莫斯科举行。列宁第三次中风后首次缺席党代会，代表团分组秘密传达其民族问题笔记；托洛茨基以“剪刀差”图主张计划化工业化；民族问题特别会议迫使斯大林退让并确立本土化妥协决议，但会后人事布局仍背离列宁清算官僚沙文主义的初衷。
 
 ## [T2] 核心脉络、时效关系边表与史学争鸣光谱
 
 ### 2.1 核心历史脉络
-- **开幕背景与列宁缺席（1923.04.17起）**：大病后的列宁无法到会，十二大成为他生前最后一次党代会受到间接遥控的场合；克鲁普斯卡娅等受托在闭 door 分组会上传达其关于大国沙文主义与联盟体制的最后忧虑（与1922—1923年格鲁吉亚争论连贯，见 `DEB-1923-nationality-and-empire`）。
-- **经济与“剪刀差”辩论（四月全会场）**：托洛茨基展示工农业价格指数分歧图，论证流通危机源于交换条件失衡，呼吁加强国家计划委员会职能、推进工业合理化（参见 `CLM-carr-1954-scissors-crisis-mechanics`）。多数派（斯大林、季诺维也夫等）倾向行政限价与信贷调节，未采纳反对派式系统计划化方案；会后国家银行信贷收缩成为合拢剪刀的关键杠杆，卡尔的“十二大以来最重要经济政策行动”判断指向这一后续而非大会决议条文本身。
-- **民族问题特别分组会议与本土化决议（1923-04-25前后）**：斯大林提交民族政策论纲，在解密速记中遭拉柯夫斯基、伏龙芝及中亚、鞑靼、克里米亚代表围攻，被迫接受大幅提高民族院立法否决权、语言法定保障、边疆工业化承诺及反大俄罗斯沙文主义主调等修正案，奠定 **本土化（korenizatsiia）** 体制（`CLM-smith-jeremy-1999-twelfth-congress-korenizatsiia`）。闭幕后不久苏丹-加利耶夫案标示：民族宽容以不破坏党的组织垄断为红线。
-- **组织与派别余波**：大会在列宁缺席条件下巩固“三驾马车”对书记处的掌控，托洛茨基虽在剪刀差议题上亮相，1923年秋“46人声明”反对派危机仍待数月后爆发（十二大本身并非反对派被清洗的节点）。
+- **开幕背景、列宁缺席与民族笔记秘密传达（`1923-04-17` 起）**：`1923-03` 第三次中风使列宁失语缺席，十二大成为其生前最后一次受其口述文稿间接震慑的党代会。会前 `1923-04-16` 福季耶娃致函加米涅夫披露列宁托付托洛茨基捍卫格鲁吉亚共产党人之意，政治局遂决定仅在各代表团闭门分组会上宣读列宁《关于民族或“自治化”问题》笔记而不列入全会公开报告，化解了针对斯大林、奥尔忠尼启则、捷尔任斯基（*dzerzhimordy*）的直接政治清算（`CLM-lewin-1968-georgian-affair-bureaucracy`, `DEB-1923-nationality-and-empire`）。
+- **经济与“剪刀差”辩论（四月全会场）**：托洛茨基在工业报告中展示工农业价格指数分歧图，论证流通危机源于交换条件失衡，呼吁强化国家计划委员会（Gosplan）统筹职能与工业合理化（`CLM-carr-1954-scissors-crisis-mechanics`）。多数派（季诺维也夫主作政治报告、斯大林掌控组织报告）排斥赋予计委超部委指令权；会后 `1923-08` 末国家银行收缩工业信贷成为合拢剪刀的关键杠杆。
+- **民族问题特别分组会议与本土化决议（截至 `1923-04-25`）**：斯大林提交民族政策论纲，在特别会议解密速记中遭拉柯夫斯基、伏龙芝、姆迪瓦尼、马哈拉泽及中亚、鞑靼、克里米亚代表围攻，被迫接受提高民族院立法地位、法定保障本土语言、承诺边疆工业化并以反大俄罗斯沙文主义为主调等修正案，制度化奠定 **本土化（korenizatsiia）** 框架（`CLM-smith-jeremy-1999-twelfth-congress-korenizatsiia`）。但闭幕后不久苏丹-加利耶夫案标示：民族让步以严守党中央组织垄断为刚性红线。
+- **组织与派别余波**：季诺维也夫—加米涅夫—斯大林“三驾马车”借大会扩大中央委员会与工农检查院—中监委编制、巩固书记处干部调配权；奥尔忠尼启则执掌党国监察机器、捷尔任斯基继掌最高国民经济委员会、斯大林稳居总书记（`CLM-lewin-1968-georgian-affair-bureaucracy`）。托洛茨基在格鲁吉亚问题上避让妥协，`1923-10`“四十六人声明”反对派危机待半年后剪刀差达峰时方全面爆发。
 
 ### 2.2 时效关系摘要边表
 | 关联节点 ID | 关系类型 | 有效时段 | 一句话关系实质摘要（防 N+1 盲跳） | 核心依据/争鸣 |
 | :--- | :--- | :--- | :--- | :--- |
-| `PER-lenin` | `absent-influence` | 1923-04 | 病重缺席但经笔记与信函左右民族问题讨论与干部信任布局 | `DEB-1922-lenin-testament-and-stalin-rise` |
-| `PER-trotsky` | `reports-scissors-crisis` | 1923-04 | 以价格剪刀图主张工业计划化与流通改革，未获纲领性采纳 | `CLM-carr-1954-scissors-crisis-mechanics` |
-| `PER-stalin` | `reports-nations-then-retreats` | 1923-04 | 民族论纲遭边疆代表围攻后全面让步，塑造本土化妥协 | `CLM-smith-jeremy-1999-twelfth-congress-korenizatsiia` |
-| `POL-korenizatsiia` | `institutionalized-at` | 1923-04起 | 民族问题决议将本土化写入苏联早期联邦运作框架 | `CLM-smith-jeremy-1999-twelfth-congress-korenizatsiia` |
-| `POL-nep` | `economic-context` | 1923 | 新经济政策流通危机在大会公开化，行政应对与信贷杠杆并行 | `CLM-carr-1954-scissors-crisis-mechanics` |
+| `PER-lenin` | `absent-influence` | 1923-04 | 病重失语缺席，其格鲁吉亚—民族问题口述笔记仅在代表团闭门传达而未能触发人事清算 | `CLM-lewin-1968-georgian-affair-bureaucracy`; `DEB-1922-lenin-testament-and-stalin-rise` |
+| `PER-trotsky` | `reports-scissors-crisis` | 1923-04 | 以价格剪刀图主张工业计划化与流通改革，但在格鲁吉亚议题上对“三驾马车”妥协 | `CLM-carr-1954-scissors-crisis-mechanics`; `CLM-lewin-1968-georgian-affair-bureaucracy` |
+| `PER-stalin` | `reports-nations-then-retreats` | 1923-04 | 民族论纲在特别会议遭边疆代表围攻后作条文让步，同时稳固书记处与扩编中委优势 | `CLM-smith-jeremy-1999-twelfth-congress-korenizatsiia`; `CLM-lewin-1968-georgian-affair-bureaucracy` |
+| `EVT-1922-georgian-affair` | `addressed-behind-closed-doors` | 1923-04 | 格鲁吉亚冲突卷宗与列宁笔记促成反大俄罗斯沙文主义条文，但涉事中央大员未受处分 | `CLM-lewin-1968-georgian-affair-bureaucracy`; `CLM-smith-jeremy-1999-georgian-affair-reassessed` |
+| `POL-korenizatsiia` | `institutionalized-at` | 1923-04起 | 民族问题决议将干部与语言本土化写入苏联早期联邦运作框架 | `CLM-smith-jeremy-1999-twelfth-congress-korenizatsiia` |
+| `POL-nep` | `economic-context` | 1923 | 新经济政策剪刀差流通危机在大会公开化，行政调节与后续信贷杠杆并行 | `CLM-carr-1954-scissors-crisis-mechanics` |
 
 ### 2.3 史学争鸣光谱
-- **经验共识**：十二大是列宁缺席下的党代会；托洛茨基公开报告剪刀差；民族特别会议通过大幅修正斯大林原提纲的本土化决议；1923年秋信贷收缩缓解比价危机。
-- **主要解释分歧**（详参 `DEB-1923-nationality-and-empire`）：
-  - **[Jeremy D. Smith / 解密档案派]**（`CLM-smith-jeremy-1999-twelfth-congress-korenizatsiia`）：驳斥“十二大=斯大林彻底胜利”旧说，强调少数民族代表迫使中央退让的历史性妥协。
-  - **[E. H. Carr / 过渡时期经济史]**（`CLM-carr-1954-scissors-crisis-mechanics`）：剪刀差机制解释流通—生产失衡；真正合拢杠杆是大会后的信贷收缩而非大会决议的清晰路线图。
-  - **[Richard Pipes 等传统叙事]**（经 Smith 引述对勘）：曾将十二大读作行政中央集权对自治一边倒的胜利——与1990年代后档案研究显著冲突。
+- **经验共识**：十二大是列宁在世但首次缺席的党代会；列宁民族问题笔记未公开宣读于大会全会而限于代表团闭门传达；托洛茨基公开报告剪刀差；民族问题特别会议通过大幅修正斯大林原提纲的本土化决议。
+- **主要解释分歧**（详参 `DEB-1923-nationality-and-empire`, `DEB-1922-lenin-testament-and-stalin-rise`）：
+  - **[列宁晚期反官僚斗争论 / Moshe Lewin]**（`CLM-lewin-1968-georgian-affair-bureaucracy`）：强调民族与格鲁吉亚危机是列宁察觉最高层权力蜕变与大俄罗斯官僚机器合流的唯一实质切口；十二大后奥尔忠尼启则、捷尔任斯基、斯大林不仅未被清算反而分掌监察、经济与党务中枢，凸显列宁晚期意图与历史结果间的“巨大鸿沟”。
+  - **[解密档案民族妥协论 / Jeremy D. Smith]**（`CLM-smith-jeremy-1999-twelfth-congress-korenizatsiia`）：依据1991年后解密的民族问题特别会议速记，驳斥“十二大=斯大林彻底胜利”旧说，论证少数民族与边疆代表迫使中央实质退让，开启1920年代本土化稳固期。
+  - **[过渡时期经济史 / E. H. Carr]**（`CLM-carr-1954-scissors-crisis-mechanics`）：指出十二大虽聚焦剪刀差，但真正促成1923年底比价合拢的杠杆是会后8月末国家银行信贷紧缩而非大会决议条文本身。
+  - **[自由主义极权连续论 / Richard Pipes]**（经 Smith 引述对勘）：将十二大定性为行政中央集权对地方自治的一边倒胜利，与特别会议解密速记存在明显张力。
 
 ## 2. 一跳邻域等权重微摘要 (共 1 个关联节点，严防大卡霸占上下文)
 ### 邻居节点: `POL-korenizatsiia`
@@ -47,17 +48,31 @@
 ## 3. 关联史学争鸣光谱 (Historiographical Debates)
 ### `DEB-1923-nationality-and-empire`：布尔什维克民族政策、格鲁吉亚事件与苏维埃“肯定性行动帝国”性质之争
 ## [T1] 核心问题定义
-1922—1923年格鲁吉亚冲突与十二大民族妥协，布尔什维克是在建设多民族“帝国”内的肯定性本土化福利国，还是以先锋队垄断维系的大俄罗斯官僚集权？争论焦点是经验制度成果与各派因果—价值判断之分。
+`1922-08` 至 `1923-04-25`（自“自治化”方案、格鲁吉亚冲突至俄共十二大民族问题特别会议闭幕）及其后1920年代本土化实践，布尔什维克是在建设多民族“肯定性行动帝国”内的制度化本土化体制，还是以先锋队组织垄断维系的大俄罗斯官僚集权？争论焦点在于解密速记揭示的制度妥协与各学派因果—价值判断之分。
 
 ## [T2] 各学派立场对照矩阵
 | 学派/取向 | 代表学者与著作 | 核心论点摘要 | 支撑论断卡 | 主要受批评盲点 |
 | :--- | :--- | :--- | :--- | :--- |
-| 列宁晚期斗争论 | Moshe Lewin, *Lenin's Last Struggle* (1968) | 格鲁吉亚事件暴露大国沙文主义与官僚机器合流，列宁晚年誓以政治清算对抗 *dzerzhimordy*；民族问题是撤换斯大林问责的实质切口之一。 | `CLM-lewin-1968-georgian-affair-bureaucracy`; `CLM-lewin-1968-testament-intent` | 易将散落笔记读成连贯“遗嘱计划”；未充分吸纳1990年代解密全会速记。 |
-| 自由主义—极权连续论 | Richard Pipes, *Russia under the Bolshevik Regime* 等 | 苏联民族政策是先锋队专政逻辑的延伸；十二大被写作斯大林中央集权对自治的胜利（Smith 正面驳斥此说）。 | （经 `CLM-smith-jeremy-1999-twelfth-congress-korenizatsiia` 对勘引述） | 档案研究显示十二大民族妥协比“一方全胜”叙事更复杂。 |
-| 解密档案民族妥协论 | Jeremy D. Smith, *The Bolsheviks and the National Question, 1917–1923* (1999) | 列宁—斯大林在集权原则上确有共识，但十二大特别会议显示边疆代表迫使中央退让，奠定1920年代本土化相对稳固期；格鲁吉亚危机不宜简化为二人生死对决。 | `CLM-smith-jeremy-1999-twelfth-congress-korenizatsiia`; `CLM-smith-jeremy-1999-georgian-affair-reassessed` | 本土化繁荣期止于1930年代逆转，分期须清晰。 |
-| 帝国史学框架 | Ronald Grigor Suny, *The Red Flag Unfurled* (2017) 等 | 沙俄—苏联宜在“宗主—边缘不平等从属”的帝国框架下理解民族建构；1991年后“苏联=帝国”共识含事后归因风险。 | `CLM-suny-2017-empire-and-nationality-dimension` | 帝国理论有助于宏观定位，但不能替代全代会速记级制度考证。 |
-| 乌克兰社会史与本土化悖论 | George Liber, *Soviet Nationality Policy, Urban Growth, and Identity Change in the Ukrainian SSR 1923–1934* (1992) | 本土化整合城乡乌克兰人、扩张乌克兰语公共领域的同时，制度化语言分裂并孕育难以中央完全消化的地方民族诉求。 | `CLM-liber-1992-korenizatsiia-paradox-late-1920s`; `CLM-liber-1992-ukrainianization-and-urban-working-class` | 侧重乌克兰案例，外高加索与中亚须分区域检验。 |
-| “肯定性行动帝国”概念（史学界常用语） | Terry Martin, *The Affirmative Action Empire* (2001) 等 | 1920年代苏联对“前发达”民族实施制度化优待（干部、语言、教育配额），以党国垄断为前提整合帝国边缘——成功与潜在离心并存。 | （本库待补 `CLM-martin-2001-affirmative-action-empire`；可 interim 参照 `reading-notes/` 与 `POL-korenizatsiia`） | 术语易与美式种族平权政策混同，须严守苏联党国语境。 |
+| 列宁晚期斗争与反官僚论 | Moshe Lewin, *Lenin's Last Struggle* (1968) | 格鲁吉亚事件暴露大俄罗斯沙文主义“为整个政府机器所服务”并与官僚机构合流，列宁晚年警觉最高层专政退化风险，准备清算 *dzerzhimordy*；民族问题是撤换斯大林问责的实质切口之一。 | `CLM-lewin-1968-georgian-affair-bureaucracy`; `CLM-lewin-1968-testament-intent` | 易将列宁口述笔记重构为高度连贯的“遗嘱计划”；写于1990年代十二大特别会议速记解密之前。 |
+| 自由主义—极权连续论 | Richard Pipes, *The Formation of the Soviet Union: Communism and Nationalism, 1917–1923* (1954; rev. ed. 1964) | 论证布尔什维克以红军武力征服外高加索与边疆，通过单一集权党中央架空形式上的联邦制；十二大被定性为斯大林行政中央集权对民族自治的彻底胜利（Smith 正面驳斥此说）。 | `CLM-carr-1950-self-determination-to-federal-reunion`；`CLM-smith-jeremy-1999-twelfth-congress-korenizatsiia` 对勘引述 | 1991年解密的十二大民族问题特别会议速记显示边疆代表反击与中央制度让步远比“单方全胜”复杂。 |
+| 解密档案民族妥协论 | Jeremy D. Smith, *The Bolsheviks and the National Question, 1917–1923* (1999) | 列宁—斯大林在集中制原则上确有共识，但 `1923-04` 十二大民族问题特别会议显示边疆代表迫使斯大林大幅退让，奠定1920年代本土化相对稳固期；格鲁吉亚危机不宜简化为列斯个人生死对决。 | `CLM-smith-jeremy-1999-twelfth-congress-korenizatsiia`; `CLM-smith-jeremy-1999-georgian-affair-reassessed` | 本土化制度繁荣期止于1930年代逆转，分期边界须清晰。 |
+| 帝国史学框架 | Ronald Grigor Suny, *The Red Flag Unfurled* (2017) 等 | 沙俄—苏联宜在“宗主—边缘不平等从属与差异治理”的帝国框架下理解民族建构；1991年后“苏联=帝国”共识含事后目的论归因风险。 | `CLM-suny-2017-empire-and-nationality-dimension` | 帝国理论有助于宏观比较定位，但不能替代十二大速记级制度考证。 |
+| 乌克兰社会史与本土化悖论 | George Liber, *Soviet Nationality Policy, Urban Growth, and Identity Change in the Ukrainian SSR 1923–1934* (1992) | 本土化整合城乡乌克兰人、扩张乌克兰语公共领域的同时，制度化语言边界并孕育中央难以完全消化的地方民族诉求。 | `CLM-liber-1992-korenizatsiia-paradox-late-1920s`; `CLM-liber-1992-ukrainianization-and-urban-working-class` | 侧重乌克兰工业城市化案例，外高加索与中亚须分区域检验。 |
+| “肯定性行动帝国”概念框架 | Terry Martin, *The Affirmative Action Empire* (2001) 等 | 1920年代苏联对非俄罗斯民族实施制度化优待（干部、语言、教育与领土配额），以党国政治垄断为前提整合多民族边缘——动员成效与潜在离心张力并存。 | （Martin 专著独立论断卡尚待 `close-reader` 入库；现阶段参看 `POL-korenizatsiia` 与 `CLM-smith-jeremy-1999-twelfth-congress-korenizatsiia`） | 概念易被字面混同于当代西方多元主义平权政策，须严守一党专政前提。 |
+
+### `DEB-1922-lenin-testament-and-stalin-rise`：列宁晚年、格鲁吉亚事件与斯大林崛起机制
+## [T1] 核心问题定义
+列宁晚年口授文稿和格鲁吉亚冲突，是反官僚与反斯大林的总体“最后斗争”，还是对共同集权框架内具体做法的修正？《遗嘱》本身是否存在文本流转疑点？斯大林的上升又如何由个人策略、书记处机关、寡头集体领导与反对派失策共同解释？
+
+## [T2] 各学派立场对照矩阵
+| 学派/取向 | 代表学者与著作 | 核心论点摘要 | 支撑论断卡 | 主要受批评盲点 |
+| :--- | :--- | :--- | :--- | :--- |
+| 反官僚最后斗争论 | Moshe Lewin, *Lenin's Last Struggle* (1968) | 将晚年口授群读为反大国沙文主义、改组监察院及撤换斯大林的连贯政治改革方案；但指出列宁始终未废除派别禁令与一党垄断。 | `CLM-lewin-1968-testament-intent`; `CLM-lewin-1968-georgian-affair-bureaucracy`; `CLM-lewin-1968-cooperation-shift` | 写于苏联全开档案前，连贯“总体计划”程度及12月22日电话定年受后续考据挑战。 |
+| 民族政策修正 | Jeremy Smith, *The Bolsheviks and the National Question* (1999) | 强调列斯在集中制大原则上的长期共识，并据十二大特别会议解密速记揭示斯大林被迫作出的本土化妥协。 | `CLM-smith-jeremy-1999-georgian-affair-reassessed`; `CLM-smith-jeremy-1999-twelfth-congress-korenizatsiia` | 行政协调解释须与列宁1923年3月5–6日对斯大林绝交信的激烈措辞并观。 |
+| 后苏联档案与寡头共治论 | Oleg Khlevniuk, *Stalin* (2015) | 以斯大林1923–1927年多次亲口承认遗嘱存在及3月7日复函驳斥伪造论；指出1月4日补遗重在“权力再平衡”而非逐出高层，且1920年代寡头集体领导真实存在。 | `CLM-khlevniuk-2015-secretariat-and-nomenklatura`; `CLM-khlevniuk-2015-collective-leadership-erosion` | 需注意勿将1920年代末成熟名册规模倒推回1922年。 |
+| 文献流转质疑与重定年派 | Stephen Kotkin, *Stalin, Vol. 1* (2014, Ch. 11) | 指出《给代表大会的信》缺失列宁亲签与原始速记底本、打字件经克鲁普斯卡娅与秘书圈流转存有加工疑窦，并据斯大林3月7日复函“约五周前”将电话冲突重定年于1923年1月下旬；同时强调斯大林不可替代的机关功能使其难因一纸信函下台。 | `CLM-kotkin-2014-geopolitics-and-ideology`; `L3 1922-12` 专章对勘 | 尚无直接物证证明秘书团凭空捏造，且难以解释斯大林本人在十三大与1927全会从未质疑文件真伪。 |
+| 左翼悲剧论 vs 政治失误批判 | Isaac Deutscher (1959) vs Robert Service, *Trotsky* (2009) | 多伊彻痛惜托洛茨基3月6日拒绝落井下石错失良机且受困一党纪律；瑟维斯则据档案批评托洛茨基共享威权前提、两拒人民委员会副主席职务并在十二大傲慢避战，纯属政治判断失误。 | `CLM-deutscher-1959-disarmed-prophet-paradox`; `CLM-service-2009-trotsky-authoritarian-consensus`; `CLM-service-2009-trotsky-political-tactical-blunders` | 需将个人性格失误置于书记处与三驾马车结构结盟中评估。 |
+| 俄国“伪列宁文本”极端派 | V. A. Sakharov (2003 遗嘱专著; 2012《十字路口》) | 其2003年专著极端断言遗嘱与民族札记系克鲁普斯卡娅—托派伪造；库内已入库的2012年著作则聚焦《论合作社》两稿差异与1920年代路线争夺（两书议题边界须严格区分）。 | `CLM-sakharov-2012-lenin-cooperative-plan-debates`; `CLM-sakharov-2012-nep-crossroads-1928` | 全盘伪造说遭赫列夫纽克、洛吉诺夫等主流俄罗斯档案学者一致否证。 |
 
 ### `DEB-1928-bukharin-alternative`：“布哈林替代方案”与新经济政策终结之争（1928–1929）
 ## [T1] 核心问题定义

@@ -1,0 +1,57 @@
+---
+id: PER-herzen
+type: person
+title: 亚历山大·赫尔岑
+names:
+  ru: Александр Иванович Герцен
+  en: Alexander Ivanovich Herzen
+  aliases: ["赫尔岑", "伊斯坎德尔 (Искандер)"]
+dates:
+  start_ns: "1812-04-06"
+  end_ns: "1870-01-21"
+coverage_status: draft
+perspectives_present: ["intellectual-history", "movement-history-venturi", "berlin-moral-humanism"]
+perspectives_missing: ["post-soviet-biographical", "gender-history", "narodnichestvo-precursor-critique"]
+related_debates: []
+updated_at: "2026-11-18"
+---
+
+## [T1] 60秒定性微摘要
+19世纪俄国革命民主派思想巨擘与流亡出版家。生于莫斯科贵族家庭，`1812-03-25 [O.S.] / 1812-04-06 [N.S.]`；1847年1月出境后于1853年在伦敦创办自由俄罗斯印刷所并于1857年夏主笔《钟声》，系统批判农奴制与西欧资本主义异化，提出以农村公社为基础的“俄国式社会主义”愿景；`1870-01-21 [N.S.]` 逝于巴黎。
+
+## [T2] 核心脉络、时效关系边表与史学争鸣光谱
+
+### 2.1 核心历史脉络
+- **莫斯科启蒙与监管流放（1830s–1847）**：与别林斯基、奥加辽夫同属“四十年代人”激进一代；1834年与奥加辽夫被捕后经彼尔姆流放**维亚特卡（Vyatka）**（1834–1835年流放批件待补入库），归来后与尼古拉一世体制决裂；在官方警宪监视与压抑下于1847年1月携家人出境，永久流亡西欧（具体出境日序待补档案）。
+- **西欧阅历与“没有剧本的历史”（1847–1855）**：亲历1848年革命退潮与**1848年6月巴黎起义流血镇压**，在《来自彼岸》等著述中拒斥黑格尔式“历史必然”对个体自由的碾压，提出历史“没有既定台本”（*no libretto*），为后来民粹主义人论自由内核奠定基调（`CLM-berlin-1960-populism-moral-core`）。
+- **伦敦印刷所、《钟声》与1860年代纲领论战（1853–1865）**：1853年在伦敦创立自由俄罗斯印刷所；**1857年夏**于伦敦创办俄文《钟声》（*Kolokol*；通行书目系于伦敦当地公历 `1857-07-01 [N.S.]`，创刊号报头页入库前暂不写死日序，且伦敦刊物以当地公历为准，不另造俄历），成为俄国反对派最重要的流亡舆论枢纽；大力推介车尔尼雪夫斯基等人，并与巴枯宁等围绕“西欧革命路线 vs. 俄国村社道路”展开交锋；1861年农奴制改革后批判保留地主权益与沉重赎金的改革方案，倡导基于村社土地公有制与地方自治的“俄国式社会主义”。
+- **晚期分歧与身后影响（1865–1870及以后）**：与青年一代激进派在密谋恐怖与直接行动问题上渐生分歧；`1870-01-21 [N.S.]` 逝于巴黎；其道德人文主义与村社理想经由奥加辽夫、拉夫罗夫持续影响民粹派，但史家普遍不把赫尔岑简单等同于1869年后成型的“古典民粹主义”小生产者意识形态（`CLM-walicki-1969-narodnichestvo-definition`）。
+
+### 2.2 时效关系摘要边表（Typed & Temporalized Edges）
+| 关联节点 ID | 关系类型 | 有效时段 | 一句话关系实质摘要（防 N+1 盲跳） | 核心依据/争鸣 |
+| :--- | :--- | :--- | :--- | :--- |
+| `PER-chernyshevsky` | `publisher-patron` | 1850s–1860s | 《钟声》与印刷所系统推介车氏著述，共同塑造60年代革命民主派舆论场 | `CLM-berlin-1960-populism-moral-core` |
+| `ORG-zemlya-i-volya` | `generational-influence` | 1861–1876 | 第一代土地与自由社成员多受赫尔岑—奥加辽夫流亡圈舆论滋养，但与1876年第二代组织无直接法人承续关系 | `CLM-walicki-1969-narodnichestvo-definition` |
+| `CON-narodnichestvo` | `precursor-not-identical` | 1840s–1870 | 被后世民粹派奉为精神先驱，瓦利茨基强调其“贵族社会主义”与1869年后古典民粹主义存在代际与结构断裂 | `CLM-walicki-1969-narodnichestvo-definition` |
+| `PER-plekhanov` | `indirect-legacy` | 1880s–1900s | 普列汉诺夫转向马克思主义后仍与赫尔岑—别林斯基“合理现实”论争相缠，但否认赫尔岑属于民粹派小生产者立场 | `CLM-walicki-1969-plekhanov-rational-reality` |
+
+### 2.3 史学争鸣光谱（Historiographical Spectrum）
+- **经验共识**：赫尔岑是俄国解放运动从沙龙激进思想走向全欧流亡出版网络的关键桥梁，其《钟声》在1860年代法律制度外为反对派提供了不可替代的公共论坛。
+- **主要解释分歧**（相关待建争鸣母题卡：`DEB-populism-morality-and-leninism`、`DEB-narodnichestvo-concept`）：
+  - **[道德人文主义民粹谱系 / Isaiah Berlin 导读文图里]**（`CLM-berlin-1960-populism-moral-core`）：将赫尔岑“历史无剧本”命题与民粹主义反决定论、以个人良知审查暴力之伦理规范相连，强调社会主义选择出于正义而非必然。
+  - **[概念史精准分界 / Andrzej Walicki]**（`CLM-walicki-1969-narodnichestvo-definition`）：肯定赫尔岑对60年代“启蒙遗产”的枢纽地位，但反驳科兹明将赫尔岑直接划入民粹派的做法，指出其审美厌恶与“贵族社会主义”立场不同于1869年后落后农民国对西方资本主义/社会主义双重反应的“古典民粹主义”结构。
+  - **[苏联正统史学]**：高度评价其革命民主派先驱地位，同时批评其“唯心史观”与对1861改革后群众直接行动的保留。
+  - **[自由主义连续派 / Richard Pipes]**：更强调其西欧个人主义底色，质疑将赫尔岑与列宁民族—暴力传统简单连缀的线性叙事。
+
+## [T3] 深度考证、分期细目与原文引证档案
+- **已入库论断卡精读锚点**：
+  - `CLM-berlin-1960-populism-moral-core`（赫尔岑“*no libretto*”与民粹主义自由选择论，引自 Venturi 英译本导论 `pp. xix, xxiv–xxvi`）。
+  - `CLM-walicki-1969-narodnichestvo-definition`（1860s 启蒙遗产 vs. 1869 古典民粹主义界线，赫尔岑“贵族社会主义”定位，`pp. 9–25 [PDF pp. 21–37]`）。
+- **待建关联争鸣母题卡**：`DEB-populism-morality-and-leninism`、`DEB-narodnichestvo-concept`（目前库内尚未建卡，暂不写入 `related_debates` 元数据）。
+- **待提取专著锚点**：
+  - Franco Venturi, *Roots of Revolution*（`sources/monographs/venturi_1960_roots/`，赫尔岑—巴枯宁—青年激进派早期网络）。
+  - Martin Malia, *Alexander Herzen and the Birth of Russian Socialism*；Aileen Kelly, *Toward Another Shore*。
+- **待核查一手文献** *(须 `close-reader` 提取后补齐 `[p. xx]`)*：
+  1. 《钟声》第1号报头（伦敦，1857，核实 `1857-07-01 [N.S.]` 创刊日序）及1857–1867关键号关于农奴制改革与“俄国式社会主义”社论原文；
+  2. 1834–1835年流放批件上的维亚特卡地点与1847年1月出境护照/档案日期；
+  3. 《来自彼岸》（*S togo berega*, 1850）论1848失败与历史偶然性章节俄英对照。

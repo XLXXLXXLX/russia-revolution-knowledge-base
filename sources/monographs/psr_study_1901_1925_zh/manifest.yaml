@@ -1,0 +1,4 @@
+id: SRC-psr-study-1901-1925-zh
+directory_name: psr_study_1901_1925_zh
+needs_ocr: true
+note: "原始 PDF（440页）为纯扫描图像无嵌入式文本层（PDF-I），待 OCR 补提后精读，严禁伪造引文。"

@@ -5,50 +5,67 @@
 ## 0. 认知完备度与反偏斜仪表盘 (Epistemic & Skew Warnings)
 - **主卡路径**: `cards/organizations/ORG-left-and-united-opposition.md`
 - **完备度等级**: `multi-perspective`
-- **已覆盖视角**: `biographical-deutscher, institutional-carr, conscience-daniels, archival-khlevniuk`
+- **已覆盖视角**: `biographical-deutscher, institutional-carr, economic-history-erlich, conscience-daniels, archival-khlevniuk, leningrad-worker-social-zhukov`
 - **待补齐视角**: `factory-grassroots-opposition-networks`
 - **偏斜风险提示**:
   - ⚠️ 主卡显式声明尚缺以下视角待补: `factory-grassroots-opposition-networks`。
 
 ## 1. 主卡核心层 ([T1] + [T2])
 ## [T1] 60秒定性微摘要
-1923年剪刀差危机触发的托洛茨基—普列奥布拉任斯基等“左翼反对派”，经1926年春与季诺维也夫—加米涅夫“新反对派”合并为托季联合反对派；以《四十六人声明》与1927年政纲挑战党内官僚化与“一国社会主义”，在机关机器、社会冷漠与派别禁令下于1927年十五大前后溃败。
+1923年剪刀差危机触发的托洛茨基—普列奥布拉任斯基“左翼反对派”，经1926年春与季诺维也夫—加米涅夫“新反对派”结盟为托季联合反对派；以《四十六人声明》与《1927年政纲》批判官僚体制与“一国社会主义”、主张价格—财政渠道的计划工业化，于1927年12月十五大被组织摧毁。
 
 ## [T2] 核心脉络、时效关系边表与史学争鸣光谱
 
 ### 2.1 核心历史脉络
-- **1923年“四十六人声明”与左翼反对派成型（1923.10–1925.04）**：
-  - `1923-10-08` 托洛茨基致信中央委员会，将工农不满与党内体制不健康并列指控（`CLM-carr-1954-platform-of-46-economic-roots`）。
-  - `1923-10-15` **《四十六人声明》** 由皮达可夫、普列奥布拉任斯基、奥新斯基等46名干部签署，先诊断切尔文券、信贷、工业品滞销与农产品低价等新经济政策危机症状，再批判书记处专横（Carr pp. 113–115）。1924年列宁逝世后斯大林—布哈林—季诺维也夫“三驾马车”在“托洛茨基主义”问题上结阵反击。
-- **1925年秋季诺维也夫转向与1926年联合反对派（1925.04–1927.06）**：
-  - 1925年粮食紧张与秋季论治使季诺维也夫由“一国社会主义”共同起草者转为猛烈批判者；`1926-04` 托洛茨基与季诺维也夫—加米涅夫派系正式结盟组成 **联合反对派**，在十四次代表会议至十五大筹备期间就工业化速度、工农联盟、党内民主与“一国建成社会主义”展开全线论战（`CLM-deutscher-1959-united-opposition-defeat`, `CON-socialism-in-one-country`）。
-- **1927年政纲、街头抗争与组织毁灭（1927.07–12）**：
-  - 反对派秘密印制 **《1927年政纲》**（工业民主、无产阶级国际主义、反对官僚特权与非常措施），全签名者仅数千人规模；`1927-11-07` 十月革命十周年街头示威在列宁格勒与莫斯科遭驱散羞辱；`1927-11-14` 托洛茨基、季诺维也夫被开除党籍，加米涅夫等人随后悔过仍难翻盘；`1927-12` **十五大** 确认处分（`MTG-1927-12-15th-party-congress`, `CLM-deutscher-1959-united-opposition-defeat`）。
+- **1923年《四十六人声明》与左翼反对派成型（1923.10–1925.04）**：
+  - `1923-10-08` 托洛茨基致信中央委员会与中监委，指控经济失调与书记处官僚体制恶化（`CLM-carr-1954-platform-of-46-economic-roots`）。
+  - `1923-10-15` **《四十六人声明》** 递交政治局：中央党务档案馆藏俄文两份打字稿原本共载 **47人次签名**（因 **阿·戈尔茨曼 A. Goltsman** 在两份打字稿重复联署，实际为皮达可夫、普列奥布拉任斯基、谢列布里亚科夫、奥新斯基等 **46位独立联署干部**；托洛茨基本人未签署），先诊断切尔文危机、信贷紧缩与剪刀差滞销，继而批判“多数派派别专政”压制党内讨论（Carr `pp. 113–115`）。1924年普列奥布拉任斯基提出“社会主义原始积累规律”，主张在NEP市场框架下靠价格与税收杠杆加速国营工业投资（`CLM-erlich-1960-preobrazhensky-dilemma`）。
+- **1925年列宁格勒转向与1926年托季联合反对派（1925.09–1927.06）**：
+  - 1925年十四大季诺维也夫—加米涅夫“新反对派”战败并失去列宁格勒基地（`MTG-1925-12-14th-party-congress`, `CLM-zhukov-zinoviev-1925-leningrad-opposition`）；`1926-04` 托派与季加派正式结成 **联合反对派**，围绕工业化资金积累、富农分化、党内民主、中国革命及“一国建成社会主义”与斯大林—布哈林多数派展开全线论战（`CLM-deutscher-1959-united-opposition-defeat`, `CON-socialism-in-one-country`）。
+- **《1927年政纲》、十周年街头抗争与十五大终结（1927.07–12）**：
+  - `1927-09` 反对派拟定《布尔什维克列宁主义者政纲》（《1927年政纲》）遭政治局禁止印发后转入地下油印；`1927-11-07` 十周年纪念日在莫斯科、列宁格勒街头独立游行遭冲散；`1927-11-14` 托洛茨基、季诺维也夫被开除党籍；`1927-12-18—19` 联共十五大另行开除加米涅夫、普列奥布拉任斯基等75名骨干，季、加一翼递交悔过书而托洛茨基一翼拒降流放，联合反对派就此瓦解（`MTG-1927-12-15th-party-congress`）。
 
 ### 2.2 时效关系摘要边表（Typed & Temporalized Edges）
 | 关联节点 ID | 关系类型 | 有效时段 | 一句话关系实质摘要（防 N+1 盲跳） | 核心依据/争鸣 |
 | :--- | :--- | :--- | :--- | :--- |
-| `PER-trotsky` | `principal-leader` | 1923–1927 | 左翼反对派灵魂人物，1926年起与季诺维也夫并列联合反对派领袖 | `CLM-deutscher-1959-united-opposition-defeat`, `CLM-carr-1954-platform-of-46-economic-roots` |
-| `PER-zinoviev` | `ally-1926 -> defeated-1927` | 1925 批判一国社会主义；1926–1927 与托结盟 | 从反托核心转为联合反对派的组织与宣传资源提供者 | `CLM-deutscher-1959-united-opposition-defeat` |
-| `PER-stalin` | `organizational-adversary` | 1923–1927 | 以书记处、报刊与选举机器压制反对派，将论战定性为托洛茨基主义分裂活动 | `CLM-khlevniuk-2015-secretariat-and-nomenklatura`, `CLM-khlevniuk-2015-collective-leadership-erosion` |
-| `PER-bukharin` | `theoretical-adversary-1926-1927` | 1926–1927 | 新经济政策鼎盛期与斯大林联手在理论上批判不断革命论与反对派工业化方案 | `CLM-deutscher-1959-alma-ata-bukharin-stalin-split` |
-| `CON-socialism-in-one-country` | `central-ideological-target` | 1925–1927 | 联合反对派将斯大林口号定性为背弃国际主义与掩盖官僚保守利益 | `DEB-1924-socialism-in-one-country` |
-| `POL-ban-on-factions-1921` | `legal-constraint` | 1921起延续适用 | 1921年十大派别禁令使反对派只能在党纪框架内秘密串联传单 | `POL-ban-on-factions-1921`, `CLM-apalkov-2023-collective-to-personal-dictatorship` |
-| `MTG-1927-12-15th-party-congress` | `defeated-at` | 1927-12 | 十五大确认开除与组织瓦解，开启1928年后斯大林对右派摊牌窗口 | `MTG-1927-12-15th-party-congress` |
+| `PER-trotsky` | `principal-leader` | 1923–1927 | 左翼反对派政治核心，1926年起与季诺维也夫共领联合反对派，拒签悔过书后流放 | `CLM-deutscher-1959-united-opposition-defeat`; `CLM-carr-1954-platform-of-46-economic-roots` |
+| `PER-preobrazhensky` | `chief-economic-theorist` | 1923–1927 | 《四十六人声明》起草主力与《新经济学》作者，论证靠价格—税收而非暴力剥夺积累工业资本 | `CLM-erlich-1960-preobrazhensky-dilemma`; `PER-preobrazhensky` |
+| `PER-zinoviev` | `adversary-1923 -> co-leader-1926` | 1923–1925反托；1926–1927结盟 | 十四大失守列宁格勒后携残余组织网络与托洛茨基结盟，十五大闭幕际悔过拆伙 | `CLM-zhukov-zinoviev-1925-leningrad-opposition`; `CLM-deutscher-1959-united-opposition-defeat` |
+| `PER-stalin` | `organizational-adversary` | 1923–1927 | 凭书记处干部任命权、报刊垄断与反派别纪律逐级剥夺反对派合法空间 | `CLM-khlevniuk-2015-secretariat-and-nomenklatura`; `CLM-khlevniuk-2015-collective-leadership-erosion` |
+| `PER-bukharin` | `theoretical-adversary-1924-1927` | 1924–1927 | 代表多数派批判普列奥布拉任斯基“超工业化”危及工农市场联盟 | `CLM-erlich-1960-preobrazhensky-dilemma`; `DEB-1928-bukharin-alternative` |
+| `CON-socialism-in-one-country` | `central-ideological-target` | 1925–1927 | 联合反对派批判该口号割裂世界革命并掩盖民族官僚保守化 | `DEB-1924-socialism-in-one-country` |
+| `POL-ban-on-factions-1921` | `legal-constraint` | 1923–1927 | 1921年十大派别禁令将政纲散发直接定性为非法地下反党活动 | `POL-ban-on-factions-1921`; `CLM-apalkov-2023-collective-to-personal-dictatorship` |
+| `MTG-1927-12-15th-party-congress` | `defeated-at` | 1927-12 | 十五大追认开除托、季并另开除75名骨干，终结联合反对派组织存在 | `MTG-1927-12-15th-party-congress` |
 
 ### 2.3 史学争鸣光谱（Historiographical Spectrum）
-- **经验共识**：1923–1927年存在经《四十六人声明》与1926年结盟串联的党内左翼—托季联合反对派；其核心诉求包括纠正新经济政策危机、反对官僚特权、批判“一国社会主义”及主张更有计划的工业化与党内民主；1927年底在组织上被摧毁。
-- **主要解释分歧**（详参 `DEB-1924-socialism-in-one-country`, `DEB-1922-lenin-testament-and-stalin-rise`）：
-  - **[托派传记与社会心理论 / Isaac Deutscher]**（`CLM-deutscher-1959-united-opposition-defeat`, `CLM-deutscher-1959-disarmed-prophet-paradox`）：失败首要非政纲被经验证伪，而是全国“可怕寂静”与书记处舆论垄断；反对派自禁党外工人动员，在群众消极与恐惧安宁中耗尽。
-  - **[经济—政治结构史 / E. H. Carr]**（`CLM-carr-1954-platform-of-46-economic-roots`, `CLM-carr-1954-scissors-crisis-mechanics`）：强调《四十六人声明》根植于1923年剪刀差与信贷危机的客观诊断，将党内专横批判置于经济政策失误之后，非纯粹权力野心。
-  - **[反对派良心系谱 / Robert V. Daniels]**（`RN-W1C-communist-oppositions-1918-1929`）：将1923–1927年派别置于1918年以来“Leftist vs Leninist”连续体，突出其理想主义对权力实用主义的道德挑战（具体论断待独立CLM补卡）。
-  - **[后苏联档案制度派 / Oleg Khlevniuk]**（`CLM-khlevniuk-2015-collective-leadership-erosion`, `CLM-khlevniuk-2015-secretariat-and-nomenklatura`）：1927年底斯大林组织优势显著，但政治局集体领导最终瓦解仍经历1928–1929右转全过程，不宜将1927年失败等同于个人独裁已定。
-  - **[近年集体领导论 / Dmitry Apalkov]**（`CLM-apalkov-2023-collective-to-personal-dictatorship`）：反对派民主辞令与布尔什维克反分裂戒律结构性矛盾，使任何公开多政纲斗争注定失败。
+- **经验共识**：1923–1927年存在自《四十六人声明》至托季结盟的党内左翼—联合反对派；主张计划工业化、累进抽取富农余力、恢复党内民主并批判“一国社会主义”；1927年底在组织上被彻底清除。
+- **主要解释分歧**（详参 `DEB-1924-socialism-in-one-country`, `DEB-1922-lenin-testament-and-stalin-rise`, `DEB-1928-bukharin-alternative`）：
+  - **[工业化经济思想史 / Alexander Erlich]**（`CLM-erlich-1960-preobrazhensky-dilemma`）：严格划清普列奥布拉任斯基工业化方案与1929年斯大林强制集体化的制度边界——普氏理论预设NEP个体小农市场混合经济存续数十年，仅靠国营工业不等价定价与税收调节积累，并受农民罢卖退回自然经济的弹性硬约束，绝非斯大林式暴力没收与流放。
+  - **[托派传记与社会心理论 / Isaac Deutscher]**（`CLM-deutscher-1959-united-opposition-defeat`, `CLM-deutscher-1959-disarmed-prophet-paradox`）：失败主因在于内战后全国工农的疲惫沉寂（“可怕的寂静”）及反对派自身效忠一党垄断、不敢诉诸党外群众。
+  - **[经济—政治结构史 / E. H. Carr]**（`CLM-carr-1954-platform-of-46-economic-roots`, `CLM-carr-1954-scissors-crisis-mechanics`）：强调《四十六人声明》首先是对1923年剪刀差与信贷危机的严肃政策诊断，党内民主诉求从属于经济路线转向需求。
+  - **[反对派良心系谱 / Robert V. Daniels]**（`RN-W1C-communist-oppositions-1918-1929`）：将1923–1927年反对派归入布尔什维克内部理想主义原则派对官僚实用主义的周期性抗争。
+  - **[后苏联档案制度派 / Oleg Khlevniuk; Dmitry Apalkov]**（`CLM-khlevniuk-2015-collective-leadership-erosion`, `CLM-apalkov-2023-collective-to-personal-dictatorship`）：指出反分裂戒律使党内合法反对派成为制度悖论，但1927年底胜利仍属政治局多数联盟而非斯大林个人独裁终局。
 
-## 2. 一跳邻域等权重微摘要 (共 1 个关联节点，严防大卡霸占上下文)
+## 2. 一跳邻域等权重微摘要 (共 5 个关联节点，严防大卡霸占上下文)
 ### 邻居节点: `PER-trotsky`
 - **时效关系边** (`PER-trotsky` → `ORG-left-and-united-opposition` | `principal-leader` | 有效时段: `1923.10-1927.12`): 从1923《新方针》到1926与季诺维也夫、加米涅夫结成联合反对派，要求恢复党内民主与加快计划工业化，于1927年底被彻底清洗。
-- **节点定性微摘要 [T1]** (完备度 `draft`): 俄国马克思主义革命家、“不断革命论”提出者，曾任1905年彼得堡苏维埃实际领袖与1917年彼得格勒苏维埃主席；主导十月军事革命委员会夺权，内战期任陆海军人民委员缔造正规红军。1923–1927年领衔左翼与联合反对派对抗斯大林书记处集权，1927年被开除出党，1929年2月被驱逐出苏联。
+- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 俄国革命家、“不断革命论”提出者，1905年彼得堡苏维埃实际领袖与1917年彼得格勒苏维埃主席；借军革委与苏维埃二大衔接统筹十月夺权，内战期起用4.8万军事专家缔造红军。1923–1927年领衔左翼与联合反对派抗衡斯大林集权并受“红色波拿巴”污名围剿，1927年被开除出党，1929年被驱逐出境。
+
+### 邻居节点: `PER-radek`
+- **时效关系边** (`PER-radek` → `ORG-left-and-united-opposition` | `opposition-leader-to-conciliator` | 有效时段: `1923-1929`): 1923德国十月受挫后投身左翼与联合反对派，1928-1929在流放地因斯大林左转打击富农而与普列奥布拉任斯基率先妥协归队。
+- **节点定性微摘要 [T1]** (完备度 `draft`): 波兰裔、德语区成长的布尔什维克国际派记者与笔杆子。1918年左派共产主义者，后任共产国际执委要员；1923年介入德国革命策略并在驻德期间声援左翼反对派（1923年10月《四十六人声明》署名链待核），1928—1929年与普列奥布拉任斯基率先向斯大林和解；1937年1月被判处十年监禁，1939年5月19日在狱中被害。
+
+### 邻居节点: `EVT-1923-scissors-crisis`
+- **时效关系边** (`EVT-1923-scissors-crisis` → `ORG-left-and-united-opposition` | `catalyzed` | 有效时段: `1923.09-12`): 工农比价突破3:1与信贷紧缩引发罢工潮，直接催生1923年10月《四十六人声明》与托洛茨基《新方针》党内左翼反对派集结。
+- **节点定性微摘要 [T1]** (完备度 `draft`): NEP 条件下工农业相对价格自1922年9月交汇后急速张开：至1923年10月工业品零售价约为1913年187%、农产品仅58%，工农交换近乎中断。国家银行8月末突缩工业信贷与索科尔尼科夫货币纪律并行，引发停工罢工；10月8日托洛茨基单独致信中央、10月15日皮达可夫等发表《四十六人声明》（托洛茨基本人未署名），将经济危机与党内书记处体制捆绑。
+
+### 邻居节点: `PER-rakovsky`
+- **时效关系边** (`PER-rakovsky` → `ORG-left-and-united-opposition` | `unyielding-theorist` | 有效时段: `1923-1929`): 1923十二大批判大俄罗斯集权后成为左翼与联合反对派二号领袖，1928在流放地撰写《“职业危险”与苏维埃权力》剖析官僚阶层异化并拒不投降。
+- **节点定性微摘要 [T1]** (完备度 `draft`): 拉柯夫斯基（1873–1941），巴尔干国际社会主义者，1919–1923年多次任乌克兰人民委员会主席；1923年十二大同伏龙芝批评斯大林大俄罗斯沙文主义；1927年起为左翼与联合反对派核心，1928年流放中撰《“职业危险”与党和苏维埃权力》拒降，1934年被迫声明归队，1938年再遭判刑并于1941年在奥廖尔梅德韦杰夫森林被处决。
+
+### 邻居节点: `CON-thermidor-and-bureaucracy`
+- **时效关系边** (`ORG-left-and-united-opposition` → `CON-thermidor-and-bureaucracy` | `diagnosed-and-shattered-by` | 有效时段: `1923-1929`): 以法国大革命“热月”隐喻批判党国官僚专制与向农村富农退让，却在1928-1929斯大林自上而下暴力消灭富农左转时陷入理论失焦与分裂。
+- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 借法国大革命雅各宾衰亡隐喻诊断苏维埃政权变质的核心概念。1921–1923年列宁晚年痛斥国家机关实质承袭沙皇旧机器、仅涂苏维埃油漆；路标转换派乌斯特里亚洛夫从右翼欢呼NEP为民族布尔什维克“热月”；1923–1927年左翼与联合反对派则以“党国官僚中间派与热月危险”批判斯大林—布哈林体制。
 
 ## 3. 关联史学争鸣光谱 (Historiographical Debates)
 ### `DEB-1924-socialism-in-one-country`：一国建成社会主义与不断革命论
@@ -68,15 +85,37 @@
 
 ### `DEB-1922-lenin-testament-and-stalin-rise`：列宁晚年、格鲁吉亚事件与斯大林崛起机制
 ## [T1] 核心问题定义
-列宁晚年口授文稿和格鲁吉亚冲突，是反官僚与反斯大林的总体“最后斗争”，还是对共同集权框架内具体做法的修正？斯大林的上升又如何由个人策略、干部机关、集体领导与反对派困境共同解释？
+列宁晚年口授文稿和格鲁吉亚冲突，是反官僚与反斯大林的总体“最后斗争”，还是对共同集权框架内具体做法的修正？《遗嘱》本身是否存在文本流转疑点？斯大林的上升又如何由个人策略、书记处机关、寡头集体领导与反对派失策共同解释？
 
 ## [T2] 各学派立场对照矩阵
 | 学派/取向 | 代表学者与著作 | 核心论点摘要 | 支撑论断卡 | 主要受批评盲点 |
 | :--- | :--- | :--- | :--- | :--- |
-| 修正派 | Moshe Lewin, *Lenin's Last Struggle* (1968) | 将晚年文稿读为反大国沙文主义、官僚主义及撤换斯大林的政治计划；但列宁未明确放弃禁派或强制。 | `CLM-lewin-1968-testament-intent`; `CLM-lewin-1968-georgian-affair-bureaucracy`; `CLM-lewin-1968-cooperation-shift` | 连贯“总体计划”的程度与其实施机会有争议。 |
-| 民族政策修正 | Jeremy Smith, *The Bolsheviks and the National Question* (1999) | 强调列斯对集权原则的共识、地方利益及具体冲突，并据十二大特别会议材料揭示本土化妥协。 | `CLM-smith-jeremy-1999-georgian-affair-reassessed`; `CLM-smith-jeremy-1999-twelfth-congress-korenizatsiia` | 行政协调解释需与民族代表对胁迫和权力不平等的证词对照。 |
-| 后苏联档案与制度 | Oleg Khlevniuk, *Stalin* (2015) | 书记处议程和干部权带来优势；1920年代集体领导真实存在，其瓦解并非1922年已注定。 | `CLM-khlevniuk-2015-secretariat-and-nomenklatura`; `CLM-khlevniuk-2015-collective-leadership-erosion` | 不能将成熟时期干部名册规模倒推到1922年。 |
-| 左翼传记与政治史 | Isaac Deutscher, *The Prophet Unarmed* (1959) | 反对派要求党内民主却维护党对政权的垄断，纪律机器成为其组织性困境。 | `CLM-deutscher-1959-disarmed-prophet-paradox`; `CLM-deutscher-1959-united-opposition-defeat` | 侧重托洛茨基与反对派，须结合机关和地方档案。 |
-| 俄国政治思想史 | V. A. Sakharov (2012) | 将《论合作社》读为含有重要文本变化的遗产争夺；其关于后续集体化的判断是一种有争议解释，并非遗嘱真伪或格鲁吉亚事件的直接证据。 | `CLM-sakharov-2012-lenin-cooperative-plan-debates`; `CLM-sakharov-2012-nep-crossroads-1928` | 对布哈林及强制集体化的解释需要与其他史家交叉检验。 |
+| 反官僚最后斗争论 | Moshe Lewin, *Lenin's Last Struggle* (1968) | 将晚年口授群读为反大国沙文主义、改组监察院及撤换斯大林的连贯政治改革方案；但指出列宁始终未废除派别禁令与一党垄断。 | `CLM-lewin-1968-testament-intent`; `CLM-lewin-1968-georgian-affair-bureaucracy`; `CLM-lewin-1968-cooperation-shift` | 写于苏联全开档案前，连贯“总体计划”程度及12月22日电话定年受后续考据挑战。 |
+| 民族政策修正 | Jeremy Smith, *The Bolsheviks and the National Question* (1999) | 强调列斯在集中制大原则上的长期共识，并据十二大特别会议解密速记揭示斯大林被迫作出的本土化妥协。 | `CLM-smith-jeremy-1999-georgian-affair-reassessed`; `CLM-smith-jeremy-1999-twelfth-congress-korenizatsiia` | 行政协调解释须与列宁1923年3月5–6日对斯大林绝交信的激烈措辞并观。 |
+| 后苏联档案与寡头共治论 | Oleg Khlevniuk, *Stalin* (2015) | 以斯大林1923–1927年多次亲口承认遗嘱存在及3月7日复函驳斥伪造论；指出1月4日补遗重在“权力再平衡”而非逐出高层，且1920年代寡头集体领导真实存在。 | `CLM-khlevniuk-2015-secretariat-and-nomenklatura`; `CLM-khlevniuk-2015-collective-leadership-erosion` | 需注意勿将1920年代末成熟名册规模倒推回1922年。 |
+| 文献流转质疑与重定年派 | Stephen Kotkin, *Stalin, Vol. 1* (2014, Ch. 11) | 指出《给代表大会的信》缺失列宁亲签与原始速记底本、打字件经克鲁普斯卡娅与秘书圈流转存有加工疑窦，并据斯大林3月7日复函“约五周前”将电话冲突重定年于1923年1月下旬；同时强调斯大林不可替代的机关功能使其难因一纸信函下台。 | `CLM-kotkin-2014-geopolitics-and-ideology`; `L3 1922-12` 专章对勘 | 尚无直接物证证明秘书团凭空捏造，且难以解释斯大林本人在十三大与1927全会从未质疑文件真伪。 |
+| 左翼悲剧论 vs 政治失误批判 | Isaac Deutscher (1959) vs Robert Service, *Trotsky* (2009) | 多伊彻痛惜托洛茨基3月6日拒绝落井下石错失良机且受困一党纪律；瑟维斯则据档案批评托洛茨基共享威权前提、两拒人民委员会副主席职务并在十二大傲慢避战，纯属政治判断失误。 | `CLM-deutscher-1959-disarmed-prophet-paradox`; `CLM-service-2009-trotsky-authoritarian-consensus`; `CLM-service-2009-trotsky-political-tactical-blunders` | 需将个人性格失误置于书记处与三驾马车结构结盟中评估。 |
+| 俄国“伪列宁文本”极端派 | V. A. Sakharov (2003 遗嘱专著; 2012《十字路口》) | 其2003年专著极端断言遗嘱与民族札记系克鲁普斯卡娅—托派伪造；库内已入库的2012年著作则聚焦《论合作社》两稿差异与1920年代路线争夺（两书议题边界须严格区分）。 | `CLM-sakharov-2012-lenin-cooperative-plan-debates`; `CLM-sakharov-2012-nep-crossroads-1928` | 全盘伪造说遭赫列夫纽克、洛吉诺夫等主流俄罗斯档案学者一致否证。 |
 
-## 4. 关联时间线锚点 (共 0 条)
+### `DEB-1928-bukharin-alternative`：“布哈林替代方案”与新经济政策终结之争（1928–1929）
+## [T1] 核心问题定义
+1927–1929年新经济政策瓦解与斯大林击败布哈林集团，究竟源于小农低商品率与布尔什维克高工业化/价格管制目标之间无法调和的结构性死结，还是源于1926–1928年具体经济政策失误与党内权力机器垄断扼杀了布哈林所主张的市场-合作社均衡工业化替代路径？
+
+## [T2] 各学派立场对照矩阵
+
+| 学派/研究取向 | 代表学者与馆藏著作 | 核心论点摘要 | 已核实馆藏依据 | 主要受批评局限 |
+| :--- | :--- | :--- | :--- | :--- |
+| **政治传记“替代方案论”** | Stephen F. Cohen (`cohen_1973_bukharin`) | 新经济政策并未枯竭；布哈林基于列宁《论合作社》与《经济学家札记》（1928-09-30）提出了协调工农利益的可行渐进规划；但1928年1月政治局起初一致批准临时非常措施（p. 278），随后斯大林将其升级为常态路线并凭组织机器获胜。 | Cohen pp. 177, 278, `PDF p. 318` | 被批评高估了布哈林方案在重工业资本积累缺口与布尔什维克反市场意识形态下的政治可持续性。 |
+| **农村社会史与长短周期分离论** | Moshe Lewin (`lewin_1968_peasants`) | 区分1927–28年粮食危机与1929–30年冬全盘强制集体化：同情渐进合作化，但直言布哈林部分理论“仅在短期有效”，而普列奥布拉任斯基对中长期工业投资瓶颈的诊断更具预见性（Preface `PDF p. 12`）。 | Lewin `PDF pp. 10, 12, 68` | — |
+| **发展经济学与计划经济史派** | Alexander Erlich (`erlich_1960_industrialization`)、Carr & Davies (`carr_davies_1969_foundations_v1p1`)、Alec Nove (`nove_1964_was_stalin_necessary`) | Erlich 证明1924–28论战双方（含普列奥布拉任斯基，pp. 44, 177）均未预设暴力全盘集体化；Carr & Davies 与 Nove 揭示国家人为压低谷物收购价（相对于畜牧和经济作物）及工业品饥荒造成1927冬收购锐减。 | Erlich pp. 44, 177; Carr & Davies Vol.1 | 经济上本可通过调价与温和税收缓和，但与党领导层既定超高速军重工业目标直接冲突。 |
+| **政治局体制与新经济政策死胡同论** | Oleg Khlevniuk (`khlevniuk_2015_stalin`) | 一方面指出1927年危机表明新经济政策发展模式受多重因素制约已难以为继（Ch. 3）；另一方面从中央书记处干部任命制（Nomenklatura）与政治局纪律剖析布哈林集团为何在组织上迅速瓦解。 | Khlevniuk EPUB Ch. 3 | 偏重高层权力与体制锁死，对非强制替代经济路径的计量效率讨论较少。 |
+| **意识形态死结与能动性决断论** | Stephen Kotkin (`kotkin_2014_stalin_v1`, Ch. 13–14 & Coda) | “新经济政策若经济成功便在布尔什维克阶级政治上自我失败”（商品粮依赖大播户即潜伏“富农”）；但同时反对结构宿命论，指出若无斯大林1928年1月西伯利亚督粮的个人铁腕决断，强制全盘集体化概率极低。 | `CLM-kotkin-2014-siberian-grain-turn`, `CLM-kotkin-2014-bukharin-dilemma` | 第1卷叙事止于1928年底，1929年4月与11月全会交锋待补第2卷与全会速记。 |
+
+## 4. 关联时间线锚点 (共 7 条)
+- **1926-06-06 [N.S.]** (`TL-W25-1926-06-06-01`, L3): **莫斯科近郊多尔戈普鲁德纳亚“拉斯舍夫树林秘密集会”** — 别连基等在克拉斯纳亚普列斯尼亚区召集约70名季派骨干赴多尔戈普鲁德纳亚站附近林中开会，革军委副主席拉斯舍夫到场演讲并分发反中央秘密材料；次日遭区委书记留京向乌格拉诺夫与中监委告发。
+- **1926-07-14 [N.S.]** (`TL-W25-1926-07-14-01`, L3): **七月中央与中监委联席全会开幕；联合反对派宣读《十三人声明》** — 联席全会（7月14–23日）开幕，托洛茨基、季诺维也夫、加米涅夫、皮达可夫、克鲁普斯卡娅等13名中央/中监委成员发表24页纲领性声明正式组建联合反对派，但在英俄委员会少数派案中以10:152惨败。
+- **1926-07-21 [N.S.]** (`TL-W25-1926-07-21-01`, L3): **拉斯舍夫案全会大摊牌；季诺维也夫揭露秘密“七人小组”** — 古比雪夫与扬松控诉反对派建立地下印刷密码网；季诺维也夫承认1923–1925联斯反托错误并当众曝光秘密“七人小组”及《列宁遗嘱》，斯大林以“越出派别建网红线”反制。
+- **1926-09-30 [N.S.]** (`TL-W25-1926-09-30-01`, L3): **联合反对派下沉厂区试水：托洛茨基赴梁赞—乌拉尔铁路厂演讲** — 在党报全面封杀下，托洛茨基与萨普罗诺夫等前往帕韦列茨基站附近梁赞—乌拉尔铁路机车修理厂党支部演讲呼吁党内民主，开启十月基层突围行动。
+- **1926-10-01 [N.S.]** (`TL-W25-1926-10-01-01`, L3): **莫斯科航空仪表厂（Aviapribor）演讲遭有组织哄场围攻与否决** — 托洛茨基、季诺维也夫、皮达可夫与拉狄克赴莫斯科航空仪表厂支部演讲，遭乌格拉诺夫市委部署的积极分子吹哨敲桌围攻并以27:78（S级核验/约四分之一赞成）遭否；次日莫斯科市委定性为“直接犯罪”。
+- **1926-10-07 [N.S.]** (`TL-W25-1926-10-07-01`, L3): **季诺维也夫红色普梯洛夫厂25:1375惨败；政治局核准最后通牒草案** — 季诺维也夫潜回列宁格勒在红色普梯洛夫厂演讲遭“叛徒”齐喊并以25:1375悬殊败北；同日莫斯科政治局核准布哈林—李可夫—托姆斯基投降最后通牒草案并于8/11日加压扩至8条。
+- **1926-10-16 [N.S.]** (`TL-W25-1926-10-16-01`, L3): **《六人停战声明》签署：承认违纪、解散派别并切割内外左翼** — 经三易其稿退回后，托洛茨基、季诺维也夫、加米涅夫、皮达可夫、索科尔尼科夫、叶夫多基莫夫签署声明（10月17日见报），承认违反十四大后党纪、切割施略普尼科夫及德国极左派，仅保留原则观点；10月23日全会随即补开除托政治局席位。

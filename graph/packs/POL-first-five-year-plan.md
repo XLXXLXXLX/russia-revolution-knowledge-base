@@ -12,22 +12,22 @@
 
 ## 1. 主卡核心层 ([T1] + [T2])
 ## [T1] 60秒定性微摘要
-1928–1929年定案的苏联首部正式工业化纲领：国家计委“起点方案”与“最高方案”之争经1929年4月中央全会与5月苏维埃五大批准最高方案；下半年工业投资、钢铁与集体农庄指标连环加码，冲垮布哈林“蜗牛般速度”均衡路线，标志新经济政策体制退场与强制集体化并进。
+1928–1929年定案的苏联首部正式工业化纲领：国家计委“起点方案”与“最高方案”之争，经 `1929-04-16` 至 `23` 中央联席全会、`04-23` 至 `29` 第十六次党代表会议与 `05-20` 至 `28` 第五次全苏苏维埃代表大会批准最高方案；下半年工业投资、钢铁与集体农庄指标连环加码，冲垮布哈林“蜗牛般速度”均衡路线，标志新经济政策体制退场与强制集体化并进。
 
 ## [T2] 核心脉络、时效关系边表与史学争鸣光谱
 
 ### 2.1 核心历史脉络
 - **授权编制与双方案博弈（1927.12–1928）**：`1927-12` 十五大指示编制首个五年计划并主张扩大集体化（`MTG-1927-12-15th-party-congress`）。`1928` 年春 **Gosplan** 内部 **发生学派**（格罗曼、巴扎罗夫）与 **目的论派**（斯特鲁米林）就增长率、粮源与市场约束激烈争辩，同时 **VSNKh**（古比雪夫）提出更激进重工业方案（`INS-vsnkh-and-gosplan`, `CLM-erlich-1960-stalin-overkill-turn`）。`1928` 年冬粮食危机与 **乌拉尔—西伯利亚方法** 突破征粮僵局，政治气氛倒向“超速工业化”。
-- **四月全会与最高方案批准（1929.04–05）**：`1929-04-16` 至 `23` **联共（布）中央委员会暨中央监察委员会联席会议（第十六次代表会议）** 讨论工业速度与农村政策；`1929-05` **第五届全俄苏维埃代表大会** 正式批准 **最高方案** 控制数字，投资与产出指标显著高于原“起点方案”（Davies, Soviet History；`MTG-1929-04-cc-joint-plenum`）。布哈林集团在同会周期内遭组织性致命打击（`CLM-cohen-1973-bukharin-organizational-defeat`）。
+- **四月联席全会、十六次党代表会议与最高方案批准（1929.04–05）**：`1929-04-16` 至 `23` **联共（布）中央委员会与中央监察委员会四月联席全会** 击败布哈林右派（`MTG-1929-04-cc-joint-plenum`），紧接着 `1929-04-23` 至 `29` **联共（布）第十六次代表会议（XVI конференция ВКП(б)）** 与 `1929-05-20` 至 `28` **苏联第五次全国苏维埃代表大会（全苏苏维埃五大）** 正式批准五年计划 **最高方案（оптимальный вариант）**，投资与产出指标显著高于原“起点方案”（`CLM-erlich-1960-stalin-overkill-turn`、`CLM-davies-1980-autumn-1929-great-turn-fabrication`）。布哈林集团在同会周期内遭组织性致命打击（`CLM-cohen-1973-bukharin-organizational-defeat`）。
 - **下半年指标失控与“大转变”合流（1929.06–12）**：批准后 **Gosplan** 与地方竞赛进一步抬高集体化播种面积与钢产量；`1929-08` 集体化控制数字从800万公顷级跳升至1300万公顷级（`CLM-davies-1980-autumn-1929-great-turn-fabrication`）。斯大林11月7日《大转变的一年》社论与11月中央全会解除布哈林政治局职务，将五年计划雄心与消灭富农阶级语言绑定（`EVT-1929-great-turn-and-dekulakization-launch`）。车间层面突击工、竞赛与工会清洗同步强化劳动强度（`CLM-filtzer-1986-1929-tomsky-purge-and-shock-work`）。
 
 ### 2.2 时效关系摘要边表（Typed & Temporalized Edges）
 | 关联节点 ID | 关系类型 | 有效时段 | 一句话关系实质摘要（防 N+1 盲跳） | 核心依据/争鸣 |
 | :--- | :--- | :--- | :--- | :--- |
 | `INS-vsnkh-and-gosplan` | `drafted-by` | 1928–1929 | Gosplan/VSNKh 竞争性地抬升控制数字，政治局择高方案 | `CLM-erlich-1960-stalin-overkill-turn`, `CLM-carr-1952-nep-retreat-and-commanding-heights` |
-| `MTG-1927-12-15th-party-congress` | `mandated` | 1927.12 | 五大授权编制并宣示集体化方向 | 会议卡 |
-| `MTG-1929-04-cc-joint-plenum` | `ratified-strategy` | 1929.04 | 四月全会抉择最高方案与击败右倾 | `CLM-khlevniuk-2015-defeat-of-right-opposition` |
-| `PER-bukharin` | `defeated-alternative` | 1928–1929 | “骑牛入市”均衡增长方案被最高方案排挤 | `CLM-erlich-1960-bukharin-balanced-growth`, `CLM-cohen-1973-bukharin-organizational-defeat` |
+| `MTG-1927-12-15th-party-congress` | `mandated` | 1927.12 | 联共（布）十五大通过关于编制第一个五年计划的指示并宣示扩大农业集体化方向 | `MTG-1927-12-15th-party-congress` |
+| `MTG-1929-04-cc-joint-plenum` | `ratified-strategy` | 1929.04.16–23 | 四月中央联席全会击败右倾；最高方案由4月23–29日第十六次党代表会议通过，5月第五次全苏苏维埃代表大会批准 | `CLM-khlevniuk-2015-defeat-of-right-opposition` |
+| `PER-bukharin` | `defeated-alternative` | 1928–1929 | 主张工农市场结合（смычка）与兼顾消费平衡的渐进工业化方案，被最高方案与非常措施排挤 | `CLM-erlich-1960-bukharin-balanced-growth`, `CLM-cohen-1973-bukharin-organizational-defeat` |
 | `PER-stalin` | `imposed-escalation` | 1928–1929 | 以书记处、社论与电报否决温和草案，推动指标跃升 | `CLM-stalin-docs-1920s-secretariat-correspondence-and-grain-turn` |
 | `EVT-1928-grain-procurement-crisis` | `political-precipitant` | 1928.01–1929 | 征粮危机证明市场协调整合失败论，为超速方案铺路 | `CLM-carr-davies-1969-grain-price-scissor-1927`, `CLM-nove-1964-stalin-necessity-dilemma` |
 | `EVT-1929-great-turn-and-dekulakization-launch` | `accelerated-into` | 1929.07–12 | 已批五年计划在实践中被再次抬高，通向全盘集体化 | `CLM-davies-1980-autumn-1929-great-turn-fabrication` |
@@ -39,14 +39,14 @@
 - **经验共识**：1929年4–5月苏联批准第一个五年计划 **最高方案**；指标显著高于前一年草案；1929年下半年集体化与工业指标再度加码；与布哈林失败及新经济政策终结同年发生。
 - **主要解释分歧**（详参 `DEB-1928-bukharin-alternative`, `DEB-1929-collectivization-and-dekulakization-causes`）：
   - **[“过量转弯”与国防恐吓论 / Alexander Erlich]** (`CLM-erlich-1960-stalin-overkill-turn`, `CLM-erlich-1960-bukharin-balanced-growth`)：最高方案投资率远超可行边界；若把斯大林战争恐吓当字面，计划近乎“恐惧死亡引发的自杀”。
-  - **[档案计量史学 / R. W. Davies, E. H. Carr]** (`CLM-davies-1980-autumn-1929-great-turn-fabrication`, `CLM-carr-davies-1969-grain-price-scissor-1927`, `CLM-carr-1954-scissors-crisis-mechanics`)：强调控制数字编制、信贷与价格政策的衔接失灵；1929年秋统计“混乱矛盾”，反映竞赛政治而非纯粹理性计划。
+  - **[档案计量史学 / R. W. Davies, E. H. Carr]** (`CLM-davies-1980-autumn-1929-great-turn-fabrication`, `CLM-davies-1980-november-plenum-to-dekulakization`, `CLM-carr-davies-1969-grain-price-scissor-1927`)：强调控制数字编制、信贷与价格政策的衔接失灵；1929年秋统计“混乱矛盾”，反映竞赛政治而非纯粹理性计划。
   - **[修正派政治传记 / Stephen Cohen, Moshe Lewin]** (`CLM-cohen-1973-bukharin-organizational-defeat`, `CLM-nove-1964-stalin-necessity-dilemma`)：1929年春布哈林路线仍具经济合理性，失败是书记处权力与非常措施而非技术必然。
   - **[车间社会史 / Donald Filtzer]** (`CLM-filtzer-1986-1929-tomsky-purge-and-shock-work`, `CLM-filtzer-1986-atomized-worker-control-over-labor-process`)：计划批准后即伴随突击工、定额加码与高流动率，工人以离职谈判抵抗——宏观指标有微观妥协成本。
 
 ## 2. 一跳邻域等权重微摘要 (共 1 个关联节点，严防大卡霸占上下文)
 ### 邻居节点: `INS-vsnkh-and-gosplan`
 - **时效关系边** (`INS-vsnkh-and-gosplan` → `POL-first-five-year-plan` | `drafted-optimal-variant` | 有效时段: `1927-1929`): 古比雪夫主持的最高国民经济委员会与国家计委目的论派击败发生学派，推动1929年春季通过一五计划最高方案并在下半年失控加码。
-- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 苏维埃俄国经济指挥双中枢：1917年12月设立最高国民经济委员会（VSNKh）统辖国有化工业，内战期形成垂直“总局主义”；1921年2月设立国家计划委员会（Gosplan）创制年度“控制数字”，1927–1929年VSNKh（古比雪夫）与Gosplan目的论派（斯特鲁米林）联手以高指标一五计划压倒发生学派。
+- **节点定性微摘要 [T1]** (完备度 `draft`): 苏维埃俄国经济指挥双中枢：1917年12月设立最高国民经济委员会（VSNKh）统辖国有化工业，内战期形成垂直“总局主义”；1921年2月设立国家计划委员会（Gosplan）创制年度“控制数字”，1927–1929年VSNKh（古比雪夫）与Gosplan目的论派（斯特鲁米林）联手以高指标一五计划压倒发生学派。
 
 ## 3. 关联史学争鸣光谱 (Historiographical Debates)
 ### `DEB-1928-bukharin-alternative`：“布哈林替代方案”与新经济政策终结之争（1928–1929）
@@ -69,7 +69,7 @@
 
 ## [T2] 各学派立场对照矩阵
 
-**经验共识**：1927冬—1928春出现严重粮食收购危机；1928年1月西伯利亚“非常措施”与乌里-西伯利亚方法将行政强制包装为村社压力（`POL-ural-siberian-method`）；1929年4月与11月中央全会后集体化指标急剧跃升；1929年12月通过关于富农政策措施，公开的阶级清洗话语制度化。
+**经验共识**：1927冬—1928春出现严重粮食收购危机；1928年1月西伯利亚“非常措施”与乌拉尔-西伯利亚方法将行政强制包装为村社压力（`POL-ural-siberian-method`）；1929年4月与11月中央全会后集体化指标急剧跃升；1929年12月通过关于富农政策措施，公开的阶级清洗话语制度化。
 
 | 学派/取向 | 代表学者与著作 | 核心论点摘要 | 支撑论断卡 | 主要受批评盲点 |
 | :--- | :--- | :--- | :--- | :--- |

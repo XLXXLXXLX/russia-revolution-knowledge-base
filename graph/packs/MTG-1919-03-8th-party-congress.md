@@ -40,8 +40,11 @@
   - **[批判性红军社会史 / A. Smirnov 等]**：八大反“堡垒主义”话语长期影响1920年代纪律松弛与反队列主义文化，伏龙芝1924年改革须与此遗产斗争（`CLM-smirnov-1920s-territorial-militia-and-combat-training-deficit` 引八大军事反对派立场）。
   - **[战时共产主义争论]**：第二党纲究竟将征粮体系 **理念化** 还是 **应急合法化**，见 `DEB-1918-war-communism-ideology-vs-emergency`；八大农村“联合中农”措辞不能简单读成对 NEP 的预叙，应置于1921年实物税转向前史。
 
-## 2. 一跳邻域等权重微摘要 (共 0 个关联节点，严防大卡霸占上下文)
-- _当前 `graph/edges.jsonl` 中尚无关联边。_
+## 2. 一跳邻域等权重微摘要 (共 1 个关联节点，严防大卡霸占上下文)
+### 邻居节点: `INS-politburo-orgburo-secretariat`
+- **时效关系边** (`MTG-1919-03-8th-party-congress` → `INS-politburo-orgburo-secretariat` | `institutionalized` | 有效时段: `1919.03`): 因斯维尔德洛夫病逝，俄共八大正式决议在中央委员会下分设常设政治局、组织局与书记处，奠定党国权力中枢架构。
+- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 1919年俄共八大因斯维尔德洛夫骤逝常设分置政治局（决策）、组织局（行政）与书记处（人事）。1922年4月斯大林任总书记后，借议程控制、秘密分发网、一致对外纪律及名册任免权（Номенклатура），于1923–1929年瓦解寡头共治，先后击败托洛茨基、季诺维也夫与布哈林。
+
 ## 3. 关联史学争鸣光谱 (Historiographical Debates)
 ### `DEB-1918-war-communism-ideology-vs-emergency`：战时共产主义本质之争：内战应急、乌托邦跃进还是国家统制连续？
 ## [T1] 核心问题定义
@@ -55,7 +58,7 @@
 | :--- | :--- | :--- | :--- | :--- |
 | **内战军事应急论** | E. H. Carr, *The Bolshevik Revolution, 1917–1923*; Evan Mawdsley, *The Russian Civil War* (1987) | Carr 按法令与机构演进追踪，强调崩溃、战线与物流使强制措施成为可行集合中的选项；Mawdsley 提供军需与行政区背景。 | `CLM-mawdsley-1987-civil-war-militarized-regime`（背景）；Carr（本库 `CLM-*` 待系统入库） | 单以战争不能解释每项选择的意识形态过滤器与党内争论。 |
 | **乌托邦跃进幻觉论** | Martin Malia, *The Soviet Tragedy* (1994); Richard Pipes, *The Russian Revolution* (1990) | Malia：马克思主义乌托邦内在悲剧，危机清除障碍使激进蓝图兑现；Pipes：反市场社会主义与废法专政逻辑先行。 | `CLM-pipes-1990-red-terror-leninist-logic`（交叉） | 易由结果倒推单一意图时间表；Malia 长时段，Pipes 偏重1917–18起点。 |
-| **战时国家统制连续论** | Lars T. Lih, *Lenin Rediscovered* 系列；S. A. Smith, *Red Petrograd* (1983) 及工人监督研究 | Lih：布尔什维克一贯谈“过渡”与俄国现实，战后共产主义标签是后设；“新经济政策醒悟论”简化了当时选项集。Smith：1917–18工人监督与国有化是社会冲突中的务实演化。 | `CLM-lih-2006-textbook-myth-critique`, `CLM-smith-sa-1983-workers-control-pragmatism`, `CLM-smith-sa-1983-from-workers-control-to-nationalization`, `CLM-smith-sa-1983-factory-committees-vs-trade-unions` | 连续论须与1921年公开承认“过度”文献对读。 |
+| **战时国家统制连续论** | Lars T. Lih, *Lenin Rediscovered* 系列；S. A. Smith, *Red Petrograd* (1983) 及工人监督研究 | Lih：布尔什维克一贯谈“过渡”与俄国现实，战后共产主义标签是后设；“新经济政策醒悟论”简化了当时选项集。Smith：1917–18工人监督与国有化是社会冲突中的务实演化。 | `CLM-lih-2006-textbook-myth-critique`, `CLM-smith-sa-1983-defensive-workers-control`, `CLM-smith-1983-workers-control-pragmatism`, `CLM-smith-sa-1983-from-workers-control-to-nationalization`, `CLM-smith-sa-1983-factory-committees-vs-trade-unions` | 连续论须与1921年公开承认“过度”文献对读。 |
 | **社会结构与退却论** | Moshe Lewin, *The Making of the Soviet System* (1985); *Russian Peasants and Soviet Power* (1968) | 农民反抗、战时村社战争与喀琅施塔得信号促成1921退却；区分危机与“农民社会”结构的钳制。 | `CLM-lewin-peasants-1968-grain-procurement-crisis` | 农村 violence 与首都决策链连接待档案深化。 |
 
 ### `DEB-1918-red-terror-and-civil-war-origins`：红色恐怖、契卡扩张与内战期一党专政起源之争（1918–1921）
@@ -64,7 +67,7 @@
 
 ## [T2] 各学派立场对照矩阵
 
-**经验共识**：1917年12月契卡（全俄肃反委员会）成立；1918年7月左派社会革命党起义后左翼社会主义者被逐出权力结构；1918年9月5日[O.S.]人民委员会颁布《关于红色恐怖》决议；内战1918–1920在多条战线同时进行；1918–1921征粮与契卡行动在地方相互嵌合。
+**经验共识**：1917年12月契卡（全俄肃反委员会）成立；1918年7月左派社会革命党起义后左翼社会主义者被逐出权力结构；1918年9月5日人民委员会颁布《关于红色恐怖》决议；内战1918–1920在多条战线同时进行；1918–1921征粮与契卡行动在地方相互嵌合。
 
 | 学派/取向 | 代表学者与著作 | 核心论点摘要 | 支撑论断卡 | 主要受批评盲点 |
 | :--- | :--- | :--- | :--- | :--- |

@@ -18,31 +18,35 @@
 
 ### 2.1 核心历史脉络
 - **起源与古利亚伊波列公社集群（1918）**：中央拉达与德奥占领撤走后，涅斯托尔·马赫诺（Nestor Makhno）在**古利亚伊波列（Huliaipole）**组织雇农与贫农夺取地主庄园，建立地方苏维埃与集体农庄实验，拒斥“都市政治病毒”却仍自称苏维埃框架（Hobsbawm 附录；Mawdsley 南俄战线）。这一时期运动亦称 **Махновщина**。
-- **黑军、тачанка 与三方回旋（1918–1920）**：起义军改编为 **革命起义军（РПАУ，“黑军”）**，以马匹拖拽机枪车的 **тачанка** 实现江淮平原高机动突袭。`1918–1919` 与红军合作对抗德意志方面的乌克兰独立军与白军；邓尼金1919年进攻时马赫诺反复撕开其后方，迫邓尼金抽调精锐（`CLM-mawdsley-1987-white-movement-structural-defeat`）。`1920` 曾与弗兰格尔结盟打击红军，旋即再与红军签约对付弗兰格尔，协议破裂后遭图哈切夫斯基两面夹击。
+- **黑军、тачанка 与三方回旋（1918–1920）**：起义军改编为 **乌克兰革命起义军（РПАУ，“黑军”）**，以马匹拖拽机枪车的 **тачанка（机枪马车）** 在乌克兰东南部第聂伯河左岸黑土草原实现高机动突袭。`1918–1919` 先后抗击德奥占领军、彼得留拉督政府与白军；1919年秋邓尼金进逼莫斯科最危急时刻，马赫诺突破白军后方防线连克梅利托波尔、别尔江斯克、叶卡捷琳诺斯拉夫，迫使邓尼金抽调前线精锐回援（`CLM-mawdsley-1987-white-movement-structural-defeat`）。`1920` 年夏马赫诺断然拒绝并处决弗兰格尔派来的求盟使者，于同年 10 月与红军签订《斯塔罗别利斯克政治与军事协定》结盟，派主力协同红军强渡锡瓦什海湾攻克克里米亚击败弗兰格尔；11 月下旬克里米亚战事甫定，红军南方面军司令 **伏龙芝（M. V. Frunze）** 即下令背盟围剿黑军。
 - **“要苏维埃，不要共产党人”与终结（1920–1921）**：口号反映对苏维埃机构形式与布尔什维克一党专政的区分（对比 `CLM-avrich-1970-soviets-without-bolsheviks` 论喀琅施塔得口实差异）。`1921` 年夏红军仆从战线恢复粮食征发与契卡镇压，黑军在罗马尼亚边境覆灭，马赫诺流亡巴黎（`1921-08` 前后）。
 
 ### 2.2 时效关系摘要边表（Typed & Temporalized Edges）
 | 关联节点 ID | 关系类型 | 有效时段 | 一句话关系实质摘要（防 N+1 盲跳） | 核心依据/争鸣 |
 | :--- | :--- | :--- | :--- | :--- |
-| `EVT-1918-1920-russian-civil-war` | `regional-belligerent` | 1918–1921 |  South Ukraine 独立武装同时对抗白军、外军与红军征粮机器 | `CLM-mawdsley-1987-civil-war-militarized-regime` |
-| `EVT-1920-1921-tambov-and-peasant-revolts` | `parallel-peasant-war` | 1920–1921 | 与坦波夫等农民抗征构成农民战争弧，但无政府主义组织形式更具货架外特征 | `CLM-hobsbawm-1959-archaic-peasant-rebellion-vs-modern-party` |
+| `EVT-1918-1920-russian-civil-war` | `regional-belligerent` | 1918–1921 | 南乌克兰独立武装同时对抗白军、外军与红军征粮机器 | `CLM-mawdsley-1987-civil-war-militarized-regime` |
+| `EVT-1920-1921-tambov-and-peasant-revolts` | `parallel-peasant-war` | 1920–1921 | 与坦波夫等农民抗征构成反战时共产主义农民战争弧，但以无政府共产主义公社与自由苏维埃为独特纲领标志 | `CLM-hobsbawm-1959-archaic-peasant-rebellion-vs-modern-party` |
 | `POL-war-communism` | `resisted` | 1919–1921 | 拒斥余粮收集制与契卡恐怖，迫使红军暂与叛军妥协 | Mawdsley; Hobsbawm |
 | `ORG-cheka-ogpu` | `repressed` | 1920–1921 | 与红军协同后翻脸，契卡系统清剿南俄无政府据点 | `CLM-leggett-1981-red-terror-institutionalization` |
-| `PER-frunze` | `final-campaign-commander` | 1920–1921 | 南线红军的决策者与马赫诺覆灭战役组织端 | Mawdsley ch.16–19 |
+| `PER-frunze` | `final-campaign-commander` | 1920–1921 | 红军南方面军司令伏龙芝于克里米亚战役后下令围剿黑军 | `sources/monographs/mawdsley_1987_civil_war_zh/` ch15–ch16 |
 | `CON-soviet` | `reclaimed-signifier` | 1918–1921 | 以“自由苏维埃”反设布尔什维克党中央苏维埃模式 | Avrich; Hobsbawm |
 
 ### 2.3 史学争鸣光谱（Historiographical Spectrum）
-- **经验共识**：1918–1921年南俄存在以马赫诺为核心的较大规模农民—雇农武装；多次与红军结盟又决裂；1921年被消灭；采用高度机动的 taчанka 战术与地方苏维埃自治实验。
+- **经验共识**：1918–1921年南俄存在以马赫诺为核心的较大规模农民—雇农武装；多次与红军结盟又决裂；1921年被消灭；采用高度机动的 тачанка（tachanka，机枪马车）战术与地方自由苏维埃自治实验。
 - **主要解释分歧**：
   - **[白军结构性失败论中的马赫诺变量 / Evan Mawdsley]** (`CLM-mawdsley-1987-white-movement-structural-defeat`, `CLM-mawdsley-1987-civil-war-militarized-regime`)：马赫诺对邓尼金后方补给线的打击是1919年白军失败关键因素之一；同时强调红军最终凭劳动力与政治组织优势再造国家机器。
   - **[“前政治”农民反叛 vs 先锋党 / Eric Hobsbawm]** (`CLM-hobsbawm-1959-archaic-peasant-rebellion-vs-modern-party`)：马赫诺运动是原始农民社会反叛与现代革命政党冲突的典型案例，注定败于有纪律政治组织——理论框架强势，需与乌克兰地方社会史材料对勘以免过度类型化。
   - **[无政府主义与苏维埃口号策略 / Paul Avrich]** (`CLM-avrich-1970-soviets-without-bolsheviks`)：“要苏维埃不要共产党人”口号在南俄与西伯利亚农民起义中出现，与喀琅施塔得水兵口号源流不同，须分语境。
   - **[苏联正统“匪帮化”叙事]**：官方史学将马赫诺定性为富农–土匪联盟，80–90年代后档案研究强调征粮、自卫与民族—土地复合动因（本地 `sources/monographs/mawdsley_1987_civil_war/` 与乌克兰社会史待深化）。
 
-## 2. 一跳邻域等权重微摘要 (共 1 个关联节点，严防大卡霸占上下文)
+## 2. 一跳邻域等权重微摘要 (共 2 个关联节点，严防大卡霸占上下文)
 ### 邻居节点: `EVT-1918-1920-russian-civil-war`
 - **时效关系边** (`ORG-makhnovshchina` → `EVT-1918-1920-russian-civil-war` | `black-army-swing-force` | 有效时段: `1918-1921`): 以机枪马车高机动游击战重创邓尼金战略后方并助红军攻克克里米亚，旋即遭苏维埃政权清剿覆灭。
 - **节点定性微摘要 [T1]** (完备度 `draft`): 1918–1920年苏俄内战：布尔什维克依托“苏托邦”人口、军火与莫斯科铁路枢纽内线机动，先后粉碎高尔察克、邓尼金、弗兰格尔白军及马赫诺黑军，并压制社革党第三力量；协约国干涉与边疆民族武装相互牵制。
+
+### 邻居节点: `PER-makhno`
+- **时效关系边** (`PER-makhno` → `ORG-makhnovshchina` | `founder-commander` | 有效时段: `1918-1921`): 在乌克兰东南部创立无政府共产主义农民起义军，三度与红军结盟重创邓尼金与弗兰格尔白军后遭苏维埃政权消灭。
+- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 乌克兰古利亚伊波列无政府共产主义农民统帅（1888–1934）。创建“革命起义军（黑军）”与自由苏维埃实验；内战中三度与红军结盟，1919年秋重创邓尼金后方，1920年11月强渡锡瓦什海湾助歼弗兰格尔，随即遭红军全面围剿，1921年越境流亡并客居巴黎。
 
 ## 3. 关联史学争鸣光谱 (Historiographical Debates)
 ### `DEB-1918-war-communism-ideology-or-emergency`：战时共产主义与一党制起源：意识形态、紧急状态还是混合驱动？

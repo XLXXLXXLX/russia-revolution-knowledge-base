@@ -4,10 +4,11 @@
 
 ## 0. 认知完备度与反偏斜仪表盘 (Epistemic & Skew Warnings)
 - **主卡路径**: `cards/events/EVT-1929-great-turn-and-dekulakization-launch.md`
-- **完备度等级**: `multi-perspective`
+- **完备度等级**: `draft`
 - **已覆盖视角**: `archival-quantitative, revisionist-political, peasant-social, soviet-official-narrative`
 - **待补齐视角**: `kulak-family-microhistory`
 - **偏斜风险提示**:
+  - ⚠️ 主卡当前完备度为 `draft`，尚未达到多源交叉核实定稿状态。
   - ⚠️ 主卡显式声明尚缺以下视角待补: `kulak-family-microhistory`。
 
 ## 1. 主卡核心层 ([T1] + [T2])
@@ -17,25 +18,26 @@
 ## [T2] 核心脉络、时效关系边表与史学争鸣光谱
 
 ### 2.1 核心历史脉络
-- **指标抬高与地方竞赛（1929.06–10）**：春季五年计划仍预测集体农庄缓慢增长（约至1933年370万户）；至 `1929-10-01` 全国入庄约190万户（7.5%）。`1929-08` Gosplan 将次年集体化播种 **从800万公顷抬至1300万**；下伏尔加 **霍皮奥尔专区（Khoper okrug）** 等地出现“全盘集体化区”行政竞速实验，数字口径严重失真（`CLM-davies-1980-autumn-1929-great-turn-fabrication`）。
-- **《大转变的一年》与十一月全会终局（1929.11.07–17）**：斯大林11月7日在《真理报》宣称中农已整村整区涌入集体农庄；`1929-11-10` 至 `17` 联共（布）中央全会正式将布哈林逐出政治局、对李可夫和托姆斯基发出最后警告，听取莫洛托夫与卡冈诺维奇集体化报告，决定于12月7日设全苏农业人民委员部并动员27,519名“二万五千人”工人下乡（`CLM-tragedy-village-1929-november-plenum-escalation`、`CLM-khlevniuk-2015-defeat-of-right-opposition`）。
-- **雅科夫列夫委员会删改链与“把富农作为阶级消灭”（1929.12.05–27）**：`1929-12-05` 政治局设立雅科夫列夫委员会拟定集体化速度与富农处置方案；12月18日委员会一致草案原本保留奶牛/小农具私有与分化考察条款，但 `1929-12-25` 斯大林致信莫洛托夫严词否决温和保留，并于 `1929-12-27` 在马克思主义土地学家会议上公开宣告从限制排挤富农转向 **“把富农作为阶级消灭”**（`CLM-tragedy-village-1929-politburo-dekulakization-commission`、`CLM-davies-1980-november-plenum-to-dekulakization`）。与此同时，OGPU 岁末绝密报告显示全苏农村已爆发恐慌性屠宰牲畜、富农“自我去富农化”逃往城市与打出支持布哈林口号的群体抗议（`CLM-tragedy-village-1929-peasant-self-liquidation-and-flight`）。
+- **指标抬高与地方竞赛（1929.06–10）**：春季五年计划仍预测集体农庄缓慢增长（约至1933年春370万户）；至 `1929-10-01` 全国入庄约190万户（7.5%）。`1929-07` 草案拟1930年集体农庄播种800万公顷，`1929-08` Gosplan 控制数字升至 **1,300万公顷**；下伏尔加边疆区 **霍皮奥尔专区（即论断卡所记之 Khoper 区）** 等地出现“全盘集体化区”行政竞速实验，数字口径严重失真（`CLM-davies-1980-autumn-1929-great-turn-fabrication`）。
+- **《大转变的一年》与十一月全会终局（1929.11.07–17）**：斯大林11月7日在《真理报》宣称中农已整村整区涌入集体农庄；`1929-11-10` 至 `17` 联共（布）中央全会正式将布哈林逐出政治局、对李可夫和托姆斯基发出最后警告，听取莫洛托夫与卡冈诺维奇集体化报告，决定于12月7日设全苏农业人民委员部并动员 **27,519名**“二万五千人”工人下乡（`CLM-tragedy-village-1929-november-plenum-escalation`、`CLM-khlevniuk-2015-defeat-of-right-opposition`）。
+- **雅科夫列夫委员会删改链与“把富农作为阶级消灭”（1929.12.05–27）**：`1929-12-05` 政治局设立雅科夫列夫委员会拟定集体化速度与富农处置方案；12月11日俄联邦春播集体面积由1,500万公顷改为2,400万公顷（**增加60%，非翻倍**）；12月18日委员会一致草案原本保留奶牛、小农具私有与退社等条款，但 `1929-12-25` 斯大林致信莫洛托夫严词否决温和保留，并于 `1929-12-27` 在马克思主义土地学家会议上公开宣告从限制排挤富农转向 **“把富农作为阶级消灭”**（`CLM-tragedy-village-1929-politburo-dekulakization-commission`、`CLM-davies-1980-november-plenum-to-dekulakization`）。与此同时，OGPU 岁末绝密报告显示全苏农村已爆发恐慌性屠宰牲畜、富农“自我去富农化”逃往城市与打出支持布哈林口号的群体抗议（`CLM-tragedy-village-1929-peasant-self-liquidation-and-flight`）。
 
 ### 2.2 时效关系摘要边表
 | 关联节点 ID | 关系类型 | 有效时段 | 一句话关系实质摘要 | 核心依据/争鸣 |
 | :--- | :--- | :--- | :--- | :--- |
 | `PER-stalin` | `orchestrated` | 1929.07–12 | 指标跃升、社论动员与12.27阶级消灭令。 | `CLM-davies-1980-autumn-1929-great-turn-fabrication` |
 | `PER-bukharin` | `defeated` | 1929.11 | 十一月全会后丧失政治发言权，NEP 路线终结。 | `CLM-cohen-1973-bukharin-organizational-defeat` |
-| `PER-molotov` | `executed` | 1929.08–12 | 书记处推动地方非常措施与社论配套。 | `CLM-khlevniuk-2015-secretariat-and-nomenklatura` |
+| `PER-molotov` | `directed` | 1929.08–12 | 书记处推动地方非常措施与社论配套。 | `CLM-khlevniuk-2015-secretariat-and-nomenklatura` |
 | `EVT-1928-grain-procurement-crisis` | `causal_chain` | 1928–1929 | 非常征粮逻辑延伸至全盘集体化。 | `CLM-lewin-peasants-1968-grain-procurement-crisis` |
 | `INS-vsnkh-and-gosplan` | `raised_targets` | 1929.08 | Gosplan 集体化控制数字急升。 | 制度卡；Davies |
 | `POL-nep` | `superseded` | 1929.11–12 | 大转变在意识形态与行政上宣告 NEP 退场。 | `DEB-1928-bukharin-alternative` |
 
 ### 2.3 史学争鸣光谱
-- **经验共识**：1929秋集体化指标与社论显著高于 spring 计划；11月全会击败右派；12.27 讲话标志 dekulakization 政策语言确立。
+- **经验共识**：1929秋集体化指标与社论显著高于春季计划；11月全会击败右派；12.27 讲话标志去富农化（消灭富农阶级）政策语言确立。
 - **Davies（定量—档案）**：数字“混乱矛盾”，确有跃进亦有不实登记，但 **非证明斯大林凭空捏造全部统计**（`CLM-davies-1980-autumn-1929-great-turn-fabrication`、`CLM-davies-1980-november-plenum-to-dekulakization`）。
-- **Cohen/Lewin（修正派）**：布哈林替代方案在1929仍具经济合理性，失败是组织压制而非必然（`CLM-cohen-1973-nep-viability`、`CLM-lewin-peasants-1968-ural-siberian-method`）。
-- **Khlevniuk（后苏联档案）**：书记处与全代会机制使斯大林在1929侵蚀集体领导（`CLM-khlevniuk-2015-collective-leadership-erosion`、`CLM-khlevniuk-2015-defeat-of-right-opposition`）。
+- **Cohen（布哈林替代道路论）**：布哈林的均衡发展替代方案在1929年仍具经济合理性，其失败源于党内组织压制而非经济必然（`CLM-cohen-1973-nep-viability`）。
+- **Lewin（农民社会史）**：“乌拉尔—西伯利亚方法”已将中农卷入强制征粮，1929年集体化跃进系同一社会强制螺旋的延续（`CLM-lewin-peasants-1968-ural-siberian-method`）。
+- **Khlevniuk（后苏联档案）**：书记处与中央全会机制使斯大林在1929侵蚀集体领导（`CLM-khlevniuk-2015-collective-leadership-erosion`、`CLM-khlevniuk-2015-defeat-of-right-opposition`）。
 - **《苏联农村悲剧》第二卷（Viola et al.）**：1930执行期暴力、地方变异与农民抵抗——延伸本卡决策之后果链（本卡 T3 索引，无独立 CLM 时标 B/A 级）。
 
 ## 2. 一跳邻域等权重微摘要 (共 1 个关联节点，严防大卡霸占上下文)
@@ -64,7 +66,7 @@
 
 ## [T2] 各学派立场对照矩阵
 
-**经验共识**：1927冬—1928春出现严重粮食收购危机；1928年1月西伯利亚“非常措施”与乌里-西伯利亚方法将行政强制包装为村社压力（`POL-ural-siberian-method`）；1929年4月与11月中央全会后集体化指标急剧跃升；1929年12月通过关于富农政策措施，公开的阶级清洗话语制度化。
+**经验共识**：1927冬—1928春出现严重粮食收购危机；1928年1月西伯利亚“非常措施”与乌拉尔-西伯利亚方法将行政强制包装为村社压力（`POL-ural-siberian-method`）；1929年4月与11月中央全会后集体化指标急剧跃升；1929年12月通过关于富农政策措施，公开的阶级清洗话语制度化。
 
 | 学派/取向 | 代表学者与著作 | 核心论点摘要 | 支撑论断卡 | 主要受批评盲点 |
 | :--- | :--- | :--- | :--- | :--- |
@@ -73,4 +75,10 @@
 | **外部备战焦虑与意识形态死结论** | Stephen Kotkin, *Stalin*, vol. 1 (2014); David R. Shearer（警察国家与工业化）；Lynne Viola 等集体化执行史 | Kotkin：新经济政策在经济成功时亦在布尔什维克阶级政治上自我失败；1928斯大林个人决断打开全盘集体化概率。Shearer/Velikanova 补充高压执行与恐慌政治。 | `CLM-kotkin-2014-siberian-grain-turn`, `CLM-kotkin-2014-bukharin-dilemma`, `CLM-kotkin-2014-geopolitics-and-ideology`, `CLM-velikanova-2013-war-scare-hoarding-and-grain-crisis`, `CLM-velikanova-2013-leadership-manipulation-and-self-deception` | Kotkin 第1卷止1928底；1929全会细节待续卷与速记。 |
 | **结构与投资缺口论** | Alexander Erlich (1960); Oleg Khlevniuk (2015) | Erlich：论战各方1924–28均未预设暴力全盘集体化，但工业投资瓶颈真实。Khlevniuk：政治局体制与新经济政策“死胡同”从组织面解释布哈林集团迅速溃败。 | `CLM-erlich-1960-preobrazhensky-dilemma`, `CLM-erlich-1960-stalin-overkill-turn`, `CLM-khlevniuk-2015-secretariat-and-nomenklatura` | 结构制约论易被误读为取消领袖能动性或农民抵抗作用。 |
 
-## 4. 关联时间线锚点 (共 0 条)
+## 4. 关联时间线锚点 (共 6 条)
+- **1929-11-07 [N.S.]** (`TL-W26-1929-11-07-01`, L3): **斯大林发表《大转变的一年》** — 《真理报》刊 Stalin 名篇，宣称中农成批加入集体农庄并以乐观控制数字为1930年商品粮定调，为十一月全会设下意识形态基调。
+- **1929-11-24 [N.S.]** (`TL-W26-1929-11-24-01`, L3): **下伏尔加联席会议宣告全面集体化竞速** — 谢博尔达耶夫—里斯库洛夫模式：11月24—25日联席会议斥责谨慎派，将下伏尔加及若干专区推入数月内完成登记的全面集体化竞赛。
+- **1929-12-05 [N.S.]** (`TL-W26-1929-12-05-01`, L3): **政治局设立雅科夫列夫18人集体化委员会** — 政治局第108号会议决定成立雅科夫列夫任主席的18人委员会，14日内提交集体化速度与富农政策决议，设八个分委会含鲍曼富农小组。
+- **1929-12-25 [N.S.]** (`TL-W26-1929-12-25-01`, L3): **斯大林否决雅科夫列夫委员会草案** — 斯大林致信休假中莫洛托夫称雅科夫列夫委员会草案“不合适”；同日财政部统计显示全苏秋至12月25日粮食收购达上年同期2.15倍，OGPU报告屠畜潮与农村抗议。
+- **1929-12-27 [N.S.]** (`TL-W26-1929-12-27-01`, L3): **斯大林宣告“把富农作为阶级消灭”** — 马克思主义土地学家代表会议上斯大林公开从限制富农转向消灭富农阶级，触发地方与OGPU抢跑没收驱逐。
+- **1930-01-05 [N.S.]** (`TL-W26-1930-01-05-01`, L3): **政治局通过删光保护条款的集体化与消灭富农最终决议** — 政治局第112号会议决议把主产粮区期限压至1930秋或1931春，删除奶牛私有、退社权与富农考察入社口子，写明不允许富农入社——本库1861—1929收官指令锚点。

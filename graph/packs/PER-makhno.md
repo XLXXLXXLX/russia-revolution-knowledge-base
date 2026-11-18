@@ -79,9 +79,9 @@
 ## [T2] 各学派立场对照矩阵
 | 学派/取向 | 代表学者与著作 | 核心论点摘要 | 支撑论断卡 | 主要受批评盲点 |
 | :--- | :--- | :--- | :--- | :--- |
-| 社会史与反阴谋论 | Paul Avrich, *Kronstadt, 1921* (1970) | 水兵构成有变化但老兵仍领导起义；诉求为去除单党垄断的劳动者苏维埃，证据不支持流亡白卫事先操纵。 | `CLM-avrich-1970-sailor-social-composition`; `CLM-avrich-1970-soviets-without-bolsheviks`; `CLM-avrich-1970-white-plot-refutation` | 起义者内部差异及苏联海军档案仍需核验；事后外援不能证明事前策划。 |
-| 政治组织史 | Robert V. Daniels, *The Conscience of the Revolution* (1960) | 十大对派别的限制形成组织史转折，改变此后反对派活动条件。 | `CLM-daniels-1960-tenth-congress-turning-point` | 党内规则并不单独解释农村经济或全部镇压机制。 |
-| 农村社会史 | Orlando Figes, *A People's Tragedy* (1996) | 1920—1921年农村反征粮战争对经济退却形成重大压力；不能把坦波夫口号无条件套给喀琅施塔得。 | `CLM-figes-1996-peasant-wars-and-nep-retreat` | 农民运动地区差异与领导人内部决策仍需细化。 |
-| 苏维埃官方／布尔什维克当事人 | 1921年政府指控与十大材料 | 指称反革命及外部干预风险，主张统一和武装镇压；这是当时政治立场，非已证实的阴谋事实。 | `CLM-avrich-1970-white-plot-refutation`; `CLM-daniels-1960-tenth-congress-turning-point` | 需区分真实外援企图、起义起源及事后宣传。 |
+| 社会史与反阴谋论 | Paul Avrich, *Kronstadt, 1921* (1970) | 水兵构成有变化但老兵仍领导起义；诉求为去除单党垄断的多左翼劳动者苏维埃，证据不支持流亡白卫事先操纵，也未提出米留可夫伪造的“不要共产党人的苏维埃”口号。 | `CLM-avrich-1970-sailor-social-composition`; `CLM-avrich-1970-soviets-without-bolsheviks`; `CLM-avrich-1970-white-plot-refutation` | 起义者内部差异及后苏联解密海军档案仍需补充。 |
+| 党内组织史与国家—社会契约论 | Robert V. Daniels (1960); Lewis Siegelbaum (1992) | 十大《关于党的统一》（含秘密第7条）构成布尔什维克组织史决定性转折；1921年新政实质是“放开经济市民社会空间，同时彻底封闭党内外政治异议空间”。 | `CLM-daniels-1960-tenth-congress-turning-point`; `CLM-siegelbaum-1992-nep-fragile-social-compromise`; `CLM-carr-1952-nep-retreat-and-commanding-heights` | 党内规则与宏观契约仍需结合外省微距失控过程。 |
+| 农村反征粮战争与外省地方史 | Orlando Figes (1996); Donald J. Raleigh (2001) | 1920—1921年坦波夫、西西伯利亚农村战争与萨拉托夫“地方喀琅施塔得”工潮早于水兵起义撼动政权根基，迫使列宁在2月上旬先行酝酿粮食税退却。 | `CLM-figes-1996-peasant-wars-and-nep-retreat`; `CLM-raleigh-2001-center-periphery-weak-state-nep` | 农民起义口号不可无差别套用于喀琅施塔得水兵。 |
+| 苏维埃官方／布尔什维克当事人 | 1921年政府通告与十大材料 | 指称白卫反革命及冰融后外国干涉风险，主张铁血镇压与党内绝对统一；属当时政权危机认知与宣传，非已证实的事前阴谋事实。 | `CLM-avrich-1970-white-plot-refutation` | 混淆事后白卫侨民募款企图与水兵起义真实起源。 |
 
 ## 4. 关联时间线锚点 (共 0 条)

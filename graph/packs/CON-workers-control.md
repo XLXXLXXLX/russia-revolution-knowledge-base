@@ -86,7 +86,7 @@
 ## 3. 关联史学争鸣光谱 (Historiographical Debates)
 ### `DEB-1917-dual-power-and-february-origins`：二月革命起源与“双重政权”宪制形成之争（1917）
 ## [T1] 核心问题定义
-1917年2月彼得格勒政权更迭，究竟是自发性群众行动（妇女罢工—哗变链）几乎没有预定领导，还是由跨党派次精英网络与杜马—苏维埃宪制抉择共同塑形？随之而来的“双重政权”，应被理解为苏维埃对临时政府的有条件让步，还是自由派废除杜马法统后形成的结构性双弱与合法性赤字？
+1917年2月彼得格勒政权更迭，究竟是自发性群众行动（妇女罢工—哗变链）几乎没有预定领导，还是由跨党派次精英网络与杜马—苏维埃宪制抉择共同塑形？随之而来的“双重政权”，应被理解为苏维埃对临时政府的有条件让步，还是自由派拒绝向国家杜马负责、主张临时政府握有革命赋予的“全部权力”以切断杜马法统约束后形成的结构性双弱与合法性赤字？
 
 ## [T2] 各学派立场对照矩阵
 
@@ -95,7 +95,7 @@
 | 学派/取向 | 代表学者与著作 | 核心论点摘要 | 支撑论断卡 | 主要受批评盲点 |
 | :--- | :--- | :--- | :--- | :--- |
 | **次精英网络与社会史** | Tsuyoshi Hasegawa, *The February Revolution: Petrograd, 1917* (2018) | 约三千名跨党派基层积极分子在高层犹豫时引导罢工扩展；革命非“无人领导”，但领导分散在工厂—兵营网络。 | `CLM-hasegawa-2018-sub-elite-activists` | 偏重首都；对其他大城市自发性差异讨论有限。 |
-| **杜马—苏维埃宪制三角** | Hasegawa (同上); Dmitrii Gaida, *Liberal'naia Rossiia v 1914–1917 gg.* 等 | 杜马委员会先于苏维埃设立军事委员会；3月3日[O.S.]米留可夫废除《基本法》使临时政府失去杜马制衡，只能依赖分裂的苏维埃，构成“双弱”结构性双重政权。 | `CLM-hasegawa-2018-duma-committee-revision`, `CLM-hasegawa-2018-dual-power-origins`, `CLM-gaida-2003-liberals-in-february-1917`, `CLM-gaida-2003-progressive-bloc-dilemma` | 自由派能动性与群众压力孰轻孰重，各家权重不同。 |
+| **杜马—苏维埃宪制三角** | Hasegawa (同上); Dmitrii Gaida, *Liberal'naia Rossiia v 1914–1917 gg.* 等 | 杜马委员会先于苏维埃设立军事委员会；3月3日[O.S.]米留可夫拒绝临时政府向国家杜马负责、主张临时政府握有革命赋予的“全部权力”从而切断杜马法统约束，使临时政府失去杜马制衡，只能依赖分裂的苏维埃，构成“双弱”结构性双重政权。 | `CLM-hasegawa-2018-duma-committee-revision`, `CLM-hasegawa-2018-dual-power-origins`, `CLM-gaida-2003-liberals-in-february-1917`, `CLM-gaida-2003-progressive-bloc-dilemma` | 自由派能动性与群众压力孰轻孰重，各家权重不同。 |
 | **自由派尴尬的护国主义** | Gaida; James D. White, *The Russian Revolution, 1917–1921: A Short History* | 战时自由派要求“信任内阁”却拒担政权责任，二月接掌后战争承诺迅速引爆合法性危机（四月危机）。 | `CLM-gaida-2003-progressive-bloc-dilemma` | 短篇通史概括性强，首都以外质疑。 |
 | **亲历者：协定悲剧** | N. N. Sukhanov, *The Russian Revolution, 1917: A Personal Record* (1922) | 2月28日—3月2日谈判描绘苏维埃执委会以“只要临时政府做……就支持”有条件认可资产阶级内阁；强调社会主义者内部的妥协政治。 | `CLM-sukhanov-1922-dual-power-pact` | B级在场回忆录+政治阐释；须与3月3日全权决议对照。 |
 | **阶级分析双重政权** | Leon Trotsky, *History of the Russian Revolution* (1930–32) | 资产阶级临时政府与苏维埃代表两种阶级统治的并存，不可调和性决定革命将继续至十月。 | `CLM-trotsky-1930-dual-power-instability` | 事后理论化；不宜单独充当2月事件因果证据。 |
@@ -136,9 +136,9 @@
 ## [T2] 各学派立场对照矩阵
 | 学派/取向 | 代表学者与著作 | 核心论点摘要 | 支撑论断卡 | 主要受批评盲点 |
 | :--- | :--- | :--- | :--- | :--- |
-| 社会史与反阴谋论 | Paul Avrich, *Kronstadt, 1921* (1970) | 水兵构成有变化但老兵仍领导起义；诉求为去除单党垄断的劳动者苏维埃，证据不支持流亡白卫事先操纵。 | `CLM-avrich-1970-sailor-social-composition`; `CLM-avrich-1970-soviets-without-bolsheviks`; `CLM-avrich-1970-white-plot-refutation` | 起义者内部差异及苏联海军档案仍需核验；事后外援不能证明事前策划。 |
-| 政治组织史 | Robert V. Daniels, *The Conscience of the Revolution* (1960) | 十大对派别的限制形成组织史转折，改变此后反对派活动条件。 | `CLM-daniels-1960-tenth-congress-turning-point` | 党内规则并不单独解释农村经济或全部镇压机制。 |
-| 农村社会史 | Orlando Figes, *A People's Tragedy* (1996) | 1920—1921年农村反征粮战争对经济退却形成重大压力；不能把坦波夫口号无条件套给喀琅施塔得。 | `CLM-figes-1996-peasant-wars-and-nep-retreat` | 农民运动地区差异与领导人内部决策仍需细化。 |
-| 苏维埃官方／布尔什维克当事人 | 1921年政府指控与十大材料 | 指称反革命及外部干预风险，主张统一和武装镇压；这是当时政治立场，非已证实的阴谋事实。 | `CLM-avrich-1970-white-plot-refutation`; `CLM-daniels-1960-tenth-congress-turning-point` | 需区分真实外援企图、起义起源及事后宣传。 |
+| 社会史与反阴谋论 | Paul Avrich, *Kronstadt, 1921* (1970) | 水兵构成有变化但老兵仍领导起义；诉求为去除单党垄断的多左翼劳动者苏维埃，证据不支持流亡白卫事先操纵，也未提出米留可夫伪造的“不要共产党人的苏维埃”口号。 | `CLM-avrich-1970-sailor-social-composition`; `CLM-avrich-1970-soviets-without-bolsheviks`; `CLM-avrich-1970-white-plot-refutation` | 起义者内部差异及后苏联解密海军档案仍需补充。 |
+| 党内组织史与国家—社会契约论 | Robert V. Daniels (1960); Lewis Siegelbaum (1992) | 十大《关于党的统一》（含秘密第7条）构成布尔什维克组织史决定性转折；1921年新政实质是“放开经济市民社会空间，同时彻底封闭党内外政治异议空间”。 | `CLM-daniels-1960-tenth-congress-turning-point`; `CLM-siegelbaum-1992-nep-fragile-social-compromise`; `CLM-carr-1952-nep-retreat-and-commanding-heights` | 党内规则与宏观契约仍需结合外省微距失控过程。 |
+| 农村反征粮战争与外省地方史 | Orlando Figes (1996); Donald J. Raleigh (2001) | 1920—1921年坦波夫、西西伯利亚农村战争与萨拉托夫“地方喀琅施塔得”工潮早于水兵起义撼动政权根基，迫使列宁在2月上旬先行酝酿粮食税退却。 | `CLM-figes-1996-peasant-wars-and-nep-retreat`; `CLM-raleigh-2001-center-periphery-weak-state-nep` | 农民起义口号不可无差别套用于喀琅施塔得水兵。 |
+| 苏维埃官方／布尔什维克当事人 | 1921年政府通告与十大材料 | 指称白卫反革命及冰融后外国干涉风险，主张铁血镇压与党内绝对统一；属当时政权危机认知与宣传，非已证实的事前阴谋事实。 | `CLM-avrich-1970-white-plot-refutation` | 混淆事后白卫侨民募款企图与水兵起义真实起源。 |
 
 ## 4. 关联时间线锚点 (共 0 条)
