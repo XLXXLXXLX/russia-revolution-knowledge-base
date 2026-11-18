@@ -1,30 +1,29 @@
 {
   "campaign_name": "Russian Revolution KB (1861-1929) Weekly Subscription Burn",
   "started_at": "2026-11-18",
-  "resumed_at": "2026-11-18T18:00:00+08:00",
   "status": "paused",
-  "paused_at": "2026-11-18T21:38:00+08:00",
+  "paused_at": "2026-11-18T23:00:00+08:00",
   "pause_after_in_flight": false,
   "resume_checkpoint": {
-    "completed_in_session": "Waves 32-36 全部落盘并织网（572 卡 / 1102 边 / 722 双历事件 / 179 个 1-Hop 包 / 44 份一手原典 / DATA-07..08）；AUD-13/14 完成闭环；AUD-15A（7 张 Codex 人物卡异源审计）已落盘且 4 项 P0 硬伤已当场清零。",
+    "completed_in_session": "Waves 37-38 全部圆满收官：完成 28 张 Codex 实体卡的全覆盖异源交叉审计（AUD-15A/15B/16A/16B）与 100% 闭环精修（全部升格 multi-perspective），连带修复 DEB-1923、MTG-1919-03、PER-osinsky 存量瑕疵；核验有向边由 1,102 增至 1,221 条，179 个 1-Hop 上下文包全量重编，audit-graph 零报错通过。",
     "next_on_resume": [
-      "拆分为 <=7 卡增量落盘策略执行 AUD-15B（剩余 7 张 Codex PER-* 卡）与 AUD-16A/16B（14 张 Codex 制度/会议/政策/事件卡），避免单次 14 卡长思考触发 15 分钟静默流超时",
-      "集中闭环精修 AUD-15A/15B/16 的 P1/P2 站内 S/A 级原典回链与 L3 时间线挂接"
+      "定向精读已拆未读的 57 本馆藏专著，将现有剩余 draft 实体与争鸣卡批量升格为 multi-perspective",
+      "补强 1882-1902（维特工业化与早期马克思主义工运转向）、1907-1916（六三体制与一战总危机）两段过渡带及乌克兰/高加索边疆革命线"
     ]
   },
   "concurrency_governor": {
     "max_grok_concurrent": 0,
     "max_antigravity_concurrent": 2,
     "max_codex_concurrent": 3,
-    "rule": "恢复运行时：Antigravity 保持 <=2~3 路稳态并发且审计批次控制在 <=7 卡增量落盘；Codex 23:09 重置后保持 <=3 路稳态并发。"
+    "rule": "恢复运行时：Antigravity 子代理保持 <=2 路并发且单任务 <=6~7 卡增量写盘；Codex 23:09 后重置恢复 <=3 路并发。"
   },
   "provider_quota_status": {
-    "codex": "100%_burned_for_5h_window_resets_23_09",
-    "antigravity_2": "paused_by_user_with_quota_remaining",
+    "codex": "resets_at_23_09",
+    "antigravity_2": "paused_at_23_00_window",
     "grok": "100%_burned_weekly_balance_402",
     "opencode_fallback": "standby_untouched"
   },
-  "books_extracted_count": 146,
-  "completed_waves": 36,
-  "active_wave": 37
+  "books_extracted_count": 145,
+  "completed_waves": 38,
+  "active_wave": null
 }

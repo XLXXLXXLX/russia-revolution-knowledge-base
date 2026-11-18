@@ -41,7 +41,7 @@
   - **[Hildermeier 社革党结构论 / Manfred Hildermeier]**（`sources/monographs/hildermeier_psr/`, `BIB-005`；`PER-chernov` 卡引）: 社革党制度上倚重合法议会神话却长期弱化军事组织，1918年切尔诺夫路线体现新民粹主义领袖在暴力门槛前的政治天真，与其1917年入阁时土地立法困境一体。
   - **[苏联正统 / 列宁《关于立宪会议的提纲》]**：视立宪会议为“曾经落后于无产阶级和贫农苏维埃运动”的资产阶级形式，解散是更高苏维埃民主的体现——须与 `CLM-rabinowitch-2007-constituent-assembly` 对照，避免单源定论。
 
-## 2. 一跳邻域等权重微摘要 (共 13 个关联节点，严防大卡霸占上下文)
+## 2. 一跳邻域等权重微摘要 (共 14 个关联节点，严防大卡霸占上下文)
 ### 邻居节点: `PER-lenin`
 - **时效关系边** (`PER-lenin` → `EVT-1918-01-constituent-assembly-dispersal` | `ordered-dissolution` | 有效时段: `1918-01-05至06 [O.S.]`): 在社革党占多数的立宪会议拒不批准《被剥削劳动人民权利宣言》后，以苏维埃民主高于资产阶级议会制为由下令强制解散。
 - **时效关系边** (`EVT-1918-01-constituent-assembly-dispersal` → `PER-lenin` | `dissolver` | 有效时段: `1917-12至1918-01`): 12月清洗党内尊重议会的温和派，1月下令武力终结立宪会议
@@ -95,6 +95,10 @@
 ### 邻居节点: `PER-kerensky`
 - **时效关系边** (`PER-kerensky` → `EVT-1918-01-constituent-assembly-dispersal` | `absent-rival` | 有效时段: `1918-01`): 布尔什维克在驱散立宪会议前夕仍宣传其回国阴谋（CLM-rabinowitch-2007-constituent-assembly 兼参 Pipes ch.21）
 - **节点定性微摘要 [T1]** (完备度 `draft`): 俄国杜马劳动派律师、1917年临时政府司法部长（3月起）、陆海军部长（5月起）与总理（俄历7月8日起至十月）。二月革命中率先筹建杜马军事委员会；6月发动加里西亚攻势失败，7月事变后接掌总理，8月底与科尔尼洛夫决裂；十月起义当日上午离京求援失败后长期流亡欧美。
+
+### 邻居节点: `INS-sovnarkom-and-vtsik`
+- **时效关系边** (`INS-sovnarkom-and-vtsik` → `EVT-1918-01-constituent-assembly-dispersal` | `legitimacy_dispute_event` | 有效时段: `1918.01`): 立宪会议解散后苏维埃机关的合法性
+- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 苏维埃代表大会闭会期间，中执委在宪制上监督政府，人民委员会却迅速掌握施政与大量法令制定。苏俄与1922年成立的苏联各有中执委与人民委员会，不能混同。党内领导与国家机关关系不断变化，政治局权重日增，但1920年代仍须经政府落实决策。
 
 ## 3. 关联史学争鸣光谱 (Historiographical Debates)
 ### `DEB-1918-constituent-assembly-and-soviet-democracy`：解散立宪会议与多党苏维埃民主的命运

@@ -43,7 +43,7 @@
   - **[修正派政治传记 / Stephen Cohen, Moshe Lewin]** (`CLM-cohen-1973-bukharin-organizational-defeat`, `CLM-nove-1964-stalin-necessity-dilemma`)：1929年春布哈林路线仍具经济合理性，失败是书记处权力与非常措施而非技术必然。
   - **[车间社会史 / Donald Filtzer]** (`CLM-filtzer-1986-1929-tomsky-purge-and-shock-work`, `CLM-filtzer-1986-atomized-worker-control-over-labor-process`)：计划批准后即伴随突击工、定额加码与高流动率，工人以离职谈判抵抗——宏观指标有微观妥协成本。
 
-## 2. 一跳邻域等权重微摘要 (共 11 个关联节点，严防大卡霸占上下文)
+## 2. 一跳邻域等权重微摘要 (共 12 个关联节点，严防大卡霸占上下文)
 ### 邻居节点: `INS-vsnkh-and-gosplan`
 - **时效关系边** (`INS-vsnkh-and-gosplan` → `POL-first-five-year-plan` | `drafted-optimal-variant` | 有效时段: `1927-1929`): 古比雪夫主持的最高国民经济委员会与国家计委目的论派击败发生学派，推动1929年春季通过一五计划最高方案并在下半年失控加码。
 - **时效关系边** (`POL-first-five-year-plan` → `INS-vsnkh-and-gosplan` | `drafted-by` | 有效时段: `1928–1929`): Gosplan/VSNKh 竞争性地抬升控制数字，政治局择高方案
@@ -56,7 +56,7 @@
 
 ### 邻居节点: `PER-strumilin`
 - **时效关系边** (`PER-strumilin` → `POL-first-five-year-plan` | `planning-contributor` | 有效时段: `1928–1929`): 参与计划论证，集体起草与政治批准需区分
-- **节点定性微摘要 [T1]** (完备度 `draft`): 斯特鲁米林是统计学家和计划经济理论家，早年属孟什维克，1921年起在国家计划委员会任职，1923年加入共产党。1920年代计划方法论争中，他主张计划主动改变既有经济比例，通常被视为目的论取向的主要代表；这一立场与从现存趋势和约束出发的发生论有区别，但不能简化为他否认一切经济规律。
+- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 斯特鲁米林是俄国及苏联经济统计学家与计划方法论家，1921年起任职国家计划委员会，1923年加入俄共（布）（早年曾属孟什维克之说据俄科学院条目，仍待代表名册核验）。1920年代计划论争中，他常被视为目的论取向代表，主张计划主动重塑经济比例；这一立场不同于从既有约束出发的发生论，但不能简化为否认一切规律。
 
 ### 邻居节点: `MTG-1929-04-cc-joint-plenum`
 - **时效关系边** (`POL-first-five-year-plan` → `MTG-1929-04-cc-joint-plenum` | `ratified-strategy` | 有效时段: `1929.04.16–23`): 四月中央联席全会击败右倾；最高方案由4月23–29日第十六次党代表会议通过，5月第五次全苏苏维埃代表大会批准
@@ -89,6 +89,10 @@
 ### 邻居节点: `PER-tomsky`
 - **时效关系边** (`POL-first-five-year-plan` → `PER-tomsky` | `purged-during` | 有效时段: `1929`): 工会阵地随计划劳动强化遭清洗
 - **节点定性微摘要 [T1]** (完备度 `draft`): 工人出身老布尔什维克，1919–1929年执掌全苏工会并任政治局委员。1920–21年工会争论支持列宁抵制托洛茨基“工会国家化”；新经济政策时期捍卫工会集体谈判自主；1928–29年与布哈林、李可夫结成“右翼三巨头”抗斯大林激进路线，后遭清洗自尽。
+
+### 邻居节点: `EVT-1928-shakhty-affair-show-trial`
+- **时效关系边** (`EVT-1928-shakhty-affair-show-trial` → `POL-first-five-year-plan` | `precondition_context` | 有效时段: `1928–1929`): 案件为随后的工业化动员与技术干部政策提供话语背景。
+- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 1928年顿巴斯沙赫特矿区的事故与管理问题被秘密警察定性为经济破坏阴谋。莫斯科公开审判与宣传将旧技术专家的政治可靠性推上全国议程；检方求刑22人死刑，法庭判11人死刑，其中6人获减刑、5人被处决。案件既服务于高层政治动员，也与工人反专家情绪及培养工人出身新专家的政策相互作用。
 
 ## 3. 关联史学争鸣光谱 (Historiographical Debates)
 ### `DEB-1928-bukharin-alternative`：“布哈林替代方案”与新经济政策终结之争（1928–1929）

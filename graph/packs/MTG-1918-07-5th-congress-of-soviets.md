@@ -4,12 +4,11 @@
 
 ## 0. 认知完备度与反偏斜仪表盘 (Epistemic & Skew Warnings)
 - **主卡路径**: `cards/meetings/MTG-1918-07-5th-congress-of-soviets.md`
-- **完备度等级**: `draft`
-- **已覆盖视角**: `constitution-primary, archival-revisionist, soviet-government-contemporary`
-- **待补齐视角**: `full-congress-proceedings, independent-left-sr-archive`
+- **完备度等级**: `multi-perspective`
+- **已覆盖视角**: `constitution-primary, archival-revisionist, soviet-government-contemporary, pipes-figes-exclusionary-logic, leggett-cheka-institutionalization, carr-constitutional-fusion`
+- **待补齐视角**: `full-congress-proceedings, independent-left-sr-archive, regional-credentials-materials`
 - **偏斜风险提示**:
-  - ⚠️ 主卡当前完备度为 `draft`，尚未达到多源交叉核实定稿状态。
-  - ⚠️ 主卡显式声明尚缺以下视角待补: `full-congress-proceedings, independent-left-sr-archive`。
+  - ⚠️ 主卡显式声明尚缺以下视角待补: `full-congress-proceedings, independent-left-sr-archive, regional-credentials-materials`。
 
 ## 1. 主卡核心层 ([T1] + [T2])
 ## [T1] 60秒定性微摘要
@@ -18,23 +17,33 @@
 ## [T2] 核心脉络、时效关系边表与史学争鸣光谱
 
 ### 2.1 核心历史脉络
-- **争论与资格**：大会在莫斯科大剧院举行。斯皮里多诺娃和卡姆科夫等左翼社革党人猛烈批评布列斯特和约、粮食专政及贫农委员会。公布的党派统计为布尔什维克678人、左翼社革党269人；左翼社革党在资格审查委员会中质疑约399名布尔什维克代表的资格，并要求资格委员会双方人数相等而被否决。Rabinowitch认为存在人为制造布尔什维克多数的大量间接证据；这不是对399份证件逐一鉴定为伪造的证明，也不能从公布人数中机械扣减，算出合法代表数。
-- **刺杀与拘押**：1918-07-06 [N.S.]，左翼社革党人布柳姆金和安德烈耶夫刺杀德国大使米尔巴赫，莫斯科随即发生武装冲突。大会会场内左翼社革党党团及来宾遭集体拘押：Rabinowitch记为400余人，包含来宾，故常见的约450人不能直接当成核实过的代表人数。部分人员获释，资格审查委员会中的左翼社革党人被关到大会结束。
-- **宪法与联盟终结**：1918-07-10 [N.S.]，在左翼社革党代表被排除的情况下复会，通过首部《俄罗斯社会主义联邦苏维埃共和国宪法》。左翼社革党人民委员此前已于3月因和约退阁，7月的破裂则终结了其与布尔什维克作为主要合作伙伴的苏维埃政治联盟；这不等于所有地方异议者或全部社会主义者同日消失。
+- **争论与资格**：大会在莫斯科大剧院举行。斯皮里多诺娃和卡姆科夫等左翼社革党人猛烈批评布列斯特和约、粮食专政及贫农委员会。开幕会上宣布的党派预报分布为：布尔什维克 678 人、左翼社革党 269 人，**其余 88 人**分属最高纲领派社革党人（约 30）、社民党国际主义者（5–6）及无党派代表（约 48），**表决权代表合计 1,035 人**（Rabinowitch，*The Bolsheviks in Power*，p. 288；作者称这些选举“从未被独立调查过，现在也大概无法调查”）。据 Rabinowitch 原书数字换算，678/1,035 约 65.5%，269/1,035 约 26.0%（本库换算，非原书数字）。左翼社革党在资格审查委员会中质疑约 399 名布尔什维克代表的资格，并要求资格委员会双方人数相等而被否决。**原书措辞是：会前各报的预报统计“未包含”这约 399 名被质疑的布尔什维克代表**（p. 288 后文），而 678 是开幕会的预报数；这批被质疑代表与 678 的集合关系须核原书页码，不得据站内 L3 写作“678 含 399”。Rabinowitch 认为存在人为制造布尔什维克多数的大量间接证据；这不是对 399 份证件逐一鉴定为伪造的证明，也不能从公布人数中机械扣减，算出合法代表数。
+- **刺杀与拘押**：1918-07-06 [N.S.]，左翼社革党人布柳姆金和安德烈耶夫刺杀德国大使米尔巴赫，莫斯科随即发生武装冲突；L3 记当日捷尔任斯基曾被波波夫的契卡战斗支队扣押。大会会场内左翼社革党党团及来宾遭集体拘押：Rabinowitch 记为 400 余人被捕，包含来宾，其中不确定数量者被就地枪决（亚历山德罗维奇在内），故常见的约 450 人不能直接当成核实过的代表人数。左翼社革党党团被挤进大剧院楼上两间屋数日，**13 名“主犯”被送往克里姆林牢房，约 100 人获释，余者羁押于亚历山德罗夫军校并陆续释放**；资格审查委员会中的左翼社革党人至大会结束才获释，此时其对布尔什维克代表的异议已无意义（ch17 L462–474）。
+- **宪法与联盟终结**：1918-07-10 [N.S.]，在左翼社革党代表被排除的情况下复会，通过首部《俄罗斯社会主义联邦苏维埃共和国宪法》。左翼社革党人民委员此前已于3月因和约退阁，7月的破裂则终结了其与布尔什维克作为主要合作伙伴的苏维埃政治联盟；这不等于所有地方异议者或全部社会主义者同日消失。宪法并无“一党”条款；Rabinowitch 只说宪法延续了苏维埃大会为最高机关的“虚构”，而人民委员会在实践中占上风，并在中央执委会中排除了孟什维克、右翼社革党与左翼社革党。
+- **后果链（制度层面）**：左翼社革党被清出契卡，参与契卡的左翼成员被处决，使契卡内部的左翼否决机制消失；这一制度后果不应只被当作议会层面的“联盟终结”（见 2.3 与 `EVT-1918-09-red-terror-and-left-sr-rupture`）。
 
 ### 2.2 时效关系摘要边表
 | 关联节点 ID | 关系类型 | 有效时段 | 关系实质摘要 | 核心依据/争鸣 |
 | :--- | :--- | :--- | :--- | :--- |
 | `ORG-left-srs` | `coalition_breakdown` | 1918年3–7月 | 3月退出人民委员会，7月刺杀及拘押后苏维埃合作瓦解。 | Rabinowitch pp. 287–296 |
-| `PER-spiridonova` | `challenges_government` | 1918年夏 | 左翼社革党领袖批评和约及农村政策；资格异议须与已证事实分开。 | Rabinowitch pp. 284–288；`AUD-14` |
+| `PER-spiridonova` | `challenges_government` | 1918年夏 | 左翼社革党领袖批评和约及农村政策；资格异议须与已证事实分开；刺杀后到大剧院解释时被捕。 | Rabinowitch pp. 284–288，ch17 L475；`AUD-14` |
 | `EVT-1918-03-brest-litovsk-treaty` | `contested_at` | 1918年7月 | 和约成为两党冲突及刺杀背景。 | Rabinowitch ch. 11 |
-| `ORG-cheka-ogpu` | `entangled_in_conflict` | 1918年7月 | 刺客和参与武装冲突者与契卡机构相联系。 | Rabinowitch pp. 291–294 |
+| `ORG-cheka-ogpu` | `entangled_in_conflict` | 1918年7月 | 刺杀与武装冲突涉及波波夫的契卡战斗支队，事后契卡内部左翼成员被清除。 | Rabinowitch pp. 291–294；`CLM-leggett-1981-red-terror-institutionalization` |
 | `DEB-1918-constituent-assembly-and-soviet-democracy` | `illuminates` | 1918年 | 资格争议与宪法条款提供考察苏维埃代表性之不同证据。 | 宪法第25、64–65条 |
+| `EVT-1918-09-red-terror-and-left-sr-rupture` | `consequence_in` | 1918年7–9月 | 7月破裂的后续：红色恐怖与左翼社革党制度性出局。 | `DEB-1918-red-terror-and-civil-war-origins` |
+| `CLM-rabinowitch-2007-left-sr-coalition-collapse` | `supported_by` | 1918年3–7月 | 档案修正派对联盟崩溃与资格争议的解释。 | Rabinowitch 2007 |
+| `CLM-carr-1950-1918-constitution-fusion-of-powers-and-class-franchise` | `compared_with` | 1918年7月 | Carr 对宪法权力融合与阶级选举权的判断；其“城乡 1:5”表述的分母口径须与宪法档案核对。 | 宪法 S 级档案 L28 |
 
 ### 2.3 史学争鸣光谱
-**经验层面**：大使遇刺、冲突、党团被拘押与7月10日通过宪法均有文献支持；有争议的代表资格不能一律认定造假。**行动目的**：苏维埃政府当时将事件定为反苏维埃政权的起义；Rabinowitch经档案研究认为主要目的是迫使政府改变政策，而非武力夺权，但对普罗相短暂占据电报局及其可能未经授权保留例外。其判断并不抹去刺杀和武装冲突本身。
+**经验层面**：大使遇刺、冲突、党团被拘押与7月10日通过宪法均有文献支持；有争议的代表资格不能一律认定造假。**行动目的与性质**：
+- **苏维埃政府当时的定性**：事件为反苏维埃政权的起义。
+- **Rabinowitch（档案修正派）**：经档案研究认为主要目的是迫使政府改变政策，而非武力夺权，但对普罗相短暂占据电报局及其可能未经授权保留例外。其判断并不抹去刺杀和武装冲突本身（`CLM-rabinowitch-2007-left-sr-coalition-collapse`）。
+- **Pipes / Figes 一派**：把7月事件置于布尔什维克一贯排除对手、清除竞争性社会主义政党的逻辑中（`CLM-pipes-1990-red-terror-leninist-logic`）。
+- **Leggett 一派**：以契卡内部左翼被清除视为制度转折，契卡由此失去来自盟友的内部制衡（`CLM-leggett-1981-red-terror-institutionalization`）。
+- **Carr（宪法层面的权力融合）**：把宪法视为党—苏维埃—行政权力融合的法典化（`CLM-carr-1950-1918-constitution-fusion-of-powers-and-class-franchise`）。
+- 站内 `DEB-1918-red-terror-and-civil-war-origins` 另含 Hoffmann、Mawdsley 等视角，可作延伸。
 
-## 2. 一跳邻域等权重微摘要 (共 4 个关联节点，严防大卡霸占上下文)
+## 2. 一跳邻域等权重微摘要 (共 6 个关联节点，严防大卡霸占上下文)
 ### 邻居节点: `ORG-left-srs`
 - **时效关系边** (`MTG-1918-07-5th-congress-of-soviets` → `ORG-left-srs` | `coalition_breakdown` | 有效时段: `1918年3–7月`): 3月退出人民委员会，7月刺杀及拘押后苏维埃合作瓦解。
 - **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 1917年底从社会革命党分裂出的激进民粹派政党（1917–1923），以斯皮里多诺娃、普罗相等为首。拥护苏维埃政权并于1917年12月加入人民委员会与布尔什维克联合执政；1918年3月因反《布列斯特和约》退阁但仍维持北方公社合作，7月6日刺杀德国大使米尔巴赫遭全面清洗而覆灭。
@@ -50,6 +59,14 @@
 ### 邻居节点: `ORG-cheka-ogpu`
 - **时效关系边** (`MTG-1918-07-5th-congress-of-soviets` → `ORG-cheka-ogpu` | `entangled_in_conflict` | 有效时段: `1918年7月`): 刺客和参与武装冲突者与契卡机构相联系。
 - **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 苏俄与苏联早期政治警察机关（1917–1934），由捷尔任斯基创立。历经全俄肃反委员会（ВЧК，1917–1922）、国家政治保卫局（ГПУ，1922–1923）与国家政治保卫总局（ОГПУ，1923–1934）三阶段，从法外非常机构演变为直属政治局的常设宪制部门，执行红色恐怖与强制集体化。
+
+### 邻居节点: `INS-sovnarkom-and-vtsik`
+- **时效关系边** (`INS-sovnarkom-and-vtsik` → `MTG-1918-07-5th-congress-of-soviets` | `constitution_adoption` | 有效时段: `1918-07-10`): 通过苏俄宪法
+- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 苏维埃代表大会闭会期间，中执委在宪制上监督政府，人民委员会却迅速掌握施政与大量法令制定。苏俄与1922年成立的苏联各有中执委与人民委员会，不能混同。党内领导与国家机关关系不断变化，政治局权重日增，但1920年代仍须经政府落实决策。
+
+### 邻居节点: `EVT-1918-09-red-terror-and-left-sr-rupture`
+- **时效关系边** (`MTG-1918-07-5th-congress-of-soviets` → `EVT-1918-09-red-terror-and-left-sr-rupture` | `consequence_in` | 有效时段: `1918年7–9月`): 7月破裂的后续：红色恐怖与左翼社革党制度性出局。
+- **节点定性微摘要 [T1]** (完备度 `draft`): 1918年7月第五次全俄苏维埃大会期间，左翼社革党刺杀德国大使米尔巴赫引爆执政联盟彻底决裂；8月30日乌里茨基遇害与列宁遇刺重伤后，人民委员会于1918-09-05颁布《关于红色恐怖的决议》，将集中营隔离、枪决涉白卫阴谋叛乱者与公开处决名单正式制度化，终结苏维埃多党并存格局。
 
 ## 3. 关联史学争鸣光谱 (Historiographical Debates)
 ### `DEB-1918-red-terror-and-civil-war-origins`：红色恐怖、契卡扩张与内战期一党专政起源之争（1918–1921）

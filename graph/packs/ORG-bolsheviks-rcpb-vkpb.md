@@ -5,44 +5,67 @@
 ## 0. 认知完备度与反偏斜仪表盘 (Epistemic & Skew Warnings)
 - **主卡路径**: `cards/organizations/ORG-bolsheviks-rcpb-vkpb.md`
 - **完备度等级**: `multi-perspective`
-- **已覆盖视角**: `social-history-rabinowitch, opposition-history-daniels, institutional-history-khlevniuk`
-- **待补齐视角**: `rigby-membership-statistical-audit, regional-party-studies`
+- **已覆盖视角**: `social-history-rabinowitch, opposition-history-daniels, institutional-history-khlevniuk, political-economy-carr, totalitarian-political-history-pipes`
+- **待补齐视角**: `rigby-membership-statistical-audit, soviet-official-party-history, provincial-non-capital-party-organizations`
 - **偏斜风险提示**:
-  - ⚠️ 主卡显式声明尚缺以下视角待补: `rigby-membership-statistical-audit, regional-party-studies`。
+  - ⚠️ 主卡显式声明尚缺以下视角待补: `rigby-membership-statistical-audit, soviet-official-party-history, provincial-non-capital-party-organizations`。
 
 ## 1. 主卡核心层 ([T1] + [T2])
 ## [T1] 60秒定性微摘要
-布尔什维克最初是俄国社会民主工党内部派别，经过流亡、地下活动和1917年的群众性扩张，成为苏维埃国家执政党。1918年称俄共（布），1925年称联共（布）；从地方组织仍有较大主动性的革命党到拥有干部任命网络和纪律制裁的党国核心，是分阶段、充满争议的变化。1929年底是本库观察终点，不是该党的终止日。
+布尔什维克起于1903年社民工党二大后的党内多数派，经流亡、地下活动与1917年群众扩张成为执政党；1918年称俄共（布），1925年称联共（布）。它从地方主动性较强的革命党，演变为拥有任命网络与纪律制裁的党国核心，过程分阶段且存争议。
 
 ## [T2] 核心脉络、时效关系边表与史学争鸣光谱
 
 ### 2.1 核心历史脉络
-- **派别与组织分立（1903–1916）**：1903年伦敦二大党章争论中列宁的党员定义遭否决，随后中央机构选举中的多数才使“布尔什维克”名称出现；多数与少数并非此后永久不变的社会集团。1912年布拉格会议由列宁派召开、选出中央委员会并排斥取消派，但其是否代表整个俄国社会民主工党遭对手争议，不能把自称的全党代表性直接当成共识。革命者、工人骨干和知识分子在流亡、合法工人运动与地下网络间往返。
-- **群众党与内部争论（1917）**：二月革命前后党员数常估约2.4万，十月前后约35万；统计口径、地区与确切截止日不一，均为量级估计。工厂工人、士兵和水兵大量入党，组织容量、经验与地区构成急剧变化。Rabinowitch对彼得格勒的研究强调地方委员会、军事组织和新党员相对开放的参与以及路线争论：党内对临时政府、起义时机与社会主义联合政府均有分歧。地方证据不宜直接推广为全国均一状况，更不意味着党内没有纪律与领袖权威（`CLM-rabinowitch-1976-open-democratic-mass-party`；`CLM-rabinowitch-1976-october-three-factions-debate`）。
-- **执政与内战（1918–1920）**：1918年3月七大更名俄国共产党（布尔什维克）。内战、经济崩溃和军政动员促使集中指挥及干部委派扩张；许多老工人党员离开生产岗位，进入军队和行政机关，基层工人社会基础也因饥荒与迁移受损。Rabinowitch认为危机及应对而非预定蓝图对转变至关重要，但意识形态、强制选择与地方差异仍须单独考察（`RN-W2-first-year-soviet-rule`）。
-- **统一规则与党员再造（1921–1925）**：1921年十大《关于党的统一》要求解散派别，清党与党员审查并行；规则未立即消灭所有党内争论，却为以后制裁提供重要工具。1924年列宁逝世后的“列宁号召”（Ленинский призыв）吸收数十万新党员，尤其工人，改善名义上的工人构成，也使基层新老党员经验与政治资历差异扩大；新党员并非天然形成整齐一致的选票集团。1925年十四大更名全联盟共产党（布尔什维克），名称与1922年苏联成立后的联盟结构相对应。
-- **权力集中与1929年观察截点**：书记处的干部任命、纪律和代表产生机制与政策联盟共同塑造权力；1927年左翼反对派遭排斥，1928–1929年布哈林、李可夫、托姆斯基的反对力量逐步失败。1929年清党和重新登记在基层筛选党员；同年末集体化与工业化急转标志统治方式重大转折。赫列夫纽克强调任命权、联盟与对手失误共同侵蚀集体领导；不能说1929年一切政治制度已完全定型，也不能把后来结局倒推为必然（`RN-W3-politburo-apparatus-and-1929-victory`）。
+- **派别分立（1903–1916）**：二大第一条表决中列宁草案被否决、马尔托夫案通过（`WEB-1903-08-02-rsdlp-rules-p1`，俄历08-02 / 公历08-15）；其后中央机构选举中的多数使“布尔什维克”之名出现（`MTG-1903-rsdlp-2nd-congress`）。多数与少数并非此后永久不变的社会集团。
+- **布拉格会议（1912）**：列宁派召集并选出中央委员会、排斥取消派（`MTG-1912-01-prague-conference`），但其对全党的代表性遭对手争议，自称不等于共识。
+- **群众党与内部争论（1917）**：党员数的通行说法为二月前后约2.4万、十月前后约35万，但该数字未入库一手出处，只作量级（见下表）。Rabinowitch 对彼得格勒的研究强调地方委员会、军事组织及新党员相对开放的参与，党内对临时政府、起义时机与社会主义联合政府均有分歧（`CLM-rabinowitch-1976-open-democratic-mass-party`；`CLM-rabinowitch-1976-october-three-factions-debate`；`MTG-1917-04-7th-april-party-conference`；`MTG-1917-07-rsdlp-6th-congress`）。地方证据不宜推广为全国均一状况。
+- **党员数口径并列**：
+
+| 时点 | 范围 | 数字 | 口径 / 来源 |
+| :--- | :--- | :--- | :--- |
+| 二月前后 → 十月前后 | 全国 | 约2.4万 → 约35万 | 通行近似，库内无一手出处，待 Rigby 核对 |
+| 1917-04 七次代表会议 | 全国 | 代表约8万党员 | 代表所代表党员数（`MTG-1917-04-7th-april-party-conference`） |
+| 1917-07 六大 | 全国 / 彼得格勒 | 代表约20–24万党员；彼得格勒约3.2万 | 代表所代表数；彼得格勒数引 Rabinowitch 1976（`MTG-1917-07-rsdlp-6th-congress`） |
+| 1917 → 1918 | 彼得格勒 | 约4.3万 → 约1.35万 | Smith 1983（`CLM-smith-sa-1983-from-workers-control-to-nationalization`） |
+| 1917 → 1918 | 彼得格勒 | 约5万 → 约6千 | Rabinowitch 2007 转引 Strumilin 统计（`RN-W2-first-year-soviet-rule`，pp. 390–401；参 `PER-strumilin`） |
+
+  最后两行时段与统计口径是否同一，库内尚未调和，只能并列，不得相减或合并成单一“萎缩比例”。
+- **执政、布列斯特与内战（1918–1920）**：1918年围绕布列斯特和约形成最大的党内分裂，左派共产主义者主张革命战争（`ORG-left-communists-1918`；`EVT-1918-03-brest-litovsk-treaty`；`CLM-daniels-1960-left-communists-1918`）。1918年3月七大更名俄国共产党（布尔什维克）。内战、经济崩溃与军政动员促使集中指挥与干部委派扩张；老工人党员进入军队与行政机关，基层社会基础也受饥荒与迁移冲击。Rabinowitch 认为危机及应对而非预定蓝图对转变至关重要（`RN-W2-first-year-soviet-rule`）；Carr 则把党、苏维埃与国家三者关系的重组视为制度主线（`RN-W35-carr-lenin-party-instrument-and-soviet-constitution-1917-1923`；`RN-W23-carr-party-state-constitution-and-economic-order-1917-1923`；`INS-sovnarkom-and-vtsik`）。列宁1918年5月对“左派幼稚病”的批评见 `sources/web-archive/W32_milestone_docs/1918-05_lenin-left-wing-childishness-state-capitalism.md`。意识形态、强制选择与地方差异仍须单独考察。
+- **统一规则与党员再造（1921–1925）**：1921-03-16十大通过《关于党的统一》（`WEB-1921-03-16-on-party-unity`，含秘密第7条），全国表决为336:50:18（见 `ORG-workers-opposition` 所引 `CLM-daniels-1960-tenth-congress-turning-point`）；`POL-ban-on-factions-1921` 要求解散派别，清党与党员审查并行。规则未立即消灭党内争论，却为以后的制裁提供重要工具。1924年列宁逝世后的“列宁号召”吸收数十万新党员，工人比例名义上提高，新老党员经验差距也扩大；新党员并非整齐一致的选票集团。1925年十四大更名全联盟共产党（布尔什维克）。
+- **权力集中与1929观察截点**：书记处的任命、纪律与代表产生机制同政策联盟共同塑造权力；1927年左翼反对派遭排斥（`ORG-left-and-united-opposition`；`PER-stalin`），1928–1929年布哈林、李可夫、托姆斯基的反对逐步失败。赫列夫纽克强调任命权、联盟与对手失误共同侵蚀集体领导（`RN-W3-politburo-apparatus-and-1929-victory`）。不能说1929年一切制度已定型，也不能把后来结局倒推为必然。
 
 ### 2.2 时效关系摘要边表
 | 关联节点 ID | 关系类型 | 有效时段 | 关系实质 | 依据 |
 | :--- | :--- | :--- | :--- | :--- |
+| `PER-lenin` | `faction-leader` | 1903–1924 | 派别与执政党的核心领袖，党章草案、1912年布拉格会议与执政纪律均与其相关 | `WEB-1903-08-02-rsdlp-rules-p1`；`MTG-1912-01-prague-conference` |
 | `ORG-mensheviks` | `factional-rival` | 1903–1920年代 | 同源社民党派反复分合，1917年后围绕政府与苏维埃权力对立 | `DEB-1903-bolshevik-menshevik-split` |
-| `ORG-vikzhel` | `coalition-negotiation` | 1917–1918 | 铁路工会斡旋联合政府，暴露执政党内部的策略分歧 | `RN-W2-first-year-soviet-rule` |
-| `ORG-democratic-centralists` | `internal-opposition` | 1919–1927 | 集团反对党政任命和官僚化，后遭纪律制裁 | `RN-W1C-communist-oppositions-1918-1929` |
+| `MTG-1903-rsdlp-2nd-congress` | `founding-split-event` | 1903 | 党章第一条与中央机构选举形成多数—少数标签 | `WEB-1903-08-02-rsdlp-rules-p1`；L3 `1903-07_rsdlp_second_congress_split` |
+| `MTG-1917-04-7th-april-party-conference` | `party-conference` | 1917-04 | 代表约8万党员的口径，路线转向后的党内讨论 | `MTG-1917-04-7th-april-party-conference` 卡内口径 |
+| `MTG-1917-07-rsdlp-6th-congress` | `party-congress` | 1917-07 | 代表约20–24万党员的口径 | `MTG-1917-07-rsdlp-6th-congress` 卡内口径 |
+| `ORG-vikzhel` | `coalition-negotiation` | 1917-10至11 | 铁路工会斡旋联合政府，暴露党内中央委员会多数与少数分歧 | L3 `1917-11_vikzhel_coalition_talks_and_sovnarkom_crisis`；`DEB-1917-all-socialist-coalition-vikzhel-missed-chance` |
+| `ORG-left-communists-1918` | `internal-opposition` | 1918.01–05 | 布列斯特和约引发的党内分裂，主张革命战争 | `CLM-daniels-1960-left-communists-1918` |
+| `EVT-1918-03-brest-litovsk-treaty` | `party-split-trigger` | 1918.01–03 | 和约表决暴露执政后党内路线分歧 | `CLM-daniels-1960-left-communists-1918` |
+| `INS-sovnarkom-and-vtsik` | `party-state-nexus` | 1917–1929 | 党组织与政府、中执委的权限交叠和领导关系变化 | `RN-W35-carr-lenin-party-instrument-and-soviet-constitution-1917-1923` |
+| `ORG-democratic-centralists` | `internal-opposition` | 1919–1927 | 集团反对党政任命和官僚化，后遭纪律制裁 | `PER-sapronov`；`PER-osinsky` |
 | `ORG-workers-opposition` | `internal-opposition` | 1920–1922 | 工会管理经济方案遭十大否决，派别被要求解散 | `CLM-daniels-1960-tenth-congress-turning-point` |
-| `POL-ban-on-factions-1921` | `adopted-disciplinary-rule` | 1921起 | 十大统一决议限制有组织派别，后续运用与原初背景应区分 | `RN-W1C-communist-oppositions-1918-1929` |
+| `MTG-1921-rcpb-10th-congress` | `party-congress` | 1921-03 | 通过《关于党的统一》，限制有组织派别 | `WEB-1921-03-16-on-party-unity` |
+| `POL-ban-on-factions-1921` | `adopted-disciplinary-rule` | 1921起 | 十大统一决议限制有组织派别，后续运用与原初背景应区分 | `WEB-1921-03-16-on-party-unity`；`RN-W1C-communist-oppositions-1918-1929` |
+| `ORG-left-and-united-opposition` | `internal-opposition` | 1923–1927 | 1927年遭十五大排斥 | `WEB-1927-09-platform-joint-opposition` |
+| `PER-stalin` | `secretariat-leader` | 1922–1929 | 书记处的任命与纪律网络对权力集中起作用 | `CLM-khlevniuk-2015-secretariat-and-nomenklatura` |
 
 ### 2.3 史学争鸣光谱
-经验上，1917年党组织扩张、1918年执政与内战动员、1921年统一决议及1924年招募均可分期辨认。Rabinowitch从彼得格勒基层材料强调1917年相对开放和1918年战争危机的偶然性；Daniels从党内反对派追踪革命原则与执政纪律的冲突，突出1921年转折；赫列夫纽克重视1920年代机关任命及高层联盟变化。三者尺度不同，不能仅以一条“必然独裁”或“纯粹环境所迫”的叙述取代比较。
+经验上，1917年组织扩张、1918年执政与内战动员、1921年统一决议及1924年招募均可分期辨认。Rabinowitch 从彼得格勒基层材料强调1917年相对开放和1918年危机的偶然性；Daniels 从党内反对派追踪革命原则与执政纪律的冲突；Carr 的制度政治经济路径把党视为联结苏维埃与国家机关的工具；赫列夫纽克看重1920年代机关任命及高层联盟变化。另一端的 Pipes 将布尔什维克的权力垄断追溯到列宁主义的内在逻辑（`CLM-pipes-1990-october-classic-coup`；`CLM-pipes-1990-red-terror-leninist-logic`），而修正派强调偶然与环境约束。各家尺度不同，不能只用“必然独裁”或“纯粹环境所迫”取代比较；苏联官方党史口径与 Rigby 统计库内尚缺。
 
-## 2. 一跳邻域等权重微摘要 (共 7 个关联节点，严防大卡霸占上下文)
+## 2. 一跳邻域等权重微摘要 (共 16 个关联节点，严防大卡霸占上下文)
 ### 邻居节点: `EVT-1905-12-moscow-armed-uprising`
 - **时效关系边** (`EVT-1905-12-moscow-armed-uprising` → `ORG-bolsheviks-rcpb-vkpb` | `leads_jointly` | 有效时段: `1905-12-06 [O.S.] / 1905-12-19 [N.S.] 至 1905-12-18 [O.S.] / `): 基层打破教派藩篱协同作战（约700–800名党战斗队员加铁路、印刷工志愿射手），以三四人游击战术及普列斯尼亚街垒牵制1.5万卫戍军（ch11_1905_part_11 [·255·, ·261·]）。
 - **节点定性微摘要 [T1]** (完备度 `multi-perspective`): `1905-12-07` 至 `12-18 [O.S.] / 1905-12-20` 至 `12-31 [N.S.]`，继圣彼得堡苏维埃被捕后，莫斯科约10万至15万工人总罢工升级为全城游击巷战与普列斯尼亚（`Пресня`）工人区街垒苦战。因尼古拉耶夫铁路未断，总督杜巴索夫调来彼得堡谢苗诺夫近卫团以重炮轰平普列斯尼亚（全城死亡估约千人）。败局引发普列汉诺夫“本来就不应该拿起武器”、列宁“本应更坚决转守为攻”与托洛茨基《1905》“争夺军队的斗争”三大战略路线决裂。
 
 ### 邻居节点: `MTG-1917-04-7th-april-party-conference`
 - **时效关系边** (`MTG-1917-04-7th-april-party-conference` → `ORG-bolsheviks-rcpb-vkpb` | `elects_leadership` | 有效时段: `1917年春`): 在公开的内部路线分歧中选举九人中央委员会。
-- **节点定性微摘要 [T1]** (完备度 `draft`): 1917-04-24 [O.S.] / 1917-05-07 [N.S.] 至 1917-04-29 [O.S.] / 1917-05-12 [N.S.]，布尔什维克在彼得格勒召开第七次全国代表会议，代表约8万党员。会议在激烈争论后支持列宁反对信任临时政府、推动土地国有化及向苏维埃转移政权的方向，但民族自决和国际组织问题上的分歧说明党内并非铁板一块。
+- **时效关系边** (`ORG-bolsheviks-rcpb-vkpb` → `MTG-1917-04-7th-april-party-conference` | `party-conference` | 有效时段: `1917-04`): 代表约8万党员的口径，路线转向后的党内讨论
+- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 1917-04-24 [O.S.] / 1917-05-07 [N.S.] 至 1917-04-29 [O.S.] / 1917-05-12 [N.S.]，布尔什维克在彼得格勒召开第七次全国代表会议，约8万党员、152名代表出席（Loginov，转引会议记录）。会议在激烈争论后以 71 赞成、39 反对、8 弃权通过列宁《关于当前形势》决议，否定信任临时政府、支持土地国有化与向苏维埃转移政权，但民族自决（56:16:18）、中央委员会规模和齐美尔瓦尔德国际会议问题上列宁均遭多数反对，说明党内并非铁板一块。
 
 ### 邻居节点: `ORG-mensheviks`
 - **时效关系边** (`ORG-bolsheviks-rcpb-vkpb` → `ORG-mensheviks` | `factional-rival` | 有效时段: `1903–1920年代`): 同源社民党派反复分合，1917年后围绕政府与苏维埃权力对立
@@ -51,12 +74,12 @@
 ### 邻居节点: `ORG-vikzhel`
 - **时效关系边** (`ORG-bolsheviks-rcpb-vkpb` → `ORG-vikzhel` | `coalition-negotiation` | 有效时段: `1917–1918`): 铁路工会斡旋联合政府，暴露执政党内部的策略分歧
 - **时效关系边** (`ORG-vikzhel` → `ORG-bolsheviks-rcpb-vkpb` | `mediated-coalition-talks` | 有效时段: `1917–1918`): 借铁路运输杠杆要求联合政府，并暴露布党内部严重分歧
-- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 维克热尔是1917年夏产生的全国铁路工会执行机关。铁路连接军队、粮食与城市，其组织因而在十月革命后拥有重要的运输和政治杠杆；它试图调停各社会主义政党、推动广泛社会主义联合政府。布尔什维克内部对此严重分裂，谈判未能实现最广泛联合，后来新的铁路工会领导机关与布尔什维克—左翼社革党合作共同改变了力量格局。
+- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 维克热尔是1917年夏产生的全国铁路工会执行机关。铁路连接军队、粮食与城市，十月革命后其运输杠杆使它试图调停各社会主义政党、推动广泛联合政府。布尔什维克内部为此严重分裂，谈判未能实现最广泛联合，新的铁路工会领导机关后与布党及左翼社革党合作。
 
 ### 邻居节点: `ORG-democratic-centralists`
 - **时效关系边** (`ORG-bolsheviks-rcpb-vkpb` → `ORG-democratic-centralists` | `internal-opposition` | 有效时段: `1919–1927`): 集团反对党政任命和官僚化，后遭纪律制裁
 - **时效关系边** (`ORG-democratic-centralists` → `ORG-bolsheviks-rcpb-vkpb` | `internal-opposition-to-apparatus` | 有效时段: `1919–1927`): 争取党和苏维埃机关的集体领导，后与中央公开决裂
-- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 民主集中派是1919年前后形成的布尔什维克党内反对派，以萨普罗诺夫、奥辛斯基和弗拉基米尔·斯米尔诺夫等人为重要代表，批评党政机关以任命和行政命令取代集体领导与基层参与。其成员及立场随时间变化：1923年部分人参与《四十六人声明》，1926–1927年萨普罗诺夫与斯米尔诺夫所在的“十五人集团”进一步激进化；不得把各时期成员全部等同。
+- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 民主集中派是1919年初结成的布尔什维克党内反对派，萨普罗诺夫、奥新斯基、弗·斯米尔诺夫等为重要代表，批评以任命和行政命令取代集体领导与基层参与。成员及立场随时间变化：1923年部分人联署《四十六人声明》；后期“十五人集团”须与早期派别区分。
 
 ### 邻居节点: `ORG-workers-opposition`
 - **时效关系边** (`ORG-bolsheviks-rcpb-vkpb` → `ORG-workers-opposition` | `internal-opposition` | 有效时段: `1920–1922`): 工会管理经济方案遭十大否决，派别被要求解散
@@ -65,6 +88,42 @@
 ### 邻居节点: `POL-ban-on-factions-1921`
 - **时效关系边** (`ORG-bolsheviks-rcpb-vkpb` → `POL-ban-on-factions-1921` | `adopted-disciplinary-rule` | 有效时段: `1921起`): 十大统一决议限制有组织派别，后续运用与原初背景应区分
 - **节点定性微摘要 [T1]** (完备度 `draft`): 俄共（布）第十次代表大会于1921年3月16日通过《关于党的统一》，要求解散按纲领组成的党内派别，并规定纪律处分；其对党内政治的长期作用存在争论。
+
+### 邻居节点: `PER-lenin`
+- **时效关系边** (`ORG-bolsheviks-rcpb-vkpb` → `PER-lenin` | `faction-leader` | 有效时段: `1903–1924`): 派别与执政党的核心领袖，党章草案、1912年布拉格会议与执政纪律均与其相关
+- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 布尔什维克党缔造者、苏俄人民委员会主席（1917–1924）。1893年投身马克思主义运动，1903年促成布尔什维克分化；1917年发表《四月提纲》并领导十月夺权，历经布列斯特和约、内战与战时共产主义；1921年主持转向新经济政策，晚年（1922–1923）就官僚化与接班人同斯大林冲突。
+
+### 邻居节点: `MTG-1903-rsdlp-2nd-congress`
+- **时效关系边** (`ORG-bolsheviks-rcpb-vkpb` → `MTG-1903-rsdlp-2nd-congress` | `founding-split-event` | 有效时段: `1903`): 党章第一条与中央机构选举形成多数—少数标签
+- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): `1903-07-30` 至 `08-23 [N.S.]` 俄社民工党二大先后在布鲁塞尔与伦敦召开。大会通过党纲；第23次会议马尔托夫党章第一条 `28:22:1` 胜列宁案。随后的崩得与经济派退场逆转了多数，列宁借微弱多数改组《火星报》三人编委，由此衍生布尔什维克与孟什维克之名。
+
+### 邻居节点: `MTG-1917-07-rsdlp-6th-congress`
+- **时效关系边** (`ORG-bolsheviks-rcpb-vkpb` → `MTG-1917-07-rsdlp-6th-congress` | `party-congress` | 有效时段: `1917-07`): 代表约20–24万党员的口径
+- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): `1917-07-26` 至 `08-03 [O.S.] / 1917-08-08` 至 `08-16 [N.S.]`，布尔什维克在彼得格勒半地下召开第六次代表大会。列宁藏身拉兹利夫湖缺席、托洛茨基等系狱，由斯维尔德洛夫主持，斯大林与布哈林作主要政治与国际报告。大会正式批准约4,000人的托洛茨基“区联派（`Межрайонцы`）”并入，在激辩后暂时撤下“一切政权归苏维埃”口号，并留下普列奥布拉任斯基修正案与斯大林“俄国可能率先开辟社会主义道路/创造性马克思主义”的著名交锋。
+
+### 邻居节点: `ORG-left-communists-1918`
+- **时效关系边** (`ORG-bolsheviks-rcpb-vkpb` → `ORG-left-communists-1918` | `internal-opposition` | 有效时段: `1918.01–05`): 布列斯特和约引发的党内分裂，主张革命战争
+- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 1918年初俄共（布）内以布哈林、奥新斯基、拉狄克、普列奥布拉任斯基为首的极左集团，借《共产党人》（`Коммунист`）杂志反对《布列斯特和约》与列宁“国家资本主义”一长制；俄共七大批准和约后作为有组织派别逐步消解，但其国际主义与反官僚化诉求深刻塑造此后党内反对派谱系。
+
+### 邻居节点: `EVT-1918-03-brest-litovsk-treaty`
+- **时效关系边** (`ORG-bolsheviks-rcpb-vkpb` → `EVT-1918-03-brest-litovsk-treaty` | `party-split-trigger` | 有效时段: `1918.01–03`): 和约表决暴露执政后党内路线分歧
+- **节点定性微摘要 [T1]** (完备度 `draft`): 1917年12月停战谈判至1918年3月签约：党内列宁“割地喘息”派、托洛茨基“不战不和”与布哈林“革命战争”派激烈对决；2月18日德军恢复进攻并经2月18/19日夜 7:5:1 试探性电告后，2月23日（公历）中央委员会以 **7:4:4** 接受严苛最后通牒，3月3日签约并经俄共七大批准，左翼社革党遂退出人民委员会。
+
+### 邻居节点: `INS-sovnarkom-and-vtsik`
+- **时效关系边** (`ORG-bolsheviks-rcpb-vkpb` → `INS-sovnarkom-and-vtsik` | `party-state-nexus` | 有效时段: `1917–1929`): 党组织与政府、中执委的权限交叠和领导关系变化
+- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 苏维埃代表大会闭会期间，中执委在宪制上监督政府，人民委员会却迅速掌握施政与大量法令制定。苏俄与1922年成立的苏联各有中执委与人民委员会，不能混同。党内领导与国家机关关系不断变化，政治局权重日增，但1920年代仍须经政府落实决策。
+
+### 邻居节点: `MTG-1921-rcpb-10th-congress`
+- **时效关系边** (`ORG-bolsheviks-rcpb-vkpb` → `MTG-1921-rcpb-10th-congress` | `party-congress` | 有效时段: `1921-03`): 通过《关于党的统一》，限制有组织派别
+- **节点定性微摘要 [T1]** (完备度 `draft`): 1921年3月俄共（布）十大在经济崩溃、农民不满和喀琅施塔得起义背景下举行。大会决定以实物税替代余粮收集，并通过党内统一及反对工团主义等决议，塑造新经济政策与党内纪律框架。
+
+### 邻居节点: `ORG-left-and-united-opposition`
+- **时效关系边** (`ORG-bolsheviks-rcpb-vkpb` → `ORG-left-and-united-opposition` | `internal-opposition` | 有效时段: `1923–1927`): 1927年遭十五大排斥
+- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 1923年剪刀差危机触发的托洛茨基—普列奥布拉任斯基“左翼反对派”，经1926年春与季诺维也夫—加米涅夫“新反对派”结盟为托季联合反对派；以《四十六人声明》与《1927年政纲》批判官僚体制与“一国社会主义”、主张价格—财政渠道的计划工业化，于1927年12月十五大被组织摧毁。
+
+### 邻居节点: `PER-stalin`
+- **时效关系边** (`ORG-bolsheviks-rcpb-vkpb` → `PER-stalin` | `secretariat-leader` | 有效时段: `1922–1929`): 书记处的任命与纪律网络对权力集中起作用
+- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 布尔什维克高加索地下组织者、民族事务人民委员（1917–1923）及中央总书记（1922起）。依托书记处任命权与安全危机叙事，先联季-加压制托洛茨基，再联布哈林击溃联合反对派；1927–1929年以战备恐慌与“自上而下革命”击败布哈林集团，1929年12月拍板“把富农作为阶级消灭”并终结新经济政策。
 
 ## 3. 关联史学争鸣光谱 (Historiographical Debates)
 ### `DEB-1903-bolshevik-menshevik-split`：《怎么办？》与1903年布尔什维克—孟什维克分裂实质之争

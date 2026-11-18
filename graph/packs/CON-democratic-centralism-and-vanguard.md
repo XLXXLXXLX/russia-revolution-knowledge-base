@@ -90,7 +90,7 @@
 - **[组织转折与制度史 / Robert V. Daniels, Oleg Khlevniuk]**（`CLM-daniels-1960-tenth-congress-turning-point`, `CLM-khlevniuk-2015-secretariat-and-nomenklatura`, `CLM-khlevniuk-2015-collective-leadership-erosion`）：Daniels强调1921年的组织转折，Khlevniuk讨论干部任免与集体领导变化；任命权对民主原则的侵蚀及其完成时点属于制度史解释。
 - **[民粹派连续性之争 / Venturi, Berlin, Walicki]**：Venturi 强调民意党的立宪主义与对特卡乔夫的排斥，Berlin 强调民粹派道德内核与布尔什维主义的断裂，Walicki 揭示普列汉诺夫以“反布朗基主义”建构的马克思主义自我认同；三者共同否定“特卡乔夫 → 列宁”的直线谱系（详参 `DEB-1879-narodnaya-volya-to-bolshevism`）。
 
-## 2. 一跳邻域等权重微摘要 (共 17 个关联节点，严防大卡霸占上下文)
+## 2. 一跳邻域等权重微摘要 (共 18 个关联节点，严防大卡霸占上下文)
 ### 邻居节点: `PER-lenin`
 - **时效关系边** (`PER-lenin` → `CON-democratic-centralism-and-vanguard` | `theorist-and-tightener` | 有效时段: `1902-1921`): 从1902《怎么办？》职业革命家网络、1905-1906吸纳民主集中制到1921十大《关于党的统一》禁止派别，塑造列宁主义政党组织弹性与集权双重遗产。
 - **时效关系边** (`CON-democratic-centralism-and-vanguard` → `PER-lenin` | `coined-reformulated-and-suspended-by` | 有效时段: `1902–1923`): 1902年提出职业革命家组织，1905–1906年接受民主集中制，1917年依靠开放党夺权，1921年亲自推动禁派令
@@ -155,11 +155,15 @@
 
 ### 邻居节点: `MTG-1906-04-rsdlp-4th-stockholm-congress`
 - **时效关系边** (`MTG-1906-04-rsdlp-4th-stockholm-congress` → `CON-democratic-centralism-and-vanguard` | `codifies_principle` | 有效时段: `1906`): 大会通过本第2条写入民主集中制，其他条款仍规定选举与内部自治。
-- **节点定性微摘要 [T1]** (完备度 `draft`): 1906-04-23 至 1906-05-08 [N.S.]，俄社民工党在斯德哥尔摩召开统一大会。1905年革命后的基层统一诉求促成两派会合；孟什维克在主要表决中占多数，土地地方自治化方案获胜。大会章程首次明文规定民主集中制，也重组与民族社会民主组织的关系；形式统一并未消除派别网络。
+- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 1906-04-23 至 1906-05-08 [N.S.]，俄社民工党在斯德哥尔摩召开统一大会。1905年革命后的基层统一诉求促成两派会合；孟什维克在主要表决中占多数，土地地方自治化方案获胜。大会章程首次明文规定民主集中制，并把党员公式改回列宁的“加入一个党组织”表述，也重组与民族社会民主组织的关系；形式统一并未消除派别网络。
 
 ### 邻居节点: `MTG-1922-03-11th-party-congress`
 - **时效关系边** (`MTG-1922-03-11th-party-congress` → `CON-democratic-centralism-and-vanguard` | `disciplinary_context` | 有效时段: `1921–1922`): 统一与纪律规则限制了有组织的反对派活动。
-- **节点定性微摘要 [T1]** (完备度 `draft`): 1922-03-27 至 1922-04-02 [N.S.]，俄共（布）十一大在莫斯科召开，是列宁生前出席的最后一次党代会。列宁宣布新经济政策的退却结束，强调经济管理、文化能力和官僚主义问题；大会审议工人反对派申诉并予以警告。闭幕次日，1922-04-03 [N.S.]新中央全会设总书记并任命斯大林，须与大会本身的决定区分。
+- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 1922-03-27 至 1922-04-02 [N.S.]，俄共（布）十一大在莫斯科召开，是列宁生前出席的最后一次党代会。列宁宣布新经济政策的退却结束，强调经济管理、文化能力和官僚主义问题；大会审议工人反对派申诉并予以警告。闭幕次日，**1922-04-03 [N.S.]** 新中央全会设总书记并选出斯大林（任命日）；《真理报》于 **04-04** 低调公布（公布日），二者须与大会本身的决定区分。
+
+### 邻居节点: `ORG-democratic-centralists`
+- **时效关系边** (`ORG-democratic-centralists` → `CON-democratic-centralism-and-vanguard` | `conceptual-framework` | 有效时段: `1919–1927`): 要求集体领导与统一执行结合的概念背景
+- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 民主集中派是1919年初结成的布尔什维克党内反对派，萨普罗诺夫、奥新斯基、弗·斯米尔诺夫等为重要代表，批评以任命和行政命令取代集体领导与基层参与。成员及立场随时间变化：1923年部分人联署《四十六人声明》；后期“十五人集团”须与早期派别区分。
 
 ## 3. 关联史学争鸣光谱 (Historiographical Debates)
 ### `DEB-1879-narodnaya-volya-to-bolshevism`：民意党与布尔什维主义：密谋传统的连续性与异质性

@@ -46,7 +46,7 @@
   - **[莫斯科地方党史 / Catherine Merridale]**（`CLM-merridale-1990-uglanov-moscow-collapse`, `CLM-merridale-1990-grassroots-activist-radicalism`）：展示中央组织分配部（Orgraspred）干预与基层积极分子激进情绪如何共同掏空乌格拉诺夫莫斯科市委。
   - **[思想地缘传记与后苏联寡头解体论 / Stephen Kotkin; Oleg Khlevniuk; Dmitry Apalkov]**（`CLM-kotkin-2014-bukharin-dilemma`, `CLM-khlevniuk-2015-defeat-of-right-opposition`, `CLM-apalkov-2023-collective-to-personal-dictatorship`）：强调反分裂创伤与列宁主义阶级意识形态使右派在斯大林激进化面前进退维谷，右派覆灭标志着政治局寡头集体领导最终让位于斯大林个人专政。
 
-## 2. 一跳邻域等权重微摘要 (共 13 个关联节点，严防大卡霸占上下文)
+## 2. 一跳邻域等权重微摘要 (共 14 个关联节点，严防大卡霸占上下文)
 ### 邻居节点: `PER-bukharin`
 - **时效关系边** (`PER-bukharin` → `ORG-right-opposition-1928` | `theoretical-leader` | 有效时段: `1928.01-1929.11`): 与李可夫、托姆斯基联手抵制斯大林非常征粮与贡赋论，在1929年4月与11月两次中央全会上被击溃。
 - **时效关系边** (`ORG-right-opposition-1928` → `PER-bukharin` | `theoretical-leader` | 有效时段: `1928–1929`): 右派首席理论家，《经济学家札记》与工农市场动态平衡工业化论代言人
@@ -71,7 +71,7 @@
 
 ### 邻居节点: `INS-sovnarkom-and-vtsik`
 - **时效关系边** (`INS-sovnarkom-and-vtsik` → `ORG-right-opposition-1928` | `policy_conflict` | 有效时段: `1928–1929`): 李可夫等政府领导人的政策立场在党内失势
-- **节点定性微摘要 [T1]** (完备度 `draft`): 苏维埃代表大会闭会期间，中央执行委员会在宪制上监督政府；人民委员会作为行政机关却迅速掌握实际施政和大量法令制定。苏俄与1922年成立的苏联分别拥有中央执行委员会和人民委员会，不能混为同一机构。党内领导与国家机关之间的关系不断变化，政治局权重日增，但1920年代仍须通过政府、委员部及其利益冲突落实决策。
+- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 苏维埃代表大会闭会期间，中执委在宪制上监督政府，人民委员会却迅速掌握施政与大量法令制定。苏俄与1922年成立的苏联各有中执委与人民委员会，不能混同。党内领导与国家机关关系不断变化，政治局权重日增，但1920年代仍须经政府落实决策。
 
 ### 邻居节点: `MTG-1928-07-comintern-6th-congress`
 - **时效关系边** (`MTG-1928-07-comintern-6th-congress` → `ORG-right-opposition-1928` | `international-precursor-front` | 有效时段: `1928.07–1929.08`): 六大先行确立“右倾危险”与“对右倾调和态度”政治罪名，随后反噬联共党内的布哈林—李可夫—托姆斯基集团
@@ -101,6 +101,10 @@
 ### 邻居节点: `POL-first-five-year-plan`
 - **时效关系边** (`POL-first-five-year-plan` → `ORG-right-opposition-1928` | `opposed` | 有效时段: `1928–1929.05`): 右派警告剪刀差与强征恶果，组织上败北
 - **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 1928–1929年定案的苏联首部正式工业化纲领：国家计委“起点方案”与“最高方案”之争，经 `1929-04-16` 至 `23` 中央联席全会、`04-23` 至 `29` 第十六次党代表会议与 `05-20` 至 `28` 第五次全苏苏维埃代表大会批准最高方案；下半年工业投资、钢铁与集体农庄指标连环加码，冲垮布哈林“蜗牛般速度”均衡路线，标志新经济政策体制退场与强制集体化并进。
+
+### 邻居节点: `PER-mikoyan`
+- **时效关系边** (`PER-mikoyan` → `ORG-right-opposition-1928` | `moderate-bloc-then-defector` | 有效时段: `1928.02–09`): 在“法制”限度与折中路线中接近右翼，9月后与之划清界线
+- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 米高扬是亚美尼亚裔布尔什维克干部，1920–1922年在下诺夫哥罗德省委崭露头角并进入中央候补委员，1920年代前期转至东南与北高加索党务，1926年进入政治局候补席并执掌苏联内外贸易。粮食采购、城乡商品交换与外贸计划交汇于其部门；1928年春夏他在“法制”限度与折中妥协之间摇摆，至1928年9月在斯大林施压下转向强硬路线，此后成为多数派骨干——强制征购和出口并非一个部门或一个人的单独决策。
 
 ## 3. 关联史学争鸣光谱 (Historiographical Debates)
 ### `DEB-1928-bukharin-alternative`：“布哈林替代方案”与新经济政策终结之争（1928–1929）

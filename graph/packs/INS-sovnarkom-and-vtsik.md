@@ -4,39 +4,49 @@
 
 ## 0. 认知完备度与反偏斜仪表盘 (Epistemic & Skew Warnings)
 - **主卡路径**: `cards/institutions/INS-sovnarkom-and-vtsik.md`
-- **完备度等级**: `draft`
-- **已覆盖视角**: `constitutional-institutional, archival-revisionist, party-state`
-- **待补齐视角**: `provincial-soviet-administration, union-presidium-minutes`
+- **完备度等级**: `multi-perspective`
+- **已覆盖视角**: `constitutional-institutional, revisionist-contingency-via-secondary, party-state, political-economy-carr, soviet-democracy-levy-via-CLM`
+- **待补齐视角**: `provincial-soviet-administration, union-presidium-minutes, pipes-ideological-state-formation`
 - **偏斜风险提示**:
-  - ⚠️ 主卡当前完备度为 `draft`，尚未达到多源交叉核实定稿状态。
-  - ⚠️ 主卡显式声明尚缺以下视角待补: `provincial-soviet-administration, union-presidium-minutes`。
+  - ⚠️ 主卡显式声明尚缺以下视角待补: `provincial-soviet-administration, union-presidium-minutes, pipes-ideological-state-formation`。
 
 ## 1. 主卡核心层 ([T1] + [T2])
 ## [T1] 60秒定性微摘要
-苏维埃代表大会闭会期间，中央执行委员会在宪制上监督政府；人民委员会作为行政机关却迅速掌握实际施政和大量法令制定。苏俄与1922年成立的苏联分别拥有中央执行委员会和人民委员会，不能混为同一机构。党内领导与国家机关之间的关系不断变化，政治局权重日增，但1920年代仍须通过政府、委员部及其利益冲突落实决策。
+苏维埃代表大会闭会期间，中执委在宪制上监督政府，人民委员会却迅速掌握施政与大量法令制定。苏俄与1922年成立的苏联各有中执委与人民委员会，不能混同。党内领导与国家机关关系不断变化，政治局权重日增，但1920年代仍须经政府落实决策。
 
 ## [T2] 核心脉络、时效关系边表与史学争鸣光谱
 
 ### 2.1 核心历史脉络
-- **成立与多党边界**：苏维埃二大第二次会议自 `1917-10-26 [O.S.] / 1917-11-08 [N.S.]` 晚延续至次日，选出新全俄中执委并设立以列宁为主席的临时工农政府。建立人民委员会的法令署 `1917-10-26 [O.S.] / 1917-11-08 [N.S.]`，不可将整个跨午夜会期的 `1917-10-27 [O.S.] / 1917-11-09 [N.S.]` 一概视作法令署日。中执委主席先为加米涅夫，继为斯维尔德洛夫，1919年起为加里宁。新中执委包括左翼社革党人；最初人民委员会全为布尔什维克，左翼社革党于1917年12月加入，1918年3月因和约退出政府。
-- **法令权之争**：左翼社革党及要求广泛社会主义联合政府的布尔什维克温和派等，担心政府绕过代表机关独立立法。`1917-11-04 [O.S.] / 1917-11-17 [N.S.]` 中执委决议承认人民委员会可对紧急事项先颁布法令，同时保留中执委的总体监督和撤换权。决议是对争议的制度性处理，并不证明此后每一法令均违宪；1918年宪法又对紧急授权作了规定。
-- **1918年苏俄宪制**：全俄苏维埃代表大会为最高权力机关；闭会时全俄中执委兼具立法、行政和监督职能，人民委员会负责一般国家管理。重大措施须提交中执委，紧急措施可先行发布，中执委拥有撤销或停止权限。Carr 分析认为紧急例外与内战行政使政府权重上升；他所引1917–1921年法令统计为政府1,615项、中执委375项，数字依所用统计范围理解（Carr, vol. 1, pp. 148、216）。
-- **联盟与共和国的双层结构**：1922年12月苏联成立后，全俄机关仍是苏俄共和国机关，并非自动变为全苏机关；1923年7月全苏中执委通过联盟宪法文本，1924年1月第二次全苏苏维埃代表大会批准。全苏中执委由联盟院和民族院构成，其主席团与苏联人民委员会为不同机关；联盟与共和国人民委员部依权限分工（`RN-W32-carr-dispersal-and-reunion-nationalities-ussr-1917-1923`）。
-- **党内权力与政府**：1924年列宁去世后李可夫接任苏联人民委员会主席，也在相当时期兼任苏俄政府主席。1920年代后期政治局和党组织越来越多地决定重大路线；1928–1929年斯大林与多数派在征粮和工业化等问题上压制李可夫及其盟友的反对。具体决策是否绕开政府，必须查个案的政治局记录与人民委员会决议，不能据路线失败一概断言所有决议未经政府。
+- **成立与多党边界**：苏维埃二大第二次会议自 `1917-10-26 [O.S.] / 1917-11-08 [N.S.]` 晚延续至次日，选出新全俄中执委并设立以列宁为主席的临时工农政府（`MTG-1917-10-2nd-congress-of-soviets`；`WEB-1917-10-26-decrees-peace-land`）。建立人民委员会的法令署 `1917-10-26 [O.S.] / 1917-11-08 [N.S.]`，不可将跨午夜会期的 `1917-10-27 [O.S.] / 1917-11-09 [N.S.]` 一概视作法令署日。中执委主席先为加米涅夫（`PER-kamenev`），`1917-11-08 [O.S.] / 1917-11-21 [N.S.]` 由斯维尔德洛夫接任（`PER-sverdlov`；L3 `1917-11_vikzhel_coalition_talks_and_sovnarkom_crisis` L126），1919年起为加里宁（`PER-kalinin`）。新中执委包括左翼社革党人（`ORG-left-srs`）；最初人民委员会全为布尔什维克，左翼社革党于1917年12月加入，1918年3月因和约退出政府（`POL-brest-litovsk-treaty`）。
+- **中执委扩编**：`1917-11-15 [O.S.] / 1917-11-28 [N.S.]` 工兵与农民苏维埃中执委合并，原101名代表外加农民执委108名、陆海军代表100名、工会代表50名（L3 L158）。因此“中执委”的分母并非二大选出的原班人马。
+- **法令权之争**：左翼社革党及要求广泛联合的布尔什维克温和派担心政府绕过代表机关立法（`ORG-vikzhel`；`DEB-1917-all-socialist-coalition-vikzhel-missed-chance`）。`1917-11-04 [O.S.] / 1917-11-17 [N.S.]` 中执委决议承认人民委员会可对紧急事项先颁布法令，同时保留总体监督与撤换权。库内 L3 并列几组表决：拉林出版法令动议 `34:24`（1弃权，即 `34:24:1`）被否决，斯皮罗不信任动议 `20:25`（12弃权）被否决，乌里茨基决议 `29:23:3` 通过，异文 `25:23`（Pipes 部分记录）。L3 同时写明四名身为人民委员的布尔什维克代表亲自投票，决议才勉强过关，故此决议是否具备代议机关多数支持须谨慎判断；速记原件待核。决议并不证明此后每一法令均违宪。
+- **1918年苏俄宪制**：`1918-07-10` 第五次全俄苏维埃代表大会通过苏俄宪法（改历后纯公历；`WEB-1918-07-10-rsfsr-constitution`；`MTG-1918-07-5th-congress-of-soviets`），全俄苏维埃代表大会为最高权力机关；闭会时全俄中执委兼具立法、行政与监督职能，人民委员会负责一般国家管理，重大措施须提交中执委，紧急措施可先行发布，中执委有撤销或停止权限。Carr 的札记记中执委由200人增至300人、会期缩短，并增设劳动国防会议、计委与小型人民委员会；人民委员会1917–1921年颁布1,615项法令、中执委375项，该统计由 Carr 转引韦尔纳茨基，数字依统计范围理解（`RN-W35-carr-lenin-party-instrument-and-soviet-constitution-1917-1923`#L67；`RN-W23-carr-party-state-constitution-and-economic-order-1917-1923`）。立宪会议问题见 `CON-constituent-assembly`；`EVT-1918-01-constituent-assembly-dispersal`；`DEB-1918-constituent-assembly-and-soviet-democracy`。
+- **联盟与共和国的双层结构**：1922年12月苏联成立后，全俄机关仍是苏俄共和国机关，并非自动变为全苏机关；1923年7月全苏中执委通过联盟宪法文本，1924年1月第二次全苏苏维埃代表大会批准（`RN-W32-carr-dispersal-and-reunion-nationalities-ussr-1917-1923`；`EVT-1922-georgian-affair-and-ussr-formation`；`DEB-1923-nationality-and-empire`）。全苏中执委由联盟院和民族院构成，其主席团（集体主席含加里宁，其余成员库内无专卡，待核）与苏联人民委员会为不同机关。
+- **党内权力与政府**：1924年列宁去世后李可夫（`PER-rykov`）接任苏联人民委员会主席，也在相当时期兼任苏俄政府主席。1920年代后期政治局和党组织越来越多地决定重大路线；1928–1929年斯大林与多数派在征粮和工业化等问题上压制李可夫及其盟友（`ORG-right-opposition-1928`）。具体决策是否绕开政府，须查个案的政治局记录与人民委员会决议，不能据路线失败一概断言。
 
 ### 2.2 时效关系摘要边表
 | 关联节点 ID | 关系类型 | 有效时段 | 关系实质 | 核心依据 |
 | :--- | :--- | :--- | :--- | :--- |
-| `PER-lenin` | `chaired_government` | 1917–1924 | 主持苏俄、后又主持苏联人民委员会 | 二大政府法令；Carr |
-| `PER-sverdlov` | `chaired_vtsik` | 1917–1919 | 继加米涅夫任全俄中执委主席 | 二大后中执委档案待核 |
+| `PER-lenin` | `chaired_government` | 1917–1924 | 主持苏俄、后又主持苏联人民委员会 | `WEB-1917-10-26-decrees-peace-land`；Carr |
+| `PER-kamenev` | `chaired_vtsik` | 1917.10–11 | 二大选出的首任中执委主席 | L3 `1917-11_…` L126 |
+| `PER-sverdlov` | `chaired_vtsik` | 1917.11–1919 | `1917-11-08 [O.S.]` 接替加米涅夫 | L3 `1917-11_…` L126 |
+| `PER-kalinin` | `chaired_vtsik` | 1919–1929 | 1919年起任中执委主席，后为联盟主席团成员 | `PER-kalinin` 卡 |
+| `PER-rykov` | `chaired_government` | 1924–1929 | 接任人民委员会主席，1928–1929年政策立场失势 | `CLM-khlevniuk-2015-defeat-of-right-opposition` |
+| `ORG-vikzhel` | `legislative_power_dispute` | 1917-11 | 11-04 表决与联合政府谈判背景 | L3 `1917-11_…`；`DEB-1917-all-socialist-coalition-vikzhel-missed-chance` |
+| `ORG-left-srs` | `coalition_partner` | 1917.12–1918.03 | 1917年12月入阁，1918年3月因和约退出 | `RN-W23-carr-party-state-constitution-and-economic-order-1917-1923`；`POL-brest-litovsk-treaty` |
+| `MTG-1917-10-2nd-congress-of-soviets` | `constituting_event` | 1917-10-26 [O.S.] | 选出中执委并成立工农政府 | `MTG-1917-10-2nd-congress-of-soviets`；`WEB-1917-10-26-decrees-peace-land` |
+| `MTG-1918-07-5th-congress-of-soviets` | `constitution_adoption` | 1918-07-10 | 通过苏俄宪法 | `WEB-1918-07-10-rsfsr-constitution` |
+| `CON-constituent-assembly` | `competing_legitimacy` | 1917–1918 | 立宪会议与苏维埃代表机关的合法性竞争 | `DEB-1918-constituent-assembly-and-soviet-democracy` |
+| `EVT-1918-01-constituent-assembly-dispersal` | `legitimacy_dispute_event` | 1918.01 | 立宪会议解散后苏维埃机关的合法性 | `CLM-rabinowitch-2007-constituent-assembly` |
+| `POL-brest-litovsk-treaty` | `coalition_exit_trigger` | 1918.03 | 左翼社革党退出政府 | `RN-W23-carr-party-state-constitution-and-economic-order-1917-1923` |
 | `INS-politburo-orgburo-secretariat` | `directed_and_overlapped` | 1919–1929 | 党内路线决策与国家行政交叠，但组织与法定权限不同 | `CLM-carr-1950-soviet-to-party-ascendancy-mechanism` |
 | `ORG-right-opposition-1928` | `policy_conflict` | 1928–1929 | 李可夫等政府领导人的政策立场在党内失势 | `CLM-khlevniuk-2015-defeat-of-right-opposition` |
-| `EVT-1922-georgian-affair-and-ussr-formation` | `union_constitutional_context` | 1922–1924 | 联盟宪制在共和国权限和中央集权之间建立复杂分工 | Carr vol. 1, pp. 402–409 |
+| `EVT-1922-georgian-affair-and-ussr-formation` | `union_constitutional_context` | 1922–1924 | 联盟宪制在共和国权限和中央集权之间建立复杂分工 | `RN-W32-carr-dispersal-and-reunion-nationalities-ussr-1917-1923`（原：Carr vol. 1, pp. 402–409） |
 
 ### 2.3 史学争鸣光谱
-**共识**：政府的紧急施政权与党内领导日益重要，苏俄和联盟两级机关在宪法上并存。**分歧**：Carr 重视宪法权限与行政运作之间的偏差，强调党权威如何协调国家机构，但早期写作受未公开档案限制；Rabinowitch 依据彼得格勒和中央档案强调1917–1918年联合政府的争执、地方合作及一党统治形成的偶然性，而非一开始就视之为既定终点；Khlevniuk 对后期政治局内部的联盟变化和合议限制提供重要校正。参 `CLM-rabinowitch-2007-contingency-of-dictatorship`、`CLM-khlevniuk-2015-collective-leadership-erosion`。
+**共识**：政府的紧急施政权与党内领导日益重要，苏俄和联盟两级机关在宪法上并存。**分歧**：Carr 重视宪法权限与行政运作之间的偏差，强调党权威如何协调国家机构，但早期写作受未公开档案限制；Rabinowitch 依据彼得格勒和中央档案强调1917–1918年联合政府的争执、地方合作及一党统治形成的偶然性（`CLM-rabinowitch-2007-contingency-of-dictatorship`）；Khlevniuk 对后期政治局内部的联盟变化和合议限制提供校正（`CLM-khlevniuk-2015-collective-leadership-erosion`）；Levy 一线讨论苏维埃机关“活跃化”的悖论（`CLM-soviet-democracy-1924-1927-ozhivlenie-sovetov-paradox`；`reading-notes/levy_soviet_democracy/RN-W23-makhaevism-intelligentsia-and-soviet-democracy-1917-1929.md`）。Pipes 一极强调意识形态与权力集中，库内未登记于本卡。`archival-revisionist` 标签已改为 `revisionist-contingency-via-secondary`，因本卡未直接使用档案原件。
 
-## 2. 一跳邻域等权重微摘要 (共 5 个关联节点，严防大卡霸占上下文)
+## 2. 一跳邻域等权重微摘要 (共 17 个关联节点，严防大卡霸占上下文)
 ### 邻居节点: `PER-lenin`
 - **时效关系边** (`INS-sovnarkom-and-vtsik` → `PER-lenin` | `chaired_government` | 有效时段: `1917–1924`): 主持苏俄、后又主持苏联人民委员会
 - **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 布尔什维克党缔造者、苏俄人民委员会主席（1917–1924）。1893年投身马克思主义运动，1903年促成布尔什维克分化；1917年发表《四月提纲》并领导十月夺权，历经布列斯特和约、内战与战时共产主义；1921年主持转向新经济政策，晚年（1922–1923）就官僚化与接班人同斯大林冲突。
@@ -57,6 +67,55 @@
 - **时效关系边** (`INS-sovnarkom-and-vtsik` → `EVT-1922-georgian-affair-and-ussr-formation` | `union_constitutional_context` | 有效时段: `1922–1924`): 联盟宪制在共和国权限和中央集权之间建立复杂分工
 - **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 1921年红军进入格鲁吉亚后，地方共产党领导人与高加索局就外高加索联邦化激烈冲突。1922年斯大林主张各共和国自治化并入苏俄，列宁提出共和国平等组成新联盟；`1922-12-30` 首届全联盟苏维埃代表大会通过建盟宣言和条约。形式平等、党的集中领导与地区权力实际分配之间的张力并未消失。
 
+### 邻居节点: `EVT-1921-1922-volga-famine-and-church-valuables-crisis`
+- **时效关系边** (`EVT-1921-1922-volga-famine-and-church-valuables-crisis` → `INS-sovnarkom-and-vtsik` | `confiscates` | 有效时段: `1922-02-23 起`): 财政救灾理由与对教会机构的强制打击相互交织（全俄中执委法令）。
+- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 内战、征粮、生产与运输崩溃叠加1920—1921年连续歉收与旱灾，在伏尔加、乌拉尔及其他地区造成大饥荒（Figes：全国约500万死亡）。国际救济（ARA）与国家救灾并行，政府同时压制独立民间赈济（Pomgol）。1922年强征教会贵重物品引发冲突；列宁`1922-03-19`的信主张以“最无情的精力”利用饥荒时机推进没收，但其目标与范围——是打击“反动神职人员”还是教会本身——在站内史家间有分歧。灾害死亡、受灾和救济数字必须按地域与统计对象区分。
+
+### 邻居节点: `PER-kamenev`
+- **时效关系边** (`INS-sovnarkom-and-vtsik` → `PER-kamenev` | `chaired_vtsik` | 有效时段: `1917.10–11`): 二大选出的首任中执委主席
+- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 老布尔什维克、首任全俄中执委主席。1917年自四月至立宪会议一贯坚守温和宪政社会主义联盟路线并公开反对十月起义；1924年十三大联手季诺维也夫压下《列宁遗嘱》，1925年十四大公开发言反斯大林“领袖”集权后失势；1928年7月密会布哈林并留下外泄笔记，反成右派致命罪证。
+
+### 邻居节点: `PER-kalinin`
+- **时效关系边** (`INS-sovnarkom-and-vtsik` → `PER-kalinin` | `chaired_vtsik` | 有效时段: `1919–1929`): 1919年起任中执委主席，后为联盟主席团成员
+- **节点定性微摘要 [T1]** (完备度 `draft`): 特维尔农民出身的布尔什维克“和蔼面孔”：1919年起任全俄及苏联中央执行委员会主席（国家名义元首），1926年1月入政治局。1920年代中期因亲近农民与布哈林富裕农民路线闻名；1928年七月全会关键时刻倒向斯大林，使右派失去政治局多数，1929年仍留多数派未与布哈林集团一同出局。
+
+### 邻居节点: `PER-rykov`
+- **时效关系边** (`INS-sovnarkom-and-vtsik` → `PER-rykov` | `chaired_government` | 有效时段: `1924–1929`): 接任人民委员会主席，1928–1929年政策立场失势
+- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 老布尔什维克与苏维埃经济组织家。1917年四月会议曾质疑《四月提纲》，十月后因维克热尔联合政府诉求辞职；两掌最高国民经济委员会，1924年继列宁任苏联人民委员会主席；1928–1929年协同布哈林抵制非常征粮并提“两年农业计划”遭撤职清洗，其名却在库班农民口号中回响。
+
+### 邻居节点: `ORG-vikzhel`
+- **时效关系边** (`INS-sovnarkom-and-vtsik` → `ORG-vikzhel` | `legislative_power_dispute` | 有效时段: `1917-11`): 11-04 表决与联合政府谈判背景
+- **时效关系边** (`ORG-vikzhel` → `INS-sovnarkom-and-vtsik` | `legislative-power-dispute` | 有效时段: `1917-11`): 11-04 中执委表决人民委员会法令权
+- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 维克热尔是1917年夏产生的全国铁路工会执行机关。铁路连接军队、粮食与城市，十月革命后其运输杠杆使它试图调停各社会主义政党、推动广泛联合政府。布尔什维克内部为此严重分裂，谈判未能实现最广泛联合，新的铁路工会领导机关后与布党及左翼社革党合作。
+
+### 邻居节点: `ORG-left-srs`
+- **时效关系边** (`INS-sovnarkom-and-vtsik` → `ORG-left-srs` | `coalition_partner` | 有效时段: `1917.12–1918.03`): 1917年12月入阁，1918年3月因和约退出
+- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 1917年底从社会革命党分裂出的激进民粹派政党（1917–1923），以斯皮里多诺娃、普罗相等为首。拥护苏维埃政权并于1917年12月加入人民委员会与布尔什维克联合执政；1918年3月因反《布列斯特和约》退阁但仍维持北方公社合作，7月6日刺杀德国大使米尔巴赫遭全面清洗而覆灭。
+
+### 邻居节点: `MTG-1917-10-2nd-congress-of-soviets`
+- **时效关系边** (`INS-sovnarkom-and-vtsik` → `MTG-1917-10-2nd-congress-of-soviets` | `constituting_event` | 有效时段: `1917-10-26 [O.S.]`): 选出中执委并成立工农政府
+- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 1917-10-25至10-27 [O.S.] / 1917-11-07至11-09 [N.S.]在彼得格勒斯莫尔尼召开的第二届全俄工兵代表苏维埃代表大会。孟什维克、右翼社革党等退场、左派社革党留场后，大会先后通过《告工人、士兵和农民书》宣告政权转归苏维埃，审议通过《和平法令》与《土地法令》，并于闭幕前批准成立以列宁为主席的纯布尔什维克人民委员会及加米涅夫任主席的新一届全俄中央执行委员会；围绕政权更替合法性、全社会主义联合政府与立宪会议权限的分歧由此全面公开化。
+
+### 邻居节点: `MTG-1918-07-5th-congress-of-soviets`
+- **时效关系边** (`INS-sovnarkom-and-vtsik` → `MTG-1918-07-5th-congress-of-soviets` | `constitution_adoption` | 有效时段: `1918-07-10`): 通过苏俄宪法
+- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 1918-07-04 至 1918-07-10 [N.S.]，第五次全俄苏维埃大会在莫斯科召开。布尔什维克与左翼社革党围绕和约、粮食政策及代表资格尖锐冲突；7月6日米尔巴赫遇刺后，武装冲突和对左翼社革党的拘押使两党苏维埃合作崩溃。7月10日，留下的代表通过首部俄罗斯苏维埃联邦社会主义共和国宪法。
+
+### 邻居节点: `CON-constituent-assembly`
+- **时效关系边** (`INS-sovnarkom-and-vtsik` → `CON-constituent-assembly` | `competing_legitimacy` | 有效时段: `1917–1918`): 立宪会议与苏维埃代表机关的合法性竞争
+- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 1879年民意党至1917年俄国各反对党共享四十年的最高民主合法性图腾（“俄国土地的主人”）。1917年临时政府屡次推迟选举，遭布尔什维克反用口号攻击；11月全俄普选社革党获多数而布尔什维克占两京与近卫战线优势；`1918-01-05/06 [O.S.] / 01-18/19 [N.S.]` 召开仅一夜即遭武力解散，夏秋复沦为萨马拉`Комуч`短命内战旗帜。
+
+### 邻居节点: `EVT-1918-01-constituent-assembly-dispersal`
+- **时效关系边** (`INS-sovnarkom-and-vtsik` → `EVT-1918-01-constituent-assembly-dispersal` | `legitimacy_dispute_event` | 有效时段: `1918.01`): 立宪会议解散后苏维埃机关的合法性
+- **节点定性微摘要 [T1]** (完备度 `draft`): 1918年1月5–6日（俄历）/1月18–19日（公历），全俄立宪会议在塔夫利达宫召开唯一常会，社革党切尔诺夫以244:153当选主席。5日白天保卫立宪会议游行在利捷伊内大街遭枪击（15至21人死亡），6日凌晨水兵卫队勒令清场关闭，西方式多党议会制尝试终结。
+
+### 邻居节点: `POL-brest-litovsk-treaty`
+- **时效关系边** (`INS-sovnarkom-and-vtsik` → `POL-brest-litovsk-treaty` | `coalition_exit_trigger` | 有效时段: `1918.03`): 左翼社革党退出政府
+- **节点定性微摘要 [T1]** (完备度 `draft`): 苏俄与同盟国于1918年3月3日签署的和约使俄国退出第一次世界大战，承认重大领土损失；德国战败后苏俄于11月宣布废除。
+
+### 邻居节点: `ORG-bolsheviks-rcpb-vkpb`
+- **时效关系边** (`ORG-bolsheviks-rcpb-vkpb` → `INS-sovnarkom-and-vtsik` | `party-state-nexus` | 有效时段: `1917–1929`): 党组织与政府、中执委的权限交叠和领导关系变化
+- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 布尔什维克起于1903年社民工党二大后的党内多数派，经流亡、地下活动与1917年群众扩张成为执政党；1918年称俄共（布），1925年称联共（布）。它从地方主动性较强的革命党，演变为拥有任命网络与纪律制裁的党国核心，过程分阶段且存争议。
+
 ## 3. 关联史学争鸣光谱 (Historiographical Debates)
 ### `DEB-1922-lenin-testament-and-stalin-rise`：列宁晚年、格鲁吉亚事件与斯大林崛起机制
 ## [T1] 核心问题定义
@@ -71,6 +130,47 @@
 | 文献流转质疑与重定年派 | Stephen Kotkin, *Stalin, Vol. 1* (2014, Ch. 11) | 指出《给代表大会的信》缺失列宁亲签与原始速记底本、打字件经克鲁普斯卡娅与秘书圈流转存有加工疑窦，并据斯大林3月7日复函“约五周前”将电话冲突重定年于1923年1月下旬；同时强调斯大林不可替代的机关功能使其难因一纸信函下台。 | `CLM-kotkin-2014-geopolitics-and-ideology`; `L3 1922-12` 专章对勘 | 尚无直接物证证明秘书团凭空捏造，且难以解释斯大林本人在十三大与1927全会从未质疑文件真伪。 |
 | 左翼悲剧论 vs 政治失误批判 | Isaac Deutscher (1959) vs Robert Service, *Trotsky* (2009) | 多伊彻痛惜托洛茨基3月6日拒绝落井下石错失良机且受困一党纪律；瑟维斯则据档案批评托洛茨基共享威权前提、两拒人民委员会副主席职务并在十二大傲慢避战，纯属政治判断失误。 | `CLM-deutscher-1959-disarmed-prophet-paradox`; `CLM-service-2009-trotsky-authoritarian-consensus`; `CLM-service-2009-trotsky-political-tactical-blunders` | 需将个人性格失误置于书记处与三驾马车结构结盟中评估。 |
 | 俄国“伪列宁文本”极端派 | V. A. Sakharov (2003 遗嘱专著; 2012《十字路口》) | 其2003年专著极端断言遗嘱与民族札记系克鲁普斯卡娅—托派伪造；库内已入库的2012年著作则聚焦《论合作社》两稿差异与1920年代路线争夺（两书议题边界须严格区分）。 | `CLM-sakharov-2012-lenin-cooperative-plan-debates`; `CLM-sakharov-2012-nep-crossroads-1928` | 全盘伪造说遭赫列夫纽克、洛吉诺夫等主流俄罗斯档案学者一致否证。 |
+
+### `DEB-1917-all-socialist-coalition-vikzhel-missed-chance`：维克热尔谈判与清一色社会主义联合政府之争
+## [T1] 核心问题定义
+十月起义后铁路工会维克热尔推动的社会主义政党联合政府，是多党苏维埃政治一度存在而后丧失的选择，还是各方对夺权合法性、政府构成和战争的分歧使之难以实现？谈判破裂的责任和一个可持续联盟的可行性是两个不同问题。
+
+## [T2] 经验共识 + 各学派立场对照矩阵
+
+**经验共识**：1917年俄历十月下旬至十一月初（公历十一月），维克热尔借铁路运输与罢工威胁推动协商；布尔什维克内部对让步有分歧，加米涅夫、李可夫等支持扩大联合，列宁与托洛茨基反对危及既得权力的条件。谈判最终未产生所设想的广泛联合政府；后来成立的布尔什维克—左翼社革党联合，范围较窄。
+
+| 取向 | 代表与核心解释 | 盲点与待核问题 | 本地论断锚点 |
+| :--- | :--- | :--- | :--- |
+| 情境偶然与多元可能 | Rabinowitch (2007) 重视布尔什维克内部温和派及基层压力，强调一党专政并非十月自动写定。 | 支持谈判并不等于各派已同意同一内阁、纲领或权力分配；须区分首都证据和全国意见。 | `CLM-rabinowitch-2007-contingency-of-dictatorship`; `CLM-rabinowitch-2007-left-sr-coalition-collapse` |
+| 意识形态与权力集中 | Pipes、Malia 强调列宁的政治观及其对权力垄断的追求；联合谈判可被解释为策略性周旋。 | 若把每次谈判都预设为幌子，便难解释党内真实争论和策略变化；两位作者对此次谈判的具体措辞仍须核原著。 | `CLM-pipes-1990-october-classic-coup` |
+| 革命左翼的结构不相容 | Trotsky、Deutscher强调对十月合法性、权力归属和列宁、托洛茨基本人入阁的冲突，认为某些条件将削弱革命政府。 | 托洛茨基兼具参与者与事后论辩者身份；不能把反对党内部不同条件视作始终一致。 | `CLM-basil-1984-october-and-vikzhel-collapse` |
+| 温和社会主义与地方政治 | Galili、Koenker、Hickey 的研究方向提示考察温和派及省城组织的分歧，不应只看首都领袖。 | 各作者对维克热尔及地方联盟的具体论断仍须逐项核实；地方个案不必然代表全国。 | `CLM-galili-1989-coalition-government-trap`; `CLM-hickey-2001-smolensk-moderate-socialists-collapse-1917`; `CLM-basil-1984-menshevik-three-way-paralysis` |
+
+### `DEB-1918-constituent-assembly-and-soviet-democracy`：解散立宪会议与多党苏维埃民主的命运
+## [T1] 核心问题定义
+1918年立宪会议被武力解散，是否意味着一党统治已不可避免？争论涉及普选制宪与阶级性苏维埃两种合法性、群众动员和镇压，以及此后左翼多党合作与体制内反对派仍有多少政治空间。
+
+## [T2] 各学派立场对照矩阵
+| 学派/取向 | 代表学者与著作 | 核心论点摘要 | 支撑论断卡 | 主要受批评盲点 |
+| :--- | :--- | :--- | :--- | :--- |
+| 修正派与地方档案 | Alexander Rabinowitch, *The Bolsheviks in Power* (2007) | 解散由布尔什维克党内温和派（加米涅夫等）败给列宁、左翼社革党配合及相当程度的工农冷漠共同促成；多党苏维埃空间是在1918年春夏危机中分阶段收缩的。 | `CLM-rabinowitch-2007-constituent-assembly`; `CLM-rabinowitch-2007-contingency-of-dictatorship`; `CLM-rabinowitch-2007-left-sr-coalition-collapse` | 彼得格勒经验能否推广全国、危机解释是否低估意识形态与主动镇压，均有争议。 |
+| 社会革命党与选举史奠基派 | Oliver H. Radkey, *The Sickle under the Hammer* (1963) | 拆解社革党选票内部俄/乌与左右翼裂痕（299俄社革+81乌社革），揭示右翼社革党领导层因迷信合法议会程序、禁止武装保卫议会而自缚手脚，随后在萨马拉—西伯利亚沦为白卫军官“保护色”。 | `CLM-smith-scott-2011-psr-third-force-collapse`（馆藏真身 Radkey 1963）；`DATA-01` | 对精英策略失误的严厉道德批评有时低估了士兵厌战的结构性约束。 |
+| 自由主义制度批判 | Richard Pipes, *The Russian Revolution* (1990) | 将1918年1月枪击保卫立宪会议游行与武力关闭议会视为列宁夺权意志与极权恐怖制度化的真正起点，认为布尔什维克借民众疲惫确立了不受制约的专政。 | `CLM-pipes-1990-october-classic-coup`; `CLM-pipes-1990-red-terror-leninist-logic` | 对地方苏维埃多党合作与1918年上半年布尔什维克党内争论关注不足。 |
+| 孟什维克与议会民主传记派 | Israel Getzler, *Martov* (1967); W. H. Roobol, *Tsereteli* (1976) | 策烈铁里在 `1918-01-05 [O.S.]` 立宪会议讲坛作最后跨阶级议会民主抗辩；马尔托夫则在会后转入苏维埃体制内开展半合法反对（直至 `1918-06-14` 全俄中执委驱逐右社革与孟什维克）。 | `CLM-getzler-1967-martov-soviet-opposition`; `CLM-roobol-1976-tsereteli-tragedy-of-moderation` | 领袖政治伦理需与工厂全权代表会议（丘拉科夫 `CLM-churakov-2004-*`）实证规模对勘。 |
+
+### `DEB-1923-nationality-and-empire`：布尔什维克民族政策、格鲁吉亚事件与苏维埃“肯定性行动帝国”性质之争
+## [T1] 核心问题定义
+`1922-08` 至 `1923-04-25`（自“自治化”方案、格鲁吉亚冲突至俄共十二大民族问题特别会议闭幕）及其后1920年代本土化实践，布尔什维克是在建设多民族“肯定性行动帝国”内的制度化本土化体制，还是以先锋队组织垄断维系的大俄罗斯官僚集权？争论焦点在于解密速记揭示的制度妥协与各学派因果—价值判断之分。
+
+## [T2] 各学派立场对照矩阵
+| 学派/取向 | 代表学者与著作 | 核心论点摘要 | 支撑论断卡 | 主要受批评盲点 |
+| :--- | :--- | :--- | :--- | :--- |
+| 列宁晚期斗争与反官僚论 | Moshe Lewin, *Lenin's Last Struggle* (1968) | 格鲁吉亚事件暴露大俄罗斯沙文主义“为整个政府机器所服务”并与官僚机构合流，列宁晚年警觉最高层专政退化风险，准备清算 *dzerzhimordy*；民族问题是撤换斯大林问责的实质切口之一。 | `CLM-lewin-1968-georgian-affair-bureaucracy`; `CLM-lewin-1968-testament-intent` | 易将列宁口述笔记重构为高度连贯的“遗嘱计划”；写于1990年代十二大特别会议速记解密之前。 |
+| 自由主义—极权连续论 | Richard Pipes, *The Formation of the Soviet Union: Communism and Nationalism, 1917–1923* (1954; rev. ed. 1964) | 论证布尔什维克以红军武力征服外高加索与边疆，通过单一集权党中央架空形式上的联邦制；十二大被定性为斯大林行政中央集权对民族自治的彻底胜利（Smith 正面驳斥此说）。 | `CLM-carr-1950-self-determination-to-federal-reunion`；`CLM-smith-jeremy-1999-twelfth-congress-korenizatsiia` 对勘引述 | 1991年解密的十二大民族问题特别会议速记显示边疆代表反击与中央制度让步远比“单方全胜”复杂。 |
+| 解密档案民族妥协论 | Jeremy D. Smith, *The Bolsheviks and the National Question, 1917–1923* (1999) | 列宁—斯大林在集中制原则上确有共识，但 `1923-04` 十二大民族问题特别会议显示边疆代表迫使斯大林大幅退让，奠定1920年代本土化相对稳固期；格鲁吉亚危机不宜简化为列斯个人生死对决。 | `CLM-smith-jeremy-1999-twelfth-congress-korenizatsiia`; `CLM-smith-jeremy-1999-georgian-affair-reassessed` | 本土化制度繁荣期止于1930年代逆转，分期边界须清晰。 |
+| 帝国史学框架 | Ronald Grigor Suny, *The Red Flag Unfurled* (2017) 等 | 沙俄—苏联宜在“宗主—边缘不平等从属与差异治理”的帝国框架下理解民族建构；1991年后“苏联=帝国”共识含事后目的论归因风险。 | `CLM-suny-2017-empire-and-nationality-dimension` | 帝国理论有助于宏观比较定位，但不能替代十二大速记级制度考证。 |
+| 乌克兰社会史与本土化悖论 | George Liber, *Soviet Nationality Policy, Urban Growth, and Identity Change in the Ukrainian SSR 1923–1934* (1992) | 本土化整合城乡乌克兰人、扩张乌克兰语公共领域的同时，制度化语言边界并孕育中央难以完全消化的地方民族诉求。 | `CLM-liber-1992-korenizatsiia-paradox-late-1920s`; `CLM-liber-1992-ukrainianization-and-urban-working-class` | 侧重乌克兰工业城市化案例，外高加索与中亚须分区域检验。 |
+| “肯定性行动帝国”概念框架 | Terry Martin, *The Affirmative Action Empire* (2001) 等 | 1920年代苏联对非俄罗斯民族实施制度化优待（干部、语言、教育与领土配额），以党国政治垄断为前提整合多民族边缘——动员成效与潜在离心张力并存。 | （Martin 专著独立论断卡尚待 `close-reader` 入库；现阶段参看 `POL-korenizatsiia` 与 `CLM-smith-jeremy-1999-twelfth-congress-korenizatsiia`） | 概念易被字面混同于当代西方多元主义平权政策，须严守一党专政前提。 |
 
 ## 4. 关联时间线锚点 (共 23 条)
 - **1917-10-27 [O.S.] / 1917-11-09 [N.S.]** (`TL-W36-1917-11-09-01`, L3): **人民委员会颁布《出版法令》并确认立宪会议选期** — 全俄二大清晨闭幕后数小时，纯布尔什维克人民委员会即颁布由列宁签署（卢那察尔斯基执笔）的《出版法令》，授权查禁煽动反抗苏维埃的资产阶级与敌对报刊并承诺新秩序巩固后恢复出版自由；同日确认立宪会议于11-12 [O.S.]选举、11-28 [O.S.]开幕。

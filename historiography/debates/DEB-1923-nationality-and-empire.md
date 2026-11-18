@@ -6,7 +6,7 @@ era: "1922-1929"
 dates:
   start_ns: "1922-08-10" # 俄共组织局设委员会起草自治化方案，引爆格鲁吉亚与联邦制争端
   end_ns: "1923-04-25"   # 涵盖俄共十二大及民族问题特别分组会议闭幕（本土化后续实践延伸至1929年）
-core_cards: ["POL-korenizatsiia", "MTG-1923-04-12th-party-congress", "EVT-1922-georgian-affair", "EVT-1922-ussr-formation", "PER-lenin", "PER-stalin", "PER-trotsky", "PER-dzerzhinsky"]
+core_cards: ["POL-korenizatsiia", "MTG-1923-04-12th-party-congress", "EVT-1922-georgian-affair-and-ussr-formation", "PER-lenin", "PER-stalin", "PER-trotsky", "PER-dzerzhinsky"]
 coverage_status: multi-perspective
 perspectives_present: ["revisionist-lewin", "liberal-cold-war-pipes", "archival-nationalities-smith", "imperial-history-suny", "ukrainian-social-history-liber"]
 perspectives_missing: ["martin-affirmative-action-empire-full-claims"]

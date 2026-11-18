@@ -42,7 +42,7 @@
   - **[联合政府陷阱论 / Ziva Galili]** (`CLM-galili-1989-coalition-government-trap`, `CLM-galili-1989-revolutionary-defensism`)：社会主义阁员清醒预知入阁会破坏苏维埃监督，却在国家崩溃恐惧下跳入；维护战争努力与经济压制使护国派迅速丧失产业工人。
   - **[首都基层动员视角 / Alexander Rabinowitch]** (`CLM-rabinowitch-1968-grassroots-soldier-sailor-radicalism`, `CLM-rabinowitch-1968-divided-bolshevik-party-july`)：七月与夏秋危机需从驻军、工厂布尔什维克基层组织理解，不能把临时政府失败单纯归因为自由派“软弱”。
 
-## 2. 一跳邻域等权重微摘要 (共 14 个关联节点，严防大卡霸占上下文)
+## 2. 一跳邻域等权重微摘要 (共 17 个关联节点，严防大卡霸占上下文)
 ### 邻居节点: `ORG-petrograd-soviet`
 - **时效关系边** (`ORG-petrograd-soviet` → `ORG-provisional-government` | `dual-power-dyarchy` | 有效时段: `1917.03-1917.11`): 从二月有条件支持与《第一号命令》掌控驻军，经5-7月联立内阁危机，至9月布尔什维克夺取首都苏维埃多数并在10月通过军革委推翻临时政府。
 - **时效关系边** (`ORG-provisional-government` → `ORG-petrograd-soviet` | `dual-power-partner` | 有效时段: `1917.03–1917.10`): 苏维埃提供士兵效忠与集体背书，政府执掌正式部院却无独立强制力，双方“条件决斗”共存
@@ -100,6 +100,18 @@
 ### 邻居节点: `POL-april-theses-1917`
 - **时效关系边** (`POL-april-theses-1917` → `ORG-provisional-government` | `no-confidence` | 有效时段: `1917.04起`): 提纲第3条要求不给任何支持并揭露其兼并诺言
 - **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 1917年4月列宁归国后提出的十项纲领：宣布不给临时政府任何支持、批判“革命护国主义”、主张从资产阶级革命第一阶段向工兵苏维埃掌权第二阶段过渡，并倡议没收地主土地实现全部土地国有化、全国银行合并受苏维埃监督与更改党名；打破加米涅夫—斯大林有条件支持临时政府路线，经党内激烈辩论逐步重塑布尔什维克战略。
+
+### 邻居节点: `PER-guchkov`
+- **时效关系边** (`PER-guchkov` → `ORG-provisional-government` | `war-and-navy-minister` | 有效时段: `1917.03–05`): 首届临时政府陆海军部长，因军队权威与四月危机辞职
+- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 十月十七日同盟领袖、第三届杜马前议长与战时军事工业委员会负责人。1917年他同舒尔金赴普斯科夫接收尼古拉二世退位文书，出任临时政府陆海军部长；军队权威危机和四月政治危机中辞职。战前宫廷政变计划真实存在，但未实际发动，不能将其当作二月起义的成熟指挥方案。
+
+### 邻居节点: `PER-rodzianko`
+- **时效关系边** (`PER-rodzianko` → `ORG-provisional-government` | `failed-parliamentary-oversight-proposal` | 有效时段: `1917.03`): 主张政府对杜马/临时委员会负责，被不受杜马约束的全权方案否决
+- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 十月党政治家、1911–1917年国家杜马议长，1917年二月革命中主持杜马临时委员会。他力图以信任内阁及君主立宪方式应对危机：既秘密推动以自己为内阁首脑的大公《宪制宣言》，又在3月3日转而劝阻米哈伊尔即位；面对起义士兵、彼得格勒苏维埃和自由派内部的政权设计冲突，临时政府成立后其杜马中心方案被米留可夫等人击败。回忆录中的领导者形象须与会议记录和同时代证据互校。
+
+### 邻居节点: `PER-savinkov`
+- **时效关系边** (`PER-savinkov` → `ORG-provisional-government` | `deputy-war-minister-and-governor-general` | 有效时段: `1917.07–09`): 陆军部副部长/代理部长，08-27 [O.S.] 兼任彼得格勒军事总督
+- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 社会革命党战斗组织的重要组织者、作家与反布尔什维克活动家。早年参与策划暗杀沙皇高级官员；1917年任陆军部副部长（后为代理部长），卷入科尔尼洛夫事件并被社革党开除；1918年组建保卫祖国与自由同盟（SZRiS），1919–1921年在巴黎、华沙经营流亡反苏运动并于1921年重组为人民同盟（NSZRiS）。1924年被苏联国家政治保卫总局以“辛迪加-2”诱捕，当庭认罪后死刑改判十年；1925年拘押中死亡，官方自杀说和他杀疑云均需结合证据审慎评估。
 
 ## 3. 关联史学争鸣光谱 (Historiographical Debates)
 ### `DEB-1917-dual-power-and-february-origins`：二月革命起源与“双重政权”宪制形成之争（1917）

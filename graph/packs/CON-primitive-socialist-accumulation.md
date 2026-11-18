@@ -47,7 +47,7 @@
   - **[农村社会史与中期危机预言论 / Moshe Lewin, E. H. Carr]** (`CLM-lewin-peasants-1968-grain-procurement-crisis`, `PER-preobrazhensky`): 莱文指出普氏对结构性商品荒与投资断崖的警告包含深刻诊断，但不等于认定集体化暴力为唯一出路（Lewin 1968, PDF p. 12）。
   - **[农经统计实证派 / A. V. Chayanov, N. D. Kondratiev]**：以农户劳动力均衡与1920年代工农产品比价实证，质疑剪刀差式积累能否在个体农业长期存续；斯大林1930年代官方虽将“原始积累”词条打入冷宫，实践中却以更强硬的超经济征敛实现类似汲取（意识形态反讽）。
 
-## 2. 一跳邻域等权重微摘要 (共 7 个关联节点，严防大卡霸占上下文)
+## 2. 一跳邻域等权重微摘要 (共 8 个关联节点，严防大卡霸占上下文)
 ### 邻居节点: `PER-preobrazhensky`
 - **时效关系边** (`PER-preobrazhensky` → `CON-primitive-socialist-accumulation` | `formulated-law` | 有效时段: `1924-1926`): 在《新经济学》中提出国营工业须靠价格非等价交换从个体小农经济汲取积累资金，但未主张暴力剥夺或全盘集体化。
 - **时效关系边** (`CON-primitive-socialist-accumulation` → `PER-preobrazhensky` | `theorized-and-codified-by` | 有效时段: `1920–1927`): 1920年从斯米尔诺夫处借用该词，1924–1926年在《新经济学》中将其体系化为过渡时期对抗价值规律的“社会主义原始积累基本规律”
@@ -76,6 +76,10 @@
 ### 邻居节点: `PER-kuibyshev`
 - **时效关系边** (`PER-kuibyshev` → `CON-primitive-socialist-accumulation` | `implements-via-planning` | 有效时段: `1928–1929`): 通过国家计划委员会与部门体系将超工业化资源动员制度化，效果超越左派1923年理论争辩的纸面方案
 - **节点定性微摘要 [T1]** (完备度 `draft`): 经济学出身的老布尔什维克：1923–1926执掌中央监察委员会—工农检查院（CCC–RKI）纠察全党；1926年8月接替捷尔任斯基任最高国民经济委员会（VSNKh）主席（至1930年11月），1927年12月进入政治局，1930年11月起转任国家计划委员会（Gosplan）主席，主导一五计划时期重工业高指标冲刺与技术官僚动员，1928–1929站斯大林多数派，是“大转变”经济机器的关键执行帅。
+
+### 邻居节点: `PER-strumilin`
+- **时效关系边** (`PER-strumilin` → `CON-primitive-socialist-accumulation` | `plan-expansion-and-accumulation-nexus` | 有效时段: `1926–1929`): 计划扩张论与非均衡原始积累思想共同强化了对市场均衡约束的突破
+- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 斯特鲁米林是俄国及苏联经济统计学家与计划方法论家，1921年起任职国家计划委员会，1923年加入俄共（布）（早年曾属孟什维克之说据俄科学院条目，仍待代表名册核验）。1920年代计划论争中，他常被视为目的论取向代表，主张计划主动重塑经济比例；这一立场不同于从既有约束出发的发生论，但不能简化为否认一切规律。
 
 ## 3. 关联史学争鸣光谱 (Historiographical Debates)
 ### `DEB-1928-bukharin-alternative`：“布哈林替代方案”与新经济政策终结之争（1928–1929）
