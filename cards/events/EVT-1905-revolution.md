@@ -7,58 +7,55 @@ names:
   en: Russian Revolution of 1905–1907
   aliases: ["1905年革命", "第一次俄国革命", "1905 Revolution"]
 dates:
+  start_os: "1905-01-09"
   start_ns: "1905-01-22"
+  end_os: "1907-06-03"
   end_ns: "1907-06-16"
-coverage_status: draft
-perspectives_present: ["marxist-revolutionary", "gentry-social-history", "multi-party-intellectual", "borderlands-comparative"]
-perspectives_missing: ["imperial-army-specialist", "peasant-revolt-quantitative"]
-related_debates: ["DEB-1914-haimson-thesis-stability"]
-updated_at: "2026-11-18"
+coverage_status: multi-perspective
+perspectives_present: ["marxist-revolutionary", "gentry-social-history-manning", "multi-party-intellectual-treadgold", "labor-social-history-bonnell", "borderlands-comparative-blanc", "liberal-constitutional-pipes-figes"]
+perspectives_missing: ["imperial-army-mutiny-monograph", "regional-peasant-war-archive-totals"]
+related_debates: ["DEB-1906-stolypin-wager-and-agrarian-viability", "DEB-1914-haimson-thesis-stability"]
+updated_at: "2026-11-19"
 ---
 
-## [T1] 60秒定性微摘要
-1905年1月9日（公历1月22日）“血腥星期日”至1907年6月3日（公历6月16日）斯托雷平政变之间，帝俄经历和平请愿遭屠杀、十月总罢工、水兵士兵哗变、农民夺地与两届立宪杜马的全面革命。催生圣彼得堡苏维埃原型与《十月宣言》，最终被保守选举法锁入六三体制。
+## [T1] 150字定性微摘要
+1905年1月9日[O.S.]“血腥星期日”至1907年6月3日[O.S.]六三新选举法间的帝俄首次全民革命。涵盖十月总罢工、彼得堡苏维埃、水兵哗变、莫斯科起义与黑土区农村暴动；迫使沙皇颁布《十月宣言》与杜马体制，随革命退潮，有限代议制度保留并受保守选举法约束。
 
-## [T2] 核心脉络、时效关系边表与史学争鸣光谱
+## [T2] 核心脉络、关系网络与史学争鸣
 
-### 2.1 核心历史脉络
-- **起点与全国性动员（1905.01–10 [O.S.] / 1905.01.22–1905.11）**：`1905-01-09 [O.S.] / 1905-01-22 [N.S.]` 格奥尔基·加邦神父率十余万工人向冬宫和平请愿遭军警排枪射杀（现代档案核定约200死、800伤，当时舆论传闻高达4,600死伤），击碎“慈父沙皇”神话并触发全俄抗议浪潮。`1905-10-13 [O.S.] / 1905-10-26 [N.S.]` 起圣彼得堡工人代表苏维埃在铁路与全城政治总罢工中承担准市政职能五十余日（赫鲁斯塔廖夫-诺萨尔任主席，托洛茨基任执委会核心文告起草人并在11月26日[O.S.]赫氏被捕后进入三人主席团），托洛茨基称其为革命政府“胚胎”（`CLM-trotsky-1905-petersburg-soviet-embryo-government`）。沙皇被迫于 `1905-10-17 [O.S.] / 1905-10-30 [N.S.]` 颁布《十月宣言》承诺公民自由与杜马立法权。
-- **四党类型学竞争与战术摊牌（1905 秋–1906）**：血腥星期日爆发后，列宁、马尔托夫、切尔诺夫、米留可夫对革命性质给出互斥命名，却均否认“即刻社会主义革命”（`CLM-treadgold-1955-four-party-competition-1905`, `[pp. 138–139]`）。立宪民主党入杜马、布尔什维克主张工农民主专政、孟什维克推动资产阶级掌握政权、社革党坚持劳动者政治革命——联盟在土地与暴力问题上迅速撕裂（`CLM-treadgold-1955-kadet-agrarian-and-tactical-failure`）。
-- **缙绅立宪攻势与右转（1904 冬–1905 秋）**：革命高潮前，1904年11月地方自治局代表大会以71:27通过要求立法权的宪政决议，士绅借内阁分裂施压专制（`CLM-manning-1982-gentry-fronde-to-reaction`, `[pp. 54–55, 122–124]`）。但1905年10–11月农民袭击庄园触发缙绅“法律与秩序”反动，为保守反扑预备社会基础（同卡, `[p. 132]`）。
-- **制度结局：议会+镇压（1906–1907）**：1906–1907年两届杜马遭遇斯托雷平野战法庭与土地法令；`1907-06-03 [O.S.] / 1907-06-16 [N.S.]` 解散第二届杜马并以新选举法把缙绅变成杜马主人（`CLM-manning-1982-june-third-coup-social-basis`, `[pp. 238–239]`），革命在法律意义上被收编进“六三体制”。边疆地区（芬兰、波罗的海、高加索等）在1905年往往达至更高动员度，1917–18年政府形态分化（`CLM-blanc-2021-borderlands-in-1905-and-1917`）。
+### 2.1 核心历史脉络（严守20世纪初俄历 +13 天换算）
+- **“血腥星期日”与全面社会动员（1905.01–09 [O.S.]）**：日俄战争败局加剧工运与宪政危机。`1905-01-09 [O.S.] / 1905-01-22 [N.S.]` 圣彼得堡俄国工厂和磨坊工人大会领袖 `PER-gapon` 神父率领十余万携带圣像与请愿书的男女工人向冬宫和平进发（请愿书含立宪会议、八小时工作制、政治大赦等要求，见 `sources/web-archive/E02_E07_foundational_docs/1905-01-09_gapon-petition.md`），遭军警排枪射杀（官方初报96死、333伤；当时反对派与革命报刊传闻高达4,600人死伤；Figes `ch12_5` L195 估计约200人死亡、800人受伤，见 `DATA-01-1905-1917-strikes-and-petrograd-elections`）。惨案重创工人对“仁慈沙皇”的传统信念，触发席卷全国的抗议罢工潮（Figes `ch12_5` L208 记仅1905年1月全国即有逾40万工人罢工，`DATA-01-1905-1917-strikes-and-petrograd-elections` 所载一月合计近50万人；通行二手文献常引的1905年全年全俄工厂视察官辖区约286万罢工人次总计未录入 `DATA-01-1905-1917-strikes-and-petrograd-elections`，其按行业、地域与重复罢工人次构成的年度原表待补核）。五月伊万诺沃—沃兹涅先斯克纺织总罢工产生早期工人代表委员会；自由派专业人士成立“各联合会同盟（Union of Unions）”，`1905-06-14 [O.S.] / 1905-06-27 [N.S.]` 黑海舰队“波将金号”战列舰爆发水兵哗变，地方自治局宪政攻势亦借官僚分裂步步进逼（`CLM-manning-1982-gentry-fronde-to-reaction`）。
+- **十月政治总罢工、彼得堡苏维埃与《十月宣言》（1905.10–11 [O.S.]）**：9月底莫斯科印刷工罢工演变为10月全俄铁路与电报政治总罢工（据托洛茨基《1905》转述，参与总罢工铁路员工达75万人），帝国交通与通信中枢陷入瘫痪。`1905-10-13 [O.S.] / 1905-10-26 [N.S.]` 圣彼得堡罢工委员会（10月17日正式定名工人代表苏维埃）在技术学院举行首次会议，历经五十日承担抵制书报检查、组织八小时工作制运动与市民给养协调等公共职能（赫鲁斯塔廖夫-诺萨尔任主席，`PER-trotsky` 在其11月26日 [O.S.] 被捕后进入三人临时主席团）。在 `PER-witte` 劝谏下，尼古拉二世于 `1905-10-17 [O.S.] / 1905-10-30 [N.S.]` 签发《十月宣言》，许诺公民自由与具立法权的国家杜马；然而宣言发布次日起爆发的极右翼“黑色百人团”反犹暴动（Figes `ch12_5` L337 记宣言后两周内有690起反犹暴行、逾3,000人遇害）、塞瓦斯托波尔与喀琅施塔得水兵哗变及农村抢烧庄园（1905–1906年近3,000座地主庄园被毁，`CLM-moore-1966-agrarian-bureaucracy-and-peasant-revolution` 援引 Robinson 指出20个受灾最重省份中有16省实行重分村社）迅速把大批省级地主与有产阶级推向“法律与秩序”阵营。
+- **十二月《财政宣言》、莫斯科巷战与边疆爆发（1905.12–1906.03 [O.S.]）**：彼得堡雇主与国有企业以停工闭厂反击工人“自发八小时运动”（`CLM-trotsky-1905-november-eight-hour-campaign-and-capitalist-lockout`）。`1905-12-02 [O.S.] / 1905-12-15 [N.S.]` 苏维埃联合农民联盟与各社会主义政党发布《财政宣言》号召挤兑黄金与拒税，次日（`1905-12-03 [O.S.] / 1905-12-16 [N.S.]`）维特政府即逮捕苏维埃执委会。`1905-12-07 [O.S.] / 1905-12-20 [N.S.]` 莫斯科总罢工随即转为普列斯尼亚（Presnya）区武装街垒巷战，最终被由彼得堡驰援的近卫军谢苗诺夫斯基团炮击平定（`EVT-1905-12-moscow-armed-uprising`）。与此同时，波罗的海沿岸、波兰王国（如六月罗兹街垒战）、高加索（古里亚共和国）与芬兰等边疆民族地区动员度远超俄国核心省，形成地方武装抗争与双层民族—阶级动员（`CLM-blanc-2021-borderlands-in-1905-and-1917`）。
+- **两届杜马对峙与六三新选举法收束（1906.04–1907.06 [O.S.]）**：镇压余波中，政府借1906年春名义面额22.5亿法郎的国际借款缓解眼前财政危机，并在第一届杜马开幕前夕于 `1906-04-26 [O.S.] / 1906-05-09 [N.S.]` 公布修订后的《国家根本法》，将宣战、外交、大臣任免权与第87条休会紧急立法权保留给沙皇，同时确立两院制议会的立法与预算审议权（`POL-october-manifesto-and-1906-fundamental-laws`）。**第一届杜马**（`1906-04-27 [O.S.] / 1906-05-10 [N.S.]` 开幕）由立宪民主党（179席）与劳动派（Trudoviki）主导，因要求废除上院、设立对杜马负责的内阁、全面政治大赦及强制征用部分私有土地，并与政府就农村土改公告发生正面冲突，于 `1906-07-08 [O.S.] / 1906-07-21 [N.S.]` 被沙皇下令解散（次日 `07-09 [O.S.] / 07-22 [N.S.]` 议员赴维堡发布拒税拒兵役宣言；注意：针对平民的野战军事法庭系斯托雷平在药剂师岛官邸遇袭后的 **`1906-08-19 [O.S.] / 1906-09-01 [N.S.]`** 才援引第87条设立，晚于第一届杜马解散一个多月，绝非第一届杜马被解散的原因）。**第二届杜马**（`1907-02-20 [O.S.] / 1907-03-05 [N.S.]` 开幕）因社民党与社革党放弃抵制参选而更加左倾（社会主义党团合计222席），围绕土地国有化/充公案及强烈谴责野战军事法庭（“斯托雷平领带”）与政府激烈对峙；最终斯托雷平以社会民主党杜马党团涉嫌煽动驻军兵变、而杜马拒绝立即剥夺全体社民党议员豁免权为直接导火索，于 `1907-06-02 [O.S.] / 1907-06-15 [N.S.]` 解散第二届杜马，并于次日 `1907-06-03 [O.S.] / 1907-06-16 [N.S.]` 违宪颁行新选举法（通称“六三政变”，见 Pipes `ch13` L444–455），标志着第一次俄国革命以保留有限代议机构但确立有产贵族选区压倒优势而告终。
 
-### 2.2 时效关系摘要边表（Typed & Temporalized Edges）
-| 关联节点 ID | 关系类型 | 有效时段 | 一句话关系实质摘要（防 N+1 盲跳） | 核心依据/争鸣 |
+### 2.2 核心关系网络（结构化边表）
+| 目标节点 ID | 关系类型 | 有效时段 | 关系实质摘要 | 核心依据 |
 | :--- | :--- | :--- | :--- | :--- |
-| `CON-soviet` | `proto-institution` | 1905-10至12 | 圣彼得堡苏维埃在总罢工中行使事实上的城市治理权，奠定1917年苏维埃复辟范式 | `CLM-trotsky-1905-petersburg-soviet-embryo-government` |
-| `ORG-kadets` | `emergence` | 1905-10起 | 从解放同盟政纲升格为议会政党，主导前两届杜马 | `CLM-treadgold-1955-kadet-agrarian-and-tactical-failure` |
-| `ORG-mensheviks` / `PER-lenin` | `factional-mobilization` | 1905–1906 | 布尔什维克与孟什维克在革命阶段论与临时政府公式上摊牌 | `CLM-treadgold-1955-four-party-competition-1905` |
-| `PER-stolypin` | `counter-revolution-institutionalization` | 1906–1907 | 土地法令、野战法庭与六三选举法将革命成果转化为保守秩序 | `CLM-manning-1982-*`, `PER-stolypin` |
-| `PER-milyukov` | `constitutional-pole` | 1905–1907 | 以杜马中心路线与有偿征地对抗社会主义土地夺地 | `CLM-treadgold-1955-*` |
-| `EVT-1917-02-february-revolution` | `rehearsal-precursor` | 1905–1917 | 苏维埃、总罢工与军人倒戈经验为1917年彼得格勒模式提供模板 | 多元学派；海姆森双重极化见 `DEB-1914-haimson-thesis-stability` |
+| `EVT-1905-01-bloody-sunday` | `triggered_by` | 1905.01.09 [O.S.] | 冬宫前对和平请愿工人的枪击重创君民传统纽带，成为全俄政治危机与抗议罢工的总导火索 | `sources/web-archive/E02_E07_foundational_docs/1905-01-09_gapon-petition.md` |
+| `EVT-1905-12-moscow-armed-uprising` | `climax_insurrection_of` | 1905.12 [O.S.] | 彼得堡苏维埃被捕后莫斯科总罢工升级为普列斯尼亚街垒巷战，谢苗诺夫斯基团炮击平叛标志城市武装起义高潮落幕 | `EVT-1905-12-moscow-armed-uprising`, `timeline/L3_daily/1905-12_petersburg_arrest_and_moscow_uprising.md` |
+| `CON-soviet` | `institutional_innovation_of` | 1905.05–12 | 继伊万诺沃之后于10月在彼得堡形成跨厂工人代表苏维埃，为1917年苏维埃的重建留下组织经验与原型 | `CON-soviet`, `CLM-trotsky-1905-petersburg-soviet-embryo-government` |
+| `POL-october-manifesto-and-1906-fundamental-laws` | `forced_concession_and_containment` | 1905.10–1906.04 | 十月罢工逼出公民自由承诺与立法杜马，1906年《国家根本法》则以皇室保留特权、两院制和第87条框定其边界 | `POL-october-manifesto-and-1906-fundamental-laws` |
+| `PER-witte` | `negotiator_and_suppressor` | 1905.10–1906.04 | 劝谏颁布《十月宣言》分化反对派，随后逮捕彼得堡苏维埃并借国际借款缓解政府对首届杜马的即时财政依赖 | `PER-witte` |
+| `PER-stolypin` | `pacifier_and_terminator` | 1906–1907 | 首届杜马解散后以野战军事法庭弹压暴动，并借 `1907-06-03 [O.S.]` 新选举法改组议会代表结构、结束革命浪潮 | `PER-stolypin`, `CLM-manning-1982-june-third-coup-social-basis` |
+| `ORG-kadets` | `emerged_and_marginalized` | 1905.10–1907 | 成立并主导第一届杜马，却在与皇权对抗、土地强制赎买纲领及维堡宣言被取消参选资格后失去议会主导权 | `CLM-treadgold-1955-kadet-agrarian-and-tactical-failure` |
+| `EVT-1907-1914-june-third-regime-and-lena-to-july-strikes` | `institutional_sequel` | 1907–1914 | 革命退潮后转入“六三体制”，有限代议机构、土地改革与1912年后的城市工潮再起并行交织 | `DEB-1914-haimson-thesis-stability` |
+| `EVT-1917-02-february-revolution` | `historical_memory_and_precedent_for` | 1905–1917 | 为1917年提供政治总罢工、苏维埃与杜马协调的行动与组织经验记忆，但1905年主力军队仍效忠沙皇，与1917年2月首都卫戍部队迅速倒戈存在关键差异 | `CLM-trotsky-1905-december-uprising-lessons-and-permanent-revolution-defense`, `sources/monographs/figes_1996_peoples_tragedy/ch12_5_first_blood.md` |
 
-### 2.3 史学争鸣光谱（Historiographical Spectrum）
-- **经验共识**：1905年革命终结了1905年前不经沙皇恩准即不可想象的全国政治动员；苏维埃、工会与国家杜马均为其后行动的核心制度词汇。
-- **主要解释分歧**：
-  - **[托洛茨基革命政府 embryology / Leon Trotsky]** (`CLM-trotsky-1905-petersburg-soviet-embryo-government`, `CLM-trotsky-1905-hypertrophied-tsarist-state`)：把苏维埃视作为政权而斗争的革命政府萌芽，并把沙皇国家概括为超前于社会经济基础的军事—财政畸形体，为后来“不断革命论”提供前瞻（著作1922年定稿，须区分1908–09现场书写与事后总括）。
-  - **[Treadgold 四党竞争 / Donald W. Treadgold]** (`CLM-treadgold-1955-four-party-competition-1905`)：强调精英话语预设的联盟边界，而非对群众动员度的直接度量。
-  - **[Manning 缙绅双面性 / Roberta Thompson Manning]** (`CLM-manning-1982-gentry-fronde-to-reaction`, `CLM-manning-1982-june-third-coup-social-basis`)：认为革命主要由省缙绅启动宪政攻势，却由同一群体在农民暴力面前促成六月三日反动。
-  - **[Blanc 帝国边疆比较 / Eric Blanc]** (`CLM-blanc-2021-borderlands-in-1905-and-1917`)：反对俄中心主义，指出1905在边疆常达局部夺权高峰，其激进/温和谱系影响1917–18政府分化；不可把中央俄区布尔什维克经验普遍化。
-  - **[海姆森稳定论入口 / Leopold H. Haimson]**（`DEB-1914-haimson-thesis-stability`）：1905后有限改革与工潮再起并存，1912–1914城市冲突是否证明“稳定”破裂，须与战前罢工统计交叉检验（本事件不先行判决）。
+### 2.3 主要史学争鸣与多流派解释
+- **“革命政府胚胎”与不断革命前瞻（Leon Trotsky,《1905》）**：须严格区分托洛茨基1905年10–12月在彼得堡苏维埃的现场报告/决议、1908–1909年维也纳流亡期主体成书的理论建构、以及1922年莫斯科俄文第二版增订的十月后回溯定稿（`RN-W32-trotsky-1905-soviet-eyewitness-and-peculiarities-of-russia`）。托洛茨基把彼得堡苏维埃界定为罢工权力真空中按工厂生产纽带产生、承担实效管理职能的“无产阶级政府胚胎”，将十二月起义失败归结于农民步兵仍服从沙皇命令及自由派资产阶级倒向秩序，并据此在附件论战中捍卫“俄国民主革命必须由无产阶级掌权并直接推向社会主义措施”的“不断革命论”（`CLM-trotsky-1905-petersburg-soviet-embryo-government`, `CLM-trotsky-1905-december-uprising-lessons-and-permanent-revolution-defense`）。
+- **“工农革命民主专政”、事后“总演习”论与四党战略比较（V. I. Lenin / Donald W. Treadgold）**：列宁1905年7月所著《社会民主党在民主革命中的两种策略》属党内路线政论——他主张当前仍属资产阶级民主革命，但自由派资产阶级势必妥协，故须由无产阶级联合农民建立“工农革命民主专政”的临时革命政府；而将1905年概括为1917年胜利的“总演习（dress rehearsal）”，则是列宁在1920年《共产主义运动中的“左派”幼稚病》中的事后政治追述，不能倒灌为1905年参与者当时的既定剧本。Treadgold（1955，`ch13` L17–36；`ch15` L179–250）则通过对比马尔托夫、米留可夫、列宁与切尔诺夫对1905年革命性质的四套互斥命名指出，四党在抵制或参加杜马及土地纲领上的策略博弈，反映出教条理论预设与多变社会现实之间的张力（`CLM-treadgold-1955-four-party-competition-1905`）。
+- **地方缙绅“宪政骚动”与右翼反动论（Roberta T. Manning）**：挑战仅聚焦首都工人或地下革命党的叙事，论证1904–1905年首先是受维特重工政策挤压的省级土地贵族借地方自治局攻势打开政治缺口；而1905年夏秋黑土区农民焚掠庄园的浪潮使省级缙绅急剧右转并集结于联合贵族会，成为支持斯托雷平1907年六三新选举法、在第三届杜马占据47%–49%议席的社会底座（`CLM-manning-1982-gentry-fronde-to-reaction`, `CLM-manning-1982-june-third-coup-social-basis`）。
+- **手工业—工厂双轨工会、加邦大会熟练工基础与女工结构性处境（Victoria E. Bonnell）**：Bonnell 在专著《反叛的根源》（*Roots of Rebellion*, 1983，`ch04` PDF `pp. 110–113`；`ch09` PDF `pp. 226–248`）中证明，加邦《俄国工厂和磨坊工人大会》在1905年1月初已发展至11个分会约9,000名会员（含约1,000名女工），其基层骨干不仅有非熟练工人，更依托普梯洛夫、西门子-哈尔斯克等大厂中识字、高技能的资深金属工与平版印刷工（如曾参与阿·卡列林社民党圈子的平版印刷工乌萨诺夫、普梯洛夫钳工克罗平等本土工人领袖），为1905年工厂委员会、苏维埃与1906–1907年手工业/工厂工会高潮提供了自主组织经验（`CLM-bonnell-1983-artisanal-vs-factory-unionization-1905-1907`）。同时，Bonnell 在其编注的工人回忆录选集导论（*The Russian Worker*, 1983, `pp. 17–19, 29–30`，见 `CLM-bonnell-1983-karelina-women-workers-and-gapon`）中剖析了帝俄纺织等行业刻意招募“廉价顺从”女工、将其锁定于低技能与重家务位置的结构性处境，以及1905年工人追求尊严与公民权的政治想象转折（注：该选集并未收录薇拉·卡列林娜 V. M. Karelina 本人回忆录原文，关于卡列林娜在加邦运动中的具体个人活动须另查 Sablinsky 专著或卡列林娜一手回忆录，不可由该导论 Claim 越界代证）。
+- **帝国边疆中心化修正与立宪实验失败的两种诊断（Eric Blanc / Richard Pipes / Orlando Figes）**：Blanc（2021）证实波兰、拉脱维亚、格鲁吉亚与芬兰等边疆地区在1905年的罢工强度、武装起义与社会主义政党群众密度远超俄国核心省，反对将大俄罗斯两京经验简单普遍化（`CLM-blanc-2021-borderlands-in-1905-and-1917`）。对于1905年后立宪秩序的困局，Pipes 与 Figes 给出了重心不同的具名诊断：Pipes（`ch13` L9–18, L51–54, L94–96, L433–455）强调1906年《国家根本法》虽保守却赋予了杜马前所未有的立法、预算审查、质询与言论豁免权（且受国际债券市场约束，沙皇与斯托雷平在1907年6月并未废除杜马及其立法权，只是违宪修改了选举法），认为立宪实验被浪费源于皇室不肯放弃专制执念与知识分子（含立宪民主党）把议会当成彻底夺权战场、拒绝谴责革命恐怖的双向不妥协；Figes（`ch12_5` L224–231, L265–273, L319–324, L372–384, L398–439）则一方面反对简单指责自由派拒绝入维特内阁（指出沙皇本就企图推翻承诺、维特亦无法提供立宪保障），另一方面强调1905年虽然永久开启了公共报刊与议会政治，但街头暴民暴力（*samosud*）、反犹屠杀与庄园焚掠吓退了有产阶级与《路标》（*Vekhi*）知识分子，暴露出自由派宪政理想与工农底层社会革命诉求之间难以弥合的鸿沟。
 
-## [T3] 深度考证、分期细目与原文引证档案
-- **双历关键节点**（`python scripts/kb.py date` 可复核）：
-  | 事件 | O.S. | N.S. |
-  | :--- | :--- | :--- |
-  | 血腥星期日 | 1905-01-09 | 1905-01-22 |
-  | 十月宣言 | 1905-10-17 | 1905-10-30 |
-  | 彼得堡苏维埃成立大会 | 1905-10-13 | 1905-10-26 |
-  | 六月三日政变 | 1907-06-03 | 1907-06-16 |
-- **托洛茨基《1905》**（`sources/monographs/trotsky_1905_zh/`, `CLM-trotsky-1905-petersburg-soviet-embryo-government`）：
-  > "苏维埃实际上是革命政府的胚胎的事实。" `[书页 ·248·]`
-  > "罢工越是能让政府真空化，罢工组织则越是不得不去承担政府职能。" `[书页 ·249·–·250·]`
-- **特雷德戈尔德**（`sources/monographs/treadgold_1955_lenin_and_rivals/`, `[pp. 138–139]`）：
-  > "Martov called it a 'bourgeois' revolution; Miliukov accepted the term though would not use it himself; Lenin insisted on calling it a 'bourgeois democratic' one; Chernov refused to accept or use the word 'bourgeois' at all..."
-- **曼宁**（`sources/monographs/manning_1982_crisis_old_order_zh/`, `[p. 124]`, `[p. 238]`）：1904年11月宪政投票与六三缙绅选举工程。
-- **Blanc**（`CLM-blanc-2021-borderlands-in-1905-and-1917` → `sources/monographs/` 对应Eric Blanc 2021专著目录）。
-- **待核查 S 级档案**：1905年10月总罢工期间彼得堡警察与苏维埃档案；1904–1905年地方自治局与各省宪政请愿书；1905–07年农业部门农民夺地季度统计。
+## [T3] 溯源锚点与未决史料缺口
+- **站内分层来源与已核锚点**：
+  - **S 级原典文献**：[`sources/web-archive/E02_E07_foundational_docs/1905-01-09_gapon-petition.md`](../../sources/web-archive/E02_E07_foundational_docs/1905-01-09_gapon-petition.md)（1月9日加邦请愿书俄文与英译）、[`sources/web-archive/E02_E07_foundational_docs/1905-10-17_october-manifesto.md`](../../sources/web-archive/E02_E07_foundational_docs/1905-10-17_october-manifesto.md)（十月宣言）、[`sources/web-archive/E01_E10_supplements/1905-12-02_petersburg-soviet-financial-manifesto.md`](../../sources/web-archive/E01_E10_supplements/1905-12-02_petersburg-soviet-financial-manifesto.md)（12月2日财政宣言）；[`sources/web-archive/W32_milestone_docs/1905-07_lenin-two-tactics-of-social-democracy.md`](../../sources/web-archive/W32_milestone_docs/1905-07_lenin-two-tactics-of-social-democracy.md)（列宁1905年7月《两种策略》，同期党内路线政论）。
+  - **A 级数据表与编年校勘**：[`data/DATA-01-1905-1917-strikes-and-petrograd-elections.md`](../../data/DATA-01-1905-1917-strikes-and-petrograd-elections.md)（收录1905年1月与10月首都罢工关键日、血腥星期日伤亡多口径对比及彼得堡苏维埃562名代表构成；注：不含全俄工厂视察官年度罢工汇总行）、[`data/DATA-07-1905-1918-unions-moscow-swings-and-constituent-assembly-votes.md`](../../data/DATA-07-1905-1918-unions-moscow-swings-and-constituent-assembly-votes.md)（1905–1907年两京工会规模基线）；[`timeline/L2_chronicles/E03_1905-1907_first_revolution.md`](../../timeline/L2_chronicles/E03_1905-1907_first_revolution.md)、[`timeline/L3_daily/1905-01_bloody_sunday_and_october_soviet.md`](../../timeline/L3_daily/1905-01_bloody_sunday_and_october_soviet.md)、[`timeline/L3_daily/1905-12_petersburg_arrest_and_moscow_uprising.md`](../../timeline/L3_daily/1905-12_petersburg_arrest_and_moscow_uprising.md)。
+  - **A 级学术专著、精读札记与 Claim 节点**：[`sources/monographs/figes_1996_peoples_tragedy/ch12_5_first_blood.md`](../../sources/monographs/figes_1996_peoples_tragedy/ch12_5_first_blood.md)（L195 论血腥星期日“约200死、800伤”估计；L319–324 论自由派拒入维特内阁之理由；L372–439 论1905年遗产与政治/社会革命分野）；[`sources/monographs/pipes_1990_russian_rev/ch13_section.md`](../../sources/monographs/pipes_1990_russian_rev/ch13_section.md)（L9–136 论1906年根本法权限与第一届杜马解散原因；L216–220 论1906年8月19日 [O.S.] 设立野战军事法庭；L421–455 论第二届杜马解散与六三新选举法）；[`reading-notes/manning_treadgold/RN-W12-gentry-reaction-and-four-party-rivalry-1905.md`](../../reading-notes/manning_treadgold/RN-W12-gentry-reaction-and-four-party-rivalry-1905.md)（Treadgold `pp. 138–139`；Manning 中译本 PDF `pp. 54–55, 122–132, 238–239`）；[`reading-notes/bonnell_1983_roots_of_rebellion_zh/RN-W35-bonnell-roots-of-rebellion-artisans-unions-and-bolshevik-turn-1905-1914.md`](../../reading-notes/bonnell_1983_roots_of_rebellion_zh/RN-W35-bonnell-roots-of-rebellion-artisans-unions-and-bolshevik-turn-1905-1914.md)（Bonnell 1983 专著《反叛的根源》）；[`CLM-bonnell-1983-karelina-women-workers-and-gapon`](../../historiography/claims/CLM-bonnell-1983-karelina-women-workers-and-gapon.md)（Bonnell 1983 编选《俄国工人》导论，仅限女工结构性雇佣处境与政治想象语境）；[`CLM-blanc-2021-borderlands-in-1905-and-1917`](../../historiography/claims/CLM-blanc-2021-borderlands-in-1905-and-1917.md)；[`CLM-moore-1966-agrarian-bureaucracy-and-peasant-revolution`](../../historiography/claims/CLM-moore-1966-agrarian-bureaucracy-and-peasant-revolution.md)。
+  - **S / B 级分层文献（托洛茨基《1905》在场记录与流亡期/1922年理论建构）**：[`reading-notes/trotsky_1905_zh/RN-W32-trotsky-1905-soviet-eyewitness-and-peculiarities-of-russia.md`](../../reading-notes/trotsky_1905_zh/RN-W32-trotsky-1905-soviet-eyewitness-and-peculiarities-of-russia.md)（明确拆解1905–1907年在场决议/审判辩词、1908–1909年维也纳德文版主体理论建构与1922年俄文第二版回溯增订三个层级）。
+- **外部待补核 S / A 级缺口**：
+  - 俄国贸易与工业部工厂视察官（Factory Inspectorate）1905–1907年全俄罢工年度原始统计表（核定通行“1905年约286万罢工人次”的覆盖行业、地域边界与重复计次口径）及内务部各省农民夺地事件按月档案汇总。
+  - 薇拉·卡列林娜（V. M. Karelina）关于加邦工人大会女工支部的第一手回忆录原文，以及 Abraham Ascher 两卷本 *The Revolution of 1905* 与 Walter Sablinsky *The Road to Bloody Sunday* 专著全文入库。
+  - 1905年6月“波将金号”及10–11月喀琅施塔得、塞瓦斯托波尔军港哗变军事法庭审讯原卷，以及 John Bushnell *Mutiny amid Repression: Russian Soldiers in the Revolution of 1905–1906* 专著入库。

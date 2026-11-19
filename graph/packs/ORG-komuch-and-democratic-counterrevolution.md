@@ -44,7 +44,7 @@
 ### 邻居节点: `PER-kolchak`
 - **时效关系边** (`PER-kolchak` → `ORG-komuch-and-democratic-counterrevolution` | `overthrew-in-omsk-coup` | 有效时段: `1918.11.18`): 在鄂木斯克发动军事政变推翻社革党主导的全俄临时政府（乌法督政府），宣告内战“第三种力量”民主反革命路线破产。
 - **时效关系边** (`ORG-komuch-and-democratic-counterrevolution` → `PER-kolchak` | `war-minister-to-coup-usurper` | 有效时段: `1918.11`): 11月4日入阁任督政府陆海军部长，11月18日借鄂木斯克哥萨克与军官政变取代督政府出任白军“最高执政”
-- **节点定性微摘要 [T1]** (完备度 `draft`): 高尔察克（1874–1920），极地探险家、黑海舰队司令；1918年11月18日鄂木斯克政变推翻社革党全俄临时政府，自封“全俄最高执政”；1919春攻势被伏龙芝率红军东线南集群击溃，1920年2月7日在伊尔库茨克被枪决。
+- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 俄国海军上将与西伯利亚白军最高统帅（1874—1920）。曾任黑海舰队司令；1918年11月18日鄂木斯克政变推翻社革党督政府自任“全俄最高执政”，终结民主反革命第三条道路；1919年春攻遭伏龙芝红军击溃，后方游击战与腐败加剧总崩溃，1920年2月7日在伊尔库茨克被处决。
 
 ### 邻居节点: `CON-constituent-assembly`
 - **时效关系边** (`CON-constituent-assembly` → `ORG-komuch-and-democratic-counterrevolution` | `civil-war-afterlife-banner` | 有效时段: `1918-06-08–1918-11-18`): 萨马拉立宪会议委员试图开辟反布反白“第三条道路”，终在农民冷漠与高尔察克政变中覆亡
@@ -57,7 +57,8 @@
 
 ### 邻居节点: `ORG-psr`
 - **时效关系边** (`ORG-komuch-and-democratic-counterrevolution` → `ORG-psr` | `main-political-sponsor` | 有效时段: `1918.06–11`): 科穆奇为正统社革党在伏尔加河建立的最重要政权实验，同时暴露该党右翼保守化与切尔诺夫中派领袖瘫痪的深层病灶
-- **节点定性微摘要 [T1]** (完备度 `draft`): 俄国新民粹派政党（1901/02–1922），在切尔诺夫领导下确立“土地社会化”纲领，并曾设“战斗队”开展政治暗杀。1917年成为全俄最大政党并赢得立宪会议选举多数，但年底分裂出左翼社会革命党；内战中“第三条道路”溃败，经1922年莫斯科公审后在国内实质瓦解。
+- **时效关系边** (`ORG-psr` → `ORG-komuch-and-democratic-counterrevolution` | `third_force_regime` | 有效时段: `1918-06–1918-11`): 在萨马拉重建民主宪政政府抗衡红白两极，因征兵失民心且受白军军官架空而亡
+- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 1901年末合并建立的俄国新民粹派政党，以土地社会化纲领与战斗组织暗杀闻名。1917年选民基数居全俄之冠却在战争、分地拖延与左翼分裂中失势；虽夺立宪会议多数仍遭解散，内战“第三条道路”溃于高尔察克政变，1922年莫斯科公审后在国内覆灭。
 
 ### 邻居节点: `PER-chernov`
 - **时效关系边** (`ORG-komuch-and-democratic-counterrevolution` → `PER-chernov` | `nominal-leader-then-spoiler` | 有效时段: `1918.09–10`): 作为立宪会议主席在乌法会议后发表激烈通告抨击右翼合作派，无意中为鄂木斯克军官集团发动反社会主义政变提供了口实
@@ -66,7 +67,7 @@
 
 ### 邻居节点: `ORG-kadets`
 - **时效关系边** (`ORG-komuch-and-democratic-counterrevolution` → `ORG-kadets` | `uneasy-coalition-to-coup-ally` | 有效时段: `1918.06–11`): 在东线与乌法督政府中与右翼社革党勉强合作，旋即因厌恶“委员会政治”与社革党纲领而配合高尔察克右翼军事独裁
-- **节点定性微摘要 [T1]** (完备度 `draft`): 1905年10月从“解放同盟”蜕变的俄国自由主义核心政党。主张四尾制宪、有偿征地与议会中心路线，主导1906–1907年前两届杜马；一战时组建进步同盟。1917年二月主导首届临时政府，5月后在战争与土地危机中流失社会基础；十月后被宣布为“人民公敌”并在内战与流亡分裂中瓦解。
+- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 1905年10月从解放同盟诞生的俄国自由主义核心政党，主张四尾制宪、有偿征地与议会道路，曾主导前两届杜马与战时进步同盟。1917年二月主导首届临时政府并切断对杜马从属关系，旋因战争、土地危机及科尔尼洛夫事件退阁丧失民心，十月后被定为“人民公敌”并在内战与流亡中分裂。
 
 ### 邻居节点: `EVT-1918-01-constituent-assembly-dispersal`
 - **时效关系边** (`ORG-komuch-and-democratic-counterrevolution` → `EVT-1918-01-constituent-assembly-dispersal` | `legitimacy-charter` | 有效时段: `1918.06–11`): 科穆奇以1917年11月普选产生的立宪会议唯一合法继承者自居，但农民因已得土地且畏惧重启战端并未起兵响应其号召
@@ -91,18 +92,34 @@
 
 ### `DEB-1918-red-terror-and-civil-war-origins`：红色恐怖、契卡扩张与内战期一党专政起源之争（1918–1921）
 ## [T1] 核心问题定义
-1918–1921年红色恐怖、契卡法外处决、对社会主义反对派的镇压，以及内战期间政党竞争被压缩为一党统治，应被解释为布尔什维克意识形态与列宁主义权力逻辑的宿命展开，还是多重危机（经济崩溃、联盟破裂、地方失控、内战动员）下可错链条上的制度选择？恐怖与一党制是同一过程还是须分时段因果？
+红色恐怖和契卡法外权力是列宁主义政治逻辑的必然结果，还是内战、粮食危机、联盟破裂与地方暴力交织下的制度选择？中央命令与地方自主行动怎样互相强化？恐怖升级、社会主义对手遭镇压和一党统治形成各有不同时间线，不能压缩成同一事件。
 
 ## [T2] 各学派立场对照矩阵
-
-**经验共识**：1917年12月契卡（全俄肃反委员会）成立；1918年7月左派社会革命党起义后左翼社会主义者被逐出权力结构；1918年9月5日人民委员会颁布《关于红色恐怖》决议；内战1918–1920在多条战线同时进行；1918–1921征粮与契卡行动在地方相互嵌合。
+**经验基准**：全俄肃反委员会（契卡）于1917-12-07 [O.S.] / 1917-12-20 [N.S.] 凭人民委员会非立法决议成立；1918年3月《布列斯特和约》后左翼社革党退出人民委员会，7月4–10日第五次全俄苏维埃代表大会期间爆发7月6日刺杀德国大使米尔巴赫事件，布尔什维克与左翼社革党彻底决裂并于7月10日通过1918年苏俄宪法；8月30日乌里茨基遇刺、列宁遇刺重伤。据站内入库S级档案校勘（`sources/web-archive/E06_E09_state_and_comintern/1918-09-05_decree-on-red-terror.md`），广泛扣押人质指令首先出自9月4日内务人民委员彼得罗夫斯基电令，而9月5日人民委员会《关于红色恐怖的决议》（RGASPI打印原件由司法人民委员库尔斯基、内务人民委员彼得罗夫斯基、办公厅主任邦奇-布鲁耶维奇与秘书福季耶娃签署，**并非捷尔任斯基签署，且9月5日决议正文中并未出现“人质”一词**）将集中营隔离与就地枪决正式法制化。跨口径处决统计（`DATA-06-1918-1929-cheka-ogpu-sentencing-and-1929-collectivization-surge`）须严格区分中央登记案卷与地方未登记法外处决。
 
 | 学派/取向 | 代表学者与著作 | 核心论点摘要 | 支撑论断卡 | 主要受批评盲点 |
 | :--- | :--- | :--- | :--- | :--- |
-| **意识形态宿命论** | Richard Pipes, *The Russian Revolution* (1990); Orlando Figes, *A People's Tragedy* (1996) | 强调反自由主义知识分子传统、列宁废法统治与阶级敌人话语，使恐怖成为夺取与巩固权力的内在逻辑；Figes 另重农民“悲剧”道德经济。 | `CLM-pipes-1990-red-terror-leninist-logic` | 时间线易前推到1917末，低估联盟期与反对派选项；Figes 与 Pipes 因果权重不一。 |
-| **复合危机与联盟破裂论** | Alexander Rabinowitch, *The Bolsheviks in Power* (2007) 等 | 彼得格勒首年追踪与左派社革党联盟从执政到破裂；恐怖升级与粮食危机、暗杀、前线失败交织，而非单线预谋。 | `CLM-rabinowitch-2007-left-sr-coalition-collapse`, `CLM-rabinowitch-2007-contingency-of-dictatorship` | 首都政党政治详尽，偏远地方契卡实践待补。 |
-| **制度史与阶段论** | George Leggett, *The Cheka: Lenin's Political Police* (1981); Ilya S. Ratkovsky（及契卡编年史学） | Leggett：契卡从法外 origin 到 GPU 连续体制化；Ratkovsky：1918 夏已有人质与处决规模，9月5日法令是公开化节点而非“零起点”。 | `CLM-leggett-1981-vecheka-extra-legal-origins`, `CLM-leggett-1981-red-terror-institutionalization`, `CLM-leggett-1981-cheka-to-gpu-continuity`, `CLM-cheka-chronicle-hostage-and-local-autonomy`, `CLM-cheka-chronicle-suppression-of-socialist-rivals` | Leggett 偏重中央法令；地方自治与契卡失控需档案对勘。 |
-| **1914–1921 总体战治理连续论** | David G. Hoffmann, *Cultivating the Masses: Modern State Practices and Soviet Socialism, 1914–1939* (2011) | 征粮、动员、战备与“培养大众”技术沿袭一战国家实践；苏联社会主义是欧洲现代国家治理谱系的一极，而非凭空乌托邦。 | `CLM-hoffmann-2011-continuum-of-total-war-1914-1929`, `CLM-hoffmann-2011-enlightenment-and-coercion-duality`, `CLM-hoffmann-2011-soviet-socialism-as-european-modernity` | 连续性不等于免除布尔什维克政党特有选择责任。 |
-| **内战军事—地理决定论（背景）** | Evan Mawdsley, *The Russian Civil War* (1987) | 红军人口—工业内线优势与白军结构性政策失败解释内战结局；为恐怖与征粮提供战略背景，不单独承担一党制意识形态解释。 | `CLM-mawdsley-1987-civil-war-militarized-regime`, `CLM-mawdsley-1987-sovdepia-demographic-industrial-base` | 军事动员不等于党内反对派清洗因果。 |
+| 自由主义意识形态连续论 | Richard Pipes, *The Russian Revolution* (1990) | 提出“法国大革命终结于恐怖，而俄国革命始于恐怖”：布尔什维克因缺乏多数民众授权，将系统性恐怖用作“民众支持的替代品”，阶级敌人话语与列宁的雅各宾法律观使红色恐怖成为十月少数派政变的必然逻辑延伸。 | `CLM-pipes-1990-red-terror-leninist-logic` | 将1918年夏内战升级与暗杀危机前后的制度突变全部还原为先验意识形态蓝图，低估了战时生存危机与基层压力。 |
+| 契卡制度史与法外基因论 | George Leggett, *The Cheka: Lenin's Political Police* (1981) | 追踪契卡从1917年12月仅具侦查权、凭人民委员会行政决议（类比沙皇尼古拉一世第三厅）建置，在1918年春夏突破司法人民委员部（斯泰因伯格）制约、借9月红色恐怖法令将法外处决权制度化，直至1922年改组为GPU并由列宁5月致库尔斯基密信将恐怖写入刑法典的制度连续性（估算1917–1922年契卡直接处决约14万人、镇压起义另致约14万人死亡）。 | `CLM-leggett-1981-vecheka-extra-legal-origins`；`CLM-leggett-1981-red-terror-institutionalization`；`CLM-leggett-1981-cheka-to-gpu-continuity` | 1981年尚未能利用后苏联解密的FSB中央与地方卷宗，其高层估算数字需与莫佐欣、泽姆斯科夫档案统计对勘。 |
+| 联盟破裂、党组织萎缩与专政偶然论 | Alexander Rabinowitch, *The Bolsheviks in Power: The First Year of Soviet Rule in Petrograd* (2007) | 论证一党专政与大规模恐怖并非十月既定方案：1918年春彼得格勒布尔什维克党员从约5万人骤降至约6,000人，为保住苏维埃五大多数竟伪造约399席代表资格；左翼社革党7月刺杀米尔巴赫旨在逼停布列斯特和约而非推翻苏维埃（**1918年12月彼得格勒契卡甚至秘密撤销了对左翼社革党“有组织武装起义”的指控**）；8月30日乌里茨基遇刺后，彼得格勒各区委“自下而上”施压扩大报复，与中央危机共振催生红色恐怖。 | `CLM-rabinowitch-2007-contingency-of-dictatorship`；`CLM-rabinowitch-2007-left-sr-coalition-collapse` | 彼得格勒在季诺维也夫与乌里茨基初期相对克制及随后失控的个案，不能直接代表伏尔加河或南方前线各省的暴力烈度。 |
+| 地方庇护网络、红色恐怖编年史与捷尔任斯基机构化 | Delano Dugarm (2001，收入 Donald J. Raleigh 编 *Provincial Landscapes*)；Igor Ratkovsky (伊·谢·拉特科夫斯基 2017两部专著，依托 A. M. & A. A. Plekhanov 2007 档案集) | Dugarm以坦波夫省个案揭示地方布尔什维克宗派庇护网、溃兵与契卡自主滥权常偏离莫斯科指令，甚至以“虚构暴动”掩盖征粮失败；圣彼得堡国立大学史家拉特科夫斯基（2017《契卡红色恐怖编年史》与《捷尔任斯基传》）依托普列汉诺夫父子2007年档案集，重构人质制度、地方契卡对孟什维克与社革党的压制、1918年秋约8,000人处决估算，以及捷尔任斯基如何将分散的革命暴力收编为垂直集权的契卡—内务—最高国民经济委员会官僚机器。 | `CLM-raleigh-2001-local-bolshevik-violence-and-clientelism`；`CLM-cheka-chronicle-hostage-and-local-autonomy`；`CLM-cheka-chronicle-suppression-of-socialist-rivals`；`CLM-plekhanov-am-dzerzhinsky-cheka-institutionalization` | 地方报刊编年史与契卡内部通报存在漏报或战绩夸大双向偏差，须与独立受害者名册及省级法院档案交叉核验。 |
+| 被镇压社会主义对手、第三势力崩溃与1918年工人抗议 | [S级当事人演说] L. Martov (1920年10月哈勒大会演说)；Oliver H. Radkey, *The Sickle under the Hammer* (1963)；D. O. Churakov (丘拉科夫, 2004) | 马尔托夫在1920年德国独立社民党哈勒大会上痛斥无差别红色恐怖（如彼得格勒一次处决约800人）与“二十一条”如何摧毁社会主义道德与苏维埃民主；Radkey剖析社革党与科穆奇（Komuch）“民主第三势力”因内部分裂及白军借其作“保护色”而崩溃，将政局推入红白恐怖两极；丘拉科夫以档案证明1918年苏维埃辖区210–220家大中型企业爆发10–25万工人罢工抗议，直至8月伊热夫斯克—沃特金斯克武装工人起义，直接证伪“镇压对象仅限于资产阶级和地主”的官方叙事。 | `CLM-halle-1920-martov-critique-of-terror-and-21-conditions`；`CLM-smith-scott-2011-psr-third-force-collapse`；`CLM-churakov-2004-soviet-worker-protest-dynamics-1918`；`CLM-churakov-2004-izhevsk-votkinsk-worker-insurrection` | 反对派控诉与工人起义证明了恐怖对劳动阶级自身的反噬，但对白军战区白色恐怖与外国干涉的对称比较需另行展开。 |
+| 内战军事化结构与总体战现代治理 | Evan Mawdsley, *The Russian Civil War* (1987); David L. Hoffmann, *Cultivating the Masses* (2011) | Mawdsley从军事地理与政权生存结构出发，指出内战与政治高度军事化均是十月夺权方式的直接代价（“内战代价即革命代价”）；Hoffmann将契卡监控、集中营与粮食强制置于1914年一战以来欧洲列强总体战人口治理与国家暴力技术的连续谱中。 | `CLM-mawdsley-1987-civil-war-militarized-regime`；`CLM-hoffmann-2011-continuum-of-total-war-1914-1929` | 欧洲总体战技术共性或军事地理决定论，不能消解布尔什维克在1921年内战结束后仍保留并制度化法外警察权力的政治选择责任。 |
+| 后苏联FSB/GARF档案定量校准与莫佐欣“战时/和平期二分法” | O. B. Mozokhin (莫佐欣, 2006/2016)；V. N. Zemskov (泽姆斯科夫, 2010s) | 莫佐欣据俄罗斯联邦安全局中央档案馆（ЦА ФСБ РФ）统计表（`DATA-06-1918-1929-cheka-ogpu-sentencing-and-1929-collectivization-surge`），确认1918–1921年有案可查契卡处决约1.75万人（计入缺省全期上限不超过5万），并提出鲜明的**国家主义二分法**——肯定1918–1921年战时契卡镇压武装叛乱的应急必要性，却**尖锐批判1922年后和平时期GPU/OGPU继续垄断法外司法**（如1924年4,097起反革命案仅6起移交法院，战时死刑率6.9% vs 和平期0.5%/0.94%）；泽姆斯科夫据GARF档案校准1918–1920年登记反革命案判刑62,231人、处决25,709人（含未登记上限<10万），共同驳斥百万级夸大数字。 | `CLM-mozokhin-cheka-to-ogpu-extrajudicial-jurisdiction-1918-1929`；`CLM-zemskov-1920s-archival-repression-scale-before-1930` | 中央汇总报表未涵盖1918–1920年前线红军革命军事法庭、征粮队及地方县契卡未上报的就地处决，档案下限不等于实际死亡总数。 |
+
+### `DEB-1918-democratic-counterrevolution-third-force`：科穆奇、乌法督政府与民主反革命何以覆灭
+## [T1] 核心问题定义
+1918年伏尔加—西伯利亚的科穆奇与乌法督政府，何以未能维持一条独立于布尔什维克与军事右翼的道路？“民主反革命”指向其反布尔什维克及立宪代表制的政治组合，并不意味着这些政府内部、其社会支持者或所有反红力量均有相同目标。
+
+## [T2] 经验共识 + 各学派立场对照矩阵
+
+**经验共识**：科穆奇于1918年6月在捷克斯洛伐克军团控制萨马拉后成立；9月产生跨派别的乌法督政府。战争动员和旧军官依赖伴随政权内部冲突，11月18日鄂木斯克政变以高尔察克统治取代督政府。这一东部实验的终结不等于所有地区第三种力量同时消失。
+
+| 取向 | 代表与核心解释 | 盲点与待核问题 | 本地论断锚点 |
+| :--- | :--- | :--- | :--- |
+| 政党与政策失误 | Oliver Radkey, *The Sickle under the Hammer* (1963)：社革党丧失独立武装基础，征兵和重开战线削弱农民支持，依赖旧军官又使政权易遭右翼取代。 | 不能仅凭领导层失误解释战场、交通与财政限制；农民态度亦有地方差异。 | `CLM-smith-scott-2011-psr-third-force-collapse`（馆藏 ID 误标，所引著作实际为 Radkey） |
+| 战争地缘与政治极化 | Mawdsley 强调内战战场、联盟脆弱和文官政治困境；Swain、Figes 的相关研究可供比较。 | 财税与各阶级支持的地方变化仍须逐项证实，结构压力不证明政变之前的结局必然。Swain、Figes 对本问题的具体表述待核原著。 | `CLM-mawdsley-1987-white-movement-structural-defeat`; `CLM-mawdsley-1987-civil-war-militarized-regime` |
+| 工人自主的第三力量 | Churakov 通过伊热夫斯克追踪工人自治诉求及与东部反布尔什维克政权结盟后的矛盾。 | 地方工人政治并不等于科穆奇领导层的纲领；沃特金斯克和伊热夫斯克的夺权过程亦有差别。 | `CLM-churakov-2004-izhevsk-votkinsk-worker-insurrection` |
+| 苏联正统解释 | 强调外国干涉与白军集团，将温和社会主义者视为反革命的过渡性外衣。 | 容易抹平民主社会主义者的独立目标及其与军官集团的真实冲突。 | `ORG-komuch-and-democratic-counterrevolution` |
 
 ## 4. 关联时间线锚点 (共 0 条)

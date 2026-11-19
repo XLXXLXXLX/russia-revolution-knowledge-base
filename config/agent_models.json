@@ -371,6 +371,19 @@
           "use_when": "【日常订阅主力】撰写 [T1]/[T2]/[T3] 卡片、150字定性微摘要与常规 DEB-* 争鸣卡"
         },
         {
+          "slot": "sub-curator-neon",
+          "tier": "subscription",
+          "family": "google",
+          "dispatch": "delegate_task",
+          "target": {
+            "providerInstanceId": "antigravity_2",
+            "driverKind": "antigravity",
+            "model": "gemini-4-neon",
+            "options": { "thinking_level": "high" }
+          },
+          "use_when": "【日常订阅主力】与 gemini-4-hydrogen / argon 轮换承担核心人物、事件、组织与会议卡的多视角升格编纂"
+        },
+        {
           "slot": "sub-graph-terra",
           "tier": "subscription",
           "family": "openai",
@@ -468,6 +481,19 @@
             "options": { "thinking_level": "high" }
           },
           "use_when": "【日常订阅主力】异源审计 GPT/Grok 撰写的卡片，审查目的论倾向与概念时代错置"
+        },
+        {
+          "slot": "sub-audit-neon",
+          "tier": "subscription",
+          "family": "google",
+          "dispatch": "delegate_task",
+          "target": {
+            "providerInstanceId": "antigravity_2",
+            "driverKind": "antigravity",
+            "model": "gemini-4-neon",
+            "options": { "thinking_level": "high" }
+          },
+          "use_when": "【日常订阅主力】异源审计 GPT (Codex) 撰写的争鸣/实体卡片，严查站内史料漏引、历法与学派平衡"
         },
         {
           "slot": "apex-audit-opus",

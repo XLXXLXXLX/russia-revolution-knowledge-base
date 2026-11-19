@@ -1,37 +1,35 @@
 ---
 id: DEB-1921-trade-union-controversy-and-party-unity
 type: debate
-title: 1920–1921年工会争论与俄共十大禁派令
-era: "1920-1921"
-core_cards: ["MTG-1921-rcpb-10th-congress", "POL-ban-on-factions-1921", "ORG-workers-opposition", "PER-shlyapnikov", "PER-kollontai", "PER-trotsky", "PER-bukharin", "PER-lenin", "PER-tomsky"]
-coverage_status: draft
-perspectives_present: ["trotsky-bukharin-statization", "workers-opposition-producers-congress", "lenin-zinoviev-school-of-communism", "daniels-organizational-turning-point"]
-perspectives_missing: ["tenth-congress-stenogram-roll-call", "trotsky-platform-web-archive", "shopfloor-vote-proportions", "allen-shliapnikov-biography"]
-updated_at: "2026-11-18"
+title: 1921年工会争论、工人反对派与党内统一之争
+era: "1920-1929"
+dates:
+  start_ns: "1920-11-01"
+  end_ns: "1921-03-16"
+core_cards: ["MTG-1921-rcpb-10th-congress", "MTG-1922-03-11th-party-congress", "POL-ban-on-factions-1921", "POL-nep", "ORG-workers-opposition", "ORG-democratic-centralists", "ORG-right-opposition-1928", "EVT-1921-kronstadt", "PER-lenin", "PER-trotsky", "PER-bukharin", "PER-shlyapnikov", "PER-kollontai", "PER-tomsky", "PER-osinsky", "PER-sapronov"]
+coverage_status: multi-perspective
+perspectives_present: ["lenin-ten", "trotsky-militarization", "workers-opposition", "party-institutional-history", "labor-social-history", "industrial-paternalism"]
+perspectives_missing: ["complete-congress-roll-call", "union-local-archives"]
+updated_at: "2026-11-19"
 ---
 
 ## [T1] 核心问题定义
-
-1920年末至1921年3月，俄共究竟应把工会并进国家经济机关，交给产业工会选出的全俄生产者代表大会，还是把工会留成说服工人服从已经由国家管理的经济的“共产主义学校”？第十次代表大会以336票对50票对18票通过列宁—季诺维也夫纲领；同一天的《关于党的统一》又用当时不公布的第7条，授权扩大的中央会议以三分之二多数把中央委员降为候补或开除出党。前一个表决决定的是经济管理权的归属，后一个条款改变的是党内有组织反对此后还能不能存在。两件事同会通过，并不是同一件事。
+内战结束之际，工会应成为国家管理生产的传动机构，还是维护工人利益并参与管理的独立空间？工人反对派、托洛茨基和列宁的方案分歧，如何与第十次党代表大会禁止派别相互交织？喀琅施塔得危机既是决议援引的背景，也是有待独立考察的社会抗议，不能混同党内派别。
 
 ## [T2] 各学派立场对照矩阵
-
-**经验共识**：争论从1920年的劳动军事化、交通总管理局（采克特兰）和一长制延续到1920年11月的莫斯科省代表会议，1921年1月各派纲领见报，3月8日至16日第十次代表大会收束。有表决权代表694人。工会问题的表决是列宁、季诺维也夫“十人纲领”336票，托洛茨基—布哈林联合纲领50票，工人反对派18票，另有2票弃权（`DATA-04-party-membership-and-congress-votes-1903-1929`）。莫斯科1921年1月的地方预备选举是另一套数字：十人派57，极左33，托洛茨基派21，只说明首都风向，不能换成车间里的真实比例。3月16日通过《关于党的统一》。草案第2、第5、第6条点名工人反对派和民主集中派；通过本改成不点名的概括。第7条的处分机制两本一致，而且当时不公布。列宁在当天的报告里说，第7条“不供发表”。1924年1月17日斯大林在第十三次代表会议上宣读了这一条，代表会议才建议公布。粮食税决议在3月15日近乎全票通过，那是经济退却，不是禁派令。
+**经验基准**：核心论战发生在1920年11月至1921年3月16日十大闭幕（`era`延至1929年托姆斯基倒台及车间体制定型）。据 `DATA-04-party-membership-and-congress-votes-1903-1929`，十大694名表决代表中工会决议票型为“十人纲领” **336票**、托洛茨基—布哈林纲领 **50票**、工人反对派 **18票**（弃权2票；1月莫斯科预备会为 `57:33:21`），《关于党的统一》反对票不足30票；秘密第7条设定处分中央委员程序。喀琅施塔得决议并非工人反对派纲领。
 
 | 学派/取向 | 代表学者与著作 | 核心论点摘要 | 支撑论断卡 | 主要受批评盲点 |
 | :--- | :--- | :--- | :--- | :--- |
-| **工会国家化 / 融合论（当事人纲领，不是中立史论）** | 托洛茨基，以及与他联署十大纲领的布哈林 | 工会应与国家经济机关生长到一起，用任命、改组和震动把运输和工业计划贯彻下去。柯伦泰把这概括为“棍棒教育”：采克特兰用撤换迫使工会服从最高国民经济委员会，工人的首创被说成补窗户、填水坑。布哈林在她的描述里是缓冲派：工会内部可以谈选举和工人民主，工业的实际统治权仍留在工会够不着的苏维埃机关里。 | 没有单独的托洛茨基1920–1921年纲领论断卡。当事人归纳见 `CLM-kollontai-1921-all-russian-congress-of-producers-program`（S级小册子，对对手的刻画是论战，不是大会速记）。票数见 `DATA-04` | 柯伦泰把托洛茨基、列宁和布哈林说成在“不能把管理权交给工会”上完全一致，这是她的归类。三人在委任制、缓冲措辞和工会是否立即接管上的差别，要用各派原文对读，不能只引用她的讽刺。50票对336票说明代表结构里的失败，不说明铁路工人是否赞成交通总管理局。 |
-| **全俄生产者代表大会** | 什利亚普尼科夫提纲；Alexandra Kollontai, *The Workers' Opposition* (1921) | 工会不只是共产主义的学校，也是它的创造者。在废除失业强制之后，新的劳动激励不能由最高国民经济委员会里的党政干部和旧专家用命令发明出来。国民经济的控制权应属于加入产业工会的全俄生产者代表大会，由它选出统管全国经济的中央机关，取消最高国民经济委员会和全俄工会中央理事会的二元并立。移交是逐个工会、在全俄工会中央确认准备好之后进行，不是第二天全面接管。配套要求包括：恢复党内选举、限制1919年以后入党的非无产者、至少三分之一的中央领导不得同时担任苏维埃高官。另一条线把危机定义为官僚委任制加上一长制和专家特权对群众自我活动的否定，而不是单纯的贫困或军事残余。 | `CLM-kollontai-1921-all-russian-congress-of-producers-program`；`CLM-kollontai-1921-workers-opposition-critique-of-bureaucracy-and-specialists` | 这是被查禁的反对派政论。它抓住了委任制和干群分裂，但把工业崩溃主要写成权力没有交给工会，低估了燃料、粮食和产业工人队伍本身的萎缩。1921年春面对的是小农国家和城市供给崩溃，生产者代表大会没有提出农村粮食如何进城的机制。柯伦泰写明反对派不分裂党，这使它在禁派令下失去单独行动的空间。 |
-| **“共产主义学校”与十人纲领** | 列宁、季诺维也夫；大会多数 | 现阶段生产管理仍在国家机关。工会的任务是说服、保护和训练，为将来参与管理做准备，而不是现在变成国家。柯伦泰讥之为福禄贝尔式的直观教学：工人被当成还不能碰方向盘的学生，经济由别人在实验室里设计。大会多数用这个框架击败另外两派，并用专门决议把工人反对派定性为无政府工团主义倾向。决议第5条同时要求认真处理反对派所关心的反官僚主义、清洗非无产者和发展工人主动精神，声明党在这些问题上并没有做完该做的事。 | 纲领内容的对立面表述见上引柯伦泰论断卡；制度归宿见 `CLM-daniels-1960-tenth-congress-turning-point` 与 `WEB-1921-03-16-on-party-unity` | “学校”论赢得的是代表票，不是对官僚化诊断的反证。第5条留下的政策口惠，后来有没有变成车间权利，本卡不预先判成“完全落空”或“已经兑现”。 |
-| **禁派令是党的组织史转折** | Robert V. Daniels, *The Conscience of the Revolution* (1960) | 十大把早期的集中和统一重新写成可执行的规则：解散按纲领组成的集团，不服从者开除，并授权中央处分到中央委员。这既打击工人反对派，也使后来的反对派必须先否认自己是派别。书记处改组有利于列宁派，尤其是斯大林的组织地位。作者同时记下限定：极端处分要三分之二；列宁反对在重大分歧上彻底取消按纲领选举的权利，并要求把工人反对派的人留进中央。转折是合法反对空间的显著收缩，不是意见立刻绝迹。喀琅施塔得是紧迫背景和论据，不是唯一原因；极左反对派与水兵没有直接组织联系，把二者说成反革命串通是领导层随后的政治解释。 | `CLM-daniels-1960-tenth-congress-turning-point`。第7条原文：`WEB-1921-03-16-on-party-unity`（`sources/web-archive/E06_E10_turning_points/1921-03-16_on-party-unity.md`）。票数与“尚不能推出车间比例”的警告：`DATA-04` | 丹尼尔斯把1921年接回1902年的组织原则，并遥看后来的大清洗。这是史家的后果链，不是1921年投票者已经预谋1930年代。大会开幕日不是第7条的通过日；通过日是3月16日，依据是决议档案而不是丹尼尔斯正文里的逐日考订。禁派令约束的是党内集团，不是“其他政党从这一天起被法律禁止”的起点。 |
+| 工人反对派 | 亚历山德拉·柯伦泰，《工人反对派》(1921) | 批评官僚和专家支配，要求由生产者代表大会组织国民经济。 | `CLM-kollontai-1921-workers-opposition-critique-of-bureaucracy-and-specialists`；`CLM-kollontai-1921-all-russian-congress-of-producers-program` | 纲领是参与者政治介入，本身亦不反对排斥非共多数，不能直接代表全体工人。 |
+| 列宁与“十人纲领” | 列宁与“十人纲领”（十大代表大会多数派）；Joseph Godson, *The Soviet Worker* (1981) | 工会既是“共产主义学校”与党群“传送带”，又借民主集中制、全厂单一产业工会及内部秘密党组锁死底层独立空间，否定抗议合法性。 | `CLM-godson-1981-tenth-congress-to-1929-transmission-belt-unions` | 教义与组织章程剖析偏重上层结构，对1920年代车间议价空间关注有限。 |
+| 托洛茨基与劳动军事化 | Robert Service, *Trotsky: A Biography* (2009) | 托洛茨基推动劳动军事化与Tsektran，主张“工人职责是执行命令”，在专政与一党垄断上与列宁、斯大林共享更深共识。 | `CLM-service-2009-trotsky-authoritarian-consensus` | 传记解释不能替代1920—1921年中央全会逐次辩论原档，亦不否定其后民主诉求与垄断的结构悖论。 |
+| 党内制度转折 | Robert V. Daniels, *The Conscience of the Revolution* (1960) | 禁派收缩组织化异议空间，但并未立即消灭一切分歧。 | `CLM-daniels-1960-tenth-congress-turning-point` | 制度后果不能等同当时所有代表预谋后来的镇压。 |
+| 工会终结与家长制三方交锋 | Leonard Schapiro (1981)；Donald Filtzer (1986)；Maksim Lebsky (2021) | Schapiro 主张1920–21即已政治终结（1920-06逮捕莫斯科印刷工会、1921初捕约2,000名孟什维克、1921-05金属工会 `120:40` 否决中央名单遭强推）；Filtzer 论证RKK与车间讨价还价延至1928-12至1929-05托姆斯基免职及1929-03-06单方解雇令；Lebsky 揭示 ФУБР 75%住房与逐宿令塑造社会依附。 | `CLM-schapiro-1981-end-of-illusion-unions-1917-to-tomsky-fall`；`CLM-filtzer-1986-nep-unemployment-and-shopfloor-bargaining`；`CLM-filtzer-1986-1929-tomsky-purge-and-shock-work`；`CLM-lebsky-industrial-paternalism-origins-1917-1929` | 三方分别侧重党团压制、车间谈判与福利依附，且均受就业市场与宏观政策转轨影响。 |
 
 ## [T3] 争鸣演进史与待核查关键史料
+参与者在危机中争论生产、代表权与党的纪律；决议把喀琅施塔得援引为党内分歧可能被敌人利用的例证，并非证明水兵与工人反对派存在组织联系。Daniels与Service从党内组织和领袖专政共识切入，Schapiro（1920–21政治终结）、Filtzer（1928–29车间终结）与Lebsky（企业家长制依附）则围绕工会与工人的实际自主空间展开三方交锋，并须结合 `DATA-04-party-membership-and-congress-votes-1903-1929`（十大 `336:50:18` 票数）与 `DATA-08-1921-1929-nep-social-classes-unemployment-and-gender-labor` §5.2（全苏工会中央理事会1924年党员占比 `100%`、1926年 `99.6%`）校验组织饱和度。站内原典 [1921-03-16_on-party-unity.md](../../sources/web-archive/E06_E10_turning_points/1921-03-16_on-party-unity.md#L54) 已核实：通过本第7条要求处分中央委员须由扩大全会三分之二决定（不能把草案点名措辞当成通过本），该秘密条款首次由斯大林于 `1924-01-17` 第十三次党代表会议公开宣读。
 
-工会争论在战时共产主义的最后几个月公开化，在新经济政策宣布的同一个星期被组织手段终止。经济上的退却和政治上的收紧因此容易被写成一个转折的两面。它们共享危机和同一次代表大会，目标和文本不同：粮食税承认市场，第7条取消有纲领的党内集团。
+**站内已核 S/A 级锚点**：[1921-03-16_on-party-unity.md](../../sources/web-archive/E06_E10_turning_points/1921-03-16_on-party-unity.md)；[1921-03-01_petropavlovsk-resolution.md](../../sources/web-archive/E02_E07_foundational_docs/1921-03-01_petropavlovsk-resolution.md)；[DATA-04-party-membership-and-congress-votes-1903-1929.md](../../data/DATA-04-party-membership-and-congress-votes-1903-1929.md)；[DATA-08-1921-1929-nep-social-classes-unemployment-and-gender-labor.md](../../data/DATA-08-1921-1929-nep-social-classes-unemployment-and-gender-labor.md)；[RN-W1C-communist-oppositions-1918-1929.md](../../reading-notes/daniels_1960_conscience/RN-W1C-communist-oppositions-1918-1929.md)；[RN-W29-haimson-lenin-1917-leap-and-kollontai-workers-opposition.md](../../reading-notes/haimson2005_kollontai1921/RN-W29-haimson-lenin-1917-leap-and-kollontai-workers-opposition.md)；[RN-W20-nep-labor-market-and-1928-1929-shopfloor-turn.md](../../reading-notes/filtzer_1986/RN-W20-nep-labor-market-and-1928-1929-shopfloor-turn.md)；[RN-W35-schapiro-vs-lebsky-soviet-trade-unions-and-industrial-paternalism-1917-1929.md](../../reading-notes/schapiro_1981_and_lebsky_workers/RN-W35-schapiro-vs-lebsky-soviet-trade-unions-and-industrial-paternalism-1917-1929.md)。
 
-1. **秘密第7条的制度内容，以通过本为准。** 中央委员会获得党内一切处分权，直至开除。对象若是中央委员、候补中央委员或中央监察委员，必须召开有全体候补中央委员和全体中央监察委员参加的中央全会；三分之二认为必须把一名中央委员降为候补或开除时，立即执行。列宁当天说，各派都讨论过这一条，希望不必使用，但在“相当急剧的转变”前夕需要它。基谢廖夫反对第7条，并说列宁用过“架起机关枪”的比喻，自己不愿当机关枪手。这句话来自全集注释所记的发言，不是第7条正文。`DATA-04` 记工人反对派对该决议的修正或反对票不到30票比694票，出处是编年札记而非点名册，使用时保持这个上限表述。
-2. **草案不能冒充通过本。** 中文《列宁全集》所收是3月13日或14日的草案初稿，点了工人反对派和民主集中派的名。英文通过本（*KPSS v rezoliutsiiakh*）改成概括表述。第7条的三分之二机制两本一致。引用处分权时可以两本对读；引用“大会点名解散某派”时必须说明那是草案措辞，通过本的解散令是“一切按纲领组成的集团”，不逐一点名。
-3. **与喀琅施塔得公案分工。** `DEB-1921-kronstadt-and-nep-origins` 处理水兵起义的社会成分和新经济政策的起因。本卡只把起义当作禁派令文本里的论据：决议自己把喀琅施塔得写成敌人利用党内分歧的实例。丹尼尔斯认为这种连接是政治解释。水兵要求重建苏维埃，工人反对派要求生产者代表大会，两者都批评官僚，组织上不是同一个集团。
-4. **1928–1929年的工会清洗是后续，不是这次表决的预先写好的结局。** 托姆斯基在1921年站在十人纲领一边，新经济政策时期维护集体谈判；1928–1929年全苏工会被接管，见 `CLM-filtzer-1986-1929-tomsky-purge-and-shock-work`。那是禁派令所创造的组织条件后来被如何使用的问题，不能写成十大已经通过了突击劳动。
-5. **S级。** `WEB-1921-03-16-on-party-unity`。柯伦泰小册子英译（潘克赫斯特《工人无畏舰报》连载）在 `sources/primary/kollontai_1921_workers_opposition/`，俄文原本尚未入库。待核：十大速记中336:50:18的唱名、第7条的秘密会议记录、什利亚普尼科夫12月30日报告和1月25日《真理报》提纲的原文，以及托洛茨基—布哈林联合纲领全文。最后这项没有对应的 `WEB-*`。
-6. **A级。** Daniels (1960) pp. 133–153。代表票不能外推基层，`DATA-04` 第9节已写明。
+**外部待补核 S/A 级缺口**：十大逐次唱名票册和秘密会议原始记录、托洛茨基—布哈林联合纲领权威全文及地方工会档案仍须核对。

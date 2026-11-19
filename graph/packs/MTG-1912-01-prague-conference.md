@@ -43,7 +43,7 @@
   - **[孟什维克史学与政治传记派 / Israel Getzler (1967)]**（`getzler_1967_martov/ch06`）：以马尔托夫视角复盘1908–1911年“错失的机遇（The Missed Opportunity）”，认为孟什维克在1910年巴黎全会上手握“征款丑闻”道义优势却因顾惜统一未果断另立党统，反而通过反取消主义妥协决议武装了列宁，使列宁得以在1912年1月收割正式党名、托管基金与合法出版先机。
   - **[修正式社会民主主义语境派与帝国基层比较派 / Lars T. Lih (2006, 2012) & Eric Blanc (2021)]**（`CLM-lih-2006-textbook-myth-critique`; `blanc_2021_rev_sd/ch13`）：反对把布拉格会议神化或妖魔化为“一夜之间建成纯粹先锋党”的断裂点。Lih 与 Blanc 指出，会议仅驱逐公开否定地下党的《我们的曙光》取消派而未排除护党孟什维克，且在俄国国内强烈的“非派别统一”工人情绪制约下，《真理报》最初以联合护党孟什维克的非派别面貌运作，外省与边疆两派联合委员会一直延续至1917年夏秋——布尔什维克后来的群众霸权恰恰得益于长期留在更广泛的社会民主党框架内争夺多数，而非过早自我孤立为狭隘宗派。
 
-## 2. 一跳邻域等权重微摘要 (共 8 个关联节点，严防大卡霸占上下文)
+## 2. 一跳邻域等权重微摘要 (共 9 个关联节点，严防大卡霸占上下文)
 ### 邻居节点: `PER-lenin`
 - **时效关系边** (`PER-lenin` → `MTG-1912-01-prague-conference` | `convened-and-split-party` | 有效时段: `1912.01`): 召集布拉格全俄代表会议驱逐孟什维克取消派、组建纯布尔什维克中央委员会，会后将斯大林增补入中委与俄国局。
 - **时效关系边** (`MTG-1912-01-prague-conference` → `PER-lenin` | `architect-and-drafter` | 有效时段: `1911–1912`): 主导筹备并起草核心决议，借布拉格会议建立布尔什维克主导的独立中央、驱逐《我们的曙光》取消派并掌控正式党名与经费
@@ -77,35 +77,41 @@
 - **时效关系边** (`MTG-1912-01-prague-conference` → `MTG-1903-rsdlp-2nd-congress` | `organizational-rupture-deepening` | 有效时段: `1903→1912`): 1903年二大形成最初派别分野，1912年布拉格会议在中央领导层建制上树起独立旗帜并加深组织决裂，但地方基层彻底分党仍延续至1917年
 - **节点定性微摘要 [T1]** (完备度 `multi-perspective`): `1903-07-30` 至 `08-23 [N.S.]` 俄社民工党二大先后在布鲁塞尔与伦敦召开。大会通过党纲；第23次会议马尔托夫党章第一条 `28:22:1` 胜列宁案。随后的崩得与经济派退场逆转了多数，列宁借微弱多数改组《火星报》三人编委，由此衍生布尔什维克与孟什维克之名。
 
+### 邻居节点: `EVT-1907-1914-june-third-regime-and-lena-to-july-strikes`
+- **时效关系边** (`EVT-1907-1914-june-third-regime-and-lena-to-july-strikes` → `MTG-1912-01-prague-conference` | `party_reorganization` | 有效时段: `1912.01`): 布尔什维克宣布《我们的曙光》取消派置身党外并建立独立中委与俄罗斯局，与同年4月工运爆发形成共振
+- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 1907年6月3日[O.S.]六三政变至1914年7月一战爆发间的战前危机年代。前五年呈现土地缙绅杜马优势、斯托雷平土改与地下党受挫蛰伏；1912年4月勒拿金矿惨案引爆《真理报》创刊、工会与保险会转向及1914年7月圣彼得堡街垒工潮，引发战前稳定与否之争。
+
 ## 3. 关联史学争鸣光谱 (Historiographical Debates)
 ### `DEB-1903-bolshevik-menshevik-split`：《怎么办？》与1903年布尔什维克—孟什维克分裂实质之争
 ## [T1] 核心问题定义
-《怎么办？》中的组织与意识理论是否预示了列宁式精英统治，1903年党内分裂是否由此必然产生？争论涉及文本语境、代表大会的具体冲突与后来派别政治的连续性，不能把它们当成同一个问题。
+《怎么办？》的自发性与意识理论究竟体现精英代替工人，还是欧洲社会民主主义所共有的结合公式？1903年党章、领导机构选举和代表退会如何共同造成分裂，又能否把后来的一党统治直接追溯到当时？必须区分文本论战、组织选择和事后政治后果。
 
 ## [T2] 各学派立场对照矩阵
+**经验基准**：二大在布鲁塞尔与伦敦举行（会场公历1903-07-30至08-23 [N.S.]，对应俄历07-17至08-10 [O.S.]）；`era`覆盖1902《怎么办？》至1904年论战。第23次会议（08-02 [N.S.] / 07-20 [O.S.]）党章第一条51票唱名表决中，列宁“参加党的一个组织”案以23:28被否、马尔托夫“在组织领导下经常亲自协助”案以28:22（1弃权）通过、整条以35:1（12弃权）通过；随后经济派（阿基莫夫、马尔丁诺夫，2票）与崩得（《记录》口径5人5票，Haimson口径5人4票）退场改变票基，在第31次会议《火星报》三人编委（普列汉诺夫、列宁、马尔托夫）选举中列宁派以25:2（20弃权，Haimson口径22:20:2）获胜而得名“多数派”。更硬的事后反证是：1906年斯德哥尔摩四大在孟什维克62:46占多数的条件下，党章第一条直接改回列宁1903年“参加党的一个组织”公式，证明1903年字句之争并非永久不可逾越的意识形态鸿沟。
 
-**经验共识**：《怎么办？》发表于1902年；1903年俄国社会民主工党二大围绕党章第一条、中央机构选举等发生冲突。列宁与马尔托夫都主张有组织的党；“多数派/少数派”的称谓来自特定表决，派系边界和多数并非始终固定。
-
-| 取向与代表著作 | 解释及依据 | 争议与检验 |
-| :--- | :--- | :--- |
-| 冷战时期组织连续性：Leonard H. Haimson, *The Russian Marxists and the Origins of Bolshevism*；Richard Pipes, *The Russian Revolution* | 强调地下革命知识分子、集中组织与群众之间的紧张，追索革命前组织文化和后来的专断政治之间的联系。 | “精英先锋队密谋论”是对部分传统叙事的概括，不宜把海姆森等不同作者的细致论证视为完全相同；须分别检验其具体主张，不能由后果直接证明1902年有一党专政计划。 |
-| 爱尔福特模式再解释：Lars T. Lih, *Lenin Rediscovered: What Is to Be Done? in Context* | 将列宁置于考茨基及德国社民党爱尔福特纲领的社会民主主义语境：有组织的社会主义运动与工人运动结合；强调列宁对工人接受政治教育能力的信心。 | 解释1902年论战不等于证明1903年组织斗争无实质分歧，也不能单凭文本排除后来的威权演变。 |
-| 孟什维克视角：Israel Getzler, *Martov: A Political Biography of a Russian Social Democrat* | 从马尔托夫与党内民主、组织成员资格和领导机构冲突出发，追踪孟什维克对列宁集中主义的批评。 | 马尔托夫本人的回忆与论战兼具当事人见证及事后政治辩护属性；应与二大记录及对手文本对读，不能把事后派别身份投回全部代表。 |
+| 学派/取向 | 代表学者与著作 | 核心论点摘要 | 支撑论断卡 | 主要受批评盲点 |
+| :--- | :--- | :--- | :--- | :--- |
+| 冷战自由派与雅各宾—特卡乔夫连续论（及1904当事人先声） | William Henry Chamberlin (1958, 援引 Karpovich 与 Talmon)；Richard Pipes, *The Russian Revolution* (1990)；[当事人 B 级论战] Leon Trotsky, *Our Political Tasks* (1904) | 将《怎么办？》与1903年建党方案置于法国雅各宾派—布朗基—特卡乔夫“少数密谋家夺权”及俄国激进知识分子职业革命家传统中，视之为一党专政的制度基因；托洛茨基1904年已从党内提出“党组织替代党、中央替代组织、独裁者替代中央”的“替代主义”警告。 | `CLM-jacobin-ancestry-tkachev-blanqui-and-leninism`；`CLM-pipes-1990-patrimonial-state-and-intelligentsia` | 以1917/1930年代结局倒推1902–1903年文本，忽视考茨基主流正统语境及1906年孟什维克自己采纳列宁党章第一条的事实。 |
+| 思想史与组织张力 | Leopold H. Haimson, *The Russian Marxists and the Origins of Bolshevism* (1955)；Haimson (1987) | 俄国马克思主义知识分子内部长期存在“自觉性（意识）”与“自发性”的心理及认识论张力，在《怎么办？》、二大组织冲突及孟什维克“党内大家庭”伦理 vs 布尔什维克集中制中集中爆发。 | `CLM-haimson-1955-lenin-what-is-to-be-done`；`CLM-haimson-1955-consciousness-spontaneity`；`CLM-haimson-1955-1903-second-congress-split`；`CLM-haimson-1987-menshevik-party-ethos-and-family` | 知识分子群体心理连续性不能替代对二大逐场议程、崩得退席与编委改选偶然票序的制度分析。 |
+| 爱尔福特语境重释 | Lars T. Lih, *Lenin Rediscovered: What Is to Be Done? in Context* (2006) | 《怎么办？》核心是考茨基《爱尔福特纲领》“社会主义与工人运动相结合”的欧洲社民主流公式，旨在以德国SPD模式激发地下工作者信心，绝非轻蔑工人的“担忧工联主义”密谋手册。 | `CLM-lih-2006-erfurtian-merger-formula`；`CLM-lih-2006-kautsky-and-spontaneity`；`CLM-lih-2006-textbook-myth-critique` | 强调1902年文本的爱尔福特共识，容易淡化1903年二大后在中央集权、编委人事与派别组织操作上的真实决裂。 |
+| 孟什维克政治传记 | Israel Getzler, *Martov: A Political Biography of a Russian Social Democrat* (1967) | 从马尔托夫对党员资格弹性、老编委集体荣誉及党内自治的维护解释1903年决裂，指出马尔托夫拒任三人编委使组织微差升级为派别分野。 | `CLM-getzler-1967-martov-1903-clause-one` | 马尔托夫个人品格与后期民主社会主义立场不能简单投射为1903年全体“软派”火星派代表的既定纲领。 |
+| 帝国边疆社会民主主义 | Eric Blanc, *Revolutionary Social Democracy* (2021) | 以帝国边疆非俄罗斯民族社会民主党（崩得、拉脱维亚、波兰、芬兰等）的群众性合法/半合法组织实践与共同的“革命考茨基主义”，打破仅以俄国中心流亡小报编委为轴的建党叙事。 | `CLM-blanc-2021-revolutionary-kautskyanism-in-empire`；`CLM-blanc-2021-beyond-russocentric-bolshevism` | 边疆宏观组织比较不能取代二大第23次与第31次会议具体党章文本、联邦制否决及唱名票序的微观因果。 |
+| 工人能动性与政治修辞辨析 | S. A. Smith (1996/1999，收入 Reginald E. Zelnik 编论文集)；Robert Mayer (1999) | Smith（及Zelnik译注卡纳奇科夫自传）揭示1895–1917年彼得堡“觉悟工人”追求去监护化自治、排斥知识分子两派内斗；Robert Mayer考证列宁1903–1904年的“雅各宾”自称直接承袭普列汉诺夫1901年的法国大革命修辞以打击机会主义，而非效法特卡乔夫或布朗基密谋。 | `CLM-zelnik-1999-worker-intelligentsia-tutelage-tension`；`CLM-zelnik-1999-kanatchikov-conscious-worker-formation`；`CLM-mayer-1999-lenin-jacobin-metaphor-vs-blanquism` | 概念史修辞澄清与基层工人心态史分属不同分析层面，需与中央党组织制度变迁互证。 |
 
 ### `DEB-1914-haimson-thesis-stability`：海姆森命题：战前俄国的社会稳定与双重极化
 ## [T1] 核心问题定义
-一战前俄国工业增长与有限政治改革能否导向持久稳定，还是1912—1914年的城市冲突暴露了难以调和的危机？争论涉及对罢工、政治制度及社会变化的解释，也涉及无法直接验证的无战争反事实。
+一战前的工业增长、土地改革与杜马政治，能否使帝国逐步稳定，还是工人与有产社会、社会与专制国家的双重极化已侵蚀统治基础？1912年后罢工回升和改革受阻如何与战争冲击相互作用，须区分可观察的危机与无法验证的无战争反事实及其解释限度。
 
 ## [T2] 各学派立场对照矩阵
+**经验基准**：1907-06-03 [O.S.] / 1907-06-16 [N.S.] 政变重组选举制度；1912-04-04 [O.S.] / 1912-04-17 [N.S.] 勒拿河金矿惨案后工潮急剧高涨。据工厂视察官统计（`DATA-01-1905-1917-strikes-and-petrograd-elections`），罢工人数从1910年谷底46,623人跃升至1912年725,491人、1913年887,096人、1914年上半年1,337,458人（政治罢工占79.2%）；至1914年6月，彼得堡18个工会理事会中约14.5个、全俄保险局选举中多数工人代表已由布尔什维克及其盟友控制（`DATA-07-1905-1918-unions-moscow-swings-and-constituent-assembly-votes`）。工业增长、制度延续与社会冲突升级并存，均不能单独证明无世界大战条件下革命或稳定必然发生。
 
-**经验共识**：1905年革命后帝国出现杜马和有限政治改革，工业恢复增长；1912年后罢工再次高涨。增长、工潮和制度持续并存，均不能单独证明革命必然或稳定必然。
-
-| 取向与代表著作 | 核心论点及依据 | 局限与待检验问题 |
-| :--- | :--- | :--- |
-| 经济现代化：Alexander Gerschenkron, *Economic Backwardness in Historical Perspective* | 后发工业化和国家、金融机构的作用提供了研究增长与制度适应的视角；增长可成为讨论战前转型潜力的依据。 | 不能由工业增长直接推出宪政稳固，也不宜未经逐文核对把作者笼统归为“必然稳定论”。 |
-| 自由派政治史：Richard Pipes, *The Russian Revolution* | 重视国家制度、精英和革命政治，并讨论战前发展及战争的破坏作用。 | 不等于主张沙皇制度已经实现稳固宪政；其对专制遗产和革命行动者的判断与经济乐观论须分开核对。 |
-| 城市社会危机：Leopold H. Haimson, “The Problem of Social Stability in Urban Russia, 1905–1917” | 战前城市存在工人与有产社会之间、以及城市社会各阶层与专制官僚之间的双重极化，工潮重燃与政治僵局相互作用。 | 城市材料不自动代表农村与边疆；战前危机严重并不证明无战争也会出现同一种1917年革命。 |
-| 劳工组织社会史：Victoria E. Bonnell, *Roots of Rebellion*；Heather Hogan 的彼得堡工人研究 | 将工人的组织、政治身份与车间关系放回地方和职业网络，检验冲突如何形成，避免把工人当作同质人群。 | 两人的地方研究不能直接等同海姆森的全部反事实结论；Hogan具体论证和书目待逐项复核。 |
+| 学派/取向 | 代表学者与著作 | 核心论点摘要 | 支撑论断卡 | 主要受批评盲点 |
+| :--- | :--- | :--- | :--- | :--- |
+| 城市双重极化与2005年自我修正 | Leopold H. Haimson, “The Problem of Social Stability in Urban Russia, 1905–1917” (1964–65); *Russia's Revolutionary Experience, 1905–1917* (2005) | 提出战前城市存在“工人阶级 vs 有产自由派社会”与“有产社会 vs 专制官僚政权”双重极化：1912–1914年彼得堡工人在“礼貌相待”人格尊严诉求与“平等与分离并重”心态下转投布尔什维克；2005年专著附录二（pp. 250–251）据Bonnell等研究亲自修正1964年旧说，承认激进主力并非刚进城的“农村新移民怨恨”，而是长期城市化、年轻识字的第二代熟练金属工。 | `CLM-steinberg-2017-continuum-of-crisis-1905-1921`（比较脉络）；海姆森2005原著实证锚定 `reading-notes/haimson2005_kollontai1921/RN-W29-haimson-lenin-1917-leap-and-kollontai-workers-opposition.md` | 城市与彼得堡金属工样本不能直接推及农村、内地省份与非俄罗斯边疆，且1914年7月街垒不能等同于无战争下的全国政权崩溃。 |
+| 工会、保险局与车间劳工社会史 | Victoria E. Bonnell, *Roots of Rebellion* (1983); Heather Hogan, *Forging Revolution* (1993/1994); S. A. Smith (1996) | Bonnell以工会与疾病保险基金选举（1913年8月彼得堡金属工盟约3/4老会员倒戈、1914年3月全市保险委35:12）证实1912–1914年工人布尔什维克化，同时正面反驳海姆森1964年“半农民新兵论”，证明激进化骨干是长期城市化熟练工与手工业工匠，且国家—雇主联手镇压摧毁了孟什维克渐进改良空间；Hogan与Smith揭示泰勒制“科学管理”、失业委与市杜马“他们 vs 我们”对立如何瓦解劳资妥协。 | `CLM-bonnell-1983-1912-1914-union-and-insurance-boards-bolshevik-capture`；`CLM-bonnell-1983-state-employer-repression-undermining-menshevik-reformism`；`CLM-hogan-1994-petersburg-metalworkers-1905-to-lena`；`CLM-smith-sa-1996-petersburg-bolshevik-vs-menshevik-worker-appeal` | 首都金属加工与印刷业的高组织度经验无法直接代表全俄纺织、采矿或季节性散工群体。 |
+| 乡绅反扑与国家精英政治 | Roberta T. Manning, *The Crisis of the Old Order in Russia* (1982); Manfred Hildermeier, *The Russian Socialist Revolutionary Party Before the First World War* (2000) | Manning证明“六月三日体制”植根于外省贵族乡绅的等级反扑（地方自治局与联合贵族会），正是这一保守底座瘫痪了斯托雷平地方行政改革并孤立了立宪君主派；Hildermeier揭示阿泽夫事件与斯托雷平镇压使社革党在1907–1914年陷入组织瘫痪。 | `CLM-manning-1982-june-third-coup-social-basis`；`CLM-manning-1982-gentry-fronde-to-reaction`；`CLM-hildermeier-2000-azev-affair-and-stolypin-era-paralysis` | 乡绅精英政治与政党危机须同基层工人罢工及公社农民抵制互证。 |
+| 反必然论、世袭国家与自由派宪制困境（兼对乐观演进派的回应） | Richard Pipes, *The Russian Revolution* (1990); Fedor Gaida (2003) | Pipes代表反海姆森的政治偶然论与世袭国家观，断言“20世纪初俄国没有任何事物不可阻挡地推向革命，除了一支异常庞大而狂热的职业革命家队伍”，强调一战冲击才是制度崩解主因（与Gerschenkron等战前工业现代化乐观演进派呼应）；Fedor Gaida剖析杜马自由派要求“信任内阁”却畏惧承担革命责任的制度困境（注：Gaida对进步集团的实证主要在1915–1916战时，不可直接倒灌为1914年前事实）。 | `CLM-pipes-1990-patrimonial-state-and-intelligentsia`；`CLM-gaida-2003-progressive-bloc-dilemma` | 将1912–1914年逾百万罢工归咎于少数职业革命家煽动，难以解释布尔什维克在合法工会与保险局选举中的真实得票优势。 |
+| 现代化断裂、连续危机与总体战治理 | Mark D. Steinberg, *The Russian Revolution, 1905–1921* (2017); David L. Hoffmann, *Cultivating the Masses* (2011); 姚海（主编）《俄国革命史》(2013) | Steinberg与Hoffmann将1905–1921/1929年置于现代性危机与1914年后欧洲总体战人口动员、粮食统制和国家暴力技术连续谱中；姚海指出1905–1914年沙皇政权主动关闭政治改革窗口造成现代化进程断裂，激发下层平民激进主义。 | `CLM-steinberg-2017-continuum-of-crisis-1905-1921`；`CLM-hoffmann-2011-continuum-of-total-war-1914-1929`；`CLM-yao-hai-1917-modernization-rupture-and-plebeian-radicalism` | 1914年后的战时总体战治理经验不能倒果为因地充当1914年7月前和平时期必然崩溃的证明。 |
 
 ## 4. 关联时间线锚点 (共 1 条)
 - **1912-04-22 [O.S.] / 1912-05-05 [N.S.]** (`TL-W25-1912-05-05-01`, L3): **布尔什维克合法工人日报《真理报》创刊** — 在《星报》同日被查封之际，首份大型合法工人日报《真理报》第1号在圣彼得堡问世（布朗证实其初期为与党性孟什维克联合的“非宗派团结工报”，S级核验波列塔耶夫发行、莫洛托夫编务、斯大林撰社论）。

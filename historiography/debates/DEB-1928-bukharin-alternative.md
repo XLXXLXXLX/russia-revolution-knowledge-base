@@ -1,28 +1,37 @@
 ---
 id: DEB-1928-bukharin-alternative
 type: debate
-title: “布哈林替代方案”与新经济政策终结之争（1928–1929）
-era: "1921-1929"
-core_cards: ["PER-bukharin", "POL-nep", "PER-stalin", "PER-preobrazhensky"]
-coverage_status: draft
-perspectives_present: ["revisionist-cohen", "peasant-social-history-lewin", "economic-history-erlich-carr-davies", "apparatus-khlevniuk", "ideology-geopolitics-kotkin"]
-perspectives_missing: ["chinese-1980s-zheng-yifan", "tauger-harvest-debate", "stalinist-short-course-narrative", "1928-1929-stenograms-bib022"]
-updated_at: "2026-11-18"
+title: 布哈林替代方案与新经济政策终结之争
+era: "1927-1929"
+dates:
+  start_ns: "1927-10-01"
+  end_ns: "1929-11-17"
+core_cards: ["PER-bukharin", "PER-rykov", "PER-tomsky", "PER-stalin", "PER-preobrazhensky", "PER-uglanov", "ORG-right-opposition-1928", "POL-nep", "POL-first-five-year-plan", "CON-smychka", "CON-primitive-socialist-accumulation", "EVT-1928-grain-procurement-crisis", "EVT-1928-shakhty-affair-show-trial", "MTG-1929-04-cc-joint-plenum", "MTG-1929-11-cc-plenum"]
+coverage_status: multi-perspective
+perspectives_present: ["nep-alternative", "economic-growth", "structural-dilemma", "apparatus", "ideology-and-mobilization", "cliometrics-and-archival-reassessment"]
+perspectives_missing: ["regional-agricultural-accounts", "full-plenum-stenograms"]
+updated_at: "2026-11-19"
 ---
 
 ## [T1] 核心问题定义
-1927–1929年新经济政策瓦解与斯大林击败布哈林集团，究竟源于小农低商品率与布尔什维克高工业化/价格管制目标之间无法调和的结构性死结，还是源于1926–1928年具体经济政策失误与党内权力机器垄断扼杀了布哈林所主张的市场-合作社均衡工业化替代路径？
+1927至1929年粮食危机与新经济政策的瓦解，是否意味着渐进工业化和工农联盟已无可行出路，还是党内权力与政策选择扼杀了布哈林的替代方案？投资、价格、农民供粮和政治动员之间的约束究竟有多强，必须把经济可行性、政治可行性与实际权力斗争分别检验。
 
 ## [T2] 各学派立场对照矩阵
+**经验基准**：1928年粮食收购危机后领导层采用非常措施；布哈林同年批评征粮和工业化节奏，1929年四月及十一月中央全会使右派进一步失势，同年清党开除率达 `11%`（约17万人，`DATA-04-party-membership-and-congress-votes-1903-1929`）。各方都面对工业投资、粮食供给与工农社会结构约束。
 
-| 学派/研究取向 | 代表学者与馆藏著作 | 核心论点摘要 | 已核实馆藏依据 | 主要受批评局限 |
+| 学派/取向 | 代表学者与著作 | 核心论点摘要 | 支撑论断卡 | 主要受批评盲点 |
 | :--- | :--- | :--- | :--- | :--- |
-| **政治传记“替代方案论”** | Stephen F. Cohen (`cohen_1973_bukharin`) | 新经济政策并未枯竭；布哈林基于列宁《论合作社》与《经济学家札记》（1928-09-30）提出了协调工农利益的可行渐进规划；但1928年1月政治局起初一致批准临时非常措施（p. 278），随后斯大林将其升级为常态路线并凭组织机器获胜。 | Cohen pp. 177, 278, `PDF p. 318` | 被批评高估了布哈林方案在重工业资本积累缺口与布尔什维克反市场意识形态下的政治可持续性。 |
-| **农村社会史与长短周期分离论** | Moshe Lewin (`lewin_1968_peasants`) | 区分1927–28年粮食危机与1929–30年冬全盘强制集体化：同情渐进合作化，但直言布哈林部分理论“仅在短期有效”，而普列奥布拉任斯基对中长期工业投资瓶颈的诊断更具预见性（Preface `PDF p. 12`）。 | Lewin `PDF pp. 10, 12, 68` | — |
-| **发展经济学与计划经济史派** | Alexander Erlich (`erlich_1960_industrialization`)、Carr & Davies (`carr_davies_1969_foundations_v1p1`)、Alec Nove (`nove_1964_was_stalin_necessary`) | Erlich 证明1924–28论战双方（含普列奥布拉任斯基，pp. 44, 177）均未预设暴力全盘集体化；Carr & Davies 与 Nove 揭示国家人为压低谷物收购价（相对于畜牧和经济作物）及工业品饥荒造成1927冬收购锐减。 | Erlich pp. 44, 177; Carr & Davies Vol.1 | 经济上本可通过调价与温和税收缓和，但与党领导层既定超高速军重工业目标直接冲突。 |
-| **政治局体制与新经济政策死胡同论** | Oleg Khlevniuk (`khlevniuk_2015_stalin`) | 一方面指出1927年危机表明新经济政策发展模式受多重因素制约已难以为继（Ch. 3）；另一方面从中央书记处干部任命制（Nomenklatura）与政治局纪律剖析布哈林集团为何在组织上迅速瓦解。 | Khlevniuk EPUB Ch. 3 | 偏重高层权力与体制锁死，对非强制替代经济路径的计量效率讨论较少。 |
-| **意识形态死结与能动性决断论** | Stephen Kotkin (`kotkin_2014_stalin_v1`, Ch. 13–14 & Coda) | “新经济政策若经济成功便在布尔什维克阶级政治上自我失败”（商品粮依赖大播户即潜伏“富农”）；但同时反对结构宿命论，指出若无斯大林1928年1月西伯利亚督粮的个人铁腕决断，强制全盘集体化概率极低。 | `CLM-kotkin-2014-siberian-grain-turn`, `CLM-kotkin-2014-bukharin-dilemma` | 第1卷叙事止于1928年底，1929年4月与11月全会交锋待补第2卷与全会速记。 |
+| 新经济政策替代论 | Stephen Cohen, *Bukharin and the Bolshevik Revolution* (1973) | 市场、合作社和渐进工业化提供可争论的替代路径；组织机器与政治斗争使该路线失败。 | `CLM-cohen-1973-nep-viability`；`CLM-cohen-1973-notes-of-an-economist`；`CLM-cohen-1973-bukharin-organizational-defeat` | 可构想的经济路径不自动证明可获得党内多数或满足高投资目标。 |
+| 工业化经济思想史 | Alexander Erlich, *The Soviet Industrialization Debate* (1960) | 布哈林平衡增长与普列奥布拉任斯基积累方案共同面对投资约束；强制全盘集体化非各派原有共同结论。 | `CLM-erlich-1960-bukharin-balanced-growth`；`CLM-erlich-1960-preobrazhensky-dilemma`；`CLM-erlich-1960-stalin-overkill-turn` | 模型不能单独解决权力、执行和国际冲击问题。 |
+| 经济结构与政策选择 | Alec Nove, *Was Stalin Really Necessary?* (1964) | 提出“条件性必然”与“1927年NEP死胡同（cul-de-sac）”：给定布尔什维克保住一党政权、拒绝斯托雷平式富农资本主义与高速重工业化三大前提，布哈林市场渐进路径存在内在政治经济不一致；但仍须区分发展目标与强制手段。 | `CLM-nove-1964-stalin-necessity-dilemma` | 反事实替代方案的实施条件难以在单线历史中完全检验（详见下栏 KAPROST 交锋）。 |
+| 意识形态与政治能动性 | Stephen Kotkin, *Stalin*, Vol. 1 (2014)；Sheila Fitzpatrick, *The Russian Cultural Revolution (1928–1931)* (1978) | 市场发展与党内阶级政治构成张力，斯大林西伯利亚干预使危机转向不能仅由结构推导；“文化革命”动员更将政治局右派、教育人民委员部温和派与沙赫蒂案连成“右倾危险”连续体。 | `CLM-kotkin-2014-bukharin-dilemma`；`CLM-fitzpatrick-1978-anti-bukharin-ideological-offensive` | 科特金第一卷叙事止于1928年底；宣传建构的意识形态连续体亦不能直接等同右派成员一致的文化纲领。 |
+| 组织与动员政治 | Oleg Khlevniuk, *Stalin* (2015)；David Priestland, *Stalinism and the Politics of Mobilization* (2007)；Catherine Merridale, *Moscow Politics and the Rise of Stalin* (1990) | 干部控制、反右“复兴主义”动员与乌格拉诺夫莫斯科地方权力瓦解共同决定布哈林集团败局。 | `CLM-khlevniuk-2015-defeat-of-right-opposition`；`CLM-priestland-2007-1928-mobilization-turn-against-bukharin`；`CLM-merridale-1990-uglanov-moscow-collapse` | 组织性胜利并不单独证明任一经济路线的长期优劣。 |
+| 反事实计量与改革经济学 | Holland Hunter / R. W. Davies / 谷内融，*戴维斯纪念文集* (1995)；刘伟、平新乔，《平衡与非平衡：布哈林与普列奥布拉仁斯基之争》（1989，B级） | 亨特借 KAPROST 模型论证非集体化 NEP 本可成功，但戴维斯（1994）反驳1928年市场已遭行政扰乱，谷内融1929年1—6月政治局档案证实非常措施演变为全国体制；刘伟、平新乔将布氏重估为“短缺经济学”先驱，指出斯大林采纳了普氏非均衡配额内核。 | `CLM-davies-festschrift-1995-nep-statistics-and-planning-debates`；`CLM-bukharin-preobrazhensky-equilibrium-vs-accumulation-zh`（B级） | KAPROST 假设重工业高积累下农民仍配合市场；刘、平一文沿用中译“81亿金卢布”误植数字，引用须剔除该数。 |
+| 后苏联档案重估 | Viktor Zemskov（维克托·泽姆斯科夫），《斯大林时代》（2018，B级）；Valentin Sakharov（瓦连京·萨哈罗夫），《站在十字路口》（2012） | 泽姆斯科夫指出布哈林渐进合作化在内战记忆塑造的党员群体中缺乏政治亲和力；萨哈罗夫从反布哈林修正派立场论证2,400万碎片化小农难以支撑工业国防，MTS 与集体化是避免“斯托雷平第二版”的战略决断。 | `CLM-zemskov-2018-archival-constraints-and-party-radicalism`（B级）；`CLM-sakharov-2012-nep-crossroads-1928` | 泽氏未提供党员心态系统统计且沿用中译稿（B级）；萨哈罗夫的国家理性辩护淡化了强制集体化后的农业灾难与清洗恶果。 |
 
 ## [T3] 争鸣演进史与待核查关键史料
-1. **已入库核心论断卡**：`CLM-kotkin-2014-siberian-grain-turn`、`CLM-kotkin-2014-bukharin-dilemma`、`CLM-kotkin-2014-geopolitics-and-ideology`（科恩、莱文、埃利希、赫列夫纽克对应 `CLM-*` 正在本轮精读批次生成中）。
-2. **待补关键维度**：（a）馆藏 `zheng_yifan_nep_russia_zh`（郑异凡《新经济政策的俄国》）所代表的中国学界研究脉络；（b）斯大林 1928-05-28《在粮食战线上》引用的涅姆奇诺夫表与 Mark Tauger 关于1927–28实际收成争议；（c）待寻俄文五卷本速记集 `BIB-022`（《Как ломали НЭП》）。
+列宁1923年3月绝笔《宁肯少些，但要好些》确立“节约行政官僚、从穷苦庄稼汉的马跨到大机器工业的马”命题，成为布哈林1928年9月《一个经济学家的札记》的核心合法性源头；布哈林1928年7月讲话、1929年4月辩护与斯大林四月反右讲话、十一月全会决议形成直接政策对垒，均不能未经检验地等同经济事实。Erlich 从增长模型重建选择，Cohen 为替代路径辩护，Nove 提出“1927年NEP死胡同”，Hunter 与 Davies 则就 KAPROST 反事实模型和1928年市场扭曲直接交锋；Kotkin、Fitzpatrick、Khlevniuk、Priestland、Merridale 与 Zemskov 分别补足意识形态动员、莫斯科组织战及党员革命心态。粮食产量、商品率、剪刀差前史、党内清洗与NEP晚期失业工人结构，须结合 `DATA-02-1922-1924-scissors-crisis-and-chervonets`、`DATA-03-1926-1929-grain-procurement-and-nemchinov-table`、`DATA-04-party-membership-and-congress-votes-1903-1929` 与 `DATA-08-1921-1929-nep-social-classes-unemployment-and-gender-labor` 核查，不能把收购量简单当作产量。
+
+**站内已核 S/A 级锚点**：[1923-03-02_lenin-better-fewer-but-better.md](../../sources/web-archive/W39_lenin_1922_1923_docs/1923-03-02_lenin-better-fewer-but-better.md)；[1925-04_bukharin-road-to-socialism.md](../../sources/web-archive/E09_E10_party_debates/1925-04_bukharin-road-to-socialism.md)；[1928-07-10_bukharin-july-plenum-speech-grain-and-smychka.md](../../sources/web-archive/W32_milestone_docs/1928-07-10_bukharin-july-plenum-speech-grain-and-smychka.md)；[1928-09-30_bukharin-notes-of-an-economist.md](../../sources/web-archive/E06_E09_state_and_comintern/1928-09-30_bukharin-notes-of-an-economist.md)；[1929-04-18_bukharin-april-plenum-speech-defense-of-nep.md](../../sources/web-archive/W32_milestone_docs/1929-04-18_bukharin-april-plenum-speech-defense-of-nep.md)；[1929-04-22_right-deviation-in-cpsu.md](../../sources/web-archive/E02_E10_core_classics/1929-04-22_right-deviation-in-cpsu.md)；[1929-11-17_cpsu-november-plenum-resolution-right-deviation.md](../../sources/web-archive/W32_milestone_docs/1929-11-17_cpsu-november-plenum-resolution-right-deviation.md)；[DATA-02-1922-1924-scissors-crisis-and-chervonets.md](../../data/DATA-02-1922-1924-scissors-crisis-and-chervonets.md)；[DATA-03-1926-1929-grain-procurement-and-nemchinov-table.md](../../data/DATA-03-1926-1929-grain-procurement-and-nemchinov-table.md)；[DATA-04-party-membership-and-congress-votes-1903-1929.md](../../data/DATA-04-party-membership-and-congress-votes-1903-1929.md)；[DATA-08-1921-1929-nep-social-classes-unemployment-and-gender-labor.md](../../data/DATA-08-1921-1929-nep-social-classes-unemployment-and-gender-labor.md)；[RN-W3-bukharin-stalin-1928-1929-showdown.md](../../reading-notes/cohen_1973_bukharin/RN-W3-bukharin-stalin-1928-1929-showdown.md)；[RN-W3-industrialization-models-and-constraints.md](../../reading-notes/erlich_1960_industrialization/RN-W3-industrialization-models-and-constraints.md)；[RN-W6-agricultural-crisis-and-was-stalin-necessary.md](../../reading-notes/carr_davies_nove/RN-W6-agricultural-crisis-and-was-stalin-necessary.md)；[RN-W1C-1928-siberian-turn-and-bukharin.md](../../reading-notes/kotkin_2014_stalin_v1/RN-W1C-1928-siberian-turn-and-bukharin.md)；[RN-W11-cultural-revolution-1928-and-october-memory.md](../../reading-notes/cultural_rev_and_memory/RN-W11-cultural-revolution-1928-and-october-memory.md)；[RN-W3-politburo-apparatus-and-1929-victory.md](../../reading-notes/khlevniuk_2015_stalin/RN-W3-politburo-apparatus-and-1929-victory.md)；[RN-W12-revivalist-mobilization-and-ukrainianization-1920s.md](../../reading-notes/priestland_liber/RN-W12-revivalist-mobilization-and-ukrainianization-1920s.md)；[RN-W6-moscow-fall-and-party-struggle-rules.md](../../reading-notes/merridale_apalkov/RN-W6-moscow-fall-and-party-struggle-rules.md)；[RN-W23-1920s-red-army-militia-reform-and-davies-festschrift.md](../../reading-notes/smirnov_davies_festschrift/RN-W23-1920s-red-army-militia-reform-and-davies-festschrift.md)；[RN-W36-bukharin-preobrazhensky-equilibrium-debate-zh.md](../../reading-notes/bukharin_preobrazhensky_debate_zh/RN-W36-bukharin-preobrazhensky-equilibrium-debate-zh.md)；[RN-02-sakharov-crossroads.md](../../reading-notes/RN-02-sakharov-crossroads.md)；[RN-W39-stalin-era-nep-to-great-turn-1924-1929.md](../../reading-notes/stalin_era_economy_repression_1924_1954_zh/RN-W39-stalin-era-nep-to-great-turn-1924-1929.md)（泽姆斯科夫 B 级）。
+
+**外部待补核 S/A 级缺口**：中央全会完整俄文速记及地区执行档案、1926/27年度弹性重测与分省农户商品率可比序列、替代工业化方案的财政与政治约束仍需补核。

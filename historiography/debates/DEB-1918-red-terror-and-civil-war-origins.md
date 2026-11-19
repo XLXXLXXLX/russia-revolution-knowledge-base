@@ -2,32 +2,37 @@
 id: DEB-1918-red-terror-and-civil-war-origins
 type: debate
 title: 红色恐怖、契卡扩张与内战期一党专政起源之争（1918–1921）
-era: "1917-1918"
-core_cards: ["ORG-cheka-ogpu", "POL-war-communism", "EVT-1918-01-constituent-assembly-dispersal", "ORG-left-srs"]
-coverage_status: draft
-perspectives_present: ["liberal-totalitarian-pipes-figes", "archival-rabinowitch", "institutional-leggett-ratkovsky", "total-war-hoffmann", "military-mawdsley"]
-perspectives_missing: ["regional-peasant-terror-account", "full-cheka-archival-series"]
-updated_at: "2026-11-18"
+era: "1917-1921"
+dates:
+  start_ns: "1918-07-06"
+  end_ns: "1918-09-05"
+  # 1918-02-14改历后采用纯公历。dates锚定1918-07-06左翼社革党决裂至1918-09-05《关于红色恐怖的决议》颁布的核心制度拐点；title与era ("1917-1921") 覆盖1917-12契卡建制、1918–1920内战全面恐怖至1921–1922年契卡改组为GPU的完整争鸣周期。
+core_cards: ["EVT-1918-09-red-terror-and-left-sr-rupture", "EVT-1918-1920-russian-civil-war", "INS-cheka-gpu-ogpu", "ORG-cheka-ogpu", "MTG-1918-07-5th-congress-of-soviets", "EVT-1918-03-brest-litovsk-treaty", "EVT-1918-worker-protest-and-izhevsk-uprising", "EVT-1918-01-constituent-assembly-dispersal", "POL-war-communism", "ORG-left-srs", "ORG-psr", "ORG-mensheviks", "PER-lenin", "PER-dzerzhinsky", "PER-spiridonova"]
+coverage_status: multi-perspective
+perspectives_present: ["liberal-continuity", "institutional-cheka", "contingency-coalition", "local-violence-and-chronicle", "repressed-socialists-and-worker-protest", "civil-war-structure-and-total-war", "post-soviet-archival-quantitative"]
+perspectives_missing: ["regional-peasant-archives", "complete-cheka-series"]
+updated_at: "2026-11-19"
 ---
 
 ## [T1] 核心问题定义
-1918–1921年红色恐怖、契卡法外处决、对社会主义反对派的镇压，以及内战期间政党竞争被压缩为一党统治，应被解释为布尔什维克意识形态与列宁主义权力逻辑的宿命展开，还是多重危机（经济崩溃、联盟破裂、地方失控、内战动员）下可错链条上的制度选择？恐怖与一党制是同一过程还是须分时段因果？
+红色恐怖和契卡法外权力是列宁主义政治逻辑的必然结果，还是内战、粮食危机、联盟破裂与地方暴力交织下的制度选择？中央命令与地方自主行动怎样互相强化？恐怖升级、社会主义对手遭镇压和一党统治形成各有不同时间线，不能压缩成同一事件。
 
 ## [T2] 各学派立场对照矩阵
-
-**经验共识**：1917年12月契卡（全俄肃反委员会）成立；1918年7月左派社会革命党起义后左翼社会主义者被逐出权力结构；1918年9月5日人民委员会颁布《关于红色恐怖》决议；内战1918–1920在多条战线同时进行；1918–1921征粮与契卡行动在地方相互嵌合。
+**经验基准**：全俄肃反委员会（契卡）于1917-12-07 [O.S.] / 1917-12-20 [N.S.] 凭人民委员会非立法决议成立；1918年3月《布列斯特和约》后左翼社革党退出人民委员会，7月4–10日第五次全俄苏维埃代表大会期间爆发7月6日刺杀德国大使米尔巴赫事件，布尔什维克与左翼社革党彻底决裂并于7月10日通过1918年苏俄宪法；8月30日乌里茨基遇刺、列宁遇刺重伤。据站内入库S级档案校勘（`sources/web-archive/E06_E09_state_and_comintern/1918-09-05_decree-on-red-terror.md`），广泛扣押人质指令首先出自9月4日内务人民委员彼得罗夫斯基电令，而9月5日人民委员会《关于红色恐怖的决议》（RGASPI打印原件由司法人民委员库尔斯基、内务人民委员彼得罗夫斯基、办公厅主任邦奇-布鲁耶维奇与秘书福季耶娃签署，**并非捷尔任斯基签署，且9月5日决议正文中并未出现“人质”一词**）将集中营隔离与就地枪决正式法制化。跨口径处决统计（`DATA-06-1918-1929-cheka-ogpu-sentencing-and-1929-collectivization-surge`）须严格区分中央登记案卷与地方未登记法外处决。
 
 | 学派/取向 | 代表学者与著作 | 核心论点摘要 | 支撑论断卡 | 主要受批评盲点 |
 | :--- | :--- | :--- | :--- | :--- |
-| **意识形态宿命论** | Richard Pipes, *The Russian Revolution* (1990); Orlando Figes, *A People's Tragedy* (1996) | 强调反自由主义知识分子传统、列宁废法统治与阶级敌人话语，使恐怖成为夺取与巩固权力的内在逻辑；Figes 另重农民“悲剧”道德经济。 | `CLM-pipes-1990-red-terror-leninist-logic` | 时间线易前推到1917末，低估联盟期与反对派选项；Figes 与 Pipes 因果权重不一。 |
-| **复合危机与联盟破裂论** | Alexander Rabinowitch, *The Bolsheviks in Power* (2007) 等 | 彼得格勒首年追踪与左派社革党联盟从执政到破裂；恐怖升级与粮食危机、暗杀、前线失败交织，而非单线预谋。 | `CLM-rabinowitch-2007-left-sr-coalition-collapse`, `CLM-rabinowitch-2007-contingency-of-dictatorship` | 首都政党政治详尽，偏远地方契卡实践待补。 |
-| **制度史与阶段论** | George Leggett, *The Cheka: Lenin's Political Police* (1981); Ilya S. Ratkovsky（及契卡编年史学） | Leggett：契卡从法外 origin 到 GPU 连续体制化；Ratkovsky：1918 夏已有人质与处决规模，9月5日法令是公开化节点而非“零起点”。 | `CLM-leggett-1981-vecheka-extra-legal-origins`, `CLM-leggett-1981-red-terror-institutionalization`, `CLM-leggett-1981-cheka-to-gpu-continuity`, `CLM-cheka-chronicle-hostage-and-local-autonomy`, `CLM-cheka-chronicle-suppression-of-socialist-rivals` | Leggett 偏重中央法令；地方自治与契卡失控需档案对勘。 |
-| **1914–1921 总体战治理连续论** | David G. Hoffmann, *Cultivating the Masses: Modern State Practices and Soviet Socialism, 1914–1939* (2011) | 征粮、动员、战备与“培养大众”技术沿袭一战国家实践；苏联社会主义是欧洲现代国家治理谱系的一极，而非凭空乌托邦。 | `CLM-hoffmann-2011-continuum-of-total-war-1914-1929`, `CLM-hoffmann-2011-enlightenment-and-coercion-duality`, `CLM-hoffmann-2011-soviet-socialism-as-european-modernity` | 连续性不等于免除布尔什维克政党特有选择责任。 |
-| **内战军事—地理决定论（背景）** | Evan Mawdsley, *The Russian Civil War* (1987) | 红军人口—工业内线优势与白军结构性政策失败解释内战结局；为恐怖与征粮提供战略背景，不单独承担一党制意识形态解释。 | `CLM-mawdsley-1987-civil-war-militarized-regime`, `CLM-mawdsley-1987-sovdepia-demographic-industrial-base` | 军事动员不等于党内反对派清洗因果。 |
+| 自由主义意识形态连续论 | Richard Pipes, *The Russian Revolution* (1990) | 提出“法国大革命终结于恐怖，而俄国革命始于恐怖”：布尔什维克因缺乏多数民众授权，将系统性恐怖用作“民众支持的替代品”，阶级敌人话语与列宁的雅各宾法律观使红色恐怖成为十月少数派政变的必然逻辑延伸。 | `CLM-pipes-1990-red-terror-leninist-logic` | 将1918年夏内战升级与暗杀危机前后的制度突变全部还原为先验意识形态蓝图，低估了战时生存危机与基层压力。 |
+| 契卡制度史与法外基因论 | George Leggett, *The Cheka: Lenin's Political Police* (1981) | 追踪契卡从1917年12月仅具侦查权、凭人民委员会行政决议（类比沙皇尼古拉一世第三厅）建置，在1918年春夏突破司法人民委员部（斯泰因伯格）制约、借9月红色恐怖法令将法外处决权制度化，直至1922年改组为GPU并由列宁5月致库尔斯基密信将恐怖写入刑法典的制度连续性（估算1917–1922年契卡直接处决约14万人、镇压起义另致约14万人死亡）。 | `CLM-leggett-1981-vecheka-extra-legal-origins`；`CLM-leggett-1981-red-terror-institutionalization`；`CLM-leggett-1981-cheka-to-gpu-continuity` | 1981年尚未能利用后苏联解密的FSB中央与地方卷宗，其高层估算数字需与莫佐欣、泽姆斯科夫档案统计对勘。 |
+| 联盟破裂、党组织萎缩与专政偶然论 | Alexander Rabinowitch, *The Bolsheviks in Power: The First Year of Soviet Rule in Petrograd* (2007) | 论证一党专政与大规模恐怖并非十月既定方案：1918年春彼得格勒布尔什维克党员从约5万人骤降至约6,000人，为保住苏维埃五大多数竟伪造约399席代表资格；左翼社革党7月刺杀米尔巴赫旨在逼停布列斯特和约而非推翻苏维埃（**1918年12月彼得格勒契卡甚至秘密撤销了对左翼社革党“有组织武装起义”的指控**）；8月30日乌里茨基遇刺后，彼得格勒各区委“自下而上”施压扩大报复，与中央危机共振催生红色恐怖。 | `CLM-rabinowitch-2007-contingency-of-dictatorship`；`CLM-rabinowitch-2007-left-sr-coalition-collapse` | 彼得格勒在季诺维也夫与乌里茨基初期相对克制及随后失控的个案，不能直接代表伏尔加河或南方前线各省的暴力烈度。 |
+| 地方庇护网络、红色恐怖编年史与捷尔任斯基机构化 | Delano Dugarm (2001，收入 Donald J. Raleigh 编 *Provincial Landscapes*)；Igor Ratkovsky (伊·谢·拉特科夫斯基 2017两部专著，依托 A. M. & A. A. Plekhanov 2007 档案集) | Dugarm以坦波夫省个案揭示地方布尔什维克宗派庇护网、溃兵与契卡自主滥权常偏离莫斯科指令，甚至以“虚构暴动”掩盖征粮失败；圣彼得堡国立大学史家拉特科夫斯基（2017《契卡红色恐怖编年史》与《捷尔任斯基传》）依托普列汉诺夫父子2007年档案集，重构人质制度、地方契卡对孟什维克与社革党的压制、1918年秋约8,000人处决估算，以及捷尔任斯基如何将分散的革命暴力收编为垂直集权的契卡—内务—最高国民经济委员会官僚机器。 | `CLM-raleigh-2001-local-bolshevik-violence-and-clientelism`；`CLM-cheka-chronicle-hostage-and-local-autonomy`；`CLM-cheka-chronicle-suppression-of-socialist-rivals`；`CLM-plekhanov-am-dzerzhinsky-cheka-institutionalization` | 地方报刊编年史与契卡内部通报存在漏报或战绩夸大双向偏差，须与独立受害者名册及省级法院档案交叉核验。 |
+| 被镇压社会主义对手、第三势力崩溃与1918年工人抗议 | [S级当事人演说] L. Martov (1920年10月哈勒大会演说)；Oliver H. Radkey, *The Sickle under the Hammer* (1963)；D. O. Churakov (丘拉科夫, 2004) | 马尔托夫在1920年德国独立社民党哈勒大会上痛斥无差别红色恐怖（如彼得格勒一次处决约800人）与“二十一条”如何摧毁社会主义道德与苏维埃民主；Radkey剖析社革党与科穆奇（Komuch）“民主第三势力”因内部分裂及白军借其作“保护色”而崩溃，将政局推入红白恐怖两极；丘拉科夫以档案证明1918年苏维埃辖区210–220家大中型企业爆发10–25万工人罢工抗议，直至8月伊热夫斯克—沃特金斯克武装工人起义，直接证伪“镇压对象仅限于资产阶级和地主”的官方叙事。 | `CLM-halle-1920-martov-critique-of-terror-and-21-conditions`；`CLM-smith-scott-2011-psr-third-force-collapse`；`CLM-churakov-2004-soviet-worker-protest-dynamics-1918`；`CLM-churakov-2004-izhevsk-votkinsk-worker-insurrection` | 反对派控诉与工人起义证明了恐怖对劳动阶级自身的反噬，但对白军战区白色恐怖与外国干涉的对称比较需另行展开。 |
+| 内战军事化结构与总体战现代治理 | Evan Mawdsley, *The Russian Civil War* (1987); David L. Hoffmann, *Cultivating the Masses* (2011) | Mawdsley从军事地理与政权生存结构出发，指出内战与政治高度军事化均是十月夺权方式的直接代价（“内战代价即革命代价”）；Hoffmann将契卡监控、集中营与粮食强制置于1914年一战以来欧洲列强总体战人口治理与国家暴力技术的连续谱中。 | `CLM-mawdsley-1987-civil-war-militarized-regime`；`CLM-hoffmann-2011-continuum-of-total-war-1914-1929` | 欧洲总体战技术共性或军事地理决定论，不能消解布尔什维克在1921年内战结束后仍保留并制度化法外警察权力的政治选择责任。 |
+| 后苏联FSB/GARF档案定量校准与莫佐欣“战时/和平期二分法” | O. B. Mozokhin (莫佐欣, 2006/2016)；V. N. Zemskov (泽姆斯科夫, 2010s) | 莫佐欣据俄罗斯联邦安全局中央档案馆（ЦА ФСБ РФ）统计表（`DATA-06-1918-1929-cheka-ogpu-sentencing-and-1929-collectivization-surge`），确认1918–1921年有案可查契卡处决约1.75万人（计入缺省全期上限不超过5万），并提出鲜明的**国家主义二分法**——肯定1918–1921年战时契卡镇压武装叛乱的应急必要性，却**尖锐批判1922年后和平时期GPU/OGPU继续垄断法外司法**（如1924年4,097起反革命案仅6起移交法院，战时死刑率6.9% vs 和平期0.5%/0.94%）；泽姆斯科夫据GARF档案校准1918–1920年登记反革命案判刑62,231人、处决25,709人（含未登记上限<10万），共同驳斥百万级夸大数字。 | `CLM-mozokhin-cheka-to-ogpu-extrajudicial-jurisdiction-1918-1929`；`CLM-zemskov-1920s-archival-repression-scale-before-1930` | 中央汇总报表未涵盖1918–1920年前线红军革命军事法庭、征粮队及地方县契卡未上报的就地处决，档案下限不等于实际死亡总数。 |
 
 ## [T3] 争鸣演进史与待核查关键史料
+当时布尔什维克以反击协约国干涉、白军叛乱与8月30日暗杀浪潮证明红色恐怖正当性，被镇压的孟什维克（如马尔托夫1920年哈勒演说）与社革党则控诉一党恐怖摧毁了苏维埃民主。苏联正统将契卡塑造为纯粹防卫性的“革命惩戒之剑”，冷战自由派（Pipes）与早期制度史（Leggett）则强调从1917年12月契卡非立法建制到1922年刑法典与GPU的极权连续性。社会史与地方档案转向（Rabinowitch、Dugarm、Churakov、Radkey）打破单线叙事：既揭示了1918年春布尔什维克基层党员暴跌、左翼社革党7月事变并非旨在夺权（彼得格勒契卡12月秘密撤案）、坦波夫地方庇护网失控与伊热夫斯克数十万工人抗议的复杂实态，也展现了“民主第三势力”在红白夹击下的瓦解。后苏联解密档案促成重大定量与定性突破：拉特科夫斯基（2017，依托普列汉诺夫2007档案集）、莫佐欣（`DATA-06-1918-1929-cheka-ogpu-sentencing-and-1929-collectivization-surge`）与泽姆斯科夫确立了1918–1921年契卡处决的四组代表性统计区间（莫佐欣登记约1.75万/全期上限<5万；泽姆斯科夫登记25,709/上限<10万；拉特科夫斯基仅1918年秋约8,000；莱格特广义估算14万+14万），而莫佐欣对“1918–1921战时非常状态 vs 1922年后和平时期OGPU违宪垄断司法”的切分，更凸显出政治暴力、反对党取缔与1921年党内派别禁令各有独立制度节点，绝不可将1918年应急恐怖与1937–1938年大清洗混为一谈。
 
-1. **争点分离**：经验上须分拆（a）契卡法外杀人与人质，（b）对自由主义与社会革命党派的取缔，（c）1918–1921党内反对派边缘化，（d）1921年后其他政党法律禁止——不可混为单一“恐怖日程”。
-2. **接口别名**：既有 `CLM-leggett-*` / `CLM-cheka-chronicle-*` 元数据字段为 `DEB-1918-red-terror-origins`；**本卡正式 ID 为 `DEB-1918-red-terror-and-civil-war-origins`**，涵盖内战起源维度（待后续批次更新 CLM，遵守本轮不改旧文件）。
-3. **S级待核**：1918年9月4–5日契卡与人民委员会恐怖法令全文及地方执行通报；左派社革党1918年7月起义档案；列宁1918年8月30日遇刺后与恐袭升级命令链；地方苏维埃处决统计（Ratkovsky 方法论争议点）。
-4. **A级研究**：Pipes (1990); Figes (1996); Rabinowitch (2007); Leggett (1981); Hoffmann (2011); Mawdsley (1987)；契卡国家编年史（俄文，S/A级混合）。
+**站内已核 S/A 级锚点**：`sources/web-archive/E06_E09_state_and_comintern/1918-09-05_decree-on-red-terror.md`；`sources/web-archive/E03_E08_party_and_state_docs/1918-07-10_rsfsr-constitution-franchise-and-power.md`；`sources/primary/martov_zinoviev_1920_halle/toc.md`；`data/DATA-06-1918-1929-cheka-ogpu-sentencing-and-1929-collectivization-surge.md`；`reading-notes/pipes_1990_russian_rev/RN-W4B-patrimonialism-and-october-coup.md`；`reading-notes/leggett_1981_cheka/RN-W4-cheka-origins-and-red-terror.md`；`reading-notes/rabinowitch_2007_in_power/RN-W2-first-year-soviet-rule.md`；`reading-notes/raleigh_2001_provincial_landscapes_zh/RN-W32-provincial-smolensk-tambov-saratov-1917-1929.md`；`reading-notes/koenker_raleigh/RN-W15-moscow-1917-and-provincial-soviet-power.md`；`reading-notes/cheka_and_war_scare/RN-W16-cheka-terror-and-external-threat-mobilization.md`；`reading-notes/loginov_dzerzhinsky/RN-W22-lenin-formative-decisions-and-dzerzhinsky-cheka-to-vsnkh.md`；`reading-notes/scott_smith_mozokhin/RN-W20-psr-civil-war-tragedy-and-cheka-ogpu-extrajudicial-powers.md`；`reading-notes/zemskov_nationalization/RN-W22-1917-1920-nationalization-decrees-and-zemskov-1920s-baselines.md`；`reading-notes/churakov_2004/RN-W23-worker-protest-and-izhevsk-votkinsk-1917-1918.md`；`reading-notes/halle_tsereteli/RN-W9-halle-1920-debate-and-tsereteli.md`；`reading-notes/mawdsley_carr/RN-W6-civil-war-heartland-and-1923-scissors.md`；`reading-notes/hoffmann_modernity/RN-W17-modernity-biopolitics-and-official-anti-trotskyism.md`。
+
+**外部待补核 S/A 级缺口**：站内虽已入库莫佐欣FSB中央统计表（`DATA-06-1918-1929-cheka-ogpu-sentencing-and-1929-collectivization-surge`）与泽姆斯科夫GARF汇总，但1918年9月4日彼得罗夫斯基人质电令俄文全本、各省契卡与革命军事法庭未上报中央的就地处决原始名册、左翼社革党1918年7月事件侦查卷宗全卷及白军控制区“白色恐怖”对称档案统计仍待补核。

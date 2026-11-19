@@ -1,33 +1,36 @@
 ---
 id: DEB-1929-collectivization-and-dekulakization-causes
 type: debate
-title: 1929年全盘集体化与消灭富农阶级动因总公案
+title: 1929年集体化与消灭富农政策的动因之争
 era: "1927-1929"
-core_cards: ["EVT-1928-grain-procurement-crisis", "POL-nep", "POL-ural-siberian-method", "PER-bukharin", "PER-stalin", "CON-primitive-socialist-accumulation"]
-coverage_status: draft
-perspectives_present: ["bukharin-alternative-cohen-lewin", "statistics-local-spiral-davies-ivnitsky", "geopolitics-ideology-kotkin-shearer-velikanova", "economic-structure-erlich-khlevniuk"]
-perspectives_missing: ["tauger-harvest-revision-full", "1929-plenum-stenograms-bib022", "dekulakization-victim-count-consensus"]
-updated_at: "2026-11-18"
+dates:
+  start_ns: "1927-10-01"
+  end_ns: "1929-12-31"
+core_cards: ["EVT-1927-war-scare-and-opposition-expulsion", "EVT-1928-grain-procurement-crisis", "EVT-1929-great-turn-and-dekulakization-launch", "MTG-1929-11-cc-plenum", "POL-nep", "POL-first-five-year-plan", "POL-ural-siberian-method", "INS-cheka-gpu-ogpu", "CON-kulak", "CON-peasant-commune-obshchina", "PER-stalin", "PER-molotov", "PER-bukharin"]
+coverage_status: multi-perspective
+perspectives_present: ["peasant-social-history", "statistical-economic-history", "archival-local-escalation", "geopolitics-and-scare", "industrialization-constraints", "agrarian-tribute-and-policing"]
+perspectives_missing: ["harvest-revision", "regional-execution-comparison"]
+updated_at: "2026-11-19"
 ---
 
 ## [T1] 核心问题定义
-1929年秋斯大林体制性推进全盘集体化并宣布“消灭富农作为阶级”，究竟是因为新经济政策（NEP）道路在工农价格剪刀差与工业化投资缺口下已结构性破产、布哈林渐进方案被权力机器扼杀（还有何种替代仍可能），还是因为1927–28粮食统计失真、地方征粮竞速与所谓“战争恐慌”触发的螺旋，再叠加领袖对外备战焦虑与反市场意识形态而成为一种可被避免却未被避免的急转弯？
+1929年集体化加速与消灭富农政策的出现，究竟源于粮食收购和工业投资的结构约束，还是统计误判、地方竞速、战争恐慌与领导层选择的叠加？农民如何应对，中央内部何时形成强制方案？应把1928年非常征粮、1929年秋冬升级与次年全面执行分开考察。
 
 ## [T2] 各学派立场对照矩阵
-
-**经验共识**：1927冬—1928春出现严重粮食收购危机；1928年1月西伯利亚“非常措施”与乌拉尔-西伯利亚方法将行政强制包装为村社压力（`POL-ural-siberian-method`）；1929年4月与11月中央全会后集体化指标急剧跃升；1929年12月通过关于富农政策措施，公开的阶级清洗话语制度化。
+**经验基准**：1927年冬至1928年春发生粮食收购危机，随后推行非常征粮；全苏农户入庄率在 1929-06-01 为 `3.9%`（约100万户）、1929-10-01 升至 `7.5%`（约190万户），1929年十一月全会后集体化加速，12月11日俄联邦春播集体化目标较10月计划骤增 `60%` 至 2,400 万公顷，“二万五千人”实际选拔 27,519 名工人，同年 OGPU 征粮农村专项逮捕 49,068 人（`DATA-06-1918-1929-cheka-ogpu-sentencing-and-1929-collectivization-surge`）；12月委员会讨论方案，斯大林12月27日公开宣布转向消灭富农作为阶级。
 
 | 学派/取向 | 代表学者与著作 | 核心论点摘要 | 支撑论断卡 | 主要受批评盲点 |
 | :--- | :--- | :--- | :--- | :--- |
-| **布哈林 NEP 可行替代论** | Stephen F. Cohen, *Bukharin and the Bolshevik Revolution* (1973); Moshe Lewin, *Russian Peasants and Soviet Power* (1968) | Cohen：1928年布哈林仍提出可调节市场—合作社渐进工业化；斯大林将临时征粮升级为路线并凭组织拳头获胜。Lewin：区分1927–28危机与1929–30暴力集体化，警告勿将“富农”范畴自然化。 | `CLM-cohen-1973-nep-viability`, `CLM-cohen-1973-bukharin-organizational-defeat`, `CLM-cohen-1973-notes-of-an-economist`, `CLM-lewin-peasants-1968-grain-procurement-crisis`, `CLM-lewin-peasants-1968-kulak-myth-and-serednyak`, `CLM-lewin-peasants-1968-ural-siberian-method` | 替代方案在政治意识形态与国防重工业目标下是否可赢得多数派，争议未终结。 |
-| **统计失真与地方竞速螺旋论** | R. W. Davies, *The Socialist Offensive* (1980) 及集体化史系列；Nikolai Ivnitskii（富农消灭过程档案研究） | Davies：批判将1929秋单纯回溯为1928秋“大转变已定局”的史学叙事；地方各级党委在指标竞赛中层层加码。Ivnitskii：实际操作中“富农”划界高度政治化且地区差异巨大。 | `CLM-davies-1980-autumn-1929-great-turn-fabrication`, `CLM-davies-1980-november-plenum-to-dekulakization` | 计量史学与农村社会史接点仍薄；Ivnitskii 著作本库精读未完。 |
-| **外部备战焦虑与意识形态死结论** | Stephen Kotkin, *Stalin*, vol. 1 (2014); David R. Shearer（警察国家与工业化）；Lynne Viola 等集体化执行史 | Kotkin：新经济政策在经济成功时亦在布尔什维克阶级政治上自我失败；1928斯大林个人决断打开全盘集体化概率。Shearer/Velikanova 补充高压执行与恐慌政治。 | `CLM-kotkin-2014-siberian-grain-turn`, `CLM-kotkin-2014-bukharin-dilemma`, `CLM-kotkin-2014-geopolitics-and-ideology`, `CLM-velikanova-2013-war-scare-hoarding-and-grain-crisis`, `CLM-velikanova-2013-leadership-manipulation-and-self-deception` | Kotkin 第1卷止1928底；1929全会细节待续卷与速记。 |
-| **结构与投资缺口论** | Alexander Erlich (1960); Oleg Khlevniuk (2015) | Erlich：论战各方1924–28均未预设暴力全盘集体化，但工业投资瓶颈真实。Khlevniuk：政治局体制与新经济政策“死胡同”从组织面解释布哈林集团迅速溃败。 | `CLM-erlich-1960-preobrazhensky-dilemma`, `CLM-erlich-1960-stalin-overkill-turn`, `CLM-khlevniuk-2015-secretariat-and-nomenklatura` | 结构制约论易被误读为取消领袖能动性或农民抵抗作用。 |
+| 农民社会史 | Moshe Lewin, *Russian Peasants and Soviet Power* (1968) | 征粮危机和村庄利益结构不可简化为富农囤粮；乌拉尔—西伯利亚方法使强制扩展到村庄。 | `CLM-lewin-peasants-1968-grain-procurement-crisis`；`CLM-lewin-peasants-1968-kulak-myth-and-serednyak`；`CLM-lewin-peasants-1968-ural-siberian-method` | 农户分化和地区差异须借更细的地方档案检验。 |
+| 统计与决策史 | R. W. Davies, *The Socialist Offensive* (1980)；E. H. Carr & R. W. Davies, *Foundations of a Planned Economy*, Vol. 1, Part 1 (1969) | 秋季大转变的事后宣传归纳、十一月决议及涅姆奇诺夫谷物商品率表批判（中贫农占 74% 商品粮、农户裂变至 2,558.6 万户，戳穿“只打富农”神话）与1927年价格剪刀差须分别检验，不能把升级说成早已完整拟定。 | `CLM-davies-1980-autumn-1929-great-turn-fabrication`；`CLM-davies-1980-november-plenum-to-dekulakization`；`CLM-carr-davies-1969-nemchinov-table-critique`；`CLM-carr-davies-1969-grain-price-scissor-1927` | 统计本身的口径和地方上报偏差仍待交叉核验。 |
+| 档案与地方升级 | V. P. Danilov, R. Manning, L. Viola & N. A. Ivnitsky (eds.), 《苏联农村的悲剧》第2卷（1929年11月—1930年12月，2000） | 中央委员会内部曾讨论不同速度和处置方案，地方强制及农民逃离、变卖牲畜与政策升级交织。 | `CLM-tragedy-village-1929-november-plenum-escalation`；`CLM-tragedy-village-1929-politburo-dekulakization-commission`；`CLM-tragedy-village-1929-peasant-self-liquidation-and-flight` | 政治警察报告中的阶级归因须与地方材料对勘；译文需回核俄文。 |
+| 战争恐慌与地缘政治 | Olga Velikanova, *Popular Perceptions of Soviet Politics in the 1920s* (2013)；Stephen Kotkin, *Stalin*, Vol. 1 (2014)；David R. Shearer, *Stalin and War, 1918–1953* (2024) | 战争恐慌、囤积与西伯利亚征粮选择叠加推进高压路径；希勒进一步论证斯大林对迫近英波战争与军粮储备的判断直接决定了1928—1929年强制征粮与集体化的时间及病理性强度。 | `CLM-velikanova-2013-war-scare-hoarding-and-grain-crisis`；`CLM-kotkin-2014-siberian-grain-turn`；`CLM-stalin-war-1927-1929-threat-and-collectivization` | 外部安全威胁想象不能单独解释各地实施差异或证明强制不可避免。 |
+| 工业化结构约束 | Alexander Erlich, *The Soviet Industrialization Debate* (1960)；Alec Nove, *Was Stalin Really Necessary?* (1964) | 工业投资与农业剩余之间确有矛盾，但发展目标不等同暴力全盘集体化的必然性。 | `CLM-erlich-1960-preobrazhensky-dilemma`；`CLM-nove-1964-collectivization-economic-disaster` | 后果评价不能直接充作1929年决策者的动机。 |
+| 后苏联贡税论与治安联动 | Viktor Zemskov（维克托·泽姆斯科夫），《斯大林时代》（2018，B级）；Wendy Z. Goldman, *Inventing the Enemy* (2011) | 泽姆斯科夫把20年代低价收购解释为工业化农业“贡税”，并区分1929年底地方跨区驱逐与1930年1月制度化安置；高德曼追踪1929—1930年去富农化治安镇压与一五计划工业短缺、“破坏”话语的联动。 | `CLM-zemskov-2018-agrarian-tribute-and-coercive-turn`（B级）；`CLM-goldman-2011-great-turn-industrialization-and-wrecking` | 泽氏贡税解释缺分年净转移实证且严守1929/1930界线；高德曼核心厂区微观实证延伸至1930年代，不应前移为1929年既定图景。 |
 
 ## [T3] 争鸣演进史与待核查关键史料
+早期政策论战围绕供粮与社会主义建设展开；Lewin 恢复农民社会结构，Davies 与 Carr 检验统计、商品率及政策逐步升级，解密档案（《苏联农村的悲剧》第2卷）显示中央委员会草案、地方竞速及农村反应的不一致，Velikanova、Kotkin、Shearer、Zemskov 与 Goldman 则从战争恐慌、威胁想象、农业贡税与治安模板多维切入。1929年12月18日委员会草案保留若干私人财产和退出条款，斯大林25日表示草案不合适，27日公开转向；1930年1月30日正式指令、大规模驱逐及1930—1933年饥荒属于后续制度后果，不能压入1929年的已完成事实。定量校验须结合 `DATA-03-1926-1929-grain-procurement-and-nemchinov-table`（谷物收购与涅姆奇诺夫表）、`DATA-06-1918-1929-cheka-ogpu-sentencing-and-1929-collectivization-surge`（1929年入庄率、播种指标跳变与 OGPU 征粮逮捕）及 `DATA-08-1921-1929-nep-social-classes-unemployment-and-gender-labor`（§1 1927年农村税务阶层分化）。
 
-1. **与相关争鸣卡分工**：`DEB-1928-bukharin-alternative` 侧重1927–29权力与路线击败；**本卡**强调 **1929年集体化+dekulakization 因果总束**（含统计、地方螺旋、意识形态、地缘政治）。
-2. **图谱接口**：`EVT-1928-grain-procurement-crisis`、`POL-ural-siberian-method` 等现引 `DEB-collectivization-and-kulak-question`（未建异名）——**本卡为正式替代入口**（本轮不修改旧卡 `related_debates` 字段）。
-3. **S级待核**：1929-04与1929-11中央全会速记（`BIB-022` 等 wishlist）；集体农庄推进电报统计 vs 实地调查；富农划界指令与强迫迁移名单样本。
-4. **定量与数据节点**：`DATA-03-1926-1929-grain-procurement-and-nemchinov-table`（1926–29征粮与涅姆奇诺夫表争议）；`CLM-carr-davies-1969-nemchinov-table-critique`；Tauger 收成 revision（本库待建 CLM）。
-5. **概念系谱提示**：辩前先读 `glossary/CONCEPT_GENEALOGY_INDEX.md` 富农、大转变、社会主义原始积累、剪刀差分期栏，防止用1929阶级标签投射1927农村。
+**站内已核 S/A 级锚点**：[1928-05-28_stalin-on-the-grain-front.md](../../sources/web-archive/E09_E10_party_debates/1928-05-28_stalin-on-the-grain-front.md)；[1929-11-07_year-of-great-turn.md](../../sources/web-archive/E06_E10_turning_points/1929-11-07_year-of-great-turn.md)；[1929-12-27_stalin-agrarian-marxists-speech-dekulakization.md](../../sources/web-archive/E01_E10_supplements/1929-12-27_stalin-agrarian-marxists-speech-dekulakization.md)；[DATA-03-1926-1929-grain-procurement-and-nemchinov-table.md](../../data/DATA-03-1926-1929-grain-procurement-and-nemchinov-table.md)；[DATA-06-1918-1929-cheka-ogpu-sentencing-and-1929-collectivization-surge.md](../../data/DATA-06-1918-1929-cheka-ogpu-sentencing-and-1929-collectivization-surge.md)；[DATA-08-1921-1929-nep-social-classes-unemployment-and-gender-labor.md](../../data/DATA-08-1921-1929-nep-social-classes-unemployment-and-gender-labor.md)；[RN-W3-grain-crisis-and-collectivization-turn.md](../../reading-notes/lewin_1968_peasants/RN-W3-grain-crisis-and-collectivization-turn.md)；[RN-W18-1929-collectivization-takeoff-and-mensheviks-1917.md](../../reading-notes/davies_basil/RN-W18-1929-collectivization-takeoff-and-mensheviks-1917.md)；[RN-W6-agricultural-crisis-and-was-stalin-necessary.md](../../reading-notes/carr_davies_nove/RN-W6-agricultural-crisis-and-was-stalin-necessary.md)；[RN-W20-nov-dec-1929-politburo-commission-and-ogpu-archives.md](../../reading-notes/tragedy_village_1929/RN-W20-nov-dec-1929-politburo-commission-and-ogpu-archives.md)；[RN-W8-1927-war-scare-and-grassroots-svodki.md](../../reading-notes/velikanova_2013_popular_perception/RN-W8-1927-war-scare-and-grassroots-svodki.md)；[RN-W1C-1928-siberian-turn-and-bukharin.md](../../reading-notes/kotkin_2014_stalin_v1/RN-W1C-1928-siberian-turn-and-bukharin.md)；[RN-W16-cheka-terror-and-external-threat-mobilization.md](../../reading-notes/cheka_and_war_scare/RN-W16-cheka-terror-and-external-threat-mobilization.md)；[RN-W3-industrialization-models-and-constraints.md](../../reading-notes/erlich_1960_industrialization/RN-W3-industrialization-models-and-constraints.md)；[RN-W32-goldman-oppositions-vigilance-and-prehistory-of-terror.md](../../reading-notes/goldman_inventing_enemy_zh/RN-W32-goldman-oppositions-vigilance-and-prehistory-of-terror.md)；[RN-W39-stalin-era-nep-to-great-turn-1924-1929.md](../../reading-notes/stalin_era_economy_repression_1924_1954_zh/RN-W39-stalin-era-nep-to-great-turn-1924-1929.md)（泽姆斯科夫 B 级）。
+
+**外部待补核 S/A 级缺口**：站内虽已核全国收购与入庄序列（`DATA-03-1926-1929-grain-procurement-and-nemchinov-table`、`DATA-06-1918-1929-cheka-ogpu-sentencing-and-1929-collectivization-surge`、`DATA-08-1921-1929-nep-social-classes-unemployment-and-gender-labor`），但完整中央全会俄文速记、地区级/州区级细分口径对照、地方执行与农民证词及收成修正论专题仍须补核。

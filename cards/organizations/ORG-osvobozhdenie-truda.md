@@ -7,61 +7,52 @@ names:
   en: Emancipation of Labor Group (Osvobozhdenie Truda)
   aliases: ["劳动解放小组", "解放劳动社", "俄国第一个马克思主义团体"]
 dates:
-  start_ns: "1883-09-25"
-  end_ns: "1903-08-23" # 1903年8月23日 [N.S.] 俄国社民工党二大伦敦闭幕后正式宣告解散并移交职能（非7月30日布鲁塞尔开幕日）
-coverage_status: draft
-perspectives_present: ["intellectual-history-walicki", "movement-history-venturi", "haimson-marxist-origins"]
-perspectives_missing: ["second-international-archival", "post-soviet-membership-records"]
-related_debates: ["DEB-1903-bolshevik-menshevik-split"]
-updated_at: "2026-11-18"
+  start_ns: "1883-09-25" # 1883-09-25 [N.S.] 日内瓦西欧公历通行成立锚点（仅作俄历换算对照时为 1883-09-13 O.S.；原始成立公告原件仍待补核）
+  end_ns: "1903-08-23" # 分析性终点锚点：1903-07-30 至 08-23 [N.S.] 俄国社会民主工党二大闭幕并实现职能并入（大会原始速记缺如，精确解散声明日暂作分析性锚点而非已证实原档日期）
+coverage_status: multi-perspective
+perspectives_present: ["intellectual-history-walicki", "movement-history-venturi", "consciousness-history-haimson", "erfurtian-and-jacobin-genealogy-lih-mayer", "labor-social-history-zelnik-smith"]
+perspectives_missing: ["second-international-archival-records", "smuggling-network-police-dossiers"]
+related_debates: ["DEB-1879-narodnaya-volya-to-bolshevism", "DEB-1903-bolshevik-menshevik-split"]
+updated_at: "2026-11-19"
 ---
 
-## [T1] 60秒定性微摘要
-`1883-09-25 [N.S.]` 于日内瓦创立的俄国首个马克思主义革命团体，由普列汉诺夫、阿克雪里罗得、查苏利奇、捷伊奇与瓦西里·伊格纳托夫创立。以唯物史观与阶段论批判民粹派，向俄国内输送理论著作；1903年俄国社民工党二大闭幕后正式宣告解散并将职能移交统一政党。
+## [T1] 150字定性微摘要
+1883年9月（西欧公历）于日内瓦创立的俄国首个马克思主义团体，由普列汉诺夫、查苏利奇、阿克雪里罗得、捷伊奇与伊格纳托夫发起。其译介马恩著作，提出反对布朗基密谋、依托资本主义发展与工人运动的“两阶段革命”正统；1900年底合办《火星报》，1903年二大闭幕并入统一政党。
 
 ## [T2] 核心脉络、时效关系边表与史学争鸣光谱
 
-### 2.1 核心历史脉络
-- **分化的思想与社会根基（1879–1882）**：土地平分社1880–1881年国内瓦解后，日内瓦流亡核心（普列汉诺夫、查苏利奇、阿克雪里罗得、捷伊奇等）清算民粹公社空想；查苏利奇 `1881-02-16 [N.S.]` 致信马克思追问村社命运，马克思 `1881-03-08 [N.S.]` 复信肯定公社潜在支点（发出稿至1924年方公布，且须与四份草稿区分），此时创始人群仍处民粹—马克思主义交叉带（`CLM-walicki-1969-marx-populist-affinity`）。
-- **日内瓦创立与理论奠基（1883–1890s）**：`1883-09-25 [N.S., 日内瓦公历]` 五人**普列汉诺夫、阿克雪里罗得（Axelrod）、查苏利奇、捷伊奇（Deutsch）、瓦西里·伊格纳托夫（V. N. Ignatov）** 宣布成立“劳动解放社”（1883-09-25成立声明与1884年日内瓦纲领并非同一文件，后补文献时须加区分）；系统出版《社会主义与政治斗争》（1883）、《我们的意见分歧》（1885）、《论一元论历史观的发展》（1895）等，论证俄国资本主义不可逆，社会主义须待资产阶级民主革命与工人运动成熟；通过秘密渠道向俄国内输送马克思主义文献。
-- **第二国际联络与1903年二大后正式移交解散（1890s–1903）**：成为俄国社会民主主义与第二国际的桥梁；其成员与组织技艺影响后来各马克思主义小组，但自身体量较小，更多承担理论枢纽而非大规模动员工人职能；`1903-07-30 [N.S., 布鲁塞尔当地公历]` 俄国社民工党二大在布鲁塞尔开幕（后因警方压力移至伦敦至 `1903-08-23 [N.S.]` 闭幕），二大闭幕后劳动解放社正式宣告解散并将海外机关及党务职能移交党组织（而非在7月30日开幕日消亡；二大后普列汉诺夫在1903–1904年间政治立场仍有摇摆，不宜将团体终点简单压平为“立即整体融入孟什维克”）。
-- **与马克思1881年文本的史学反讽（事后认知）**：瓦利茨基指出劳动解放社正统阶段论与马克思1881年查苏利奇复信对异步、非资本主义道路的开放性之间存在长期被档案政治遮蔽的张力；不可将1890年代列宁等人的“不知情”混同于普列汉诺夫掌握原件后的出版选择（`CLM-walicki-1969-marx-populist-affinity`, 语境说明）。
+### 2.1 核心历史脉络（西欧创社及会期依当地公历 `[N.S.]`，俄国内部事件依双历转换）
+- **日内瓦建社与“五人核心”（1883.09.25 [N.S.]）**：`ORG-chernyi-peredel` 国内网络崩溃后，五名流亡前成员——`PER-plekhanov`、`PER-zasulich`、`PER-axelrod`、列夫·捷伊奇（L. G. Deutsch）与瓦西里·伊格纳托夫（V. N. Ignatov，1854–1885）——据通行编年于 **`1883-09-25 [N.S.]`** 在瑞士**日内瓦**宣布成立“劳动解放社”（系西欧当地公历，对应俄国内旧历仅作换算对照 `1883-09-13 [O.S.]`，拟刊行《现代社会主义丛书》并于1884年发表《纲领草案》；其原始成立公告原件仍待补核）。该社在组织规模上始终只是几人构成的海外理论与翻译小组，而非直接统辖俄国内罢工的群众大党。
+- **“两阶段革命”正统奠基与批判民粹派（1883–1895）**：普列汉诺夫接连发表《社会主义与政治斗争》（1883）、《我们的意见分歧》（1885）与《论一元论历史观的发展》（1895），查苏利奇、阿克雪里罗得则译介《共产党宣言》《空想与科学》等马恩经典向俄国内偷运。面对特卡乔夫与 `ORG-narodnaya-volya` 余脉的少数派夺权论，普列汉诺夫划下“两阶段革命”铁律：俄国必须先经资本主义发展与自由派参与推翻专制，建立立宪议会共和国后，由成熟的无产阶级政党领导第二阶段社会主义革命；他警告革命团体抢先夺权只会酿成“秘鲁印加太阳之子式家长制权威主义共产主义”（Walicki `pp. 155–156`）。同时须辨明史学争议：当年马克思 `1881-03-08 [N.S.]` 复查苏利奇肯定村社潜能的亲笔信（`sources/web-archive/E01_narodniks/1881-03-08_marx-to-zasulich_fr.md`）在1881年因当事流亡者仍期待马克思撰著村社专书而未发表，此后长期留存于阿克雪里罗得档案中直至1924年方公布；针对马克思逝世后该信何以长期未刊，瓦利茨基（`p. 188 n.1`）仅以**史学存疑提问**提出“是否意在掩盖与日后正统不谐之处”（并转述波列沃伊所谓“1882年序言已代之”而加以质疑，同时援引1957年《社会主义信使》上尤列夫斯基与尼古拉耶夫斯基的争论），但现有文献证据不足以将动机坐实为确证的“故意避免冲击正统叙事”（`CLM-walicki-1969-marx-populist-affinity` 亦明确警告，不可把元老留存手稿与1890年代列宁等俄国马克思主义者对此信的无知混为一谈）。
+- **1890年代工运浪潮、“经济主义”论战与《火星报》建党（1894–1903）**：维特工业化与1891–1892年饥荒催生俄国内资本主义大辩论（`EVT-1891-1903-witte-industrialization-and-marxist-labor-turn`）。劳动解放社既在理论上同沃龙佐夫、丹尼尔逊等民粹经济学家交锋，也在1890年代末迎战《工人思想报》与俄国国外社民联合会的“经济主义”转向（普列汉诺夫与阿克雪里罗得坚决反对把工人局限在纯经济工联斗争，甚至普列汉诺夫在1901年率先抛出“社会民主党的山岳派 vs. 吉伦特派”隐喻，`CLM-mayer-1999-lenin-jacobin-metaphor-vs-blanquism`）。1900年12月起，三位日内瓦元老与新一代代表 `PER-lenin`、`PER-martov-l`、波特列索夫共同创办全俄政治报《火星报》（*Iskra*，编委会驻慕尼黑、初号于**莱比锡**印制；原报创刊号仅署西欧公历 **“1900年12月”**，通行排印/出版锚点系 `1900-12-24 [N.S.]`，对应俄历 `1900-12-11 [O.S.]`，精确发刊日仍待核初刊原件与印厂档案），将老一代理论权威与俄国内秘密联络网焊成一体。
+- **1903年二大并入与后继分裂（1903.07–08 [N.S.]）**：`1903-07-30` 至 `08-23 [N.S.]` 俄国社会民主工党第二次代表大会（`MTG-1903-rsdlp-2nd-congress`，先后在布鲁塞尔与伦敦召开，均用西欧公历）期间，劳动解放社作为海外先驱小组完成历史使命，随着大会建立统一党组织而**并入党内、停止独立团体存在**——因站内暂缺二大原始会议记录以确证解散声明宣读的精确日期，本卡暂以大会闭幕日 **`1903-08-23 [N.S.]`** 作为解散与职能移交的分析性锚点。二大随《火星报》编委改组而撕裂：最初在大会上支持列宁的 `PER-plekhanov` 于1903年秋转向与被逐出编委的 `PER-axelrod`、`PER-zasulich` 站在一起，后三人悉数成为 `ORG-mensheviks` 反对列宁“超集中制”的精神支柱，而普列汉诺夫晚年又因护党派与1914年极端护国主义再与孟什维克主流疏离。
 
-### 2.2 时效关系摘要边表（Typed & Temporalized Edges）
-| 关联节点 ID | 关系类型 | 有效时段 | 一句话关系实质摘要（防 N+1 盲跳） | 核心依据/争鸣 |
+### 2.2 核心关系网络（结构化边表）
+| 目标节点 ID | 关系类型 | 有效时段 | 关系实质摘要 | 核心依据 |
 | :--- | :--- | :--- | :--- | :--- |
-| `ORG-chernyi-peredel` | `successor-ideological` | 1883 | 土地平分社流亡残余在清算民粹乌托邦后另立马克思主义机关，组织上非简单改名 | `CLM-walicki-1969-plekhanov-rational-reality` |
-| `PER-plekhanov` | `founder-chief-theorist` | 1883–1903 | 创始人与阶段论、反布朗基主义信条的主要阐发者 | `CLM-walicki-1969-plekhanov-rational-reality` |
-| `PER-zasulich` | `co-founder` | 1883–1903 | 五人创立核心之一，负责翻译、联络与出版 | `CLM-walicki-1969-marx-populist-affinity` |
-| `PER-axelrod` | `co-founder` | 1883–1903 | 五人创立核心之一，后期与查苏利奇在1903年《火星报》及孟什维克路线中坚持群众工人党原则 | `PER-axelrod` |
-| `ORG-zemlya-i-volya` | `generational-break` | 1879–1883 | 自第二代土地与自由社—土地平分社脉络转出，标志民粹行动派向马克思主义理论派的断裂 | `CLM-venturi-1960-lipetsk-voronezh-split` |
-| `PER-lenin` | `critical-heir` | 1890s–1903 | 曾受该社理论抚育，后在接受资本主义“现在时”与组织策略上与普列汉诺夫路径分岔 | `CLM-walicki-1969-plekhanov-rational-reality` |
-| `CON-narodnichestvo` | `polemical-object` | 1883–1900 | 以“古典民粹主义”为系统批判对象，参与界定1869年后民粹观念结构 | `CLM-walicki-1969-narodnichestvo-definition` |
+| `ORG-chernyi-peredel` | `ideological_successor_via_break` | 1883 | 流亡残余清算民粹公社论后另立马克思主义团体，组织与纲领上非原样更名 | `CLM-walicki-1969-plekhanov-rational-reality` |
+| `PER-plekhanov` | `founder_and_chief_theorist` | 1883–1903 | 理论灵魂与第一代俄国马克思主义正统（阶段论、反布朗基、唯物史观）确立者 | `PER-plekhanov` |
+| `PER-zasulich` | `co_founder_translator` | 1883–1903 | 五人核心之一，长期主持马恩文献译介、海内外通信及《火星报》老编辑部事务 | `PER-zasulich` |
+| `PER-axelrod` | `co_founder_organizer` | 1883–1903 | 五人核心之一，负责第二国际联络与组织反思，1903年后与查苏利奇主导反集中制批判 | `PER-axelrod` |
+| `EVT-1891-1903-witte-industrialization-and-marxist-labor-turn` | `theoretical_benchmark_for` | 1891–1903 | 在1890年代资本主义论战与反“经济主义”中为国内工运转向提供理论坐标 | `EVT-1891-1903-witte-industrialization-and-marxist-labor-turn` |
+| `PER-lenin` | `junior_ally_then_rival` | 1895–1903 | 受该社著述哺育并于1900年合办《火星报》，后围绕工农联盟与党组织发生分裂 | `CLM-haimson-1955-1903-second-congress-split` |
+| `PER-martov-l` | `iskra_partner_and_heir` | 1900–1903 | 与三位元老合办《火星报》，1903年二大后联手阿克雪里罗得与查苏利奇建立孟什维克传统 | `PER-martov-l` |
+| `MTG-1903-rsdlp-2nd-congress` | `dissolved_at` | 1903-08-23 [N.S.] | 二大闭幕之际完成职能并入统一政党（以闭幕日 `1903-08-23 [N.S.]` 作分析性锚点，精确解散声明原件待核） | `MTG-1903-rsdlp-2nd-congress` |
+| `ORG-mensheviks` | `intellectual_matrix_for` | 1903–1904 | 查苏利奇、阿克雪里罗得（及随后倒向的普列汉诺夫）构筑孟什维克“群众自主活动”哲学底色 | `ORG-mensheviks` |
+| `CON-narodnichestvo` | `polemical_antithesis` | 1883–1900 | 将广义民粹主义（涵盖从70年代革命派到沃龙佐夫、丹尼尔逊）树立为主要论战他者 | `CLM-walicki-1969-narodnichestvo-definition` |
 
-### 2.3 史学争鸣光谱（Historiographical Spectrum）
-- **经验共识**：劳动解放社是俄国马克思主义从民粹主义母体中自我界定的第一个稳定流亡理论机关，其1885年前后著述塑造了1890年代社会民主主义论战词汇。
-- **主要解释分歧**（注：已建 `DEB-1903-bolshevik-menshevik-split` 仅覆盖1903年二大后余波，不可替代待建的1883年起缘辩论 `DEB-russian-marxism-origins`、`DEB-marx-russia-commune`、`DEB-narodnichestvo-concept`）：
-  - **[Walicki 理性必然与神义论]**（`CLM-walicki-1969-plekhanov-rational-reality`）：普列汉诺夫借“合理必然性”为接受资本主义苦难辩护，其阶段论本身亦是西化派乌托邦，在1917年后暴露反讽。
-  - **[Walicki 马恩民粹亲和]**（`CLM-walicki-1969-marx-populist-affinity`）：劳动解放社正统叙事压抑了马克思1881年文本与民粹异步发展思考的亲和，构成马克思主义内部被遮蔽的一章。
-  - **[Venturi 运动史语境]**（`CLM-venturi-1960-lipetsk-voronezh-split`）：土地平分社“保守火种” vs. 民意党“吃老本”赌注，为1883年转向提供组织史背景。
-  - **[苏联正统]**：定誉为“俄国马克思主义诞生摇篮”，突出与民意党及一切民粹主义的决裂，弱化创始人民粹往事与马克思信札复杂性。
+### 2.3 多视角史学争鸣与阐释边界
+- **经验共识**：劳动解放社以极小规模的流亡核心实现了马克思主义在俄国知识界与早期第二国际间的体制性扎根，确立了“两阶段革命”与政治斗争优先正统，并于1903年二大闭幕之际并入统一政党（精确解散声明日期因原档未入库暂作分析性锚点）。
+- **“合理现实”与神义论乌托邦（Andrzej Walicki, 1969）**：深度剖析 `PER-plekhanov` 接受“俄国资本主义必然带来残酷苦难”背后的黑格尔—斯宾诺莎式“合理必然性神正论”（theodicy）；极具反讽的是，这位以批判民粹派“空想”起家的正统理论家，最终把自己那套按西欧阶段序列完成西方化的蓝图也变作另一种无法在1917年兑现的“西方派乌托邦”（`CLM-walicki-1969-plekhanov-rational-reality`）。同时 Walicki（`p. 188 n.1`）针对1881年马克思复查苏利奇信迟至1924年方才面世提出**史学存疑提问**——审视不知情、档案遗忘或回避冲击后继正统叙事等诸种解释，而 `CLM-walicki-1969-marx-populist-affinity` 强调现有证据不足以坐实故意掩盖动机，亦不可把长期未刊直接等同于1890年代俄国马克思主义者对此信的无知。
+- **“意识与自发性”代际分裂与工知张力（Leopold H. Haimson, 1955; Zelnik / Smith, 1996/1999）**：Haimson 将阿克雪里罗得—查苏利奇与列宁在1903年的决裂追溯至俄国知识分子如何构想工人自觉性的深层哲学焦虑；Zelnik 与 Smith（`CLM-zelnik-1999-kanatchikov-conscious-worker-formation`, `CLM-zelnik-1999-worker-intelligentsia-tutelage-tension`）则从俄国内圣彼得堡“觉悟工人”（如卡纳奇科夫）视角补充：正是国内工业现场与1890年代末经济派的反监护冲突，决定了一套流亡理论在落地时面对的真实社会摩擦。
+- **爱尔福特正统与雅各宾修辞回溯（Robert Mayer, 1999; Lars T. Lih, 2006）**：证伪“普列汉诺夫代表民主西方、列宁代表俄国亚细亚密谋”的冷战二分——1901年率先把法国大革命“山岳派 vs. 吉伦特派”引入俄国社民党内斗的恰恰是老雅各宾同情者 `PER-plekhanov`（`CLM-mayer-1999-lenin-jacobin-metaphor-vs-blanquism`），而劳动解放社与《火星报》一代原本共享德国SPD爱尔福特蓝图（`CLM-lih-2006-erfurtian-merger-formula`）。
+- **苏联正统党史的扬抑结构**：长期誉之为“俄国马克思主义的摇篮与列宁主义的理论阶梯”，却对五位创始人中后来四位站在布尔什维克对立面（及捷伊奇的孟什维克晚年、1881年马克思信札长期未刊）语焉不详。
 
-## [T3] 深度考证、分期细目与原文引证档案
-- **创立与解散日期**：
-  - 创立：`1883-09-25 [N.S., 日内瓦当地公历]`（依 `AUD-04` 历法裁定及日内瓦当地公历，不另补俄历；1883年9月25日成立声明与1884年日内瓦纲领须分开建档）。
-  - 二大与解散：`1903-07-30 [N.S., 布鲁塞尔当地公历]` 俄国社民工党二大开幕（单标当地公历，不附俄历），`1903-08-23 [N.S., 伦敦]` 闭幕后劳动解放社正式移交职能并宣告解散。
-- **五名创始人**：
-  | 人物卡 ID | 姓名 | 角色摘要 |
-  | :--- | :--- | :--- |
-  | `PER-plekhanov` | 格奥尔基·普列汉诺夫 | 理论主导 |
-  | `PER-zasulich` | 维拉·查苏利奇 | 出版与联络 |
-  | `PER-axelrod` | 帕维尔·阿克雪里罗得 | 共同创办人 |
-  | —（待建 `PER-deutsch`） | 列夫·捷伊奇 | 共同创办人 |
-  | —（待建 `PER-ignatov`） | 瓦西里·尼古拉耶维奇·伊格纳托夫（Василий Николаевич Игнатов，男性，1854–1885） | 共同创办人 |
-- **已入库论断卡**：`CLM-walicki-1969-plekhanov-rational-reality`；`CLM-walicki-1969-marx-populist-affinity`；`CLM-walicki-1969-narodnichestvo-definition`。
-- **待建关联争鸣母题卡**：`DEB-russian-marxism-origins`、`DEB-marx-russia-commune`、`DEB-narodnichestvo-concept`。
-- **待核查一手文献**：
-  1. `1883-09-25 [N.S.]` 日内瓦成立宣言原文标题、1884年《劳动解放社纲领草案》与该社《现代科学社会主义丛书》书目；
-  2. 瓦西里·尼古拉耶维奇·伊格纳托夫全名与1885年卒年档案；
-  3. 1903年二大布鲁塞尔开幕（`1903-07-30 [N.S.]`）及伦敦闭幕（`1903-08-23 [N.S.]`）后劳动解放社正式移交解散的会议记录；
-  4. 1885年《我们的意见分歧》首版与内部传阅本差异，及1890年代向俄国内偷运书刊的海关缉获记录（S级，待档案）。
+## [T3] 溯源锚点与未决史料缺口
+- **站内已核 S / A 级锚点**：
+  - **S 级原典文献**：[`sources/web-archive/E01_narodniks/1881-03-08_marx-to-zasulich_fr.md`](../../sources/web-archive/E01_narodniks/1881-03-08_marx-to-zasulich_fr.md)（解释该社成员在转向正统马克思主义前夕的真实理论坐标及长期未刊之史学争议背景）；[`sources/web-archive/E02_E07_foundational_docs/1903-08-02_rsdlp-rules-paragraph-1.md`](../../sources/web-archive/E02_E07_foundational_docs/1903-08-02_rsdlp-rules-paragraph-1.md)（`WEB-1903-08-02-rsdlp-rules-p1`）；[`sources/web-archive/E02_E10_core_classics/1902_witbd-ch2-spontaneity-and-consciousness.md`](../../sources/web-archive/E02_E10_core_classics/1902_witbd-ch2-spontaneity-and-consciousness.md)（`WEB-1902-witbd-ch2`，列宁对1890年代末经济派论战的介入）。
+  - **A 级馆藏精读与 Claim 节点**：[`reading-notes/walicki_1969_controversy/RN-W1B-populism-concept-and-marxism.md`](../../reading-notes/walicki_1969_controversy/RN-W1B-populism-concept-and-marxism.md) 与 [`reading-notes/walicki_1969_controversy/RN-W2-populism-concept-and-marxism.md`](../../reading-notes/walicki_1969_controversy/RN-W2-populism-concept-and-marxism.md)；[`historiography/claims/CLM-walicki-1969-plekhanov-rational-reality.md`](../../historiography/claims/CLM-walicki-1969-plekhanov-rational-reality.md)；[`historiography/claims/CLM-walicki-1969-marx-populist-affinity.md`](../../historiography/claims/CLM-walicki-1969-marx-populist-affinity.md)；[`historiography/claims/CLM-mayer-1999-lenin-jacobin-metaphor-vs-blanquism.md`](../../historiography/claims/CLM-mayer-1999-lenin-jacobin-metaphor-vs-blanquism.md)；[`historiography/claims/CLM-zelnik-1999-worker-intelligentsia-tutelage-tension.md`](../../historiography/claims/CLM-zelnik-1999-worker-intelligentsia-tutelage-tension.md)；[`timeline/L2_chronicles/E02_1881-1904_marxism_and_parties.md`](../../timeline/L2_chronicles/E02_1881-1904_marxism_and_parties.md)；[`timeline/L3_daily/1903-07_rsdlp_second_congress_split.md`](../../timeline/L3_daily/1903-07_rsdlp_second_congress_split.md)。
+- **外部待补核 S / A 级缺口**：
+  - `1883-09-25 [N.S.]` 日内瓦创立公告、1884年《劳动解放社纲领草案》与普列汉诺夫《社会主义与政治斗争》（1883）及《我们的意见分歧》（1885）俄文初刊本原档。
+  - 列夫·捷伊奇与瓦·尼·伊格纳托夫（1854–1885）生平及海外出版经费账簿、1890年代向俄国内走私书刊的海关缉获档案（S级），以及第二国际历次代表大会俄国代表团委任状原件。
+  - 1903年伦敦二大闭幕时劳动解放社正式移交职能并宣告解散的会议全记录（*Протоколы II съезда РСДРП* 对应条款）。

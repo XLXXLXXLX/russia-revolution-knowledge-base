@@ -1075,3 +1075,33 @@ entities:
     ru: "Столыпинская аграрная реформа"
     en: "Stolypin agrarian reform"
     aliases: ["斯托雷平改革"]
+
+  EVT-1891-1903-witte-industrialization-and-marxist-labor-turn:
+    canonical_zh: "1891–1903年维特工业化与俄国马克思主义工运转向"
+    ru: "Промышленный подъём Витте и социал-демократический поворот к массовой агитации (1891–1903)"
+    en: "Witte Industrialization and the Russian Marxist Labor Turn (1891–1903)"
+    aliases: ["1891–1903年工业化与工运转向", "维特时代与俄国社会民主工党形成", "1890s Industrialization and Agitation Turn"]
+
+  EVT-1907-1914-june-third-regime-and-lena-to-july-strikes:
+    canonical_zh: "1907–1914年六三体制、斯托雷平反动与勒拿至七月工潮"
+    ru: "Третьеиюньская система и предвоенный рабочий подъём (1907–1914)"
+    en: "The June Third Regime and Prewar Labor Upsurge from Lena to July 1914"
+    aliases: ["六三体制与战前工潮", "1907–1914年斯托雷平体制与工运复兴", "June Third Regime and Prewar Crisis"]
+
+  EVT-1914-1916-wwi-mobilization-shell-crisis-and-progressive-bloc:
+    canonical_zh: "1914–1916年一战总动员、弹药危机与杜马进步同盟危机"
+    ru: "Первая мировая война, «снарядный голод» и кризис режима (1914–1916)"
+    en: "WWI Mobilization, Shell Crisis, and the Progressive Bloc (1914–1916)"
+    aliases: ["1914–1916年一战危机与进步同盟", "炮弹荒与部长走马灯", "WWI Crisis and Progressive Bloc"]
+
+  EVT-1917-1920-ukrainian-revolution-rada-hetmanate-and-sovietization:
+    canonical_zh: "乌克兰革命：中央拉达、盖特曼政权、执政内阁与苏维埃化（1917—1920）"
+    ru: "Украинская революция (Центральная рада, Гетманат, Директория и советизация, 1917–1920)"
+    en: "Ukrainian Revolution: Central Rada, Hetmanate, Directory, and Sovietization (1917–1920)"
+    aliases: ["乌克兰独立战争", "中央拉达", "斯科罗帕德斯基盖特曼政权", "乌克兰执政内阁", "乌克兰苏维埃化", "斗争派吸纳"]
+
+  EVT-1918-1921-transcaucasian-republics-baku-commune-and-sovietization:
+    canonical_zh: "外高加索独立共和国、巴库公社与苏维埃化（1918—1921）"
+    ru: "Закавказские республики, Бакинская коммуна и советизация Закавказья (1918–1921)"
+    en: "Transcaucasian Republics, Baku Commune, and Sovietization (1918–1921)"
+    aliases: ["外高加索民主联邦共和国", "巴库公社", "二十六名巴库政委", "格鲁吉亚民主共和国", "外高加索苏维埃化", "俄格1920条约"]

@@ -46,7 +46,7 @@
 ### 2.3 史学争鸣光谱
 **共识**：政府的紧急施政权与党内领导日益重要，苏俄和联盟两级机关在宪法上并存。**分歧**：Carr 重视宪法权限与行政运作之间的偏差，强调党权威如何协调国家机构，但早期写作受未公开档案限制；Rabinowitch 依据彼得格勒和中央档案强调1917–1918年联合政府的争执、地方合作及一党统治形成的偶然性（`CLM-rabinowitch-2007-contingency-of-dictatorship`）；Khlevniuk 对后期政治局内部的联盟变化和合议限制提供校正（`CLM-khlevniuk-2015-collective-leadership-erosion`）；Levy 一线讨论苏维埃机关“活跃化”的悖论（`CLM-soviet-democracy-1924-1927-ozhivlenie-sovetov-paradox`；`reading-notes/levy_soviet_democracy/RN-W23-makhaevism-intelligentsia-and-soviet-democracy-1917-1929.md`）。Pipes 一极强调意识形态与权力集中，库内未登记于本卡。`archival-revisionist` 标签已改为 `revisionist-contingency-via-secondary`，因本卡未直接使用档案原件。
 
-## 2. 一跳邻域等权重微摘要 (共 17 个关联节点，严防大卡霸占上下文)
+## 2. 一跳邻域等权重微摘要 (共 18 个关联节点，严防大卡霸占上下文)
 ### 邻居节点: `PER-lenin`
 - **时效关系边** (`INS-sovnarkom-and-vtsik` → `PER-lenin` | `chaired_government` | 有效时段: `1917–1924`): 主持苏俄、后又主持苏联人民委员会
 - **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 布尔什维克党缔造者、苏俄人民委员会主席（1917–1924）。1893年投身马克思主义运动，1903年促成布尔什维克分化；1917年发表《四月提纲》并领导十月夺权，历经布列斯特和约、内战与战时共产主义；1921年主持转向新经济政策，晚年（1922–1923）就官僚化与接班人同斯大林冲突。
@@ -61,7 +61,7 @@
 
 ### 邻居节点: `ORG-right-opposition-1928`
 - **时效关系边** (`INS-sovnarkom-and-vtsik` → `ORG-right-opposition-1928` | `policy_conflict` | 有效时段: `1928–1929`): 李可夫等政府领导人的政策立场在党内失势
-- **节点定性微摘要 [T1]** (完备度 `draft`): 1928–1929年以布哈林、李可夫、托姆斯基为首的联共（布）党内右派，在NEP末期反对斯大林非常征粮常态化、“贡赋论”、超工业化冒进及剥夺工会防卫职能；在书记处机器、工会与莫斯科市委遭改组及反分裂党纪自缚下于1929年11月战败，随之开启全盘集体化。
+- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 1928–1929年以布哈林、李可夫、托姆斯基为核心的联共（布）党内温和派联盟，并非严密地下派系，而是依托政府、工会与莫斯科市委抵制非常征粮常态化、“贡赋论”与超工业化冒进；受制于反派别党纪，各阵地逐一遭书记处拔除，1929年11月战败认错。
 
 ### 邻居节点: `EVT-1922-georgian-affair-and-ussr-formation`
 - **时效关系边** (`INS-sovnarkom-and-vtsik` → `EVT-1922-georgian-affair-and-ussr-formation` | `union_constitutional_context` | 有效时段: `1922–1924`): 联盟宪制在共和国权限和中央集权之间建立复杂分工
@@ -110,11 +110,16 @@
 
 ### 邻居节点: `POL-brest-litovsk-treaty`
 - **时效关系边** (`INS-sovnarkom-and-vtsik` → `POL-brest-litovsk-treaty` | `coalition_exit_trigger` | 有效时段: `1918.03`): 左翼社革党退出政府
-- **节点定性微摘要 [T1]** (完备度 `draft`): 苏俄与同盟国于1918年3月3日签署的和约使俄国退出第一次世界大战，承认重大领土损失；德国战败后苏俄于11月宣布废除。
+- **时效关系边** (`POL-brest-litovsk-treaty` → `INS-sovnarkom-and-vtsik` | `国家批准与废约主体` | 有效时段: `1918.02–11`): 中执委2月表决、四次苏维埃大会批准并于11月13日宣布废约。
+- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 布列斯特和约路线是在军事崩溃与世界革命期待之间作出的单独媾和选择。列宁主张割地换取喘息，布哈林主张革命战争，托洛茨基“不战不和”随德军进逼破产。1918年3月签约虽保住苏维埃政权，却造成重大领土与工业损失，引发党内激烈分裂并推动左派社革党退出联合政府。
 
 ### 邻居节点: `ORG-bolsheviks-rcpb-vkpb`
 - **时效关系边** (`ORG-bolsheviks-rcpb-vkpb` → `INS-sovnarkom-and-vtsik` | `party-state-nexus` | 有效时段: `1917–1929`): 党组织与政府、中执委的权限交叠和领导关系变化
 - **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 布尔什维克起于1903年社民工党二大后的党内多数派，经流亡、地下活动与1917年群众扩张成为执政党；1918年称俄共（布），1925年称联共（布）。它从地方主动性较强的革命党，演变为拥有任命网络与纪律制裁的党国核心，过程分阶段且存争议。
+
+### 邻居节点: `CON-soviet`
+- **时效关系边** (`CON-soviet` → `INS-sovnarkom-and-vtsik` | `宪制并存与吸收` | 有效时段: `1917–1929`): 执行机关与苏维埃代表结构合一，党权主导日趋强化。
+- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 苏维埃原为会议或委员会之意。1905年工人代表机构从罢工协调走向政治权力雏形；1917年工兵农苏维埃成为多党竞争与双重政权场域。十月后1918年宪法确立城乡五比一不等权与阶级剥权机制，二十年代“活跃苏维埃”实验仍受制于一党垄断，1921年喀琅施塔得亦曾诉诸苏维埃民主。
 
 ## 3. 关联史学争鸣光谱 (Historiographical Debates)
 ### `DEB-1922-lenin-testament-and-stalin-rise`：列宁晚年、格鲁吉亚事件与斯大林崛起机制
