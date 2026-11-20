@@ -12,7 +12,8 @@ updated_at: "2026-11-18"
 ---
 
 ## [T1] 60秒定性微摘要
-美国加州大学伯克利分校历史社会学荣休教授。代表作《反叛的根源：圣彼得堡与莫斯科的工人政治与组织（1900–1914）》及编注《沙俄政权下的俄国工人：生活与劳动》，从手艺行会传统、车间技术等级与工人自传话语揭示“觉悟熟练工人”阶层在1905与1912–1914工运中的组织核心地位，并实证检验了沙俄国家—雇主双重扼杀如何摧毁孟什维克合法工联路线、迫使熟练工在1912–1914年转向布尔什维克。
+
+加州大学伯克利分校历史社会学荣休教授。代表作《反叛的根源（1900–1914）》与《沙俄政权下的俄国工人》，从行会传统、车间等级与自传话语揭示“觉悟熟练工”的核心地位，实证论证国家—雇主双重扼杀如何摧毁孟什维克工联空间、促使熟练工转向布尔什维克。
 
 ## [T2] 方法论特征与关联核心论断
 - **关联论断卡**：`CLM-bonnell-1983-conscious-worker-stratum-and-shopfloor`、`CLM-bonnell-1983-karelina-women-workers-and-gapon`、`CLM-bonnell-1983-artisanal-vs-factory-unionization-1905-1907`、`CLM-bonnell-1983-state-employer-repression-undermining-menshevik-reformism`、`CLM-bonnell-1983-1912-1914-union-and-insurance-boards-bolshevik-capture`。

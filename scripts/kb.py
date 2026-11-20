@@ -7,8 +7,8 @@
   1. date             俄历 (O.S., 儒略历) 与公历 (N.S., 格里高利历) 精确双向换算
   2. toc              生成文献章节与标题行号索引 (供 close-reader 无 grep 整章顺读)
   3. timeline         按时间窗、层级 (L0-L3)、时代或实体切片查询双历法时间线
-  4. pack             编译单卡或多卡去重 1-Hop 平衡上下文包 (零邻居截断 + 紧凑预算 + CLM/SCH 穿透)
-  5. locate-chapters  基于本地 SQLite FTS5 (trigram) 的 145 本史料章节定位雷达 (仅返回章节坐标，不泄片段，自动隔离纯扫描空书)
+  4. pack             编译单卡或多卡去重 1-Hop 平衡上下文包 (零邻居/零CLM截断 + 优先级预算器)
+  5. locate-chapters  基于本地 SQLite FTS5 (trigram + 全表短词重排) 的史料章节定位雷达 (自动隔离纯扫描空书)
   6. audit-graph      全库结构、外键、2.2悬空目标、[T1]字数与双历法一致性体检
   7. models           查看各 Agent 绑定的跨 Provider 模型池
   8. delegate-prompt  生成精简无路由冗余的跨 Provider T3 delegate_task 标准载荷
@@ -21,26 +21,43 @@ from __future__ import annotations
 import argparse
 import datetime as dt
 import json
+import os
 import re
 import sqlite3
 import sys
 from pathlib import Path
 from typing import Any
 
-import yaml
+ROOT = Path(__file__).resolve().parent.parent
+VENV_SITE = ROOT / ".venv" / "Lib" / "site-packages"
+if VENV_SITE.exists() and str(VENV_SITE) not in sys.path:
+    sys.path.insert(0, str(VENV_SITE))
+
+import yaml  # noqa: E402
 
 if hasattr(sys.stdout, "reconfigure"):
     sys.stdout.reconfigure(encoding="utf-8")
 if hasattr(sys.stderr, "reconfigure"):
     sys.stderr.reconfigure(encoding="utf-8")
 
-ROOT = Path(__file__).resolve().parent.parent
 CACHE_DIR = ROOT / ".cache"
 FTS_DB_PATH = CACHE_DIR / "kb_chapters.sqlite"
 
+ID_REMAP: dict[str, str] = {
+    "ORG-bolsheviks": "ORG-bolsheviks-rcpb-vkpb",
+    "ORG-left-communists": "ORG-left-communists-1918",
+    "ORG-united-opposition": "ORG-left-and-united-opposition",
+    "ORG-right-opposition": "ORG-right-opposition-1928",
+    "MTG-1921-03-10th-party-congress": "MTG-1921-rcpb-10th-congress",
+    "EVT-1918-03-03-brest-litovsk-treaty": "EVT-1918-03-brest-litovsk-treaty",
+    "MTG-1903-07-rsdlp-2nd-congress": "MTG-1903-rsdlp-2nd-congress",
+}
+
 ENTITY_ID_PAT = re.compile(r"\b(?:PER|ORG|INS|EVT|MTG|POL|CON)-[A-Za-z0-9-]+\b")
+EV_ID_PAT = re.compile(r"\b(?:CLM|DEB|DATA|RN|MTG|EVT|POL|CON|ORG|INS|PER)-[A-Za-z0-9_-]+\b")
 CLM_ID_PAT = re.compile(r"\bCLM-[A-Za-z0-9_-]+\b")
 DEB_ID_PAT = re.compile(r"\bDEB-[A-Za-z0-9-]+\b")
+SEC_22_PAT = re.compile(r"(?ms)^###\s+2\.2\b[^\n]*\n(.*?)(?=^###\s+|^##\s+|\Z)")
 DUAL_DATE_PAT = re.compile(r"(\d{4}-\d{2}-\d{2})\s*\[O\.S\.\]\s*/\s*(\d{4}-\d{2}-\d{2})\s*\[N\.S\.\]")
 
 POST_REFORM_WHITELIST = (
@@ -212,7 +229,7 @@ def cmd_toc(args: argparse.Namespace) -> int:
 
 
 # ============================================================================
-# 卡片与台账加载辅助函数 (基于 PyYAML safe_load 100% 保真)
+# 卡片、2.2关系表单一解析器与台账加载辅助函数
 # ============================================================================
 
 def _normalize_yaml_types(val: Any) -> Any:
@@ -226,7 +243,7 @@ def _normalize_yaml_types(val: Any) -> Any:
 
 
 def parse_frontmatter(md_text: str) -> tuple[dict[str, Any], str]:
-    """使用 PyYAML 标准解析器读取 YAML Frontmatter 与正文，彻底消除多行列表与行尾注释失真。"""
+    """使用 PyYAML 标准解析器读取 YAML Frontmatter 与正文。"""
     md_text = md_text.replace("\r\n", "\n")
     if not md_text.startswith("---\n"):
         return {}, md_text
@@ -241,7 +258,6 @@ def parse_frontmatter(md_text: str) -> tuple[dict[str, Any], str]:
     return _normalize_yaml_types(loaded), body
 
 
-# 保留同名别名以兼容外部只读调用
 parse_simple_frontmatter = parse_frontmatter
 
 
@@ -257,6 +273,84 @@ def extract_tiers(body: str) -> dict[str, str]:
         elif current:
             tiers[current].append(line)
     return {k: "\n".join(v).strip() for k, v in tiers.items()}
+
+
+def extract_card_22_rows(
+    card_text: str,
+    cid: str,
+    id_remap: dict[str, str] | None = None,
+) -> list[dict[str, Any]]:
+    """
+    全库唯一的 `### 2.2` 时效关系边表解析器（供 sync_graph_and_packs.py、kb.py audit-graph、run_benchmarks.py 共用）。
+    严格限定在 `### 2.2` 小节内，同时兼容标准五列（`target | rel | period | digest | ev`）
+    与方向箭头五列（`→/←/↔ | rel | target | period | digest`），并支持单格多实体 ID 拆分。
+    """
+    remap = id_remap if id_remap is not None else ID_REMAP
+    m_sec = SEC_22_PAT.search(card_text.replace("\r\n", "\n"))
+    if not m_sec:
+        return []
+
+    rows: list[dict[str, Any]] = []
+    seen_keys: set[tuple[str, str, str, str]] = set()
+
+    for line in m_sec.group(1).splitlines():
+        s = line.strip()
+        if not (s.startswith("|") and s.endswith("|")):
+            continue
+        cols = [c.strip() for c in s.strip("|").split("|")]
+        if len(cols) < 4 or "---" in cols[0] or "---" in cols[1]:
+            continue
+
+        m0 = ENTITY_ID_PAT.findall(cols[0])
+        arrow_mode = False
+        if m0:
+            raw_targets = m0
+            rel = re.sub(r"`|\*", "", cols[1]).strip() or "related-to"
+            period = re.sub(r"`|\*", "", cols[2]).strip() or "1861-1929"
+            digest = re.sub(r"`", "", cols[3]).strip()
+            ev_col = cols[4] if len(cols) >= 5 else ""
+            direction = "→"
+        elif len(cols) >= 5 and cols[0] in ("→", "←", "↔", "->", "<-", "<->") and ENTITY_ID_PAT.search(cols[2]):
+            arrow_mode = True
+            direction = cols[0]
+            rel = re.sub(r"`|\*", "", cols[1]).strip() or "related-to"
+            raw_targets = ENTITY_ID_PAT.findall(cols[2])
+            period = re.sub(r"`|\*", "", cols[3]).strip() or "1861-1929"
+            digest = re.sub(r"`", "", cols[4]).strip()
+            ev_col = cols[4]
+        else:
+            continue
+
+        if not digest or "一句话" in digest:
+            continue
+        ev_list = list(dict.fromkeys(EV_ID_PAT.findall(ev_col))) if ev_col else []
+
+        for raw_target in raw_targets:
+            mapped_peer = remap.get(raw_target, raw_target)
+            if mapped_peer == cid:
+                continue
+            if arrow_mode and direction in ("←", "<-"):
+                src_id, dst_id = mapped_peer, cid
+            else:
+                src_id, dst_id = cid, mapped_peer
+
+            edge_key = (src_id, dst_id, rel[:60], period[:60])
+            if edge_key in seen_keys:
+                continue
+            seen_keys.add(edge_key)
+            rows.append(
+                {
+                    "source": src_id,
+                    "target": dst_id,
+                    "peer_id": mapped_peer,
+                    "raw_target": raw_target,
+                    "relation": rel[:60],
+                    "period": period[:60],
+                    "digest": digest,
+                    "evidence": ev_list[:6],
+                }
+            )
+    return rows
 
 
 def load_all_cards() -> dict[str, dict[str, Any]]:
@@ -338,8 +432,19 @@ def cmd_timeline(args: argparse.Namespace) -> int:
 
 
 # ============================================================================
-# 4. 单卡与多卡去重 1-Hop 防偏斜上下文包编译器 (pack)
+# 4. 单卡与多卡去重 1-Hop 防偏斜上下文包编译器 (优先级预算器，零邻居/零时段/零CLM丢失)
 # ============================================================================
+
+def _truncate_text_clean(text: str, limit: int) -> str:
+    if len(text) <= limit:
+        return text
+    cut = text[:limit]
+    for punct in ("。", "；", "，", " "):
+        idx = cut.rfind(punct)
+        if idx >= int(limit * 0.6):
+            return cut[:idx] + "…"
+    return cut + "…"
+
 
 def compile_pack_markdown(
     card_ids: list[str],
@@ -348,7 +453,21 @@ def compile_pack_markdown(
     events: list[dict[str, Any]],
     aliases_text: str,
     max_tl_level: int = 2,
+    max_chars: int | None = None,
 ) -> str:
+    """
+    按信息不可替代性优先级（Priority Budgeter）编译 1-Hop 上下文包：
+    - 铁律 A：100% 保留全部一跳邻居节点 ID；
+    - 铁律 B：所有关系边 100% 保留有效时段 `|{period}`（绝不剥离时段），入边始终保留摘要；
+    - 铁律 C：100% 保留全部关联 `DEB-*`、`CLM-*` 与 `SCH-*` 溯源锚点（超出详展上限的部分以紧凑 ID+学者映射行全量保留）；
+    - 当总字符数超出预算上限 `budget` 时，仅逐级折叠重复的 `2.3` 散文、低重合度旁支 L2 事件摘要与邻居冗长 `[T1]` 描述。
+    """
+    budget = (
+        max_chars
+        if max_chars is not None
+        else (53500 if len(card_ids) <= 3 else 63500)
+    )
+
     primary_set = set(card_ids)
     related_edges = [
         e for e in edges if e.get("source") in primary_set or e.get("target") in primary_set
@@ -360,140 +479,16 @@ def compile_pack_markdown(
             if endpoint and endpoint not in primary_set and endpoint not in neighbor_ids:
                 neighbor_ids.append(endpoint)
 
-    header_label = " + ".join(f"`{cid}`" for cid in card_ids)
-    out: list[str] = [
-        f"# 1-Hop 去重平衡上下文包：{header_label}",
-        "",
-        "> 由 `python scripts/kb.py pack` 动态编译：保留 **100% 一跳邻居与多时段关系边**，跨卡自动去重争鸣与时间线，并关联学者学派 (`SCH-*`)。",
-        "",
-        "## 0. 认知完备度与反偏斜仪表盘",
-    ]
-
-    for cid in card_ids:
-        c = cards[cid]
-        meta = c["meta"]
-        cov = meta.get("coverage_status", "unknown")
-        p_present = meta.get("perspectives_present") or []
-        p_missing = meta.get("perspectives_missing") or []
-        if isinstance(p_present, str):
-            p_present = [p_present]
-        if isinstance(p_missing, str):
-            p_missing = [p_missing]
-        path_part = f" | `{c['rel_path']}`" if len(card_ids) <= 3 else ""
-        out.append(
-            f"- **`{cid}`** ({meta.get('title', '')}{path_part} | `{cov}`): "
-            f"已覆盖=`{', '.join(p_present) if p_present else '未标注'}`；"
-            f"待补=`{', '.join(p_missing) if p_missing else '无'}`"
-        )
-        if cov in ("stub", "draft"):
-            out.append(f"  - ⚠️ 主卡 `{cid}` 当前完备度为 `{cov}`，尚未达到多源交叉核实定稿状态。")
-        if len(p_present) < 2 and not cid.startswith("DEB-"):
-            out.append(f"  - ⚠️ 主卡 `{cid}` 当前仅显式标注 {len(p_present)} 种视角，注意防范单一叙事偏斜。")
-
-    missing_neighbors = [nid for nid in neighbor_ids if nid not in cards]
-    if missing_neighbors:
-        out.append(f"- ⚠️ 一跳邻域中存在尚未建卡节点 ({len(missing_neighbors)} 个): `{', '.join(missing_neighbors)}`")
-    out.append("")
-
-    # 1. 主卡核心层 ([T1] + [T2])
-    rel_md_link_pat = re.compile(
-        r"\[([^\]]+)\]\((?:\.\.?/|cards/|historiography/|reading-notes/|sources/|timeline/|glossary/)[^)]+\)"
-    )
-    any_id_pat = re.compile(r"\b(?:PER|ORG|EVT|MTG|POL|CON|LOC|DOC|WORK|DEB|CLM|SCH|RN)-[A-Za-z0-9_-]+\b")
-    sec23_pat = re.compile(r"(?ms)^###\s+2\.3\b.*$")
-    pipe_pad_pat = re.compile(r"[ \t]*\|[ \t]*")
-
-    raw_t2_total = sum(len(cards[cid]["tiers"].get("T2", "")) for cid in card_ids)
-    fold_sec23 = len(card_ids) >= 5 or (len(card_ids) >= 3 and (raw_t2_total > 22000 or len(neighbor_ids) > 70))
-
-    out.append("## 1. 主卡核心层 ([T1] + [T2])")
-    for cid in card_ids:
-        c = cards[cid]
-        meta = c["meta"]
-        tiers = c["tiers"]
-        t1_block = tiers.get("T1", "_缺失 [T1]_")
-        t2_block = tiers.get("T2", "_缺失 [T2]_")
-        if len(card_ids) > 1:
-            out.append(f"### 主卡 `{cid}`：{meta.get('title', '')}")
-            t1_block = rel_md_link_pat.sub(r"\1", t1_block)
-            t2_block = rel_md_link_pat.sub(r"\1", t2_block)
-            if fold_sec23:
-                # 压缩表格多余空格，并将与第 3 节重复的 2.3 争鸣叙述折叠为保留全部实体/论断 ID 的紧凑索引行
-                t2_lines = [
-                    pipe_pad_pat.sub(" | ", ln).strip() if ln.lstrip().startswith("|") else ln
-                    for ln in t2_block.splitlines()
-                ]
-                t2_block = "\n".join(t2_lines)
-                m23 = sec23_pat.search(t2_block)
-                if m23:
-                    kept_ids = list(dict.fromkeys(any_id_pat.findall(m23.group(0))))
-                    id_str = " ".join(f"`{kid}`" for kid in kept_ids) if kept_ids else "见下节"
-                    t2_block = t2_block[: m23.start()].rstrip() + f"\n\n### 2.3 关联史学争鸣（已去重归并至第 3 节）\n- 关联锚点：{id_str}"
-        out.append(t1_block)
-        out.append("")
-        out.append(t2_block)
-        out.append("")
-
-    # 2. 全量一跳邻域紧凑微摘要目录 (100% 保留全部邻居 [T1] 与时效多边，消除主卡出边自重复)
-    out.append(f"## 2. 一跳邻域全量微摘要目录 (去重后共 {len(neighbor_ids)} 个节点，0 截断)")
-    if not neighbor_ids:
-        out.append("- _当前 `graph/edges.jsonl` 中尚无关联边。_")
-
-    nb_total = len(neighbor_ids)
-    primary_with_t2_edges = {
-        cid for cid in card_ids if "2.2" in cards[cid]["tiers"].get("T2", "") and "|" in cards[cid]["tiers"].get("T2", "")
-    }
-    for nid in neighbor_ids:
-        n_edges = [e for e in related_edges if e.get("source") == nid or e.get("target") == nid]
-        edge_parts: list[str] = []
-        seen_struct_tags: set[str] = set()
-        for e in n_edges:
-            s, t = e.get("source"), e.get("target")
-            rel = e.get("relation", "")
-            per = e.get("period", "")
-            dig = str(e.get("digest", "")).strip()
-            if s in primary_with_t2_edges and t == nid:
-                if nb_total > 75 and len(card_ids) >= 4:
-                    tag = f"`←{s}`[{rel}]"
-                elif nb_total > 25:
-                    tag = f"`←{s}`[{rel}|{per}]"
-                else:
-                    dig_disp = dig[:44] + "…" if len(dig) > 46 else dig
-                    tag = f"`←{s}`[{rel}|{per}]: {dig_disp}"
-            elif s == nid:
-                if nb_total > 75 and len(card_ids) >= 4:
-                    tag = f"`→{t}`[{rel}]"
-                elif nb_total > 60:
-                    tag = f"`→{t}`[{rel}|{per}]"
-                elif nb_total > 25:
-                    dig_disp = dig[:38] + "…" if len(dig) > 40 else dig
-                    tag = f"`→{t}`[{rel}|{per}]: {dig_disp}"
-                else:
-                    tag = f"`→{t}`[{rel}|{per}]: {dig}"
-            else:
-                dig_disp = dig[:40] + "…" if len(dig) > 42 else dig
-                tag = f"`{s}->{t}`[{rel}|{per}]: {dig_disp}"
-            if tag not in seen_struct_tags:
-                seen_struct_tags.add(tag)
-                edge_parts.append(tag)
-
-        if nid in cards:
-            ncard = cards[nid]
-            nmeta = ncard["meta"]
-            ntitle = nmeta.get("title", "")
-            nt1 = re.sub(r"^##\s+\[T1\][^\n]*\n?", "", ncard["tiers"].get("T1", "")).strip()
-            nt1_one_line = rel_md_link_pat.sub(r"\1", re.sub(r"\s+", " ", nt1))
-            out.append(
-                f"- **`{nid}`**（{ntitle}）: {nt1_one_line} ‖ {' ； '.join(edge_parts)}"
-            )
-        else:
-            in_alias = "已登记译名表" if nid in aliases_text else "未登记译名表"
-            out.append(f"- **`{nid}`** `[待建卡 Stub | {in_alias}]` ‖ {' ； '.join(edge_parts)}")
-    out.append("")
-
-    # 3. 去重关联史学争鸣光谱 + CLM/SCH 学者学派穿透索引（若 DEB 已在主卡层完整展开则不再重复打印）
+    # 预先汇总关联 DEB-* 与 CLM-*，并按多主卡重合度排序 CLM-*
     debate_ids: list[str] = []
-    referenced_clms: list[str] = []
+    clm_touch_count: dict[str, int] = {}
+    clm_order: list[str] = []
+
+    def _register_clm(cid_clm: str, weight: int = 1) -> None:
+        if cid_clm not in clm_touch_count:
+            clm_touch_count[cid_clm] = 0
+            clm_order.append(cid_clm)
+        clm_touch_count[cid_clm] += weight
 
     for cid in card_ids:
         c = cards[cid]
@@ -503,124 +498,300 @@ def compile_pack_markdown(
         for did in DEB_ID_PAT.findall(c["body"]):
             if did not in debate_ids and did not in primary_set:
                 debate_ids.append(did)
+        card_clms = set((c["meta"].get("core_claims") or []) + CLM_ID_PAT.findall(c["body"]))
         for clm_id in (c["meta"].get("core_claims") or []) + CLM_ID_PAT.findall(c["body"]):
-            if clm_id not in referenced_clms:
-                referenced_clms.append(clm_id)
+            if clm_id in card_clms:
+                _register_clm(clm_id, weight=2)
+                card_clms.discard(clm_id)
 
     for e in related_edges:
         for ev_ref in e.get("evidence") or []:
             ev_s = str(ev_ref)
             if ev_s.startswith("DEB-") and ev_s not in debate_ids and ev_s not in primary_set:
                 debate_ids.append(ev_s)
-            elif ev_s.startswith("CLM-") and ev_s not in referenced_clms:
-                referenced_clms.append(ev_s)
+            elif ev_s.startswith("CLM-"):
+                _register_clm(ev_s, weight=2)
 
-    out.append(f"## 3. 关联史学争鸣与学者论断索引 (主卡外关联争鸣 {len(debate_ids)} 项)")
-    if not debate_ids:
-        out.append("- _相关争鸣已在第 1 节主卡展开，或暂无额外挂载的 `DEB-*` 母题卡。_")
-
-    compact_debates = len(debate_ids) > 2 or len(card_ids) > 1
     for did in debate_ids:
         if did in cards:
             dcard = cards[did]
             dmeta = dcard["meta"]
-            dt1 = re.sub(r"^##\s+\[T1\][^\n]*\n?", "", dcard["tiers"].get("T1", "")).strip()
             for clm_id in (dmeta.get("core_claims") or []) + CLM_ID_PAT.findall(dcard["body"]):
-                if clm_id not in referenced_clms:
-                    referenced_clms.append(clm_id)
-            if compact_debates:
-                schools = dmeta.get("perspectives_present") or []
-                path_tag = f" | `{dcard['rel_path']}`" if len(card_ids) <= 4 else ""
-                out.append(
-                    f"- **`{did}`**（{dmeta.get('title', '')}{path_tag} | 流派 `{', '.join(schools)}`）：{dt1}"
-                )
-            else:
-                out.append(f"### `{did}`：{dmeta.get('title', '')}")
-                out.append(dcard["tiers"].get("T1", ""))
-                out.append("")
-                out.append(dcard["tiers"].get("T2", ""))
-                out.append("")
-        else:
-            out.append(f"- ⚠️ 引用了尚未创建的争鸣卡 `{did}`")
+                _register_clm(clm_id, weight=1)
 
-    # 穿透关联 CLM -> SCH 展示具体史学家与学派归属
-    if referenced_clms:
-        out.append("")
-        clm_limit = 9 if len(card_ids) >= 6 else (12 if len(card_ids) >= 5 else (16 if len(card_ids) > 2 else 24))
-        out.append(f"### 3.1 关联核心论断与史学家学派坐标 (`CLM-*` → `SCH-*`, 展示前 {min(len(referenced_clms), clm_limit)}/{len(referenced_clms)} 条)")
-        for clm_id in referenced_clms[:clm_limit]:
-            if clm_id not in cards:
-                continue
-            ccard = cards[clm_id]
-            cmeta = ccard["meta"]
-            sch_raw = cmeta.get("scholar") or cmeta.get("scholars") or ""
-            sch_list = sch_raw if isinstance(sch_raw, list) else ([sch_raw] if sch_raw else [])
-            sch_tags: list[str] = []
-            for sid in sch_list:
-                sid_s = str(sid).strip()
-                if sid_s in cards:
-                    smeta = cards[sid_s]["meta"]
-                    trad = smeta.get("tradition") or smeta.get("school") or ""
-                    trad_s = ", ".join(trad) if isinstance(trad, list) else str(trad)
-                    sch_tags.append(f"`{sid_s}`({smeta.get('title', '')}{f' · {trad_s}' if trad_s else ''})")
-                elif sid_s:
-                    sch_tags.append(f"`{sid_s}`")
-            pages = cmeta.get("original_pages") or cmeta.get("pages") or ""
-            out.append(
-                f"- **`{clm_id}`** [{', '.join(sch_tags) if sch_tags else '未标学者'}{f' | {pages}' if pages else ''}]: "
-                f"{cmeta.get('title', '')}"
-            )
-    out.append("")
+    order_idx = {k: i for i, k in enumerate(clm_order)}
+    referenced_clms = sorted(clm_order, key=lambda k: (-clm_touch_count[k], order_idx[k]))
 
-    # 4. 去重关联时间线锚点 (默认 L0-L2 骨干事件；多卡高扇出时优先保留宏观 L0/L1 与多卡交集事件)
     all_linked_events = [
         ev
         for ev in events
         if primary_set & set((ev.get("actors") or []) + (ev.get("cards") or []) + (ev.get("debates") or []))
     ]
     l3_hidden = sum(1 for ev in all_linked_events if ev.get("level", 2) > max_tl_level)
-    shown_events = [ev for ev in all_linked_events if ev.get("level", 2) <= max_tl_level]
-    shown_events.sort(key=lambda x: (x.get("date_ns", ""), x.get("time_of_day") or "", x.get("id", "")))
+    base_events = [ev for ev in all_linked_events if ev.get("level", 2) <= max_tl_level]
+    base_events.sort(key=lambda x: (x.get("date_ns", ""), x.get("time_of_day") or "", x.get("id", "")))
 
-    tl_cap = 22 if len(card_ids) >= 6 else (32 if len(card_ids) >= 5 else 42)
-    l2_omitted = 0
-    if len(card_ids) >= 3 and len(shown_events) > tl_cap:
-        scored_ev: list[tuple[int, int, str, dict[str, Any]]] = []
-        for ev in shown_events:
-            ev_refs = set((ev.get("actors") or []) + (ev.get("cards") or []) + (ev.get("debates") or []))
-            overlap = len(primary_set & ev_refs)
-            is_macro = 1 if ev.get("level", 2) <= 1 else 0
-            scored_ev.append((-overlap, -is_macro, ev.get("date_ns", ""), ev))
-        scored_ev.sort(key=lambda x: (x[0], x[1], x[2]))
-        l2_omitted = len(scored_ev) - tl_cap
-        shown_events = sorted(
-            [x[3] for x in scored_ev[:tl_cap]],
-            key=lambda x: (x.get("date_ns", ""), x.get("time_of_day") or "", x.get("id", "")),
-        )
-
-    compact_tl = len(shown_events) > 28 or len(card_ids) >= 5
-    extra_notes = []
-    if l2_omitted:
-        extra_notes.append(f"已按多卡交集优先折叠低重合 L2 旁支 {l2_omitted} 条")
-    if l3_hidden:
-        extra_notes.append(f"另有 {l3_hidden} 条 L3 逐日细节见 `timeline/L3_daily/`")
-    out.append(
-        f"## 4. 关联时间线骨干锚点 (L0–L{max_tl_level} 展示 {len(shown_events)} 条"
-        + (f"，{'；'.join(extra_notes)}" if extra_notes else "")
-        + ")"
+    rel_md_link_pat = re.compile(
+        r"\[([^\]]+)\]\((?:\.\.?/|cards/|historiography/|reading-notes/|sources/|timeline/|glossary/)[^)]+\)"
     )
-    for ev in shown_events:
-        d_os = ev.get("date_os")
-        d_ns = ev.get("date_ns")
-        d_disp = f"{d_os} [O.S.] / {d_ns} [N.S.]" if d_os else f"{d_ns} [N.S.]"
-        ev_refs = set((ev.get("actors") or []) + (ev.get("cards") or []) + (ev.get("debates") or []))
-        is_shared_or_macro = (ev.get("level", 2) <= 1 or len(primary_set & ev_refs) >= 2) and len(card_ids) < 5
-        if compact_tl and not is_shared_or_macro:
-            out.append(f"- **{d_disp}** (`{ev.get('id')}`, L{ev.get('level')}): **{ev.get('title')}**")
-        else:
-            out.append(f"- **{d_disp}** (`{ev.get('id')}`, L{ev.get('level')}): **{ev.get('title')}** — {ev.get('summary')}")
+    any_id_pat = re.compile(r"\b(?:PER|ORG|INS|EVT|MTG|POL|CON|LOC|DOC|WORK|DEB|CLM|SCH|RN)-[A-Za-z0-9_-]+\b")
+    sec23_pat = re.compile(r"(?ms)^###\s+2\.3\b.*$")
+    pipe_pad_pat = re.compile(r"[ \t]*\|[ \t]*")
+    primary_with_t2_edges = {cid for cid in card_ids if SEC_22_PAT.search(cards[cid]["body"])}
+    header_label = " + ".join(f"`{cid}`" for cid in card_ids)
 
-    return "\n".join(out).strip() + "\n"
+    def _render_at_level(level: int) -> str:
+        # level 0: 完整无折叠 | level 1: 剥离相对URL+紧凑争鸣/时间线摘要 | level 2: 折叠重复2.3散文+按交集筛时间线
+        # level 3: 压缩邻居T1描述至88字 | level 4: 压缩邻居T1至52字+精简时间线
+        out: list[str] = [
+            f"# 1-Hop 去重平衡上下文包：{header_label}",
+            "",
+            "> 由 `python scripts/kb.py pack` 优先级预算器动态编译：**100% 保留全部一跳邻居、跨时段关系边 (`|period`) 与 `CLM/SCH` 论断锚点**。",
+            "",
+            "## 0. 认知完备度与反偏斜仪表盘",
+        ]
+
+        for cid in card_ids:
+            c = cards[cid]
+            meta = c["meta"]
+            cov = meta.get("coverage_status", "unknown")
+            p_present = meta.get("perspectives_present") or []
+            p_missing = meta.get("perspectives_missing") or []
+            if isinstance(p_present, str):
+                p_present = [p_present]
+            if isinstance(p_missing, str):
+                p_missing = [p_missing]
+            path_part = f" | `{c['rel_path']}`" if level == 0 or len(card_ids) <= 3 else ""
+            out.append(
+                f"- **`{cid}`** ({meta.get('title', '')}{path_part} | `{cov}`): "
+                f"已覆盖=`{', '.join(p_present) if p_present else '未标注'}`；"
+                f"待补=`{', '.join(p_missing) if p_missing else '无'}`"
+            )
+            if cov in ("stub", "draft"):
+                out.append(f"  - ⚠️ 主卡 `{cid}` 当前完备度为 `{cov}`，尚未达到多源交叉核实定稿状态。")
+            if len(p_present) < 2 and not cid.startswith("DEB-"):
+                out.append(f"  - ⚠️ 主卡 `{cid}` 当前仅显式标注 {len(p_present)} 种视角，注意防范单一叙事偏斜。")
+
+        missing_neighbors = [nid for nid in neighbor_ids if nid not in cards]
+        if missing_neighbors:
+            out.append(f"- ⚠️ 一跳邻域中存在尚未建卡节点 ({len(missing_neighbors)} 个): `{', '.join(missing_neighbors)}`")
+        out.append("")
+
+        # 1. 主卡核心层 ([T1] + [T2])
+        out.append("## 1. 主卡核心层 ([T1] + [T2])")
+        for cid in card_ids:
+            c = cards[cid]
+            meta = c["meta"]
+            tiers = c["tiers"]
+            t1_block = tiers.get("T1", "_缺失 [T1]_")
+            t2_block = tiers.get("T2", "_缺失 [T2]_")
+            if len(card_ids) > 1:
+                out.append(f"### 主卡 `{cid}`：{meta.get('title', '')}")
+            if level >= 1:
+                t1_block = rel_md_link_pat.sub(r"\1", t1_block)
+                t2_block = rel_md_link_pat.sub(r"\1", t2_block)
+                t2_block = "\n".join(
+                    pipe_pad_pat.sub(" | ", ln).strip() if ln.lstrip().startswith("|") else ln
+                    for ln in t2_block.splitlines()
+                )
+            if level >= 2:
+                m23 = sec23_pat.search(t2_block)
+                if m23:
+                    kept_ids = list(dict.fromkeys(any_id_pat.findall(m23.group(0))))
+                    id_str = " ".join(f"`{kid}`" for kid in kept_ids) if kept_ids else "见第 3 节"
+                    t2_block = (
+                        t2_block[: m23.start()].rstrip()
+                        + f"\n\n### 2.3 关联史学争鸣（已去重归并至第 3 节）\n- 关联锚点：{id_str}"
+                    )
+            if level >= 5:
+                # 超多主卡（6–8 张大卡联合打包）紧凑模式：压缩 2.2 表第 4/5 列冗余长路径，100% 保留节点/时段/CLM/DEB/SCH ID
+                comp_t2_lines: list[str] = []
+                in_22 = False
+                for ln in t2_block.splitlines():
+                    if re.match(r"^###\s+2\.2\b", ln):
+                        in_22 = True
+                    elif re.match(r"^###\s+2\.[3-9]\b", ln):
+                        in_22 = False
+                    if in_22 and ln.startswith("|") and not re.match(r"^\|\s*:?-{2,}", ln):
+                        cells = [c.strip() for c in ln.strip().strip("|").split("|")]
+                        if len(cells) >= 5 and cells[0] not in ("目标节点 ID", "方向与目标节点"):
+                            ids_5 = list(dict.fromkeys(any_id_pat.findall(cells[4])))
+                            ev_cell = ", ".join(f"`{x}`" for x in ids_5) if ids_5 else _truncate_text_clean(cells[4], 24)
+                            ln = f"| {cells[0]} | {cells[1]} | {cells[2]} | {_truncate_text_clean(cells[3], 36)} | {ev_cell} |"
+                    comp_t2_lines.append(ln)
+                t2_block = "\n".join(comp_t2_lines)
+            out.append(t1_block)
+            out.append("")
+            out.append(t2_block)
+            out.append("")
+
+        # 2. 全量一跳邻域微摘要目录 (100% 保留节点 ID 与 |period 时段标记)
+        out.append(f"## 2. 一跳邻域全量微摘要目录 (去重后共 {len(neighbor_ids)} 个节点，0 截断)")
+        if not neighbor_ids:
+            out.append("- _当前 `graph/edges.jsonl` 中尚无关联边。_")
+
+        in_dig_cap = 60 if level <= 1 else (38 if level == 2 else (28 if level == 3 else (22 if level == 4 else 16)))
+        nb_t1_cap = None if level <= 2 else (88 if level == 3 else (52 if level == 4 else 24))
+
+        for nid in neighbor_ids:
+            n_edges = [e for e in related_edges if e.get("source") == nid or e.get("target") == nid]
+            edge_parts: list[str] = []
+            seen_tags: set[str] = set()
+            for e in n_edges:
+                s, t = e.get("source"), e.get("target")
+                rel = e.get("relation", "")
+                per = e.get("period", "")
+                dig = str(e.get("digest", "")).strip()
+                if s in primary_with_t2_edges and t == nid:
+                    if level == 0:
+                        tag = f"`←{s}`[{rel}|{per}]: {_truncate_text_clean(dig, 44)}"
+                    else:
+                        # 主卡 2.2 表已完整打印该出边摘要，保留方向+关系+时段避免逐字重复
+                        tag = f"`←{s}`[{rel}|{per}]"
+                elif s == nid:
+                    tag = f"`→{t}`[{rel}|{per}]: {_truncate_text_clean(dig, in_dig_cap)}"
+                else:
+                    tag = f"`{s}->{t}`[{rel}|{per}]: {_truncate_text_clean(dig, in_dig_cap)}"
+                if tag not in seen_tags:
+                    seen_tags.add(tag)
+                    edge_parts.append(tag)
+
+            if nid in cards:
+                ncard = cards[nid]
+                ntitle = ncard["meta"].get("title", "")
+                nt1 = re.sub(r"^##\s+\[T1\][^\n]*\n?", "", ncard["tiers"].get("T1", "")).strip()
+                nt1_one_line = rel_md_link_pat.sub(r"\1", re.sub(r"\s+", " ", nt1))
+                if nb_t1_cap is not None:
+                    nt1_one_line = _truncate_text_clean(nt1_one_line, nb_t1_cap)
+                out.append(f"- **`{nid}`**（{ntitle}）: {nt1_one_line} ‖ {' ； '.join(edge_parts)}")
+            else:
+                in_alias = "已登记译名表" if nid in aliases_text else "未登记译名表"
+                out.append(f"- **`{nid}`** `[待建卡 Stub | {in_alias}]` ‖ {' ； '.join(edge_parts)}")
+        out.append("")
+
+        # 3. 去重关联史学争鸣光谱 + 100% 召回 CLM/SCH 索引
+        out.append(f"## 3. 关联史学争鸣与学者论断索引 (主卡外关联争鸣 {len(debate_ids)} 项)")
+        if not debate_ids:
+            out.append("- _相关争鸣已在第 1 节主卡展开，或暂无额外挂载的 `DEB-*` 母题卡。_")
+
+        compact_debates = level >= 1 or len(debate_ids) > 2 or len(card_ids) > 1
+        for did in debate_ids:
+            if did in cards:
+                dcard = cards[did]
+                dmeta = dcard["meta"]
+                dt1 = re.sub(r"^##\s+\[T1\][^\n]*\n?", "", dcard["tiers"].get("T1", "")).strip()
+                if compact_debates:
+                    schools = dmeta.get("perspectives_present") or []
+                    path_tag = f" | `{dcard['rel_path']}`" if level <= 1 and len(card_ids) <= 4 else ""
+                    if level >= 5:
+                        out.append(f"- **`{did}`**（{dmeta.get('title', '')}）：{_truncate_text_clean(dt1, 72)}")
+                    else:
+                        out.append(
+                            f"- **`{did}`**（{dmeta.get('title', '')}{path_tag} | 流派 `{', '.join(schools)}`）：{dt1}"
+                        )
+                else:
+                    out.append(f"### `{did}`：{dmeta.get('title', '')}")
+                    out.append(dcard["tiers"].get("T1", ""))
+                    out.append("")
+                    out.append(dcard["tiers"].get("T2", ""))
+                    out.append("")
+            else:
+                out.append(f"- ⚠️ 引用了尚未创建的争鸣卡 `{did}`")
+
+        if referenced_clms:
+            out.append("")
+            detail_cap = 28 if level <= 1 else (18 if level == 2 else (14 if level <= 4 else 8))
+            out.append(
+                f"### 3.1 关联核心论断与史学家学派坐标 (`CLM-*` → `SCH-*`, 共 {len(referenced_clms)} 条，100% 锚点保留)"
+            )
+            for clm_id in referenced_clms[:detail_cap]:
+                if clm_id not in cards:
+                    out.append(f"- **`{clm_id}`** `[未找到对应 CLM 文件]`")
+                    continue
+                cmeta = cards[clm_id]["meta"]
+                sch_raw = cmeta.get("scholar") or cmeta.get("scholars") or ""
+                sch_list = sch_raw if isinstance(sch_raw, list) else ([sch_raw] if sch_raw else [])
+                sch_tags: list[str] = []
+                for sid in sch_list:
+                    sid_s = str(sid).strip()
+                    if sid_s in cards:
+                        smeta = cards[sid_s]["meta"]
+                        trad = smeta.get("tradition") or smeta.get("school") or ""
+                        trad_s = ", ".join(trad) if isinstance(trad, list) else str(trad)
+                        sch_tags.append(f"`{sid_s}`({smeta.get('title', '')}{f' · {trad_s}' if trad_s else ''})")
+                    elif sid_s:
+                        sch_tags.append(f"`{sid_s}`")
+                pages = cmeta.get("original_pages") or cmeta.get("pages") or ""
+                out.append(
+                    f"- **`{clm_id}`** [{', '.join(sch_tags) if sch_tags else '未标学者'}{f' | {pages}' if pages else ''}]: "
+                    f"{cmeta.get('title', '') or cmeta.get('work_title', '')}"
+                )
+            if len(referenced_clms) > detail_cap:
+                tail_tags: list[str] = []
+                for clm_id in referenced_clms[detail_cap:]:
+                    if clm_id in cards:
+                        cmeta = cards[clm_id]["meta"]
+                        sch_raw = cmeta.get("scholar") or cmeta.get("scholars") or ""
+                        sch_list = sch_raw if isinstance(sch_raw, list) else ([sch_raw] if sch_raw else [])
+                        s_str = ",".join(f"`{str(s).strip()}`" for s in sch_list if str(s).strip())
+                        tail_tags.append(f"`{clm_id}`[{s_str}]" if s_str else f"`{clm_id}`")
+                    else:
+                        tail_tags.append(f"`{clm_id}`")
+                out.append(
+                    f"- **其余关联论断锚点（{len(tail_tags)} 条，按需直读原文引证）**：{' · '.join(tail_tags)}"
+                )
+        out.append("")
+
+        # 4. 去重关联时间线锚点
+        tl_cap = 48 if level == 0 else (38 if level == 1 else (30 if level == 2 else (22 if level == 3 else (16 if level == 4 else 10))))
+        shown_events = list(base_events)
+        l2_omitted = 0
+        if len(shown_events) > tl_cap:
+            scored_ev: list[tuple[int, int, str, dict[str, Any]]] = []
+            for ev in shown_events:
+                ev_refs = set((ev.get("actors") or []) + (ev.get("cards") or []) + (ev.get("debates") or []))
+                overlap = len(primary_set & ev_refs)
+                is_macro = 1 if ev.get("level", 2) <= 1 else 0
+                scored_ev.append((-overlap, -is_macro, ev.get("date_ns", ""), ev))
+            scored_ev.sort(key=lambda x: (x[0], x[1], x[2]))
+            l2_omitted = len(scored_ev) - tl_cap
+            shown_events = sorted(
+                [x[3] for x in scored_ev[:tl_cap]],
+                key=lambda x: (x.get("date_ns", ""), x.get("time_of_day") or "", x.get("id", "")),
+            )
+
+        compact_tl = level >= 1 and (len(shown_events) > 22 or len(card_ids) >= 3)
+        extra_notes = []
+        if l2_omitted:
+            extra_notes.append(f"已按多卡交集优先折叠低重合 L2 旁支 {l2_omitted} 条")
+        if l3_hidden:
+            extra_notes.append(f"另有 {l3_hidden} 条 L3 逐日细节见 `timeline/L3_daily/`")
+        out.append(
+            f"## 4. 关联时间线骨干锚点 (L0–L{max_tl_level} 展示 {len(shown_events)} 条"
+            + (f"，{'；'.join(extra_notes)}" if extra_notes else "")
+            + ")"
+        )
+        for ev in shown_events:
+            d_os = ev.get("date_os")
+            d_ns = ev.get("date_ns")
+            d_disp = f"{d_os} [O.S.] / {d_ns} [N.S.]" if d_os else f"{d_ns} [N.S.]"
+            ev_refs = set((ev.get("actors") or []) + (ev.get("cards") or []) + (ev.get("debates") or []))
+            keep_sum = (ev.get("level", 2) <= 1 or len(primary_set & ev_refs) >= 2) and level <= 2
+            if compact_tl and not keep_sum:
+                out.append(f"- **{d_disp}** (`{ev.get('id')}`, L{ev.get('level')}): **{ev.get('title')}**")
+            else:
+                out.append(
+                    f"- **{d_disp}** (`{ev.get('id')}`, L{ev.get('level')}): **{ev.get('title')}** — {ev.get('summary')}"
+                )
+
+        return "\n".join(out).strip() + "\n"
+
+    rendered = ""
+    for lvl in range(6):
+        rendered = _render_at_level(lvl)
+        if len(rendered) <= budget:
+            break
+    return rendered
 
 
 def cmd_pack(args: argparse.Namespace) -> int:
@@ -632,10 +803,11 @@ def cmd_pack(args: argparse.Namespace) -> int:
 
     req_ids: list[str] = []
     for raw_id in args.card_ids:
-        if raw_id not in cards:
+        mapped = ID_REMAP.get(raw_id, raw_id)
+        if mapped not in cards:
             print(f"错误: 未找到卡片 ID `{raw_id}`。", file=sys.stderr)
             return 1
-        canonical_id = cards[raw_id]["id"]
+        canonical_id = cards[mapped]["id"]
         if canonical_id not in req_ids:
             req_ids.append(canonical_id)
 
@@ -646,6 +818,7 @@ def cmd_pack(args: argparse.Namespace) -> int:
         events,
         aliases_text,
         max_tl_level=args.max_tl_level,
+        max_chars=args.max_chars,
     )
 
     if args.write:
@@ -663,7 +836,7 @@ def cmd_pack(args: argparse.Namespace) -> int:
 
 
 # ============================================================================
-# 5. 145本史料章节定位雷达 (`locate-chapters`, SQLite FTS5 trigram + 空书隔离)
+# 5. 史料章节定位雷达 (`locate-chapters`, SQLite FTS5 trigram + 全表短词重排 + 空书隔离)
 # ============================================================================
 
 def _is_chapter_effectively_empty(md_text: str) -> bool:
@@ -678,19 +851,35 @@ def _is_chapter_effectively_empty(md_text: str) -> bool:
 
 
 def _compute_corpus_signature() -> str:
-    count = 0
+    """轻量级毫秒级语料签名 (<3ms)：仅 stat 一级书目目录与索引元数据文件，避免每次查询遍历 5500+ 切片。"""
+    dir_count = 0
     latest_mtime = 0.0
-    for cat in ("monographs", "primary", "web-archive"):
+    for cat in ("monographs", "primary"):
         base = ROOT / "sources" / cat
         if not base.exists():
             continue
-        for p in base.rglob("*"):
-            if p.is_file() and p.suffix.lower() in (".md", ".yaml"):
-                count += 1
-                mt = p.stat().st_mtime
-                if mt > latest_mtime:
-                    latest_mtime = mt
-    return f"v2:{count}:{int(latest_mtime)}"
+        for bdir in base.iterdir():
+            if not bdir.is_dir() or bdir.name.startswith("_"):
+                continue
+            dir_count += 1
+            mt = bdir.stat().st_mtime
+            if mt > latest_mtime:
+                latest_mtime = mt
+            for idx_name in ("manifest.yaml", "toc.md"):
+                ip = bdir / idx_name
+                if ip.exists():
+                    imt = ip.stat().st_mtime
+                    if imt > latest_mtime:
+                        latest_mtime = imt
+    web_base = ROOT / "sources" / "web-archive"
+    web_count = 0
+    if web_base.exists():
+        for wp in web_base.rglob("*.md"):
+            web_count += 1
+            wmt = wp.stat().st_mtime
+            if wmt > latest_mtime:
+                latest_mtime = wmt
+    return f"v3:{dir_count}:{web_count}:{int(latest_mtime)}"
 
 
 def _tier_score_adj(tier: str, explicit_book: bool) -> float:
@@ -704,32 +893,26 @@ def ensure_chapter_fts_index(force_rebuild: bool = False) -> sqlite3.Connection:
     CACHE_DIR.mkdir(parents=True, exist_ok=True)
     sig = _compute_corpus_signature()
 
-    if FTS_DB_PATH.exists():
-        if not force_rebuild:
-            conn = sqlite3.connect(FTS_DB_PATH)
-            try:
-                row = conn.execute("SELECT val FROM meta WHERE key='corpus_sig'").fetchone()
-                if row and row[0] == sig:
-                    return conn
-            except sqlite3.Error:
-                pass
-            conn.close()
+    if FTS_DB_PATH.exists() and not force_rebuild:
         try:
-            FTS_DB_PATH.unlink(missing_ok=True)
-        except OSError:
+            conn = sqlite3.connect(FTS_DB_PATH, timeout=30.0)
+            row = conn.execute("SELECT val FROM meta WHERE key='corpus_sig'").fetchone()
+            if row and row[0] == sig:
+                return conn
+            conn.close()
+        except sqlite3.Error:
             pass
 
-    conn = sqlite3.connect(FTS_DB_PATH)
-    conn.execute("PRAGMA journal_mode=WAL;")
-    conn.execute("PRAGMA synchronous=NORMAL;")
-    conn.execute("DROP TABLE IF EXISTS meta;")
-    conn.execute("DROP TABLE IF EXISTS quarantined_books;")
-    conn.execute("DROP TABLE IF EXISTS chapters_fts;")
-    conn.execute("CREATE TABLE meta (key TEXT PRIMARY KEY, val TEXT);")
-    conn.execute(
+    # 并发安全原子重建：先在独立 PID 临时文件构建完整索引，再原子替换或持锁写入
+    tmp_db = CACHE_DIR / f"kb_chapters.{os.getpid()}.tmp.sqlite"
+    tmp_db.unlink(missing_ok=True)
+    build_conn = sqlite3.connect(tmp_db, timeout=30.0)
+    build_conn.execute("PRAGMA synchronous=OFF;")
+    build_conn.execute("CREATE TABLE meta (key TEXT PRIMARY KEY, val TEXT);")
+    build_conn.execute(
         "CREATE TABLE quarantined_books (book_dir TEXT PRIMARY KEY, slug TEXT, source_file TEXT, empty_ratio REAL);"
     )
-    conn.execute(
+    build_conn.execute(
         "CREATE VIRTUAL TABLE chapters_fts USING fts5("
         "path UNINDEXED, book_dir UNINDEXED, line_count UNINDEXED, tier UNINDEXED, title, body, tokenize='trigram'"
         ");"
@@ -743,7 +926,7 @@ def ensure_chapter_fts_index(force_rebuild: bool = False) -> sqlite3.Connection:
         if not cat_dir.exists():
             continue
         for bdir in sorted(cat_dir.iterdir()):
-            if not bdir.is_dir():
+            if not bdir.is_dir() or bdir.name.startswith("_"):
                 continue
             rel_bdir = bdir.relative_to(ROOT).as_posix()
             mf_path = bdir / "manifest.yaml"
@@ -757,6 +940,9 @@ def ensure_chapter_fts_index(force_rebuild: bool = False) -> sqlite3.Connection:
                 cf for cf in sorted(bdir.glob("*.md")) if cf.name.lower() not in ("toc.md", "readme.md")
             ]
             if not ch_files:
+                if mf_data.get("needs_ocr") is True:
+                    src_name = str(mf_data.get("source_file") or mf_data.get("title") or bdir.name)
+                    qrn_rows.append((rel_bdir, bdir.name, src_name, 1.0))
                 continue
 
             texts = [(cf, cf.read_text(encoding="utf-8", errors="ignore")) for cf in ch_files]
@@ -807,12 +993,18 @@ def ensure_chapter_fts_index(force_rebuild: bool = False) -> sqlite3.Connection:
                 )
             )
 
-    with conn:
-        conn.executemany("INSERT INTO quarantined_books VALUES (?, ?, ?, ?)", qrn_rows)
-        conn.executemany("INSERT INTO chapters_fts VALUES (?, ?, ?, ?, ?, ?)", fts_rows)
-        conn.execute("INSERT INTO meta VALUES ('corpus_sig', ?)", (sig,))
+    with build_conn:
+        build_conn.executemany("INSERT INTO quarantined_books VALUES (?, ?, ?, ?)", qrn_rows)
+        build_conn.executemany("INSERT INTO chapters_fts VALUES (?, ?, ?, ?, ?, ?)", fts_rows)
+        build_conn.execute("INSERT INTO meta VALUES ('corpus_sig', ?)", (sig,))
+    build_conn.close()
 
-    return conn
+    try:
+        os.replace(tmp_db, FTS_DB_PATH)
+        return sqlite3.connect(FTS_DB_PATH, timeout=30.0)
+    except OSError:
+        # Windows 下若另一进程正只读打开主库，直接返回当前进程构建好的临时只读库连接
+        return sqlite3.connect(tmp_db, timeout=30.0)
 
 
 def search_chapters(
@@ -843,10 +1035,17 @@ def search_chapters(
     if tri_tokens:
         escaped = ['"' + t.replace('"', '""') + '"' for t in tri_tokens]
         and_expr = " AND ".join(escaped)
+        # 若同时附带双字短词元（如“列宁 遗嘱”），在 SQL 层追加 LIKE 过滤确保双词同时命中
+        extra_short_sql = ""
+        extra_short_params: list[str] = []
+        for st in short_tokens:
+            extra_short_sql += " AND (body LIKE ? OR title LIKE ?)"
+            extra_short_params.extend([f"%{st}%", f"%{st}%"])
+
         rows = conn.execute(
             "SELECT path, book_dir, line_count, tier, title, bm25(chapters_fts, 0.0, 0.0, 0.0, 0.0, 5.0, 1.0) AS score "
-            f"FROM chapters_fts WHERE chapters_fts MATCH ?{bf_sql} ORDER BY score LIMIT ?",
-            (and_expr, *bf_params, max(top_k * 4, 30)),
+            f"FROM chapters_fts WHERE chapters_fts MATCH ?{bf_sql}{extra_short_sql} ORDER BY score LIMIT ?",
+            (and_expr, *bf_params, *extra_short_params, max(top_k * 4, 40)),
         ).fetchall()
         for path, bdir, lcnt, tier, title, bm25_val in rows:
             candidates[path] = {
@@ -857,12 +1056,11 @@ def search_chapters(
                 "score": round(-float(bm25_val) + 10.0 + _tier_score_adj(tier, bool(bf)), 4),
             }
 
-        # 若多词 AND 命中不足，补充 OR 召回并按命中词元数重排
-        if len(candidates) < top_k and len(escaped) > 1:
+        if len(candidates) < top_k and (len(escaped) > 1 or short_tokens):
             or_expr = " OR ".join(escaped)
             or_rows = conn.execute(
                 "SELECT path, book_dir, line_count, tier, title, body, bm25(chapters_fts, 0.0, 0.0, 0.0, 0.0, 4.0, 1.0) AS score "
-                f"FROM chapters_fts WHERE chapters_fts MATCH ?{bf_sql} ORDER BY score LIMIT 40",
+                f"FROM chapters_fts WHERE chapters_fts MATCH ?{bf_sql} ORDER BY score LIMIT 60",
                 (or_expr, *bf_params),
             ).fetchall()
             for path, bdir, lcnt, tier, title, body, bm25_val in or_rows:
@@ -878,8 +1076,8 @@ def search_chapters(
                     "score": round(-float(bm25_val) + matched_cnt * 2.5 + _tier_score_adj(tier, bool(bf)), 4),
                 }
 
-    # 2) 短词元 (<3 字符，如双字中文人名“柳廷”) LIKE 补充扫描
-    if short_tokens and (not tri_tokens or not candidates):
+    # 2) 短词元 (<3 字符，如双字中文“列宁”“富农”“内战”“契卡”“柳廷”) 全表无截断评分重排（彻底废除旧版按字母截断的 LIMIT 60！）
+    if short_tokens and not tri_tokens:
         where_clauses = []
         params: list[str] = []
         for st in short_tokens:
@@ -889,19 +1087,21 @@ def search_chapters(
         if bf:
             where_clauses.append("LOWER(book_dir) LIKE ?")
             params.append(f"%{bf}%")
-        sql = (
-            "SELECT path, book_dir, line_count, tier, title, body FROM chapters_fts WHERE "
-            + " AND ".join(where_clauses)
-            + " LIMIT 60"
-        )
+        sql = "SELECT path, book_dir, line_count, tier, title, body FROM chapters_fts WHERE " + " AND ".join(where_clauses)
+        short_lows = [st.lower() for st in short_tokens]
         for path, bdir, lcnt, tier, title, body in conn.execute(sql, params).fetchall():
-            freq = sum(body.lower().count(st.lower()) + title.lower().count(st.lower()) * 4 for st in short_tokens)
+            t_low = title.lower()
+            b_low = body.lower()
+            t_hits = sum(1 if st in t_low else 0 for st in short_lows)
+            b_hits = sum(b_low.count(st) for st in short_lows)
+            density = b_hits / max(int(lcnt), 40)
+            score = t_hits * 14.0 + min(b_hits, 90) * 0.55 + density * 28.0 + _tier_score_adj(tier, bool(bf))
             candidates[path] = {
                 "path": path,
                 "book_dir": bdir,
                 "lines": int(lcnt),
                 "title": title,
-                "score": round(float(freq) + _tier_score_adj(tier, bool(bf)), 4),
+                "score": round(score, 4),
             }
 
     # 3) 检查是否触碰已隔离的纯扫描空书 (`needs_ocr`)
@@ -926,7 +1126,6 @@ def search_chapters(
 def cmd_locate_chapters(args: argparse.Namespace) -> int:
     ranked, qrn_hits = search_chapters(args.query, top_k=args.top, force_rebuild=args.rebuild, book_filter=args.book)
     if args.json:
-        # 保持列表顶层结构以兼容自动化调用；隔离告警可通过 stderr 提示
         if qrn_hits:
             for qh in qrn_hits:
                 print(f"[QUARANTINE needs_ocr] {qh['book_dir']} ({qh['source_file']})", file=sys.stderr)
@@ -963,7 +1162,7 @@ def cmd_audit(_args: argparse.Namespace) -> int:
     errors: list[str] = []
     stubs: set[str] = set()
 
-    # 1) 检查卡片三层协议与 [T1] <= 150 字红线
+    # 1) 检查卡片三层协议与 [T1] <= 150 字红线（覆盖全部实体卡、争鸣卡与学者卡）
     seen_paths: set[Path] = set()
     for cid, c in cards.items():
         if c["path"] in seen_paths:
@@ -975,54 +1174,52 @@ def cmd_audit(_args: argparse.Namespace) -> int:
         for req_tier in ("T1", "T2"):
             if req_tier not in c["tiers"]:
                 errors.append(f"卡片 `{cid}` ({c['rel_path']}) 缺少 `## [{req_tier}]` 标准分段")
-        if c["rel_path"].startswith(("cards/", "historiography/debates/")) and "T1" in c["tiers"]:
+        if c["rel_path"].startswith(("cards/", "historiography/debates/", "historiography/scholars/")) and "T1" in c["tiers"]:
             t1_body = re.sub(r"^##\s+\[T1\][^\n]*\n?", "", c["tiers"]["T1"]).strip()
             nws = len(re.sub(r"\s+", "", t1_body))
             if nws == 0 or nws > 150:
-                errors.append(f"卡片 `{cid}` [T1] 去空白字符数为 {nws}（须在 1..150 之间）")
+                errors.append(f"卡片 `{cid}` ({c['rel_path']}) [T1] 去空白字符数为 {nws}（须在 1..150 之间）")
 
-    # 2) 检查卡片 2.2 表格是否存在悬空目标 ID
+    # 2) 使用统一解析器检查全部实体卡 ### 2.2 表格是否存在缺失或悬空目标 ID
     valid_entity_stems = {p.stem for p in (ROOT / "cards").rglob("*.md") if p.name.lower() != "readme.md"}
-    sync_remap: dict[str, str] = {}
-    sync_file = ROOT / "scripts" / "sync_graph_and_packs.py"
-    if sync_file.exists():
-        m_rm = re.search(r"ID_REMAP\s*=\s*(\{.*?\})", sync_file.read_text(encoding="utf-8"), flags=re.S)
-        if m_rm:
-            try:
-                sync_remap = json.loads(m_rm.group(1))
-            except Exception:
-                sync_remap = {}
-
     for p in sorted((ROOT / "cards").rglob("*.md")):
         if p.name.lower() == "readme.md":
             continue
-        for ln in p.read_text(encoding="utf-8").splitlines():
-            s = ln.strip()
-            if s.startswith("|") and s.endswith("|"):
-                cols = [x.strip() for x in s.strip("|").split("|")]
-                if len(cols) >= 4 and "---" not in cols[0] and "---" not in cols[1] and "一句话" not in cols[3]:
-                    m_id = ENTITY_ID_PAT.search(cols[0])
-                    if m_id:
-                        mapped = sync_remap.get(m_id.group(0), m_id.group(0))
-                        if mapped != p.stem and mapped not in valid_entity_stems:
-                            errors.append(f"卡片 `{p.stem}` 2.2 表引用了不存在的目标 ID `{m_id.group(0)}`")
+        raw_txt = p.read_text(encoding="utf-8")
+        if not SEC_22_PAT.search(raw_txt):
+            errors.append(f"实体卡 `{p.stem}` 缺少标准 `### 2.2` 时效关系边表")
+            continue
+        for row in extract_card_22_rows(raw_txt, p.stem, ID_REMAP):
+            if row["peer_id"] not in valid_entity_stems:
+                errors.append(f"卡片 `{p.stem}` 2.2 表引用了不存在的目标 ID `{row['raw_target']}`")
 
-    # 3) 检查 CLM -> SCH 与 CLM -> Card/DEB 外键完整性
+    # 3) 检查 CLM -> SCH、CLM -> targets_cards/debate 以及 supports/rebuts/qualifies 外键完整性
     valid_sch = {p.stem for p in (ROOT / "historiography" / "scholars").glob("SCH-*.md")}
     for cp in sorted((ROOT / "historiography" / "claims").glob("CLM-*.md")):
         cfm, _ = parse_frontmatter(cp.read_text(encoding="utf-8"))
         sval = cfm.get("scholar") or cfm.get("scholars")
         slist = sval if isinstance(sval, list) else ([sval] if sval else [])
+        if not slist:
+            errors.append(f"论断卡 `{cp.stem}` 缺少必填 `scholar` 外键")
         for sv in slist:
             if str(sv).strip() not in valid_sch:
                 errors.append(f"论断卡 `{cp.stem}` 引用了无效学者外键 `{sv}`")
-        for rk in ("related_cards", "cards", "target_cards", "related_debates", "debates"):
+        for rk in ("targets_cards", "related_cards", "cards", "target_cards", "debate", "related_debates", "debates"):
             rvals = cfm.get(rk) or []
             if isinstance(rvals, str):
                 rvals = [rvals]
             for rv in rvals:
-                if str(rv).strip() and str(rv).strip() not in cards:
-                    errors.append(f"论断卡 `{cp.stem}` ({rk}) 引用了不存在的实体 `{rv}`")
+                rv_s = str(rv).strip()
+                if rv_s and rv_s not in cards and ID_REMAP.get(rv_s, rv_s) not in cards:
+                    errors.append(f"论断卡 `{cp.stem}` ({rk}) 引用了不存在的实体 `{rv_s}`")
+        for rel_k in ("supports", "rebuts", "qualifies"):
+            rel_vals = cfm.get(rel_k) or []
+            if isinstance(rel_vals, str):
+                rel_vals = [rel_vals]
+            for rv in rel_vals:
+                for id_tok in EV_ID_PAT.findall(str(rv)):
+                    if id_tok not in cards and ID_REMAP.get(id_tok, id_tok) not in cards:
+                        errors.append(f"论断卡 `{cp.stem}` ({rel_k}) 引用了不存在的 ID `{id_tok}`")
 
     # 4) 检查 edges.jsonl 字段完整性
     for idx, e in enumerate(edges, start=1):
@@ -1057,6 +1254,8 @@ def cmd_audit(_args: argparse.Namespace) -> int:
                             errors.append(
                                 f"时间线 `{eid}` 俄历/公历换算错误! 俄历 {d_os} 应对应公历 {expected_ns}，当前填为 {d_ns}"
                             )
+                elif d_os:
+                    errors.append(f"时间线 `{eid}` ({d_ns}) 处于改历后，不得填写伪俄历 `date_os={d_os}`")
             except ValueError as exc:
                 errors.append(f"时间线 `{eid}` 日期非法: {exc}")
 
@@ -1090,7 +1289,7 @@ def cmd_audit(_args: argparse.Namespace) -> int:
 
     print("=== 俄国革命知识库：全库结构、外键与双历法体检报告 ===")
     print(f"- 已建独立文件总数 (卡片/争鸣/学者/论断): {len(seen_paths)}")
-    print(f"- 时效有向关系边总数:                   {len(edges)}")
+    print(f"- 时效有向关系边总数 (100% 源自 2.2 表):  {len(edges)}")
     print(f"- 底层双历法事件台账条数:               {len(events)}")
     print(f"- 边表引用的待建 Stub 节点 ({len(stubs)} 个): {', '.join(sorted(stubs)) if stubs else '无'}")
     print(f"- inbox/ 本地电子书库存:                {len(inbox_files)} 个文件 (合计 {inbox_mb:.1f} MB)")
@@ -1148,9 +1347,8 @@ def cmd_models(args: argparse.Namespace) -> int:
 
 
 def _strip_routing_bloat(role_body: str) -> str:
-    """剥离角色模板中仅面向主控官的模型路由段落，避免子 Agent 浪费上下文 Token。"""
     return re.sub(
-        r"(?ms)^##\s+绑定模型分级策略.*?(?=^##\s+|\Z)",
+        r"(?ms)^##\s+绑定.*?模型分级策略.*?(?=^##\s+|\Z)",
         "",
         role_body,
     ).strip()
@@ -1227,6 +1425,11 @@ def cmd_scan_inbox(args: argparse.Namespace) -> int:
             flags.append("exact_size_duplicate")
         if p.name == "Lars T. Lih - Lenin Rediscovered - What Is to Be Done In Context (2008).pdf" and sz < 400_000:
             flags.append("corrupted_zlib_stream")
+        if ext == ".pdf" and sz > 0:
+            with p.open("rb") as fh:
+                fh.seek(max(0, sz - 4096))
+                if b"%%EOF" not in fh.read():
+                    flags.append("truncated_pdf_missing_eof")
         records.append(
             {
                 "seq": idx,
@@ -1313,12 +1516,13 @@ def build_parser() -> argparse.ArgumentParser:
     p_pack = sub.add_parser("pack", help="编译单卡或多卡去重 1-Hop 防偏斜平衡上下文包")
     p_pack.add_argument("card_ids", nargs="+", help="一个或多个目标卡片 ID，如 PER-stalin PER-bukharin POL-nep")
     p_pack.add_argument("--max-tl-level", type=int, default=2, choices=[0, 1, 2, 3], help="时间线默认展开最大层级 (默认 L2)")
-    p_pack.add_argument("--write", action="store_true", help="单卡模式下写入 graph/packs/<ID>.md")
+    p_pack.add_argument("--max-chars", type=int, default=None, help="可选字符数预算上限 (默认多卡 <=3张 53500，>=4张 63500)")
+    p_pack.add_argument("--write", action="store_true", help="单卡模式下写入 .gitignore 缓存目录 graph/packs/<ID>.md")
     p_pack.set_defaults(func=cmd_pack)
 
     p_loc = sub.add_parser("locate-chapters", help="基于 SQLite FTS5 trigram 定位史料具体章节并告警空书")
-    p_loc.add_argument("query", help="中/英/俄检索词，如 '乌格拉诺夫' 或 'scissors crisis'")
-    p_loc.add_argument("--book", default=None, help="按书目目录名子串过滤，如 'burrage' 或 'davies_1980'")
+    p_loc.add_argument("query", help="中/英/俄检索词，如 '乌格拉诺夫'、'列宁' 或 'scissors crisis'")
+    p_loc.add_argument("--book", default=None, help="按书目目录名子串过滤，如 'davies_1980'")
     p_loc.add_argument("--top", type=int, default=10, help="返回前 N 个候选章节 (默认 10)")
     p_loc.add_argument("--json", action="store_true", help="输出机器可读 JSON 列表")
     p_loc.add_argument("--rebuild", action="store_true", help="强制重建 .cache/kb_chapters.sqlite 索引")

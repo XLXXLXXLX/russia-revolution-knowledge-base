@@ -3,8 +3,9 @@
 """
 单进程高速同步脚本 (`scripts/sync_graph_and_packs.py`):
 1. 同步 `graph/aliases.yaml`；
-2. 从全部卡片 `### 2.2` 表格刷新并重建 `graph/edges.jsonl`（100% 保留多时段同向双边、100% 刷新审计后新摘要、对悬空目标 ID 显式报错）；
-3. 归并候选时间线并单进程内存编译 `graph/packs/*.md`（耗时 ~1s，替代旧版 184 次子进程 ~48s）；
+2. 使用 `kb.extract_card_22_rows` 单一解析器从全部实体卡 `### 2.2` 表格重建 `graph/edges.jsonl`
+   （100% 单一真源，零僵尸 bootstrap 边残留，100% 保留多时段同向双边，对悬空目标 ID 显式报错）；
+3. 归并候选时间线；可选 `--write-packs` 生成本地 `.gitignore` 缓存包；
 4. 执行增强版 `kb.py audit-graph`。
 """
 
@@ -12,38 +13,28 @@ from __future__ import annotations
 
 import argparse
 import json
-import re
 import sys
 from pathlib import Path
-
-import yaml
-
-if hasattr(sys.stdout, "reconfigure"):
-    sys.stdout.reconfigure(encoding="utf-8")
+from typing import Any
 
 ROOT = Path(__file__).resolve().parent.parent
+VENV_SITE = ROOT / ".venv" / "Lib" / "site-packages"
+if VENV_SITE.exists() and str(VENV_SITE) not in sys.path:
+    sys.path.insert(0, str(VENV_SITE))
 if str(ROOT / "scripts") not in sys.path:
     sys.path.insert(0, str(ROOT / "scripts"))
 
+import yaml  # noqa: E402
 import kb  # noqa: E402
 
-ID_REMAP = {
-    "ORG-bolsheviks": "ORG-bolsheviks-rcpb-vkpb",
-    "ORG-left-communists": "ORG-left-communists-1918",
-    "ORG-united-opposition": "ORG-left-and-united-opposition",
-    "ORG-right-opposition": "ORG-right-opposition-1928",
-    "MTG-1921-03-10th-party-congress": "MTG-1921-rcpb-10th-congress",
-    "EVT-1918-03-03-brest-litovsk-treaty": "EVT-1918-03-brest-litovsk-treaty",
-    "MTG-1903-07-rsdlp-2nd-congress": "MTG-1903-rsdlp-2nd-congress",
-}
-
-ID_PAT = re.compile(r"\b(?:PER|ORG|INS|EVT|MTG|POL|CON)-[A-Za-z0-9-]+\b")
-EV_PAT = re.compile(r"\b(?:CLM|DEB|DATA|RN|MTG|EVT|POL|CON|ORG|INS|PER)-[A-Za-z0-9_-]+\b")
+# 保持向后兼容导出，统一指向 kb.ID_REMAP 单一真源
+ID_REMAP = kb.ID_REMAP
 
 
 def main() -> int:
-    parser = argparse.ArgumentParser(description="高速同步图谱边表、译名消歧表与上下文包")
-    parser.add_argument("--skip-packs", action="store_true", help="仅同步 aliases 与 edges.jsonl，跳过静态 packs 写盘")
+    parser = argparse.ArgumentParser(description="高速同步图谱边表与译名消歧表")
+    parser.add_argument("--write-packs", action="store_true", help="可选：同时在本地 .gitignore 缓存目录 graph/packs/ 生成静态单卡包")
+    parser.add_argument("--skip-packs", action="store_true", help="兼容旧参数（默认即不写静态 packs）")
     args = parser.parse_args()
 
     card_files = sorted(p for p in (ROOT / "cards").rglob("*.md") if p.name.lower() != "readme.md")
@@ -81,77 +72,33 @@ def main() -> int:
     else:
         print("graph/aliases.yaml already contains all entity IDs.")
 
-    # 2. Full refresh of graph/edges.jsonl from card 2.2 tables (preserving multi-period edges!)
+    # 2. Pure single-source-of-truth rebuild of graph/edges.jsonl from card ### 2.2 tables
     edges_path = ROOT / "graph" / "edges.jsonl"
-    existing_edges = kb.load_jsonl(edges_path)
-
     table_edges: list[dict[str, Any]] = []
     seen_table_keys: set[tuple[str, str, str, str]] = set()
-    overridden_directed_pairs: set[tuple[str, str]] = set()
     unresolved_errors: list[str] = []
 
     for cid, cpath in sorted(valid_ids.items()):
         txt = cpath.read_text(encoding="utf-8")
-        for line in txt.splitlines():
-            s = line.strip()
-            if not (s.startswith("|") and s.endswith("|")):
+        rows = kb.extract_card_22_rows(txt, cid, ID_REMAP)
+        for r in rows:
+            if r["peer_id"] not in valid_ids:
+                unresolved_errors.append(f"{cid} -> {r['raw_target']}")
                 continue
-            cols = [c.strip() for c in s.strip("|").split("|")]
-            if len(cols) < 4:
+            edge_key = (r["source"], r["target"], r["relation"], r["period"])
+            if edge_key in seen_table_keys:
                 continue
-            if "---" in cols[0] or "---" in cols[1]:
-                continue
-            m0 = ID_PAT.findall(cols[0])
-            arrow_mode = False
-            if m0:
-                raw_targets = m0
-                rel = re.sub(r"`|\*", "", cols[1]).strip() or "related-to"
-                period = re.sub(r"`|\*", "", cols[2]).strip() or "1861-1929"
-                digest = re.sub(r"`", "", cols[3]).strip()
-                ev_col = cols[4] if len(cols) >= 5 else ""
-                direction = "→"
-            elif len(cols) >= 5 and cols[0] in ("→", "←", "↔", "->", "<-", "<->") and ID_PAT.search(cols[2]):
-                arrow_mode = True
-                direction = cols[0]
-                rel = re.sub(r"`|\*", "", cols[1]).strip() or "related-to"
-                raw_targets = ID_PAT.findall(cols[2])
-                period = re.sub(r"`|\*", "", cols[3]).strip() or "1861-1929"
-                digest = re.sub(r"`", "", cols[4]).strip()
-                ev_col = cols[4]
-            else:
-                continue
-
-            if not digest or "一句话" in digest:
-                continue
-            ev_list = list(dict.fromkeys(EV_PAT.findall(ev_col))) if ev_col else []
-
-            for raw_target in raw_targets:
-                target = ID_REMAP.get(raw_target, raw_target)
-                if target == cid:
-                    continue
-                if target not in valid_ids:
-                    unresolved_errors.append(f"{cid} -> {raw_target}")
-                    continue
-                if arrow_mode and direction in ("←", "<-"):
-                    src_id, dst_id = target, cid
-                else:
-                    src_id, dst_id = cid, target
-
-                edge_key = (src_id, dst_id, rel[:60], period[:60])
-                if edge_key in seen_table_keys:
-                    continue
-                seen_table_keys.add(edge_key)
-                overridden_directed_pairs.add((src_id, dst_id))
-                table_edges.append(
-                    {
-                        "source": src_id,
-                        "target": dst_id,
-                        "relation": rel[:60],
-                        "period": period[:60],
-                        "digest": digest,
-                        "evidence": ev_list[:6],
-                    }
-                )
+            seen_table_keys.add(edge_key)
+            table_edges.append(
+                {
+                    "source": r["source"],
+                    "target": r["target"],
+                    "relation": r["relation"],
+                    "period": r["period"],
+                    "digest": r["digest"],
+                    "evidence": r["evidence"],
+                }
+            )
 
     if unresolved_errors:
         print(f"❌ 卡片 2.2 表存在 {len(unresolved_errors)} 个未解析悬空目标 ID，拒绝静默丢弃:", file=sys.stderr)
@@ -159,36 +106,26 @@ def main() -> int:
             print(f"  - {u}", file=sys.stderr)
         return 1
 
-    # 保留仅存在于旧 edges.jsonl 中、未在对应主卡 2.2 表重定义、且两端均为合法实体卡的引导边（如 PER-osinsky 等）
-    preserved_bootstrap: list[dict[str, Any]] = []
-    for e in existing_edges:
-        s, t = e.get("source"), e.get("target")
-        if s in valid_ids and t in valid_ids and (s, t) not in overridden_directed_pairs:
-            preserved_bootstrap.append(e)
-
-    merged_edges = table_edges + preserved_bootstrap
     edges_path.write_text(
-        "\n".join(json.dumps(e, ensure_ascii=False) for e in merged_edges) + "\n",
+        "\n".join(json.dumps(e, ensure_ascii=False) for e in table_edges) + "\n",
         encoding="utf-8",
     )
-    print(
-        f"Synced graph/edges.jsonl: {len(table_edges)} live 2.2 edges + {len(preserved_bootstrap)} bootstrap edges = {len(merged_edges)} total."
-    )
+    print(f"Synced graph/edges.jsonl: {len(table_edges)} live 2.2 edges (0 zombie bootstrap edges).")
 
     # 3. Merge timeline staging JSONLs in-process
     kb.cmd_merge_timeline(argparse.Namespace())
 
-    # 4. Recompile static packs in-process (fast <1.5s) unless --skip-packs
-    if not args.skip_packs:
+    # 4. Optional local cache packs
+    if args.write_packs and not args.skip_packs:
         all_cards = kb.load_all_cards()
         events = kb.load_jsonl(ROOT / "timeline" / "events_ledger.jsonl")
         aliases_text = aliases_path.read_text(encoding="utf-8") if aliases_path.exists() else ""
         pack_dir = ROOT / "graph" / "packs"
         pack_dir.mkdir(parents=True, exist_ok=True)
         for cid in sorted(valid_ids.keys()):
-            rendered = kb.compile_pack_markdown([cid], all_cards, merged_edges, events, aliases_text, max_tl_level=2)
+            rendered = kb.compile_pack_markdown([cid], all_cards, table_edges, events, aliases_text, max_tl_level=2)
             (pack_dir / f"{cid}.md").write_text(rendered, encoding="utf-8")
-        print(f"Compiled all {len(valid_ids)} 1-Hop Context Packs in-process!")
+        print(f"Compiled {len(valid_ids)} local cached 1-Hop Context Packs in graph/packs/!")
 
     # 5. Run enhanced audit-graph
     return kb.cmd_audit(argparse.Namespace())

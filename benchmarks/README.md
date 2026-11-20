@@ -6,12 +6,12 @@
 
 | 套件 | 文件 | 构建者 | 评测维度 |
 | :--- | :--- | :--- | :--- |
-| **B1** | `suites/b1_graph_and_integrity_cases.json` | 主 Agent (`gemini-4-carbon`) | YAML 元数据解析保真（多行列表/行尾注释）、卡片 `2.2` 关系表与 `edges.jsonl` 多时段边同步率、`CLM -> SCH/Card` 外键完整性、跨世纪双历法数学回归与 `1918-02-14` 改历后防误加 13 天扫描 |
-| **B2** | `suites/b2_context_budget_bundles.json` | 主 Agent (`gemini-4-carbon`) | 单枢纽与多卡联合查询编译字符预算（控制 `204k -> <=65k`）、**100% 一跳邻居与边缘关键人物零丢失召回**、`CLM-*`/`SCH-*` 可追溯性、全库 `[T1] <= 150` 字约束 |
-| **B3** | `suites/b3_chapter_radar_queries.jsonl` | 子 Agent (`gemini-4-neon`) | 145 本专著/原典章节定位雷达（`Hit@3`、`Hit@5`、`MRR`、查询延迟）及纯扫描无文字层空书 `needs_ocr` 隔离率 |
-| **B4A** | `suites/b4a_historiography_1861_1918.jsonl` | 子 Agent (`gemini-4-hydrogen`) | `1861–1918.03` 对抗性史实、因果时序、双历法、回忆录信源层级与多流派史学争鸣金丝雀题集 |
-| **B4B** | `suites/b4b_historiography_1918_1929.jsonl` | 异源子 Agent (`grok-4.7`) | `1918.03–1929` 多时段关系反转（如乌格拉诺夫）、机构任期边界（古比雪夫/康德拉季耶夫）、改历后陷阱与情态分寸金丝雀题集 |
-| **B5** | `suites/b5_mode_a_prompts.jsonl` | 子 Agent (`gemini-4-argon`) | **模态 A “对外讲史”端到端散文评测**：拒绝“干巴数据库腔”、零工程脚手架泄露（`[T1]`/`CLM-`/`[O.S.]`）、自然中文双历法、边缘行动者锚点与跨模型盲审打分 |
+| **B1** | `suites/b1_graph_and_integrity_cases.json` | 主 Agent (`gemini-4-carbon`) | YAML 元数据解析保真（多行列表/行尾注释）、188 张实体卡 `2.2` 关系表与 `edges.jsonl` 多时段边同步率（零僵尸边）、`CLM -> SCH/Card` 外键完整性、跨世纪双历法数学回归与 `1918-02-14` 改历后防误加 13 天扫描 |
+| **B2** | `suites/b2_context_budget_bundles.json` | 主 Agent (`gemini-4-carbon`) | 单枢纽与多卡联合查询优先级预算器（`--max-chars`，控制 `<=65k`）、**100% 一跳邻居与多时段标签零丢失召回**、入边摘要与 `CLM-*`/`SCH-*` 溯源锚点保留、全库（含学者卡）`[T1] <= 150` 字约束 |
+| **B3** | `suites/b3_chapter_radar_queries.jsonl` | 子 Agent (`gemini-4-neon`) + 扩充 | 163 个文献目录（146 本可读专著/原典 + 17 本 `needs_ocr`/截断隔离壳）35 条中英俄及 2 字高频词章节定位雷达（`Hit@5`、`ExactChapterHit@5`、查询延迟）及空壳隔离率 |
+| **B4A** | `suites/b4a_historiography_1861_1918.jsonl` | 子 Agent (`gemini-4-hydrogen`) | `1861–1918.03` 对抗性史实、因果时序、双历法、回忆录信源层级与多流派争鸣金丝雀题集（含结构化正反正则与内存故障注入捕获率检验） |
+| **B4B** | `suites/b4b_historiography_1918_1929.jsonl` | 异源子 Agent (`grok-4.7`) | `1918.03–1929` 多时段关系反转（如乌格拉诺夫）、机构任期边界（古比雪夫/康德拉季耶夫）、改历后陷阱与情态分寸金丝雀题集（含内存故障注入检验） |
+| **B5** | `suites/b5_mode_a_prompts.jsonl` + `samples/b5_holdout/` | 子 Agent + 异源盲审 (`grok-4.7`) | **模态 A（`A1` 专业深度分析体 + `A2` 克制纪实叙事体）端到端评测**：零工程脚手架泄露、反煽情/反演义套话检测（`MELODRAMA_CLICHE_PAT`）、边缘行动者召回与异源盲审闭环（`BLIND_JUDGE_REPORT.md`） |
 
 ## 二、快速命令
 

@@ -17,7 +17,7 @@
       "format": "json",
       "mode": "deterministic",
       "author": "main-agent:gemini-4-carbon",
-      "last_reviewed": "2026-11-19"
+      "last_reviewed": "2026-11-20"
     },
     {
       "id": "B2",
@@ -26,7 +26,7 @@
       "format": "json",
       "mode": "deterministic",
       "author": "main-agent:gemini-4-carbon",
-      "last_reviewed": "2026-11-19"
+      "last_reviewed": "2026-11-20"
     },
     {
       "id": "B3",
@@ -35,7 +35,7 @@
       "format": "jsonl",
       "mode": "deterministic",
       "author": "subagent:gemini-4-neon",
-      "last_reviewed": "2026-11-19"
+      "last_reviewed": "2026-11-20"
     },
     {
       "id": "B4A",
@@ -62,7 +62,7 @@
       "format": "jsonl",
       "mode": "hybrid_lint_and_blind_judge",
       "author": "subagent:gemini-4-argon",
-      "last_reviewed": "2026-11-19"
+      "last_reviewed": "2026-11-20"
     }
   ]
 }

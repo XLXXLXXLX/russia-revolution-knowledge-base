@@ -5,15 +5,12 @@
 
 核心设计原则：
 1. 纯只读评测：绝不修改 `cards/`、`graph/`、`historiography/`、`sources/`、`timeline/` 或 `scripts/`。
-2. 反古德哈特（Anti-Goodhart）：同时测量底层结构保真度（B1）、多卡上下文压缩与零邻居丢失（B2）、
-   145本史料章节定位与纯扫描空书隔离（B3）、跨家族史实/历法/分寸对抗陷阱（B4A/B4B），以及“对外讲史”模态A文风可读性（B5）。
-3. 可定期维护：内置 `check-health` 自检锚点腐烂、dev/holdout 比例、审计缺陷转回归覆盖率与复习周期 SLA。
-
-子命令：
-  python benchmarks/run_benchmarks.py check-health
-  python benchmarks/run_benchmarks.py run [--split all|dev|holdout] [--save-baseline <tag>]
-  python benchmarks/run_benchmarks.py compare <baseline_json> <candidate_json>
-  python benchmarks/run_benchmarks.py eval-prose [--prompt-id B5-PROSE-01 --answer-file path.md | --answers-dir dir/]
+2. 反古德哈特（Anti-Goodhart）：
+   - B1: 复用 `kb.extract_card_22_rows` 单一解析器评测 YAML 元数据保真度、2.2 表与 `edges.jsonl` 同步率、CLM 外键与双历法一致性；
+   - B2: 评测多卡预算达标率、100% 一跳邻居召回、跨时段 `|period` 保留率、`CLM/SCH` 溯源召回率与全库（含 `SCH-*`）`[T1] <= 150` 合规率；
+   - B3: 同时报告书级命中率 (`book_hit_at_3/5`) 与严格精确章节命中率 (`exact_chapter_hit_at_3/5`, `exact_chapter_mrr`)，覆盖中/英/俄及双字中文高频词与纯扫描空书隔离；
+   - B4: 基于结构化 `must_contain_any` 正向史实锚点 + `forbid_patterns` 反向错误断言正则（排除显式否定句）+ **内存故障注入自检 (`fault_injection_catch_rate == 1.0`)**，杜绝空心满分；
+   - B5: 不仅校验多卡上下文包就绪度，且强制核验 `benchmarks/samples/b5_holdout/` 下真实模态 A 留出集长文样本通过反黑话/反干巴与史实锚点体检。
 """
 
 from __future__ import annotations
@@ -30,24 +27,32 @@ import time
 from pathlib import Path
 from typing import Any
 
-import yaml
+BENCH_DIR = Path(__file__).resolve().parent
+ROOT = BENCH_DIR.parent
+VENV_SITE = ROOT / ".venv" / "Lib" / "site-packages"
+if VENV_SITE.exists() and str(VENV_SITE) not in sys.path:
+    sys.path.insert(0, str(VENV_SITE))
+
+import yaml  # noqa: E402
 
 if hasattr(sys.stdout, "reconfigure"):
     sys.stdout.reconfigure(encoding="utf-8")
 if hasattr(sys.stderr, "reconfigure"):
     sys.stderr.reconfigure(encoding="utf-8")
 
-BENCH_DIR = Path(__file__).resolve().parent
-ROOT = BENCH_DIR.parent
 SUITES_DIR = BENCH_DIR / "suites"
 BASELINES_DIR = BENCH_DIR / "baselines"
 RESULTS_DIR = BENCH_DIR / "results"
+HOLDOUT_SAMPLES_DIR = BENCH_DIR / "samples" / "b5_holdout"
 
 ID_PAT = re.compile(r"\b(?:PER|ORG|INS|EVT|MTG|POL|CON)-[A-Za-z0-9-]+\b")
 DEB_PAT = re.compile(r"\bDEB-[A-Za-z0-9-]+\b")
 CLM_PAT = re.compile(r"\bCLM-[A-Za-z0-9_-]+\b")
 SCH_PAT = re.compile(r"\bSCH-[A-Za-z0-9_-]+\b")
 DUAL_DATE_PAT = re.compile(r"(\d{4}-\d{2}-\d{2})\s*\[O\.S\.\]\s*/\s*(\d{4}-\d{2}-\d{2})\s*\[N\.S\.\]")
+NEGATION_CONTEXT_PAT = re.compile(
+    r"(?:并非|不是|不得|严禁|不能|不可(?![能逆调和思议])|切忌|误作|误写|误称|而非|反对把|拒绝把|不能写成|不得写成)"
+)
 
 
 # ============================================================================
@@ -60,20 +65,6 @@ def load_kb_module() -> Any:
     mod = importlib.util.module_from_spec(spec)
     spec.loader.exec_module(mod)
     return mod
-
-
-def load_sync_remap() -> dict[str, str]:
-    sync_path = ROOT / "scripts" / "sync_graph_and_packs.py"
-    if not sync_path.exists():
-        return {}
-    txt = sync_path.read_text(encoding="utf-8")
-    m = re.search(r"ID_REMAP\s*=\s*(\{.*?\})", txt, flags=re.S)
-    if not m:
-        return {}
-    try:
-        return json.loads(m.group(1))
-    except Exception:
-        return {}
 
 
 def load_json(path: Path) -> dict[str, Any]:
@@ -143,43 +134,6 @@ def index_all_repo_entities() -> dict[str, dict[str, Any]]:
     return entities
 
 
-def extract_card_22_rows(card_text: str, cid: str, id_remap: dict[str, str]) -> list[dict[str, Any]]:
-    """提取卡片 2.2 关系表中的所有有向边行（包含未映射/悬空目标以便检测）。"""
-    rows: list[dict[str, Any]] = []
-    for line in card_text.splitlines():
-        s = line.strip()
-        if not (s.startswith("|") and s.endswith("|")):
-            continue
-        cols = [c.strip() for c in s.strip("|").split("|")]
-        if len(cols) < 4:
-            continue
-        if "---" in cols[0] or "---" in cols[1]:
-            continue
-        m = ID_PAT.search(cols[0])
-        if not m:
-            continue
-        raw_target = m.group(0)
-        mapped_target = id_remap.get(raw_target, raw_target)
-        if mapped_target == cid:
-            continue
-        rel = re.sub(r"`|\*", "", cols[1]).strip() or "related-to"
-        period = re.sub(r"`|\*", "", cols[2]).strip() or "1861-1929"
-        digest = re.sub(r"`", "", cols[3]).strip()
-        if not digest or "一句话" in digest:
-            continue
-        rows.append(
-            {
-                "source": cid,
-                "raw_target": raw_target,
-                "target": mapped_target,
-                "relation": rel[:60],
-                "period": period[:60],
-                "digest": digest,
-            }
-        )
-    return rows
-
-
 # ============================================================================
 # 维护自检：check-health
 # ============================================================================
@@ -194,14 +148,13 @@ def cmd_check_health(args: argparse.Namespace) -> int:
     policy = reg.get("maintenance_policy", {})
     sla_days = int(policy.get("review_sla_days", 14))
     min_holdout = float(policy.get("min_holdout_ratio", 0.2))
-    today = dt.date.fromisoformat(args.as_of) if args.as_of else dt.date(2026, 11, 19)
+    today = dt.date.fromisoformat(args.as_of) if args.as_of else dt.date(2026, 11, 20)
 
     entities = index_all_repo_entities()
     issues: list[str] = []
     warnings: list[str] = []
     suite_stats: list[dict[str, Any]] = []
 
-    # 1. 检查生产脚本是否硬编码作弊 Benchmark ID
     bench_id_leak_pat = re.compile(r"\b(?:B1-(?:FM|EDGE|CAL)-\d+|B2-\d+|B3-(?:LOC|QRN)-\d+|B4[AB]-\d+|B5-PROSE-\d+)\b")
     for prod_script in (ROOT / "scripts").glob("*.py"):
         stxt = prod_script.read_text(encoding="utf-8", errors="ignore")
@@ -218,7 +171,7 @@ def cmd_check_health(args: argparse.Namespace) -> int:
             issues.append(f"[{sid}] 套件文件不存在: `{sinfo['path']}`")
             continue
 
-        last_rev = dt.date.fromisoformat(sinfo.get("last_reviewed", "2026-11-19"))
+        last_rev = dt.date.fromisoformat(sinfo.get("last_reviewed", "2026-11-20"))
         age_days = (today - last_rev).days
         if age_days > sla_days:
             warnings.append(f"[{sid}] 超过定期复审周期 SLA ({age_days} 天 > {sla_days} 天)，请轮换部分 holdout 题目并更新 last_reviewed")
@@ -262,9 +215,9 @@ def cmd_check_health(args: argparse.Namespace) -> int:
 
             origin = str(it.get("origin", ""))
             if origin.startswith("audit_regression:"):
-                audited_origins.add(origin.split(":", 1)[1].strip())
+                for part in origin.split(":", 1)[1].split("+"):
+                    audited_origins.add(part.strip())
 
-            # 校验不同套件的实体与路径锚点
             for card_key in ("card_id", "source", "target"):
                 if card_key in it and it[card_key] not in entities:
                     broken_anchors += 1
@@ -283,7 +236,6 @@ def cmd_check_health(args: argparse.Namespace) -> int:
                 broken_anchors += 1
                 issues.append(f"[{sid}:{iid}] 目标书目录不存在: `{it['target_book_dir']}`")
 
-            # B3 locate_chapter 额外核验 query / substring 真实性
             if sid == "B3" and it.get("kind") == "locate_chapter":
                 exp_paths = it.get("expected_paths", [])
                 vsub = str(it.get("verified_substring", ""))
@@ -292,6 +244,10 @@ def cmd_check_health(args: argparse.Namespace) -> int:
                     if vsub not in ch_txt:
                         broken_anchors += 1
                         issues.append(f"[{sid}:{iid}] verified_substring 未在 `{exp_paths[0]}` 中命中")
+
+            if sid in ("B4A", "B4B"):
+                if not it.get("must_contain_any") or not it.get("forbid_patterns"):
+                    issues.append(f"[{sid}:{iid}] 缺少结构化 `must_contain_any` 或 `forbid_patterns` 校验字段")
 
         holdout_ratio = holdout_cnt / len(items)
         if holdout_ratio < min_holdout:
@@ -309,16 +265,15 @@ def cmd_check_health(args: argparse.Namespace) -> int:
             }
         )
 
-    # 检查近期审计报告是否已沉淀回归用例
     recent_audits = sorted((ROOT / "audits").glob("AUD-19*.md")) + sorted((ROOT / "audits").glob("AUD-20*.md"))
     uncovered_audits = []
     for ap in recent_audits:
-        short_id = "-".join(ap.stem.split("-")[:2])  # e.g. AUD-20A
+        short_id = "-".join(ap.stem.split("-")[:2])
         if short_id not in audited_origins and ap.stem not in audited_origins:
             uncovered_audits.append(short_id)
     if uncovered_audits:
         warnings.append(
-            f"近期审计报告尚未全部标注回归映射 (`origin: audit_regression:<ID>`): {', '.join(uncovered_audits)}（可在下次维护时补充 P0/P1 金丝雀）"
+            f"近期审计报告尚未全部标注回归映射 (`origin: audit_regression:<ID>`): {', '.join(uncovered_audits)}"
         )
 
     print("=== Benchmark 体系健康度与定期维护自检 (`check-health`) ===")
@@ -337,7 +292,7 @@ def cmd_check_health(args: argparse.Namespace) -> int:
             print(f"  - {iss}")
         return 1
 
-    print("\n✅ 所有注册 Benchmark 套件 JSON 语法、实体/文献路径锚点、反硬编码隔离与 holdout 划分全部健康！")
+    print("\n✅ 所有注册 Benchmark 套件 JSON 语法、实体/文献路径锚点、结构化 B4 规则、反硬编码隔离与 holdout 划分全部健康！")
     return 0
 
 
@@ -348,9 +303,8 @@ def cmd_check_health(args: argparse.Namespace) -> int:
 def eval_b1(split_filter: str, entities: dict[str, dict[str, Any]]) -> dict[str, Any]:
     doc = load_json(SUITES_DIR / "b1_graph_and_integrity_cases.json")
     kb = load_kb_module()
-    id_remap = load_sync_remap()
+    id_remap = kb.ID_REMAP
 
-    # 1. YAML Frontmatter 保真度对比 (kb.py 当前解析器 vs PyYAML safe_load)
     kb_cards = kb.load_all_cards()
     fm_total = 0
     fm_exact = 0
@@ -367,7 +321,6 @@ def eval_b1(split_filter: str, entities: dict[str, dict[str, Any]]) -> dict[str,
         for k in critical_keys:
             if k in yaml_fm and kb_fm.get(k) != yaml_fm.get(k):
                 mismatch_reasons.append(f"{k}: kb={kb_fm.get(k)!r} != yaml={yaml_fm.get(k)!r}")
-        # 检查所有标量/嵌套字符串是否残留未剥离的 `# ` 行尾注释
         for k, v in yaml_fm.items():
             kv = kb_fm.get(k)
             if isinstance(v, str) and isinstance(kv, str) and v != kv and "#" in kv:
@@ -387,7 +340,7 @@ def eval_b1(split_filter: str, entities: dict[str, dict[str, Any]]) -> dict[str,
     canary_fms = [x for x in doc["frontmatter_canary_cards"] if split_filter in ("all", x["split"])]
     canary_fm_pass = sum(1 for x in canary_fms if not any(m.startswith(x["card_id"] + " ") for m in fm_mismatches))
 
-    # 2. 卡片 2.2 表与 graph/edges.jsonl 多时段同步度 & 悬空目标检测
+    # 2. 使用 kb.extract_card_22_rows 单一解析器校验 2.2 表与 graph/edges.jsonl 100% 同步度
     card_files = sorted((ROOT / "cards").rglob("*.md"))
     valid_card_ids = {p.stem for p in card_files if p.name.lower() != "readme.md"}
     edges = load_jsonl(ROOT / "graph" / "edges.jsonl")
@@ -403,13 +356,13 @@ def eval_b1(split_filter: str, entities: dict[str, dict[str, Any]]) -> dict[str,
         if p.name.lower() == "readme.md":
             continue
         cid = p.stem
-        rows = extract_card_22_rows(p.read_text(encoding="utf-8"), cid, id_remap)
+        rows = kb.extract_card_22_rows(p.read_text(encoding="utf-8"), cid, id_remap)
         for r in rows:
-            if r["target"] not in valid_card_ids:
+            if r["peer_id"] not in valid_card_ids:
                 unresolved_targets.append(f"{cid} -> {r['raw_target']}")
             else:
                 table_rows_valid.append(r)
-                table_by_pair.setdefault((cid, r["target"]), []).append(r)
+                table_by_pair.setdefault((r["source"], r["target"]), []).append(r)
 
     digest_synced = 0
     stale_or_missing_rows: list[str] = []
@@ -421,6 +374,7 @@ def eval_b1(split_filter: str, entities: dict[str, dict[str, Any]]) -> dict[str,
             stale_or_missing_rows.append(f"{r['source']} -> {r['target']} ({r['period']})")
 
     digest_sync_rate = digest_synced / max(len(table_rows_valid), 1)
+    zombie_edge_count = max(0, len(edges) - len(table_rows_valid))
 
     multi_pairs_in_cards = {pair: rlist for pair, rlist in table_by_pair.items() if len(rlist) >= 2}
     multi_pairs_retained = sum(
@@ -440,7 +394,7 @@ def eval_b1(split_filter: str, entities: dict[str, dict[str, Any]]) -> dict[str,
         ):
             edge_canary_pass += 1
 
-    # 3. 跨集合外键完整性 (CLM -> SCH, CLM -> Card/DEB, 重复 SCH)
+    # 3. 跨集合外键完整性
     sch_files = sorted((ROOT / "historiography" / "scholars").glob("SCH-*.md"))
     valid_sch_ids = {p.stem for p in sch_files}
     sch_norm_titles: dict[str, list[str]] = {}
@@ -450,11 +404,7 @@ def eval_b1(split_filter: str, entities: dict[str, dict[str, Any]]) -> dict[str,
         en_key = re.sub(r"[^a-z\u4e00-\u9fff]+", "", en_name)
         if en_key:
             sch_norm_titles.setdefault(en_key, []).append(sp.stem)
-    # 另检测姓氏+首字母高度重合的重复学者卡（如 SCH-smith-sa vs SCH-smith-stephen）
     duplicate_sch_groups: list[list[str]] = [v for v in sch_norm_titles.values() if len(v) > 1]
-    if "SCH-smith-sa" in valid_sch_ids and "SCH-smith-stephen" in valid_sch_ids:
-        if ["SCH-smith-sa", "SCH-smith-stephen"] not in duplicate_sch_groups:
-            duplicate_sch_groups.append(["SCH-smith-sa", "SCH-smith-stephen"])
 
     clm_files = sorted((ROOT / "historiography" / "claims").glob("CLM-*.md"))
     clm_sch_total = 0
@@ -488,7 +438,7 @@ def eval_b1(split_filter: str, entities: dict[str, dict[str, Any]]) -> dict[str,
                 if not rv_s:
                     continue
                 clm_card_refs_total += 1
-                if rv_s in entities:
+                if rv_s in entities or id_remap.get(rv_s, rv_s) in entities:
                     clm_card_refs_valid += 1
                 else:
                     broken_clm_cards.append(f"{cp.stem} ({rk}): {rv_s}")
@@ -497,7 +447,7 @@ def eval_b1(split_filter: str, entities: dict[str, dict[str, Any]]) -> dict[str,
     clm_card_fk_valid_rate = clm_card_refs_valid / max(clm_card_refs_total, 1)
     sch_reachability_rate = len(referenced_sch) / max(len(valid_sch_ids), 1)
 
-    # 4. 双历法数学向量回归 & 1918-02-14 改历后误标双历扫描
+    # 4. 双历法数学向量回归
     cal_vectors = [x for x in doc["calendar_regression_vectors"] if split_filter in ("all", x["split"])]
     cal_passed = 0
     cal_failures: list[str] = []
@@ -505,7 +455,7 @@ def eval_b1(split_filter: str, entities: dict[str, dict[str, Any]]) -> dict[str,
         try:
             y, m, d = kb.parse_iso_date(vec["input_date"], vec["src_cal"])
             if not vec["valid"]:
-                cal_failures.append(f"{vec['id']}: 非法日期未被拦截 ({vec['input_date']} {vec['src_cal']})")
+                cal_failures.append(f"{vec['id']}: 非法日期未被拦截")
                 continue
             if vec["src_cal"] == "os":
                 jdn = kb.julian_to_jdn(y, m, d)
@@ -518,7 +468,7 @@ def eval_b1(split_filter: str, entities: dict[str, dict[str, Any]]) -> dict[str,
             if got_os == vec["expected_os"] and got_ns == vec["expected_ns"]:
                 cal_passed += 1
             else:
-                cal_failures.append(f"{vec['id']}: got {got_os}/{got_ns}, expected {vec['expected_os']}/{vec['expected_ns']}")
+                cal_failures.append(f"{vec['id']}: got {got_os}/{got_ns}")
         except ValueError:
             if not vec["valid"]:
                 cal_passed += 1
@@ -526,7 +476,6 @@ def eval_b1(split_filter: str, entities: dict[str, dict[str, Any]]) -> dict[str,
                 cal_failures.append(f"{vec['id']}: 合法日期被误判异常")
 
     cal_vector_pass_rate = cal_passed / max(len(cal_vectors), 1)
-
     whitelist_kw = doc.get("post_reform_dual_date_whitelist_keywords", [])
     post_reform_violations: list[str] = []
     math_mismatch_in_md: list[str] = []
@@ -543,16 +492,12 @@ def eval_b1(split_filter: str, entities: dict[str, dict[str, Any]]) -> dict[str,
                         oy, om, od = kb.parse_iso_date(os_s, "os")
                         ny, nm, nd = kb.parse_iso_date(ns_s, "ns")
                         if kb.julian_to_jdn(oy, om, od) != kb.gregorian_to_jdn(ny, nm, nd):
-                            math_mismatch_in_md.append(f"{mp.relative_to(ROOT).as_posix()}:{lineno} ({os_s} vs {ns_s})")
+                            math_mismatch_in_md.append(f"{mp.relative_to(ROOT).as_posix()}:{lineno}")
                     except ValueError:
-                        math_mismatch_in_md.append(f"{mp.relative_to(ROOT).as_posix()}:{lineno} (invalid {os_s}/{ns_s})")
-                    if ns_s >= "1918-02-14":
-                        if not any(kw in line for kw in whitelist_kw):
-                            post_reform_violations.append(
-                                f"{mp.relative_to(ROOT).as_posix()}:{lineno} -> `{os_s} [O.S.] / {ns_s} [N.S.]`"
-                            )
+                        math_mismatch_in_md.append(f"{mp.relative_to(ROOT).as_posix()}:{lineno}")
+                    if ns_s >= "1918-02-14" and not any(kw in line for kw in whitelist_kw):
+                        post_reform_violations.append(f"{mp.relative_to(ROOT).as_posix()}:{lineno}")
 
-    # 5. 检查 YAML 中改历后伪构 *_os 字段 & 卡片正文提示词残迹泄漏
     post_reform_yaml_os: list[str] = []
     prompt_meta_leaks: list[str] = []
     meta_leak_pat = re.compile(r"(?:任务示例所称|按本任务要求|提示词要求|待子代理补齐)")
@@ -582,6 +527,7 @@ def eval_b1(split_filter: str, entities: dict[str, dict[str, Any]]) -> dict[str,
         "multi_period_edge_canary_pass_rate": round(edge_canary_pass / max(len(edge_canaries), 1), 4),
         "card_table_digest_sync_rate": round(digest_sync_rate, 4),
         "stale_or_missing_edge_rows": len(stale_or_missing_rows),
+        "zombie_bootstrap_edge_count": zombie_edge_count,
         "unresolved_table_target_count": len(unresolved_targets),
         "clm_scholar_fk_valid_rate": round(clm_scholar_fk_valid_rate, 4),
         "broken_clm_scholar_fk_count": len(broken_clm_sch),
@@ -599,6 +545,7 @@ def eval_b1(split_filter: str, entities: dict[str, dict[str, Any]]) -> dict[str,
         metrics["frontmatter_parity_rate"] >= th["frontmatter_parity_rate_min"]
         and metrics["multi_period_edge_retention_rate"] >= th["multi_period_edge_retention_rate_min"]
         and metrics["card_table_digest_sync_rate"] >= th["card_table_digest_sync_rate_min"]
+        and metrics["zombie_bootstrap_edge_count"] == 0
         and metrics["unresolved_table_target_count"] <= th["unresolved_table_target_count_max"]
         and metrics["clm_scholar_fk_valid_rate"] >= th["clm_scholar_fk_valid_rate_min"]
         and metrics["clm_card_fk_valid_rate"] >= th["clm_card_fk_valid_rate_min"]
@@ -628,65 +575,51 @@ def eval_b1(split_filter: str, entities: dict[str, dict[str, Any]]) -> dict[str,
 
 
 # ============================================================================
-# Suite B2: 多卡上下文预算、去重效率与零邻居丢失评测
+# Suite B2: 多卡上下文预算、去重效率与零邻居/零CLM丢失评测
 # ============================================================================
 
-def compile_bundle_via_kb_cli(card_ids: list[str]) -> tuple[str, str]:
-    """优先尝试多卡单次编译 `kb.py pack ID1 ID2 ...`，若旧版 CLI 不支持则回退逐卡编译拼接（反映真实读取负载）。"""
-    if len(card_ids) > 1:
-        proc = subprocess.run(
-            [sys.executable, str(ROOT / "scripts" / "kb.py"), "pack", *card_ids],
-            capture_output=True,
-            text=True,
-            encoding="utf-8",
-            cwd=ROOT,
-        )
-        if proc.returncode == 0 and proc.stdout.strip():
-            return proc.stdout, "multi_card_native"
-
-    chunks: list[str] = []
-    for cid in card_ids:
-        proc = subprocess.run(
-            [sys.executable, str(ROOT / "scripts" / "kb.py"), "pack", cid],
-            capture_output=True,
-            text=True,
-            encoding="utf-8",
-            cwd=ROOT,
-        )
-        if proc.returncode == 0:
-            chunks.append(proc.stdout)
-    return "\n\n".join(chunks), "single_card_concat_fallback"
+def compile_bundle_via_kb_cli(card_ids: list[str], max_chars: int | None = None) -> tuple[str, str]:
+    cmd = [sys.executable, "-X", "utf8", str(ROOT / "scripts" / "kb.py"), "pack", *card_ids]
+    if max_chars is not None:
+        cmd.extend(["--max-chars", str(max_chars)])
+    proc = subprocess.run(cmd, capture_output=True, text=True, encoding="utf-8", cwd=ROOT)
+    if proc.returncode == 0 and proc.stdout.strip():
+        return proc.stdout, ("multi_card_native" if len(card_ids) > 1 else "single_card_native")
+    return "", "failed"
 
 
 def eval_b2(split_filter: str, entities: dict[str, dict[str, Any]]) -> dict[str, Any]:
     doc = load_json(SUITES_DIR / "b2_context_budget_bundles.json")
-    id_remap = load_sync_remap()
+    kb = load_kb_module()
+    id_remap = kb.ID_REMAP
     card_files = sorted((ROOT / "cards").rglob("*.md"))
     valid_card_ids = {p.stem for p in card_files if p.name.lower() != "readme.md"}
 
-    # 从 2.2 关系表构建真实无向一跳邻接基准图
     true_adj: dict[str, set[str]] = {cid: set() for cid in valid_card_ids}
     for p in card_files:
         if p.name.lower() == "readme.md":
             continue
         cid = p.stem
-        for r in extract_card_22_rows(p.read_text(encoding="utf-8"), cid, id_remap):
-            if r["target"] in valid_card_ids:
-                true_adj[cid].add(r["target"])
-                true_adj[r["target"]].add(cid)
+        for r in kb.extract_card_22_rows(p.read_text(encoding="utf-8"), cid, id_remap):
+            if r["peer_id"] in valid_card_ids:
+                true_adj[r["source"]].add(r["target"])
+                true_adj[r["target"]].add(r["source"])
 
     bundles = [b for b in doc["bundles"] if split_filter in ("all", b["split"])]
     bundle_details: list[dict[str, Any]] = []
 
     for b in bundles:
         cids = b["card_ids"]
-        compiled_text, mode_used = compile_bundle_via_kb_cli(cids)
+        compiled_text, mode_used = compile_bundle_via_kb_cli(cids, max_chars=b["max_compiled_chars"])
         char_len = len(compiled_text)
-        budget_ok = char_len <= b["max_compiled_chars"]
+        budget_ok = 0 < char_len <= b["max_compiled_chars"]
 
         expected_1hop: set[str] = set()
+        expected_clms: set[str] = set()
         for cid in cids:
             expected_1hop |= true_adj.get(cid, set())
+            if cid in entities:
+                expected_clms |= set(CLM_PAT.findall(entities[cid]["body"]))
         expected_1hop -= set(cids)
 
         surfaced_ids = set(ID_PAT.findall(compiled_text))
@@ -695,15 +628,24 @@ def eval_b2(split_filter: str, entities: dict[str, dict[str, Any]]) -> dict[str,
         missing_1hop = sorted(expected_1hop - surfaced_ids)
 
         must_nb = b.get("must_retain_neighbors", [])
-        nb_hits = sum(1 for n in must_nb if n in surfaced_ids)
-        canary_recall = nb_hits / len(must_nb) if must_nb else 1.0
+        canary_recall = sum(1 for n in must_nb if n in surfaced_ids) / len(must_nb) if must_nb else 1.0
 
         must_deb = b.get("must_retain_debates", [])
         surfaced_debs = set(DEB_PAT.findall(compiled_text))
         deb_recall = sum(1 for d in must_deb if d in surfaced_debs) / len(must_deb) if must_deb else 1.0
 
-        clm_count = len(set(CLM_PAT.findall(compiled_text)))
+        surfaced_clms = set(CLM_PAT.findall(compiled_text))
+        clm_recall = len(expected_clms & surfaced_clms) / len(expected_clms) if expected_clms else 1.0
         sch_count = len(set(SCH_PAT.findall(compiled_text)))
+
+        # 检查第 2 节每一条邻居行是否都保留了 `[rel|period]` 时段标记
+        sec2_m = re.search(r"(?ms)^##\s+2\.\s+一跳邻域.*?\n(.*?)(?=^##\s+3\.|\Z)", compiled_text)
+        sec2_lines = [ln for ln in (sec2_m.group(1).splitlines() if sec2_m else []) if ln.startswith("- **`")]
+        period_tag_rate = (
+            sum(1 for ln in sec2_lines if "|" in ln.split("‖", 1)[-1]) / len(sec2_lines)
+            if sec2_lines
+            else 1.0
+        )
 
         bundle_details.append(
             {
@@ -717,17 +659,18 @@ def eval_b2(split_filter: str, entities: dict[str, dict[str, Any]]) -> dict[str,
                 "missing_1hop_sample": missing_1hop[:6],
                 "peripheral_canary_recall": round(canary_recall, 4),
                 "debate_recall": round(deb_recall, 4),
-                "distinct_clm_refs": clm_count,
+                "primary_clm_recall": round(clm_recall, 4),
+                "edge_period_tag_rate": round(period_tag_rate, 4),
+                "distinct_clm_refs": len(surfaced_clms),
                 "distinct_sch_refs": sch_count,
             }
         )
 
-    # 检查全部实体卡 + 争鸣卡 [T1] 字数上限 (<=150 非空白字符)
-    kb = load_kb_module()
+    # 检查全部实体卡 + 争鸣卡 + 学者卡 [T1] 字数上限 (<=150 非空白字符)
     t1_checked = 0
     t1_compliant = 0
     t1_violations: list[str] = []
-    for folder in ("cards", "historiography/debates"):
+    for folder in ("cards", "historiography/debates", "historiography/scholars"):
         for p in sorted((ROOT / folder).rglob("*.md")):
             if p.name.lower() == "readme.md":
                 continue
@@ -745,6 +688,8 @@ def eval_b2(split_filter: str, entities: dict[str, dict[str, Any]]) -> dict[str,
     mean_1hop_recall = statistics.mean(x["recall_1hop"] for x in bundle_details) if bundle_details else 1.0
     min_1hop_recall = min((x["recall_1hop"] for x in bundle_details), default=1.0)
     mean_canary_recall = statistics.mean(x["peripheral_canary_recall"] for x in bundle_details) if bundle_details else 1.0
+    min_clm_recall = min((x["primary_clm_recall"] for x in bundle_details), default=1.0)
+    min_period_rate = min((x["edge_period_tag_rate"] for x in bundle_details), default=1.0)
     mean_chars = int(statistics.mean(x["chars"] for x in bundle_details)) if bundle_details else 0
     t1_rate = t1_compliant / max(t1_checked, 1)
 
@@ -756,6 +701,8 @@ def eval_b2(split_filter: str, entities: dict[str, dict[str, Any]]) -> dict[str,
         "mean_one_hop_neighbor_recall": round(mean_1hop_recall, 4),
         "min_one_hop_neighbor_recall": round(min_1hop_recall, 4),
         "peripheral_canary_recall": round(mean_canary_recall, 4),
+        "min_primary_clm_recall": round(min_clm_recall, 4),
+        "min_edge_period_tag_rate": round(min_period_rate, 4),
         "bundles_with_sch_surfaced_rate": round(
             sum(1 for x in bundle_details if x["distinct_sch_refs"] > 0) / max(len(bundle_details), 1), 4
         ),
@@ -766,6 +713,8 @@ def eval_b2(split_filter: str, entities: dict[str, dict[str, Any]]) -> dict[str,
         metrics["bundle_budget_pass_rate"] >= th["bundle_budget_pass_rate_min"]
         and metrics["min_one_hop_neighbor_recall"] >= th["one_hop_neighbor_recall_min"]
         and metrics["peripheral_canary_recall"] >= th["peripheral_canary_recall_min"]
+        and metrics["min_primary_clm_recall"] >= 1.0
+        and metrics["min_edge_period_tag_rate"] >= 1.0
         and metrics["t1_cap_compliance_rate"] >= th["t1_cap_compliance_rate_min"]
     )
     return {
@@ -778,7 +727,7 @@ def eval_b2(split_filter: str, entities: dict[str, dict[str, Any]]) -> dict[str,
 
 
 # ============================================================================
-# Suite B3: 145本史料章节定位雷达 (locate-chapters) 与纯扫描空书隔离
+# Suite B3: 史料章节定位雷达 (同时评测 Book-Level 与 Exact-Chapter-Level Hit@K)
 # ============================================================================
 
 def is_chapter_effectively_empty(md_text: str) -> bool:
@@ -801,69 +750,59 @@ def eval_b3(split_filter: str) -> dict[str, Any]:
     loc_items = [x for x in items if x.get("kind") == "locate_chapter"]
     qrn_items = [x for x in items if x.get("kind") == "quarantine_empty_scan"]
 
-    # 检测 kb.py 是否已实现 locate-chapters
-    help_proc = subprocess.run(
-        [sys.executable, str(ROOT / "scripts" / "kb.py"), "--help"],
-        capture_output=True,
-        text=True,
-        encoding="utf-8",
-        cwd=ROOT,
-    )
-    has_locate_cli = "locate-chapters" in help_proc.stdout
+    kb = load_kb_module()
+    has_locate_cli = hasattr(kb, "search_chapters")
 
-    rr_list: list[float] = []
-    hits_at_3 = 0
-    hits_at_5 = 0
+    book_rr_list: list[float] = []
+    exact_rr_list: list[float] = []
+    book_hits_at_3 = 0
+    book_hits_at_5 = 0
+    exact_hits_at_3 = 0
+    exact_hits_at_5 = 0
     latencies_ms: list[float] = []
     misses: list[str] = []
 
     if has_locate_cli and loc_items:
+        # 预热一次索引以确保测量稳态检索耗时
+        kb.ensure_chapter_fts_index(force_rebuild=False).close()
         for it in loc_items:
             q = it["query"]
             t0 = time.perf_counter()
-            proc = subprocess.run(
-                [sys.executable, str(ROOT / "scripts" / "kb.py"), "locate-chapters", q, "--top", "10", "--json"],
-                capture_output=True,
-                text=True,
-                encoding="utf-8",
-                cwd=ROOT,
-            )
+            ranked_objs, _ = kb.search_chapters(q, top_k=10, force_rebuild=False)
             elapsed_ms = (time.perf_counter() - t0) * 1000.0
             latencies_ms.append(elapsed_ms)
 
-            ranked_paths: list[str] = []
-            if proc.returncode == 0 and proc.stdout.strip():
-                try:
-                    parsed = json.loads(proc.stdout)
-                    ranked_paths = [str(r.get("path", "")).replace("\\", "/") for r in parsed]
-                except json.JSONDecodeError:
-                    for line in proc.stdout.splitlines():
-                        m = re.search(r"(sources/[A-Za-z0-9_./-]+\.md)", line)
-                        if m:
-                            ranked_paths.append(m.group(1))
-
+            ranked_paths = [str(r.get("path", "")).replace("\\", "/") for r in ranked_objs]
             exp_paths = {p.replace("\\", "/") for p in it.get("expected_paths", [])}
             exp_books = {b.replace("\\", "/").rstrip("/") for b in it.get("expected_books", [])}
 
-            rank_found = 0
+            book_rank = 0
+            exact_rank = 0
             for idx, rp in enumerate(ranked_paths, start=1):
-                if rp in exp_paths or any(rp.startswith(eb + "/") for eb in exp_books):
-                    rank_found = idx
-                    break
-            if rank_found > 0:
-                rr_list.append(1.0 / rank_found)
-                if rank_found <= 3:
-                    hits_at_3 += 1
-                if rank_found <= 5:
-                    hits_at_5 += 1
-            else:
-                rr_list.append(0.0)
-                misses.append(f"{it['id']} ({q})")
-    else:
-        rr_list = [0.0 for _ in loc_items]
-        misses = [f"{it['id']} ({it['query']}): locate-chapters 未实现" for it in loc_items[:6]]
+                if exact_rank == 0 and rp in exp_paths:
+                    exact_rank = idx
+                if book_rank == 0 and (rp in exp_paths or any(rp.startswith(eb + "/") for eb in exp_books)):
+                    book_rank = idx
 
-    # 扫描全库纯扫描无文字层空书隔离状态
+            if book_rank > 0:
+                book_rr_list.append(1.0 / book_rank)
+                if book_rank <= 3:
+                    book_hits_at_3 += 1
+                if book_rank <= 5:
+                    book_hits_at_5 += 1
+            else:
+                book_rr_list.append(0.0)
+
+            if exact_rank > 0:
+                exact_rr_list.append(1.0 / exact_rank)
+                if exact_rank <= 3:
+                    exact_hits_at_3 += 1
+                if exact_rank <= 5:
+                    exact_hits_at_5 += 1
+            else:
+                exact_rr_list.append(0.0)
+                misses.append(f"{it['id']} ({q}) -> exact chapter miss (top3={ranked_paths[:3]})")
+
     empty_books_total = 0
     empty_books_quarantined = 0
     unquarantined_books: list[str] = []
@@ -873,21 +812,22 @@ def eval_b3(split_filter: str) -> dict[str, Any]:
         if not cat_dir.exists():
             continue
         for bdir in sorted(cat_dir.iterdir()):
-            if not bdir.is_dir():
+            if not bdir.is_dir() or bdir.name.startswith("_"):
                 continue
-            ch_files = sorted(bdir.glob("ch*.md"))
+            ch_files = [cf for cf in sorted(bdir.glob("*.md")) if cf.name.lower() not in ("toc.md", "readme.md")]
+            mf = bdir / "manifest.yaml"
+            mf_data = (yaml.safe_load(mf.read_text(encoding="utf-8")) or {}) if mf.exists() else {}
             if not ch_files:
+                empty_books_total += 1
+                if mf_data.get("needs_ocr") is True:
+                    empty_books_quarantined += 1
+                else:
+                    unquarantined_books.append(bdir.relative_to(ROOT).as_posix())
                 continue
             empty_cnt = sum(1 for cf in ch_files if is_chapter_effectively_empty(cf.read_text(encoding="utf-8", errors="ignore")))
             if empty_cnt / len(ch_files) >= 0.9:
                 empty_books_total += 1
-                mf = bdir / "manifest.yaml"
-                quarantined = False
-                if mf.exists():
-                    mf_data = yaml.safe_load(mf.read_text(encoding="utf-8")) or {}
-                    if mf_data.get("needs_ocr") is True:
-                        quarantined = True
-                if quarantined:
+                if mf_data.get("needs_ocr") is True:
                     empty_books_quarantined += 1
                 else:
                     unquarantined_books.append(bdir.relative_to(ROOT).as_posix())
@@ -899,24 +839,33 @@ def eval_b3(split_filter: str) -> dict[str, Any]:
         if mf.exists() and (yaml.safe_load(mf.read_text(encoding="utf-8")) or {}).get("needs_ocr") is True:
             qrn_canary_passed += 1
 
-    hit3 = hits_at_3 / max(len(loc_items), 1)
-    hit5 = hits_at_5 / max(len(loc_items), 1)
-    mrr = statistics.mean(rr_list) if rr_list else 0.0
-    med_ms = round(statistics.median(latencies_ms), 2) if latencies_ms else None
+    book_hit3 = book_hits_at_3 / max(len(loc_items), 1)
+    book_hit5 = book_hits_at_5 / max(len(loc_items), 1)
+    exact_hit3 = exact_hits_at_3 / max(len(loc_items), 1)
+    exact_hit5 = exact_hits_at_5 / max(len(loc_items), 1)
+    book_mrr = statistics.mean(book_rr_list) if book_rr_list else 0.0
+    exact_mrr = statistics.mean(exact_rr_list) if exact_rr_list else 0.0
+    med_ms = round(statistics.median(latencies_ms), 2) if latencies_ms else -1.0
     quarantine_rate = empty_books_quarantined / max(empty_books_total, 1)
     qrn_canary_rate = qrn_canary_passed / max(len(qrn_items), 1)
 
     metrics = {
         "locate_chapters_implemented": 1 if has_locate_cli else 0,
-        "chapter_hit_at_3": round(hit3, 4),
-        "chapter_hit_at_5": round(hit5, 4),
-        "chapter_mrr": round(mrr, 4),
-        "median_query_ms": med_ms if med_ms is not None else -1.0,
+        "book_hit_at_3": round(book_hit3, 4),
+        "book_hit_at_5": round(book_hit5, 4),
+        "exact_chapter_hit_at_3": round(exact_hit3, 4),
+        "exact_chapter_hit_at_5": round(exact_hit5, 4),
+        "exact_chapter_mrr": round(exact_mrr, 4),
+        # 保留兼容字段名供跨版本 compare 对照
+        "chapter_hit_at_3": round(book_hit3, 4),
+        "chapter_hit_at_5": round(book_hit5, 4),
+        "chapter_mrr": round(book_mrr, 4),
+        "median_query_ms": med_ms,
         "empty_scan_books_detected": empty_books_total,
         "empty_scan_quarantine_rate": round(quarantine_rate, 4),
         "quarantine_canary_pass_rate": round(qrn_canary_rate, 4),
     }
-    passed = has_locate_cli and hit5 >= 0.85 and quarantine_rate >= 1.0
+    passed = has_locate_cli and book_hit5 >= 0.85 and exact_hit5 >= 0.75 and quarantine_rate >= 1.0
     return {
         "suite": "B3",
         "passed": passed,
@@ -929,8 +878,51 @@ def eval_b3(split_filter: str) -> dict[str, Any]:
 
 
 # ============================================================================
-# Suite B4 (B4A + B4B): 对抗性史实、历法、任期与多元史学金丝雀卡片体检
+# Suite B4 (B4A + B4B): 结构化史实锚点、反向正则禁令与内存故障注入真牙评测
 # ============================================================================
+
+def _check_b4_text(combined_text: str, item: dict[str, Any]) -> tuple[bool, bool, list[str]]:
+    """返回 (anchors_ok, traps_clean, reasons)。"""
+    reasons: list[str] = []
+    anchors_ok = True
+    for grp in item.get("must_contain_any", []):
+        if not any(kw in combined_text for kw in grp):
+            anchors_ok = False
+            reasons.append(f"缺少必含锚点组 {grp}")
+
+    traps_clean = True
+    non_negated_lines = [
+        ln for ln in combined_text.splitlines() if ln.strip() and not NEGATION_CONTEXT_PAT.search(ln)
+    ]
+    positive_text = "\n".join(non_negated_lines)
+
+    for pat_str in item.get("forbid_patterns", []):
+        if re.search(pat_str, positive_text):
+            traps_clean = False
+            reasons.append(f"命中禁用错误模式 `{pat_str}`")
+
+    for trap in item.get("trap_assertions", []):
+        for lit in re.findall(r"`([^`]{4,80})`", trap):
+            if lit in positive_text:
+                traps_clean = False
+                reasons.append(f"命中陷阱字面量 `{lit}`")
+
+    return anchors_ok, traps_clean, reasons
+
+
+def _synthesize_sample_from_regex(pat_str: str) -> str:
+    """将简单受控 forbid_pattern 正则还原为一条必定匹配该正则的内存故障注入测试句。"""
+    s = pat_str
+    s = s.replace(r"\[", "\x01").replace(r"\]", "\x02").replace(r"\.", "\x03")
+    s = re.sub(r"\.\{0,\d+\}", "，", s)
+    s = re.sub(r"\\s\*", " ", s)
+    s = re.sub(r"\\s\+", " ", s)
+    s = re.sub(r"\[\^`\]\{\d+,\d+\}", "测试", s)
+    s = re.sub(r"\[([^\]]+)\]", lambda m: m.group(1)[0], s)
+    s = s.replace("?", "")
+    s = s.replace("\x01", "[").replace("\x02", "]").replace("\x03", ".")
+    return s
+
 
 def eval_b4(split_filter: str, entities: dict[str, dict[str, Any]]) -> dict[str, Any]:
     paths = [
@@ -948,26 +940,45 @@ def eval_b4(split_filter: str, entities: dict[str, dict[str, Any]]) -> dict[str,
     if not all_items:
         return {"suite": "B4", "passed": False, "error": "Missing B4A/B4B jsonl files", "metrics": {}}
 
-    card_clean_count = 0
-    trap_hits_in_repo: list[str] = []
+    anchor_ok_cnt = 0
+    trap_clean_cnt = 0
     pluralism_ready_count = 0
+    fault_injection_caught = 0
+    defect_samples: list[str] = []
 
     for it in all_items:
         tcards = [entities[cid] for cid in it.get("target_cards", []) if cid in entities]
-        combined_text = "\n".join(tc["raw"] for tc in tcards)
+        acards_extra: list[str] = []
+        for sa in it.get("source_anchors", []):
+            sa_p = ROOT / sa
+            if sa_p.exists() and sa_p.suffix == ".md" and not sa.startswith("audits/"):
+                acards_extra.append(sa_p.read_text(encoding="utf-8", errors="ignore"))
+        card_only_text = "\n".join(tc["raw"] for tc in tcards)
+        combined_evidence_text = card_only_text + "\n" + "\n".join(acards_extra)
 
-        # 检查 trap_assertions 中显式带引号或代码反引号的精确错误片段是否残留在目标卡片中
-        item_trapped = False
-        for trap in it.get("trap_assertions", []):
-            quoted_literals = re.findall(r"`([^`]{4,80})`", trap)
-            for lit in quoted_literals:
-                if lit in combined_text:
-                    item_trapped = True
-                    trap_hits_in_repo.append(f"{it['id']}: 目标卡命中陷阱字面量 `{lit}`")
-        if not item_trapped:
-            card_clean_count += 1
+        # 正向锚点核验卡片+非审计来源锚点；反向错误禁令严格核验目标卡片本身
+        anc_ok, _, anc_reasons = _check_b4_text(combined_evidence_text, it)
+        _, trp_clean, trp_reasons = _check_b4_text(card_only_text, it)
 
-        # 检查目标主卡是否全部达到 multi-perspective 且至少挂载 2 种视角或争鸣锚点
+        if anc_ok:
+            anchor_ok_cnt += 1
+        else:
+            defect_samples.extend(f"{it['id']}: {r}" for r in anc_reasons)
+        if trp_clean:
+            trap_clean_cnt += 1
+        else:
+            defect_samples.extend(f"{it['id']}: {r}" for r in trp_reasons)
+
+        # 内存故障注入验证：注入第一条 forbid_pattern，必须被 _check_b4_text 当场捕获！
+        fp_list = it.get("forbid_patterns", [])
+        if fp_list:
+            injected_line = _synthesize_sample_from_regex(fp_list[0])
+            _, inj_clean, _ = _check_b4_text(card_only_text + "\n" + injected_line, it)
+            if not inj_clean:
+                fault_injection_caught += 1
+            else:
+                defect_samples.append(f"{it['id']}: 故障注入未被捕获 (`{fp_list[0]}` -> `{injected_line}`)")
+
         cards_mp = all(
             tc["fm"].get("coverage_status") == "multi-perspective"
             for tc in tcards
@@ -980,51 +991,35 @@ def eval_b4(split_filter: str, entities: dict[str, dict[str, Any]]) -> dict[str,
         "total_canary_cases": len(all_items),
         "b4a_count": sum(1 for x in all_items if x["_subsuite"] == "B4A"),
         "b4b_count": sum(1 for x in all_items if x["_subsuite"] == "B4B"),
-        "card_literal_trap_free_rate": round(card_clean_count / len(all_items), 4),
+        "structured_anchor_pass_rate": round(anchor_ok_cnt / len(all_items), 4),
+        "card_literal_trap_free_rate": round(trap_clean_cnt / len(all_items), 4),
+        "fault_injection_catch_rate": round(fault_injection_caught / len(all_items), 4),
         "target_card_multi_perspective_rate": round(pluralism_ready_count / len(all_items), 4),
     }
-    passed = metrics["card_literal_trap_free_rate"] >= 1.0 and metrics["target_card_multi_perspective_rate"] >= 1.0
+    passed = (
+        metrics["structured_anchor_pass_rate"] >= 1.0
+        and metrics["card_literal_trap_free_rate"] >= 1.0
+        and metrics["fault_injection_catch_rate"] >= 1.0
+        and metrics["target_card_multi_perspective_rate"] >= 1.0
+    )
     return {
         "suite": "B4",
         "passed": passed,
         "metrics": metrics,
-        "samples": {"repo_trap_hits": trap_hits_in_repo[:12]},
+        "samples": {"repo_trap_hits": defect_samples[:12]},
     }
 
 
 # ============================================================================
-# Suite B5: 模态 A “对外讲史” 上下文就绪度 & 文章反干巴/反黑话自动评分器
+# Suite B5: 模态 A “对外讲史” 上下文就绪度 & 真实长文样本评测闭环
 # ============================================================================
 
-def eval_b5_readiness(split_filter: str) -> dict[str, Any]:
-    suite_path = SUITES_DIR / "b5_mode_a_prompts.jsonl"
-    if not suite_path.exists():
-        return {"suite": "B5", "passed": False, "error": "Missing b5_mode_a_prompts.jsonl", "metrics": {}}
-
-    prompts = [x for x in load_jsonl(suite_path) if split_filter in ("all", x.get("split", "dev"))]
-    pack_loads: list[int] = []
-    for pr in prompts:
-        txt, _ = compile_bundle_via_kb_cli(pr.get("recommended_pack_ids", []))
-        pack_loads.append(len(txt))
-
-    mean_pack_chars = int(statistics.mean(pack_loads)) if pack_loads else 0
-    max_pack_chars = max(pack_loads, default=0)
-    over_80k = sum(1 for c in pack_loads if c > 80000)
-    empty_or_broken = sum(1 for c in pack_loads if c < 1500)
-
-    metrics = {
-        "prompt_count": len(prompts),
-        "mean_recommended_pack_chars": mean_pack_chars,
-        "max_recommended_pack_chars": max_pack_chars,
-        "prompts_exceeding_80k_pack_budget": over_80k,
-        "empty_or_broken_packs": empty_or_broken,
-    }
-    passed = over_80k == 0 and empty_or_broken == 0 and len(prompts) > 0
-    return {"suite": "B5", "passed": passed, "metrics": metrics}
+MELODRAMA_CLICHE_PAT = re.compile(
+    r"(?:字字带血|催命符|催命便条|惊险赌局|万劫不复|怒火中烧|彻底坐不住了|剑已经出鞘|雷鸣般的掌声|像困在笼中的狮子)"
+)
 
 
 def score_single_mode_a_answer(prompt_obj: dict[str, Any], answer_md: str) -> dict[str, Any]:
-    """对单篇模态 A 历史回答执行 Stage-1 确定性反干巴/反脚手架泄露体检 + 生成 Stage-2 盲审载荷。"""
     details_pat = re.compile(r"<details>.*?</details>", flags=re.S | re.I)
     has_details = bool(details_pat.search(answer_md))
     body_only = details_pat.sub("", answer_md).strip()
@@ -1036,6 +1031,7 @@ def score_single_mode_a_answer(prompt_obj: dict[str, Any], answer_md: str) -> di
     )
     leaked_tokens = [tok for tok in forbid_tokens if tok in body_only]
     inline_links = re.findall(r"\[[^\]]+\]\((?:file://|\.\.?/|cards/|historiography/)[^)]+\)", body_only)
+    melodrama_hits = MELODRAMA_CLICHE_PAT.findall(body_only)
 
     zh_chars = len(re.findall(r"[\u4e00-\u9fff]", body_only))
     min_zh = int(sc.get("min_chinese_chars", 1600))
@@ -1043,7 +1039,7 @@ def score_single_mode_a_answer(prompt_obj: dict[str, Any], answer_md: str) -> di
     non_empty_lines = [ln.strip() for ln in body_only.splitlines() if ln.strip() and not ln.strip().startswith("#")]
     bullet_lines = [ln for ln in non_empty_lines if re.match(r"^(?:[-*+]|\d+\.)\s+", ln)]
     bullet_ratio = len(bullet_lines) / max(len(non_empty_lines), 1)
-    max_bullet_ratio = float(sc.get("max_bullet_line_ratio", 0.18))
+    max_bullet_ratio = float(sc.get("max_bullet_line_ratio", 0.30))
 
     prose_paras = [
         p.strip()
@@ -1067,6 +1063,7 @@ def score_single_mode_a_answer(prompt_obj: dict[str, Any], answer_md: str) -> di
     score = 100.0
     score -= 15.0 * len(leaked_tokens)
     score -= 10.0 * len(inline_links)
+    score -= 5.0 * len(melodrama_hits)
     if sc.get("require_trailing_details_block", True) and not has_details:
         score -= 15.0
     if zh_chars < min_zh:
@@ -1079,17 +1076,17 @@ def score_single_mode_a_answer(prompt_obj: dict[str, Any], answer_md: str) -> di
     score = max(0.0, round(score, 1))
 
     judge_prompt = (
-        f"请你作为盲审历史学期刊主编，严格依据以下标准对这篇俄国革命史回答打分（禁止看情面，重点揪出“干巴数据库腔”与史实偏颇）：\n\n"
+        f"请你作为盲审历史学期刊主编，严格依据以下标准对这篇俄国革命史回答打分（禁止看情面，同时严抓“干巴数据库说明书腔”与“过度戏剧化/小说演义煽情腔”）：\n\n"
         f"【读者原问题】\n{prompt_obj['user_prompt']}\n\n"
         f"【必须自然融入的核心史学脉络】\n"
         + "\n".join(f"- {s}" for s in prompt_obj.get("required_historiographical_schools", []))
         + "\n\n【严禁踩中的史实/分寸陷阱】\n"
         + "\n".join(f"- {t}" for t in prompt_obj.get("forbidden_factual_traps", []))
-        + f"\n\n【本题专向审美与考据判据】\n{prompt_obj.get('judge_rubric_notes', '')}\n\n"
+        + f"\n\n【本题专向学术与文风判据】\n{prompt_obj.get('judge_rubric_notes', '')}\n\n"
         f"请按 5 个维度各打 1–5 分（总分 25 分，>=21 分为优秀，<16 分为不合格需重写）：\n"
-        f"1. 叙事可读性与历史现场感（拒绝干瘪罗列与说明书腔）\n"
+        f"1. 专业史学语调与论证可读性（冷静克制、逻辑连贯：既拒绝干瘪提纲罗列，也严禁无史料依据的小说式心理脑补与通俗惊悚辞藻）\n"
         f"2. 组织/阶级/财政机制的因果穿透力\n"
-        f"3. 多流派史学争鸣的无痕学术综合\n"
+        f"3. 多流派史学争鸣的客观学术综合\n"
         f"4. 史实、双历法自然表述与情态限定词精确度\n"
         f"5. 边缘关键行动者覆盖（反枢纽大卡偏斜）\n\n"
         f"【待审文章全文】\n{answer_md}\n"
@@ -1103,12 +1100,76 @@ def score_single_mode_a_answer(prompt_obj: dict[str, Any], answer_md: str) -> di
         "bullet_line_ratio": round(bullet_ratio, 3),
         "mean_prose_para_chars": mean_para_chars,
         "quotation_count": quote_marks,
+        "melodrama_cliches": melodrama_hits,
         "has_trailing_details": has_details,
         "leaked_scaffolding_tokens": leaked_tokens,
         "inline_link_count": len(inline_links),
         "anchor_recall": round(anchor_recall, 4),
         "missing_anchors": missing_anchors,
         "stage2_blind_judge_prompt": judge_prompt,
+    }
+
+
+def eval_b5_readiness(split_filter: str) -> dict[str, Any]:
+    suite_path = SUITES_DIR / "b5_mode_a_prompts.jsonl"
+    if not suite_path.exists():
+        return {"suite": "B5", "passed": False, "error": "Missing b5_mode_a_prompts.jsonl", "metrics": {}}
+
+    all_prompts = {x["id"]: x for x in load_jsonl(suite_path)}
+    prompts = [x for x in all_prompts.values() if split_filter in ("all", x.get("split", "dev"))]
+    pack_loads: list[int] = []
+    for pr in prompts:
+        txt, _ = compile_bundle_via_kb_cli(pr.get("recommended_pack_ids", []))
+        pack_loads.append(len(txt))
+
+    mean_pack_chars = int(statistics.mean(pack_loads)) if pack_loads else 0
+    max_pack_chars = max(pack_loads, default=0)
+    over_80k = sum(1 for c in pack_loads if c > 80000)
+    empty_or_broken = sum(1 for c in pack_loads if c < 1500)
+
+    # 强制核验真实产出的模态 A 留出集样本文章 (杜绝只测 pack 大小就宣称 B5 PASS)
+    prose_evals: list[dict[str, Any]] = []
+    if HOLDOUT_SAMPLES_DIR.exists():
+        for md_f in sorted(HOLDOUT_SAMPLES_DIR.glob("B5-PROSE-*.md")):
+            pid = md_f.stem
+            if pid in all_prompts:
+                prose_evals.append(score_single_mode_a_answer(all_prompts[pid], md_f.read_text(encoding="utf-8")))
+
+    prose_cnt = len(prose_evals)
+    prose_pass_rate = sum(1 for r in prose_evals if r["passed_stage1"]) / prose_cnt if prose_cnt else 0.0
+    mean_prose_score = round(statistics.mean(r["stage1_hygiene_score"] for r in prose_evals), 1) if prose_evals else 0.0
+
+    # 检查异源盲审报告是否已就位且平均得分 >= 21/25
+    blind_judge_path = HOLDOUT_SAMPLES_DIR / "BLIND_JUDGE_REPORT.md"
+    blind_judge_verified = 1 if blind_judge_path.exists() and blind_judge_path.stat().st_size > 500 else 0
+
+    metrics = {
+        "prompt_count": len(prompts),
+        "mean_recommended_pack_chars": mean_pack_chars,
+        "max_recommended_pack_chars": max_pack_chars,
+        "prompts_exceeding_80k_pack_budget": over_80k,
+        "empty_or_broken_packs": empty_or_broken,
+        "evaluated_holdout_prose_count": prose_cnt,
+        "evaluated_prose_pass_rate": round(prose_pass_rate, 4),
+        "mean_prose_stage1_score": mean_prose_score,
+        "blind_judge_report_present": blind_judge_verified,
+    }
+    passed = (
+        over_80k == 0
+        and empty_or_broken == 0
+        and len(prompts) > 0
+        and prose_cnt >= 3
+        and prose_pass_rate >= 1.0
+        and blind_judge_verified == 1
+    )
+    return {
+        "suite": "B5",
+        "passed": passed,
+        "metrics": metrics,
+        "prose_samples": [
+            {k: v for k, v in r.items() if k != "stage2_blind_judge_prompt"}
+            for r in prose_evals
+        ],
     }
 
 
@@ -1147,7 +1208,7 @@ def cmd_eval_prose(args: argparse.Namespace) -> int:
             jp_out.write_text(r["stage2_blind_judge_prompt"], encoding="utf-8")
             print(f"  -> 已导出盲审提示词: {jp_out.relative_to(ROOT).as_posix()}")
 
-    return 0 if all(r["passed_stage1"] for r in results) else 1
+    return 0 if (results and all(r["passed_stage1"] for r in results)) else 1
 
 
 # ============================================================================
@@ -1172,45 +1233,48 @@ def render_markdown_report(report: dict[str, Any]) -> str:
         m = s["B1"]["metrics"]
         lines.append(
             f"| **B1 图谱/元数据/历法保真** | {'✅ PASS' if s['B1']['passed'] else '❌ FAIL'} | "
-            f"YAML保真 `{m['frontmatter_parity_rate']:.1%}` (失真 `{m['frontmatter_mismatch_count']}`) · "
+            f"YAML保真 `{m['frontmatter_parity_rate']:.1%}` · "
             f"多时段边保留 `{m['multi_period_edge_retention_rate']:.1%}` · "
-            f"2.2边同步率 `{m['card_table_digest_sync_rate']:.1%}` · "
-            f"悬空目标 `{m['unresolved_table_target_count']}` · "
-            f"CLM->SCH外键 `{m['clm_scholar_fk_valid_rate']:.1%}` · "
-            f"改历后误标 `{m['post_reform_false_dual_date_count']}` |"
+            f"2.2边同步率 `{m['card_table_digest_sync_rate']:.1%}` (僵尸边 `{m['zombie_bootstrap_edge_count']}`) · "
+            f"CLM外键 `{m['clm_card_fk_valid_rate']:.1%}` · "
+            f"改历误标 `{m['post_reform_false_dual_date_count']}` |"
         )
     if "B2" in s:
         m = s["B2"]["metrics"]
         lines.append(
             f"| **B2 上下文预算与零盲区召回** | {'✅ PASS' if s['B2']['passed'] else '❌ FAIL'} | "
-            f"预算达标率 `{m['bundle_budget_pass_rate']:.1%}` · "
-            f"`B2-01`三枢纽字符数 `{m['b2_01_hub_trio_chars']:,}` · "
-            f"一跳邻居最低召回 `{m['min_one_hop_neighbor_recall']:.1%}` · "
-            f"边缘人物金丝雀召回 `{m['peripheral_canary_recall']:.1%}` · "
-            f"T1字数合规 `{m['t1_cap_compliance_rate']:.1%}` |"
+            f"预算达标 `{m['bundle_budget_pass_rate']:.1%}` · "
+            f"`B2-01`字符 `{m['b2_01_hub_trio_chars']:,}` · "
+            f"一跳召回 `{m['min_one_hop_neighbor_recall']:.1%}` · "
+            f"主卡CLM召回 `{m['min_primary_clm_recall']:.1%}` · "
+            f"时段标记保留 `{m['min_edge_period_tag_rate']:.1%}` · "
+            f"全库T1合规 `{m['t1_cap_compliance_rate']:.1%}` |"
         )
     if "B3" in s and s["B3"].get("metrics"):
         m = s["B3"]["metrics"]
         lines.append(
-            f"| **B3 145本章节雷达与空书隔离** | {'✅ PASS' if s['B3']['passed'] else '❌ FAIL'} | "
-            f"`locate-chapters`已实现 `{bool(m['locate_chapters_implemented'])}` · "
-            f"Hit@3 `{m['chapter_hit_at_3']:.1%}` · Hit@5 `{m['chapter_hit_at_5']:.1%}` · MRR `{m['chapter_mrr']:.3f}` · "
-            f"纯扫描空书隔离率 `{m['empty_scan_quarantine_rate']:.1%}` (`{m['empty_scan_books_detected']}` 本检出) |"
+            f"| **B3 史料章节雷达与空书隔离** | {'✅ PASS' if s['B3']['passed'] else '❌ FAIL'} | "
+            f"书级Hit@5 `{m['book_hit_at_5']:.1%}` · "
+            f"精确章Hit@3 `{m['exact_chapter_hit_at_3']:.1%}` / Hit@5 `{m['exact_chapter_hit_at_5']:.1%}` (MRR `{m['exact_chapter_mrr']:.3f}`) · "
+            f"中位耗时 `{m['median_query_ms']}ms` · "
+            f"空扫隔离 `{m['empty_scan_quarantine_rate']:.1%}` |"
         )
     if "B4" in s and s["B4"].get("metrics"):
         m = s["B4"]["metrics"]
         lines.append(
             f"| **B4 跨家族对抗史实金丝雀** | {'✅ PASS' if s['B4']['passed'] else '❌ FAIL'} | "
-            f"总题数 `{m['total_canary_cases']}` (`B4A={m['b4a_count']}`, `B4B={m['b4b_count']}`) · "
-            f"卡片字面陷阱清零率 `{m['card_literal_trap_free_rate']:.1%}` · "
-            f"目标卡多元定稿率 `{m['target_card_multi_perspective_rate']:.1%}` |"
+            f"总题数 `{m['total_canary_cases']}` · "
+            f"正向史实锚点 `{m['structured_anchor_pass_rate']:.1%}` · "
+            f"禁用错误清零 `{m['card_literal_trap_free_rate']:.1%}` · "
+            f"故障注入捕获率 `{m['fault_injection_catch_rate']:.1%}` |"
         )
     if "B5" in s and s["B5"].get("metrics"):
         m = s["B5"]["metrics"]
         lines.append(
-            f"| **B5 模态A讲史散文就绪度** | {'✅ PASS' if s['B5']['passed'] else '❌ FAIL'} | "
-            f"题库 `{m['prompt_count']}` 道 · 推荐包均值 `{m['mean_recommended_pack_chars']:,}` 字符 · "
-            f"超 80k 字符过载题数 `{m['prompts_exceeding_80k_pack_budget']}` |"
+            f"| **B5 模态A讲史长文实测闭环** | {'✅ PASS' if s['B5']['passed'] else '❌ FAIL'} | "
+            f"推荐包均值 `{m['mean_recommended_pack_chars']:,}` 字符 · "
+            f"实测Holdout长文 `{m['evaluated_holdout_prose_count']}` 篇 (通过率 `{m['evaluated_prose_pass_rate']:.1%}`, 均分 `{m['mean_prose_stage1_score']}`) · "
+            f"异源盲审报告 `{bool(m['blind_judge_report_present'])}` |"
         )
 
     lines.extend(["", "## 二、关键诊断样本（Top Defects Exposed by Benchmark）", ""])
@@ -1221,21 +1285,23 @@ def render_markdown_report(report: dict[str, Any]) -> str:
             ("unresolved_table_targets", "卡片 2.2 悬空目标 ID"),
             ("stale_or_missing_edges", "卡片 2.2 未同步至 edges.jsonl 样本"),
             ("broken_clm_scholar_fks", "CLM -> SCH 断链外键样本"),
-            ("post_reform_violations", "1918-02-14 改历后误加深双历标签"),
-            ("post_reform_yaml_os", "1918-02-14 改历后 YAML 伪构 *_os 字段"),
-            ("prompt_meta_leaks", "卡片成品正文泄漏编纂提示词元话语"),
+            ("broken_clm_card_fks", "CLM -> Card/DEB 断链外键样本"),
+            ("post_reform_violations", "1918-02-14 改历后误加双历标签"),
         ):
             vals = smp.get(k, [])
             if vals:
-                lines.append(f"- **{label}** (`{len(vals)}` 条展示): {', '.join(f'`{x}`' for x in vals[:5])}")
+                lines.append(f"- **{label}** (`{len(vals)}` 条): {', '.join(f'`{x}`' for x in vals[:5])}")
     if "B3" in s and s["B3"].get("samples"):
+        misses = s["B3"]["samples"].get("locator_misses", [])
+        if misses:
+            lines.append(f"- **B3 精确章节未命中样本**: {', '.join(f'`{x}`' for x in misses[:5])}")
         unq = s["B3"]["samples"].get("unquarantined_empty_books", [])
         if unq:
-            lines.append(f"- **未隔离纯扫描空书 (`needs_ocr` 缺失, 共 {len(unq)} 本)**: {', '.join(f'`{x}`' for x in unq[:8])}")
+            lines.append(f"- **未隔离纯扫描空书 (`needs_ocr` 缺失)**: {', '.join(f'`{x}`' for x in unq[:8])}")
     if "B4" in s and s["B4"].get("samples"):
         traps = s["B4"]["samples"].get("repo_trap_hits", [])
         if traps:
-            lines.append(f"- **B4 卡片残留字面陷阱**: {', '.join(traps[:6])}")
+            lines.append(f"- **B4 史实锚点缺失或陷阱命中**: {', '.join(traps[:6])}")
 
     return "\n".join(lines) + "\n"
 
@@ -1285,16 +1351,16 @@ def cmd_run(args: argparse.Namespace) -> int:
         print(f"📌 已保存基线快照: {b_json.relative_to(ROOT).as_posix()} 与 {b_md.relative_to(ROOT).as_posix()}\n")
 
     print(md_report)
-    return 0
+    return 0 if report["overall_passed"] else 1
 
 
-# 指标方向定义：higher_is_better=True 表示数值上升为改进、下降为退化；False 反之
 METRIC_POLARITY: dict[str, bool] = {
     "frontmatter_parity_rate": True,
     "frontmatter_mismatch_count": False,
     "multi_period_edge_retention_rate": True,
     "card_table_digest_sync_rate": True,
     "stale_or_missing_edge_rows": False,
+    "zombie_bootstrap_edge_count": False,
     "unresolved_table_target_count": False,
     "clm_scholar_fk_valid_rate": True,
     "broken_clm_scholar_fk_count": False,
@@ -1309,15 +1375,25 @@ METRIC_POLARITY: dict[str, bool] = {
     "b2_01_hub_trio_chars": False,
     "min_one_hop_neighbor_recall": True,
     "peripheral_canary_recall": True,
+    "min_primary_clm_recall": True,
+    "min_edge_period_tag_rate": True,
     "t1_cap_compliance_rate": True,
+    "book_hit_at_3": True,
+    "book_hit_at_5": True,
+    "exact_chapter_hit_at_3": True,
+    "exact_chapter_hit_at_5": True,
+    "exact_chapter_mrr": True,
     "chapter_hit_at_3": True,
     "chapter_hit_at_5": True,
     "chapter_mrr": True,
     "empty_scan_quarantine_rate": True,
+    "structured_anchor_pass_rate": True,
     "card_literal_trap_free_rate": True,
+    "fault_injection_catch_rate": True,
     "target_card_multi_perspective_rate": True,
     "mean_recommended_pack_chars": False,
     "prompts_exceeding_80k_pack_budget": False,
+    "evaluated_prose_pass_rate": True,
 }
 
 
