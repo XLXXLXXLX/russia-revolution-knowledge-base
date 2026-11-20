@@ -1,14 +1,14 @@
 ---
 id: CLM-cheka-chronicle-suppression-of-socialist-rivals
 type: claim
-scholar: SCH-ratkovsky-igor
+scholar: SCH-ratkovsky-ilya
 work_title: "Хроника красного террора ВЧК. Карающий меч революции"
 publication_year: 2017
 source_tier: A
 local_source_path: "sources/primary/cheka_red_terror_chronicle_zh/ch05_section.md#L41-L107"
 original_pages: "EPUB OPS/ch1-4.xhtml; OPS/ch1-5.xhtml; OPS/ch1-9.xhtml; OPS/ch1-10.xhtml; OPS/ch1-15.xhtml; OPS/ch1-16.xhtml（提取文本无印刷页码）"
 targets_cards: ["ORG-cheka-ogpu", "ORG-left-srs", "ORG-mensheviks", "PER-dzerzhinsky", "PER-zinoviev", "PER-lenin"]
-debate: DEB-1918-red-terror-origins
+debate: DEB-1918-red-terror-and-civil-war-origins
 supports: []
 rebuts: []
 qualifies: ["CLM-leggett-1981-red-terror-institutionalization"]

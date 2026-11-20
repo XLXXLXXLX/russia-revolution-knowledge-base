@@ -7,8 +7,8 @@ publication_year: 1967
 source_tier: A
 local_source_path: "sources/monographs/getzler_1967_martov/ch07_pages_176-200.md#L840-L1142"
 original_pages: "pp. 168-191"
-targets_cards: ["PER-martov-l", "ORG-mensheviks", "EVT-1917-october-revolution"]
-debate: DEB-1917-1920-soviet-opposition-and-socialist-coalition
+targets_cards: ["PER-martov-l", "ORG-mensheviks", "EVT-1917-10-october-revolution"]
+debate: DEB-1917-all-socialist-coalition-vikzhel-missed-chance
 supports: []
 rebuts: []
 qualifies: []

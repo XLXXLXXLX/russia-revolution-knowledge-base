@@ -1,14 +1,9 @@
-# 1-Hop 平衡上下文包：`PER-wrangel` (彼得·弗兰格尔)
+# 1-Hop 去重平衡上下文包：`PER-wrangel`
 
-> 本文件由 `python scripts/kb.py pack` 自动编译，旨在将失控的 `1+N` 随机读取压缩为**等权重、带时效边实质与史学盲区告警**的单次全景读取。
+> 由 `python scripts/kb.py pack` 动态编译：保留 **100% 一跳邻居与多时段关系边**，跨卡自动去重争鸣与时间线，并关联学者学派 (`SCH-*`)。
 
-## 0. 认知完备度与反偏斜仪表盘 (Epistemic & Skew Warnings)
-- **主卡路径**: `cards/people/PER-wrangel.md`
-- **完备度等级**: `multi-perspective`
-- **已覆盖视角**: `civil-war-military-mawdsley, white-structural-defeat, social-history-figes, diplomatic-intervention, anti-bolshevik-memoir`
-- **待补齐视角**: `crimean-agrarian-implementation-archival, kenez-1977-direct-monograph, rovs-emigre-intelligence-archives`
-- **偏斜风险提示**:
-  - ⚠️ 主卡显式声明尚缺以下视角待补: `crimean-agrarian-implementation-archival, kenez-1977-direct-monograph, rovs-emigre-intelligence-archives`。
+## 0. 认知完备度与反偏斜仪表盘
+- **`PER-wrangel`** (彼得·弗兰格尔 | `cards/people/PER-wrangel.md` | `multi-perspective`): 已覆盖=`civil-war-military-mawdsley, white-structural-defeat, social-history-figes, diplomatic-intervention, anti-bolshevik-memoir`；待补=`crimean-agrarian-implementation-archival, kenez-1977-direct-monograph, rovs-emigre-intelligence-archives`
 
 ## 1. 主卡核心层 ([T1] + [T2])
 ## [T1] 150字定性微摘要
@@ -41,39 +36,16 @@
   - **[Kenez 口号与结局引述（经 Mawdsley 二手转引，原著未入库）]**（`ch15 p. 272 / #L862` 仅转引“用右翼手腕推行左翼政策”命题，注出 Kenez 1977 vol. 2, p. 267；`ch16#L89–L91`）：彼得·凯内兹（1977）原著尚未入库；站内仅能确认 Mawdsley 借用其“用右翼手腕推行左翼政策”概括及克里米亚战败节点引注，而不宜将 Mawdsley 自身对“弗兰格尔帮”军事独裁体制的概括自动划归 Kenez 原论。
   - **[白卫流亡回忆录本位 vs 苏联“第三次协约国远征”叙事]**：弗兰格尔《回忆录》将1919年败局归咎于邓尼金拒绝其伏尔加河东进方案，并塑造1920年护民出海的“诺亚方舟”形象（莫兹利以高尔察克5月早已溃败且伏尔加西岸无铁路予以证伪，`ch11 p. 172`）；苏联史学将其与波兰并称“协约国第三次远征”之双手，莫兹利据英法外交档案指出英国1920年4–6月已断援，法国8月承认亦仅附苛刻偿债条件、实际军火有限（`ch15 pp. 275–276`）。
 
-## 2. 一跳邻域等权重微摘要 (共 7 个关联节点，严防大卡霸占上下文)
-### 邻居节点: `EVT-1918-1920-russian-civil-war`
-- **时效关系边** (`PER-wrangel` → `EVT-1918-1920-russian-civil-war` | `final-white-commander` | 有效时段: `1918.08–1920.11`): 1919年夏攻克察里津，1920年4–11月在克里米亚领导白军最后一战并组织14.6万人海上撤离
-- **节点定性微摘要 [T1]** (完备度 `draft`): 1918–1920年苏俄内战：布尔什维克依托“苏托邦”人口、军火与莫斯科铁路枢纽内线机动，先后粉碎高尔察克、邓尼金、弗兰格尔白军及马赫诺黑军，并压制社革党第三力量；协约国干涉与边疆民族武装相互牵制。
+## 2. 一跳邻域全量微摘要目录 (去重后共 7 个节点，0 截断)
+- **`EVT-1917-1920-ukrainian-revolution-rada-hetmanate-and-sovietization`**（乌克兰革命：中央拉达、盖特曼政权、执政内阁与苏维埃化（1917—1920））: 1917—1920年乌克兰多政权角逐与苏维埃化进程。中央拉达、德扶盖特曼政权、执政内阁与苏维埃政权交替据守基辅。1918年首轮苏维埃政权迫于德奥军推进撤离，1919年次轮因征粮、国营农场与俄化作风激发农村起义及白军攻势而溃败；1919年底列宁调向并吸纳斗争派，1920年底缔结俄乌盟约。 ‖ `→PER-wrangel`[last-white-challenger|1920.06–1920.11]: 借波苏战事自克里米亚北出北陶里达争夺乌克兰南翼，11月被伏龙芝率红军—马赫诺联军逐出克里米亚 ； `←PER-wrangel`[late-ally-seeker-and-combatant|1920.05–1920.11]: 1920年北出塔夫利达并在苏波战争背景下面向乌克兰民族派与地方武装谋求反布统一战线未果
+- **`EVT-1918-1920-russian-civil-war`**（俄国内战（1918–1920））: 1918至1920年红白主战场的内战中，布尔什维克依托中央腹地、军火遗产与铁路机动击败分散白军；征粮和恐怖又激起工农反抗。乌克兰及外高加索的民族国家竞争不能归入简单红白对决，克里米亚撤离仅标志主要白军战线收束，边疆与农民战争仍在延续。 ‖ `→PER-wrangel`[crimean_white_successor|1920.04—11]: 接掌残部、推有限土改并组织克里米亚撤离，不是全军被歼 ； `←PER-wrangel`[final-white-commander|1918.08–1920.11]: 1919年夏攻克察里津，1920年4–11月在克里米亚领导白军最后一战并组织14.6万人…
+- **`PER-denikin`**（安东·邓尼金）: 俄国陆军中将、志愿军与南俄武装力量总司令（1872—1947）。1919年夏秋依《莫斯科训令》三路北伐逼近奥廖尔与图拉；因大俄罗斯主义排斥边疆民族及哥萨克、纵容“沙拉班”地主复辟与大规模反犹屠杀致后方崩溃，1920年3月自新罗西斯克仓皇撤退辞职，流亡欧美著史终老。 ‖ `→PER-wrangel`[rival-subordinate -> successor|1919.05–1920.04]: 1919年7月因《莫斯科训令》分兵路线与弗兰格尔决裂并在1920年初将其免职流放，3月新罗西斯克惨败后被迫交权 ； `←PER-wrangel`[subordinate-rival -> successor|1919.05–1920.04]: 围绕1919《莫斯科训令》东进或三路分兵与后方治理决裂，被免职流放后于1920年4月接替…
+- **`PER-frunze`**（米哈伊尔·伏龙芝）: 米哈伊尔·伏龙芝（1885–1925），红军内战名将与军事改革家。1919年东线重创高尔察克、1920年南线攻克克里米亚并肃清马赫诺部；1923年十二大迫斯大林民族政策让步；1925年1月接替托洛茨基掌陆海军人民委员部，推行基干与民兵混合军改及一长制，10月手术后猝逝。 ‖ `→PER-wrangel`[defeated-opponent|1920.10–11]: 统领南方面军强渡锡瓦什、破佩列科普防线，迫弗兰格尔11月中撤离克里米亚，结束欧洲俄国大规模白军抵抗 ； `←PER-wrangel`[decisive-military-opponent|1920.09–1920.11]: 伏龙芝统率红军南方面军在北塔夫利达与彼列科普—锡瓦什战役中击溃弗兰格尔“俄罗斯军队”
+- **`PER-struve`**（彼得·伯恩哈多维奇·司徒卢威）: 司徒卢威从合法马克思主义者、1898年社民工党宣言起草人转向宪政与强国自由主义。1902年创办《解放》，1909年参与《路标》批判激进传统；1915年反对米留可夫妥协路线退出立宪民主党中央。内战从莫斯科全国中心转向南俄白军，1920年掌弗兰格尔政府外交，后流亡巴黎。 ‖ `→PER-wrangel`[foreign-minister-ally|1920.04–1920.11]: 在弗兰格尔南俄政府负责外交 ； `←PER-wrangel`[foreign-minister-ally|1920.04–1920.11]: 任命司徒卢威执掌克里米亚南俄政府外交事务，争取到1920年8月法国对政权的事实承认
+- **`PER-makhno`**（涅斯托尔·马赫诺）: 乌克兰古利亚伊波列无政府共产主义农民统帅（1888–1934）。创建“革命起义军（黑军）”与自由苏维埃实验；内战中与红军多次合作、破裂，1919年秋破袭邓尼金后方，1920年11月其部队参加克里米亚战役，随即遭红军全面围剿，1921年越境流亡并客居巴黎。 ‖ `←PER-wrangel`[rejected-overture-enemy|1920.07–1920.11]: 弗兰格尔派使者招揽马赫诺抗共遭绞死，黑军部队随即协同红军作战突破克里米亚防线
+- **`PER-kolchak`**（亚历山大·高尔察克）: 俄国海军上将与西伯利亚白军最高统帅（1874—1920）。曾任黑海舰队司令；1918年11月18日鄂木斯克政变推翻社革党督政府自任“全俄最高执政”，终结民主反革命第三条道路；1919年春攻遭伏龙芝红军击溃，后方游击战与腐败加剧总崩溃，1920年2月7日在伊尔库茨克被处决。 ‖ `←PER-wrangel`[unreached-eastern-ally|1919.06–1919.08]: 弗兰格尔主张自察里津沿伏尔加河继续北进接应高尔察克，但因高尔察克早溃而落空
 
-### 邻居节点: `PER-denikin`
-- **时效关系边** (`PER-wrangel` → `PER-denikin` | `subordinate-rival -> successor` | 有效时段: `1919.05–1920.04`): 围绕1919《莫斯科训令》东进或三路分兵及后方治理与邓尼金公开决裂，1920年4月接替其统帅职权
-- **时效关系边** (`PER-denikin` → `PER-wrangel` | `rival-subordinate -> successor` | 有效时段: `1919.05–1920.04`): 1919年7月因《莫斯科训令》分兵路线与弗兰格尔决裂并在1920年初将其免职流放，3月新罗西斯克惨败后被迫交权
-- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 俄国陆军中将、志愿军与南俄武装力量总司令（1872—1947）。1919年夏秋依《莫斯科训令》三路北伐逼近奥廖尔与图拉；因大俄罗斯主义排斥边疆民族及哥萨克、纵容“沙拉班”地主复辟与大规模反犹屠杀致后方崩溃，1920年3月自新罗西斯克仓皇撤退辞职，流亡欧美著史终老。
-
-### 邻居节点: `PER-struve`
-- **时效关系边** (`PER-wrangel` → `PER-struve` | `foreign-minister-ally` | 有效时段: `1920.04–1920.11`): 任命司徒卢威执掌克里米亚南俄政府外交事务，争取到1920年8月法国对政权的事实承认
-- **时效关系边** (`PER-struve` → `PER-wrangel` | `foreign-minister-ally` | 有效时段: `1920.04–1920.11`): 在弗兰格尔南俄政府负责外交
-- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 经济学家、政论家与俄国自由派政治家。司徒卢威从1890年代的合法马克思主义者、1898年俄国社会民主工党《宣言》起草人，转向主张宪政与强大民族国家的自由主义；1902年在斯图加特创办《解放》，1909年参与《路标》，批判激进知识分子传统；1915年因反对米留可夫的妥协路线退出立宪民主党中央委员会。内战时从莫斯科“全国中心”转向南俄白军，1920年任弗兰格尔政府外交主管，后流亡并逝于巴黎。
-
-### 邻居节点: `PER-frunze`
-- **时效关系边** (`PER-wrangel` → `PER-frunze` | `decisive-military-opponent` | 有效时段: `1920.09–1920.11`): 伏龙芝统率红军南方面军在北塔夫利达与彼列科普—锡瓦什战役中击溃弗兰格尔“俄罗斯军队”
-- **节点定性微摘要 [T1]** (完备度 `draft`): 米哈伊尔·伏龙芝（1885–1925），内战红军名将：1919年东线击溃高尔察克，1920年南线攻克弗兰格尔克里米亚；1923年十二大迫斯大林民族政策让步，1924–1925主持军事改革接替托洛茨基，1925年10月手术后猝死。
-
-### 邻居节点: `PER-makhno`
-- **时效关系边** (`PER-wrangel` → `PER-makhno` | `rejected-overture-enemy` | 有效时段: `1920.07–1920.11`): 弗兰格尔派使者试图招揽马赫诺共抗布尔什维克，遭马赫诺绞死使者并派黑军旅协同红军攻入克里米亚
-- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 乌克兰古利亚伊波列无政府共产主义农民统帅（1888–1934）。创建“革命起义军（黑军）”与自由苏维埃实验；内战中与红军多次合作、破裂，1919年秋破袭邓尼金后方，1920年11月其部队参加克里米亚战役，随即遭红军全面围剿，1921年越境流亡并客居巴黎。
-
-### 邻居节点: `PER-kolchak`
-- **时效关系边** (`PER-wrangel` → `PER-kolchak` | `unreached-eastern-ally` | 有效时段: `1919.06–1919.08`): 弗兰格尔主张高加索集团军自察里津沿伏尔加河继续北进接应高尔察克，但因高尔察克早溃而落空
-- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 俄国海军上将与西伯利亚白军最高统帅（1874—1920）。曾任黑海舰队司令；1918年11月18日鄂木斯克政变推翻社革党督政府自任“全俄最高执政”，终结民主反革命第三条道路；1919年春攻遭伏龙芝红军击溃，后方游击战与腐败加剧总崩溃，1920年2月7日在伊尔库茨克被处决。
-
-### 邻居节点: `EVT-1917-1920-ukrainian-revolution-rada-hetmanate-and-sovietization`
-- **时效关系边** (`EVT-1917-1920-ukrainian-revolution-rada-hetmanate-and-sovietization` → `PER-wrangel` | `last-white-challenger` | 有效时段: `1920.06–1920.11`): 借波苏战事自克里米亚北出北陶里达争夺乌克兰南翼，11月被伏龙芝率红军—马赫诺联军逐出克里米亚
-- **时效关系边** (`PER-wrangel` → `EVT-1917-1920-ukrainian-revolution-rada-hetmanate-and-sovietization` | `late-ally-seeker-and-combatant` | 有效时段: `1920.05–1920.11`): 1920年北出塔夫利达并在苏波战争背景下面向乌克兰民族派与地方武装谋求反布统一战线未果
-- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 1917—1920年乌克兰多政权角逐与苏维埃化进程。中央拉达、德扶盖特曼政权、执政内阁与苏维埃政权交替据守基辅。1918年首轮苏维埃政权迫于德奥军推进撤离，1919年次轮因征粮、国营农场与俄化作风激发农村起义及白军攻势而溃败；1919年底列宁调向并吸纳斗争派，1920年底缔结俄乌盟约。
-
-## 3. 关联史学争鸣光谱 (Historiographical Debates)
+## 3. 关联史学争鸣与学者论断索引 (主卡外关联争鸣 2 项)
 ### `DEB-1918-red-terror-and-civil-war-origins`：红色恐怖、契卡扩张与内战期一党专政起源之争（1918–1921）
 ## [T1] 核心问题定义
 红色恐怖和契卡法外权力是列宁主义政治逻辑的必然结果，还是内战、粮食危机、联盟破裂与地方暴力交织下的制度选择？中央命令与地方自主行动怎样互相强化？恐怖升级、社会主义对手遭镇压和一党统治形成各有不同时间线，不能压缩成同一事件。
@@ -106,4 +78,31 @@
 | 外交制度史 | E. H. Carr, The Bolshevik Revolution, Vol. 3 (1953) | 革命外交与国家安全并行，后者逐渐在贸易与国家外交中占据更大权重。 | `CLM-carr-1953-dual-foreign-policy-rapallo-comintern` | 主要解释战后双轨外交制度，不能代替1920年战场责任考证。 |
 | 地缘与意识形态 | Stephen Kotkin, Stalin, Vol. 1 (2014) | 安全压力和革命意识形态相互塑造决策，不能单独以任一因素概括。 | `CLM-kotkin-2014-geopolitics-and-ideology` | 广域传记解释不能独立证明每一道作战命令。 |
 
-## 4. 关联时间线锚点 (共 0 条)
+
+### 3.1 关联核心论断与史学家学派坐标 (`CLM-*` → `SCH-*`, 展示前 24/24 条)
+- **`CLM-mawdsley-1987-white-movement-structural-defeat`** [`SCH-mawdsley-evan`(埃文·莫兹利) | pp. 212–218, 272–276, 286–289]: 
+- **`CLM-pipes-1990-red-terror-leninist-logic`** [`SCH-pipes-richard`(理查德·派普斯) | ch. 18 (The Red Terror)]: 
+- **`CLM-leggett-1981-vecheka-extra-legal-origins`** [`SCH-leggett-george`(乔治·莱格特) | pp. 17-22, 47-49 (PDF pp. 55-60, 85-87)]: 
+- **`CLM-leggett-1981-red-terror-institutionalization`** [`SCH-leggett-george`(乔治·莱格特) | pp. 56-59, 102-115, 144-145 (PDF pp. 94-97, 140-153, 182-183)]: 
+- **`CLM-leggett-1981-cheka-to-gpu-continuity`** [`SCH-leggett-george`(乔治·莱格特) | pp. 339-352, 355-363 (PDF pp. 377-390, 393-401)]: 
+- **`CLM-rabinowitch-2007-contingency-of-dictatorship`** [`SCH-rabinowitch-alexander`(亚历山大·拉比诺维奇) | pp. xi-xii, 390-398]: 
+- **`CLM-rabinowitch-2007-left-sr-coalition-collapse`** [`SCH-rabinowitch-alexander`(亚历山大·拉比诺维奇) | pp. 274-282, 287-309, 395-396]: 
+- **`CLM-raleigh-2001-local-bolshevik-violence-and-clientelism`** [`SCH-raleigh-donald`(唐纳德·J·罗利) | Local PDF pp. 104, 112–130; English print pagination not verified]: 
+- **`CLM-cheka-chronicle-hostage-and-local-autonomy`** [`SCH-ratkovsky-ilya`(伊利亚·拉特科夫斯基) | EPUB OPS/ch1-6.xhtml; OPS/ch1-10.xhtml; OPS/ch1-14.xhtml; OPS/ch1-15.xhtml; OPS/ch1-16.xhtml; OPS/ch1-19.xhtml（提取文本无印刷页码）]: 
+- **`CLM-cheka-chronicle-suppression-of-socialist-rivals`** [`SCH-ratkovsky-ilya`(伊利亚·拉特科夫斯基) | EPUB OPS/ch1-4.xhtml; OPS/ch1-5.xhtml; OPS/ch1-9.xhtml; OPS/ch1-10.xhtml; OPS/ch1-15.xhtml; OPS/ch1-16.xhtml（提取文本无印刷页码）]: 
+- **`CLM-plekhanov-am-dzerzhinsky-cheka-institutionalization`** [`SCH-ratkovsky-ilya`(伊利亚·拉特科夫斯基) | pp. 55-56, 97-106, 118-123, 147-155, 209-211, 228]: 
+- **`CLM-halle-1920-martov-critique-of-terror-and-21-conditions`** [`SCH-martov-iulii`(尤利·奥西波维奇·马尔托夫 · participant-primary-text) | pp. 167–170, 173, 175–176, 179 (Lih translation in the 2011 Lewis/Lih edition; printed page = PDF page − 1). Full speech pp. 167–179, delivered 15 October 1920 [N.S.]]: 
+- **`CLM-smith-scott-2011-psr-third-force-collapse`** [`SCH-radkey-oliver`(奥利弗·亨利·拉德基) | pp. 452-455, 467-473, 490-493 (PDF pp. 468-471, 483-489, 506-509)]: 
+- **`CLM-churakov-2004-soviet-worker-protest-dynamics-1918`** [`SCH-churakov-dmitry`(德米特里·奥列戈维奇·丘拉科夫) | pp. 84-88, 352-355]: 
+- **`CLM-churakov-2004-izhevsk-votkinsk-worker-insurrection`** [`SCH-churakov-dmitry`(德米特里·奥列戈维奇·丘拉科夫) | pp. 258-285, 290-298, 304-325]: 
+- **`CLM-mawdsley-1987-civil-war-militarized-regime`** [`SCH-mawdsley-evan`(埃文·莫兹利) | pp. 328, 331, 346-347]: 
+- **`CLM-hoffmann-2011-continuum-of-total-war-1914-1929`** [`SCH-hoffmann-david`(大卫·L·霍夫曼) | pp. 12–13, 38, 127–128]: 
+- **`CLM-mozokhin-cheka-to-ogpu-extrajudicial-jurisdiction-1918-1929`** [`SCH-mozokhin-oleg`(奥列格·莫佐欣) | PDF pp. 8-36, 44-49, 117-136]: 
+- **`CLM-zemskov-1920s-archival-repression-scale-before-1930`** [`SCH-zemskov-viktor`(维克托·尼古拉耶维奇·泽姆斯科夫) | PDF pp. 199-200, 210-214, 220-221 (原书 pp. 197-198, 208-212, 218-219)]: 
+- **`CLM-stalin-war-1920-polish-war-lessons`** [`SCH-shearer-david`(戴维·R·希勒) | pp. 4, 11–15 (PDF pp. 11, 17–22)]: 
+- **`CLM-stalin-docs-tsaritsyn-and-civil-war-command-style`** [`SCH-dolmatov-vladimir`(弗拉基米尔·多尔马托夫（编） · archival-documentary-edition)]: 
+- **`CLM-halle-1920-zinoviev-world-revolution-speech`** [`SCH-zinoviev-grigorii`(格里戈里·叶夫谢耶维奇·季诺维也夫 · participant-primary-text) | pp. 118–122, 130–131, 134, 140, 142, 150 (Lewis ed. 2011; printed page = PDF page − 1). Full speech pp. 117–158, delivered 14 October 1920 [N.S.]]: 
+- **`CLM-carr-1953-dual-foreign-policy-rapallo-comintern`** [`SCH-carr-eh`(爱德华·霍列特·卡尔) | 译本 pp. 22, 114, 143, 156, 168-169 (PDF pp. 28, 120, 149, 162, 174-175)]: 
+- **`CLM-kotkin-2014-geopolitics-and-ideology`** [`SCH-kotkin-stephen`(斯蒂芬·科特金) | EPUB Ch. 13 (OEBPS/9780698170100_EPUB_1-23.xhtml) & Coda (OEBPS/9780698170100_EPUB_1-25.xhtml)]: 
+
+## 4. 关联时间线骨干锚点 (L0–L2 展示 0 条)

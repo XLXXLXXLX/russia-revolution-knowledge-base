@@ -7,10 +7,8 @@ publication_year: 1968
 source_tier: A
 local_source_path: "sources/monographs/rabinowitch_1968_prelude_zh/ch10_8结论_分裂的党.md#L53-L97"
 original_pages: "PDF pp. 12, 17, 79, 86-94, 121-123"
-targets_cards:
-  - EVT-1917-07-july-days
-  - ORG-bolshevik-party
-debate: DEB-bolshevik-organization-and-1917-insurrections
+targets_cards: ["EVT-1917-07-july-days", "ORG-bolsheviks-rcpb-vkpb"]
+debate: DEB-1917-october-coup-or-social-revolution
 supports: []
 rebuts: []
 qualifies: []

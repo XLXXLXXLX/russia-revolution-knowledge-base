@@ -1,14 +1,9 @@
-# 1-Hop 平衡上下文包：`EVT-1918-1921-transcaucasian-republics-baku-commune-and-sovietization` (外高加索独立共和国、巴库公社与苏维埃化（1918—1921）)
+# 1-Hop 去重平衡上下文包：`EVT-1918-1921-transcaucasian-republics-baku-commune-and-sovietization`
 
-> 本文件由 `python scripts/kb.py pack` 自动编译，旨在将失控的 `1+N` 随机读取压缩为**等权重、带时效边实质与史学盲区告警**的单次全景读取。
+> 由 `python scripts/kb.py pack` 动态编译：保留 **100% 一跳邻居与多时段关系边**，跨卡自动去重争鸣与时间线，并关联学者学派 (`SCH-*`)。
 
-## 0. 认知完备度与反偏斜仪表盘 (Epistemic & Skew Warnings)
-- **主卡路径**: `cards/events/EVT-1918-1921-transcaucasian-republics-baku-commune-and-sovietization.md`
-- **完备度等级**: `multi-perspective`
-- **已覆盖视角**: `institutional-carr, military-geopolitics-mawdsley, social-history-figes, borderland-sd-blanc, menshevik-strictism-roobol`
-- **待补齐视角**: `suny-1972-baku-commune-direct-text, suny-1994-georgian-nation-direct-text, hovannisian-republic-of-armenia-direct-text, azerbaijani-armenian-georgian-archival-files`
-- **偏斜风险提示**:
-  - ⚠️ 主卡显式声明尚缺以下视角待补: `suny-1972-baku-commune-direct-text, suny-1994-georgian-nation-direct-text, hovannisian-republic-of-armenia-direct-text, azerbaijani-armenian-georgian-archival-files`。
+## 0. 认知完备度与反偏斜仪表盘
+- **`EVT-1918-1921-transcaucasian-republics-baku-commune-and-sovietization`** (外高加索独立共和国、巴库公社与苏维埃化（1918—1921） | `cards/events/EVT-1918-1921-transcaucasian-republics-baku-commune-and-sovietization.md` | `multi-perspective`): 已覆盖=`institutional-carr, military-geopolitics-mawdsley, social-history-figes, borderland-sd-blanc, menshevik-strictism-roobol`；待补=`suny-1972-baku-commune-direct-text, suny-1994-georgian-nation-direct-text, hovannisian-republic-of-armenia-direct-text, azerbaijani-armenian-georgian-archival-files`
 
 ## 1. 主卡核心层 ([T1] + [T2])
 ## [T1] 150字定性微摘要
@@ -46,103 +41,50 @@
   - **[Orlando Figes 民族矛盾与反帝国主义讽刺论]**（`ch21#L437–L463`）：辛辣揭示苏维埃政策与反帝口号之间的讽刺——一边在巴库东方大会谴责英国殖民掠夺（英国确曾在其驻军时抽采巴库石油），一边纵容“俄式帝国主义”以军事阴谋推翻一个在75%总选票与温和土改基础上最具独立存续能力的格鲁吉亚社会民主党政权，甚至让格鲁吉亚裔的斯大林与奥尔忠尼启则充当“大俄罗斯沙文主义”急先锋；同时他亦客观指出格鲁吉亚政府依靠反亚美尼亚资产阶级的阶级—民族联盟及对奥塞梯、阿布哈兹的强硬压制，自毁了与少数民族的共识。
   - **[Eric Blanc & W. H. Roobol 格鲁吉亚孟什维克能动性之争]**（`RN-W4#L116–L118`; `RN-W9#L382`）：Blanc 批评格鲁吉亚孟什维克虽口斥“与资产阶级联合是掘墓人”，1918年后仍走上依附德、英帝国主义的跨阶级国家路线（引乔尔达尼亚语：“宁可西方帝国主义也不要东方狂热者”）；而 Roobol 则借策列铁里 1918.02 在第比利斯的预言反衬布尔什维克如何摧毁民主自治并最终窒息苏维埃本身。
 
-## 2. 一跳邻域等权重微摘要 (共 11 个关联节点，严防大卡霸占上下文)
-### 邻居节点: `PER-ordzhonikidze`
-- **时效关系边** (`EVT-1918-1921-transcaucasian-republics-baku-commune-and-sovietization` → `PER-ordzhonikidze` | `sovietization-architect-and-kavbiuro-head` | 有效时段: `1920.04–1921.05`): 任高加索局主席，主导阿、亚苏维埃化并擅自集兵逼使政治局批准1921.02攻占格鲁吉亚，酿成“既成事实”
-- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 外高加索布尔什维克强人与党纪监督重臣（1886–1937，本卡至1929年）。1912任中央委员；1922主政外高加索因“格鲁吉亚事件”殴打党员触发列宁震怒；1926年11月起任中监委主席兼苏联工农检查人民委员（两机构联合办公而非合并），主持开除托季派；1928–1929年一面在农业政策上倾向斯大林、一面维持集体领导调和，密会传单曝光后转而主持对右派的纪律追责。
+## 2. 一跳邻域全量微摘要目录 (去重后共 11 个节点，0 截断)
+- **`EVT-1918-1920-russian-civil-war`**（俄国内战（1918–1920））: 1918至1920年红白主战场的内战中，布尔什维克依托中央腹地、军火遗产与铁路机动击败分散白军；征粮和恐怖又激起工农反抗。乌克兰及外高加索的民族国家竞争不能归入简单红白对决，克里米亚撤离仅标志主要白军战线收束，边疆与农民战争仍在延续。 ‖ `→EVT-1918-1921-transcaucasian-republics-baku-commune-and-sovietization`[southern_borderland_continuation|1918—1921]: 巴库石油、独立共和国与苏维埃化超出红白主战场的1920年终点 ； `←EVT-1918-1921-transcaucasian-republics-baku-commune-and-sovietization`[oil-and-post-denikin-front|1918–1921]: 巴库油田战略价值与1920.03库班扫荡邓尼金残余，构成红军跨过高加索山脉的直接地缘经济动力
+- **`PER-ordzhonikidze`**（格里戈里·“谢尔戈”·奥尔忠尼启则）: 外高加索布尔什维克领导人，1912年任中委，1922年格鲁吉亚事件中殴打党员引列宁震怒。1926年11月兼任中监委主席与工农检查人民委员，两机构联合办公而非合并，主持处分托季派；1928–1929年农业政策倾向斯大林，仍求集体领导调和，密会传单曝光后转而追责右派。 ‖ `←EVT-1918-1921-transcaucasian-republics-baku-commune-and-sovietization`[sovietization-architect-and-kavbiuro-head|1920.04–1921.05]: 任高加索局主席，主导阿、亚苏维埃化并擅自集兵逼使政治局批准1921.02攻占格鲁吉亚，酿…
+- **`PER-kirov`**（谢尔盖·基洛夫）: 基洛夫是北高加索与巴库布尔什维克领导人，早年主政阿斯特拉罕及巴库。1926年1月十四大后奉斯大林之命赴列宁格勒，逐厂辩论，夺取党机关与报刊控制，1926–1927年持续争夺基层；1926年7月成为政治局候补委员，1928–1929年反右倾斗争中稳控西北工业重镇。 ‖ `←EVT-1918-1921-transcaucasian-republics-baku-commune-and-sovietization`[baku-enforcer-and-tiflis-envoy|1920.04–1921.02]: 随红军进驻巴库建政，随后任驻第比利斯苏俄代表，同奥尔忠尼启则联合上书催促立即武力推翻孟什…
+- **`PER-tsereteli`**（伊拉克利·策烈铁里）: 格鲁吉亚孟什维克领袖，1917年彼得格勒苏维埃“革命护国主义”总设计师。3月自西伯利亚流放归来后主导苏维埃执委会“星室”，力推联立政府与六月攻势以维系同自由派的同盟；因经济瘫痪与镇压布尔什维克而流失工人支持，十月革命后返格鲁吉亚并在流亡中著述。 ‖ `←EVT-1918-1921-transcaucasian-republics-baku-commune-and-sovietization`[georgian-menshevik-statesman-and-spokesman|1918–1921.03]: 立宪会议被解散后返格，先反对联邦解散后为独立格鲁吉亚民主共和国外交辩护，1921年3月随…
+- **`PER-stalin`**（约瑟夫·斯大林）: 布尔什维克高加索地下组织者、民族事务人民委员（1917–1923）及中央总书记（1922起）。依托书记处任命权与安全危机叙事，先联季-加压制托洛茨基，再联布哈林击溃联合反对派；1927–1929年以战备恐慌与“自上而下革命”击败布哈林集团，1929年12月拍板“把富农作为阶级消灭”并终结新经济政策。 ‖ `←EVT-1918-1921-transcaucasian-republics-baku-commune-and-sovietization`[caucasus-hardliner-and-backstop|1918–1921.02]: 早年剖析高加索跨族矛盾，1920.10斥格鲁吉亚为“协约国情妇”，1921.01致信力挺…
+- **`PER-lenin`**（弗拉基米尔·列宁）: 布尔什维克党缔造者、苏俄人民委员会主席（1917–1924）。1893年投身马克思主义运动，1903年促成布尔什维克分化；1917年发表《四月提纲》并领导十月夺权，历经布列斯特和约、内战与战时共产主义；1921年主持转向新经济政策，晚年（1922–1923）就官僚化与接班人同斯大林冲突。 ‖ `←EVT-1918-1921-transcaucasian-republics-baku-commune-and-sovietization`[reluctant-authorizer-and-conciliation-advocate|1920.05–1922.12]: 1920.05力主缔约停火、1921.01方勉强批示“勿推迟”，占领后连发密信严令特别让…
+- **`PER-denikin`**（安东·邓尼金）: 俄国陆军中将、志愿军与南俄武装力量总司令（1872—1947）。1919年夏秋依《莫斯科训令》三路北伐逼近奥廖尔与图拉；因大俄罗斯主义排斥边疆民族及哥萨克、纵容“沙拉班”地主复辟与大规模反犹屠杀致后方崩溃，1920年3月自新罗西斯克仓皇撤退辞职，流亡欧美著史终老。 ‖ `←EVT-1918-1921-transcaucasian-republics-baku-commune-and-sovietization`[black-sea-adversary|1919–1920.03]: 拒绝承认外高加索三国独立并在索契海岸与格鲁吉亚交火，客观上阻止三国与白卫联盟抗红
+- **`ORG-mensheviks`**（孟什维克）: 俄国社会民主主义政党（1903–1924），源于1903年二大马尔托夫等与列宁围绕党章第一条及集中制的决裂，主张开放型群众政党与工人自主活动。1917年分化为策烈铁里、但恩主导的入阁“革命护国派”与马尔托夫领导的反战“国际主义派”；十月后开展苏维埃合法反对派抗争，1921年后遭取缔。 ‖ `←EVT-1918-1921-transcaucasian-republics-baku-commune-and-sovietization`[georgian-ruling-party-model|1918.05–1921.03]: 在格鲁吉亚凭土改获国民议会约75%总选票（无农村/工农分项统计）并维持近三年宪政，同时压…
+- **`ORG-bolsheviks-rcpb-vkpb`**（布尔什维克派—俄共（布）—联共（布））: 布尔什维克起于1903年社民工党二大后的党内多数派，经流亡、地下活动与1917年群众扩张成为执政党；1918年称俄共（布），1925年称联共（布）。它从地方主动性较强的革命党，演变为拥有任命网络与纪律制裁的党国核心，过程分阶段且存争议。 ‖ `←EVT-1918-1921-transcaucasian-republics-baku-commune-and-sovietization`[caucasus-bureau-and-eleventh-army|1920.02–1921.05]: 先于阿、格、亚设立名义独立共产党，再以第11红军配合当地地下力量与少数民族反抗完成全区军…
+- **`POL-brest-litovsk-treaty`**（布列斯特-立陶夫斯克和约）: 布列斯特和约路线是在军事崩溃与世界革命期待之间作出的单独媾和选择。列宁主张割地换取喘息，布哈林主张革命战争，托洛茨基“不战不和”随德军进逼破产。1918年3月签约虽保住苏维埃政权，却造成重大领土与工业损失，引发党内激烈分裂并推动左派社革党退出联合政府。 ‖ `←EVT-1918-1921-transcaucasian-republics-baku-commune-and-sovietization`[territorial-severance-trigger|1918.03–1918.06]: 未经外高加索同意割让巴统、卡尔斯予土耳其，直接迫使TDFR宣布独立并引发土军入侵与联邦解体
+- **`EVT-1922-georgian-affair-and-ussr-formation`**（格鲁吉亚事件、自治化之争与苏联成立）: 1921年红军进入格鲁吉亚后，地方共产党领导人与高加索局就外高加索联邦化激烈冲突。1922年斯大林主张各共和国自治化并入苏俄，列宁提出共和国平等组成新联盟；`1922-12-30` 首届全联盟苏维埃代表大会通过建盟宣言和条约。形式平等、党的集中领导与地区权力实际分配之间的张力并未消失。 ‖ `←EVT-1918-1921-transcaucasian-republics-baku-commune-and-sovietization`[post-sovietization-institutional-crisis|1921.05–1922.12]: 1921年军事接管后，铁路合并、货币预算统一、高加索局俄语化强权与格共防卫本国特权的冲突…
 
-### 邻居节点: `PER-kirov`
-- **时效关系边** (`EVT-1918-1921-transcaucasian-republics-baku-commune-and-sovietization` → `PER-kirov` | `baku-enforcer-and-tiflis-envoy` | 有效时段: `1920.04–1921.02`): 随红军进驻巴库建政，随后任驻第比利斯苏俄代表，同奥尔忠尼启则联合上书催促立即武力推翻孟什维克政府
-- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 北高加索与巴库布尔什维克强人（1886–1934，本卡至1929年）。内战与二十年代初主政阿斯特拉罕及巴库；1926年1月十四大后奉斯大林之命赴列宁格勒逐厂辩论，夺取地方党机关与报刊控制，并在1926–1927年持续争夺基层；同年7月升任政治局候补委员，在1928–1929年反右倾斗争中稳控西北工业重镇。
+## 3. 关联史学争鸣与学者论断索引 (主卡外关联争鸣 3 项)
+- **`DEB-1923-nationality-and-empire`**（布尔什维克民族政策、格鲁吉亚事件与苏维埃“肯定性行动帝国”性质之争 | `historiography/debates/DEB-1923-nationality-and-empire.md` | 流派 `revisionist-lewin, liberal-cold-war-pipes, archival-nationalities-smith, imperial-history-suny, ukrainian-social-history-liber`）：自1922年8月“自治化”方案与格鲁吉亚冲突起，至1923年4月俄共十二大闭幕，布尔什维克究竟是在建设“肯定性行动帝国”式的制度化本土化实践，还是以先锋队组织垄断维系大俄罗斯官僚集权？争论焦点是解密速记所示的制度妥协，以及各学派因果判断与价值判断之别。
+- **`DEB-1917-october-coup-or-social-revolution`**（十月革命：少数派政变还是社会革命？ | `historiography/debates/DEB-1917-october-coup-or-social-revolution.md` | 流派 `liberal-coup, party-social-history, russian-revisionist-timing, labor-local-history, moderate-socialist-and-constitutional-legitimacy, participant-marxist, peasant-social-history, borderland-and-memory-historiography`）：十月武装夺权是少数派政变，还是工人、士兵与农民社会革命的政治表达？有组织的起义与广泛的基层动员能否同时成立，苏维埃多数又能否代表全国选民？这些问题涉及不同地区、不同时间的支持与合法性，不能以一次投票或一次攻占行动互相替代。
+- **`DEB-1918-red-terror-and-civil-war-origins`**（红色恐怖、契卡扩张与内战期一党专政起源之争（1918–1921） | `historiography/debates/DEB-1918-red-terror-and-civil-war-origins.md` | 流派 `liberal-continuity, institutional-cheka, contingency-coalition, local-violence-and-chronicle, repressed-socialists-and-worker-protest, civil-war-structure-and-total-war, post-soviet-archival-quantitative`）：红色恐怖和契卡法外权力是列宁主义政治逻辑的必然结果，还是内战、粮食危机、联盟破裂与地方暴力交织下的制度选择？中央命令与地方自主行动怎样互相强化？恐怖升级、社会主义对手遭镇压和一党统治形成各有不同时间线，不能压缩成同一事件。
 
-### 邻居节点: `PER-tsereteli`
-- **时效关系边** (`EVT-1918-1921-transcaucasian-republics-baku-commune-and-sovietization` → `PER-tsereteli` | `georgian-menshevik-statesman-and-spokesman` | 有效时段: `1918–1921.03`): 立宪会议被解散后返格，先反对联邦解散后为独立格鲁吉亚民主共和国外交辩护，1921年3月随孟什维克流亡巴黎
-- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 格鲁吉亚孟什维克领袖，1917年彼得格勒苏维埃“革命护国主义”总设计师。3月自西伯利亚流放归来后主导苏维埃执委会“星室”，力推联立政府与六月攻势以维系同自由派的同盟；因经济瘫痪与镇压布尔什维克而流失工人支持，十月革命后返格鲁吉亚并在流亡中著述。
+### 3.1 关联核心论断与史学家学派坐标 (`CLM-*` → `SCH-*`, 展示前 24/47 条)
+- **`CLM-smith-jeremy-1999-georgian-affair-reassessed`** [`SCH-smith-jeremy`(杰里米·史密斯) | pp. 252-253, 260-262, 266-268, 285-288, 296-297]: 
+- **`CLM-carr-1950-ukraine-and-georgia-military-treaty-reintegration`** [`SCH-carr-eh`(爱德华·霍列特·卡尔) | pp. 349, 386–387 (printed); PDF pp. 360, 397–398]: 
+- **`CLM-lewin-1968-georgian-affair-bureaucracy`** [`SCH-lewin-moshe`(摩西·莱文) | n/a（EPUB 无页码锚点）；Ch.9、Ch.10 与 Appendixes I–III, VII–VIII]: 
+- **`CLM-blanc-2021-borderlands-in-1905-and-1917`** [`SCH-blanc-eric`(埃里克·布兰克) | pp. 20–23, 338–436, 488–531, 457–543]: 
+- **`CLM-roobol-1976-tsereteli-tragedy-of-moderation`** [`SCH-roobol-wh`(W·H·罗博尔) | pp. 39, 253–257 (printed page = PDF page − 10). Narrative evidence for 1907 and 1917 runs through pp. 32–65 and pp. 81–182; those pages are not all quoted here.]: 
+- **`CLM-lewin-1968-testament-intent`** [`SCH-lewin-moshe`(摩西·莱文) | n/a（EPUB 无页码锚点）；Ch.10 'If Lenin Had Lived . . .'；列宁原文脚注见 Soch. XLV p. 392；XLIV p. 428]: 
+- **`CLM-carr-1950-self-determination-to-federal-reunion`** [`SCH-carr-eh`(爱德华·霍列特·卡尔) | pp. 253-285, 364-428]: 
+- **`CLM-smith-jeremy-1999-twelfth-congress-korenizatsiia`** [`SCH-smith-jeremy`(杰里米·史密斯) | pp. 311, 321-325, 327-331]: 
+- **`CLM-suny-2017-empire-and-nationality-dimension`** [`SCH-suny-ronald-gregor`(罗纳德·格里戈尔·苏尼) | pp. 125-140 (approx. ch. 3 opening theory; see also Witte L322-328)]: 
+- **`CLM-liber-1992-korenizatsiia-paradox-late-1920s`** [`SCH-liber-george`(乔治·O·利伯) | pp. 155–157; 180–186]: 
+- **`CLM-liber-1992-ukrainianization-and-urban-working-class`** [`SCH-liber-george`(乔治·O·利伯) | pp. 75–76; 99–105]: 
+- **`CLM-pipes-1990-october-classic-coup`** [`SCH-pipes-richard`(理查德·派普斯) | ch. 11 (The October Coup); cf. Introduction]: 
+- **`CLM-rabinowitch-1976-open-democratic-mass-party`** [`SCH-rabinowitch-alexander`(亚历山大·拉比诺维奇) | 未核：EPUB 章节及行号]: 
+- **`CLM-rabinowitch-1976-october-three-factions-debate`** [`SCH-rabinowitch-alexander`(亚历山大·拉比诺维奇) | 未核：EPUB 章节及行号]: 
+- **`CLM-rabinowitch-1976-trotsky-soviet-congress-strategy`** [`SCH-rabinowitch-alexander`(亚历山大·拉比诺维奇) | 未核：EPUB 章节及行号]: 
+- **`CLM-loginov-lenin-1917-fleeting-window-of-power`** [`SCH-loginov-vladlen`(弗拉德连·洛吉诺夫) | pp. 523-524, 531-532, 560-561, 621-622, 656-658]: 
+- **`CLM-smith-sa-1983-defensive-workers-control`** [`SCH-smith-sa`(斯蒂芬·A·史密斯（S. A. Smith）) | 中译本 pp. 106–112, 133, 135, 137, 191（即源文件标注 PDF pp. 111–117, 138, 140, 142, 196）；注意：均为中译本页码，非英文原版页码]: 
+- **`CLM-koenker-1981-moscow-october-armed-struggle-vs-petrograd`** [`SCH-koenker-diane`(黛安·P·科恩克尔) | pp. 329–355 (local PDF pp. 345–371); p. 366 (PDF p. 382)]: 
+- **`CLM-koenker-1981-rational-incremental-radicalization`** [`SCH-koenker-diane`(黛安·P·科恩克尔) | pp. 359–363 (local PDF pp. 375–379); p. 254 (PDF p. 270)]: 
+- **`CLM-basil-1984-october-and-vikzhel-collapse`** [`SCH-basil-john`(约翰·D·巴兹尔) | pp. 165–175（本地 PDF 同号）]: 
+- **`CLM-yao-hai-post-october-coalition-failure-and-one-party-formation`** [`SCH-yao-hai`(姚海) | [PDF pp. 532-535, 543-569]]: 
+- **`CLM-yao-hai-constituent-assembly-vs-soviet-legitimacy-clash`** [`SCH-yao-hai`(姚海) | [PDF pp. 574-596]]: 
+- **`CLM-rabinowitch-2007-constituent-assembly`** [`SCH-rabinowitch-alexander`(亚历山大·拉比诺维奇) | pp. 88-91, 105-110, 121-127]: 
+- **`CLM-trotsky-1930-art-of-insurrection-and-soviet-legality`** [`SCH-trotsky-leon`(列夫·达维多维奇·托洛茨基 · participant-historian) | （中译 EPUB 无纸页；第三卷第二十—二十一章）]: 
 
-### 邻居节点: `PER-stalin`
-- **时效关系边** (`EVT-1918-1921-transcaucasian-republics-baku-commune-and-sovietization` → `PER-stalin` | `caucasus-hardliner-and-backstop` | 有效时段: `1918–1921.02`): 早年剖析高加索跨族矛盾，1920.10斥格鲁吉亚为“协约国情妇”，1921.01致信力挺奥、基二人立即进兵第比利斯
-- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 布尔什维克高加索地下组织者、民族事务人民委员（1917–1923）及中央总书记（1922起）。依托书记处任命权与安全危机叙事，先联季-加压制托洛茨基，再联布哈林击溃联合反对派；1927–1929年以战备恐慌与“自上而下革命”击败布哈林集团，1929年12月拍板“把富农作为阶级消灭”并终结新经济政策。
-
-### 邻居节点: `PER-lenin`
-- **时效关系边** (`EVT-1918-1921-transcaucasian-republics-baku-commune-and-sovietization` → `PER-lenin` | `reluctant-authorizer-and-conciliation-advocate` | 有效时段: `1920.05–1922.12`): 1920.05力主缔约停火、1921.01方勉强批示“勿推迟”，占领后连发密信严令特别让步；1922.12更在民族札记中严究高加索局打人与沙皇机关残余责任
-- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 布尔什维克党缔造者、苏俄人民委员会主席（1917–1924）。1893年投身马克思主义运动，1903年促成布尔什维克分化；1917年发表《四月提纲》并领导十月夺权，历经布列斯特和约、内战与战时共产主义；1921年主持转向新经济政策，晚年（1922–1923）就官僚化与接班人同斯大林冲突。
-
-### 邻居节点: `PER-denikin`
-- **时效关系边** (`EVT-1918-1921-transcaucasian-republics-baku-commune-and-sovietization` → `PER-denikin` | `black-sea-adversary` | 有效时段: `1919–1920.03`): 拒绝承认外高加索三国独立并在索契海岸与格鲁吉亚交火，客观上阻止三国与白卫联盟抗红
-- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 俄国陆军中将、志愿军与南俄武装力量总司令（1872—1947）。1919年夏秋依《莫斯科训令》三路北伐逼近奥廖尔与图拉；因大俄罗斯主义排斥边疆民族及哥萨克、纵容“沙拉班”地主复辟与大规模反犹屠杀致后方崩溃，1920年3月自新罗西斯克仓皇撤退辞职，流亡欧美著史终老。
-
-### 邻居节点: `ORG-mensheviks`
-- **时效关系边** (`EVT-1918-1921-transcaucasian-republics-baku-commune-and-sovietization` → `ORG-mensheviks` | `georgian-ruling-party-model` | 有效时段: `1918.05–1921.03`): 在格鲁吉亚凭土改获国民议会约75%总选票（无农村/工农分项统计）并维持近三年宪政，同时压制奥塞梯与阿布哈兹少数民族自治
-- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 俄国社会民主主义政党（1903–1924），源于1903年二大马尔托夫等与列宁围绕党章第一条及集中制的决裂，主张开放型群众政党与工人自主活动。1917年分化为策烈铁里、但恩主导的入阁“革命护国派”与马尔托夫领导的反战“国际主义派”；十月后开展苏维埃合法反对派抗争，1921年后遭取缔。
-
-### 邻居节点: `ORG-bolsheviks-rcpb-vkpb`
-- **时效关系边** (`EVT-1918-1921-transcaucasian-republics-baku-commune-and-sovietization` → `ORG-bolsheviks-rcpb-vkpb` | `caucasus-bureau-and-eleventh-army` | 有效时段: `1920.02–1921.05`): 先于阿、格、亚设立名义独立共产党，再以第11红军配合当地地下力量与少数民族反抗完成全区军事整合
-- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 布尔什维克起于1903年社民工党二大后的党内多数派，经流亡、地下活动与1917年群众扩张成为执政党；1918年称俄共（布），1925年称联共（布）。它从地方主动性较强的革命党，演变为拥有任命网络与纪律制裁的党国核心，过程分阶段且存争议。
-
-### 邻居节点: `POL-brest-litovsk-treaty`
-- **时效关系边** (`EVT-1918-1921-transcaucasian-republics-baku-commune-and-sovietization` → `POL-brest-litovsk-treaty` | `territorial-severance-trigger` | 有效时段: `1918.03–1918.06`): 未经外高加索同意割让巴统、卡尔斯予土耳其，直接迫使TDFR宣布独立并引发土军入侵与联邦解体
-- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 布列斯特和约路线是在军事崩溃与世界革命期待之间作出的单独媾和选择。列宁主张割地换取喘息，布哈林主张革命战争，托洛茨基“不战不和”随德军进逼破产。1918年3月签约虽保住苏维埃政权，却造成重大领土与工业损失，引发党内激烈分裂并推动左派社革党退出联合政府。
-
-### 邻居节点: `EVT-1918-1920-russian-civil-war`
-- **时效关系边** (`EVT-1918-1921-transcaucasian-republics-baku-commune-and-sovietization` → `EVT-1918-1920-russian-civil-war` | `oil-and-post-denikin-front` | 有效时段: `1918–1921`): 巴库油田战略价值与1920.03库班扫荡邓尼金残余，构成红军跨过高加索山脉的直接地缘经济动力
-- **节点定性微摘要 [T1]** (完备度 `draft`): 1918–1920年苏俄内战：布尔什维克依托“苏托邦”人口、军火与莫斯科铁路枢纽内线机动，先后粉碎高尔察克、邓尼金、弗兰格尔白军及马赫诺黑军，并压制社革党第三力量；协约国干涉与边疆民族武装相互牵制。
-
-### 邻居节点: `EVT-1922-georgian-affair-and-ussr-formation`
-- **时效关系边** (`EVT-1918-1921-transcaucasian-republics-baku-commune-and-sovietization` → `EVT-1922-georgian-affair-and-ussr-formation` | `post-sovietization-institutional-crisis` | 有效时段: `1921.05–1922.12`): 1921年军事接管后，铁路合并、货币预算统一、高加索局俄语化强权与格共防卫本国特权的冲突，经1922.03区域联盟与12.13单一联邦之争演化为格鲁吉亚危机
-- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 1921年红军进入格鲁吉亚后，地方共产党领导人与高加索局就外高加索联邦化激烈冲突。1922年斯大林主张各共和国自治化并入苏俄，列宁提出共和国平等组成新联盟；`1922-12-30` 首届全联盟苏维埃代表大会通过建盟宣言和条约。形式平等、党的集中领导与地区权力实际分配之间的张力并未消失。
-
-## 3. 关联史学争鸣光谱 (Historiographical Debates)
-### `DEB-1923-nationality-and-empire`：布尔什维克民族政策、格鲁吉亚事件与苏维埃“肯定性行动帝国”性质之争
-## [T1] 核心问题定义
-`1922-08` 至 `1923-04-25`（自“自治化”方案、格鲁吉亚冲突至俄共十二大民族问题特别会议闭幕）及其后1920年代本土化实践，布尔什维克是在建设多民族“肯定性行动帝国”内的制度化本土化体制，还是以先锋队组织垄断维系的大俄罗斯官僚集权？争论焦点在于解密速记揭示的制度妥协与各学派因果—价值判断之分。
-
-## [T2] 各学派立场对照矩阵
-| 学派/取向 | 代表学者与著作 | 核心论点摘要 | 支撑论断卡 | 主要受批评盲点 |
-| :--- | :--- | :--- | :--- | :--- |
-| 列宁晚期斗争与反官僚论 | Moshe Lewin, *Lenin's Last Struggle* (1968) | 格鲁吉亚事件暴露大俄罗斯沙文主义“为整个政府机器所服务”并与官僚机构合流，列宁晚年警觉最高层专政退化风险，准备清算 *dzerzhimordy*；民族问题是撤换斯大林问责的实质切口之一。 | `CLM-lewin-1968-georgian-affair-bureaucracy`; `CLM-lewin-1968-testament-intent` | 易将列宁口述笔记重构为高度连贯的“遗嘱计划”；写于1990年代十二大特别会议速记解密之前。 |
-| 自由主义—极权连续论 | Richard Pipes, *The Formation of the Soviet Union: Communism and Nationalism, 1917–1923* (1954; rev. ed. 1964) | 论证布尔什维克以红军武力征服外高加索与边疆，通过单一集权党中央架空形式上的联邦制；十二大被定性为斯大林行政中央集权对民族自治的彻底胜利（Smith 正面驳斥此说）。 | `CLM-carr-1950-self-determination-to-federal-reunion`；`CLM-smith-jeremy-1999-twelfth-congress-korenizatsiia` 对勘引述 | 1991年解密的十二大民族问题特别会议速记显示边疆代表反击与中央制度让步远比“单方全胜”复杂。 |
-| 解密档案民族妥协论 | Jeremy D. Smith, *The Bolsheviks and the National Question, 1917–1923* (1999) | 列宁—斯大林在集中制原则上确有共识，但 `1923-04` 十二大民族问题特别会议显示边疆代表迫使斯大林大幅退让，奠定1920年代本土化相对稳固期；格鲁吉亚危机不宜简化为列斯个人生死对决。 | `CLM-smith-jeremy-1999-twelfth-congress-korenizatsiia`; `CLM-smith-jeremy-1999-georgian-affair-reassessed` | 本土化制度繁荣期止于1930年代逆转，分期边界须清晰。 |
-| 帝国史学框架 | Ronald Grigor Suny, *The Red Flag Unfurled* (2017) 等 | 沙俄—苏联宜在“宗主—边缘不平等从属与差异治理”的帝国框架下理解民族建构；1991年后“苏联=帝国”共识含事后目的论归因风险。 | `CLM-suny-2017-empire-and-nationality-dimension` | 帝国理论有助于宏观比较定位，但不能替代十二大速记级制度考证。 |
-| 乌克兰社会史与本土化悖论 | George Liber, *Soviet Nationality Policy, Urban Growth, and Identity Change in the Ukrainian SSR 1923–1934* (1992) | 本土化整合城乡乌克兰人、扩张乌克兰语公共领域的同时，制度化语言边界并孕育中央难以完全消化的地方民族诉求。 | `CLM-liber-1992-korenizatsiia-paradox-late-1920s`; `CLM-liber-1992-ukrainianization-and-urban-working-class` | 侧重乌克兰工业城市化案例，外高加索与中亚须分区域检验。 |
-| “肯定性行动帝国”概念框架 | Terry Martin, *The Affirmative Action Empire* (2001) 等 | 1920年代苏联对非俄罗斯民族实施制度化优待（干部、语言、教育与领土配额），以党国政治垄断为前提整合多民族边缘——动员成效与潜在离心张力并存。 | （Martin 专著独立论断卡尚待 `close-reader` 入库；现阶段参看 `POL-korenizatsiia` 与 `CLM-smith-jeremy-1999-twelfth-congress-korenizatsiia`） | 概念易被字面混同于当代西方多元主义平权政策，须严守一党专政前提。 |
-
-### `DEB-1917-october-coup-or-social-revolution`：十月革命：少数派政变还是社会革命？
-## [T1] 核心问题定义
-十月武装夺权是少数派政变，还是工人、士兵与农民社会革命的政治表达？有组织的起义与广泛的基层动员能否同时成立，苏维埃多数又能否代表全国选民？这些问题涉及不同地区、不同时间的支持与合法性，不能以一次投票或一次攻占行动互相替代。
-
-## [T2] 各学派立场对照矩阵
-**经验基准**：彼得格勒苏维埃军事革命委员会组织行动，临时政府于1917-10-25 [O.S.] / 1917-11-07 [N.S.] 被推翻；第二次全俄工兵代表苏维埃代表大会当晚开幕，孟什维克与右派社革党抗议退场，大会于10月26日 [O.S.] / 11月8日 [N.S.] 通过《和平法令》《土地法令》并组建人民委员会。据站内选举统计（`DATA-01-1905-1917-strikes-and-petrograd-elections`、`DATA-07-1905-1918-unions-moscow-swings-and-constituent-assembly-votes`），布尔什维克在1917年9月莫斯科区杜马获51.5%选票、11月全俄立宪会议选举在大城市与北/西前线占优，但在全国立宪会议总票中仅占约22.5%–24%（社革党各单合占约37%–40%，且选票名册未反映10月左翼社革党独立分党）。苏维埃代表、立宪会议选民与农村夺地农民并非同一政治总体。
-
-| 学派/取向 | 代表学者与著作 | 核心论点摘要 | 支撑论断卡 | 主要受批评盲点 |
-| :--- | :--- | :--- | :--- | :--- |
-| 自由主义“静默技术性政变”论 | Richard Pipes, *The Russian Revolution* (1990) | 援引马拉帕尔泰“静默技术性政变”概念，断言十月并非群众起义，而是列宁与军革委利用临时政府权威真空发动的少数派武装夺权，且本质上是**“针对全国苏维埃组织本身的政变”**——抢在苏维埃二大开幕前推翻临时政府，将全国苏维埃代表置于既成事实之下。 | `CLM-pipes-1990-october-classic-coup` | 将工人赤卫队与驻军顺从简化为阴谋家操纵，难以解释布尔什维克在9–11月两都市/区杜马及北方前线选票中的真实多数。 |
-| 开放性群众政党与托洛茨基苏维埃合法性策略 | Alexander Rabinowitch, *The Bolsheviks Come to Power* (1976) | 1917年的彼得格勒布尔什维克并非铁板一块的密谋集团，而是吸收数万工人兵士、容忍加米涅夫—季诺维也夫公开异议的开放性群众政党；夺权成功关键在于**托洛茨基策略**——以彼得格勒苏维埃军革委“保卫苏维埃与卫戍部队”为名实施防御性展开，并将政权移交严格锚定于第二次全俄苏维埃代表大会开幕，以赢得无党派工兵的苏维埃合法性认同。 | `CLM-rabinowitch-1976-open-democratic-mass-party`；`CLM-rabinowitch-1976-october-three-factions-debate`；`CLM-rabinowitch-1976-trotsky-soviet-congress-strategy` | 首都党组织的战前民主开放性与苏维埃防卫策略，不能自动推及外省夺权或10月底维克热尔谈判破裂后的一党专政化。 |
-| 列宁“稍纵即逝窗口”与先行夺权论（与托洛茨基路线之张力） | Vladlen T. Loginov, *Lenin in 1917: On the Brink of the Possible* (2017) | 与拉比诺维奇聚焦托洛茨基“等待并依托苏维埃二大”形成直接张力：洛吉诺夫论证列宁之所以痛斥“等待苏维埃代表大会是白痴行为或背叛、拖延就是死亡”，是因为洞察到10月中旬无政府浪潮与军事反革命夹击下存在“稍纵即逝的夺权窗口”，唯有在大会开幕前先行武装夺权、造成既成事实，才能迫使动摇的苏维埃大会接管政权。 | `CLM-loginov-lenin-1917-fleeting-window-of-power` | 高度认同列宁对紧急时机的政治直觉，但恰恰从反面印证了“先行夺权把苏维埃二大置于既成事实”的程序正当性争议。 |
-| 工厂控制与莫斯科“政策先于党派”社会史 | S. A. Smith, *Red Petrograd* (1983); Diane P. Koenker, *Moscow Workers and the 1917 Revolution* (1981) | S. A. Smith证明彼得格勒工厂委员会推行“工人监督”最初是防止企业主关厂与经济崩溃的防御性自救，而非按意识形态蓝图消灭资本主义；Koenker证明莫斯科十月经历了与彼得格勒截然不同的惨烈炮战，且莫斯科多数工人虽在原则上拥护苏维埃政权，却**拒绝为党派垄断冒内战风险**（支持多党社会主义联合），其激进化遵循**“政策先于党派（policy before party）”**的理性渐进机制。 | `CLM-smith-sa-1983-defensive-workers-control`；`CLM-koenker-1981-moscow-october-armed-struggle-vs-petrograd`；`CLM-koenker-1981-rational-incremental-radicalization` | 两都工业工人的防御性/理性选择不能代表占人口八成的农村公社或边疆民族地区。 |
-| 维克热尔妥协流产与立宪会议合法性冲突 | John D. Basil, *The Mensheviks in the Revolution of 1917* (1984); 姚海（主编）《俄国革命史》(2013); Alexander Rabinowitch, *The Bolsheviks in Power* (2007) | Basil与姚海剖析十月后全俄铁道工会（维克热尔）调停与清一色社会主义联合政府谈判：孟什维克内部分裂与10月29–30日士官生暴动撕裂妥协，布尔什维克中央内部加米涅夫、季诺维也夫、李可夫、诺金等辞职警告“纯布尔什维克政府只能靠政治恐怖维持”；姚海与Rabinowitch (2007) 进一步揭示苏维埃阶级专政逻辑与普选立宪会议（1918年1月5–6日被武力解散）之间不可调和的二元合法性冲突。 | `CLM-basil-1984-october-and-vikzhel-collapse`；`CLM-yao-hai-post-october-coalition-failure-and-one-party-formation`；`CLM-yao-hai-constituent-assembly-vs-soviet-legitimacy-clash`；`CLM-rabinowitch-2007-constituent-assembly` | 维克热尔谈判与立宪会议解散解释了十月向一党制滑落的制度拐点，但不能反过来否定10月25日临时政府已彻底丧失首都工兵支持的事实。 |
-| 当事人革命解释与反对派在场反证（B级文献） | [B级当事人文献] Leon Trotsky, *History of the Russian Revolution* (1930–32); N. N. Sukhanov, *The Russian Revolution, 1917* (1922) | 托洛茨基将起义定性为“在苏维埃合法性掩护下实施的武装夺权艺术”；**苏汉诺夫的证言尤具史学张力**——他虽作为孟什维克国际派痛斥布尔什维克政权缺乏民主准备、悔恨温和派10月25日夜退场将苏维埃拱手让给列宁，却**以亲历反对者身份断然驳斥右翼“纯军事阴谋”说**，证言彼得格勒工人与驻军当时确以压倒性多数支持推翻临时政府。 | `CLM-trotsky-1930-art-of-insurrection-and-soviet-legality`；`CLM-sukhanov-1922-october-walkout-tragedy` | 两者均属B级当事人回忆与事后政治辩护（托洛茨基旨在反击斯大林并凸显自身军革委功绩，苏汉诺夫旨在检讨国际派失策），必须与当时会议速记对读。 |
-| 农民道德经济、帝国边疆与十月记忆建构 | Orlando Figes (1996); Ronald Grigor Suny (2017); Eric Blanc (2021); Frederick C. Corney, *Telling October* (2004) | Figes揭示农民公社夺地遵循自身“道德经济”，利用《土地法令》将既成黑分土地合法化而非服从城市党令；Suny综合社会史与阶级话语极化；Blanc将1917年十月放入帝国边疆民族与阶级互动视野；Corney则考证党史委（Istpart）与1920年代庆典如何将原本混乱多中心的十月夺权事后重塑为宏大叙事神话。 | `CLM-figes-1996-peasant-moral-economy-1917`；`CLM-suny-2017-totalitarian-vs-social-history-turn`；`CLM-suny-2017-class-discourse-and-polarization`；`CLM-blanc-2021-borderlands-in-1905-and-1917`；`CLM-corney-2004-istpart-and-institutionalizing-october-memory` | 农民夺地与边疆动员支持推翻旧政权，但并不等于授权布尔什维克随后的余粮收集制与一党垄断；记忆建构研究不可消解1917年秋真实的社会崩溃。 |
-
-### `DEB-1918-red-terror-and-civil-war-origins`：红色恐怖、契卡扩张与内战期一党专政起源之争（1918–1921）
-## [T1] 核心问题定义
-红色恐怖和契卡法外权力是列宁主义政治逻辑的必然结果，还是内战、粮食危机、联盟破裂与地方暴力交织下的制度选择？中央命令与地方自主行动怎样互相强化？恐怖升级、社会主义对手遭镇压和一党统治形成各有不同时间线，不能压缩成同一事件。
-
-## [T2] 各学派立场对照矩阵
-**经验基准**：全俄肃反委员会（契卡）于1917-12-07 [O.S.] / 1917-12-20 [N.S.] 凭人民委员会非立法决议成立；1918年3月《布列斯特和约》后左翼社革党退出人民委员会，7月4–10日第五次全俄苏维埃代表大会期间爆发7月6日刺杀德国大使米尔巴赫事件，布尔什维克与左翼社革党彻底决裂并于7月10日通过1918年苏俄宪法；8月30日乌里茨基遇刺、列宁遇刺重伤。据站内入库S级档案校勘（`sources/web-archive/E06_E09_state_and_comintern/1918-09-05_decree-on-red-terror.md`），广泛扣押人质指令首先出自9月4日内务人民委员彼得罗夫斯基电令，而9月5日人民委员会《关于红色恐怖的决议》（RGASPI打印原件由司法人民委员库尔斯基、内务人民委员彼得罗夫斯基、办公厅主任邦奇-布鲁耶维奇与秘书福季耶娃签署，**并非捷尔任斯基签署，且9月5日决议正文中并未出现“人质”一词**）将集中营隔离与就地枪决正式法制化。跨口径处决统计（`DATA-06-1918-1929-cheka-ogpu-sentencing-and-1929-collectivization-surge`）须严格区分中央登记案卷与地方未登记法外处决。
-
-| 学派/取向 | 代表学者与著作 | 核心论点摘要 | 支撑论断卡 | 主要受批评盲点 |
-| :--- | :--- | :--- | :--- | :--- |
-| 自由主义意识形态连续论 | Richard Pipes, *The Russian Revolution* (1990) | 提出“法国大革命终结于恐怖，而俄国革命始于恐怖”：布尔什维克因缺乏多数民众授权，将系统性恐怖用作“民众支持的替代品”，阶级敌人话语与列宁的雅各宾法律观使红色恐怖成为十月少数派政变的必然逻辑延伸。 | `CLM-pipes-1990-red-terror-leninist-logic` | 将1918年夏内战升级与暗杀危机前后的制度突变全部还原为先验意识形态蓝图，低估了战时生存危机与基层压力。 |
-| 契卡制度史与法外基因论 | George Leggett, *The Cheka: Lenin's Political Police* (1981) | 追踪契卡从1917年12月仅具侦查权、凭人民委员会行政决议（类比沙皇尼古拉一世第三厅）建置，在1918年春夏突破司法人民委员部（斯泰因伯格）制约、借9月红色恐怖法令将法外处决权制度化，直至1922年改组为GPU并由列宁5月致库尔斯基密信将恐怖写入刑法典的制度连续性（估算1917–1922年契卡直接处决约14万人、镇压起义另致约14万人死亡）。 | `CLM-leggett-1981-vecheka-extra-legal-origins`；`CLM-leggett-1981-red-terror-institutionalization`；`CLM-leggett-1981-cheka-to-gpu-continuity` | 1981年尚未能利用后苏联解密的FSB中央与地方卷宗，其高层估算数字需与莫佐欣、泽姆斯科夫档案统计对勘。 |
-| 联盟破裂、党组织萎缩与专政偶然论 | Alexander Rabinowitch, *The Bolsheviks in Power: The First Year of Soviet Rule in Petrograd* (2007) | 论证一党专政与大规模恐怖并非十月既定方案：1918年春彼得格勒布尔什维克党员从约5万人骤降至约6,000人，为保住苏维埃五大多数竟伪造约399席代表资格；左翼社革党7月刺杀米尔巴赫旨在逼停布列斯特和约而非推翻苏维埃（**1918年12月彼得格勒契卡甚至秘密撤销了对左翼社革党“有组织武装起义”的指控**）；8月30日乌里茨基遇刺后，彼得格勒各区委“自下而上”施压扩大报复，与中央危机共振催生红色恐怖。 | `CLM-rabinowitch-2007-contingency-of-dictatorship`；`CLM-rabinowitch-2007-left-sr-coalition-collapse` | 彼得格勒在季诺维也夫与乌里茨基初期相对克制及随后失控的个案，不能直接代表伏尔加河或南方前线各省的暴力烈度。 |
-| 地方庇护网络、红色恐怖编年史与捷尔任斯基机构化 | Delano Dugarm (2001，收入 Donald J. Raleigh 编 *Provincial Landscapes*)；Igor Ratkovsky (伊·谢·拉特科夫斯基 2017两部专著，依托 A. M. & A. A. Plekhanov 2007 档案集) | Dugarm以坦波夫省个案揭示地方布尔什维克宗派庇护网、溃兵与契卡自主滥权常偏离莫斯科指令，甚至以“虚构暴动”掩盖征粮失败；圣彼得堡国立大学史家拉特科夫斯基（2017《契卡红色恐怖编年史》与《捷尔任斯基传》）依托普列汉诺夫父子2007年档案集，重构人质制度、地方契卡对孟什维克与社革党的压制、1918年秋约8,000人处决估算，以及捷尔任斯基如何将分散的革命暴力收编为垂直集权的契卡—内务—最高国民经济委员会官僚机器。 | `CLM-raleigh-2001-local-bolshevik-violence-and-clientelism`；`CLM-cheka-chronicle-hostage-and-local-autonomy`；`CLM-cheka-chronicle-suppression-of-socialist-rivals`；`CLM-plekhanov-am-dzerzhinsky-cheka-institutionalization` | 地方报刊编年史与契卡内部通报存在漏报或战绩夸大双向偏差，须与独立受害者名册及省级法院档案交叉核验。 |
-| 被镇压社会主义对手、第三势力崩溃与1918年工人抗议 | [S级当事人演说] L. Martov (1920年10月哈勒大会演说)；Oliver H. Radkey, *The Sickle under the Hammer* (1963)；D. O. Churakov (丘拉科夫, 2004) | 马尔托夫在1920年德国独立社民党哈勒大会上痛斥无差别红色恐怖（如彼得格勒一次处决约800人）与“二十一条”如何摧毁社会主义道德与苏维埃民主；Radkey剖析社革党与科穆奇（Komuch）“民主第三势力”因内部分裂及白军借其作“保护色”而崩溃，将政局推入红白恐怖两极；丘拉科夫以档案证明1918年苏维埃辖区210–220家大中型企业爆发10–25万工人罢工抗议，直至8月伊热夫斯克—沃特金斯克武装工人起义，直接证伪“镇压对象仅限于资产阶级和地主”的官方叙事。 | `CLM-halle-1920-martov-critique-of-terror-and-21-conditions`；`CLM-smith-scott-2011-psr-third-force-collapse`；`CLM-churakov-2004-soviet-worker-protest-dynamics-1918`；`CLM-churakov-2004-izhevsk-votkinsk-worker-insurrection` | 反对派控诉与工人起义证明了恐怖对劳动阶级自身的反噬，但对白军战区白色恐怖与外国干涉的对称比较需另行展开。 |
-| 内战军事化结构与总体战现代治理 | Evan Mawdsley, *The Russian Civil War* (1987); David L. Hoffmann, *Cultivating the Masses* (2011) | Mawdsley从军事地理与政权生存结构出发，指出内战与政治高度军事化均是十月夺权方式的直接代价（“内战代价即革命代价”）；Hoffmann将契卡监控、集中营与粮食强制置于1914年一战以来欧洲列强总体战人口治理与国家暴力技术的连续谱中。 | `CLM-mawdsley-1987-civil-war-militarized-regime`；`CLM-hoffmann-2011-continuum-of-total-war-1914-1929` | 欧洲总体战技术共性或军事地理决定论，不能消解布尔什维克在1921年内战结束后仍保留并制度化法外警察权力的政治选择责任。 |
-| 后苏联FSB/GARF档案定量校准与莫佐欣“战时/和平期二分法” | O. B. Mozokhin (莫佐欣, 2006/2016)；V. N. Zemskov (泽姆斯科夫, 2010s) | 莫佐欣据俄罗斯联邦安全局中央档案馆（ЦА ФСБ РФ）统计表（`DATA-06-1918-1929-cheka-ogpu-sentencing-and-1929-collectivization-surge`），确认1918–1921年有案可查契卡处决约1.75万人（计入缺省全期上限不超过5万），并提出鲜明的**国家主义二分法**——肯定1918–1921年战时契卡镇压武装叛乱的应急必要性，却**尖锐批判1922年后和平时期GPU/OGPU继续垄断法外司法**（如1924年4,097起反革命案仅6起移交法院，战时死刑率6.9% vs 和平期0.5%/0.94%）；泽姆斯科夫据GARF档案校准1918–1920年登记反革命案判刑62,231人、处决25,709人（含未登记上限<10万），共同驳斥百万级夸大数字。 | `CLM-mozokhin-cheka-to-ogpu-extrajudicial-jurisdiction-1918-1929`；`CLM-zemskov-1920s-archival-repression-scale-before-1930` | 中央汇总报表未涵盖1918–1920年前线红军革命军事法庭、征粮队及地方县契卡未上报的就地处决，档案下限不等于实际死亡总数。 |
-
-## 4. 关联时间线锚点 (共 5 条)
+## 4. 关联时间线骨干锚点 (L0–L2 展示 2 条，另有 3 条 L3 逐日细节见 `timeline/L3_daily/`)
 - **1922-12-23 [N.S.]** (`TL-W3-1922-12-23`, L2): **列宁开始口授给代表大会的信** — 口授延续到12月31日。民族问题与格鲁吉亚备忘录在12月30–31日。12月22日斯大林斥责克鲁普斯卡娅。本条不是1月4日附言。
-- **1922-12-26 [N.S.]** (`TL-W8-1922-12-26-01`, L3): **列宁完成《给代表大会的信》第三部分，27–29日接续口授计委立法权与扩充中委细节** — 列宁进一步论述50–100名工农新委员如何注入底层务实经验并消除官僚阿谀逢迎；27–29日补订关于赋予国家计委立法性及调整机关结构的附记，同时于工作单秘密记下“格鲁吉亚党内最近冲突”议题。
 - **1922-12-30 [N.S.]** (`TL-W3-1922-12-30`, L2): **苏维埃代表大会宣告成立苏联** — 与民族问题备忘录的口授日重叠。成立苏联不等于格鲁吉亚冲突已经结束。
-- **1922-12-30 [N.S.]** (`TL-W8-1922-12-30-01`, L3): **苏联正式宣告成立同日，列宁绝密口授《关于民族或“自治化”问题》痛斥斯大林—奥尔忠尼启则“大俄罗斯沙文主义暴行”** — 正当全苏一大宣告成立USSR之际，列宁得悉奥尔忠尼启则殴打格鲁吉亚同志及捷尔任斯基包庇内情，于12月30–31日口授三段绝密札记，痛斥“真正俄罗斯的杰尔日莫尔达”、呼吁不惜缩编联盟仅留军外两部，并直指斯大林应负政治责任且须严惩奥尔忠尼启则。
-- **1923-01-24 [N.S.]** (`TL-W8-1923-01-24-01`, L3): **列宁索要捷尔任斯基格鲁吉亚调查卷宗；政治局拖延并于25日抢先背书奥尔忠尼启则报告** — 列宁突破禁令责令福季耶娃调取全案卷宗并设立私人复查三人组；1月25日政治局却趁其未阅卷先期批准了为奥尔忠尼启则开脱、反斥姆迪瓦尼的结论，直至2月1日迫于压力才交出原始卷宗。

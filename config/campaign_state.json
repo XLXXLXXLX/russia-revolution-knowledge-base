@@ -1,33 +1,34 @@
 {
   "campaign_name": "Russian Revolution KB (1861-1929) Weekly Subscription Burn",
   "started_at": "2026-11-18",
-  "status": "paused",
-  "resumed_at": "2026-11-19T12:37:00+08:00",
-  "paused_at": "2026-11-19T14:35:00+08:00",
-  "target_pause_at": "2026-11-19T15:00:00+08:00",
-  "min_5h_quota_remaining_pct": 10,
+  "status": "scheduled_wakeup_pending",
+  "paused_at": "2026-11-20T00:05:00+08:00",
+  "next_scheduled_wakeup": "2026-11-20T09:00:00+08:00",
+  "min_quota_remaining_pct": 20,
+  "max_quota_used_pct": 80,
   "pause_after_in_flight": false,
   "resume_checkpoint": {
-    "completed_in_session": "Waves 39-52 圆满收官（100% 异源交叉审计 + 100% 闭环精修清零，0 在途任务、0 悬空 P0、0 Stub）：① 精读 2 部未读全文专著（泽姆斯科夫等《斯大林时代经济与镇压》RN-W39、阿拉波维奇《苏联工业妇女劳动》RN-W39 + 4 张 CLM-* + SCH-arapovich-n-d）；② 抓取入库列宁 1922-1923 年最后口授与舒亚密信 5 份俄/英/中三语 S 级原典（sources/web-archive/W39_lenin_1922_1923_docs/，累计 49 篇 S 级原典）；③ 新建 5 张过渡带与边疆核心事件卡（1891-1916 三张 + 乌克兰/外高加索两张）并升格 38 张卡片，共计 43 张实体与争鸣卡全部完成跨模型家族异源交叉审计（AUD-17A/B/C + AUD-18A/B/C/D，共 7 份审计报告）及 100% 闭环精修，使 CON-*（17/17）、DEB-*（23/23）、INS-*（8/8）、MTG-*（17/17）、ORG-*（24/24）、POL-*（12/12）六大类卡片实现 100% multi-perspective 全量升格（全库 207 张实体/争鸣卡中 multi-perspective 达 164 张，占 79.2%）；④ 全库节点增至 582 个、时效有向边由 1,221 条增至 1,424 条、重编译全部 184 个 1-Hop 平衡上下文包，kb.py audit-graph 零报错通过。",
+    "completed_in_session": "已完成 Waves 53-63 全部 184 张实体卡 multi-perspective 升格，并建立 5 套共 106 题跨模型 Benchmark 体系（B1-B5，含 dev/holdout 分层与定期维护门禁）；完成 kb.py（PyYAML + 多卡去重 pack + SQLite FTS5 trigram locate-chapters）、sync_graph_and_packs.py（单进程多时段边 100% 同步）、extract_book.py 空书自动隔离重构，闭环修复 AUD-19A、AUD-19B、AUD-20D、POL-war-communism 改历后日期及全部 286 张 CLM 外键；v1_post_refactor 全集与 holdout 均 5/5 PASS（26 项指标提升，0 退化）。",
     "next_on_resume": [
-      "Wave 53-55（清零剩余 12 张 draft 事件卡 EVT-*）：分两批各 6 张升格 EVT-1917-02-february-revolution、EVT-1917-07-july-days、EVT-1917-10-october-revolution、EVT-1918-01-constituent-assembly-dispersal、EVT-1918-03-brest-litovsk-treaty、EVT-1918-09-red-terror-and-left-sr-rupture 及内战/坦波夫/喀琅施塔得/剪刀差/1928征粮危机/1929大转变 6 张核心事件卡，并执行异源交叉审计与闭环精修，实现 EVT-*（30/30）100% multi-perspective",
-      "Wave 56+（清零剩余 31 张 draft 人物卡 PER-*）：按民粹与早期马克思主义先驱（赫尔岑/车尔尼雪夫斯基/巴枯宁/拉夫罗夫/特卡乔夫/热利亚博夫/佩罗夫斯卡娅/菲格涅尔/查苏利奇/阿克雪里罗得）、1917与党国知识精英（米留可夫/克伦斯基/波格丹诺夫/卢那察尔斯基/高尔基/克鲁普斯卡娅/契切林/伏龙芝）、工农反对派与经济学家（施略普尼科夫/柯伦泰/托姆斯基/乌格拉诺夫/拉狄克/索科利尼科夫/古比雪夫/卡冈诺维奇/加里宁/安东诺夫/恰亚诺夫/康德拉季耶夫/乌斯特里亚洛夫）分批升格并完成异源审计，达成全库 207/207（100%）multi-perspective 大满贯",
-      "扫描件 OCR 专项（可选）：对无嵌入式文本层的 3 部扫描 PDF（short_course_1938_zh、preobrazhensky_1926_new_economics_zh、lelichuk_soviet_industrialization_zh）执行分章版面 OCR 重建后再派 close-reader 精读"
+      "Step 0（额度探测与红线）：检查 ~/.codex 实时 5h/weekly used_percent 及 Antigravity / Grok 可用状态；全流程严格以【剩余可用额度 20%（即 used_percent >= 80%）】为硬性停机红线，一旦任一主力池触及剩余 20% 立即停止新派发并收官。",
+      "Wave 64（审计全闭环）：回写修复 AUD-20C（6 张文化/外交/军事人物卡 6 P1 + 4 P2），核查 AUD-20A / AUD-20B 是否有残余未修项，并对 Wave 59 最后 6 张人物卡（PER-shlyapnikov/kollontai/tomsky/uglanov/radek/sokolnikov）执行异源 Defect-Only 审计 AUD-20E 与闭环回写。",
+      "Wave 65+（扩库精读与织网）：运行 scripts/list_remaining_inbox.py 拆解并整章精读剩余可读专著/史料（自动跳过 needs_ocr 纯扫描本），扩充高价值 L3 微距编年、一手原典与关键细粒度节点，每 3-5 波次例行运行 sync_graph_and_packs.py 与 benchmarks/run_benchmarks.py（check-health + run + compare vs v1_post_refactor）确保零退化，直至可用额度剩 20%。"
     ]
   },
   "concurrency_governor": {
-    "max_grok_concurrent": 0,
+    "max_grok_concurrent": 2,
     "max_antigravity_concurrent": 2,
     "max_codex_concurrent": 2,
-    "rule": "Antigravity 子代理严格 <=2 路并发、单任务两阶段增量写盘且严禁调用 read_url_content（优先用 gemini-4-neon / hydrogen / argon；claude-sonnet-5-5 配额未重置前禁用）；Codex 保持 <=2 路并发，每波次回调后检查 ~/.codex 实时 5h used_percent（>=90% 即 <10% 剩余时立即停止派发并收官）。"
+    "rule": "严格执行剩余额度 20%（已用 <=80%）停机线；严禁调用付费 opencode 兜底与 antigravity_2/claude-*；Antigravity 子代理 <=2 路并发且禁调 read_url_content；审计报告一律采用 Defect-Only 精简格式。"
   },
   "provider_quota_status": {
-    "codex": "paused_at_85pct_5h_used_15pct_remaining_45pct_weekly_used",
-    "antigravity_2": "gemini-4-neon_hydrogen_argon_healthy_claude_sonnet_exhausted_6d",
-    "grok": "100%_burned_weekly_balance_402",
-    "opencode_fallback": "standby_untouched"
+    "codex": "awaiting_0900_window_refresh_stop_at_80pct_used",
+    "antigravity_2": "active_gemini-4-neon_hydrogen_argon_stop_at_80pct_used",
+    "grok": "active_grok-4.7_cross_family_audit_and_build",
+    "opencode_fallback": "strictly_disabled"
   },
   "books_extracted_count": 145,
-  "completed_waves": 52,
-  "active_wave": null
+  "completed_waves": 63,
+  "active_wave": 64,
+  "benchmark_baseline": "benchmarks/baselines/v1_post_refactor.json"
 }

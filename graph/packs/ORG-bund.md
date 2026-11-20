@@ -1,14 +1,9 @@
-# 1-Hop 平衡上下文包：`ORG-bund` (崩得（立陶宛、波兰和俄罗斯犹太工人总同盟）)
+# 1-Hop 去重平衡上下文包：`ORG-bund`
 
-> 本文件由 `python scripts/kb.py pack` 自动编译，旨在将失控的 `1+N` 随机读取压缩为**等权重、带时效边实质与史学盲区告警**的单次全景读取。
+> 由 `python scripts/kb.py pack` 动态编译：保留 **100% 一跳邻居与多时段关系边**，跨卡自动去重争鸣与时间线，并关联学者学派 (`SCH-*`)。
 
-## 0. 认知完备度与反偏斜仪表盘 (Epistemic & Skew Warnings)
-- **主卡路径**: `cards/organizations/ORG-bund.md`
-- **完备度等级**: `multi-perspective`
-- **已覆盖视角**: `party-split-getzler-haimson, imperial-borderlands-blanc, soviet-nationality-liber, carr-institutional`
-- **待补齐视角**: `yiddish-press-circulation-quantitative, women-bund-activists`
-- **偏斜风险提示**:
-  - ⚠️ 主卡显式声明尚缺以下视角待补: `yiddish-press-circulation-quantitative, women-bund-activists`。
+## 0. 认知完备度与反偏斜仪表盘
+- **`ORG-bund`** (崩得（立陶宛、波兰和俄罗斯犹太工人总同盟） | `cards/organizations/ORG-bund.md` | `multi-perspective`): 已覆盖=`party-split-getzler-haimson, imperial-borderlands-blanc, soviet-nationality-liber, carr-institutional`；待补=`yiddish-press-circulation-quantitative, women-bund-activists`
 
 ## 1. 主卡核心层 ([T1] + [T2])
 ## [T1] 60秒定性微摘要
@@ -41,45 +36,18 @@
   - **[民族政策比较 / George Liber]** (`CLM-liber-1992-korenizatsiia-paradox-late-1920s`)：苏联本土化政策（`коренизация` / `korenizatsiia`）在扩大意第绪语公共领域的同时拒绝崩得式超领土民族文化自治，改以领土苏维埃制吸纳民族诉求。
   - **[制度吸纳论 / E. H. Carr]**（`sources/monographs/carr_1950_bolshevik_rev_v1_en/ch05_pages_126-150.md`）：崩得在苏俄境内的分裂与并入标志布尔什维克对少数民族社会主义政党的制度化吸收逻辑，与乌克兰借道左翼独立派并党的轨迹同构。
 
-## 2. 一跳邻域等权重微摘要 (共 9 个关联节点，严防大卡霸占上下文)
-### 邻居节点: `ORG-mensheviks`
-- **时效关系边** (`ORG-bund` → `ORG-mensheviks` | `walkout-catalyst-to-federal-debater` | 有效时段: `1903-1920`): 1903二大因联邦制与唯一代表权遭拒退场客观促成列宁派多数，此后长期活跃于西部犹太工运，内战中左翼分裂并入俄共。
-- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 俄国社会民主主义政党（1903–1924），源于1903年二大马尔托夫等与列宁围绕党章第一条及集中制的决裂，主张开放型群众政党与工人自主活动。1917年分化为策烈铁里、但恩主导的入阁“革命护国派”与马尔托夫领导的反战“国际主义派”；十月后开展苏维埃合法反对派抗争，1921年后遭取缔。
+## 2. 一跳邻域全量微摘要目录 (去重后共 9 个节点，0 截断)
+- **`EVT-1891-1903-witte-industrialization-and-marxist-labor-turn`**（1891–1903年维特工业化与俄国马克思主义工运转向）: 1891–1903年维特国家工业化与俄国马克思主义工运转向。1891–1892年饥荒触发民粹派与马克思主义大论战，1896–1897年彼得堡纺织工潮迫使沙皇颁布11.5小时工时法；历经经济派与“警察社会主义”博弈，1903年二大引发持续派争。 ‖ `→ORG-bund`[pioneer_and_secessionist|1897–1903]: 率先实践维尔纽斯群众鼓动与有组织罢工基金，1903年二大因民族自治诉求遭否而暂退党
+- **`MTG-1903-rsdlp-2nd-congress`**（俄国社会民主工党第二次代表大会（1903年7–8月））: `1903-07-30` 至 `08-23 [N.S.]` 俄社民工党二大先后在布鲁塞尔与伦敦召开。大会通过党纲；第23次会议马尔托夫党章第一条 `28:22:1` 胜列宁案。随后的崩得与经济派退场逆转了多数，列宁借微弱多数改组《火星报》三人编委，由此衍生布尔什维克与孟什维克之名。 ‖ `→ORG-bund`[walks_out|1903.08]: 因联邦制与唯一代表权要求遭否决率团退席（5票/4票），客观改变了后续多数算术。 ； `←ORG-bund`[walked-out|1903.08]: 联邦制与代表权条款败北后退场，改变后续选举算术
+- **`MTG-1906-04-rsdlp-4th-stockholm-congress`**（俄国社会民主工党第四次（统一）代表大会（1906年））: 1906-04-23至05-08[N.S.]，俄社民工党在斯德哥尔摩召开统一大会。基层统一诉求促两派会合，孟什维克占表决多数，土地地方自治化方案获胜。章程首次明定民主集中制，党员公式采用列宁“加入一个党组织”的表述，并重组民族组织关系；形式统一未消除派别网络。 ‖ `→ORG-bund`[rejoins_united_party|1906]: 与统一党重新建立组织关系；其代表是否计入62/46/112待核。
+- **`PER-martov-l`**（尤利·马尔托夫）: 孟什维克核心领袖与国际主义左翼旗手。1903年二大凭党章第一条（28:22:1）与列宁分道；1917年七月夜倡“清一色社会主义政府”遭党内主流否决，十月二大率派退场；1918年工人抗议浪潮中坚持苏维埃合法反对派立场，1920年哈雷大会与季诺维也夫正面交锋痛斥恐怖与二十一条，后流亡柏林病逝。 ‖ `←ORG-bund`[factional-counterpoint|1903]: 同列宁联手驱逐崩得，却在党章第一条上与列宁分裂
+- **`PER-lenin`**（弗拉基米尔·列宁）: 布尔什维克党缔造者、苏俄人民委员会主席（1917–1924）。1893年投身马克思主义运动，1903年促成布尔什维克分化；1917年发表《四月提纲》并领导十月夺权，历经布列斯特和约、内战与战时共产主义；1921年主持转向新经济政策，晚年（1922–1923）就官僚化与接班人同斯大林冲突。 ‖ `←ORG-bund`[organizational-rival|1903–1917]: 批判民族文化自治，坚持崩得不得独占犹太工人代表权
+- **`ORG-mensheviks`**（孟什维克）: 俄国社会民主主义政党（1903–1924），源于1903年二大马尔托夫等与列宁围绕党章第一条及集中制的决裂，主张开放型群众政党与工人自主活动。1917年分化为策烈铁里、但恩主导的入阁“革命护国派”与马尔托夫领导的反战“国际主义派”；十月后开展苏维埃合法反对派抗争，1921年后遭取缔。 ‖ `←ORG-bund`[electoral-ally|1905–1917]: 在1905里加联邦委员会与1917苏维埃中与孟什维克协同，共享护国派争议
+- **`ORG-petrograd-soviet`**（彼得格勒工兵代表苏维埃）: 二月革命后诞生于塔夫利达宫的工兵政权，颁布《第一号命令》。执委会主席为齐赫伊泽，策烈铁里是常务局核心并主导革命护国路线。1917-08-31[O.S.]/09-13[N.S.]首次通过布尔什维克决议，托洛茨基随后任主席；十月军事革命委员会成为推翻临时政府的枢纽。 ‖ `←ORG-bund`[faction-in|1917.03–1917.10]: 埃尔利希等代表在十月二大随孟什维克退场
+- **`POL-korenizatsiia`**（本土化政策（Коренизация））: 1923年俄共十二大系统确立的民族政策，在一党垄断与组织集权下推进非俄干部录用、行政司法母语化和民族文教。斯大林在语言、边疆发展及第二院否决权上让步，守住代表结构；乌克兰等地深入推行，1926、1928年引发文化经济自主争论。1929年底只是本卡观察截点，并非政策废止。 ‖ `←ORG-bund`[policy-tension|1923–1929]: 苏联本土化与意第绪文教资源分配部分回应崩得旧诉求，却排斥自治议会模式
+- **`EVT-1917-02-february-revolution`**（1917年二月革命）: 1917年2月23日至3月3日（俄历；公历3月8—16日），彼得格勒女工罢工、跨厂动员与驻军兵变推翻帝制。杜马委员会接管行政，苏维埃代表工兵，临时政府在革命全权与旧宪制断裂中成立；双重政权并非简单的主动让权。 ‖ `←ORG-bund`[regional-mobilizer|1917.02起]: 边疆工人动员网络延续1905自卫传统
 
-### 邻居节点: `MTG-1903-rsdlp-2nd-congress`
-- **时效关系边** (`MTG-1903-rsdlp-2nd-congress` → `ORG-bund` | `walks_out` | 有效时段: `1903.08`): 因联邦制与唯一代表权要求遭否决率团退席（5票/4票），客观改变了后续多数算术。
-- **时效关系边** (`ORG-bund` → `MTG-1903-rsdlp-2nd-congress` | `walked-out` | 有效时段: `1903.08`): 联邦制与代表权条款败北后退场，改变后续选举算术
-- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): `1903-07-30` 至 `08-23 [N.S.]` 俄社民工党二大先后在布鲁塞尔与伦敦召开。大会通过党纲；第23次会议马尔托夫党章第一条 `28:22:1` 胜列宁案。随后的崩得与经济派退场逆转了多数，列宁借微弱多数改组《火星报》三人编委，由此衍生布尔什维克与孟什维克之名。
-
-### 邻居节点: `MTG-1906-04-rsdlp-4th-stockholm-congress`
-- **时效关系边** (`MTG-1906-04-rsdlp-4th-stockholm-congress` → `ORG-bund` | `rejoins_united_party` | 有效时段: `1906`): 与统一党重新建立组织关系；具体自治条款待核。
-- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 1906-04-23 至 1906-05-08 [N.S.]，俄社民工党在斯德哥尔摩召开统一大会。1905年革命后的基层统一诉求促成两派会合；孟什维克在主要表决中占多数，土地地方自治化方案获胜。大会章程首次明文规定民主集中制，并把党员公式改回列宁的“加入一个党组织”表述，也重组与民族社会民主组织的关系；形式统一并未消除派别网络。
-
-### 邻居节点: `PER-martov-l`
-- **时效关系边** (`ORG-bund` → `PER-martov-l` | `factional-counterpoint` | 有效时段: `1903`): 同列宁联手驱逐崩得，却在党章第一条上与列宁分裂
-- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 孟什维克核心领袖与国际主义左翼旗手。1903年二大凭党章第一条（28:22:1）与列宁分道；1917年七月夜倡“清一色社会主义政府”遭党内主流否决，十月二大率派退场；1918年工人抗议浪潮中坚持苏维埃合法反对派立场，1920年哈雷大会与季诺维也夫正面交锋痛斥恐怖与二十一条，后流亡柏林病逝。
-
-### 邻居节点: `PER-lenin`
-- **时效关系边** (`ORG-bund` → `PER-lenin` | `organizational-rival` | 有效时段: `1903–1917`): 批判民族文化自治，坚持崩得不得独占犹太工人代表权
-- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 布尔什维克党缔造者、苏俄人民委员会主席（1917–1924）。1893年投身马克思主义运动，1903年促成布尔什维克分化；1917年发表《四月提纲》并领导十月夺权，历经布列斯特和约、内战与战时共产主义；1921年主持转向新经济政策，晚年（1922–1923）就官僚化与接班人同斯大林冲突。
-
-### 邻居节点: `ORG-petrograd-soviet`
-- **时效关系边** (`ORG-bund` → `ORG-petrograd-soviet` | `faction-in` | 有效时段: `1917.03–1917.10`): 埃尔利希等代表在十月二大随孟什维克退场
-- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 1917年二月革命后在塔夫利达宫诞生的首都工兵政权：执委会主席始终为齐赫伊泽，策烈铁里是执委会常务局核心领袖并主导“革命护国”路线，颁布《第一号命令》重塑军队纪律；夏秋左翼浪潮下于俄历8月31日（公历9月13日）全体大会首次通过布尔什维克决议，托洛茨基随后当选主席，十月以军事革命委员会夺权枢纽终结临时政府。
-
-### 邻居节点: `POL-korenizatsiia`
-- **时效关系边** (`ORG-bund` → `POL-korenizatsiia` | `policy-tension` | 有效时段: `1923–1929`): 苏联本土化与意第绪文教资源分配部分回应崩得旧诉求，却排斥自治议会模式
-- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 1923年俄共（布）十二大系统确立的苏联早期民族政策：在一党垄断政权与组织集权前提下，推进非俄罗斯地区干部录用、行政司法母语化及民族文教建设。十二大上斯大林在语言权利、边疆发展与第二院立法否决权上作实质让步，但守住第二院代表结构方案；1920年代在乌克兰等地深度推进，1926与1928年相继引发文化与经济自主论争（本卡止于1929年底观察截点，非政策废止日）。
-
-### 邻居节点: `EVT-1917-02-february-revolution`
-- **时效关系边** (`ORG-bund` → `EVT-1917-02-february-revolution` | `regional-mobilizer` | 有效时段: `1917.02起`): 边疆工人动员网络延续1905自卫传统
-- **节点定性微摘要 [T1]** (完备度 `draft`): 1917年2月23日至3月3日（公历3月8日至16日），彼得格勒爆发民众起义推翻罗曼诺夫王朝。妇女与工人和平抗议迅速演变为卫戍部队大规模倒戈；沙皇尼古拉二世退位，国家杜马临时委员会与彼得格勒苏维埃并立催生“双重政权”，开启俄国长达八个月的宪政民主探索与剧烈社会激进化进程。
-
-### 邻居节点: `EVT-1891-1903-witte-industrialization-and-marxist-labor-turn`
-- **时效关系边** (`EVT-1891-1903-witte-industrialization-and-marxist-labor-turn` → `ORG-bund` | `pioneer_and_secessionist` | 有效时段: `1897–1903`): 率先实践维尔纽斯群众鼓动与有组织罢工基金，1903年二大因民族自治诉求遭否而暂退党
-- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 1891–1903年维特国家工业化与俄国马克思主义工运转向。1891–1892年饥荒触发民粹派与马克思主义大论战，1896–1897年彼得堡纺织工潮迫使沙皇颁布11.5小时工时法；历经经济派与“警察社会主义”博弈，1903年二大引发持续派争。
-
-## 3. 关联史学争鸣光谱 (Historiographical Debates)
+## 3. 关联史学争鸣与学者论断索引 (主卡外关联争鸣 1 项)
 ### `DEB-1903-bolshevik-menshevik-split`：《怎么办？》与1903年布尔什维克—孟什维克分裂实质之争
 ## [T1] 核心问题定义
 《怎么办？》的自发性与意识理论究竟体现精英代替工人，还是欧洲社会民主主义所共有的结合公式？1903年党章、领导机构选举和代表退会如何共同造成分裂，又能否把后来的一党统治直接追溯到当时？必须区分文本论战、组织选择和事后政治后果。
@@ -96,6 +64,25 @@
 | 帝国边疆社会民主主义 | Eric Blanc, *Revolutionary Social Democracy* (2021) | 以帝国边疆非俄罗斯民族社会民主党（崩得、拉脱维亚、波兰、芬兰等）的群众性合法/半合法组织实践与共同的“革命考茨基主义”，打破仅以俄国中心流亡小报编委为轴的建党叙事。 | `CLM-blanc-2021-revolutionary-kautskyanism-in-empire`；`CLM-blanc-2021-beyond-russocentric-bolshevism` | 边疆宏观组织比较不能取代二大第23次与第31次会议具体党章文本、联邦制否决及唱名票序的微观因果。 |
 | 工人能动性与政治修辞辨析 | S. A. Smith (1996/1999，收入 Reginald E. Zelnik 编论文集)；Robert Mayer (1999) | Smith（及Zelnik译注卡纳奇科夫自传）揭示1895–1917年彼得堡“觉悟工人”追求去监护化自治、排斥知识分子两派内斗；Robert Mayer考证列宁1903–1904年的“雅各宾”自称直接承袭普列汉诺夫1901年的法国大革命修辞以打击机会主义，而非效法特卡乔夫或布朗基密谋。 | `CLM-zelnik-1999-worker-intelligentsia-tutelage-tension`；`CLM-zelnik-1999-kanatchikov-conscious-worker-formation`；`CLM-mayer-1999-lenin-jacobin-metaphor-vs-blanquism` | 概念史修辞澄清与基层工人心态史分属不同分析层面，需与中央党组织制度变迁互证。 |
 
-## 4. 关联时间线锚点 (共 2 条)
-- **1917-03-27 [O.S.] / 1917-04-09 [N.S.]** (`TL-W32-1917-04-09-02`, L3): **列宁一行32名俄国流亡者自苏黎世乘治外法权列车（所谓“铅封列车”）启程返俄** — 经瑞士左翼普拉廷与德国公使馆议定治外法权过境条款，当地时间1917-04-09 [N.S.] / 03-27 [O.S.]约15:10（派普斯记15:20），列宁、克鲁普斯卡娅、季诺维也夫、阿尔曼德、拉狄克等32名流亡者（含19名布尔什维克、6名崩得、3名托洛茨基追随者）自苏黎世出发，经戈特马丁根转乘两节编组专列横穿德国（车门实未焊铅）。
-- **1917-11-03 [O.S.] / 1917-11-16 [N.S.]** (`TL-W36-1917-11-16-01`, L3): **莫斯科克里姆林宫收复、军校投降；列宁发出十人最后通牒** — 清晨红军收复莫斯科克里姆林宫，16:00亚历山大军事学校投降，莫斯科七日血战（数百人阵亡）结束；维克热尔会场梁赞诺夫递交普梯洛夫强硬决议被阿布拉莫维奇宣布谈判已死；当夜列宁起草十人联署最后通牒限令党内五名少数派无条件服从。
+
+### 3.1 关联核心论断与史学家学派坐标 (`CLM-*` → `SCH-*`, 展示前 18/18 条)
+- **`CLM-haimson-1955-1903-second-congress-split`** [`SCH-haimson-leopold`(利奥波德·海姆森) | pp. 175-191]: 
+- **`CLM-getzler-1967-martov-1903-clause-one`** [`SCH-getzler-israel`(伊斯雷尔·格茨勒) | pp. 78-79]: 
+- **`CLM-blanc-2021-borderlands-in-1905-and-1917`** [`SCH-blanc-eric`(埃里克·布兰克) | pp. 20–23, 338–436, 488–531, 457–543]: 
+- **`CLM-liber-1992-korenizatsiia-paradox-late-1920s`** [`SCH-liber-george`(乔治·O·利伯) | pp. 155–157; 180–186]: 
+- **`CLM-lih-2006-erfurtian-merger-formula`** [`SCH-lih-lars`(拉斯·T·利) | pp. 6-9, 41-49, 74-106, 113-121, 556-557]: 
+- **`CLM-sukhanov-1922-october-walkout-tragedy`** [`SCH-sukhanov-nikolai`(尼古拉·苏汉诺夫) | pp. 631–647, 657–660 (PDF pp. 683–699, 709–711)]: 
+- **`CLM-blanc-2021-beyond-russocentric-bolshevism`** [`SCH-blanc-eric`(埃里克·布兰克) | pp. 15–16, 23–26]: 
+- **`CLM-jacobin-ancestry-tkachev-blanqui-and-leninism`** [`SCH-chamberlin-william-henry`(威廉·亨利·钱伯林) | pp. 251–257 (PDF pp. 2–8)]: 
+- **`CLM-pipes-1990-patrimonial-state-and-intelligentsia`** [`SCH-pipes-richard`(理查德·派普斯) | ch. 2 (Official Russia); ch. 4 (The Intelligentsia); cf. Introduction]: 
+- **`CLM-haimson-1955-lenin-what-is-to-be-done`** [`SCH-haimson-leopold`(利奥波德·海姆森) | pp. 132-141]: 
+- **`CLM-haimson-1955-consciousness-spontaneity`** [`SCH-haimson-leopold`(利奥波德·海姆森) | pp. vi-viii, 7-11]: 
+- **`CLM-haimson-1987-menshevik-party-ethos-and-family`** [`SCH-haimson-leopold`(利奥波德·海姆森) | pp. 14–17]: 
+- **`CLM-lih-2006-kautsky-and-spontaneity`** [`SCH-lih-lars`(拉斯·T·利) | pp. 35-37, 555, 613-667]: 
+- **`CLM-lih-2006-textbook-myth-critique`** [`SCH-lih-lars`(拉斯·T·利) | pp. 5, 13-33, 555]: 
+- **`CLM-blanc-2021-revolutionary-kautskyanism-in-empire`** [`SCH-blanc-eric`(埃里克·布兰克) | pp. 25–28, 569–578]: 
+- **`CLM-zelnik-1999-worker-intelligentsia-tutelage-tension`** [`SCH-smith-sa`(斯蒂芬·A·史密斯（S. A. Smith）) | pp. 6-7, 13-15, 18-27, 51-52]: 
+- **`CLM-zelnik-1999-kanatchikov-conscious-worker-formation`** [`SCH-smith-sa`(斯蒂芬·A·史密斯（S. A. Smith）) | pp. 9-12, 26-27]: 
+- **`CLM-mayer-1999-lenin-jacobin-metaphor-vs-blanquism`** [`SCH-mayer-robert`(罗伯特·迈耶) | pp. 127-129, 140-146]: 
+
+## 4. 关联时间线骨干锚点 (L0–L2 展示 0 条，另有 2 条 L3 逐日细节见 `timeline/L3_daily/`)

@@ -1,14 +1,9 @@
-# 1-Hop 平衡上下文包：`MTG-1923-04-12th-party-congress` (俄国共产党（布尔什维克）第十二次代表大会)
+# 1-Hop 去重平衡上下文包：`MTG-1923-04-12th-party-congress`
 
-> 本文件由 `python scripts/kb.py pack` 自动编译，旨在将失控的 `1+N` 随机读取压缩为**等权重、带时效边实质与史学盲区告警**的单次全景读取。
+> 由 `python scripts/kb.py pack` 动态编译：保留 **100% 一跳邻居与多时段关系边**，跨卡自动去重争鸣与时间线，并关联学者学派 (`SCH-*`)。
 
-## 0. 认知完备度与反偏斜仪表盘 (Epistemic & Skew Warnings)
-- **主卡路径**: `cards/meetings/MTG-1923-04-12th-party-congress.md`
-- **完备度等级**: `multi-perspective`
-- **已覆盖视角**: `revisionist-lewin, nationalities-archival-smith, economic-interregnum-carr, party-opposition-trotsky`
-- **待补齐视角**: `full-stenogram-economic-commission`
-- **偏斜风险提示**:
-  - ⚠️ 主卡显式声明尚缺以下视角待补: `full-stenogram-economic-commission`。
+## 0. 认知完备度与反偏斜仪表盘
+- **`MTG-1923-04-12th-party-congress`** (俄国共产党（布尔什维克）第十二次代表大会 | `cards/meetings/MTG-1923-04-12th-party-congress.md` | `multi-perspective`): 已覆盖=`revisionist-lewin, nationalities-archival-smith, economic-interregnum-carr, party-opposition-trotsky`；待补=`full-stenogram-economic-commission`
 
 ## 1. 主卡核心层 ([T1] + [T2])
 ## [T1] 60秒定性微摘要
@@ -28,7 +23,7 @@
 | `PER-lenin` | `absent-influence` | 1923-04 | 病重失语缺席，其格鲁吉亚—民族问题口述笔记仅在代表团闭门传达而未能触发人事清算 | `CLM-lewin-1968-georgian-affair-bureaucracy`; `DEB-1922-lenin-testament-and-stalin-rise` |
 | `PER-trotsky` | `reports-scissors-crisis` | 1923-04 | 以价格剪刀图主张工业计划化与流通改革，但在格鲁吉亚议题上对“三驾马车”妥协 | `CLM-carr-1954-scissors-crisis-mechanics`; `CLM-lewin-1968-georgian-affair-bureaucracy` |
 | `PER-stalin` | `reports-nations-then-retreats` | 1923-04 | 民族论纲在特别会议遭边疆代表围攻后作条文让步，同时稳固书记处与扩编中委优势 | `CLM-smith-jeremy-1999-twelfth-congress-korenizatsiia`; `CLM-lewin-1968-georgian-affair-bureaucracy` |
-| `EVT-1922-georgian-affair` | `addressed-behind-closed-doors` | 1923-04 | 格鲁吉亚冲突卷宗与列宁笔记促成反大俄罗斯沙文主义条文，但涉事中央大员未受处分 | `CLM-lewin-1968-georgian-affair-bureaucracy`; `CLM-smith-jeremy-1999-georgian-affair-reassessed` |
+| `EVT-1922-georgian-affair-and-ussr-formation` | `addressed-behind-closed-doors` | 1923-04 | 格鲁吉亚冲突卷宗与列宁笔记促成反大俄罗斯沙文主义条文，但涉事中央大员未受处分 | `CLM-lewin-1968-georgian-affair-bureaucracy`; `CLM-smith-jeremy-1999-georgian-affair-reassessed` |
 | `POL-korenizatsiia` | `institutionalized-at` | 1923-04起 | 民族问题决议将干部与语言本土化写入苏联早期联邦运作框架 | `CLM-smith-jeremy-1999-twelfth-congress-korenizatsiia` |
 | `POL-nep` | `economic-context` | 1923 | 新经济政策剪刀差流通危机在大会公开化，行政调节与后续信贷杠杆并行 | `CLM-carr-1954-scissors-crisis-mechanics` |
 
@@ -40,88 +35,47 @@
   - **[过渡时期经济史 / E. H. Carr]**（`CLM-carr-1954-scissors-crisis-mechanics`）：指出十二大虽聚焦剪刀差，但真正促成1923年底比价合拢的杠杆是会后8月末国家银行信贷紧缩而非大会决议条文本身。
   - **[自由主义极权连续论 / Richard Pipes]**（经 Smith 引述对勘）：将十二大定性为行政中央集权对地方自治的一边倒胜利，与特别会议解密速记存在明显张力。
 
-## 2. 一跳邻域等权重微摘要 (共 9 个关联节点，严防大卡霸占上下文)
-### 邻居节点: `POL-korenizatsiia`
-- **时效关系边** (`MTG-1923-04-12th-party-congress` → `POL-korenizatsiia` | `institutionalized` | 有效时段: `1923.04`): 十二大民族问题特别会议经拉柯夫斯基、伏龙芝与少数民族代表施压，确立本土化路线与民族院立法保障。
-- **时效关系边** (`POL-korenizatsiia` → `MTG-1923-04-12th-party-congress` | `institutionalized-at` | 有效时段: `1923-04`): 十二大民族问题决议将语言保障与民族干部培养写入联盟早期建构纲领，但条文承诺不等于行政权限全盘下放
-- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 1923年俄共（布）十二大系统确立的苏联早期民族政策：在一党垄断政权与组织集权前提下，推进非俄罗斯地区干部录用、行政司法母语化及民族文教建设。十二大上斯大林在语言权利、边疆发展与第二院立法否决权上作实质让步，但守住第二院代表结构方案；1920年代在乌克兰等地深度推进，1926与1928年相继引发文化与经济自主论争（本卡止于1929年底观察截点，非政策废止日）。
+## 2. 一跳邻域全量微摘要目录 (去重后共 10 个节点，0 截断)
+- **`INS-rabkrin-and-ccc`**（中央监察委员会与工农检查人民委员部（联合工作体制））: 工农检查人民委员部是国家监察机关，中监委是党的纪律监督机关。1923年改组后共同领导、联合办公，仍为两个机构，未在法律上合并；列宁的合并设想及Carr、Lewin的叙述用语须与此区分。改革旨在改善官僚机器、维护中央团结，联合机构随后参与党内审查处分，监督亦受权力关系制约。 ‖ `→MTG-1923-04-12th-party-congress`[implemented_reorganization|1923.04]: 扩大中央委员会与中监委，建立 CCC–RKI 共同领导
+- **`MTG-1922-03-11th-party-congress`**（俄国共产党（布尔什维克）第十一次代表大会（1922年））: 1922-03-27至04-02[N.S.]，俄共十一大在莫斯科召开，为列宁最后出席的党代会。他宣布NEP退却结束，强调管理、文化与官僚主义；大会警告工人反对派。04-03新中央全会设总书记并选出斯大林，04-04《真理报》公布；任命、公布均须与大会决定区分。 ‖ `→MTG-1923-04-12th-party-congress`[successor_congress|1923年4月]: 后继党代会，沿同一书记处—中监委框架推进组织改革。
+- **`PER-lenin`**（弗拉基米尔·列宁）: 布尔什维克党缔造者、苏俄人民委员会主席（1917–1924）。1893年投身马克思主义运动，1903年促成布尔什维克分化；1917年发表《四月提纲》并领导十月夺权，历经布列斯特和约、内战与战时共产主义；1921年主持转向新经济政策，晚年（1922–1923）就官僚化与接班人同斯大林冲突。 ‖ `←MTG-1923-04-12th-party-congress`[absent-influence|1923-04]: 病重失语缺席，其格鲁吉亚—民族问题口述笔记仅在代表团闭门传达而未能触发人事清算
+- **`PER-trotsky`**（列夫·托洛茨基）: 俄国革命家、“不断革命论”提出者，1905年彼得堡苏维埃实际领袖与1917年彼得格勒苏维埃主席；借军革委与苏维埃二大衔接统筹十月夺权，内战期起用4.8万军事专家缔造红军。1923–1927年领衔左翼与联合反对派抗衡斯大林集权并受“红色波拿巴”污名围剿，1927年被开除出党，1929年被驱逐出境。 ‖ `←MTG-1923-04-12th-party-congress`[reports-scissors-crisis|1923-04]: 以价格剪刀图主张工业计划化与流通改革，但在格鲁吉亚议题上对“三驾马车”妥协
+- **`PER-stalin`**（约瑟夫·斯大林）: 布尔什维克高加索地下组织者、民族事务人民委员（1917–1923）及中央总书记（1922起）。依托书记处任命权与安全危机叙事，先联季-加压制托洛茨基，再联布哈林击溃联合反对派；1927–1929年以战备恐慌与“自上而下革命”击败布哈林集团，1929年12月拍板“把富农作为阶级消灭”并终结新经济政策。 ‖ `←MTG-1923-04-12th-party-congress`[reports-nations-then-retreats|1923-04]: 民族论纲在特别会议遭边疆代表围攻后作条文让步，同时稳固书记处与扩编中委优势
+- **`EVT-1922-georgian-affair-and-ussr-formation`**（格鲁吉亚事件、自治化之争与苏联成立）: 1921年红军进入格鲁吉亚后，地方共产党领导人与高加索局就外高加索联邦化激烈冲突。1922年斯大林主张各共和国自治化并入苏俄，列宁提出共和国平等组成新联盟；`1922-12-30` 首届全联盟苏维埃代表大会通过建盟宣言和条约。形式平等、党的集中领导与地区权力实际分配之间的张力并未消失。 ‖ `←MTG-1923-04-12th-party-congress`[addressed-behind-closed-doors|1923-04]: 格鲁吉亚冲突卷宗与列宁笔记促成反大俄罗斯沙文主义条文，但涉事中央大员未受处分
+- **`POL-korenizatsiia`**（本土化政策（Коренизация））: 1923年俄共十二大系统确立的民族政策，在一党垄断与组织集权下推进非俄干部录用、行政司法母语化和民族文教。斯大林在语言、边疆发展及第二院否决权上让步，守住代表结构；乌克兰等地深入推行，1926、1928年引发文化经济自主争论。1929年底只是本卡观察截点，并非政策废止。 ‖ `←MTG-1923-04-12th-party-congress`[institutionalized-at|1923-04起]: 民族问题决议将干部与语言本土化写入苏联早期联邦运作框架 ； `→MTG-1923-04-12th-party-congress`[institutionalized-at|1923-04]: 十二大民族问题决议将语言保障与民族干部培养写入联盟早期建构纲领，但条文承诺不等于行政权限全盘下放
+- **`POL-nep`**（新经济政策）: 1921年春在农村起义、城市工潮与喀琅施塔得危机倒逼下逐步确立、取代战时共产主义的混合经济体制。以固定实物税（后改货币税）取代余粮收集制，渐次放开城乡市场与小私营商业（耐普曼），由国家掌控大工业、银行、运输与外贸“制高点”；1928–1929年在收购危机与政治转向中逐步瓦解。 ‖ `←MTG-1923-04-12th-party-congress`[economic-context|1923]: 新经济政策剪刀差流通危机在大会公开化，行政调节与后续信贷杠杆并行
+- **`PER-rakovsky`**（克里斯蒂安·拉柯夫斯基）: 巴尔干国际主义者与苏维埃政治家（1873—1941）。1919—1923年任乌克兰人民委员会主席，由反对单定乌语为国语转向力捍共和国自治，1923年十二大推动“本土化”妥协。后任驻英法大使与联合反对派核心，1928年流放撰《论职业危险》剖析执政异化风险，1941年在奥廖尔被处决。 ‖ `→MTG-1923-04-12th-party-congress`[anti-centralist-challenger|1923-04]: 在全会与04-25特别会议谴责大俄罗斯机关“掠夺共和国财富”，主张剥夺联盟人民委员部十分之九权力
+- **`PER-frunze`**（米哈伊尔·伏龙芝）: 米哈伊尔·伏龙芝（1885–1925），红军内战名将与军事改革家。1919年东线重创高尔察克、1920年南线攻克克里米亚并肃清马赫诺部；1923年十二大迫斯大林民族政策让步；1925年1月接替托洛茨基掌陆海军人民委员部，推行基干与民兵混合军改及一长制，10月手术后猝逝。 ‖ `→MTG-1923-04-12th-party-congress`[co-forced-compromise|1923-04]: 民族特别会议上代表乌克兰—边疆利益迫斯大林让步
 
-### 邻居节点: `PER-lenin`
-- **时效关系边** (`MTG-1923-04-12th-party-congress` → `PER-lenin` | `absent-influence` | 有效时段: `1923-04`): 病重失语缺席，其格鲁吉亚—民族问题口述笔记仅在代表团闭门传达而未能触发人事清算
-- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 布尔什维克党缔造者、苏俄人民委员会主席（1917–1924）。1893年投身马克思主义运动，1903年促成布尔什维克分化；1917年发表《四月提纲》并领导十月夺权，历经布列斯特和约、内战与战时共产主义；1921年主持转向新经济政策，晚年（1922–1923）就官僚化与接班人同斯大林冲突。
+## 3. 关联史学争鸣与学者论断索引 (主卡外关联争鸣 3 项)
+- **`DEB-1923-nationality-and-empire`**（布尔什维克民族政策、格鲁吉亚事件与苏维埃“肯定性行动帝国”性质之争 | `historiography/debates/DEB-1923-nationality-and-empire.md` | 流派 `revisionist-lewin, liberal-cold-war-pipes, archival-nationalities-smith, imperial-history-suny, ukrainian-social-history-liber`）：自1922年8月“自治化”方案与格鲁吉亚冲突起，至1923年4月俄共十二大闭幕，布尔什维克究竟是在建设“肯定性行动帝国”式的制度化本土化实践，还是以先锋队组织垄断维系大俄罗斯官僚集权？争论焦点是解密速记所示的制度妥协，以及各学派因果判断与价值判断之别。
+- **`DEB-1922-lenin-testament-and-stalin-rise`**（列宁晚年、格鲁吉亚事件与斯大林崛起机制 | `historiography/debates/DEB-1922-lenin-testament-and-stalin-rise.md` | 流派 `revisionist, nationalities-history, archival-post-soviet, kotkin-source-skepticism, trotskyist, service-critical-biography, sakharov-pseudo-lenin-polemic`）：列宁晚年口授文稿和格鲁吉亚冲突，是反官僚与反斯大林的总体“最后斗争”，还是对共同集权框架内具体做法的修正？《遗嘱》本身是否存在文本流转疑点？斯大林的上升又如何由个人策略、书记处机关、寡头集体领导与反对派失策共同解释？
+- **`DEB-1928-bukharin-alternative`**（布哈林替代方案与新经济政策终结之争 | `historiography/debates/DEB-1928-bukharin-alternative.md` | 流派 `nep-alternative, economic-growth, structural-dilemma, apparatus, ideology-and-mobilization, cliometrics-and-archival-reassessment`）：1927至1929年粮食危机与新经济政策的瓦解，是否意味着渐进工业化和工农联盟已无可行出路，还是党内权力与政策选择扼杀了布哈林的替代方案？投资、价格、农民供粮和政治动员之间的约束究竟有多强，必须把经济可行性、政治可行性与实际权力斗争分别检验。
 
-### 邻居节点: `PER-trotsky`
-- **时效关系边** (`MTG-1923-04-12th-party-congress` → `PER-trotsky` | `reports-scissors-crisis` | 有效时段: `1923-04`): 以价格剪刀图主张工业计划化与流通改革，但在格鲁吉亚议题上对“三驾马车”妥协
-- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 俄国革命家、“不断革命论”提出者，1905年彼得堡苏维埃实际领袖与1917年彼得格勒苏维埃主席；借军革委与苏维埃二大衔接统筹十月夺权，内战期起用4.8万军事专家缔造红军。1923–1927年领衔左翼与联合反对派抗衡斯大林集权并受“红色波拿巴”污名围剿，1927年被开除出党，1929年被驱逐出境。
+### 3.1 关联核心论断与史学家学派坐标 (`CLM-*` → `SCH-*`, 展示前 24/33 条)
+- **`CLM-lewin-1968-georgian-affair-bureaucracy`** [`SCH-lewin-moshe`(摩西·莱文) | n/a（EPUB 无页码锚点）；Ch.9、Ch.10 与 Appendixes I–III, VII–VIII]: 
+- **`CLM-carr-1954-scissors-crisis-mechanics`** [`SCH-carr-eh`(爱德华·霍列特·卡尔) | pp. 17, 29-30, 95-96, 100-101, 105-107, 127]: 
+- **`CLM-smith-jeremy-1999-twelfth-congress-korenizatsiia`** [`SCH-smith-jeremy`(杰里米·史密斯) | pp. 311, 321-325, 327-331]: 
+- **`CLM-smith-jeremy-1999-georgian-affair-reassessed`** [`SCH-smith-jeremy`(杰里米·史密斯) | pp. 252-253, 260-262, 266-268, 285-288, 296-297]: 
+- **`CLM-lewin-1968-testament-intent`** [`SCH-lewin-moshe`(摩西·莱文) | n/a（EPUB 无页码锚点）；Ch.10 'If Lenin Had Lived . . .'；列宁原文脚注见 Soch. XLV p. 392；XLIV p. 428]: 
+- **`CLM-carr-1950-self-determination-to-federal-reunion`** [`SCH-carr-eh`(爱德华·霍列特·卡尔) | pp. 253-285, 364-428]: 
+- **`CLM-suny-2017-empire-and-nationality-dimension`** [`SCH-suny-ronald-gregor`(罗纳德·格里戈尔·苏尼) | pp. 125-140 (approx. ch. 3 opening theory; see also Witte L322-328)]: 
+- **`CLM-liber-1992-korenizatsiia-paradox-late-1920s`** [`SCH-liber-george`(乔治·O·利伯) | pp. 155–157; 180–186]: 
+- **`CLM-liber-1992-ukrainianization-and-urban-working-class`** [`SCH-liber-george`(乔治·O·利伯) | pp. 75–76; 99–105]: 
+- **`CLM-lewin-1968-cooperation-shift`** [`SCH-lewin-moshe`(摩西·莱文) | n/a（EPUB 无页码锚点）；Ch.8 'Russia between West and East'；列宁原文脚注 Soch. XLV pp. 367, 370, 373, 387–88, 389]: 
+- **`CLM-khlevniuk-2015-secretariat-and-nomenklatura`** [`SCH-khlevniuk-oleg`(奥列格·赫列夫纽克) | EPUB ops/xhtml/ch02.html（In Lenin's Shadow，GENERAL SECRETARY 至 1923 年 9 月组织局安排）；制度总论见 ops/xhtml/ch01a.html。工作区文本无纸质页码。]: 
+- **`CLM-khlevniuk-2015-collective-leadership-erosion`** [`SCH-khlevniuk-oleg`(奥列格·赫列夫纽克) | EPUB ops/xhtml/ch02.html（TRYING OUT COLLECTIVE LEADERSHIP 至 THE CHOICE）。工作区文本无纸质页码。]: 
+- **`CLM-kotkin-2014-geopolitics-and-ideology`** [`SCH-kotkin-stephen`(斯蒂芬·科特金) | EPUB Ch. 13 (OEBPS/9780698170100_EPUB_1-23.xhtml) & Coda (OEBPS/9780698170100_EPUB_1-25.xhtml)]: 
+- **`CLM-deutscher-1959-disarmed-prophet-paradox`** [`SCH-isaac-deutscher`(艾萨克·多伊彻) | （中译本无独立纸页；对应第二部 1923 年争论章）]: 
+- **`CLM-service-2009-trotsky-authoritarian-consensus`** [`SCH-service-robert`(罗伯特·瑟维斯) | 中译 EPUB 无纸页码；对应英文本第 23–24、28–29、37 章及引言]: 
+- **`CLM-service-2009-trotsky-political-tactical-blunders`** [`SCH-service-robert`(罗伯特·瑟维斯) | 中译 EPUB 无纸页码；对应英文本引言及第 31–32、37–38 章]: 
+- **`CLM-sakharov-2012-lenin-cooperative-plan-debates`** [`SCH-sakharov-valentin`(瓦连京·萨哈罗夫) | EPUB Ch. 1.3 & Ch. 4.2]: 
+- **`CLM-sakharov-2012-nep-crossroads-1928`** [`SCH-sakharov-valentin`(瓦连京·萨哈罗夫) | EPUB Ch. 4.2 & Ch. 4.3]: 
+- **`CLM-cohen-1973-nep-viability`** [`SCH-cohen-stephen`(斯蒂芬·F·科恩) | pp. 270-276, 316-320]: 
+- **`CLM-cohen-1973-notes-of-an-economist`** [`SCH-cohen-stephen`(斯蒂芬·F·科恩) | pp. 295-296, 318-320]: 
+- **`CLM-cohen-1973-bukharin-organizational-defeat`** [`SCH-cohen-stephen`(斯蒂芬·F·科恩) | pp. 287-289, 297-301, 322-329]: 
+- **`CLM-erlich-1960-bukharin-balanced-growth`** [`SCH-erlich-alexander`(亚历山大·埃利希) | pp. 21-23 (PDF pp. 38-40)]: 
+- **`CLM-erlich-1960-preobrazhensky-dilemma`** [`SCH-erlich-alexander`(亚历山大·埃利希) | pp. 34-36, 40-41, 49-51, 170-171 (PDF pp. 51-53, 57-58, 66-68, 185-186)]: 
+- **`CLM-erlich-1960-stalin-overkill-turn`** [`SCH-erlich-alexander`(亚历山大·埃利希) | pp. 161-169, 172-177, 183-184 (PDF pp. 176-184, 187-192, 198-199)]: 
 
-### 邻居节点: `PER-stalin`
-- **时效关系边** (`MTG-1923-04-12th-party-congress` → `PER-stalin` | `reports-nations-then-retreats` | 有效时段: `1923-04`): 民族论纲在特别会议遭边疆代表围攻后作条文让步，同时稳固书记处与扩编中委优势
-- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 布尔什维克高加索地下组织者、民族事务人民委员（1917–1923）及中央总书记（1922起）。依托书记处任命权与安全危机叙事，先联季-加压制托洛茨基，再联布哈林击溃联合反对派；1927–1929年以战备恐慌与“自上而下革命”击败布哈林集团，1929年12月拍板“把富农作为阶级消灭”并终结新经济政策。
-
-### 邻居节点: `POL-nep`
-- **时效关系边** (`MTG-1923-04-12th-party-congress` → `POL-nep` | `economic-context` | 有效时段: `1923`): 新经济政策剪刀差流通危机在大会公开化，行政调节与后续信贷杠杆并行
-- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 1921年春在农村起义、城市工潮与喀琅施塔得危机倒逼下逐步确立、取代战时共产主义的混合经济体制。以固定实物税（后改货币税）取代余粮收集制，渐次放开城乡市场与小私营商业（耐普曼），由国家掌控大工业、银行、运输与外贸“制高点”；1928–1929年在收购危机与政治转向中逐步瓦解。
-
-### 邻居节点: `PER-frunze`
-- **时效关系边** (`PER-frunze` → `MTG-1923-04-12th-party-congress` | `co-forced-compromise` | 有效时段: `1923-04`): 民族特别会议上代表乌克兰—边疆利益迫斯大林让步
-- **节点定性微摘要 [T1]** (完备度 `draft`): 米哈伊尔·伏龙芝（1885–1925），内战红军名将：1919年东线击溃高尔察克，1920年南线攻克弗兰格尔克里米亚；1923年十二大迫斯大林民族政策让步，1924–1925主持军事改革接替托洛茨基，1925年10月手术后猝死。
-
-### 邻居节点: `PER-rakovsky`
-- **时效关系边** (`PER-rakovsky` → `MTG-1923-04-12th-party-congress` | `co-forced-compromise` | 有效时段: `1923-04`): 指责中央掠夺加盟共和国，逼斯大林民族政策让步
-- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 巴尔干国际主义者与苏维埃政治家（1873—1941）。1919—1923年任乌克兰人民委员会主席，由反对单定乌语为国语转向力捍共和国自治，1923年十二大推动“本土化”妥协。后任驻英法大使与联合反对派核心，1928年流放撰《论职业危险》剖析执政异化风险，1941年在奥廖尔被处决。
-
-### 邻居节点: `INS-rabkrin-and-ccc`
-- **时效关系边** (`INS-rabkrin-and-ccc` → `MTG-1923-04-12th-party-congress` | `implemented_reorganization` | 有效时段: `1923.04`): 扩大中央委员会与中监委，建立 CCC–RKI 共同领导
-- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 工农检查人民委员部（RKI）是国家监察机关，中央监察委员会（中监委）是党的纪律与监督机关。1923年二者经改组实行共同领导与联合办公，**仍是两个机构，并未法律合并为一个机构**（“合并”是列宁1923年1月的设想，也是 Carr、Lewin 的叙述用语；法律与实践层面的合署须分开标注）。列宁希望借此改善官僚机器并支持中央团结；随后联合工作机构在党内斗争中也参与审查与纪律处分，形成监督者受制于党内权力关系的悖论。
-
-### 邻居节点: `MTG-1922-03-11th-party-congress`
-- **时效关系边** (`MTG-1922-03-11th-party-congress` → `MTG-1923-04-12th-party-congress` | `successor_congress` | 有效时段: `1923年4月`): 后继党代会，沿同一书记处—中监委框架推进组织改革。
-- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 1922-03-27 至 1922-04-02 [N.S.]，俄共（布）十一大在莫斯科召开，是列宁生前出席的最后一次党代会。列宁宣布新经济政策的退却结束，强调经济管理、文化能力和官僚主义问题；大会审议工人反对派申诉并予以警告。闭幕次日，**1922-04-03 [N.S.]** 新中央全会设总书记并选出斯大林（任命日）；《真理报》于 **04-04** 低调公布（公布日），二者须与大会本身的决定区分。
-
-## 3. 关联史学争鸣光谱 (Historiographical Debates)
-### `DEB-1923-nationality-and-empire`：布尔什维克民族政策、格鲁吉亚事件与苏维埃“肯定性行动帝国”性质之争
-## [T1] 核心问题定义
-`1922-08` 至 `1923-04-25`（自“自治化”方案、格鲁吉亚冲突至俄共十二大民族问题特别会议闭幕）及其后1920年代本土化实践，布尔什维克是在建设多民族“肯定性行动帝国”内的制度化本土化体制，还是以先锋队组织垄断维系的大俄罗斯官僚集权？争论焦点在于解密速记揭示的制度妥协与各学派因果—价值判断之分。
-
-## [T2] 各学派立场对照矩阵
-| 学派/取向 | 代表学者与著作 | 核心论点摘要 | 支撑论断卡 | 主要受批评盲点 |
-| :--- | :--- | :--- | :--- | :--- |
-| 列宁晚期斗争与反官僚论 | Moshe Lewin, *Lenin's Last Struggle* (1968) | 格鲁吉亚事件暴露大俄罗斯沙文主义“为整个政府机器所服务”并与官僚机构合流，列宁晚年警觉最高层专政退化风险，准备清算 *dzerzhimordy*；民族问题是撤换斯大林问责的实质切口之一。 | `CLM-lewin-1968-georgian-affair-bureaucracy`; `CLM-lewin-1968-testament-intent` | 易将列宁口述笔记重构为高度连贯的“遗嘱计划”；写于1990年代十二大特别会议速记解密之前。 |
-| 自由主义—极权连续论 | Richard Pipes, *The Formation of the Soviet Union: Communism and Nationalism, 1917–1923* (1954; rev. ed. 1964) | 论证布尔什维克以红军武力征服外高加索与边疆，通过单一集权党中央架空形式上的联邦制；十二大被定性为斯大林行政中央集权对民族自治的彻底胜利（Smith 正面驳斥此说）。 | `CLM-carr-1950-self-determination-to-federal-reunion`；`CLM-smith-jeremy-1999-twelfth-congress-korenizatsiia` 对勘引述 | 1991年解密的十二大民族问题特别会议速记显示边疆代表反击与中央制度让步远比“单方全胜”复杂。 |
-| 解密档案民族妥协论 | Jeremy D. Smith, *The Bolsheviks and the National Question, 1917–1923* (1999) | 列宁—斯大林在集中制原则上确有共识，但 `1923-04` 十二大民族问题特别会议显示边疆代表迫使斯大林大幅退让，奠定1920年代本土化相对稳固期；格鲁吉亚危机不宜简化为列斯个人生死对决。 | `CLM-smith-jeremy-1999-twelfth-congress-korenizatsiia`; `CLM-smith-jeremy-1999-georgian-affair-reassessed` | 本土化制度繁荣期止于1930年代逆转，分期边界须清晰。 |
-| 帝国史学框架 | Ronald Grigor Suny, *The Red Flag Unfurled* (2017) 等 | 沙俄—苏联宜在“宗主—边缘不平等从属与差异治理”的帝国框架下理解民族建构；1991年后“苏联=帝国”共识含事后目的论归因风险。 | `CLM-suny-2017-empire-and-nationality-dimension` | 帝国理论有助于宏观比较定位，但不能替代十二大速记级制度考证。 |
-| 乌克兰社会史与本土化悖论 | George Liber, *Soviet Nationality Policy, Urban Growth, and Identity Change in the Ukrainian SSR 1923–1934* (1992) | 本土化整合城乡乌克兰人、扩张乌克兰语公共领域的同时，制度化语言边界并孕育中央难以完全消化的地方民族诉求。 | `CLM-liber-1992-korenizatsiia-paradox-late-1920s`; `CLM-liber-1992-ukrainianization-and-urban-working-class` | 侧重乌克兰工业城市化案例，外高加索与中亚须分区域检验。 |
-| “肯定性行动帝国”概念框架 | Terry Martin, *The Affirmative Action Empire* (2001) 等 | 1920年代苏联对非俄罗斯民族实施制度化优待（干部、语言、教育与领土配额），以党国政治垄断为前提整合多民族边缘——动员成效与潜在离心张力并存。 | （Martin 专著独立论断卡尚待 `close-reader` 入库；现阶段参看 `POL-korenizatsiia` 与 `CLM-smith-jeremy-1999-twelfth-congress-korenizatsiia`） | 概念易被字面混同于当代西方多元主义平权政策，须严守一党专政前提。 |
-
-### `DEB-1922-lenin-testament-and-stalin-rise`：列宁晚年、格鲁吉亚事件与斯大林崛起机制
-## [T1] 核心问题定义
-列宁晚年口授文稿和格鲁吉亚冲突，是反官僚与反斯大林的总体“最后斗争”，还是对共同集权框架内具体做法的修正？《遗嘱》本身是否存在文本流转疑点？斯大林的上升又如何由个人策略、书记处机关、寡头集体领导与反对派失策共同解释？
-
-## [T2] 各学派立场对照矩阵
-| 学派/取向 | 代表学者与著作 | 核心论点摘要 | 支撑论断卡 | 主要受批评盲点 |
-| :--- | :--- | :--- | :--- | :--- |
-| 反官僚最后斗争论 | Moshe Lewin, *Lenin's Last Struggle* (1968) | 将晚年口授群读为反大国沙文主义、改组监察院及撤换斯大林的连贯政治改革方案；但指出列宁始终未废除派别禁令与一党垄断。 | `CLM-lewin-1968-testament-intent`; `CLM-lewin-1968-georgian-affair-bureaucracy`; `CLM-lewin-1968-cooperation-shift` | 写于苏联全开档案前，连贯“总体计划”程度及12月22日电话定年受后续考据挑战。 |
-| 民族政策修正 | Jeremy Smith, *The Bolsheviks and the National Question* (1999) | 强调列斯在集中制大原则上的长期共识，并据十二大特别会议解密速记揭示斯大林被迫作出的本土化妥协。 | `CLM-smith-jeremy-1999-georgian-affair-reassessed`; `CLM-smith-jeremy-1999-twelfth-congress-korenizatsiia` | 行政协调解释须与列宁1923年3月5–6日对斯大林绝交信的激烈措辞并观。 |
-| 后苏联档案与寡头共治论 | Oleg Khlevniuk, *Stalin* (2015) | 以斯大林1923–1927年多次亲口承认遗嘱存在及3月7日复函驳斥伪造论；指出1月4日补遗重在“权力再平衡”而非逐出高层，且1920年代寡头集体领导真实存在。 | `CLM-khlevniuk-2015-secretariat-and-nomenklatura`; `CLM-khlevniuk-2015-collective-leadership-erosion` | 需注意勿将1920年代末成熟名册规模倒推回1922年。 |
-| 文献流转质疑与重定年派 | Stephen Kotkin, *Stalin, Vol. 1* (2014, Ch. 11) | 指出《给代表大会的信》缺失列宁亲签与原始速记底本、打字件经克鲁普斯卡娅与秘书圈流转存有加工疑窦，并据斯大林3月7日复函“约五周前”将电话冲突重定年于1923年1月下旬；同时强调斯大林不可替代的机关功能使其难因一纸信函下台。 | `CLM-kotkin-2014-geopolitics-and-ideology`; `L3 1922-12` 专章对勘 | 尚无直接物证证明秘书团凭空捏造，且难以解释斯大林本人在十三大与1927全会从未质疑文件真伪。 |
-| 左翼悲剧论 vs 政治失误批判 | Isaac Deutscher (1959) vs Robert Service, *Trotsky* (2009) | 多伊彻痛惜托洛茨基3月6日拒绝落井下石错失良机且受困一党纪律；瑟维斯则据档案批评托洛茨基共享威权前提、两拒人民委员会副主席职务并在十二大傲慢避战，纯属政治判断失误。 | `CLM-deutscher-1959-disarmed-prophet-paradox`; `CLM-service-2009-trotsky-authoritarian-consensus`; `CLM-service-2009-trotsky-political-tactical-blunders` | 需将个人性格失误置于书记处与三驾马车结构结盟中评估。 |
-| 俄国“伪列宁文本”极端派 | V. A. Sakharov (2003 遗嘱专著; 2012《十字路口》) | 其2003年专著极端断言遗嘱与民族札记系克鲁普斯卡娅—托派伪造；库内已入库的2012年著作则聚焦《论合作社》两稿差异与1920年代路线争夺（两书议题边界须严格区分）。 | `CLM-sakharov-2012-lenin-cooperative-plan-debates`; `CLM-sakharov-2012-nep-crossroads-1928` | 全盘伪造说遭赫列夫纽克、洛吉诺夫等主流俄罗斯档案学者一致否证。 |
-
-### `DEB-1928-bukharin-alternative`：布哈林替代方案与新经济政策终结之争
-## [T1] 核心问题定义
-1927至1929年粮食危机与新经济政策的瓦解，是否意味着渐进工业化和工农联盟已无可行出路，还是党内权力与政策选择扼杀了布哈林的替代方案？投资、价格、农民供粮和政治动员之间的约束究竟有多强，必须把经济可行性、政治可行性与实际权力斗争分别检验。
-
-## [T2] 各学派立场对照矩阵
-**经验基准**：1928年粮食收购危机后领导层采用非常措施；布哈林同年批评征粮和工业化节奏，1929年四月及十一月中央全会使右派进一步失势，同年清党开除率达 `11%`（约17万人，`DATA-04-party-membership-and-congress-votes-1903-1929`）。各方都面对工业投资、粮食供给与工农社会结构约束。
-
-| 学派/取向 | 代表学者与著作 | 核心论点摘要 | 支撑论断卡 | 主要受批评盲点 |
-| :--- | :--- | :--- | :--- | :--- |
-| 新经济政策替代论 | Stephen Cohen, *Bukharin and the Bolshevik Revolution* (1973) | 市场、合作社和渐进工业化提供可争论的替代路径；组织机器与政治斗争使该路线失败。 | `CLM-cohen-1973-nep-viability`；`CLM-cohen-1973-notes-of-an-economist`；`CLM-cohen-1973-bukharin-organizational-defeat` | 可构想的经济路径不自动证明可获得党内多数或满足高投资目标。 |
-| 工业化经济思想史 | Alexander Erlich, *The Soviet Industrialization Debate* (1960) | 布哈林平衡增长与普列奥布拉任斯基积累方案共同面对投资约束；强制全盘集体化非各派原有共同结论。 | `CLM-erlich-1960-bukharin-balanced-growth`；`CLM-erlich-1960-preobrazhensky-dilemma`；`CLM-erlich-1960-stalin-overkill-turn` | 模型不能单独解决权力、执行和国际冲击问题。 |
-| 经济结构与政策选择 | Alec Nove, *Was Stalin Really Necessary?* (1964) | 提出“条件性必然”与“1927年NEP死胡同（cul-de-sac）”：给定布尔什维克保住一党政权、拒绝斯托雷平式富农资本主义与高速重工业化三大前提，布哈林市场渐进路径存在内在政治经济不一致；但仍须区分发展目标与强制手段。 | `CLM-nove-1964-stalin-necessity-dilemma` | 反事实替代方案的实施条件难以在单线历史中完全检验（详见下栏 KAPROST 交锋）。 |
-| 意识形态与政治能动性 | Stephen Kotkin, *Stalin*, Vol. 1 (2014)；Sheila Fitzpatrick, *The Russian Cultural Revolution (1928–1931)* (1978) | 市场发展与党内阶级政治构成张力，斯大林西伯利亚干预使危机转向不能仅由结构推导；“文化革命”动员更将政治局右派、教育人民委员部温和派与沙赫蒂案连成“右倾危险”连续体。 | `CLM-kotkin-2014-bukharin-dilemma`；`CLM-fitzpatrick-1978-anti-bukharin-ideological-offensive` | 科特金第一卷叙事止于1928年底；宣传建构的意识形态连续体亦不能直接等同右派成员一致的文化纲领。 |
-| 组织与动员政治 | Oleg Khlevniuk, *Stalin* (2015)；David Priestland, *Stalinism and the Politics of Mobilization* (2007)；Catherine Merridale, *Moscow Politics and the Rise of Stalin* (1990) | 干部控制、反右“复兴主义”动员与乌格拉诺夫莫斯科地方权力瓦解共同决定布哈林集团败局。 | `CLM-khlevniuk-2015-defeat-of-right-opposition`；`CLM-priestland-2007-1928-mobilization-turn-against-bukharin`；`CLM-merridale-1990-uglanov-moscow-collapse` | 组织性胜利并不单独证明任一经济路线的长期优劣。 |
-| 反事实计量与改革经济学 | Holland Hunter / R. W. Davies / 谷内融，*戴维斯纪念文集* (1995)；刘伟、平新乔，《平衡与非平衡：布哈林与普列奥布拉仁斯基之争》（1989，B级） | 亨特借 KAPROST 模型论证非集体化 NEP 本可成功，但戴维斯（1994）反驳1928年市场已遭行政扰乱，谷内融1929年1—6月政治局档案证实非常措施演变为全国体制；刘伟、平新乔将布氏重估为“短缺经济学”先驱，指出斯大林采纳了普氏非均衡配额内核。 | `CLM-davies-festschrift-1995-nep-statistics-and-planning-debates`；`CLM-bukharin-preobrazhensky-equilibrium-vs-accumulation-zh`（B级） | KAPROST 假设重工业高积累下农民仍配合市场；刘、平一文沿用中译“81亿金卢布”误植数字，引用须剔除该数。 |
-| 后苏联档案重估 | Viktor Zemskov（维克托·泽姆斯科夫），《斯大林时代》（2018，B级）；Valentin Sakharov（瓦连京·萨哈罗夫），《站在十字路口》（2012） | 泽姆斯科夫指出布哈林渐进合作化在内战记忆塑造的党员群体中缺乏政治亲和力；萨哈罗夫从反布哈林修正派立场论证2,400万碎片化小农难以支撑工业国防，MTS 与集体化是避免“斯托雷平第二版”的战略决断。 | `CLM-zemskov-2018-archival-constraints-and-party-radicalism`（B级）；`CLM-sakharov-2012-nep-crossroads-1928` | 泽氏未提供党员心态系统统计且沿用中译稿（B级）；萨哈罗夫的国家理性辩护淡化了强制集体化后的农业灾难与清洗恶果。 |
-
-## 4. 关联时间线锚点 (共 0 条)
+## 4. 关联时间线骨干锚点 (L0–L2 展示 0 条)

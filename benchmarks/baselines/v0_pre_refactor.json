@@ -1,0 +1,330 @@
+{
+  "tag": "v0_pre_refactor",
+  "timestamp": "2026-11-19T23:21:56+08:00",
+  "split": "all",
+  "git_head": "ce5a236",
+  "git_dirty_files": 109,
+  "overall_passed": false,
+  "suites": {
+    "B1": {
+      "suite": "B1",
+      "passed": false,
+      "metrics": {
+        "frontmatter_parity_rate": 0.8333,
+        "frontmatter_mismatch_count": 97,
+        "frontmatter_canary_pass_rate": 0.0,
+        "multi_period_edge_retention_rate": 0.0,
+        "multi_period_edge_canary_pass_rate": 0.0,
+        "card_table_digest_sync_rate": 0.6281,
+        "stale_or_missing_edge_rows": 559,
+        "unresolved_table_target_count": 3,
+        "clm_scholar_fk_valid_rate": 0.7413,
+        "broken_clm_scholar_fk_count": 74,
+        "clm_card_fk_valid_rate": 0.0,
+        "broken_clm_card_fk_count": 0,
+        "duplicate_scholar_count": 1,
+        "sch_reachability_rate": 0.7753,
+        "calendar_vector_pass_rate": 1.0,
+        "markdown_dual_date_math_errors": 0,
+        "post_reform_false_dual_date_count": 1,
+        "post_reform_yaml_os_count": 1,
+        "card_meta_prompt_leak_count": 1
+      },
+      "samples": {
+        "frontmatter_mismatches": [
+          "CON-constituent-assembly (dates.start_ns: kb='\"1879-08-27\" # 1879-08-15 [O.S.] / 1879-08-27 [N.S.] 土地与自由社正式分裂、民意党成立并将自由普选立宪会议确立为俄国革命派核心纲领诉求' != yaml='1879-08-27'; dates.end_ns: kb='\"1918-11-18\" # 1918-11-18 [N.S.，改历后] 高尔察克鄂木斯克政变推翻全俄临时政府并逮捕前立宪会议委员，终结立宪会议作为独立政权旗帜的历史周期' != yaml='1918-11-18')",
+          "CON-democratic-centralism-and-vanguard (dates.start_ns: kb='\"1875-01-01\" # 特卡乔夫《警钟》（Набат）1875年创刊、鼓吹“自觉少数”夺权；年内具体日期为占位值，待核' != yaml='1875-01-01'; dates.end_ns: kb='\"1929-12-31\" # 以1929年右派反对派失利为研究期界；任命制对民主原则的影响属于制度史解释' != yaml='1929-12-31')",
+          "CON-dual-power (dates.start_ns: kb='\"1905-10-26\" # 1905-10-13 [O.S.] / 1905-10-26 [N.S.] 圣彼得堡工人代表苏维埃成立，构成革命委员会与旧国家机器并存的制度原型' != yaml='1905-10-26'; dates.end_ns: kb='\"1917-11-07\" # 1917-10-25 [O.S.] / 1917-11-07 [N.S.] 十月武装起义推翻临时政府，结束二月以来政府与苏维埃并立周期（狭义制度并立止于七月事件后）' != yaml='1917-11-07')",
+          "CON-intelligentsia-and-vekhi (dates.start_ns: kb='\"1868-01-01\" # 1860年代平民知识分子（разночинцы）崛起，1868–1869年拉夫罗夫发表《历史信札》确立“批判思维的个人”伦理范式' != yaml='1868-01-01'; dates.end_ns: kb='\"1931-06-23\" # 经1909《路标》、1918–1927“资产阶级专家”妥协、1922“哲学船”驱逐与1928沙赫特案及“大提拔（выдвижение）”，至一五计划中后期苏维埃技术知识分子成形' != yaml='1931-06-23')",
+          "CON-kulak (dates.start_ns: kb='\"1870-01-01\" # 1870年代民粹派乡村调查与政论将村社贬词 кулак / мироед 引入俄国革命话语；具体日期为年代占位值，待核' != yaml='1870-01-01'; dates.end_ns: kb='\"1930-01-30\" # 1929-12-27斯大林公开宣布“把富农作为阶级消灭”，1930-01-30联共（布）中央政治局决议定型三类处置配额，完成概念向国家清洗标签的终极转化' != yaml='1930-01-30')",
+          "CON-peasant-commune-obshchina (dates.start_ns: kb='\"1861-03-03\" # 1861-02-19 [O.S.] / 1861-03-03 [N.S.] 亚历山大二世签署废除农奴制法令，以法定“乡村公社”（сельское общество）固化连环保与份地定期重分体制' != yaml='1861-03-03'; dates.end_ns: kb='\"1930-07-30\" # 1930-07-30 [N.S.，改历后] 全俄中执委与俄联邦人民委员会颁令在全盘集体化地区正式废除“土地社”（земельные общества），终结传统米尔自治' != yaml='1930-07-30')",
+          "CON-permanent-revolution (dates.start_ns: kb='\"1850-03-01\" # 马克思、恩格斯《中央委员会告共产主义者同盟书》（1850年3月伦敦）首倡“不断革命”（Revolution in Permanenz）战斗口号；月内日为占位值' != yaml='1850-03-01'; dates.end_ns: kb='\"1929-11-30\" # 1924年底起被三驾马车与布哈林重构为反列宁主义异端，1927年十五大随联合反对派被开除定罪，1929年托洛茨基被驱逐出境并在流亡中著《不断革命论》（1929–1930）开启普适化后世' != yaml='1929-11-30')",
+          "CON-primitive-socialist-accumulation (dates.start_ns: kb='\"1920-01-01\" # 1919–1920年弗·米·斯米尔诺夫首创该术语并被普列奥布拉任斯基在1920年《无产阶级专政时期的纸币》中借用' != yaml='1920-01-01'; dates.end_ns: kb='\"1929-12-27\" # 1924–1927年作为《新经济学》核心定律引发全党大论战，1928–1929年被斯大林“贡赋论”与强制全盘集体化超越并终结市场转移前提' != yaml='1929-12-27')"
+        ],
+        "stale_or_missing_edges": [
+          "CON-narodnichestvo -> ORG-narodnaya-volya (1879–1887)",
+          "CON-narodnichestvo -> ORG-chernyi-peredel (1879起)",
+          "CON-smychka -> POL-nep (1921–1929)",
+          "CON-smychka -> PER-bukharin (1925–1929)",
+          "CON-smychka -> PER-preobrazhensky (1924–1927)",
+          "CON-soviet -> EVT-1921-kronstadt (1921.03)",
+          "EVT-1905-revolution -> CON-soviet (1905.05–12)",
+          "EVT-1905-revolution -> PER-stolypin (1906–1907)"
+        ],
+        "unresolved_table_targets": [
+          "EVT-1922-sr-show-trial -> PER-gotz",
+          "MTG-1923-04-12th-party-congress -> EVT-1922-georgian-affair",
+          "PER-tsereteli -> PER-martov"
+        ],
+        "broken_clm_scholar_fks": [
+          "CLM-apalkov-2023-collective-to-personal-dictatorship: SCH-apalkov-dmitry",
+          "CLM-berlin-1960-populism-moral-core: SCH-berlin-isaiah",
+          "CLM-boll-1979-factory-militia-autonomy: SCH-boll-michael-m",
+          "CLM-boll-1979-red-guards-radicalization-to-july: SCH-boll-michael-m",
+          "CLM-bonnell-1983-1912-1914-union-and-insurance-boards-bolshevik-capture: Victoria E. Bonnell",
+          "CLM-bonnell-1983-artisanal-vs-factory-unionization-1905-1907: Victoria E. Bonnell",
+          "CLM-bonnell-1983-conscious-worker-stratum-and-shopfloor: Victoria E. Bonnell",
+          "CLM-bonnell-1983-karelina-women-workers-and-gapon: Victoria E. Bonnell"
+        ],
+        "broken_clm_card_fks": [],
+        "duplicate_scholars": [
+          [
+            "SCH-smith-sa",
+            "SCH-smith-stephen"
+          ]
+        ],
+        "post_reform_violations": [
+          "cards/policies/POL-war-communism.md:25 -> `1918-05-09 [O.S.] / 1918-05-22 [N.S.]`"
+        ],
+        "post_reform_yaml_os": [
+          "EVT-1918-03-brest-litovsk-treaty.end_os=1918-03-02"
+        ],
+        "prompt_meta_leaks": [
+          "EVT-1918-03-brest-litovsk-treaty: `任务示例所称`"
+        ]
+      }
+    },
+    "B2": {
+      "suite": "B2",
+      "passed": false,
+      "metrics": {
+        "bundle_budget_pass_rate": 0.3,
+        "mean_bundle_chars": 95128,
+        "b2_01_hub_trio_chars": 199233,
+        "mean_one_hop_neighbor_recall": 0.9742,
+        "min_one_hop_neighbor_recall": 0.9429,
+        "peripheral_canary_recall": 0.925,
+        "bundles_with_sch_surfaced_rate": 0.0,
+        "t1_cap_compliance_rate": 0.9903,
+        "t1_violation_count": 2
+      },
+      "bundles": [
+        {
+          "id": "B2-01",
+          "mode": "single_card_concat_fallback",
+          "chars": 199233,
+          "budget": 65000,
+          "budget_ok": false,
+          "expected_1hop_count": 91,
+          "recall_1hop": 0.967,
+          "missing_1hop_sample": [
+            "PER-bogdanov",
+            "PER-lunacharsky",
+            "PER-radek"
+          ],
+          "peripheral_canary_recall": 1.0,
+          "debate_recall": 1.0,
+          "distinct_clm_refs": 105,
+          "distinct_sch_refs": 0
+        },
+        {
+          "id": "B2-02",
+          "mode": "single_card_concat_fallback",
+          "chars": 186982,
+          "budget": 75000,
+          "budget_ok": false,
+          "expected_1hop_count": 106,
+          "recall_1hop": 0.9434,
+          "missing_1hop_sample": [
+            "PER-figner",
+            "PER-kalinin",
+            "PER-kuibyshev",
+            "PER-perovskaya",
+            "PER-tomsky",
+            "PER-zhelyabov"
+          ],
+          "peripheral_canary_recall": 1.0,
+          "debate_recall": 1.0,
+          "distinct_clm_refs": 138,
+          "distinct_sch_refs": 0
+        },
+        {
+          "id": "B2-03",
+          "mode": "single_card_concat_fallback",
+          "chars": 108837,
+          "budget": 75000,
+          "budget_ok": false,
+          "expected_1hop_count": 39,
+          "recall_1hop": 1.0,
+          "missing_1hop_sample": [],
+          "peripheral_canary_recall": 1.0,
+          "debate_recall": 1.0,
+          "distinct_clm_refs": 77,
+          "distinct_sch_refs": 0
+        },
+        {
+          "id": "B2-04",
+          "mode": "single_card_concat_fallback",
+          "chars": 45958,
+          "budget": 60000,
+          "budget_ok": true,
+          "expected_1hop_count": 17,
+          "recall_1hop": 1.0,
+          "missing_1hop_sample": [],
+          "peripheral_canary_recall": 1.0,
+          "debate_recall": 1.0,
+          "distinct_clm_refs": 25,
+          "distinct_sch_refs": 0
+        },
+        {
+          "id": "B2-05",
+          "mode": "single_card_concat_fallback",
+          "chars": 67005,
+          "budget": 60000,
+          "budget_ok": false,
+          "expected_1hop_count": 45,
+          "recall_1hop": 0.9556,
+          "missing_1hop_sample": [
+            "EVT-1918-09-red-terror-and-left-sr-rupture",
+            "PER-lunacharsky"
+          ],
+          "peripheral_canary_recall": 1.0,
+          "debate_recall": 1.0,
+          "distinct_clm_refs": 92,
+          "distinct_sch_refs": 0
+        },
+        {
+          "id": "B2-06",
+          "mode": "single_card_concat_fallback",
+          "chars": 65232,
+          "budget": 70000,
+          "budget_ok": true,
+          "expected_1hop_count": 26,
+          "recall_1hop": 1.0,
+          "missing_1hop_sample": [],
+          "peripheral_canary_recall": 1.0,
+          "debate_recall": 1.0,
+          "distinct_clm_refs": 32,
+          "distinct_sch_refs": 0
+        },
+        {
+          "id": "B2-07",
+          "mode": "single_card_concat_fallback",
+          "chars": 106206,
+          "budget": 55000,
+          "budget_ok": false,
+          "expected_1hop_count": 105,
+          "recall_1hop": 0.9429,
+          "missing_1hop_sample": [
+            "PER-figner",
+            "PER-kalinin",
+            "PER-kuibyshev",
+            "PER-perovskaya",
+            "PER-tomsky",
+            "PER-zhelyabov"
+          ],
+          "peripheral_canary_recall": 0.75,
+          "debate_recall": 1.0,
+          "distinct_clm_refs": 132,
+          "distinct_sch_refs": 0
+        },
+        {
+          "id": "B2-08",
+          "mode": "single_card_concat_fallback",
+          "chars": 69984,
+          "budget": 65000,
+          "budget_ok": false,
+          "expected_1hop_count": 31,
+          "recall_1hop": 0.9677,
+          "missing_1hop_sample": [
+            "PER-krupskaya"
+          ],
+          "peripheral_canary_recall": 0.75,
+          "debate_recall": 1.0,
+          "distinct_clm_refs": 42,
+          "distinct_sch_refs": 0
+        },
+        {
+          "id": "B2-09",
+          "mode": "single_card_concat_fallback",
+          "chars": 42044,
+          "budget": 60000,
+          "budget_ok": true,
+          "expected_1hop_count": 23,
+          "recall_1hop": 1.0,
+          "missing_1hop_sample": [],
+          "peripheral_canary_recall": 0.75,
+          "debate_recall": 1.0,
+          "distinct_clm_refs": 51,
+          "distinct_sch_refs": 0
+        },
+        {
+          "id": "B2-10",
+          "mode": "single_card_concat_fallback",
+          "chars": 59801,
+          "budget": 55000,
+          "budget_ok": false,
+          "expected_1hop_count": 29,
+          "recall_1hop": 0.9655,
+          "missing_1hop_sample": [
+            "PER-bogdanov"
+          ],
+          "peripheral_canary_recall": 1.0,
+          "debate_recall": 1.0,
+          "distinct_clm_refs": 53,
+          "distinct_sch_refs": 0
+        }
+      ],
+      "t1_violations": [
+        "DEB-1918-war-communism-ideology-or-emergency: 179 chars",
+        "DEB-1923-nationality-and-empire: 155 chars"
+      ]
+    },
+    "B3": {
+      "suite": "B3",
+      "passed": false,
+      "metrics": {
+        "locate_chapters_implemented": 0,
+        "chapter_hit_at_3": 0.0,
+        "chapter_hit_at_5": 0.0,
+        "chapter_mrr": 0.0,
+        "median_query_ms": -1.0,
+        "empty_scan_books_detected": 13,
+        "empty_scan_quarantine_rate": 0.6923,
+        "quarantine_canary_pass_rate": 0.8333
+      },
+      "samples": {
+        "locator_misses": [
+          "B3-LOC-01 (乌格拉诺夫): locate-chapters 未实现",
+          "B3-LOC-02 (安东诺夫): locate-chapters 未实现",
+          "B3-LOC-03 (柳廷): locate-chapters 未实现",
+          "B3-LOC-04 (Shliapnikov): locate-chapters 未实现",
+          "B3-LOC-05 (Frumkin): locate-chapters 未实现",
+          "B3-LOC-06 (Miasnikov): locate-chapters 未实现"
+        ],
+        "unquarantined_empty_books": [
+          "sources/monographs/cao_weian_new_russian_history_zh",
+          "sources/monographs/lelichuk_soviet_industrialization_zh",
+          "sources/monographs/october_socialist_rev_zh",
+          "sources/primary/short_course_1938_zh"
+        ]
+      }
+    },
+    "B4": {
+      "suite": "B4",
+      "passed": false,
+      "metrics": {
+        "total_canary_cases": 36,
+        "b4a_count": 18,
+        "b4b_count": 18,
+        "card_literal_trap_free_rate": 0.9722,
+        "target_card_multi_perspective_rate": 1.0
+      },
+      "samples": {
+        "repo_trap_hits": [
+          "B4A-07: 目标卡命中陷阱字面量 `end_os: '1918-03-02'`"
+        ]
+      }
+    },
+    "B5": {
+      "suite": "B5",
+      "passed": false,
+      "metrics": {
+        "prompt_count": 12,
+        "mean_recommended_pack_chars": 189898,
+        "max_recommended_pack_chars": 312824,
+        "prompts_exceeding_80k_pack_budget": 12
+      }
+    }
+  }
+}

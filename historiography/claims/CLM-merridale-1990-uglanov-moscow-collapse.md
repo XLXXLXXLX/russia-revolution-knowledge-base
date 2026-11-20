@@ -7,7 +7,7 @@ publication_year: 1990
 source_tier: A
 local_source_path: "sources/monographs/merridale_1990_moscow_politics_zh/ch05_第一部分_莫斯科的政治变革_1925_32年.md#L798-L1246"
 original_pages: "pp. 53-64"
-targets_cards: ["PER-uglanov", "PER-stalin", "PER-bukharin", "ORG-moscow-party-committee", "POL-nep"]
+targets_cards: ["PER-uglanov", "PER-stalin", "PER-bukharin", "ORG-bolsheviks-rcpb-vkpb", "POL-nep"]
 debate: DEB-1928-bukharin-alternative
 supports: []
 rebuts: []

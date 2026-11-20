@@ -1,14 +1,14 @@
 ---
 id: CLM-foglesong-1995-wilson-covert-anti-bolshevik-war
 type: claim
-scholar: SCH-foglesong
+scholar: SCH-foglesong-david
 work_title: "America's Secret War against Bolshevism: U.S. Intervention in the Russian Civil War, 1917–1920（《美国对抗布尔什维克主义的秘密战争：1917—1920年美国对俄国内战的干涉》）"
 publication_year: 1995
 source_tier: A
 local_source_path: "sources/monographs/foglesong_1995_secret_war_zh/ch02_引言.md#L84-L258"
 original_pages: "pp. 3-7, 41-49, 56-65, 78-86, 167-191, 209-211 (PDF pp. 7-11, 45-53, 60-69, 82-90, 171-195, 213-215)"
-targets_cards: ["EVT-allied-intervention-russian-civil-war", "PER-woodrow-wilson"]
-debate: DEB-allied-intervention-motives-and-impact
+targets_cards: ["EVT-1918-1920-russian-civil-war"]
+debate: DEB-1918-red-terror-and-civil-war-origins
 supports: []
 rebuts: []
 qualifies: []

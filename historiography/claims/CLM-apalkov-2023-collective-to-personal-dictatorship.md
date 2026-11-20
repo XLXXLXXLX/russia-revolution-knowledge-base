@@ -7,7 +7,7 @@ publication_year: 2023
 source_tier: A
 local_source_path: "sources/monographs/apalkov_intra_party_struggle_zh/ch03_第1章_集体领导_现象.md#L33-L413, sources/monographs/apalkov_intra_party_struggle_zh/ch11_结论.md#L8-L117"
 original_pages: "pp. 20-33, 124-127, 149-158, 191-195"
-targets_cards: ["PER-stalin", "PER-bukharin", "PER-rykov", "ORG-politburo", "CON-collective-leadership"]
+targets_cards: ["PER-stalin", "PER-bukharin", "PER-rykov", "INS-politburo-orgburo-secretariat"]
 debate: DEB-1928-bukharin-alternative
 supports: []
 rebuts: []

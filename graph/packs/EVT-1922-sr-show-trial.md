@@ -1,14 +1,9 @@
-# 1-Hop 平衡上下文包：`EVT-1922-sr-show-trial` (1922年莫斯科社会革命党公开大审判)
+# 1-Hop 去重平衡上下文包：`EVT-1922-sr-show-trial`
 
-> 本文件由 `python scripts/kb.py pack` 自动编译，旨在将失控的 `1+N` 随机读取压缩为**等权重、带时效边实质与史学盲区告警**的单次全景读取。
+> 由 `python scripts/kb.py pack` 动态编译：保留 **100% 一跳邻居与多时段关系边**，跨卡自动去重争鸣与时间线，并关联学者学派 (`SCH-*`)。
 
-## 0. 认知完备度与反偏斜仪表盘 (Epistemic & Skew Warnings)
-- **主卡路径**: `cards/events/EVT-1922-sr-show-trial.md`
-- **完备度等级**: `multi-perspective`
-- **已覆盖视角**: `archival-post-soviet-mozokhin, liberal-institutional-pipes, democratic-socialist-radkey, bolshevik-prosecution-discourse`
-- **待补齐视角**: `scott-b-smith-2011-monograph-unextracted, second-international-archives`
-- **偏斜风险提示**:
-  - ⚠️ 主卡显式声明尚缺以下视角待补: `scott-b-smith-2011-monograph-unextracted, second-international-archives`。
+## 0. 认知完备度与反偏斜仪表盘
+- **`EVT-1922-sr-show-trial`** (1922年莫斯科社会革命党公开大审判 | `cards/events/EVT-1922-sr-show-trial.md` | `multi-perspective`): 已覆盖=`archival-post-soviet-mozokhin, liberal-institutional-pipes, democratic-socialist-radkey, bolshevik-prosecution-discourse`；待补=`scott-b-smith-2011-monograph-unextracted, second-international-archives`
 
 ## 1. 主卡核心层 ([T1] + [T2])
 ## [T1] 60秒定性微摘要
@@ -29,7 +24,7 @@
 | `INS-politburo-orgburo-secretariat` | `behind-scenes-director` | 1922.02–08 | 政治局自1922-02-15起垄断GPU大案方向，幕后统筹公审口径、群众游行压力及“死刑缓期人质化”政治裁决 | `CLM-mozokhin-cheka-to-ogpu-extrajudicial-jurisdiction-1918-1929`; Pipes ch23 |
 | `PER-bukharin` | `ideological-prosecutor` | 1922.08 | 在公诉词（*Pravda* 08-04）中用经济决定论将戈茨、津季诺夫等打成“百万富翁操纵的吉伦特派与协约国傀儡” | `CLM-smith-scott-2011-1922-sr-trial-discourse` (Radkey 1963) |
 | `PER-lunacharsky` | `prosecutor-debater` | 1922.08 | 在8月4日公诉中当庭驳斥戈茨“缺乏组党备战时间”的辩词，指出社革党比布尔什维克建党更早且在十月前掌权八月 | `CLM-smith-scott-2011-1922-sr-trial-discourse` (Radkey 1963) |
-| `PER-gotz`（待建） | `chief-defendant-hostage` | 1922.06–08+ | 第一组主被告代表，将1918萨马拉败绩归因于“缺少时间”，被判死缓作为人质长期监禁，最终在大清洗中遇害 | `CLM-smith-scott-2011-1922-sr-trial-discourse` (Radkey 1963) |
+| `ORG-psr` | `chief-defendant-hostage` | 1922.06-08+ | 戈茨（A. R. Gotz）、季莫费耶夫等社革党中央被告为第一组主被告；戈茨将1918年萨马拉败绩归因于“缺少时间”，被判死缓并作为人质长期监禁 | `CLM-smith-scott-2011-1922-sr-trial-discourse` (Radkey 1963) |
 
 ### 2.3 史学争鸣光谱（Historiographical Spectrum）
 - **经验共识**：1922年社革党审判是苏维埃政权首次举行的大型国际瞩目政治公审；被告方确曾在1918年内战期间组织或资助反布尔什维克武装（包括科穆奇），但审判程序与量刑完全服从布尔什维克最高政治考量，“缓期执行”兼具对境外社革党的威慑人质效应，并与同年8—10月行政流放法制相辅相成。
@@ -39,63 +34,43 @@
   - **[自由-极权连续性学派 / Richard Pipes (1990)]**（`pipes_1990_russian_rev/ch23`）：强调该案是“苏维埃历史上首次政治作秀公审（show trial）”，开创了由最高政治权威预先定性、组织群众街垒请愿施压、利用变节证人、迫使外国辩护人离席并为1936—1938年莫斯科大审判提供全套剧本范式的先河。
   - **[苏维埃官方辩护叙事]**：将公审视为针对1918—1921年投靠白卫军、暗杀列宁与沃洛达尔斯基并勾结帝国主义干涉者的反革命恐怖集团的正当革命正义，称缓刑体现了胜利无产阶级政权的宽大与人道。
 
-## 2. 一跳邻域等权重微摘要 (共 6 个关联节点，严防大卡霸占上下文)
-### 邻居节点: `INS-cheka-gpu-ogpu`
-- **时效关系边** (`INS-cheka-gpu-ogpu` → `EVT-1922-sr-show-trial` | `staged-and-supplemented` | 有效时段: `1922.06-10`): 在莫斯科公开审判社革党中委并判处缓期死刑充当人质的同时，于8月与10月同步建立GPU法外行政流放与劳改营特别委员会。
-- **时效关系边** (`EVT-1922-sr-show-trial` → `INS-cheka-gpu-ogpu` | `twin-pincer-extrajudicial-partner` | 有效时段: `1922.06–1924`): 公开公审制造舆论并“只办一次”，中下层社革党人与知识分子同步由08-10/10-16法令转交GPU秘密行政流放与关押
-- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 苏维埃政治警察演进谱系（兼参 `ORG-cheka-ogpu`）。1917年12月依人民委员会内部决议创立契卡，历经1918年红色恐怖与央地行刑权演变；1922年改组为苏俄内务部下属GPU，1923年组建联盟层级OGPU并随后重建法外特别会议，一面以 *svodki* 监测工农情绪，一面在1927年战争恐慌、沙赫特案及1928—1929年强制征粮中充当核心强制机器。
+## 2. 一跳邻域全量微摘要目录 (去重后共 6 个节点，0 截断)
+- **`ORG-psr`**（社会革命党）: 1901年末合并建立的俄国新民粹派政党，以土地社会化纲领与战斗组织暗杀闻名。1917年选民基数居全俄之冠却在战争、分地拖延与左翼分裂中失势；虽夺立宪会议多数仍遭解散，内战“第三条道路”溃于高尔察克政变，1922年莫斯科公审后在国内覆灭。 ‖ `←EVT-1922-sr-show-trial`[organizational-liquidation|1922.06–08]: 审判剥夺其国内外革命道义合法性并拘禁/人质化全部国内核心中委，标志国内有组织社革党走向终结 ； `←EVT-1922-sr-show-trial`[chief-defendant-hostage|1922.06-08+]: 戈茨（A. R. Gotz）、季莫费耶夫等社革党中央被告为第一组主被告；戈茨将1918年… ； `→EVT-1922-sr-show-trial`[domestically_liquidated_at|1922-06–1922-08]: 布尔什维克首场大型政治作秀公审，以“人质缓死”机制彻底瘫痪国内社革党残余中枢
+- **`INS-cheka-gpu-ogpu`**（全俄肃反委员会—国家政治保卫局与总局（ВЧК–ГПУ–ОГПУ 制度档案））: 苏维埃政治警察谱系：1917年12月人民委员会内部决议创立契卡，1918年红色恐怖中央地行刑权演变；1922年改为苏俄内务部GPU，1923年设联盟OGPU，随后重建法外特别会议。机关兼事工农情绪监测与镇压，在1927年战争恐慌、沙赫特案及1928—1929年强征中作用关键。 ‖ `←EVT-1922-sr-show-trial`[twin-pincer-extrajudicial-partner|1922.06–1924]: 公开公审制造舆论并“只办一次”，中下层社革党人与知识分子同步由08-10/10-16法令… ； `→EVT-1922-sr-show-trial`[staged-and-supplemented|1922.06-10]: 在莫斯科公开审判社革党中委并判处缓期死刑充当人质的同时，于8月与10月同步建立GPU法外行政流放与劳改营特别委员会。
+- **`INS-politburo-orgburo-secretariat`**（联共（布）中央政治局—组织局—书记处与官职等级名册制）: 1919年3月俄共八大后常设政治局、组织局与书记处，分掌政治决策、组织行政及日常党务人事。1922年4月斯大林任总书记后逐步控制议程、秘密文件分发与干部名册调配。经1924年七人小组协调、1925—1929年联盟重组与纪律整肃，托洛茨基、季诺维也夫、布哈林先后退出决策核心。 ‖ `←EVT-1922-sr-show-trial`[behind-scenes-director|1922.02–08]: 政治局自1922-02-15起垄断GPU大案方向，幕后统筹公审口径、群众游行压力及“死刑…
+- **`PER-bukharin`**（尼古拉·布哈林）: 布尔什维克核心理论家、《真理报》主编及共产国际书记处负责人。列宁遗嘱誉其“全党宠儿”但质疑其辩证法；1918年领衔左翼共产主义，1921年后转向新经济政策均衡路线，1925–1927联斯大林击溃左派，1928–1929因反对暴力征粮与超工业化遭击败并逐出政治局。 ‖ `←EVT-1922-sr-show-trial`[ideological-prosecutor|1922.08]: 在公诉词（*Pravda* 08-04）中用经济决定论将戈茨、津季诺夫等打成“百万富翁操… ； `→EVT-1922-sr-show-trial`[prosecutor|1922.06–08]: 作为布尔什维克控方理论家撰写并宣讲社革党“百万富翁操纵的伪革命吉伦特派”阶级还原论控词
+- **`PER-lunacharsky`**（阿纳托利·卢那察尔斯基）: 俄国革命文艺理论家、首任苏俄教育人民委员（1875—1933）。早年与波格丹诺夫、高尔基共倡“造神说”并组前进派党校；1917年随区联派入布尔什维克，十月后长期主持教育与文化事业，在保护旧知识分子、实验教育与激进派间力求平衡；1929年大转变高潮中辞职，1933年病逝法国。 ‖ `←EVT-1922-sr-show-trial`[prosecutor-debater|1922.08]: 在8月4日公诉中当庭驳斥戈茨“缺乏组党备战时间”的辩词，指出社革党比布尔什维克建党更早且… ； `→EVT-1922-sr-show-trial`[prosecution-ideologue|1922.06–08]: 在社革党中央公开审判中任布尔什维克控方理论家与政治发言人（非首席公诉人克雷连科），在审判中驳斥戈茨（相关言论见1922年8月4日《真理报》）
+- **`PER-chernov`**（维克托·切尔诺夫）: 俄国社会革命党创始人兼首席理论家，“土地社会化”纲领制定者。早期纵容阿泽夫战斗组织并在1909年丑闻后陷于党务瘫痪；1917年任联合内阁农业部长进退维谷，1918年1月以244:153当选全俄立宪会议一日主席即遭驱散，萨马拉—乌法“第三力量”亦破产，后流亡欧美。 ‖ `→EVT-1922-sr-show-trial`[absent-targeted-leader|1922]: 时已流亡布拉格，在1922年莫斯科社革党公审中缺席成为布哈林等控方“百万富翁吉伦特派”叙事的核心靶子
 
-### 邻居节点: `ORG-psr`
-- **时效关系边** (`EVT-1922-sr-show-trial` → `ORG-psr` | `organizational-liquidation` | 有效时段: `1922.06–08`): 审判剥夺其国内外革命道义合法性并拘禁/人质化全部国内核心中委，标志国内有组织社革党走向终结
-- **时效关系边** (`ORG-psr` → `EVT-1922-sr-show-trial` | `domestically_liquidated_at` | 有效时段: `1922-06–1922-08`): 布尔什维克首场大型政治作秀公审，以“人质缓死”机制彻底瘫痪国内社革党残余中枢
-- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 1901年末合并建立的俄国新民粹派政党，以土地社会化纲领与战斗组织暗杀闻名。1917年选民基数居全俄之冠却在战争、分地拖延与左翼分裂中失势；虽夺立宪会议多数仍遭解散，内战“第三条道路”溃于高尔察克政变，1922年莫斯科公审后在国内覆灭。
+## 3. 关联史学争鸣与学者论断索引 (主卡外关联争鸣 4 项)
+- **`DEB-1918-red-terror-and-civil-war-origins`**（红色恐怖、契卡扩张与内战期一党专政起源之争（1918–1921） | `historiography/debates/DEB-1918-red-terror-and-civil-war-origins.md` | 流派 `liberal-continuity, institutional-cheka, contingency-coalition, local-violence-and-chronicle, repressed-socialists-and-worker-protest, civil-war-structure-and-total-war, post-soviet-archival-quantitative`）：红色恐怖和契卡法外权力是列宁主义政治逻辑的必然结果，还是内战、粮食危机、联盟破裂与地方暴力交织下的制度选择？中央命令与地方自主行动怎样互相强化？恐怖升级、社会主义对手遭镇压和一党统治形成各有不同时间线，不能压缩成同一事件。
+- **`DEB-1918-constituent-assembly-and-soviet-democracy`**（解散立宪会议与多党苏维埃民主的命运 | `historiography/debates/DEB-1918-constituent-assembly-and-soviet-democracy.md` | 流派 `liberal-totalitarian, revisionist, sr-electoral-political-history, menshevik-history, security-legal-history`）：1918年立宪会议被武力解散，是否意味着一党统治已不可避免？争论涉及普选制宪与阶级性苏维埃两种合法性、群众动员和镇压，以及此后左翼多党合作与体制内反对派仍有多少政治空间。
+- ⚠️ 引用了尚未创建的争鸣卡 `DEB-1922-sr-trial-and-opposition-repression`
+- ⚠️ 引用了尚未创建的争鸣卡 `DEB-cheka-to-stalinist-terror-continuity`
 
-### 邻居节点: `INS-politburo-orgburo-secretariat`
-- **时效关系边** (`EVT-1922-sr-show-trial` → `INS-politburo-orgburo-secretariat` | `behind-scenes-director` | 有效时段: `1922.02–08`): 政治局自1922-02-15起垄断GPU大案方向，幕后统筹公审口径、群众游行压力及“死刑缓期人质化”政治裁决
-- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 1919年3月俄共八大在斯维尔德洛夫逝世后常设分置政治局（政治决策）、组织局（组织行政）与书记处（日常党务与人事）。1922年4月斯大林出任总书记后，逐步掌握政治局议程截稿、秘密文件分发与干部等级名册（Номенклатура）调配杠杆；历经1924年“七人小组”协调与1925—1929年多轮联盟重组及纪律整肃，托洛茨基、季诺维也夫与布哈林等先后被逐出中央决策核心。
+### 3.1 关联核心论断与史学家学派坐标 (`CLM-*` → `SCH-*`, 展示前 24/24 条)
+- **`CLM-smith-scott-2011-1922-sr-trial-discourse`** [`SCH-radkey-oliver`(奥利弗·亨利·拉德基) | pp. 466-469, 477-480, 494-495, 500-506 (PDF pp. 482-485, 493-496, 510-511, 516-522)]: 
+- **`CLM-mozokhin-cheka-to-ogpu-extrajudicial-jurisdiction-1918-1929`** [`SCH-mozokhin-oleg`(奥列格·莫佐欣) | PDF pp. 8-36, 44-49, 117-136]: 
+- **`CLM-pipes-1990-red-terror-leninist-logic`** [`SCH-pipes-richard`(理查德·派普斯) | ch. 18 (The Red Terror)]: 
+- **`CLM-leggett-1981-vecheka-extra-legal-origins`** [`SCH-leggett-george`(乔治·莱格特) | pp. 17-22, 47-49 (PDF pp. 55-60, 85-87)]: 
+- **`CLM-leggett-1981-red-terror-institutionalization`** [`SCH-leggett-george`(乔治·莱格特) | pp. 56-59, 102-115, 144-145 (PDF pp. 94-97, 140-153, 182-183)]: 
+- **`CLM-leggett-1981-cheka-to-gpu-continuity`** [`SCH-leggett-george`(乔治·莱格特) | pp. 339-352, 355-363 (PDF pp. 377-390, 393-401)]: 
+- **`CLM-rabinowitch-2007-contingency-of-dictatorship`** [`SCH-rabinowitch-alexander`(亚历山大·拉比诺维奇) | pp. xi-xii, 390-398]: 
+- **`CLM-rabinowitch-2007-left-sr-coalition-collapse`** [`SCH-rabinowitch-alexander`(亚历山大·拉比诺维奇) | pp. 274-282, 287-309, 395-396]: 
+- **`CLM-raleigh-2001-local-bolshevik-violence-and-clientelism`** [`SCH-raleigh-donald`(唐纳德·J·罗利) | Local PDF pp. 104, 112–130; English print pagination not verified]: 
+- **`CLM-cheka-chronicle-hostage-and-local-autonomy`** [`SCH-ratkovsky-ilya`(伊利亚·拉特科夫斯基) | EPUB OPS/ch1-6.xhtml; OPS/ch1-10.xhtml; OPS/ch1-14.xhtml; OPS/ch1-15.xhtml; OPS/ch1-16.xhtml; OPS/ch1-19.xhtml（提取文本无印刷页码）]: 
+- **`CLM-cheka-chronicle-suppression-of-socialist-rivals`** [`SCH-ratkovsky-ilya`(伊利亚·拉特科夫斯基) | EPUB OPS/ch1-4.xhtml; OPS/ch1-5.xhtml; OPS/ch1-9.xhtml; OPS/ch1-10.xhtml; OPS/ch1-15.xhtml; OPS/ch1-16.xhtml（提取文本无印刷页码）]: 
+- **`CLM-plekhanov-am-dzerzhinsky-cheka-institutionalization`** [`SCH-ratkovsky-ilya`(伊利亚·拉特科夫斯基) | pp. 55-56, 97-106, 118-123, 147-155, 209-211, 228]: 
+- **`CLM-halle-1920-martov-critique-of-terror-and-21-conditions`** [`SCH-martov-iulii`(尤利·奥西波维奇·马尔托夫 · participant-primary-text) | pp. 167–170, 173, 175–176, 179 (Lih translation in the 2011 Lewis/Lih edition; printed page = PDF page − 1). Full speech pp. 167–179, delivered 15 October 1920 [N.S.]]: 
+- **`CLM-smith-scott-2011-psr-third-force-collapse`** [`SCH-radkey-oliver`(奥利弗·亨利·拉德基) | pp. 452-455, 467-473, 490-493 (PDF pp. 468-471, 483-489, 506-509)]: 
+- **`CLM-churakov-2004-soviet-worker-protest-dynamics-1918`** [`SCH-churakov-dmitry`(德米特里·奥列戈维奇·丘拉科夫) | pp. 84-88, 352-355]: 
+- **`CLM-churakov-2004-izhevsk-votkinsk-worker-insurrection`** [`SCH-churakov-dmitry`(德米特里·奥列戈维奇·丘拉科夫) | pp. 258-285, 290-298, 304-325]: 
+- **`CLM-mawdsley-1987-civil-war-militarized-regime`** [`SCH-mawdsley-evan`(埃文·莫兹利) | pp. 328, 331, 346-347]: 
+- **`CLM-hoffmann-2011-continuum-of-total-war-1914-1929`** [`SCH-hoffmann-david`(大卫·L·霍夫曼) | pp. 12–13, 38, 127–128]: 
+- **`CLM-zemskov-1920s-archival-repression-scale-before-1930`** [`SCH-zemskov-viktor`(维克托·尼古拉耶维奇·泽姆斯科夫) | PDF pp. 199-200, 210-214, 220-221 (原书 pp. 197-198, 208-212, 218-219)]: 
+- **`CLM-rabinowitch-2007-constituent-assembly`** [`SCH-rabinowitch-alexander`(亚历山大·拉比诺维奇) | pp. 88-91, 105-110, 121-127]: 
+- **`CLM-pipes-1990-october-classic-coup`** [`SCH-pipes-richard`(理查德·派普斯) | ch. 11 (The October Coup); cf. Introduction]: 
+- **`CLM-getzler-1967-martov-soviet-opposition`** [`SCH-getzler-israel`(伊斯雷尔·格茨勒) | pp. 168-191]: 
+- **`CLM-roobol-1976-tsereteli-tragedy-of-moderation`** [`SCH-roobol-wh`(W·H·罗博尔) | pp. 39, 253–257 (printed page = PDF page − 10). Narrative evidence for 1907 and 1917 runs through pp. 32–65 and pp. 81–182; those pages are not all quoted here.]: 
 
-### 邻居节点: `PER-bukharin`
-- **时效关系边** (`EVT-1922-sr-show-trial` → `PER-bukharin` | `ideological-prosecutor` | 有效时段: `1922.08`): 在公诉词（*Pravda* 08-04）中用经济决定论将戈茨、津季诺夫等打成“百万富翁操纵的吉伦特派与协约国傀儡”
-- **时效关系边** (`PER-bukharin` → `EVT-1922-sr-show-trial` | `prosecutor` | 有效时段: `1922.06–08`): 作为布尔什维克控方理论家撰写并宣讲社革党“百万富翁操纵的伪革命吉伦特派”阶级还原论控词
-- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 布尔什维克核心理论家、《真理报》主编及共产国际书记处负责人。列宁遗嘱誉其“全党宠儿”但质疑其辩证法；1918年领衔左翼共产主义，1921年后转向新经济政策均衡路线，1925–1927联斯大林击溃左派，1928–1929因反对暴力征粮与超工业化遭击败并逐出政治局。
-
-### 邻居节点: `PER-lunacharsky`
-- **时效关系边** (`EVT-1922-sr-show-trial` → `PER-lunacharsky` | `prosecutor-debater` | 有效时段: `1922.08`): 在8月4日公诉中当庭驳斥戈茨“缺乏组党备战时间”的辩词，指出社革党比布尔什维克建党更早且在十月前掌权八月
-- **时效关系边** (`PER-lunacharsky` → `EVT-1922-sr-show-trial` | `prosecution-speaker` | 有效时段: `1922`): 中央社革党审判中任控方理论家与公诉方政治发言人（非首席公诉人克雷连科），当庭驳斥戈茨
-- **节点定性微摘要 [T1]** (完备度 `draft`): 卢那察尔斯基（1875–1933），布尔什维克文化理论家与首任教育人民委员（1917–1929），早年倡导“造神说”并与波格丹诺夫共创“前进”集团党校；1917随区联派入党，主持扫盲、艺术宽容与教育体制，1929年“大转变”前夕辞职。
-
-### 邻居节点: `PER-chernov`
-- **时效关系边** (`PER-chernov` → `EVT-1922-sr-show-trial` | `absent-targeted-leader` | 有效时段: `1922`): 时已流亡布拉格，在1922年莫斯科社革党公审中缺席成为布哈林等控方“百万富翁吉伦特派”叙事的核心靶子
-- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 俄国社会革命党创始人兼首席理论家，“土地社会化”纲领制定者。早期纵容阿泽夫战斗组织并在1909年丑闻后陷于党务瘫痪；1917年任联合内阁农业部长进退维谷，1918年1月以244:153当选全俄立宪会议一日主席即遭驱散，萨马拉—乌法“第三力量”亦破产，后流亡欧美。
-
-## 3. 关联史学争鸣光谱 (Historiographical Debates)
-### `DEB-1918-red-terror-and-civil-war-origins`：红色恐怖、契卡扩张与内战期一党专政起源之争（1918–1921）
-## [T1] 核心问题定义
-红色恐怖和契卡法外权力是列宁主义政治逻辑的必然结果，还是内战、粮食危机、联盟破裂与地方暴力交织下的制度选择？中央命令与地方自主行动怎样互相强化？恐怖升级、社会主义对手遭镇压和一党统治形成各有不同时间线，不能压缩成同一事件。
-
-## [T2] 各学派立场对照矩阵
-**经验基准**：全俄肃反委员会（契卡）于1917-12-07 [O.S.] / 1917-12-20 [N.S.] 凭人民委员会非立法决议成立；1918年3月《布列斯特和约》后左翼社革党退出人民委员会，7月4–10日第五次全俄苏维埃代表大会期间爆发7月6日刺杀德国大使米尔巴赫事件，布尔什维克与左翼社革党彻底决裂并于7月10日通过1918年苏俄宪法；8月30日乌里茨基遇刺、列宁遇刺重伤。据站内入库S级档案校勘（`sources/web-archive/E06_E09_state_and_comintern/1918-09-05_decree-on-red-terror.md`），广泛扣押人质指令首先出自9月4日内务人民委员彼得罗夫斯基电令，而9月5日人民委员会《关于红色恐怖的决议》（RGASPI打印原件由司法人民委员库尔斯基、内务人民委员彼得罗夫斯基、办公厅主任邦奇-布鲁耶维奇与秘书福季耶娃签署，**并非捷尔任斯基签署，且9月5日决议正文中并未出现“人质”一词**）将集中营隔离与就地枪决正式法制化。跨口径处决统计（`DATA-06-1918-1929-cheka-ogpu-sentencing-and-1929-collectivization-surge`）须严格区分中央登记案卷与地方未登记法外处决。
-
-| 学派/取向 | 代表学者与著作 | 核心论点摘要 | 支撑论断卡 | 主要受批评盲点 |
-| :--- | :--- | :--- | :--- | :--- |
-| 自由主义意识形态连续论 | Richard Pipes, *The Russian Revolution* (1990) | 提出“法国大革命终结于恐怖，而俄国革命始于恐怖”：布尔什维克因缺乏多数民众授权，将系统性恐怖用作“民众支持的替代品”，阶级敌人话语与列宁的雅各宾法律观使红色恐怖成为十月少数派政变的必然逻辑延伸。 | `CLM-pipes-1990-red-terror-leninist-logic` | 将1918年夏内战升级与暗杀危机前后的制度突变全部还原为先验意识形态蓝图，低估了战时生存危机与基层压力。 |
-| 契卡制度史与法外基因论 | George Leggett, *The Cheka: Lenin's Political Police* (1981) | 追踪契卡从1917年12月仅具侦查权、凭人民委员会行政决议（类比沙皇尼古拉一世第三厅）建置，在1918年春夏突破司法人民委员部（斯泰因伯格）制约、借9月红色恐怖法令将法外处决权制度化，直至1922年改组为GPU并由列宁5月致库尔斯基密信将恐怖写入刑法典的制度连续性（估算1917–1922年契卡直接处决约14万人、镇压起义另致约14万人死亡）。 | `CLM-leggett-1981-vecheka-extra-legal-origins`；`CLM-leggett-1981-red-terror-institutionalization`；`CLM-leggett-1981-cheka-to-gpu-continuity` | 1981年尚未能利用后苏联解密的FSB中央与地方卷宗，其高层估算数字需与莫佐欣、泽姆斯科夫档案统计对勘。 |
-| 联盟破裂、党组织萎缩与专政偶然论 | Alexander Rabinowitch, *The Bolsheviks in Power: The First Year of Soviet Rule in Petrograd* (2007) | 论证一党专政与大规模恐怖并非十月既定方案：1918年春彼得格勒布尔什维克党员从约5万人骤降至约6,000人，为保住苏维埃五大多数竟伪造约399席代表资格；左翼社革党7月刺杀米尔巴赫旨在逼停布列斯特和约而非推翻苏维埃（**1918年12月彼得格勒契卡甚至秘密撤销了对左翼社革党“有组织武装起义”的指控**）；8月30日乌里茨基遇刺后，彼得格勒各区委“自下而上”施压扩大报复，与中央危机共振催生红色恐怖。 | `CLM-rabinowitch-2007-contingency-of-dictatorship`；`CLM-rabinowitch-2007-left-sr-coalition-collapse` | 彼得格勒在季诺维也夫与乌里茨基初期相对克制及随后失控的个案，不能直接代表伏尔加河或南方前线各省的暴力烈度。 |
-| 地方庇护网络、红色恐怖编年史与捷尔任斯基机构化 | Delano Dugarm (2001，收入 Donald J. Raleigh 编 *Provincial Landscapes*)；Igor Ratkovsky (伊·谢·拉特科夫斯基 2017两部专著，依托 A. M. & A. A. Plekhanov 2007 档案集) | Dugarm以坦波夫省个案揭示地方布尔什维克宗派庇护网、溃兵与契卡自主滥权常偏离莫斯科指令，甚至以“虚构暴动”掩盖征粮失败；圣彼得堡国立大学史家拉特科夫斯基（2017《契卡红色恐怖编年史》与《捷尔任斯基传》）依托普列汉诺夫父子2007年档案集，重构人质制度、地方契卡对孟什维克与社革党的压制、1918年秋约8,000人处决估算，以及捷尔任斯基如何将分散的革命暴力收编为垂直集权的契卡—内务—最高国民经济委员会官僚机器。 | `CLM-raleigh-2001-local-bolshevik-violence-and-clientelism`；`CLM-cheka-chronicle-hostage-and-local-autonomy`；`CLM-cheka-chronicle-suppression-of-socialist-rivals`；`CLM-plekhanov-am-dzerzhinsky-cheka-institutionalization` | 地方报刊编年史与契卡内部通报存在漏报或战绩夸大双向偏差，须与独立受害者名册及省级法院档案交叉核验。 |
-| 被镇压社会主义对手、第三势力崩溃与1918年工人抗议 | [S级当事人演说] L. Martov (1920年10月哈勒大会演说)；Oliver H. Radkey, *The Sickle under the Hammer* (1963)；D. O. Churakov (丘拉科夫, 2004) | 马尔托夫在1920年德国独立社民党哈勒大会上痛斥无差别红色恐怖（如彼得格勒一次处决约800人）与“二十一条”如何摧毁社会主义道德与苏维埃民主；Radkey剖析社革党与科穆奇（Komuch）“民主第三势力”因内部分裂及白军借其作“保护色”而崩溃，将政局推入红白恐怖两极；丘拉科夫以档案证明1918年苏维埃辖区210–220家大中型企业爆发10–25万工人罢工抗议，直至8月伊热夫斯克—沃特金斯克武装工人起义，直接证伪“镇压对象仅限于资产阶级和地主”的官方叙事。 | `CLM-halle-1920-martov-critique-of-terror-and-21-conditions`；`CLM-smith-scott-2011-psr-third-force-collapse`；`CLM-churakov-2004-soviet-worker-protest-dynamics-1918`；`CLM-churakov-2004-izhevsk-votkinsk-worker-insurrection` | 反对派控诉与工人起义证明了恐怖对劳动阶级自身的反噬，但对白军战区白色恐怖与外国干涉的对称比较需另行展开。 |
-| 内战军事化结构与总体战现代治理 | Evan Mawdsley, *The Russian Civil War* (1987); David L. Hoffmann, *Cultivating the Masses* (2011) | Mawdsley从军事地理与政权生存结构出发，指出内战与政治高度军事化均是十月夺权方式的直接代价（“内战代价即革命代价”）；Hoffmann将契卡监控、集中营与粮食强制置于1914年一战以来欧洲列强总体战人口治理与国家暴力技术的连续谱中。 | `CLM-mawdsley-1987-civil-war-militarized-regime`；`CLM-hoffmann-2011-continuum-of-total-war-1914-1929` | 欧洲总体战技术共性或军事地理决定论，不能消解布尔什维克在1921年内战结束后仍保留并制度化法外警察权力的政治选择责任。 |
-| 后苏联FSB/GARF档案定量校准与莫佐欣“战时/和平期二分法” | O. B. Mozokhin (莫佐欣, 2006/2016)；V. N. Zemskov (泽姆斯科夫, 2010s) | 莫佐欣据俄罗斯联邦安全局中央档案馆（ЦА ФСБ РФ）统计表（`DATA-06-1918-1929-cheka-ogpu-sentencing-and-1929-collectivization-surge`），确认1918–1921年有案可查契卡处决约1.75万人（计入缺省全期上限不超过5万），并提出鲜明的**国家主义二分法**——肯定1918–1921年战时契卡镇压武装叛乱的应急必要性，却**尖锐批判1922年后和平时期GPU/OGPU继续垄断法外司法**（如1924年4,097起反革命案仅6起移交法院，战时死刑率6.9% vs 和平期0.5%/0.94%）；泽姆斯科夫据GARF档案校准1918–1920年登记反革命案判刑62,231人、处决25,709人（含未登记上限<10万），共同驳斥百万级夸大数字。 | `CLM-mozokhin-cheka-to-ogpu-extrajudicial-jurisdiction-1918-1929`；`CLM-zemskov-1920s-archival-repression-scale-before-1930` | 中央汇总报表未涵盖1918–1920年前线红军革命军事法庭、征粮队及地方县契卡未上报的就地处决，档案下限不等于实际死亡总数。 |
-
-### `DEB-1918-constituent-assembly-and-soviet-democracy`：解散立宪会议与多党苏维埃民主的命运
-## [T1] 核心问题定义
-1918年立宪会议被武力解散，是否意味着一党统治已不可避免？争论涉及普选制宪与阶级性苏维埃两种合法性、群众动员和镇压，以及此后左翼多党合作与体制内反对派仍有多少政治空间。
-
-## [T2] 各学派立场对照矩阵
-| 学派/取向 | 代表学者与著作 | 核心论点摘要 | 支撑论断卡 | 主要受批评盲点 |
-| :--- | :--- | :--- | :--- | :--- |
-| 修正派与地方档案 | Alexander Rabinowitch, *The Bolsheviks in Power* (2007) | 解散由布尔什维克党内温和派（加米涅夫等）败给列宁、左翼社革党配合及相当程度的工农冷漠共同促成；多党苏维埃空间是在1918年春夏危机中分阶段收缩的。 | `CLM-rabinowitch-2007-constituent-assembly`; `CLM-rabinowitch-2007-contingency-of-dictatorship`; `CLM-rabinowitch-2007-left-sr-coalition-collapse` | 彼得格勒经验能否推广全国、危机解释是否低估意识形态与主动镇压，均有争议。 |
-| 社会革命党与选举史奠基派 | Oliver H. Radkey, *The Sickle under the Hammer* (1963) | 拆解社革党选票内部俄/乌与左右翼裂痕（299俄社革+81乌社革），揭示右翼社革党领导层因迷信合法议会程序、禁止武装保卫议会而自缚手脚，随后在萨马拉—西伯利亚沦为白卫军官“保护色”。 | `CLM-smith-scott-2011-psr-third-force-collapse`（馆藏真身 Radkey 1963）；`DATA-01` | 对精英策略失误的严厉道德批评有时低估了士兵厌战的结构性约束。 |
-| 自由主义制度批判 | Richard Pipes, *The Russian Revolution* (1990) | 将1918年1月枪击保卫立宪会议游行与武力关闭议会视为列宁夺权意志与极权恐怖制度化的真正起点，认为布尔什维克借民众疲惫确立了不受制约的专政。 | `CLM-pipes-1990-october-classic-coup`; `CLM-pipes-1990-red-terror-leninist-logic` | 对地方苏维埃多党合作与1918年上半年布尔什维克党内争论关注不足。 |
-| 孟什维克与议会民主传记派 | Israel Getzler, *Martov* (1967); W. H. Roobol, *Tsereteli* (1976) | 策烈铁里在 `1918-01-05 [O.S.]` 立宪会议讲坛作最后跨阶级议会民主抗辩；马尔托夫则在会后转入苏维埃体制内开展半合法反对（直至 `1918-06-14` 全俄中执委驱逐右社革与孟什维克）。 | `CLM-getzler-1967-martov-soviet-opposition`; `CLM-roobol-1976-tsereteli-tragedy-of-moderation` | 领袖政治伦理需与工厂全权代表会议（丘拉科夫 `CLM-churakov-2004-*`）实证规模对勘。 |
-
-## 4. 关联时间线锚点 (共 0 条)
+## 4. 关联时间线骨干锚点 (L0–L2 展示 0 条)

@@ -7,7 +7,7 @@ publication_year: 1964
 source_tier: A
 local_source_path: "sources/monographs/nove_1964_was_stalin_necessary/ch08_i_political_economy.md#L461-L534"
 original_pages: "pp. 27-29, 53-55, 139"
-targets_cards: ["POL-collectivization", "POL-first-five-year-plan", "PER-stalin"]
+targets_cards: ["EVT-1929-great-turn-and-dekulakization-launch", "POL-first-five-year-plan", "PER-stalin"]
 debate: DEB-1928-bukharin-alternative
 supports: []
 rebuts: []

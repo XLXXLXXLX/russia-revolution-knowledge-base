@@ -7,8 +7,8 @@ publication_year: 1963
 source_tier: A
 local_source_path: "sources/monographs/smith_scott_captives_of_rev_zh/ch16_pages_481-510.md#L63-L185; sources/monographs/smith_scott_captives_of_rev_zh/ch16_pages_481-510.md#L574-L643; sources/monographs/smith_scott_captives_of_rev_zh/ch16_pages_481-510.md#L1260-L1281"
 original_pages: "pp. 466-469, 477-480, 494-495, 500-506 (PDF pp. 482-485, 493-496, 510-511, 516-522)"
-targets_cards: ["EVT-1922-sr-trial", "ORG-psr", "PER-gotz", "PER-bukharin", "PER-lunacharsky", "PER-pokrovsky"]
-debate: DEB-1922-sr-trial-and-opposition-repression
+targets_cards: ["EVT-1922-sr-show-trial", "ORG-psr", "PER-bukharin", "PER-lunacharsky"]
+debate: DEB-1918-red-terror-and-civil-war-origins
 supports: []
 rebuts: []
 qualifies: []

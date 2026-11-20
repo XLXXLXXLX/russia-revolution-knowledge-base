@@ -1,13 +1,13 @@
 ---
 id: CLM-carr-davies-1969-grain-price-scissor-1927
 type: claim
-scholar: SCH-carr-davies
+scholar: SCH-davies-rw
 work_title: "Foundations of a Planned Economy, 1926–1929, Volume 1, Part 1"
 publication_year: 1969
 source_tier: A
 local_source_path: "sources/monographs/carr_davies_1969_foundations_v1p1/ch02_pages_61-90.md#L15-L35"
 original_pages: "pp. 44-47 (esp. p. 46)"
-targets_cards: ["EVT-1928-grain-crisis", "POL-nep", "CON-scissors-crisis"]
+targets_cards: ["EVT-1928-grain-procurement-crisis", "POL-nep", "EVT-1923-scissors-crisis"]
 debate: DEB-1928-bukharin-alternative
 supports: []
 rebuts: []

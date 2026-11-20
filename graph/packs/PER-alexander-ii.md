@@ -1,18 +1,13 @@
-# 1-Hop 平衡上下文包：`PER-alexander-ii` (亚历山大二世)
+# 1-Hop 去重平衡上下文包：`PER-alexander-ii`
 
-> 本文件由 `python scripts/kb.py pack` 自动编译，旨在将失控的 `1+N` 随机读取压缩为**等权重、带时效边实质与史学盲区告警**的单次全景读取。
+> 由 `python scripts/kb.py pack` 动态编译：保留 **100% 一跳邻居与多时段关系边**，跨卡自动去重争鸣与时间线，并关联学者学派 (`SCH-*`)。
 
-## 0. 认知完备度与反偏斜仪表盘 (Epistemic & Skew Warnings)
-- **主卡路径**: `cards/people/PER-alexander-ii.md`
-- **完备度等级**: `multi-perspective`
-- **已覆盖视角**: `movement-history-venturi, patrimonial-state-pipes, tragedy-cultural-figes, populist-socialist-walicki`
-- **待补齐视角**: `imperial-bureaucratic-biography, 1861-emancipation-statutes-original`
-- **偏斜风险提示**:
-  - ⚠️ 主卡显式声明尚缺以下视角待补: `imperial-bureaucratic-biography, 1861-emancipation-statutes-original`。
+## 0. 认知完备度与反偏斜仪表盘
+- **`PER-alexander-ii`** (亚历山大二世 | `cards/people/PER-alexander-ii.md` | `multi-perspective`): 已覆盖=`movement-history-venturi, patrimonial-state-pipes, tragedy-cultural-figes, populist-socialist-walicki`；待补=`imperial-bureaucratic-biography, 1861-emancipation-statutes-original`
 
 ## 1. 主卡核心层 ([T1] + [T2])
 ## [T1] 60秒定性微摘要
-俄罗斯帝国沙皇（1855–1881在位），史称“解放者沙皇”。克里米亚战争战败后自上而下启动“大改革”：`1861-02-19 [O.S.] / 1861-03-03 [N.S.]` 签署废除农奴制宣言，继推1864年地方自治局（Земство）与司法陪审制、1874年普遍兵役制，却始终拒绝国家层面的立宪议会；1866年卡拉科佐夫行刺未遂后转向保守警宪镇压，激发1870年代民粹派激进化与政治恐怖浪潮。1880年冬宫爆炸后起用洛里斯-梅利科夫酝酿有限咨询委员会方案，于签署草案当日 `1881-03-01 [O.S.] / 1881-03-13 [N.S.]` 在圣彼得堡叶卡捷琳娜运河畔被民意党炸弹刺杀身亡。
+沙皇（1855–1881在位）。克里米亚战败后推动大改革，1861-02-19[O.S.]/03-03[N.S.]签署废奴宣言，继行自治、司法与兵役改革，却拒绝国家立宪。后转保守镇压；1881-03-01[O.S.]/03-13[N.S.]酝酿有限咨询改革时遭民意党刺杀。
 
 ## [T2] 核心脉络、时效关系边表与史学争鸣光谱
 
@@ -41,37 +36,16 @@
   - **[费吉斯与长时段社会文化史 / Orlando Figes]**（`CON-peasant-commune-obshchina`, `RN-W5-peasant-soldier-revolution-and-tragedy`）：指出1861年大改革及1864年地方自治局并未消除贵族国家与农民世界之间的制度鸿沟——农民被困在习惯法与连环保村社之中，继续按“土地归耕种者”的道德经济逻辑将地主保有土地视为不义，而地方自治局的“第三种因素”（医生、教师、农艺师）虽推动乡村启蒙，却因无国家层面宪政整合而无法化解城乡与阶级撕裂。
   - **[瓦利茨基与苏联/马克思主义史学参照 / Andrzej Walicki]**（`CLM-walicki-1969-narodnichestvo-definition`）：在经济与观念史层面，1861年高额赎金与割地加速了乡村货币化与分化，既催生了民粹派跳过资本主义的村社社会主义构想，也印证了民意党理论家（季霍米罗夫、基巴尔契奇）关于“沙皇国家自身即全国最大地主与人为扶植资本主义的强权”之诊断（`RN-W2-zemlya-to-march-first`, `pp. 667–681`）。
 
-## 2. 一跳邻域等权重微摘要 (共 7 个关联节点，严防大卡霸占上下文)
-### 邻居节点: `CON-peasant-commune-obshchina`
-- **时效关系边** (`PER-alexander-ii` → `CON-peasant-commune-obshchina` | `legal-institutionalizer` | 有效时段: `1861–1881`): 1861年废奴法令将赎买金与赋税连环保绑定于法定乡村公社，既作治安稳定器又埋下农村土地冲突根源
-- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 帝俄至苏俄初期乡村核心自治与土地重分制度。1861年废奴改革保留连环保与重分地村社；民粹派奉为社会主义胚胎并获1881年晚年马克思有条件背书，列宁1899年判其资本主义分化，斯托雷平立法拆解之；1917–1918年农民“黑土重分”令其强力复兴并写入1922年《土地法典》，终在1929–1930年全盘集体化中被集体农庄彻底摧毁。
+## 2. 一跳邻域全量微摘要目录 (去重后共 7 个节点，0 截断)
+- **`ORG-narodnaya-volya`**（民意党）: 1879年夏秋自土地与自由社分裂产生的俄国激进民粹派秘密政党，由执行委员会实行集中地下领导。该党虽以政治刺杀挑战沙皇专制并在1881年3月炸死亚历山大二世，其1879年纲领与致新皇信仍明确诉诸立宪会议与普选自由，绝非纯虚无暗杀团伙；1883年前后国内中枢瓦解。 ‖ `→PER-alexander-ii`[assassination_target|1879–1881]: 1879-08-26 [O.S.] 被执委会判死，1881-03-01 [O.S.] 遇刺阻断洛里斯—梅利科夫咨询改革 ； `←PER-alexander-ii`[condemned-target|1879–1881.03]: 民意党执委会于1879年8月判处其死刑，历经多次铁路与冬宫爆破后于1881年3月1日将其刺杀
+- **`CON-peasant-commune-obshchina`**（农村公社（米尔 / 村社））: 村社是帝俄至苏俄的乡村自治与土地重分制度。1861年改革保留连环保与重分地；民粹派视为社会主义胚胎，1881年马克思有条件认可其前景，列宁强调资本主义分化，斯托雷平立法拆解。1917–1918年土地重分使其复兴，1922年获法典承认，1929–1930年遭集体化摧毁。 ‖ `←PER-alexander-ii`[legal-institutionalizer|1861–1881]: 1861年废奴法令将赎买金与赋税连环保绑定于法定乡村公社，既作治安稳定器又埋下农村土地冲…
+- **`PER-herzen`**（亚历山大·赫尔岑）: 19世纪俄国革命民主派思想家、“俄国社会主义”奠基人与流亡出版家。1847年永居西欧，目睹1848革命退潮后批判西方资产阶级市侩制度与历史决定论，转向依托俄国农村公社的自主发展构想。1853年设伦敦自由俄罗斯印刷所，1857年创办《钟声》，在废奴改革与青年激进派之间搭建流亡舆论枢纽。 ‖ `←PER-alexander-ii`[initial-hopes -> radical-critic|1855–1870]: 赫尔岑《钟声》初曾寄望“解放者”自上而下改革，1861年高额赎金与1863年波兰镇压后彻… ； `→PER-alexander-ii`[initial-hopes -> radical-critic|1855–1870]: 《钟声》初期寄望“解放者”自上而下废奴，1861年高额赎金方案与1863年镇压波兰起义后彻底决裂
+- **`ORG-zemlya-i-volya`**（土地与自由社）: 本卡聚焦1876—1879年第二代土地与自由社（纳坦松、米海洛夫、普列汉诺夫等组建），须与1861—1864年无法人承续的同名第一代严格区分。该社借农村定居宣传吸纳“到民间去”挫败教训，后在政府镇压下因恐怖路线与农村工作之争于1879年夏秋分裂为民意党与黑土重分派。 ‖ `←PER-alexander-ii`[repression-target|1861–1879]: 两代土地与自由社因1861年土地分配失望与1870年代大审判、军事戒严而从农村宣传转向中…
+- **`PER-zhelyabov`**（安德烈·热利亚博夫）: 农奴出身的俄国民粹派革命家与民意党执委会灵魂领袖。青年时在敖德萨独立开展工人与知识界鼓动，1878年“193人案”获释后于1879年利佩茨克与沃罗涅日会议推动集中制与政治决战，兼抓工人战斗队与军官支部；1881-02-27[O.S.]/03-11[N.S.]被捕，04-03/04-15就义。 ‖ `←PER-alexander-ii`[assassination-organizer|1879–1881.03]: 热利亚博夫在利佩茨克与民意党执委会主导刺杀沙皇部署，于行刺前48小时被捕并在庭审中抗辩专制 ； `→PER-alexander-ii`[assassination_organizer|1879–1881]: 自1879年11月亚历山德罗夫斯克铁路爆破至1881年3月行动均担任最高协调人
+- **`PER-perovskaya`**（索菲亚·佩罗夫斯卡娅）: 圣彼得堡前总督之女，俄国民粹派核心组织者。早年反抗父权家暴入柴可夫斯基小组投身工人宣传与医护；1878年“193人案”获释，1879年沃罗涅日会后入民意党执委会；1881年热利亚博夫被捕后接掌总指挥，04-03[O.S.]/04-15[N.S.]成俄国首位政治绞刑女性。 ‖ `←PER-alexander-ii`[field-commander-of-regicide|1879–1881.03]: 前彼得堡总督之女佩罗夫斯卡娅在热利亚博夫被捕后接掌总指挥，临场变阵叶卡捷琳娜运河完成刺杀 ； `→PER-alexander-ii`[field_commander_of_regicide|1879–1881]: 参与1879年莫斯科铁路爆破并在1881-03-01 [O.S.] / 1881-03-13 [N.S.]临场变阵运河挥帕发令完成刺杀
+- **`EVT-1881-03-assassination-of-alexander-ii`**（1881年刺杀亚历山大二世与“三月一日案”）: 1881年3月1日[O.S.]/13日[N.S.]，民意党在叶卡捷琳娜运河炸死亚历山大二世，未引发起义。3月8日[O.S.]/20日[N.S.]有限咨询改革被否决；执委会3月10日[O.S.]/22日[N.S.]致信新沙皇后网络覆灭，五人4月3日[O.S.]/15日[N.S.]被绞死。 ‖ `←PER-alexander-ii`[assassinated-monarch|1881-03-01 [O.S.] / 03-13 [N.S.]]: 清晨刚签署洛里斯-梅利科夫咨询委员会草案交部长会讨论，下午即在叶卡捷琳娜运河畔被第二枚炸…
 
-### 邻居节点: `PER-herzen`
-- **时效关系边** (`PER-alexander-ii` → `PER-herzen` | `initial-hopes -> radical-critic` | 有效时段: `1855–1870`): 赫尔岑《钟声》初曾寄望“解放者”自上而下改革，1861年高额赎金与1863年波兰镇压后彻底决裂
-- **节点定性微摘要 [T1]** (完备度 `draft`): 19世纪俄国革命民主派思想巨擘与流亡出版家。生于莫斯科贵族家庭，`1812-03-25 [O.S.] / 1812-04-06 [N.S.]`；1847年1月出境后于1853年在伦敦创办自由俄罗斯印刷所并于1857年夏主笔《钟声》，系统批判农奴制与西欧资本主义异化，提出以农村公社为基础的“俄国式社会主义”愿景；`1870-01-21 [N.S.]` 逝于巴黎。
-
-### 邻居节点: `ORG-zemlya-i-volya`
-- **时效关系边** (`PER-alexander-ii` → `ORG-zemlya-i-volya` | `repression-target` | 有效时段: `1861–1879`): 两代土地与自由社因1861年土地分配失望与1870年代大审判、军事戒严而从农村宣传转向中枢打击
-- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 本卡聚焦1876—1879年第二代土地与自由社（纳坦松、米海洛夫、普列汉诺夫等组建），须与1861—1864年无法人承续的同名第一代严格区分。该社借农村定居宣传吸纳“到民间去”挫败教训，后在政府镇压下因恐怖路线与农村工作之争于1879年夏秋分裂为民意党与黑土重分派。
-
-### 邻居节点: `ORG-narodnaya-volya`
-- **时效关系边** (`PER-alexander-ii` → `ORG-narodnaya-volya` | `condemned-target` | 有效时段: `1879–1881.03`): 民意党执委会于1879年8月判处其死刑，历经多次铁路与冬宫爆破后于1881年3月1日将其刺杀
-- **时效关系边** (`ORG-narodnaya-volya` → `PER-alexander-ii` | `assassination_target` | 有效时段: `1879–1881`): 1879-08-26 [O.S.] 被执委会判死，1881-03-01 [O.S.] 遇刺阻断洛里斯—梅利科夫咨询改革
-- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 1879年夏秋自土地与自由社分裂产生的俄国激进民粹派秘密政党，由执行委员会实行集中地下领导。该党虽以政治刺杀挑战沙皇专制并在1881年3月炸死亚历山大二世，其1879年纲领与致新皇信仍明确诉诸立宪会议与普选自由，绝非纯虚无暗杀团伙；1883年前后国内中枢瓦解。
-
-### 邻居节点: `PER-zhelyabov`
-- **时效关系边** (`PER-alexander-ii` → `PER-zhelyabov` | `assassination-organizer` | 有效时段: `1879–1881.03`): 热利亚博夫在利佩茨克与民意党执委会主导刺杀沙皇部署，于行刺前48小时被捕并在庭审中抗辩专制
-- **节点定性微摘要 [T1]** (完备度 `draft`): 俄国民粹派革命家、民意党执委会核心领袖。农奴出身，受教育后投身地下斗争；`1879-06-17 [O.S.] / 1879-06-29 [N.S.]` 起参与利佩茨克会议确立集中密谋体制；组织刺杀沙皇案并于法庭上作著名抗辩；`1881-04-03 [O.S.] / 1881-04-15 [N.S.]` 与佩罗夫斯卡娅等共五人被处绞刑。
-
-### 邻居节点: `PER-perovskaya`
-- **时效关系边** (`PER-alexander-ii` → `PER-perovskaya` | `field-commander-of-regicide` | 有效时段: `1879–1881.03`): 前彼得堡总督之女佩罗夫斯卡娅在热利亚博夫被捕后接掌总指挥，临场变阵叶卡捷琳娜运河完成刺杀
-- **节点定性微摘要 [T1]** (完备度 `draft`): 圣彼得堡前总督、内务部会议成员列夫·佩罗夫斯基之女，民粹派革命者。曾接触柴可夫斯基小组与土地与自由社，1879年入民意党执委会；热利亚博夫被捕后临危指挥1881年3月1日 [O.S.] 刺杀沙皇，俄国首位因政治案件被处绞刑的女性。
-
-### 邻居节点: `EVT-1881-03-assassination-of-alexander-ii`
-- **时效关系边** (`PER-alexander-ii` → `EVT-1881-03-assassination-of-alexander-ii` | `assassinated-monarch` | 有效时段: `1881-03-01 [O.S.] / 03-13 [N.S.]`): 清晨刚签署洛里斯-梅利科夫咨询委员会草案交部长会讨论，下午即在叶卡捷琳娜运河畔被第二枚炸弹炸死
-- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 1881年3月1日[O.S.]/13日[N.S.]，民意党在叶卡捷琳娜运河投两枚炸弹炸死亚历山大二世。弑君未引发起义，洛里斯-梅利科夫的有限咨询改革方案随后于3月8日[O.S.] / 3月20日[N.S.]被否决；执委会3月10日[O.S.] / 3月22日[N.S.]发表《致亚历山大三世信》后网络覆灭，五人于4月3日[O.S.] / 4月15日[N.S.]绞刑就义。
-
-## 3. 关联史学争鸣光谱 (Historiographical Debates)
+## 3. 关联史学争鸣与学者论断索引 (主卡外关联争鸣 1 项)
 ### `DEB-1879-narodnaya-volya-to-bolshevism`：民意党与布尔什维主义：密谋传统的连续性与异质性
 ## [T1] 核心问题定义
 民意党的秘密纪律、职业革命与政治暴力，同后来的布尔什维克组织之间有何关系？争论必须分别考察组织手段、革命目标、道德论证和具体传承链条：相似的地下技术本身不能证明永久党专政或思想一脉相承。
@@ -85,4 +59,18 @@
 | 爱尔福特正统重审与雅各宾概念史 | Lars T. Lih, *Lenin Rediscovered* (2006); Robert Mayer (1999) | 正面证伪“特卡乔夫/民意党密谋传统→列宁《怎么办？》”直线谱系：列宁以德国社民党（SPD）公开群众党为理想模板，因警察国家才借用秘密外壳；其“社会民主党雅各宾派”隐喻直接承自普列汉诺夫1901年反机会主义修辞而非特卡乔夫。 | `CLM-lih-2006-erfurtian-merger-formula`; `CLM-lih-2006-textbook-myth-critique`; `CLM-mayer-1999-lenin-jacobin-metaphor-vs-blanquism` | 还原1901–1902年正统语境并不能消解1903年后真实发生的组织集权裂变。 |
 | 自由主义制度批判 | Richard Pipes, *The Russian Revolution* (1990) | 其关于激进知识分子与家产专制国家对立、布尔什维克夺权及恐怖的论证，提供长期政治文化比较视角。 | `CLM-pipes-1990-patrimonial-state-and-intelligentsia`; `CLM-pipes-1990-october-classic-coup` | 将不同年代政治目标与组织条件回溯拉平的风险。 |
 
-## 4. 关联时间线锚点 (共 0 条)
+
+### 3.1 关联核心论断与史学家学派坐标 (`CLM-*` → `SCH-*`, 展示前 11/11 条)
+- **`CLM-pipes-1990-patrimonial-state-and-intelligentsia`** [`SCH-pipes-richard`(理查德·派普斯) | ch. 2 (Official Russia); ch. 4 (The Intelligentsia); cf. Introduction]: 
+- **`CLM-venturi-1960-lipetsk-voronezh-split`** [`SCH-venturi-franco`(弗朗科·文图里) | pp. 647-663]: 
+- **`CLM-venturi-1960-narodnaya-volya-constitutionalism`** [`SCH-venturi-franco`(弗朗科·文图里) | pp. 649, 655, 667-681, 716]: 
+- **`CLM-walicki-1969-narodnichestvo-definition`** [`SCH-walicki-andrzej`(安杰伊·瓦利茨基) | pp. 1-9, 23-28 [PDF pp. 13-21, 35-40]]: 
+- **`CLM-berlin-1960-populism-moral-core`** [`SCH-berlin-isaiah`(以赛亚·伯林 · liberal-intellectual-history) | pp. vii-xxvi]: 
+- **`CLM-walicki-1969-marx-populist-affinity`** [`SCH-walicki-andrzej`(安杰伊·瓦利茨基) | pp. 132-133, 179-194 [PDF pp. 144-145, 191-206]]: 
+- **`CLM-walicki-1969-plekhanov-rational-reality`** [`SCH-walicki-andrzej`(安杰伊·瓦利茨基) | pp. 153-165 [PDF pp. 165-177]]: 
+- **`CLM-lih-2006-erfurtian-merger-formula`** [`SCH-lih-lars`(拉斯·T·利) | pp. 6-9, 41-49, 74-106, 113-121, 556-557]: 
+- **`CLM-lih-2006-textbook-myth-critique`** [`SCH-lih-lars`(拉斯·T·利) | pp. 5, 13-33, 555]: 
+- **`CLM-mayer-1999-lenin-jacobin-metaphor-vs-blanquism`** [`SCH-mayer-robert`(罗伯特·迈耶) | pp. 127-129, 140-146]: 
+- **`CLM-pipes-1990-october-classic-coup`** [`SCH-pipes-richard`(理查德·派普斯) | ch. 11 (The October Coup); cf. Introduction]: 
+
+## 4. 关联时间线骨干锚点 (L0–L2 展示 0 条)

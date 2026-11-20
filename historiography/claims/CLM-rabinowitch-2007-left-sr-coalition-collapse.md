@@ -7,8 +7,8 @@ publication_year: 2007
 source_tier: S
 local_source_path: "sources/monographs/rabinowitch_2007_in_power/ch17_11_the_suicide_of_the_left_srs.md#L9-L1096"
 original_pages: "pp. 274-282, 287-309, 395-396"
-targets_cards: ["EVT-1918-07-left-sr-uprising", "ORG-left-srs", "PER-spiridonova", "PER-proshian", "PER-lenin"]
-debate: DEB-1918-one-party-dictatorship-origins
+targets_cards: ["EVT-1918-09-red-terror-and-left-sr-rupture", "ORG-left-srs", "PER-spiridonova", "PER-lenin"]
+debate: DEB-1918-constituent-assembly-and-soviet-democracy
 supports: []
 rebuts: []
 qualifies: []

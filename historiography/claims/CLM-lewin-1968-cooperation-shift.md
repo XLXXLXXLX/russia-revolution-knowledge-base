@@ -7,8 +7,8 @@ publication_year: 1968
 source_tier: A
 local_source_path: "sources/monographs/lewin_1968_lenins_last_struggle/ch16_8.md#L44-L80; ch07_chronology_of_events.md#L121-L123"
 original_pages: "n/a（EPUB 无页码锚点）；Ch.8 'Russia between West and East'；列宁原文脚注 Soch. XLV pp. 367, 370, 373, 387–88, 389"
-targets_cards: ["PER-lenin", "POL-nep", "CON-cooperation-lenin", "CON-smychka", "CON-cultural-revolution-lenin"]
-debate: DEB-nep-as-strategy-lenin-bukharin
+targets_cards: ["PER-lenin", "POL-nep", "CON-smychka", "DEB-1928-shakhty-specialist-baiting-and-cultural-revolution"]
+debate: DEB-1928-bukharin-alternative
 supports: []
 rebuts: []
 qualifies: []

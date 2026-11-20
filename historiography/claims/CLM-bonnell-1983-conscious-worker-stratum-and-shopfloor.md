@@ -1,16 +1,13 @@
 ---
 id: CLM-bonnell-1983-conscious-worker-stratum-and-shopfloor
 type: claim
-scholar: Victoria E. Bonnell
+scholar: SCH-bonnell-victoria
 work_title: "The Russian Worker: Life and Labor under the Tsarist Regime"
 publication_year: 1983
 source_tier: A
 local_source_path: "sources/primary/bonnell_1983_russian_worker_memoirs/ch01_pages_31-60.md"
 original_pages: "pp. 12–13, 31, 46–48, 55–56, 71–72"
-targets_cards:
-  - PER-kanatchikov
-  - PER-timofeev
-  - EVT-1905-revolution
+targets_cards: ["ORG-bolsheviks-rcpb-vkpb", "EVT-1905-revolution"]
 supports: []
 rebuts: []
 qualifies: []

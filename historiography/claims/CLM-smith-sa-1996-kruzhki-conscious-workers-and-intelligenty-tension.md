@@ -7,8 +7,8 @@ publication_year: 1996
 source_tier: A
 local_source_path: "sources/monographs/zelnik_1999_workers_intelligentsia_marxist_parties/ch00_pages_1-25.md#L314-L1472"
 original_pages: "International Review of Social History, vol. 41 (1996), pp. 6–12, 18–27"
-targets_cards: [CON-kruzhki-and-conscious-workers, CON-intelligentsia-and-kulturnost, ORG-rsdlp-petersburg-committee]
-debate: DEB-workers-intelligentsia-and-bolshevik-party
+targets_cards: ["CON-democratic-centralism-and-vanguard", "CON-intelligentsia-and-vekhi", "ORG-bolsheviks-rcpb-vkpb"]
+debate: DEB-1903-bolshevik-menshevik-split
 supports: ["Mark D. Steinberg（工人作者对个人尊严 lichnost' 的礼赞与忧郁基调）", "Reginald E. Zelnik（Kanatchikov 与 Fisher 回忆录中的俄国倍倍尔式的张力）", "Victoria E. Bonnell（1905年后圣彼得堡工人俱乐部与教育自主诉求）"]
 rebuts: ["Richard Pipes & Selig Perlman（将知识分子革命改造目标与工人自我改善诉求简单二元对立）", "Lidia Dan（否认党内工人对知识分子存在普遍反感）"]
 qualifies: ["Allan Wildman（早期俄国社会民主党工—知冲突仅限于领导权争夺：Smith 指出 1907 年后冲突重心转向反宗派分裂、通识教育自主与生存代价差异）"]

@@ -1,14 +1,14 @@
 ---
 id: CLM-sukhanov-1922-dual-power-pact
 type: claim
-scholar: SCH-sukhanov-nn
+scholar: SCH-sukhanov-nikolai
 work_title: "The Russian Revolution 1917: A Personal Record (abridged translation of Zapiski o revoliutsii, 1922–23)"
 publication_year: 1922
 source_tier: B
 local_source_path: "sources/monographs/sukhanov_1922_personal_record/ch09_part_i_the_collapse_of_the_tsarist_regim.md#L16-L297"
 original_pages: "pp. 117–126, 150, 153–158 (PDF pp. 163–172, 196, 199–204); cf. pp. 68, 104–108, 113–114"
 targets_cards: ["PER-lenin", "EVT-1917-02-february-revolution", "CON-soviet"]
-debate: DEB-1917-february-liberal-role-and-dual-power
+debate: DEB-1917-dual-power-and-february-origins
 supports: []
 rebuts: []
 qualifies: ["CLM-hasegawa-2018-dual-power-origins"]

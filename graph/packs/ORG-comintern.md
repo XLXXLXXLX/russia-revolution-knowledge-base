@@ -1,18 +1,13 @@
-# 1-Hop 平衡上下文包：`ORG-comintern` (共产国际（第三国际）)
+# 1-Hop 去重平衡上下文包：`ORG-comintern`
 
-> 本文件由 `python scripts/kb.py pack` 自动编译，旨在将失控的 `1+N` 随机读取压缩为**等权重、带时效边实质与史学盲区告警**的单次全景读取。
+> 由 `python scripts/kb.py pack` 动态编译：保留 **100% 一跳邻居与多时段关系边**，跨卡自动去重争鸣与时间线，并关联学者学派 (`SCH-*`)。
 
-## 0. 认知完备度与反偏斜仪表盘 (Epistemic & Skew Warnings)
-- **主卡路径**: `cards/organizations/ORG-comintern.md`
-- **完备度等级**: `multi-perspective`
-- **已覆盖视角**: `primary-congress-texts, menshevik-critique-martov, institutional-diplomatic-carr, archival-post-soviet-zhukov, revisionist-cohen`
-- **待补齐视角**: `colonial-east-comintern-sections`
-- **偏斜风险提示**:
-  - ⚠️ 主卡显式声明尚缺以下视角待补: `colonial-east-comintern-sections`。
+## 0. 认知完备度与反偏斜仪表盘
+- **`ORG-comintern`** (共产国际（第三国际） | `cards/organizations/ORG-comintern.md` | `multi-perspective`): 已覆盖=`primary-congress-texts, menshevik-critique-martov, institutional-diplomatic-carr, archival-post-soviet-zhukov, revisionist-cohen`；待补=`colonial-east-comintern-sections`
 
 ## 1. 主卡核心层 ([T1] + [T2])
 ## [T1] 60秒定性微摘要
-1919年3月在俄共（布）主导下于莫斯科创立的跨国共产党国际组织（第三国际）。历经1920二大《二十一条》集权划界、1921三大“到群众中去”转折与12月统一战线提纲、1923“德国十月”全德总起义流产与汉堡孤立起义挫败，以及季诺维也夫、布哈林先后主持执委会日常工作；1928六大转向“第三时期”后，经1928年底至1929年夏对德、美等支部的分批整肃及1929年7月执委会第十次全会正式罢免布哈林，全面确立“阶级反对阶级”与“社会法西斯主义”路线。
+共产国际1919年3月在莫斯科成立，由俄共主导。经1920年二十一条、1921年转向群众与统一战线、1923年德国革命失败，季诺维也夫与布哈林先后主持日常工作。1928年六大转向第三时期，随后分批整肃德美等支部，1929年7月执委会罢免布哈林，确立阶级对阶级与社会法西斯主义路线。
 
 ## [T2] 核心脉络、时效关系边表与史学争鸣光谱
 
@@ -40,104 +35,46 @@
   - **[后苏联档案现实主义派 / Yuri Zhukov]** (`CLM-zhukov-zinoviev-comintern-and-1923-germany`)：依据1923年斯大林致季诺维也夫信件反驳“斯大林蓄意扼杀德国革命”的传统托派叙事，将1923年德国冒险方案归因于季诺维也夫试图借“苏维埃德国”摆脱苏联国内经济困局并争夺列宁接班权，并视其1924年“社民党=法西斯羽翼”言论为日后极左教条的早期源头（唯需注意该早期提法与1928—1929年正式标准化之间存在时距与语境差异）。
   - **[修正派政治史与党内斗争回流论 / Stephen Cohen, Robert V. Daniels]** (`CLM-cohen-1973-bukharin-organizational-defeat`, `CLM-daniels-1960-bukharin-right-opposition-defeat`)：强调“右倾机会主义”与“对右倾调和态度”的政治定性先在1928年夏六大走廊与德国党争中确立（布哈林本人亦曾签署相关反右提法），随即被斯大林与莫洛托夫反向用于联共（布）党内组织整肃；1929年7月 ECCI 十次全会正式免去布哈林职务，构成同年11月联共中央全会将其逐出政治局的前奏。
 
-## 2. 一跳邻域等权重微摘要 (共 10 个关联节点，严防大卡霸占上下文)
-### 邻居节点: `PER-zinoviev`
-- **时效关系边** (`PER-zinoviev` → `ORG-comintern` | `first-chairman` | 有效时段: `1919.03-1926.10`): 担任共产国际执委会首任主席，主导《二十一条》与1923“德国十月”起义冒险，与联合反对派结盟后被免职。
-- **时效关系边** (`ORG-comintern` → `PER-zinoviev` | `first_chairman -> ousted` | 有效时段: `1919.03–1926`): 首任执委会主席，主导二大《二十一条》与1920年10月哈雷演说；经历1923年德国总起义取消与汉堡起义挫败及联共党内斗争后于1926年被撤换
-- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 老布尔什维克、共产国际首任主席（1919–1926）。1917年十月公开反对武装起义；1920年哈雷演说力推二十一条与阶级恐怖，1923年豪赌“德国十月”并首倡社民党“法西斯羽翼”论；借“三驾马车”排托后于1925年发起新反对派，1926年7月首因秘密第7条被逐出政治局，1927年底被开除后屈服。
+## 2. 一跳邻域全量微摘要目录 (去重后共 11 个节点，0 截断)
+- **`CON-united-front-and-third-period`**（共产国际“统一战线”与“第三时期/社会法西斯论”（1921–1929））: 世界革命受挫后，共产国际1921年三大提出“到群众中去”，12月确立工人统一战线，始终存在争取基层与同改良派领袖协议的张力。经1924年反社民党论述、1925–1927年英俄工会合作与中国国共合作失败，1928年六大及1929年7月执委全会确立第三时期与社会法西斯论。 ‖ `→ORG-comintern`[strategic-axis-of|1921.06–1929.07]: 构成共产国际在1920年《二十一条》之后整整九年间围绕群众策略、盟友边界与支部清洗运转的中枢轴线
+- **`MTG-1928-07-comintern-6th-congress`**（共产国际第六次代表大会）: 1928-07-17至09-01，共产国际六大通过首部正式纲领，确立第三时期框架，突出右倾及调和危险。Carr据辩论与终稿推断，布哈林尚能阻止把社会法西斯主义写为纲领定性；斯大林派却借“走廊大会”分化支部，为秋冬夺取执委会控制及1929年倒布铺路。 ‖ `→ORG-comintern`[doctrinal-and-strategic-watershed|1928.07–09]: 首次颁布正式《共产国际纲领》并确立“第三时期”与反右/反调和主义基调，构成由统一战线期滑向1929年极左教条的过渡枢纽
+- **`PER-zinoviev`**（格里戈里·季诺维也夫）: 老布尔什维克、共产国际首任主席（1919–1926）。1917年十月公开反对武装起义；1920年哈雷演说力推二十一条与阶级恐怖，1923年豪赌“德国十月”并首倡社民党“法西斯羽翼”论；借“三驾马车”排托后于1925年发起新反对派，1926年7月首因秘密第7条被逐出政治局，1927年底被开除后屈服。 ‖ `←ORG-comintern`[first_chairman -> ousted|1919.03–1926]: 首任执委会主席，主导二大《二十一条》与1920年10月哈雷演说；经历1923年德国总起义… ； `→ORG-comintern`[president-leader|1919-03–1926-10]: 共产国际执委会首任主席，借哈雷演讲推行“二十一条”，主导1923年“德国十月”冒险并提出“社会民主党=法西斯羽翼”论，1926年10月被免职
+- **`PER-martov-l`**（尤利·马尔托夫）: 孟什维克核心领袖与国际主义左翼旗手。1903年二大凭党章第一条（28:22:1）与列宁分道；1917年七月夜倡“清一色社会主义政府”遭党内主流否决，十月二大率派退场；1918年工人抗议浪潮中坚持苏维埃合法反对派立场，1920年哈雷大会与季诺维也夫正面交锋痛斥恐怖与二十一条，后流亡柏林病逝。 ‖ `←ORG-comintern`[ideological_critic|1920.10]: 在1920年10月15日哈雷演说中批判将弱小支部挂靠苏俄庞大国家机器必致不平等依附，并拒…
+- **`PER-bukharin`**（尼古拉·布哈林）: 布尔什维克核心理论家、《真理报》主编及共产国际书记处负责人。列宁遗嘱誉其“全党宠儿”但质疑其辩证法；1918年领衔左翼共产主义，1921年后转向新经济政策均衡路线，1925–1927联斯大林击溃左派，1928–1929因反对暴力征粮与超工业化遭击败并逐出政治局。 ‖ `←ORG-comintern`[chief_theorist -> purged|1926–1929.07]: 1926年后主持 ECCI 纲领工作（含六大报告），1928年11月退出日常院务、192… ； `→ORG-comintern`[leader -> purged-target|1926–1929.07]: 主持执委政治书记处；1928六大亲手阻击“社会法西斯主义”入纲，但9月起遭维托夫案架空，1929.04免职、07十中全会遭清洗
+- **`PER-molotov`**（维亚切斯拉夫·莫洛托夫）: 莫洛托夫是布尔什维克党务骨干与斯大林主要副手。1917年二月在《真理报》及俄国局反对支持临时政府；1921年任中央责任书记，后以书记处工作协同斯大林掌权。1928年11月至1929年4月接掌莫斯科委员会，并加强斯大林阵营对共产国际的控制，推动集体化加速。 ‖ `←ORG-comintern`[stalinist_commissar_takeover|1928.12–1929.12]: 1928年底起代表斯大林派接管 ECCI 领导中枢，1929年7月在十次全会上主导罢免布… ； `→ORG-comintern`[takeover_commissar|1928.12–1929.12]: 1928年12月斯大林阵营控制主席团，莫洛托夫加强领导工作；1929年4月党内决定与7月十次全会分开，正式职衔待核
+- **`PER-stalin`**（约瑟夫·斯大林）: 布尔什维克高加索地下组织者、民族事务人民委员（1917–1923）及中央总书记（1922起）。依托书记处任命权与安全危机叙事，先联季-加压制托洛茨基，再联布哈林击溃联合反对派；1927–1929年以战备恐慌与“自上而下革命”击败布哈林集团，1929年12月拍板“把富农作为阶级消灭”并终结新经济政策。 ‖ `←ORG-comintern`[patron -> direct_controller|1923–1929.12]: 1923年8月对德国盲动夺权持谨慎保留，1928–1929年则推动国际“反右倾—反调和主…
+- **`CON-socialism-in-one-country`**（一国建成社会主义）: 苏联核心战略概念（1924–1930s）。1924年底由斯大林反击“不断革命论”时首次提出，1925–1926年经布哈林充实为区分“国内建成可能”与“免除外部颠覆之最终胜利”的理论，支撑新经济政策工农市场渐进建设；1928–1929年后内涵剧变为自给自足备战超工业化与强制集体化的动员纲领。 ‖ `←ORG-comintern`[doctrinal_reorientation|1924–1929]: 在“一国建成社会主义”理论确立后，保卫“苏联社会主义建设堡垒”日益成为衡量各国支部国际主…
+- **`PER-chicherin`**（格奥尔基·契切林）: 格奥尔基·契切林（1872–1936），沙俄贵族外交档案官出身的苏俄/苏联外交人民委员（1918–1930）。签署布列斯特和约，主导1921年英苏贸易协定与东方诸约及1922年拉帕洛条约，以欧洲均势塑造相对共产国际的二元外交；1927年战争恐慌中力阻孤立与清洗，后因病卸任。 ‖ `→ORG-comintern`[structural-rival-dual-track|1919–1928]: 外交人民委员部以国家承认、贸易协定与欧洲均势压倒世界革命动员，至1922年底确立“义务平衡逆转”
+- **`PER-lenin`**（弗拉基米尔·列宁）: 布尔什维克党缔造者、苏俄人民委员会主席（1917–1924）。1893年投身马克思主义运动，1903年促成布尔什维克分化；1917年发表《四月提纲》并领导十月夺权，历经布列斯特和约、内战与战时共产主义；1921年主持转向新经济政策，晚年（1922–1923）就官僚化与接班人同斯大林冲突。 ‖ `→ORG-comintern`[founder -> state-subordinator|1919–1923]: 创立世界革命司令部；但1921–1922外交退却与四大改组使其在他生前即不可逆地服从于苏俄国家安全框架
+- **`PER-radek`**（卡尔·拉狄克）: 加利西亚犹太社会主义者与多语政论家，活动横跨波兰、德国和俄国。参与齐美尔瓦尔德左派、布列斯特争论与德国革命，后任共产国际要员，推动统一战线并卷入德国十月失败问责。作为左翼反对派及中国革命论战骨干，1927年遭开除，1929年转向妥协归队；1937年获刑，1939年狱中被害。 ‖ `→ORG-comintern`[executive_secretary_and_strategist|1920–1924]: 在德国革命与统一战线间调整策略，并充当跨国党际和外交中介
 
-### 邻居节点: `PER-bukharin`
-- **时效关系边** (`PER-bukharin` → `ORG-comintern` | `leader-then-purged` | 有效时段: `1926.10-1929.07`): 接替季诺维也夫主持共产国际并在1928六大阻击“社会法西斯主义”入纲，随即遭斯大林与莫洛托夫以“第三时期”反右路线架空撤职。
-- **时效关系边** (`ORG-comintern` → `PER-bukharin` | `chief_theorist -> purged` | 有效时段: `1926–1929.07`): 1926年后主持 ECCI 纲领工作（含六大报告），1928年11月退出日常院务、1929年4月联共内部决定撤换，1929-07-03 经十次全会正式免职
-- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 布尔什维克核心理论家、《真理报》主编及共产国际书记处负责人。列宁遗嘱誉其“全党宠儿”但质疑其辩证法；1918年领衔左翼共产主义，1921年后转向新经济政策均衡路线，1925–1927联斯大林击溃左派，1928–1929因反对暴力征粮与超工业化遭击败并逐出政治局。
+## 3. 关联史学争鸣与学者论断索引 (主卡外关联争鸣 3 项)
+- **`DEB-1918-war-communism-ideology-or-emergency`**（战时共产主义与早期一党制本质之争：内战应急、乌托邦跃进还是国家统制连续？ | `historiography/debates/DEB-1918-war-communism-ideology-or-emergency.md` | 流派 `emergency-carr-mawdsley, utopian-tragedy-malia-pipes, state-continuity-lih-smith, mixed-causation-rabinowitch-lewin`）：1918至1921年的全面国有化、余粮收集制、取缔私商、劳动军事化，以及多党苏维埃收为一党专政，究竟是内战与供给崩溃逼出的生存应急，还是反市场乌托邦的激进兑现，抑或一战以来国家统制与基层危机交互的结果？“战时共产主义”是1921年转向时的事后标签，须分清措施序列与事后总结。
+- **`DEB-1924-socialism-in-one-country`**（一国建成社会主义与不断革命论 | `historiography/debates/DEB-1924-socialism-in-one-country.md` | 流派 `stalin-bukharin, united-opposition, political-intellectual-history, institutional-geopolitics, lenin-cooperative-plan, bonapartism-and-tactical-critique`）：欧洲革命迟滞后，苏联能否凭国内力量建成社会主义，还是生产力与世界市场的联系使最终完成有赖国际革命？争论中的建设、建成和免于复辟并非同一问题；工农联盟、外部安全及党内联盟变化又如何改变这些概念的政治意义？各方均主张建设，分歧在条件、界限与国际前景。
+- **`DEB-1928-bukharin-alternative`**（布哈林替代方案与新经济政策终结之争 | `historiography/debates/DEB-1928-bukharin-alternative.md` | 流派 `nep-alternative, economic-growth, structural-dilemma, apparatus, ideology-and-mobilization, cliometrics-and-archival-reassessment`）：1927至1929年粮食危机与新经济政策的瓦解，是否意味着渐进工业化和工农联盟已无可行出路，还是党内权力与政策选择扼杀了布哈林的替代方案？投资、价格、农民供粮和政治动员之间的约束究竟有多强，必须把经济可行性、政治可行性与实际权力斗争分别检验。
 
-### 邻居节点: `PER-chicherin`
-- **时效关系边** (`PER-chicherin` → `ORG-comintern` | `dual-diplomacy-counterweight` | 有效时段: `1918-1928`): 主持外交人民委员部推行拉帕洛联德均势与和平共处路线，在苏俄“二元外交”中自1921-1922年起逐步压倒共产国际世界革命优先权。
-- **节点定性微摘要 [T1]** (完备度 `draft`): 契切林（1872–1936），贵族外交世家出身，1918年3月代理外交人民委员部事务、5月30日正式出任苏俄/苏联外交人民委员（至1930年7月21日）；主导1922年热那亚会议与《拉帕洛条约》，以国家生存与欧洲均势塑造外交人民委员部相对共产国际的二元外交（Carr）。
+### 3.1 关联核心论断与史学家学派坐标 (`CLM-*` → `SCH-*`, 展示前 24/48 条)
+- **`CLM-halle-1920-zinoviev-world-revolution-speech`** [`SCH-zinoviev-grigorii`(格里戈里·叶夫谢耶维奇·季诺维也夫 · participant-primary-text) | pp. 118–122, 130–131, 134, 140, 142, 150 (Lewis ed. 2011; printed page = PDF page − 1). Full speech pp. 117–158, delivered 14 October 1920 [N.S.]]: 
+- **`CLM-halle-1920-martov-critique-of-terror-and-21-conditions`** [`SCH-martov-iulii`(尤利·奥西波维奇·马尔托夫 · participant-primary-text) | pp. 167–170, 173, 175–176, 179 (Lih translation in the 2011 Lewis/Lih edition; printed page = PDF page − 1). Full speech pp. 167–179, delivered 15 October 1920 [N.S.]]: 
+- **`CLM-carr-1953-dual-foreign-policy-rapallo-comintern`** [`SCH-carr-eh`(爱德华·霍列特·卡尔) | 译本 pp. 22, 114, 143, 156, 168-169 (PDF pp. 28, 120, 149, 162, 174-175)]: 
+- **`CLM-zhukov-zinoviev-comintern-and-1923-germany`** [`SCH-zhukov-yuri`(尤里·茹科夫) | EPUB OPS/ch1-16.xhtml (Notes 338-352)]: 
+- **`CLM-cohen-1973-bukharin-organizational-defeat`** [`SCH-cohen-stephen`(斯蒂芬·F·科恩) | pp. 287-289, 297-301, 322-329]: 
+- **`CLM-daniels-1960-bukharin-right-opposition-defeat`** [`SCH-daniels-robert`(罗伯特·V·丹尼尔斯) | pp. 362-369; context pp. 333-361, 370-382]: Daniels：布哈林右翼先被解除组织力量，再遭公开定罪
+- **`CLM-carr-1976-sixth-comintern-congress-third-period-bukharin`** [`SCH-carr-eh`(爱德华·霍列特·卡尔) | pp. 441-445, 449, 452, 553-554, 559, 602-603, 641-643]: 
+- **`CLM-carr-1952-war-communism-internal-contradictions`** [`SCH-carr-eh`(爱德华·霍列特·卡尔) | Vol. 2 Chinese PDF pp. 70-120 (Chs. 17–18)]: 
+- **`CLM-mawdsley-1987-civil-war-militarized-regime`** [`SCH-mawdsley-evan`(埃文·莫兹利) | pp. 328, 331, 346-347]: 
+- **`CLM-mawdsley-1987-sovdepia-demographic-industrial-base`** [`SCH-mawdsley-evan`(埃文·莫兹利) | pp. 56–58, 69, 185–188, 217–218, 283–284]: 
+- **`CLM-pipes-1990-red-terror-leninist-logic`** [`SCH-pipes-richard`(理查德·派普斯) | ch. 18 (The Red Terror)]: 
+- **`CLM-pipes-1990-october-classic-coup`** [`SCH-pipes-richard`(理查德·派普斯) | ch. 11 (The October Coup); cf. Introduction]: 
+- **`CLM-smith-sa-1983-defensive-workers-control`** [`SCH-smith-sa`(斯蒂芬·A·史密斯（S. A. Smith）) | 中译本 pp. 106–112, 133, 135, 137, 191（即源文件标注 PDF pp. 111–117, 138, 140, 142, 196）；注意：均为中译本页码，非英文原版页码]: 
+- **`CLM-smith-sa-1983-from-workers-control-to-nationalization`** [`SCH-smith-sa`(斯蒂芬·A·史密斯（S. A. Smith）) | 中译本 pp. 155–156, 166–169, 177–179, 184–186, 192（即源文件标注 PDF pp. 160–161, 171–174, 182–184, 189–191, 197）；注意：均为中译本页码，非英文原版页码]: 
+- **`CLM-hoffmann-2011-continuum-of-total-war-1914-1929`** [`SCH-hoffmann-david`(大卫·L·霍夫曼) | pp. 12–13, 38, 127–128]: 
+- **`CLM-rabinowitch-2007-contingency-of-dictatorship`** [`SCH-rabinowitch-alexander`(亚历山大·拉比诺维奇) | pp. xi-xii, 390-398]: 
+- **`CLM-daniels-1960-left-communists-1918`** [`SCH-daniels-robert`(罗伯特·V·丹尼尔斯) | pp. 70-81]: Daniels：1918年左翼捍卫革命纲领，却在分裂关头受党统一约束
+- **`CLM-figes-1996-peasant-wars-and-nep-retreat`** [`SCH-figes-orlando`(奥兰多·费吉斯) | pp. 775-785]: 
+- **`CLM-zemskov-1929-dekulakization-demographic-baseline`** [`SCH-zemskov-viktor`(维克托·尼古拉耶维奇·泽姆斯科夫) | PDF pp. 6-11, 15-19, 52, 218 (原书 pp. 4-9, 13-17, 50, 216)]: 
+- **`CLM-bukharin-stalin-1925-one-country-internal-forces`** [`SCH-stalin-iosif`(约瑟夫·维萨里奥诺维奇·斯大林 · participant-primary-text) | 汇编 PDF pp. 38–40、85–90、113–115；《斯大林全集》页码仅按宿主转引，本卡未回核]: 
+- **`CLM-trotsky-1905-december-uprising-lessons-and-permanent-revolution-defense`** [`SCH-trotsky-leon`(列夫·达维多维奇·托洛茨基 · participant-historian) | 中译书页 ·225·、·278·、·281·–·282·、·292·、·308·、·325·–·328·、·330·、·406·（1922 年俄文第 2 版系统，PDF pp. 229–410）]: 
+- **`CLM-zinoviev-trotsky-1926-world-economy-critique`** [`SCH-trotsky-leon`(列夫·达维多维奇·托洛茨基 · participant-historian) | 汇编 PDF pp. 67–68、82–91；季诺维也夫引文自标 1925 年问题，托洛茨基诸段在汇编中无单行本年份与页码]: 
 
-### 邻居节点: `CON-united-front-and-third-period`
-- **时效关系边** (`CON-united-front-and-third-period` → `ORG-comintern` | `strategic-axis-of` | 有效时段: `1921.06–1929.07`): 构成共产国际在1920年《二十一条》之后整整九年间围绕群众策略、盟友边界与支部清洗运转的中枢轴线
-- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 1921–1929年共产国际核心战略钟摆。1919–1920年直接世界革命受挫后，1921年三大提出“到群众中去”并于12月确立“工人统一战线”，但始终受困于“自下而上”夺取群众与“自上而下”同改良派/民族党派领导层协议的张力。经1924年五大季诺维也夫初提“社民党为法西斯羽翼”、1925–1927年英俄工会委员会与中国国共合作崩盘，1928年六大与1929年7月十次执委全会终将“第三时期”“阶级对阶级”与“社会法西斯论”立为极左教条。
-
-### 邻居节点: `MTG-1928-07-comintern-6th-congress`
-- **时效关系边** (`MTG-1928-07-comintern-6th-congress` → `ORG-comintern` | `doctrinal-and-strategic-watershed` | 有效时段: `1928.07–09`): 首次颁布正式《共产国际纲领》并确立“第三时期”与反右/反调和主义基调，构成由统一战线期滑向1929年极左教条的过渡枢纽
-- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 1928-07-17至1928-09-01在莫斯科召开的共产国际第六次代表大会，首次通过正式《共产国际纲领》，确立“第三时期”战略框架并将“右倾危险及对右倾的调和态度”列为主要威胁。据 Carr 对辩论与终稿的推断，布哈林当时尚能阻止将“社会法西斯主义”确立为纲领正式定性标签，但斯大林派借会场外“走廊大会”分化各国支部，为1928年秋冬夺取执委会控制权及1929年全面倒布铺平道路。
-
-### 邻居节点: `PER-martov-l`
-- **时效关系边** (`ORG-comintern` → `PER-martov-l` | `ideological_critic` | 有效时段: `1920.10`): 在1920年10月15日哈雷演说中批判将弱小支部挂靠苏俄庞大国家机器必致不平等依附，并拒斥以国家恐怖作为工人阶级革命手段
-- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 孟什维克核心领袖与国际主义左翼旗手。1903年二大凭党章第一条（28:22:1）与列宁分道；1917年七月夜倡“清一色社会主义政府”遭党内主流否决，十月二大率派退场；1918年工人抗议浪潮中坚持苏维埃合法反对派立场，1920年哈雷大会与季诺维也夫正面交锋痛斥恐怖与二十一条，后流亡柏林病逝。
-
-### 邻居节点: `PER-molotov`
-- **时效关系边** (`ORG-comintern` → `PER-molotov` | `stalinist_commissar_takeover` | 有效时段: `1928.12–1929.12`): 1928年底起代表斯大林派接管 ECCI 领导中枢，1929年7月在十次全会上主导罢免布哈林并全面贯彻“社会法西斯主义”方针
-- **时效关系边** (`PER-molotov` → `ORG-comintern` | `takeover_commissar` | 有效时段: `1928.12–1929.12`): 1928年12月斯大林阵营控制主席团，莫洛托夫加强领导工作；1929年4月党内决定与7月十次全会分开，正式职衔待核
-- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 布尔什维克核心党务官僚与斯大林头号副手（1890–1986，本卡至1929年）。1917二月在《真理报》与俄国局持反临时政府强硬立场；1921任中央责任书记，后长期作为书记处大总管协同斯大林操盘；1928年11月至1929年4月接掌莫斯科委员会（MK），并代表斯大林阵营加强对共产国际领导工作的控制，推动集体化加速。
-
-### 邻居节点: `PER-stalin`
-- **时效关系边** (`ORG-comintern` → `PER-stalin` | `patron -> direct_controller` | 有效时段: `1923–1929.12`): 1923年8月对德国盲动夺权持谨慎保留，1928–1929年则推动国际“反右倾—反调和主义”整肃并与联共（布）党内击败布哈林派联动
-- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 布尔什维克高加索地下组织者、民族事务人民委员（1917–1923）及中央总书记（1922起）。依托书记处任命权与安全危机叙事，先联季-加压制托洛茨基，再联布哈林击溃联合反对派；1927–1929年以战备恐慌与“自上而下革命”击败布哈林集团，1929年12月拍板“把富农作为阶级消灭”并终结新经济政策。
-
-### 邻居节点: `CON-socialism-in-one-country`
-- **时效关系边** (`ORG-comintern` → `CON-socialism-in-one-country` | `doctrinal_reorientation` | 有效时段: `1924–1929`): 在“一国建成社会主义”理论确立后，保卫“苏联社会主义建设堡垒”日益成为衡量各国支部国际主义首要义务的核心标尺
-- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 苏联核心战略概念（1924–1930s）。1924年底由斯大林反击“不断革命论”时首次提出，1925–1926年经布哈林充实为区分“国内建成可能”与“免除外部颠覆之最终胜利”的理论，支撑新经济政策工农市场渐进建设；1928–1929年后内涵剧变为自给自足备战超工业化与强制集体化的动员纲领。
-
-### 邻居节点: `PER-lenin`
-- **时效关系边** (`PER-lenin` → `ORG-comintern` | `founder -> state-subordinator` | 有效时段: `1919–1923`): 创立世界革命司令部；但1921–1922外交退却与四大改组使其在他生前即不可逆地服从于苏俄国家安全框架
-- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 布尔什维克党缔造者、苏俄人民委员会主席（1917–1924）。1893年投身马克思主义运动，1903年促成布尔什维克分化；1917年发表《四月提纲》并领导十月夺权，历经布列斯特和约、内战与战时共产主义；1921年主持转向新经济政策，晚年（1922–1923）就官僚化与接班人同斯大林冲突。
-
-## 3. 关联史学争鸣光谱 (Historiographical Debates)
-### `DEB-1918-war-communism-ideology-or-emergency`：战时共产主义与早期一党制本质之争：内战应急、乌托邦跃进还是国家统制连续？
-## [T1] 核心问题定义
-1918–1921年的全面工业国有化、余粮收集制（`продразвёрстка`）、取缔私商、劳动军事化及多党苏维埃向一党专政的收缩，究竟是内战与供给崩溃逼迫的生存应急反应，还是布尔什维克反市场乌托邦蓝图的激进兑现，抑或一战以来国家统制与基层危机交互演化的结果？“战时共产主义”系1921年新经济政策转向时的事后追赋标签，须严格区分措施出台序列与事后总结。
-
-## [T2] 各学派立场对照矩阵
-
-**经验共识**：1917年底至1918年春尚存布尔什维克—左翼社革党联合执政与“国家资本主义”探索；1918年夏起全面国有化与强制征粮随内战升级扩展；1920年达至劳动军事化与无货币幻想顶峰；1921年3月俄共十大在农村起义与喀琅施塔得危机下转向实物税（NEP）与党内派别禁令。
-
-| 学派/取向 | 代表学者与著作 | 核心论点摘要 | 支撑论断卡 | 主要受批评盲点 |
-| :--- | :--- | :--- | :--- | :--- |
-| **内战军事应急与双元矛盾论** | E. H. Carr, *The Bolshevik Revolution*, Vol. 2 (1952); Evan Mawdsley, *The Russian Civil War* (1987) | 强调工业瓦解、封锁与300万红军补给迫使政权诉诸垂直“总局主义”与强制征粮；但Carr同时指出1920年后期确曾滋生把战时自然经济奉为直接通往共产主义捷径的意识形态幻象。 | `CLM-carr-1952-war-communism-internal-contradictions`; `CLM-mawdsley-1987-civil-war-militarized-regime`; `CLM-mawdsley-1987-sovdepia-demographic-industrial-base` | 单靠军事紧急状态难以完全解释1920年底内战大局已定后为何仍出台小手工业全面国有化令。 |
-| **意识形态乌托邦与废法专政论** | Martin Malia, *The Soviet Tragedy* (1994); Richard Pipes, *The Russian Revolution* (1990) | 认为消灭私有产权与市场交换本就是马克思主义核心诉求，内战只是扫除了渐进障碍、催化乌托邦跃进；Pipes强调契卡与排斥反对派早于大规模内战爆发。 | `CLM-pipes-1990-red-terror-leninist-logic`; `CLM-pipes-1990-october-classic-coup` | 易将不同阶段的应急妥协（如1918春列宁国家资本主义方案）回溯拉平为单一既定时间表。 |
-| **战时国家统制连续与自下而上倒逼论** | Lars T. Lih; S. A. Smith, *Red Petrograd* (1983); David Hoffmann (2011) | 揭示沙皇与临时政府在一战中已启动粮食专卖与国家统制；Smith证明1917–1918春77%早期企业没收源自基层工厂委员会应对关厂危机的自下而上压力，而非中央乌托邦指令。 | `CLM-smith-sa-1983-defensive-workers-control`; `CLM-smith-sa-1983-from-workers-control-to-nationalization`; `CLM-hoffmann-2011-continuum-of-total-war-1914-1929` | 总体战技术连续性不能替代对布尔什维克消灭整个有产阶级政治权利之独特意识形态动力的解释。 |
-| **复合危机、党内张力与农村社会钳制论** | Alexander Rabinowitch (2007); Robert V. Daniels (1960); Moshe Lewin (1968/1985) | 追踪布列斯特和约、左翼社革党决裂及左翼共产主义者/工人反对派论战如何一步步锁死多党与党内多元空间，同时揭示小农汪洋的反抗最终迫使政权在1921年退却但保留了战时强制记忆。 | `CLM-rabinowitch-2007-contingency-of-dictatorship`; `CLM-daniels-1960-left-communists-1918`; `CLM-figes-1996-peasant-wars-and-nep-retreat`; `CLM-zemskov-1929-dekulakization-demographic-baseline` | 首都与萨拉托夫、坦波夫、乌拉尔等外省的时间差与暴力烈度须结合地方档案（Raleigh、Churakov）细化。 |
-
-### `DEB-1924-socialism-in-one-country`：一国建成社会主义与不断革命论
-## [T1] 核心问题定义
-欧洲革命迟滞后，苏联能否凭国内力量建成社会主义，还是生产力与世界市场的联系使最终完成有赖国际革命？争论中的建设、建成和免于复辟并非同一问题；工农联盟、外部安全及党内联盟变化又如何改变这些概念的政治意义？各方均主张建设，分歧在条件、界限与国际前景。
-
-## [T2] 各学派立场对照矩阵
-**经验基准**：1924年4月斯大林《论列宁主义基础》初版仍沿用“一国不够组织社会主义生产”旧公式，1924年12月《十月革命和俄国共产党人的策略》正式改口，1925年4月俄共（布）十四次代表会议确认为全党方针；1925年斯大林与布哈林结盟，季诺维也夫转向反对派，十四大批准斯大林中央政治报告路线决议案以 **`559 : 65`** 获胜（反对票主要来自列宁格勒代表团，`DATA-04-party-membership-and-congress-votes-1903-1929`）；1926年联合反对派形成，1927年十五大后遭到组织性排斥。各方都讨论国内建设和国际环境。
-
-| 学派/取向 | 代表学者与著作 | 核心论点摘要 | 支撑论断卡 | 主要受批评盲点 |
-| :--- | :--- | :--- | :--- | :--- |
-| 党内多数派 | 斯大林、布哈林，1925年论战（直核布哈林 `1925-04_bukharin-road-to-socialism.md`） | 国内力量可建设社会主义，但免于外部干涉与复辟的最终保障仍有国际条件；布哈林1925年4月原文侧重工农合作渐进增长，须与斯大林表述分别核对。 | `CLM-bukharin-stalin-1925-one-country-internal-forces` | 该卡斯大林引文经2026年汇编转引，不能代替布哈林 S 级原文或十四次代表会议正式通过本。 |
-| 联合反对派与不断革命论 | 托洛茨基《1905》（1909/1922）；托洛茨基、季诺维也夫，1925—1927 | 不断革命论原典论证无产阶级夺权后无法止步于民主阶段且依赖西欧联合；1926年季诺维也夫区分建设可能与最终胜利，托洛茨基强调世界生产力、贸易和廉价商品压力。 | `CLM-trotsky-1905-december-uprising-lessons-and-permanent-revolution-defense`（B级）；`CLM-zinoviev-trotsky-1926-world-economy-critique` | 1926年汇编中部分托洛茨基段落未标确切单行本年份；不应把不断革命论简述为反对国内建设。 |
-| 反对派政治史与战术/波拿巴反思 | Isaac Deutscher, *The Prophet Unarmed* (1959) & 1952年比较论文（检索ID沿用 `CLM-shlapentokh-*`）；Robert Service, *Trotsky: A Biography* (2009) | 德伊舍尔把理论分歧放回反对派失势轨迹，并指出全党囿于法国“红色拿破仑”迷思围剿托洛茨基，反助斯大林依托书记处文官集权；瑟维斯反驳官僚必然论，归因托洛茨基拒任要职、误判斯大林与战术僵化。 | `CLM-deutscher-1959-disarmed-prophet-paradox`；`CLM-deutscher-1959-united-opposition-defeat`；`CLM-shlapentokh-bonapartism-fear-against-trotsky`；`CLM-service-2009-trotsky-political-tactical-blunders` | 德伊舍尔1959/1952年著述对主人公及工业化“历史进步”带有同情滤镜（库内尚无 Shlapentokh 原著）；瑟维斯则相对低估书记处任命制的结构权重。 |
-| 制度与国际史 | E. H. Carr, *The Russian Revolution From Lenin to Stalin, 1917–1929* (1979)；*Foundations of a Planned Economy, 1926–1929*, Vol. 3-II (1976) | 以落后、工业化与国际关系的交织解释政策与理论综合；1927年中国革命失败与战争恐慌加剧共产国际路线及派别争执。 | `CLM-carr-1979-stalin-synthesis-of-russian-backwardness-and-industrialism`；`CLM-carr-1976-china-1927-defeat-and-comintern-factionalism` | 宏观制度综合不能代替逐版文本、会议程序与表决史。 |
-| 列宁思想解释 | Valentin Sakharov（瓦连京·萨哈罗夫）, *На распутье... 1921–1929 гг.*（《站在十字路口》，2012） | 论证列宁《论合作社》两份口述稿存在根本理论断裂（放弃初稿“商贩式”流通合作社，第二稿转向国有土地与生产资料上的生产合作社/集体农庄），指斥布哈林偷换概念，并论证斯大林工业化与 MTS 集体农庄路线是第二稿的正统继承人。 | `CLM-sakharov-2012-lenin-cooperative-plan-debates` | 具鲜明后苏联亲斯大林/反布哈林倾向；“列宁晚期生产合作社逻辑”不能直接等同于 1929–1930 年暴力全盘强制集体化，亦非 1925 年党内表决裁决。 |
-| 列宁格勒反对派 | Yuri Zhukov（尤里·茹科夫）, 《格里高利·季诺维也夫：被遗忘的世界革命领袖》(2011) | 季诺维也夫1925年发难植根列宁格勒地方权力与共产国际世界革命经验（含1923年德国失败），并非托洛茨基路线的简单副本。 | `CLM-zhukov-zinoviev-1925-leningrad-opposition`；`CLM-zhukov-zinoviev-comintern-and-1923-germany` | 带有后苏联民族国家现实主义倾向（赞斯大林1923年审慎、贬季氏盲动），其叙事仍须与会议速记与文本版本对勘。 |
-
-### `DEB-1928-bukharin-alternative`：布哈林替代方案与新经济政策终结之争
-## [T1] 核心问题定义
-1927至1929年粮食危机与新经济政策的瓦解，是否意味着渐进工业化和工农联盟已无可行出路，还是党内权力与政策选择扼杀了布哈林的替代方案？投资、价格、农民供粮和政治动员之间的约束究竟有多强，必须把经济可行性、政治可行性与实际权力斗争分别检验。
-
-## [T2] 各学派立场对照矩阵
-**经验基准**：1928年粮食收购危机后领导层采用非常措施；布哈林同年批评征粮和工业化节奏，1929年四月及十一月中央全会使右派进一步失势，同年清党开除率达 `11%`（约17万人，`DATA-04-party-membership-and-congress-votes-1903-1929`）。各方都面对工业投资、粮食供给与工农社会结构约束。
-
-| 学派/取向 | 代表学者与著作 | 核心论点摘要 | 支撑论断卡 | 主要受批评盲点 |
-| :--- | :--- | :--- | :--- | :--- |
-| 新经济政策替代论 | Stephen Cohen, *Bukharin and the Bolshevik Revolution* (1973) | 市场、合作社和渐进工业化提供可争论的替代路径；组织机器与政治斗争使该路线失败。 | `CLM-cohen-1973-nep-viability`；`CLM-cohen-1973-notes-of-an-economist`；`CLM-cohen-1973-bukharin-organizational-defeat` | 可构想的经济路径不自动证明可获得党内多数或满足高投资目标。 |
-| 工业化经济思想史 | Alexander Erlich, *The Soviet Industrialization Debate* (1960) | 布哈林平衡增长与普列奥布拉任斯基积累方案共同面对投资约束；强制全盘集体化非各派原有共同结论。 | `CLM-erlich-1960-bukharin-balanced-growth`；`CLM-erlich-1960-preobrazhensky-dilemma`；`CLM-erlich-1960-stalin-overkill-turn` | 模型不能单独解决权力、执行和国际冲击问题。 |
-| 经济结构与政策选择 | Alec Nove, *Was Stalin Really Necessary?* (1964) | 提出“条件性必然”与“1927年NEP死胡同（cul-de-sac）”：给定布尔什维克保住一党政权、拒绝斯托雷平式富农资本主义与高速重工业化三大前提，布哈林市场渐进路径存在内在政治经济不一致；但仍须区分发展目标与强制手段。 | `CLM-nove-1964-stalin-necessity-dilemma` | 反事实替代方案的实施条件难以在单线历史中完全检验（详见下栏 KAPROST 交锋）。 |
-| 意识形态与政治能动性 | Stephen Kotkin, *Stalin*, Vol. 1 (2014)；Sheila Fitzpatrick, *The Russian Cultural Revolution (1928–1931)* (1978) | 市场发展与党内阶级政治构成张力，斯大林西伯利亚干预使危机转向不能仅由结构推导；“文化革命”动员更将政治局右派、教育人民委员部温和派与沙赫蒂案连成“右倾危险”连续体。 | `CLM-kotkin-2014-bukharin-dilemma`；`CLM-fitzpatrick-1978-anti-bukharin-ideological-offensive` | 科特金第一卷叙事止于1928年底；宣传建构的意识形态连续体亦不能直接等同右派成员一致的文化纲领。 |
-| 组织与动员政治 | Oleg Khlevniuk, *Stalin* (2015)；David Priestland, *Stalinism and the Politics of Mobilization* (2007)；Catherine Merridale, *Moscow Politics and the Rise of Stalin* (1990) | 干部控制、反右“复兴主义”动员与乌格拉诺夫莫斯科地方权力瓦解共同决定布哈林集团败局。 | `CLM-khlevniuk-2015-defeat-of-right-opposition`；`CLM-priestland-2007-1928-mobilization-turn-against-bukharin`；`CLM-merridale-1990-uglanov-moscow-collapse` | 组织性胜利并不单独证明任一经济路线的长期优劣。 |
-| 反事实计量与改革经济学 | Holland Hunter / R. W. Davies / 谷内融，*戴维斯纪念文集* (1995)；刘伟、平新乔，《平衡与非平衡：布哈林与普列奥布拉仁斯基之争》（1989，B级） | 亨特借 KAPROST 模型论证非集体化 NEP 本可成功，但戴维斯（1994）反驳1928年市场已遭行政扰乱，谷内融1929年1—6月政治局档案证实非常措施演变为全国体制；刘伟、平新乔将布氏重估为“短缺经济学”先驱，指出斯大林采纳了普氏非均衡配额内核。 | `CLM-davies-festschrift-1995-nep-statistics-and-planning-debates`；`CLM-bukharin-preobrazhensky-equilibrium-vs-accumulation-zh`（B级） | KAPROST 假设重工业高积累下农民仍配合市场；刘、平一文沿用中译“81亿金卢布”误植数字，引用须剔除该数。 |
-| 后苏联档案重估 | Viktor Zemskov（维克托·泽姆斯科夫），《斯大林时代》（2018，B级）；Valentin Sakharov（瓦连京·萨哈罗夫），《站在十字路口》（2012） | 泽姆斯科夫指出布哈林渐进合作化在内战记忆塑造的党员群体中缺乏政治亲和力；萨哈罗夫从反布哈林修正派立场论证2,400万碎片化小农难以支撑工业国防，MTS 与集体化是避免“斯托雷平第二版”的战略决断。 | `CLM-zemskov-2018-archival-constraints-and-party-radicalism`（B级）；`CLM-sakharov-2012-nep-crossroads-1928` | 泽氏未提供党员心态系统统计且沿用中译稿（B级）；萨哈罗夫的国家理性辩护淡化了强制集体化后的农业灾难与清洗恶果。 |
-
-## 4. 关联时间线锚点 (共 7 条)
-- **1920-07-12 [N.S.]** (`TL-W26-1920-07-12-01`, L3): **英国寇松照会提出寇松线** — 英国外交大臣寇辛致莫斯科备忘录，将红军不得西越之边界定在格罗德诺—涅缅一带，史称寇松线；华沙已转向接受布格河协约国方案。
-- **1920-07-19 [N.S.]** (`TL-W26-1920-07-19-01`, L3): **共产国际第二次代表大会开幕** — 二大于彼得格勒—莫斯科开幕（会期至8月7日），代表目睹西线红军红旗西移，世界革命时间表与战场地图互文。
-- **1920-07-30 [N.S.]** (`TL-W26-1920-07-30-01`, L3): **共产国际二大表决《加入条件》提纲并筹建波兰革委会** — 二大第八次会议表决通过加入共产国际条件提纲；同时苏军在华沙以东比亚韦斯托克筹建波兰临时革命委员会雏形。
-- **1920-08-06 [N.S.]** (`TL-W26-1920-08-06-01`, L3): **共产国际二大通过《二十一条》** — 第二次代表大会第十六次会议通过列宁—季诺维也夫主导的《加入共产国际的条件》二十一条，确立民主集中制清洗与俄共对国际支部的制度控制。
-- **1920-08-16 [N.S.]** (`TL-W26-1920-08-16-01`, L3): **毕苏斯基华沙以南反击（“维斯瓦河奇迹”）** — 波兰突击集群8月16日切断图哈切夫斯基南翼补给线，西方面军总崩溃；武装输出革命幻梦遭决定性军事挫败。
-- **1924-06-01 [N.S.]** (`TL-W36-1924-06-01`, L3): **共产国际五大“布尔什维克化”与“七人团”密室共治成形** — 1924年6—7月共产国际五大以“布尔什维克化”定罪左翼反对派，以斯大林取代托洛茨基入ECCI主席团。与此同时“三驾马车”现裂痕：斯大林6月批季、加表述并秋调乌格拉诺夫换下泽连斯基接掌莫斯科市委；08-19斯大林起草辞呈试探后，形成六名政治局委员加古比雪夫的“七人团”（Semerka）密室决策。
-- **1926-10-16 [N.S.]** (`TL-W25-1926-10-16-01`, L3): **《六人停战声明》签署：承认违纪、解散派别并切割内外左翼** — 经三易其稿退回后，托洛茨基、季诺维也夫、加米涅夫、皮达可夫、索科尔尼科夫、叶夫多基莫夫签署声明（10月17日见报），承认违反十四大后党纪、切割施略普尼科夫及德国极左派，仅保留原则观点；10月23日全会随即补开除托政治局席位。
+## 4. 关联时间线骨干锚点 (L0–L2 展示 0 条，另有 7 条 L3 逐日细节见 `timeline/L3_daily/`)

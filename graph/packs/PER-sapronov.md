@@ -1,19 +1,14 @@
-# 1-Hop 平衡上下文包：`PER-sapronov` (季莫费·萨普罗诺夫)
+# 1-Hop 去重平衡上下文包：`PER-sapronov`
 
-> 本文件由 `python scripts/kb.py pack` 自动编译，旨在将失控的 `1+N` 随机读取压缩为**等权重、带时效边实质与史学盲区告警**的单次全景读取。
+> 由 `python scripts/kb.py pack` 动态编译：保留 **100% 一跳邻居与多时段关系边**，跨卡自动去重争鸣与时间线，并关联学者学派 (`SCH-*`)。
 
-## 0. 认知完备度与反偏斜仪表盘 (Epistemic & Skew Warnings)
-- **主卡路径**: `cards/people/PER-sapronov.md`
-- **完备度等级**: `multi-perspective`
-- **已覆盖视角**: `opposition-history-daniels, left-communist-critique`
-- **待补齐视角**: `group-of-15-archival-leaflets`
-- **偏斜风险提示**:
-  - ⚠️ 主卡显式声明尚缺以下视角待补: `group-of-15-archival-leaflets`。
+## 0. 认知完备度与反偏斜仪表盘
+- **`PER-sapronov`** (季莫费·萨普罗诺夫 | `cards/people/PER-sapronov.md` | `multi-perspective`): 已覆盖=`opposition-history-daniels, left-communist-critique`；待补=`group-of-15-archival-leaflets`
 
 ## 1. 主卡核心层 ([T1] + [T2])
 ## [T1] 60秒定性微摘要
 
-油漆工人出身的老布尔什维克、莫斯科省苏维埃执委会主席（1918–1919），1919–1927年“民主集中派”核心组织领袖。在俄共八大至十大抨击垂直委派制把党员变成“顺从的留声机”，1923年签署《四十六人声明》；1926–1927年组建“十五人集团”宣称苏联已蜕变为国家资本主义专政，十五大被开除出党。
+油漆工人出身的老布尔什维克，1918–1919年任莫斯科省苏维埃执委会主席，民主集中派组织领袖。八大至十大批判垂直委派制把党员变为“顺从的留声机”；1923年签署《四十六人声明》，1926–1927年组十五人集团，称苏联蜕变为国家资本主义专政，十五大遭开除。
 
 ## [T2] 核心脉络、时效关系边表与史学争鸣光谱
 
@@ -74,16 +69,11 @@
 
 ---
 
-## 2. 一跳邻域等权重微摘要 (共 2 个关联节点，严防大卡霸占上下文)
-### 邻居节点: `ORG-democratic-centralists`
-- **时效关系边** (`ORG-democratic-centralists` → `PER-sapronov` | `core-leader` | 有效时段: `1919–1927`): 民主集中派核心人物，1921年1月莫斯科基层投票7票，后属“十五人集团”
-- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 民主集中派是1919年初结成的布尔什维克党内反对派，萨普罗诺夫、奥新斯基、弗·斯米尔诺夫等为重要代表，批评以任命和行政命令取代集体领导与基层参与。成员及立场随时间变化：1923年部分人联署《四十六人声明》；后期“十五人集团”须与早期派别区分。
+## 2. 一跳邻域全量微摘要目录 (去重后共 2 个节点，0 截断)
+- **`MTG-1919-03-8th-party-congress`**（俄国共产党（布尔什维克）第八次代表大会）: 1919年3月18日至23日，俄共（布）八大在内战中通过第二党纲，围绕民族自决、红军正规化与党内集中化激烈争辩，提出巩固与中农的联盟。大会及会后一中全会确立政治局、组织局和书记处常设框架，否定党组织联邦制并强化党团对苏维埃的控制；军事反对派与民主集中派的抗辩凸显集权并非无争议。 ‖ `→PER-sapronov`[opposition-critic|1919-03]: 参与军事与组织双重批评，成为此后民主集中派反对过度集中的代表人物。
+- **`ORG-democratic-centralists`**（民主集中派）: 民主集中派是1919年初结成的布尔什维克党内反对派，萨普罗诺夫、奥新斯基、弗·斯米尔诺夫等为重要代表，批评以任命和行政命令取代集体领导与基层参与。成员及立场随时间变化：1923年部分人联署《四十六人声明》；后期“十五人集团”须与早期派别区分。 ‖ `→PER-sapronov`[core-leader|1919–1927]: 民主集中派核心人物，1921年1月莫斯科基层投票7票，后属“十五人集团”
 
-### 邻居节点: `MTG-1919-03-8th-party-congress`
-- **时效关系边** (`MTG-1919-03-8th-party-congress` → `PER-sapronov` | `opposition-critic` | 有效时段: `1919-03`): 参与军事与组织双重批评，成为此后民主集中派反对过度集中的代表人物。
-- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 1919年3月18日至23日，俄共（布）八大在内战中通过第二党纲，围绕民族自决、红军正规化与党内集中化激烈争辩，提出巩固与中农的联盟。大会及会后一中全会确立政治局、组织局和书记处常设框架，否定党组织联邦制并强化党团对苏维埃的控制；军事反对派与民主集中派的抗辩凸显集权并非无争议。
-
-## 3. 关联史学争鸣光谱 (Historiographical Debates)
+## 3. 关联史学争鸣与学者论断索引 (主卡外关联争鸣 2 项)
 ### `DEB-1921-trade-union-controversy-and-party-unity`：1921年工会争论、工人反对派与党内统一之争
 ## [T1] 核心问题定义
 内战结束之际，工会应成为国家管理生产的传动机构，还是维护工人利益并参与管理的独立空间？工人反对派、托洛茨基和列宁的方案分歧，如何与第十次党代表大会禁止派别相互交织？喀琅施塔得危机既是决议援引的背景，也是有待独立考察的社会抗议，不能混同党内派别。
@@ -113,4 +103,28 @@
 | 左翼悲剧论 vs 政治失误批判 | Isaac Deutscher (1959) vs Robert Service, *Trotsky* (2009) | 多伊彻痛惜托洛茨基3月6日拒绝落井下石错失良机且受困一党纪律；瑟维斯则据档案批评托洛茨基共享威权前提、两拒人民委员会副主席职务并在十二大傲慢避战，纯属政治判断失误。 | `CLM-deutscher-1959-disarmed-prophet-paradox`; `CLM-service-2009-trotsky-authoritarian-consensus`; `CLM-service-2009-trotsky-political-tactical-blunders` | 需将个人性格失误置于书记处与三驾马车结构结盟中评估。 |
 | 俄国“伪列宁文本”极端派 | V. A. Sakharov (2003 遗嘱专著; 2012《十字路口》) | 其2003年专著极端断言遗嘱与民族札记系克鲁普斯卡娅—托派伪造；库内已入库的2012年著作则聚焦《论合作社》两稿差异与1920年代路线争夺（两书议题边界须严格区分）。 | `CLM-sakharov-2012-lenin-cooperative-plan-debates`; `CLM-sakharov-2012-nep-crossroads-1928` | 全盘伪造说遭赫列夫纽克、洛吉诺夫等主流俄罗斯档案学者一致否证。 |
 
-## 4. 关联时间线锚点 (共 0 条)
+
+### 3.1 关联核心论断与史学家学派坐标 (`CLM-*` → `SCH-*`, 展示前 21/21 条)
+- **`CLM-kollontai-1921-workers-opposition-critique-of-bureaucracy-and-specialists`** [`SCH-kollontai-alexandra`(亚历山德拉·柯伦泰 · participant-primary-text) | PDF pp. 2-11, 22-27]: 
+- **`CLM-kollontai-1921-all-russian-congress-of-producers-program`** [`SCH-kollontai-alexandra`(亚历山德拉·柯伦泰 · participant-primary-text) | PDF pp. 11-21, 25-30]: 
+- **`CLM-godson-1981-tenth-congress-to-1929-transmission-belt-unions`** [`SCH-godson-joseph`(约瑟夫·戈德森 · cold-war-labor-studies) | Book pp. 106–111, 121, 128–129 [PDF pp. 118–123, 133, 140–141]]: 
+- **`CLM-service-2009-trotsky-authoritarian-consensus`** [`SCH-service-robert`(罗伯特·瑟维斯) | 中译 EPUB 无纸页码；对应英文本第 23–24、28–29、37 章及引言]: 
+- **`CLM-daniels-1960-tenth-congress-turning-point`** [`SCH-daniels-robert`(罗伯特·V·丹尼尔斯) | pp. 146-153]: Daniels：1921年十大将党统一转化为压缩合法反对空间的组织制度
+- **`CLM-schapiro-1981-end-of-illusion-unions-1917-to-tomsky-fall`** [`SCH-schapiro-leonard`(伦纳德·沙皮罗) | Book pp. 1–14 [PDF pp. 13–26]]: 
+- **`CLM-filtzer-1986-nep-unemployment-and-shopfloor-bargaining`** [`SCH-filtzer-donald`(唐纳德·费尔泽) | pp. 19–29, 44–45, 77–78, 274]: 
+- **`CLM-filtzer-1986-1929-tomsky-purge-and-shock-work`** [`SCH-filtzer-donald`(唐纳德·费尔泽) | pp. 22–24, 68–72, 76–82, 96–108, 274, 280–282, 287]: 
+- **`CLM-lebsky-industrial-paternalism-origins-1917-1929`** [`SCH-lebsky-maksim`(马克西姆·列布斯基) | PDF pp. 9–26, 29–36, 48–49]: 
+- **`CLM-lewin-1968-testament-intent`** [`SCH-lewin-moshe`(摩西·莱文) | n/a（EPUB 无页码锚点）；Ch.10 'If Lenin Had Lived . . .'；列宁原文脚注见 Soch. XLV p. 392；XLIV p. 428]: 
+- **`CLM-lewin-1968-georgian-affair-bureaucracy`** [`SCH-lewin-moshe`(摩西·莱文) | n/a（EPUB 无页码锚点）；Ch.9、Ch.10 与 Appendixes I–III, VII–VIII]: 
+- **`CLM-lewin-1968-cooperation-shift`** [`SCH-lewin-moshe`(摩西·莱文) | n/a（EPUB 无页码锚点）；Ch.8 'Russia between West and East'；列宁原文脚注 Soch. XLV pp. 367, 370, 373, 387–88, 389]: 
+- **`CLM-smith-jeremy-1999-georgian-affair-reassessed`** [`SCH-smith-jeremy`(杰里米·史密斯) | pp. 252-253, 260-262, 266-268, 285-288, 296-297]: 
+- **`CLM-smith-jeremy-1999-twelfth-congress-korenizatsiia`** [`SCH-smith-jeremy`(杰里米·史密斯) | pp. 311, 321-325, 327-331]: 
+- **`CLM-khlevniuk-2015-secretariat-and-nomenklatura`** [`SCH-khlevniuk-oleg`(奥列格·赫列夫纽克) | EPUB ops/xhtml/ch02.html（In Lenin's Shadow，GENERAL SECRETARY 至 1923 年 9 月组织局安排）；制度总论见 ops/xhtml/ch01a.html。工作区文本无纸质页码。]: 
+- **`CLM-khlevniuk-2015-collective-leadership-erosion`** [`SCH-khlevniuk-oleg`(奥列格·赫列夫纽克) | EPUB ops/xhtml/ch02.html（TRYING OUT COLLECTIVE LEADERSHIP 至 THE CHOICE）。工作区文本无纸质页码。]: 
+- **`CLM-kotkin-2014-geopolitics-and-ideology`** [`SCH-kotkin-stephen`(斯蒂芬·科特金) | EPUB Ch. 13 (OEBPS/9780698170100_EPUB_1-23.xhtml) & Coda (OEBPS/9780698170100_EPUB_1-25.xhtml)]: 
+- **`CLM-deutscher-1959-disarmed-prophet-paradox`** [`SCH-isaac-deutscher`(艾萨克·多伊彻) | （中译本无独立纸页；对应第二部 1923 年争论章）]: 
+- **`CLM-service-2009-trotsky-political-tactical-blunders`** [`SCH-service-robert`(罗伯特·瑟维斯) | 中译 EPUB 无纸页码；对应英文本引言及第 31–32、37–38 章]: 
+- **`CLM-sakharov-2012-lenin-cooperative-plan-debates`** [`SCH-sakharov-valentin`(瓦连京·萨哈罗夫) | EPUB Ch. 1.3 & Ch. 4.2]: 
+- **`CLM-sakharov-2012-nep-crossroads-1928`** [`SCH-sakharov-valentin`(瓦连京·萨哈罗夫) | EPUB Ch. 4.2 & Ch. 4.3]: 
+
+## 4. 关联时间线骨干锚点 (L0–L2 展示 0 条)

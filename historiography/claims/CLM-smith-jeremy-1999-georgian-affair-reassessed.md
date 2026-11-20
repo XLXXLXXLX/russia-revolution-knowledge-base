@@ -7,8 +7,8 @@ publication_year: 1999
 source_tier: A
 local_source_path: "sources/monographs/smith_jeremy_1999_national_question_zh/ch14_第7章_格鲁吉亚危机与苏联的形成_part_1.md#L41-L51"
 original_pages: "pp. 252-253, 260-262, 266-268, 285-288, 296-297"
-targets_cards: ["PER-lenin", "PER-stalin", "PER-ordzhonikidze", "EVT-1922-georgian-affair", "POL-ussr-founding"]
-debate: DEB-1922-ussr-formation
+targets_cards: ["PER-lenin", "PER-stalin", "PER-ordzhonikidze", "EVT-1922-georgian-affair-and-ussr-formation"]
+debate: DEB-1923-nationality-and-empire
 supports: []
 rebuts: []
 qualifies: []

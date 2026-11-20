@@ -1,16 +1,14 @@
 ---
 id: CLM-kakurin-1928-red-army-interior-lines-strategy
 type: claim
-scholar: SCH-kakurin
+scholar: SCH-kakurin-nikolai
 work_title: "The Russian Civil War, 1918–1921 (Kak srazhalas' revoliutsiia)"
 publication_year: 1928
 source_tier: S
 local_source_path: "sources/primary/kakurin_1928_red_army_civil_war/ch04_foreword.md"
 original_pages: "pp. xvi–xviii, 91–93, 101–103, 198–203, 210–229"
-targets_cards:
-  - "E-civil-war-1919-decisive-campaigns"
-  - "I-red-army-interior-lines-railway-strategy"
-debate: DEB-civil-war-determinants
+targets_cards: ["EVT-1918-1920-russian-civil-war", "INS-rkka-red-army-and-rvr"]
+debate: DEB-1918-red-terror-and-civil-war-origins
 supports:
   - "CLM-mawdsley-1987-sovdepia-demographic-industrial-base"
   - "CLM-mawdsley-1987-white-movement-structural-defeat"

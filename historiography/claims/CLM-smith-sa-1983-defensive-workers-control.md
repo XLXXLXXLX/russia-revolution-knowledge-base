@@ -7,8 +7,8 @@ publication_year: 1983
 source_tier: A
 local_source_path: "sources/monographs/smith_sa_1983_red_petrograd_zh/ch08_第六章_工人控制生产的理论与实践.md#L81-L90"
 original_pages: "中译本 pp. 106–112, 133, 135, 137, 191（即源文件标注 PDF pp. 111–117, 138, 140, 142, 196）；注意：均为中译本页码，非英文原版页码"
-targets_cards: [ORG-factory-committees, CON-workers-control, CON-syndicalism-anarchism, EVT-1917-fabzavkomy-conferences]
-debate: DEB-workers-control-origins-1917
+targets_cards: ["ORG-factory-committees-1917", "CON-workers-control"]
+debate: DEB-1918-working-class-and-bolsheviks
 supports: []
 rebuts: ["Avrich（无政府主义—生产无政府状态论）", "Kaplan（工厂委员会 vs 布尔什维克“白手套”论）", "Anweiler", "Keep（工团主义解释）"]
 qualifies: ["Rosenberg（经济安全论，部分一致）", "苏联史学（Itkin 等：工人监督 = 布尔什维克国家监督的前奏）"]

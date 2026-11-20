@@ -1,14 +1,9 @@
-# 1-Hop 平衡上下文包：`EVT-1922-georgian-affair-and-ussr-formation` (格鲁吉亚事件、自治化之争与苏联成立)
+# 1-Hop 去重平衡上下文包：`EVT-1922-georgian-affair-and-ussr-formation`
 
-> 本文件由 `python scripts/kb.py pack` 自动编译，旨在将失控的 `1+N` 随机读取压缩为**等权重、带时效边实质与史学盲区告警**的单次全景读取。
+> 由 `python scripts/kb.py pack` 动态编译：保留 **100% 一跳邻居与多时段关系边**，跨卡自动去重争鸣与时间线，并关联学者学派 (`SCH-*`)。
 
-## 0. 认知完备度与反偏斜仪表盘 (Epistemic & Skew Warnings)
-- **主卡路径**: `cards/events/EVT-1922-georgian-affair-and-ussr-formation.md`
-- **完备度等级**: `multi-perspective`
-- **已覆盖视角**: `nationalities-institutional, archival-revisionist, anti-bureaucratic, statist`
-- **待补齐视角**: `georgian-local-party-records-independent-review, primary-text-nationality-dictation-1922-12-30`
-- **偏斜风险提示**:
-  - ⚠️ 主卡显式声明尚缺以下视角待补: `georgian-local-party-records-independent-review, primary-text-nationality-dictation-1922-12-30`。
+## 0. 认知完备度与反偏斜仪表盘
+- **`EVT-1922-georgian-affair-and-ussr-formation`** (格鲁吉亚事件、自治化之争与苏联成立 | `cards/events/EVT-1922-georgian-affair-and-ussr-formation.md` | `multi-perspective`): 已覆盖=`nationalities-institutional, archival-revisionist, anti-bureaucratic, statist`；待补=`georgian-local-party-records-independent-review, primary-text-nationality-dictation-1922-12-30`
 
 ## 1. 主卡核心层 ([T1] + [T2])
 ## [T1] 60秒定性微摘要
@@ -40,36 +35,17 @@
 - **杰里米·史密斯**对列斯从头展开决战的叙述提出修正：双方均重视集中协调，地方经济利益和高加索局强制手段共同塑造危机；列宁态度随殴打与调查争议而变化。
 - **斯皮岑**肯定自治化的国家统一逻辑，并质疑列宁晚年口述材料作者身份。站内对其质疑已可部分对勘（见 3.1 口述文献保管链）：编注显示民族问题札记保管确有断口，但 Loginov 对萨哈罗夫式“后补伪造”论提出直接反驳。此为有争议的解释，不能仅凭其质疑否定文献。
 
-## 2. 一跳邻域等权重微摘要 (共 7 个关联节点，严防大卡霸占上下文)
-### 邻居节点: `INS-sovnarkom-and-vtsik`
-- **时效关系边** (`INS-sovnarkom-and-vtsik` → `EVT-1922-georgian-affair-and-ussr-formation` | `union_constitutional_context` | 有效时段: `1922–1924`): 联盟宪制在共和国权限和中央集权之间建立复杂分工
-- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 苏维埃代表大会闭会期间，中执委在宪制上监督政府，人民委员会却迅速掌握施政与大量法令制定。苏俄与1922年成立的苏联各有中执委与人民委员会，不能混同。党内领导与国家机关关系不断变化，政治局权重日增，但1920年代仍须经政府落实决策。
+## 2. 一跳邻域全量微摘要目录 (去重后共 8 个节点，0 截断)
+- **`EVT-1918-1921-transcaucasian-republics-baku-commune-and-sovietization`**（外高加索独立共和国、巴库公社与苏维埃化（1918—1921））: 1918—1921年外高加索独立建国与苏维埃化进程。布列斯特割地与俄土前线瓦解后，巴库公社兴亡，外高加索联邦解体为格、阿、亚三国并陷领土冲突。红军击败邓尼金后，高加索局配合红十一军团与苏土外交契机于1920—1921年苏维埃化三国，铁路整合与集权体制随即牵动1922年建盟与格鲁吉亚危机。 ‖ `→EVT-1922-georgian-affair-and-ussr-formation`[post-sovietization-institutional-crisis|1921.05–1922.12]: 1921年军事接管后，铁路合并、货币预算统一、高加索局俄语化强权与格共防卫本国特权的冲突，经1922.03区域联盟与12.13单一联邦之争演化为格鲁吉亚危机
+- **`PER-ordzhonikidze`**（格里戈里·“谢尔戈”·奥尔忠尼启则）: 外高加索布尔什维克领导人，1912年任中委，1922年格鲁吉亚事件中殴打党员引列宁震怒。1926年11月兼任中监委主席与工农检查人民委员，两机构联合办公而非合并，主持处分托季派；1928–1929年农业政策倾向斯大林，仍求集体领导调和，密会传单曝光后转而追责右派。 ‖ `←EVT-1922-georgian-affair-and-ussr-formation`[contests_federalization|1921–1922]: 高加索局领导人推进外高加索联邦，与格共反对派（姆季瓦尼、马哈拉泽等）冲突；史密斯兼顾经济…
+- **`PER-lenin`**（弗拉基米尔·列宁）: 布尔什维克党缔造者、苏俄人民委员会主席（1917–1924）。1893年投身马克思主义运动，1903年促成布尔什维克分化；1917年发表《四月提纲》并领导十月夺权，历经布列斯特和约、内战与战时共产主义；1921年主持转向新经济政策，晚年（1922–1923）就官僚化与接班人同斯大林冲突。 ‖ `←EVT-1922-georgian-affair-and-ussr-formation`[contests_union_form|1922-09–12]: 联盟的法律形式及民族政策发生分歧，但不能假定双方从一开始完全对立。 ； `←EVT-1922-georgian-affair-and-ussr-formation`[dictates_nationality_notes|1922-12-30/31]: 口述批评“杰尔日莫尔达”式大俄罗斯沙文主义（L3 L76）；真伪争议见 2.3。
+- **`PER-stalin`**（约瑟夫·斯大林）: 布尔什维克高加索地下组织者、民族事务人民委员（1917–1923）及中央总书记（1922起）。依托书记处任命权与安全危机叙事，先联季-加压制托洛茨基，再联布哈林击溃联合反对派；1927–1929年以战备恐慌与“自上而下革命”击败布哈林集团，1929年12月拍板“把富农作为阶级消灭”并终结新经济政策。 ‖ `←EVT-1922-georgian-affair-and-ussr-formation`[drafts_autonomization_plan|1922-08–09]: 斯大林委员会提出自治化并入方案，被列宁 09-26 致加米涅夫信修订为平等联盟（L3 1…
+- **`PER-kamenev`**（列夫·加米涅夫）: 老布尔什维克、首任全俄中执委主席。1917年自四月至立宪会议一贯坚守温和宪政社会主义联盟路线并公开反对十月起义；1924年十三大联手季诺维也夫压下《列宁遗嘱》，1925年十四大公开发言反斯大林“领袖”集权后失势；1928年7月密会布哈林并留下外泄笔记，反成右派致命罪证。 ‖ `←EVT-1922-georgian-affair-and-ussr-formation`[receives_lenin_union_proposal|1922-09-26]: 列宁致加米涅夫提出平等加盟方案。
+- **`PER-dzerzhinsky`**（费利克斯·捷尔任斯基）: 波兰立陶宛社民党与布尔什维克领导人。1917年建全俄肃反委员会（契卡）并续掌GPU/OGPU至逝世，奠定苏维埃安全与法外镇压体制；1924–1926年兼任最高国民经济委员会主席，力挺新经济政策市场均衡、保护技术专家并反对超工业化，1926年7月预警“红色独裁者”后猝逝于中央全会。 ‖ `←EVT-1922-georgian-affair-and-ussr-formation`[investigates|1922-11–1923]: 调查偏向的指控加深列宁对程序与官僚作风的疑虑；调查结论及列宁取得卷宗的时间须区分。
+- **`INS-sovnarkom-and-vtsik`**（人民委员会与全俄、全苏中央执行委员会）: 苏维埃代表大会闭会期间，中执委在宪制上监督政府，人民委员会却迅速掌握施政与大量法令制定。苏俄与1922年成立的苏联各有中执委与人民委员会，不能混同。党内领导与国家机关关系不断变化，政治局权重日增，但1920年代仍须经政府落实决策。 ‖ `→EVT-1922-georgian-affair-and-ussr-formation`[union_constitutional_context|1922–1924]: 联盟宪制在共和国权限和中央集权之间建立复杂分工
+- **`MTG-1923-04-12th-party-congress`**（俄国共产党（布尔什维克）第十二次代表大会）: 1923年4月17—25日莫斯科举行。列宁第三次中风后首次缺席党代会，代表团分组秘密传达其民族问题笔记；托洛茨基以“剪刀差”图主张计划化工业化；民族问题特别会议迫使斯大林退让并确立本土化妥协决议，但会后人事布局仍背离列宁清算官僚沙文主义的初衷。 ‖ `→EVT-1922-georgian-affair-and-ussr-formation`[addressed-behind-closed-doors|1923-04]: 格鲁吉亚冲突卷宗与列宁笔记促成反大俄罗斯沙文主义条文，但涉事中央大员未受处分
 
-### 邻居节点: `PER-ordzhonikidze`
-- **时效关系边** (`EVT-1922-georgian-affair-and-ussr-formation` → `PER-ordzhonikidze` | `contests_federalization` | 有效时段: `1921–1922`): 高加索局领导人推进外高加索联邦，与格共反对派（姆季瓦尼、马哈拉泽等）冲突；史密斯兼顾经济利益与行政强制。
-- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 外高加索布尔什维克强人与党纪监督重臣（1886–1937，本卡至1929年）。1912任中央委员；1922主政外高加索因“格鲁吉亚事件”殴打党员触发列宁震怒；1926年11月起任中监委主席兼苏联工农检查人民委员（两机构联合办公而非合并），主持开除托季派；1928–1929年一面在农业政策上倾向斯大林、一面维持集体领导调和，密会传单曝光后转而主持对右派的纪律追责。
-
-### 邻居节点: `PER-lenin`
-- **时效关系边** (`EVT-1922-georgian-affair-and-ussr-formation` → `PER-lenin` | `contests_union_form` | 有效时段: `1922-09–12`): 联盟的法律形式及民族政策发生分歧，但不能假定双方从一开始完全对立。
-- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 布尔什维克党缔造者、苏俄人民委员会主席（1917–1924）。1893年投身马克思主义运动，1903年促成布尔什维克分化；1917年发表《四月提纲》并领导十月夺权，历经布列斯特和约、内战与战时共产主义；1921年主持转向新经济政策，晚年（1922–1923）就官僚化与接班人同斯大林冲突。
-
-### 邻居节点: `PER-stalin`
-- **时效关系边** (`EVT-1922-georgian-affair-and-ussr-formation` → `PER-stalin` | `drafts_autonomization_plan` | 有效时段: `1922-08–09`): 斯大林委员会提出自治化并入方案，被列宁 09-26 致加米涅夫信修订为平等联盟（L3 1922-12 L75）。
-- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 布尔什维克高加索地下组织者、民族事务人民委员（1917–1923）及中央总书记（1922起）。依托书记处任命权与安全危机叙事，先联季-加压制托洛茨基，再联布哈林击溃联合反对派；1927–1929年以战备恐慌与“自上而下革命”击败布哈林集团，1929年12月拍板“把富农作为阶级消灭”并终结新经济政策。
-
-### 邻居节点: `PER-kamenev`
-- **时效关系边** (`EVT-1922-georgian-affair-and-ussr-formation` → `PER-kamenev` | `receives_lenin_union_proposal` | 有效时段: `1922-09-26`): 列宁致加米涅夫提出平等加盟方案。
-- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 老布尔什维克、首任全俄中执委主席。1917年自四月至立宪会议一贯坚守温和宪政社会主义联盟路线并公开反对十月起义；1924年十三大联手季诺维也夫压下《列宁遗嘱》，1925年十四大公开发言反斯大林“领袖”集权后失势；1928年7月密会布哈林并留下外泄笔记，反成右派致命罪证。
-
-### 邻居节点: `PER-dzerzhinsky`
-- **时效关系边** (`EVT-1922-georgian-affair-and-ussr-formation` → `PER-dzerzhinsky` | `investigates` | 有效时段: `1922-11–1923`): 调查偏向的指控加深列宁对程序与官僚作风的疑虑；调查结论及列宁取得卷宗的时间须区分。
-- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 波兰立陶宛社民党与布尔什维克领导人。1917年建全俄肃反委员会（契卡）并续掌GPU/OGPU至逝世，奠定苏维埃安全与法外镇压体制；1924–1926年兼任最高国民经济委员会主席，力挺新经济政策市场均衡、保护技术专家并反对超工业化，1926年7月预警“红色独裁者”后猝逝于中央全会。
-
-### 邻居节点: `EVT-1918-1921-transcaucasian-republics-baku-commune-and-sovietization`
-- **时效关系边** (`EVT-1918-1921-transcaucasian-republics-baku-commune-and-sovietization` → `EVT-1922-georgian-affair-and-ussr-formation` | `post-sovietization-institutional-crisis` | 有效时段: `1921.05–1922.12`): 1921年军事接管后，铁路合并、货币预算统一、高加索局俄语化强权与格共防卫本国特权的冲突，经1922.03区域联盟与12.13单一联邦之争演化为格鲁吉亚危机
-- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 1918—1921年外高加索独立建国与苏维埃化进程。布列斯特割地与俄土前线瓦解后，巴库公社兴亡，外高加索联邦解体为格、阿、亚三国并陷领土冲突。红军击败邓尼金后，高加索局配合红十一军团与苏土外交契机于1920—1921年苏维埃化三国，铁路整合与集权体制随即牵动1922年建盟与格鲁吉亚危机。
-
-## 3. 关联史学争鸣光谱 (Historiographical Debates)
+## 3. 关联史学争鸣与学者论断索引 (主卡外关联争鸣 2 项)
 ### `DEB-1922-lenin-testament-and-stalin-rise`：列宁晚年、格鲁吉亚事件与斯大林崛起机制
 ## [T1] 核心问题定义
 列宁晚年口授文稿和格鲁吉亚冲突，是反官僚与反斯大林的总体“最后斗争”，还是对共同集权框架内具体做法的修正？《遗嘱》本身是否存在文本流转疑点？斯大林的上升又如何由个人策略、书记处机关、寡头集体领导与反对派失策共同解释？
@@ -86,7 +62,7 @@
 
 ### `DEB-1923-nationality-and-empire`：布尔什维克民族政策、格鲁吉亚事件与苏维埃“肯定性行动帝国”性质之争
 ## [T1] 核心问题定义
-`1922-08` 至 `1923-04-25`（自“自治化”方案、格鲁吉亚冲突至俄共十二大民族问题特别会议闭幕）及其后1920年代本土化实践，布尔什维克是在建设多民族“肯定性行动帝国”内的制度化本土化体制，还是以先锋队组织垄断维系的大俄罗斯官僚集权？争论焦点在于解密速记揭示的制度妥协与各学派因果—价值判断之分。
+自1922年8月“自治化”方案与格鲁吉亚冲突起，至1923年4月俄共十二大闭幕，布尔什维克究竟是在建设“肯定性行动帝国”式的制度化本土化实践，还是以先锋队组织垄断维系大俄罗斯官僚集权？争论焦点是解密速记所示的制度妥协，以及各学派因果判断与价值判断之别。
 
 ## [T2] 各学派立场对照矩阵
 | 学派/取向 | 代表学者与著作 | 核心论点摘要 | 支撑论断卡 | 主要受批评盲点 |
@@ -98,4 +74,24 @@
 | 乌克兰社会史与本土化悖论 | George Liber, *Soviet Nationality Policy, Urban Growth, and Identity Change in the Ukrainian SSR 1923–1934* (1992) | 本土化整合城乡乌克兰人、扩张乌克兰语公共领域的同时，制度化语言边界并孕育中央难以完全消化的地方民族诉求。 | `CLM-liber-1992-korenizatsiia-paradox-late-1920s`; `CLM-liber-1992-ukrainianization-and-urban-working-class` | 侧重乌克兰工业城市化案例，外高加索与中亚须分区域检验。 |
 | “肯定性行动帝国”概念框架 | Terry Martin, *The Affirmative Action Empire* (2001) 等 | 1920年代苏联对非俄罗斯民族实施制度化优待（干部、语言、教育与领土配额），以党国政治垄断为前提整合多民族边缘——动员成效与潜在离心张力并存。 | （Martin 专著独立论断卡尚待 `close-reader` 入库；现阶段参看 `POL-korenizatsiia` 与 `CLM-smith-jeremy-1999-twelfth-congress-korenizatsiia`） | 概念易被字面混同于当代西方多元主义平权政策，须严守一党专政前提。 |
 
-## 4. 关联时间线锚点 (共 0 条)
+
+### 3.1 关联核心论断与史学家学派坐标 (`CLM-*` → `SCH-*`, 展示前 17/17 条)
+- **`CLM-smith-jeremy-1999-georgian-affair-reassessed`** [`SCH-smith-jeremy`(杰里米·史密斯) | pp. 252-253, 260-262, 266-268, 285-288, 296-297]: 
+- **`CLM-lewin-1968-georgian-affair-bureaucracy`** [`SCH-lewin-moshe`(摩西·莱文) | n/a（EPUB 无页码锚点）；Ch.9、Ch.10 与 Appendixes I–III, VII–VIII]: 
+- **`CLM-lewin-1968-testament-intent`** [`SCH-lewin-moshe`(摩西·莱文) | n/a（EPUB 无页码锚点）；Ch.10 'If Lenin Had Lived . . .'；列宁原文脚注见 Soch. XLV p. 392；XLIV p. 428]: 
+- **`CLM-lewin-1968-cooperation-shift`** [`SCH-lewin-moshe`(摩西·莱文) | n/a（EPUB 无页码锚点）；Ch.8 'Russia between West and East'；列宁原文脚注 Soch. XLV pp. 367, 370, 373, 387–88, 389]: 
+- **`CLM-smith-jeremy-1999-twelfth-congress-korenizatsiia`** [`SCH-smith-jeremy`(杰里米·史密斯) | pp. 311, 321-325, 327-331]: 
+- **`CLM-khlevniuk-2015-secretariat-and-nomenklatura`** [`SCH-khlevniuk-oleg`(奥列格·赫列夫纽克) | EPUB ops/xhtml/ch02.html（In Lenin's Shadow，GENERAL SECRETARY 至 1923 年 9 月组织局安排）；制度总论见 ops/xhtml/ch01a.html。工作区文本无纸质页码。]: 
+- **`CLM-khlevniuk-2015-collective-leadership-erosion`** [`SCH-khlevniuk-oleg`(奥列格·赫列夫纽克) | EPUB ops/xhtml/ch02.html（TRYING OUT COLLECTIVE LEADERSHIP 至 THE CHOICE）。工作区文本无纸质页码。]: 
+- **`CLM-kotkin-2014-geopolitics-and-ideology`** [`SCH-kotkin-stephen`(斯蒂芬·科特金) | EPUB Ch. 13 (OEBPS/9780698170100_EPUB_1-23.xhtml) & Coda (OEBPS/9780698170100_EPUB_1-25.xhtml)]: 
+- **`CLM-deutscher-1959-disarmed-prophet-paradox`** [`SCH-isaac-deutscher`(艾萨克·多伊彻) | （中译本无独立纸页；对应第二部 1923 年争论章）]: 
+- **`CLM-service-2009-trotsky-authoritarian-consensus`** [`SCH-service-robert`(罗伯特·瑟维斯) | 中译 EPUB 无纸页码；对应英文本第 23–24、28–29、37 章及引言]: 
+- **`CLM-service-2009-trotsky-political-tactical-blunders`** [`SCH-service-robert`(罗伯特·瑟维斯) | 中译 EPUB 无纸页码；对应英文本引言及第 31–32、37–38 章]: 
+- **`CLM-sakharov-2012-lenin-cooperative-plan-debates`** [`SCH-sakharov-valentin`(瓦连京·萨哈罗夫) | EPUB Ch. 1.3 & Ch. 4.2]: 
+- **`CLM-sakharov-2012-nep-crossroads-1928`** [`SCH-sakharov-valentin`(瓦连京·萨哈罗夫) | EPUB Ch. 4.2 & Ch. 4.3]: 
+- **`CLM-carr-1950-self-determination-to-federal-reunion`** [`SCH-carr-eh`(爱德华·霍列特·卡尔) | pp. 253-285, 364-428]: 
+- **`CLM-suny-2017-empire-and-nationality-dimension`** [`SCH-suny-ronald-gregor`(罗纳德·格里戈尔·苏尼) | pp. 125-140 (approx. ch. 3 opening theory; see also Witte L322-328)]: 
+- **`CLM-liber-1992-korenizatsiia-paradox-late-1920s`** [`SCH-liber-george`(乔治·O·利伯) | pp. 155–157; 180–186]: 
+- **`CLM-liber-1992-ukrainianization-and-urban-working-class`** [`SCH-liber-george`(乔治·O·利伯) | pp. 75–76; 99–105]: 
+
+## 4. 关联时间线骨干锚点 (L0–L2 展示 0 条)

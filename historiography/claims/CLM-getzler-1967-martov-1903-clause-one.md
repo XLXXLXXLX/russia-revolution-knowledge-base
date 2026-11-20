@@ -7,8 +7,8 @@ publication_year: 1967
 source_tier: A
 local_source_path: "sources/monographs/getzler_1967_martov/ch03_pages_76-100.md#L1562-L1603"
 original_pages: "pp. 78-79"
-targets_cards: ["PER-martov-l", "PER-lenin", "MTG-1903-rsdrp-2nd-congress"]
-debate: DEB-1903-rsdrp-split-and-party-model
+targets_cards: ["PER-martov-l", "PER-lenin", "MTG-1903-rsdlp-2nd-congress"]
+debate: DEB-1903-bolshevik-menshevik-split
 supports: []
 rebuts: []
 qualifies: []

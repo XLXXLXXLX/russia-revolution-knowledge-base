@@ -2,7 +2,7 @@
 id: CLM-daniels-1960-left-communists-1918
 type: claim
 title: Daniels：1918年左翼捍卫革命纲领，却在分裂关头受党统一约束
-scholar: SCH-daniels
+scholar: SCH-daniels-robert
 work_title: "The Conscience of the Revolution: Communist Opposition in Soviet Russia"
 publication_year: 1960
 source_tier: A

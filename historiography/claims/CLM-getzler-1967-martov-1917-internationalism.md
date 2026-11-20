@@ -7,8 +7,8 @@ publication_year: 1967
 source_tier: A
 local_source_path: "sources/monographs/getzler_1967_martov/ch07_pages_176-200.md#L171-L765"
 original_pages: "pp. 156-166"
-targets_cards: ["PER-martov-l", "ORG-mensheviks", "EVT-1917-february-revolution"]
-debate: DEB-1917-menshevik-coalition-and-internationalism
+targets_cards: ["PER-martov-l", "ORG-mensheviks", "EVT-1917-02-february-revolution"]
+debate: DEB-1917-all-socialist-coalition-vikzhel-missed-chance
 supports: []
 rebuts: []
 qualifies: []

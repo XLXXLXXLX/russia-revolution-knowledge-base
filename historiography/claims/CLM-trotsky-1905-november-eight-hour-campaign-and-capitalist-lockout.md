@@ -1,7 +1,7 @@
 ---
 id: CLM-trotsky-1905-november-eight-hour-campaign-and-capitalist-lockout
 type: claim
-scholar: PER-trotsky
+scholar: SCH-trotsky-leon
 work_title: "《1905》第十五章、第十六章与第二十二章"
 publication_year: 1922
 source_tier: B

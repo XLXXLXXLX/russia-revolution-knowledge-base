@@ -7,7 +7,7 @@ publication_year: 1960
 source_tier: A
 local_source_path: "sources/monographs/erlich_1960_industrialization/ch10_part_two_the_issues_and_the_aftermath_pa.md#L855-L973"
 original_pages: "pp. 161-169, 172-177, 183-184 (PDF pp. 176-184, 187-192, 198-199)"
-targets_cards: ["PER-stalin", "PER-bukharin", "EVT-1928-grain-crisis", "POL-first-five-year-plan"]
+targets_cards: ["PER-stalin", "PER-bukharin", "EVT-1928-grain-procurement-crisis", "POL-first-five-year-plan"]
 debate: DEB-1928-bukharin-alternative
 supports: []
 rebuts: []

@@ -36,7 +36,7 @@ updated_at: "2026-11-18"
 | `ORG-petrograd-soviet` | `leads` | 1917.03–1917.09 | 主导苏维埃执委会“星室”，将“双重政权”从猜忌监督改造为同临时政府的体制内合作与联立。 | `CLM-galili-1989-revolutionary-defensism` |
 | `ORG-provisional-government` | `member_of` | 1917.05–1917.07 | 任第一届联立政府邮电部长及代理内务部长，坚持社会主义阁员占少数以维系自由派留任。 | `CLM-galili-1989-coalition-government-trap` |
 | `PER-dan` | `allied_with` | 1917.03–1917.10 | 共同执掌苏维埃“星室”推行革命护国主义，但在6月11日是否武力解除布尔什维克武装问题上发生分歧。 | `CLM-galili-1989-menshevik-worker-alienation` |
-| `PER-martov` | `opposes` | 1917.05–1917.10 | 拒绝马尔托夫与孟什维克国际派退出资产阶级联立、组建清一色社会主义政府的左翼替代方案。 | `CLM-galili-1989-coalition-government-trap` |
+| `PER-martov-l` | `opposes` | 1917.05–1917.10 | 拒绝马尔托夫与孟什维克国际派退出资产阶级联立、组建清一色社会主义政府的左翼替代方案。 | `CLM-galili-1989-coalition-government-trap` |
 | `PER-lenin` | `opposes` | 1917.04–1918.01 | 针锋相对批驳列宁《四月提纲》与布尔什维克夺权路线，6月力主解除布尔什维克武装、7月后支持追缉列宁。 | `CLM-galili-1989-menshevik-worker-alienation` |
 | `EVT-1917-07-july-days` | `participates_in` | 1917.07.16–07.18 | 在塔夫利达宫顶住武装示威压力拒绝苏维埃夺权，调集前线部队平息事变并严惩布尔什维克。 | `CLM-galili-1989-menshevik-worker-alienation` |
 

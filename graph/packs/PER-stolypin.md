@@ -1,14 +1,9 @@
-# 1-Hop 平衡上下文包：`PER-stolypin` (彼得·斯托雷平)
+# 1-Hop 去重平衡上下文包：`PER-stolypin`
 
-> 本文件由 `python scripts/kb.py pack` 自动编译，旨在将失控的 `1+N` 随机读取压缩为**等权重、带时效边实质与史学盲区告警**的单次全景读取。
+> 由 `python scripts/kb.py pack` 动态编译：保留 **100% 一跳邻居与多时段关系边**，跨卡自动去重争鸣与时间线，并关联学者学派 (`SCH-*`)。
 
-## 0. 认知完备度与反偏斜仪表盘 (Epistemic & Skew Warnings)
-- **主卡路径**: `cards/people/PER-stolypin.md`
-- **完备度等级**: `multi-perspective`
-- **已覆盖视角**: `gentry-social-history-manning, peasant-moral-economy-figes, liberal-constitutional-pipes, soviet-leninist-critique, haimson-urban-crisis`
-- **待补齐视角**: `regional-archival-zemstvo-records, pallot-geography-full-monograph`
-- **偏斜风险提示**:
-  - ⚠️ 主卡显式声明尚缺以下视角待补: `regional-archival-zemstvo-records, pallot-geography-full-monograph`。
+## 0. 认知完备度与反偏斜仪表盘
+- **`PER-stolypin`** (彼得·斯托雷平 | `cards/people/PER-stolypin.md` | `multi-perspective`): 已覆盖=`gentry-social-history-manning, peasant-moral-economy-figes, liberal-constitutional-pipes, soviet-leninist-critique, haimson-urban-crisis`；待补=`regional-archival-zemstvo-records, pallot-geography-full-monograph`
 
 ## 1. 主卡核心层 ([T1] + [T2])
 ## [T1] 150字定性微摘要
@@ -40,68 +35,22 @@
 - **列宁“普鲁士式道路”政治经济学批判与后世革命史综合（V. I. Lenin / 姚海）**：列宁在1907年后的农业政论中将斯托雷平土改界定为保留地主大地产、由地主主导并迫使贫苦农民破产分化的“普鲁士式资本主义农业发展道路”（与农民革命彻底清除地主地产的“美国式道路”相对照，见 `CLM-service-lenin-v1-agrarian-marxism-and-1905-tactics`）；姚海等中国学者（`RN-W36-yao-hai-cass-russian-revolution-synthesis`）则从帝国现代化断裂与底层激进化视角综合考察斯托雷平改革的制度张力（二者与 E. H. Carr 侧重苏维埃国家制度延续性的研究取向不同，不可混同为单一学派）。
 - **城市“双重极化”与政权稳定性的旁证（Leopold H. Haimson）**：海姆森（1964–1965）专门聚焦一战前夕的**俄国城市社会**，提出1912–1914年已形成**城市工人阶级与有产/专业精英之间**、以及**整个城市社会（含自由派有产社会）与沙皇专制官僚体制之间**的两道“双重极化”裂缝（`DEB-1914-haimson-thesis-stability`）。这一城市政治危机并不直接裁决斯托雷平农村土改的经济反事实，但它表明即便在农业收成改善的年份，六三体制也未能实现城市劳工与受教育社会的政治整合。
 
-## 2. 一跳邻域等权重微摘要 (共 13 个关联节点，严防大卡霸占上下文)
-### 邻居节点: `EVT-1905-revolution`
-- **时效关系边** (`PER-stolypin` → `EVT-1905-revolution` | `suppressed-and-reformed` | 有效时段: `1906-1911`): 以战地军事法庭铁腕平息1905–07城乡暴动，发动1907六三政变修改杜马选举法，并推行允许农民退社私有化的土地改革。
-- **时效关系边** (`EVT-1905-revolution` → `PER-stolypin` | `counter-revolution-institutionalization` | 有效时段: `1906–1907`): 土地法令、野战法庭与六三选举法将革命成果转化为保守秩序
-- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 1905年1月9日[O.S.]“血腥星期日”至1907年6月3日[O.S.]六三新选举法间的帝俄首次全民革命。涵盖十月总罢工、彼得堡苏维埃、水兵哗变、莫斯科起义与黑土区农村暴动；迫使沙皇颁布《十月宣言》与杜马体制，随革命退潮，有限代议制度保留并受保守选举法约束。
+## 2. 一跳邻域全量微摘要目录 (去重后共 13 个节点，0 截断)
+- **`CON-kulak`**（富农（作为社会阶层与政治定罪标签））: “富农”兼具农村阶层与政治定罪含义：19世纪原指高利贷盘剥者，列宁称农村资产阶级；斯托雷平改革分离户也遭村社如此指斥。1918年为贫农委员会征粮对象，1925年NEP放宽而农村趋向中农化；1928–1929年经刑法107条与雅科夫列夫委员会转为阶级清洗标签。 ‖ `→PER-stolypin`[positive-revaluator ("wager-on-the-strong")|1906-11–1911-09]: 试图把村社咒骂的分离致富户重塑为帝国秩序支柱的独立私有农庄主
+- **`CON-peasant-commune-obshchina`**（农村公社（米尔 / 村社））: 村社是帝俄至苏俄的乡村自治与土地重分制度。1861年改革保留连环保与重分地；民粹派视为社会主义胚胎，1881年马克思有条件认可其前景，列宁强调资本主义分化，斯托雷平立法拆解。1917–1918年土地重分使其复兴，1922年获法典承认，1929–1930年遭集体化摧毁。 ‖ `→PER-stolypin`[state-dismantler|1906-11-22–1911-09-18 [N.S.]]: 颁布独立田庄（хутор/отруб）法令试图拆解村社集体地权、培植保守小私有者阶层 ； `←PER-stolypin`[targeted_for_dissolution|1906–1911]: 视重分村社为农业停滞与动乱根源而力图培育平行私有农场，但遭黑土区共同体与条田耕作惯性普遍抵制
+- **`EVT-1905-revolution`**（1905–1907年俄国第一次革命）: 1905年1月9日[O.S.]“血腥星期日”至1907年6月3日[O.S.]六三新选举法间的帝俄首次全民革命。涵盖十月总罢工、彼得堡苏维埃、水兵哗变、莫斯科起义与黑土区农村暴动；迫使沙皇颁布《十月宣言》与杜马体制，随革命退潮，有限代议制度保留并受保守选举法约束。 ‖ `→PER-stolypin`[pacifier_and_terminator|1906–1907]: 首届杜马解散后以野战军事法庭弹压暴动，并借 1907-06-03 [O.S.] 新选举法改组议会代表结构、结束革命浪潮 ； `←PER-stolypin`[suppressed-and-reformed|1906-1911]: 以战地军事法庭铁腕平息1905–07城乡暴动，发动1907六三政变修改杜马选举法，并推行…
+- **`EVT-1907-1914-june-third-regime-and-lena-to-july-strikes`**（1907–1914年六三体制、斯托雷平反动与勒拿至七月工潮）: 1907年6月3日[O.S.]六三政变至1914年7月一战爆发间的战前危机年代。前五年呈现土地缙绅杜马优势、斯托雷平土改与地下党受挫蛰伏；1912年4月勒拿金矿惨案引爆《真理报》创刊、工会与保险会转向及1914年7月圣彼得堡街垒工潮，引发战前稳定与否之争。 ‖ `→PER-stolypin`[architect_of_first_phase|1907–1911]: 主导六三政变与土地改革，1911年基辅遇刺后温和保守协调机制随之瓦解 ； `←PER-stolypin`[regime_architect_of|1907–1911]: 颁行 1907-06-03 [O.S.] 新选举法奠定六三杜马格局，其遇刺后内阁失去强势…
+- **`INS-state-duma-1906-1917`**（俄罗斯帝国国家杜马（第一至第四届））: 1905年革命使君主制接受立法性国家杜马，但1906年基本法仍保留皇帝任免政府、解散杜马与紧急立法权。头两届因土地与政治责任问题短命；1907年选举法后第三、四届趋保守。1915年进步同盟施压，1917年二月杜马临时委员会参与接管政权，须与苏维埃共析。 ‖ `→PER-stolypin`[government_counterpart|1906–1911]: 与第二、三届杜马互动 ； `←PER-stolypin`[dissolver_and_partner_then_bypassed|1906–1911]: 任内解散第一、二届杜马并以六三选举法重塑第三届杜马，虽保留议会立法与预算权并试图合作，却…
+- **`ORG-kadets`**（立宪民主党（卡德特党））: 1905年10月从解放同盟诞生的俄国自由主义核心政党，主张四尾制宪、有偿征地与议会道路，曾主导前两届杜马与战时进步同盟。1917年二月主导首届临时政府并切断对杜马从属关系，旋因战争、土地危机及科尔尼洛夫事件退阁丧失民心，十月后被定为“人民公敌”并在内战与流亡中分裂。 ‖ `→PER-stolypin`[negotiator_turned_adversary|1906–1911]: 1906夏拒入斯托雷平内阁，六三后以部分缙绅右翼妥协对照党中央的杜马温和反对派 ； `←PER-stolypin`[failed-negotiator -> rival|1906–1911]: 1906年夏秘密入阁谈判破裂后转为镇压与防备对象，六三后分化拉拢其缙绅右翼
+- **`ORG-octobrists-and-progressive-bloc`**（十月十七日同盟与进步同盟）: 1905年十月宣言后形成的十月十七日同盟是拥护君主立宪的温和自由主义政党；1915年的进步同盟是跨党派杜马联盟，二者并非同一组织。两者既要求改善政府与社会关系，又忧惧群众革命；1917年部分杜马领袖成为临时政权支点，却不能独掌街头、军队与苏维埃。 ‖ `→PER-stolypin`[conditional-support|1907–1911]: 十月党在第三届杜马中支持但非无条件 ； `←PER-stolypin`[tactical_ally_then_ruptured|1907–1911]: 1907–1910年依托古契柯夫领导的十月党及温和右翼组成第三届杜马多数，1911年3月…
+- **`PER-milyukov`**（帕维尔·米留可夫）: 俄国历史学家、卡德特党核心领袖（1859–1943）。主持解放同盟确立四尾制宪与有偿征地纲领；一战任进步同盟舵手，1916年发表“愚蠢还是叛国”演说；1917年任首届临时政府外长，03-03/03-16架空杜马，因04-18[O.S.]/05-01[N.S.]照会下野，流亡提“新策略”。 ‖ `→PER-stolypin`[negotiator_then_adversary|1906–1911]: 1906夏拒入斯托雷平内阁，六三后率卡德特议会党团痛斥斯托雷平体制 ； `←PER-stolypin`[constitutional-opponent|1906–1911]: 米留可夫讽第三届杜马为“老爷与奴才的杜马”，标志自由派与斯托雷平六三体制的决裂
+- **`PER-nicholas-ii`**（尼古拉二世）: 末代沙皇（1894–1917在位），固守东正教君权与家产制专制。1905年经历血腥星期日，被迫签署《十月宣言》；1915年赴莫吉廖夫兼任最高统帅，宫廷趋于孤立。1917-03-02[O.S.]/03-15[N.S.]在普斯科夫退位，1918-07-17于叶卡捷琳堡被处决。 ‖ `→PER-stolypin`[sovereign-patron -> estranged|1906–1911]: 倚重斯托雷平以野战法庭与六三政变平定革命，后期因宫廷保守派与拉斯普京问题对其日渐疏远 ； `←PER-stolypin`[sovereign_patron_to_estranged|1906–1911]: 1906年倚重斯托雷平平定局势，1911年3月西部六省自治案迫使沙皇停会并放逐右翼重臣后…
+- **`POL-stolypin-agrarian-reform`**（斯托雷平土地改革）: 1906年起，斯托雷平政府试图通过农户份地私有化、土地整理、农民银行贷款和移民，创造较自主的农民经营者并稳定农村。退出重分村社、确权、合并土地和迁居独立农庄是不同步骤，成功率及地区差异很大。大战减缓实施，1917年土地革命中许多分离土地重新进入村社分配；改革并未消除农民的土地渴求。 ‖ `←PER-stolypin`[principal_architect_of|1906–1911]: 借 1906-11-09 [O.S.] 敕令与 1910-06-14 [O.S.] 法律… ； `→PER-stolypin`[promoted-by|1906–1911]: 以法律、信贷和移民支持个体经营并维护帝制秩序
+- **`ORG-psr`**（社会革命党）: 1901年末合并建立的俄国新民粹派政党，以土地社会化纲领与战斗组织暗杀闻名。1917年选民基数居全俄之冠却在战争、分地拖延与左翼分裂中失势；虽夺立宪会议多数仍遭解散，内战“第三条道路”溃于高尔察克政变，1922年莫斯科公审后在国内覆灭。 ‖ `←PER-stolypin`[mutual_combat_and_provocation|1906–1911]: 1906年8月社革党最高纲领派炸毁其别墅触发野战军事法庭；社革党随后在镇压与阿泽夫间谍丑…
+- **`PER-witte`**（谢尔盖·维特）: 帝俄财政大臣（1892–1903）暨首任统一大臣会议主席（1905.10–1906.04）。主持铁路国有化、1897年金本位及外资驱动的重工业化，引发农业税负与官僚派系之争；1905年签《朴茨茅斯和约》并促成《十月宣言》，借镇压与22.5亿法郎国际借款缓解皇室即时财政压力。 ‖ `→PER-stolypin`[predecessor_and_rival|1906–1911]: 斯托雷平接管维特留下的财政与《基本法》秩序后改走联合贵族—拆解村社路线，维特在国务会议曾激烈攻击其西部自治法案
+- **`POL-october-manifesto-and-1906-fundamental-laws`**（十月宣言、国家根本法与六三体制）: 1905年革命迫使沙皇签署《十月宣言》，承诺公民自由、杜马立法同意权。1906年《国家根本法》使代议立法制度化，同时保留皇权、上院否决与休会紧急立法；1907年未经议会同意改选举法，形成延至1917年的六三体制。它并非议会责任内阁，亦不能视为纯粹装饰。 ‖ `→PER-stolypin`[reconfigured-by|1906–1911]: 斯托雷平政府利用紧急立法并促成六三选举改制
 
-### 邻居节点: `CON-kulak`
-- **时效关系边** (`CON-kulak` → `PER-stolypin` | `positive-revaluator ("wager-on-the-strong")` | 有效时段: `1906-11–1911-09`): 试图把村社咒骂的分离致富户重塑为帝国秩序支柱的独立私有农庄主
-- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 俄国农村阶层与政治定罪复合概念。原系19世纪村社对高利贷盘剥者的贬称，列宁定性为农村资产阶级，斯托雷平改革试图培育独立私有农户，部分村社成员将分离户斥为富农；1918年成贫农委员会征粮对象，1925年NEP放宽下农村实呈中农化；1928–1929年经刑法第107条与雅科夫列夫委员会武器化为“作为阶级消灭”的清洗标签。
-
-### 邻居节点: `CON-peasant-commune-obshchina`
-- **时效关系边** (`CON-peasant-commune-obshchina` → `PER-stolypin` | `state-dismantler` | 有效时段: `1906-11-22–1911-09-18 [N.S.]`): 颁布独立田庄（хутор/отруб）法令试图拆解村社集体地权、培植保守小私有者阶层
-- **时效关系边** (`PER-stolypin` → `CON-peasant-commune-obshchina` | `targeted_for_dissolution` | 有效时段: `1906–1911`): 视重分村社为农业停滞与动乱根源而力图培育平行私有农场，但遭黑土区共同体与条田耕作惯性普遍抵制
-- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 帝俄至苏俄初期乡村核心自治与土地重分制度。1861年废奴改革保留连环保与重分地村社；民粹派奉为社会主义胚胎并获1881年晚年马克思有条件背书，列宁1899年判其资本主义分化，斯托雷平立法拆解之；1917–1918年农民“黑土重分”令其强力复兴并写入1922年《土地法典》，终在1929–1930年全盘集体化中被集体农庄彻底摧毁。
-
-### 邻居节点: `ORG-kadets`
-- **时效关系边** (`ORG-kadets` → `PER-stolypin` | `failed-negotiator -> opponent` | 有效时段: `1906–1911`): 1906年夏入阁谈判无果而终，六三政变后党中央转入反对派，部分缙绅右翼则倒向斯托雷平选举体制
-- **时效关系边** (`PER-stolypin` → `ORG-kadets` | `failed-negotiator -> rival` | 有效时段: `1906–1911`): 1906年夏秘密入阁谈判破裂后转为镇压与防备对象，六三后分化拉拢其缙绅右翼
-- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 1905年10月从解放同盟诞生的俄国自由主义核心政党，主张四尾制宪、有偿征地与议会道路，曾主导前两届杜马与战时进步同盟。1917年二月主导首届临时政府并切断对杜马从属关系，旋因战争、土地危机及科尔尼洛夫事件退阁丧失民心，十月后被定为“人民公敌”并在内战与流亡中分裂。
-
-### 邻居节点: `PER-nicholas-ii`
-- **时效关系边** (`PER-nicholas-ii` → `PER-stolypin` | `sovereign-patron -> estranged` | 有效时段: `1906–1911`): 倚重斯托雷平以野战法庭与六三政变平定革命，后期因宫廷保守派与拉斯普京问题对其日渐疏远
-- **时效关系边** (`PER-stolypin` → `PER-nicholas-ii` | `sovereign_patron_to_estranged` | 有效时段: `1906–1911`): 1906年倚重斯托雷平平定局势，1911年3月西部六省自治案迫使沙皇停会并放逐右翼重臣后，沙皇对其怨愤日深、已有意撤换
-- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 俄罗斯帝国末代沙皇（1894–1917在位）。固守东正教君权神授与家产制专制信条；经历1905年血腥星期日并被迫签署《十月宣言》，1915年亲赴莫吉廖夫兼任最高统帅引发宫廷孤立，`1917-03-02 [O.S.] / 1917-03-15 [N.S.]` 在普斯科夫退位，`1918-07-17` 在叶卡捷琳堡伊帕季耶夫宅邸被处决。
-
-### 邻居节点: `PER-milyukov`
-- **时效关系边** (`PER-stolypin` → `PER-milyukov` | `constitutional-opponent` | 有效时段: `1906–1911`): 米留可夫讽第三届杜马为“老爷与奴才的杜马”，标志自由派与斯托雷平六三体制的决裂
-- **节点定性微摘要 [T1]** (完备度 `draft`): 俄国历史学家、立宪民主党（卡德特党）核心领袖。曾主持“解放同盟”并提出四尾制宪与有偿征地纲领；1915年组建战时“进步同盟”；1917年二月后任首届临时政府外交部长，在3月3日（俄历）/3月16日（公历）会议上架空国家杜马、宣称“全部完满权力”，5月因坚持参战照会下野。
-
-### 邻居节点: `ORG-psr`
-- **时效关系边** (`PER-stolypin` → `ORG-psr` | `mutual-combat` | 有效时段: `1906–1911`): 1906年8月药剂师岛最高纲领派爆炸案触发野战法庭；1911年刺客博格罗夫则系游走革命圈与暗探局的双面线人
-- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 1901年末合并建立的俄国新民粹派政党，以土地社会化纲领与战斗组织暗杀闻名。1917年选民基数居全俄之冠却在战争、分地拖延与左翼分裂中失势；虽夺立宪会议多数仍遭解散，内战“第三条道路”溃于高尔察克政变，1922年莫斯科公审后在国内覆灭。
-
-### 邻居节点: `PER-witte`
-- **时效关系边** (`PER-witte` → `PER-stolypin` | `predecessor-rival` | 有效时段: `1906–1911`): 斯托雷平承接维特内阁末期谈妥的法国贷款与 1906-04-26 [O.S.] / 05-09 [N.S.] 公布的《基本法》框架，转向拆解村社并修复与联合贵族会的关系，两人晚年相互攻讦
-- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 帝俄财政大臣（1892–1903）暨首任统一大臣会议主席（1905.10–1906.04）。主持铁路国有化、1897年金本位及外资驱动的重工业化，引发农业税负与官僚派系之争；1905年签《朴茨茅斯和约》并促成《十月宣言》，借镇压与22.5亿法郎国际借款缓解皇室即时财政压力。
-
-### 邻居节点: `POL-october-manifesto-and-1906-fundamental-laws`
-- **时效关系边** (`POL-october-manifesto-and-1906-fundamental-laws` → `PER-stolypin` | `reconfigured-by` | 有效时段: `1906–1911`): 斯托雷平政府利用紧急立法并促成六三选举改制
-- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 1905年革命迫使尼古拉二世签署维特推动的《十月宣言》，承诺公民自由和杜马立法同意权；1906年修订《国家根本法》使代议立法制度化，同时保留皇权、上院否决及休会紧急立法。1907年以未经议会同意的新选举法重组杜马，形成持续到1917年帝制崩溃的保守“六三体制”。它既不是议会责任内阁，也不能简单视为毫无影响的装饰。
-
-### 邻居节点: `POL-stolypin-agrarian-reform`
-- **时效关系边** (`POL-stolypin-agrarian-reform` → `PER-stolypin` | `promoted-by` | 有效时段: `1906–1911`): 以法律、信贷和移民支持个体经营并维护帝制秩序
-- **时效关系边** (`PER-stolypin` → `POL-stolypin-agrarian-reform` | `principal_architect_of` | 有效时段: `1906–1911`): 借 1906-11-09 [O.S.] 敕令与 1910-06-14 [O.S.] 法律推行允许农户脱社确权、整田并地与西伯利亚移民
-- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 1906年起，斯托雷平政府试图通过农户份地私有化、土地整理、农民银行贷款和移民，创造较自主的农民经营者并稳定农村。退出重分村社、确权、合并土地和迁居独立农庄是不同步骤，成功率及地区差异很大。大战减缓实施，1917年土地革命中许多分离土地重新进入村社分配；改革并未消除农民的土地渴求。
-
-### 邻居节点: `INS-state-duma-1906-1917`
-- **时效关系边** (`INS-state-duma-1906-1917` → `PER-stolypin` | `government_counterpart` | 有效时段: `1906–1911`): 与第二、三届杜马互动
-- **时效关系边** (`PER-stolypin` → `INS-state-duma-1906-1917` | `dissolver_and_partner_then_bypassed` | 有效时段: `1906–1911`): 任内解散第一、二届杜马并以六三选举法重塑第三届杜马，虽保留议会立法与预算权并试图合作，却在1911年3月以第87条自毁议会联盟
-- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 1905年革命使君主制接受立法性国家杜马，但1906年基本法仍保留皇帝任免政府、解散杜马与紧急立法权。头两届因土地与政治责任问题短命；1907年选举法后第三、四届趋保守。1915年进步同盟施压，1917年二月杜马临时委员会参与接管政权，须与苏维埃共析。
-
-### 邻居节点: `ORG-octobrists-and-progressive-bloc`
-- **时效关系边** (`ORG-octobrists-and-progressive-bloc` → `PER-stolypin` | `conditional-support` | 有效时段: `1907–1911`): 十月党在第三届杜马中支持但非无条件
-- **时效关系边** (`PER-stolypin` → `ORG-octobrists-and-progressive-bloc` | `tactical_ally_then_ruptured` | 有效时段: `1907–1911`): 1907–1910年依托古契柯夫领导的十月党及温和右翼组成第三届杜马多数，1911年3月14日 [O.S.] 第87条颁法导致合作破裂
-- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 1905年十月宣言后形成的十月十七日同盟是拥护君主立宪的温和自由主义政党；1915年的进步同盟是跨党派杜马联盟，二者并非同一组织。两者既要求改善政府与社会关系，又忧惧群众革命；1917年部分杜马领袖成为临时政权支点，却不能独掌街头、军队与苏维埃。
-
-### 邻居节点: `EVT-1907-1914-june-third-regime-and-lena-to-july-strikes`
-- **时效关系边** (`EVT-1907-1914-june-third-regime-and-lena-to-july-strikes` → `PER-stolypin` | `architect_of_first_phase` | 有效时段: `1907–1911`): 主导六三政变与土地改革，1911年基辅遇刺后温和保守协调机制随之瓦解
-- **时效关系边** (`PER-stolypin` → `EVT-1907-1914-june-third-regime-and-lena-to-july-strikes` | `regime_architect_of` | 有效时段: `1907–1911`): 颁行 1907-06-03 [O.S.] 新选举法奠定六三杜马格局，其遇刺后内阁失去强势改革中心，1912年后城市工潮再度升级
-- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 1907年6月3日[O.S.]六三政变至1914年7月一战爆发间的战前危机年代。前五年呈现土地缙绅杜马优势、斯托雷平土改与地下党受挫蛰伏；1912年4月勒拿金矿惨案引爆《真理报》创刊、工会与保险会转向及1914年7月圣彼得堡街垒工潮，引发战前稳定与否之争。
-
-## 3. 关联史学争鸣光谱 (Historiographical Debates)
+## 3. 关联史学争鸣与学者论断索引 (主卡外关联争鸣 2 项)
 ### `DEB-1906-stolypin-wager-and-agrarian-viability`：村社生命力与斯托雷平土改前景之争
 ## [T1] 核心问题定义
 如果没有世界大战，帝俄能否借私有农户与农业增长和平化解农村革命？争议同时涉及生产效率、村社制度的适应力与政治稳定，任何一项的改善都不能自动证明另外两项。反事实命题不能由改革中断的事实直接证成或证伪。
@@ -131,7 +80,25 @@
 | 反必然论、世袭国家与自由派宪制困境（兼对乐观演进派的回应） | Richard Pipes, *The Russian Revolution* (1990); Fedor Gaida (2003) | Pipes代表反海姆森的政治偶然论与世袭国家观，断言“20世纪初俄国没有任何事物不可阻挡地推向革命，除了一支异常庞大而狂热的职业革命家队伍”，强调一战冲击才是制度崩解主因（与Gerschenkron等战前工业现代化乐观演进派呼应）；Fedor Gaida剖析杜马自由派要求“信任内阁”却畏惧承担革命责任的制度困境（注：Gaida对进步集团的实证主要在1915–1916战时，不可直接倒灌为1914年前事实）。 | `CLM-pipes-1990-patrimonial-state-and-intelligentsia`；`CLM-gaida-2003-progressive-bloc-dilemma` | 将1912–1914年逾百万罢工归咎于少数职业革命家煽动，难以解释布尔什维克在合法工会与保险局选举中的真实得票优势。 |
 | 现代化断裂、连续危机与总体战治理 | Mark D. Steinberg, *The Russian Revolution, 1905–1921* (2017); David L. Hoffmann, *Cultivating the Masses* (2011); 姚海（主编）《俄国革命史》(2013) | Steinberg与Hoffmann将1905–1921/1929年置于现代性危机与1914年后欧洲总体战人口动员、粮食统制和国家暴力技术连续谱中；姚海指出1905–1914年沙皇政权主动关闭政治改革窗口造成现代化进程断裂，激发下层平民激进主义。 | `CLM-steinberg-2017-continuum-of-crisis-1905-1921`；`CLM-hoffmann-2011-continuum-of-total-war-1914-1929`；`CLM-yao-hai-1917-modernization-rupture-and-plebeian-radicalism` | 1914年后的战时总体战治理经验不能倒果为因地充当1914年7月前和平时期必然崩溃的证明。 |
 
-## 4. 关联时间线锚点 (共 3 条)
+
+### 3.1 关联核心论断与史学家学派坐标 (`CLM-*` → `SCH-*`, 展示前 15/15 条)
+- **`CLM-manning-1982-june-third-coup-social-basis`** [`SCH-manning-roberta`(罗伯塔·T·曼宁) | pp. 238–239]: 
+- **`CLM-hildermeier-2000-azev-affair-and-stolypin-era-paralysis`** [`SCH-hildermeier-manfred`(曼弗雷德·希尔德迈尔) | EPUB版无稳定原书页码；以本地章节与行号定位（ch14 L24–91, ch18 L112–150, ch22 L6–108, ch23 L81–217, ch24 L8–285, ch25 L6–33, ch26 L6–62；epub:main-14.xhtml, main-23.xhtml, main-24.xhtml, main-25.xhtml, main-26.xhtml, main-27.xhtml）]: 
+- **`CLM-figes-1996-peasant-moral-economy-1917`** [`SCH-figes-orlando`(奥兰多·费吉斯) | pp. 343-352]: 
+- **`CLM-service-lenin-v1-agrarian-marxism-and-1905-tactics`** [`SCH-service-robert`(罗伯特·瑟维斯) | pp. 74-80, 152-166, 169-185 (中译本 PDF 页码)]: 
+- **`CLM-hildermeier-2000-agrarian-socialism-modernization-dilemma`** [`SCH-hildermeier-manfred`(曼弗雷德·希尔德迈尔) | EPUB版无稳定原书页码；以本地章节与行号定位（ch08 L75–232, ch09 L26–44, ch12 L204–282, ch13 L107–185, ch17 L115–310, ch20 L750–753, ch24 L180–285, ch26 L6–96；epub:main-8.xhtml, main-9.xhtml, main-12.xhtml, main-13.xhtml, main-21.xhtml, main-25.xhtml, main-27.xhtml）]: 
+- **`CLM-steinberg-2017-continuum-of-crisis-1905-1921`** [`SCH-steinberg-mark`(马克·D·斯坦伯格) | pp. 19, 61–62, 107–108]: 
+- **`CLM-bonnell-1983-1912-1914-union-and-insurance-boards-bolshevik-capture`** [`SCH-bonnell-victoria`(维多利亚·E·邦内尔) | Book pp. 366–371, 390–438 [PDF pp. 389–394, 413–461]]: 
+- **`CLM-bonnell-1983-state-employer-repression-undermining-menshevik-reformism`** [`SCH-bonnell-victoria`(维多利亚·E·邦内尔) | Book pp. 292–305, 316–323, 336–352, 372–389, 450–452 [PDF pp. 315–328, 339–346, 359–375, 395–412, 473–475]]: 
+- **`CLM-hogan-1994-petersburg-metalworkers-1905-to-lena`** [`SCH-hogan-heather`(希瑟·霍根 · labor-social-history) | pp. 85–112]: 
+- **`CLM-smith-sa-1996-petersburg-bolshevik-vs-menshevik-worker-appeal`** [`SCH-smith-sa`(斯蒂芬·A·史密斯（S. A. Smith）) | International Review of Social History, vol. 41 (1996), pp. 12–15, 19–25]: 
+- **`CLM-manning-1982-gentry-fronde-to-reaction`** [`SCH-manning-roberta`(罗伯塔·T·曼宁) | pp. 54–60, 122–124]: 
+- **`CLM-pipes-1990-patrimonial-state-and-intelligentsia`** [`SCH-pipes-richard`(理查德·派普斯) | ch. 2 (Official Russia); ch. 4 (The Intelligentsia); cf. Introduction]: 
+- **`CLM-gaida-2003-progressive-bloc-dilemma`** [`SCH-gaida-fedor`(费奥多尔·盖达) | pp. 135-136, 162-168]: 
+- **`CLM-hoffmann-2011-continuum-of-total-war-1914-1929`** [`SCH-hoffmann-david`(大卫·L·霍夫曼) | pp. 12–13, 38, 127–128]: 
+- **`CLM-yao-hai-1917-modernization-rupture-and-plebeian-radicalism`** [`SCH-yao-hai`(姚海) | [PDF pp. 47-55, 57-64, 68-72, 75-81, 87-88]]: 
+
+## 4. 关联时间线骨干锚点 (L0–L2 展示 3 条)
 - **1906-11-09 [O.S.] / 1906-11-22 [N.S.]** (`TL-W15-L1-E04-01`, L1): **斯托雷平村社土地法令** — 允许农户退出村社、巩固私有地权，是六三体制的政策前史。
 - **1907-11-01 [O.S.] / 1907-11-14 [N.S.]** (`TL-W15-L1-E04-02`, L1): **第三届国家杜马开幕** — 新选举制度提高地主与富裕选民权重，形成受限议会政治。
 - **1911-09-01 [O.S.] / 1911-09-14 [N.S.]** (`TL-W15-L1-E04-03`, L1): **斯托雷平遇刺** — 基辅枪击后数日去世；改革延续性与政治稳定并非由此日单独决定。

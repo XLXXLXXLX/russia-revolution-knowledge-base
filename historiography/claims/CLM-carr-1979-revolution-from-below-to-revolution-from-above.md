@@ -7,7 +7,7 @@ publication_year: 1979
 source_tier: A
 local_source_path: "sources/monographs/carr_1979_lenin_to_stalin/ch00_pages_1-25.md#L364-L461; ch01_pages_26-50.md#L831-L880; ch05_pages_126-150.md#L845-L871; ch07_pages_176-200.md#L27-L45; ch08_pages_201-215.md#L62-L92"
 original_pages: "pp. vii, 3–7, 30–31, 131, 161, 187"
-targets_cards: ["PER-lenin", "PER-stalin", "POL-nep", "POL-war-communism", "EVT-1928-grain-crisis"]
+targets_cards: ["PER-lenin", "PER-stalin", "POL-nep", "POL-war-communism", "EVT-1928-grain-procurement-crisis"]
 debate: DEB-1928-bukharin-alternative
 supports: []
 rebuts: []

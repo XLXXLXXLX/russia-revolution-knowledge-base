@@ -1,7 +1,7 @@
 ---
 id: "CLM-hobsbawm-1959-archaic-peasant-rebellion-vs-modern-party"
 type: "claim"
-scholar: "[[艾瑞克·霍布斯鲍姆]]（E. J. Hobsbawm）"
+scholar: SCH-hobsbawm-eric
 work: "《原始的叛乱：十九至二十世纪社会运动的古朴形式》（Primitive Rebels, 1959）"
 school: "marxist-social-history"
 period_covered: "1900-1929"

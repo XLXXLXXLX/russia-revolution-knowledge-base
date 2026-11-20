@@ -7,7 +7,7 @@ publication_year: 1952
 source_tier: A
 local_source_path: "sources/monographs/carr_bolshevik_rev_v2_zh/ch07_第四部分_经济秩序_part_5.md#L719-L850; sources/monographs/carr_bolshevik_rev_v2_zh/ch08_第四部分_经济秩序_part_6.md#L123-L167, #L743-L763"
 original_pages: "Vol. 2 Chinese PDF pp. 118-166 (Chs. 18–20)"
-targets_cards: ["POL-nep", "CON-smychka", "CON-commanding-heights", "EVT-1921-kronstadt", "ORG-gosplan"]
+targets_cards: ["POL-nep", "CON-smychka", "EVT-1921-kronstadt", "INS-vsnkh-and-gosplan"]
 debate: DEB-1928-bukharin-alternative
 supports: []
 rebuts: []

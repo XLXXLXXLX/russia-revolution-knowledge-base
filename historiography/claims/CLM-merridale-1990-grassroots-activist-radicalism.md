@@ -7,7 +7,7 @@ publication_year: 1990
 source_tier: A
 local_source_path: "sources/monographs/merridale_1990_moscow_politics_zh/ch05_第一部分_莫斯科的政治变革_1925_32年.md#L1108-L1279"
 original_pages: "pp. 61-65"
-targets_cards: ["POL-nep", "PER-stalin", "CON-class-struggle-radicalism", "ORG-moscow-party-committee"]
+targets_cards: ["POL-nep", "PER-stalin", "DEB-1918-working-class-and-bolsheviks", "ORG-bolsheviks-rcpb-vkpb"]
 debate: DEB-1928-bukharin-alternative
 supports: []
 rebuts: []

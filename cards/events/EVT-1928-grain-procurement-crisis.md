@@ -9,97 +9,110 @@ names:
 dates:
   start_ns: "1927-10-01"
   end_ns: "1929-12-27"
-coverage_status: draft
-perspectives_present: ["revisionist-political", "peasant-social", "economic-institutional", "archival-biographical", "grassroots-mentalite"]
+coverage_status: multi-perspective
+perspectives_present: ["revisionist-political", "peasant-social", "economic-institutional", "archival-biographical", "grassroots-mentalite", "post-soviet-archival-statistics", "gendered-industrial-mobilization"]
 perspectives_missing: ["totalitarian-school-pipes-conquest", "peasant-petition-and-letter-archives"]
-related_debates: ["DEB-1928-bukharin-alternative", "DEB-1929-collectivization-and-dekulakization-causes"]
-updated_at: "2026-11-18"
+related_debates: ["DEB-1928-bukharin-alternative", "DEB-1929-collectivization-and-dekulakization-causes", "DEB-1928-shakhty-specialist-baiting-and-cultural-revolution"]
+updated_at: "2026-11-19"
 ---
 
-# 1927冬–1929年粮食收购危机（Grain Procurement Crisis of 1927–1929）
+## [T1] 150字定性微摘要
+1927年秋冬国家收粮锐减，相对价格、工业品荒与战争恐慌共同削弱售粮意愿。1928年非常措施及随后村社摊派把交换危机转为强制征购和党内路线冲突；布哈林等反对者逐步失势，至1929年底转向全盘集体化。粮食总产、商品粮与国家采购须分开衡量。
 
-## [T1] 60秒定性微摘要
-以 `1927-10-01`（1927/28粮食收购统计年度期界起点，非单日突发事件）至 `1929-12-27`（斯大林宣布“消灭富农阶级”演说日）为期界的引发新经济政策（NEP）终结的体制性危机。工业品荒、农牧收购比价失衡及1927年战争恐慌引发农民惜售，国家收购量在11–12月暴跌；斯大林定性为“富农罢卖”，借刑法第107条与“乌拉尔—西伯利亚方法”推行强制征粮，击败布哈林右派并在1929年底转向全盘集体化。
-
-## [T2] 核心脉络、时效关系边表与史学争鸣光谱
+## [T2] 核心脉络、关系网络与史学争鸣
 
 ### 2.1 核心历史脉络
-- **第一阶段：1927年秋冬收购崩盘与多重诱因叠加（1927.10–1927.12）**：尽管1927年苏联农业总体丰收，但自1927/28收购年度（`1927-10-01` 统计期界起算）进入秋冬后，国家粮食收购量较上年同期急剧下滑（据 `DATA-03`，10月收购104万吨对上年152万吨，11月64.5万吨对上年157万吨，12月59.9万吨对上年146万吨，11–12月收购量不足上年同期一半）。危机由三重结构性与政策性冲击叠加而成：
-  1. **价格剪刀差与农牧比价扭曲**：国家在1926/27年度下调谷物官方收购价，同时大幅提高畜产品与经济作物价格，诱使农民将余粮充作饲料或留存；
-  2. **1927年春夏季“战争恐慌”与工业品荒（Goods Famine）**：1927年5月英苏断交引发的战争恐慌导致城乡居民在春季抢购盐、煤油、铁器与布匹，到秋季新粮上市时国营合作社货架早已空空如也（米高扬在联共十五大公开承认），农民手握4.5亿卢布现金却买不到工业品；
-  3. **联共十五大（1927.12）的政治盲视**：忙于粉碎托季联合反对派的党领导层对迫在眉睫的收购赤字迟钝麻木，直至1927年底城市口粮、红军补给与工业设备进口外汇同时告急。
-- **第二阶段：斯大林西伯利亚之行与“非常措施”（刑法第107条）（1928.01–1928.06）**：`1928-01-06`，斯大林向地方发出强硬指令，并于 `1928-01-15` 至 `02-06` 亲自赴乌拉尔与西伯利亚督战。`1928-01-20` 在新西伯利亚党政干部会议上，斯大林将危机定性为“富农蓄意破坏（富农罢卖）”，下令动用苏俄刑法第107条（反投机法）没收余粮、关闭农村集市、强摊农民公债，并首次明确提出唯一出路是搞集体农庄与国营农场。然而两套核心统计与史学口径均表明商品粮主体并非富农：据卡尔与戴维斯引述的涅姆钦诺夫统计表（见 `DATA-03`），1926/27年度全苏 **74.0% 的商品粮来自中农与贫农合计**（富农仅占20%，国营与集体农庄占6%）；而据莫舍·勒温论断卡（`CLM-lewin-peasants-1968-grain-procurement-crisis`）估算，**75%–80% 的商品粮掌握在中农（`serednyak`）手中**（两套统计分母口径不同，不可混焊为单一区间）。因此，所谓“打击富农”迅速演变为针对广大中农与产粮农民的战时余粮收集制（`prodrazverstka`）复活，引发农村恐慌与春耕缩减。
-- **第三阶段：1928年7月中央全会摊牌、“贡赋论”与布哈林右派反抗（1928.07–1928.11）**：在 `1928-07-04` 至 `07-12` 联共中央全会上，面对布哈林、李可夫、托姆斯基对非常措施的强烈抗议，斯大林一方面口头同意取消非常措施、略微上调粮价，另一方面抛出著名的“贡赋”（`dan'`，即超额税）理论与“社会主义越前进，阶级斗争越尖锐”论断。随着政治局内加里宁、伏罗希洛夫倒向斯大林，惊恐的布哈林于 `1928-07-11` 在索科尔尼科夫陪同下密会加米涅夫，痛斥斯大林路线是“军事封建剥削”，并于 `1928-09-30` 在《真理报》发表《一个经济学家的札记》作公开理论抗争；但斯大林在1928年10–11月迅速夺取乌格拉诺夫的莫斯科市委并孤立右派。
-- **第四阶段：“乌拉尔—西伯利亚方法”与1929年底全盘集体化大转折（1928冬–1929.12）**：由于1928年乌克兰与北高加索旱灾及农民消极抵制（缩减播面、屠宰牲畜），1928年秋冬危机再度恶化。斯大林推广“乌拉尔—西伯利亚方法”：据勒温论断卡（`CLM-lewin-peasants-1968-ural-siberian-method`）转述（具体制度细则与专书页码待回核），党全权代表利用村民大会（`skhod`）无法定人数限制的规则，操纵贫农投票将高额交粮定额强加给“富农与富裕中农”，辅以五倍罚款（`pyatikratka`）、刑法第61条第3款（财产拍卖与流放）及清洗村苏维埃主席（勒温论断卡转述比例为82%，国家粮食储备仍较上年下降20%）。强制征粮的恶性循环最终促使斯大林在1929年11月中央全会与 `1929-12-27` 演说中宣布“消灭富农阶级”与“全盘集体化”。
 
-### 2.2 时效关系摘要边表（Typed & Temporalized Edges）
-| 关联节点 ID | 关系类型 | 有效时段 | 一句话关系实质摘要（防 N+1 盲跳） | 核心依据/争鸣 |
+**秋冬收购骤降，而非“没有粮食”的同义词（1927）**。1927年10—12月国家采购分别为104万、64.5万、59.9万吨，上年同期为152万、157万、146万吨；11—12月均不足上年同期一半（`DATA-03-1926-1929-grain-procurement-and-nemchinov-table`；至1927年底国家收购较上年累计短缺约1.28亿普特／约209–210万吨，L3 `1928-01`）。本卡1927年10月1日起点只是秋季危机观察窗，不是农业年度统一起点或单日爆发日，亦不沿用“1927年总体丰收”作为未经分区核定的前提。谷物总产、运出农村的商品粮、国家所购粮及出口粮各有不同分母；国家一时收不到粮，不等于农村没有存粮，更不直接证明一个政治阶层协调罢卖。
+
+Carr与Davies强调谷物相对畜产品、经济作物的低官价，农村现金增加、税负变化和工业消费品短缺，使农民可通过售畜等途径取得现金而减少售粮。1927年战争恐慌又促使居民提前抢购和留存粮货；Velikanova以OGPU舆情材料重建这种心理环境，但报告记录的是被机关发现和分类的言行，不是全体农民投票。国家城市口粮、军队供应及外贸／工业进口需求同时增长，使市场交易困难成为政治危机。
+
+**第107条与西伯利亚督粮（1928年1—春季）**。1928年1月6日政治局签发斯大林起草的绝密督粮通令后，1月12日高层分兵（什维尔尼克赴乌拉尔、米高扬赴北高加索），斯大林本人1月15日至2月6日秘密巡视西伯利亚（Cohen 泛写“乌拉尔和西伯利亚”，实行程为新西伯利亚、巴尔瑙尔、鲁布佐夫斯克、鄂木斯克及克拉斯诺亚尔斯克），1月20日新西伯利亚闭门讲话把问题归为“富农”操纵并强令适用刑法第107条。没收、搜查、封市和行政压力波及中农，显露“打击少数阶级敌人”与依赖普通产粮农户之间的矛盾。Kotkin将讲话解释为列宁主义阶级逻辑中的转折，同时承认此时没有全盘集体化的现成操作蓝图；不能把1929年底全国性跃进的完整规则倒填为1928年1月已定案（`CLM-kotkin-2014-siberian-grain-turn`）。
+
+1928年5月28日斯大林《在粮食战线上》援引涅姆奇诺夫表，将战前商品率26%与1926/27年的13.3%对照，主张大型集体生产。该近似表同时列中贫农贡献商品粮74%、富农20%、国营和集体农庄6%；它不支持富农掌握全部商品粮。表的阶层分组、家庭分裂和口粮改善也影响前后比较，Carr—Davies据此批判简单的“富农罢卖”诊断。Lewin另估中农掌握75%—80%的商品粮，类别和推算口径有别，不能把两数熔成“中农占74%—80%”这一伪精确区间。
+
+**7月妥协与右翼逐渐失去组织阵地（1928年7—11月）**。同期并行的沙赫特技术专家案（1928年3—7月）与征粮危机共振，7月9日5名死刑犯枪决正与斯大林七月全会“贡赋”暨“阶级斗争尖锐化”演说同日，而布哈林、托姆斯基三月附和抓捕削弱了同古比雪夫、奥尔忠尼启则的制衡联盟（`EVT-1928-shakhty-affair-show-trial`）。7月4—12日中央全会在非常措施造成的冲突中承诺避免重复，粮价调整与“贡赋”辩论并存。斯大林7月9日为工业化通过城乡价格抽取类似贡税作辩护；这是参与者的政策论证，不是已经完成的国民收入转移核算。布哈林7月11日密会加米涅夫、9月30日发表《一个经济学家的札记》，同李可夫、托姆斯基反对强制及过量投资。莫斯科乌格拉诺夫阵地在秋季瓦解，莫洛托夫11月接任；不能把10月地方干部清洗与正式接任合成同日。Cohen、Merridale与Apalkov分别解释理论替代、基层疏离、人事权和“党的统一”规则怎样约束右翼。
+
+**1928—1929年冬危机、1929年制度强化与年底转向**。减收、作物分布及交售意愿变化使下一轮收购困难持续。Lewin所述乌拉尔—西伯利亚方法以村社摊派和“自下而上压力”包装国家指标，配合合作社断供、五倍罚款；五倍罚款的授权与刑法第61条第3款修订分别推进至1929年4月、6月。不能将这套成熟组合统称为1928年1月第107条的原样实施，也不能把“1928至1930年3月间撤换82%村苏维埃主席”压缩成1929年一年的数据（`CLM-lewin-peasants-1968-ural-siberian-method`）。
+
+1929年4月联席全会、随后计划批准与秋季指标跃升压缩了温和路线。11月10—17日中央全会将布哈林逐出政治局并警告李可夫、托姆斯基（25日三人签署检讨、26日见报），12月委员会仍就速度、退社权、消费牲畜及富农处理争论；12月25日斯大林否决草案，27日公开宣布消灭富农阶级，具体过程由 `EVT-1929-great-turn-and-dekulakization-launch` 承接。至12月25日当季累计征购13,616,151吨、上年同期6,345,277吨，是强制政策下的另一个年度截面，不能同1927年秋月度数直接相减。征粮专项逮捕49,068人与其他OGPU办案条线也不得相加（DATA-06）。
+
+工业化还在重组城市劳动供给。N. D. Arapovich所载1929年重工业女工招募与技术教育配额，显示资源动员不只发生在乡村；这是同时期工业化政策的一面，不能据此证明收购暴力的必要性、女性已获平等或农民外流已被全部吸收。
+
+### 2.2 核心关系网络（结构化边表）
+
+| 目标节点 ID | 关系类型 | 有效时段（公历） | 关系实质摘要 | 核心依据 |
 | :--- | :--- | :--- | :--- | :--- |
-| `PER-stalin` | `leads` | 1928.01–1929.12 | 亲赴西伯利亚督战，将危机定性为“富农罢卖”，推行刑法第107条、贡赋论与乌拉尔—西伯利亚方法直至全盘集体化。 | `CLM-kotkin-2014-siberian-grain-turn`, `CLM-lewin-peasants-1968-ural-siberian-method` |
-| `PER-bukharin` | `opposes` | 1928.02–1929.11 | 痛斥非常措施与“贡赋论”为军事封建剥削，发表《一个经济学家的札记》捍卫NEP动态平衡，但遭组织挫败。 | `CLM-cohen-1973-july-1928-plenum-and-kamenev`, `CLM-cohen-1973-notes-of-an-economist` |
-| `PER-rykov` | `opposes` | 1928.02–1929.11 | 作为人民委员会主席在政治局与1928年7月全会上力主取消非常措施、恢复市场价格激励与局部进口谷物。 | `CLM-cohen-1973-bukharin-organizational-defeat` |
-| `PER-sokolnikov` | `participates_in` | 1928.07 | 主张通过外贸与价格杠杆化解危机，并于1928年7月11日陪同布哈林前往加米涅夫寓所密谈反斯大林同盟。 | `CLM-kotkin-2014-bukharin-dilemma` |
-| `PER-uglanov` | `opposes` | 1928.01–1928.10 | 在莫斯科公开反对打击“亲爱的小富农”与重工业冒进，1928年10月因此被斯大林改组夺取莫斯科市委。 | `CLM-merridale-1990-uglanov-moscow-collapse` |
-| `PER-molotov` | `leads` | 1928.01–1929.12 | 斯大林推行非常措施与乌拉尔—西伯利亚方法的头号执行官，督战清洗温和派地方干部并接管莫斯科市委。 | `CLM-lewin-peasants-1968-ural-siberian-method` |
+| `PER-stalin` | `coercive_policy_and_class_diagnosis` | 1928.01—1929.12 | 推动第107条征购、贡赋辩护与集体化转向，操作方案仍逐步形成 | Kotkin；Zemskov；原典 |
+| `PER-bukharin` | `alternative_policy_and_defeat` | 1928—1929.11 | 主张动态平衡与农民激励，反对非常措施并在组织斗争中失势 | Cohen；Erlich |
+| `PER-rykov` | `governmental_criticism` | 1928—1929 | 在政府及全会中反对强制、争取恢复农业与调整政策 | Cohen；Apalkov |
+| `PER-tomsky` | `right_opposition_ally` | 1928—1929 | 反对强制征粮并被清洗出工会领导层，1929年11月遭警告并与布、李联署检讨 | `MTG-1929-04-cc-joint-plenum`；`MTG-1929-11-cc-plenum` |
+| `PER-sokolnikov` | `market_and_external_trade_alternative` | 1928.07 | 参与布哈林—加米涅夫接触，市场和外贸方案须同其失去财政职位的时段区分 | Kotkin；Cohen |
+| `PER-uglanov` | `moscow_organizational_loss` | 1928年秋 | 温和农业路线未能克服基层疏离及人事网络弱点 | `CLM-merridale-1990-uglanov-moscow-collapse` |
+| `PER-molotov` | `organizational_and_policy_enforcement` | 1928—1929 | 参与多数派干部更替及强硬征购推进，11月接掌莫斯科 | Merridale；村庄悲剧档案 |
+| `POL-ural-siberian-method` | `institutionalized_procurement_pressure` | 1928—1929年冬至1929 | 村社摊派及随后罚款、刑法制裁组合，不同于第107条单项措施 | `CLM-lewin-peasants-1968-ural-siberian-method` |
+| `INS-cheka-gpu-ogpu` | `information_and_repression` | 1927—1929 | OGPU既提供农村情绪报告，也执行政治与征粮案件 | DATA-06；Velikanova |
+| `POL-first-five-year-plan` | `industrial_demand_and_policy_acceleration` | 1928—1929 | 投资及供给约束与农业资源提取相连，不证明特定手段不可替代 | Erlich；Zemskov |
+| `POL-nep` | `market_framework_undermined` | 1927—1929 | 以市场结合为主的制度逐步被行政交售和集体化替代 | `DEB-1928-bukharin-alternative` |
+| `EVT-1923-scissors-crisis` | `earlier_exchange_tension` | 1923／1927—1929 | 相对价格和购买力失衡有前史，不能等同两轮危机的政策结局 | DATA-02与DATA-03分口径对读 |
+| `EVT-1928-shakhty-affair-show-trial` | `parallel_political_track` | 1928.03—07 | 沙赫特案与粮食危机在四月、七月全会并行升级，重塑反右阵线 | 沙赫特事件卡；L3 `1928-01` |
+| `MTG-1929-04-cc-joint-plenum` | `right_line_condemned` | 1929.04.16—23 | 联席全会定性“布哈林右倾路线”并核准加速指标，压制温和替代空间 | 四月联席全会卡；L3 `1928-1929` |
+| `MTG-1929-11-cc-plenum` | `right_defeat_and_turn` | 1929.11.10—17 | 逐出布哈林、警告李可夫与托姆斯基（25日联署检讨），接通全面集体化转向 | 十一月全会卡；L3 `1928-1929` |
+| `EVT-1929-great-turn-and-dekulakization-launch` | `policy_escalation` | 1929年夏冬 | 收购危机与高指标、右翼败亡及阶级消灭宣告交汇 | 村庄悲剧；Davies |
 
-### 2.3 史学争鸣光谱：五方核心论断交锋（Five-School Historiographical Matrix）
-1. **斯蒂芬·科恩（Stephen F. Cohen, 1973）——政治传记与“布哈林替代方案”生命力论**：
-   - 科恩在《布哈林与布尔什维克革命》中坚决反驳“新经济政策到1927年已走入死胡同”的决定论。他认为1927年底的粮食危机并非源于NEP不可克服的结构性破产，而是源于国家计划失当、对谷物人为压价的“疯人院价格政策”（'madhouse' price policies）以及重工业投资过热造成的暂时性比例失调与商品荒。布哈林在《一个经济学家的札记》中提出的动态经济平衡方案完全具备现实可行性；右派的失败不是经济理论的破产，而是因为布哈林等人被党纪束缚于高层密室，敌不过斯大林掌控的中央书记处“影子政府”（参见 `CLM-cohen-1973-nep-viability`、`CLM-cohen-1973-july-1928-plenum-and-kamenev`、`CLM-cohen-1973-notes-of-an-economist`、`CLM-cohen-1973-bukharin-organizational-defeat`）。
-2. **莫舍·勒温（Moshe Lewin, 1968）——农村社会结构与“富农神话”解构论**：
-   - 勒温在《俄国农民与苏维埃政权》中从农村阶级结构出发，指出苏维埃时代的所谓“富农”（`kulak`）不过是“中农（`serednyak`）的放大版”，两者在粮价与工业品供应上利益完全一致。据其论断卡转述（未逐页回专书核对），由于75%–80%的商品粮实际上掌握在中农手中，斯大林将“富农与富裕分子（`zazhitochny`）”捆绑打击的刑法第107条及1928–1929年冬的“乌拉尔—西伯利亚方法”（含清洗82%村苏维埃主席，而国家粮食储备仍较上年低20%），从一开始就不可避免地演变为对中农主体的掠夺，直接摧毁了农民扩大再生产的意愿，形成“越抢粮越少、越少越全盘集体化”的恶性螺旋（参见 `CLM-lewin-peasants-1968-kulak-myth-and-serednyak`、`CLM-lewin-peasants-1968-grain-procurement-crisis`、`CLM-lewin-peasants-1968-ural-siberian-method`）。
-3. **E. H. 卡尔与 R. W. 戴维斯（Carr & Davies, 1969）——定量经济史、价格剪刀差与“涅姆钦诺夫表”考据论**：
-   - 卡尔与戴维斯在《计划经济的基础（1926–1929）》中用详尽的财政与价格数据还原了危机的微观机制：1926/27年度国家下调谷物价格却上调畜产品与技术作物价格，叠加1927年8–10月3亿卢布季节性工资流入农村（农村现金储备暴增至4.5亿卢布）、农业税减免13%以及行政强压工业品零售价引发的国营商店抢购一空，使农民既无卖粮换钱的紧迫感，又无货可买。更关键的是，他们彻底解构了斯大林1928年5月28日引用的统计学家涅姆钦诺夫（V. S. Nemchinov）表格：虽然由于农户（`dvor`）从战前1,600万户裂变为2,560万户及农民自身消费改善，粮食综合商品率从战前26%降至13.3%，但该表恰恰证明1926/27年度**74%的商品粮来自中农与贫农**（富农仅占20%），从而在实证上粉碎了斯大林的“富农罢卖论”——真正的矛盾是全体产粮农民与国家超高速工业化积累机器之间的结构性冲突（参见 `CLM-carr-davies-1969-grain-price-scissor-1927`、`CLM-carr-davies-1969-nemchinov-table-critique`；另参看 `CLM-erlich-1960-stalin-overkill-turn` 与 `CLM-nove-1964-stalin-necessity-dilemma`）。
-4. **斯蒂芬·科特金（Stephen Kotkin, 2014）——布尔什维克意识形态死结与专制决断论**：
-   - 科特金在《斯大林：权力的悖论》中承认1927年冬危机是布尔什维克自身价格与投资政策造成的“自残式危机”（self-induced crisis），但他同时否定科恩的“布哈林替代方案”。据科特金论断卡转述（未逐页回专书核对），在全体布尔什维克（包括布哈林）共享的列宁主义阶级世界观中，“新经济政策如果取得成功就必然失败”（the NEP had to fail if it succeeded）——因为最有效率、最能提供商品粮的约200万户8公顷以上农户在布尔什维克眼中正是“正在生长的农村资产阶级（富农）”。面对这一“阶级恶性循环”（class-based vicious circle），斯大林在 `1928-01-20` 新西伯利亚讲话中并非基于现成蓝图，而是出于真诚的列宁主义阶级焦虑与地缘安全冲动，用专制暴力把原本不可能的全盘集体化变成了既成事实（参见 `CLM-kotkin-2014-siberian-grain-turn`、`CLM-kotkin-2014-bukharin-dilemma`）。
-5. **奥尔加·韦利卡诺娃（Olga Velikanova, 2013）——1927年战争恐慌、OGPU 舆情密报（Svodki）与基层失败主义论**：
-   - 韦利卡诺娃在《大众视野中的苏联1927年战争恐慌》中补齐了纯经济史长期忽视的社会心理与国家安全维度：正是1927年春夏季由高层演讲与5月英苏断交引爆的“战争恐慌”（War Scare），导致民众在春季掀起恐慌性抢购狂潮，在秋收前就彻底耗尽了国家工业消费品储备，并于秋季引发农民为备战而囤积余粮。更深层的是，据韦利卡诺娃论断卡转述（未逐页回专书核对），OGPU 密报（`svodki`，仅1927年6–8月就记录了7,269起失败主义事件）显示，广大农民非但不愿保卫苏维埃政权，反而普遍流传“等待外敌入侵、领到步枪后掉转枪口清算苏维埃干部”的失败主义谣言。这种“后方农民将在战时背叛政权”的真实安全恐惧，促使斯大林在1928年作出“与其在战时同时面对波兰人和俄国庄稼汉（`muzhik`）两线作战，不如现在先彻底制服农民”的战略决断（参见 `CLM-velikanova-2013-war-scare-hoarding-and-grain-crisis`、`CLM-velikanova-2013-peasant-defeatism-rumors`、`CLM-velikanova-2013-leadership-manipulation-and-self-deception`）。
-- **待补入库的缺失视角（列于 `perspectives_missing`）**：理查德·派普斯 / 罗伯特·康奎斯特（Richard Pipes / Robert Conquest）式的极权主义学派解释，以及直接反映农民自身声音的农村基层诉愿与信件档案（如《农民致政权书信集》等一手档案）。
+### 2.3 主要史学争鸣与多流派解释
 
-## [T3] 深度考证、分期细目与五方论断原文引证档案
+**经验事实层**：秋冬采购下降、1928年非常措施、右翼抗争以及1929年底跃进均有站内来源。NEP是否可持续、农民激励和国家需求孰重、意识形态与安全焦虑如何转换为具体强制，仍是争论，不以“必然终结”作无主语结论。
 
-### 3.1 第一方：斯蒂芬·科恩（Stephen F. Cohen, 1973）——NEP 可行性、1928年7月全会与布哈林的抗争
-1. **“疯人院价格政策”与新经济政策的生命力**：
-   - 对接 `CLM-cohen-1973-nep-viability`（[CLM-cohen-1973-nep-viability.md](file:///C:/Users/lsaax/.t3/projects/russian-revolution-knowledge-base/historiography/claims/CLM-cohen-1973-nep-viability.md)）：
-   > "The grain crisis of 1927–28 was not the result of an 'iron law' or the inevitable exhaustion of NEP, as Stalinist and many Western historians have claimed. Rather, it was precipitated by specific, avoidable policy errors: temporary disproportions, an acute 'goods famine' caused by overinvestment in heavy industry, and what Rykov and Bukharin rightly called the government's ''madhouse' price policies' that drastically lowered official grain procurement prices relative to livestock and industrial crops." `[Cohen 1973, pp. 270-276, 283]`
-2. **1928年7月中央全会（7月4–12日）与7月11日布哈林—加米涅夫秘密会谈**：
-   - 对接 `CLM-cohen-1973-july-1928-plenum-and-kamenev`（[CLM-cohen-1973-july-1928-plenum-and-kamenev.md](file:///C:/Users/lsaax/.t3/projects/russian-revolution-knowledge-base/historiography/claims/CLM-cohen-1973-july-1928-plenum-and-kamenev.md)）：
-   > "At the July 1928 Plenum, Stalin stunned the Right by defending the extraction of 'something like a tribute' (*dan'*) from the peasantry to finance rapid industrialization and proclaiming that class struggle would only intensify as socialism advanced. Discovering that Kalinin and Voroshilov had defected to Stalin in the Politburo, a shaken Bukharin (accompanied by Sokolnikov) secretly met with Kamenev on July 11, 1928, exclaiming that 'Stalin's line is fatal to the revolution' and equating his policies to 'military-feudal exploitation of the peasantry.'" `[Cohen 1973, pp. 289-291]`
-3. **《一个经济学家的札记》（1928年9月30日）与右派组织溃败**：
-   - 对接 `CLM-cohen-1973-notes-of-an-economist`（[CLM-cohen-1973-notes-of-an-economist.md](file:///C:/Users/lsaax/.t3/projects/russian-revolution-knowledge-base/historiography/claims/CLM-cohen-1973-notes-of-an-economist.md)）与 `CLM-cohen-1973-bukharin-organizational-defeat`（[CLM-cohen-1973-bukharin-organizational-defeat.md](file:///C:/Users/lsaax/.t3/projects/russian-revolution-knowledge-base/historiography/claims/CLM-cohen-1973-bukharin-organizational-defeat.md)）：
-   > "In 'Notes of an Economist' (*Pravda*, September 30, 1928), Bukharin warned that maximalist overinvestment in heavy industry violated the conditions of dynamic economic equilibrium, freezing capital in unfinished construction and creating acute shortages—famously observing that one cannot build 'present-day' factories with 'future bricks.'" `[Cohen 1973, pp. 295-296, 318-320]`
-   > "Despite enjoying broad potential sympathy among the peasantry, technical intelligentsia, and moderate party cadres, Bukharin, Rykov, and Tomsky confined their struggle to the closed arena of the Politburo and Central Committee, where Stalin's Secretariat operated as a 'shadow government' controlling appointments and regional delegations." `[Cohen 1973, pp. 287-289, 297-301, 322-329]`
+- **Stephen F. Cohen（1973）的布哈林替代方案论**：价格失当、工业品荒和投资比例失衡可由政策调整而非摧毁NEP解决；右翼失败有组织压制与自我约束因素。方案具有经济合理性是作者的反事实论证，不是仅靠一次粮食表即可确证的成功保证（`CLM-cohen-1973-nep-viability`、`CLM-cohen-1973-notes-of-an-economist`、`CLM-cohen-1973-bukharin-organizational-defeat`）。
+- **Moshe Lewin（1968）的农民社会史**：所谓“富农”和富裕中农的行政捆绑扩大打击对象，村社摊派与处罚侵蚀农户再生产意愿；不能把全部村社表决当作独立农民支持。其跨期撤职比例和年度采购下降估计须保持原窗口，不改写成单一年份的全国储备或产量（`CLM-lewin-peasants-1968-kulak-myth-and-serednyak`、`CLM-lewin-peasants-1968-ural-siberian-method`）。
+- **E. H. Carr与R. W. Davies（1969）的定量经济史**：相对价格、现金、商品荒与农户裂变共同改变售粮条件；涅姆奇诺夫表揭示中贫农的商品粮主体地位，却是近似结构估计，不能单独排除所有地方富裕户惜售，也不等于农民阶层支持率（DATA-03及相关论断）。
+- **Stephen Kotkin（2014）与Olga Velikanova（2013）**：前者强调NEP成功也会在反资本主义阶级观中产生新的敌人，强制路线因而具有思想动力；后者以战争恐慌、抢购及失败主义报告连接政策与社会心理。两者都不证明1928年已存在完整执行蓝图；安全报告是受搜集和分类机制塑造的材料，不能由若干谣言推导“全体农民等候外敌”（相关Kotkin及Velikanova论断卡）。
+- **《苏联农村的悲剧》的档案编研**：四位主编 **V. P. Danilov（丹尼洛夫）、R. T. Manning（曼宁）、L. Viola（维奥拉）、N. A. Ivnitsky（伊夫尼茨基，兼第2卷长篇导言作者）** 将高层方案、地方竞速和农民反应放在同一证据链中。卷内当时档案为S 级，Ivnitsky导言为A 级；1929年12月的强迫、逃亡和屠畜记录能限定“自愿跃进”叙述，但不能无日期地代证1928年每个地方的执行（RN-W20及三张村庄悲剧论断）。
+- **Viktor Zemskov（泽姆斯科夫，2018馆藏译稿）**：既批判档案封闭与苏联史学将党预设为纠错主体，也要求区分布哈林路线的经济可行性和党员革命心态中的政治可接受性；演说和小说不等于干部支持率调查（`CLM-zemskov-2018-archival-constraints-and-party-radicalism`）。其“农业贡税”解释连接长期积累与强制转向，却未提供1924—1929年净转移逐年核算；1928年贡税辩护、采购下降及1930年特别安置须分证（`CLM-zemskov-2018-agrarian-tribute-and-coercive-turn`）。另版人口论断 `CLM-zemskov-1929-dekulakization-demographic-baseline` 提醒流放、迁移和死亡不等同，1930—1931年数不能填成1929年损失，1930年留庄比例也不能反推1929年自愿率。
+- **N. D. Arapovich（阿拉波维奇）的工业劳动视角**：1929年重工业招募与技术教育女性配额，把农业积累争论连接到技能、托育和岗位配置。其1929年1月1日行业表列全工业含女学徒的女性比重28.8%、机器制造与金属加工6.8%；是各行业内部女性比例，不是女工行业去向。20%高等技术学校女性招生要求是指标，不是实绩；其苏联正统进步叙事不能代替独立评估（`CLM-arapovich-1929-skills-quotas-and-heavy-industry-mobilization`，馆藏B 级）。
 
-### 3.2 第二方：莫舍·勒温（Moshe Lewin, 1968）——中农主体论、刑法第107条与“乌拉尔—西伯利亚方法”
-1. **“富农神话”与针对中农（Serednyak）的强制征粮**：
-   - 对接 `CLM-lewin-peasants-1968-kulak-myth-and-serednyak`（[CLM-lewin-peasants-1968-kulak-myth-and-serednyak.md](file:///C:/Users/lsaax/.t3/projects/russian-revolution-knowledge-base/historiography/claims/CLM-lewin-peasants-1968-kulak-myth-and-serednyak.md)）与 `CLM-lewin-peasants-1968-grain-procurement-crisis`（[CLM-lewin-peasants-1968-grain-procurement-crisis.md](file:///C:/Users/lsaax/.t3/projects/russian-revolution-knowledge-base/historiography/claims/CLM-lewin-peasants-1968-grain-procurement-crisis.md)）：
-   > "In reality, the Soviet *kulak* of the NEP era was little more than 'an enlarged version of the *serednyak* (middle peasant),' sharing the exact same interest in remunerative grain prices and available manufactured goods. When official propaganda and directives began linking the *kulak* with the *zazhitochny* (well-to-do middle peasant), the target of state coercion inevitably expanded to the productive core of the peasantry." `[Lewin 1968, pp. 76-78]`
-   > "Because 75 to 80 percent of marketable grain lay in the hands of the *serednyaks*, the emergency measures launched in January 1928 under Article 107 of the Criminal Code immediately struck the middle peasantry. Local officials shut down village markets, set up roadblocks, and confiscated grain reserves, turning the campaign into a de facto revival of War Communism's *prodrazverstka*." `[Lewin 1968, pp. 221, 228-229, 242-243]`
-2. **1928–1929年冬“乌拉尔—西伯利亚方法”的制度暴力与破产**：
-   - 对接 `CLM-lewin-peasants-1968-ural-siberian-method`（[CLM-lewin-peasants-1968-ural-siberian-method.md](file:///C:/Users/lsaax/.t3/projects/russian-revolution-knowledge-base/historiography/claims/CLM-lewin-peasants-1968-ural-siberian-method.md)）：
-   > "The so-called 'Uralo-Siberian method' of 1928–29 cloaked administrative coercion in pseudo-democratic 'social pressure' (*obshchestvenny nazhim*). Taking advantage of the fact that the village assembly (*skhod*) had no legal quorum requirement, party plenipotentiaries packed meetings with poor peasants (*bednyaks*) to vote heavy delivery quotas onto the 'kulaks and well-to-do,' backed by fivefold fines (*pyatikratka*), property auctions under Article 61.3, and the purging of 82 percent of village soviet chairmen. Yet even this massive coercion left state grain reserves 20 percent below the previous year, driving Stalin to opt for wholesale collectivization." `[Lewin 1968, pp. 386-390, 395]`
+极权主义专门研究与农民自述仍需扩充，列为外部缺口；现有政治传记、经济史、农民社会史、档案及工业劳动研究足以支撑本卡多视角定稿，不以未入藏书目阻断状态升级。
 
-### 3.3 第三方：E. H. 卡尔与 R. W. 戴维斯（Carr & Davies, 1969）——1927年价格失衡与“涅姆钦诺夫表”实证批判
-1. **1926/27年度农牧价格钟摆与农村4.5亿卢布现金过剩**：
-   - 对接 `CLM-carr-davies-1969-grain-price-scissor-1927`（[CLM-carr-davies-1969-grain-price-scissor-1927.md](file:///C:/Users/lsaax/.t3/projects/russian-revolution-knowledge-base/historiography/claims/CLM-carr-davies-1969-grain-price-scissor-1927.md)）：
-   > "In 1926–27 the state raised procurement prices for livestock, dairy, and technical crops while reducing official grain prices in September–October 1927. At the same time, seasonal urban construction and timber wages pumped 300 million rubles into the countryside between August and October 1927 (raising rural cash holdings to 450 million rubles), the agricultural tax was cut by 13 percent, and Mikoyan's administrative reductions of industrial retail prices worsened the 'goods famine.' Peasants could pay their taxes by selling meat or technical crops and had no incentive to part with grain for cash that could buy nothing." `[Carr & Davies 1969, pp. 8-9, 44-47]`
-2. **解构斯大林引用的“涅姆钦诺夫表”（1928年5月28日）**：
-   - 对接 `CLM-carr-davies-1969-nemchinov-table-critique`（[CLM-carr-davies-1969-nemchinov-table-critique.md](file:///C:/Users/lsaax/.t3/projects/russian-revolution-knowledge-base/historiography/claims/CLM-carr-davies-1969-nemchinov-table-critique.md)）：
-   > "In his speech to the Institute of Red Professors on May 28, 1928 ('On the Grain Front'), Stalin cited a statistical table compiled by V. S. Nemchinov showing that while total grain production had nearly recovered to the prewar level (4.7 billion poods vs. 5.0 billion prewar), the marketed share had fallen by half—from 26 percent (1.3 billion poods) before the war to 13.3 percent (630 million poods) in 1926/27—due to the elimination of landlord estates and the splitting of peasant households (*dvory*) from 16 million to 25.6 million." `[Carr & Davies 1969, pp. 55, 72-73]`
-   > "Crucially, however, Nemchinov's table itself showed that in 1926/27 middle and poor peasants produced 85 percent of total grain and supplied **74 percent of all marketed grain** (compared to 20 percent from kulaks and 6 percent from state and collective farms). Far from proving a 'kulak strike,' the statistics demonstrated that the procurement crisis was a struggle between the entire surplus-producing peasantry (above all the middle peasant) and the state's industrialization drive." `[Carr & Davies 1969, pp. 117, 244-246]`
+## [T3] 溯源锚点与未决史料缺口
 
-### 3.4 第四方：斯蒂芬·科特金（Stephen Kotkin, 2014）——新西伯利亚转折与“阶级恶性循环”
-1. **1928年1月20日新西伯利亚讲话：从应急征粮到全盘集体化决断**：
-   - 对接 `CLM-kotkin-2014-siberian-grain-turn`（[CLM-kotkin-2014-siberian-grain-turn.md](file:///C:/Users/lsaax/.t3/projects/russian-revolution-knowledge-base/historiography/claims/CLM-kotkin-2014-siberian-grain-turn.md)）：
-   > "The grain procurement crisis of winter 1927–28 was self-induced by Bolshevik pricing and investment policies. Yet during his trip to Siberia—specifically in his closed speech in Novosibirsk on January 20, 1928—Stalin made the fateful leap from temporary emergency requisitions (Article 107) to demanding the transformation of agriculture into collective and state farms. In Stalin's sincere Leninist worldview, Soviet power was trapped in a 'class-based vicious circle': the more productive peasant households became, the more they turned into 'capitalist kulaks' capable of holding the proletarian state hostage. Without any blueprint, what was economically impossible became ideologically 'necessary' and was improvised through ruthless coercion." `[Kotkin 2014, ch14 #L161-L236; ch22_coda]`
-2. **“新经济政策如果成功就必然失败”与布哈林的意识形态死结**：
-   - 对接 `CLM-kotkin-2014-bukharin-dilemma`（[CLM-kotkin-2014-bukharin-dilemma.md](file:///C:/Users/lsaax/.t3/projects/russian-revolution-knowledge-base/historiography/claims/CLM-kotkin-2014-bukharin-dilemma.md)）：
-   > "Because Bukharin shared the fundamental Bolshevik class analysis that stigmatized prosperous, market-oriented farmers (~2 million farms over 8 hectares that supplied the bulk of commercial grain) as 'kulak class enemies,' **the NEP had to fail if it succeeded**. Bukharin's notion that the kulak would peacefully 'grow into socialism' through cooperatives while the state simultaneously restricted rural capitalism was magical thinking; when the crisis hit, Stalin possessed both the ideological orthodoxy of class war and all the institutional levers of the dictatorship." `[Kotkin 2014, ch22_coda #L47-L91]`
+### 3.1 采购、商品粮及强制统计的边界
 
-### 3.5 第五方：奥尔加·韦利卡诺娃（Olga Velikanova, 2013）——1927年战争恐慌、抢购潮与农民失败主义
-1. **春季恐慌性抢购掏空国家商品储备，直接诱发秋季“工业品荒”与农民囤粮**：
-   - 对接 `CLM-velikanova-2013-war-scare-hoarding-and-grain-crisis`（[CLM-velikanova-2013-war-scare-hoarding-and-grain-crisis.md](file:///C:/Users/lsaax/.t3/projects/russian-revolution-knowledge-base/historiography/claims/CLM-velikanova-2013-war-scare-hoarding-and-grain-crisis.md)）：
-   > "The 1927 War Scare acted as a critical extra-economic catalyst of the grain procurement crisis. Triggered by alarmist leadership speeches in January 1927 and the diplomatic rupture with Britain in May, waves of panic buying swept urban and rural cooperatives in spring and summer 1927. As Mikoyan admitted at the Fifteenth Party Congress, peasant and urban hoarding of salt, kerosene, textiles, and flour exhausted state reserves of manufactured goods *before* the autumn harvest began—leaving the state with empty shelves when it needed industrial goods to exchange for peasant grain, while peasants simultaneously held back grain as a wartime survival reserve." `[Velikanova 2013, pp. 86-88, 106-107]`
-2. **OGPU 舆情密报（Svodki）中的农民失败主义与斯大林的“两线作战”决断**：
-   - 对接 `CLM-velikanova-2013-peasant-defeatism-rumors`（[CLM-velikanova-2013-peasant-defeatism-rumors.md](file:///C:/Users/lsaax/.t3/projects/russian-revolution-knowledge-base/historiography/claims/CLM-velikanova-2013-peasant-defeatism-rumors.md)）与 `CLM-velikanova-2013-leadership-manipulation-and-self-deception`（[CLM-velikanova-2013-leadership-manipulation-and-self-deception.md](file:///C:/Users/lsaax/.t3/projects/russian-revolution-knowledge-base/historiography/claims/CLM-velikanova-2013-leadership-manipulation-and-self-deception.md)）：
-   > "OGPU information summaries (*svodki*) recorded 7,269 defeatist incidents between June and August 1927 alone. Far from rallying around the flag, millions of peasants welcomed rumors of imminent foreign intervention as deliverance from Soviet taxes and officials, openly declaring at village meetings: 'We'll wait for war, get some guns, and then talk a little with the Soviet power' (*odozhdem voinu, poluchim vintovki, togda pogovorim s sovetskoi vlast'iu*)." `[Velikanova 2013, pp. 82-86, 91-96, 106, 115-117]`
-   > "Confronted with massive evidence in the OGPU *svodki* that the peasantry would turn against the regime in the event of war, Stalin concluded in 1928 that the USSR could not risk fighting a two-front war against both foreign imperialists (the Poles) and the internal Russian peasant (*muzhik*) at the same time—providing a decisive national-security rationale for crushing peasant autonomy before a foreign war broke out." `[Velikanova 2013, pp. 45-47, 51-55, 78-81]`
+| 锚点 | 对象与出处 | 不可混用 |
+| :--- | :--- | :--- |
+| 1927.10、11、12采购104、64.5、59.9万吨 | 上年同期152、157、146万吨；DATA-03 §2 | 月流量不是年度粮食产量；10月1日不是统一农业年度起点 |
+| 1926/27中贫农商品粮74%、富农20%、社会化部门6% | 斯大林5月28日讲话所引近似表；DATA-03 §1 | 商品粮份额不等于农户占比、国家收购来源或全部存粮 |
+| 全国商品率26%→13.3% | 战前与1926/27表格比较 | 土地分配、消费与农户裂变的共同影响；不等于国家采购比率 |
+| 至4月1日596／576百万普特 | 1926/27与1927/28的阶段累计采购；DATA-03 §3 | 与完整农业年度计划1060万吨不同窗口、不同单位，不直接相减 |
+| 截至1929.12.25采购13,616,151吨 | 上年同期6,345,277吨，档案Doc 28；DATA-06 §B.4 | 本季累计，不能代替1928—1929年度总额或说明农户净收入 |
+| 1929征粮专项逮捕49,068人 | 莫佐欣所引专项口径；DATA-06 §A.4 | 与“破获组织”95,208及判刑人数不可简单相加 |
+
+涅姆奇诺夫表的近似性质、网页25000／2500和11.／11.2异文，以及表内中贫农商品率11.2同按466.2／4052算得约11.51的不一致，均见DATA-03及原典校勘；本卡保留原表，不将明显算术差异泛称为正常舍入。Lewin跨至1930年3月的82%撤职数不列为本卡1929年实绩。Zemskov两套馆藏的出版元数据、页序与证据等级不统一：2018译稿按B 级使用，另版旧论断沿既有索引，不能混套页码或把译稿引用的档案自动升为直接核原档。
+
+### 3.2 站内分层来源与已核锚点
+
+- [DATA-03](../../data/DATA-03-1926-1929-grain-procurement-and-nemchinov-table.md)：月采购、商品粮结构与统计窗口。
+- [斯大林：在粮食战线上](../../sources/web-archive/E09_E10_party_debates/1928-05-28_stalin-on-the-grain-front.md)：S 级当时政策论证与涅姆奇诺夫表校勘，不直接等同史家结论。
+- [Carr—Davies—Nove对读](../../reading-notes/carr_davies_nove/RN-W6-agricultural-crisis-and-was-stalin-necessary.md)：A 级，价格、农户结构与NEP约束。
+- [Lewin：乌拉尔—西伯利亚方法](../../historiography/claims/CLM-lewin-peasants-1968-ural-siberian-method.md)：A 级，冬季办法与1929年4月、6月法律强化分期。
+- [Cohen：1928—1929摊牌](../../reading-notes/cohen_1973_bukharin/RN-W3-bukharin-stalin-1928-1929-showdown.md)：A 级，右翼路线、密谈与组织失败。
+- [Kotkin：西伯利亚与布哈林](../../reading-notes/kotkin_2014_stalin_v1/RN-W1C-1928-siberian-turn-and-bukharin.md)：A 级，阶级逻辑与即兴推进。
+- [Merridale—Apalkov](../../reading-notes/merridale_apalkov/RN-W6-moscow-fall-and-party-struggle-rules.md)：A 级，莫斯科干部网络与党内统一规则。
+- [Velikanova：恐慌与囤积](../../historiography/claims/CLM-velikanova-2013-war-scare-hoarding-and-grain-crisis.md)：A 级，安全舆情材料的选择和分类限制。
+- [苏联农村的悲剧：RN-W20](../../reading-notes/tragedy_village_1929/RN-W20-nov-dec-1929-politburo-commission-and-ogpu-archives.md)：四主编编卷，S 级档案与Ivnitsky的A 级导言分层。
+- [12月委员会档案](../../historiography/claims/CLM-tragedy-village-1929-politburo-dekulakization-commission.md)：S 级已刊文件，草案与修改过程；未直接核未刊原卷。
+- [岁末农民反应](../../historiography/claims/CLM-tragedy-village-1929-peasant-self-liquidation-and-flight.md)：S 级报告，分事件发生日与报告成文日。
+- [Wave 39：Zemskov 2018](../../reading-notes/stalin_era_economy_repression_1924_1954_zh/RN-W39-stalin-era-nep-to-great-turn-1924-1929.md)：B 级馆藏译稿；PDF页序非俄文印页。
+- [Zemskov：档案约束与党员心态](../../historiography/claims/CLM-zemskov-2018-archival-constraints-and-party-radicalism.md)：政治可接受性与经济替代方案分证。
+- [Zemskov：贡税与强制](../../historiography/claims/CLM-zemskov-2018-agrarian-tribute-and-coercive-turn.md)：积累辩护、收购机制和后续迁移制度分期。
+- [Zemskov：人口口径](../../historiography/claims/CLM-zemskov-1929-dekulakization-demographic-baseline.md)：另版馆藏索引；后期流放与死亡不列为1929年数量。
+- [Wave 39：Arapovich](../../reading-notes/women_labor_soviet_industry_zh/RN-W39-arapovich-women-industrial-labor-1917-1929.md)：B 级译稿，出版年未核；政策、技能与性别分工。
+- [Arapovich：重工业与女性配额](../../historiography/claims/CLM-arapovich-1929-skills-quotas-and-heavy-industry-mobilization.md)：B 级；行业构成与招生指标分开。
+- [DATA-06](../../data/DATA-06-1918-1929-cheka-ogpu-sentencing-and-1929-collectivization-surge.md)：累计征购、逮捕及集体化不同分母。
+- [1928—1929摊牌微距卷](../../timeline/L3_daily/1928-1929_bukharin_stalin_final_showdown.md)：全会、组织处置与政策演变。
+
+### 3.3 外部待补核 S / A 级缺口
+
+- **S 级**：1928年及1929年中央、政治局、地方粮政机关未刊速记原卷，刑法第107条个案卷、村社表决及申诉、罚款与第61条实施记录，分地区逐月采购和市场价格原表；现有已刊档案不能冒充对全部原卷的直接查阅。
+- **S 级**：农民书信、诉愿、红军农民士兵来信及OGPU舆情原始采集材料，以检验报告对“富农煽动”、失败主义与支持率的分类偏差。
+- **A 级**：Pipes、Conquest关于这一阶段的专门论述全文，农业与工业净资源转移的可比计量研究；对尚无实存文本的版本不编页码。Zemskov俄文版权页、Arapovich完整俄文出版信息及关键配额执行材料仍待补核。

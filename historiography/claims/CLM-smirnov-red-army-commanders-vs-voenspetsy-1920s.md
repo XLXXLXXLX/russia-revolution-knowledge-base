@@ -1,14 +1,14 @@
 ---
 id: CLM-smirnov-red-army-commanders-vs-voenspetsy-1920s
 type: claim
-scholar: SCH-smirnov-a
+scholar: SCH-smirnov-andrei
 work_title: "工农红军军队建设中的致命错误，1917—1937"
 publication_year: 2015
 source_tier: A
 local_source_path: "sources/monographs/smirnov_red_army_1917_1937_zh/ch30_工农红军战前训练水平低下的深层原因_part_6.md#L641-L729"
 original_pages: "pp. 628-634, 670-672, 680-694"
-targets_cards: ["ORG-red-army", "PER-frunze", "POL-frunze-military-reform", "CON-voenspetsy"]
-debate: DEB-red-army-1941-collapse-causes
+targets_cards: ["INS-rkka-red-army-and-rvr", "PER-frunze"]
+debate: DEB-1918-red-terror-and-civil-war-origins
 supports: []
 rebuts: []
 qualifies: []

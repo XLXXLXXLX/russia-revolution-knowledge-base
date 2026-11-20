@@ -7,8 +7,8 @@ publication_year: 2015
 source_tier: B
 local_source_path: "sources/monographs/soviet_democracy_and_stalin_zh/ch01_pages_26-50.md#L374-L420"
 original_pages: "PDF pp. 31-37, 53-55, 127-128, 156-157"
-targets_cards: ["POL-ozhivlenie-sovetov", "POL-nep", "PER-stalin", "PER-zinoviev"]
-debate: DEB-1924-1927-soviet-revitalization-and-party-monopoly
+targets_cards: ["CON-soviet", "POL-nep", "PER-stalin", "PER-zinoviev"]
+debate: DEB-1918-constituent-assembly-and-soviet-democracy
 supports: []
 rebuts: []
 qualifies: []

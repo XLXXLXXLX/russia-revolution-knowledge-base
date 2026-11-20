@@ -1,18 +1,13 @@
-# 1-Hop 平衡上下文包：`MTG-1917-04-7th-april-party-conference` (俄国社会民主工党（布尔什维克）第七次全国代表会议（四月会议）)
+# 1-Hop 去重平衡上下文包：`MTG-1917-04-7th-april-party-conference`
 
-> 本文件由 `python scripts/kb.py pack` 自动编译，旨在将失控的 `1+N` 随机读取压缩为**等权重、带时效边实质与史学盲区告警**的单次全景读取。
+> 由 `python scripts/kb.py pack` 动态编译：保留 **100% 一跳邻居与多时段关系边**，跨卡自动去重争鸣与时间线，并关联学者学派 (`SCH-*`)。
 
-## 0. 认知完备度与反偏斜仪表盘 (Epistemic & Skew Warnings)
-- **主卡路径**: `cards/meetings/MTG-1917-04-7th-april-party-conference.md`
-- **完备度等级**: `multi-perspective`
-- **已覆盖视角**: `april-theses-primary, intraparty-pluralism, loginov-minutes-based, trotsky-haimson-lenin-dominance, pipes-sukhanov-lenin-centered, rabinowitch-party-pluralism`
-- **待补齐视角**: `post-soviet-minutes-based, conference-proceedings-independent-verification, nationality-debate-specialist`
-- **偏斜风险提示**:
-  - ⚠️ 主卡显式声明尚缺以下视角待补: `post-soviet-minutes-based, conference-proceedings-independent-verification, nationality-debate-specialist`。
+## 0. 认知完备度与反偏斜仪表盘
+- **`MTG-1917-04-7th-april-party-conference`** (俄国社会民主工党（布尔什维克）第七次全国代表会议（四月会议） | `cards/meetings/MTG-1917-04-7th-april-party-conference.md` | `multi-perspective`): 已覆盖=`april-theses-primary, intraparty-pluralism, loginov-minutes-based, trotsky-haimson-lenin-dominance, pipes-sukhanov-lenin-centered, rabinowitch-party-pluralism`；待补=`post-soviet-minutes-based, conference-proceedings-independent-verification, nationality-debate-specialist`
 
 ## 1. 主卡核心层 ([T1] + [T2])
 ## [T1] 60秒定性微摘要
-1917-04-24 [O.S.] / 1917-05-07 [N.S.] 至 1917-04-29 [O.S.] / 1917-05-12 [N.S.]，布尔什维克在彼得格勒召开第七次全国代表会议，约8万党员、152名代表出席（Loginov，转引会议记录）。会议在激烈争论后以 71 赞成、39 反对、8 弃权通过列宁《关于当前形势》决议，否定信任临时政府、支持土地国有化与向苏维埃转移政权，但民族自决（56:16:18）、中央委员会规模和齐美尔瓦尔德国际会议问题上列宁均遭多数反对，说明党内并非铁板一块。
+1917-04-24至04-29[O.S.]/05-07至05-12[N.S.]，布尔什维克四月会议以71:39:8通过列宁当前形势决议，拒绝信任临时政府，支持土地国有化与苏维埃夺权；但民族自决、中央规模及齐美尔瓦尔德会议问题上列宁遭多数反对，党内分歧鲜明。
 
 ## [T2] 核心脉络、时效关系边表与史学争鸣光谱
 
@@ -43,29 +38,14 @@
 
 不应把支持主要路线误作所有细节一致。
 
-## 2. 一跳邻域等权重微摘要 (共 5 个关联节点，严防大卡霸占上下文)
-### 邻居节点: `POL-april-theses-1917`
-- **时效关系边** (`MTG-1917-04-7th-april-party-conference` → `POL-april-theses-1917` | `debates_and_develops` | 有效时段: `1917年春`): 会议围绕提纲的政府、土地和政权方向讨论并形成决议，不等于照单逐条通过全文。
-- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 1917年4月列宁归国后提出的十项纲领：宣布不给临时政府任何支持、批判“革命护国主义”、主张从资产阶级革命第一阶段向工兵苏维埃掌权第二阶段过渡，并倡议没收地主土地实现全部土地国有化、全国银行合并受苏维埃监督与更改党名；打破加米涅夫—斯大林有条件支持临时政府路线，经党内激烈辩论逐步重塑布尔什维克战略。
+## 2. 一跳邻域全量微摘要目录 (去重后共 5 个节点，0 截断)
+- **`POL-april-theses-1917`**（《四月提纲：论无产阶级在这次革命中的任务》）: 1917年4月列宁归国后提出的十项纲领：宣布不给临时政府任何支持、批判“革命护国主义”、主张从资产阶级革命第一阶段向工兵苏维埃掌权第二阶段过渡，并倡议没收地主土地实现全部土地国有化、全国银行合并受苏维埃监督与更改党名；打破加米涅夫—斯大林有条件支持临时政府路线，经党内激烈辩论逐步重塑布尔什维克战略。 ‖ `←MTG-1917-04-7th-april-party-conference`[debates_and_develops|1917年春]: 会议围绕提纲的政府、土地和政权方向讨论并形成决议，不等于照单逐条通过全文。
+- **`PER-lenin`**（弗拉基米尔·列宁）: 布尔什维克党缔造者、苏俄人民委员会主席（1917–1924）。1893年投身马克思主义运动，1903年促成布尔什维克分化；1917年发表《四月提纲》并领导十月夺权，历经布列斯特和约、内战与战时共产主义；1921年主持转向新经济政策，晚年（1922–1923）就官僚化与接班人同斯大林冲突。 ‖ `←MTG-1917-04-7th-april-party-conference`[advocates|1917年春]: 反对信任临时政府并主张争取苏维埃多数；在齐美尔瓦尔德参加问题（1:8）、民族自决（56:…
+- **`PER-kamenev`**（列夫·加米涅夫）: 老布尔什维克、首任全俄中执委主席。1917年自四月至立宪会议一贯坚守温和宪政社会主义联盟路线并公开反对十月起义；1924年十三大联手季诺维也夫压下《列宁遗嘱》，1925年十四大公开发言反斯大林“领袖”集权后失势；1928年7月密会布哈林并留下外泄笔记，反成右派致命罪证。 ‖ `←MTG-1917-04-7th-april-party-conference`[contests|1917年春]: 主张对临时政府实行监督；监督方案被否，加米涅夫自认与列宁仅此一处分歧；仍以 95 票当选…
+- **`CON-dual-power`**（双重政权（两个政权并存））: 萌芽于1905年苏维埃；1917-03-02[O.S.]/03-15[N.S.]至七月事件，临时政府名义主权与彼得格勒苏维埃工兵实力、“有条件支持”并存。列宁四月称两类阶级专政交织，七月宣布终结，九月再提苏维埃夺权；修正史学强调多中心失序与双方虚弱。 ‖ `←MTG-1917-04-7th-april-party-conference`[responds_to|1917年春]: 以转移政权的主张回应临时政府与苏维埃并存。
+- **`ORG-bolsheviks-rcpb-vkpb`**（布尔什维克派—俄共（布）—联共（布））: 布尔什维克起于1903年社民工党二大后的党内多数派，经流亡、地下活动与1917年群众扩张成为执政党；1918年称俄共（布），1925年称联共（布）。它从地方主动性较强的革命党，演变为拥有任命网络与纪律制裁的党国核心，过程分阶段且存争议。 ‖ `←MTG-1917-04-7th-april-party-conference`[elects_leadership|1917年春]: 在公开的内部路线分歧中，以 109 人无记名投票选举九人中央委员会。 ； `→MTG-1917-04-7th-april-party-conference`[party-conference|1917-04]: 代表约8万党员的口径，路线转向后的党内讨论
 
-### 邻居节点: `PER-lenin`
-- **时效关系边** (`MTG-1917-04-7th-april-party-conference` → `PER-lenin` | `advocates` | 有效时段: `1917年春`): 反对信任临时政府并主张争取苏维埃多数。
-- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 布尔什维克党缔造者、苏俄人民委员会主席（1917–1924）。1893年投身马克思主义运动，1903年促成布尔什维克分化；1917年发表《四月提纲》并领导十月夺权，历经布列斯特和约、内战与战时共产主义；1921年主持转向新经济政策，晚年（1922–1923）就官僚化与接班人同斯大林冲突。
-
-### 邻居节点: `PER-kamenev`
-- **时效关系边** (`MTG-1917-04-7th-april-party-conference` → `PER-kamenev` | `contests` | 有效时段: `1917年春`): 对革命阶段与对临时政府的策略持不同意见。
-- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 老布尔什维克、首任全俄中执委主席。1917年自四月至立宪会议一贯坚守温和宪政社会主义联盟路线并公开反对十月起义；1924年十三大联手季诺维也夫压下《列宁遗嘱》，1925年十四大公开发言反斯大林“领袖”集权后失势；1928年7月密会布哈林并留下外泄笔记，反成右派致命罪证。
-
-### 邻居节点: `CON-dual-power`
-- **时效关系边** (`MTG-1917-04-7th-april-party-conference` → `CON-dual-power` | `responds_to` | 有效时段: `1917年春`): 以转移政权的主张回应临时政府与苏维埃并存。
-- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 俄国革命政治与史学核心概念。萌芽于1905年圣彼得堡苏维埃；`1917-03-02 [O.S.] / 1917-03-15 [N.S.]` 至七月事件间定型为临时政府（名义主权）与彼得格勒苏维埃（握有工兵实力、“有条件支持”）并存。列宁四月将其定性为两类阶级专政交织，七月宣布终结，九月复提苏维埃夺权；修正史学则批判“二元”实为多中心失序与双向虚弱。
-
-### 邻居节点: `ORG-bolsheviks-rcpb-vkpb`
-- **时效关系边** (`MTG-1917-04-7th-april-party-conference` → `ORG-bolsheviks-rcpb-vkpb` | `elects_leadership` | 有效时段: `1917年春`): 在公开的内部路线分歧中选举九人中央委员会。
-- **时效关系边** (`ORG-bolsheviks-rcpb-vkpb` → `MTG-1917-04-7th-april-party-conference` | `party-conference` | 有效时段: `1917-04`): 代表约8万党员的口径，路线转向后的党内讨论
-- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 布尔什维克起于1903年社民工党二大后的党内多数派，经流亡、地下活动与1917年群众扩张成为执政党；1918年称俄共（布），1925年称联共（布）。它从地方主动性较强的革命党，演变为拥有任命网络与纪律制裁的党国核心，过程分阶段且存争议。
-
-## 3. 关联史学争鸣光谱 (Historiographical Debates)
+## 3. 关联史学争鸣与学者论断索引 (主卡外关联争鸣 2 项)
 ### `DEB-1917-dual-power-and-february-origins`：二月革命起源与“双重政权”宪制形成之争（1917）
 ## [T1] 核心问题定义
 二月革命是无领导的群众爆发，还是工厂与兵营中分散的积极分子推动的起义？沙皇退位后，杜马临时委员会、苏维埃与临时政府如何谈判并形成彼此制约的权力格局？群众压力、精英选择和战时危机的因果权重仍有争议，不能以宫廷阴谋代替街头革命。
@@ -99,6 +79,31 @@
 | 当事人革命解释与反对派在场反证（B级文献） | [B级当事人文献] Leon Trotsky, *History of the Russian Revolution* (1930–32); N. N. Sukhanov, *The Russian Revolution, 1917* (1922) | 托洛茨基将起义定性为“在苏维埃合法性掩护下实施的武装夺权艺术”；**苏汉诺夫的证言尤具史学张力**——他虽作为孟什维克国际派痛斥布尔什维克政权缺乏民主准备、悔恨温和派10月25日夜退场将苏维埃拱手让给列宁，却**以亲历反对者身份断然驳斥右翼“纯军事阴谋”说**，证言彼得格勒工人与驻军当时确以压倒性多数支持推翻临时政府。 | `CLM-trotsky-1930-art-of-insurrection-and-soviet-legality`；`CLM-sukhanov-1922-october-walkout-tragedy` | 两者均属B级当事人回忆与事后政治辩护（托洛茨基旨在反击斯大林并凸显自身军革委功绩，苏汉诺夫旨在检讨国际派失策），必须与当时会议速记对读。 |
 | 农民道德经济、帝国边疆与十月记忆建构 | Orlando Figes (1996); Ronald Grigor Suny (2017); Eric Blanc (2021); Frederick C. Corney, *Telling October* (2004) | Figes揭示农民公社夺地遵循自身“道德经济”，利用《土地法令》将既成黑分土地合法化而非服从城市党令；Suny综合社会史与阶级话语极化；Blanc将1917年十月放入帝国边疆民族与阶级互动视野；Corney则考证党史委（Istpart）与1920年代庆典如何将原本混乱多中心的十月夺权事后重塑为宏大叙事神话。 | `CLM-figes-1996-peasant-moral-economy-1917`；`CLM-suny-2017-totalitarian-vs-social-history-turn`；`CLM-suny-2017-class-discourse-and-polarization`；`CLM-blanc-2021-borderlands-in-1905-and-1917`；`CLM-corney-2004-istpart-and-institutionalizing-october-memory` | 农民夺地与边疆动员支持推翻旧政权，但并不等于授权布尔什维克随后的余粮收集制与一党垄断；记忆建构研究不可消解1917年秋真实的社会崩溃。 |
 
-## 4. 关联时间线锚点 (共 2 条)
-- **1917-04-24 [O.S.] / 1917-05-07 [N.S.]** (`TL-W32-1917-05-07-01`, L3): **俄社民工党（布）第七次（四月）全国代表会议开幕，列宁批评“稍稍偏左”冒险** — 1917-04-24 [O.S.] / 05-07 [N.S.]，布尔什维克第七次全国代表会议在彼得格勒开幕（约7.9–8万党员，149或152名代表；主席团未纳加米涅夫、斯大林）。列宁率先批评PK在四月危机期间擅打“打倒临时政府”系冒进、当时仅为“和平侦察”，随即围绕当前形势、政权与土地展开六日激辩。
-- **1917-04-29 [O.S.] / 1917-05-12 [N.S.]** (`TL-W32-1917-05-12-01`, L3): **布尔什维克四月会议闭幕：列宁路线胜出（71:39:8）与九人新中央当选** — 1917-04-29 [O.S.] / 05-12 [N.S.]至30日凌晨04:00，四月会议闭幕：列宁反驳李可夫经济落后阶段论（“没人能说清谁先开始、谁来完成”），《关于当前形势》以71:39:8通过，民族自决决议56:16:18胜出（皮达可夫、捷尔任斯基反对；洛吉诺夫中译误作“皮亚特尼茨基”），但退出齐美尔瓦尔德案以1:8遭拒。109名代表选出九人中央（列宁104、季诺维也夫101、斯大林97、加米涅夫95、米柳京82、诺根76、斯维尔德洛夫71、斯米尔加53、费奥多罗夫48）。
+
+### 3.1 关联核心论断与史学家学派坐标 (`CLM-*` → `SCH-*`, 展示前 24/31 条)
+- **`CLM-haimson-2005-lenin-wartime-to-april-1917-theoretical-leap`** [`SCH-haimson-leopold`(利奥波德·海姆森) | pp. 27-38 [PDF pp. 61-72]; pp. 245-247 [PDF pp. 279-281]]: 
+- **`CLM-loginov-lenin-vs-party-moderates-1917`** [`SCH-loginov-vladlen`(弗拉德连·洛吉诺夫) | pp. 145-146, 165-167, 265, 272-273, 340-343, 527-528]: 
+- **`CLM-rabinowitch-1976-open-democratic-mass-party`** [`SCH-rabinowitch-alexander`(亚历山大·拉比诺维奇) | 未核：EPUB 章节及行号]: 
+- **`CLM-pipes-1990-october-classic-coup`** [`SCH-pipes-richard`(理查德·派普斯) | ch. 11 (The October Coup); cf. Introduction]: 
+- **`CLM-hasegawa-2018-sub-elite-activists`** [`SCH-hasegawa-tsuyoshi`(长谷川毅) | pp. 643–645 (PDF pp. 664–666); cf. pp. 203–204, 218 (PDF pp. 224–225, 239)]: 
+- **`CLM-hasegawa-2018-duma-committee-revision`** [`SCH-hasegawa-tsuyoshi`(长谷川毅) | pp. xiii–xiv (PDF pp. 14–15); pp. 366–368, 377–378 (PDF pp. 387–389, 398–399); p. 652 (PDF p. 673)]: 
+- **`CLM-hasegawa-2018-dual-power-origins`** [`SCH-hasegawa-tsuyoshi`(长谷川毅) | pp. 626–638 (PDF pp. 647–659); cf. pp. 649, 660 (PDF pp. 670, 681)]: 
+- **`CLM-gaida-2003-liberals-in-february-1917`** [`SCH-gaida-fedor`(费奥多尔·盖达) | pp. 355-356, 433-439]: 
+- **`CLM-sukhanov-1922-dual-power-pact`** [`SCH-sukhanov-nikolai`(尼古拉·苏汉诺夫) | pp. 117–126, 150, 153–158 (PDF pp. 163–172, 196, 199–204); cf. pp. 68, 104–108, 113–114]: 
+- **`CLM-trotsky-1930-dual-power-instability`** [`SCH-trotsky-leon`(列夫·达维多维奇·托洛茨基 · participant-historian) | （中译 EPUB 无纸页；第一卷第十一、十六章）]: 
+- **`CLM-galili-1989-revolutionary-defensism`** [`SCH-galili-ziva`(齐娃·加利利) | pp. 134-140, 148-151 (PDF pp. 152-158, 174-177)]: 
+- **`CLM-galili-1989-coalition-government-trap`** [`SCH-galili-ziva`(齐娃·加利利) | pp. 169-170, 177-181 (PDF pp. 195-196, 203-207)]: 
+- **`CLM-spitsyn-february-1917-elite-conspiracy-thesis`** [`SCH-spitsyn-yevgeny`(叶夫根尼·斯皮岑) | PDF pp. 11–15, 24, 28]: 
+- **`CLM-figes-1996-soldier-mutiny-and-social-inversion`** [`SCH-figes-orlando`(奥兰多·费吉斯) | pp. 404-412]: 
+- **`CLM-rabinowitch-1976-october-three-factions-debate`** [`SCH-rabinowitch-alexander`(亚历山大·拉比诺维奇) | 未核：EPUB 章节及行号]: 
+- **`CLM-rabinowitch-1976-trotsky-soviet-congress-strategy`** [`SCH-rabinowitch-alexander`(亚历山大·拉比诺维奇) | 未核：EPUB 章节及行号]: 
+- **`CLM-loginov-lenin-1917-fleeting-window-of-power`** [`SCH-loginov-vladlen`(弗拉德连·洛吉诺夫) | pp. 523-524, 531-532, 560-561, 621-622, 656-658]: 
+- **`CLM-smith-sa-1983-defensive-workers-control`** [`SCH-smith-sa`(斯蒂芬·A·史密斯（S. A. Smith）) | 中译本 pp. 106–112, 133, 135, 137, 191（即源文件标注 PDF pp. 111–117, 138, 140, 142, 196）；注意：均为中译本页码，非英文原版页码]: 
+- **`CLM-koenker-1981-moscow-october-armed-struggle-vs-petrograd`** [`SCH-koenker-diane`(黛安·P·科恩克尔) | pp. 329–355 (local PDF pp. 345–371); p. 366 (PDF p. 382)]: 
+- **`CLM-koenker-1981-rational-incremental-radicalization`** [`SCH-koenker-diane`(黛安·P·科恩克尔) | pp. 359–363 (local PDF pp. 375–379); p. 254 (PDF p. 270)]: 
+- **`CLM-basil-1984-october-and-vikzhel-collapse`** [`SCH-basil-john`(约翰·D·巴兹尔) | pp. 165–175（本地 PDF 同号）]: 
+- **`CLM-yao-hai-post-october-coalition-failure-and-one-party-formation`** [`SCH-yao-hai`(姚海) | [PDF pp. 532-535, 543-569]]: 
+- **`CLM-yao-hai-constituent-assembly-vs-soviet-legitimacy-clash`** [`SCH-yao-hai`(姚海) | [PDF pp. 574-596]]: 
+- **`CLM-rabinowitch-2007-constituent-assembly`** [`SCH-rabinowitch-alexander`(亚历山大·拉比诺维奇) | pp. 88-91, 105-110, 121-127]: 
+
+## 4. 关联时间线骨干锚点 (L0–L2 展示 0 条，另有 2 条 L3 逐日细节见 `timeline/L3_daily/`)

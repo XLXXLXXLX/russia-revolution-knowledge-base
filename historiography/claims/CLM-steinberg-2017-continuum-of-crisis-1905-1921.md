@@ -1,7 +1,7 @@
 ---
 id: CLM-steinberg-2017-continuum-of-crisis-1905-1921
 type: claim
-scholar: SCH-steinberg-mark-d
+scholar: SCH-steinberg-mark
 work_title: "The Russian Revolution, 1905–1921"
 publication_year: 2017
 source_tier: A

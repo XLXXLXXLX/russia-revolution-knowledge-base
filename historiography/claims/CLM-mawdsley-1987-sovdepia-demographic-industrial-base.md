@@ -1,16 +1,14 @@
 ---
 id: CLM-mawdsley-1987-sovdepia-demographic-industrial-base
 type: claim
-scholar: SCH-mawdsley
+scholar: SCH-mawdsley-evan
 work_title: "俄国内战 (The Russian Civil War)"
 publication_year: 1987
 source_tier: A
 local_source_path: "sources/monographs/mawdsley_1987_civil_war_zh/ch06_第一部分_1918_决断之年_part_3.md"
 original_pages: "pp. 56–58, 69, 185–188, 217–218, 283–284"
-targets_cards:
-  - "E-civil-war-red-victory"
-  - "I-red-army-voenspetsy-commissars"
-debate: DEB-civil-war-determinants
+targets_cards: ["EVT-1918-1920-russian-civil-war", "INS-rkka-red-army-and-rvr"]
+debate: DEB-1918-red-terror-and-civil-war-origins
 supports:
   - "CLM-kakurin-1928-red-army-interior-lines-strategy"
 rebuts: []

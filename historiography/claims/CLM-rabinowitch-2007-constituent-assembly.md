@@ -7,7 +7,7 @@ publication_year: 2007
 source_tier: S
 local_source_path: "sources/monographs/rabinowitch_2007_in_power/ch08_4_the_fate_of_the_constituent_assembly.md#L9-L952"
 original_pages: "pp. 88-91, 105-110, 121-127"
-targets_cards: ["EVT-1918-01-constituent-assembly-dissolution", "PER-lenin", "PER-chernov", "PER-kamenev", "ORG-psr"]
+targets_cards: ["EVT-1918-01-constituent-assembly-dispersal", "PER-lenin", "PER-chernov", "PER-kamenev", "ORG-psr"]
 debate: DEB-1918-constituent-assembly-and-soviet-democracy
 supports: []
 rebuts: []

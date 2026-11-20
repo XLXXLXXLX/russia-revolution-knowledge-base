@@ -7,8 +7,8 @@ publication_year: 1985
 source_tier: A
 local_source_path: "sources/monographs/service_lenin_v1_zh/ch06_4_一国之内的资本主义.md#L54-L238"
 original_pages: "pp. 74-80, 152-166, 169-185 (中译本 PDF 页码)"
-targets_cards: ["PER-lenin", "POL-duma-tactics-1905-1907", "CON-agrarian-marxism", "MTG-1905-12-tammerfors", "MTG-1906-04-4th-congress", "MTG-1907-07-kotka"]
-debate: DEB-lenin-tactical-flexibility-and-marxism
+targets_cards: ["PER-lenin", "INS-state-duma-1906-1917", "CON-peasant-commune-obshchina", "EVT-1905-revolution", "MTG-1906-04-rsdlp-4th-stockholm-congress", "EVT-1907-1914-june-third-regime-and-lena-to-july-strikes"]
+debate: DEB-1903-bolshevik-menshevik-split
 supports: ["CLM-lenin-leader-organizational-ascendancy-pre1914"]
 rebuts: []
 qualifies: ["CLM-service-lenin-v1-bogdanov-vpered-rupture-and-prague-1912"]

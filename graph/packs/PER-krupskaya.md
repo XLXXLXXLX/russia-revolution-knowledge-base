@@ -1,125 +1,83 @@
-# 1-Hop 平衡上下文包：`PER-krupskaya` (娜杰日达·康斯坦丁诺夫娜·克鲁普斯卡娅)
+# 1-Hop 去重平衡上下文包：`PER-krupskaya`
 
-> 本文件由 `python scripts/kb.py pack` 自动编译，旨在将失控的 `1+N` 随机读取压缩为**等权重、带时效边实质与史学盲区告警**的单次全景读取。
+> 由 `python scripts/kb.py pack` 动态编译：保留 **100% 一跳邻居与多时段关系边**，跨卡自动去重争鸣与时间线，并关联学者学派 (`SCH-*`)。
 
-## 0. 认知完备度与反偏斜仪表盘 (Epistemic & Skew Warnings)
-- **主卡路径**: `cards/people/PER-krupskaya.md`
-- **完备度等级**: `draft`
-- **已覆盖视角**: `bolshevik-women-leadership, enlightenment-institutional, opposition-history, archival-post-soviet`
-- **待补齐视角**: `krupskaya-full-memoir-critical-edition`
-- **偏斜风险提示**:
-  - ⚠️ 主卡当前完备度为 `draft`，尚未达到多源交叉核实定稿状态。
-  - ⚠️ 主卡显式声明尚缺以下视角待补: `krupskaya-full-memoir-critical-edition`。
+## 0. 认知完备度与反偏斜仪表盘
+- **`PER-krupskaya`** (娜杰日达·克鲁普斯卡娅 | `cards/people/PER-krupskaya.md` | `multi-perspective`): 已覆盖=`testament-archival-lewin, apparatus-archival-khlevniuk-kotkin, pedagogy-gender-social-history, new-opposition-factional, neo-traditionalist-spitsyn`；待补=`mcneal-full-biography, stites-womens-liberation-direct, izvestiia-tsk-1989-primary-stenogram`
 
 ## 1. 主卡核心层 ([T1] + [T2])
-## [T1] 60秒定性微摘要
-娜杰日达·克鲁普斯卡娅（1869–1939，本卡至1929）：列宁终生伴侣与1901年起《火星报》秘密通信总干事，苏俄政治启蒙总局主任；1922–1923守护并移交《列宁遗嘱》，1925年十四大加盟季诺维也夫—加米涅夫新反对派，1926年秋退出联合反对派。
+## [T1] 150字定性微摘要
+娜杰日达·克鲁普斯卡娅（1869–1939），布尔什维克元老、列宁夫人兼秘密通信枢纽；1918年后主持教育人民委员部成人政教与扫盲，1922–1923年守护列宁病榻口授并于1924年5月移交十三份文件。1925–1926年短暂参与反对派后脱离，晚年转入教育制度工作。
 
 ## [T2] 核心脉络、时效关系边表与史学争鸣光谱
 
 ### 2.1 核心历史脉络
-- **新型革命知识分子与《火星报》网络（1890s–1903）**：生于 `1869-02-14 [O.S.] / 1869-02-26 [N.S.]` 圣彼得堡；中学教员出身，1890年代参加彼得堡工人阶级解放斗争协会。1898年与列宁在西伯利亚舒申斯科耶流放地结婚；**1901年春刑满赴慕尼黑后**出任《火星报》编辑部秘密通信总干事，执掌密码联络与俄国境内代办员网络，是布尔什维克早期地下机器的组织中枢（其《列宁回忆录》须严格区分 **[B级在场见证]** 与 **[1920年代末政治阐释]**）。
-- **十月前后与启蒙体制（1917–1922）**：布尔什维克掌权后任 **教育人民委员部政治启蒙总局（Главполитпросвет）** 主任，推动扫盲、工人夜校、政治教育与社会文化机构，体现“教养—组织”并行的革命文化政策（`CLM-hoffmann-2011-enlightenment-and-coercion-duality` 引克鲁普斯卡娅—杜威式个人教养话语为文化革命维度之一）。
-- **列宁病重、遗嘱与斯大林冲突（1922–1923）**：1922年12月斯大林因克鲁普斯卡娅代列宁致托洛茨基通信事宜 **电话斥责** 并威胁中监委处分（timeline `TL-W8-1922-12-22-01` 等，日期考证见 Kotkin 对1923年1月重定争论）；列宁 `1923-03-05` 致函要求斯大林道歉否则断交。克鲁普斯卡娅参与保存并推动落实列宁 **《给代表大会的信》**（`CLM-lewin-1968-testament-intent`：莱文强调遗嘱是反官僚与撤换斯大林之总体纲领，不仅是人性品评）。
-- **继承斗争与反对派（1924–1926）**：`1924-05` **十三大** 克鲁普斯卡娅转交遗嘱，遭季诺维也夫—加米涅夫封闭宣读、力保斯大林（`MTG-1924-05-13th-party-congress`）。`1925-12` **十四大** 她站在 **季诺维也夫—加米涅夫“新反对派”** 一边，反对斯大林个人独裁化（`CLM-zhukov-zinoviev-1925-leningrad-opposition` 列宁格勒反对派背景）。`1926` 与托洛茨基等人组建 **联合反对派** 后又 **`1926` 脱离** 该联盟，未再承担反对派领导角色（至1929年仍任中央委员，但政治边缘化）。
-- **1927–1929余波（断代注）**：1927年后未主导反对派运动；1929年仍居正式职务但不再构成权力枢纽——本卡断代至1929年斯大林击败布哈林集团与“大转变”定局之知识库边界。
+- **早年工人夜校、流放与《火星报》密码枢纽（1869–1917）**：`1869-02-14 [O.S.] / 1869-02-26 [N.S.]` 生于圣彼得堡没落贵族家庭；1890年代投身彼得堡工人星期日夜校并加入“工人阶级解放斗争协会”，成为知识分子与觉悟工人交汇网络中的组织者（参 `RN-W32-smith-petersburg-workers-intelligentsia-and-marxist-parties-1895-1917` 背景）。1898年流放西伯利亚舒申斯科耶并与列宁（`PER-lenin`）结婚；1901–1917年长期担任《火星报》编辑部秘书及海外布尔什维克中央秘密通信与密码联络中枢，亲历 `MTG-1903-rsdlp-2nd-congress` 分裂与流亡期路线重组（`CLM-haimson-1955-1903-second-congress-split`；早期地下通信细节另见馆外传记对照）。
+- **教育人民委员部、成人政教与新式教育实践（1918–1939）**：十月革命后进入教育人民委员部（Narkompros）部务委员会，1920年起领导成人政治教育总局（Glavpolitprosvet），统筹全国扫盲（likbez）、图书馆体系、妇女社会解放与进步主义学校改革（后任教育副人民委员）。在1920年代教育论争中，她推动去性别化的家政与木工/缝纫劳动教育，明确反对激进派“打倒学校”口号，主张将学校知识教学（обучение）与少先队校外品格养成（воспитание）作功能分工——要求少先队依托校外基地运作、校内仅设哨所（форпосты），同时在启蒙自治与国家思想规训的张力中运作（`CLM-soviet-citizen-lunacharsky-progressive-pedagogy-1920s`；`CLM-hoffmann-2011-enlightenment-and-coercion-duality`）。
+- **列宁病榻口授守护与 1922–1923 年斯大林辱骂危机（1922.12–1923.03）**：`1922-12-18 [N.S.]` 中央全会责成斯大林（`PER-stalin`）专责监督列宁的医疗隔离与对外通信。克鲁普斯卡娅代发列宁 `1922-12-21` 致托洛茨基（`PER-trotsky`）信件后，遭斯大林电话粗暴斥责并威胁交中央监察委员会处理；克氏于 `1922-12-23` 致信加米涅夫（`PER-kamenev`）控诉“三十年来从未听过同志说出如此粗暴的话”（`RN-W1-testament-and-cooperation`；`RN-W3-politburo-apparatus-and-1929-victory`）。围绕 `1923-01-23` 列宁《我们怎样改组工农检查院》的发表，据洛吉诺夫（V. T. Loginov）二手研究转述（见 `WB-W39-lenin-1922-1923-final-writings-and-shuia#L68-L69`），古比雪夫（`PER-kuibyshev`）曾有单印一份特制《真理报》敷衍列宁的说法，因托洛茨基、加米涅夫与克鲁普斯卡娅坚持正式刊发而未果（具体提议日期及克氏参与细节仍待原始会议记录核定）。列宁在1923年3月初方才获悉12月电话辱骂详情，随即于 `1923-03-05`–`03-06` 口授绝交威胁信，要求斯大林道歉否则断绝私人关系，与此前 `1923-01-04` 遗嘱补记（建议调开斯大林）分属先后两个阶段并形成政治叠加（`1922-12_letter-to-the-congress.md`；遗嘱总体背景见 `CLM-lewin-1968-testament-intent`）。
+- **十三大移交十三份文件与党内程序博弈（1924.05）**：列宁逝世后，克鲁普斯卡娅于 `1924-05-18 [N.S.]` 将列宁临终最后 **13 份口授文件**（含 7 份已公开发表文献与 6 份未公开密件，包括《给代表大会的信》及 `1923-01-04` 补记、《关于民族或“自治化”问题》等）整套移交中央委员会，要求向 `MTG-1924-05-13th-party-congress` 宣读。证据须作严格区分：会前 `1924-05-22` 在长老会议上，她明确反对压制与删节遗嘱（最终仅限分代表团内部宣读且禁记笔记）；而在大会公开会场，她留存记录的抗议主要针对季诺维也夫（`PER-zinoviev`）强迫托洛茨基等反对派公开认错检讨的做法（见 `MTG-1924-05-13th-party-congress` 卡核证）。
+- **短暂倒向新反对派、脱离与晚年边缘化（1925–1939）**：`1925-12` `MTG-1925-12-14th-party-congress` 前后，她与加米涅夫、季诺维也夫及索科利尼科夫（`PER-sokolnikov`）结成列宁格勒“新反对派”，合拟“四人秘密报告”，在大会上以“多数并非永远正确”捍卫党内讨论权并反对斯大林—布哈林（`PER-bukharin`）压制异议（`CLM-zhukov-zinoviev-1925-leningrad-opposition`；`RN-W10-other-side-of-nep-and-zinoviev-arc`；`kotkin_2014_stalin_v1/ch19_chapter_12.md#L790`）。`1926-07-14` 她连署联合反对派《十三人声明》（`ORG-left-and-united-opposition`），但因不愿承担分裂党的历史罪责，于同年秋脱离反对派。此后至 `1939-02-27 [N.S.]` 病逝莫斯科，她在斯大林体制下长期保留高声望却无核心决策权，专事教育与图书馆体系工作。
 
 ### 2.2 时效关系摘要边表（Typed & Temporalized Edges）
 | 关联节点 ID | 关系类型 | 有效时段 | 一句话关系实质摘要（防 N+1 盲跳） | 核心依据/争鸣 |
 | :--- | :--- | :--- | :--- | :--- |
-| `PER-lenin` | `partner-organizer` | 1890s–1924 | 火星报联络与党内组织互补列宁政治领袖角色 | Carr 革命史；Krupskaya *Memories* [B级] |
-| `PER-stalin` | `conflict-then-opposition` | 1922–1926 | 1922–23电话辱骂事件与遗嘱守护框定终身对立 | `CLM-lewin-1968-testament-intent`；timeline 1922-12 |
-| `PER-trotsky` | `temporary-alignment` | 1925–1926 | 十四大—联合反对派阶段短期合流，1926年退出 | `CLM-deutscher-1959-united-opposition-defeat` |
-| `PER-zinoviev` | `ally` | 1925 | 新反对派中共同挑战斯大林 | `CLM-zhukov-zinoviev-1925-leningrad-opposition` |
-| `PER-kamenev` | `ally` | 1924–1925 | 1924年十三大与其共同封存遗嘱政治后果相连；1925反对斯大林 | `CLM-khlevniuk-2015-collective-leadership-erosion` |
-| `MTG-1924-05-13th-party-congress` | `entrusted-testament` | 1924.05 | 转交列宁遗嘱而遭分团宣读、非罢免斯大林 | `MTG-1924-05-13th-party-congress` |
-| `MTG-1925-12-14th-party-congress` | `opponent` | 1925.12 | 加入反斯大林—布哈林多数派的新反对派阵营 | `MTG-1925-12-14th-party-congress` |
+| `PER-lenin` | `partner-secretary-guardian` | 1898–1924 | 兼具生活伴侣、地下密码联络中枢与病榻口授守护者三重角色，塑造列宁晚年政治表达的传递通道 | `RN-W1-testament-and-cooperation`；`WB-W39-lenin-1922-1923-final-writings-and-shuia` |
+| `PER-stalin` | `confrontation-then-containment` | 1922.12–1939 | 1922–23 医疗隔离冲突与电话辱骂直接触发列宁 1923-03-05 绝交威胁；斯大林掌权后以尊崇象征将其隔离于核心权力之外 | `RN-W1-testament-and-cooperation`；`RN-W3-politburo-apparatus-and-1929-victory`；Kotkin `ch18` |
+| `MTG-1924-05-13th-party-congress` | `testament-custodian` | 1924.05 | 5月18日移交列宁最后13份口授文件，5月22日长老会议反对其被压制，大会上反对强迫反对派公开检讨 | `MTG-1924-05-13th-party-congress` |
+| `PER-lunacharsky` | `colleague-narkompros` | 1918–1929 | 共事教育人民委员部十余年，统筹成人政教、扫盲与少先队校外定位，同受1920年代末激进派冲击 | `CLM-soviet-citizen-lunacharsky-progressive-pedagogy-1920s`；`RN-W28-industrial-paternalism-zhenotdel-and-soviet-pedagogy-1917-1929` |
+| `PER-zinoviev` | `temporary-opposition-ally` | 1925.12–1926.10 | 十四大前与季诺维也夫、加米涅夫、索科利尼科夫合组新反对派并连署《十三人声明》，1926年秋退出 | `CLM-zhukov-zinoviev-1925-leningrad-opposition`；`RN-W10-other-side-of-nep-and-zinoviev-arc` |
+| `PER-kamenev` | `confidant-then-ally` | 1922.12–1926 | 1922-12-23 遭斯大林辱骂后第一时间致信加米涅夫求助，1925–1926年再度携手反对派抗争 | `RN-W1-testament-and-cooperation`；Kotkin `ch19#L790` |
+| `PER-kuibyshev` | `adversarial-episode` | 1923.01 | 据洛吉诺夫转述，1923年1月围绕列宁文章发表有单印报纸之议，克鲁普斯卡娅与托洛茨基、加米涅夫坚持正式刊发 | `WB-W39-lenin-1922-1923-final-writings-and-shuia#L68-L69` |
+| `ORG-left-and-united-opposition` | `brief-signatory` | 1926.07–1926.10 | 签署1926年7月《十三人声明》，随即因忌惮党内公开分裂于同年秋退出反对派 | `RN-W10-other-side-of-nep-and-zinoviev-arc` |
 
 ### 2.3 史学争鸣光谱（Historiographical Spectrum）
-- **经验共识**：克鲁普斯卡娅是布尔什维克最早一批职业革命家；《火星报》秘密通信网由其实际运转；启蒙总局体现革命政权文化政策；她是列宁遗嘱文本保存与递交的关键参与者；1925—1926年曾是反对派名人之一，1926年后退出联合反对派。
-- **主要解释分歧**：
-  - **[遗嘱与篡权史 / Moshe Lewin]**：通过克鲁普斯卡娅递交的文本应读作列宁试图理性化专政、防官僚专政的总体方案，斯大林主义在精神上与之相反（`CLM-lewin-1968-testament-intent`）。
-  - **[斯大林权力考古 / Oleg Khlevniuk, Stephen Kotkin]**：1922—1924年斯大林斥责克鲁普斯卡娅事件是书记处私自监控列宁私人通信与寡头封口遗嘱的制度链条一环，非孤立礼仪冲突（`CLM-khlevniuk-2015-collective-leadership-erosion`；Kotkin 传记中的日期—动机争论待专卡）。
-  - **[启蒙—强制双重性 / David Hoffman]**：克鲁普斯卡娅启蒙网展示苏联“培养群众”冲动，与契卡清除暴力同属现代国家治理谱系，不宜浪漫化为纯粹人道主义教育（`CLM-hoffmann-2011-enlightenment-and-coercion-duality`）。
-  - **[列宁格勒反对派史 / Zhukov 等]**：1925年克鲁普斯卡娅与季诺维也夫结盟须放回列宁格勒机器与 industrialization 争论，而非个人恩怨剧（`CLM-zhukov-zinoviev-1925-leningrad-opposition`）。
+- **1. 列文“最后斗争”与反官僚守护者叙事（Moshe Lewin）**：强调克鲁普斯卡娅在1922年底至1923年3月不仅是列宁的照料者，更是其对抗大俄罗斯官僚中央集权、捍卫格鲁吉亚反对派与传递《给代表大会的信》的关键政治守门人；列文将民族问题、官僚化与1923年3月初列宁获悉斯大林辱骂克氏后的私人绝交威胁联系起来解释列宁最后的反斯大林行动（其中 `1923-01-04` 撤换建议与 `1923-03-05` 获悉辱骂后的绝交威胁在时序上须分开叙述，见 `RN-W1-testament-and-cooperation`；背景见 `CLM-lewin-1968-testament-intent`、`CLM-lewin-1968-georgian-affair-bureaucracy`）。
+- **2. 科特金文本置疑与赫列夫纽克档案反驳（Stephen Kotkin vs. Oleg Khlevniuk）**：科特金（`kotkin_2014_stalin_v1/ch18_chapter_11.md#L802-L808`）以斯大林1923年3月7日回信提及“约五周前”为线索，质疑电话冲突究竟发生于 `1922-12-22` 还是 `1923-01`，并指出列宁无亲笔签名的口授记录使斯大林深信克鲁普斯卡娅深度介入乃至部分主导了遗嘱文本的生成；赫列夫纽克（`RN-W3-politburo-apparatus-and-1929-victory#L121-L125`；`CLM-khlevniuk-2015-collective-leadership-erosion`）依据《苏共中央通报》（1989）档案驳斥“伪造论”，确认12月18日隔离令与12月22日斥责链条属实，同时指出斯大林成为主靶带有相当偶然性——政策误算撞上列宁病窗，加上对克氏的失礼才赋予了“太粗暴”这一最具杀伤力的个人罪名。
+- **3. 社会文化与教育史重评（去“列宁遗孀”化视角）**：当代教育史与性别史（`RN-W28-industrial-paternalism-zhenotdel-and-soviet-pedagogy-1917-1929`；`CLM-soviet-citizen-lunacharsky-progressive-pedagogy-1920s`；`CLM-hoffmann-2011-enlightenment-and-coercion-duality`）拒绝仅从“列宁遗孀”或“党内权力悲剧”读取克鲁普斯卡娅，指出她在1920年代长期拥有独立于克里姆林宫派系之外的政策能动性，既在劳动教学去性别化与校外青年组织边界上体现鲜明的进步主义教育观，又不可避免地参与了苏维埃现代性中“启蒙与规训并存”的制度建构。
+- **4. 苏联官方纪念谱系与俄国新传统主义视角（Spitsyn 等）**：苏联官方叙事长期隐去其 1922–1926 年抗争并塑造温良“革命导师夫人与教育家”圣像；当代俄国新传统主义综合史（`RN-W32-spitsyn-neo-traditionalist-synthesis-1917-1929`）则侧重从中央干部体制（罗名制）与反分裂党纪逻辑解释其为何最终在1926年秋脱离反对派，认为其妥协反映了老布尔什维克对“维护党的统一”的内化约束。
 
-## 2. 一跳邻域等权重微摘要 (共 8 个关联节点，严防大卡霸占上下文)
-### 邻居节点: `MTG-1924-05-13th-party-congress`
-- **时效关系边** (`PER-krupskaya` → `MTG-1924-05-13th-party-congress` | `submitted-lenin-testament` | 有效时段: `1924.05`): 在十三大前向中央移交列宁《给代表大会的信》，但遭季诺维也夫、加米涅夫与斯大林限制在代表团闭门宣读而未撤换总书记。
-- **时效关系边** (`MTG-1924-05-13th-party-congress` → `PER-krupskaya` | `entrusted-testament` | 有效时段: `1924.05`): 转交并主张尊重遗嘱精神，遭多数派封存处理
-- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 1924年5月23日至31日，列宁逝世后的首次党代会召开。会前中央全会与长老会议限制列宁最后口授文件传达方式并留任斯大林；大会依托“列宁征召”与组织筛选压倒左翼反对派，托洛茨基公开宣示对党忠诚。会后中央与中监委扩编、布哈林升入政治局，集体领导联盟暂时稳固。
+## 2. 一跳邻域全量微摘要目录 (去重后共 10 个节点，0 截断)
+- **`MTG-1924-05-13th-party-congress`**（俄国共产党（布尔什维克）第十三次代表大会）: 1924年5月23日至31日，列宁逝世后的首次党代会召开。会前中央全会与长老会议限制列宁最后口授文件传达方式并留任斯大林；大会依托“列宁征召”与组织筛选压倒左翼反对派，托洛茨基公开宣示对党忠诚。会后中央与中监委扩编、布哈林升入政治局，集体领导联盟暂时稳固。 ‖ `→PER-krupskaya`[transmitted-and-protested|1924-05]: 5月18日移交列宁最后13份文件整体，并在大会讲坛抗议逼迫反对派公开认错。 ； `←PER-krupskaya`[testament-custodian|1924.05]: 5月18日移交列宁最后13份口授文件，5月22日长老会议反对其被压制，大会上反对强迫反对…
+- **`MTG-1925-12-14th-party-congress`**（联共（布）第十四次代表大会）: 1925年12月18—31日莫斯科举行。斯大林—布哈林中央多数派以559:65通过批准中央政治报告决议案，击败以列宁格勒产业工人党员为后盾、批判富农分化与“国家资本主义”的季诺维也夫—加米涅夫“新反对派”；大会确立社会主义工业化总方针并改党名为联共（布）。 ‖ `→PER-krupskaya`[co-signatory-opponent|1925.09–12]: 签署“四人秘密报告”并在大会初期声援反对派，批评美化NEP资本主义自发势力 ； `←PER-krupskaya`[new-opposition-speaker|1925.12]: 在十四大与季诺维也夫、加米涅夫、索科尔尼科夫结盟反对对富农过度退让，并在大会讲坛提醒“多…
+- **`PER-lenin`**（弗拉基米尔·列宁）: 布尔什维克党缔造者、苏俄人民委员会主席（1917–1924）。1893年投身马克思主义运动，1903年促成布尔什维克分化；1917年发表《四月提纲》并领导十月夺权，历经布列斯特和约、内战与战时共产主义；1921年主持转向新经济政策，晚年（1922–1923）就官僚化与接班人同斯大林冲突。 ‖ `←PER-krupskaya`[partner-secretary-guardian|1898–1924]: 兼具生活伴侣、地下密码联络中枢与病榻口授守护者三重角色，塑造列宁晚年政治表达的传递通道
+- **`PER-stalin`**（约瑟夫·斯大林）: 布尔什维克高加索地下组织者、民族事务人民委员（1917–1923）及中央总书记（1922起）。依托书记处任命权与安全危机叙事，先联季-加压制托洛茨基，再联布哈林击溃联合反对派；1927–1929年以战备恐慌与“自上而下革命”击败布哈林集团，1929年12月拍板“把富农作为阶级消灭”并终结新经济政策。 ‖ `←PER-krupskaya`[confrontation-then-containment|1922.12–1939]: 1922–23 医疗隔离冲突与电话辱骂直接触发列宁 1923-03-05 绝交威胁；斯大…
+- **`PER-lunacharsky`**（阿纳托利·卢那察尔斯基）: 俄国革命文艺理论家、首任苏俄教育人民委员（1875—1933）。早年与波格丹诺夫、高尔基共倡“造神说”并组前进派党校；1917年随区联派入布尔什维克，十月后长期主持教育与文化事业，在保护旧知识分子、实验教育与激进派间力求平衡；1929年大转变高潮中辞职，1933年病逝法国。 ‖ `←PER-krupskaya`[colleague-narkompros|1918–1929]: 共事教育人民委员部十余年，统筹成人政教、扫盲与少先队校外定位，同受1920年代末激进派冲击 ； `→PER-krupskaya`[narkompros-co-leader|1918–1929]: 长期在教育人民委员部共事，合力推进统一劳动学校、去性别化课程、少先队校外自主基地与扫盲政治启蒙
+- **`PER-zinoviev`**（格里戈里·季诺维也夫）: 老布尔什维克、共产国际首任主席（1919–1926）。1917年十月公开反对武装起义；1920年哈雷演说力推二十一条与阶级恐怖，1923年豪赌“德国十月”并首倡社民党“法西斯羽翼”论；借“三驾马车”排托后于1925年发起新反对派，1926年7月首因秘密第7条被逐出政治局，1927年底被开除后屈服。 ‖ `←PER-krupskaya`[temporary-opposition-ally|1925.12–1926.10]: 十四大前与季诺维也夫、加米涅夫、索科利尼科夫合组新反对派并连署《十三人声明》，1926年…
+- **`PER-kamenev`**（列夫·加米涅夫）: 老布尔什维克、首任全俄中执委主席。1917年自四月至立宪会议一贯坚守温和宪政社会主义联盟路线并公开反对十月起义；1924年十三大联手季诺维也夫压下《列宁遗嘱》，1925年十四大公开发言反斯大林“领袖”集权后失势；1928年7月密会布哈林并留下外泄笔记，反成右派致命罪证。 ‖ `←PER-krupskaya`[confidant-then-ally|1922.12–1926]: 1922-12-23 遭斯大林辱骂后第一时间致信加米涅夫求助，1925–1926年再度携…
+- **`PER-kuibyshev`**（瓦列里安·古比雪夫）: 苏联工业化关键操盘手（1888–1935）。1918年曾在萨马拉追随左派共产主义者并任东线政委；1922年任中央书记，1923–1926年兼掌中监委与工农检查院，将列宁监督构想转为打击反对派工具；1926年接掌最高国民经济委员会，力推重工业高指标并坚定支持斯大林。 ‖ `←PER-krupskaya`[adversarial-episode|1923.01]: 据洛吉诺夫转述，1923年1月围绕列宁文章发表有单印报纸之议，克鲁普斯卡娅与托洛茨基、加…
+- **`ORG-left-and-united-opposition`**（1923–1927年左翼反对派与托季联合反对派）: 1923年剪刀差危机触发的托洛茨基—普列奥布拉任斯基“左翼反对派”，经1926年春与季诺维也夫—加米涅夫“新反对派”结盟为托季联合反对派；以《四十六人声明》与《1927年政纲》批判官僚体制与“一国社会主义”、主张价格—财政渠道的计划工业化，于1927年12月十五大被组织摧毁。 ‖ `←PER-krupskaya`[brief-signatory|1926.07–1926.10]: 签署1926年7月《十三人声明》，随即因忌惮党内公开分裂于同年秋退出反对派
+- **`PER-trotsky`**（列夫·托洛茨基）: 俄国革命家、“不断革命论”提出者，1905年彼得堡苏维埃实际领袖与1917年彼得格勒苏维埃主席；借军革委与苏维埃二大衔接统筹十月夺权，内战期起用4.8万军事专家缔造红军。1923–1927年领衔左翼与联合反对派抗衡斯大林集权并受“红色波拿巴”污名围剿，1927年被开除出党，1929年被驱逐出境。 ‖ `←PER-krupskaya`[temporary-alignment|1925–1926]: 十四大—联合反对派阶段短期合流，1926年退出
 
-### 邻居节点: `MTG-1925-12-14th-party-congress`
-- **时效关系边** (`PER-krupskaya` → `MTG-1925-12-14th-party-congress` | `new-opposition-speaker` | 有效时段: `1925.12`): 在十四大与季诺维也夫、加米涅夫、索科尔尼科夫结盟反对对富农过度退让，并在大会讲坛提醒“多数派未必永远正确”。
-- **时效关系边** (`MTG-1925-12-14th-party-congress` → `PER-krupskaya` | `co-signatory-opponent` | 有效时段: `1925.09–12`): 签署“四人秘密报告”并在大会初期声援反对派，批评美化NEP资本主义自发势力
-- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 1925年12月18—31日莫斯科举行。斯大林—布哈林中央多数派以559:65通过批准中央政治报告决议案，击败以列宁格勒产业工人党员为后盾、批判富农分化与“国家资本主义”的季诺维也夫—加米涅夫“新反对派”；大会确立社会主义工业化总方针并改党名为联共（布）。
+## 3. 关联史学争鸣与学者论断索引 (主卡外关联争鸣 4 项)
+- **`DEB-1922-lenin-testament-and-stalin-rise`**（列宁晚年、格鲁吉亚事件与斯大林崛起机制 | `historiography/debates/DEB-1922-lenin-testament-and-stalin-rise.md` | 流派 `revisionist, nationalities-history, archival-post-soviet, kotkin-source-skepticism, trotskyist, service-critical-biography, sakharov-pseudo-lenin-polemic`）：列宁晚年口授文稿和格鲁吉亚冲突，是反官僚与反斯大林的总体“最后斗争”，还是对共同集权框架内具体做法的修正？《遗嘱》本身是否存在文本流转疑点？斯大林的上升又如何由个人策略、书记处机关、寡头集体领导与反对派失策共同解释？
+- **`DEB-1920s-gender-family-and-everyday-life`**（1917—1929年妇女解放、家庭与日常生活之争 | `historiography/debates/DEB-1920s-gender-family-and-everyday-life.md` | 流派 `family-social-history, womens-mobilization, domestic-labor, industrial-paternalism, soviet-orthodoxy-industrial-labor, gender-pedagogy, european-modernity`）：革命后的法律平等、家务社会化与妇女就业承诺，为何在新经济政策下遭遇失业、照护资源匮乏和家庭财产纠纷？这种落差主要来自财政约束、父权关系与劳动市场，还是现代国家同时实施福利和规训的制度逻辑？不同地区的妇女如何回应，又有哪些经验被官方统计和男性论战遮蔽？
+- **`DEB-1924-socialism-in-one-country`**（一国建成社会主义与不断革命论 | `historiography/debates/DEB-1924-socialism-in-one-country.md` | 流派 `stalin-bukharin, united-opposition, political-intellectual-history, institutional-geopolitics, lenin-cooperative-plan, bonapartism-and-tactical-critique`）：欧洲革命迟滞后，苏联能否凭国内力量建成社会主义，还是生产力与世界市场的联系使最终完成有赖国际革命？争论中的建设、建成和免于复辟并非同一问题；工农联盟、外部安全及党内联盟变化又如何改变这些概念的政治意义？各方均主张建设，分歧在条件、界限与国际前景。
+- **`DEB-1903-bolshevik-menshevik-split`**（《怎么办？》与1903年布尔什维克—孟什维克分裂实质之争 | `historiography/debates/DEB-1903-bolshevik-menshevik-split.md` | 流派 `participant, cold-war-jacobin-continuity, intellectual-history, erfurt-reinterpretation, menshevik, borderland-social-democracy, labor-history`）：《怎么办？》的自发性与意识理论究竟体现精英代替工人，还是欧洲社会民主主义所共有的结合公式？1903年党章、领导机构选举和代表退会如何共同造成分裂，又能否把后来的一党统治直接追溯到当时？必须区分文本论战、组织选择和事后政治后果。
 
-### 邻居节点: `PER-lenin`
-- **时效关系边** (`PER-krupskaya` → `PER-lenin` | `partner-organizer` | 有效时段: `1890s–1924`): 火星报联络与党内组织互补列宁政治领袖角色
-- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 布尔什维克党缔造者、苏俄人民委员会主席（1917–1924）。1893年投身马克思主义运动，1903年促成布尔什维克分化；1917年发表《四月提纲》并领导十月夺权，历经布列斯特和约、内战与战时共产主义；1921年主持转向新经济政策，晚年（1922–1923）就官僚化与接班人同斯大林冲突。
+### 3.1 关联核心论断与史学家学派坐标 (`CLM-*` → `SCH-*`, 展示前 24/50 条)
+- **`CLM-haimson-1955-1903-second-congress-split`** [`SCH-haimson-leopold`(利奥波德·海姆森) | pp. 175-191]: 
+- **`CLM-soviet-citizen-lunacharsky-progressive-pedagogy-1920s`** [`SCH-avis-george`(乔治·阿维斯（编） · education-social-history) | PDF pp. 41, 63-64, 80, 86, 94, 100-102 (原书 pp. 32, 54-55, 71, 77, 85, 91-93)]: 
+- **`CLM-hoffmann-2011-enlightenment-and-coercion-duality`** [`SCH-hoffmann-david`(大卫·L·霍夫曼) | pp. 8–9, 112, 184]: 
+- **`CLM-lewin-1968-testament-intent`** [`SCH-lewin-moshe`(摩西·莱文) | n/a（EPUB 无页码锚点）；Ch.10 'If Lenin Had Lived . . .'；列宁原文脚注见 Soch. XLV p. 392；XLIV p. 428]: 
+- **`CLM-zhukov-zinoviev-1925-leningrad-opposition`** [`SCH-zhukov-yuri`(尤里·茹科夫) | EPUB OPS/ch1-20.xhtml, OPS/ch1-21.xhtml (Notes 434-462)]: 
+- **`CLM-lewin-1968-georgian-affair-bureaucracy`** [`SCH-lewin-moshe`(摩西·莱文) | n/a（EPUB 无页码锚点）；Ch.9、Ch.10 与 Appendixes I–III, VII–VIII]: 
+- **`CLM-khlevniuk-2015-collective-leadership-erosion`** [`SCH-khlevniuk-oleg`(奥列格·赫列夫纽克) | EPUB ops/xhtml/ch02.html（TRYING OUT COLLECTIVE LEADERSHIP 至 THE CHOICE）。工作区文本无纸质页码。]: 
+- **`CLM-deutscher-1959-united-opposition-defeat`** [`SCH-isaac-deutscher`(艾萨克·多伊彻) | （中译本；对应第二部 1926–1927 年）]: 
+- **`CLM-lewin-1968-cooperation-shift`** [`SCH-lewin-moshe`(摩西·莱文) | n/a（EPUB 无页码锚点）；Ch.8 'Russia between West and East'；列宁原文脚注 Soch. XLV pp. 367, 370, 373, 387–88, 389]: 
+- **`CLM-smith-jeremy-1999-georgian-affair-reassessed`** [`SCH-smith-jeremy`(杰里米·史密斯) | pp. 252-253, 260-262, 266-268, 285-288, 296-297]: 
+- **`CLM-smith-jeremy-1999-twelfth-congress-korenizatsiia`** [`SCH-smith-jeremy`(杰里米·史密斯) | pp. 311, 321-325, 327-331]: 
+- **`CLM-khlevniuk-2015-secretariat-and-nomenklatura`** [`SCH-khlevniuk-oleg`(奥列格·赫列夫纽克) | EPUB ops/xhtml/ch02.html（In Lenin's Shadow，GENERAL SECRETARY 至 1923 年 9 月组织局安排）；制度总论见 ops/xhtml/ch01a.html。工作区文本无纸质页码。]: 
+- **`CLM-kotkin-2014-geopolitics-and-ideology`** [`SCH-kotkin-stephen`(斯蒂芬·科特金) | EPUB Ch. 13 (OEBPS/9780698170100_EPUB_1-23.xhtml) & Coda (OEBPS/9780698170100_EPUB_1-25.xhtml)]: 
+- **`CLM-deutscher-1959-disarmed-prophet-paradox`** [`SCH-isaac-deutscher`(艾萨克·多伊彻) | （中译本无独立纸页；对应第二部 1923 年争论章）]: 
+- **`CLM-service-2009-trotsky-authoritarian-consensus`** [`SCH-service-robert`(罗伯特·瑟维斯) | 中译 EPUB 无纸页码；对应英文本第 23–24、28–29、37 章及引言]: 
+- **`CLM-service-2009-trotsky-political-tactical-blunders`** [`SCH-service-robert`(罗伯特·瑟维斯) | 中译 EPUB 无纸页码；对应英文本引言及第 31–32、37–38 章]: 
+- **`CLM-sakharov-2012-lenin-cooperative-plan-debates`** [`SCH-sakharov-valentin`(瓦连京·萨哈罗夫) | EPUB Ch. 1.3 & Ch. 4.2]: 
+- **`CLM-sakharov-2012-nep-crossroads-1928`** [`SCH-sakharov-valentin`(瓦连京·萨哈罗夫) | EPUB Ch. 4.2 & Ch. 4.3]: 
+- **`CLM-goldman-1993-1918-family-code-and-nep-reality`** [`SCH-goldman-wendy`(温迪·Z·戈德曼) | pp. 60–65]: 
+- **`CLM-goldman-1993-1926-marriage-code-peasant-worker-clash`** [`SCH-goldman-wendy`(温迪·Z·戈德曼) | pp. 242–248]: 
+- **`CLM-soviet-women-zhenotdel-mobilization-and-liquidation-1919-1930`** [`SCH-mandel-william`(威廉·M·曼德尔 · social-history-synthesis) | PDF pp. 31, 34-47, 154-155, 218-219, 241]: 
+- **`CLM-klots-prisluga-to-domrabotnitsa-nep-reclassification`** [`SCH-klots-alissa`(阿莉萨·克洛茨) | PDF pp. 12, 23–27]: 
+- **`CLM-klots-communist-employers-and-gendered-labor-hierarchy`** [`SCH-klots-alissa`(阿莉萨·克洛茨) | PDF pp. 7–10, 29–36, 95, 179–180]: 
+- **`CLM-klots-narpit-unionization-and-1926-labor-law-paradox`** [`SCH-klots-alissa`(阿莉萨·克洛茨) | PDF pp. 41–51, 58–69, 85–88]: 
 
-### 邻居节点: `PER-stalin`
-- **时效关系边** (`PER-krupskaya` → `PER-stalin` | `conflict-then-opposition` | 有效时段: `1922–1926`): 1922–23电话辱骂事件与遗嘱守护框定终身对立
-- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 布尔什维克高加索地下组织者、民族事务人民委员（1917–1923）及中央总书记（1922起）。依托书记处任命权与安全危机叙事，先联季-加压制托洛茨基，再联布哈林击溃联合反对派；1927–1929年以战备恐慌与“自上而下革命”击败布哈林集团，1929年12月拍板“把富农作为阶级消灭”并终结新经济政策。
-
-### 邻居节点: `PER-trotsky`
-- **时效关系边** (`PER-krupskaya` → `PER-trotsky` | `temporary-alignment` | 有效时段: `1925–1926`): 十四大—联合反对派阶段短期合流，1926年退出
-- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 俄国革命家、“不断革命论”提出者，1905年彼得堡苏维埃实际领袖与1917年彼得格勒苏维埃主席；借军革委与苏维埃二大衔接统筹十月夺权，内战期起用4.8万军事专家缔造红军。1923–1927年领衔左翼与联合反对派抗衡斯大林集权并受“红色波拿巴”污名围剿，1927年被开除出党，1929年被驱逐出境。
-
-### 邻居节点: `PER-zinoviev`
-- **时效关系边** (`PER-krupskaya` → `PER-zinoviev` | `ally` | 有效时段: `1925`): 新反对派中共同挑战斯大林
-- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 老布尔什维克、共产国际首任主席（1919–1926）。1917年十月公开反对武装起义；1920年哈雷演说力推二十一条与阶级恐怖，1923年豪赌“德国十月”并首倡社民党“法西斯羽翼”论；借“三驾马车”排托后于1925年发起新反对派，1926年7月首因秘密第7条被逐出政治局，1927年底被开除后屈服。
-
-### 邻居节点: `PER-kamenev`
-- **时效关系边** (`PER-krupskaya` → `PER-kamenev` | `ally` | 有效时段: `1924–1925`): 1924年十三大与其共同封存遗嘱政治后果相连；1925反对斯大林
-- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 老布尔什维克、首任全俄中执委主席。1917年自四月至立宪会议一贯坚守温和宪政社会主义联盟路线并公开反对十月起义；1924年十三大联手季诺维也夫压下《列宁遗嘱》，1925年十四大公开发言反斯大林“领袖”集权后失势；1928年7月密会布哈林并留下外泄笔记，反成右派致命罪证。
-
-### 邻居节点: `PER-lunacharsky`
-- **时效关系边** (`PER-lunacharsky` → `PER-krupskaya` | `institutional-ally` | 有效时段: `1920–1929`): 同在教育人民委员部系统共掌政治启蒙与国民教育，体现克鲁普斯卡娅—杜威式“教养”维度
-- **节点定性微摘要 [T1]** (完备度 `draft`): 卢那察尔斯基（1875–1933），布尔什维克文化理论家与首任教育人民委员（1917–1929），早年倡导“造神说”并与波格丹诺夫共创“前进”集团党校；1917随区联派入党，主持扫盲、艺术宽容与教育体制，1929年“大转变”前夕辞职。
-
-## 3. 关联史学争鸣光谱 (Historiographical Debates)
-### `DEB-1922-lenin-testament-and-stalin-rise`：列宁晚年、格鲁吉亚事件与斯大林崛起机制
-## [T1] 核心问题定义
-列宁晚年口授文稿和格鲁吉亚冲突，是反官僚与反斯大林的总体“最后斗争”，还是对共同集权框架内具体做法的修正？《遗嘱》本身是否存在文本流转疑点？斯大林的上升又如何由个人策略、书记处机关、寡头集体领导与反对派失策共同解释？
-
-## [T2] 各学派立场对照矩阵
-| 学派/取向 | 代表学者与著作 | 核心论点摘要 | 支撑论断卡 | 主要受批评盲点 |
-| :--- | :--- | :--- | :--- | :--- |
-| 反官僚最后斗争论 | Moshe Lewin, *Lenin's Last Struggle* (1968) | 将晚年口授群读为反大国沙文主义、改组监察院及撤换斯大林的连贯政治改革方案；但指出列宁始终未废除派别禁令与一党垄断。 | `CLM-lewin-1968-testament-intent`; `CLM-lewin-1968-georgian-affair-bureaucracy`; `CLM-lewin-1968-cooperation-shift` | 写于苏联全开档案前，连贯“总体计划”程度及12月22日电话定年受后续考据挑战。 |
-| 民族政策修正 | Jeremy Smith, *The Bolsheviks and the National Question* (1999) | 强调列斯在集中制大原则上的长期共识，并据十二大特别会议解密速记揭示斯大林被迫作出的本土化妥协。 | `CLM-smith-jeremy-1999-georgian-affair-reassessed`; `CLM-smith-jeremy-1999-twelfth-congress-korenizatsiia` | 行政协调解释须与列宁1923年3月5–6日对斯大林绝交信的激烈措辞并观。 |
-| 后苏联档案与寡头共治论 | Oleg Khlevniuk, *Stalin* (2015) | 以斯大林1923–1927年多次亲口承认遗嘱存在及3月7日复函驳斥伪造论；指出1月4日补遗重在“权力再平衡”而非逐出高层，且1920年代寡头集体领导真实存在。 | `CLM-khlevniuk-2015-secretariat-and-nomenklatura`; `CLM-khlevniuk-2015-collective-leadership-erosion` | 需注意勿将1920年代末成熟名册规模倒推回1922年。 |
-| 文献流转质疑与重定年派 | Stephen Kotkin, *Stalin, Vol. 1* (2014, Ch. 11) | 指出《给代表大会的信》缺失列宁亲签与原始速记底本、打字件经克鲁普斯卡娅与秘书圈流转存有加工疑窦，并据斯大林3月7日复函“约五周前”将电话冲突重定年于1923年1月下旬；同时强调斯大林不可替代的机关功能使其难因一纸信函下台。 | `CLM-kotkin-2014-geopolitics-and-ideology`; `L3 1922-12` 专章对勘 | 尚无直接物证证明秘书团凭空捏造，且难以解释斯大林本人在十三大与1927全会从未质疑文件真伪。 |
-| 左翼悲剧论 vs 政治失误批判 | Isaac Deutscher (1959) vs Robert Service, *Trotsky* (2009) | 多伊彻痛惜托洛茨基3月6日拒绝落井下石错失良机且受困一党纪律；瑟维斯则据档案批评托洛茨基共享威权前提、两拒人民委员会副主席职务并在十二大傲慢避战，纯属政治判断失误。 | `CLM-deutscher-1959-disarmed-prophet-paradox`; `CLM-service-2009-trotsky-authoritarian-consensus`; `CLM-service-2009-trotsky-political-tactical-blunders` | 需将个人性格失误置于书记处与三驾马车结构结盟中评估。 |
-| 俄国“伪列宁文本”极端派 | V. A. Sakharov (2003 遗嘱专著; 2012《十字路口》) | 其2003年专著极端断言遗嘱与民族札记系克鲁普斯卡娅—托派伪造；库内已入库的2012年著作则聚焦《论合作社》两稿差异与1920年代路线争夺（两书议题边界须严格区分）。 | `CLM-sakharov-2012-lenin-cooperative-plan-debates`; `CLM-sakharov-2012-nep-crossroads-1928` | 全盘伪造说遭赫列夫纽克、洛吉诺夫等主流俄罗斯档案学者一致否证。 |
-
-### `DEB-1924-socialism-in-one-country`：一国建成社会主义与不断革命论
-## [T1] 核心问题定义
-欧洲革命迟滞后，苏联能否凭国内力量建成社会主义，还是生产力与世界市场的联系使最终完成有赖国际革命？争论中的建设、建成和免于复辟并非同一问题；工农联盟、外部安全及党内联盟变化又如何改变这些概念的政治意义？各方均主张建设，分歧在条件、界限与国际前景。
-
-## [T2] 各学派立场对照矩阵
-**经验基准**：1924年4月斯大林《论列宁主义基础》初版仍沿用“一国不够组织社会主义生产”旧公式，1924年12月《十月革命和俄国共产党人的策略》正式改口，1925年4月俄共（布）十四次代表会议确认为全党方针；1925年斯大林与布哈林结盟，季诺维也夫转向反对派，十四大批准斯大林中央政治报告路线决议案以 **`559 : 65`** 获胜（反对票主要来自列宁格勒代表团，`DATA-04-party-membership-and-congress-votes-1903-1929`）；1926年联合反对派形成，1927年十五大后遭到组织性排斥。各方都讨论国内建设和国际环境。
-
-| 学派/取向 | 代表学者与著作 | 核心论点摘要 | 支撑论断卡 | 主要受批评盲点 |
-| :--- | :--- | :--- | :--- | :--- |
-| 党内多数派 | 斯大林、布哈林，1925年论战（直核布哈林 `1925-04_bukharin-road-to-socialism.md`） | 国内力量可建设社会主义，但免于外部干涉与复辟的最终保障仍有国际条件；布哈林1925年4月原文侧重工农合作渐进增长，须与斯大林表述分别核对。 | `CLM-bukharin-stalin-1925-one-country-internal-forces` | 该卡斯大林引文经2026年汇编转引，不能代替布哈林 S 级原文或十四次代表会议正式通过本。 |
-| 联合反对派与不断革命论 | 托洛茨基《1905》（1909/1922）；托洛茨基、季诺维也夫，1925—1927 | 不断革命论原典论证无产阶级夺权后无法止步于民主阶段且依赖西欧联合；1926年季诺维也夫区分建设可能与最终胜利，托洛茨基强调世界生产力、贸易和廉价商品压力。 | `CLM-trotsky-1905-december-uprising-lessons-and-permanent-revolution-defense`（B级）；`CLM-zinoviev-trotsky-1926-world-economy-critique` | 1926年汇编中部分托洛茨基段落未标确切单行本年份；不应把不断革命论简述为反对国内建设。 |
-| 反对派政治史与战术/波拿巴反思 | Isaac Deutscher, *The Prophet Unarmed* (1959) & 1952年比较论文（检索ID沿用 `CLM-shlapentokh-*`）；Robert Service, *Trotsky: A Biography* (2009) | 德伊舍尔把理论分歧放回反对派失势轨迹，并指出全党囿于法国“红色拿破仑”迷思围剿托洛茨基，反助斯大林依托书记处文官集权；瑟维斯反驳官僚必然论，归因托洛茨基拒任要职、误判斯大林与战术僵化。 | `CLM-deutscher-1959-disarmed-prophet-paradox`；`CLM-deutscher-1959-united-opposition-defeat`；`CLM-shlapentokh-bonapartism-fear-against-trotsky`；`CLM-service-2009-trotsky-political-tactical-blunders` | 德伊舍尔1959/1952年著述对主人公及工业化“历史进步”带有同情滤镜（库内尚无 Shlapentokh 原著）；瑟维斯则相对低估书记处任命制的结构权重。 |
-| 制度与国际史 | E. H. Carr, *The Russian Revolution From Lenin to Stalin, 1917–1929* (1979)；*Foundations of a Planned Economy, 1926–1929*, Vol. 3-II (1976) | 以落后、工业化与国际关系的交织解释政策与理论综合；1927年中国革命失败与战争恐慌加剧共产国际路线及派别争执。 | `CLM-carr-1979-stalin-synthesis-of-russian-backwardness-and-industrialism`；`CLM-carr-1976-china-1927-defeat-and-comintern-factionalism` | 宏观制度综合不能代替逐版文本、会议程序与表决史。 |
-| 列宁思想解释 | Valentin Sakharov（瓦连京·萨哈罗夫）, *На распутье... 1921–1929 гг.*（《站在十字路口》，2012） | 论证列宁《论合作社》两份口述稿存在根本理论断裂（放弃初稿“商贩式”流通合作社，第二稿转向国有土地与生产资料上的生产合作社/集体农庄），指斥布哈林偷换概念，并论证斯大林工业化与 MTS 集体农庄路线是第二稿的正统继承人。 | `CLM-sakharov-2012-lenin-cooperative-plan-debates` | 具鲜明后苏联亲斯大林/反布哈林倾向；“列宁晚期生产合作社逻辑”不能直接等同于 1929–1930 年暴力全盘强制集体化，亦非 1925 年党内表决裁决。 |
-| 列宁格勒反对派 | Yuri Zhukov（尤里·茹科夫）, 《格里高利·季诺维也夫：被遗忘的世界革命领袖》(2011) | 季诺维也夫1925年发难植根列宁格勒地方权力与共产国际世界革命经验（含1923年德国失败），并非托洛茨基路线的简单副本。 | `CLM-zhukov-zinoviev-1925-leningrad-opposition`；`CLM-zhukov-zinoviev-comintern-and-1923-germany` | 带有后苏联民族国家现实主义倾向（赞斯大林1923年审慎、贬季氏盲动），其叙事仍须与会议速记与文本版本对勘。 |
-
-## 4. 关联时间线锚点 (共 13 条)
-- **1917-03-27 [O.S.] / 1917-04-09 [N.S.]** (`TL-W32-1917-04-09-02`, L3): **列宁一行32名俄国流亡者自苏黎世乘治外法权列车（所谓“铅封列车”）启程返俄** — 经瑞士左翼普拉廷与德国公使馆议定治外法权过境条款，当地时间1917-04-09 [N.S.] / 03-27 [O.S.]约15:10（派普斯记15:20），列宁、克鲁普斯卡娅、季诺维也夫、阿尔曼德、拉狄克等32名流亡者（含19名布尔什维克、6名崩得、3名托洛茨基追随者）自苏黎世出发，经戈特马丁根转乘两节编组专列横穿德国（车门实未焊铅）。
-- **1917-03-29 [O.S.] / 1917-04-11 [N.S.]** (`TL-W32-1917-04-11-02`, L3): **返俄列车经斯图加特、法兰克福抵柏林并滞留警卫下20小时** — 当地时间1917-04-11 [N.S.] / 03-29 [O.S.]午后早期，载有列宁一行的治外法权专列抵达柏林并在德军警卫环伺下滞留约20小时；德国政府与军方寄望反战左翼返俄冲击临时政府战意。
-- **1917-03-30 [O.S.] / 1917-04-12 [N.S.]** (`TL-W32-1917-04-12-02`, L3): **列车离柏林经萨斯尼茨渡波罗的海抵瑞典特雷勒堡** — 当地时间1917-04-12 [N.S.] / 03-30 [O.S.]，列宁一行离开柏林抵萨斯尼茨港，登乘瑞典汽船《维多利亚女王号》跨海，约傍晚18:00靠泊特雷勒堡，旋即乘火车连夜北赴斯德哥尔摩。
-- **1917-03-31 [O.S.] / 1917-04-13 [N.S.]** (`TL-W32-1917-04-13-02`, L3): **列宁抵斯德哥尔摩：拒见帕尔乌斯、由拉狄克会晤，获俄领馆签证后北上** — 当地时间1917-04-13 [N.S.] / 03-31 [O.S.]上午10:00抵斯德哥尔摩。列宁签署声明断然拒见帕尔乌斯，派奥籍波兰人拉狄克同帕尔乌斯会谈大半日（留有“是否借道资助”史学争议），并在取得临时政府驻瑞领事签证、留加涅茨基—拉狄克设驻外点后，于当夜启程赴芬兰边境。
-- **1917-04-29 [O.S.] / 1917-05-12 [N.S.]** (`TL-W32-1917-05-12-01`, L3): **布尔什维克四月会议闭幕：列宁路线胜出（71:39:8）与九人新中央当选** — 1917-04-29 [O.S.] / 05-12 [N.S.]至30日凌晨04:00，四月会议闭幕：列宁反驳李可夫经济落后阶段论（“没人能说清谁先开始、谁来完成”），《关于当前形势》以71:39:8通过，民族自决决议56:16:18胜出（皮达可夫、捷尔任斯基反对；洛吉诺夫中译误作“皮亚特尼茨基”），但退出齐美尔瓦尔德案以1:8遭拒。109名代表选出九人中央（列宁104、季诺维也夫101、斯大林97、加米涅夫95、米柳京82、诺根76、斯维尔德洛夫71、斯米尔加53、费奥多罗夫48）。
-- **1924-01-21 [N.S.]** (`TL-W36-1924-01-21-01`, L3): **列宁在戈尔基逝世（18:50），国家机器紧急接管治丧议程** — 1924-01-21 18:50列宁在莫斯科近郊戈尔基因脑血管阻塞引发呼吸中枢麻痹逝世（克鲁普斯卡娅与布哈林在侧）。当夜政治局核心赶赴戈尔基，1月22日02:30全俄中执委主席团紧急设立捷尔任斯基主持的治丧委员会。（衔接既有TL-W15-L3-23-17）
-- **1924-01-26 [N.S.]** (`TL-W36-1924-01-26-01`, L3): **斯大林发表“向列宁宣誓”演说，彼得格勒更名列宁格勒并推动遗体防腐** — 1924-01-26全苏第二次苏维埃代表大会追悼会上，斯大林发表祈祷文式的“向列宁宣誓”演说并奠定“列宁主义正统继承人”话语，大会决议将彼得格勒更名为列宁格勒；01-27零下严寒中举行红场六小时葬礼入木墓，随后斯大林与捷尔任斯基不顾克鲁普斯卡娅反对力推遗体永久防腐。
-- **1924-05-18 [N.S.]** (`TL-W36-1924-05-18-01`, L3): **克鲁普斯卡娅移交列宁“遗嘱”，全会与长老会议决定分组口读并禁入速记** — 1924-05-18克鲁普斯卡娅正式向中央移交列宁《给代表大会的信》及调开斯大林附言；05-21中央全会斯大林表演性请辞而获季诺维也夫、加米涅夫力保留任；05-22十三大开幕前长老会议决议不予公开发表，改按代表团分组口头宣读（05-25—26），严禁抄录与载入大会速记。（对接TL-W4-E09-1924-01）
-- **1924-05-23 [N.S.]** (`TL-W36-1924-05-23-01`, L3): **俄共（布）第十三次代表大会召开，托洛茨基宣称“党永远正确”** — 1924-05-23至31日俄共（布）十三大召开（748名表决代表，无一反对派）。季诺维也夫要求反对派公开认错遭克鲁普斯卡娅反驳，托洛茨基全程缄默“遗嘱”并声称“不能反对党，归根到底党永远是正确的”。会后斯大林全票连任总书记，布哈林升入政治局，卡冈诺维奇入书记处。（对接TL-W4-E09-1924-02）
-- **1924-11-01 [N.S.]** (`TL-W36-1924-11-01`, L3): **全党“文学讨论”大围剿与“托洛茨基主义”异端定型** — 1924年10月底至12月报刊连发30余篇批判文章（“文学讨论”）而压下托氏反驳稿：季、加、布哈林、李可夫把不断革命论与孟什维克捆绑为“托洛茨基主义”，斯大林更抬举五人“实践中心”贬低托氏1917年角色，同时故意反对季加开除托氏党籍要求以扮演“温和调停人”。仅克鲁普斯卡娅委婉批论战过火。
-- **1925-12-15 [N.S.]** (`TL-W24-1925-12-15-01`, L3): **十四大前夕代表团抵京与副报告权之争** — 列宁格勒代表团携争议小册子赴莫斯科，政治局否决四人秘密报告为派别纲领但准许季诺维也夫作副报告；42名代表联署达标。
-- **1925-12-24 [N.S.]** (`TL-W24-1925-12-24-01`, L3): **外省书记围攻新反对派与索科尔尼科夫质疑** — 布哈林冠名新反对派，波斯蒂舍夫与乌格拉诺夫等批判列宁格勒代表团；克鲁普斯卡娅与索科尔尼科夫从党内民主与财政角度回击。
-- **1926-07-14 [N.S.]** (`TL-W25-1926-07-14-01`, L3): **七月中央与中监委联席全会开幕；联合反对派宣读《十三人声明》** — 联席全会（7月14–23日）开幕，托洛茨基、季诺维也夫、加米涅夫、皮达可夫、克鲁普斯卡娅等13名中央/中监委成员发表24页纲领性声明正式组建联合反对派，但在英俄委员会少数派案中以10:152惨败。
+## 4. 关联时间线骨干锚点 (L0–L2 展示 0 条，另有 13 条 L3 逐日细节见 `timeline/L3_daily/`)

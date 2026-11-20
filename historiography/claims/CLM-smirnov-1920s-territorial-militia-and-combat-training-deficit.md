@@ -1,14 +1,14 @@
 ---
 id: CLM-smirnov-1920s-territorial-militia-and-combat-training-deficit
 type: claim
-scholar: SCH-smirnov-a
+scholar: SCH-smirnov-andrei
 work_title: "工农红军军队建设中的致命错误，1917—1937"
 publication_year: 2015
 source_tier: A
 local_source_path: "sources/monographs/smirnov_red_army_1917_1937_zh/ch35_工农红军战前训练水平低下的深层原因_part_11.md#L203-L257"
 original_pages: "pp. 102, 761-764, 779-783, 792-794, 817"
-targets_cards: ["POL-frunze-military-reform", "ORG-red-army", "PER-frunze", "PER-trotsky", "PER-voroshilov"]
-debate: DEB-red-army-1941-collapse-causes
+targets_cards: ["PER-frunze", "INS-rkka-red-army-and-rvr", "PER-trotsky", "PER-voroshilov"]
+debate: DEB-1918-red-terror-and-civil-war-origins
 supports: []
 rebuts: []
 qualifies: []

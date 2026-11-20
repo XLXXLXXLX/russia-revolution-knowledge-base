@@ -7,8 +7,8 @@ publication_year: 1985
 source_tier: A
 local_source_path: "sources/monographs/service_lenin_v1_zh/ch12_10_疑虑与确信.md#L73-L569"
 original_pages: "pp. 188-206 (重要边界提示：馆藏第一卷时间止于1910年1月中央全会；1910–1912年《前进》派后期演化及1912年1月布拉格代表会议属《列宁政治生涯》第二卷，本卷未覆盖)"
-targets_cards: ["PER-lenin", "PER-bogdanov", "ORG-bolsheviks", "ORG-vpered", "MTG-1909-06-proletarii-editorial", "MTG-1910-01-cc-plenum", "MTG-1912-prague-conference"]
-debate: DEB-bogdanov-split-and-bolshevik-party-building
+targets_cards: ["PER-lenin", "PER-bogdanov", "ORG-bolsheviks-rcpb-vkpb", "MTG-1912-01-prague-conference"]
+debate: DEB-1903-bolshevik-menshevik-split
 supports: []
 rebuts: []
 qualifies: ["CLM-service-lenin-v1-agrarian-marxism-and-1905-tactics", "CLM-lenin-leader-organizational-ascendancy-pre1914"]

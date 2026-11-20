@@ -7,8 +7,8 @@ publication_year: 2018
 source_tier: A
 local_source_path: "sources/monographs/hasegawa_february_1917/ch40_chapter_29_the_provisional_government_th.md#L580-L797"
 original_pages: "pp. 626–638 (PDF pp. 647–659); cf. pp. 649, 660 (PDF pp. 670, 681)"
-targets_cards: ["CON-dual-power", "ORG-provisional-government", "ORG-petrograd-soviet", "ORG-duma-committee", "PER-miliukov"]
-debate: DEB-1917-february-liberal-role-and-dual-power
+targets_cards: ["CON-dual-power", "ORG-provisional-government", "ORG-petrograd-soviet", "INS-state-duma-1906-1917", "PER-milyukov"]
+debate: DEB-1917-dual-power-and-february-origins
 supports: []
 rebuts: []
 qualifies: []

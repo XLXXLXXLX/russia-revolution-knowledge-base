@@ -7,7 +7,7 @@ publication_year: 1963
 source_tier: A
 local_source_path: "sources/monographs/smith_scott_captives_of_rev_zh/ch15_pages_451-480.md#L840-L859; sources/monographs/smith_scott_captives_of_rev_zh/ch16_pages_481-510.md#L104-L253"
 original_pages: "pp. 452-455, 467-473, 490-493 (PDF pp. 468-471, 483-489, 506-509)"
-targets_cards: ["ORG-psr", "ORG-komuch", "PER-chernov", "PER-gotz", "PER-kolchak", "EVT-1918-komuch-kolchak-coup"]
+targets_cards: ["ORG-psr", "ORG-komuch-and-democratic-counterrevolution", "PER-chernov", "PER-kolchak"]
 debate: DEB-1918-democratic-counterrevolution-third-force
 supports: []
 rebuts: []

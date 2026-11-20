@@ -5,62 +5,70 @@ title: 亚历山德拉·柯伦泰
 names:
   ru: Александра Михайловна Коллонтай
   en: Alexandra Mikhailovna Kollontai
-  aliases: ["А. М. Коллонтай", "Александра Домонтович", "Alexandra Kollontai", "Aleksandra Domontovich", "亚·米·柯伦泰", "多蒙托维奇"]
+  aliases:
+  - А. М. Коллонтай
+  - Александра Домонтович
+  - Alexandra Kollontai
+  - Aleksandra Domontovich
+  - 亚·米·柯伦泰
+  - 多蒙托维奇
 dates:
-  start_ns: "1872-03-31"
-  end_ns: "1952-03-09"
-coverage_status: draft
-perspectives_present: ["revisionist-social", "feminist-marxist", "western-biography", "party-opposition"]
-perspectives_missing: ["soviet-orthodox"]
-related_debates: []
-updated_at: "2026-11-18"
+  start_ns: '1872-03-31'
+  end_ns: '1952-03-09'
+  start_os: '1872-03-19'
+coverage_status: multi-perspective
+perspectives_present:
+- workers-opposition-primary
+- party-institutional-daniels
+- gender-social-history-goldman
+- women-mobilization-mandel-mediated
+- soviet-orthodoxy-arapovich
+perspectives_missing:
+- clements-biography-full-text
+- stites-womens-liberation-full-text
+- diplomatic-and-zhenotdel-original-archives
+related_debates:
+- DEB-1921-trade-union-controversy-and-party-unity
+- DEB-1920s-gender-family-and-everyday-life
+updated_at: '2026-11-19'
 ---
 
-## [T1] 60秒定性微摘要
-布尔什维克女权理论家、首任女人民委员与中央妇女部主任。1921年《工人反对派》小册子批判党内官僚化与专家治厂；NEP时代家务社会化与“自由结合”构想与财政紧缩、城乡结构冲突碰撞，见 Goldman 社会史检验。
+## [T1] 150字定性微摘要
+将军家庭出身的马克思主义女工运动家，1917年支持四月提纲，十月后任国家救济人民委员。主持妇女部并倡家务社会化，1921年为工人反对派撰写纲领，批判专家治厂与官僚委任。其解放理想遭遇福利紧缩、就业隔离及党内纪律的约束；1922年转入外交，历驻挪威、墨西哥、瑞典而幸存。
 
-## [T2] 核心脉络、时效关系边表与史学争鸣光谱
+## [T2] 核心脉络、关系网络与史学争鸣
 
 ### 2.1 核心历史脉络
-- **早年革命生涯与1917年激进左翼先锋（1872–1917）**：生于圣彼得堡贵族将门多蒙托维奇家族（`1872-03-19 [O.S.] / 1872-03-31 [N.S.]`）。早年投身俄国社会民主工党，在布尔什维克与孟什维克之间保持独立研究妇女问题，一战爆发后因坚定的反战国际主义立场于1915年正式加入布尔什维克。1917年3月返抵彼得格勒后，她是党内最早无条件支持列宁《四月提纲》的领导人之一；七月事变后被临时政府逮捕入狱，在缺席情况下于俄国社会民主工党（布）第六次代表大会（`1917-07-26` 至 `08-03 [O.S.]` / `1917-08-08` 至 `08-16 [N.S.]`）当选中央委员。
-- **首任女人民委员、左派共产主义者与中央妇女部（Zhenotdel）（1917.10–1920）**：十月革命后出任苏俄第一届人民委员会国家救济人民委员（Нарком государственного призрения），成为近代史上首位女性内阁部长，推动教会财产世俗化、废除沙皇等级特权及起草婚育与母婴保护法令。1918年3月因作为“左派共产主义者”反对签订《布列斯特-里托夫斯克和约》而辞去人民委员职务。1919年与伊涅萨·阿尔曼德（Inessa Armand）共同创立俄共（布）中央妇女部（Женотдел），1920年阿尔曼德逝世后接任妇女部主任，致力于将家务劳动社会化、公共食堂与托儿所网络付诸实践。
-- **《工人反对派》小册子与俄共十大、十一大抗争（1921–1922）**：在1920–1921年工会大辩论中，柯伦泰加入什利亚普尼科夫（A. G. Shlyapnikov）与梅德韦杰夫（S. P. Medvedev）领导的“工人反对派”（Рабочая оппозиция），并于1921年1月（俄共十大前夕）出版理论小册子《工人反对派》（*Рабочая оппозиция*）。小册子从理论上继续对党领导层发起极左翼批判，抨击党内官僚委任制、“一长制”（единоначалие）与对资产阶级“专家”（спецы）的依赖，呼应什利亚普尼科夫将国民经济管理权移交“全俄生产者代表大会”的纲领。在 `1921-03` 俄共十大上，工人反对派纲领仅获18票（列宁“十人纲领”336票、托洛茨基—布哈林纲领50票，即 `336:50:18`，见 `DATA-04`），遭《关于党的统一》与《关于我们党内的工团主义和无政府主义倾向》两项决议定性为偏离。1922年2月，她与什利亚普尼科夫等联署向共产国际申诉的《二十二人声明》，在俄共十一大（`1922-03/04`）上险遭开除党籍。
-- **1923年性别理论争议、外交流放生涯与斯大林时代的幸存（1922–1952）**：1922年10月起被调离国内政治中心派往挪威，初任驻挪威商务代表团成员，1923年升任驻挪威商务代表兼全权代表（полпред，当时尚未设后期大使衔）；1923年发表《给有翼的爱神让路》（«Дорогу крылатому Эросу! (Письмо к трудящейся молодежи)»），系统阐述无产阶级新型性爱道德与“有翼的爱神”理念。此后长期驻外，先后出任驻墨西哥、再驻挪威与驻瑞典（1930–1945）全权代表/公使，直至后期（1943年于驻瑞典任上）获授特命全权大使衔（注意：驻外公文档案待逐页回核，不可将1922–1923年驻挪威商务代表/全权代表与后期大使衔混同）。在大清洗中，昔日工人反对派战友（什利亚普尼科夫、梅德韦杰夫）与妇女运动同道悉数罹难，柯伦泰凭借驻外外交官身份与对莫斯科路线的沉默顺从成为极少数自然善终的老布尔什维克之一，1952年3月9日卒于莫斯科。
+- **将门之女走向女工运动（1872–1916）**：1872-03-19 [O.S.] / 1872-03-31 [N.S.]生于彼得堡多蒙托维奇将军家庭。脱离上层家庭生活，转向马克思主义和女工组织，长期在俄国社会民主党不同倾向间活动，不能倒写成自1903年起始终属于布尔什维克。1914年大战后坚持反战国际主义，1915年归入布尔什维克，参与国际妇女社会主义与反战宣传。
+- **四月提纲、十月与女性人民委员（1917–1918）**：1917-04-04 [O.S.] / 1917-04-17 [N.S.]列宁阐述《四月提纲》时，她是最早公开支持者之一；七月事变后被捕，缺席当选中央委员。1917-10-26 [O.S.] / 1917-11-08 [N.S.]出任国家救济人民委员，通常被视为世界首位女性内阁成员；这一称谓指国家政府内阁职务，不意味着此前没有女性政治领袖。1918年作为左派共产主义者反对布列斯特和约，3月辞去人民委员职位；不能把辞去政府职务等同退出党。
+- **妇女部与日常生活革命（1919–1923）**：参与党内妇女工作，1920年阿尔曼德逝世后接掌中央妇女部（Zhenotdel，至1922年）。公共食堂、洗衣房、托儿设施、母婴保护与女性工资劳动，在她的理论中是削弱家庭经济依附的物质前提；1923年《给有翼的爱神让路》把性爱、责任和同志团结相联系，不宜压成任意性关系的口号。妇女部的代表会议、教育与基层动员亦不能只当成性道德理论的附属。
+- **1921年《工人反对派》：生产与主体性（1920–1921）**：她为十大撰写的纲领小册子把官僚主义界定为对群众自我活动的否定，批判“一长制”、专家特权与委任制，认为社会主义生产关系必须由工人集体通过实践创造。主张由产业工会组成全俄生产者代表大会，选举最高经济管理机关，技术专家担任参谋和执行者；移交管理权也提出准备程度与工会同意等步骤，并非简单要求立即解雇一切专家。两张站内原典论断分别锚定批判与制度方案。1921年3月十大工会票型336∶50∶18，反对派落败，纲领遭谴责，派别被勒令解散。
+- **申诉、转入外交与幸存（1922–1952）**：1922年2月与施略普尼科夫等联署《二十二人声明》向共产国际申诉，十一大最终未开除她。1922年起赴挪威商务代表机构，1923年升任代表；继而驻墨西哥、再驻挪威，1930–1945年驻瑞典，1943年获大使衔。早期商务代表、全权代表与后期大使名衔不可混用。驻外和退出公开反对派活动与她幸存相伴，但“因为外交职位所以必然免于清洗”只是过强因果推断。1952-03-09 [N.S.]卒于莫斯科；后期履历作为人物结局，不回填为1929年前的解释证据。
 
-### 2.2 时效关系摘要边表（Typed & Temporalized Edges）
-| 关联节点 ID | 关系类型 | 有效时段 | 一句话关系实质摘要（防 N+1 盲跳） | 核心依据/争鸣 |
+### 2.2 核心关系网络（结构化边表）
+| 目标节点 ID | 关系类型 | 有效时段 | 关系实质摘要 | 核心依据 |
 | :--- | :--- | :--- | :--- | :--- |
-| `ORG-workers-opposition` | `leads` | 1921.01–1922.04 | 任工人反对派首席理论代言人，撰写《工人反对派》小册子并在共产国际为该派辩护。 | `CLM-daniels-1960-tenth-congress-turning-point` |
-| `PER-shlyapnikov` | `allied_with` | 1920.12–1922.04 | 共同领导工人反对派并联署《二十二人声明》，以文字理论声援什利亚普尼科夫的工会工业管理纲领。 | `CLM-daniels-1960-tenth-congress-turning-point` |
-| `PER-lenin` | `allied_with` | 1915–1917.11 | 一战期间坚定的齐美尔瓦尔德左派盟友，1917年4月率先支持列宁《四月提纲》与十月武装起义。 | `CLM-rabinowitch-1968-divided-bolshevik-party-july` |
-| `PER-lenin` | `opposes` | 1918.01–1922.04 | 先后因反对《布列斯特和约》及撰写《工人反对派》小册子批判一长制与专家治厂，遭列宁严厉斥责。 | `CLM-daniels-1960-tenth-congress-turning-point` |
-| `MTG-1921-rcpb-10th-congress` | `participates_in` | 1921.03.08–03.16 | 在俄共十大散发《工人反对派》小册子并参与工会争论，其派别观点被大会专门决议定性为工团主义倾向。 | `CLM-daniels-1960-tenth-congress-turning-point` |
-| `POL-ban-on-factions-1921` | `opposes` | 1921.03–1922.04 | 批判压制党内批评自由与窒息工人主动性，在十大后继续参与申诉活动并向共产国际递交《二十二人声明》。 | `CLM-daniels-1960-tenth-congress-turning-point` |
+| `PER-lenin` | ally_then_programmatic_critic | 1915–1922 | 反战与四月路线盟友，后在布列斯特、生产管理与党内纪律上分歧 | `ORG-left-communists-1918`, `MTG-1921-rcpb-10th-congress` |
+| `PER-shlyapnikov` | opposition_ally | 1920–1922 | 为金属工会领袖的生产者自治诉求提供理论表述，共同向共产国际申诉 | `ORG-workers-opposition` |
+| `ORG-workers-opposition` | programmatic_author | 1921–1922 | 小册子批判专家治理和官僚委任，提出经济管理与党内改革方案 | `CLM-kollontai-1921-workers-opposition-critique-of-bureaucracy-and-specialists` |
+| `CON-workers-control` | theorist_of_collective_self_activity | 1920–1921 | 将工人参与由监督扩展到创造社会主义生产组织，仍受一党政治框架限制 | `CLM-kollontai-1921-all-russian-congress-of-producers-program` |
+| `MTG-1921-rcpb-10th-congress` | defeated_spokesperson | 1921-03 | 散发纲领并参战工会争论，生产者大会方案获18票而被拒 | `DEB-1921-trade-union-controversy-and-party-unity` |
+| `POL-ban-on-factions-1921` | sanctioned_internal_dissenter | 1921–1922 | 申诉并未立即终止，但继续按纲领结社面临开除威胁 | `CLM-daniels-1960-tenth-congress-turning-point` |
+| `DEB-1920s-gender-family-and-everyday-life` | central_programmatic_case | 1918–1929 | 家庭消亡与福利社会化承诺，须同NEP预算、离婚保障和就业隔离对读 | `CLM-goldman-1993-1918-family-code-and-nep-reality`, `CLM-arapovich-nep-female-employment-recovery-and-segregation` |
 
-### 2.3 史学争鸣光谱（Historiographical Spectrum）
-- **女性与家庭社会史修正派（Wendy Z. Goldman, 1993）**：戈德曼在《妇女、国家与革命》中以制度与社会史视角检验了柯伦泰与早期布尔什维克法学家（戈伊赫巴尔格、勃兰登堡斯基）的“家庭消亡论”（отмирание семьи）。她指出，柯伦泰等人在1918年《婚姻、家庭和监护法典》中设想国家福利机构将迅速接管育儿与家务，从而让自由离婚成为女性解放的福音；然而在内战饥荒与1921年新经济政策（NEP）“经济核算制”（`khozraschet`）的财政紧缩冲击下，国家大批关闭托儿所与保育院，许多工业中心女工占失业者60%以上（本卡作为论断卡级转述保留，参见 `CLM-goldman-1993-1918-family-code-and-nep-reality`）。失去福利支撑的“自由离婚”与1926年新婚姻法典对事实婚姻的承认，反而演变为男性逃避抚养责任的通道以及城市女工与宗法农民家庭之间的激烈社会撕裂（参见 `CLM-goldman-1993-1926-marriage-code-peasant-worker-clash`）。
-- **党内反对派与制度史学派（Robert V. Daniels, 1960; Barbara Evans Clements, 1979）**：丹尼尔斯在《革命的良心》中将工人反对派与柯伦泰的《工人反对派》小册子视为十月革命后无产阶级乌托邦良心对列宁主义官僚集权化与管理型社会秩序（managerial social order）的极左抗议——他们凭借无条件的理想主义呼唤由群众自发性重塑世界，但受限于布尔什维克一党专政的现实困境，被党领导层作为威胁政权生存的异端予以压制（参见 `CLM-daniels-1960-tenth-congress-turning-point`）。克莱门茨则强调柯伦泰将自我解放（Самодеятельность，群众与女性的自发能动性）置于革命核心，这使她与列宁强调的先锋队铁律产生根本哲学冲突。（注：工会争论与NEP家庭性别革命的专门辩论卡 `DEB-trade-unions-and-workers-opposition`、`DEB-nep-family-and-gender-revolution` 尚待创建，暂不挂载未建ID。）
+### 2.3 主要史学争鸣与阐释边界
+- **经验事实共识**：女性人民委员、妇女部领导、反对派小册子作者和外交使节是不同阶段，不能把性别解放、工会自治、外交妥协压成单一政治立场。小册子是1921年当时介入的S级政论，并非事后回忆；其中对国家机关阶级构成的数字仍须独立核查。
+- **参与者自我解放论与列宁派答辩**：柯伦泰把生产组织本身看作共产主义内容，列宁派强调贫困、技术稀缺、农民多数与党的统一。双方争的是谁有权决定过渡，不能把党大会多数直接当作全国工人民意，亦不能因她反官僚就把她等同主张多党议会制的自由主义者（工会争鸣卡）。
+- **制度与性别社会史（Wendy Z. Goldman）**：家务社会化依赖真实预算、托育与就业。NEP经济核算和地方福利缩减使“自由结合”的风险重新落在妇女与子女身上；1926年事实婚姻财产保障又同农村家庭生产单位冲突。某些工业中心女性占失业者六成以上，是失业者构成，不能外推为全国女性失业率，也不能把所有家庭法条文归于柯伦泰亲笔。
+- **妇女组织动员与苏联正统解释的对读**：站内RN-W28与性别争鸣卡据William M. Mandel等材料，呈现妇女代表网络及基层男干部抵制，须把组织动员与资源、实际受益分开；Richard Stites的妇女解放史是后续专门对勘方向，原著未在本轮已核馆藏中确认，不虚拟其书页或结论。N. D. Arapovich《苏联工业中的妇女劳动》（馆藏B级）倾向把政策进步归于党领导，却也保留NEP初女工被裁、1925–1929年女工份额约28%及行业、技能隔离的材料。人数回升不等于解除家庭负担，更不能拿这一后出著作证明柯伦泰任内方案已充分兑现。
+- **党内制度史（Daniels）**：十大后申诉与最终退场体现禁派纪律的逐步落实；外交幸存不能反证其1921年批评虚假，也不能据此把她后来的所有沉默解释成可直接读取的私人心理。
 
-## [T3] 深度考证、分期细目与原文引证档案
-
-### 3.1 《工人反对派》小册子（1921）与俄共十大的路线摊牌
-1. **“全俄生产者代表大会”方案与《工人反对派》小册子的理论出击**：
-   - 在1920年底至1921年初的工会争论中，什利亚普尼科夫于 `1920-12-30` 辩论发言中系统阐述由工会自治管理工业的构想，主张成立“全俄生产者代表大会”（All-Russian Congress of Producers），认为唯有如此才能形成组织经济所必需的“意志统一”（`unity of will`）并发挥广大工人群众的首创精神；随后工人反对派于 `1921-01-25` 在《真理报》发表工会问题提纲，柯伦泰同时出版了《工人反对派》（“The Workers’ Opposition”）小册子，从更具理论性的层面对党领导层继续发起极左翼批判（本地馆藏见丹尼尔斯专著 `sources/monographs/daniels_1960_conscience/ch06_pages_151-175.md`） `[Daniels 1960, p. 133 / PDF p. 151]`。
-   - **原典引证（Daniels 1960, ch05/ch06, p. 133 / PDF p. 151，明确区分什利亚普尼科夫 `1920-12-30` 发言原句与丹尼尔斯对柯伦泰小册子的叙述）**：
-   > "In the meantime, the Workers’ Opposition was moving toward the opposite extreme. Shliapnikov spoke in the debate of December 30, 1920, to develop his theme of autonomous control over industry by the trade unions. All administrative organs would be elected by, and responsible to, the organized workers. This meant the reorganization of the unions along lines similar to those envisaged by Trotsky, into 'production trade unions,' and the administration of the whole economy would be concentrated in their hands. To effect this he proposed an All-Russian Congress of Producers, 'In this way,' Shliapnikov asserted hopefully, 'there is created the unity of will which is essential in the organization of the economy, and also a real possibility for the influence of the initiative of the broad working masses on the organization and development of our economy.'
-   > Shliapnikov’s speech was followed up by the theses on the trade-union question which the Workers’ Opposition published in Pravda on January 25, 1921. The argument therein was buttressed by pointed references to the old syndicalist phrases of earlier party documents, especially the program of 1919 and the resolutions of the earlier trade-union congresses. At the same time, Kollontai published 'The Workers’ Opposition,' which on a more theoretical plane continued the Ultra-Left attack on the party leadership." `[Daniels 1960, p. 133 / PDF p. 151]`
-2. **俄共十大（1921年3月）的批判与1922年《二十二人声明》**：
-   - 在俄共十大上，工人反对派被定性为小资产阶级、无政府工团主义偏离，大会通过《关于党的统一》决议勒令解散一切纲领集团并授权中央采取包括开除在内的党纪制裁（见 `CLM-daniels-1960-tenth-congress-turning-point`，`[Daniels 1960, pp. 146-148 / PDF pp. 164-166]`）。1922年2月，柯伦泰与什利亚普尼科夫等联署向共产国际申诉的《二十二人声明》，在俄共十一大（`1922-03/04`）上被调查委员会建议开除党籍（与什利亚普尼科夫、梅德韦杰夫并列），最终以警告留党并于1922年10月起派驻挪威。
-
-### 3.2 “家庭消亡论”、妇女部（Zhenotdel）实践与 NEP 社会现实的碰撞（1918–1926）
-1. **1918年家庭法典的革命愿景 vs. NEP 财政紧缩下的女性困境（论断卡转述）**：
-   - 柯伦泰与早期布尔什维克妇女理论家坚信，个体核心家庭是资本主义私有制奴役女性的堡垒；在向社会主义过渡阶段，国家应通过公共食堂、洗衣房、托儿所和儿童之家实现家务与育儿的社会化，使婚姻摆脱经济依附（柯伦泰后于1923年发表《给有翼的爱神让路》，系统阐述“有翼的爱神”自由恋爱观，须与1919–1920年妇女部法令实践分期处理）。然而据 Wendy Z. Goldman 论断卡转述，1921年转向新经济政策（NEP）后，国家推行严厉的“经济核算制”（`khozraschet`），大幅削减社会福利拨款，导致托儿所与孤儿院大批关闭，企业在成本核算下大量解雇女工 `[Goldman 1993, ch01-ch03, via CLM-goldman-1993-1918-family-code-and-nep-reality]`。
-   - 对接 `CLM-goldman-1993-1918-family-code-and-nep-reality`（[CLM-goldman-1993-1918-family-code-and-nep-reality.md](file:///C:/Users/lsaax/.t3/projects/russian-revolution-knowledge-base/historiography/claims/CLM-goldman-1993-1918-family-code-and-nep-reality.md) 论断卡引文）：
-   > "The Bolshevik synthesis of earlier libertarian and socialist currents was grounded in four primary precepts: free union, women's emancipation through wage labor, the socialization of housework, and the withering away of the family." `[Goldman 1993, ch01, p. 3 / PDF p. 25]`
-   > "Because their focus was primarily on how to eliminate remaining legal restrictions, jurists spent relatively little time on how the code might actually operate in the transition period before the family 'withered away.' They recognized that the socialized institutions that were eventually to replace the family did not yet exist, and therefore the functions provided by the traditional family could not be abolished at once. While these constraints tempered the jurists' more radical impulses, their overwhelming desire was to hasten the family's demise." `[Goldman 1993, ch02, p. 51 / PDF p. 73]`
-   > "First, the state eliminated funding for the vast majority of children's institutions, transferring the costs to local budgets that were totally incapable of supporting them. Throughout the country, day-care centers, crèches, mothers' homes, and children's homes shut their doors. Second, enterprises switched to *khozraschet* (cost accounting), which resulted in massive firing of women workers. By 1923, women constituted over 60 percent of the unemployed in many industrial centers. Third, the state was forced to abandon its vision of collective child-rearing and return hundreds of thousands of *besprizornye* to peasant and urban families through adoption and foster care—institutions the Bolsheviks had previously abolished as masked forms of child labor exploitation." `[Goldman 1993, ch03, pp. 85-88 / PDF pp. 107-110]`
-2. **1925–1926年新婚姻法典全俄大辩论中的城乡结构冲突（论断卡转述）**：
-   - 在1925–1926年围绕新《婚姻、家庭和监护法典》（承认未登记“事实婚姻”享同等财产与赡养权）的全民辩论中，早期布尔什维克倡导的“自由结合”理想遭遇了基层女工与广大农民的双重夹击：城市无业妻子与单身母亲恐惧简化的无过错离婚成为丈夫抛妻弃子的合法工具，而农村农民则强烈抵制事实婚姻伴侣分割土地与农具，视之为对农业小生产家庭（`dvor`）的经济瓦解 `[Goldman 1993, pp. 242-249, via CLM-goldman-1993-1926-marriage-code-peasant-worker-clash]`。
-   - 对接 `CLM-goldman-1993-1926-marriage-code-peasant-worker-clash`（[CLM-goldman-1993-1926-marriage-code-peasant-worker-clash.md](file:///C:/Users/lsaax/.t3/projects/russian-revolution-knowledge-base/historiography/claims/CLM-goldman-1993-1926-marriage-code-peasant-worker-clash.md) 论断卡引文）：
-   > "In the cities, high female unemployment and the lack of day care made women economically dependent on men. Easy divorce without adequate state child care meant that men could move effortlessly from one relationship to another, leaving women with children they could not feed. Working-class women, therefore, frequently demanded more restrictive divorce laws and stronger legal protection for registered wives, directly challenging the Bolshevik ideal of 'free union.'" `[Goldman 1993, ch06, pp. 242-246 / PDF pp. 264-268]`
-   > "In the countryside, the household (*dvor*) was the basic unit of production. Peasants viewed the 1926 draft code—particularly the recognition of *de facto* marriage and the right of an unmarried mother to claim a share of the father's household property (*dvor* division)—as an existential threat to the survival of the farm... What the progressive urban jurists saw as the liberation of women from patriarchal tyranny, the peasants saw as the economic destruction of agriculture through endless property fragmentation (*droblenie*)." `[Goldman 1993, ch06, pp. 246-249 / PDF pp. 268-271]`
+## [T3] 溯源锚点与未决史料缺口
+- **站内已核 S / A 级锚点**：
+  - [《工人反对派》原典前段](../../sources/primary/kollontai_1921_workers_opposition/ch00_pages_1-25.md)（PDF pp.2–11、22–25批判；pp.11–21生产者大会）及[后段](../../sources/primary/kollontai_1921_workers_opposition/ch01_pages_26-30.md)（PDF pp.26–30党内改革）；[批判官僚与专家论断](../../historiography/claims/CLM-kollontai-1921-workers-opposition-critique-of-bureaucracy-and-specialists.md)、[生产者代表大会论断](../../historiography/claims/CLM-kollontai-1921-all-russian-congress-of-producers-program.md)、[RN-W29原典精读](../../reading-notes/haimson2005_kollontai1921/RN-W29-haimson-lenin-1917-leap-and-kollontai-workers-opposition.md)。英文为1921年《工人无畏舰报》译文传本，OCR与俄文原版仍需校对；1月25日工会提纲不应径称全本小册子同日出版。
+  - [Daniels RN-W1C](../../reading-notes/daniels_1960_conscience/RN-W1C-communist-oppositions-1918-1929.md)、[原书申诉与十一大处理](../../sources/monographs/daniels_1960_conscience/ch07_pages_176-200.md)（pp.162–166）；[DATA-04](../../data/DATA-04-party-membership-and-congress-votes-1903-1929.md)、[四月微距卷](../../timeline/L3_daily/1917-04_lenin_arrival_april_theses_and_milyukov_note.md)、[1921年三月微距卷](../../timeline/L3_daily/1921-03_kronstadt_and_10th_congress.md)。
+  - [Goldman与Fitzpatrick RN-W10](../../reading-notes/goldman_fitzpatrick/RN-W10-gender-family-and-vydvizhentsy-1917-1929.md)、[1918法典与NEP现实](../../historiography/claims/CLM-goldman-1993-1918-family-code-and-nep-reality.md)、[1926婚姻法典城乡冲突](../../historiography/claims/CLM-goldman-1993-1926-marriage-code-peasant-worker-clash.md)、[妇女部与福利教育RN-W28](../../reading-notes/paternalism_gender_education/RN-W28-industrial-paternalism-zhenotdel-and-soviet-pedagogy-1917-1929.md)、[性别家庭争鸣](../../historiography/debates/DEB-1920s-gender-family-and-everyday-life.md)。
+- **站内B级对读锚点**：[N. D. Arapovich RN-W39](../../reading-notes/women_labor_soviet_industry_zh/RN-W39-arapovich-women-industrial-labor-1917-1929.md)（PDF pp.30–40）；馆藏扉页署名与manifest拼写存在冲突，沿札记署名，不擅自展开姓名或补出版年；不把转引的法令提升为已见原件。
+- **外部待补核 S / A 级缺口**：
+  - Barbara Evans Clements, *Bolshevik Feminist: The Life of Aleksandra Kollontai*（1979，A级）全文与私人书信尚待入库；Richard Stites的妇女解放史原著需确认馆藏并提取对应章节，二者均不引造页码，不把未核观点冒充已读证据。
+  - 1872年出生记录、妇女部1920–1922年工作与财政档案、1922年申诉手稿、1923年性爱论述俄文原刊，以及挪威、墨西哥、瑞典各阶段委任状和1943年大使衔公文（S级）；相关出版、任职与幸存机制须逐项核对。

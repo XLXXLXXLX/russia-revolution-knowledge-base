@@ -1,14 +1,9 @@
-# 1-Hop 平衡上下文包：`ORG-chernyi-peredel` (黑土重分派)
+# 1-Hop 去重平衡上下文包：`ORG-chernyi-peredel`
 
-> 本文件由 `python scripts/kb.py pack` 自动编译，旨在将失控的 `1+N` 随机读取压缩为**等权重、带时效边实质与史学盲区告警**的单次全景读取。
+> 由 `python scripts/kb.py pack` 动态编译：保留 **100% 一跳邻居与多时段关系边**，跨卡自动去重争鸣与时间线，并关联学者学派 (`SCH-*`)。
 
-## 0. 认知完备度与反偏斜仪表盘 (Epistemic & Skew Warnings)
-- **主卡路径**: `cards/organizations/ORG-chernyi-peredel.md`
-- **完备度等级**: `multi-perspective`
-- **已覆盖视角**: `movement-history-venturi, intellectual-history-walicki, consciousness-history-haimson, erfurtian-and-jacobin-genealogy-mayer`
-- **待补齐视角**: `minsk-kiev-provincial-circles-archival, social-gender-microhistory`
-- **偏斜风险提示**:
-  - ⚠️ 主卡显式声明尚缺以下视角待补: `minsk-kiev-provincial-circles-archival, social-gender-microhistory`。
+## 0. 认知完备度与反偏斜仪表盘
+- **`ORG-chernyi-peredel`** (黑土重分派 | `cards/organizations/ORG-chernyi-peredel.md` | `multi-perspective`): 已覆盖=`movement-history-venturi, intellectual-history-walicki, consciousness-history-haimson, erfurtian-and-jacobin-genealogy-mayer`；待补=`minsk-kiev-provincial-circles-archival, social-gender-microhistory`
 
 ## 1. 主卡核心层 ([T1] + [T2])
 ## [T1] 150字定性微摘要
@@ -41,55 +36,19 @@
   - **知识分子心理重构（Leopold H. Haimson, 1955）**：从代际心理视角追踪流亡核心在1880–1882年间对农民革命性彻底失望后，如何把希望整体转移至城市产业无产阶级与西方规律决定论。
   - **苏联早期正统史学的倒放电影**：长期将黑土重分派直接塑造成“与恐怖主义划清界限的萌芽期社会民主党”，被 Venturi 与 Walicki 依当时原典（第1–2期报刊及1881年致马克思信）证伪。
 
-## 2. 一跳邻域等权重微摘要 (共 10 个关联节点，严防大卡霸占上下文)
-### 邻居节点: `ORG-narodnaya-volya`
-- **时效关系边** (`ORG-narodnaya-volya` → `ORG-chernyi-peredel` | `split-sibling` | 有效时段: `1879-1881`): 1879年夏秋由土地与自由社分裂而生：民意党转向集中密谋与刺杀沙皇的政治斗争，土地平分社坚守村社社会经济宣传。
-- **时效关系边** (`ORG-chernyi-peredel` → `ORG-narodnaya-volya` | `split-sibling` | 有效时段: `1879–1881`): 同源分裂的竞争派别：反对民意党的集中密谋与刺杀沙皇路线，后期部分国内成员回流民意党
-- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 1879年夏秋自土地与自由社分裂产生的俄国激进民粹派秘密政党，由执行委员会实行集中地下领导。该党虽以政治刺杀挑战沙皇专制并在1881年3月炸死亚历山大二世，其1879年纲领与致新皇信仍明确诉诸立宪会议与普选自由，绝非纯虚无暗杀团伙；1883年前后国内中枢瓦解。
+## 2. 一跳邻域全量微摘要目录 (去重后共 10 个节点，0 截断)
+- **`CON-narodnichestvo`**（俄国民粹主义：运动、自我认知与论战范畴）: 俄国民粹主义以人民特别是农民及村社为变革依托，却非单一教义。赫尔岑、车尔尼雪夫斯基开启先声，一八六九年形成古典民粹派；七十年代分化出政治恐怖与土地宣传两支，后经八九十年代合法论争与社革党改造。学界历来并存派普斯界定的七十年代反智“狭义”与列宁—瓦利茨基的“广义”世界观界定。 ‖ `→ORG-chernyi-peredel`[组织分化|1879起]: 坚持土地宣传与经济—社会革命，反对民意党政治恐怖。 ； `←ORG-chernyi-peredel`[orthodox_populist_wing|1879–1881]: 保留古典民粹派反政治主义与“向群众学习”传统，但很快因国内崩溃而向工人转向
+- **`EVT-1881-03-assassination-of-alexander-ii`**（1881年刺杀亚历山大二世与“三月一日案”）: 1881年3月1日[O.S.]/13日[N.S.]，民意党在叶卡捷琳娜运河炸死亚历山大二世，未引发起义。3月8日[O.S.]/20日[N.S.]有限咨询改革被否决；执委会3月10日[O.S.]/22日[N.S.]致信新沙皇后网络覆灭，五人4月3日[O.S.]/15日[N.S.]被绞死。 ‖ `→ORG-chernyi-peredel`[contrasts_with|1879–1881]: 1879年拒斥刺杀沙皇的温和群众宣传派；三月一日后普列汉诺夫等更加确认恐怖路线孤立无援，加速转向马克思主义。
+- **`ORG-zemlya-i-volya`**（土地与自由社）: 本卡聚焦1876—1879年第二代土地与自由社（纳坦松、米海洛夫、普列汉诺夫等组建），须与1861—1864年无法人承续的同名第一代严格区分。该社借农村定居宣传吸纳“到民间去”挫败教训，后在政府镇压下因恐怖路线与农村工作之争于1879年夏秋分裂为民意党与黑土重分派。 ‖ `←ORG-chernyi-peredel`[splintered_from|1879]: 沃罗涅日决裂中以坚守农村宣传与群众运动传统而分出的一翼 ； `→ORG-chernyi-peredel`[successor_split|1879–1881]: 承继“土地”一翼，拒绝以刺杀沙皇取代农村宣传，但仍保留反抗地方压迫者的经济暴力
+- **`ORG-narodnaya-volya`**（民意党）: 1879年夏秋自土地与自由社分裂产生的俄国激进民粹派秘密政党，由执行委员会实行集中地下领导。该党虽以政治刺杀挑战沙皇专制并在1881年3月炸死亚历山大二世，其1879年纲领与致新皇信仍明确诉诸立宪会议与普选自由，绝非纯虚无暗杀团伙；1883年前后国内中枢瓦解。 ‖ `←ORG-chernyi-peredel`[split_sibling|1879–1881]: 围绕政治刺杀沙皇 vs. 社会经济鼓动分庭抗礼，部分国内成员1881年后回流民意党 ； `→ORG-chernyi-peredel`[split_sibling|1879–1883]: 同源分裂兄弟派别，批判执委会把刺杀沙皇与密谋夺权置于群众宣传之上
+- **`ORG-osvobozhdenie-truda`**（劳动解放社）: 1883年9月（西欧公历）于日内瓦创立的俄国首个马克思主义团体，由普列汉诺夫、查苏利奇、阿克雪里罗得、捷伊奇与伊格纳托夫发起。其译介马恩著作，提出反对布朗基密谋、依托资本主义发展与工人运动的“两阶段革命”正统；1900年底合办《火星报》，1903年二大闭幕并入统一政党。 ‖ `←ORG-chernyi-peredel`[transition_bridge_to|1881–1883]: 日内瓦流亡核心在组织停摆与思想清算后，另行创立俄国首个马克思主义流亡团体 ； `→ORG-chernyi-peredel`[ideological_successor_via_break|1883]: 流亡残余清算民粹公社论后另立马克思主义团体，组织与纲领上非原样更名
+- **`PER-plekhanov`**（格奥尔基·普列汉诺夫）: “俄国马克思主义之父”。1879年拒恐怖另立土地平分社，1883年在日内瓦创劳动解放社奠定两阶段革命论；1901年首创社民“山岳派”隐喻，1903二大助列宁裁撤老编委又于11月倒向马尔托夫，1905后斥“不该拿起武器”；一战与1917办《统一报》极右护国并坚决反对十月夺权。 ‖ `←ORG-chernyi-peredel`[chief_theorist|1879–1881]: 沃罗涅日退席代表与创刊号主笔，自反布朗基—反少数夺权立场转向社会民主主义 ； `→ORG-chernyi-peredel`[co-founder-leader|1879–1883]: 沃罗涅日会议退席后与查苏利奇共创土地平分社，坚持群众宣传拒绝 ORG-narodnaya-volya 暗杀路线
+- **`PER-zasulich`**（维拉·查苏利奇）: 俄国女革命家、早期马克思主义奠基人之一。1878年枪击鞭笞政治犯的彼得堡市长特雷波夫获陪审团无罪开释；1879年拒恐怖共创土地平分社，1881年法文致信马克思叩问村社前途。1883年参与创立劳动解放社并任《火星报》编委，1903年二大遭除名后转入孟什维克，1917年反对十月夺权。 ‖ `←ORG-chernyi-peredel`[co_founder|1879–1881]: 反对政治刺杀沙皇（尽管曾枪击特列波夫），1881年代表流亡者致信马克思叩问村社前途 ； `→ORG-chernyi-peredel`[co-founder|1879–1883]: 沃罗涅日分裂后与普列汉诺夫等共创土地平分社（国内组织至1881年底停摆，1881年后维系流亡旧成员网络直至1883年改创劳动解放社），拒绝将个人暗杀升格为党纲
+- **`PER-axelrod`**（帕维尔·阿克雪里罗得）: 俄国马克思主义奠基人与孟什维克精神领袖。早年涉足巴枯宁派民粹与土地平分社，1883年参与创立劳动解放社；1903年二大后率先斥列宁派为“雅各宾俱乐部”，揭示工人自主活动与密谋监护之争；1905年首倡全俄工人代表大会，1917年归国任国际派少数中委，晚年流亡柏林批判苏俄专政。 ‖ `←ORG-chernyi-peredel`[co_founder|1879–1881]: 负责南方与基辅重建尝试；反密谋监护的群众路线延续至其日后孟什维克理论 ； `→ORG-chernyi-peredel`[co_founder_member|1879–1881]: 反集中暗杀、偏重基辅—南方群众路线的土地平分社核心成员
+- **`CON-peasant-commune-obshchina`**（农村公社（米尔 / 村社））: 村社是帝俄至苏俄的乡村自治与土地重分制度。1861年改革保留连环保与重分地；民粹派视为社会主义胚胎，1881年马克思有条件认可其前景，列宁强调资本主义分化，斯托雷平立法拆解。1917–1918年土地重分使其复兴，1922年获法典承认，1929–1930年遭集体化摧毁。 ‖ `←ORG-chernyi-peredel`[central_programmatic_axis|1879–1881]: 以村社土地重分为行动与理想基石，并触发1881年查苏利奇—马克思公社前途大辩论
+- **`PER-zhelyabov`**（安德烈·热利亚博夫）: 农奴出身的俄国民粹派革命家与民意党执委会灵魂领袖。青年时在敖德萨独立开展工人与知识界鼓动，1878年“193人案”获释后于1879年利佩茨克与沃罗涅日会议推动集中制与政治决战，兼抓工人战斗队与军官支部；1881-02-27[O.S.]/03-11[N.S.]被捕，04-03/04-15就义。 ‖ `→ORG-chernyi-peredel`[rival|1879.06–09]: 沃罗涅日上与普列汉诺夫路线对峙，短期妥协后于夏秋彻底分家
 
-### 邻居节点: `PER-plekhanov`
-- **时效关系边** (`PER-plekhanov` → `ORG-chernyi-peredel` | `chief-leader` | 有效时段: `1879-1881`): 沃罗涅日会议反恐怖派旗手与土地平分社理论主笔，1881国内组织瓦解后在日内瓦流亡中转向马克思主义。
-- **时效关系边** (`ORG-chernyi-peredel` → `PER-plekhanov` | `chief-leader` | 有效时段: `1879–1881`): 沃罗涅日反恐怖派代表与创刊理论主笔，1881组织停摆后在流亡中转向马克思主义
-- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): “俄国马克思主义之父”。1879年拒恐怖另立土地平分社，1883年在日内瓦创劳动解放社奠定两阶段革命论；1901年首创社民“山岳派”隐喻，1903二大助列宁裁撤老编委又于11月倒向马尔托夫，1905后斥“不该拿起武器”；一战与1917办《统一报》极右护国并坚决反对十月夺权。
-
-### 邻居节点: `PER-zasulich`
-- **时效关系边** (`PER-zasulich` → `ORG-chernyi-peredel` | `co-founder` | 有效时段: `1879-1881`): 共同创建土地平分社；1881年2月在日内瓦致信马克思询问俄国农村公社命运，获马克思肯定性复信。
-- **时效关系边** (`ORG-chernyi-peredel` → `PER-zasulich` | `co-founder` | 有效时段: `1879–1881`): 核心成员；1881年以民粹派立场致信马克思叩问俄国村社前途
-- **节点定性微摘要 [T1]** (完备度 `draft`): 俄国女革命家、早期马克思主义者。1878年开枪行刺特雷波夫并在公审中获无罪开释；1879年组建“土地平分社”，1881年致信马克思探讨俄国公社前途；1883年共同创立“劳动解放社”，后任《火星报》编辑；1903年二大后加入孟什维克，一战持护国主义立场并反对十月夺权。
-
-### 邻居节点: `ORG-zemlya-i-volya`
-- **时效关系边** (`ORG-zemlya-i-volya` → `ORG-chernyi-peredel` | `split-into` | 有效时段: `1879.06-09`): 普列汉诺夫、查苏利奇一翼继承土地与自由社反个人恐怖与村社宣传传统组建土地平分社。
-- **时效关系边** (`ORG-chernyi-peredel` → `ORG-zemlya-i-volya` | `splintered_from` | 有效时段: `1879`): 沃罗涅日决裂中以坚守农村宣传与群众运动传统而分出的一翼
-- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 本卡聚焦1876—1879年第二代土地与自由社（纳坦松、米海洛夫、普列汉诺夫等组建），须与1861—1864年无法人承续的同名第一代严格区分。该社借农村定居宣传吸纳“到民间去”挫败教训，后在政府镇压下因恐怖路线与农村工作之争于1879年夏秋分裂为民意党与黑土重分派。
-
-### 邻居节点: `CON-narodnichestvo`
-- **时效关系边** (`CON-narodnichestvo` → `ORG-chernyi-peredel` | `movement_branch` | 有效时段: `1879起`): 土地与自由分裂后的黑色平分派延续土地与宣传方向；成员后来道路不同。
-- **时效关系边** (`ORG-chernyi-peredel` → `CON-narodnichestvo` | `orthodox_populist_wing` | 有效时段: `1879–1881`): 保留古典民粹派反政治主义与“向群众学习”传统，但很快因国内崩溃而向工人转向
-- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 俄国民粹主义以人民特别是农民及村社为变革依托，却非单一教义。赫尔岑、车尔尼雪夫斯基开启先声，一八六九年形成古典民粹派；七十年代分化出政治恐怖与土地宣传两支，后经八九十年代合法论争与社革党改造。学界历来并存派普斯界定的七十年代反智“狭义”与列宁—瓦利茨基的“广义”世界观界定。
-
-### 邻居节点: `EVT-1881-03-assassination-of-alexander-ii`
-- **时效关系边** (`EVT-1881-03-assassination-of-alexander-ii` → `ORG-chernyi-peredel` | `contrasts_with` | 有效时段: `1879–1881`): 1879年拒斥刺杀沙皇的温和群众宣传派；三月一日后普列汉诺夫等更加确认恐怖路线孤立无援，加速转向马克思主义。
-- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 1881年3月1日[O.S.]/13日[N.S.]，民意党在叶卡捷琳娜运河投两枚炸弹炸死亚历山大二世。弑君未引发起义，洛里斯-梅利科夫的有限咨询改革方案随后于3月8日[O.S.] / 3月20日[N.S.]被否决；执委会3月10日[O.S.] / 3月22日[N.S.]发表《致亚历山大三世信》后网络覆灭，五人于4月3日[O.S.] / 4月15日[N.S.]绞刑就义。
-
-### 邻居节点: `ORG-osvobozhdenie-truda`
-- **时效关系边** (`ORG-osvobozhdenie-truda` → `ORG-chernyi-peredel` | `successor-ideological` | 有效时段: `1883`): 土地平分社流亡残余在清算民粹乌托邦后另立马克思主义机关，组织上非简单改名
-- **时效关系边** (`ORG-chernyi-peredel` → `ORG-osvobozhdenie-truda` | `transition_bridge_to` | 有效时段: `1881–1883`): 日内瓦流亡核心在组织停摆与思想清算后，另行创立俄国首个马克思主义流亡团体
-- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 1883年9月（西欧公历）于日内瓦创立的俄国首个马克思主义团体，由普列汉诺夫、查苏利奇、阿克雪里罗得、捷伊奇与伊格纳托夫发起。其译介马恩著作，提出反对布朗基密谋、依托资本主义发展与工人运动的“两阶段革命”正统；1900年底合办《火星报》，1903年二大闭幕并入统一政党。
-
-### 邻居节点: `PER-axelrod`
-- **时效关系边** (`PER-axelrod` → `ORG-chernyi-peredel` | `member-precursor` | 有效时段: `1879–1881`): 土地平分社核心成员，反恐怖民粹路线代表
-- **时效关系边** (`ORG-chernyi-peredel` → `PER-axelrod` | `co_founder` | 有效时段: `1879–1881`): 负责南方与基辅重建尝试；反密谋监护的群众路线延续至其日后孟什维克理论
-- **节点定性微摘要 [T1]** (完备度 `draft`): 帕维尔·阿克雪里罗得（约1850–1928），俄国马克思主义与孟什维克思想奠基人之一。早年投身民粹活动并经由基辅巴枯宁派转入土地平分社，1883年参与创立劳动解放社，1903年二大与马尔托夫共同批判列宁超集中制；晚年提出“工人代表大会”构想，成为孟什维克群众工人政党路线的理论象征。
-
-### 邻居节点: `PER-zhelyabov`
-- **时效关系边** (`PER-zhelyabov` → `ORG-chernyi-peredel` | `rival` | 有效时段: `1879.06–09`): 沃罗涅日上与普列汉诺夫路线对峙，短期妥协后于夏秋彻底分家
-- **节点定性微摘要 [T1]** (完备度 `draft`): 俄国民粹派革命家、民意党执委会核心领袖。农奴出身，受教育后投身地下斗争；`1879-06-17 [O.S.] / 1879-06-29 [N.S.]` 起参与利佩茨克会议确立集中密谋体制；组织刺杀沙皇案并于法庭上作著名抗辩；`1881-04-03 [O.S.] / 1881-04-15 [N.S.]` 与佩罗夫斯卡娅等共五人被处绞刑。
-
-### 邻居节点: `CON-peasant-commune-obshchina`
-- **时效关系边** (`ORG-chernyi-peredel` → `CON-peasant-commune-obshchina` | `central_programmatic_axis` | 有效时段: `1879–1881`): 以村社土地重分为行动与理想基石，并触发1881年查苏利奇—马克思公社前途大辩论
-- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 帝俄至苏俄初期乡村核心自治与土地重分制度。1861年废奴改革保留连环保与重分地村社；民粹派奉为社会主义胚胎并获1881年晚年马克思有条件背书，列宁1899年判其资本主义分化，斯托雷平立法拆解之；1917–1918年农民“黑土重分”令其强力复兴并写入1922年《土地法典》，终在1929–1930年全盘集体化中被集体农庄彻底摧毁。
-
-## 3. 关联史学争鸣光谱 (Historiographical Debates)
+## 3. 关联史学争鸣与学者论断索引 (主卡外关联争鸣 1 项)
 ### `DEB-1879-narodnaya-volya-to-bolshevism`：民意党与布尔什维主义：密谋传统的连续性与异质性
 ## [T1] 核心问题定义
 民意党的秘密纪律、职业革命与政治暴力，同后来的布尔什维克组织之间有何关系？争论必须分别考察组织手段、革命目标、道德论证和具体传承链条：相似的地下技术本身不能证明永久党专政或思想一脉相承。
@@ -103,5 +62,19 @@
 | 爱尔福特正统重审与雅各宾概念史 | Lars T. Lih, *Lenin Rediscovered* (2006); Robert Mayer (1999) | 正面证伪“特卡乔夫/民意党密谋传统→列宁《怎么办？》”直线谱系：列宁以德国社民党（SPD）公开群众党为理想模板，因警察国家才借用秘密外壳；其“社会民主党雅各宾派”隐喻直接承自普列汉诺夫1901年反机会主义修辞而非特卡乔夫。 | `CLM-lih-2006-erfurtian-merger-formula`; `CLM-lih-2006-textbook-myth-critique`; `CLM-mayer-1999-lenin-jacobin-metaphor-vs-blanquism` | 还原1901–1902年正统语境并不能消解1903年后真实发生的组织集权裂变。 |
 | 自由主义制度批判 | Richard Pipes, *The Russian Revolution* (1990) | 其关于激进知识分子与家产专制国家对立、布尔什维克夺权及恐怖的论证，提供长期政治文化比较视角。 | `CLM-pipes-1990-patrimonial-state-and-intelligentsia`; `CLM-pipes-1990-october-classic-coup` | 将不同年代政治目标与组织条件回溯拉平的风险。 |
 
-## 4. 关联时间线锚点 (共 1 条)
+
+### 3.1 关联核心论断与史学家学派坐标 (`CLM-*` → `SCH-*`, 展示前 11/11 条)
+- **`CLM-venturi-1960-lipetsk-voronezh-split`** [`SCH-venturi-franco`(弗朗科·文图里) | pp. 647-663]: 
+- **`CLM-walicki-1969-marx-populist-affinity`** [`SCH-walicki-andrzej`(安杰伊·瓦利茨基) | pp. 132-133, 179-194 [PDF pp. 144-145, 191-206]]: 
+- **`CLM-walicki-1969-plekhanov-rational-reality`** [`SCH-walicki-andrzej`(安杰伊·瓦利茨基) | pp. 153-165 [PDF pp. 165-177]]: 
+- **`CLM-walicki-1969-narodnichestvo-definition`** [`SCH-walicki-andrzej`(安杰伊·瓦利茨基) | pp. 1-9, 23-28 [PDF pp. 13-21, 35-40]]: 
+- **`CLM-berlin-1960-populism-moral-core`** [`SCH-berlin-isaiah`(以赛亚·伯林 · liberal-intellectual-history) | pp. vii-xxvi]: 
+- **`CLM-venturi-1960-narodnaya-volya-constitutionalism`** [`SCH-venturi-franco`(弗朗科·文图里) | pp. 649, 655, 667-681, 716]: 
+- **`CLM-lih-2006-erfurtian-merger-formula`** [`SCH-lih-lars`(拉斯·T·利) | pp. 6-9, 41-49, 74-106, 113-121, 556-557]: 
+- **`CLM-lih-2006-textbook-myth-critique`** [`SCH-lih-lars`(拉斯·T·利) | pp. 5, 13-33, 555]: 
+- **`CLM-mayer-1999-lenin-jacobin-metaphor-vs-blanquism`** [`SCH-mayer-robert`(罗伯特·迈耶) | pp. 127-129, 140-146]: 
+- **`CLM-pipes-1990-patrimonial-state-and-intelligentsia`** [`SCH-pipes-richard`(理查德·派普斯) | ch. 2 (Official Russia); ch. 4 (The Intelligentsia); cf. Introduction]: 
+- **`CLM-pipes-1990-october-classic-coup`** [`SCH-pipes-richard`(理查德·派普斯) | ch. 11 (The October Coup); cf. Introduction]: 
+
+## 4. 关联时间线骨干锚点 (L0–L2 展示 1 条)
 - **1879-06-13 [N.S.]** (`TL-W15-L1-E01-09`, L1): **利佩茨克与沃罗涅日会议** — 政治刺杀路线与农村宣传路线公开冲突；六月为原文俄历月窗。

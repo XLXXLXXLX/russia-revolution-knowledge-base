@@ -1,7 +1,7 @@
 ---
 id: CLM-bonnell-1983-state-employer-repression-undermining-menshevik-reformism
 type: claim
-scholar: Victoria E. Bonnell
+scholar: SCH-bonnell-victoria
 work_title: "Roots of Rebellion: Workers' Politics and Organizations in St. Petersburg and Moscow, 1900–1914（中译本《反叛的根源：圣彼得堡与莫斯科的工人政治与组织（1900–1914）》）"
 publication_year: 1983
 source_tier: A
@@ -10,7 +10,7 @@ original_pages: "Book pp. 292–305, 316–323, 336–352, 372–389, 450–452 
 targets_cards:
   - EVT-1905-revolution
   - DEB-1914-haimson-thesis-stability
-  - SCH-bonnell-victoria
+  - ORG-mensheviks
 supports: []
 rebuts: []
 qualifies: []

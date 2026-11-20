@@ -8,7 +8,7 @@ source_tier: A
 local_source_path: "sources/monographs/venturi_1960_roots/ch22_pages_661-690.md#L1531-L2035"
 original_pages: "pp. 647-663"
 targets_cards: ["ORG-narodnaya-volya", "ORG-chernyi-peredel"]
-debate: DEB-1879-zemlya-i-volya-split
+debate: DEB-1879-narodnaya-volya-to-bolshevism
 supports: []
 rebuts: []
 qualifies: []

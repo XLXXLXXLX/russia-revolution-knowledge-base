@@ -1,13 +1,13 @@
 ---
 id: CLM-churakov-2004-soviet-worker-protest-dynamics-1918
 type: claim
-scholar: SCH-churakov-d
+scholar: SCH-churakov-dmitry
 work_title: "Революция, государство, рабочий протест: Формы, динамика и природа массовых выступлений рабочих в Советской России. 1917—1918 годы"
 publication_year: 2004
 source_tier: A
 local_source_path: "sources/monographs/ru_rev_state_working_class/ch03_pages_76-100.md#L520-L804"
 original_pages: "pp. 84-88, 352-355"
-targets_cards: ["EVT-1918-worker-protests", "POL-war-communism", "CON-spontaneous-bolshevism"]
+targets_cards: ["EVT-1918-worker-protest-and-izhevsk-uprising", "POL-war-communism", "DEB-1918-working-class-and-bolsheviks"]
 debate: DEB-1918-working-class-and-bolsheviks
 supports: []
 rebuts: []

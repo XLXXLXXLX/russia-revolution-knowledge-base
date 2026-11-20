@@ -7,8 +7,8 @@ publication_year: 2015
 source_tier: B
 local_source_path: "sources/monographs/soviet_democracy_and_stalin_zh/ch01_pages_26-50.md#L323-L331"
 original_pages: "PDF pp. 22-23, 35, 167-168, 179"
-targets_cards: ["CON-lishentsy", "POL-1918-rsfsr-constitution", "POL-1924-ussr-constitution"]
-debate: DEB-1918-1929-soviet-franchise-and-class-dictatorship
+targets_cards: ["INS-sovnarkom-and-vtsik", "EVT-1922-georgian-affair-and-ussr-formation"]
+debate: DEB-1918-constituent-assembly-and-soviet-democracy
 supports: []
 rebuts: []
 qualifies: []

@@ -1,0 +1,68 @@
+{
+  "benchmark_system_version": "1.0.0",
+  "created_at": "2026-11-19",
+  "last_maintained_at": "2026-11-19",
+  "maintenance_policy": {
+    "review_sla_days": 14,
+    "min_holdout_ratio": 0.2,
+    "require_zero_anchor_rot": true,
+    "require_zero_script_id_leakage": true,
+    "promote_every_p0_audit_defect": true
+  },
+  "suites": [
+    {
+      "id": "B1",
+      "name": "Graph, Frontmatter, Foreign-Key & Calendar Integrity",
+      "path": "benchmarks/suites/b1_graph_and_integrity_cases.json",
+      "format": "json",
+      "mode": "deterministic",
+      "author": "main-agent:gemini-4-carbon",
+      "last_reviewed": "2026-11-19"
+    },
+    {
+      "id": "B2",
+      "name": "Multi-Card Context Budget & Zero-Blind-Spot Recall",
+      "path": "benchmarks/suites/b2_context_budget_bundles.json",
+      "format": "json",
+      "mode": "deterministic",
+      "author": "main-agent:gemini-4-carbon",
+      "last_reviewed": "2026-11-19"
+    },
+    {
+      "id": "B3",
+      "name": "145-Book Chapter Radar (FTS5) & Empty-Scan Quarantine",
+      "path": "benchmarks/suites/b3_chapter_radar_queries.jsonl",
+      "format": "jsonl",
+      "mode": "deterministic",
+      "author": "subagent:gemini-4-neon",
+      "last_reviewed": "2026-11-19"
+    },
+    {
+      "id": "B4A",
+      "name": "Adversarial Historiography & Fact Canaries (1861-1918.03)",
+      "path": "benchmarks/suites/b4a_historiography_1861_1918.jsonl",
+      "format": "jsonl",
+      "mode": "hybrid_canary_and_qa",
+      "author": "subagent:gemini-4-hydrogen",
+      "last_reviewed": "2026-11-19"
+    },
+    {
+      "id": "B4B",
+      "name": "Adversarial Historiography & Fact Canaries (1918.03-1929)",
+      "path": "benchmarks/suites/b4b_historiography_1918_1929.jsonl",
+      "format": "jsonl",
+      "mode": "hybrid_canary_and_qa",
+      "author": "subagent:grok-4.7",
+      "last_reviewed": "2026-11-19"
+    },
+    {
+      "id": "B5",
+      "name": "Mode-A Reader-Facing Prose, Anti-Dryness & Historiographical Synthesis",
+      "path": "benchmarks/suites/b5_mode_a_prompts.jsonl",
+      "format": "jsonl",
+      "mode": "hybrid_lint_and_blind_judge",
+      "author": "subagent:gemini-4-argon",
+      "last_reviewed": "2026-11-19"
+    }
+  ]
+}

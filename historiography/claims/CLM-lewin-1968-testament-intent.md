@@ -7,8 +7,8 @@ publication_year: 1968
 source_tier: A
 local_source_path: "sources/monographs/lewin_1968_lenins_last_struggle/ch18_10.md#L11-L34; ch17_9.md#L47-L59; ch07_chronology_of_events.md#L113-L125"
 original_pages: "n/a（EPUB 无页码锚点）；Ch.10 'If Lenin Had Lived . . .'；列宁原文脚注见 Soch. XLV p. 392；XLIV p. 428"
-targets_cards: ["PER-lenin", "PER-stalin", "PER-trotsky", "EVT-1923-lenin-testament", "ORG-rki", "ORG-ccc", "CON-ban-on-factions"]
-debate: DEB-1923-lenin-testament-and-succession
+targets_cards: ["PER-lenin", "PER-stalin", "PER-trotsky", "DEB-1922-lenin-testament-and-stalin-rise", "INS-rabkrin-and-ccc", "POL-ban-on-factions-1921"]
+debate: DEB-1922-lenin-testament-and-stalin-rise
 supports: []
 rebuts: []
 qualifies: []

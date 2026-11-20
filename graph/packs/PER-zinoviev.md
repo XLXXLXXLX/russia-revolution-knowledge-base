@@ -1,14 +1,9 @@
-# 1-Hop 平衡上下文包：`PER-zinoviev` (格里戈里·季诺维也夫)
+# 1-Hop 去重平衡上下文包：`PER-zinoviev`
 
-> 本文件由 `python scripts/kb.py pack` 自动编译，旨在将失控的 `1+N` 随机读取压缩为**等权重、带时效边实质与史学盲区告警**的单次全景读取。
+> 由 `python scripts/kb.py pack` 动态编译：保留 **100% 一跳邻居与多时段关系边**，跨卡自动去重争鸣与时间线，并关联学者学派 (`SCH-*`)。
 
-## 0. 认知完备度与反偏斜仪表盘 (Epistemic & Skew Warnings)
-- **主卡路径**: `cards/people/PER-zinoviev.md`
-- **完备度等级**: `multi-perspective`
-- **已覆盖视角**: `political-biographical, trotskyist-biographical, archival-opposition-studies, comintern-archival-zhukov, primary-halle-1920, institutional-carr-khlevniuk`
-- **待补齐视角**: `soviet-orthodox, rgaspi-1927-expulsion-verbatim, 1936-show-trial-interrogation-protocols`
-- **偏斜风险提示**:
-  - ⚠️ 主卡显式声明尚缺以下视角待补: `soviet-orthodox, rgaspi-1927-expulsion-verbatim, 1936-show-trial-interrogation-protocols`。
+## 0. 认知完备度与反偏斜仪表盘
+- **`PER-zinoviev`** (格里戈里·季诺维也夫 | `cards/people/PER-zinoviev.md` | `multi-perspective`): 已覆盖=`political-biographical, trotskyist-biographical, archival-opposition-studies, comintern-archival-zhukov, primary-halle-1920, institutional-carr-khlevniuk`；待补=`soviet-orthodox, rgaspi-1927-expulsion-verbatim, 1936-show-trial-interrogation-protocols`
 
 ## 1. 主卡核心层 ([T1] + [T2])
 ## [T1] 60秒定性微摘要
@@ -44,278 +39,76 @@
   - **[党内制度演进与1926清洗机制派 / Oleg Khlevniuk, Dmitry Apalkov]**（`L3 1926-07`）：精细还原1926年6–7月斯大林如何在幕后操纵“拉斯舍维奇森林案”，刻意将其定性为“季诺维也夫案件”并破天荒启用十大秘密第7条，以渐进分化策略拆解托—季联合。
   - **[革命语境重读派 / Ben Lewis, Lars T. Lih]**（2011 哈雷辩论编本）：在整理1920年哈雷辩论一手速记小册子时，呈现季诺维也夫如何站在刚摆脱白军围困的革命中心立场上，系统论证二十一条与红军恐怖并非突发暴戾，而是列宁主义对“世界革命已具备前提却缺先锋队决断”这一战略信念的逻辑贯彻。
 
-## 2. 一跳邻域等权重微摘要 (共 26 个关联节点，严防大卡霸占上下文)
-### 邻居节点: `PER-stalin`
-- **时效关系边** (`PER-zinoviev` → `PER-stalin` | `triumvirate-ally-then-opposition` | 有效时段: `1923-1924结盟; 1925-1927决裂`): 与加米涅夫、斯大林结成三驾马车压制托洛茨基并帮斯大林渡过遗嘱关；1925年组建新反对派、1926结成联合反对派均遭击败。
-- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 布尔什维克高加索地下组织者、民族事务人民委员（1917–1923）及中央总书记（1922起）。依托书记处任命权与安全危机叙事，先联季-加压制托洛茨基，再联布哈林击溃联合反对派；1927–1929年以战备恐慌与“自上而下革命”击败布哈林集团，1929年12月拍板“把富农作为阶级消灭”并终结新经济政策。
+## 2. 一跳邻域全量微摘要目录 (去重后共 27 个节点，0 截断)
+- **`CON-kulak`**（富农（作为社会阶层与政治定罪标签））: “富农”兼具农村阶层与政治定罪含义：19世纪原指高利贷盘剥者，列宁称农村资产阶级；斯托雷平改革分离户也遭村社如此指斥。1918年为贫农委员会征粮对象，1925年NEP放宽而农村趋向中农化；1928–1929年经刑法107条与雅科夫列夫委员会转为阶级清洗标签。 ‖ `→PER-zinoviev`[polemical-amplifier-of-kulak-danger|1925–1927]: 1925年以“富农危险”与反对“发财吧”发动新反对派论战，将农村分化上升为路…
+- **`CON-permanent-revolution`**（不断革命论）: 源于马克思1850年通告，1905–1906年帕尔乌斯与托洛茨基发展为无产阶级夺权并联动欧洲革命之论，与列宁“工农民主专政”相异。1917年《四月提纲》与托氏入党、十月夺权，被Deutscher解释为实践合流，学界有异议；1924年后被定为“低估农民”的托派异端。 ‖ `→PER-zinoviev`[co-fabricator-of-"anti-trotskyism" (1924) -> tactical-ally (|1924–1927]: 1924年率先掀起批判不断革命论狂潮，1926–1927年在世界经济与一国建…
+- **`CON-socialism-in-one-country`**（一国建成社会主义）: 苏联核心战略概念（1924–1930s）。1924年底由斯大林反击“不断革命论”时首次提出，1925–1926年经布哈林充实为区分“国内建成可能”与“免除外部颠覆之最终胜利”的理论，支撑新经济政策工农市场渐进建设；1928–1929年后内涵剧变为自给自足备战超工业化与强制集体化的动员纲领。 ‖ `→PER-zinoviev`[initial-co-sponsor -> fierce-critic|1924默认；1925–1927批判]: 1924年反托运动中曾默许斯大林新提法，1925年秋起在《列宁主义》中猛烈批…
+- **`CON-state-capitalism`**（国家资本主义（苏维埃政权下的））: 布尔什维克过渡经济概念。列宁1917–1918年以德国战时统制经济为蓝本，将“苏维埃政权下的国家资本主义”定为通向社会主义的进步阶梯，遭左派共产主义者斥为向资本投降；1921年重定义为租让制、租赁与合作社，1923年《论合作社》悄然转向；1925年新反对派反用此词攻击布哈林—斯大林。 ‖ `→PER-zinoviev`[weaponizer-against-nep-majority|1925]: 把“国家资本主义”定义扩至国营工业，以此指控布哈林—斯大林美化资本主义、修正列宁 ； `←PER-zinoviev`[polemical-weaponizer|1925-10–1925-12]
+- **`CON-thermidor-and-bureaucracy`**（苏维埃热月与官僚主义蜕变）: 借法国大革命雅各宾衰亡隐喻诊断苏维埃政权变质的核心概念。1921–1923年列宁晚年痛斥国家机关实质承袭沙皇旧机器、仅涂苏维埃油漆；路标转换派乌斯特里亚洛夫从右翼欢呼NEP为民族布尔什维克“热月”；1923–1927年左翼与联合反对派则以“党国官僚中间派与热月危险”批判斯大林—布哈林体制。 ‖ `→PER-zinoviev`[shifted-from-apparatus-triumvir-to-anti-thermidor-critic|1923–1927]: 1923年曾利用机关打压四十六人，1925年麾下扎卢茨基首抛党内“热月蜕变”…
+- **`CON-united-front-and-third-period`**（共产国际“统一战线”与“第三时期/社会法西斯论”（1921–1929））: 世界革命受挫后，共产国际1921年三大提出“到群众中去”，12月确立工人统一战线，始终存在争取基层与同改良派领袖协议的张力。经1924年反社民党论述、1925–1927年英俄工会合作与中国国共合作失败，1928年六大及1929年7月执委全会确立第三时期与社会法西斯论。 ‖ `→PER-zinoviev`[oscillator-and-proto-coiner|1921–1926]: 主持早期统一战线摇摆，1923德国败局后于1924年1月及五大首倡“社民党=…
+- **`EVT-1918-worker-protest-and-izhevsk-uprising`**（1918年苏俄工人抗议、工厂全权代表会议运动与伊热夫斯克—沃特金斯克大起义）: 1918年春夏，失业、饥荒与基层组织国家化引发工人抗议，丘拉科夫估涉及210—220家企业、10万—25万人。彼得格勒形成非常代表会议，莫斯科局部让步；卡马河军工镇在强征等冲突下起义，伊热夫斯克与沃特金斯克组成人民军，最高约2.5万人，终遭红军反攻瓦解。 ‖ `→PER-zinoviev`[rigid-suppressor|1918.03–07]: 在彼得格勒推行高压行政管控并解散全权代表会议；丘拉科夫认为这种缺乏弹性的压制…
+- **`EVT-1927-war-scare-and-opposition-expulsion`**（1927年“战争恐慌”危机与联合反对派溃败）: 1927年英苏断交、沃伊科夫遇刺引发战争恐慌与抢购囤粮，OGPU六月行动大捕人：两项研究分别估6月至少9,000人、6—7月至少13,345人。反对派九月《政纲》遭禁，11月7日游行被冲散，14日托季被开除；十五大在购粮危机已发生时完成组织清除。 ‖ `→PER-zinoviev`[expelled -> recants|1927.11–12]: 与托洛茨基同日被开除党籍后于12月10日转向停止反对并认错求复籍，终致联合反…
+- **`MTG-1912-01-prague-conference`**（俄国社会民主工党第六次（布拉格）全俄代表会议）: 1912-01-18至01-30[N.S.]，列宁派在布拉格秘密开会，自任社民工党最高机关，宣告《我们的曙光》等取消派置身党外，废除1910年巴黎协议。会议选出布尔什维克主导的中央，会后增补斯大林入中委及俄罗斯局；独立中央加深分裂，但国内地方联合与基层合作仍延续。 ‖ `→PER-zinoviev`[cc-lieutenant|1912.01]: 当选布拉格会议产生的中央委员会委员及中央机关报核心成员，巩固列宁流亡核心助手地位
+- **`MTG-1921-rcpb-10th-congress`**（俄国共产党（布尔什维克）第十次代表大会）: 1921年3月8日至16日，俄共（布）十大在经济崩溃与喀琅施塔得起义交织下召开。大会决定以粮食税取代余粮收集制，开启新经济政策转向；同时终结工会大辩论，通过《关于党的统一》禁止派别活动并谴责工人反对派。经济退却与党内纪律收紧并行，会后中央与书记处改组重塑了组织权力格局。 ‖ `→PER-zinoviev`[union-platform-ally|1921-03]: 作为《十人纲领》主要推手之一在工会争论中联合列宁压制托洛茨基路线。
+- **`MTG-1924-05-13th-party-congress`**（俄国共产党（布尔什维克）第十三次代表大会）: 1924年5月23日至31日，列宁逝世后的首次党代会召开。会前中央全会与长老会议限制列宁最后口授文件传达方式并留任斯大林；大会依托“列宁征召”与组织筛选压倒左翼反对派，托洛茨基公开宣示对党忠诚。会后中央与中监委扩编、布哈林升入政治局，集体领导联盟暂时稳固。 ‖ `→PER-zinoviev`[triumvirate-leader|1924-05]: 主持大会政治报告，力保斯大林留任并要求左翼反对派公开认错。
+- **`MTG-1925-12-14th-party-congress`**（联共（布）第十四次代表大会）: 1925年12月18—31日莫斯科举行。斯大林—布哈林中央多数派以559:65通过批准中央政治报告决议案，击败以列宁格勒产业工人党员为后盾、批判富农分化与“国家资本主义”的季诺维也夫—加米涅夫“新反对派”；大会确立社会主义工业化总方针并改党名为联共（布）。 ‖ `→PER-zinoviev`[opponent|1925-12]: 依托列宁格勒产业工人反富农分化情绪作大会副报告，战败后丧失列宁格勒党政基地
+- **`MTG-1927-12-15th-party-congress`**（联共（布）第十五次代表大会）: 1927年12月2—19日莫斯科举行。大会追认11月对托洛茨基、季诺维也夫的开除党籍处分，并于12月18日另行开除加米涅夫等75名托季联合反对派骨干及萨普罗诺夫派；同时通过编制首个五年计划指示与渐进合作化—集体化决议，开启NEP末期转折前奏。 ‖ `→PER-zinoviev`[expulsion-ratified -> recantation|1927-11至12-19]: 会前开除，大会闭幕际与加米涅夫提交悔过书，被勒令经六个月考察再个别审理
+- **`ORG-comintern`**（共产国际（第三国际））: 共产国际1919年3月在莫斯科成立，由俄共主导。经1920年二十一条、1921年转向群众与统一战线、1923年德国革命失败，季诺维也夫与布哈林先后主持日常工作。1928年六大转向第三时期，随后分批整肃德美等支部，1929年7月执委会罢免布哈林，确立阶级对阶级与社会法西斯主义路线。 ‖ `→PER-zinoviev`[first_chairman -> ousted|1919.03–1926]: 首任执委会主席，主导二大《二十一条》与1920年10月哈雷演说；经历1923… ； `←PER-zinoviev`[president-leader|1919-03–1926-10]
+- **`ORG-left-and-united-opposition`**（1923–1927年左翼反对派与托季联合反对派）: 1923年剪刀差危机触发的托洛茨基—普列奥布拉任斯基“左翼反对派”，经1926年春与季诺维也夫—加米涅夫“新反对派”结盟为托季联合反对派；以《四十六人声明》与《1927年政纲》批判官僚体制与“一国社会主义”、主张价格—财政渠道的计划工业化，于1927年12月十五大被组织摧毁。 ‖ `→PER-zinoviev`[adversary-1923 -> co-leader-1926|1923–1925反托；1926–1927结盟]: 十四大失守列宁格勒后携残余组织网络与托洛茨基结盟，十五大闭幕际悔过拆伙
+- **`ORG-vikzhel`**（全俄铁路雇员与工人联合会执行委员会（维克热尔））: 维克热尔是1917年夏产生的全国铁路工会执行机关。铁路连接军队、粮食与城市，十月革命后其运输杠杆使它试图调停各社会主义政党、推动广泛联合政府。布尔什维克内部为此严重分裂，谈判未能实现最广泛联合，新的铁路工会领导机关后与布党及左翼社革党合作。 ‖ `→PER-zinoviev`[coalition-advocate-then-retreat|1917-11]: 辞职并于 11-06/07 认错
+- **`PER-kamenev`**（列夫·加米涅夫）: 老布尔什维克、首任全俄中执委主席。1917年自四月至立宪会议一贯坚守温和宪政社会主义联盟路线并公开反对十月起义；1924年十三大联手季诺维也夫压下《列宁遗嘱》，1925年十四大公开发言反斯大林“领袖”集权后失势；1928年7月密会布哈林并留下外泄笔记，反成右派致命罪证。 ‖ `→PER-zinoviev`[twin-ally|1917–1936]: 政治双子星：共反十月起义、共建三驾马车（1924共压遗嘱）、共举新/联合反对… ； `←PER-zinoviev`[twin-ally|1917–1936]
+- **`PER-kirov`**（谢尔盖·基洛夫）: 基洛夫是北高加索与巴库布尔什维克领导人，早年主政阿斯特拉罕及巴库。1926年1月十四大后奉斯大林之命赴列宁格勒，逐厂辩论，夺取党机关与报刊控制，1926–1927年持续争夺基层；1926年7月成为政治局候补委员，1928–1929年反右倾斗争中稳控西北工业重镇。 ‖ `→PER-zinoviev`[apparatus_liquidator_of|1925.12–1927.12]: 十四大后受命接掌列宁格勒省委，借逐厂辩论与人事清洗夺取党政报刊的公开组织控制…
+- **`PER-krupskaya`**（娜杰日达·克鲁普斯卡娅）: 娜杰日达·克鲁普斯卡娅（1869–1939），布尔什维克元老、列宁夫人兼秘密通信枢纽；1918年后主持教育人民委员部成人政教与扫盲，1922–1923年守护列宁病榻口授并于1924年5月移交十三份文件。1925–1926年短暂参与反对派后脱离，晚年转入教育制度工作。 ‖ `→PER-zinoviev`[temporary-opposition-ally|1925.12–1926.10]: 十四大前与季诺维也夫、加米涅夫、索科利尼科夫合组新反对派并连署《十三人声明》…
+- **`PER-martov-l`**（尤利·马尔托夫）: 孟什维克核心领袖与国际主义左翼旗手。1903年二大凭党章第一条（28:22:1）与列宁分道；1917年七月夜倡“清一色社会主义政府”遭党内主流否决，十月二大率派退场；1918年工人抗议浪潮中坚持苏维埃合法反对派立场，1920年哈雷大会与季诺维也夫正面交锋痛斥恐怖与二十一条，后流亡柏林病逝。 ‖ `→PER-zinoviev`[debate-adversary|1920-10-14–16 哈雷大会]: 1920年10月哈雷USPD大会与季诺维也夫四小时演说针锋相对，逐条痛斥共产… ； `←PER-zinoviev`[debate-adversary|1920-10 哈雷大会]
+- **`PER-radek`**（卡尔·拉狄克）: 加利西亚犹太社会主义者与多语政论家，活动横跨波兰、德国和俄国。参与齐美尔瓦尔德左派、布列斯特争论与德国革命，后任共产国际要员，推动统一战线并卷入德国十月失败问责。作为左翼反对派及中国革命论战骨干，1927年遭开除，1929年转向妥协归队；1937年获刑，1939年狱中被害。 ‖ `→PER-zinoviev`[comintern_colleague_then_responsibility_dispute|1921–1924]: 共同介入德国战略，1923年失败后的责任分配又受俄国党争影响
+- **`PER-trotsky`**（列夫·托洛茨基）: 俄国革命家、“不断革命论”提出者，1905年彼得堡苏维埃实际领袖与1917年彼得格勒苏维埃主席；借军革委与苏维埃二大衔接统筹十月夺权，内战期起用4.8万军事专家缔造红军。1923–1927年领衔左翼与联合反对派抗衡斯大林集权并受“红色波拿巴”污名围剿，1927年被开除出党，1929年被驱逐出境。 ‖ `→PER-zinoviev`[factional-hammer -> joint-opposition-ally|1923–1924 围剿；1926–1927 结盟；1927末 决裂]: 1923–24年季诺维也夫制造“反托运动”并投射“波拿巴”阴影；1926年合… ； `←PER-zinoviev`[factional-hammer -> joint-opposition-ally|1923–1924 围剿；1926–1927 结盟；1927末 背弃]
+- **`PER-uglanov`**（尼古拉·乌格拉诺夫）: 工人出身的布尔什维克党务领袖，1924年接掌莫斯科党委，曾助斯大林压制左派，后支持布哈林渐进工业化与纺织轻工业。1928年夏秋，组织分配部、区委反叛与基层不满合流，使其地方阵地瓦解；十一月去职，次年失去中央要职。其温和经济路线与专横组织作风并存，1937年遇害。 ‖ `→PER-zinoviev`[local_organizational_opponent|1925–1927]: 曾以莫斯科党机器打击列宁格勒新反对派，其后又被同类干部机制击败
+- **`PER-lenin`**（弗拉基米尔·列宁）: 布尔什维克党缔造者、苏俄人民委员会主席（1917–1924）。1893年投身马克思主义运动，1903年促成布尔什维克分化；1917年发表《四月提纲》并领导十月夺权，历经布列斯特和约、内战与战时共产主义；1921年主持转向新经济政策，晚年（1922–1923）就官僚化与接班人同斯大林冲突。 ‖ `←PER-zinoviev`[closest-lieutenant -> defier -> reconciled|1908–1917 亲密副手；1917.10 决裂；1918–1924 重用]
+- **`PER-stalin`**（约瑟夫·斯大林）: 布尔什维克高加索地下组织者、民族事务人民委员（1917–1923）及中央总书记（1922起）。依托书记处任命权与安全危机叙事，先联季-加压制托洛茨基，再联布哈林击溃联合反对派；1927–1929年以战备恐慌与“自上而下革命”击败布哈林集团，1929年12月拍板“把富农作为阶级消灭”并终结新经济政策。 ‖ `←PER-zinoviev`[triumvirate-ally -> bitter-foe -> victim|1923–1924 联手排托；1925–1927 决裂；1928–1936 被杀]
+- **`PER-bukharin`**（尼古拉·布哈林）: 布尔什维克核心理论家、《真理报》主编及共产国际书记处负责人。列宁遗嘱誉其“全党宠儿”但质疑其辩证法；1918年领衔左翼共产主义，1921年后转向新经济政策均衡路线，1925–1927联斯大林击溃左派，1928–1929因反对暴力征粮与超工业化遭击败并逐出政治局。 ‖ `←PER-zinoviev`[ideological-foe|1925–1927]
+- **`POL-ban-on-factions-1921`**（《关于党的统一》派别禁令）: 俄共十大于1921年3月16日通过《关于党的统一》，要求解散按纲领组成的派别，并保留规定渠道的批评。秘密第七条设中央领导成员的特殊处分程序；1924年1月公开宣读、1926年7月首次动用开除季诺维也夫出政治局，危机措置遂渐成约束反对派的工具，但不同年份执行不等同原条文。 ‖ `←PER-zinoviev`[first-politburo-target|1926-07-23] ； `→PER-zinoviev`[首例第7条靶标|1926-07-23]: 1926年7月联席全会首次正式援引秘密第7条将其逐出政治局。
 
-### 邻居节点: `CON-state-capitalism`
-- **时效关系边** (`PER-zinoviev` → `CON-state-capitalism` | `polemical-weaponizer` | 有效时段: `1925.10-12`): 在1925十四大援引列宁旧论断攻击布哈林—斯大林将国有工业与NEP美化为纯粹社会主义而掩盖其国家资本主义矛盾。
-- **时效关系边** (`CON-state-capitalism` → `PER-zinoviev` | `weaponizer-against-nep-majority` | 有效时段: `1925`): 把“国家资本主义”定义扩至国营工业，以此指控布哈林—斯大林美化资本主义、修正列宁
-- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 布尔什维克过渡经济概念。列宁1917–1918年以德国战时统制经济为蓝本，将“苏维埃政权下的国家资本主义”定为通向社会主义的进步阶梯，遭左派共产主义者斥为向资本投降；1921年重定义为租让制、租赁与合作社，1923年《论合作社》悄然转向；1925年新反对派反用此词攻击布哈林—斯大林。
+## 3. 关联史学争鸣与学者论断索引 (主卡外关联争鸣 5 项)
+- **`DEB-1917-october-coup-or-social-revolution`**（十月革命：少数派政变还是社会革命？ | `historiography/debates/DEB-1917-october-coup-or-social-revolution.md` | 流派 `liberal-coup, party-social-history, russian-revisionist-timing, labor-local-history, moderate-socialist-and-constitutional-legitimacy, participant-marxist, peasant-social-history, borderland-and-memory-historiography`）：十月武装夺权是少数派政变，还是工人、士兵与农民社会革命的政治表达？有组织的起义与广泛的基层动员能否同时成立，苏维埃多数又能否代表全国选民？这些问题涉及不同地区、不同时间的支持与合法性，不能以一次投票或一次攻占行动互相替代。
+- **`DEB-1918-war-communism-ideology-or-emergency`**（战时共产主义与早期一党制本质之争：内战应急、乌托邦跃进还是国家统制连续？ | `historiography/debates/DEB-1918-war-communism-ideology-or-emergency.md` | 流派 `emergency-carr-mawdsley, utopian-tragedy-malia-pipes, state-continuity-lih-smith, mixed-causation-rabinowitch-lewin`）：1918至1921年的全面国有化、余粮收集制、取缔私商、劳动军事化，以及多党苏维埃收为一党专政，究竟是内战与供给崩溃逼出的生存应急，还是反市场乌托邦的激进兑现，抑或一战以来国家统制与基层危机交互的结果？“战时共产主义”是1921年转向时的事后标签，须分清措施序列与事后总结。
+- **`DEB-1922-lenin-testament-and-stalin-rise`**（列宁晚年、格鲁吉亚事件与斯大林崛起机制 | `historiography/debates/DEB-1922-lenin-testament-and-stalin-rise.md` | 流派 `revisionist, nationalities-history, archival-post-soviet, kotkin-source-skepticism, trotskyist, service-critical-biography, sakharov-pseudo-lenin-polemic`）：列宁晚年口授文稿和格鲁吉亚冲突，是反官僚与反斯大林的总体“最后斗争”，还是对共同集权框架内具体做法的修正？《遗嘱》本身是否存在文本流转疑点？斯大林的上升又如何由个人策略、书记处机关、寡头集体领导与反对派失策共同解释？
+- **`DEB-1924-socialism-in-one-country`**（一国建成社会主义与不断革命论 | `historiography/debates/DEB-1924-socialism-in-one-country.md` | 流派 `stalin-bukharin, united-opposition, political-intellectual-history, institutional-geopolitics, lenin-cooperative-plan, bonapartism-and-tactical-critique`）：欧洲革命迟滞后，苏联能否凭国内力量建成社会主义，还是生产力与世界市场的联系使最终完成有赖国际革命？争论中的建设、建成和免于复辟并非同一问题；工农联盟、外部安全及党内联盟变化又如何改变这些概念的政治意义？各方均主张建设，分歧在条件、界限与国际前景。
+- **`DEB-1928-bukharin-alternative`**（布哈林替代方案与新经济政策终结之争 | `historiography/debates/DEB-1928-bukharin-alternative.md` | 流派 `nep-alternative, economic-growth, structural-dilemma, apparatus, ideology-and-mobilization, cliometrics-and-archival-reassessment`）：1927至1929年粮食危机与新经济政策的瓦解，是否意味着渐进工业化和工农联盟已无可行出路，还是党内权力与政策选择扼杀了布哈林的替代方案？投资、价格、农民供粮和政治动员之间的约束究竟有多强，必须把经济可行性、政治可行性与实际权力斗争分别检验。
 
-### 邻居节点: `ORG-comintern`
-- **时效关系边** (`PER-zinoviev` → `ORG-comintern` | `first-chairman` | 有效时段: `1919.03-1926.10`): 担任共产国际执委会首任主席，主导《二十一条》与1923“德国十月”起义冒险，与联合反对派结盟后被免职。
-- **时效关系边** (`ORG-comintern` → `PER-zinoviev` | `first_chairman -> ousted` | 有效时段: `1919.03–1926`): 首任执委会主席，主导二大《二十一条》与1920年10月哈雷演说；经历1923年德国总起义取消与汉堡起义挫败及联共党内斗争后于1926年被撤换
-- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 1919年3月在俄共（布）主导下于莫斯科创立的跨国共产党国际组织（第三国际）。历经1920二大《二十一条》集权划界、1921三大“到群众中去”转折与12月统一战线提纲、1923“德国十月”全德总起义流产与汉堡孤立起义挫败，以及季诺维也夫、布哈林先后主持执委会日常工作；1928六大转向“第三时期”后，经1928年底至1929年夏对德、美等支部的分批整肃及1929年7月执委会第十次全会正式罢免布哈林，全面确立“阶级反对阶级”与“社会法西斯主义”路线。
+### 3.1 关联核心论断与史学家学派坐标 (`CLM-*` → `SCH-*`, 展示前 24/71 条)
+- **`CLM-rabinowitch-1976-october-three-factions-debate`** [`SCH-rabinowitch-alexander`(亚历山大·拉比诺维奇) | 未核：EPUB 章节及行号]: 
+- **`CLM-churakov-2004-soviet-worker-protest-dynamics-1918`** [`SCH-churakov-dmitry`(德米特里·奥列戈维奇·丘拉科夫) | pp. 84-88, 352-355]: 
+- **`CLM-halle-1920-zinoviev-world-revolution-speech`** [`SCH-zinoviev-grigorii`(格里戈里·叶夫谢耶维奇·季诺维也夫 · participant-primary-text) | pp. 118–122, 130–131, 134, 140, 142, 150 (Lewis ed. 2011; printed page = PDF page − 1). Full speech pp. 117–158, delivered 14 October 1920 [N.S.]]: 
+- **`CLM-zhukov-zinoviev-comintern-and-1923-germany`** [`SCH-zhukov-yuri`(尤里·茹科夫) | EPUB OPS/ch1-16.xhtml (Notes 338-352)]: 
+- **`CLM-zhukov-zinoviev-1925-leningrad-opposition`** [`SCH-zhukov-yuri`(尤里·茹科夫) | EPUB OPS/ch1-20.xhtml, OPS/ch1-21.xhtml (Notes 434-462)]: 
+- **`CLM-halle-1920-martov-critique-of-terror-and-21-conditions`** [`SCH-martov-iulii`(尤利·奥西波维奇·马尔托夫 · participant-primary-text) | pp. 167–170, 173, 175–176, 179 (Lih translation in the 2011 Lewis/Lih edition; printed page = PDF page − 1). Full speech pp. 167–179, delivered 15 October 1920 [N.S.]]: 
+- **`CLM-zinoviev-trotsky-1926-world-economy-critique`** [`SCH-trotsky-leon`(列夫·达维多维奇·托洛茨基 · participant-historian) | 汇编 PDF pp. 67–68、82–91；季诺维也夫引文自标 1925 年问题，托洛茨基诸段在汇编中无单行本年份与页码]: 
+- **`CLM-deutscher-1959-united-opposition-defeat`** [`SCH-isaac-deutscher`(艾萨克·多伊彻) | （中译本；对应第二部 1926–1927 年）]: 
+- **`CLM-khlevniuk-2015-collective-leadership-erosion`** [`SCH-khlevniuk-oleg`(奥列格·赫列夫纽克) | EPUB ops/xhtml/ch02.html（TRYING OUT COLLECTIVE LEADERSHIP 至 THE CHOICE）。工作区文本无纸质页码。]: 
+- **`CLM-apalkov-2023-collective-to-personal-dictatorship`** [`SCH-apalkov-dmitry`(德米特里·阿帕尔科夫 · post-soviet-archival-party-history) | pp. 20-33, 124-127, 149-158, 191-195]: 
+- **`CLM-pipes-1990-october-classic-coup`** [`SCH-pipes-richard`(理查德·派普斯) | ch. 11 (The October Coup); cf. Introduction]: 
+- **`CLM-rabinowitch-1976-open-democratic-mass-party`** [`SCH-rabinowitch-alexander`(亚历山大·拉比诺维奇) | 未核：EPUB 章节及行号]: 
+- **`CLM-rabinowitch-1976-trotsky-soviet-congress-strategy`** [`SCH-rabinowitch-alexander`(亚历山大·拉比诺维奇) | 未核：EPUB 章节及行号]: 
+- **`CLM-loginov-lenin-1917-fleeting-window-of-power`** [`SCH-loginov-vladlen`(弗拉德连·洛吉诺夫) | pp. 523-524, 531-532, 560-561, 621-622, 656-658]: 
+- **`CLM-smith-sa-1983-defensive-workers-control`** [`SCH-smith-sa`(斯蒂芬·A·史密斯（S. A. Smith）) | 中译本 pp. 106–112, 133, 135, 137, 191（即源文件标注 PDF pp. 111–117, 138, 140, 142, 196）；注意：均为中译本页码，非英文原版页码]: 
+- **`CLM-koenker-1981-moscow-october-armed-struggle-vs-petrograd`** [`SCH-koenker-diane`(黛安·P·科恩克尔) | pp. 329–355 (local PDF pp. 345–371); p. 366 (PDF p. 382)]: 
+- **`CLM-koenker-1981-rational-incremental-radicalization`** [`SCH-koenker-diane`(黛安·P·科恩克尔) | pp. 359–363 (local PDF pp. 375–379); p. 254 (PDF p. 270)]: 
+- **`CLM-basil-1984-october-and-vikzhel-collapse`** [`SCH-basil-john`(约翰·D·巴兹尔) | pp. 165–175（本地 PDF 同号）]: 
+- **`CLM-yao-hai-post-october-coalition-failure-and-one-party-formation`** [`SCH-yao-hai`(姚海) | [PDF pp. 532-535, 543-569]]: 
+- **`CLM-yao-hai-constituent-assembly-vs-soviet-legitimacy-clash`** [`SCH-yao-hai`(姚海) | [PDF pp. 574-596]]: 
+- **`CLM-rabinowitch-2007-constituent-assembly`** [`SCH-rabinowitch-alexander`(亚历山大·拉比诺维奇) | pp. 88-91, 105-110, 121-127]: 
+- **`CLM-trotsky-1930-art-of-insurrection-and-soviet-legality`** [`SCH-trotsky-leon`(列夫·达维多维奇·托洛茨基 · participant-historian) | （中译 EPUB 无纸页；第三卷第二十—二十一章）]: 
+- **`CLM-sukhanov-1922-october-walkout-tragedy`** [`SCH-sukhanov-nikolai`(尼古拉·苏汉诺夫) | pp. 631–647, 657–660 (PDF pp. 683–699, 709–711)]: 
+- **`CLM-figes-1996-peasant-moral-economy-1917`** [`SCH-figes-orlando`(奥兰多·费吉斯) | pp. 343-352]: 
 
-### 邻居节点: `PER-kirov`
-- **时效关系边** (`PER-kirov` → `PER-zinoviev` | `dismantled-leningrad-machine` | 有效时段: `1926.01`): 十四大后奉斯大林派遣接管列宁格勒省委，深入大厂支部辩论瓦解季诺维也夫经营十年的地方派系大本营。
-- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 北高加索与巴库布尔什维克强人（1886–1934，本卡至1929年）。内战与二十年代初主政阿斯特拉罕及巴库；1926年1月十四大后奉斯大林之命赴列宁格勒逐厂辩论，夺取地方党机关与报刊控制，并在1926–1927年持续争夺基层；同年7月升任政治局候补委员，在1928–1929年反右倾斗争中稳控西北工业重镇。
-
-### 邻居节点: `CON-kulak`
-- **时效关系边** (`CON-kulak` → `PER-zinoviev` | `polemical-amplifier-of-kulak-danger` | 有效时段: `1925–1927`): 1925年以“富农危险”与反对“发财吧”发动新反对派论战，将农村分化上升为路线危机
-- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 俄国农村阶层与政治定罪复合概念。原系19世纪村社对高利贷盘剥者的贬称，列宁定性为农村资产阶级，斯托雷平改革试图培育独立私有农户，部分村社成员将分离户斥为富农；1918年成贫农委员会征粮对象，1925年NEP放宽下农村实呈中农化；1928–1929年经刑法第107条与雅科夫列夫委员会武器化为“作为阶级消灭”的清洗标签。
-
-### 邻居节点: `CON-permanent-revolution`
-- **时效关系边** (`CON-permanent-revolution` → `PER-zinoviev` | `co-fabricator-of-"anti-trotskyism" (1924) -> tactical-ally (` | 有效时段: `1924–1927`): 1924年率先掀起批判不断革命论狂潮，1926–1927年在世界经济与一国建成问题上与托洛茨基结成联合反对派
-- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 跨期革命战略与党史异端标签。源于马克思1850年通告，1905–1906年由帕尔乌斯与托洛茨基《总结与前瞻》发展为无产阶级直接夺权并联动欧洲革命之论，与列宁“工农民主专政”对立；1917年列宁提出《四月提纲》、托洛茨基加入布尔什维克并参与十月夺权；Deutscher将其解释为实践合流，其他学者对此有异议，1924年后被重构为“低估农民”的托派异端。
-
-### 邻居节点: `CON-socialism-in-one-country`
-- **时效关系边** (`CON-socialism-in-one-country` → `PER-zinoviev` | `initial-co-sponsor -> fierce-critic` | 有效时段: `1924默认；1925–1927批判`): 1924年反托运动中曾默许斯大林新提法，1925年秋起在《列宁主义》中猛烈批判其修正列宁正统，1926–1927年与托洛茨基结盟共同论战
-- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 苏联核心战略概念（1924–1930s）。1924年底由斯大林反击“不断革命论”时首次提出，1925–1926年经布哈林充实为区分“国内建成可能”与“免除外部颠覆之最终胜利”的理论，支撑新经济政策工农市场渐进建设；1928–1929年后内涵剧变为自给自足备战超工业化与强制集体化的动员纲领。
-
-### 邻居节点: `CON-thermidor-and-bureaucracy`
-- **时效关系边** (`CON-thermidor-and-bureaucracy` → `PER-zinoviev` | `shifted-from-apparatus-triumvir-to-anti-thermidor-critic` | 有效时段: `1923–1927`): 1923年曾利用机关打压四十六人，1925年麾下扎卢茨基首抛党内“热月蜕变”论，1926年起与托洛茨基合流反官僚
-- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 借法国大革命雅各宾衰亡隐喻诊断苏维埃政权变质的核心概念。1921–1923年列宁晚年痛斥国家机关实质承袭沙皇旧机器、仅涂苏维埃油漆；路标转换派乌斯特里亚洛夫从右翼欢呼NEP为民族布尔什维克“热月”；1923–1927年左翼与联合反对派则以“党国官僚中间派与热月危险”批判斯大林—布哈林体制。
-
-### 邻居节点: `CON-united-front-and-third-period`
-- **时效关系边** (`CON-united-front-and-third-period` → `PER-zinoviev` | `oscillator-and-proto-coiner` | 有效时段: `1921–1926`): 主持早期统一战线摇摆，1923德国败局后于1924年1月及五大首倡“社民党=法西斯羽翼”以推卸责任，1926年重提遭冷遇
-- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 1921–1929年共产国际核心战略钟摆。1919–1920年直接世界革命受挫后，1921年三大提出“到群众中去”并于12月确立“工人统一战线”，但始终受困于“自下而上”夺取群众与“自上而下”同改良派/民族党派领导层协议的张力。经1924年五大季诺维也夫初提“社民党为法西斯羽翼”、1925–1927年英俄工会委员会与中国国共合作崩盘，1928年六大与1929年7月十次执委全会终将“第三时期”“阶级对阶级”与“社会法西斯论”立为极左教条。
-
-### 邻居节点: `EVT-1918-worker-protest-and-izhevsk-uprising`
-- **时效关系边** (`EVT-1918-worker-protest-and-izhevsk-uprising` → `PER-zinoviev` | `rigid-suppressor` | 有效时段: `1918.03–07`): 在彼得格勒推行高压行政管控并解散全权代表会议；丘拉科夫认为这种缺乏弹性的压制促成了首都工人另辟抗议组织渠道
-- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 1918年春夏，面对复员失业、饥荒与基层组织“国家化”，苏俄控制区约210—220家企业爆发工人抗议（丘拉科夫估全俄涉10万—25万人）。各地呈分化走向：彼得格勒成立“非常工厂全权代表会议”（同时期稳定支持约2万—3万人，7月2日政治罢工约5,000—10,000人）；莫斯科行局部让步安抚；卡马河畔军工镇则在地方极左过火与强征冲突下先后爆发伊热夫斯克军工起义与沃特金斯克外援配合夺权，组建最高约2.5万人的卡马河畔人民军，终在内战军事化与红军反攻下瓦解。
-
-### 邻居节点: `EVT-1927-war-scare-and-opposition-expulsion`
-- **时效关系边** (`EVT-1927-war-scare-and-opposition-expulsion` → `PER-zinoviev` | `expelled -> recants` | 有效时段: `1927.11–12`): 与托洛茨基同日被开除党籍后于12月10日转向停止反对并认错求复籍，终致联合反对派解体。
-- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 1927年英苏断交与沃伊科夫遇刺引爆“战争恐慌”，伴随城乡抢购囤粮潮与OGPU“六月行动”（维诺格拉多夫转述仅6月至少9,000人被捕，韦利卡诺娃拼合6—7月下限估至少13,345人）。夏秋间党内多数派强化纪律与治安压制：反对派九月《政纲》遭禁、`11-07` 游行被冲散，托季 `11-14` 被开除党籍；12月十五大在秋冬购粮危机已发生之际完成对联合反对派的组织清除。
-
-### 邻居节点: `MTG-1912-01-prague-conference`
-- **时效关系边** (`MTG-1912-01-prague-conference` → `PER-zinoviev` | `cc-lieutenant` | 有效时段: `1912.01`): 当选布拉格会议产生的中央委员会委员及中央机关报核心成员，巩固列宁流亡核心助手地位
-- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 1912-01-18至1912-01-30 [N.S.]列宁派在奥匈帝国布拉格召开的秘密代表会议。会议自任俄国社会民主工党最高全权机关，宣布《我们的曙光》等孟什维克取消派已置身党外，废除1910年巴黎协议，选出布尔什维克主导的中央委员会并会后增补斯大林入中委及俄罗斯局，建立起独立领导中央并加深两派组织决裂（尽管俄国国内地方联合委员会与基层合作仍长期延续）。
-
-### 邻居节点: `MTG-1924-05-13th-party-congress`
-- **时效关系边** (`MTG-1924-05-13th-party-congress` → `PER-zinoviev` | `shielded-stalin` | 有效时段: `1924.05`): 与加米涅夫阻止遗嘱公开化，换取对托洛茨基的政治清算联盟
-- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 1924年5月23日至31日，列宁逝世后的首次党代会召开。会前中央全会与长老会议限制列宁最后口授文件传达方式并留任斯大林；大会依托“列宁征召”与组织筛选压倒左翼反对派，托洛茨基公开宣示对党忠诚。会后中央与中监委扩编、布哈林升入政治局，集体领导联盟暂时稳固。
-
-### 邻居节点: `MTG-1925-12-14th-party-congress`
-- **时效关系边** (`MTG-1925-12-14th-party-congress` → `PER-zinoviev` | `opponent` | 有效时段: `1925-12`): 依托列宁格勒产业工人反富农分化情绪作大会副报告，战败后丧失列宁格勒党政基地
-- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 1925年12月18—31日莫斯科举行。斯大林—布哈林中央多数派以559:65通过批准中央政治报告决议案，击败以列宁格勒产业工人党员为后盾、批判富农分化与“国家资本主义”的季诺维也夫—加米涅夫“新反对派”；大会确立社会主义工业化总方针并改党名为联共（布）。
-
-### 邻居节点: `MTG-1927-12-15th-party-congress`
-- **时效关系边** (`MTG-1927-12-15th-party-congress` → `PER-zinoviev` | `expulsion-ratified -> recantation` | 有效时段: `1927-11至12-19`): 会前开除，大会闭幕际与加米涅夫提交悔过书，被勒令经六个月考察再个别审理
-- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 1927年12月2—19日莫斯科举行。大会追认11月对托洛茨基、季诺维也夫的开除党籍处分，并于12月18日另行开除加米涅夫等75名托季联合反对派骨干及萨普罗诺夫派；同时通过编制首个五年计划指示与渐进合作化—集体化决议，开启NEP末期转折前奏。
-
-### 邻居节点: `ORG-left-and-united-opposition`
-- **时效关系边** (`ORG-left-and-united-opposition` → `PER-zinoviev` | `adversary-1923 -> co-leader-1926` | 有效时段: `1923–1925反托；1926–1927结盟`): 十四大失守列宁格勒后携残余组织网络与托洛茨基结盟，十五大闭幕际悔过拆伙
-- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 1923年剪刀差危机触发的托洛茨基—普列奥布拉任斯基“左翼反对派”，经1926年春与季诺维也夫—加米涅夫“新反对派”结盟为托季联合反对派；以《四十六人声明》与《1927年政纲》批判官僚体制与“一国社会主义”、主张价格—财政渠道的计划工业化，于1927年12月十五大被组织摧毁。
-
-### 邻居节点: `PER-kamenev`
-- **时效关系边** (`PER-kamenev` → `PER-zinoviev` | `twin-ally` | 有效时段: `1917–1936`): 政治双子星：共反十月起义、共建三驾马车（1924共压遗嘱）、共举新/联合反对派、1927共降并同案赴死
-- **时效关系边** (`PER-zinoviev` → `PER-kamenev` | `twin-ally` | 有效时段: `1917–1936`): 政治双子星：共反十月起义、共建三驾马车（1924压下遗嘱）、共领十四大新反对派与联合反对派，1927末共降并于1936同案赴死
-- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 老布尔什维克、首任全俄中执委主席。1917年自四月至立宪会议一贯坚守温和宪政社会主义联盟路线并公开反对十月起义；1924年十三大联手季诺维也夫压下《列宁遗嘱》，1925年十四大公开发言反斯大林“领袖”集权后失势；1928年7月密会布哈林并留下外泄笔记，反成右派致命罪证。
-
-### 邻居节点: `PER-krupskaya`
-- **时效关系边** (`PER-krupskaya` → `PER-zinoviev` | `ally` | 有效时段: `1925`): 新反对派中共同挑战斯大林
-- **节点定性微摘要 [T1]** (完备度 `draft`): 娜杰日达·克鲁普斯卡娅（1869–1939，本卡至1929）：列宁终生伴侣与1901年起《火星报》秘密通信总干事，苏俄政治启蒙总局主任；1922–1923守护并移交《列宁遗嘱》，1925年十四大加盟季诺维也夫—加米涅夫新反对派，1926年秋退出联合反对派。
-
-### 邻居节点: `PER-martov-l`
-- **时效关系边** (`PER-martov-l` → `PER-zinoviev` | `debate-adversary` | 有效时段: `1920-10-14–16 哈雷大会`): 1920年10月哈雷USPD大会与季诺维也夫四小时演说针锋相对，逐条痛斥共产国际二十一条与红军无差别恐怖
-- **时效关系边** (`PER-zinoviev` → `PER-martov-l` | `debate-adversary` | 有效时段: `1920-10 哈雷大会`): 1920-10-14至16在德国USPD哈雷大会正面交锋，季氏四小时演说力挺二十一条与阶级恐怖，遭马尔托夫次日逐条驳斥
-- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 孟什维克核心领袖与国际主义左翼旗手。1903年二大凭党章第一条（28:22:1）与列宁分道；1917年七月夜倡“清一色社会主义政府”遭党内主流否决，十月二大率派退场；1918年工人抗议浪潮中坚持苏维埃合法反对派立场，1920年哈雷大会与季诺维也夫正面交锋痛斥恐怖与二十一条，后流亡柏林病逝。
-
-### 邻居节点: `PER-trotsky`
-- **时效关系边** (`PER-trotsky` → `PER-zinoviev` | `factional-hammer -> joint-opposition-ally` | 有效时段: `1923–1924 围剿；1926–1927 结盟；1927末 决裂`): 1923–24年季诺维也夫制造“反托运动”并投射“波拿巴”阴影；1926年合组联合反对派，十五大后季派率先认罪切割
-- **时效关系边** (`PER-zinoviev` → `PER-trotsky` | `factional-hammer -> joint-opposition-ally` | 有效时段: `1923–1924 围剿；1926–1927 结盟；1927末 背弃`): 1923–24年主导“反托”整肃；1926年当众承认当年错误并与托氏合组联合反对派，十五大被开除后率先认罪切割
-- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 俄国革命家、“不断革命论”提出者，1905年彼得堡苏维埃实际领袖与1917年彼得格勒苏维埃主席；借军革委与苏维埃二大衔接统筹十月夺权，内战期起用4.8万军事专家缔造红军。1923–1927年领衔左翼与联合反对派抗衡斯大林集权并受“红色波拿巴”污名围剿，1927年被开除出党，1929年被驱逐出境。
-
-### 邻居节点: `PER-uglanov`
-- **时效关系边** (`PER-uglanov` → `PER-zinoviev` | `opposes` | 有效时段: `1925.09–1927.12`): 率莫斯科党组织在1925年秋冬与季诺维也夫的列宁格勒党组织展开正面论战，击败“新反对派”与联合反对派。
-- **节点定性微摘要 [T1]** (完备度 `draft`): 布尔什维克党务活动家、右派地方实力派核心。1924年10月起任莫斯科市委第一书记，1926年1月十四大后升任中央政治局候补委员兼中央书记处书记、组织局委员；力主发展“印花布莫斯科”轻纺工业与温和农民政策；1928年秋因早年“乌格拉诺夫统治”疏远基层工人、市委组织分配部被斯大林派把持及政治局右派三巨头抛弃而于1928年11月被莫洛托夫取代，大清洗中遇害。
-
-### 邻居节点: `PER-lenin`
-- **时效关系边** (`PER-zinoviev` → `PER-lenin` | `closest-lieutenant -> defier -> reconciled` | 有效时段: `1908–1917 亲密副手；1917.10 决裂；1918–1924 重用`): 长期担任列宁流亡助手；十月公开反对起义被痛斥，后检讨归队并获委执掌共产国际与彼得格勒
-- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 布尔什维克党缔造者、苏俄人民委员会主席（1917–1924）。1893年投身马克思主义运动，1903年促成布尔什维克分化；1917年发表《四月提纲》并领导十月夺权，历经布列斯特和约、内战与战时共产主义；1921年主持转向新经济政策，晚年（1922–1923）就官僚化与接班人同斯大林冲突。
-
-### 邻居节点: `PER-bukharin`
-- **时效关系边** (`PER-zinoviev` → `PER-bukharin` | `ideological-foe` | 有效时段: `1925–1927`): 在十四大副报告痛斥布哈林“发财吧”口号及否认国营工业“国家资本主义”性质是对列宁主义的修正，反遭斯大林庇护下的布氏重创
-- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 布尔什维克核心理论家、《真理报》主编及共产国际书记处负责人。列宁遗嘱誉其“全党宠儿”但质疑其辩证法；1918年领衔左翼共产主义，1921年后转向新经济政策均衡路线，1925–1927联斯大林击溃左派，1928–1929因反对暴力征粮与超工业化遭击败并逐出政治局。
-
-### 邻居节点: `POL-ban-on-factions-1921`
-- **时效关系边** (`PER-zinoviev` → `POL-ban-on-factions-1921` | `first-politburo-target` | 有效时段: `1926-07-23`): 1926年7月全会借“拉斯舍维奇森林案”史上首次援引该决议秘密第7条，剥夺季诺维也夫政治局正式委员席位
-- **时效关系边** (`POL-ban-on-factions-1921` → `PER-zinoviev` | `首例第7条靶标` | 有效时段: `1926-07-23`): 1926年7月联席全会首次正式援引秘密第7条将其逐出政治局。
-- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 俄共十大于1921年3月16日通过《关于党的统一》，要求解散按纲领组成的派别，并保留规定渠道的批评。秘密第七条设中央领导成员的特殊处分程序；1924年1月公开宣读、1926年7月首次动用开除季诺维也夫出政治局，危机措置遂渐成约束反对派的工具，但不同年份执行不等同原条文。
-
-### 邻居节点: `ORG-vikzhel`
-- **时效关系边** (`ORG-vikzhel` → `PER-zinoviev` | `coalition-advocate-then-retreat` | 有效时段: `1917-11`): 辞职并于 11-06/07 认错
-- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 维克热尔是1917年夏产生的全国铁路工会执行机关。铁路连接军队、粮食与城市，十月革命后其运输杠杆使它试图调停各社会主义政党、推动广泛联合政府。布尔什维克内部为此严重分裂，谈判未能实现最广泛联合，新的铁路工会领导机关后与布党及左翼社革党合作。
-
-### 邻居节点: `MTG-1921-rcpb-10th-congress`
-- **时效关系边** (`MTG-1921-rcpb-10th-congress` → `PER-zinoviev` | `union-platform-ally` | 有效时段: `1921-03`): 作为《十人纲领》主要推手之一在工会争论中联合列宁压制托洛茨基路线。
-- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 1921年3月8日至16日，俄共（布）十大在经济崩溃与喀琅施塔得起义交织下召开。大会决定以粮食税取代余粮收集制，开启新经济政策转向；同时终结工会大辩论，通过《关于党的统一》禁止派别活动并谴责工人反对派。经济退却与党内纪律收紧并行，会后中央与书记处改组重塑了组织权力格局。
-
-## 3. 关联史学争鸣光谱 (Historiographical Debates)
-### `DEB-1917-october-coup-or-social-revolution`：十月革命：少数派政变还是社会革命？
-## [T1] 核心问题定义
-十月武装夺权是少数派政变，还是工人、士兵与农民社会革命的政治表达？有组织的起义与广泛的基层动员能否同时成立，苏维埃多数又能否代表全国选民？这些问题涉及不同地区、不同时间的支持与合法性，不能以一次投票或一次攻占行动互相替代。
-
-## [T2] 各学派立场对照矩阵
-**经验基准**：彼得格勒苏维埃军事革命委员会组织行动，临时政府于1917-10-25 [O.S.] / 1917-11-07 [N.S.] 被推翻；第二次全俄工兵代表苏维埃代表大会当晚开幕，孟什维克与右派社革党抗议退场，大会于10月26日 [O.S.] / 11月8日 [N.S.] 通过《和平法令》《土地法令》并组建人民委员会。据站内选举统计（`DATA-01-1905-1917-strikes-and-petrograd-elections`、`DATA-07-1905-1918-unions-moscow-swings-and-constituent-assembly-votes`），布尔什维克在1917年9月莫斯科区杜马获51.5%选票、11月全俄立宪会议选举在大城市与北/西前线占优，但在全国立宪会议总票中仅占约22.5%–24%（社革党各单合占约37%–40%，且选票名册未反映10月左翼社革党独立分党）。苏维埃代表、立宪会议选民与农村夺地农民并非同一政治总体。
-
-| 学派/取向 | 代表学者与著作 | 核心论点摘要 | 支撑论断卡 | 主要受批评盲点 |
-| :--- | :--- | :--- | :--- | :--- |
-| 自由主义“静默技术性政变”论 | Richard Pipes, *The Russian Revolution* (1990) | 援引马拉帕尔泰“静默技术性政变”概念，断言十月并非群众起义，而是列宁与军革委利用临时政府权威真空发动的少数派武装夺权，且本质上是**“针对全国苏维埃组织本身的政变”**——抢在苏维埃二大开幕前推翻临时政府，将全国苏维埃代表置于既成事实之下。 | `CLM-pipes-1990-october-classic-coup` | 将工人赤卫队与驻军顺从简化为阴谋家操纵，难以解释布尔什维克在9–11月两都市/区杜马及北方前线选票中的真实多数。 |
-| 开放性群众政党与托洛茨基苏维埃合法性策略 | Alexander Rabinowitch, *The Bolsheviks Come to Power* (1976) | 1917年的彼得格勒布尔什维克并非铁板一块的密谋集团，而是吸收数万工人兵士、容忍加米涅夫—季诺维也夫公开异议的开放性群众政党；夺权成功关键在于**托洛茨基策略**——以彼得格勒苏维埃军革委“保卫苏维埃与卫戍部队”为名实施防御性展开，并将政权移交严格锚定于第二次全俄苏维埃代表大会开幕，以赢得无党派工兵的苏维埃合法性认同。 | `CLM-rabinowitch-1976-open-democratic-mass-party`；`CLM-rabinowitch-1976-october-three-factions-debate`；`CLM-rabinowitch-1976-trotsky-soviet-congress-strategy` | 首都党组织的战前民主开放性与苏维埃防卫策略，不能自动推及外省夺权或10月底维克热尔谈判破裂后的一党专政化。 |
-| 列宁“稍纵即逝窗口”与先行夺权论（与托洛茨基路线之张力） | Vladlen T. Loginov, *Lenin in 1917: On the Brink of the Possible* (2017) | 与拉比诺维奇聚焦托洛茨基“等待并依托苏维埃二大”形成直接张力：洛吉诺夫论证列宁之所以痛斥“等待苏维埃代表大会是白痴行为或背叛、拖延就是死亡”，是因为洞察到10月中旬无政府浪潮与军事反革命夹击下存在“稍纵即逝的夺权窗口”，唯有在大会开幕前先行武装夺权、造成既成事实，才能迫使动摇的苏维埃大会接管政权。 | `CLM-loginov-lenin-1917-fleeting-window-of-power` | 高度认同列宁对紧急时机的政治直觉，但恰恰从反面印证了“先行夺权把苏维埃二大置于既成事实”的程序正当性争议。 |
-| 工厂控制与莫斯科“政策先于党派”社会史 | S. A. Smith, *Red Petrograd* (1983); Diane P. Koenker, *Moscow Workers and the 1917 Revolution* (1981) | S. A. Smith证明彼得格勒工厂委员会推行“工人监督”最初是防止企业主关厂与经济崩溃的防御性自救，而非按意识形态蓝图消灭资本主义；Koenker证明莫斯科十月经历了与彼得格勒截然不同的惨烈炮战，且莫斯科多数工人虽在原则上拥护苏维埃政权，却**拒绝为党派垄断冒内战风险**（支持多党社会主义联合），其激进化遵循**“政策先于党派（policy before party）”**的理性渐进机制。 | `CLM-smith-sa-1983-defensive-workers-control`；`CLM-koenker-1981-moscow-october-armed-struggle-vs-petrograd`；`CLM-koenker-1981-rational-incremental-radicalization` | 两都工业工人的防御性/理性选择不能代表占人口八成的农村公社或边疆民族地区。 |
-| 维克热尔妥协流产与立宪会议合法性冲突 | John D. Basil, *The Mensheviks in the Revolution of 1917* (1984); 姚海（主编）《俄国革命史》(2013); Alexander Rabinowitch, *The Bolsheviks in Power* (2007) | Basil与姚海剖析十月后全俄铁道工会（维克热尔）调停与清一色社会主义联合政府谈判：孟什维克内部分裂与10月29–30日士官生暴动撕裂妥协，布尔什维克中央内部加米涅夫、季诺维也夫、李可夫、诺金等辞职警告“纯布尔什维克政府只能靠政治恐怖维持”；姚海与Rabinowitch (2007) 进一步揭示苏维埃阶级专政逻辑与普选立宪会议（1918年1月5–6日被武力解散）之间不可调和的二元合法性冲突。 | `CLM-basil-1984-october-and-vikzhel-collapse`；`CLM-yao-hai-post-october-coalition-failure-and-one-party-formation`；`CLM-yao-hai-constituent-assembly-vs-soviet-legitimacy-clash`；`CLM-rabinowitch-2007-constituent-assembly` | 维克热尔谈判与立宪会议解散解释了十月向一党制滑落的制度拐点，但不能反过来否定10月25日临时政府已彻底丧失首都工兵支持的事实。 |
-| 当事人革命解释与反对派在场反证（B级文献） | [B级当事人文献] Leon Trotsky, *History of the Russian Revolution* (1930–32); N. N. Sukhanov, *The Russian Revolution, 1917* (1922) | 托洛茨基将起义定性为“在苏维埃合法性掩护下实施的武装夺权艺术”；**苏汉诺夫的证言尤具史学张力**——他虽作为孟什维克国际派痛斥布尔什维克政权缺乏民主准备、悔恨温和派10月25日夜退场将苏维埃拱手让给列宁，却**以亲历反对者身份断然驳斥右翼“纯军事阴谋”说**，证言彼得格勒工人与驻军当时确以压倒性多数支持推翻临时政府。 | `CLM-trotsky-1930-art-of-insurrection-and-soviet-legality`；`CLM-sukhanov-1922-october-walkout-tragedy` | 两者均属B级当事人回忆与事后政治辩护（托洛茨基旨在反击斯大林并凸显自身军革委功绩，苏汉诺夫旨在检讨国际派失策），必须与当时会议速记对读。 |
-| 农民道德经济、帝国边疆与十月记忆建构 | Orlando Figes (1996); Ronald Grigor Suny (2017); Eric Blanc (2021); Frederick C. Corney, *Telling October* (2004) | Figes揭示农民公社夺地遵循自身“道德经济”，利用《土地法令》将既成黑分土地合法化而非服从城市党令；Suny综合社会史与阶级话语极化；Blanc将1917年十月放入帝国边疆民族与阶级互动视野；Corney则考证党史委（Istpart）与1920年代庆典如何将原本混乱多中心的十月夺权事后重塑为宏大叙事神话。 | `CLM-figes-1996-peasant-moral-economy-1917`；`CLM-suny-2017-totalitarian-vs-social-history-turn`；`CLM-suny-2017-class-discourse-and-polarization`；`CLM-blanc-2021-borderlands-in-1905-and-1917`；`CLM-corney-2004-istpart-and-institutionalizing-october-memory` | 农民夺地与边疆动员支持推翻旧政权，但并不等于授权布尔什维克随后的余粮收集制与一党垄断；记忆建构研究不可消解1917年秋真实的社会崩溃。 |
-
-### `DEB-1918-war-communism-ideology-or-emergency`：战时共产主义与早期一党制本质之争：内战应急、乌托邦跃进还是国家统制连续？
-## [T1] 核心问题定义
-1918–1921年的全面工业国有化、余粮收集制（`продразвёрстка`）、取缔私商、劳动军事化及多党苏维埃向一党专政的收缩，究竟是内战与供给崩溃逼迫的生存应急反应，还是布尔什维克反市场乌托邦蓝图的激进兑现，抑或一战以来国家统制与基层危机交互演化的结果？“战时共产主义”系1921年新经济政策转向时的事后追赋标签，须严格区分措施出台序列与事后总结。
-
-## [T2] 各学派立场对照矩阵
-
-**经验共识**：1917年底至1918年春尚存布尔什维克—左翼社革党联合执政与“国家资本主义”探索；1918年夏起全面国有化与强制征粮随内战升级扩展；1920年达至劳动军事化与无货币幻想顶峰；1921年3月俄共十大在农村起义与喀琅施塔得危机下转向实物税（NEP）与党内派别禁令。
-
-| 学派/取向 | 代表学者与著作 | 核心论点摘要 | 支撑论断卡 | 主要受批评盲点 |
-| :--- | :--- | :--- | :--- | :--- |
-| **内战军事应急与双元矛盾论** | E. H. Carr, *The Bolshevik Revolution*, Vol. 2 (1952); Evan Mawdsley, *The Russian Civil War* (1987) | 强调工业瓦解、封锁与300万红军补给迫使政权诉诸垂直“总局主义”与强制征粮；但Carr同时指出1920年后期确曾滋生把战时自然经济奉为直接通往共产主义捷径的意识形态幻象。 | `CLM-carr-1952-war-communism-internal-contradictions`; `CLM-mawdsley-1987-civil-war-militarized-regime`; `CLM-mawdsley-1987-sovdepia-demographic-industrial-base` | 单靠军事紧急状态难以完全解释1920年底内战大局已定后为何仍出台小手工业全面国有化令。 |
-| **意识形态乌托邦与废法专政论** | Martin Malia, *The Soviet Tragedy* (1994); Richard Pipes, *The Russian Revolution* (1990) | 认为消灭私有产权与市场交换本就是马克思主义核心诉求，内战只是扫除了渐进障碍、催化乌托邦跃进；Pipes强调契卡与排斥反对派早于大规模内战爆发。 | `CLM-pipes-1990-red-terror-leninist-logic`; `CLM-pipes-1990-october-classic-coup` | 易将不同阶段的应急妥协（如1918春列宁国家资本主义方案）回溯拉平为单一既定时间表。 |
-| **战时国家统制连续与自下而上倒逼论** | Lars T. Lih; S. A. Smith, *Red Petrograd* (1983); David Hoffmann (2011) | 揭示沙皇与临时政府在一战中已启动粮食专卖与国家统制；Smith证明1917–1918春77%早期企业没收源自基层工厂委员会应对关厂危机的自下而上压力，而非中央乌托邦指令。 | `CLM-smith-sa-1983-defensive-workers-control`; `CLM-smith-sa-1983-from-workers-control-to-nationalization`; `CLM-hoffmann-2011-continuum-of-total-war-1914-1929` | 总体战技术连续性不能替代对布尔什维克消灭整个有产阶级政治权利之独特意识形态动力的解释。 |
-| **复合危机、党内张力与农村社会钳制论** | Alexander Rabinowitch (2007); Robert V. Daniels (1960); Moshe Lewin (1968/1985) | 追踪布列斯特和约、左翼社革党决裂及左翼共产主义者/工人反对派论战如何一步步锁死多党与党内多元空间，同时揭示小农汪洋的反抗最终迫使政权在1921年退却但保留了战时强制记忆。 | `CLM-rabinowitch-2007-contingency-of-dictatorship`; `CLM-daniels-1960-left-communists-1918`; `CLM-figes-1996-peasant-wars-and-nep-retreat`; `CLM-zemskov-1929-dekulakization-demographic-baseline` | 首都与萨拉托夫、坦波夫、乌拉尔等外省的时间差与暴力烈度须结合地方档案（Raleigh、Churakov）细化。 |
-
-### `DEB-1922-lenin-testament-and-stalin-rise`：列宁晚年、格鲁吉亚事件与斯大林崛起机制
-## [T1] 核心问题定义
-列宁晚年口授文稿和格鲁吉亚冲突，是反官僚与反斯大林的总体“最后斗争”，还是对共同集权框架内具体做法的修正？《遗嘱》本身是否存在文本流转疑点？斯大林的上升又如何由个人策略、书记处机关、寡头集体领导与反对派失策共同解释？
-
-## [T2] 各学派立场对照矩阵
-| 学派/取向 | 代表学者与著作 | 核心论点摘要 | 支撑论断卡 | 主要受批评盲点 |
-| :--- | :--- | :--- | :--- | :--- |
-| 反官僚最后斗争论 | Moshe Lewin, *Lenin's Last Struggle* (1968) | 将晚年口授群读为反大国沙文主义、改组监察院及撤换斯大林的连贯政治改革方案；但指出列宁始终未废除派别禁令与一党垄断。 | `CLM-lewin-1968-testament-intent`; `CLM-lewin-1968-georgian-affair-bureaucracy`; `CLM-lewin-1968-cooperation-shift` | 写于苏联全开档案前，连贯“总体计划”程度及12月22日电话定年受后续考据挑战。 |
-| 民族政策修正 | Jeremy Smith, *The Bolsheviks and the National Question* (1999) | 强调列斯在集中制大原则上的长期共识，并据十二大特别会议解密速记揭示斯大林被迫作出的本土化妥协。 | `CLM-smith-jeremy-1999-georgian-affair-reassessed`; `CLM-smith-jeremy-1999-twelfth-congress-korenizatsiia` | 行政协调解释须与列宁1923年3月5–6日对斯大林绝交信的激烈措辞并观。 |
-| 后苏联档案与寡头共治论 | Oleg Khlevniuk, *Stalin* (2015) | 以斯大林1923–1927年多次亲口承认遗嘱存在及3月7日复函驳斥伪造论；指出1月4日补遗重在“权力再平衡”而非逐出高层，且1920年代寡头集体领导真实存在。 | `CLM-khlevniuk-2015-secretariat-and-nomenklatura`; `CLM-khlevniuk-2015-collective-leadership-erosion` | 需注意勿将1920年代末成熟名册规模倒推回1922年。 |
-| 文献流转质疑与重定年派 | Stephen Kotkin, *Stalin, Vol. 1* (2014, Ch. 11) | 指出《给代表大会的信》缺失列宁亲签与原始速记底本、打字件经克鲁普斯卡娅与秘书圈流转存有加工疑窦，并据斯大林3月7日复函“约五周前”将电话冲突重定年于1923年1月下旬；同时强调斯大林不可替代的机关功能使其难因一纸信函下台。 | `CLM-kotkin-2014-geopolitics-and-ideology`; `L3 1922-12` 专章对勘 | 尚无直接物证证明秘书团凭空捏造，且难以解释斯大林本人在十三大与1927全会从未质疑文件真伪。 |
-| 左翼悲剧论 vs 政治失误批判 | Isaac Deutscher (1959) vs Robert Service, *Trotsky* (2009) | 多伊彻痛惜托洛茨基3月6日拒绝落井下石错失良机且受困一党纪律；瑟维斯则据档案批评托洛茨基共享威权前提、两拒人民委员会副主席职务并在十二大傲慢避战，纯属政治判断失误。 | `CLM-deutscher-1959-disarmed-prophet-paradox`; `CLM-service-2009-trotsky-authoritarian-consensus`; `CLM-service-2009-trotsky-political-tactical-blunders` | 需将个人性格失误置于书记处与三驾马车结构结盟中评估。 |
-| 俄国“伪列宁文本”极端派 | V. A. Sakharov (2003 遗嘱专著; 2012《十字路口》) | 其2003年专著极端断言遗嘱与民族札记系克鲁普斯卡娅—托派伪造；库内已入库的2012年著作则聚焦《论合作社》两稿差异与1920年代路线争夺（两书议题边界须严格区分）。 | `CLM-sakharov-2012-lenin-cooperative-plan-debates`; `CLM-sakharov-2012-nep-crossroads-1928` | 全盘伪造说遭赫列夫纽克、洛吉诺夫等主流俄罗斯档案学者一致否证。 |
-
-### `DEB-1924-socialism-in-one-country`：一国建成社会主义与不断革命论
-## [T1] 核心问题定义
-欧洲革命迟滞后，苏联能否凭国内力量建成社会主义，还是生产力与世界市场的联系使最终完成有赖国际革命？争论中的建设、建成和免于复辟并非同一问题；工农联盟、外部安全及党内联盟变化又如何改变这些概念的政治意义？各方均主张建设，分歧在条件、界限与国际前景。
-
-## [T2] 各学派立场对照矩阵
-**经验基准**：1924年4月斯大林《论列宁主义基础》初版仍沿用“一国不够组织社会主义生产”旧公式，1924年12月《十月革命和俄国共产党人的策略》正式改口，1925年4月俄共（布）十四次代表会议确认为全党方针；1925年斯大林与布哈林结盟，季诺维也夫转向反对派，十四大批准斯大林中央政治报告路线决议案以 **`559 : 65`** 获胜（反对票主要来自列宁格勒代表团，`DATA-04-party-membership-and-congress-votes-1903-1929`）；1926年联合反对派形成，1927年十五大后遭到组织性排斥。各方都讨论国内建设和国际环境。
-
-| 学派/取向 | 代表学者与著作 | 核心论点摘要 | 支撑论断卡 | 主要受批评盲点 |
-| :--- | :--- | :--- | :--- | :--- |
-| 党内多数派 | 斯大林、布哈林，1925年论战（直核布哈林 `1925-04_bukharin-road-to-socialism.md`） | 国内力量可建设社会主义，但免于外部干涉与复辟的最终保障仍有国际条件；布哈林1925年4月原文侧重工农合作渐进增长，须与斯大林表述分别核对。 | `CLM-bukharin-stalin-1925-one-country-internal-forces` | 该卡斯大林引文经2026年汇编转引，不能代替布哈林 S 级原文或十四次代表会议正式通过本。 |
-| 联合反对派与不断革命论 | 托洛茨基《1905》（1909/1922）；托洛茨基、季诺维也夫，1925—1927 | 不断革命论原典论证无产阶级夺权后无法止步于民主阶段且依赖西欧联合；1926年季诺维也夫区分建设可能与最终胜利，托洛茨基强调世界生产力、贸易和廉价商品压力。 | `CLM-trotsky-1905-december-uprising-lessons-and-permanent-revolution-defense`（B级）；`CLM-zinoviev-trotsky-1926-world-economy-critique` | 1926年汇编中部分托洛茨基段落未标确切单行本年份；不应把不断革命论简述为反对国内建设。 |
-| 反对派政治史与战术/波拿巴反思 | Isaac Deutscher, *The Prophet Unarmed* (1959) & 1952年比较论文（检索ID沿用 `CLM-shlapentokh-*`）；Robert Service, *Trotsky: A Biography* (2009) | 德伊舍尔把理论分歧放回反对派失势轨迹，并指出全党囿于法国“红色拿破仑”迷思围剿托洛茨基，反助斯大林依托书记处文官集权；瑟维斯反驳官僚必然论，归因托洛茨基拒任要职、误判斯大林与战术僵化。 | `CLM-deutscher-1959-disarmed-prophet-paradox`；`CLM-deutscher-1959-united-opposition-defeat`；`CLM-shlapentokh-bonapartism-fear-against-trotsky`；`CLM-service-2009-trotsky-political-tactical-blunders` | 德伊舍尔1959/1952年著述对主人公及工业化“历史进步”带有同情滤镜（库内尚无 Shlapentokh 原著）；瑟维斯则相对低估书记处任命制的结构权重。 |
-| 制度与国际史 | E. H. Carr, *The Russian Revolution From Lenin to Stalin, 1917–1929* (1979)；*Foundations of a Planned Economy, 1926–1929*, Vol. 3-II (1976) | 以落后、工业化与国际关系的交织解释政策与理论综合；1927年中国革命失败与战争恐慌加剧共产国际路线及派别争执。 | `CLM-carr-1979-stalin-synthesis-of-russian-backwardness-and-industrialism`；`CLM-carr-1976-china-1927-defeat-and-comintern-factionalism` | 宏观制度综合不能代替逐版文本、会议程序与表决史。 |
-| 列宁思想解释 | Valentin Sakharov（瓦连京·萨哈罗夫）, *На распутье... 1921–1929 гг.*（《站在十字路口》，2012） | 论证列宁《论合作社》两份口述稿存在根本理论断裂（放弃初稿“商贩式”流通合作社，第二稿转向国有土地与生产资料上的生产合作社/集体农庄），指斥布哈林偷换概念，并论证斯大林工业化与 MTS 集体农庄路线是第二稿的正统继承人。 | `CLM-sakharov-2012-lenin-cooperative-plan-debates` | 具鲜明后苏联亲斯大林/反布哈林倾向；“列宁晚期生产合作社逻辑”不能直接等同于 1929–1930 年暴力全盘强制集体化，亦非 1925 年党内表决裁决。 |
-| 列宁格勒反对派 | Yuri Zhukov（尤里·茹科夫）, 《格里高利·季诺维也夫：被遗忘的世界革命领袖》(2011) | 季诺维也夫1925年发难植根列宁格勒地方权力与共产国际世界革命经验（含1923年德国失败），并非托洛茨基路线的简单副本。 | `CLM-zhukov-zinoviev-1925-leningrad-opposition`；`CLM-zhukov-zinoviev-comintern-and-1923-germany` | 带有后苏联民族国家现实主义倾向（赞斯大林1923年审慎、贬季氏盲动），其叙事仍须与会议速记与文本版本对勘。 |
-
-### `DEB-1928-bukharin-alternative`：布哈林替代方案与新经济政策终结之争
-## [T1] 核心问题定义
-1927至1929年粮食危机与新经济政策的瓦解，是否意味着渐进工业化和工农联盟已无可行出路，还是党内权力与政策选择扼杀了布哈林的替代方案？投资、价格、农民供粮和政治动员之间的约束究竟有多强，必须把经济可行性、政治可行性与实际权力斗争分别检验。
-
-## [T2] 各学派立场对照矩阵
-**经验基准**：1928年粮食收购危机后领导层采用非常措施；布哈林同年批评征粮和工业化节奏，1929年四月及十一月中央全会使右派进一步失势，同年清党开除率达 `11%`（约17万人，`DATA-04-party-membership-and-congress-votes-1903-1929`）。各方都面对工业投资、粮食供给与工农社会结构约束。
-
-| 学派/取向 | 代表学者与著作 | 核心论点摘要 | 支撑论断卡 | 主要受批评盲点 |
-| :--- | :--- | :--- | :--- | :--- |
-| 新经济政策替代论 | Stephen Cohen, *Bukharin and the Bolshevik Revolution* (1973) | 市场、合作社和渐进工业化提供可争论的替代路径；组织机器与政治斗争使该路线失败。 | `CLM-cohen-1973-nep-viability`；`CLM-cohen-1973-notes-of-an-economist`；`CLM-cohen-1973-bukharin-organizational-defeat` | 可构想的经济路径不自动证明可获得党内多数或满足高投资目标。 |
-| 工业化经济思想史 | Alexander Erlich, *The Soviet Industrialization Debate* (1960) | 布哈林平衡增长与普列奥布拉任斯基积累方案共同面对投资约束；强制全盘集体化非各派原有共同结论。 | `CLM-erlich-1960-bukharin-balanced-growth`；`CLM-erlich-1960-preobrazhensky-dilemma`；`CLM-erlich-1960-stalin-overkill-turn` | 模型不能单独解决权力、执行和国际冲击问题。 |
-| 经济结构与政策选择 | Alec Nove, *Was Stalin Really Necessary?* (1964) | 提出“条件性必然”与“1927年NEP死胡同（cul-de-sac）”：给定布尔什维克保住一党政权、拒绝斯托雷平式富农资本主义与高速重工业化三大前提，布哈林市场渐进路径存在内在政治经济不一致；但仍须区分发展目标与强制手段。 | `CLM-nove-1964-stalin-necessity-dilemma` | 反事实替代方案的实施条件难以在单线历史中完全检验（详见下栏 KAPROST 交锋）。 |
-| 意识形态与政治能动性 | Stephen Kotkin, *Stalin*, Vol. 1 (2014)；Sheila Fitzpatrick, *The Russian Cultural Revolution (1928–1931)* (1978) | 市场发展与党内阶级政治构成张力，斯大林西伯利亚干预使危机转向不能仅由结构推导；“文化革命”动员更将政治局右派、教育人民委员部温和派与沙赫蒂案连成“右倾危险”连续体。 | `CLM-kotkin-2014-bukharin-dilemma`；`CLM-fitzpatrick-1978-anti-bukharin-ideological-offensive` | 科特金第一卷叙事止于1928年底；宣传建构的意识形态连续体亦不能直接等同右派成员一致的文化纲领。 |
-| 组织与动员政治 | Oleg Khlevniuk, *Stalin* (2015)；David Priestland, *Stalinism and the Politics of Mobilization* (2007)；Catherine Merridale, *Moscow Politics and the Rise of Stalin* (1990) | 干部控制、反右“复兴主义”动员与乌格拉诺夫莫斯科地方权力瓦解共同决定布哈林集团败局。 | `CLM-khlevniuk-2015-defeat-of-right-opposition`；`CLM-priestland-2007-1928-mobilization-turn-against-bukharin`；`CLM-merridale-1990-uglanov-moscow-collapse` | 组织性胜利并不单独证明任一经济路线的长期优劣。 |
-| 反事实计量与改革经济学 | Holland Hunter / R. W. Davies / 谷内融，*戴维斯纪念文集* (1995)；刘伟、平新乔，《平衡与非平衡：布哈林与普列奥布拉仁斯基之争》（1989，B级） | 亨特借 KAPROST 模型论证非集体化 NEP 本可成功，但戴维斯（1994）反驳1928年市场已遭行政扰乱，谷内融1929年1—6月政治局档案证实非常措施演变为全国体制；刘伟、平新乔将布氏重估为“短缺经济学”先驱，指出斯大林采纳了普氏非均衡配额内核。 | `CLM-davies-festschrift-1995-nep-statistics-and-planning-debates`；`CLM-bukharin-preobrazhensky-equilibrium-vs-accumulation-zh`（B级） | KAPROST 假设重工业高积累下农民仍配合市场；刘、平一文沿用中译“81亿金卢布”误植数字，引用须剔除该数。 |
-| 后苏联档案重估 | Viktor Zemskov（维克托·泽姆斯科夫），《斯大林时代》（2018，B级）；Valentin Sakharov（瓦连京·萨哈罗夫），《站在十字路口》（2012） | 泽姆斯科夫指出布哈林渐进合作化在内战记忆塑造的党员群体中缺乏政治亲和力；萨哈罗夫从反布哈林修正派立场论证2,400万碎片化小农难以支撑工业国防，MTS 与集体化是避免“斯托雷平第二版”的战略决断。 | `CLM-zemskov-2018-archival-constraints-and-party-radicalism`（B级）；`CLM-sakharov-2012-nep-crossroads-1928` | 泽氏未提供党员心态系统统计且沿用中译稿（B级）；萨哈罗夫的国家理性辩护淡化了强制集体化后的农业灾难与清洗恶果。 |
-
-## 4. 关联时间线锚点 (共 83 条)
-- **1917-03-27 [O.S.] / 1917-04-09 [N.S.]** (`TL-W32-1917-04-09-02`, L3): **列宁一行32名俄国流亡者自苏黎世乘治外法权列车（所谓“铅封列车”）启程返俄** — 经瑞士左翼普拉廷与德国公使馆议定治外法权过境条款，当地时间1917-04-09 [N.S.] / 03-27 [O.S.]约15:10（派普斯记15:20），列宁、克鲁普斯卡娅、季诺维也夫、阿尔曼德、拉狄克等32名流亡者（含19名布尔什维克、6名崩得、3名托洛茨基追随者）自苏黎世出发，经戈特马丁根转乘两节编组专列横穿德国（车门实未焊铅）。
-- **1917-03-29 [O.S.] / 1917-04-11 [N.S.]** (`TL-W32-1917-04-11-02`, L3): **返俄列车经斯图加特、法兰克福抵柏林并滞留警卫下20小时** — 当地时间1917-04-11 [N.S.] / 03-29 [O.S.]午后早期，载有列宁一行的治外法权专列抵达柏林并在德军警卫环伺下滞留约20小时；德国政府与军方寄望反战左翼返俄冲击临时政府战意。
-- **1917-03-30 [O.S.] / 1917-04-12 [N.S.]** (`TL-W32-1917-04-12-02`, L3): **列车离柏林经萨斯尼茨渡波罗的海抵瑞典特雷勒堡** — 当地时间1917-04-12 [N.S.] / 03-30 [O.S.]，列宁一行离开柏林抵萨斯尼茨港，登乘瑞典汽船《维多利亚女王号》跨海，约傍晚18:00靠泊特雷勒堡，旋即乘火车连夜北赴斯德哥尔摩。
-- **1917-03-31 [O.S.] / 1917-04-13 [N.S.]** (`TL-W32-1917-04-13-02`, L3): **列宁抵斯德哥尔摩：拒见帕尔乌斯、由拉狄克会晤，获俄领馆签证后北上** — 当地时间1917-04-13 [N.S.] / 03-31 [O.S.]上午10:00抵斯德哥尔摩。列宁签署声明断然拒见帕尔乌斯，派奥籍波兰人拉狄克同帕尔乌斯会谈大半日（留有“是否借道资助”史学争议），并在取得临时政府驻瑞领事签证、留加涅茨基—拉狄克设驻外点后，于当夜启程赴芬兰边境。
-- **1917-04-03 [O.S.] / 1917-04-16 [N.S.]** (`TL-W32-1917-04-16-02`, L3): **列宁深夜约23:10抵芬兰车站，高呼世界社会主义革命并赴克舍辛斯卡娅公馆演说** — 1917-04-03 [O.S.] / 04-16 [N.S.]深夜约23:10列车驶入芬兰车站。面对齐赫泽代表苏维埃敦促“保卫革命”的欢迎辞，列宁转身向工兵水兵群众高呼“全世界社会主义革命万岁！”，随后乘探照灯照耀的装甲车赴克舍辛斯卡娅公馆，向约200名党务骨干发表约90分钟至两小时的雷霆演说直至次日凌晨04:00，全面否定议会制共和国与临时政府（中途曾有士兵因反战言论怒喊刺刀，旋为喝彩声淹没；洛吉诺夫中译误作“克伦斯基府邸”实系克舍辛斯卡娅公馆）。
-- **1917-04-06 [O.S.] / 1917-04-19 [N.S.]** (`TL-W32-1917-04-19-01`, L3): **《真理报》延误刊发后，布尔什维克中央局质疑《四月提纲》** — 因4月5日 [O.S.]印刷厂机械故障（派普斯疑为编辑部拖延），提纲未能如期见报。4月6日 [O.S.] / 4月19日 [N.S.]中央局会议上，加米涅夫批评巴黎公社类比失当、采纳提纲将使党沦为“宣传员小圈子”，斯大林附和称其“只有模式、没有事实”；直至列宁强硬施压并重整编辑部，《真理报》方定于次日刊文。
-- **1917-04-24 [O.S.] / 1917-05-07 [N.S.]** (`TL-W32-1917-05-07-01`, L3): **俄社民工党（布）第七次（四月）全国代表会议开幕，列宁批评“稍稍偏左”冒险** — 1917-04-24 [O.S.] / 05-07 [N.S.]，布尔什维克第七次全国代表会议在彼得格勒开幕（约7.9–8万党员，149或152名代表；主席团未纳加米涅夫、斯大林）。列宁率先批评PK在四月危机期间擅打“打倒临时政府”系冒进、当时仅为“和平侦察”，随即围绕当前形势、政权与土地展开六日激辩。
-- **1917-04-29 [O.S.] / 1917-05-12 [N.S.]** (`TL-W32-1917-05-12-01`, L3): **布尔什维克四月会议闭幕：列宁路线胜出（71:39:8）与九人新中央当选** — 1917-04-29 [O.S.] / 05-12 [N.S.]至30日凌晨04:00，四月会议闭幕：列宁反驳李可夫经济落后阶段论（“没人能说清谁先开始、谁来完成”），《关于当前形势》以71:39:8通过，民族自决决议56:16:18胜出（皮达可夫、捷尔任斯基反对；洛吉诺夫中译误作“皮亚特尼茨基”），但退出齐美尔瓦尔德案以1:8遭拒。109名代表选出九人中央（列宁104、季诺维也夫101、斯大林97、加米涅夫95、米柳京82、诺根76、斯维尔德洛夫71、斯米尔加53、费奥多罗夫48）。
-- **1917-07-03 [O.S.] / 1917-07-16 [N.S.]** (`TL-W8-1917-07-16-02`, L3): **数万武装士兵工人包围塔夫利达宫，布尔什维克中央抽下《真理报》制止令改发和平游行号召** — 面对克舍辛斯卡娅公馆外与塔夫利达宫前数万武装群众既成事实，加米涅夫、齐诺维也夫、托洛茨基等人在午夜前被迫撤下已排版的《真理报》劝阻声明（致7月4日头版留下天窗），改发号召4日举行迫使苏维埃执权之和平示威传单。
-- **1917-07-06 [O.S.] / 1917-07-19 [N.S.]** (`TL-W8-1917-07-19-01`, L3): **斯大林调停交出彼得保罗要塞，通缉令下达后列宁决意拒绝自首转入地下** — 临时政府通缉列宁等领袖并夺回克舍辛斯卡娅公馆，经斯大林与波格丹诺夫协调令喀琅施塔得残部和平撤出彼得保罗要塞；工人沃伊诺夫街头派发传单遇害；列宁恐遭司法毒手及私刑决意转入地下隐蔽。
-- **1917-07-07 [O.S.] / 1917-07-20 [N.S.]** (`TL-W8-1917-07-20-01`, L3): **李沃夫公爵辞去总理职由克伦斯基接替，政府下令解散缴械第一机枪团** — 李沃夫因七月危机及改革纲领争议辞职，克伦斯基就任总理；第一机枪团遭强行集合解除武装并分拆押往前线，列宁与季诺维也夫于7月9日夜潜逃往拉兹利夫湖畔隐蔽。
+## 4. 关联时间线骨干锚点 (L0–L2 展示 10 条，另有 73 条 L3 逐日细节见 `timeline/L3_daily/`)
 - **1917-10-10 [O.S.] / 1917-10-23 [N.S.]** (`TL-1917-10-23`, L2): **布尔什维克中央秘密会议以 10 比 2 通过武装起义路线** — 列宁潜回出席在苏汉诺夫寓所举行的中央会议，决议将武装起义列入当前日程；仅加米涅夫与季诺维也夫投反对票，主张等待立宪会议。
-- **1917-10-10 [O.S.] / 1917-10-23 [N.S.]** (`TL-W3-1917-10-23-01`, L3): **布尔什维克中央秘密会议以10比2通过武装起义方针（加米涅夫、季诺维也夫反对）** — 会议借孟什维克苏汉诺夫卡尔波夫卡河畔寓所举行（苏汉诺夫本人不在场）。列宁提出武装起义已成熟并列入日程；中央以10赞成、2反对（加米涅夫、季诺维也夫）通过决议并设政治局，但未制定军事行动时间表。
 - **1917-10-16 [O.S.] / 1917-10-29 [N.S.]** (`TL-1917-10-29`, L2): **彼得格勒苏维埃批准成立军事革命委员会，党中央扩大会议再确认起义** — 苏维埃全会以防御反革命与核查调防名义批建军事革命委员会（MRC）；同夜布尔什维克中央扩大会议再次确认起义方针并设五人军事革命中心，加、季仍反对并于 10 月 18 日公开表态。
-- **1917-10-16 [O.S.] / 1917-10-29 [N.S.]** (`TL-W3-1917-10-29-02`, L3): **中央扩大会议再确认起义（加米涅夫、季诺维也夫投反对票）并设五人军事革命中心** — 约20时至次日03时召开扩大会议，加米涅夫与季诺维也夫仍投反对票（托洛茨基记20/2/3；本地拉比诺维奇中译本记19/2/4）；会议并增选斯维尔德洛夫、斯大林、布勃诺夫、乌里茨基、捷尔任斯基组成秘密五人军事革命中心纳入军革委。
-- **1917-10-18 [O.S.] / 1917-10-31 [N.S.]** (`TL-W3-1917-10-31-01`, L3): **加米涅夫在《新生活报》公开反对立即起义** — 加米涅夫发表代表其与季诺维也夫立场的声明，公开批评党内立即举行武装起义的动议（但未泄具体军期），把布尔什维克内部分歧推入公众视野。
-- **1917-10-19 [O.S.] / 1917-11-01 [N.S.]** (`TL-W3-1917-11-01-01`, L3): **列宁要求开除加、季二人党籍；彼得保罗要塞尚持抵制态度** — 列宁致信中央要求严肃处分公开发表的反对者；同日彼得保罗要塞部队委员会仍拒绝接受军革委派员。
-- **1917-10-25 [O.S.] / 1917-11-07 [N.S.]** (`TL-W3-1917-11-07-03`, L3): **午间（12:00–16:00）：驱散马里亚宫预备议会；约15:00无须列宁首次公开现身彼得格勒苏维埃** — 12:00后革命兵士包围马里亚宫，预备议会以56:48（2弃权）表决屈服散会；约15:00彼得格勒苏维埃全会上托洛茨基宣布旧政府已亡、剃掉胡须的列宁四个月后首次公开演讲，季诺维也夫向苏汉诺夫道贺反遭警示克伦斯基去向。
-- **1917-10-26 [O.S.] / 1917-11-08 [N.S.]** (`TL-W3-1917-11-08-03`, L3): **午间：防堵克拉斯诺夫北扑与托洛茨基提议定名“人民委员会”** — 面对克伦斯基北上及科尔尼洛夫自贝霍夫逃狱警报，列宁赴普梯洛夫工厂督造装甲炮车并调动水兵迎敌；布尔什维克领导层筹划纯本党政府，托洛茨基提议将新内阁定名为“人民委员会（Sovnarkom）”（左派社革党暂留苏维埃未入阁）。
-- **1917-10-27 [O.S.] / 1917-11-09 [N.S.]** (`TL-W3-1917-11-09-02`, L3): **凌晨（约04:00）：二大批准设立由列宁主持的纯布尔什维克“人民委员会”** — 大会约04:00批准成立临时工农政府——人民委员会（列宁任主席、托洛茨基任外交、斯大林任民族事务），在立宪会议前向苏维埃大会与全俄执委会负责；加米涅夫任全俄执委会主席，左派社革党人暂留苏维埃体系未入阁。
-- **1917-11-02 [O.S.] / 1917-11-15 [N.S.]** (`TL-W36-1917-11-15-01`, L3): **列宁10:5谴责党内反对派，深夜加米涅夫在全俄中执委推让半数席位** — 布尔什维克中央以10:5通过列宁决议斥责党内调和反对派；但深夜加米涅夫、季诺维也夫趁列宁不在场，说服全俄中执委布尔什维克党团表决同意让出人民委员会半数席位并吸纳市杜马代表；同夜莫斯科白军防线崩盘签署停战投降议定书。
-- **1917-11-04 [O.S.] / 1917-11-17 [N.S.]** (`TL-W36-1917-11-17-01`, L3): **全俄中执委34:24确认报禁与紧急立法权，5名中委及多名人民委员辞职** — 全俄中执委以34:24:1否决拉林撤销报禁动议，并以29:23:3（异文25:23）确认人民委员会紧急立法权；左翼社革党退出MRC，加米涅夫、季诺维也夫、李可夫、米柳亭、诺根辞去中委职务，李可夫等4名人民委员及数名副委员辞职警告“仅余政治恐怖一条路”。
-- **1917-11-06 [O.S.] / 1917-11-19 [N.S.]** (`TL-W36-1917-11-19-01`, L3): **季诺维也夫等温和派屈服撤辞；全俄立宪会议选委会复会** — 面临基层工人支部谴责与党纪威胁，季诺维也夫率先在11月6–7日认错撤辞，加米涅夫、李可夫、米柳亭、诺根相继屈服（但未获复任原部实权），党内集权胜出；同日原停摆的全俄立宪会议选举事务委员会复会筹备投票。
-- **1917-11-14 [O.S.] / 1917-11-27 [N.S.]** (`TL-W36-1917-11-27-01`, L3): **彼得格勒银行及国库职员142:14表决拒认苏维埃（校勘姚海银行国有化误期）** — 继11-13季诺维也夫出任彼得格勒苏维埃主席后，11-14彼得格勒银行职员大会与国库人员以142:14压倒多数拒绝承认人民委员会及支付拨款支票。校勘注：姚海本误将12-14 [O.S.]商业银行国有化法令提前记作11-14夜。
-- **1917-12-01 [O.S.] / 1917-12-14 [N.S.]** (`TL-W36-1917-12-14-01`, L3): **全俄中执委150:98:3辩论立宪民主党禁令，托洛茨基发出“断头台”警告；温和派暂控党团** — 全俄中执委激辩反立宪民主党令：左翼社革党施坦因贝格猛烈抗议违宪镇压，列宁援引法国大革命回以“监狱”，托洛茨基警告“一个月内迎来断头台”；布尔什维克150:98:3险胜；但同日加米涅夫、季诺维也夫、李可夫赢得立宪会议布尔什维克党团临时局控制权。
-- **1917-12-11 [O.S.] / 1917-12-24 [N.S.]** (`TL-W36-1917-12-24-01`, L3): **列宁发表《关于立宪会议的提纲》；中央清洗立宪会议党团温和派** — 12-11 [O.S.]列宁提出《关于立宪会议的提纲》，论证苏维埃共和国高于资产阶级议会并强令党团迁至斯莫尔尼宫；次日12-12 [O.S.] / 12-25 [N.S.]中央撤换加米涅夫—季诺维也夫—李可夫临时局，改由什利亚普尼科夫主持党团，彻底扫除党内妥协障碍。
-- **1921-02-24 [N.S.]** (`TL-W7-1921-02-24-01`, L3): **[双线A] 彼得格勒图鲁博奇内等大厂爆发饥饿罢工，防卫委员会实行戒严** — 因煤粮断绝且配给削减，瓦西里岛图鲁博奇内厂、波罗的海厂等工人掀起要求面包与自由的大罢工游行；季诺维也夫主掌的彼得格勒苏维埃旋即设立防卫委员会，调动红军军校生封锁全城并展开夜间大搜捕。
-- **1921-03-05 [N.S.]** (`TL-W7-1921-03-05-01`, L3): **[双线A/B交汇] 托洛茨基与谢·卡梅涅夫签发无条件投降最后通牒及防卫会人质通告** — 莫斯科高层发出24小时后延的投降最后通牒，彼得格勒防卫委员会（季诺维也夫主掌）扣押岛上官兵在陆岸家属作人质并印发“像打鹧鸪一样射杀”传单；PRC回电强硬拒绝投降，同时伯克曼与戈德曼递交的无党派调解呼吁被拒。
-- **1921-03-07 [N.S.]** (`TL-W7-1921-03-07-01`, L3): **[双线A] 18:45红军两岸重炮群向科特林岛开火，内战最后决战打响** — 最后通牒宽限到期后，红军海岸重炮群于18:45在寒雾中开始轰击喀琅施塔得要塞与两艘主力舰（伯克曼在彼城记下约18时听到震耳炮声），水兵立即开炮还击，军事围剿正式拉开。
-- **1922-12-24 [N.S.]** (`TL-W8-1922-12-24-01`, L3): **政治局定下每日5–10分钟禁访禁闻口授规则；列宁于24–25日品评政治局六巨头并警示斯大林握“无限权力”** — 列宁以拒绝治疗相逼迫使斯大林、加米涅夫、布哈林联席医学会妥协开放每日5–10分钟日记口授但禁止一切来访及政闻；12月24–25日列宁口授对斯大林、托洛茨基、季诺维也夫、加米涅夫、布哈林与皮亚塔科夫六人品评，指出防止分裂关键在斯托关系，警告斯大林集中了“无限权力”。
-- **1923-03-05 [N.S.]** (`TL-W8-1923-03-05-01`, L3): **列宁同日发出“双炮”：全权委托托洛茨基捍卫格鲁吉亚案，并向斯大林下达断交道歉最后通牒** — 列宁致密信嘱托托洛茨基在中央全会全权接手格鲁吉亚案辩护且“不能接受任何腐朽妥协”；同日口授致斯大林（抄加、季）强硬短函，责令斯大林就粗暴辱骂克鲁普斯卡娅收回言辞并道歉，否则断绝一切私人同志关系。
 - **1923-04-17 [N.S.]** (`TL-W4-E09-1923-04-17`, L2): **俄共（布）第十二次代表大会开幕：剪刀差初显与托洛茨基提出工业计划化** — 托洛茨基在大会上提出著名的剪刀差图表，主张加强国家计委职能、通过工业计划化降低重工业成本并扶持生产；斯大林与季诺维也夫等多数派则仅以行政限价措施应对。
 - **1923-12-05 [N.S.]** (`TL-W4-E09-1923-12-05`, L2): **政治局通过党建决议，随后托洛茨基发表《论新路线》反遭三驾马车围攻** — 在政治局形式上通过扩大民主决议后，托洛茨基发表《论新路线》呼吁青年一代监督老干部官僚化；季诺维也夫、加米涅夫与斯大林指控其煽动青年反党，挑起首次公开派系论战。
-- **1924-01-01 [N.S.]** (`TL-W36-1924-01-01`, L3): **“列宁号召”突击吸纳逾20万工人入党及中监委封杀遗嘱流传** — 1924-01-30中监委率先严禁私下流传列宁《给代表大会的信》副本；2至5月间领导层发起“列宁号召”（Ленинский призыв），免除常规审查突击吸纳20万至24万在职车间工人入党（党员增逾40%），并破格允许预备党员参与十三大代表选举，彻底稀释老党员生态并壮大书记处票仓。
-- **1924-01-16 [N.S.]** (`TL-W36-1924-01-16-01`, L3): **俄共（布）十三次代表会议定罪反对派并首次公开秘密第7条** — 1924-01-16至18日十三次代表会议（128名表决代表，仅3名反对派；托洛茨基病休并于18日赴苏呼米）召开。斯大林作党内建设报告将托洛茨基与四十六人定性为“背离列宁主义的小资产阶级倾向”，并首次公开公布1921年十大《关于党的统一》秘密第7条以威慑异议；李可夫与加米涅夫宣布剪刀差趋于收拢。（衔接既有TL-W15-L3-23-15/16）
-- **1924-01-26 [N.S.]** (`TL-W36-1924-01-26-01`, L3): **斯大林发表“向列宁宣誓”演说，彼得格勒更名列宁格勒并推动遗体防腐** — 1924-01-26全苏第二次苏维埃代表大会追悼会上，斯大林发表祈祷文式的“向列宁宣誓”演说并奠定“列宁主义正统继承人”话语，大会决议将彼得格勒更名为列宁格勒；01-27零下严寒中举行红场六小时葬礼入木墓，随后斯大林与捷尔任斯基不顾克鲁普斯卡娅反对力推遗体永久防腐。
-- **1924-05-18 [N.S.]** (`TL-W36-1924-05-18-01`, L3): **克鲁普斯卡娅移交列宁“遗嘱”，全会与长老会议决定分组口读并禁入速记** — 1924-05-18克鲁普斯卡娅正式向中央移交列宁《给代表大会的信》及调开斯大林附言；05-21中央全会斯大林表演性请辞而获季诺维也夫、加米涅夫力保留任；05-22十三大开幕前长老会议决议不予公开发表，改按代表团分组口头宣读（05-25—26），严禁抄录与载入大会速记。（对接TL-W4-E09-1924-01）
-- **1924-05-23 [N.S.]** (`TL-W36-1924-05-23-01`, L3): **俄共（布）第十三次代表大会召开，托洛茨基宣称“党永远正确”** — 1924-05-23至31日俄共（布）十三大召开（748名表决代表，无一反对派）。季诺维也夫要求反对派公开认错遭克鲁普斯卡娅反驳，托洛茨基全程缄默“遗嘱”并声称“不能反对党，归根到底党永远是正确的”。会后斯大林全票连任总书记，布哈林升入政治局，卡冈诺维奇入书记处。（对接TL-W4-E09-1924-02）
 - **1924-05-23 [N.S.]** (`TL-W4-E09-1924-05-23`, L2): **俄共（布）第十三次代表大会开幕：三驾马车封存列宁遗嘱** — 克鲁普斯卡娅转交列宁批评斯大林粗暴并建议撤换其总书记职务的《给代表大会的信》；加米涅夫与季诺维也夫在秘密会议上出面替斯大林担保，决定不在全会公开宣读，斯大林度过致命危机。
-- **1924-06-01 [N.S.]** (`TL-W36-1924-06-01`, L3): **共产国际五大“布尔什维克化”与“七人团”密室共治成形** — 1924年6—7月共产国际五大以“布尔什维克化”定罪左翼反对派，以斯大林取代托洛茨基入ECCI主席团。与此同时“三驾马车”现裂痕：斯大林6月批季、加表述并秋调乌格拉诺夫换下泽连斯基接掌莫斯科市委；08-19斯大林起草辞呈试探后，形成六名政治局委员加古比雪夫的“七人团”（Semerka）密室决策。
-- **1924-10-01 [N.S.]** (`TL-W36-1924-10-01`, L3): **托洛茨基发表《十月的教训》引爆反击，重迫季加抱紧斯大林** — 1924年10月下旬托洛茨基借《文集》第三卷导言发表《十月的教训》（Уроки Октября），将1923年德国十月流产直指季诺维也夫与加米涅夫1917年10月反对武装起义的“右翼动摇”。此举客观上中断了季加与斯大林的裂痕分化，使三驾马车再度合围托洛茨基。
 - **1924-10-15 [N.S.]** (`TL-W4-E09-1924-10-15`, L2): **托洛茨基发表《十月的教训》，引发反托洛茨基主义论战与一国社会主义提出** — 托洛茨基序言揭露季诺维也夫、加米涅夫在1917十月起义前的动摇，反遭三驾马车合力清洗；随后斯大林首次提出“一国建成社会主义”理论，与托洛茨基不断革命论全面对立。
-- **1924-11-01 [N.S.]** (`TL-W36-1924-11-01`, L3): **全党“文学讨论”大围剿与“托洛茨基主义”异端定型** — 1924年10月底至12月报刊连发30余篇批判文章（“文学讨论”）而压下托氏反驳稿：季、加、布哈林、李可夫把不断革命论与孟什维克捆绑为“托洛茨基主义”，斯大林更抬举五人“实践中心”贬低托氏1917年角色，同时故意反对季加开除托氏党籍要求以扮演“温和调停人”。仅克鲁普斯卡娅委婉批论战过火。
-- **1925-01-17 [N.S.]** (`TL-W36-1925-01-17-01`, L3): **中央—中监委联席全会解除托洛茨基陆海军人民委员兼革军委主席职务** — 继托洛茨基1925-01-15致信请求卸去军委主席且拒不认错后，01-17中央与中监委联席全会正式解除其陆海军人民委员兼苏联革军委主席职务（伏龙芝继任，其10月去世后由伏罗希洛夫接掌），同时由斯大林联手多数派否决季加开除其出政治局提案并宣告“文学讨论”闭幕；“三驾马车”旋因共同敌人倒台走向1925年分裂。
-- **1925-12-15 [N.S.]** (`TL-W24-1925-12-15-01`, L3): **十四大前夕代表团抵京与副报告权之争** — 列宁格勒代表团携争议小册子赴莫斯科，政治局否决四人秘密报告为派别纲领但准许季诺维也夫作副报告；42名代表联署达标。
 - **1925-12-18 [N.S.]** (`TL-W4-E09-1925-12-18`, L2): **联共（布）第十四次代表大会开幕：斯-布同盟击溃季-加“新反对派”** — 加米涅夫当场宣告“斯大林不能胜任总参谋部领导者角色”，但斯大林与布哈林多数派轻松击败列宁格勒代表团，大会确立社会主义工业化路线，基洛夫进驻接管列宁格勒。
-- **1925-12-19 [N.S.]** (`TL-W24-1925-12-19-01`, L3): **季诺维也夫少数派副报告** — 未经政治局润色的副报告系统批判发财吧口号、国家资本主义美化与机关压制列宁格勒，大量援引列宁著作为相反立场辩护。
-- **1925-12-23 [N.S.]** (`TL-W24-1925-12-23-01`, L3): **季诺维也夫十点总结发言** — 总结发言重申国家资本主义争论与列宁格勒遭迫害，拒绝会前投降式协议并回顾1923—1925年与斯大林分歧史。
-- **1925-12-28 [N.S.]** (`TL-W24-1925-12-28-01`, L3): **十四大表决559对65击败新反对派** — 在由党中央遴选的代表构成下，列宁格勒代表团孤立，批准官方路线的决议以559票对65票通过；具体分项日期待速记核。
-- **1926-01-01 [N.S.]** (`TL-W24-1926-01-01-01`, L3): **元旦中央全会改选领导机构** — 为期一天的中央全会：加米涅夫未入政治局，索科尔尼科夫失候补；季诺维也夫辞共产国际主席遭否决。
-- **1926-01-04 [N.S.]** (`TL-W24-1926-01-04-01`, L3): **列宁格勒省党委全会反抗莫斯科接管** — 省党委公开要求停止攻击列宁格勒代表团、刊载全部分辨材料，并揭露平行省委式瓦解地方组织的行为。
-- **1926-01-07 [N.S.]** (`TL-W24-1926-01-07-01`, L3): **政治局任命基洛夫掌列宁格勒省委** — 政治局以多数票决定由基洛夫接替第一书记，科马罗夫与巴达耶夫入常；针对列宁格勒拒绝等待中央代表团即开会的谴责。
-- **1926-06-12 [N.S.]** (`TL-W25-1926-06-12-01`, L3): **中监委主席团定性“拉斯舍夫案”与斯大林信件升级追打** — 中监委主席团将森林聚会定性为非法派别组织并建言免除拉斯舍夫革军委副主席且开除出中央；斯大林随后于6月15/25日致函莫洛托夫，将其改名“季诺维也夫案件”并谋划在七月全会先逐季出政治局而暂保托。
 - **1926-07-14 [N.S.]** (`TL-W15-L1-E09-13`, L1): **七月全会与联合反对派** — 托季加联盟遭组织打击，季诺维也夫在本轮全会失去政治局席位。
 - **1926-07-14 [N.S.]** (`TL-W4-E09-1926-07-14`, L2): **中央七月全会清洗托-季-加“联合反对派”，季诺维也夫被逐出政治局** — 面对托洛茨基与季诺维也夫、加米涅夫组建的联合反对派，斯大林借拉兹古利亚伊树林秘密集会发难，将季诺维也夫开除出政治局，拉开对联合反对派的全面组织打击。
-- **1926-07-14 [N.S.]** (`TL-W25-1926-07-14-01`, L3): **七月中央与中监委联席全会开幕；联合反对派宣读《十三人声明》** — 联席全会（7月14–23日）开幕，托洛茨基、季诺维也夫、加米涅夫、皮达可夫、克鲁普斯卡娅等13名中央/中监委成员发表24页纲领性声明正式组建联合反对派，但在英俄委员会少数派案中以10:152惨败。
-- **1926-07-21 [N.S.]** (`TL-W25-1926-07-21-01`, L3): **拉斯舍夫案全会大摊牌；季诺维也夫揭露秘密“七人小组”** — 古比雪夫与扬松控诉反对派建立地下印刷密码网；季诺维也夫承认1923–1925联斯反托错误并当众曝光秘密“七人小组”及《列宁遗嘱》，斯大林以“越出派别建网红线”反制。
-- **1926-07-23 [N.S.]** (`TL-W25-1926-07-23-01`, L3): **七月联席全会首次动用十大第7条，将季诺维也夫逐出政治局** — 全会闭幕前首次援引俄共（布）十大《关于党的统一》秘密第7条开除季诺维也夫政治局席位、开除拉斯舍夫中央委员并革去革军委副职外放中东路，增补鲁祖塔克及奥尔忠尼启则、基洛夫、卡冈诺维奇等五名候补。
-- **1926-10-01 [N.S.]** (`TL-W25-1926-10-01-01`, L3): **莫斯科航空仪表厂（Aviapribor）演讲遭有组织哄场围攻与否决** — 托洛茨基、季诺维也夫、皮达可夫与拉狄克赴莫斯科航空仪表厂支部演讲，遭乌格拉诺夫市委部署的积极分子吹哨敲桌围攻并以27:78（S级核验/约四分之一赞成）遭否；次日莫斯科市委定性为“直接犯罪”。
-- **1926-10-04 [N.S.]** (`TL-W25-1926-10-04-01`, L3): **反对派六领袖停战试探遭政治局拒谈并移交中监委** — 托、季、加等六人致信政治局愿停赴支部演讲以换党内和平讨论，遭斯大林—布哈林多数派全盘拒绝并将托洛茨基、季诺维也夫与皮达可夫移交中监委追责。
-- **1926-10-07 [N.S.]** (`TL-W25-1926-10-07-01`, L3): **季诺维也夫红色普梯洛夫厂25:1375惨败；政治局核准最后通牒草案** — 季诺维也夫潜回列宁格勒在红色普梯洛夫厂演讲遭“叛徒”齐喊并以25:1375悬殊败北；同日莫斯科政治局核准布哈林—李可夫—托姆斯基投降最后通牒草案并于8/11日加压扩至8条。
-- **1926-10-16 [N.S.]** (`TL-W25-1926-10-16-01`, L3): **《六人停战声明》签署：承认违纪、解散派别并切割内外左翼** — 经三易其稿退回后，托洛茨基、季诺维也夫、加米涅夫、皮达可夫、索科尔尼科夫、叶夫多基莫夫签署声明（10月17日见报），承认违反十四大后党纪、切割施略普尼科夫及德国极左派，仅保留原则观点；10月23日全会随即补开除托政治局席位。
-- **1927-09-01 [N.S.]** (`TL-W15-L3-27-04`, L3): **秋收上市与谷物相对价格转差** — 七八月谷物官价略升后在秋收期再降；经济作物及肉奶价格相对更有吸引力。务工收入、税负减轻、工业品短缺共同削弱立即售粮动机。 基层党政忙于大会和纪念活动可能影响收购组织；这只是Carr–Davies列出的因素，不能成为所有地区收购下降的单一解释。
-- **1927-09-03 [N.S.]** (`TL-W15-L3-27-01`, L3): **联合反对派政纲提交的编者定年** — 政纲要求加快工业、改善工人地位、以累进税约束富裕农户，并强调工业品供给与工农关系。 政纲把党内民主、国际政策和经济要求联结。现库英文只收入第3、4、7章；9月3日来自中文编者题注，英文各章无同一署日。
-- **1927-09-06 [N.S.]** (`TL-W15-L3-27-02`, L3): **要求公布政纲的申诉遭拒** — 经济方案能否在大会选举前供党员比较，关系到工业化与农村政策争议的可见度。 托等向政治局、中央交涉，抗议迫害及大会延期，要求按党内讨论程序印行政纲；中央拒绝刊发并禁止自行传播，推动秘密复制。
-- **1927-09-12 [N.S.]** (`TL-W15-L3-27-03`, L3): **地下印刷所案** — 本案直接针对政治文本的复制与散发，并非查获一套独立经济行政体系。 12–13日夜OGPU突袭秘密复制处并逮捕人员。普列奥布拉任斯基、姆拉奇科夫斯基、谢列布里亚科夫承担政治责任。官方把其中一名“弗兰格尔军官”与白卫阴谋相联系；多伊彻据交涉记录指出此人是警察线人。案件事实、官方指控与线人解释必须分栏。
-- **1927-10-23 [N.S.]** (`TL-W15-L3-27-05`, L3): **十月中央—中监委联席全会处分** — 反对派关于工业、农村与国际政策的争议被纳入派别活动的纪律框架。 10月21–23日联席全会最终将托洛茨基、季诺维也夫逐出中央委员会。斯大林23日演说辩护拒印政纲及对其秘密传播的处分。此时二人尚未被开除党籍，也不是1926年政治局罢免的重演。
-- **1927-11-01 [N.S.]** (`TL-W15-L3-27-09`, L3): **十一至十二月国家购粮急降** — Carr–Davies指出两个月收购均明显落后上年同期；比较对象是国家/合作社收购流量，不是粮食总产量或农民全部销售。官价、私市竞争和换购商品不足交织。 国家供应压力在反对派已失势时累积；不能把“富农罢市”作为未经检验的事实解释，更不能反推中央当时已经决定全面集体化。
-- **1927-11-07 [N.S.]** (`TL-W15-L3-27-06`, L3): **革命十周年独立口号与游行冲突** — 庆典展示恢复与社会主义建设成就，同时商品供给和农村售粮问题仍在恶化。成就宣传并不等于生活矛盾已经消失。 莫斯科与列宁格勒反对派支持者在官方庆祝队伍中组织自有队列、横幅和口号，遭警察、党内积极分子等压制。这里的“独立”指政治表达，并不等于已有另一支获准上街的官方游行，更不能直接写成武装暴动。
-- **1927-11-14 [N.S.]** (`TL-W15-L3-27-07`, L3): **托洛茨基、季诺维也夫被开除党籍** — 斯大林—布哈林多数派此时仍共同击败联合反对派，尚未公开分裂为1928年的对立阵营。 中央—中监委非常会议依据派别与示威指控开除托季党籍；加米涅夫等进一步失去中央机构席位。十月逐出中委、十一月开除党籍、十二月扩大清除是连续而不同的处分。
 - **1927-11-14 [N.S.]** (`TL-W4-E09-1927-11-14`, L2): **中央全会正式将托洛茨基与季诺维也夫开除出联共（布）** — 在反对派于十月革命十周年（11-07）走上街头抗议遭警察暴力驱散后，中央与中监委联席全会通过严厉决议，将托洛茨基和季诺维也夫彻底开除出党。
-- **1927-11-16 [N.S.]** (`TL-W15-L3-27-08`, L3): **越飞逝世及遗书** — 越飞描述疾病、工作被剥夺及治疗争执；这些是其本人陈述，机构处理的全貌仍需档案对读。 越飞自杀，给托洛茨基的遗书把个人困境与开除反对派的抗议相连，也批评托的妥协与犹疑。遗书证明其本人如何理解处境，不能独自证明所有医疗责任与动机推断。
-- **1927-12-02 [N.S.]** (`TL-W15-L3-27-10`, L3): **联共（布）十五大开幕** — 大会讨论工业发展、农业和五年规划；增长目标与当前收购缺口并行存在。 大会至19日举行，反对派代表性与申辩空间极受限制；它是大规模清除的大会，却不是托季首次被开除党籍的时间。
-- **1927-12-03 [N.S.]** (`TL-W15-L3-27-11`, L3): **斯大林中央政治报告** — 报告叙述建设成就与农村阶级状况，主张推进工业化和农业改造；这是多数派当时的政策陈述。 以党内统一和反对派失败证明路线正确，压缩反对意见的合法地位。不能将报告宣称的支持率直接当成全社会真实支持率。
-- **1927-12-10 [N.S.]** (`TL-W15-L3-27-12`, L3): **季诺维也夫派与托洛茨基派分道** — 经济政策争执仍在，但留在党内的资格逐渐成为各派首先处理的问题。 季派表示接受大会决议、停止反对活动；拉科夫斯基、拉狄克、穆拉洛夫等不愿放弃继续阐述观点。多伊彻将此标为联合反对派解体节点；双方当时都仍坚持一党制。
-- **1927-12-14 [N.S.]** (`TL-W15-L3-27-13`, L3): **大会会期内第一封购粮危机通函** — 中央通函要求关注收购危机，表明供应紧张在大会闭幕前已进入中央紧急处置。 清除反对派与基层经济失灵同步发生；不能把中央认识危机一概推迟到十五大之后。通函本轮据Carr–Davies转引，未核原始发文簿。
-- **1927-12-18 [N.S.]** (`TL-W15-L3-27-14`, L3): **十五大批准扩大开除反对派** — 经济路线讨论以清除政治异议为背景继续展开。 大会批准此前开除托季的决定，并清除包括加米涅夫、拉科夫斯基等在内的75名联合反对派骨干；萨普罗诺夫等民主集中派另案处理。75人和另案名单不能混算成同一范围。
-- **1927-12-18 [N.S.]** (`TL-W15-L3-27-15`, L3): **季加承认观点错误并请求复籍** — 高层经济争论的合法发言资格越来越依赖政治认错，而非单纯承诺服从多数。 多伊彻把季诺维也夫、加米涅夫进一步承认反列宁主义观点定于18日；同时代19日决议称收到当日提交的复籍申请。可理解为政治屈服与书面递交的相邻程序，不能抹去日期差。
-- **1927-12-19 [N.S.]** (`TL-W15-L3-27-16`, L3): **大会拒绝集体复籍要求并闭幕** — 中央经济政策开始在被清除异议后的领导格局中实施，但1928年的具体转向尚未完全定型。 大会对季、加等23人的申请不作即时集体恢复，要求经个别审查与后续考察程序处理。政治服从没有换来当日复籍；“留党察看”也不适合描述已经无党籍者的法律状态。
-- **1927-12-24 [N.S.]** (`TL-W15-L3-27-17`, L3): **第二封购粮通函与公开示警** — 中央再次催办；《真理报》小栏消息称米高扬派高级贸易干部赴主要收购区。加强供应和组织施压此时尚同时使用。 报刊公开示警不同于党内处分叙事的胜利口吻。Carr–Davies认为这是公开警报的一次早期表现，但不能据此断言此前所有地方报刊都未报道困难。
-- **1927-12-27 [N.S.]** (`TL-W15-L3-27-18`, L3): **增加重点收购区工业品供应** — 12月27日至1928年1月15日，列宁格勒向西伯利亚、乌拉尔、伏尔加、乌克兰及北高加索增发棉纺品；Carr–Davies称超过通常数量两倍。此为指定线路和时段，非全苏全部商品。 这些经济诱因与1928年1月6日紧急指令相衔接，说明从市场补救到行政强制有过程，不宜把全部变化归于单日大转弯。
-- **1928-07-11 [N.S.]** (`TL-W32-1928-07-11-01`, L3): **布哈林在索科利尼科夫陪同下密访加米涅夫，“成吉思汗”与“军事封建剥削”谈话留档** — 因政治局失去多数且遭斯大林派散布离间谣言，布哈林在索科利尼科夫陪同下于全会闭幕前夜密会已失势的加米涅夫。布哈林痛斥斯大林为“没有原则的阴谋家、成吉思汗、将会勒死我们所有人”，称“贡赋”与强征系“对农民的军事封建剥削”，却悲叹“中央害怕争论，公开争论会被杀”。加米涅夫连夜手写纲要寄季诺维也夫，1929-01被托派印传单曝光后成为依据十大第7条定罪右翼的铁案。
-- **1928-07-11 [N.S.]** (`TL-W7-1928-07-11-01`, L3): **布哈林在索科利尼科夫陪同下密访加米涅夫，“成吉思汗”秘谈留痕** — 七月全会期间极度惊恐的布哈林由索科利尼科夫陪同密会前左翼领袖加米涅夫探寻联合倒斯可能，直斥斯大林“没有原则、是成吉思汗、将会勒死我们所有人”。加米涅夫连夜详录谈话寄交季诺维也夫，半年后被托派截获散播并成为触发十大第7条铁案。

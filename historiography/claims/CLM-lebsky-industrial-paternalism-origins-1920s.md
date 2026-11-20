@@ -1,14 +1,14 @@
 ---
 id: CLM-lebsky-industrial-paternalism-origins-1920s
 type: claim
-scholar: "Максим Лебский (Maxim Lebsky)"
+scholar: SCH-lebsky-maksim
 work_title: "Рабочий класс СССР: жизнь в условиях промышленного патернализма (《苏联的工人阶级：工业家长制下的生活》)"
 publication_year: 2021
 source_tier: "T2 现代专著（俄罗斯左翼马克思主义社会史）"
 local_source_path: "sources/monographs/lebsky_working_class_paternalism_zh/"
 original_pages: "PDF pp. 9, 12, 19, 21-22, 29-36, 48, 166-168"
 targets_cards: []
-debate: "苏维埃工人阶级政治主体性退潮与工业家长制（Промышленный патернализм）的制度起源（1917–1929）"
+debate: DEB-1918-working-class-and-bolsheviks
 supports: []
 rebuts: []
 qualifies: []

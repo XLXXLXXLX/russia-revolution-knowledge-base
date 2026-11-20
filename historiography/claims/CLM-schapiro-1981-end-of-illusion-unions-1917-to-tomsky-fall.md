@@ -7,8 +7,8 @@ publication_year: 1981
 source_tier: "T2 西方自由制度学派／冷战苏联学经典文集"
 local_source_path: "sources/monographs/soviet_workers_illusions_and_reality_zh/ch00_pages_1-25.md#L230-L815, sources/monographs/soviet_workers_illusions_and_reality_zh/ch01_pages_26-50.md#L5-L31"
 original_pages: "Book pp. 1–14 [PDF pp. 13–26]"
-targets_cards: ["SCH-schapiro-leonard", "CON-workers-control", "EVT-1921-kronstadt", "PER-tomsky"]
-debate: "苏维埃工会国家化与工人政治自主性的终结时点（1917–1929）"
+targets_cards: ["ORG-workers-opposition", "CON-workers-control", "EVT-1921-kronstadt", "PER-tomsky"]
+debate: DEB-1921-trade-union-controversy-and-party-unity
 supports: []
 rebuts: []
 qualifies: ["CLM-lebsky-industrial-paternalism-origins-1917-1929"]

@@ -1,13 +1,13 @@
 ---
 id: CLM-tragedy-village-1929-peasant-self-liquidation-and-flight
 type: claim
-scholar: SCH-danilov-ivnitsky-eds
+scholar: SCH-danilov-viktor
 work_title: "Трагедия советской деревни. Коллективизация и раскулачивание. Том 2: Ноябрь 1929 — декабрь 1930（《苏联农村的悲剧》第2卷）"
 publication_year: 2000
 source_tier: S
 local_source_path: "sources/primary/tragedy_soviet_village_v2_1929_zh/ch06_1929年11月_1930年12月_part_4.md#L30-L284"
 original_pages: "PDF pp. 10–12, 19, 110–126, 142, 189–191, 203, 213, 219–220"
-targets_cards: ["PER-stalin", "PER-bukharin", "POL-nep", "EVT-1928-grain-crisis"]
+targets_cards: ["PER-stalin", "PER-bukharin", "POL-nep", "EVT-1928-grain-procurement-crisis"]
 debate: DEB-1928-bukharin-alternative
 supports: []
 rebuts: []

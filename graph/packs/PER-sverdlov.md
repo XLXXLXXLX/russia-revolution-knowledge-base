@@ -1,18 +1,13 @@
-# 1-Hop 平衡上下文包：`PER-sverdlov` (雅科夫·斯维尔德洛夫)
+# 1-Hop 去重平衡上下文包：`PER-sverdlov`
 
-> 本文件由 `python scripts/kb.py pack` 自动编译，旨在将失控的 `1+N` 随机读取压缩为**等权重、带时效边实质与史学盲区告警**的单次全景读取。
+> 由 `python scripts/kb.py pack` 动态编译：保留 **100% 一跳邻居与多时段关系边**，跨卡自动去重争鸣与时间线，并关联学者学派 (`SCH-*`)。
 
-## 0. 认知完备度与反偏斜仪表盘 (Epistemic & Skew Warnings)
-- **主卡路径**: `cards/people/PER-sverdlov.md`
-- **完备度等级**: `multi-perspective`
-- **已覆盖视角**: `liberal-totalitarian-pipes, contextual-revisionist-rabinowitch, geopolitical-biographical-kotkin`
-- **待补齐视角**: `post-soviet-vtsik-archival-biography`
-- **偏斜风险提示**:
-  - ⚠️ 主卡显式声明尚缺以下视角待补: `post-soviet-vtsik-archival-biography`。
+## 0. 认知完备度与反偏斜仪表盘
+- **`PER-sverdlov`** (雅科夫·斯维尔德洛夫 | `cards/people/PER-sverdlov.md` | `multi-perspective`): 已覆盖=`liberal-totalitarian-pipes, contextual-revisionist-rabinowitch, geopolitical-biographical-kotkin`；待补=`post-soviet-vtsik-archival-biography`
 
 ## 1. 主卡核心层 ([T1] + [T2])
 ## [T1] 60秒定性微摘要
-布尔什维克地下组织骨干与早期党国协调中枢（1885–1919）。1902年入党长期流放西伯利亚；1917年四月会议后主持中央书记处并参与十月军革委核心；11月接任全俄中执委主席，1918年主持干预立宪会议开幕及苏俄首部宪法起草（7月10日通过）；1919年3月早逝在内战与党组织扩张背景下加速了八大及会后中央全会常设政治局、组织局与书记处的制度分工。
+布尔什维克地下组织与党国协调骨干。1917年四月会议后主持中央书记处，参与十月军革委，11月任全俄中执委主席；1918年干预立宪会议开幕、主持苏俄宪法起草。1919年3月早逝，在内战与党组织扩张背景下加速八大及会后全会常设政治局、组织局、书记处的分工。
 
 ## [T2] 核心脉络、时效关系边表与史学争鸣光谱
 
@@ -38,96 +33,46 @@
   - **[修正派政治生态与危机演进派 / Alexander Rabinowitch]** (`CLM-rabinowitch-2007-constituent-assembly`, `CLM-rabinowitch-2007-left-sr-coalition-collapse`)：结合彼得格勒与莫斯科档案指出，斯维尔德洛夫在1918年1月干预立宪会议开幕，以及6月底推迟苏维埃五大并紧急电召各地布尔什维克代表（引发左翼社革党对约399名代表资格的争议，Rabinowitch 认为存在人为制造多数的大量间接证据），均发生于布尔什维克面临农村支持流失与执政危机的紧急政治竞速之中。
   - **[传记与组织比较视野 / Stephen Kotkin]** (`Kotkin ch12, ch15`)：对照斯维尔德洛夫与斯大林在流放地的摩擦及1917年后的分工，指出斯维尔德洛夫在1917–1919年承担了跨党政人事协调职能，但高度依赖其个人强记的小型书记处在国家机器膨胀后已难以为继，八大后的组织局—书记处体制构成了制度性替代。
 
-## 2. 一跳邻域等权重微摘要 (共 9 个关联节点，严防大卡霸占上下文)
-### 邻居节点: `EVT-1918-01-constituent-assembly-dispersal`
-- **时效关系边** (`PER-sverdlov` → `EVT-1918-01-constituent-assembly-dispersal` | `executive-organizer` | 有效时段: `1918.01`): 以全俄中执委主席身份在立宪会议强推《被剥削劳动人民权利宣言》并主持起草解散立宪会议法令。
-- **节点定性微摘要 [T1]** (完备度 `draft`): 1918年1月5–6日（俄历）/1月18–19日（公历），全俄立宪会议在塔夫利达宫召开唯一常会，社革党切尔诺夫以244:153当选主席。5日白天保卫立宪会议游行在利捷伊内大街遭枪击（15至21人死亡），6日凌晨水兵卫队勒令清场关闭，西方式多党议会制尝试终结。
+## 2. 一跳邻域全量微摘要目录 (去重后共 9 个节点，0 截断)
+- **`INS-politburo-orgburo-secretariat`**（联共（布）中央政治局—组织局—书记处与官职等级名册制）: 1919年3月俄共八大后常设政治局、组织局与书记处，分掌政治决策、组织行政及日常党务人事。1922年4月斯大林任总书记后逐步控制议程、秘密文件分发与干部名册调配。经1924年七人小组协调、1925—1929年联盟重组与纪律整肃，托洛茨基、季诺维也夫、布哈林先后退出决策核心。 ‖ `→PER-sverdlov`[death_precipitated_creation|1919.03]: 斯维尔德洛夫生前兼枢党政组织联络；其1919年3月病逝促使俄共八大制度化分设政治局、组织局与书记处 ； `←PER-sverdlov`[precursor_and_catalyst|1917.04–1919.03]: 生前主持早期小型书记处；其1919.03病逝叠加战争与党员扩张需求，推动八大及3月25日…
+- **`INS-sovnarkom-and-vtsik`**（人民委员会与全俄、全苏中央执行委员会）: 苏维埃代表大会闭会期间，中执委在宪制上监督政府，人民委员会却迅速掌握施政与大量法令制定。苏俄与1922年成立的苏联各有中执委与人民委员会，不能混同。党内领导与国家机关关系不断变化，政治局权重日增，但1920年代仍须经政府落实决策。 ‖ `→PER-sverdlov`[chaired_vtsik|1917.11–1919]: 1917-11-08 [O.S.] 接替加米涅夫
+- **`MTG-1917-07-rsdlp-6th-congress`**（俄国社会民主工党（布尔什维克）第六次代表大会）: 1917-07-26至08-03[O.S.]/08-08至08-16[N.S.]，布尔什维克六大在彼得格勒半地下召开，列宁、托洛茨基缺席，斯维尔德洛夫主持。大会批准区联派并入，暂撤“一切政权归苏维埃”口号；普列奥布拉任斯基与斯大林就俄国率先开辟社会主义道路交锋。 ‖ `→PER-sverdlov`[organizes_and_reports|1917-07-26 至 08-03 [O.S.] / 1917-08-08 至 08-16 [N.S.]]: 在列宁、托洛茨基双双缺席下，斯维尔德洛夫统筹组织与主持，斯大林担纲政治主报告，布哈林担纲国际报告，奠定十月前党内实务领导班底（Kotkin 2014, ch12 L460–461）。
+- **`ORG-vikzhel`**（全俄铁路雇员与工人联合会执行委员会（维克热尔））: 维克热尔是1917年夏产生的全国铁路工会执行机关。铁路连接军队、粮食与城市，十月革命后其运输杠杆使它试图调停各社会主义政党、推动广泛联合政府。布尔什维克内部为此严重分裂，谈判未能实现最广泛联合，新的铁路工会领导机关后与布党及左翼社革党合作。 ‖ `→PER-sverdlov`[vtsik-chair|1917-11]: 11-08 [O.S.] 接任中执委主席
+- **`PER-lenin`**（弗拉基米尔·列宁）: 布尔什维克党缔造者、苏俄人民委员会主席（1917–1924）。1893年投身马克思主义运动，1903年促成布尔什维克分化；1917年发表《四月提纲》并领导十月夺权，历经布列斯特和约、内战与战时共产主义；1921年主持转向新经济政策，晚年（1922–1923）就官僚化与接班人同斯大林冲突。 ‖ `←PER-sverdlov`[indispensable_organizational_partner|1917.04–1919.03]: 虽在1917.11.01维克热尔谈判投过不同票，但总体作为列宁最核心的党政双线组织助手运作
+- **`EVT-1918-01-constituent-assembly-dispersal`**（1918年1月全俄立宪会议召开与解散）: 1918年1月5—6日（俄历；公历1月18—19日），立宪会议召开唯一常会，切尔诺夫以244∶153当选主席。议会拒认苏维埃最高权，布党与左社退场，水兵勒令散会，中执委正式解散。全国普选与两京武装核心的政治支持结构由此正面断裂。 ‖ `←PER-sverdlov`[presiding_disruptor|1918.01]: 在塔夫利达宫夺取开幕主持权宣读苏维埃宣言，并在苏维埃三大报告1月5日游行21人死亡
+- **`PER-stalin`**（约瑟夫·斯大林）: 布尔什维克高加索地下组织者、民族事务人民委员（1917–1923）及中央总书记（1922起）。依托书记处任命权与安全危机叙事，先联季-加压制托洛茨基，再联布哈林击溃联合反对派；1927–1929年以战备恐慌与“自上而下革命”击败布哈林集团，1929年12月拍板“把富农作为阶级消灭”并终结新经济政策。 ‖ `←PER-sverdlov`[exile_rival -> colleague|1913–1919.03]: 流放期两度同住产生个人摩擦；1917–1918同在中央共事（据斯大林事后自述称，十月期间…
+- **`ORG-left-srs`**（左翼社会革命党）: 1917年底从社会革命党分裂出的激进民粹派政党（1917–1923），以斯皮里多诺娃、普罗相等为首。拥护苏维埃政权并于1917年12月加入人民委员会与布尔什维克联合执政；1918年3月因反《布列斯特和约》退阁但仍维持北方公社合作，7月6日刺杀德国大使米尔巴赫遭全面清洗而覆灭。 ‖ `←PER-sverdlov`[coalition_operator -> purger|1917.11–1918.07]: 1918春主持宪法起草委员会期间容纳左翼社革党成员参拟草案；苏维埃五大前推迟会期并电召增…
+- **`PER-yagoda`**（亨里希·雅戈达）: 苏联秘密警察组织者，1923年起任OGPU第二副主席；缅任斯基1926年任主席后因病少理日常事务，雅戈达影响渐增，职衔与实际权力须区分。其机关在战争恐慌、镇压反对派及1928–1929年控制社会中服务大转变；1934–1936年任内务人民委员，1938年公审后被处决。 ‖ `→PER-sverdlov`[early-patron-and-kinship|1910s–1919]: 早期庇护人；通过斯维尔德洛夫关系网及与其外甥女的婚姻进入权力圈
 
-### 邻居节点: `INS-politburo-orgburo-secretariat`
-- **时效关系边** (`INS-politburo-orgburo-secretariat` → `PER-sverdlov` | `death_precipitated_creation` | 有效时段: `1919.03`): 斯维尔德洛夫生前兼枢党政组织联络；其1919年3月病逝促使俄共八大制度化分设政治局、组织局与书记处
-- **时效关系边** (`PER-sverdlov` → `INS-politburo-orgburo-secretariat` | `precursor_and_catalyst` | 有效时段: `1917.04–1919.03`): 生前主持早期小型书记处；其1919.03病逝叠加战争与党员扩张需求，推动八大及3月25日中央全会常设三局分工
-- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 1919年3月俄共八大在斯维尔德洛夫逝世后常设分置政治局（政治决策）、组织局（组织行政）与书记处（日常党务与人事）。1922年4月斯大林出任总书记后，逐步掌握政治局议程截稿、秘密文件分发与干部等级名册（Номенклатура）调配杠杆；历经1924年“七人小组”协调与1925—1929年多轮联盟重组及纪律整肃，托洛茨基、季诺维也夫与布哈林等先后被逐出中央决策核心。
+## 3. 关联史学争鸣与学者论断索引 (主卡外关联争鸣 3 项)
+- **`DEB-1917-october-coup-or-social-revolution`**（十月革命：少数派政变还是社会革命？ | `historiography/debates/DEB-1917-october-coup-or-social-revolution.md` | 流派 `liberal-coup, party-social-history, russian-revisionist-timing, labor-local-history, moderate-socialist-and-constitutional-legitimacy, participant-marxist, peasant-social-history, borderland-and-memory-historiography`）：十月武装夺权是少数派政变，还是工人、士兵与农民社会革命的政治表达？有组织的起义与广泛的基层动员能否同时成立，苏维埃多数又能否代表全国选民？这些问题涉及不同地区、不同时间的支持与合法性，不能以一次投票或一次攻占行动互相替代。
+- **`DEB-1918-constituent-assembly-and-soviet-democracy`**（解散立宪会议与多党苏维埃民主的命运 | `historiography/debates/DEB-1918-constituent-assembly-and-soviet-democracy.md` | 流派 `liberal-totalitarian, revisionist, sr-electoral-political-history, menshevik-history, security-legal-history`）：1918年立宪会议被武力解散，是否意味着一党统治已不可避免？争论涉及普选制宪与阶级性苏维埃两种合法性、群众动员和镇压，以及此后左翼多党合作与体制内反对派仍有多少政治空间。
+- **`DEB-1918-red-terror-and-civil-war-origins`**（红色恐怖、契卡扩张与内战期一党专政起源之争（1918–1921） | `historiography/debates/DEB-1918-red-terror-and-civil-war-origins.md` | 流派 `liberal-continuity, institutional-cheka, contingency-coalition, local-violence-and-chronicle, repressed-socialists-and-worker-protest, civil-war-structure-and-total-war, post-soviet-archival-quantitative`）：红色恐怖和契卡法外权力是列宁主义政治逻辑的必然结果，还是内战、粮食危机、联盟破裂与地方暴力交织下的制度选择？中央命令与地方自主行动怎样互相强化？恐怖升级、社会主义对手遭镇压和一党统治形成各有不同时间线，不能压缩成同一事件。
 
-### 邻居节点: `INS-sovnarkom-and-vtsik`
-- **时效关系边** (`INS-sovnarkom-and-vtsik` → `PER-sverdlov` | `chaired_vtsik` | 有效时段: `1917–1919`): 继加米涅夫任全俄中执委主席
-- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 苏维埃代表大会闭会期间，中执委在宪制上监督政府，人民委员会却迅速掌握施政与大量法令制定。苏俄与1922年成立的苏联各有中执委与人民委员会，不能混同。党内领导与国家机关关系不断变化，政治局权重日增，但1920年代仍须经政府落实决策。
+### 3.1 关联核心论断与史学家学派坐标 (`CLM-*` → `SCH-*`, 展示前 24/40 条)
+- **`CLM-rabinowitch-2007-constituent-assembly`** [`SCH-rabinowitch-alexander`(亚历山大·拉比诺维奇) | pp. 88-91, 105-110, 121-127]: 
+- **`CLM-rabinowitch-2007-left-sr-coalition-collapse`** [`SCH-rabinowitch-alexander`(亚历山大·拉比诺维奇) | pp. 274-282, 287-309, 395-396]: 
+- **`CLM-pipes-1990-october-classic-coup`** [`SCH-pipes-richard`(理查德·派普斯) | ch. 11 (The October Coup); cf. Introduction]: 
+- **`CLM-rabinowitch-1976-open-democratic-mass-party`** [`SCH-rabinowitch-alexander`(亚历山大·拉比诺维奇) | 未核：EPUB 章节及行号]: 
+- **`CLM-rabinowitch-1976-october-three-factions-debate`** [`SCH-rabinowitch-alexander`(亚历山大·拉比诺维奇) | 未核：EPUB 章节及行号]: 
+- **`CLM-rabinowitch-1976-trotsky-soviet-congress-strategy`** [`SCH-rabinowitch-alexander`(亚历山大·拉比诺维奇) | 未核：EPUB 章节及行号]: 
+- **`CLM-loginov-lenin-1917-fleeting-window-of-power`** [`SCH-loginov-vladlen`(弗拉德连·洛吉诺夫) | pp. 523-524, 531-532, 560-561, 621-622, 656-658]: 
+- **`CLM-smith-sa-1983-defensive-workers-control`** [`SCH-smith-sa`(斯蒂芬·A·史密斯（S. A. Smith）) | 中译本 pp. 106–112, 133, 135, 137, 191（即源文件标注 PDF pp. 111–117, 138, 140, 142, 196）；注意：均为中译本页码，非英文原版页码]: 
+- **`CLM-koenker-1981-moscow-october-armed-struggle-vs-petrograd`** [`SCH-koenker-diane`(黛安·P·科恩克尔) | pp. 329–355 (local PDF pp. 345–371); p. 366 (PDF p. 382)]: 
+- **`CLM-koenker-1981-rational-incremental-radicalization`** [`SCH-koenker-diane`(黛安·P·科恩克尔) | pp. 359–363 (local PDF pp. 375–379); p. 254 (PDF p. 270)]: 
+- **`CLM-basil-1984-october-and-vikzhel-collapse`** [`SCH-basil-john`(约翰·D·巴兹尔) | pp. 165–175（本地 PDF 同号）]: 
+- **`CLM-yao-hai-post-october-coalition-failure-and-one-party-formation`** [`SCH-yao-hai`(姚海) | [PDF pp. 532-535, 543-569]]: 
+- **`CLM-yao-hai-constituent-assembly-vs-soviet-legitimacy-clash`** [`SCH-yao-hai`(姚海) | [PDF pp. 574-596]]: 
+- **`CLM-trotsky-1930-art-of-insurrection-and-soviet-legality`** [`SCH-trotsky-leon`(列夫·达维多维奇·托洛茨基 · participant-historian) | （中译 EPUB 无纸页；第三卷第二十—二十一章）]: 
+- **`CLM-sukhanov-1922-october-walkout-tragedy`** [`SCH-sukhanov-nikolai`(尼古拉·苏汉诺夫) | pp. 631–647, 657–660 (PDF pp. 683–699, 709–711)]: 
+- **`CLM-figes-1996-peasant-moral-economy-1917`** [`SCH-figes-orlando`(奥兰多·费吉斯) | pp. 343-352]: 
+- **`CLM-suny-2017-totalitarian-vs-social-history-turn`** [`SCH-suny-ronald-gregor`(罗纳德·格里戈尔·苏尼) | pp. 87-95 (approx. ch. 2 sect. on totalitarianism and revision)]: 
+- **`CLM-suny-2017-class-discourse-and-polarization`** [`SCH-suny-ronald-gregor`(罗纳德·格里戈尔·苏尼) | pp. 160-175 (approx. ch. 5 on class, strikes, discourse)]: 
+- **`CLM-blanc-2021-borderlands-in-1905-and-1917`** [`SCH-blanc-eric`(埃里克·布兰克) | pp. 20–23, 338–436, 488–531, 457–543]: 
+- **`CLM-corney-2004-istpart-and-institutionalizing-october-memory`** [`SCH-corney-frederick`(弗雷德里克·C·科尼 · memory-and-cultural-history) | 【待规整语料】]: 
+- **`CLM-rabinowitch-2007-contingency-of-dictatorship`** [`SCH-rabinowitch-alexander`(亚历山大·拉比诺维奇) | pp. xi-xii, 390-398]: 
+- **`CLM-smith-scott-2011-psr-third-force-collapse`** [`SCH-radkey-oliver`(奥利弗·亨利·拉德基) | pp. 452-455, 467-473, 490-493 (PDF pp. 468-471, 483-489, 506-509)]: 
+- **`CLM-pipes-1990-red-terror-leninist-logic`** [`SCH-pipes-richard`(理查德·派普斯) | ch. 18 (The Red Terror)]: 
+- **`CLM-getzler-1967-martov-soviet-opposition`** [`SCH-getzler-israel`(伊斯雷尔·格茨勒) | pp. 168-191]: 
 
-### 邻居节点: `MTG-1917-07-rsdlp-6th-congress`
-- **时效关系边** (`MTG-1917-07-rsdlp-6th-congress` → `PER-sverdlov` | `organizes_and_reports` | 有效时段: `1917-07-26 至 08-03 [O.S.] / 1917-08-08 至 08-16 [N.S.]`): 在列宁、托洛茨基双双缺席下，斯维尔德洛夫统筹组织与主持，斯大林担纲政治主报告，布哈林担纲国际报告，奠定十月前党内实务领导班底（Kotkin 2014, ch12 L460–461）。
-- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): `1917-07-26` 至 `08-03 [O.S.] / 1917-08-08` 至 `08-16 [N.S.]`，布尔什维克在彼得格勒半地下召开第六次代表大会。列宁藏身拉兹利夫湖缺席、托洛茨基等系狱，由斯维尔德洛夫主持，斯大林与布哈林作主要政治与国际报告。大会正式批准约4,000人的托洛茨基“区联派（`Межрайонцы`）”并入，在激辩后暂时撤下“一切政权归苏维埃”口号，并留下普列奥布拉任斯基修正案与斯大林“俄国可能率先开辟社会主义道路/创造性马克思主义”的著名交锋。
-
-### 邻居节点: `PER-lenin`
-- **时效关系边** (`PER-sverdlov` → `PER-lenin` | `indispensable_organizational_partner` | 有效时段: `1917.04–1919.03`): 虽在1917.11.01维克热尔谈判投过不同票，但总体作为列宁最核心的党政双线组织助手运作
-- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 布尔什维克党缔造者、苏俄人民委员会主席（1917–1924）。1893年投身马克思主义运动，1903年促成布尔什维克分化；1917年发表《四月提纲》并领导十月夺权，历经布列斯特和约、内战与战时共产主义；1921年主持转向新经济政策，晚年（1922–1923）就官僚化与接班人同斯大林冲突。
-
-### 邻居节点: `PER-stalin`
-- **时效关系边** (`PER-sverdlov` → `PER-stalin` | `exile_rival -> colleague` | 有效时段: `1913–1919.03`): 流放期两度同住产生个人摩擦；1917–1918同在中央共事（据斯大林事后自述称，十月期间二人曾共阻列宁开除季、加）
-- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 布尔什维克高加索地下组织者、民族事务人民委员（1917–1923）及中央总书记（1922起）。依托书记处任命权与安全危机叙事，先联季-加压制托洛茨基，再联布哈林击溃联合反对派；1927–1929年以战备恐慌与“自上而下革命”击败布哈林集团，1929年12月拍板“把富农作为阶级消灭”并终结新经济政策。
-
-### 邻居节点: `ORG-left-srs`
-- **时效关系边** (`PER-sverdlov` → `ORG-left-srs` | `coalition_operator -> purger` | 有效时段: `1917.11–1918.07`): 1918春主持宪法起草委员会期间容纳左翼社革党成员参拟草案；苏维埃五大前推迟会期并电召增派代表，左翼社革党对约399名布党代表资格提出异议
-- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 1917年底从社会革命党分裂出的激进民粹派政党（1917–1923），以斯皮里多诺娃、普罗相等为首。拥护苏维埃政权并于1917年12月加入人民委员会与布尔什维克联合执政；1918年3月因反《布列斯特和约》退阁但仍维持北方公社合作，7月6日刺杀德国大使米尔巴赫遭全面清洗而覆灭。
-
-### 邻居节点: `ORG-vikzhel`
-- **时效关系边** (`ORG-vikzhel` → `PER-sverdlov` | `vtsik-chair` | 有效时段: `1917-11`): 11-08 [O.S.] 接任中执委主席
-- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 维克热尔是1917年夏产生的全国铁路工会执行机关。铁路连接军队、粮食与城市，十月革命后其运输杠杆使它试图调停各社会主义政党、推动广泛联合政府。布尔什维克内部为此严重分裂，谈判未能实现最广泛联合，新的铁路工会领导机关后与布党及左翼社革党合作。
-
-### 邻居节点: `PER-yagoda`
-- **时效关系边** (`PER-yagoda` → `PER-sverdlov` | `early-patron-and-kinship` | 有效时段: `1910s–1919`): 早期庇护人；通过斯维尔德洛夫关系网及与其外甥女的婚姻进入权力圈
-- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 雅戈达是苏联秘密警察机关的组织者。1923年起任国家政治保卫总局（OGPU）第二副主席，缅任斯基1926年任主席后因病较少主持日常事务，他的实际影响逐步上升；1927年战争恐慌、反对派打击和1928–1929年的社会控制使他的机关成为大转变的关键工具。1934–1936年任内务人民委员，1937年被捕，1938年在公审后被处决。正式职衔与事实上的权力增长不可混同。
-
-## 3. 关联史学争鸣光谱 (Historiographical Debates)
-### `DEB-1917-october-coup-or-social-revolution`：十月革命：少数派政变还是社会革命？
-## [T1] 核心问题定义
-十月武装夺权是少数派政变，还是工人、士兵与农民社会革命的政治表达？有组织的起义与广泛的基层动员能否同时成立，苏维埃多数又能否代表全国选民？这些问题涉及不同地区、不同时间的支持与合法性，不能以一次投票或一次攻占行动互相替代。
-
-## [T2] 各学派立场对照矩阵
-**经验基准**：彼得格勒苏维埃军事革命委员会组织行动，临时政府于1917-10-25 [O.S.] / 1917-11-07 [N.S.] 被推翻；第二次全俄工兵代表苏维埃代表大会当晚开幕，孟什维克与右派社革党抗议退场，大会于10月26日 [O.S.] / 11月8日 [N.S.] 通过《和平法令》《土地法令》并组建人民委员会。据站内选举统计（`DATA-01-1905-1917-strikes-and-petrograd-elections`、`DATA-07-1905-1918-unions-moscow-swings-and-constituent-assembly-votes`），布尔什维克在1917年9月莫斯科区杜马获51.5%选票、11月全俄立宪会议选举在大城市与北/西前线占优，但在全国立宪会议总票中仅占约22.5%–24%（社革党各单合占约37%–40%，且选票名册未反映10月左翼社革党独立分党）。苏维埃代表、立宪会议选民与农村夺地农民并非同一政治总体。
-
-| 学派/取向 | 代表学者与著作 | 核心论点摘要 | 支撑论断卡 | 主要受批评盲点 |
-| :--- | :--- | :--- | :--- | :--- |
-| 自由主义“静默技术性政变”论 | Richard Pipes, *The Russian Revolution* (1990) | 援引马拉帕尔泰“静默技术性政变”概念，断言十月并非群众起义，而是列宁与军革委利用临时政府权威真空发动的少数派武装夺权，且本质上是**“针对全国苏维埃组织本身的政变”**——抢在苏维埃二大开幕前推翻临时政府，将全国苏维埃代表置于既成事实之下。 | `CLM-pipes-1990-october-classic-coup` | 将工人赤卫队与驻军顺从简化为阴谋家操纵，难以解释布尔什维克在9–11月两都市/区杜马及北方前线选票中的真实多数。 |
-| 开放性群众政党与托洛茨基苏维埃合法性策略 | Alexander Rabinowitch, *The Bolsheviks Come to Power* (1976) | 1917年的彼得格勒布尔什维克并非铁板一块的密谋集团，而是吸收数万工人兵士、容忍加米涅夫—季诺维也夫公开异议的开放性群众政党；夺权成功关键在于**托洛茨基策略**——以彼得格勒苏维埃军革委“保卫苏维埃与卫戍部队”为名实施防御性展开，并将政权移交严格锚定于第二次全俄苏维埃代表大会开幕，以赢得无党派工兵的苏维埃合法性认同。 | `CLM-rabinowitch-1976-open-democratic-mass-party`；`CLM-rabinowitch-1976-october-three-factions-debate`；`CLM-rabinowitch-1976-trotsky-soviet-congress-strategy` | 首都党组织的战前民主开放性与苏维埃防卫策略，不能自动推及外省夺权或10月底维克热尔谈判破裂后的一党专政化。 |
-| 列宁“稍纵即逝窗口”与先行夺权论（与托洛茨基路线之张力） | Vladlen T. Loginov, *Lenin in 1917: On the Brink of the Possible* (2017) | 与拉比诺维奇聚焦托洛茨基“等待并依托苏维埃二大”形成直接张力：洛吉诺夫论证列宁之所以痛斥“等待苏维埃代表大会是白痴行为或背叛、拖延就是死亡”，是因为洞察到10月中旬无政府浪潮与军事反革命夹击下存在“稍纵即逝的夺权窗口”，唯有在大会开幕前先行武装夺权、造成既成事实，才能迫使动摇的苏维埃大会接管政权。 | `CLM-loginov-lenin-1917-fleeting-window-of-power` | 高度认同列宁对紧急时机的政治直觉，但恰恰从反面印证了“先行夺权把苏维埃二大置于既成事实”的程序正当性争议。 |
-| 工厂控制与莫斯科“政策先于党派”社会史 | S. A. Smith, *Red Petrograd* (1983); Diane P. Koenker, *Moscow Workers and the 1917 Revolution* (1981) | S. A. Smith证明彼得格勒工厂委员会推行“工人监督”最初是防止企业主关厂与经济崩溃的防御性自救，而非按意识形态蓝图消灭资本主义；Koenker证明莫斯科十月经历了与彼得格勒截然不同的惨烈炮战，且莫斯科多数工人虽在原则上拥护苏维埃政权，却**拒绝为党派垄断冒内战风险**（支持多党社会主义联合），其激进化遵循**“政策先于党派（policy before party）”**的理性渐进机制。 | `CLM-smith-sa-1983-defensive-workers-control`；`CLM-koenker-1981-moscow-october-armed-struggle-vs-petrograd`；`CLM-koenker-1981-rational-incremental-radicalization` | 两都工业工人的防御性/理性选择不能代表占人口八成的农村公社或边疆民族地区。 |
-| 维克热尔妥协流产与立宪会议合法性冲突 | John D. Basil, *The Mensheviks in the Revolution of 1917* (1984); 姚海（主编）《俄国革命史》(2013); Alexander Rabinowitch, *The Bolsheviks in Power* (2007) | Basil与姚海剖析十月后全俄铁道工会（维克热尔）调停与清一色社会主义联合政府谈判：孟什维克内部分裂与10月29–30日士官生暴动撕裂妥协，布尔什维克中央内部加米涅夫、季诺维也夫、李可夫、诺金等辞职警告“纯布尔什维克政府只能靠政治恐怖维持”；姚海与Rabinowitch (2007) 进一步揭示苏维埃阶级专政逻辑与普选立宪会议（1918年1月5–6日被武力解散）之间不可调和的二元合法性冲突。 | `CLM-basil-1984-october-and-vikzhel-collapse`；`CLM-yao-hai-post-october-coalition-failure-and-one-party-formation`；`CLM-yao-hai-constituent-assembly-vs-soviet-legitimacy-clash`；`CLM-rabinowitch-2007-constituent-assembly` | 维克热尔谈判与立宪会议解散解释了十月向一党制滑落的制度拐点，但不能反过来否定10月25日临时政府已彻底丧失首都工兵支持的事实。 |
-| 当事人革命解释与反对派在场反证（B级文献） | [B级当事人文献] Leon Trotsky, *History of the Russian Revolution* (1930–32); N. N. Sukhanov, *The Russian Revolution, 1917* (1922) | 托洛茨基将起义定性为“在苏维埃合法性掩护下实施的武装夺权艺术”；**苏汉诺夫的证言尤具史学张力**——他虽作为孟什维克国际派痛斥布尔什维克政权缺乏民主准备、悔恨温和派10月25日夜退场将苏维埃拱手让给列宁，却**以亲历反对者身份断然驳斥右翼“纯军事阴谋”说**，证言彼得格勒工人与驻军当时确以压倒性多数支持推翻临时政府。 | `CLM-trotsky-1930-art-of-insurrection-and-soviet-legality`；`CLM-sukhanov-1922-october-walkout-tragedy` | 两者均属B级当事人回忆与事后政治辩护（托洛茨基旨在反击斯大林并凸显自身军革委功绩，苏汉诺夫旨在检讨国际派失策），必须与当时会议速记对读。 |
-| 农民道德经济、帝国边疆与十月记忆建构 | Orlando Figes (1996); Ronald Grigor Suny (2017); Eric Blanc (2021); Frederick C. Corney, *Telling October* (2004) | Figes揭示农民公社夺地遵循自身“道德经济”，利用《土地法令》将既成黑分土地合法化而非服从城市党令；Suny综合社会史与阶级话语极化；Blanc将1917年十月放入帝国边疆民族与阶级互动视野；Corney则考证党史委（Istpart）与1920年代庆典如何将原本混乱多中心的十月夺权事后重塑为宏大叙事神话。 | `CLM-figes-1996-peasant-moral-economy-1917`；`CLM-suny-2017-totalitarian-vs-social-history-turn`；`CLM-suny-2017-class-discourse-and-polarization`；`CLM-blanc-2021-borderlands-in-1905-and-1917`；`CLM-corney-2004-istpart-and-institutionalizing-october-memory` | 农民夺地与边疆动员支持推翻旧政权，但并不等于授权布尔什维克随后的余粮收集制与一党垄断；记忆建构研究不可消解1917年秋真实的社会崩溃。 |
-
-### `DEB-1918-constituent-assembly-and-soviet-democracy`：解散立宪会议与多党苏维埃民主的命运
-## [T1] 核心问题定义
-1918年立宪会议被武力解散，是否意味着一党统治已不可避免？争论涉及普选制宪与阶级性苏维埃两种合法性、群众动员和镇压，以及此后左翼多党合作与体制内反对派仍有多少政治空间。
-
-## [T2] 各学派立场对照矩阵
-| 学派/取向 | 代表学者与著作 | 核心论点摘要 | 支撑论断卡 | 主要受批评盲点 |
-| :--- | :--- | :--- | :--- | :--- |
-| 修正派与地方档案 | Alexander Rabinowitch, *The Bolsheviks in Power* (2007) | 解散由布尔什维克党内温和派（加米涅夫等）败给列宁、左翼社革党配合及相当程度的工农冷漠共同促成；多党苏维埃空间是在1918年春夏危机中分阶段收缩的。 | `CLM-rabinowitch-2007-constituent-assembly`; `CLM-rabinowitch-2007-contingency-of-dictatorship`; `CLM-rabinowitch-2007-left-sr-coalition-collapse` | 彼得格勒经验能否推广全国、危机解释是否低估意识形态与主动镇压，均有争议。 |
-| 社会革命党与选举史奠基派 | Oliver H. Radkey, *The Sickle under the Hammer* (1963) | 拆解社革党选票内部俄/乌与左右翼裂痕（299俄社革+81乌社革），揭示右翼社革党领导层因迷信合法议会程序、禁止武装保卫议会而自缚手脚，随后在萨马拉—西伯利亚沦为白卫军官“保护色”。 | `CLM-smith-scott-2011-psr-third-force-collapse`（馆藏真身 Radkey 1963）；`DATA-01` | 对精英策略失误的严厉道德批评有时低估了士兵厌战的结构性约束。 |
-| 自由主义制度批判 | Richard Pipes, *The Russian Revolution* (1990) | 将1918年1月枪击保卫立宪会议游行与武力关闭议会视为列宁夺权意志与极权恐怖制度化的真正起点，认为布尔什维克借民众疲惫确立了不受制约的专政。 | `CLM-pipes-1990-october-classic-coup`; `CLM-pipes-1990-red-terror-leninist-logic` | 对地方苏维埃多党合作与1918年上半年布尔什维克党内争论关注不足。 |
-| 孟什维克与议会民主传记派 | Israel Getzler, *Martov* (1967); W. H. Roobol, *Tsereteli* (1976) | 策烈铁里在 `1918-01-05 [O.S.]` 立宪会议讲坛作最后跨阶级议会民主抗辩；马尔托夫则在会后转入苏维埃体制内开展半合法反对（直至 `1918-06-14` 全俄中执委驱逐右社革与孟什维克）。 | `CLM-getzler-1967-martov-soviet-opposition`; `CLM-roobol-1976-tsereteli-tragedy-of-moderation` | 领袖政治伦理需与工厂全权代表会议（丘拉科夫 `CLM-churakov-2004-*`）实证规模对勘。 |
-
-### `DEB-1918-red-terror-and-civil-war-origins`：红色恐怖、契卡扩张与内战期一党专政起源之争（1918–1921）
-## [T1] 核心问题定义
-红色恐怖和契卡法外权力是列宁主义政治逻辑的必然结果，还是内战、粮食危机、联盟破裂与地方暴力交织下的制度选择？中央命令与地方自主行动怎样互相强化？恐怖升级、社会主义对手遭镇压和一党统治形成各有不同时间线，不能压缩成同一事件。
-
-## [T2] 各学派立场对照矩阵
-**经验基准**：全俄肃反委员会（契卡）于1917-12-07 [O.S.] / 1917-12-20 [N.S.] 凭人民委员会非立法决议成立；1918年3月《布列斯特和约》后左翼社革党退出人民委员会，7月4–10日第五次全俄苏维埃代表大会期间爆发7月6日刺杀德国大使米尔巴赫事件，布尔什维克与左翼社革党彻底决裂并于7月10日通过1918年苏俄宪法；8月30日乌里茨基遇刺、列宁遇刺重伤。据站内入库S级档案校勘（`sources/web-archive/E06_E09_state_and_comintern/1918-09-05_decree-on-red-terror.md`），广泛扣押人质指令首先出自9月4日内务人民委员彼得罗夫斯基电令，而9月5日人民委员会《关于红色恐怖的决议》（RGASPI打印原件由司法人民委员库尔斯基、内务人民委员彼得罗夫斯基、办公厅主任邦奇-布鲁耶维奇与秘书福季耶娃签署，**并非捷尔任斯基签署，且9月5日决议正文中并未出现“人质”一词**）将集中营隔离与就地枪决正式法制化。跨口径处决统计（`DATA-06-1918-1929-cheka-ogpu-sentencing-and-1929-collectivization-surge`）须严格区分中央登记案卷与地方未登记法外处决。
-
-| 学派/取向 | 代表学者与著作 | 核心论点摘要 | 支撑论断卡 | 主要受批评盲点 |
-| :--- | :--- | :--- | :--- | :--- |
-| 自由主义意识形态连续论 | Richard Pipes, *The Russian Revolution* (1990) | 提出“法国大革命终结于恐怖，而俄国革命始于恐怖”：布尔什维克因缺乏多数民众授权，将系统性恐怖用作“民众支持的替代品”，阶级敌人话语与列宁的雅各宾法律观使红色恐怖成为十月少数派政变的必然逻辑延伸。 | `CLM-pipes-1990-red-terror-leninist-logic` | 将1918年夏内战升级与暗杀危机前后的制度突变全部还原为先验意识形态蓝图，低估了战时生存危机与基层压力。 |
-| 契卡制度史与法外基因论 | George Leggett, *The Cheka: Lenin's Political Police* (1981) | 追踪契卡从1917年12月仅具侦查权、凭人民委员会行政决议（类比沙皇尼古拉一世第三厅）建置，在1918年春夏突破司法人民委员部（斯泰因伯格）制约、借9月红色恐怖法令将法外处决权制度化，直至1922年改组为GPU并由列宁5月致库尔斯基密信将恐怖写入刑法典的制度连续性（估算1917–1922年契卡直接处决约14万人、镇压起义另致约14万人死亡）。 | `CLM-leggett-1981-vecheka-extra-legal-origins`；`CLM-leggett-1981-red-terror-institutionalization`；`CLM-leggett-1981-cheka-to-gpu-continuity` | 1981年尚未能利用后苏联解密的FSB中央与地方卷宗，其高层估算数字需与莫佐欣、泽姆斯科夫档案统计对勘。 |
-| 联盟破裂、党组织萎缩与专政偶然论 | Alexander Rabinowitch, *The Bolsheviks in Power: The First Year of Soviet Rule in Petrograd* (2007) | 论证一党专政与大规模恐怖并非十月既定方案：1918年春彼得格勒布尔什维克党员从约5万人骤降至约6,000人，为保住苏维埃五大多数竟伪造约399席代表资格；左翼社革党7月刺杀米尔巴赫旨在逼停布列斯特和约而非推翻苏维埃（**1918年12月彼得格勒契卡甚至秘密撤销了对左翼社革党“有组织武装起义”的指控**）；8月30日乌里茨基遇刺后，彼得格勒各区委“自下而上”施压扩大报复，与中央危机共振催生红色恐怖。 | `CLM-rabinowitch-2007-contingency-of-dictatorship`；`CLM-rabinowitch-2007-left-sr-coalition-collapse` | 彼得格勒在季诺维也夫与乌里茨基初期相对克制及随后失控的个案，不能直接代表伏尔加河或南方前线各省的暴力烈度。 |
-| 地方庇护网络、红色恐怖编年史与捷尔任斯基机构化 | Delano Dugarm (2001，收入 Donald J. Raleigh 编 *Provincial Landscapes*)；Igor Ratkovsky (伊·谢·拉特科夫斯基 2017两部专著，依托 A. M. & A. A. Plekhanov 2007 档案集) | Dugarm以坦波夫省个案揭示地方布尔什维克宗派庇护网、溃兵与契卡自主滥权常偏离莫斯科指令，甚至以“虚构暴动”掩盖征粮失败；圣彼得堡国立大学史家拉特科夫斯基（2017《契卡红色恐怖编年史》与《捷尔任斯基传》）依托普列汉诺夫父子2007年档案集，重构人质制度、地方契卡对孟什维克与社革党的压制、1918年秋约8,000人处决估算，以及捷尔任斯基如何将分散的革命暴力收编为垂直集权的契卡—内务—最高国民经济委员会官僚机器。 | `CLM-raleigh-2001-local-bolshevik-violence-and-clientelism`；`CLM-cheka-chronicle-hostage-and-local-autonomy`；`CLM-cheka-chronicle-suppression-of-socialist-rivals`；`CLM-plekhanov-am-dzerzhinsky-cheka-institutionalization` | 地方报刊编年史与契卡内部通报存在漏报或战绩夸大双向偏差，须与独立受害者名册及省级法院档案交叉核验。 |
-| 被镇压社会主义对手、第三势力崩溃与1918年工人抗议 | [S级当事人演说] L. Martov (1920年10月哈勒大会演说)；Oliver H. Radkey, *The Sickle under the Hammer* (1963)；D. O. Churakov (丘拉科夫, 2004) | 马尔托夫在1920年德国独立社民党哈勒大会上痛斥无差别红色恐怖（如彼得格勒一次处决约800人）与“二十一条”如何摧毁社会主义道德与苏维埃民主；Radkey剖析社革党与科穆奇（Komuch）“民主第三势力”因内部分裂及白军借其作“保护色”而崩溃，将政局推入红白恐怖两极；丘拉科夫以档案证明1918年苏维埃辖区210–220家大中型企业爆发10–25万工人罢工抗议，直至8月伊热夫斯克—沃特金斯克武装工人起义，直接证伪“镇压对象仅限于资产阶级和地主”的官方叙事。 | `CLM-halle-1920-martov-critique-of-terror-and-21-conditions`；`CLM-smith-scott-2011-psr-third-force-collapse`；`CLM-churakov-2004-soviet-worker-protest-dynamics-1918`；`CLM-churakov-2004-izhevsk-votkinsk-worker-insurrection` | 反对派控诉与工人起义证明了恐怖对劳动阶级自身的反噬，但对白军战区白色恐怖与外国干涉的对称比较需另行展开。 |
-| 内战军事化结构与总体战现代治理 | Evan Mawdsley, *The Russian Civil War* (1987); David L. Hoffmann, *Cultivating the Masses* (2011) | Mawdsley从军事地理与政权生存结构出发，指出内战与政治高度军事化均是十月夺权方式的直接代价（“内战代价即革命代价”）；Hoffmann将契卡监控、集中营与粮食强制置于1914年一战以来欧洲列强总体战人口治理与国家暴力技术的连续谱中。 | `CLM-mawdsley-1987-civil-war-militarized-regime`；`CLM-hoffmann-2011-continuum-of-total-war-1914-1929` | 欧洲总体战技术共性或军事地理决定论，不能消解布尔什维克在1921年内战结束后仍保留并制度化法外警察权力的政治选择责任。 |
-| 后苏联FSB/GARF档案定量校准与莫佐欣“战时/和平期二分法” | O. B. Mozokhin (莫佐欣, 2006/2016)；V. N. Zemskov (泽姆斯科夫, 2010s) | 莫佐欣据俄罗斯联邦安全局中央档案馆（ЦА ФСБ РФ）统计表（`DATA-06-1918-1929-cheka-ogpu-sentencing-and-1929-collectivization-surge`），确认1918–1921年有案可查契卡处决约1.75万人（计入缺省全期上限不超过5万），并提出鲜明的**国家主义二分法**——肯定1918–1921年战时契卡镇压武装叛乱的应急必要性，却**尖锐批判1922年后和平时期GPU/OGPU继续垄断法外司法**（如1924年4,097起反革命案仅6起移交法院，战时死刑率6.9% vs 和平期0.5%/0.94%）；泽姆斯科夫据GARF档案校准1918–1920年登记反革命案判刑62,231人、处决25,709人（含未登记上限<10万），共同驳斥百万级夸大数字。 | `CLM-mozokhin-cheka-to-ogpu-extrajudicial-jurisdiction-1918-1929`；`CLM-zemskov-1920s-archival-repression-scale-before-1930` | 中央汇总报表未涵盖1918–1920年前线红军革命军事法庭、征粮队及地方县契卡未上报的就地处决，档案下限不等于实际死亡总数。 |
-
-## 4. 关联时间线锚点 (共 7 条)
-- **1917-04-29 [O.S.] / 1917-05-12 [N.S.]** (`TL-W32-1917-05-12-01`, L3): **布尔什维克四月会议闭幕：列宁路线胜出（71:39:8）与九人新中央当选** — 1917-04-29 [O.S.] / 05-12 [N.S.]至30日凌晨04:00，四月会议闭幕：列宁反驳李可夫经济落后阶段论（“没人能说清谁先开始、谁来完成”），《关于当前形势》以71:39:8通过，民族自决决议56:16:18胜出（皮达可夫、捷尔任斯基反对；洛吉诺夫中译误作“皮亚特尼茨基”），但退出齐美尔瓦尔德案以1:8遭拒。109名代表选出九人中央（列宁104、季诺维也夫101、斯大林97、加米涅夫95、米柳京82、诺根76、斯维尔德洛夫71、斯米尔加53、费奥多罗夫48）。
-- **1917-11-03 [O.S.] / 1917-11-16 [N.S.]** (`TL-W36-1917-11-16-01`, L3): **莫斯科克里姆林宫收复、军校投降；列宁发出十人最后通牒** — 清晨红军收复莫斯科克里姆林宫，16:00亚历山大军事学校投降，莫斯科七日血战（数百人阵亡）结束；维克热尔会场梁赞诺夫递交普梯洛夫强硬决议被阿布拉莫维奇宣布谈判已死；当夜列宁起草十人联署最后通牒限令党内五名少数派无条件服从。
-- **1917-11-08 [O.S.] / 1917-11-21 [N.S.]** (`TL-W36-1917-11-21-01`, L3): **斯维尔德洛夫接替加米涅夫任全俄中执委主席；彼得堡党委首议“第三次革命”** — 全俄中执委以19:14选举斯维尔德洛夫取代加米涅夫任主席，奠定兼掌党书记处与苏维埃国家首脑的中枢机制；同日彼得堡委员会紧急会议上，沃洛达尔斯基提出若布尔什维克普选失利则“将需要第三次革命”。
-- **1917-11-17 [O.S.] / 1917-11-30 [N.S.]** (`TL-W36-1917-11-30-01`, L3): **中执委通过《关系指示》；武装强入国家银行提500万卢布；开启布—左翼社革党入阁谈判** — 全俄中执委通过斯维尔德洛夫拟定的政府—中执委关系准则；缅任斯基率赤卫队强行闯入罢工中的国家银行提取500万卢布；同日布尔什维克与左翼社革党正式展开持续至12-09的三周入阁谈判（科列加耶夫旋先任农业委员）。
-- **1918-01-05 [O.S.] / 1918-01-18 [N.S.]** (`TL-W20-1918-01-18-02`, L3): **塔夫利达宫立宪会议开幕与斯维尔德洛夫宣读权利宣言** — 切尔诺夫244比153当选主席；布尔什维克要求议会承认苏维埃最高权。
-- **1918-01-05 [O.S.] / 1918-01-18 [N.S.]** (`TL-W20-1918-01-18-01`, L3): **立宪会议开幕日和平游行在利捷伊内大街遭枪击** — 保卫立宪会议同盟无武装游行遭赤卫队与水兵扫射，死伤统计在高尔基15人与斯维尔德洛夫报告21人之间。
-- **1918-01-10 [O.S.] / 1918-01-23 [N.S.]** (`TL-W20-1918-01-23-01`, L3): **全俄苏维埃第三次代表大会开幕** — 追认立宪会议解散并推进苏维埃联邦宪法讨论。
+## 4. 关联时间线骨干锚点 (L0–L2 展示 0 条，另有 7 条 L3 逐日细节见 `timeline/L3_daily/`)

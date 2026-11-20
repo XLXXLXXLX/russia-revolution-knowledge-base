@@ -1,14 +1,9 @@
-# 1-Hop 平衡上下文包：`PER-kornilov` (拉夫尔·科尔尼洛夫)
+# 1-Hop 去重平衡上下文包：`PER-kornilov`
 
-> 本文件由 `python scripts/kb.py pack` 自动编译，旨在将失控的 `1+N` 随机读取压缩为**等权重、带时效边实质与史学盲区告警**的单次全景读取。
+> 由 `python scripts/kb.py pack` 动态编译：保留 **100% 一跳邻居与多时段关系边**，跨卡自动去重争鸣与时间线，并关联学者学派 (`SCH-*`)。
 
-## 0. 认知完备度与反偏斜仪表盘 (Epistemic & Skew Warnings)
-- **主卡路径**: `cards/people/PER-kornilov.md`
-- **完备度等级**: `multi-perspective`
-- **已覆盖视角**: `archival-rabinowitch, liberal-totalitarian-pipes, civil-war-military-mawdsley, trotskyist-witness`
-- **待补齐视角**: `white-emigre-hagiography`
-- **偏斜风险提示**:
-  - ⚠️ 主卡显式声明尚缺以下视角待补: `white-emigre-hagiography`。
+## 0. 认知完备度与反偏斜仪表盘
+- **`PER-kornilov`** (拉夫尔·科尔尼洛夫 | `cards/people/PER-kornilov.md` | `multi-perspective`): 已覆盖=`archival-rabinowitch, liberal-totalitarian-pipes, civil-war-military-mawdsley, trotskyist-witness`；待补=`white-emigre-hagiography`
 
 ## 1. 主卡核心层 ([T1] + [T2])
 ## [T1] 60秒定性微摘要
@@ -39,38 +34,16 @@
   - **[托洛茨基“双雄合谋反噬论” / Leon Trotsky 1932]**（`1917-07_july_days_and_kornilov_affair`）：专辟《克伦斯基的阴谋》与《科尔尼洛夫叛乱》两章，指出克伦斯基最初确实与科尔尼洛夫合谋企图用前线铁腕碾碎彼得格勒苏维埃，只是在发觉科尔尼洛夫与有产阶级打算顺带将自己一脚踢开时才在8月26日仓皇反咬；反科尔尼洛夫动员客观上成为“十月起义的武装彩排”（`ch37–ch38`）。
   - **[莫兹利白军结构性败因论 / Evan Mawdsley 1987]**（`CLM-mawdsley-1987-white-movement-structural-defeat`, `RN-W20-civil-war-geopolitics-and-military-specialists`）：指出科尔尼洛夫与阿列克谢耶夫、邓尼金创建的志愿军从诞生起就受困于军官团对政党政治与社会改革的鄙视（“动乱年代 *smuta*”心态）、大俄罗斯沙文主义以及与顿河/库班哥萨克地方自治主义的张力；1918年春仅4,000人的“冰雪行军”虽铸就了白军精神图腾，却暴露了其在广大农民与工人群体中的极端孤立（`pp. 212–218, 287–288`）。
 
-## 2. 一跳邻域等权重微摘要 (共 7 个关联节点，严防大卡霸占上下文)
-### 邻居节点: `EVT-1917-08-kornilov-affair`
-- **时效关系边** (`PER-kornilov` → `EVT-1917-08-kornilov-affair` | `commander-in-rupture` | 有效时段: `1917.07-09`): 8月底与克伦斯基决裂后派第3骑兵军进逼彼得格勒遭铁路工人与赤卫队瓦解，客观摧毁温和派联立根基并促成首都苏维埃布尔什维克化。
-- **时效关系边** (`EVT-1917-08-kornilov-affair` → `PER-kornilov` | `protagonist` | 有效时段: `1917.09.06–09.14`): 试图强力改组政府、下令第3骑兵军北进并通电抗命，失败后于1917-09-01 [O.S.] / 1917-09-14 [N.S.]在莫吉廖夫被拘押。
-- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): `1917-08-24 [O.S.] / 09-06 [N.S.]` 至 `08-31 / 09-13` 克伦斯基与科尔尼洛夫在萨文科夫调兵、李沃夫传话及 `08-26` 电报对质后决裂。克雷莫夫第3骑兵军遭铁路拆轨、重装赤卫队与穆斯林代表瓦解；`1917-08-31 [O.S.] / 1917-09-13 [N.S.]`夜彼得格勒苏维埃通过布尔什维克政权决议；主席团改选发生在后续阶段。
+## 2. 一跳邻域全量微摘要目录 (去重后共 7 个节点，0 截断)
+- **`EVT-1917-08-kornilov-affair`**（1917年科尔尼洛夫事件）: 1917-08-24至08-31[O.S.]/09-06至09-13[N.S.]，克伦斯基与科尔尼洛夫经萨文科夫调兵、李沃夫传话及电报对质后决裂。铁路工人、赤卫队与穆斯林代表瓦解第3骑兵军；末日夜彼得格勒苏维埃通过布尔什维克政权决议，主席团改选在后。 ‖ `→PER-kornilov`[protagonist|1917.09.06–09.14]: 试图强力改组政府、下令第3骑兵军北进并通电抗命，失败后于1917-09-01 [O.S.] / 1917-09-14 [N.S.]在莫吉廖夫被拘押。 ； `←PER-kornilov`[commander-in-rupture|1917.07-09]: 8月底与克伦斯基决裂后派第3骑兵军进逼彼得格勒遭铁路工人与赤卫队瓦解，客观摧毁温和派联立…
+- **`PER-denikin`**（安东·邓尼金）: 俄国陆军中将、志愿军与南俄武装力量总司令（1872—1947）。1919年夏秋依《莫斯科训令》三路北伐逼近奥廖尔与图拉；因大俄罗斯主义排斥边疆民族及哥萨克、纵容“沙拉班”地主复辟与大规模反犹屠杀致后方崩溃，1920年3月自新罗西斯克仓皇撤退辞职，流亡欧美著史终老。 ‖ `→PER-kornilov`[co-conspirator-and-successor|1917.08–1918.04]: 1917年声援科尔尼洛夫一同入狱，1918年4月后者在叶卡捷琳诺达尔阵亡后接掌志愿军 ； `←PER-kornilov`[co-conspirator -> successor|1917.08–1918.04]: 邓尼金因公开声援科尔尼洛夫同囚于别霍夫，共创南俄白卫志愿军，并在科尔尼洛夫阵亡后接掌白军帅印
+- **`PER-kerensky`**（亚历山大·克伦斯基）: 杜马劳动派律师、1917年临时政府司法部长、陆海军部长与总理（07-08[O.S.]/07-21[N.S.]起）。二月率先筹建杜马军事委员会，兼任苏维埃副主席入阁；六月攻势受阻、调防与退阁触发七月危机（07-06/19转全面溃败），八月与科尔尼洛夫决裂，十月离冬宫反扑失败流亡。 ‖ `→PER-kornilov`[appointer_then_nemesis|1917-07–1917-09]: 7月委任其任最高统帅，08-26–27 [O.S.] / 09-08–09 [N.S.]休斯电报核询后免职并宣布其叛国 ； `←PER-kornilov`[appointee-partner -> mutinous-enemy|1917.07–1917.09]: 7月获克伦斯基任命为最高统帅并共谋整肃首都左翼，8月26–27日因独裁权柄之争与休斯电报…
+- **`ORG-kadets`**（立宪民主党（卡德特党））: 1905年10月从解放同盟诞生的俄国自由主义核心政党，主张四尾制宪、有偿征地与议会道路，曾主导前两届杜马与战时进步同盟。1917年二月主导首届临时政府并切断对杜马从属关系，旋因战争、土地危机及科尔尼洛夫事件退阁丧失民心，十月后被定为“人民公敌”并在内战与流亡中分裂。 ‖ `←PER-kornilov`[political-backer|1917.08]: 立宪民主党与工商业巨头在莫斯科国务会议上将科尔尼洛夫奉为重建秩序的强人旗帜，8月底危局中…
+- **`EVT-1917-10-october-revolution`**（1917年十月革命）: 1917年10月24—27日（俄历；公历11月6—9日），军事革命委员会夺取彼得格勒中枢，冬宫陷落，苏维埃二大通过和平、土地法令并建立人民委员会。群众激进化、组织夺权与多党联合失败交织；首都迅速接管不代表全国无血革命。 ‖ `←PER-kornilov`[unintended-catalyst|1917.08–1917.10]: 科尔尼洛夫叛乱迫使苏维埃温和派武装1.5万赤卫队并释放被押布尔什维克，直接触发8月31日…
+- **`EVT-1918-1920-russian-civil-war`**（俄国内战（1918–1920））: 1918至1920年红白主战场的内战中，布尔什维克依托中央腹地、军火遗产与铁路机动击败分散白军；征粮和恐怖又激起工农反抗。乌克兰及外高加索的民族国家竞争不能归入简单红白对决，克里米亚撤离仅标志主要白军战线收束，边疆与农民战争仍在延续。 ‖ `←PER-kornilov`[white-founder|1917.11–1918.04]: 在顿河创建白卫志愿军并领导“冰雪行军”，奠定南俄白军军官团核心与“反政治军事专政”传统
+- **`PER-savinkov`**（鲍里斯·维克托罗维奇·萨温科夫）: 社革党战斗组织者、作家，参与刺杀沙皇高官。1917年任陆军部副部长及代理部长，涉科尔尼洛夫事件遭开除；1918年组反布同盟，后经营流亡运动。1924年被OGPU“辛迪加-2”诱捕，认罪后死刑改十年；1925年羁押中死亡，官方自杀说与他杀疑云均须审慎核证。 ‖ `→PER-kornilov`[intermediary-then-opponent|1917.07–09]: 在整军、戒严与调兵问题上充当与克伦斯基之间的中介，8月赴莫吉廖夫谈判，决裂后转而组织首都防御
 
-### 邻居节点: `PER-kerensky`
-- **时效关系边** (`PER-kornilov` → `PER-kerensky` | `appointee-partner -> mutinous-enemy` | 有效时段: `1917.07–1917.09`): 7月获克伦斯基任命为最高统帅并共谋整肃首都左翼，8月26–27日因独裁权柄之争与休斯电报机通话后彻底决裂
-- **节点定性微摘要 [T1]** (完备度 `draft`): 俄国杜马劳动派律师、1917年临时政府司法部长（3月起）、陆海军部长（5月起）与总理（俄历7月8日起至十月）。二月革命中率先筹建杜马军事委员会；6月发动加里西亚攻势失败，7月事变后接掌总理，8月底与科尔尼洛夫决裂；十月起义当日上午离京求援失败后长期流亡欧美。
-
-### 邻居节点: `PER-denikin`
-- **时效关系边** (`PER-kornilov` → `PER-denikin` | `co-conspirator -> successor` | 有效时段: `1917.08–1918.04`): 邓尼金因公开声援科尔尼洛夫同囚于别霍夫，共创南俄白卫志愿军，并在科尔尼洛夫阵亡后接掌白军帅印
-- **时效关系边** (`PER-denikin` → `PER-kornilov` | `co-conspirator-and-successor` | 有效时段: `1917.08–1918.04`): 1917年声援科尔尼洛夫一同入狱，1918年4月后者在叶卡捷琳诺达尔阵亡后接掌志愿军
-- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 俄国陆军中将、志愿军与南俄武装力量总司令（1872—1947）。1919年夏秋依《莫斯科训令》三路北伐逼近奥廖尔与图拉；因大俄罗斯主义排斥边疆民族及哥萨克、纵容“沙拉班”地主复辟与大规模反犹屠杀致后方崩溃，1920年3月自新罗西斯克仓皇撤退辞职，流亡欧美著史终老。
-
-### 邻居节点: `ORG-kadets`
-- **时效关系边** (`PER-kornilov` → `ORG-kadets` | `political-backer` | 有效时段: `1917.08`): 立宪民主党与工商业巨头在莫斯科国务会议上将科尔尼洛夫奉为重建秩序的强人旗帜，8月底危局中退阁观望
-- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 1905年10月从解放同盟诞生的俄国自由主义核心政党，主张四尾制宪、有偿征地与议会道路，曾主导前两届杜马与战时进步同盟。1917年二月主导首届临时政府并切断对杜马从属关系，旋因战争、土地危机及科尔尼洛夫事件退阁丧失民心，十月后被定为“人民公敌”并在内战与流亡中分裂。
-
-### 邻居节点: `EVT-1917-10-october-revolution`
-- **时效关系边** (`PER-kornilov` → `EVT-1917-10-october-revolution` | `unintended-catalyst` | 有效时段: `1917.08–1917.10`): 科尔尼洛夫叛乱迫使苏维埃温和派武装1.5万赤卫队并释放被押布尔什维克，直接触发8月31日彼得格勒苏维埃布尔什维克化
-- **节点定性微摘要 [T1]** (完备度 `draft`): 1917年10月24日至26日（公历11月6日至8日），布尔什维克依托彼得格勒苏维埃军事革命委员会推翻克伦斯基临时政府。起义占领首都交通通信要冲并攻克冬宫；第二届全俄苏维埃代表大会通过和平法令与土地法令，成立以列宁为首的人民委员会，确立苏维埃苏俄政权，开启全球社会主义运动新纪元。
-
-### 邻居节点: `EVT-1918-1920-russian-civil-war`
-- **时效关系边** (`PER-kornilov` → `EVT-1918-1920-russian-civil-war` | `white-founder` | 有效时段: `1917.11–1918.04`): 在顿河创建白卫志愿军并领导“冰雪行军”，奠定南俄白军军官团核心与“反政治军事专政”传统
-- **节点定性微摘要 [T1]** (完备度 `draft`): 1918–1920年苏俄内战：布尔什维克依托“苏托邦”人口、军火与莫斯科铁路枢纽内线机动，先后粉碎高尔察克、邓尼金、弗兰格尔白军及马赫诺黑军，并压制社革党第三力量；协约国干涉与边疆民族武装相互牵制。
-
-### 邻居节点: `PER-savinkov`
-- **时效关系边** (`PER-savinkov` → `PER-kornilov` | `intermediary-then-opponent` | 有效时段: `1917.07–09`): 在整军、戒严与调兵问题上充当与克伦斯基之间的中介，8月赴莫吉廖夫谈判，决裂后转而组织首都防御
-- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 社会革命党战斗组织的重要组织者、作家与反布尔什维克活动家。早年参与策划暗杀沙皇高级官员；1917年任陆军部副部长（后为代理部长），卷入科尔尼洛夫事件并被社革党开除；1918年组建保卫祖国与自由同盟（SZRiS），1919–1921年在巴黎、华沙经营流亡反苏运动并于1921年重组为人民同盟（NSZRiS）。1924年被苏联国家政治保卫总局以“辛迪加-2”诱捕，当庭认罪后死刑改判十年；1925年拘押中死亡，官方自杀说和他杀疑云均需结合证据审慎评估。
-
-## 3. 关联史学争鸣光谱 (Historiographical Debates)
+## 3. 关联史学争鸣与学者论断索引 (主卡外关联争鸣 1 项)
 ### `DEB-1917-october-coup-or-social-revolution`：十月革命：少数派政变还是社会革命？
 ## [T1] 核心问题定义
 十月武装夺权是少数派政变，还是工人、士兵与农民社会革命的政治表达？有组织的起义与广泛的基层动员能否同时成立，苏维埃多数又能否代表全国选民？这些问题涉及不同地区、不同时间的支持与合法性，不能以一次投票或一次攻占行动互相替代。
@@ -88,8 +61,28 @@
 | 当事人革命解释与反对派在场反证（B级文献） | [B级当事人文献] Leon Trotsky, *History of the Russian Revolution* (1930–32); N. N. Sukhanov, *The Russian Revolution, 1917* (1922) | 托洛茨基将起义定性为“在苏维埃合法性掩护下实施的武装夺权艺术”；**苏汉诺夫的证言尤具史学张力**——他虽作为孟什维克国际派痛斥布尔什维克政权缺乏民主准备、悔恨温和派10月25日夜退场将苏维埃拱手让给列宁，却**以亲历反对者身份断然驳斥右翼“纯军事阴谋”说**，证言彼得格勒工人与驻军当时确以压倒性多数支持推翻临时政府。 | `CLM-trotsky-1930-art-of-insurrection-and-soviet-legality`；`CLM-sukhanov-1922-october-walkout-tragedy` | 两者均属B级当事人回忆与事后政治辩护（托洛茨基旨在反击斯大林并凸显自身军革委功绩，苏汉诺夫旨在检讨国际派失策），必须与当时会议速记对读。 |
 | 农民道德经济、帝国边疆与十月记忆建构 | Orlando Figes (1996); Ronald Grigor Suny (2017); Eric Blanc (2021); Frederick C. Corney, *Telling October* (2004) | Figes揭示农民公社夺地遵循自身“道德经济”，利用《土地法令》将既成黑分土地合法化而非服从城市党令；Suny综合社会史与阶级话语极化；Blanc将1917年十月放入帝国边疆民族与阶级互动视野；Corney则考证党史委（Istpart）与1920年代庆典如何将原本混乱多中心的十月夺权事后重塑为宏大叙事神话。 | `CLM-figes-1996-peasant-moral-economy-1917`；`CLM-suny-2017-totalitarian-vs-social-history-turn`；`CLM-suny-2017-class-discourse-and-polarization`；`CLM-blanc-2021-borderlands-in-1905-and-1917`；`CLM-corney-2004-istpart-and-institutionalizing-october-memory` | 农民夺地与边疆动员支持推翻旧政权，但并不等于授权布尔什维克随后的余粮收集制与一党垄断；记忆建构研究不可消解1917年秋真实的社会崩溃。 |
 
-## 4. 关联时间线锚点 (共 4 条)
-- **1917-04-20 [O.S.] / 1917-05-03 [N.S.]** (`TL-W32-1917-05-03-01`, L3): **“四月危机”第一日：林德率芬兰团等约2.5–3万武装军民包围马林斯基宫** — 1917-04-20 [O.S.] / 05-03 [N.S.]清晨各报刊出照会激怒全城。约15:00非党派少尉林德自发鼓动近卫芬兰团开出，连同第180预备团、莫斯科团、水兵及工人共约2.5–3万武装军民围聚马林斯基宫高呼“打倒米留科夫！”；科尔尼洛夫请令武力镇压遭李沃夫与克伦斯基拒绝。布尔什维克中央上午仅发谴责照会之谨慎决议，未号召武装推翻。
-- **1917-04-21 [O.S.] / 1917-05-04 [N.S.]** (`TL-W32-1917-05-04-01`, L3): **“四月危机”第二日：PK激进派传单“打倒临时政府”与涅瓦大街流血冲突** — 1917-04-21 [O.S.] / 05-04 [N.S.]白天，布尔什维克PK左翼（巴格达季耶夫等）擅自散发“打倒临时政府！”传单，维堡工人整队入城；同时立宪民主党号召支持者反游行，科尔尼洛夫清晨向冬宫广场调动骑兵炮兵。两派人流在涅瓦大街相撞，发生夺旗殴打与午后实弹枪击（派普斯核记3死；检察官与苏维埃特别委员会勘察指枪声多来自窗洞门廊）；派普斯视之为列宁第一次未遂政变，拉比诺维奇等证中央并未授权推翻内阁。
-- **1917-04-21 [O.S.] / 1917-05-04 [N.S.]** (`TL-W32-1917-05-04-02`, L3): **苏维埃剥夺科尔尼洛夫调兵权并禁游行两天；内阁发布解释照会；布尔什维克中央纠偏PK** — 1917-04-21 [O.S.] / 05-04 [N.S.]傍晚，苏维埃执委会电令驻军“未经执委会两名授权代表签字不得持械上街”，彻底架空科尔尼洛夫（后者随后辞去军区司令），并一致禁止游行两天；临时政府同意发布“解释性照会”（执委会34:19、全会仅13票反对通过）。同日布尔什维克中央正式决议斥责“打倒临时政府”在无多数民意下属错误和冒险主义。
-- **1917-11-19 [O.S.] / 1917-12-02 [N.S.]** (`TL-W36-1917-12-02-01`, L3): **科尔尼洛夫、邓尼金等逃出贝霍夫监狱南下顿河；左翼社革党一大开幕** — 在克雷连科抵莫吉廖夫前一日，科尔尼洛夫、邓尼金、卢科姆斯基、马尔科夫等从贝霍夫修道院监狱越狱南逃顿河筹组志愿军；同日左翼社会革命党召开第一次全国代表大会（11-19至11-28），正式独立建党。
+
+### 3.1 关联核心论断与史学家学派坐标 (`CLM-*` → `SCH-*`, 展示前 21/21 条)
+- **`CLM-mawdsley-1987-white-movement-structural-defeat`** [`SCH-mawdsley-evan`(埃文·莫兹利) | pp. 212–218, 272–276, 286–289]: 
+- **`CLM-galili-1989-menshevik-worker-alienation`** [`SCH-galili-ziva`(齐娃·加利利) | pp. 195-198, 295-303, 325-336, 398-399 (PDF pp. 221-224, 321-329, 351-362, 424-425)]: 
+- **`CLM-rabinowitch-1976-october-three-factions-debate`** [`SCH-rabinowitch-alexander`(亚历山大·拉比诺维奇) | 未核：EPUB 章节及行号]: 
+- **`CLM-pipes-1990-october-classic-coup`** [`SCH-pipes-richard`(理查德·派普斯) | ch. 11 (The October Coup); cf. Introduction]: 
+- **`CLM-rabinowitch-1976-open-democratic-mass-party`** [`SCH-rabinowitch-alexander`(亚历山大·拉比诺维奇) | 未核：EPUB 章节及行号]: 
+- **`CLM-rabinowitch-1976-trotsky-soviet-congress-strategy`** [`SCH-rabinowitch-alexander`(亚历山大·拉比诺维奇) | 未核：EPUB 章节及行号]: 
+- **`CLM-loginov-lenin-1917-fleeting-window-of-power`** [`SCH-loginov-vladlen`(弗拉德连·洛吉诺夫) | pp. 523-524, 531-532, 560-561, 621-622, 656-658]: 
+- **`CLM-smith-sa-1983-defensive-workers-control`** [`SCH-smith-sa`(斯蒂芬·A·史密斯（S. A. Smith）) | 中译本 pp. 106–112, 133, 135, 137, 191（即源文件标注 PDF pp. 111–117, 138, 140, 142, 196）；注意：均为中译本页码，非英文原版页码]: 
+- **`CLM-koenker-1981-moscow-october-armed-struggle-vs-petrograd`** [`SCH-koenker-diane`(黛安·P·科恩克尔) | pp. 329–355 (local PDF pp. 345–371); p. 366 (PDF p. 382)]: 
+- **`CLM-koenker-1981-rational-incremental-radicalization`** [`SCH-koenker-diane`(黛安·P·科恩克尔) | pp. 359–363 (local PDF pp. 375–379); p. 254 (PDF p. 270)]: 
+- **`CLM-basil-1984-october-and-vikzhel-collapse`** [`SCH-basil-john`(约翰·D·巴兹尔) | pp. 165–175（本地 PDF 同号）]: 
+- **`CLM-yao-hai-post-october-coalition-failure-and-one-party-formation`** [`SCH-yao-hai`(姚海) | [PDF pp. 532-535, 543-569]]: 
+- **`CLM-yao-hai-constituent-assembly-vs-soviet-legitimacy-clash`** [`SCH-yao-hai`(姚海) | [PDF pp. 574-596]]: 
+- **`CLM-rabinowitch-2007-constituent-assembly`** [`SCH-rabinowitch-alexander`(亚历山大·拉比诺维奇) | pp. 88-91, 105-110, 121-127]: 
+- **`CLM-trotsky-1930-art-of-insurrection-and-soviet-legality`** [`SCH-trotsky-leon`(列夫·达维多维奇·托洛茨基 · participant-historian) | （中译 EPUB 无纸页；第三卷第二十—二十一章）]: 
+- **`CLM-sukhanov-1922-october-walkout-tragedy`** [`SCH-sukhanov-nikolai`(尼古拉·苏汉诺夫) | pp. 631–647, 657–660 (PDF pp. 683–699, 709–711)]: 
+- **`CLM-figes-1996-peasant-moral-economy-1917`** [`SCH-figes-orlando`(奥兰多·费吉斯) | pp. 343-352]: 
+- **`CLM-suny-2017-totalitarian-vs-social-history-turn`** [`SCH-suny-ronald-gregor`(罗纳德·格里戈尔·苏尼) | pp. 87-95 (approx. ch. 2 sect. on totalitarianism and revision)]: 
+- **`CLM-suny-2017-class-discourse-and-polarization`** [`SCH-suny-ronald-gregor`(罗纳德·格里戈尔·苏尼) | pp. 160-175 (approx. ch. 5 on class, strikes, discourse)]: 
+- **`CLM-blanc-2021-borderlands-in-1905-and-1917`** [`SCH-blanc-eric`(埃里克·布兰克) | pp. 20–23, 338–436, 488–531, 457–543]: 
+- **`CLM-corney-2004-istpart-and-institutionalizing-october-memory`** [`SCH-corney-frederick`(弗雷德里克·C·科尼 · memory-and-cultural-history) | 【待规整语料】]: 
+
+## 4. 关联时间线骨干锚点 (L0–L2 展示 0 条，另有 4 条 L3 逐日细节见 `timeline/L3_daily/`)

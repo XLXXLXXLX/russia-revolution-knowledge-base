@@ -7,7 +7,7 @@ publication_year: 2014
 source_tier: A
 local_source_path: "sources/monographs/kotkin_2014_stalin_v1/ch21_chapter_14.md#L161-L236"
 original_pages: "EPUB Ch. 14 (OEBPS/9780698170100_EPUB_1-24.xhtml) & Coda (OEBPS/9780698170100_EPUB_1-25.xhtml)"
-targets_cards: ["PER-stalin", "POL-nep", "EVT-1928-grain-crisis"]
+targets_cards: ["PER-stalin", "POL-nep", "EVT-1928-grain-procurement-crisis"]
 debate: DEB-1928-bukharin-alternative
 supports: []
 rebuts: []

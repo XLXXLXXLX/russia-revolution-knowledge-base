@@ -7,8 +7,8 @@ publication_year: 1955
 source_tier: A
 local_source_path: "sources/monographs/haimson_1955_origins/ch05_pages_126-150.md#L760-L1215"
 original_pages: "pp. 132-141"
-targets_cards: ["PER-lenin", "PER-plekhanov", "PER-martov-l", "PER-akselrod"]
-debate: DEB-origins-of-bolshevism
+targets_cards: ["PER-lenin", "PER-plekhanov", "PER-martov-l", "PER-axelrod"]
+debate: DEB-1903-bolshevik-menshevik-split
 supports: []
 rebuts: []
 qualifies: []

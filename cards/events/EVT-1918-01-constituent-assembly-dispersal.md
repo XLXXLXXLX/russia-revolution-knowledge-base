@@ -5,61 +5,94 @@ title: 1918年1月全俄立宪会议召开与解散
 names:
   ru: Российское учредительное собрание (роспуск 6 (19) января 1918 г.)
   en: Convocation and Dispersal of the All-Russian Constituent Assembly
-  aliases: ["立宪会议解散", "塔夫利达宫立宪会议", "1918年立宪会议"]
+  aliases:
+  - 立宪会议解散
+  - 塔夫利达宫立宪会议
+  - 1918年立宪会议
 dates:
-  start_ns: "1918-01-18"
-  end_ns: "1918-01-19"
-coverage_status: draft
-perspectives_present: ["archival-rabinowitch", "liberal-totalitarian-pipes", "populist-structural-hildermeier", "soviet-orthodox"]
-perspectives_missing: ["provincial-deputy-networks", "ukrainian-assembly-parallel"]
-related_debates: ["DEB-1918-constituent-assembly-and-soviet-democracy", "DEB-1917-october-coup-or-social-revolution"]
-updated_at: "2026-11-18"
+  start_os: '1918-01-05'
+  start_ns: '1918-01-18'
+  end_os: '1918-01-06'
+  end_ns: '1918-01-19'
+coverage_status: multi-perspective
+perspectives_present:
+- rabinowitch-archival
+- radkey-electoral
+- protasov-yao-hai
+- liberal-pipes
+- luxemburg-democratic-marxism
+- lenin-soviet-legitimacy
+perspectives_missing:
+- complete-regional-deputy-networks
+- independent-front-vote-tables
+related_debates:
+- DEB-1918-constituent-assembly-and-soviet-democracy
+- DEB-1917-october-coup-or-social-revolution
+updated_at: '2026-11-19'
 ---
 
 ## [T1] 60秒定性微摘要
-1918年1月5–6日（俄历）/1月18–19日（公历），全俄立宪会议在塔夫利达宫召开唯一常会，社革党切尔诺夫以244:153当选主席。5日白天保卫立宪会议游行在利捷伊内大街遭枪击（15至21人死亡），6日凌晨水兵卫队勒令清场关闭，西方式多党议会制尝试终结。
+
+1918年1月5—6日（俄历；公历1月18—19日），立宪会议召开唯一常会，切尔诺夫以244∶153当选主席。议会拒认苏维埃最高权，布党与左社退场，水兵勒令散会，中执委正式解散。全国普选与两京武装核心的政治支持结构由此正面断裂。
 
 ## [T2] 核心脉络、时效关系边表与史学争鸣光谱
 
 ### 2.1 核心历史脉络
-- **延宕选举与布尔什维克党内斗争（1917.11–12）**：1917年11—12月完成的立宪会议普选中，各派社会革命党（含乌克兰等民族社革党）合计得票过半（俄国社革党本党约38%–40%居第一，布尔什维克约24%获约175席，立宪民主党约4.7%获约17席，`DATA-01`）。1917年12月加米涅夫等布尔什维克立宪会议党团临时局温和派主张尊重议会权威，遭列宁《关于立宪会议的提纲》压服改组（`CLM-rabinowitch-2007-constituent-assembly`, `[pp. 89–91, 127]`）。
-- **1月5日（O.S.）白天的议会与利捷伊内大街枪击（1918-01-05 [O.S.] / 1918-01-18 [N.S.]）**：保卫立宪会议联盟组织无武装游行，多数工厂工人与士兵留在驻地；赤卫队与水兵在利捷伊内大街北段（与施帕列尔纳亚、基罗奇纳亚街口）通往塔夫利达宫的街垒向游行队伍开火，造成15人（高尔基《新生活报》医院调查）至21人（斯维尔德洛夫1月11日报告）死亡（同卡, `[pp. 106, 109]`）。议会大厅内切尔诺夫以244票对左翼社革党斯皮里多诺娃153票当选主席，在否决苏维埃《被剥削劳动人民权利宣言》后连夜通过土地社会化与和平呼吁，孟什维克策烈铁里发表长篇抗辩。
-- **强制清场与解散（1918-01-06 [O.S.] / 1918-01-19 [N.S.]）**：布尔什维克与左翼社革党代表先后退席后，凌晨4时许无政府主义水兵警卫队长热列兹尼亚科夫以“警卫累了”勒令切尔诺夫休会清场；同日深夜全俄中央执行委员会正式颁布解散立宪会议法令（同卡, `[pp. 113–126]`），随后于 `1918-01-10 [O.S.] / 1918-01-23 [N.S.]` 召开的全俄苏维埃第三次代表大会宣告苏维埃联邦制取代立宪会议法统。场外因社革党中央禁止武装政变、卫戍部队冷漠观望而未爆发军事抵抗（Pipes, `ch21_section.md`）。
-- **后果链条（1918年1月后）**：派普斯认为大众对立宪会议命运表现疲惫式冷漠，布尔什维克暴力驱散反而巩固了“真实政府”感知（`sources/monographs/pipes_1990_russian_rev/ch21_section.md`, §“dissolution met with surprising indifference”）。社会革命党右翼后来在科穆奇等处试图以“立宪会议成员委员会”延续合法性（`PER-chernov`）。
 
-### 2.2 时效关系摘要边表（Typed & Temporalized Edges）
-| 关联节点 ID | 关系类型 | 有效时段 | 一句话关系实质摘要（防 N+1 盲跳） | 核心依据/争鸣 |
+**选举多数不能混用选票、席位与党派。** 全国投票自`1917-11-12 [O.S.] / 11-25 [N.S.]`起，边远选区较迟；早期总有效票约3,600—3,750万，Radkey 1989扩编约4,170万，不能用不同总数反算同一精确得票率。俄国社革党约38%—40%、布党约24%是选票比例；席位须单列。按DATA-07与已校ORG-psr，斯维亚季茨基表（Radkey 1963，p.456）的不同社革集团合并结果如下：
+
+| 席位统计体系 | 社革构成（席） | 合计及分母 | 布尔什维克（席） | 可推出与不可推出的结论 |
 | :--- | :--- | :--- | :--- | :--- |
-| `PER-chernov` | `chair -> dispersed assembly` | 1918-01-05/06 [O.S.] | 凭借社革党选举多数主持唯一常会，却拒绝军事自卫路线 | `CLM-rabinowitch-2007-constituent-assembly`, Hildermeier on SR political naivety |
-| `PER-lenin` | `dissolver` | 1917-12至1918-01 | 12月清洗党内尊重议会的温和派，1月下令武力终结立宪会议 | `CLM-rabinowitch-2007-constituent-assembly` |
-| `ORG-psr` | `parliamentary-majority` | 1917-11至1918-01 | 赢得全国普选却在核心时刻缺乏保卫议会制度的武力决断 | `CLM-rabinowitch-2007-constituent-assembly`；`CLM-rabinowitch-2007-left-sr-coalition-collapse` |
-| `ORG-kadets` | `demonstration-ally` | 1917-11至1918-01 | 保卫立宪会议联盟成员，1月5日游行主体为职员与学生而非工厂多数 | Pipes `ch21_section.md` |
-| `EVT-1917-10-october-revolution` | `legitimacy-duel` | 1917-10至1918-01 | 十月后的苏维埃政权与 delayed 普选结果在立宪会议厅内正面冲突 | `DEB-1917-october-coup-or-social-revolution` |
-| `ORG-mensheviks` | `defense-speech -> walkout` | 1918-01-05/06 | 策烈铁里在塔夫利达宫的发言成为议会社会主义最后广播 | `CLM-rabinowitch-2007-constituent-assembly` |
+| 斯维亚季茨基／Radkey，采用703席分母 | 俄国社革含左翼299＋乌克兰社革81＋少数民族社革19 | **399／703＝56.8%** | **168／703＝23.9%** | 泛社革集团过半，不等于俄国右翼社革单独多数；俄乌两组299＋81＝380仅为子计。 |
+| Protasov／普罗塔索夫（1997），经姚海（2013），715席口径 | 主体社革370＋左翼社革40 | **410／715＝57.3%** | **175／715＝24.5%** | 席位归类与截止日期不同，不可移来填703席表；410是此体系合计，不是299＋81。 |
 
-### 2.3 史学争鸣光谱（Historiographical Spectrum）
-- **经验共识**：1918年1月5–6日（O.S.）/18–19日（N.S.）的立宪会议只开会一次即遭武力关闭；彼得格勒街头发生致死性枪击；苏维埃政权自该日起无需再认真对待选举授权反对派。
-- **主要解释分歧**：
-  - **[Rabinowitch 档案综合派 / Alexander Rabinowitch]** (`CLM-rabinowitch-2007-constituent-assembly`)：强调因果多重性——列宁镇压、布尔什维克街头暴力、社革党拒绝军事自卫与大众根本冷漠共同推动结局；保留党内温和派（加米涅夫、梁赞诺夫）抗争细节。
-  - **[Pipes 自由—极权连续性 / Richard Pipes]**（`sources/monographs/pipes_1990_russian_rev/ch21_section.md`, `ch27_section.md`）：将关闭立宪会议与屠杀游行者与1917年11月逮捕卡德特一并纳入列宁主义恐怖制度化起点；主张民众疲惫与欠缺武装反对铸就布尔什维克1月后“真实政府”地位，甚至超过十月政变意义。
-  - **[Hildermeier 社革党结构论 / Manfred Hildermeier]**（`sources/monographs/hildermeier_psr/`, `BIB-005`；`PER-chernov` 卡引）: 社革党制度上倚重合法议会神话却长期弱化军事组织，1918年切尔诺夫路线体现新民粹主义领袖在暴力门槛前的政治天真，与其1917年入阁时土地立法困境一体。
-  - **[苏联正统 / 列宁《关于立宪会议的提纲》]**：视立宪会议为“曾经落后于无产阶级和贫农苏维埃运动”的资产阶级形式，解散是更高苏维埃民主的体现——须与 `CLM-rabinowitch-2007-constituent-assembly` 对照，避免单源定论。
+选票名单在左翼社革党独立建党前已编定；`1917-11-19 [O.S.] / 12-02 [N.S.]`独立党大会使此前的统一名单更不能直接解释为右派专属授权。乌克兰及少数民族社革党亦非服从切尔诺夫的一致议会集团。布党在全国农业腹地处于少数，却在两京驻军和西、北战线拥有多数：DATA-07录彼得格勒驻军约75%、莫斯科驻军约90%。**两京市区总体并未过半**：彼得格勒市含驻军约45.2%，莫斯科约47%—47.9%；不能把驻军百分比写成全市。北、西战线的布党过半结论在本库为定性结论，缺少逐军原表，不造精确比例。
 
-## [T3] 深度考证、分期细目与原文引证档案
-- **双历核号**（sort用 `date_ns`）：
-  - 开会：`1918-01-05 [O.S.] / 1918-01-18 [N.S.]`
-  - 驱散：`1918-01-06 [O.S.] / 1918-01-19 [N.S.]`
-  - 全俄苏维埃三大开幕（并行节点）：`1918-01-10 [O.S.] / 1918-01-23 [N.S.]`（通行速记会期；注：Pipes 年表误印单日 Jan. 8）
-- **Rabinowitch**（`sources/monographs/rabinowitch_2007_in_power/ch08_4_the_fate_of_the_constituent_assembly.md`, `CLM-rabinowitch-2007-constituent-assembly`）：
-  > "The day had arrived, 5 January 1918, that was to mark the end of efforts to establish a Western-style, multiparty democratic system in Russia for most of the twentieth century." `[p. 104 / PDF p. 127]`
-  > "...twenty-one demonstrators were killed." `[pp. 106, 109 / PDF pp. 129, 132]`
-  > "...the Russian people's fundamental indifference to the fate of the Constituent Assembly..." `[p. 127 / PDF p. 150]`
-- **Pipes**（`sources/monographs/pipes_1990_russian_rev/ch21_section.md`）：
-  > "The dissolution of the Assembly met with surprising indifference..."
-  > "In a sense the Bolsheviks may be said to have become the government of Russia not so much in October 1917 as in January 1918."
-  > closing the Assembly and shooting marchers as terror from the day power was seized (`ch27_section.md`, cf. `[pp. 360]`)
-- **Hildermeier**（`sources/monographs/hildermeier_psr/ch26_the_psr_and_modernization_was_there_a_po.md` 等）：1905年社革党曾想不等待立宪会议即实现权利，1917–18年又退回纯议会合法主义，形成党策略内在矛盾（结构评述，待 `close-reader` 钉页码引文）。
-- **一手待提取**：
-  1. 立宪会议秘书维什尼亚克（Vishniak）回忆录对已植入立宪会议的白卫著名段落；
-  2. 1月5日彼得格勒苏维埃与契卡禁止游行命令；
-  3. 梁赞诺夫、洛佐夫斯基在全俄中央执行委员会反对解散的发言记录（Rabinowitch `[pp. 125–126]`）。
+**列宁的合法性条件与党内改组。** 十月建政后，布党仍面对已经承诺的普选机构。列宁`1917-12-11..12 [O.S.] / 12-24..25 [N.S.]`写《关于立宪会议的提纲》，认为统一社革名单已不能反映革命后阶级重组，苏维埃共和国高于议会民主，要求会议无条件承认苏维埃权力与和平、土地和工人监督政策；否则由革命措施解决。其主张既是事前政治纲领，也是后来苏联正统辩护的来源，不是对多数选民心意的中立测量。加米涅夫等尊重议会的党团临时局温和派被改组，说明对解散并无党内先验一致。出处：Rabinowitch（2007）pp.89–91及列宁提纲。
+
+**5日：街头枪击与会场冲突并行。** `1918-01-05 [O.S.] / 01-18 [N.S.]`白天，护宪游行遭赤卫队、水兵等开枪；《新生活报》医院调查录15死，斯维尔德洛夫在`01-11 [O.S.] / 01-24 [N.S.]`苏维埃三大报告录21死（Rabinowitch pp.106–110）。两者是不同报告来源，不能把15和21相加，也不能将“15—21”当作同一张统计表的置信区间。多数工厂与驻军未出动，但奥布霍夫等厂有参加，不能说全体工人漠不关心。
+
+下午塔夫利达宫开会，斯维尔德洛夫宣读《被剥削劳动人民权利宣言》，要求承认苏维埃最高权；切尔诺夫以**244∶153**击败布党与左社推举的玛丽亚·斯皮里多诺娃当选主席。议会拒绝先行讨论／认可苏维埃宣言的议程（**237∶146**），不等于曾逐条否决所有社会权利内容。主席选举、议程表决是两轮票，亦不能用它们反算全部当选席位。策烈铁里发表民主抗辩，议会转向自己的土地社会化、和平与共和国议案。
+
+**6日：退场、勒令休会与正式法令。** 会议延续至`1918-01-06 [O.S.] / 01-19 [N.S.]`凌晨，布尔什维克与左翼社革党先后退场。约4时，水兵警卫队长热列兹尼亚科夫以“卫兵累了”要求散会；切尔诺夫匆促处理土地与和平等议案后休会，代表原以为仍可续会，武装封闭使其无法返回。水兵的勒令休会是现场强制动作，**同日稍后的全俄中央执行委员会正式解散法令才是国家机关的制度决定**，不是前一天已经存在的另一轮解散。此前5日布党党团会上的梁赞诺夫、洛佐夫斯基反对，以及6日中执委会上梁赞诺夫与左社什泰因贝格的抗议，均未能阻止解散。其后`01-10 [O.S.] / 01-23 [N.S.]`苏维埃三大开幕，强化苏维埃共和国法统；不能把议会道路终结直接等同于所有多党苏维埃合作当天即消失，左社此后仍参与政府至3月。
+
+### 2.2 时效关系摘要边表
+
+| 关联节点 ID | 关系类型 | 有效时段 | 一句话关系实质摘要 | 核心依据/争鸣 |
+| :--- | :--- | :--- | :--- | :--- |
+| `CON-constituent-assembly` | elected_then_dispersed | 1917-11至1918-01 | 全国普选机构与苏维埃阶级代表权发生最高权力冲突。 | DATA-07；立宪会议争鸣卡 |
+| `PER-chernov` | elected_chair | 1918-01-05..06 [O.S.] / 01-18..19 [N.S.] | 244∶153获主席职位，未获得足以确保议会续会的武装支持。 | `CLM-rabinowitch-2007-constituent-assembly` |
+| `PER-spiridonova` | defeated_candidate | 1918-01-05 [O.S.] / 01-18 [N.S.] | 左社与布党共同推举的候选人获153票，不能当作全国左社得票率。 | DATA-07 |
+| `PER-lenin` | conditional_recognition_then_dissolution | 1917-12至1918-01 | 提纲将苏维埃权力置于普选议会权利之上，主导解散路线。 | 《关于立宪会议的提纲》 |
+| `ORG-psr` | fractured_electoral_plurality | 1917-11至1918-01 | 泛社革399／703席包含俄乌及少数民族各派，非右翼一党多数。 | DATA-07；ORG-psr |
+| `ORG-left-srs` | allied_walkout | 1918-01-05..06 [O.S.] / 01-18..19 [N.S.] | 与布党一起反对议会压倒苏维埃，退场配合关闭。 | `CLM-rabinowitch-2007-constituent-assembly` |
+| `INS-sovnarkom-and-vtsik` | formal_dissolution | 1918-01-06 [O.S.] / 01-19 [N.S.] | 全俄中执委正式解散，须与卫队清场区分。 | 解散法令；Rabinowitch pp.113–126 |
+| `ORG-mensheviks` | democratic_opposition | 1918-01起 | 策烈铁里议会抗辩与随后苏维埃体制内反对不等同于布党退场。 | 立宪会议争鸣卡 |
+| `EVT-1917-10-october-revolution` | unresolved_legitimacy | 1917-10至1918-01 | 首都夺权和二大授权未消除全国普选挑战。 | `DEB-1917-october-coup-or-social-revolution` |
+
+### 2.3 经验共识与史学争鸣
+
+- **共识层**：布党全国未获多数，泛社革名单内部存在严重裂痕；会议召开一次即被强制关闭，街头有致死枪击。争议在于政治正当性、是否存在可行替代及民主空间何时耗尽。
+- **Rabinowitch（2007）**以档案说明列宁压服党内温和派、左社合作、社革党不愿诉诸武装及工兵相当程度的不响应如何共同促成结局。冷漠不是全民赞成解散，枪击也不能被民众疲惫开脱；1月与春夏一党化各有制度节点。
+- **Radkey**拆解俄乌社革、左右翼与城乡支持差异，批判社革领导把程序合法性当成足够的保护。**Protasov／姚海**重建代表、席位和议场冲突，使“全国农民多数—核心武装布党多数”可同框呈现。不同总席位属于统计重建，不应据此制造各家政治立场完全对立的假象。
+- **Pipes**把解散及枪击视为列宁拒绝多数民主约束的关键，甚至将1月看作布党真正成为俄国政府的分水岭；其制度连续论须与左社、地方苏维埃仍有合作与争执的证据并读。
+- **列宁／苏联正统**以统一名单过时和苏维埃更高阶级民主为理由，不能从名单缺陷推出武力解散是唯一办法。**罗莎·卢森堡《论俄国革命》**则从社会主义民主内部批判：若旧名单不能表达变化，应重新选举，不能取消普选与公开政治生活本身。此为1918年狱中事后政治评论，非塔夫利达宫现场证言；其稿本1922年发表，亦须与她后来德国革命语境的论述区分。
+
+## [T3] 深度考证与引文档案
+
+- [1918-01_constituent_assembly_and_brest_crisis](../../timeline/L3_daily/1918-01_constituent_assembly_and_brest_crisis.md)
+- [DATA-07-1905-1918-unions-moscow-swings-and-constituent-assembly-votes](../../data/DATA-07-1905-1918-unions-moscow-swings-and-constituent-assembly-votes.md)
+- [RN-W2-first-year-soviet-rule](../../reading-notes/rabinowitch_2007_in_power/RN-W2-first-year-soviet-rule.md)
+- [RN-W20-psr-civil-war-tragedy-and-cheka-ogpu-extrajudicial-powers](../../reading-notes/scott_smith_mozokhin/RN-W20-psr-civil-war-tragedy-and-cheka-ogpu-extrajudicial-powers.md)
+- [RN-W36-yao-hai-cass-russian-revolution-synthesis](../../reading-notes/yao_hai_ussr_history_v1_russian_rev_zh/RN-W36-yao-hai-cass-russian-revolution-synthesis.md)
+- [ch07_3_gathering_forces](../../sources/monographs/rabinowitch_2007_in_power/ch07_3_gathering_forces.md)
+- [ch08_4_the_fate_of_the_constituent_assembly](../../sources/monographs/rabinowitch_2007_in_power/ch08_4_the_fate_of_the_constituent_assembly.md)
+- [ch21_section](../../sources/monographs/pipes_1990_russian_rev/ch21_section.md)
+- [1918-01-03_declaration-of-rights-of-working-and-exploited-people](../../sources/web-archive/E06_E09_state_and_comintern/1918-01-03_declaration-of-rights-of-working-and-exploited-people.md)
+- [CLM-yao-hai-constituent-assembly-vs-soviet-legitimacy-clash](../../historiography/claims/CLM-yao-hai-constituent-assembly-vs-soviet-legitimacy-clash.md)
+- [CLM-rabinowitch-2007-constituent-assembly](../../historiography/claims/CLM-rabinowitch-2007-constituent-assembly.md)
+- [DEB-1917-october-coup-or-social-revolution](../../historiography/debates/DEB-1917-october-coup-or-social-revolution.md)
+- [DEB-1918-constituent-assembly-and-soviet-democracy](../../historiography/debates/DEB-1918-constituent-assembly-and-soviet-democracy.md)
+- [S级：列宁《关于立宪会议的提纲》（1917年12月）](https://www.marxists.org/archive/lenin/works/1917/dec/11a.htm)
+- [S级：列宁《解散立宪会议法令草案》及刊布说明](https://connexions.org/CxArchive/MIA/lenin/works/1918/jan/06a.htm)
+- [卢森堡《论俄国革命》稿本及编注（1918年写作，1922年发表）](https://www.rosalux.de/stiftung/rosa-luxemburg-1/on-the-russian-revolution)

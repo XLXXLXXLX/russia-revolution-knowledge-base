@@ -1,18 +1,13 @@
-# 1-Hop 平衡上下文包：`POL-sokolnikov-chervonets-monetary-reform` (索科利尼科夫与切尔沃涅茨币制改革)
+# 1-Hop 去重平衡上下文包：`POL-sokolnikov-chervonets-monetary-reform`
 
-> 本文件由 `python scripts/kb.py pack` 自动编译，旨在将失控的 `1+N` 随机读取压缩为**等权重、带时效边实质与史学盲区告警**的单次全景读取。
+> 由 `python scripts/kb.py pack` 动态编译：保留 **100% 一跳邻居与多时段关系边**，跨卡自动去重争鸣与时间线，并关联学者学派 (`SCH-*`)。
 
-## 0. 认知完备度与反偏斜仪表盘 (Epistemic & Skew Warnings)
-- **主卡路径**: `cards/policies/POL-sokolnikov-chervonets-monetary-reform.md`
-- **完备度等级**: `multi-perspective`
-- **已覆盖视角**: `monetary-history, fiscal-policy, western-documentary-carr, statist-nationalist-katasonov`
-- **待补齐视角**: `household-regional-reception, primary-decree-text, soviet-era-and-post-soviet-archival-monetary-studies`
-- **偏斜风险提示**:
-  - ⚠️ 主卡显式声明尚缺以下视角待补: `household-regional-reception, primary-decree-text, soviet-era-and-post-soviet-archival-monetary-studies`。
+## 0. 认知完备度与反偏斜仪表盘
+- **`POL-sokolnikov-chervonets-monetary-reform`** (索科利尼科夫与切尔沃涅茨币制改革 | `cards/policies/POL-sokolnikov-chervonets-monetary-reform.md` | `multi-perspective`): 已覆盖=`monetary-history, fiscal-policy, western-documentary-carr, statist-nationalist-katasonov`；待补=`household-regional-reception, primary-decree-text, soviet-era-and-post-soviet-archival-monetary-studies`
 
 ## 1. 主卡核心层 ([T1] + [T2])
 ## [T1] 60秒定性微摘要
-1922–1924年，财政人民委员索科利尼科夫与包括尤罗夫斯基、库特列尔在内的财政专家参与稳定货币：国家银行发行有黄金和商业资产准备的切尔沃涅茨银行券，先与急剧贬值的苏维埃纸币并行（切尔文占全部流通纸币价值比重约由3%升至37%，再至约80%），再通过1924年发行国库券、收兑旧纸币统一计价。稳定依赖财政、信贷与商品供给，1925–1926年工业融资和外汇压力使其面临新的约束。
+1922–1924年索科利尼科夫与尤罗夫斯基、库特列尔等稳定货币：国行发行有黄金、商业资产准备的切尔沃涅茨，先与贬值苏维埃纸币并行，1924年以国库券和收兑统一计价。稳定依赖财政、信贷与商品供给；1925–1926年工业融资及外汇压力又构成约束。
 
 ## [T2] 核心脉络、时效关系边表与史学争鸣光谱
 
@@ -39,21 +34,17 @@
 - **卡塔索诺夫的国家垄断叙事**（B级来源，国家主义—东正教—“斯大林经济”叙事；[`CLM-katasonov-golden-chervonets-rise-and-demise`](../../historiography/claims/CLM-katasonov-golden-chervonets-rise-and-demise.md)）将外贸、黄金与外汇集中联系起来，提醒考察外汇控制和进口设备需求；其储备系列与若干换算存在内部口径和算术问题（例如1925年初账面储备3.44亿卢布与Carr的1924年初约1.5亿处于不同时点和口径），须按原报告核对，不能视为无争议的独立实测。
 - 本卡的两个承重来源是Carr（经 `DATA-02`）与Katasonov，二者均非后苏联档案史学；原令文本与苏联时期及后苏联档案货币史研究站内未入库，已列入 `perspectives_missing`。
 
-## 2. 一跳邻域等权重微摘要 (共 3 个关联节点，严防大卡霸占上下文)
-### 邻居节点: `INS-gosbank-and-narkomfin`
-- **时效关系边** (`INS-gosbank-and-narkomfin` → `POL-sokolnikov-chervonets-monetary-reform` | `implemented_monetary_reform` | 有效时段: `1922–1924`): 财政与国银协调预算、发行及旧纸币收兑
-- **时效关系边** (`POL-sokolnikov-chervonets-monetary-reform` → `INS-gosbank-and-narkomfin` | `issuing-institution` | 有效时段: `1922–1924`): 国家银行发行切尔文，财政人民委员部主导预算与货币纪律
-- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 革命政权先接管帝国国家银行、国有化私人银行，内战期又撤销人民银行并将业务移交财政机关。新经济政策重建银行与预算，1922–1924年切尔沃涅茨和贬值中的苏维埃纸币一度并行，随后完成币制改革。1920年代末信贷与工业投资争论导致银行领导更替；1930年后的现金与非现金结算区分不可直接回填成1929年已完善的封闭双循环。
+## 2. 一跳邻域全量微摘要目录 (去重后共 4 个节点，0 截断)
+- **`INS-gosbank-and-narkomfin`**（财政人民委员部与国家银行（革命财政、货币与信贷））: 革命政权接管国家银行并国有化私行，内战期撤销人民银行、业务归财政机关。NEP重建银行预算，1922–1924年切尔沃涅茨与贬值苏维埃纸币先并行后统一。二十年代末信贷与工业投资争论引发银行领导更替；1930年后现金与非现金结算之分，不可回填为1929年已完善的封闭双循环。 ‖ `→POL-sokolnikov-chervonets-monetary-reform`[implemented_monetary_reform|1922–1924]: 财政与国银协调预算、发行及旧纸币收兑；50,000:1 收兑、10:1 固定 ； `←POL-sokolnikov-chervonets-monetary-reform`[issuing-institution|1922–1924]: 国家银行发行切尔文，财政人民委员部主导预算与货币纪律
+- **`PER-kondratiev`**（尼古拉·康德拉季耶夫）: 苏俄农业经济学家与长波周期理论创立者（1892–1938）。1917年10月任临时政府粮食部副部长；1920年起执掌财政部景气研究所，在计划方法论战中代表“发生学派”反对高指标目的论，主张依托市场均衡与农产出口推进工业化。1928年被打为“康德拉季耶夫主义”撤职，1938年遇害。 ‖ `→POL-sokolnikov-chervonets-monetary-reform`[conjuncture_index_architect_for|1922–1926-01]: 主持财政部景气研究所编制工农业物价与市场景气指数，为切尔文硬通货稳定与均衡预算提供经验监测底座
+- **`PER-sokolnikov`**（格里戈里·索科尔尼科夫）: 布尔什维克财政领袖与布列斯特和约签署代表，曾在内战中支持正规军建设。1922—1926年主持财政，以切尔文改革、预算和信贷纪律稳定新经济政策，却与工业扩张需求冲突。1925年参加新反对派，要求撤换斯大林总书记；1928年陪同布哈林密会加米涅夫，后转外交，1939年狱中被害。 ‖ `→POL-sokolnikov-chervonets-monetary-reform`[fiscal_reform_leader|1922–1924]: 与银行及专业人员推进双币过渡、预算整顿和1924年统一币制 ； `←POL-sokolnikov-chervonets-monetary-reform`[directed-by|1922–1926]: 主持财政稳定，维护预算和货币纪律并与工业融资需求发生争论
+- **`POL-nep`**（新经济政策）: 1921年春在农村起义、城市工潮与喀琅施塔得危机倒逼下逐步确立、取代战时共产主义的混合经济体制。以固定实物税（后改货币税）取代余粮收集制，渐次放开城乡市场与小私营商业（耐普曼），由国家掌控大工业、银行、运输与外贸“制高点”；1928–1929年在收购危机与政治转向中逐步瓦解。 ‖ `←POL-sokolnikov-chervonets-monetary-reform`[monetary-foundation|1922–1929]: 币制稳定支持恢复中的市场交易，但不能消除价格与供给张力
 
-### 邻居节点: `PER-sokolnikov`
-- **时效关系边** (`POL-sokolnikov-chervonets-monetary-reform` → `PER-sokolnikov` | `directed-by` | 有效时段: `1922–1926`): 主持财政稳定，维护预算和货币纪律并与工业融资需求发生争论
-- **节点定性微摘要 [T1]** (完备度 `draft`): 布尔什维克经济学家、1922–1924年切尔文金本位货币改革主持者与1922年起主事至 `1926-01-16` 的财政人民委员。以无赤字预算与信贷紧缩捍卫货币稳定，与工业信贷扩张派冲突；1925年参与“新反对派”，`1926-01` 免去财政人民委员后改任国家计委副主席等职；1928年7月11日陪同布哈林密会加米涅夫；据科特金论断卡转述，其农村市场设想在党内具有鲜明理论色彩但因1926年后失势而无从落地；1937年1月被判刑十年，1939年5月21日在狱中被害。
+## 3. 关联史学争鸣与学者论断索引 (主卡外关联争鸣 0 项)
+- _相关争鸣已在第 1 节主卡展开，或暂无额外挂载的 `DEB-*` 母题卡。_
 
-### 邻居节点: `POL-nep`
-- **时效关系边** (`POL-sokolnikov-chervonets-monetary-reform` → `POL-nep` | `monetary-foundation` | 有效时段: `1922–1929`): 币制稳定支持恢复中的市场交易，但不能消除价格与供给张力
-- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 1921年春在农村起义、城市工潮与喀琅施塔得危机倒逼下逐步确立、取代战时共产主义的混合经济体制。以固定实物税（后改货币税）取代余粮收集制，渐次放开城乡市场与小私营商业（耐普曼），由国家掌控大工业、银行、运输与外贸“制高点”；1928–1929年在收购危机与政治转向中逐步瓦解。
+### 3.1 关联核心论断与史学家学派坐标 (`CLM-*` → `SCH-*`, 展示前 2/2 条)
+- **`CLM-other-nep-1923-sokolnikov-monetary-discipline`** [`SCH-zhukov-yuri`(尤里·茹科夫) | pp. 151-158, 208-212]: 
+- **`CLM-katasonov-golden-chervonets-rise-and-demise`** [`SCH-katasonov-valentin`(瓦连京·尤里耶维奇·卡塔索诺夫) | pp. 112–113（馆藏中译本 PDF）]: 
 
-## 3. 关联史学争鸣光谱 (Historiographical Debates)
-- _暂无挂载的 `DEB-*` 争鸣母题卡。_
-## 4. 关联时间线锚点 (共 1 条)
-- **1924-02-01 [N.S.]** (`TL-W36-1924-02-01`, L3): **索科利尼科夫完成切尔文涅茨与国库券币制改革收口** — 1924年2至3月，财政人民委员索科利尼科夫停印贬值的旧苏维埃纸币（sovznaki），发行1、3、5卢布国库券及银辅币，按10卢布=1切尔文涅茨固定平价并以50,000:1比率回收1923年版纸币，终结双轨货币混乱并巩固NEP工农交换信用。
+## 4. 关联时间线骨干锚点 (L0–L2 展示 0 条，另有 1 条 L3 逐日细节见 `timeline/L3_daily/`)

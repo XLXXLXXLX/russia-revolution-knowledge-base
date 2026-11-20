@@ -7,7 +7,7 @@ publication_year: 2015
 source_tier: B
 local_source_path: "sources/monographs/spitsyn_russia_ussr_v3_zh/ch05_第一部分_1917-1941年的苏维埃俄国和苏联_part_1.md#L64-L246"
 original_pages: "PDF pp. 11–15, 24, 28"
-targets_cards: ["EVT-february-revolution", "EVT-kornilov-affair", "EVT-october-revolution"]
+targets_cards: ["EVT-1917-02-february-revolution", "EVT-1917-08-kornilov-affair", "EVT-1917-10-october-revolution"]
 debate: null
 supports: []
 rebuts: []

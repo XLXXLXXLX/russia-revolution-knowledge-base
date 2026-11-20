@@ -1,14 +1,14 @@
 ---
 id: CLM-central-asia-nomads-nep-clan-adaptation-and-1928-bai-confiscation
 type: claim
-scholar: SCH-thomas
+scholar: SCH-thomas-alun
 work_title: "Nomads and Soviet Rule: Central Asia under Lenin and Stalin（《游牧民族与苏联统治：列宁和斯大林统治下的中亚》）"
 publication_year: 2018
 source_tier: A
 local_source_path: "sources/monographs/central_asia_nomads_zh/ch14_6_collectivisation.md#L54-L204"
 original_pages: "pp. 1-5, 11-25, 106-163, 170-176 (PDF pp. 14-18, 24-38, 118-176, 183-189)"
-targets_cards: ["POL-new-economic-policy", "EVT-1928-grain-crisis"]
-debate: DEB-nep-viability-and-contradictions
+targets_cards: ["POL-nep", "EVT-1928-grain-procurement-crisis"]
+debate: DEB-1928-bukharin-alternative
 supports: []
 rebuts: []
 qualifies: []

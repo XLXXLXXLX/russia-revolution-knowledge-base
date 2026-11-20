@@ -7,8 +7,8 @@ publication_year: 2018
 source_tier: A
 local_source_path: "sources/monographs/hasegawa_february_1917/ch41_chapter_30_conclusion.md#L205-L287"
 original_pages: "pp. 643–645 (PDF pp. 664–666); cf. pp. 203–204, 218 (PDF pp. 224–225, 239)"
-targets_cards: ["EVT-1917-february-revolution", "ORG-bolshevik-vyborg-committee", "ORG-mezhraiontsy", "ORG-workers-group"]
-debate: DEB-1917-february-spontaneity-vs-leadership
+targets_cards: ["EVT-1917-02-february-revolution", "ORG-bolsheviks-rcpb-vkpb", "PER-trotsky", "ORG-mensheviks"]
+debate: DEB-1917-dual-power-and-february-origins
 supports: []
 rebuts: []
 qualifies: []

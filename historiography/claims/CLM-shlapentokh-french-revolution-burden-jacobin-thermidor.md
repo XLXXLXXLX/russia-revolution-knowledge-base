@@ -1,7 +1,7 @@
 ---
 id: CLM-shlapentokh-french-revolution-burden-jacobin-thermidor
 type: claim
-scholar: SCH-ioannis-sinanoglou
+scholar: SCH-sinanoglou-ioannis
 work_title: "France and the Russian Revolutions: The Burden of French Revolutionary History"
 publication_year: 1987
 source_tier: A

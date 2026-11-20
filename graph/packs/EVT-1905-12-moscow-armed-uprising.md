@@ -1,18 +1,13 @@
-# 1-Hop 平衡上下文包：`EVT-1905-12-moscow-armed-uprising` (1905年12月莫斯科武装起义与普列斯尼亚街垒战)
+# 1-Hop 去重平衡上下文包：`EVT-1905-12-moscow-armed-uprising`
 
-> 本文件由 `python scripts/kb.py pack` 自动编译，旨在将失控的 `1+N` 随机读取压缩为**等权重、带时效边实质与史学盲区告警**的单次全景读取。
+> 由 `python scripts/kb.py pack` 动态编译：保留 **100% 一跳邻居与多时段关系边**，跨卡自动去重争鸣与时间线，并关联学者学派 (`SCH-*`)。
 
-## 0. 认知完备度与反偏斜仪表盘 (Epistemic & Skew Warnings)
-- **主卡路径**: `cards/events/EVT-1905-12-moscow-armed-uprising.md`
-- **完备度等级**: `multi-perspective`
-- **已覆盖视角**: `revolutionary-participant-synthesis-trotsky, bolshevik-insurrectionary-lenin, menshevik-determinist-plekhanov, social-cultural-history-figes, liberal-conservative-pipes, psr-party-history-hildermeier`
-- **待补齐视角**: `moscow-police-dubasov-official-casualty-ledgers, lenin-1906-08-lessons-of-moscow-uprising-russian-fulltext, plekhanov-dnevnik-sotsial-demokrata-no4-fulltext`
-- **偏斜风险提示**:
-  - ⚠️ 主卡显式声明尚缺以下视角待补: `moscow-police-dubasov-official-casualty-ledgers, lenin-1906-08-lessons-of-moscow-uprising-russian-fulltext, plekhanov-dnevnik-sotsial-demokrata-no4-fulltext`。
+## 0. 认知完备度与反偏斜仪表盘
+- **`EVT-1905-12-moscow-armed-uprising`** (1905年12月莫斯科武装起义与普列斯尼亚街垒战 | `cards/events/EVT-1905-12-moscow-armed-uprising.md` | `multi-perspective`): 已覆盖=`revolutionary-participant-synthesis-trotsky, bolshevik-insurrectionary-lenin, menshevik-determinist-plekhanov, social-cultural-history-figes, liberal-conservative-pipes, psr-party-history-hildermeier`；待补=`moscow-police-dubasov-official-casualty-ledgers, lenin-1906-08-lessons-of-moscow-uprising-russian-fulltext, plekhanov-dnevnik-sotsial-demokrata-no4-fulltext`
 
 ## 1. 主卡核心层 ([T1] + [T2])
 ## [T1] 60秒定性微摘要
-`1905-12-07` 至 `12-18 [O.S.] / 1905-12-20` 至 `12-31 [N.S.]`，继圣彼得堡苏维埃被捕后，莫斯科约10万至15万工人总罢工升级为全城游击巷战与普列斯尼亚（`Пресня`）工人区街垒苦战。因尼古拉耶夫铁路未断，总督杜巴索夫调来彼得堡谢苗诺夫近卫团以重炮轰平普列斯尼亚（全城死亡估约千人）。败局引发普列汉诺夫“本来就不应该拿起武器”、列宁“本应更坚决转守为攻”与托洛茨基《1905》“争夺军队的斗争”三大战略路线决裂。
+1905-12-07至12-18[O.S.]/12-20至12-31[N.S.]，莫斯科总罢工转为巷战。铁路未断使谢苗诺夫近卫团得以增援，重炮镇压普列斯尼亚，全城估死千人。败局引发普列汉诺夫反对起兵、列宁要求坚决进攻、托洛茨基强调争夺军队的战略分歧。
 
 ## [T2] 核心脉络、时效关系边表与史学争鸣光谱
 
@@ -61,32 +56,19 @@
 
 ---
 
-## 2. 一跳邻域等权重微摘要 (共 6 个关联节点，严防大卡霸占上下文)
-### 邻居节点: `ORG-petrograd-soviet`
-- **时效关系边** (`EVT-1905-12-moscow-armed-uprising` → `ORG-petrograd-soviet` | `catalyzes` | 有效时段: `1905-12-03 [O.S.] / 1905-12-16 [N.S.] 至 1905-12-07 [O.S.] / `): 杜尔诺沃逮捕圣彼得堡苏维埃260余名代表切断首都指挥中枢，迫使莫斯科苏维埃与各党地方组织独自扛起武装决战重担（RN-W32 [·236·–·251·]）。
-- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 1917年二月革命后在塔夫利达宫诞生的首都工兵政权：执委会主席始终为齐赫伊泽，策烈铁里是执委会常务局核心领袖并主导“革命护国”路线，颁布《第一号命令》重塑军队纪律；夏秋左翼浪潮下于俄历8月31日（公历9月13日）全体大会首次通过布尔什维克决议，托洛茨基随后当选主席，十月以军事革命委员会夺权枢纽终结临时政府。
+## 2. 一跳邻域全量微摘要目录 (去重后共 6 个节点，0 截断)
+- **`EVT-1905-01-bloody-sunday`**（1905年流血星期日与革命爆发）: 1905-01-09[O.S.]/01-22[N.S.]，圣彼得堡请愿工人遭军队射击。普梯洛夫厂解雇引发罢工，加邦领导的工人大会将经济诉求与立宪、自由要求结合。死伤口径有异：官方130死299伤，现代估约200死800伤；惨案削弱部分工人的沙皇信仰，催化1905年革命。 ‖ `→EVT-1905-12-moscow-armed-uprising`[precedes_in_revolutionary_chain|1905-01 → 1905-12]: 后续革命链条的远端节点，二者之间不构成直接因果。
+- **`ORG-petrograd-soviet`**（彼得格勒工兵代表苏维埃）: 二月革命后诞生于塔夫利达宫的工兵政权，颁布《第一号命令》。执委会主席为齐赫伊泽，策烈铁里是常务局核心并主导革命护国路线。1917-08-31[O.S.]/09-13[N.S.]首次通过布尔什维克决议，托洛茨基随后任主席；十月军事革命委员会成为推翻临时政府的枢纽。 ‖ `←EVT-1905-12-moscow-armed-uprising`[catalyzes|1905-12-03 [O.S.] / 1905-12-16 [N.S.] 至 1905-12-07 [O.S.] / ]: 杜尔诺沃逮捕圣彼得堡苏维埃260余名代表切断首都指挥中枢，迫使莫斯科苏维埃与各党地方组织…
+- **`ORG-bolsheviks-rcpb-vkpb`**（布尔什维克派—俄共（布）—联共（布））: 布尔什维克起于1903年社民工党二大后的党内多数派，经流亡、地下活动与1917年群众扩张成为执政党；1918年称俄共（布），1925年称联共（布）。它从地方主动性较强的革命党，演变为拥有任命网络与纪律制裁的党国核心，过程分阶段且存争议。 ‖ `←EVT-1905-12-moscow-armed-uprising`[leads_jointly|1905-12-06 [O.S.] / 1905-12-19 [N.S.] 至 1905-12-18 [O.S.] / ]: 基层打破教派藩篱协同作战（约700–800名党战斗队员加铁路、印刷工志愿射手），以三四人…
+- **`PER-nicholas-ii`**（尼古拉二世）: 末代沙皇（1894–1917在位），固守东正教君权与家产制专制。1905年经历血腥星期日，被迫签署《十月宣言》；1915年赴莫吉廖夫兼任最高统帅，宫廷趋于孤立。1917-03-02[O.S.]/03-15[N.S.]在普斯科夫退位，1918-07-17于叶卡捷琳堡被处决。 ‖ `←EVT-1905-12-moscow-armed-uprising`[suppresses_brutally|1905-12-15 [O.S.] / 1905-12-28 [N.S.] 至 1905-12-18 [O.S.] / ]: 借未断的尼古拉耶夫铁路自首都调入精锐近卫军，以野战炮重轰普列斯尼亚并在喀山铁路沿线法外处…
+- **`EVT-1905-revolution`**（1905–1907年俄国第一次革命）: 1905年1月9日[O.S.]“血腥星期日”至1907年6月3日[O.S.]六三新选举法间的帝俄首次全民革命。涵盖十月总罢工、彼得堡苏维埃、水兵哗变、莫斯科起义与黑土区农村暴动；迫使沙皇颁布《十月宣言》与杜马体制，随革命退潮，有限代议制度保留并受保守选举法约束。 ‖ `→EVT-1905-12-moscow-armed-uprising`[climax_insurrection_of|1905.12 [O.S.]]: 彼得堡苏维埃被捕后莫斯科总罢工升级为普列斯尼亚街垒巷战，谢苗诺夫斯基团炮击平叛标志城市武装起义高潮落幕
+- **`POL-october-manifesto-and-1906-fundamental-laws`**（十月宣言、国家根本法与六三体制）: 1905年革命迫使沙皇签署《十月宣言》，承诺公民自由、杜马立法同意权。1906年《国家根本法》使代议立法制度化，同时保留皇权、上院否决与休会紧急立法；1907年未经议会同意改选举法，形成延至1917年的六三体制。它并非议会责任内阁，亦不能视为纯粹装饰。 ‖ `→EVT-1905-12-moscow-armed-uprising`[followed-by-reaction|1905-12]: 宣言后的“自由五十天”以十二月起义及镇压收束
 
-### 邻居节点: `ORG-bolsheviks-rcpb-vkpb`
-- **时效关系边** (`EVT-1905-12-moscow-armed-uprising` → `ORG-bolsheviks-rcpb-vkpb` | `leads_jointly` | 有效时段: `1905-12-06 [O.S.] / 1905-12-19 [N.S.] 至 1905-12-18 [O.S.] / `): 基层打破教派藩篱协同作战（约700–800名党战斗队员加铁路、印刷工志愿射手），以三四人游击战术及普列斯尼亚街垒牵制1.5万卫戍军（ch11_1905_part_11 [·255·, ·261·]）。
-- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 布尔什维克起于1903年社民工党二大后的党内多数派，经流亡、地下活动与1917年群众扩张成为执政党；1918年称俄共（布），1925年称联共（布）。它从地方主动性较强的革命党，演变为拥有任命网络与纪律制裁的党国核心，过程分阶段且存争议。
-
-### 邻居节点: `PER-nicholas-ii`
-- **时效关系边** (`EVT-1905-12-moscow-armed-uprising` → `PER-nicholas-ii` | `suppresses_brutally` | 有效时段: `1905-12-15 [O.S.] / 1905-12-28 [N.S.] 至 1905-12-18 [O.S.] / `): 借未断的尼古拉耶夫铁路自首都调入精锐近卫军，以野战炮重轰普列斯尼亚并在喀山铁路沿线法外处决近150人（ch11_1905_part_11 [·259·–·262·]; Figes 1996）。
-- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 俄罗斯帝国末代沙皇（1894–1917在位）。固守东正教君权神授与家产制专制信条；经历1905年血腥星期日并被迫签署《十月宣言》，1915年亲赴莫吉廖夫兼任最高统帅引发宫廷孤立，`1917-03-02 [O.S.] / 1917-03-15 [N.S.]` 在普斯科夫退位，`1918-07-17` 在叶卡捷琳堡伊帕季耶夫宅邸被处决。
-
-### 邻居节点: `EVT-1905-01-bloody-sunday`
-- **时效关系边** (`EVT-1905-01-bloody-sunday` → `EVT-1905-12-moscow-armed-uprising` | `precedes_in_revolutionary_chain` | 有效时段: `1905-01 → 1905-12`): 后续革命链条的远端节点，二者之间不构成直接因果。
-- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): `1905-01-09 [O.S.] / 1905-01-22 [N.S.]`，圣彼得堡请愿工人在纳尔瓦门等多处遭军队射击。罢工由普梯洛夫厂四名工人遭解雇（1904年12月下旬）引起；加邦领导的合法工人大会将经济诉求与立宪、自由要求结合。死伤统计口径各异（官方 130死/299伤；现代估计约200死/800伤）；枪击打击了部分工人对沙皇父权保护的信任，并成为1905年革命的重大催化剂。
-
-### 邻居节点: `POL-october-manifesto-and-1906-fundamental-laws`
-- **时效关系边** (`POL-october-manifesto-and-1906-fundamental-laws` → `EVT-1905-12-moscow-armed-uprising` | `followed-by-reaction` | 有效时段: `1905-12`): 宣言后的“自由五十天”以十二月起义及镇压收束
-- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 1905年革命迫使尼古拉二世签署维特推动的《十月宣言》，承诺公民自由和杜马立法同意权；1906年修订《国家根本法》使代议立法制度化，同时保留皇权、上院否决及休会紧急立法。1907年以未经议会同意的新选举法重组杜马，形成持续到1917年帝制崩溃的保守“六三体制”。它既不是议会责任内阁，也不能简单视为毫无影响的装饰。
-
-### 邻居节点: `EVT-1905-revolution`
-- **时效关系边** (`EVT-1905-revolution` → `EVT-1905-12-moscow-armed-uprising` | `climax_insurrection_of` | 有效时段: `1905.12 [O.S.]`): 彼得堡苏维埃被捕后莫斯科总罢工升级为普列斯尼亚街垒巷战，谢苗诺夫斯基团炮击平叛标志城市武装起义高潮落幕
-- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 1905年1月9日[O.S.]“血腥星期日”至1907年6月3日[O.S.]六三新选举法间的帝俄首次全民革命。涵盖十月总罢工、彼得堡苏维埃、水兵哗变、莫斯科起义与黑土区农村暴动；迫使沙皇颁布《十月宣言》与杜马体制，随革命退潮，有限代议制度保留并受保守选举法约束。
-
-## 3. 关联史学争鸣光谱 (Historiographical Debates)
+## 3. 关联史学争鸣与学者论断索引 (主卡外关联争鸣 2 项)
 - ⚠️ 引用了尚未创建的争鸣卡 `DEB-1905-december-uprising-strategy`
 - ⚠️ 引用了尚未创建的争鸣卡 `DEB-permanent-revolution-vs-two-stage`
-## 4. 关联时间线锚点 (共 0 条)
+
+### 3.1 关联核心论断与史学家学派坐标 (`CLM-*` → `SCH-*`, 展示前 1/1 条)
+- **`CLM-trotsky-1905-december-uprising-lessons-and-permanent-revolution-defense`** [`SCH-trotsky-leon`(列夫·达维多维奇·托洛茨基 · participant-historian) | 中译书页 ·225·、·278·、·281·–·282·、·292·、·308·、·325·–·328·、·330·、·406·（1922 年俄文第 2 版系统，PDF pp. 229–410）]: 
+
+## 4. 关联时间线骨干锚点 (L0–L2 展示 0 条)

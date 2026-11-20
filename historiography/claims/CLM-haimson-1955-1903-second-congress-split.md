@@ -7,8 +7,8 @@ publication_year: 1955
 source_tier: A
 local_source_path: "sources/monographs/haimson_1955_origins/ch07_pages_176-200.md#L426-L1243"
 original_pages: "pp. 175-191"
-targets_cards: ["PER-lenin", "PER-martov-l", "PER-plekhanov", "PER-akselrod", "MTG-1903-rsdrp-2nd-congress"]
-debate: DEB-1903-rsdrp-split
+targets_cards: ["PER-lenin", "PER-martov-l", "PER-plekhanov", "PER-axelrod", "MTG-1903-rsdlp-2nd-congress"]
+debate: DEB-1903-bolshevik-menshevik-split
 supports: []
 rebuts: []
 qualifies: []

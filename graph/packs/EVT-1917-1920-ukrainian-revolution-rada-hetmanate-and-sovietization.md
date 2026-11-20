@@ -1,14 +1,9 @@
-# 1-Hop 平衡上下文包：`EVT-1917-1920-ukrainian-revolution-rada-hetmanate-and-sovietization` (乌克兰革命：中央拉达、盖特曼政权、执政内阁与苏维埃化（1917—1920）)
+# 1-Hop 去重平衡上下文包：`EVT-1917-1920-ukrainian-revolution-rada-hetmanate-and-sovietization`
 
-> 本文件由 `python scripts/kb.py pack` 自动编译，旨在将失控的 `1+N` 随机读取压缩为**等权重、带时效边实质与史学盲区告警**的单次全景读取。
+> 由 `python scripts/kb.py pack` 动态编译：保留 **100% 一跳邻居与多时段关系边**，跨卡自动去重争鸣与时间线，并关联学者学派 (`SCH-*`)。
 
-## 0. 认知完备度与反偏斜仪表盘 (Epistemic & Skew Warnings)
-- **主卡路径**: `cards/events/EVT-1917-1920-ukrainian-revolution-rada-hetmanate-and-sovietization.md`
-- **完备度等级**: `multi-perspective`
-- **已覆盖视角**: `institutional-carr, social-history-figes, nationalities-archival-smith, urban-ukrainianization-liber, borderland-sd-blanc`
-- **待补齐视角**: `ukrainian-directory-and-rada-ukrainian-archives, reshetar-1952-monograph-direct-text, village-level-election-and-requisition-datasets`
-- **偏斜风险提示**:
-  - ⚠️ 主卡显式声明尚缺以下视角待补: `ukrainian-directory-and-rada-ukrainian-archives, reshetar-1952-monograph-direct-text, village-level-election-and-requisition-datasets`。
+## 0. 认知完备度与反偏斜仪表盘
+- **`EVT-1917-1920-ukrainian-revolution-rada-hetmanate-and-sovietization`** (乌克兰革命：中央拉达、盖特曼政权、执政内阁与苏维埃化（1917—1920） | `cards/events/EVT-1917-1920-ukrainian-revolution-rada-hetmanate-and-sovietization.md` | `multi-perspective`): 已覆盖=`institutional-carr, social-history-figes, nationalities-archival-smith, urban-ukrainianization-liber, borderland-sd-blanc`；待补=`ukrainian-directory-and-rada-ukrainian-archives, reshetar-1952-monograph-direct-text, village-level-election-and-requisition-datasets`
 
 ## 1. 主卡核心层 ([T1] + [T2])
 ## [T1] 150字定性微摘要
@@ -46,103 +41,50 @@
   - **[Eric Blanc 温和边疆社民自主选择论]**（`CLM-blanc-2021-borderlands-in-1905-and-1917`; `RN-W4#L113–L115`）：反对把拉达—苏维埃冲突单一归因于“布尔什维克帝国主义”，指出乌克兰社民党（USDRP）在1905年失败后右转、1917年4月选择与自由派结盟、十月后谴责彼得格勒起义并最终引德入关，本身即具有决定性的能动责任。
   - **[George O. Liber “城市乌克兰化”结构溯源论]**（`CLM-liber-1992-ukrainianization-and-urban-working-class`; `RN-W12#L64–L68`）：指出内战暴露出“俄语无产阶级城市 vs 乌语农民腹地”的死结（基辅1917年乌语人口占比甚至降至16%），迫使党不得不在1920—1923年以法律强制推广乌语和提拔农家子弟，却意外催生了日后难以驯服的苏维埃乌克兰公共领域。
 
-## 2. 一跳邻域等权重微摘要 (共 11 个关联节点，严防大卡霸占上下文)
-### 邻居节点: `PER-rakovsky`
-- **时效关系边** (`EVT-1917-1920-ukrainian-revolution-rada-hetmanate-and-sovietization` → `PER-rakovsky` | `soviet-premier` | 有效时段: `1919.01–1920.12`): 1919年1月（二月攻基辅前）即接替皮达可夫任乌克兰人民委员会主席，由反对定乌语为国语、坚持国营农场转向捍卫乌方自治与主导1920年底盟约
-- **时效关系边** (`PER-rakovsky` → `EVT-1917-1920-ukrainian-revolution-rada-hetmanate-and-sovietization` | `soviet-government-head` | 有效时段: `1919.01–1920.12`): 接替皮达可夫任乌克兰人民委员会主席，历经红军败退、重返基辅、吸纳斗争派及签署1920.12俄乌盟约
-- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 巴尔干国际主义者与苏维埃政治家（1873—1941）。1919—1923年任乌克兰人民委员会主席，由反对单定乌语为国语转向力捍共和国自治，1923年十二大推动“本土化”妥协。后任驻英法大使与联合反对派核心，1928年流放撰《论职业危险》剖析执政异化风险，1941年在奥廖尔被处决。
+## 2. 一跳邻域全量微摘要目录 (去重后共 11 个节点，0 截断)
+- **`PER-rakovsky`**（克里斯蒂安·拉柯夫斯基）: 巴尔干国际主义者与苏维埃政治家（1873—1941）。1919—1923年任乌克兰人民委员会主席，由反对单定乌语为国语转向力捍共和国自治，1923年十二大推动“本土化”妥协。后任驻英法大使与联合反对派核心，1928年流放撰《论职业危险》剖析执政异化风险，1941年在奥廖尔被处决。 ‖ `←EVT-1917-1920-ukrainian-revolution-rada-hetmanate-and-sovietization`[soviet-premier|1919.01–1920.12]: 1919年1月（二月攻基辅前）即接替皮达可夫任乌克兰人民委员会主席，由反对定乌语为国语、… ； `→EVT-1917-1920-ukrainian-revolution-rada-hetmanate-and-sovietization`[soviet-government-head|1919.01–1920.12]: 接替皮达可夫任乌克兰人民委员会主席，历经红军败退、重返基辅、吸纳斗争派及签署1920.12俄乌盟约
+- **`PER-pyatakov`**（格奥尔基·皮达可夫）: 乌克兰布尔什维克左派与苏维埃工业金融干才（1890–1937，本卡至1929年）。列宁《遗嘱》点名的六位核心领袖之一；1923年任最高国民经济委员会副主席起草盈利令引发剪刀差争论，联署《四十六人声明》并任联合反对派骨干；1928年率先脱离托洛茨基复职执掌国家银行，支持一五工业化冲刺。 ‖ `←EVT-1917-1920-ukrainian-revolution-rada-hetmanate-and-sovietization`[second-invasion-instigator|1918.11–1919.01]: 1918.11主导库尔斯克临时工农政府二次南下，因派系内斗与对乌民族感情过于冷漠于191…
+- **`PER-lenin`**（弗拉基米尔·列宁）: 布尔什维克党缔造者、苏俄人民委员会主席（1917–1924）。1893年投身马克思主义运动，1903年促成布尔什维克分化；1917年发表《四月提纲》并领导十月夺权，历经布列斯特和约、内战与战时共产主义；1921年主持转向新经济政策，晚年（1922–1923）就官僚化与接班人同斯大林冲突。 ‖ `←EVT-1917-1920-ukrainian-revolution-rada-hetmanate-and-sovietization`[strategic-corrector|1917.12–1920.12]: 1917.12发最后通牒并承认哈尔科夫苏维埃政权；1919.12扭转乌共农村与语言政策，…
+- **`PER-ordzhonikidze`**（格里戈里·“谢尔戈”·奥尔忠尼启则）: 外高加索布尔什维克领导人，1912年任中委，1922年格鲁吉亚事件中殴打党员引列宁震怒。1926年11月兼任中监委主席与工农检查人民委员，两机构联合办公而非合并，主持处分托季派；1928–1929年农业政策倾向斯大林，仍求集体领导调和，密会传单曝光后转而追责右派。 ‖ `←EVT-1917-1920-ukrainian-revolution-rada-hetmanate-and-sovietization`[policy-pivot-catalyst|1919-11]: 1919-11-19 致信列宁警示若不与乌克兰农民妥协必将重蹈覆辙，催生十二月党代会转向
+- **`PER-makhno`**（涅斯托尔·马赫诺）: 乌克兰古利亚伊波列无政府共产主义农民统帅（1888–1934）。创建“革命起义军（黑军）”与自由苏维埃实验；内战中与红军多次合作、破裂，1919年秋破袭邓尼金后方，1920年11月其部队参加克里米亚战役，随即遭红军全面围剿，1921年越境流亡并客居巴黎。 ‖ `←EVT-1917-1920-ukrainian-revolution-rada-hetmanate-and-sovietization`[peasant-anarchist-third-axis|1918–1921.08]: 抗击盖特曼政权、切碎邓尼金补给线并助红军破弗兰格尔，但始终拒斥莫斯科征粮与集权统治，终遭…
+- **`PER-denikin`**（安东·邓尼金）: 俄国陆军中将、志愿军与南俄武装力量总司令（1872—1947）。1919年夏秋依《莫斯科训令》三路北伐逼近奥廖尔与图拉；因大俄罗斯主义排斥边疆民族及哥萨克、纵容“沙拉班”地主复辟与大规模反犹屠杀致后方崩溃，1920年3月自新罗西斯克仓皇撤退辞职，流亡欧美著史终老。 ‖ `←EVT-1917-1920-ukrainian-revolution-rada-hetmanate-and-sovietization`[white-occupier-and-catalyst|1919.07–1919.12]: 1919年夏秋占领基辅与乌克兰大部，但其地主复辟、“不可分割俄罗斯”与反犹屠杀反过来令农… ； `→EVT-1917-1920-ukrainian-revolution-rada-hetmanate-and-sovietization`[chauvinist-occupier-belligerent|1919.06–1919.12]: 拒认乌克兰民族存在（贬称“小俄罗斯”）、禁用乌语并与彼得留拉军队开战，同时纵容占领区系统性反犹屠杀
+- **`PER-wrangel`**（彼得·弗兰格尔）: 俄国白军将领、克里米亚南俄“执政”（1878—1928）。1919年6月攻克察里津后因路线分歧与邓尼金决裂；1920年4月接掌克里米亚残部，整编“俄罗斯军队”并借克里沃舍因、司徒卢威推行有限土改以图外援，但白色恐怖难挽颓势；11月兵败彼列科普后组织14.6万人撤离，流亡创立全军联盟。 ‖ `←EVT-1917-1920-ukrainian-revolution-rada-hetmanate-and-sovietization`[last-white-challenger|1920.06–1920.11]: 借波苏战事自克里米亚北出北陶里达争夺乌克兰南翼，11月被伏龙芝率红军—马赫诺联军逐出克里米亚 ； `→EVT-1917-1920-ukrainian-revolution-rada-hetmanate-and-sovietization`[late-ally-seeker-and-combatant|1920.05–1920.11]: 1920年北出塔夫利达并在苏波战争背景下面向乌克兰民族派与地方武装谋求反布统一战线未果
+- **`PER-frunze`**（米哈伊尔·伏龙芝）: 米哈伊尔·伏龙芝（1885–1925），红军内战名将与军事改革家。1919年东线重创高尔察克、1920年南线攻克克里米亚并肃清马赫诺部；1923年十二大迫斯大林民族政策让步；1925年1月接替托洛茨基掌陆海军人民委员部，推行基干与民兵混合军改及一长制，10月手术后猝逝。 ‖ `←EVT-1917-1920-ukrainian-revolution-rada-hetmanate-and-sovietization`[southern-front-victor|1920.09–1921.08]: 指挥南方面军击溃弗兰格尔，随即按既定策略解除与马赫诺武装之同盟并肃清黑军
+- **`POL-brest-litovsk-treaty`**（布列斯特-立陶夫斯克和约）: 布列斯特和约路线是在军事崩溃与世界革命期待之间作出的单独媾和选择。列宁主张割地换取喘息，布哈林主张革命战争，托洛茨基“不战不和”随德军进逼破产。1918年3月签约虽保住苏维埃政权，却造成重大领土与工业损失，引发党内激烈分裂并推动左派社革党退出联合政府。 ‖ `←EVT-1917-1920-ukrainian-revolution-rada-hetmanate-and-sovietization`[german-occupation-framework|1918.02–1918.11]: 1918年2月拉达单独缔和并求援引致德奥军推进，直接迫使首轮苏维埃政权于3月2日撤离基辅
+- **`POL-korenizatsiia`**（本土化政策（Коренизация））: 1923年俄共十二大系统确立的民族政策，在一党垄断与组织集权下推进非俄干部录用、行政司法母语化和民族文教。斯大林在语言、边疆发展及第二院否决权上让步，守住代表结构；乌克兰等地深入推行，1926、1928年引发文化经济自主争论。1929年底只是本卡观察截点，并非政策废止。 ‖ `←EVT-1917-1920-ukrainian-revolution-rada-hetmanate-and-sovietization`[institutional-precursor|1920–1929]: 1919.12决议与1920.03筛选吸纳斗争派为1923—1929年乌克兰化运动提供干…
+- **`EVT-1918-1920-russian-civil-war`**（俄国内战（1918–1920））: 1918至1920年红白主战场的内战中，布尔什维克依托中央腹地、军火遗产与铁路机动击败分散白军；征粮和恐怖又激起工农反抗。乌克兰及外高加索的民族国家竞争不能归入简单红白对决，克里米亚撤离仅标志主要白军战线收束，边疆与农民战争仍在延续。 ‖ `←EVT-1917-1920-ukrainian-revolution-rada-hetmanate-and-sovietization`[decisive-breadbasket-and-front|1918–1920]: 乌克兰小麦、顿巴斯煤炭与克里沃罗格铁矿是决定苏俄能否赢得全俄内战的核心资源命脉 ； `→EVT-1917-1920-ukrainian-revolution-rada-hetmanate-and-sovietization`[interlocking_borderland_war|1918—1920]: 粮煤资源、民族建国与农民武装改变南线政治和补给
 
-### 邻居节点: `PER-pyatakov`
-- **时效关系边** (`EVT-1917-1920-ukrainian-revolution-rada-hetmanate-and-sovietization` → `PER-pyatakov` | `second-invasion-instigator` | 有效时段: `1918.11–1919.01`): 1918.11主导库尔斯克临时工农政府二次南下，因派系内斗与对乌民族感情过于冷漠于1919年1月被调离
-- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 乌克兰布尔什维克左派与苏维埃工业金融干才（1890–1937，本卡至1929年）。列宁《遗嘱》点名的六位核心领袖之一；1923年任最高国民经济委员会副主席起草盈利令引发剪刀差争论，联署《四十六人声明》并任联合反对派骨干；1928年率先脱离托洛茨基复职执掌国家银行，支持一五工业化冲刺。
+## 3. 关联史学争鸣与学者论断索引 (主卡外关联争鸣 3 项)
+- **`DEB-1923-nationality-and-empire`**（布尔什维克民族政策、格鲁吉亚事件与苏维埃“肯定性行动帝国”性质之争 | `historiography/debates/DEB-1923-nationality-and-empire.md` | 流派 `revisionist-lewin, liberal-cold-war-pipes, archival-nationalities-smith, imperial-history-suny, ukrainian-social-history-liber`）：自1922年8月“自治化”方案与格鲁吉亚冲突起，至1923年4月俄共十二大闭幕，布尔什维克究竟是在建设“肯定性行动帝国”式的制度化本土化实践，还是以先锋队组织垄断维系大俄罗斯官僚集权？争论焦点是解密速记所示的制度妥协，以及各学派因果判断与价值判断之别。
+- **`DEB-1920-polish-war-and-revolutionary-export`**（1920年波苏战争、华沙败局与革命输出之争 | `historiography/debates/DEB-1920-polish-war-and-revolutionary-export.md` | 流派 `military-strategy, territorial-strategy, archival-biography, comintern-revolution, dual-diplomacy, geopolitics`）：波苏战争中，红军越过民族边界进攻华沙，是安全防御升级、欧洲革命的军事赌博，还是两种目标纠缠的结果？华沙败局应如何分配给政治决策、战线延伸和方面军协调？斯大林的领土战略能否直接视为后来一国社会主义的起点？须分别检验当时命令、战役经过与战后回忆的政治用途。
+- **`DEB-1917-october-coup-or-social-revolution`**（十月革命：少数派政变还是社会革命？ | `historiography/debates/DEB-1917-october-coup-or-social-revolution.md` | 流派 `liberal-coup, party-social-history, russian-revisionist-timing, labor-local-history, moderate-socialist-and-constitutional-legitimacy, participant-marxist, peasant-social-history, borderland-and-memory-historiography`）：十月武装夺权是少数派政变，还是工人、士兵与农民社会革命的政治表达？有组织的起义与广泛的基层动员能否同时成立，苏维埃多数又能否代表全国选民？这些问题涉及不同地区、不同时间的支持与合法性，不能以一次投票或一次攻占行动互相替代。
 
-### 邻居节点: `PER-lenin`
-- **时效关系边** (`EVT-1917-1920-ukrainian-revolution-rada-hetmanate-and-sovietization` → `PER-lenin` | `strategic-corrector` | 有效时段: `1917.12–1920.12`): 1917.12发最后通牒并承认哈尔科夫苏维埃政权；1919.12扭转乌共农村与语言政策，并在1920.02取缔决议后旋即拍板有条件吸纳斗争派
-- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 布尔什维克党缔造者、苏俄人民委员会主席（1917–1924）。1893年投身马克思主义运动，1903年促成布尔什维克分化；1917年发表《四月提纲》并领导十月夺权，历经布列斯特和约、内战与战时共产主义；1921年主持转向新经济政策，晚年（1922–1923）就官僚化与接班人同斯大林冲突。
+### 3.1 关联核心论断与史学家学派坐标 (`CLM-*` → `SCH-*`, 展示前 24/34 条)
+- **`CLM-carr-1950-ukraine-and-georgia-military-treaty-reintegration`** [`SCH-carr-eh`(爱德华·霍列特·卡尔) | pp. 349, 386–387 (printed); PDF pp. 360, 397–398]: 
+- **`CLM-blanc-2021-borderlands-in-1905-and-1917`** [`SCH-blanc-eric`(埃里克·布兰克) | pp. 20–23, 338–436, 488–531, 457–543]: 
+- **`CLM-liber-1992-ukrainianization-and-urban-working-class`** [`SCH-liber-george`(乔治·O·利伯) | pp. 75–76; 99–105]: 
+- **`CLM-smith-jeremy-1999-twelfth-congress-korenizatsiia`** [`SCH-smith-jeremy`(杰里米·史密斯) | pp. 311, 321-325, 327-331]: 
+- **`CLM-lewin-1968-georgian-affair-bureaucracy`** [`SCH-lewin-moshe`(摩西·莱文) | n/a（EPUB 无页码锚点）；Ch.9、Ch.10 与 Appendixes I–III, VII–VIII]: 
+- **`CLM-lewin-1968-testament-intent`** [`SCH-lewin-moshe`(摩西·莱文) | n/a（EPUB 无页码锚点）；Ch.10 'If Lenin Had Lived . . .'；列宁原文脚注见 Soch. XLV p. 392；XLIV p. 428]: 
+- **`CLM-carr-1950-self-determination-to-federal-reunion`** [`SCH-carr-eh`(爱德华·霍列特·卡尔) | pp. 253-285, 364-428]: 
+- **`CLM-smith-jeremy-1999-georgian-affair-reassessed`** [`SCH-smith-jeremy`(杰里米·史密斯) | pp. 252-253, 260-262, 266-268, 285-288, 296-297]: 
+- **`CLM-suny-2017-empire-and-nationality-dimension`** [`SCH-suny-ronald-gregor`(罗纳德·格里戈尔·苏尼) | pp. 125-140 (approx. ch. 3 opening theory; see also Witte L322-328)]: 
+- **`CLM-liber-1992-korenizatsiia-paradox-late-1920s`** [`SCH-liber-george`(乔治·O·利伯) | pp. 155–157; 180–186]: 
+- **`CLM-mawdsley-1987-civil-war-militarized-regime`** [`SCH-mawdsley-evan`(埃文·莫兹利) | pp. 328, 331, 346-347]: 
+- **`CLM-stalin-war-1920-polish-war-lessons`** [`SCH-shearer-david`(戴维·R·希勒) | pp. 4, 11–15 (PDF pp. 11, 17–22)]: 
+- **`CLM-stalin-docs-tsaritsyn-and-civil-war-command-style`** [`SCH-dolmatov-vladimir`(弗拉基米尔·多尔马托夫（编） · archival-documentary-edition)]: 
+- **`CLM-halle-1920-zinoviev-world-revolution-speech`** [`SCH-zinoviev-grigorii`(格里戈里·叶夫谢耶维奇·季诺维也夫 · participant-primary-text) | pp. 118–122, 130–131, 134, 140, 142, 150 (Lewis ed. 2011; printed page = PDF page − 1). Full speech pp. 117–158, delivered 14 October 1920 [N.S.]]: 
+- **`CLM-carr-1953-dual-foreign-policy-rapallo-comintern`** [`SCH-carr-eh`(爱德华·霍列特·卡尔) | 译本 pp. 22, 114, 143, 156, 168-169 (PDF pp. 28, 120, 149, 162, 174-175)]: 
+- **`CLM-kotkin-2014-geopolitics-and-ideology`** [`SCH-kotkin-stephen`(斯蒂芬·科特金) | EPUB Ch. 13 (OEBPS/9780698170100_EPUB_1-23.xhtml) & Coda (OEBPS/9780698170100_EPUB_1-25.xhtml)]: 
+- **`CLM-pipes-1990-october-classic-coup`** [`SCH-pipes-richard`(理查德·派普斯) | ch. 11 (The October Coup); cf. Introduction]: 
+- **`CLM-rabinowitch-1976-open-democratic-mass-party`** [`SCH-rabinowitch-alexander`(亚历山大·拉比诺维奇) | 未核：EPUB 章节及行号]: 
+- **`CLM-rabinowitch-1976-october-three-factions-debate`** [`SCH-rabinowitch-alexander`(亚历山大·拉比诺维奇) | 未核：EPUB 章节及行号]: 
+- **`CLM-rabinowitch-1976-trotsky-soviet-congress-strategy`** [`SCH-rabinowitch-alexander`(亚历山大·拉比诺维奇) | 未核：EPUB 章节及行号]: 
+- **`CLM-loginov-lenin-1917-fleeting-window-of-power`** [`SCH-loginov-vladlen`(弗拉德连·洛吉诺夫) | pp. 523-524, 531-532, 560-561, 621-622, 656-658]: 
+- **`CLM-smith-sa-1983-defensive-workers-control`** [`SCH-smith-sa`(斯蒂芬·A·史密斯（S. A. Smith）) | 中译本 pp. 106–112, 133, 135, 137, 191（即源文件标注 PDF pp. 111–117, 138, 140, 142, 196）；注意：均为中译本页码，非英文原版页码]: 
+- **`CLM-koenker-1981-moscow-october-armed-struggle-vs-petrograd`** [`SCH-koenker-diane`(黛安·P·科恩克尔) | pp. 329–355 (local PDF pp. 345–371); p. 366 (PDF p. 382)]: 
+- **`CLM-koenker-1981-rational-incremental-radicalization`** [`SCH-koenker-diane`(黛安·P·科恩克尔) | pp. 359–363 (local PDF pp. 375–379); p. 254 (PDF p. 270)]: 
 
-### 邻居节点: `PER-ordzhonikidze`
-- **时效关系边** (`EVT-1917-1920-ukrainian-revolution-rada-hetmanate-and-sovietization` → `PER-ordzhonikidze` | `policy-pivot-catalyst` | 有效时段: `1919-11`): 1919-11-19 致信列宁警示若不与乌克兰农民妥协必将重蹈覆辙，催生十二月党代会转向
-- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 外高加索布尔什维克强人与党纪监督重臣（1886–1937，本卡至1929年）。1912任中央委员；1922主政外高加索因“格鲁吉亚事件”殴打党员触发列宁震怒；1926年11月起任中监委主席兼苏联工农检查人民委员（两机构联合办公而非合并），主持开除托季派；1928–1929年一面在农业政策上倾向斯大林、一面维持集体领导调和，密会传单曝光后转而主持对右派的纪律追责。
-
-### 邻居节点: `PER-makhno`
-- **时效关系边** (`EVT-1917-1920-ukrainian-revolution-rada-hetmanate-and-sovietization` → `PER-makhno` | `peasant-anarchist-third-axis` | 有效时段: `1918–1921.08`): 抗击盖特曼政权、切碎邓尼金补给线并助红军破弗兰格尔，但始终拒斥莫斯科征粮与集权统治，终遭红军清剿渡河赴罗
-- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 乌克兰古利亚伊波列无政府共产主义农民统帅（1888–1934）。创建“革命起义军（黑军）”与自由苏维埃实验；内战中与红军多次合作、破裂，1919年秋破袭邓尼金后方，1920年11月其部队参加克里米亚战役，随即遭红军全面围剿，1921年越境流亡并客居巴黎。
-
-### 邻居节点: `PER-denikin`
-- **时效关系边** (`EVT-1917-1920-ukrainian-revolution-rada-hetmanate-and-sovietization` → `PER-denikin` | `white-occupier-and-catalyst` | 有效时段: `1919.07–1919.12`): 1919年夏秋占领基辅与乌克兰大部，但其地主复辟、“不可分割俄罗斯”与反犹屠杀反过来令农民转向容忍红军归来
-- **时效关系边** (`PER-denikin` → `EVT-1917-1920-ukrainian-revolution-rada-hetmanate-and-sovietization` | `chauvinist-occupier-belligerent` | 有效时段: `1919.06–1919.12`): 拒认乌克兰民族存在（贬称“小俄罗斯”）、禁用乌语并与彼得留拉军队开战，同时纵容占领区系统性反犹屠杀
-- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 俄国陆军中将、志愿军与南俄武装力量总司令（1872—1947）。1919年夏秋依《莫斯科训令》三路北伐逼近奥廖尔与图拉；因大俄罗斯主义排斥边疆民族及哥萨克、纵容“沙拉班”地主复辟与大规模反犹屠杀致后方崩溃，1920年3月自新罗西斯克仓皇撤退辞职，流亡欧美著史终老。
-
-### 邻居节点: `PER-wrangel`
-- **时效关系边** (`EVT-1917-1920-ukrainian-revolution-rada-hetmanate-and-sovietization` → `PER-wrangel` | `last-white-challenger` | 有效时段: `1920.06–1920.11`): 借波苏战事自克里米亚北出北陶里达争夺乌克兰南翼，11月被伏龙芝率红军—马赫诺联军逐出克里米亚
-- **时效关系边** (`PER-wrangel` → `EVT-1917-1920-ukrainian-revolution-rada-hetmanate-and-sovietization` | `late-ally-seeker-and-combatant` | 有效时段: `1920.05–1920.11`): 1920年北出塔夫利达并在苏波战争背景下面向乌克兰民族派与地方武装谋求反布统一战线未果
-- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 俄国白军将领、克里米亚南俄“执政”（1878—1928）。1919年6月攻克察里津后因路线分歧与邓尼金决裂；1920年4月接掌克里米亚残部，整编“俄罗斯军队”并借克里沃舍因、司徒卢威推行有限土改以图外援，但白色恐怖难挽颓势；11月兵败彼列科普后组织14.6万人撤离，流亡创立全军联盟。
-
-### 邻居节点: `PER-frunze`
-- **时效关系边** (`EVT-1917-1920-ukrainian-revolution-rada-hetmanate-and-sovietization` → `PER-frunze` | `southern-front-victor` | 有效时段: `1920.09–1921.08`): 指挥南方面军击溃弗兰格尔，随即按既定策略解除与马赫诺武装之同盟并肃清黑军
-- **节点定性微摘要 [T1]** (完备度 `draft`): 米哈伊尔·伏龙芝（1885–1925），内战红军名将：1919年东线击溃高尔察克，1920年南线攻克弗兰格尔克里米亚；1923年十二大迫斯大林民族政策让步，1924–1925主持军事改革接替托洛茨基，1925年10月手术后猝死。
-
-### 邻居节点: `POL-brest-litovsk-treaty`
-- **时效关系边** (`EVT-1917-1920-ukrainian-revolution-rada-hetmanate-and-sovietization` → `POL-brest-litovsk-treaty` | `german-occupation-framework` | 有效时段: `1918.02–1918.11`): 1918年2月拉达单独缔和并求援引致德奥军推进，直接迫使首轮苏维埃政权于3月2日撤离基辅
-- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 布列斯特和约路线是在军事崩溃与世界革命期待之间作出的单独媾和选择。列宁主张割地换取喘息，布哈林主张革命战争，托洛茨基“不战不和”随德军进逼破产。1918年3月签约虽保住苏维埃政权，却造成重大领土与工业损失，引发党内激烈分裂并推动左派社革党退出联合政府。
-
-### 邻居节点: `POL-korenizatsiia`
-- **时效关系边** (`EVT-1917-1920-ukrainian-revolution-rada-hetmanate-and-sovietization` → `POL-korenizatsiia` | `institutional-precursor` | 有效时段: `1920–1929`): 1919.12决议与1920.03筛选吸纳斗争派为1923—1929年乌克兰化运动提供干部与制度先声，但仍受党内集权与清洗焦虑制约
-- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 1923年俄共（布）十二大系统确立的苏联早期民族政策：在一党垄断政权与组织集权前提下，推进非俄罗斯地区干部录用、行政司法母语化及民族文教建设。十二大上斯大林在语言权利、边疆发展与第二院立法否决权上作实质让步，但守住第二院代表结构方案；1920年代在乌克兰等地深度推进，1926与1928年相继引发文化与经济自主论争（本卡止于1929年底观察截点，非政策废止日）。
-
-### 邻居节点: `EVT-1918-1920-russian-civil-war`
-- **时效关系边** (`EVT-1917-1920-ukrainian-revolution-rada-hetmanate-and-sovietization` → `EVT-1918-1920-russian-civil-war` | `decisive-breadbasket-and-front` | 有效时段: `1918–1920`): 乌克兰小麦、顿巴斯煤炭与克里沃罗格铁矿是决定苏俄能否赢得全俄内战的核心资源命脉
-- **节点定性微摘要 [T1]** (完备度 `draft`): 1918–1920年苏俄内战：布尔什维克依托“苏托邦”人口、军火与莫斯科铁路枢纽内线机动，先后粉碎高尔察克、邓尼金、弗兰格尔白军及马赫诺黑军，并压制社革党第三力量；协约国干涉与边疆民族武装相互牵制。
-
-## 3. 关联史学争鸣光谱 (Historiographical Debates)
-### `DEB-1923-nationality-and-empire`：布尔什维克民族政策、格鲁吉亚事件与苏维埃“肯定性行动帝国”性质之争
-## [T1] 核心问题定义
-`1922-08` 至 `1923-04-25`（自“自治化”方案、格鲁吉亚冲突至俄共十二大民族问题特别会议闭幕）及其后1920年代本土化实践，布尔什维克是在建设多民族“肯定性行动帝国”内的制度化本土化体制，还是以先锋队组织垄断维系的大俄罗斯官僚集权？争论焦点在于解密速记揭示的制度妥协与各学派因果—价值判断之分。
-
-## [T2] 各学派立场对照矩阵
-| 学派/取向 | 代表学者与著作 | 核心论点摘要 | 支撑论断卡 | 主要受批评盲点 |
-| :--- | :--- | :--- | :--- | :--- |
-| 列宁晚期斗争与反官僚论 | Moshe Lewin, *Lenin's Last Struggle* (1968) | 格鲁吉亚事件暴露大俄罗斯沙文主义“为整个政府机器所服务”并与官僚机构合流，列宁晚年警觉最高层专政退化风险，准备清算 *dzerzhimordy*；民族问题是撤换斯大林问责的实质切口之一。 | `CLM-lewin-1968-georgian-affair-bureaucracy`; `CLM-lewin-1968-testament-intent` | 易将列宁口述笔记重构为高度连贯的“遗嘱计划”；写于1990年代十二大特别会议速记解密之前。 |
-| 自由主义—极权连续论 | Richard Pipes, *The Formation of the Soviet Union: Communism and Nationalism, 1917–1923* (1954; rev. ed. 1964) | 论证布尔什维克以红军武力征服外高加索与边疆，通过单一集权党中央架空形式上的联邦制；十二大被定性为斯大林行政中央集权对民族自治的彻底胜利（Smith 正面驳斥此说）。 | `CLM-carr-1950-self-determination-to-federal-reunion`；`CLM-smith-jeremy-1999-twelfth-congress-korenizatsiia` 对勘引述 | 1991年解密的十二大民族问题特别会议速记显示边疆代表反击与中央制度让步远比“单方全胜”复杂。 |
-| 解密档案民族妥协论 | Jeremy D. Smith, *The Bolsheviks and the National Question, 1917–1923* (1999) | 列宁—斯大林在集中制原则上确有共识，但 `1923-04` 十二大民族问题特别会议显示边疆代表迫使斯大林大幅退让，奠定1920年代本土化相对稳固期；格鲁吉亚危机不宜简化为列斯个人生死对决。 | `CLM-smith-jeremy-1999-twelfth-congress-korenizatsiia`; `CLM-smith-jeremy-1999-georgian-affair-reassessed` | 本土化制度繁荣期止于1930年代逆转，分期边界须清晰。 |
-| 帝国史学框架 | Ronald Grigor Suny, *The Red Flag Unfurled* (2017) 等 | 沙俄—苏联宜在“宗主—边缘不平等从属与差异治理”的帝国框架下理解民族建构；1991年后“苏联=帝国”共识含事后目的论归因风险。 | `CLM-suny-2017-empire-and-nationality-dimension` | 帝国理论有助于宏观比较定位，但不能替代十二大速记级制度考证。 |
-| 乌克兰社会史与本土化悖论 | George Liber, *Soviet Nationality Policy, Urban Growth, and Identity Change in the Ukrainian SSR 1923–1934* (1992) | 本土化整合城乡乌克兰人、扩张乌克兰语公共领域的同时，制度化语言边界并孕育中央难以完全消化的地方民族诉求。 | `CLM-liber-1992-korenizatsiia-paradox-late-1920s`; `CLM-liber-1992-ukrainianization-and-urban-working-class` | 侧重乌克兰工业城市化案例，外高加索与中亚须分区域检验。 |
-| “肯定性行动帝国”概念框架 | Terry Martin, *The Affirmative Action Empire* (2001) 等 | 1920年代苏联对非俄罗斯民族实施制度化优待（干部、语言、教育与领土配额），以党国政治垄断为前提整合多民族边缘——动员成效与潜在离心张力并存。 | （Martin 专著独立论断卡尚待 `close-reader` 入库；现阶段参看 `POL-korenizatsiia` 与 `CLM-smith-jeremy-1999-twelfth-congress-korenizatsiia`） | 概念易被字面混同于当代西方多元主义平权政策，须严守一党专政前提。 |
-
-### `DEB-1920-polish-war-and-revolutionary-export`：1920年波苏战争、华沙败局与革命输出之争
-## [T1] 核心问题定义
-波苏战争中，红军越过民族边界进攻华沙，是安全防御升级、欧洲革命的军事赌博，还是两种目标纠缠的结果？华沙败局应如何分配给政治决策、战线延伸和方面军协调？斯大林的领土战略能否直接视为后来一国社会主义的起点？须分别检验当时命令、战役经过与战后回忆的政治用途。
-
-## [T2] 各学派立场对照矩阵
-**经验基准**：1920年4月25日波军进攻基辅，6月12日红军重夺基辅。7月17日俄共（布）政治局表决拒绝寇松线（仅李可夫初时反对）；7月23日总司令С. С. 加米涅夫指令西南方面军转攻利沃夫；8月13日斯大林拒签移交骑兵第1集团军命令；8月19日政治局转以克里米亚弗兰格尔为主战线。波兰正规军达74万人，西方面军图哈切夫斯基部一线兵力从6月10.8万跌至维斯瓦河前约4万（全红军在册460万却受后勤与双线牵制）。共产国际二大与进军同步但二十一条并非战役命令；1921年3月18日《里加和约》结束战争。
-
-| 学派/取向 | 代表学者与著作 | 核心论点摘要 | 支撑论断卡 | 主要受批评盲点 |
-| :--- | :--- | :--- | :--- | :--- |
-| 战役史与军事制度 | Evan Mawdsley, The Russian Civil War (1987) | 革命希望与安全焦虑推动7.17越过寇松线；7.23利沃夫分兵、过长战线使西方面军一线兵力由10.8万跌至4万，最终在74万波军反击下溃败。 | `CLM-mawdsley-1987-civil-war-militarized-regime`（并参专著第18章） | 战役地理与后勤拆解之外，政治局7月表决与电报链仍需档案全录。 |
-| 领土战略解释 vs 档案甩锅拆穿 | David R. Shearer, Stalin and War (2024)；Oleg Khlevniuk, Stalin (2015)；弗拉基米尔·多尔马托夫编 (2018) | Shearer 据7.24信解读斯大林重在共产国际牵制协约国与加里西亚边界、反对红军西进华沙；Khlevniuk (`ch06_2`) 针锋相对指出斯大林7.13、7.24电报同样鼓吹以刺刀在意大利、匈牙利、捷克斯洛伐克掀起起义，9.23九次代表会议才谎称“一贯审慎”；《主要文献》记8.19政治局预警。 | `CLM-stalin-war-1920-polish-war-lessons`；`CLM-stalin-docs-tsaritsyn-and-civil-war-command-style`（并参 Khlevniuk `ch06_2` 原文） | Shearer 以1939年回溯推论有目的论风险；两派围绕同一组7月电报给出相反动机判断。 |
-| 革命国际主义参与者 | 季诺维也夫，哈雷演说 (1920-10-14) | 演说发表于**华沙败退两月后**的德国独立社民党大会，显示苏方战败后仍冀望借德国工人政党推进西欧革命。 | `CLM-halle-1920-zinoviev-world-revolution-speech` | 党派动员演说并非波兰作战命令，亦不能证明西欧工人必然响应。 |
-| 外交制度史 | E. H. Carr, The Bolshevik Revolution, Vol. 3 (1953) | 革命外交与国家安全并行，后者逐渐在贸易与国家外交中占据更大权重。 | `CLM-carr-1953-dual-foreign-policy-rapallo-comintern` | 主要解释战后双轨外交制度，不能代替1920年战场责任考证。 |
-| 地缘与意识形态 | Stephen Kotkin, Stalin, Vol. 1 (2014) | 安全压力和革命意识形态相互塑造决策，不能单独以任一因素概括。 | `CLM-kotkin-2014-geopolitics-and-ideology` | 广域传记解释不能独立证明每一道作战命令。 |
-
-### `DEB-1917-october-coup-or-social-revolution`：十月革命：少数派政变还是社会革命？
-## [T1] 核心问题定义
-十月武装夺权是少数派政变，还是工人、士兵与农民社会革命的政治表达？有组织的起义与广泛的基层动员能否同时成立，苏维埃多数又能否代表全国选民？这些问题涉及不同地区、不同时间的支持与合法性，不能以一次投票或一次攻占行动互相替代。
-
-## [T2] 各学派立场对照矩阵
-**经验基准**：彼得格勒苏维埃军事革命委员会组织行动，临时政府于1917-10-25 [O.S.] / 1917-11-07 [N.S.] 被推翻；第二次全俄工兵代表苏维埃代表大会当晚开幕，孟什维克与右派社革党抗议退场，大会于10月26日 [O.S.] / 11月8日 [N.S.] 通过《和平法令》《土地法令》并组建人民委员会。据站内选举统计（`DATA-01-1905-1917-strikes-and-petrograd-elections`、`DATA-07-1905-1918-unions-moscow-swings-and-constituent-assembly-votes`），布尔什维克在1917年9月莫斯科区杜马获51.5%选票、11月全俄立宪会议选举在大城市与北/西前线占优，但在全国立宪会议总票中仅占约22.5%–24%（社革党各单合占约37%–40%，且选票名册未反映10月左翼社革党独立分党）。苏维埃代表、立宪会议选民与农村夺地农民并非同一政治总体。
-
-| 学派/取向 | 代表学者与著作 | 核心论点摘要 | 支撑论断卡 | 主要受批评盲点 |
-| :--- | :--- | :--- | :--- | :--- |
-| 自由主义“静默技术性政变”论 | Richard Pipes, *The Russian Revolution* (1990) | 援引马拉帕尔泰“静默技术性政变”概念，断言十月并非群众起义，而是列宁与军革委利用临时政府权威真空发动的少数派武装夺权，且本质上是**“针对全国苏维埃组织本身的政变”**——抢在苏维埃二大开幕前推翻临时政府，将全国苏维埃代表置于既成事实之下。 | `CLM-pipes-1990-october-classic-coup` | 将工人赤卫队与驻军顺从简化为阴谋家操纵，难以解释布尔什维克在9–11月两都市/区杜马及北方前线选票中的真实多数。 |
-| 开放性群众政党与托洛茨基苏维埃合法性策略 | Alexander Rabinowitch, *The Bolsheviks Come to Power* (1976) | 1917年的彼得格勒布尔什维克并非铁板一块的密谋集团，而是吸收数万工人兵士、容忍加米涅夫—季诺维也夫公开异议的开放性群众政党；夺权成功关键在于**托洛茨基策略**——以彼得格勒苏维埃军革委“保卫苏维埃与卫戍部队”为名实施防御性展开，并将政权移交严格锚定于第二次全俄苏维埃代表大会开幕，以赢得无党派工兵的苏维埃合法性认同。 | `CLM-rabinowitch-1976-open-democratic-mass-party`；`CLM-rabinowitch-1976-october-three-factions-debate`；`CLM-rabinowitch-1976-trotsky-soviet-congress-strategy` | 首都党组织的战前民主开放性与苏维埃防卫策略，不能自动推及外省夺权或10月底维克热尔谈判破裂后的一党专政化。 |
-| 列宁“稍纵即逝窗口”与先行夺权论（与托洛茨基路线之张力） | Vladlen T. Loginov, *Lenin in 1917: On the Brink of the Possible* (2017) | 与拉比诺维奇聚焦托洛茨基“等待并依托苏维埃二大”形成直接张力：洛吉诺夫论证列宁之所以痛斥“等待苏维埃代表大会是白痴行为或背叛、拖延就是死亡”，是因为洞察到10月中旬无政府浪潮与军事反革命夹击下存在“稍纵即逝的夺权窗口”，唯有在大会开幕前先行武装夺权、造成既成事实，才能迫使动摇的苏维埃大会接管政权。 | `CLM-loginov-lenin-1917-fleeting-window-of-power` | 高度认同列宁对紧急时机的政治直觉，但恰恰从反面印证了“先行夺权把苏维埃二大置于既成事实”的程序正当性争议。 |
-| 工厂控制与莫斯科“政策先于党派”社会史 | S. A. Smith, *Red Petrograd* (1983); Diane P. Koenker, *Moscow Workers and the 1917 Revolution* (1981) | S. A. Smith证明彼得格勒工厂委员会推行“工人监督”最初是防止企业主关厂与经济崩溃的防御性自救，而非按意识形态蓝图消灭资本主义；Koenker证明莫斯科十月经历了与彼得格勒截然不同的惨烈炮战，且莫斯科多数工人虽在原则上拥护苏维埃政权，却**拒绝为党派垄断冒内战风险**（支持多党社会主义联合），其激进化遵循**“政策先于党派（policy before party）”**的理性渐进机制。 | `CLM-smith-sa-1983-defensive-workers-control`；`CLM-koenker-1981-moscow-october-armed-struggle-vs-petrograd`；`CLM-koenker-1981-rational-incremental-radicalization` | 两都工业工人的防御性/理性选择不能代表占人口八成的农村公社或边疆民族地区。 |
-| 维克热尔妥协流产与立宪会议合法性冲突 | John D. Basil, *The Mensheviks in the Revolution of 1917* (1984); 姚海（主编）《俄国革命史》(2013); Alexander Rabinowitch, *The Bolsheviks in Power* (2007) | Basil与姚海剖析十月后全俄铁道工会（维克热尔）调停与清一色社会主义联合政府谈判：孟什维克内部分裂与10月29–30日士官生暴动撕裂妥协，布尔什维克中央内部加米涅夫、季诺维也夫、李可夫、诺金等辞职警告“纯布尔什维克政府只能靠政治恐怖维持”；姚海与Rabinowitch (2007) 进一步揭示苏维埃阶级专政逻辑与普选立宪会议（1918年1月5–6日被武力解散）之间不可调和的二元合法性冲突。 | `CLM-basil-1984-october-and-vikzhel-collapse`；`CLM-yao-hai-post-october-coalition-failure-and-one-party-formation`；`CLM-yao-hai-constituent-assembly-vs-soviet-legitimacy-clash`；`CLM-rabinowitch-2007-constituent-assembly` | 维克热尔谈判与立宪会议解散解释了十月向一党制滑落的制度拐点，但不能反过来否定10月25日临时政府已彻底丧失首都工兵支持的事实。 |
-| 当事人革命解释与反对派在场反证（B级文献） | [B级当事人文献] Leon Trotsky, *History of the Russian Revolution* (1930–32); N. N. Sukhanov, *The Russian Revolution, 1917* (1922) | 托洛茨基将起义定性为“在苏维埃合法性掩护下实施的武装夺权艺术”；**苏汉诺夫的证言尤具史学张力**——他虽作为孟什维克国际派痛斥布尔什维克政权缺乏民主准备、悔恨温和派10月25日夜退场将苏维埃拱手让给列宁，却**以亲历反对者身份断然驳斥右翼“纯军事阴谋”说**，证言彼得格勒工人与驻军当时确以压倒性多数支持推翻临时政府。 | `CLM-trotsky-1930-art-of-insurrection-and-soviet-legality`；`CLM-sukhanov-1922-october-walkout-tragedy` | 两者均属B级当事人回忆与事后政治辩护（托洛茨基旨在反击斯大林并凸显自身军革委功绩，苏汉诺夫旨在检讨国际派失策），必须与当时会议速记对读。 |
-| 农民道德经济、帝国边疆与十月记忆建构 | Orlando Figes (1996); Ronald Grigor Suny (2017); Eric Blanc (2021); Frederick C. Corney, *Telling October* (2004) | Figes揭示农民公社夺地遵循自身“道德经济”，利用《土地法令》将既成黑分土地合法化而非服从城市党令；Suny综合社会史与阶级话语极化；Blanc将1917年十月放入帝国边疆民族与阶级互动视野；Corney则考证党史委（Istpart）与1920年代庆典如何将原本混乱多中心的十月夺权事后重塑为宏大叙事神话。 | `CLM-figes-1996-peasant-moral-economy-1917`；`CLM-suny-2017-totalitarian-vs-social-history-turn`；`CLM-suny-2017-class-discourse-and-polarization`；`CLM-blanc-2021-borderlands-in-1905-and-1917`；`CLM-corney-2004-istpart-and-institutionalizing-october-memory` | 农民夺地与边疆动员支持推翻旧政权，但并不等于授权布尔什维克随后的余粮收集制与一党垄断；记忆建构研究不可消解1917年秋真实的社会崩溃。 |
-
-## 4. 关联时间线锚点 (共 4 条)
+## 4. 关联时间线骨干锚点 (L0–L2 展示 2 条，另有 2 条 L3 逐日细节见 `timeline/L3_daily/`)
 - **1917-03-02 [O.S.] / 1917-03-15 [N.S.]** (`TL-1917-03-15`, L2): **第一届临时政府组成、尼古拉二世退位与乌克兰中央拉达成立** — 李沃夫公爵任总理兼内务、米留可夫任外交、克伦斯基入阁任司法部长；深夜尼古拉二世在普斯科夫改向弟弟米哈伊尔大公让位（文告倒署下午 15 时）；同日基辅成立乌克兰中央拉达。
-- **1917-04-08 [O.S.] / 1917-04-21 [N.S.]** (`TL-W32-1917-04-21-01`, L3): **加米涅夫发表《我们的分歧》反驳；彼得堡委员会以2:13:1否决《四月提纲》** — 1917-04-08 [O.S.] / 04-21 [N.S.]，加米涅夫在《真理报》头版发表《我们的分歧》，声明列宁假定资产阶级革命已结束的“总方案令人无法接受”；同日彼得堡委员会以2票赞成、13票反对、1票弃权否决提纲，基辅、萨拉托夫等地支部初亦拒斥。列宁随即撰《论策略书》反击“工农民主专政”旧公式已死。
 - **1917-07-02 [O.S.] / 1917-07-15 [N.S.]** (`TL-1917-07-15`, L2): **立宪民主党部长借乌克兰自治协议集体辞职，引爆七月政府危机** — 立宪民主党拒绝内阁代表赴基辅同乌克兰中央拉达达成的自治让步而退阁，直接制造出次日街头武装示威的权力真空。
-- **1917-07-02 [O.S.] / 1917-07-15 [N.S.]** (`TL-W8-1917-07-15-01`, L3): **立宪民主党部长借乌克兰自治协议集体辞职瘫痪联合内阁，第一机枪团兵营启动起事串联** — 四名立宪民主党部长因反对联合政府对乌克兰中央拉达的让步辞职；同日驻维堡区第一机枪团士兵因抗拒克伦斯基抽调机枪连赴前线并发反撤编警告，在无政府主义者与基层布尔什维克鼓动下酝酿立即武装出动。

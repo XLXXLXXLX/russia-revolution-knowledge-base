@@ -1,14 +1,9 @@
-# 1-Hop 平衡上下文包：`EVT-1907-1914-june-third-regime-and-lena-to-july-strikes` (1907–1914年六三体制、斯托雷平反动与勒拿至七月工潮)
+# 1-Hop 去重平衡上下文包：`EVT-1907-1914-june-third-regime-and-lena-to-july-strikes`
 
-> 本文件由 `python scripts/kb.py pack` 自动编译，旨在将失控的 `1+N` 随机读取压缩为**等权重、带时效边实质与史学盲区告警**的单次全景读取。
+> 由 `python scripts/kb.py pack` 动态编译：保留 **100% 一跳邻居与多时段关系边**，跨卡自动去重争鸣与时间线，并关联学者学派 (`SCH-*`)。
 
-## 0. 认知完备度与反偏斜仪表盘 (Epistemic & Skew Warnings)
-- **主卡路径**: `cards/events/EVT-1907-1914-june-third-regime-and-lena-to-july-strikes.md`
-- **完备度等级**: `multi-perspective`
-- **已覆盖视角**: `haimson-urban-polarization, gentry-social-history-manning, labor-social-history-bonnell-smith-hogan, psr-crisis-hildermeier, kautskyan-comparative-blanc`
-- **待补齐视角**: `optimistic-modernization-full-monograph, regional-economic-gdp-series`
-- **偏斜风险提示**:
-  - ⚠️ 主卡显式声明尚缺以下视角待补: `optimistic-modernization-full-monograph, regional-economic-gdp-series`。
+## 0. 认知完备度与反偏斜仪表盘
+- **`EVT-1907-1914-june-third-regime-and-lena-to-july-strikes`** (1907–1914年六三体制、斯托雷平反动与勒拿至七月工潮 | `cards/events/EVT-1907-1914-june-third-regime-and-lena-to-july-strikes.md` | `multi-perspective`): 已覆盖=`haimson-urban-polarization, gentry-social-history-manning, labor-social-history-bonnell-smith-hogan, psr-crisis-hildermeier, kautskyan-comparative-blanc`；待补=`optimistic-modernization-full-monograph, regional-economic-gdp-series`
 
 ## 1. 主卡核心层 ([T1] + [T2])
 ## [T1] 150字定性微摘要
@@ -43,45 +38,18 @@
   3. **S. A. Smith 的“精神孤儿化”与流动党派边界**：指出1907年后知识分子退党激发了觉悟工人的组织自立，而基层工人的激进阶级认同往往先于严格的宗派教条效忠（`CLM-smith-sa-1996-petersburg-bolshevik-vs-menshevik-worker-appeal`）。
 - **跨帝国比较考茨基主义与苏联“新高潮”叙事批判（Eric Blanc vs 苏联史学）**：传统苏联史学（如《简明教程》）将1912–1914年简约为列宁在布拉格会议一举扫除取消派并自上而下全面领导工会的“新革命高潮”；Blanc（2021）在 `CLM-blanc-2021-revolutionary-kautskyanism-in-empire` 中指出，布拉格会议仅驱逐《我们的曙光》取消派而未排除护党孟什维克，《真理报》创刊初期仍高举“不惜代价维护统一”的非派别旗帜，外省与边疆（波兰、拉脱维亚、高加索）两派联合委员会更一直延续至1917年夏秋，不宜将1917年后的单一政党格局倒映回1912年。
 
-## 2. 一跳邻域等权重微摘要 (共 9 个关联节点，严防大卡霸占上下文)
-### 邻居节点: `EVT-1905-revolution`
-- **时效关系边** (`EVT-1905-revolution` → `EVT-1907-1914-june-third-regime-and-lena-to-july-strikes` | `institutional_sequel` | 有效时段: `1907–1914`): 革命退潮后转入“六三体制”，有限代议机构、土地改革与1912年后的城市工潮再起并行交织
-- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 1905年1月9日[O.S.]“血腥星期日”至1907年6月3日[O.S.]六三新选举法间的帝俄首次全民革命。涵盖十月总罢工、彼得堡苏维埃、水兵哗变、莫斯科起义与黑土区农村暴动；迫使沙皇颁布《十月宣言》与杜马体制，随革命退潮，有限代议制度保留并受保守选举法约束。
+## 2. 一跳邻域全量微摘要目录 (去重后共 9 个节点，0 截断)
+- **`EVT-1905-revolution`**（1905–1907年俄国第一次革命）: 1905年1月9日[O.S.]“血腥星期日”至1907年6月3日[O.S.]六三新选举法间的帝俄首次全民革命。涵盖十月总罢工、彼得堡苏维埃、水兵哗变、莫斯科起义与黑土区农村暴动；迫使沙皇颁布《十月宣言》与杜马体制，随革命退潮，有限代议制度保留并受保守选举法约束。 ‖ `→EVT-1907-1914-june-third-regime-and-lena-to-july-strikes`[institutional_sequel|1907–1914]: 革命退潮后转入“六三体制”，有限代议机构、土地改革与1912年后的城市工潮再起并行交织
+- **`PER-stolypin`**（彼得·斯托雷平）: 帝俄内务大臣（1906–1911）暨大臣会议主席（1906.07–1911.09）。以野战法庭与1907年六三选举法平定革命余波，借土地法令允许农户脱社确权、培植私有小农；1911年3月因西部六省地方自治法案第87条危机失势，同年9月在基辅遇刺，成为晚期的改革路径争议核心。 ‖ `←EVT-1907-1914-june-third-regime-and-lena-to-july-strikes`[architect_of_first_phase|1907–1911]: 主导六三政变与土地改革，1911年基辅遇刺后温和保守协调机制随之瓦解 ； `→EVT-1907-1914-june-third-regime-and-lena-to-july-strikes`[regime_architect_of|1907–1911]: 颁行 1907-06-03 [O.S.] 新选举法奠定六三杜马格局，其遇刺后内阁失去强势改革中心，1912年后城市工潮再度升级
+- **`INS-state-duma-1906-1917`**（俄罗斯帝国国家杜马（第一至第四届））: 1905年革命使君主制接受立法性国家杜马，但1906年基本法仍保留皇帝任免政府、解散杜马与紧急立法权。头两届因土地与政治责任问题短命；1907年选举法后第三、四届趋保守。1915年进步同盟施压，1917年二月杜马临时委员会参与接管政权，须与苏维埃共析。 ‖ `←EVT-1907-1914-june-third-regime-and-lena-to-july-strikes`[institutional_arena|1907–1914]: 第三、四届杜马作为六三选制下的贵族—温和自由派妥协舞台，仍因政府否决地方改革而受困
+- **`EVT-1912-04-lena-goldfields-massacre`**（1912年勒拿金矿惨案与战前工运高涨）: 1912-04-04[O.S.]/04-17[N.S.]，宪兵向勒拿金矿请愿矿工开枪，死伤数百。04-11[O.S.]/04-24[N.S.]马卡罗夫在杜马称“过去如此，今后亦如此”，激化罢工；04-22[O.S.]/05-05[N.S.]《真理报》创刊与五一工潮开启战前城市“双重极化”。 ‖ `←EVT-1907-1914-june-third-regime-and-lena-to-july-strikes`[inflection_point_of|1912.04]: 终结1907–1911年工运低潮并直接触发城市长期政治罢工与《真理报》发行浪潮
+- **`MTG-1912-01-prague-conference`**（俄国社会民主工党第六次（布拉格）全俄代表会议）: 1912-01-18至01-30[N.S.]，列宁派在布拉格秘密开会，自任社民工党最高机关，宣告《我们的曙光》等取消派置身党外，废除1910年巴黎协议。会议选出布尔什维克主导的中央，会后增补斯大林入中委及俄罗斯局；独立中央加深分裂，但国内地方联合与基层合作仍延续。 ‖ `←EVT-1907-1914-june-third-regime-and-lena-to-july-strikes`[party_reorganization|1912.01]: 布尔什维克宣布《我们的曙光》取消派置身党外并建立独立中委与俄罗斯局，与同年4月工运爆发形…
+- **`ORG-bolsheviks-rcpb-vkpb`**（布尔什维克派—俄共（布）—联共（布））: 布尔什维克起于1903年社民工党二大后的党内多数派，经流亡、地下活动与1917年群众扩张成为执政党；1918年称俄共（布），1925年称联共（布）。它从地方主动性较强的革命党，演变为拥有任命网络与纪律制裁的党国核心，过程分阶段且存争议。 ‖ `←EVT-1907-1914-june-third-regime-and-lena-to-july-strikes`[captured_unions_and_insurance|1912–1914]: 借《真理报》、1912保险法委员会选举与金属/手工业工会整批名单竞选在圣彼得堡取代孟什维…
+- **`ORG-mensheviks`**（孟什维克）: 俄国社会民主主义政党（1903–1924），源于1903年二大马尔托夫等与列宁围绕党章第一条及集中制的决裂，主张开放型群众政党与工人自主活动。1917年分化为策烈铁里、但恩主导的入阁“革命护国派”与马尔托夫领导的反战“国际主义派”；十月后开展苏维埃合法反对派抗争，1921年后遭取缔。 ‖ `←EVT-1907-1914-june-third-regime-and-lena-to-july-strikes`[losing_urban_base|1907–1914]: 取消派/合法派因政府与资方同步高压而难以兑现渐进改良诺言，至1914年中在圣彼得堡工会与…
+- **`ORG-psr`**（社会革命党）: 1901年末合并建立的俄国新民粹派政党，以土地社会化纲领与战斗组织暗杀闻名。1917年选民基数居全俄之冠却在战争、分地拖延与左翼分裂中失势；虽夺立宪会议多数仍遭解散，内战“第三条道路”溃于高尔察克政变，1922年莫斯科公审后在国内覆灭。 ‖ `←EVT-1907-1914-june-third-regime-and-lena-to-july-strikes`[paralyzed_by_azef_scandal|1908–1914]: 阿泽夫双面间谍案与斯托雷平镇压重创社革党组织和恐怖路线声望
+- **`EVT-1914-1916-wwi-mobilization-shell-crisis-and-progressive-bloc`**（1914–1916年一战总动员、弹药危机与杜马进步同盟危机）: 1914年7月德国宣战至1916年末帝俄总体战危机演化。1915年大撤退与弹药短缺催生战时工业委员会及杜马进步同盟；沙皇亲征并放任内阁“部长走马灯”，军工扩招、里季希粮食摊派受挫与恶性通胀加剧精英离心和城市工潮，将政权推向1917年二月危机门槛。 ‖ `←EVT-1907-1914-june-third-regime-and-lena-to-july-strikes`[interrupted_and_transformed_by|1914.07–1916]: 1914年7月战争动员打断圣彼得堡街垒总罢工，但将未决的社会—政制裂痕推入更深层的总体战危机
 
-### 邻居节点: `PER-stolypin`
-- **时效关系边** (`EVT-1907-1914-june-third-regime-and-lena-to-july-strikes` → `PER-stolypin` | `architect_of_first_phase` | 有效时段: `1907–1911`): 主导六三政变与土地改革，1911年基辅遇刺后温和保守协调机制随之瓦解
-- **时效关系边** (`PER-stolypin` → `EVT-1907-1914-june-third-regime-and-lena-to-july-strikes` | `regime_architect_of` | 有效时段: `1907–1911`): 颁行 1907-06-03 [O.S.] 新选举法奠定六三杜马格局，其遇刺后内阁失去强势改革中心，1912年后城市工潮再度升级
-- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 帝俄内务大臣（1906–1911）暨大臣会议主席（1906.07–1911.09）。以野战法庭与1907年六三选举法平定革命余波，借土地法令允许农户脱社确权、培植私有小农；1911年3月因西部六省地方自治法案第87条危机失势，同年9月在基辅遇刺，成为晚期的改革路径争议核心。
-
-### 邻居节点: `INS-state-duma-1906-1917`
-- **时效关系边** (`EVT-1907-1914-june-third-regime-and-lena-to-july-strikes` → `INS-state-duma-1906-1917` | `institutional_arena` | 有效时段: `1907–1914`): 第三、四届杜马作为六三选制下的贵族—温和自由派妥协舞台，仍因政府否决地方改革而受困
-- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 1905年革命使君主制接受立法性国家杜马，但1906年基本法仍保留皇帝任免政府、解散杜马与紧急立法权。头两届因土地与政治责任问题短命；1907年选举法后第三、四届趋保守。1915年进步同盟施压，1917年二月杜马临时委员会参与接管政权，须与苏维埃共析。
-
-### 邻居节点: `EVT-1912-04-lena-goldfields-massacre`
-- **时效关系边** (`EVT-1907-1914-june-third-regime-and-lena-to-july-strikes` → `EVT-1912-04-lena-goldfields-massacre` | `inflection_point_of` | 有效时段: `1912.04`): 终结1907–1911年工运低潮并直接触发城市长期政治罢工与《真理报》发行浪潮
-- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): `1912-04-04 [O.S.] / 04-17 [N.S.]` 博代博勒拿金矿宪兵向和平请愿矿工排枪齐射，死伤数百。`1912-04-11 [O.S.] / 1912-04-24 [N.S.]` 马卡罗夫杜马狂言“过去如此，今后亦如此”引爆全俄罢工，《真理报》 `1912-04-22 [O.S.] / 1912-05-05 [N.S.]` 创刊与五一工潮开启战前城市“双重极化”。
-
-### 邻居节点: `MTG-1912-01-prague-conference`
-- **时效关系边** (`EVT-1907-1914-june-third-regime-and-lena-to-july-strikes` → `MTG-1912-01-prague-conference` | `party_reorganization` | 有效时段: `1912.01`): 布尔什维克宣布《我们的曙光》取消派置身党外并建立独立中委与俄罗斯局，与同年4月工运爆发形成共振
-- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 1912-01-18至1912-01-30 [N.S.]列宁派在奥匈帝国布拉格召开的秘密代表会议。会议自任俄国社会民主工党最高全权机关，宣布《我们的曙光》等孟什维克取消派已置身党外，废除1910年巴黎协议，选出布尔什维克主导的中央委员会并会后增补斯大林入中委及俄罗斯局，建立起独立领导中央并加深两派组织决裂（尽管俄国国内地方联合委员会与基层合作仍长期延续）。
-
-### 邻居节点: `ORG-bolsheviks-rcpb-vkpb`
-- **时效关系边** (`EVT-1907-1914-june-third-regime-and-lena-to-july-strikes` → `ORG-bolsheviks-rcpb-vkpb` | `captured_unions_and_insurance` | 有效时段: `1912–1914`): 借《真理报》、1912保险法委员会选举与金属/手工业工会整批名单竞选在圣彼得堡取代孟什维克优势
-- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 布尔什维克起于1903年社民工党二大后的党内多数派，经流亡、地下活动与1917年群众扩张成为执政党；1918年称俄共（布），1925年称联共（布）。它从地方主动性较强的革命党，演变为拥有任命网络与纪律制裁的党国核心，过程分阶段且存争议。
-
-### 邻居节点: `ORG-mensheviks`
-- **时效关系边** (`EVT-1907-1914-june-third-regime-and-lena-to-july-strikes` → `ORG-mensheviks` | `losing_urban_base` | 有效时段: `1907–1914`): 取消派/合法派因政府与资方同步高压而难以兑现渐进改良诺言，至1914年中在圣彼得堡工会与保险会节节败退
-- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 俄国社会民主主义政党（1903–1924），源于1903年二大马尔托夫等与列宁围绕党章第一条及集中制的决裂，主张开放型群众政党与工人自主活动。1917年分化为策烈铁里、但恩主导的入阁“革命护国派”与马尔托夫领导的反战“国际主义派”；十月后开展苏维埃合法反对派抗争，1921年后遭取缔。
-
-### 邻居节点: `ORG-psr`
-- **时效关系边** (`EVT-1907-1914-june-third-regime-and-lena-to-july-strikes` → `ORG-psr` | `paralyzed_by_azef_scandal` | 有效时段: `1908–1914`): 阿泽夫双面间谍案与斯托雷平镇压重创社革党组织和恐怖路线声望
-- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 1901年末合并建立的俄国新民粹派政党，以土地社会化纲领与战斗组织暗杀闻名。1917年选民基数居全俄之冠却在战争、分地拖延与左翼分裂中失势；虽夺立宪会议多数仍遭解散，内战“第三条道路”溃于高尔察克政变，1922年莫斯科公审后在国内覆灭。
-
-### 邻居节点: `EVT-1914-1916-wwi-mobilization-shell-crisis-and-progressive-bloc`
-- **时效关系边** (`EVT-1907-1914-june-third-regime-and-lena-to-july-strikes` → `EVT-1914-1916-wwi-mobilization-shell-crisis-and-progressive-bloc` | `interrupted_and_transformed_by` | 有效时段: `1914.07–1916`): 1914年7月战争动员打断圣彼得堡街垒总罢工，但将未决的社会—政制裂痕推入更深层的总体战危机
-- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 1914年7月德国宣战至1916年末帝俄总体战危机演化。1915年大撤退与弹药短缺催生战时工业委员会及杜马进步同盟；沙皇亲征并放任内阁“部长走马灯”，军工扩招、里季希粮食摊派受挫与恶性通胀加剧精英离心和城市工潮，将政权推向1917年二月危机门槛。
-
-## 3. 关联史学争鸣光谱 (Historiographical Debates)
+## 3. 关联史学争鸣与学者论断索引 (主卡外关联争鸣 2 项)
 ### `DEB-1906-stolypin-wager-and-agrarian-viability`：村社生命力与斯托雷平土改前景之争
 ## [T1] 核心问题定义
 如果没有世界大战，帝俄能否借私有农户与农业增长和平化解农村革命？争议同时涉及生产效率、村社制度的适应力与政治稳定，任何一项的改善都不能自动证明另外两项。反事实命题不能由改革中断的事实直接证成或证伪。
@@ -111,7 +79,28 @@
 | 反必然论、世袭国家与自由派宪制困境（兼对乐观演进派的回应） | Richard Pipes, *The Russian Revolution* (1990); Fedor Gaida (2003) | Pipes代表反海姆森的政治偶然论与世袭国家观，断言“20世纪初俄国没有任何事物不可阻挡地推向革命，除了一支异常庞大而狂热的职业革命家队伍”，强调一战冲击才是制度崩解主因（与Gerschenkron等战前工业现代化乐观演进派呼应）；Fedor Gaida剖析杜马自由派要求“信任内阁”却畏惧承担革命责任的制度困境（注：Gaida对进步集团的实证主要在1915–1916战时，不可直接倒灌为1914年前事实）。 | `CLM-pipes-1990-patrimonial-state-and-intelligentsia`；`CLM-gaida-2003-progressive-bloc-dilemma` | 将1912–1914年逾百万罢工归咎于少数职业革命家煽动，难以解释布尔什维克在合法工会与保险局选举中的真实得票优势。 |
 | 现代化断裂、连续危机与总体战治理 | Mark D. Steinberg, *The Russian Revolution, 1905–1921* (2017); David L. Hoffmann, *Cultivating the Masses* (2011); 姚海（主编）《俄国革命史》(2013) | Steinberg与Hoffmann将1905–1921/1929年置于现代性危机与1914年后欧洲总体战人口动员、粮食统制和国家暴力技术连续谱中；姚海指出1905–1914年沙皇政权主动关闭政治改革窗口造成现代化进程断裂，激发下层平民激进主义。 | `CLM-steinberg-2017-continuum-of-crisis-1905-1921`；`CLM-hoffmann-2011-continuum-of-total-war-1914-1929`；`CLM-yao-hai-1917-modernization-rupture-and-plebeian-radicalism` | 1914年后的战时总体战治理经验不能倒果为因地充当1914年7月前和平时期必然崩溃的证明。 |
 
-## 4. 关联时间线锚点 (共 25 条)
+
+### 3.1 关联核心论断与史学家学派坐标 (`CLM-*` → `SCH-*`, 展示前 18/18 条)
+- **`CLM-hildermeier-2000-azev-affair-and-stolypin-era-paralysis`** [`SCH-hildermeier-manfred`(曼弗雷德·希尔德迈尔) | EPUB版无稳定原书页码；以本地章节与行号定位（ch14 L24–91, ch18 L112–150, ch22 L6–108, ch23 L81–217, ch24 L8–285, ch25 L6–33, ch26 L6–62；epub:main-14.xhtml, main-23.xhtml, main-24.xhtml, main-25.xhtml, main-26.xhtml, main-27.xhtml）]: 
+- **`CLM-service-lenin-v1-bogdanov-vpered-rupture-and-prague-1912`** [`SCH-service-robert`(罗伯特·瑟维斯) | pp. 188-206 (重要边界提示：馆藏第一卷时间止于1910年1月中央全会；1910–1912年《前进》派后期演化及1912年1月布拉格代表会议属《列宁政治生涯》第二卷，本卷未覆盖)]: 
+- **`CLM-smith-sa-1996-petersburg-bolshevik-vs-menshevik-worker-appeal`** [`SCH-smith-sa`(斯蒂芬·A·史密斯（S. A. Smith）) | International Review of Social History, vol. 41 (1996), pp. 12–15, 19–25]: 
+- **`CLM-hogan-1994-petersburg-metalworkers-1905-to-lena`** [`SCH-hogan-heather`(希瑟·霍根 · labor-social-history) | pp. 85–112]: 
+- **`CLM-manning-1982-june-third-coup-social-basis`** [`SCH-manning-roberta`(罗伯塔·T·曼宁) | pp. 238–239]: 
+- **`CLM-lih-2006-textbook-myth-critique`** [`SCH-lih-lars`(拉斯·T·利) | pp. 5, 13-33, 555]: 
+- **`CLM-blanc-2021-revolutionary-kautskyanism-in-empire`** [`SCH-blanc-eric`(埃里克·布兰克) | pp. 25–28, 569–578]: 
+- **`CLM-bonnell-1983-1912-1914-union-and-insurance-boards-bolshevik-capture`** [`SCH-bonnell-victoria`(维多利亚·E·邦内尔) | Book pp. 366–371, 390–438 [PDF pp. 389–394, 413–461]]: 
+- **`CLM-bonnell-1983-state-employer-repression-undermining-menshevik-reformism`** [`SCH-bonnell-victoria`(维多利亚·E·邦内尔) | Book pp. 292–305, 316–323, 336–352, 372–389, 450–452 [PDF pp. 315–328, 339–346, 359–375, 395–412, 473–475]]: 
+- **`CLM-figes-1996-peasant-moral-economy-1917`** [`SCH-figes-orlando`(奥兰多·费吉斯) | pp. 343-352]: 
+- **`CLM-hildermeier-2000-agrarian-socialism-modernization-dilemma`** [`SCH-hildermeier-manfred`(曼弗雷德·希尔德迈尔) | EPUB版无稳定原书页码；以本地章节与行号定位（ch08 L75–232, ch09 L26–44, ch12 L204–282, ch13 L107–185, ch17 L115–310, ch20 L750–753, ch24 L180–285, ch26 L6–96；epub:main-8.xhtml, main-9.xhtml, main-12.xhtml, main-13.xhtml, main-21.xhtml, main-25.xhtml, main-27.xhtml）]: 
+- **`CLM-service-lenin-v1-agrarian-marxism-and-1905-tactics`** [`SCH-service-robert`(罗伯特·瑟维斯) | pp. 74-80, 152-166, 169-185 (中译本 PDF 页码)]: 
+- **`CLM-steinberg-2017-continuum-of-crisis-1905-1921`** [`SCH-steinberg-mark`(马克·D·斯坦伯格) | pp. 19, 61–62, 107–108]: 
+- **`CLM-manning-1982-gentry-fronde-to-reaction`** [`SCH-manning-roberta`(罗伯塔·T·曼宁) | pp. 54–60, 122–124]: 
+- **`CLM-pipes-1990-patrimonial-state-and-intelligentsia`** [`SCH-pipes-richard`(理查德·派普斯) | ch. 2 (Official Russia); ch. 4 (The Intelligentsia); cf. Introduction]: 
+- **`CLM-gaida-2003-progressive-bloc-dilemma`** [`SCH-gaida-fedor`(费奥多尔·盖达) | pp. 135-136, 162-168]: 
+- **`CLM-hoffmann-2011-continuum-of-total-war-1914-1929`** [`SCH-hoffmann-david`(大卫·L·霍夫曼) | pp. 12–13, 38, 127–128]: 
+- **`CLM-yao-hai-1917-modernization-rupture-and-plebeian-radicalism`** [`SCH-yao-hai`(姚海) | [PDF pp. 47-55, 57-64, 68-72, 75-81, 87-88]]: 
+
+## 4. 关联时间线骨干锚点 (L0–L2 展示 15 条，另有 10 条 L3 逐日细节见 `timeline/L3_daily/`)
 - **1907-06-02 [O.S.] / 1907-06-15 [N.S.]** (`TL-W3-1907-06-15`, L2): **解散第二届杜马** — 正文把解散写在俄历6月2日。年表把解散与新选举法压在6月2日同一条。选举法的公布日见次日条目。
 - **1907-06-03 [O.S.] / 1907-06-16 [N.S.]** (`TL-W15-L1-E03-11`, L1): **六三选举法政变** — 解散第二届杜马与改选举法的日期文献有歧异，本条以6月3日俄历新法为锚。
 - **1907-06-03 [O.S.] / 1907-06-16 [N.S.]** (`TL-W3-1907-06-16`, L2): **公布新选举法（六三体制的法律动作）** — L0 称此举为六三政变。根本法禁止用第87条修改杜马选举办法，当局以皇帝宣言发布新选举法。派普斯认为政变一词过分，因为宣言重申了杜马的立法与预算权。称谓保留，含义保留他的限制。
@@ -124,16 +113,6 @@
 - **1912-04 [N.S.]** (`TL-W3-1912-04`, L2): **布尔什维克合法日报《星报》已在彼得堡发行** — 到1912年4月，《星报》为日报，格茨勒所引印数29000份。孟什维克《涅瓦呼声》在5月。《真理报》或《真理之路》在1913–1914年销量更高。通行的《真理报》创刊日不在已读页中，本条不是第1号。
 - **1912-04-04 [O.S.] / 1912-04-17 [N.S.]** (`TL-W15-L1-E04-05`, L1): **勒拿金矿惨案** — 军队向罢工者开枪，引发政治罢工复苏与激进化。
 - **1912-04-04 [O.S.] / 1912-04-17 [N.S.]** (`TL-W3-1912-04-17`, L2): **勒拿金矿军队向罢工人群开枪** — 海姆森写明俄历4月4日下午开枪，俄历4月6日彼得堡报纸见报。官方公报把责任推给罢工者并随即受到反驳。已读段落没有死者总数，本条不写。
-- **1912-04-04 [O.S.] / 1912-04-17 [N.S.]** (`TL-W25-1912-04-17-01`, L3): **勒拿金矿博代博排枪屠杀和平请愿矿工** — 宪兵队长特列先科连夜逮捕勒拿罢工委员会后，于17:30下令向约3,000名和平请愿矿工连续齐射，造成数百人死伤（工报与苏联口径270死250伤，马努欣复查170死372伤，军方零伤亡）。
-- **1912-04-06 [O.S.] / 1912-04-19 [N.S.]** (`TL-W25-1912-04-19-01`, L3): **彼得堡官报首报勒拿惨案并引发报界反诘** — 彼得堡通讯社与“泰坦尼克号”沉没同日刊出首批官报（称107死83伤、暴徒袭军），遭《言论报》《俄罗斯晨报》《莫斯科之声》第一时间质疑军队零伤亡与非法定罪罢工。
-- **1912-04-09 [O.S.] / 1912-04-22 [N.S.]** (`TL-W25-1912-04-22-01`, L3): **第三届国家杜马提出勒拿质询案；基辅率先同情罢工** — 立宪民主党、十月党与社民党团向杜马提交紧急质询但因法定人数不足流产；同日基辅机械厂爆发外省首波同情罢工。
-- **1912-04-10 [O.S.] / 1912-04-23 [N.S.]** (`TL-W25-1912-04-23-01`, L3): **杜马通过立宪/十月党质询并以96:76否决社民党质询案** — 杜马承认质询紧急性后否决直指军队与内阁责任的社民党案；《新时代》与《俄罗斯晨报》同日齐轰勒拿垄断体制下的“无法无天”（bespravie）。
-- **1912-04-11 [O.S.] / 1912-04-24 [N.S.]** (`TL-W25-1912-04-24-01`, L3): **内务大臣马卡罗夫杜马抛出“过去如此，今后也将如此”狂言** — 马卡罗夫在杜马夜审辩称开枪系军队自卫职责并吼出“过去如此，今后也将如此”，与季马舍夫证词相抵牾，被社民党代表库兹涅佐夫讽为“最出色社会主义传单”，彼得堡保安局测得90%工人震怒。
-- **1912-04-16 [O.S.] / 1912-04-29 [N.S.]** (`TL-W25-1912-04-29-01`, L3): **圣彼得堡冶金厂与罗森克兰茨厂率先打响首都总罢工** — 09:00圣彼得堡冶金厂4,000名工人由本厂“觉悟工人”领衔停工致哀，15:00罗森克兰茨厂跟进，无外来地下党鼓动者而自主爆发全市第一波抗议停工。
-- **1912-04-18 [O.S.] / 1912-05-01 [N.S.]** (`TL-W25-1912-05-01-01`, L3): **圣彼得堡勒拿抗议罢工破10万人并扩散至全俄工业带** — 至俄历4月18日（公历5月1日）晚间首都罢工突破10万人、逾500人被捕，由印刷工与五金机械工领衔向基辅、敖德萨、伏尔加河及巴尔的克港口迅速连锁蔓延，四月浪潮全国达20万–21.5万人。
-- **1912-04-22 [O.S.] / 1912-05-05 [N.S.]** (`TL-W25-1912-05-05-01`, L3): **布尔什维克合法工人日报《真理报》创刊** — 在《星报》同日被查封之际，首份大型合法工人日报《真理报》第1号在圣彼得堡问世（布朗证实其初期为与党性孟什维克联合的“非宗派团结工报”，S级核验波列塔耶夫发行、莫洛托夫编务、斯大林撰社论）。
-- **1912-04-23 [O.S.] / 1912-05-06 [N.S.]** (`TL-W25-1912-05-06-01`, L3): **莫斯科跟进爆发三天勒拿抗议罢工** — 莫斯科工人于俄历4月23–25日集中举行工厂区内部抗议停工，同样未与莫斯科学生串联且无明显地下中心调度，体现报刊传播激发的横向示范。
-- **1912-05-01 [O.S.] / 1912-05-14 [N.S.]** (`TL-W25-1912-05-14-01`, L3): **五一全俄数十万政治大罢工开启战前工运激进化时代** — 俄历5月1日彼得堡冶金厂、凤凰厂、罗森克兰茨厂等几乎全部大厂佩戴红纽扣停工高唱《马赛曲》，与莫斯科（逾3.2万）及全俄各地汇成25万–40万规模政治大罢工，终结反动期死寂、开启战前双重极化通道。
 - **1912-08 [N.S.]** (`TL-W3-1912-08`, L2): **维也纳八月联盟** — 孟什维克、崩得、托洛茨基的《真理报》集团等在维也纳集会。格茨勒脚注写有当地会期日号。本条只取月份，以免把维也纳公历误植成俄国官方法令日。
 - **1914-07 [N.S.]** (`TL-W3-1914-07`, L2): **彼得堡七月总罢工与街垒** — 长谷川写7月初总罢工和街垒，脚注指向 Fleer 1926 与 McKean 1990。没有逐日日期。宣战之后罢工迅速消退。1912年警务报告里的6月3日周年罢工传闻不是这次街垒。
 - **1914-07-14 [N.S.]** (`TL-W15-L1-E04-07`, L1): **战前彼得堡罢工与街垒** — 城市劳资冲突激化；是否已临近革命须进入海姆森命题争鸣。

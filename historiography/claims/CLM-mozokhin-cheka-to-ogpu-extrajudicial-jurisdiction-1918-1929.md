@@ -7,8 +7,8 @@ publication_year: 2006
 source_tier: A
 local_source_path: "sources/monographs/mozokhin_extrajudicial_powers_zh/ch04_全俄肃反委员会的司法外权限.md#L289-L350; sources/monographs/mozokhin_extrajudicial_powers_zh/ch05_国家政治保卫局_格别乌_国家政治保卫总局_奥格别乌_的特别司法权限.md#L270-L316; sources/monographs/mozokhin_extrajudicial_powers_zh/ch05_国家政治保卫局_格别乌_国家政治保卫总局_奥格别乌_的特别司法权限.md#L480-L620; sources/monographs/mozokhin_extrajudicial_powers_zh/ch06_国家政治保卫总局_联合国家政治保卫总局的_三人小组.md#L18-L31; sources/monographs/mozokhin_extrajudicial_powers_zh/ch06_国家政治保卫总局_联合国家政治保卫总局的_三人小组.md#L111-L260"
 original_pages: "PDF pp. 8-36, 44-49, 117-136"
-targets_cards: ["ORG-vchk", "ORG-gpu-ogpu", "POL-red-terror", "POL-extrajudicial-repressions", "PER-dzerzhinsky", "PER-menzhinsky", "PER-yagoda", "PER-krylenko", "PER-stalin"]
-debate: DEB-cheka-to-stalinist-terror-continuity
+targets_cards: ["ORG-cheka-ogpu", "EVT-1918-09-red-terror-and-left-sr-rupture", "PER-dzerzhinsky", "PER-yagoda", "PER-stalin"]
+debate: DEB-1918-red-terror-and-civil-war-origins
 supports: []
 rebuts: []
 qualifies: []

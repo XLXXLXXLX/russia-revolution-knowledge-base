@@ -7,8 +7,8 @@ publication_year: 1996
 source_tier: A
 local_source_path: "sources/monographs/zelnik_1999_workers_intelligentsia_marxist_parties/ch00_pages_1-25.md#L661-L1460"
 original_pages: "International Review of Social History, vol. 41 (1996), pp. 12–15, 19–25"
-targets_cards: [ORG-rsdlp-petersburg-committee, ORG-bolsheviks, ORG-mensheviks, CON-kruzhki-and-conscious-workers]
-debate: DEB-workers-intelligentsia-and-bolshevik-party
+targets_cards: ["ORG-bolsheviks-rcpb-vkpb", "ORG-mensheviks", "CON-democratic-centralism-and-vanguard"]
+debate: DEB-1903-bolshevik-menshevik-split
 supports: ["Robert McKean（1907–1917年圣彼得堡布尔什维克彼得堡委员会 PK 与区委的彻底无产阶级化与青年金属工主导）", "V. V. Lozhkin & N. D. Erofeev（早期社会民主党工人党员中金属工与印刷工的超比例代表性与高识字率）"]
 rebuts: ["Leonard Schapiro（将列宁《怎么办？》解读为对知识分子职业革命家的单向理想化与精英专制图谋）"]
 qualifies: ["苏联官方党史（将 1912–1914 年圣彼得堡布尔什维克复兴描绘为彼得堡委员会 PK 统一指挥下的高度集中化运作：Smith 引 McKean 指出警察镇压使 PK 无法全市协调，力量主要源自工厂支部与区委，且基层工人普遍厌恶真理报派与取消派的宗派争吵）"]

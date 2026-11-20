@@ -8,7 +8,7 @@ source_tier: A
 local_source_path: "sources/monographs/walicki_1969_controversy/ch05_pages_151-180.md#L614-L1107"
 original_pages: "pp. 153-165 [PDF pp. 165-177]"
 targets_cards: ["PER-plekhanov", "ORG-narodnaya-volya", "PER-lenin"]
-debate: DEB-russian-marxism-origins
+debate: DEB-1879-narodnaya-volya-to-bolshevism
 supports: []
 rebuts: []
 qualifies: []

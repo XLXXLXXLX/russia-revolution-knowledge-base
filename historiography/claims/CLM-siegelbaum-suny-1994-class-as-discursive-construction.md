@@ -1,7 +1,7 @@
 ---
 id: CLM-siegelbaum-suny-1994-class-as-discursive-construction
 type: claim
-scholar: SCH-siegelbaum-suny
+scholar: SCH-siegelbaum-lewis
 work_title: "Making Workers Soviet: Power, Class, and Identity"
 publication_year: 1994
 source_tier: A

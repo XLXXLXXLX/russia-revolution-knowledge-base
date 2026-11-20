@@ -1,7 +1,7 @@
 ---
 id: CLM-bonnell-1983-artisanal-vs-factory-unionization-1905-1907
 type: claim
-scholar: Victoria E. Bonnell
+scholar: SCH-bonnell-victoria
 work_title: "Roots of Rebellion: Workers' Politics and Organizations in St. Petersburg and Moscow, 1900–1914（中译本《反叛的根源：圣彼得堡与莫斯科的工人政治与组织（1900–1914）》）"
 publication_year: 1983
 source_tier: A
@@ -9,7 +9,7 @@ local_source_path: "sources/monographs/bonnell_1983_roots_of_rebellion_zh/ch09_p
 original_pages: "Book pp. 203–228, 248–252, 272–275, 441–446 [PDF pp. 226–251, 271–275, 295–298, 464–469]"
 targets_cards:
   - EVT-1905-revolution
-  - SCH-bonnell-victoria
+  - ORG-mensheviks
 supports: []
 rebuts: []
 qualifies: []

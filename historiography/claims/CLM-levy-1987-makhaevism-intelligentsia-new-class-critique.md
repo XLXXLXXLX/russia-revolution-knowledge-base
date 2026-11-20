@@ -7,8 +7,8 @@ publication_year: 1987
 source_tier: A
 local_source_path: "sources/monographs/levy_1987_socialism_intelligentsia/ch09_reformism_the_bourgeoisification_of_the.md#L328-L373"
 original_pages: "pp. 17, 113-114, 220, 239-241, 273-275"
-targets_cards: ["CON-makhaevism", "CON-new-class", "ORG-workers-opposition"]
-debate: DEB-1921-workers-opposition-and-bureaucracy
+targets_cards: ["CON-intelligentsia-and-vekhi", "CON-thermidor-and-bureaucracy", "ORG-workers-opposition"]
+debate: DEB-1921-trade-union-controversy-and-party-unity
 supports: []
 rebuts: []
 qualifies: []

@@ -7,8 +7,8 @@ publication_year: 1996
 source_tier: A
 local_source_path: "sources/monographs/zelnik_1999_workers_intelligentsia_marxist_parties/ch02_pages_51-56.md#L1-L314"
 original_pages: "International Review of Social History, vol. 41 (1996), pp. 1–3, 40–43, 49–56"
-targets_cards: [CON-kruzhki-and-conscious-workers, CON-intelligentsia-and-kulturnost, ORG-bolsheviks]
-debate: DEB-workers-intelligentsia-and-bolshevik-party
+targets_cards: ["CON-democratic-centralism-and-vanguard", "CON-intelligentsia-and-vekhi", "ORG-bolsheviks-rcpb-vkpb"]
+debate: DEB-1903-bolshevik-menshevik-split
 supports: ["J. Arch Getty & William Chase（1936–1939年苏联大清洗中党政军高官而非精英知识分子为主要镇压对象）", "Sheila Fitzpatrick（苏联向工农开放高等教育并保留部分技术与文学专长认可）"]
 rebuts: ["Jan Machajski & George Konrád / Iván Szelényi（社会主义革命系知识分子取代资本家成为新统治阶级的“脑力工人统治论”）", "Richard Pipes & Selig Perlman（革命知识分子与仅追求经济/智识自我改善的工人之间存在本质主义目标对立）"]
 qualifies: ["Merle Goldman & Benjamin Schwartz（将中共建政后知识分子的悲剧主要归因于儒家顺从传统或派系结盟，低估党国暴力冲击与历史文化结构反差）"]

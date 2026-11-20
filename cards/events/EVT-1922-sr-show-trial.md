@@ -34,7 +34,7 @@ updated_at: "2026-11-18"
 | `INS-politburo-orgburo-secretariat` | `behind-scenes-director` | 1922.02–08 | 政治局自1922-02-15起垄断GPU大案方向，幕后统筹公审口径、群众游行压力及“死刑缓期人质化”政治裁决 | `CLM-mozokhin-cheka-to-ogpu-extrajudicial-jurisdiction-1918-1929`; Pipes ch23 |
 | `PER-bukharin` | `ideological-prosecutor` | 1922.08 | 在公诉词（*Pravda* 08-04）中用经济决定论将戈茨、津季诺夫等打成“百万富翁操纵的吉伦特派与协约国傀儡” | `CLM-smith-scott-2011-1922-sr-trial-discourse` (Radkey 1963) |
 | `PER-lunacharsky` | `prosecutor-debater` | 1922.08 | 在8月4日公诉中当庭驳斥戈茨“缺乏组党备战时间”的辩词，指出社革党比布尔什维克建党更早且在十月前掌权八月 | `CLM-smith-scott-2011-1922-sr-trial-discourse` (Radkey 1963) |
-| `PER-gotz`（待建） | `chief-defendant-hostage` | 1922.06–08+ | 第一组主被告代表，将1918萨马拉败绩归因于“缺少时间”，被判死缓作为人质长期监禁，最终在大清洗中遇害 | `CLM-smith-scott-2011-1922-sr-trial-discourse` (Radkey 1963) |
+| `ORG-psr` | `chief-defendant-hostage` | 1922.06-08+ | 戈茨（A. R. Gotz）、季莫费耶夫等社革党中央被告为第一组主被告；戈茨将1918年萨马拉败绩归因于“缺少时间”，被判死缓并作为人质长期监禁 | `CLM-smith-scott-2011-1922-sr-trial-discourse` (Radkey 1963) |
 
 ### 2.3 史学争鸣光谱（Historiographical Spectrum）
 - **经验共识**：1922年社革党审判是苏维埃政权首次举行的大型国际瞩目政治公审；被告方确曾在1918年内战期间组织或资助反布尔什维克武装（包括科穆奇），但审判程序与量刑完全服从布尔什维克最高政治考量，“缓期执行”兼具对境外社革党的威慑人质效应，并与同年8—10月行政流放法制相辅相成。

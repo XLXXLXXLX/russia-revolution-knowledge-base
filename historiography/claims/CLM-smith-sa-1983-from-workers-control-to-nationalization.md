@@ -7,8 +7,8 @@ publication_year: 1983
 source_tier: A
 local_source_path: "sources/monographs/smith_sa_1983_red_petrograd_zh/ch11_第九章_十月革命与工业组织.md#L466-L511"
 original_pages: "中译本 pp. 155–156, 166–169, 177–179, 184–186, 192（即源文件标注 PDF pp. 160–161, 171–174, 182–184, 189–191, 197）；注意：均为中译本页码，非英文原版页码"
-targets_cards: [POL-vsnkh, CON-edinonachalie, CON-nationalization, CON-workers-control, EVT-1917-11-14-workers-control-decree, EVT-1918-06-28-nationalization-decree, POL-lenin-state-capitalism]
-debate: DEB-workers-control-to-state-management
+targets_cards: ["INS-vsnkh-and-gosplan", "CON-democratic-centralism-and-vanguard", "POL-war-communism", "CON-workers-control", "CON-state-capitalism"]
+debate: DEB-1918-war-communism-ideology-or-emergency
 supports: []
 rebuts: ["“列宁一掌权即以集中制镇压工团主义工厂委员会”的单向自上而下叙事（Avrich / Kaplan 一脉）", "“国有化是布尔什维克意识形态蓝图的产物”之说"]
 qualifies: ["Brinton（《布尔什维克与工人控制》：布尔什维克摧毁自治）", "Bettelheim（资本主义生产关系延续论）", "Lenin / 苏联叙述中把一长制视为‘社会主义中性技术’的立场"]

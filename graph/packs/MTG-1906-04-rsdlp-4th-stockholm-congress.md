@@ -1,18 +1,13 @@
-# 1-Hop 平衡上下文包：`MTG-1906-04-rsdlp-4th-stockholm-congress` (俄国社会民主工党第四次（统一）代表大会（1906年）)
+# 1-Hop 去重平衡上下文包：`MTG-1906-04-rsdlp-4th-stockholm-congress`
 
-> 本文件由 `python scripts/kb.py pack` 自动编译，旨在将失控的 `1+N` 随机读取压缩为**等权重、带时效边实质与史学盲区告警**的单次全景读取。
+> 由 `python scripts/kb.py pack` 动态编译：保留 **100% 一跳邻居与多时段关系边**，跨卡自动去重争鸣与时间线，并关联学者学派 (`SCH-*`)。
 
-## 0. 认知完备度与反偏斜仪表盘 (Epistemic & Skew Warnings)
-- **主卡路径**: `cards/meetings/MTG-1906-04-rsdlp-4th-stockholm-congress.md`
-- **完备度等级**: `multi-perspective`
-- **已覆盖视角**: `party-rules-primary, factional-political-history, western-party-history, carr-duma-optimism, daniels-factional-discipline, menshevik-memoir`
-- **待补齐视角**: `full-congress-minutes, national-organizations-independent-archives, lenin-cw10-land-program-text`
-- **偏斜风险提示**:
-  - ⚠️ 主卡显式声明尚缺以下视角待补: `full-congress-minutes, national-organizations-independent-archives, lenin-cw10-land-program-text`。
+## 0. 认知完备度与反偏斜仪表盘
+- **`MTG-1906-04-rsdlp-4th-stockholm-congress`** (俄国社会民主工党第四次（统一）代表大会（1906年） | `cards/meetings/MTG-1906-04-rsdlp-4th-stockholm-congress.md` | `multi-perspective`): 已覆盖=`party-rules-primary, factional-political-history, western-party-history, carr-duma-optimism, daniels-factional-discipline, menshevik-memoir`；待补=`full-congress-minutes, national-organizations-independent-archives, lenin-cw10-land-program-text`
 
 ## 1. 主卡核心层 ([T1] + [T2])
 ## [T1] 60秒定性微摘要
-1906-04-23 至 1906-05-08 [N.S.]，俄社民工党在斯德哥尔摩召开统一大会。1905年革命后的基层统一诉求促成两派会合；孟什维克在主要表决中占多数，土地地方自治化方案获胜。大会章程首次明文规定民主集中制，并把党员公式改回列宁的“加入一个党组织”表述，也重组与民族社会民主组织的关系；形式统一并未消除派别网络。
+1906-04-23至05-08[N.S.]，俄社民工党在斯德哥尔摩召开统一大会。基层统一诉求促两派会合，孟什维克占表决多数，土地地方自治化方案获胜。章程首次明定民主集中制，党员公式采用列宁“加入一个党组织”的表述，并重组民族组织关系；形式统一未消除派别网络。
 
 ## [T2] 核心脉络、时效关系边表与史学争鸣光谱
 
@@ -39,28 +34,14 @@
 - **Getzler / Galili（孟什维克多数立场）**：以孟什维克自身逻辑解释1903年第1条与1906年统一，可对读 `CLM-getzler-1967-martov-1903-clause-one`，以及 `reading-notes/galili_1989_menshevik_leaders` 与 `reading-notes/getzler_1967_martov` 对孟什维克领导层统一诉求的描述。
 - **Haimson 等对 1903 年分裂的长期思想分歧解释** 与 **把冲突置于共同社会民主主义传统及组织处境中的解释**，对1906年统一的持久性有不同预期（`CLM-haimson-1955-1903-second-congress-split`）；不应把后来的分裂倒写为大会当时注定失败。
 
-## 2. 一跳邻域等权重微摘要 (共 5 个关联节点，严防大卡霸占上下文)
-### 邻居节点: `MTG-1903-rsdlp-2nd-congress`
-- **时效关系边** (`MTG-1906-04-rsdlp-4th-stockholm-congress` → `MTG-1903-rsdlp-2nd-congress` | `follows_and_reunifies` | 有效时段: `1903–1906`): 对1903年后派别分裂作组织性修复，未消除分歧。
-- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): `1903-07-30` 至 `08-23 [N.S.]` 俄社民工党二大先后在布鲁塞尔与伦敦召开。大会通过党纲；第23次会议马尔托夫党章第一条 `28:22:1` 胜列宁案。随后的崩得与经济派退场逆转了多数，列宁借微弱多数改组《火星报》三人编委，由此衍生布尔什维克与孟什维克之名。
+## 2. 一跳邻域全量微摘要目录 (去重后共 5 个节点，0 截断)
+- **`MTG-1903-rsdlp-2nd-congress`**（俄国社会民主工党第二次代表大会（1903年7–8月））: `1903-07-30` 至 `08-23 [N.S.]` 俄社民工党二大先后在布鲁塞尔与伦敦召开。大会通过党纲；第23次会议马尔托夫党章第一条 `28:22:1` 胜列宁案。随后的崩得与经济派退场逆转了多数，列宁借微弱多数改组《火星报》三人编委，由此衍生布尔什维克与孟什维克之名。 ‖ `←MTG-1906-04-rsdlp-4th-stockholm-congress`[follows_and_reunifies|1903–1906]: 对1903年后派别分裂作组织性修复，未消除分歧；第1条由马尔托夫公式改回列宁公式。
+- **`PER-lenin`**（弗拉基米尔·列宁）: 布尔什维克党缔造者、苏俄人民委员会主席（1917–1924）。1893年投身马克思主义运动，1903年促成布尔什维克分化；1917年发表《四月提纲》并领导十月夺权，历经布列斯特和约、内战与战时共产主义；1921年主持转向新经济政策，晚年（1922–1923）就官僚化与接班人同斯大林冲突。 ‖ `←MTG-1906-04-rsdlp-4th-stockholm-congress`[advocates_land_nationalization|1906]: 在土地问题上反对大会多数的地方自治化方案；参加党章起草委员会。
+- **`ORG-mensheviks`**（孟什维克）: 俄国社会民主主义政党（1903–1924），源于1903年二大马尔托夫等与列宁围绕党章第一条及集中制的决裂，主张开放型群众政党与工人自主活动。1917年分化为策烈铁里、但恩主导的入阁“革命护国派”与马尔托夫领导的反战“国际主义派”；十月后开展苏维埃合法反对派抗争，1921年后遭取缔。 ‖ `←MTG-1906-04-rsdlp-4th-stockholm-congress`[holds_congress_majority|1906]: 注释统计62票，62+46=108≠112，差额及民族组织票的归属待核；不能视为每项议题…
+- **`ORG-bund`**（崩得（立陶宛、波兰和俄罗斯犹太工人总同盟））: 1897年维尔纽斯成立的帝俄最早群众性犹太工人社会民主党：1898年参与筹备俄社民工党一大，1903年二大因联邦制与“唯一代表权”被拒而退场，客观上促成列宁派组织多数；提出民族文化自治理论；内战后苏俄境内组织于1921年3月并入俄共（布），波兰崩得则作为独立犹太社会主义政党存续至二战时期。 ‖ `←MTG-1906-04-rsdlp-4th-stockholm-congress`[rejoins_united_party|1906]: 与统一党重新建立组织关系；其代表是否计入62/46/112待核。
+- **`CON-democratic-centralism-and-vanguard`**（先锋队党与民主集中制）: 布尔什维克组织原则的跨期复合概念：从民意党集中制与特卡乔夫“自觉少数”，经1902年职业革命家论、1905–1906年成文的民主集中制及1917年群众政党，至1921年禁派令与斯大林书记处官职名册制，派别空间收缩；部分制度史研究强调干部任命权日益压过民主原则。 ‖ `←MTG-1906-04-rsdlp-4th-stockholm-congress`[codifies_principle|1906]: 大会通过本第2条写入民主集中制，其他条款仍规定选举与内部自治。
 
-### 邻居节点: `PER-lenin`
-- **时效关系边** (`MTG-1906-04-rsdlp-4th-stockholm-congress` → `PER-lenin` | `advocates_land_nationalization` | 有效时段: `1906`): 在土地问题上反对大会多数的地方自治化方案。
-- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 布尔什维克党缔造者、苏俄人民委员会主席（1917–1924）。1893年投身马克思主义运动，1903年促成布尔什维克分化；1917年发表《四月提纲》并领导十月夺权，历经布列斯特和约、内战与战时共产主义；1921年主持转向新经济政策，晚年（1922–1923）就官僚化与接班人同斯大林冲突。
-
-### 邻居节点: `ORG-mensheviks`
-- **时效关系边** (`MTG-1906-04-rsdlp-4th-stockholm-congress` → `ORG-mensheviks` | `holds_congress_majority` | 有效时段: `1906`): 注释统计62票，不能视为每项议题完全一致。
-- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 俄国社会民主主义政党（1903–1924），源于1903年二大马尔托夫等与列宁围绕党章第一条及集中制的决裂，主张开放型群众政党与工人自主活动。1917年分化为策烈铁里、但恩主导的入阁“革命护国派”与马尔托夫领导的反战“国际主义派”；十月后开展苏维埃合法反对派抗争，1921年后遭取缔。
-
-### 邻居节点: `ORG-bund`
-- **时效关系边** (`MTG-1906-04-rsdlp-4th-stockholm-congress` → `ORG-bund` | `rejoins_united_party` | 有效时段: `1906`): 与统一党重新建立组织关系；具体自治条款待核。
-- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 1897年维尔纽斯成立的帝俄最早群众性犹太工人社会民主党：1898年参与筹备俄社民工党一大，1903年二大因联邦制与“唯一代表权”被拒而退场，客观上促成列宁派组织多数；提出民族文化自治理论；内战后苏俄境内组织于1921年3月并入俄共（布），波兰崩得则作为独立犹太社会主义政党存续至二战时期。
-
-### 邻居节点: `CON-democratic-centralism-and-vanguard`
-- **时效关系边** (`MTG-1906-04-rsdlp-4th-stockholm-congress` → `CON-democratic-centralism-and-vanguard` | `codifies_principle` | 有效时段: `1906`): 大会通过本第2条写入民主集中制，其他条款仍规定选举与内部自治。
-- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 布尔什维克组织原则的跨期复合概念。从民意党执委会集中制与特卡乔夫“自觉少数”，经1902年《怎么办？》职业革命家组织、1905–1906年首次成文的“民主集中制”与1917年开放竞争的群众政党，至1921年禁派令与斯大林书记处—官职名册制，合法派别活动空间大幅收缩；一些制度史研究认为干部任命权日益压过民主原则。
-
-## 3. 关联史学争鸣光谱 (Historiographical Debates)
+## 3. 关联史学争鸣与学者论断索引 (主卡外关联争鸣 2 项)
 ### `DEB-1903-bolshevik-menshevik-split`：《怎么办？》与1903年布尔什维克—孟什维克分裂实质之争
 ## [T1] 核心问题定义
 《怎么办？》的自发性与意识理论究竟体现精英代替工人，还是欧洲社会民主主义所共有的结合公式？1903年党章、领导机构选举和代表退会如何共同造成分裂，又能否把后来的一党统治直接追溯到当时？必须区分文本论战、组织选择和事后政治后果。
@@ -91,4 +72,25 @@
 | 农民社会史 | Shanin、Figes、Pallot、Hildermeier | 村社兼具资源分配、保障和协调功能；地方制度与土地压力影响农民选择，强制分离可能加深村内冲突。黑土核心区与边缘地区的差异须按省、年份和地权类别核对，不能把任何一地推广全国。 | `CLM-figes-1996-peasant-moral-economy-1917`; `CLM-hildermeier-2000-agrarian-socialism-modernization-dilemma` |
 | 马克思主义道路论 | 列宁的“普鲁士道路”与“美国道路” | 土地集中和地主主导的资本主义转型，与农民革命清除地主土地的道路具有不同社会代价；这是政治经济学的道路比较，并非后见之明式预测。 | `CLM-service-lenin-v1-agrarian-marxism-and-1905-tactics` |
 
-## 4. 关联时间线锚点 (共 0 条)
+
+### 3.1 关联核心论断与史学家学派坐标 (`CLM-*` → `SCH-*`, 展示前 18/18 条)
+- **`CLM-getzler-1967-martov-1903-clause-one`** [`SCH-getzler-israel`(伊斯雷尔·格茨勒) | pp. 78-79]: 
+- **`CLM-haimson-1955-1903-second-congress-split`** [`SCH-haimson-leopold`(利奥波德·海姆森) | pp. 175-191]: 
+- **`CLM-jacobin-ancestry-tkachev-blanqui-and-leninism`** [`SCH-chamberlin-william-henry`(威廉·亨利·钱伯林) | pp. 251–257 (PDF pp. 2–8)]: 
+- **`CLM-pipes-1990-patrimonial-state-and-intelligentsia`** [`SCH-pipes-richard`(理查德·派普斯) | ch. 2 (Official Russia); ch. 4 (The Intelligentsia); cf. Introduction]: 
+- **`CLM-haimson-1955-lenin-what-is-to-be-done`** [`SCH-haimson-leopold`(利奥波德·海姆森) | pp. 132-141]: 
+- **`CLM-haimson-1955-consciousness-spontaneity`** [`SCH-haimson-leopold`(利奥波德·海姆森) | pp. vi-viii, 7-11]: 
+- **`CLM-haimson-1987-menshevik-party-ethos-and-family`** [`SCH-haimson-leopold`(利奥波德·海姆森) | pp. 14–17]: 
+- **`CLM-lih-2006-erfurtian-merger-formula`** [`SCH-lih-lars`(拉斯·T·利) | pp. 6-9, 41-49, 74-106, 113-121, 556-557]: 
+- **`CLM-lih-2006-kautsky-and-spontaneity`** [`SCH-lih-lars`(拉斯·T·利) | pp. 35-37, 555, 613-667]: 
+- **`CLM-lih-2006-textbook-myth-critique`** [`SCH-lih-lars`(拉斯·T·利) | pp. 5, 13-33, 555]: 
+- **`CLM-blanc-2021-revolutionary-kautskyanism-in-empire`** [`SCH-blanc-eric`(埃里克·布兰克) | pp. 25–28, 569–578]: 
+- **`CLM-blanc-2021-beyond-russocentric-bolshevism`** [`SCH-blanc-eric`(埃里克·布兰克) | pp. 15–16, 23–26]: 
+- **`CLM-zelnik-1999-worker-intelligentsia-tutelage-tension`** [`SCH-smith-sa`(斯蒂芬·A·史密斯（S. A. Smith）) | pp. 6-7, 13-15, 18-27, 51-52]: 
+- **`CLM-zelnik-1999-kanatchikov-conscious-worker-formation`** [`SCH-smith-sa`(斯蒂芬·A·史密斯（S. A. Smith）) | pp. 9-12, 26-27]: 
+- **`CLM-mayer-1999-lenin-jacobin-metaphor-vs-blanquism`** [`SCH-mayer-robert`(罗伯特·迈耶) | pp. 127-129, 140-146]: 
+- **`CLM-figes-1996-peasant-moral-economy-1917`** [`SCH-figes-orlando`(奥兰多·费吉斯) | pp. 343-352]: 
+- **`CLM-hildermeier-2000-agrarian-socialism-modernization-dilemma`** [`SCH-hildermeier-manfred`(曼弗雷德·希尔德迈尔) | EPUB版无稳定原书页码；以本地章节与行号定位（ch08 L75–232, ch09 L26–44, ch12 L204–282, ch13 L107–185, ch17 L115–310, ch20 L750–753, ch24 L180–285, ch26 L6–96；epub:main-8.xhtml, main-9.xhtml, main-12.xhtml, main-13.xhtml, main-21.xhtml, main-25.xhtml, main-27.xhtml）]: 
+- **`CLM-service-lenin-v1-agrarian-marxism-and-1905-tactics`** [`SCH-service-robert`(罗伯特·瑟维斯) | pp. 74-80, 152-166, 169-185 (中译本 PDF 页码)]: 
+
+## 4. 关联时间线骨干锚点 (L0–L2 展示 0 条)

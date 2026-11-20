@@ -7,8 +7,8 @@ publication_year: 2018
 source_tier: A
 local_source_path: "sources/monographs/loginov_lenin_bio_zh/ch07_第二部_极限边缘.md#L442-L1765"
 original_pages: "第一部 ch02-ch04（EPUB ch003-ch005：#L231-L391, #L140-L256, #L20-L45）；第二部 ch07（EPUB ch008：#L442-L527, #L610-L621, #L867-L885, #L1025-L1062, #L1403-L1434, #L1739-L1765）"
-targets_cards: [PSN-lenin-vladimir, EVT-1917-04-april-theses, EVT-1917-10-october-insurrection]
-debate: DEB-october-revolution-nature
+targets_cards: ["PER-lenin", "POL-april-theses-1917", "EVT-1917-10-october-revolution"]
+debate: DEB-1917-october-coup-or-social-revolution
 supports: []
 rebuts: []
 qualifies: []

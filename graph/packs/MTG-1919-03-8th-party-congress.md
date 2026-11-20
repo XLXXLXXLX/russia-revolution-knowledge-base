@@ -1,14 +1,9 @@
-# 1-Hop 平衡上下文包：`MTG-1919-03-8th-party-congress` (俄国共产党（布尔什维克）第八次代表大会)
+# 1-Hop 去重平衡上下文包：`MTG-1919-03-8th-party-congress`
 
-> 本文件由 `python scripts/kb.py pack` 自动编译，旨在将失控的 `1+N` 随机读取压缩为**等权重、带时效边实质与史学盲区告警**的单次全景读取。
+> 由 `python scripts/kb.py pack` 动态编译：保留 **100% 一跳邻居与多时段关系边**，跨卡自动去重争鸣与时间线，并关联学者学派 (`SCH-*`)。
 
-## 0. 认知完备度与反偏斜仪表盘 (Epistemic & Skew Warnings)
-- **主卡路径**: `cards/meetings/MTG-1919-03-8th-party-congress.md`
-- **完备度等级**: `multi-perspective`
-- **已覆盖视角**: `party-leadership, nationalities-carr, military-institutional, democratic-centralist, party-state-centralization`
-- **待补齐视角**: `complete-congress-stenogram, rural-delegate-voices`
-- **偏斜风险提示**:
-  - ⚠️ 主卡显式声明尚缺以下视角待补: `complete-congress-stenogram, rural-delegate-voices`。
+## 0. 认知完备度与反偏斜仪表盘
+- **`MTG-1919-03-8th-party-congress`** (俄国共产党（布尔什维克）第八次代表大会 | `cards/meetings/MTG-1919-03-8th-party-congress.md` | `multi-perspective`): 已覆盖=`party-leadership, nationalities-carr, military-institutional, democratic-centralist, party-state-centralization`；待补=`complete-congress-stenogram, rural-delegate-voices`
 
 ## 1. 主卡核心层 ([T1] + [T2])
 ## [T1] 150字定性微摘要
@@ -43,61 +38,25 @@
 - **Robert V. Daniels（反对派史视角）**：在《革命的良心》第 4–5 章中指出，八大军事反对派与奥新斯基—萨普罗诺夫组织批评首次将党内民主、集体领导与军事正规化的内在张力推上全党辩论台面；斯维尔德洛夫病逝后的机构重组成为后来书记处坐大的制度伏笔。
 - **战时共产主义动因争鸣**：关于八大中农策略与集中体制究竟主要源于意识形态蓝图抑或内战紧急应变，参见[战时共产主义争鸣卡](../../historiography/debates/DEB-1918-war-communism-ideology-or-emergency.md)与[民族与帝国争鸣卡](../../historiography/debates/DEB-1923-nationality-and-empire.md)。
 
-## 2. 一跳邻域等权重微摘要 (共 12 个关联节点，严防大卡霸占上下文)
-### 邻居节点: `INS-politburo-orgburo-secretariat`
-- **时效关系边** (`MTG-1919-03-8th-party-congress` → `INS-politburo-orgburo-secretariat` | `institutionalized` | 有效时段: `1919.03`): 因斯维尔德洛夫病逝，俄共八大正式决议在中央委员会下分设常设政治局、组织局与书记处，奠定党国权力中枢架构。
-- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 1919年3月俄共八大在斯维尔德洛夫逝世后常设分置政治局（政治决策）、组织局（组织行政）与书记处（日常党务与人事）。1922年4月斯大林出任总书记后，逐步掌握政治局议程截稿、秘密文件分发与干部等级名册（Номенклатура）调配杠杆；历经1924年“七人小组”协调与1925—1929年多轮联盟重组及纪律整肃，托洛茨基、季诺维也夫与布哈林等先后被逐出中央决策核心。
+## 2. 一跳邻域全量微摘要目录 (去重后共 13 个节点，0 截断)
+- **`INS-rkka-red-army-and-rvr`**（工农红军与共和国革命军事委员会（РККА 与 РВСР））: 工农红军由1918年初志愿建军转向征兵与集中指挥；共和国革命军事委员会依靠前沙俄军事专家、政治委员及铁路内线组织内战。战后大裁军和伏龙芝改革建立正规军与地方民兵混合体制，1925至1929年伏罗希洛夫主政与干部工农化在政治控制与训练效能间形成持久张力。 ‖ `→MTG-1919-03-8th-party-congress`[军事争论定调|1919.03]: 军事反对派挑战专家路线，大会确认正规军与政治监督并行。 ； `←MTG-1919-03-8th-party-congress`[military-policy|1919-03]: 秘密会议以174:95票确认正规军与军事专家路线，同时折衷强调政委与党务监督。
+- **`INS-politburo-orgburo-secretariat`**（联共（布）中央政治局—组织局—书记处与官职等级名册制）: 1919年3月俄共八大后常设政治局、组织局与书记处，分掌政治决策、组织行政及日常党务人事。1922年4月斯大林任总书记后逐步控制议程、秘密文件分发与干部名册调配。经1924年七人小组协调、1925—1929年联盟重组与纪律整肃，托洛茨基、季诺维也夫、布哈林先后退出决策核心。 ‖ `←MTG-1919-03-8th-party-congress`[institutionalized|1919-03]: 大会组织决议与3月25日八届一中全会共同确立政治局、组织局、书记处常设中枢。
+- **`PER-lenin`**（弗拉基米尔·列宁）: 布尔什维克党缔造者、苏俄人民委员会主席（1917–1924）。1893年投身马克思主义运动，1903年促成布尔什维克分化；1917年发表《四月提纲》并领导十月夺权，历经布列斯特和约、内战与战时共产主义；1921年主持转向新经济政策，晚年（1922–1923）就官僚化与接班人同斯大林冲突。 ‖ `←MTG-1919-03-8th-party-congress`[programmatic-leadership|1919-03]: 主导第二党纲与中农联盟转向，在民族自决与军事路线上力压党内左翼与军事反对派。
+- **`PER-trotsky`**（列夫·托洛茨基）: 俄国革命家、“不断革命论”提出者，1905年彼得堡苏维埃实际领袖与1917年彼得格勒苏维埃主席；借军革委与苏维埃二大衔接统筹十月夺权，内战期起用4.8万军事专家缔造红军。1923–1927年领衔左翼与联合反对派抗衡斯大林集权并受“红色波拿巴”污名围剿，1927年被开除出党，1929年被驱逐出境。 ‖ `←MTG-1919-03-8th-party-congress`[military-leader|1919-03]: 因东线战事缺席大会，由索科利尼科夫代为捍卫其正规军路线并赢得174:95表决。
+- **`PER-bukharin`**（尼古拉·布哈林）: 布尔什维克核心理论家、《真理报》主编及共产国际书记处负责人。列宁遗嘱誉其“全党宠儿”但质疑其辩证法；1918年领衔左翼共产主义，1921年后转向新经济政策均衡路线，1925–1927联斯大林击溃左派，1928–1929因反对暴力征粮与超工业化遭击败并逐出政治局。 ‖ `←MTG-1919-03-8th-party-congress`[programmatic-debate|1919-03]: 围绕“纯粹帝国主义”与民族自决权同列宁辩论，会后当选首届常设政治局候补委员。
+- **`PER-pyatakov`**（格奥尔基·皮达可夫）: 乌克兰布尔什维克左派与苏维埃工业金融干才（1890–1937，本卡至1929年）。列宁《遗嘱》点名的六位核心领袖之一；1923年任最高国民经济委员会副主席起草盈利令引发剪刀差争论，联署《四十六人声明》并任联合反对派骨干；1928年率先脱离托洛茨基复职执掌国家银行，支持一五工业化冲刺。 ‖ `←MTG-1919-03-8th-party-congress`[programmatic-debate|1919-03]: 与布哈林在党纲辩论中反对民族自决原则，主张经济集中与世界无产阶级统一。
+- **`PER-osinsky`**（瓦列里安·奥博连斯基（N·奥新斯基））: 奥辛斯基为布尔什维克经济学家、最高国民经济委员会首任主席（1917.12–1918.03），左派共产主义者及民主集中派理论家。反对布列斯特和约、专家一长制与党机关官僚集中；1923年联署《四十六人声明》，1926–1928年掌中央统计局，因坚持客观粮食统计、抵制政治干预遭免职。 ‖ `←MTG-1919-03-8th-party-congress`[organizational-critic|1919-03]: 提议扩编中央至21人并反对机关官僚集中，孕育民主集中派的党内民主诉求。
+- **`PER-sapronov`**（季莫费·萨普罗诺夫）: 油漆工人出身的老布尔什维克，1918–1919年任莫斯科省苏维埃执委会主席，民主集中派组织领袖。八大至十大批判垂直委派制把党员变为“顺从的留声机”；1923年签署《四十六人声明》，1926–1927年组十五人集团，称苏联蜕变为国家资本主义专政，十五大遭开除。 ‖ `←MTG-1919-03-8th-party-congress`[opposition-critic|1919-03]: 参与军事与组织双重批评，成为此后民主集中派反对过度集中的代表人物。
+- **`PER-voroshilov`**（克利缅特·伏罗希洛夫）: 卢甘斯克工人布尔什维克。1918年察里津战役与斯大林结盟，抵制托洛茨基起用旧军官；1919年八大参与军事反对力量，后任第一骑兵军革军委委员。1925年11月继任苏联陆海军人民委员兼革命军事委员会主席，1926年入政治局，1928–1929年支持斯大林击败布哈林。 ‖ `←MTG-1919-03-8th-party-congress`[military-opposition|1919-03]: 代表察里津派军政干部批评旧军官军事专家与过度集中指挥，支持军事反对派。
+- **`ORG-democratic-centralists`**（民主集中派）: 民主集中派是1919年初结成的布尔什维克党内反对派，萨普罗诺夫、奥新斯基、弗·斯米尔诺夫等为重要代表，批评以任命和行政命令取代集体领导与基层参与。成员及立场随时间变化：1923年部分人联署《四十六人声明》；后期“十五人集团”须与早期派别区分。 ‖ `←MTG-1919-03-8th-party-congress`[opposition-origin|1919-03]: 奥新斯基、萨普罗诺夫在八大对党内集中化与官僚化的批评构成该派直接源头。 ； `→MTG-1919-03-8th-party-congress`[party-congress-debate|1919-03]: 组织问题与军事反对派争论
+- **`POL-war-communism`**（战时共产主义）: 1918年夏至1921年3月苏维埃经济政策总称：余粮收集制、中小工业国有化、取缔私商、货币贬值与实物配给并举；因内战饥荒与国家能力崩溃而强化，却在1921年喀琅施塔得与坦波夫危机下为新经济政策实物税所取代；其性质是应急、乌托邦跃进还是国家统制传统延续，史家分歧剧烈。 ‖ `←MTG-1919-03-8th-party-congress`[rural-context|1919-03]: 提出巩固中农联盟，但仍在战时余粮收集制与高度集中经济框架内运行。
+- **`PER-sokolnikov`**（格里戈里·索科尔尼科夫）: 布尔什维克财政领袖与布列斯特和约签署代表，曾在内战中支持正规军建设。1922—1926年主持财政，以切尔文改革、预算和信贷纪律稳定新经济政策，却与工业扩张需求冲突。1925年参加新反对派，要求撤换斯大林总书记；1928年陪同布哈林密会加米涅夫，后转外交，1939年狱中被害。 ‖ `→MTG-1919-03-8th-party-congress`[military_main_reporter|1919-03]: 代托洛茨基作军事报告，秘密会议174∶95支持正规军路线并保留监督妥协
+- **`EVT-1918-1920-russian-civil-war`**（俄国内战（1918–1920））: 1918至1920年红白主战场的内战中，布尔什维克依托中央腹地、军火遗产与铁路机动击败分散白军；征粮和恐怖又激起工农反抗。乌克兰及外高加索的民族国家竞争不能归入简单红白对决，克里米亚撤离仅标志主要白军战线收束，边疆与农民战争仍在延续。 ‖ `←MTG-1919-03-8th-party-congress`[strategic-context|1919]: 1919决战年党政—军事体制在八大定型
 
-### 邻居节点: `INS-rkka-red-army-and-rvr`
-- **时效关系边** (`MTG-1919-03-8th-party-congress` → `INS-rkka-red-army-and-rvr` | `policy-confirmed` | 有效时段: `1919.03`): 击败军事反对派，确认военспецy—政委红军体制
-- **时效关系边** (`INS-rkka-red-army-and-rvr` → `MTG-1919-03-8th-party-congress` | `军事争论定调` | 有效时段: `1919.03`): 军事反对派挑战专家路线，大会确认正规军与政治监督并行。
-- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 工农红军由1918年初志愿建军转向征兵与集中指挥；共和国革命军事委员会依靠前沙俄军事专家、政治委员及铁路内线组织内战。战后大裁军和伏龙芝改革建立正规军与地方民兵混合体制，1925至1929年伏罗希洛夫主政与干部工农化在政治控制与训练效能间形成持久张力。
-
-### 邻居节点: `PER-trotsky`
-- **时效关系边** (`MTG-1919-03-8th-party-congress` → `PER-trotsky` | `defended-reform` | 有效时段: `1919.03`): 在八大为起用旧军官与建设正规军辩护并获胜
-- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 俄国革命家、“不断革命论”提出者，1905年彼得堡苏维埃实际领袖与1917年彼得格勒苏维埃主席；借军革委与苏维埃二大衔接统筹十月夺权，内战期起用4.8万军事专家缔造红军。1923–1927年领衔左翼与联合反对派抗衡斯大林集权并受“红色波拿巴”污名围剿，1927年被开除出党，1929年被驱逐出境。
-
-### 邻居节点: `PER-lenin`
-- **时效关系边** (`MTG-1919-03-8th-party-congress` → `PER-lenin` | `chair-key-speeches` | 有效时段: `1919.03`): 主导纲领与中农政策表述，裁决军事争论
-- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 布尔什维克党缔造者、苏俄人民委员会主席（1917–1924）。1893年投身马克思主义运动，1903年促成布尔什维克分化；1917年发表《四月提纲》并领导十月夺权，历经布列斯特和约、内战与战时共产主义；1921年主持转向新经济政策，晚年（1922–1923）就官僚化与接班人同斯大林冲突。
-
-### 邻居节点: `POL-war-communism`
-- **时效关系边** (`MTG-1919-03-8th-party-congress` → `POL-war-communism` | `ideologically-framed` | 有效时段: `1919`): 第二党纲为战时征粮与劳动动员提供党的正式表述
-- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 1918年夏至1921年3月苏维埃经济政策总称：余粮收集制、中小工业国有化、取缔私商、货币贬值与实物配给并举；因内战饥荒与国家能力崩溃而强化，却在1921年喀琅施塔得与坦波夫危机下为新经济政策实物税所取代；其性质是应急、乌托邦跃进还是国家统制传统延续，史家分歧剧烈。
-
-### 邻居节点: `EVT-1918-1920-russian-civil-war`
-- **时效关系边** (`MTG-1919-03-8th-party-congress` → `EVT-1918-1920-russian-civil-war` | `strategic-context` | 有效时段: `1919`): 1919决战年党政—军事体制在八大定型
-- **节点定性微摘要 [T1]** (完备度 `draft`): 1918–1920年苏俄内战：布尔什维克依托“苏托邦”人口、军火与莫斯科铁路枢纽内线机动，先后粉碎高尔察克、邓尼金、弗兰格尔白军及马赫诺黑军，并压制社革党第三力量；协约国干涉与边疆民族武装相互牵制。
-
-### 邻居节点: `ORG-democratic-centralists`
-- **时效关系边** (`ORG-democratic-centralists` → `MTG-1919-03-8th-party-congress` | `party-congress-debate` | 有效时段: `1919-03`): 组织问题与军事反对派争论
-- **时效关系边** (`MTG-1919-03-8th-party-congress` → `ORG-democratic-centralists` | `opposition-origin` | 有效时段: `1919-03`): 奥新斯基、萨普罗诺夫在八大对党内集中化与官僚化的批评构成该派直接源头。
-- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 民主集中派是1919年初结成的布尔什维克党内反对派，萨普罗诺夫、奥新斯基、弗·斯米尔诺夫等为重要代表，批评以任命和行政命令取代集体领导与基层参与。成员及立场随时间变化：1923年部分人联署《四十六人声明》；后期“十五人集团”须与早期派别区分。
-
-### 邻居节点: `PER-bukharin`
-- **时效关系边** (`MTG-1919-03-8th-party-congress` → `PER-bukharin` | `programmatic-debate` | 有效时段: `1919-03`): 围绕“纯粹帝国主义”与民族自决权同列宁辩论，会后当选首届常设政治局候补委员。
-- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 布尔什维克核心理论家、《真理报》主编及共产国际书记处负责人。列宁遗嘱誉其“全党宠儿”但质疑其辩证法；1918年领衔左翼共产主义，1921年后转向新经济政策均衡路线，1925–1927联斯大林击溃左派，1928–1929因反对暴力征粮与超工业化遭击败并逐出政治局。
-
-### 邻居节点: `PER-pyatakov`
-- **时效关系边** (`MTG-1919-03-8th-party-congress` → `PER-pyatakov` | `programmatic-debate` | 有效时段: `1919-03`): 与布哈林在党纲辩论中反对民族自决原则，主张经济集中与世界无产阶级统一。
-- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 乌克兰布尔什维克左派与苏维埃工业金融干才（1890–1937，本卡至1929年）。列宁《遗嘱》点名的六位核心领袖之一；1923年任最高国民经济委员会副主席起草盈利令引发剪刀差争论，联署《四十六人声明》并任联合反对派骨干；1928年率先脱离托洛茨基复职执掌国家银行，支持一五工业化冲刺。
-
-### 邻居节点: `PER-osinsky`
-- **时效关系边** (`MTG-1919-03-8th-party-congress` → `PER-osinsky` | `organizational-critic` | 有效时段: `1919-03`): 提议扩编中央至21人并反对机关官僚集中，孕育民主集中派的党内民主诉求。
-- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 布尔什维克经济学家、最高国民经济委员会（ВСНХ）首任主席（1917.12–1918.03），1918年“左派共产主义者”及1919–1921年“民主集中派”核心理论家。先后反对布列斯特和约、专家一长制与党机关官僚集中制；1923年联署《四十六人声明》；1926–1928年执掌中央统计局期间因坚持客观粮食统计抵制政治干预而被免职。
-
-### 邻居节点: `PER-sapronov`
-- **时效关系边** (`MTG-1919-03-8th-party-congress` → `PER-sapronov` | `opposition-critic` | 有效时段: `1919-03`): 参与军事与组织双重批评，成为此后民主集中派反对过度集中的代表人物。
-- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 油漆工人出身的老布尔什维克、莫斯科省苏维埃执委会主席（1918–1919），1919–1927年“民主集中派”核心组织领袖。在俄共八大至十大抨击垂直委派制把党员变成“顺从的留声机”，1923年签署《四十六人声明》；1926–1927年组建“十五人集团”宣称苏联已蜕变为国家资本主义专政，十五大被开除出党。
-
-### 邻居节点: `PER-voroshilov`
-- **时效关系边** (`MTG-1919-03-8th-party-congress` → `PER-voroshilov` | `military-opposition` | 有效时段: `1919-03`): 代表察里津派军政干部批评旧军官军事专家与过度集中指挥，支持军事反对派。
-- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 卢甘斯克工人布尔什维克（1881–1969，本卡至1929年）。1918年察里津保卫战与斯大林结盟抵制托洛茨基起用旧军事专家路线；1919年在八大代表察里津系参与军事反对力量，后任第一骑兵军革军委委员；1925年11月继任苏联陆海军人民委员兼苏联革命军事委员会主席，1926年入政治局，1928–1929年坚定支持斯大林击败布哈林。
-
-## 3. 关联史学争鸣光谱 (Historiographical Debates)
+## 3. 关联史学争鸣与学者论断索引 (主卡外关联争鸣 2 项)
 ### `DEB-1918-war-communism-ideology-or-emergency`：战时共产主义与早期一党制本质之争：内战应急、乌托邦跃进还是国家统制连续？
 ## [T1] 核心问题定义
-1918–1921年的全面工业国有化、余粮收集制（`продразвёрстка`）、取缔私商、劳动军事化及多党苏维埃向一党专政的收缩，究竟是内战与供给崩溃逼迫的生存应急反应，还是布尔什维克反市场乌托邦蓝图的激进兑现，抑或一战以来国家统制与基层危机交互演化的结果？“战时共产主义”系1921年新经济政策转向时的事后追赋标签，须严格区分措施出台序列与事后总结。
+1918至1921年的全面国有化、余粮收集制、取缔私商、劳动军事化，以及多党苏维埃收为一党专政，究竟是内战与供给崩溃逼出的生存应急，还是反市场乌托邦的激进兑现，抑或一战以来国家统制与基层危机交互的结果？“战时共产主义”是1921年转向时的事后标签，须分清措施序列与事后总结。
 
 ## [T2] 各学派立场对照矩阵
 
@@ -112,7 +71,7 @@
 
 ### `DEB-1923-nationality-and-empire`：布尔什维克民族政策、格鲁吉亚事件与苏维埃“肯定性行动帝国”性质之争
 ## [T1] 核心问题定义
-`1922-08` 至 `1923-04-25`（自“自治化”方案、格鲁吉亚冲突至俄共十二大民族问题特别会议闭幕）及其后1920年代本土化实践，布尔什维克是在建设多民族“肯定性行动帝国”内的制度化本土化体制，还是以先锋队组织垄断维系的大俄罗斯官僚集权？争论焦点在于解密速记揭示的制度妥协与各学派因果—价值判断之分。
+自1922年8月“自治化”方案与格鲁吉亚冲突起，至1923年4月俄共十二大闭幕，布尔什维克究竟是在建设“肯定性行动帝国”式的制度化本土化实践，还是以先锋队组织垄断维系大俄罗斯官僚集权？争论焦点是解密速记所示的制度妥协，以及各学派因果判断与价值判断之别。
 
 ## [T2] 各学派立场对照矩阵
 | 学派/取向 | 代表学者与著作 | 核心论点摘要 | 支撑论断卡 | 主要受批评盲点 |
@@ -124,4 +83,31 @@
 | 乌克兰社会史与本土化悖论 | George Liber, *Soviet Nationality Policy, Urban Growth, and Identity Change in the Ukrainian SSR 1923–1934* (1992) | 本土化整合城乡乌克兰人、扩张乌克兰语公共领域的同时，制度化语言边界并孕育中央难以完全消化的地方民族诉求。 | `CLM-liber-1992-korenizatsiia-paradox-late-1920s`; `CLM-liber-1992-ukrainianization-and-urban-working-class` | 侧重乌克兰工业城市化案例，外高加索与中亚须分区域检验。 |
 | “肯定性行动帝国”概念框架 | Terry Martin, *The Affirmative Action Empire* (2001) 等 | 1920年代苏联对非俄罗斯民族实施制度化优待（干部、语言、教育与领土配额），以党国政治垄断为前提整合多民族边缘——动员成效与潜在离心张力并存。 | （Martin 专著独立论断卡尚待 `close-reader` 入库；现阶段参看 `POL-korenizatsiia` 与 `CLM-smith-jeremy-1999-twelfth-congress-korenizatsiia`） | 概念易被字面混同于当代西方多元主义平权政策，须严守一党专政前提。 |
 
-## 4. 关联时间线锚点 (共 0 条)
+
+### 3.1 关联核心论断与史学家学派坐标 (`CLM-*` → `SCH-*`, 展示前 24/24 条)
+- **`CLM-carr-1950-politburo-orgburo-displacement-of-state-organs`** [`SCH-carr-eh`(爱德华·霍列特·卡尔) | [PDF pp. 96, 100-105, 109-114]]: 
+- **`CLM-carr-1950-bolshevik-self-determination-vs-cultural-autonomy`** [`SCH-carr-eh`(爱德华·霍列特·卡尔) | pp. 419, 421, 423 (printed); PDF pp. 430, 432, 434]: 
+- **`CLM-carr-1950-self-determination-to-federal-reunion`** [`SCH-carr-eh`(爱德华·霍列特·卡尔) | pp. 253-285, 364-428]: 
+- **`CLM-carr-1952-war-communism-internal-contradictions`** [`SCH-carr-eh`(爱德华·霍列特·卡尔) | Vol. 2 Chinese PDF pp. 70-120 (Chs. 17–18)]: 
+- **`CLM-carr-1950-soviet-to-party-ascendancy-mechanism`** [`SCH-carr-eh`(爱德华·霍列特·卡尔) | pp. 148, 177, 193-232]: 
+- **`CLM-mawdsley-1987-sovdepia-demographic-industrial-base`** [`SCH-mawdsley-evan`(埃文·莫兹利) | pp. 56–58, 69, 185–188, 217–218, 283–284]: 
+- **`CLM-kakurin-1928-red-army-interior-lines-strategy`** [`SCH-kakurin-nikolai`(尼古拉·叶夫根尼耶维奇·卡库林) | pp. xvi–xviii, 91–93, 101–103, 198–203, 210–229]: 
+- **`CLM-mawdsley-1987-civil-war-militarized-regime`** [`SCH-mawdsley-evan`(埃文·莫兹利) | pp. 328, 331, 346-347]: 
+- **`CLM-pipes-1990-red-terror-leninist-logic`** [`SCH-pipes-richard`(理查德·派普斯) | ch. 18 (The Red Terror)]: 
+- **`CLM-pipes-1990-october-classic-coup`** [`SCH-pipes-richard`(理查德·派普斯) | ch. 11 (The October Coup); cf. Introduction]: 
+- **`CLM-smith-sa-1983-defensive-workers-control`** [`SCH-smith-sa`(斯蒂芬·A·史密斯（S. A. Smith）) | 中译本 pp. 106–112, 133, 135, 137, 191（即源文件标注 PDF pp. 111–117, 138, 140, 142, 196）；注意：均为中译本页码，非英文原版页码]: 
+- **`CLM-smith-sa-1983-from-workers-control-to-nationalization`** [`SCH-smith-sa`(斯蒂芬·A·史密斯（S. A. Smith）) | 中译本 pp. 155–156, 166–169, 177–179, 184–186, 192（即源文件标注 PDF pp. 160–161, 171–174, 182–184, 189–191, 197）；注意：均为中译本页码，非英文原版页码]: 
+- **`CLM-hoffmann-2011-continuum-of-total-war-1914-1929`** [`SCH-hoffmann-david`(大卫·L·霍夫曼) | pp. 12–13, 38, 127–128]: 
+- **`CLM-rabinowitch-2007-contingency-of-dictatorship`** [`SCH-rabinowitch-alexander`(亚历山大·拉比诺维奇) | pp. xi-xii, 390-398]: 
+- **`CLM-daniels-1960-left-communists-1918`** [`SCH-daniels-robert`(罗伯特·V·丹尼尔斯) | pp. 70-81]: Daniels：1918年左翼捍卫革命纲领，却在分裂关头受党统一约束
+- **`CLM-figes-1996-peasant-wars-and-nep-retreat`** [`SCH-figes-orlando`(奥兰多·费吉斯) | pp. 775-785]: 
+- **`CLM-zemskov-1929-dekulakization-demographic-baseline`** [`SCH-zemskov-viktor`(维克托·尼古拉耶维奇·泽姆斯科夫) | PDF pp. 6-11, 15-19, 52, 218 (原书 pp. 4-9, 13-17, 50, 216)]: 
+- **`CLM-lewin-1968-georgian-affair-bureaucracy`** [`SCH-lewin-moshe`(摩西·莱文) | n/a（EPUB 无页码锚点）；Ch.9、Ch.10 与 Appendixes I–III, VII–VIII]: 
+- **`CLM-lewin-1968-testament-intent`** [`SCH-lewin-moshe`(摩西·莱文) | n/a（EPUB 无页码锚点）；Ch.10 'If Lenin Had Lived . . .'；列宁原文脚注见 Soch. XLV p. 392；XLIV p. 428]: 
+- **`CLM-smith-jeremy-1999-twelfth-congress-korenizatsiia`** [`SCH-smith-jeremy`(杰里米·史密斯) | pp. 311, 321-325, 327-331]: 
+- **`CLM-smith-jeremy-1999-georgian-affair-reassessed`** [`SCH-smith-jeremy`(杰里米·史密斯) | pp. 252-253, 260-262, 266-268, 285-288, 296-297]: 
+- **`CLM-suny-2017-empire-and-nationality-dimension`** [`SCH-suny-ronald-gregor`(罗纳德·格里戈尔·苏尼) | pp. 125-140 (approx. ch. 3 opening theory; see also Witte L322-328)]: 
+- **`CLM-liber-1992-korenizatsiia-paradox-late-1920s`** [`SCH-liber-george`(乔治·O·利伯) | pp. 155–157; 180–186]: 
+- **`CLM-liber-1992-ukrainianization-and-urban-working-class`** [`SCH-liber-george`(乔治·O·利伯) | pp. 75–76; 99–105]: 
+
+## 4. 关联时间线骨干锚点 (L0–L2 展示 0 条)

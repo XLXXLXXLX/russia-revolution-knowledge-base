@@ -7,8 +7,8 @@ publication_year: 1989
 source_tier: A
 local_source_path: "sources/monographs/galili_1989_menshevik_leaders/ch10_four_dual_power_reexamined_the_questions.md#L916-L1837"
 original_pages: "pp. 134-140, 148-151 (PDF pp. 152-158, 174-177)"
-targets_cards: ["PER-tsereteli", "ORG-mensheviks", "CON-revolutionary-defensism", "CON-dual-power"]
-debate: DEB-1917-dual-power-and-coalition
+targets_cards: ["PER-tsereteli", "ORG-mensheviks", "CON-revolutionary-defensism-and-defeatism", "CON-dual-power"]
+debate: DEB-1917-dual-power-and-february-origins
 supports: []
 rebuts: []
 qualifies: []

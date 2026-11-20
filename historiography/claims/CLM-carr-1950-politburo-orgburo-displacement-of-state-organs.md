@@ -7,8 +7,8 @@ publication_year: 1950
 source_tier: A
 local_source_path: "sources/monographs/carr_bolshevik_rev_v1_zh/ch06_第二部分_宪法结构_part_2.md#L809-L838, #L1002-L1042, #L1222-L1250; sources/monographs/carr_bolshevik_rev_v1_zh/ch07_第二部分_宪法结构_part_3.md#L7-L13, #L117-L383"
 original_pages: "[PDF pp. 96, 100-105, 109-114]"
-targets_cards: ["ORG-politburo", "ORG-rcp-b", "ORG-sovnarkom", "ORG-vtsik", "PER-stalin", "PER-lenin"]
-debate: DEB-bolshevik-party-state-origins
+targets_cards: ["INS-politburo-orgburo-secretariat", "ORG-bolsheviks-rcpb-vkpb", "INS-sovnarkom-and-vtsik", "PER-stalin", "PER-lenin"]
+debate: DEB-1918-constituent-assembly-and-soviet-democracy
 supports: ["CLM-carr-1950-soviet-to-party-ascendancy-mechanism", "CLM-rabinowitch-2007-contingency-of-dictatorship"]
 rebuts: ["CLM-pipes-1990-october-classic-coup", "CLM-pipes-1990-red-terror-leninist-logic"]
 qualifies: ["CLM-rabinowitch-1976-open-democratic-mass-party"]

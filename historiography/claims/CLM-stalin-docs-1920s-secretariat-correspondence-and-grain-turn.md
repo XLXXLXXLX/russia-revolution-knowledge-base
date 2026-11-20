@@ -1,7 +1,7 @@
 ---
 id: "CLM-stalin-docs-1920s-secretariat-correspondence-and-grain-turn"
 type: "claim"
-scholar: "[[弗拉基米尔·多尔马托夫]]（编）/ [[柳德米拉·雷科娃]]（学术顾问）"
+scholar: SCH-dolmatov-vladimir
 work: "《斯大林 1878–1953（主要文献）》（2018）"
 school: "post-soviet-archival"
 period_covered: "1922-1929"

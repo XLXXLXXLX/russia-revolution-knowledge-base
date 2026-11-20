@@ -7,8 +7,8 @@ publication_year: 2007
 source_tier: S
 local_source_path: "sources/monographs/rabinowitch_2007_in_power/ch22_15_price_of_survival.md#L59-L431"
 original_pages: "pp. xi-xii, 390-398"
-targets_cards: ["ORG-bolshevik-party", "CON-soviet-democracy", "POL-red-terror", "PER-lenin", "PER-zinoviev", "PER-uritskii"]
-debate: DEB-1918-one-party-dictatorship-origins
+targets_cards: ["ORG-bolsheviks-rcpb-vkpb", "CON-soviet", "EVT-1918-09-red-terror-and-left-sr-rupture", "PER-lenin", "PER-zinoviev", "ORG-cheka-ogpu"]
+debate: DEB-1918-constituent-assembly-and-soviet-democracy
 supports: []
 rebuts: []
 qualifies: []

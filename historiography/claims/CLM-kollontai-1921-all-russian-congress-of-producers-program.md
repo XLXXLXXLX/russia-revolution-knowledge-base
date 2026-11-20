@@ -1,14 +1,14 @@
 ---
 id: CLM-kollontai-1921-all-russian-congress-of-producers-program
 type: claim
-scholar: PER-kollontai
+scholar: SCH-kollontai-alexandra
 work_title: "The Workers' Opposition"
 publication_year: 1921
 source_tier: S
 local_source_path: "sources/primary/kollontai_1921_workers_opposition/ch00_pages_1-25.md#L491-L1032; ch01_pages_26-30.md#L1-L227"
 original_pages: "PDF pp. 11-21, 25-30"
-targets_cards: ["PER-kollontai", "PER-shliapnikov", "PER-lenin", "PER-trotsky", "PER-bukharin", "ORG-workers-opposition", "ORG-vsnkh", "ORG-vtssps", "MTG-1921-10th-congress"]
-debate: DEB-1921-trade-union-controversy
+targets_cards: ["PER-kollontai", "PER-shlyapnikov", "PER-lenin", "PER-trotsky", "PER-bukharin", "ORG-workers-opposition", "INS-vsnkh-and-gosplan", "PER-tomsky", "MTG-1921-rcpb-10th-congress"]
+debate: DEB-1921-trade-union-controversy-and-party-unity
 supports: []
 rebuts: []
 qualifies: []

@@ -7,7 +7,7 @@ publication_year: 2013
 source_tier: A
 local_source_path: "sources/monographs/velikanova_2013_popular_perception/ch03_index.md#L82-L136"
 original_pages: "pp. 45-47, 51-55, 78-81"
-targets_cards: ["PER-stalin", "PER-bukharin", "POL-nep", "EVT-1928-grain-crisis"]
+targets_cards: ["PER-stalin", "PER-bukharin", "POL-nep", "EVT-1928-grain-procurement-crisis"]
 debate: DEB-1928-bukharin-alternative
 supports: []
 rebuts: []

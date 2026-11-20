@@ -1,14 +1,14 @@
 ---
 id: CLM-zelnik-1999-worker-intelligentsia-tutelage-tension
 type: claim
-scholar: SCH-smith-steve
+scholar: SCH-smith-sa
 work_title: "Workers, the Intelligentsia and Marxist Parties: St Petersburg, 1895-1917 and Shanghai, 1921-1927 (in Reginald E. Zelnik, ed., Workers and Intelligentsia in Late Imperial Russia)"
 publication_year: 1996
 source_tier: A
 local_source_path: "sources/monographs/zelnik_1999_workers_intelligentsia/ch00_pages_1-25.md#L904-L1278"
 original_pages: "pp. 6-7, 13-15, 18-27, 51-52"
-targets_cards: ["PER-kanatchikov", "PER-lenin", "PER-akselrod", "PER-bogdanov", "ORG-rsdlp-bolsheviks", "ORG-rsdlp-mensheviks"]
-debate: DEB-worker-intelligentsia-tutelage-and-autonomy
+targets_cards: ["ORG-bolsheviks-rcpb-vkpb", "PER-lenin", "PER-axelrod", "PER-bogdanov", "ORG-mensheviks"]
+debate: DEB-1903-bolshevik-menshevik-split
 supports: []
 rebuts: []
 qualifies: []

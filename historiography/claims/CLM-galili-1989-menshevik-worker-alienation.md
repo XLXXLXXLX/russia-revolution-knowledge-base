@@ -7,8 +7,8 @@ publication_year: 1989
 source_tier: A
 local_source_path: "sources/monographs/galili_1989_menshevik_leaders/ch14_eight_the_coalition_in_crisis.md#L76-L468"
 original_pages: "pp. 195-198, 295-303, 325-336, 398-399 (PDF pp. 221-224, 321-329, 351-362, 424-425)"
-targets_cards: ["ORG-mensheviks", "ORG-bolsheviks", "EVT-1917-07-july-days", "PER-tsereteli", "PER-dan-f"]
-debate: DEB-1917-worker-radicalization-and-menshevik-decline
+targets_cards: ["ORG-mensheviks", "ORG-bolsheviks-rcpb-vkpb", "EVT-1917-07-july-days", "PER-tsereteli", "PER-dan"]
+debate: DEB-1918-working-class-and-bolsheviks
 supports: []
 rebuts: []
 qualifies: []

@@ -7,7 +7,7 @@ publication_year: 2015
 source_tier: B
 local_source_path: "sources/monographs/spitsyn_russia_ussr_v3_zh/ch11_第一部分_1917-1941年的苏维埃俄国和苏联_part_7.md#L639-L1085"
 original_pages: "PDF pp. 118–130, 173–183, 190–193"
-targets_cards: ["POL-nep", "EVT-great-turn", "EVT-intraparty-struggle-1920s"]
+targets_cards: ["POL-nep", "EVT-1929-great-turn-and-dekulakization-launch", "DEB-1922-lenin-testament-and-stalin-rise"]
 debate: null
 supports: []
 rebuts: []

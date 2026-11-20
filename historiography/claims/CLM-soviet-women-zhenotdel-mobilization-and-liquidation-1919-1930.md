@@ -1,14 +1,14 @@
 ---
 id: CLM-soviet-women-zhenotdel-mobilization-and-liquidation-1919-1930
 type: claim
-scholar: "William M. Mandel (citing Elena D. Emelyanova & Sofia N. Smidovich)"
+scholar: SCH-mandel-william
 work_title: "Soviet Women (《苏联妇女》)"
 publication_year: 1975
 source_tier: "T3 综合通史/专题社会史（包含对苏联妇女部档案学者叶梅利亚诺娃、斯米多维奇的转引）"
 local_source_path: "sources/monographs/soviet_women_zh/"
 original_pages: "PDF pp. 31, 34-47, 154-155, 218-219, 241"
 targets_cards: []
-debate: "俄共（布）中央妇女部（Женотдел）的基层代表动员机制、党内父权阻力及其在1930年初被撤销的制度逻辑（1918–1930）"
+debate: DEB-1920s-gender-family-and-everyday-life
 supports: []
 rebuts: []
 qualifies: []

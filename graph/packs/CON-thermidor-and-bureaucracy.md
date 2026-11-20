@@ -1,14 +1,9 @@
-# 1-Hop 平衡上下文包：`CON-thermidor-and-bureaucracy` (苏维埃热月与官僚主义蜕变)
+# 1-Hop 去重平衡上下文包：`CON-thermidor-and-bureaucracy`
 
-> 本文件由 `python scripts/kb.py pack` 自动编译，旨在将失控的 `1+N` 随机读取压缩为**等权重、带时效边实质与史学盲区告警**的单次全景读取。
+> 由 `python scripts/kb.py pack` 动态编译：保留 **100% 一跳邻居与多时段关系边**，跨卡自动去重争鸣与时间线，并关联学者学派 (`SCH-*`)。
 
-## 0. 认知完备度与反偏斜仪表盘 (Epistemic & Skew Warnings)
-- **主卡路径**: `cards/concepts/CON-thermidor-and-bureaucracy.md`
-- **完备度等级**: `multi-perspective`
-- **已覆盖视角**: `lenin-late-struggle-lewin, french-russian-analogy-deutscher-shlapentokh, bukharin-and-party-debates-cohen, communist-opposition-history-daniels, s-tier-opposition-platforms-1923-1927`
-- **待补齐视角**: `ustryalov-1921-smena-vekh-original-russian-text, lenin-1922-03-11th-congress-speech-on-ustryalov-original-pages, lenin-1922-12-30-notes-on-nationalities-russian-verbatim, zalutsky-1925-pamphlet-original-text, rakovsky-1928-professional-dangers-original-text`
-- **偏斜风险提示**:
-  - ⚠️ 主卡显式声明尚缺以下视角待补: `ustryalov-1921-smena-vekh-original-russian-text, lenin-1922-03-11th-congress-speech-on-ustryalov-original-pages, lenin-1922-12-30-notes-on-nationalities-russian-verbatim, zalutsky-1925-pamphlet-original-text, rakovsky-1928-professional-dangers-original-text`。
+## 0. 认知完备度与反偏斜仪表盘
+- **`CON-thermidor-and-bureaucracy`** (苏维埃热月与官僚主义蜕变 | `cards/concepts/CON-thermidor-and-bureaucracy.md` | `multi-perspective`): 已覆盖=`lenin-late-struggle-lewin, french-russian-analogy-deutscher-shlapentokh, bukharin-and-party-debates-cohen, communist-opposition-history-daniels, s-tier-opposition-platforms-1923-1927`；待补=`ustryalov-1921-smena-vekh-original-russian-text, lenin-1922-03-11th-congress-speech-on-ustryalov-original-pages, lenin-1922-12-30-notes-on-nationalities-russian-verbatim, zalutsky-1925-pamphlet-original-text, rakovsky-1928-professional-dangers-original-text`
 
 ## 1. 主卡核心层 ([T1] + [T2])
 ## [T1] 60秒定性微摘要
@@ -81,145 +76,56 @@
 - **[布哈林思想传记与反极权渐进论 / Stephen F. Cohen]**（`cohen_1973_bukharin` pp. 131–132, 143）：打捞布哈林1922–1923年关于干部蜕变为“垄断种姓/新统治阶级胚胎”的早慧警告，指出托洛茨基派将热月危险错误锁定在布哈林的市场合作社路线上，反而助推了真正通向超集权利维坦的行政强迫力量。
 - **[结构现实主义与帝国国家建构论 / Stephen Kotkin, Olga Velikanova]**：拒绝“革命纯洁初心被官僚背叛”的道德堕落叙事，认为在一个小农占80%、历经世界大战与内战废墟、处于资本主义列强包围中的大陆帝国，废除市场与议会制后的集中计划与国家动员在结构上必然催生庞大的行政—安全官僚机器；所谓“热月”争论只是布尔什维克知识分子用18世纪法国词汇误读20世纪现代党国建构的意识形态幻象。
 
-## 2. 一跳邻域等权重微摘要 (共 16 个关联节点，严防大卡霸占上下文)
-### 邻居节点: `ORG-left-and-united-opposition`
-- **时效关系边** (`ORG-left-and-united-opposition` → `CON-thermidor-and-bureaucracy` | `diagnosed-and-shattered-by` | 有效时段: `1923-1929`): 以法国大革命“热月”隐喻批判党国官僚专制与向农村富农退让，却在1928-1929斯大林自上而下暴力消灭富农左转时陷入理论失焦与分裂。
-- **时效关系边** (`CON-thermidor-and-bureaucracy` → `ORG-left-and-united-opposition` | `systematized-class-sociology-of-party-apparatus-in` | 有效时段: `1926-04–1927-12`): 在1927年政纲中以车间工人仅占31%的数据论证“党被自身机关取代”，要求恢复党内民主阻击热月
-- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 1923年剪刀差危机触发的托洛茨基—普列奥布拉任斯基“左翼反对派”，经1926年春与季诺维也夫—加米涅夫“新反对派”结盟为托季联合反对派；以《四十六人声明》与《1927年政纲》批判官僚体制与“一国社会主义”、主张价格—财政渠道的计划工业化，于1927年12月十五大被组织摧毁。
+## 2. 一跳邻域全量微摘要目录 (去重后共 17 个节点，0 截断)
+- **`POL-nep`**（新经济政策）: 1921年春在农村起义、城市工潮与喀琅施塔得危机倒逼下逐步确立、取代战时共产主义的混合经济体制。以固定实物税（后改货币税）取代余粮收集制，渐次放开城乡市场与小私营商业（耐普曼），由国家掌控大工业、银行、运输与外贸“制高点”；1928–1929年在收购危机与政治转向中逐步瓦解。 ‖ `←CON-thermidor-and-bureaucracy`[hailed-as-right-wing-thermidor-by-ustryalov-and-feared-by-le|1921-03–1928-01]: NEP在场外被路标转换派欢呼为“民族布尔什维克热月进化”，在党内成为左翼警惕热月复辟的经…
+- **`PER-lenin`**（弗拉基米尔·列宁）: 布尔什维克党缔造者、苏俄人民委员会主席（1917–1924）。1893年投身马克思主义运动，1903年促成布尔什维克分化；1917年发表《四月提纲》并领导十月夺权，历经布列斯特和约、内战与战时共产主义；1921年主持转向新经济政策，晚年（1922–1923）就官僚化与接班人同斯大林冲突。 ‖ `←CON-thermidor-and-bureaucracy`[diagnosed-tsarist-bureaucratic-survival-in|1920-12–1923-03]: 列宁晚年痛斥国家机关实质承袭沙皇旧机器、仅涂苏维埃油漆，并把党政高层沙文主义恶霸斥为“杰…
+- **`PER-stalin`**（约瑟夫·斯大林）: 布尔什维克高加索地下组织者、民族事务人民委员（1917–1923）及中央总书记（1922起）。依托书记处任命权与安全危机叙事，先联季-加压制托洛茨基，再联布哈林击溃联合反对派；1927–1929年以战备恐慌与“自上而下革命”击败布哈林集团，1929年12月拍板“把富农作为阶级消灭”并终结新经济政策。 ‖ `←CON-thermidor-and-bureaucracy`[embodied-secretarial-apparatus-and-centrism-targeted-by|1922-04–1927-12]: 作为总书记掌控委派制人事机器，先被列宁警告握有无限权力，后被联合反对派定性为“官僚中间派…
+- **`PER-dzerzhinsky`**（费利克斯·捷尔任斯基）: 波兰立陶宛社民党与布尔什维克领导人。1917年建全俄肃反委员会（契卡）并续掌GPU/OGPU至逝世，奠定苏维埃安全与法外镇压体制；1924–1926年兼任最高国民经济委员会主席，力挺新经济政策市场均衡、保护技术专家并反对超工业化，1926年7月预警“红色独裁者”后猝逝于中央全会。 ‖ `←CON-thermidor-and-bureaucracy`[censured-for-great-russian-bureaucratic-bullying-by-lenin|1922-12]: 在格鲁吉亚调查中偏袒奥尔忠尼启则，被列宁与斯大林一并斥为染上大俄罗斯官僚沙文主义的代表
+- **`PER-bukharin`**（尼古拉·布哈林）: 布尔什维克核心理论家、《真理报》主编及共产国际书记处负责人。列宁遗嘱誉其“全党宠儿”但质疑其辩证法；1918年领衔左翼共产主义，1921年后转向新经济政策均衡路线，1925–1927联斯大林击溃左派，1928–1929因反对暴力征粮与超工业化遭击败并逐出政治局。 ‖ `←CON-thermidor-and-bureaucracy`[early-warner-of-bureaucratic-caste-then-accused-of-thermidor|1922–1927]: 1922–1923年曾警告干部蜕变为“垄断种姓/新统治阶级胚胎”，1925–1927年却…
+- **`PER-preobrazhensky`**（叶夫根尼·普列奥布拉任斯基）: 老布尔什维克经济理论家，1920–1921年任中央书记。1923年起草《四十六人声明》批判书记等级制；1924–1926年提出社会主义原始积累，以价格税收而非行政暴力向私营部门筹资，与布哈林论战。1928–1929年误判斯大林工业化转向而脱离托派求和，1937年被处决。 ‖ `←CON-thermidor-and-bureaucracy`[co-authored-secretarial-hierarchy-indictment-in|1923-10–1927-12]: 领衔签署《四十六人声明》，揭露党分裂为“书记等级与平民百姓”及机关取代党的体制危机
+- **`PER-trotsky`**（列夫·托洛茨基）: 俄国革命家、“不断革命论”提出者，1905年彼得堡苏维埃实际领袖与1917年彼得格勒苏维埃主席；借军革委与苏维埃二大衔接统筹十月夺权，内战期起用4.8万军事专家缔造红军。1923–1927年领衔左翼与联合反对派抗衡斯大林集权并受“红色波拿巴”污名围剿，1927年被开除出党，1929年被驱逐出境。 ‖ `←CON-thermidor-and-bureaucracy`[elevated-thermidor-danger-and-bureaucratic-centrism-thesis|1923-10–1929-02]: 构建“官僚中间派”与“热月危险”批判体系，同时拒绝“热月已完成论”而受制于一党垄断框架 ； `→CON-thermidor-and-bureaucracy`[theorist-and-analogy-victim|1923–1929+]: 一方面以“官僚中间派/热月危险”批判书记处，另一方面自身深陷“红色波拿巴”猜忌并在1929年前拒斥“热月既成论”
+- **`PER-zinoviev`**（格里戈里·季诺维也夫）: 老布尔什维克、共产国际首任主席（1919–1926）。1917年十月公开反对武装起义；1920年哈雷演说力推二十一条与阶级恐怖，1923年豪赌“德国十月”并首倡社民党“法西斯羽翼”论；借“三驾马车”排托后于1925年发起新反对派，1926年7月首因秘密第7条被逐出政治局，1927年底被开除后屈服。 ‖ `←CON-thermidor-and-bureaucracy`[shifted-from-apparatus-triumvir-to-anti-thermidor-critic|1923–1927]: 1923年曾利用机关打压四十六人，1925年麾下扎卢茨基首抛党内“热月蜕变”论，1926…
+- **`ORG-left-and-united-opposition`**（1923–1927年左翼反对派与托季联合反对派）: 1923年剪刀差危机触发的托洛茨基—普列奥布拉任斯基“左翼反对派”，经1926年春与季诺维也夫—加米涅夫“新反对派”结盟为托季联合反对派；以《四十六人声明》与《1927年政纲》批判官僚体制与“一国社会主义”、主张价格—财政渠道的计划工业化，于1927年12月十五大被组织摧毁。 ‖ `←CON-thermidor-and-bureaucracy`[systematized-class-sociology-of-party-apparatus-in|1926-04–1927-12]: 在1927年政纲中以车间工人仅占31%的数据论证“党被自身机关取代”，要求恢复党内民主阻… ； `→CON-thermidor-and-bureaucracy`[diagnosed-and-shattered-by|1923-1929]: 以法国大革命“热月”隐喻批判党国官僚专制与向农村富农退让，却在1928-1929斯大林自上而下暴力消灭富农左转时陷入理论失焦与分裂。
+- **`PER-rykov`**（阿列克谢·李可夫）: 老布尔什维克与苏维埃经济组织家。1917年四月会议曾质疑《四月提纲》，十月后因维克热尔联合政府诉求辞职；两掌最高国民经济委员会，1924年继列宁任苏联人民委员会主席；1928–1929年协同布哈林抵制非常征粮并提“两年农业计划”遭撤职清洗，其名却在库班农民口号中回响。 ‖ `←CON-thermidor-and-bureaucracy`[classified-as-right-tendency-channeling-ustryalovite-special|1926–1927]: 被《联合反对派政纲》列为公开右倾代表，指其周围环绕鼓吹乌斯特里亚洛夫学说的非党专家
+- **`MTG-1925-12-14th-party-congress`**（联共（布）第十四次代表大会）: 1925年12月18—31日莫斯科举行。斯大林—布哈林中央多数派以559:65通过批准中央政治报告决议案，击败以列宁格勒产业工人党员为后盾、批判富农分化与“国家资本主义”的季诺维也夫—加米涅夫“新反对派”；大会确立社会主义工业化总方针并改党名为联共（布）。 ‖ `←CON-thermidor-and-bureaucracy`[repudiated-zalutsky-thermidor-charge-at|1925-12-18–12-31]: 十四大将新反对派关于“国家资本主义与热月蜕变”的警告斥为失败主义诽谤并清洗扎卢茨基
+- **`MTG-1927-12-15th-party-congress`**（联共（布）第十五次代表大会）: 1927年12月2—19日莫斯科举行。大会追认11月对托洛茨基、季诺维也夫的开除党籍处分，并于12月18日另行开除加米涅夫等75名托季联合反对派骨干及萨普罗诺夫派；同时通过编制首个五年计划指示与渐进合作化—集体化决议，开启NEP末期转折前奏。 ‖ `←CON-thermidor-and-bureaucracy`[expelled-anti-thermidor-opposition-at|1927-12-02–12-19]: 十五大正式开除联合反对派，党内公开讨论“苏维埃热月”的空间终结
+- **`CON-democratic-centralism-and-vanguard`**（先锋队党与民主集中制）: 布尔什维克组织原则的跨期复合概念：从民意党集中制与特卡乔夫“自觉少数”，经1902年职业革命家论、1905–1906年成文的民主集中制及1917年群众政党，至1921年禁派令与斯大林书记处官职名册制，派别空间收缩；部分制度史研究强调干部任命权日益压过民主原则。 ‖ `←CON-thermidor-and-bureaucracy`[institutional-mechanism-enabling-secretarial-substitution|1921-03–1927-12]: 派别禁令与组织局/书记处委派制把“民主集中制”固化为自上而下选拔代表大会的书记等级机器
+- **`CON-socialism-in-one-country`**（一国建成社会主义）: 苏联核心战略概念（1924–1930s）。1924年底由斯大林反击“不断革命论”时首次提出，1925–1926年经布哈林充实为区分“国内建成可能”与“免除外部颠覆之最终胜利”的理论，支撑新经济政策工农市场渐进建设；1928–1929年后内涵剧变为自给自足备战超工业化与强制集体化的动员纲领。 ‖ `←CON-thermidor-and-bureaucracy`[diagnosed-by-opposition-as-national-bureaucratic-ideology|1924-12–1927-12]: 被反对派定性为厌倦世界革命风浪、追求国内安稳治理的专职官僚层保守意识形态
+- **`INS-rabkrin-and-ccc`**（中央监察委员会与工农检查人民委员部（联合工作体制））: 工农检查人民委员部是国家监察机关，中监委是党的纪律监督机关。1923年改组后共同领导、联合办公，仍为两个机构，未在法律上合并；列宁的合并设想及Carr、Lewin的叙述用语须与此区分。改革旨在改善官僚机器、维护中央团结，联合机构随后参与党内审查处分，监督亦受权力关系制约。 ‖ `→CON-thermidor-and-bureaucracy`[diagnosed_in|1923–1929]: 官僚化诊断背景：监察机关能否抑制官僚化
+- **`PER-rakovsky`**（克里斯蒂安·拉柯夫斯基）: 巴尔干国际主义者与苏维埃政治家（1873—1941）。1919—1923年任乌克兰人民委员会主席，由反对单定乌语为国语转向力捍共和国自治，1923年十二大推动“本土化”妥协。后任驻英法大使与联合反对派核心，1928年流放撰《论职业危险》剖析执政异化风险，1941年在奥廖尔被处决。 ‖ `→CON-thermidor-and-bureaucracy`[theorist-of-professional-dangers|1928-08]: 1928年致瓦连京诺夫信提出执政“职业危险”论，把群众冷漠与职能分化视为胜利革命固有风险并主张长期政治教育（传记作者另引申其悲观结论）
+- **`PER-ustryalov`**（尼古拉·乌斯特里亚洛夫）: 俄国法学家、“路标转换派”与民族布尔什维主义创立者（1890–1937）。曾任高尔察克政府新闻局长，流亡后盛赞新经济政策为革命“热月演进”（外红内白萝卜），号召专家归国促成国家常态化。列宁十一大引述示警，反对派以“乌斯特里亚洛夫主义”攻讦右倾；1935年返苏，1937年遇害。 ‖ `→CON-thermidor-and-bureaucracy`[right_wing_ideologist_of|1921–1928]: 赋予“苏维埃热月”正面民族复兴内涵，反向激发党内左翼的“热月恐怖”与反右倾警惕
 
-### 邻居节点: `POL-nep`
-- **时效关系边** (`CON-thermidor-and-bureaucracy` → `POL-nep` | `hailed-as-right-wing-thermidor-by-ustryalov-and-feared-by-le` | 有效时段: `1921-03–1928-01`): NEP在场外被路标转换派欢呼为“民族布尔什维克热月进化”，在党内成为左翼警惕热月复辟的经济温床
-- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 1921年春在农村起义、城市工潮与喀琅施塔得危机倒逼下逐步确立、取代战时共产主义的混合经济体制。以固定实物税（后改货币税）取代余粮收集制，渐次放开城乡市场与小私营商业（耐普曼），由国家掌控大工业、银行、运输与外贸“制高点”；1928–1929年在收购危机与政治转向中逐步瓦解。
+## 3. 关联史学争鸣与学者论断索引 (主卡外关联争鸣 5 项)
+- **`DEB-1921-kronstadt-and-nep-origins`**（喀琅施塔得起义与新经济政策的双轨转折 | `historiography/debates/DEB-1921-kronstadt-and-nep-origins.md` | 流派 `social-history, political-institutional, provincial-and-state-society, soviet-orthodox`）：喀琅施塔得是白卫阴谋、农民反抗，还是要求重建劳动者苏维埃民主的革命者起义？1921年实物税与禁止党内派别同期出现，如何解释经济退却和政治收紧的联系、彼此差异及长期后果？
+- **`DEB-1922-lenin-testament-and-stalin-rise`**（列宁晚年、格鲁吉亚事件与斯大林崛起机制 | `historiography/debates/DEB-1922-lenin-testament-and-stalin-rise.md` | 流派 `revisionist, nationalities-history, archival-post-soviet, kotkin-source-skepticism, trotskyist, service-critical-biography, sakharov-pseudo-lenin-polemic`）：列宁晚年口授文稿和格鲁吉亚冲突，是反官僚与反斯大林的总体“最后斗争”，还是对共同集权框架内具体做法的修正？《遗嘱》本身是否存在文本流转疑点？斯大林的上升又如何由个人策略、书记处机关、寡头集体领导与反对派失策共同解释？
+- **`DEB-1923-nationality-and-empire`**（布尔什维克民族政策、格鲁吉亚事件与苏维埃“肯定性行动帝国”性质之争 | `historiography/debates/DEB-1923-nationality-and-empire.md` | 流派 `revisionist-lewin, liberal-cold-war-pipes, archival-nationalities-smith, imperial-history-suny, ukrainian-social-history-liber`）：自1922年8月“自治化”方案与格鲁吉亚冲突起，至1923年4月俄共十二大闭幕，布尔什维克究竟是在建设“肯定性行动帝国”式的制度化本土化实践，还是以先锋队组织垄断维系大俄罗斯官僚集权？争论焦点是解密速记所示的制度妥协，以及各学派因果判断与价值判断之别。
+- **`DEB-1924-socialism-in-one-country`**（一国建成社会主义与不断革命论 | `historiography/debates/DEB-1924-socialism-in-one-country.md` | 流派 `stalin-bukharin, united-opposition, political-intellectual-history, institutional-geopolitics, lenin-cooperative-plan, bonapartism-and-tactical-critique`）：欧洲革命迟滞后，苏联能否凭国内力量建成社会主义，还是生产力与世界市场的联系使最终完成有赖国际革命？争论中的建设、建成和免于复辟并非同一问题；工农联盟、外部安全及党内联盟变化又如何改变这些概念的政治意义？各方均主张建设，分歧在条件、界限与国际前景。
+- **`DEB-1928-bukharin-alternative`**（布哈林替代方案与新经济政策终结之争 | `historiography/debates/DEB-1928-bukharin-alternative.md` | 流派 `nep-alternative, economic-growth, structural-dilemma, apparatus, ideology-and-mobilization, cliometrics-and-archival-reassessment`）：1927至1929年粮食危机与新经济政策的瓦解，是否意味着渐进工业化和工农联盟已无可行出路，还是党内权力与政策选择扼杀了布哈林的替代方案？投资、价格、农民供粮和政治动员之间的约束究竟有多强，必须把经济可行性、政治可行性与实际权力斗争分别检验。
 
-### 邻居节点: `PER-lenin`
-- **时效关系边** (`CON-thermidor-and-bureaucracy` → `PER-lenin` | `diagnosed-tsarist-bureaucratic-survival-in` | 有效时段: `1920-12–1923-03`): 列宁晚年痛斥国家机关实质承袭沙皇旧机器、仅涂苏维埃油漆，并把党政高层沙文主义恶霸斥为“杰尔日莫尔达”
-- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 布尔什维克党缔造者、苏俄人民委员会主席（1917–1924）。1893年投身马克思主义运动，1903年促成布尔什维克分化；1917年发表《四月提纲》并领导十月夺权，历经布列斯特和约、内战与战时共产主义；1921年主持转向新经济政策，晚年（1922–1923）就官僚化与接班人同斯大林冲突。
+### 3.1 关联核心论断与史学家学派坐标 (`CLM-*` → `SCH-*`, 展示前 24/52 条)
+- **`CLM-lewin-1968-georgian-affair-bureaucracy`** [`SCH-lewin-moshe`(摩西·莱文) | n/a（EPUB 无页码锚点）；Ch.9、Ch.10 与 Appendixes I–III, VII–VIII]: 
+- **`CLM-deutscher-1959-disarmed-prophet-paradox`** [`SCH-isaac-deutscher`(艾萨克·多伊彻) | （中译本无独立纸页；对应第二部 1923 年争论章）]: 
+- **`CLM-deutscher-1959-alma-ata-bukharin-stalin-split`** [`SCH-isaac-deutscher`(艾萨克·多伊彻) | （中译本；对应第二部 1928 年阿拉木图章）]: 
+- **`CLM-shlapentokh-french-revolution-burden-jacobin-thermidor`** [`SCH-sinanoglou-ioannis`(约安尼斯·西纳诺格鲁) | pp. 30-31, 35-38 (cf. Sinanoglou 1980, pp. 580-583; Deutscher 1959, ch25-ch26)]: 
+- **`CLM-avrich-1970-sailor-social-composition`** [`SCH-avrich-paul`(保罗·阿夫里奇) | pp. 101-105]: 
+- **`CLM-avrich-1970-soviets-without-bolsheviks`** [`SCH-avrich-paul`(保罗·阿夫里奇) | pp. 198-201, 179-180]: 
+- **`CLM-avrich-1970-white-plot-refutation`** [`SCH-avrich-paul`(保罗·阿夫里奇) | pp. 143-147, 816-818]: 
+- **`CLM-daniels-1960-tenth-congress-turning-point`** [`SCH-daniels-robert`(罗伯特·V·丹尼尔斯) | pp. 146-153]: Daniels：1921年十大将党统一转化为压缩合法反对空间的组织制度
+- **`CLM-siegelbaum-1992-nep-fragile-social-compromise`** [`SCH-siegelbaum-lewis`(刘易斯·H·西格尔鲍姆) | pp. 84, 91-93, 102-117, 136-144, 180-186 (PDF pp. 98, 105-107, 116-131, 150-158, 194-200)]: 
+- **`CLM-carr-1952-nep-retreat-and-commanding-heights`** [`SCH-carr-eh`(爱德华·霍列特·卡尔) | Vol. 2 Chinese PDF pp. 118-166 (Chs. 18–20)]: 
+- **`CLM-figes-1996-peasant-wars-and-nep-retreat`** [`SCH-figes-orlando`(奥兰多·费吉斯) | pp. 775-785]: 
+- **`CLM-raleigh-2001-center-periphery-weak-state-nep`** [`SCH-raleigh-donald`(唐纳德·J·罗利) | Local PDF pp. 16–18, 139–173; English print pagination not verified]: 
+- **`CLM-lewin-1968-testament-intent`** [`SCH-lewin-moshe`(摩西·莱文) | n/a（EPUB 无页码锚点）；Ch.10 'If Lenin Had Lived . . .'；列宁原文脚注见 Soch. XLV p. 392；XLIV p. 428]: 
+- **`CLM-lewin-1968-cooperation-shift`** [`SCH-lewin-moshe`(摩西·莱文) | n/a（EPUB 无页码锚点）；Ch.8 'Russia between West and East'；列宁原文脚注 Soch. XLV pp. 367, 370, 373, 387–88, 389]: 
+- **`CLM-smith-jeremy-1999-georgian-affair-reassessed`** [`SCH-smith-jeremy`(杰里米·史密斯) | pp. 252-253, 260-262, 266-268, 285-288, 296-297]: 
+- **`CLM-smith-jeremy-1999-twelfth-congress-korenizatsiia`** [`SCH-smith-jeremy`(杰里米·史密斯) | pp. 311, 321-325, 327-331]: 
+- **`CLM-khlevniuk-2015-secretariat-and-nomenklatura`** [`SCH-khlevniuk-oleg`(奥列格·赫列夫纽克) | EPUB ops/xhtml/ch02.html（In Lenin's Shadow，GENERAL SECRETARY 至 1923 年 9 月组织局安排）；制度总论见 ops/xhtml/ch01a.html。工作区文本无纸质页码。]: 
+- **`CLM-khlevniuk-2015-collective-leadership-erosion`** [`SCH-khlevniuk-oleg`(奥列格·赫列夫纽克) | EPUB ops/xhtml/ch02.html（TRYING OUT COLLECTIVE LEADERSHIP 至 THE CHOICE）。工作区文本无纸质页码。]: 
+- **`CLM-kotkin-2014-geopolitics-and-ideology`** [`SCH-kotkin-stephen`(斯蒂芬·科特金) | EPUB Ch. 13 (OEBPS/9780698170100_EPUB_1-23.xhtml) & Coda (OEBPS/9780698170100_EPUB_1-25.xhtml)]: 
+- **`CLM-service-2009-trotsky-authoritarian-consensus`** [`SCH-service-robert`(罗伯特·瑟维斯) | 中译 EPUB 无纸页码；对应英文本第 23–24、28–29、37 章及引言]: 
+- **`CLM-service-2009-trotsky-political-tactical-blunders`** [`SCH-service-robert`(罗伯特·瑟维斯) | 中译 EPUB 无纸页码；对应英文本引言及第 31–32、37–38 章]: 
+- **`CLM-sakharov-2012-lenin-cooperative-plan-debates`** [`SCH-sakharov-valentin`(瓦连京·萨哈罗夫) | EPUB Ch. 1.3 & Ch. 4.2]: 
+- **`CLM-sakharov-2012-nep-crossroads-1928`** [`SCH-sakharov-valentin`(瓦连京·萨哈罗夫) | EPUB Ch. 4.2 & Ch. 4.3]: 
+- **`CLM-carr-1950-self-determination-to-federal-reunion`** [`SCH-carr-eh`(爱德华·霍列特·卡尔) | pp. 253-285, 364-428]: 
 
-### 邻居节点: `PER-stalin`
-- **时效关系边** (`CON-thermidor-and-bureaucracy` → `PER-stalin` | `embodied-secretarial-apparatus-and-centrism-targeted-by` | 有效时段: `1922-04–1927-12`): 作为总书记掌控委派制人事机器，先被列宁警告握有无限权力，后被联合反对派定性为“官僚中间派”核心
-- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 布尔什维克高加索地下组织者、民族事务人民委员（1917–1923）及中央总书记（1922起）。依托书记处任命权与安全危机叙事，先联季-加压制托洛茨基，再联布哈林击溃联合反对派；1927–1929年以战备恐慌与“自上而下革命”击败布哈林集团，1929年12月拍板“把富农作为阶级消灭”并终结新经济政策。
-
-### 邻居节点: `PER-dzerzhinsky`
-- **时效关系边** (`CON-thermidor-and-bureaucracy` → `PER-dzerzhinsky` | `censured-for-great-russian-bureaucratic-bullying-by-lenin` | 有效时段: `1922-12`): 在格鲁吉亚调查中偏袒奥尔忠尼启则，被列宁与斯大林一并斥为染上大俄罗斯官僚沙文主义的代表
-- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 波兰立陶宛社民党与布尔什维克领导人。1917年建全俄肃反委员会（契卡）并续掌GPU/OGPU至逝世，奠定苏维埃安全与法外镇压体制；1924–1926年兼任最高国民经济委员会主席，力挺新经济政策市场均衡、保护技术专家并反对超工业化，1926年7月预警“红色独裁者”后猝逝于中央全会。
-
-### 邻居节点: `PER-bukharin`
-- **时效关系边** (`CON-thermidor-and-bureaucracy` → `PER-bukharin` | `early-warner-of-bureaucratic-caste-then-accused-of-thermidor` | 有效时段: `1922–1927`): 1922–1923年曾警告干部蜕变为“垄断种姓/新统治阶级胚胎”，1925–1927年却因捍卫NEP被反对派指为热月右翼保护伞
-- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 布尔什维克核心理论家、《真理报》主编及共产国际书记处负责人。列宁遗嘱誉其“全党宠儿”但质疑其辩证法；1918年领衔左翼共产主义，1921年后转向新经济政策均衡路线，1925–1927联斯大林击溃左派，1928–1929因反对暴力征粮与超工业化遭击败并逐出政治局。
-
-### 邻居节点: `PER-preobrazhensky`
-- **时效关系边** (`CON-thermidor-and-bureaucracy` → `PER-preobrazhensky` | `co-authored-secretarial-hierarchy-indictment-in` | 有效时段: `1923-10–1927-12`): 领衔签署《四十六人声明》，揭露党分裂为“书记等级与平民百姓”及机关取代党的体制危机
-- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 老布尔什维克经济理论家，1920–1921年任中央书记。1923年领衔起草《四十六人声明》抨击书记等级制；1924–1926年提出“社会主义原始积累规律”，主张以价格—税收杠杆而非行政暴力从私营部门汲取资金，与布哈林大论战；1928–1929年因误判斯大林工业化转向率先脱离托洛茨基和解，1937年被处决。
-
-### 邻居节点: `PER-trotsky`
-- **时效关系边** (`CON-thermidor-and-bureaucracy` → `PER-trotsky` | `elevated-thermidor-danger-and-bureaucratic-centrism-thesis` | 有效时段: `1923-10–1929-02`): 构建“官僚中间派”与“热月危险”批判体系，同时拒绝“热月已完成论”而受制于一党垄断框架
-- **时效关系边** (`PER-trotsky` → `CON-thermidor-and-bureaucracy` | `theorist-and-analogy-victim` | 有效时段: `1923–1929+`): 一方面以“官僚中间派/热月危险”批判书记处，另一方面自身深陷“红色波拿巴”猜忌并在1929年前拒斥“热月既成论”
-- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 俄国革命家、“不断革命论”提出者，1905年彼得堡苏维埃实际领袖与1917年彼得格勒苏维埃主席；借军革委与苏维埃二大衔接统筹十月夺权，内战期起用4.8万军事专家缔造红军。1923–1927年领衔左翼与联合反对派抗衡斯大林集权并受“红色波拿巴”污名围剿，1927年被开除出党，1929年被驱逐出境。
-
-### 邻居节点: `PER-zinoviev`
-- **时效关系边** (`CON-thermidor-and-bureaucracy` → `PER-zinoviev` | `shifted-from-apparatus-triumvir-to-anti-thermidor-critic` | 有效时段: `1923–1927`): 1923年曾利用机关打压四十六人，1925年麾下扎卢茨基首抛党内“热月蜕变”论，1926年起与托洛茨基合流反官僚
-- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 老布尔什维克、共产国际首任主席（1919–1926）。1917年十月公开反对武装起义；1920年哈雷演说力推二十一条与阶级恐怖，1923年豪赌“德国十月”并首倡社民党“法西斯羽翼”论；借“三驾马车”排托后于1925年发起新反对派，1926年7月首因秘密第7条被逐出政治局，1927年底被开除后屈服。
-
-### 邻居节点: `PER-rykov`
-- **时效关系边** (`CON-thermidor-and-bureaucracy` → `PER-rykov` | `classified-as-right-tendency-channeling-ustryalovite-special` | 有效时段: `1926–1927`): 被《联合反对派政纲》列为公开右倾代表，指其周围环绕鼓吹乌斯特里亚洛夫学说的非党专家
-- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 老布尔什维克与苏维埃经济组织家。1917年四月会议曾质疑《四月提纲》，十月后因维克热尔联合政府诉求辞职；两掌最高国民经济委员会，1924年继列宁任苏联人民委员会主席；1928–1929年协同布哈林抵制非常征粮并提“两年农业计划”遭撤职清洗，其名却在库班农民口号中回响。
-
-### 邻居节点: `MTG-1925-12-14th-party-congress`
-- **时效关系边** (`CON-thermidor-and-bureaucracy` → `MTG-1925-12-14th-party-congress` | `repudiated-zalutsky-thermidor-charge-at` | 有效时段: `1925-12-18–12-31`): 十四大将新反对派关于“国家资本主义与热月蜕变”的警告斥为失败主义诽谤并清洗扎卢茨基
-- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 1925年12月18—31日莫斯科举行。斯大林—布哈林中央多数派以559:65通过批准中央政治报告决议案，击败以列宁格勒产业工人党员为后盾、批判富农分化与“国家资本主义”的季诺维也夫—加米涅夫“新反对派”；大会确立社会主义工业化总方针并改党名为联共（布）。
-
-### 邻居节点: `MTG-1927-12-15th-party-congress`
-- **时效关系边** (`CON-thermidor-and-bureaucracy` → `MTG-1927-12-15th-party-congress` | `expelled-anti-thermidor-opposition-at` | 有效时段: `1927-12-02–12-19`): 十五大正式开除联合反对派，党内公开讨论“苏维埃热月”的空间终结
-- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 1927年12月2—19日莫斯科举行。大会追认11月对托洛茨基、季诺维也夫的开除党籍处分，并于12月18日另行开除加米涅夫等75名托季联合反对派骨干及萨普罗诺夫派；同时通过编制首个五年计划指示与渐进合作化—集体化决议，开启NEP末期转折前奏。
-
-### 邻居节点: `CON-democratic-centralism-and-vanguard`
-- **时效关系边** (`CON-thermidor-and-bureaucracy` → `CON-democratic-centralism-and-vanguard` | `institutional-mechanism-enabling-secretarial-substitution` | 有效时段: `1921-03–1927-12`): 派别禁令与组织局/书记处委派制把“民主集中制”固化为自上而下选拔代表大会的书记等级机器
-- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 布尔什维克组织原则的跨期复合概念。从民意党执委会集中制与特卡乔夫“自觉少数”，经1902年《怎么办？》职业革命家组织、1905–1906年首次成文的“民主集中制”与1917年开放竞争的群众政党，至1921年禁派令与斯大林书记处—官职名册制，合法派别活动空间大幅收缩；一些制度史研究认为干部任命权日益压过民主原则。
-
-### 邻居节点: `CON-socialism-in-one-country`
-- **时效关系边** (`CON-thermidor-and-bureaucracy` → `CON-socialism-in-one-country` | `diagnosed-by-opposition-as-national-bureaucratic-ideology` | 有效时段: `1924-12–1927-12`): 被反对派定性为厌倦世界革命风浪、追求国内安稳治理的专职官僚层保守意识形态
-- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 苏联核心战略概念（1924–1930s）。1924年底由斯大林反击“不断革命论”时首次提出，1925–1926年经布哈林充实为区分“国内建成可能”与“免除外部颠覆之最终胜利”的理论，支撑新经济政策工农市场渐进建设；1928–1929年后内涵剧变为自给自足备战超工业化与强制集体化的动员纲领。
-
-### 邻居节点: `INS-rabkrin-and-ccc`
-- **时效关系边** (`INS-rabkrin-and-ccc` → `CON-thermidor-and-bureaucracy` | `diagnosed_in` | 有效时段: `1923–1929`): 官僚化诊断背景：监察机关能否抑制官僚化
-- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 工农检查人民委员部（RKI）是国家监察机关，中央监察委员会（中监委）是党的纪律与监督机关。1923年二者经改组实行共同领导与联合办公，**仍是两个机构，并未法律合并为一个机构**（“合并”是列宁1923年1月的设想，也是 Carr、Lewin 的叙述用语；法律与实践层面的合署须分开标注）。列宁希望借此改善官僚机器并支持中央团结；随后联合工作机构在党内斗争中也参与审查与纪律处分，形成监督者受制于党内权力关系的悖论。
-
-### 邻居节点: `PER-rakovsky`
-- **时效关系边** (`PER-rakovsky` → `CON-thermidor-and-bureaucracy` | `theorist-of-professional-dangers` | 有效时段: `1928-08`): 1928年致瓦连京诺夫信提出执政“职业危险”论，把群众冷漠与职能分化视为胜利革命固有风险并主张长期政治教育（传记作者另引申其悲观结论）
-- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 巴尔干国际主义者与苏维埃政治家（1873—1941）。1919—1923年任乌克兰人民委员会主席，由反对单定乌语为国语转向力捍共和国自治，1923年十二大推动“本土化”妥协。后任驻英法大使与联合反对派核心，1928年流放撰《论职业危险》剖析执政异化风险，1941年在奥廖尔被处决。
-
-## 3. 关联史学争鸣光谱 (Historiographical Debates)
-### `DEB-1921-kronstadt-and-nep-origins`：喀琅施塔得起义与新经济政策的双轨转折
-## [T1] 核心问题定义
-喀琅施塔得是白卫阴谋、农民反抗，还是要求重建劳动者苏维埃民主的革命者起义？1921年实物税与禁止党内派别同期出现，如何解释经济退却和政治收紧的联系、彼此差异及长期后果？
-
-## [T2] 各学派立场对照矩阵
-| 学派/取向 | 代表学者与著作 | 核心论点摘要 | 支撑论断卡 | 主要受批评盲点 |
-| :--- | :--- | :--- | :--- | :--- |
-| 社会史与反阴谋论 | Paul Avrich, *Kronstadt, 1921* (1970) | 水兵构成有变化但老兵仍领导起义；诉求为去除单党垄断的多左翼劳动者苏维埃，证据不支持流亡白卫事先操纵，也未提出米留可夫伪造的“不要共产党人的苏维埃”口号。 | `CLM-avrich-1970-sailor-social-composition`; `CLM-avrich-1970-soviets-without-bolsheviks`; `CLM-avrich-1970-white-plot-refutation` | 起义者内部差异及后苏联解密海军档案仍需补充。 |
-| 党内组织史与国家—社会契约论 | Robert V. Daniels (1960); Lewis Siegelbaum (1992) | 十大《关于党的统一》（含秘密第7条）构成布尔什维克组织史决定性转折；1921年新政实质是“放开经济市民社会空间，同时彻底封闭党内外政治异议空间”。 | `CLM-daniels-1960-tenth-congress-turning-point`; `CLM-siegelbaum-1992-nep-fragile-social-compromise`; `CLM-carr-1952-nep-retreat-and-commanding-heights` | 党内规则与宏观契约仍需结合外省微距失控过程。 |
-| 农村反征粮战争与外省地方史 | Orlando Figes (1996); Donald J. Raleigh (2001) | 1920—1921年坦波夫、西西伯利亚农村战争与萨拉托夫“地方喀琅施塔得”工潮早于水兵起义撼动政权根基，迫使列宁在2月上旬先行酝酿粮食税退却。 | `CLM-figes-1996-peasant-wars-and-nep-retreat`; `CLM-raleigh-2001-center-periphery-weak-state-nep` | 农民起义口号不可无差别套用于喀琅施塔得水兵。 |
-| 苏维埃官方／布尔什维克当事人 | 1921年政府通告与十大材料 | 指称白卫反革命及冰融后外国干涉风险，主张铁血镇压与党内绝对统一；属当时政权危机认知与宣传，非已证实的事前阴谋事实。 | `CLM-avrich-1970-white-plot-refutation` | 混淆事后白卫侨民募款企图与水兵起义真实起源。 |
-
-### `DEB-1922-lenin-testament-and-stalin-rise`：列宁晚年、格鲁吉亚事件与斯大林崛起机制
-## [T1] 核心问题定义
-列宁晚年口授文稿和格鲁吉亚冲突，是反官僚与反斯大林的总体“最后斗争”，还是对共同集权框架内具体做法的修正？《遗嘱》本身是否存在文本流转疑点？斯大林的上升又如何由个人策略、书记处机关、寡头集体领导与反对派失策共同解释？
-
-## [T2] 各学派立场对照矩阵
-| 学派/取向 | 代表学者与著作 | 核心论点摘要 | 支撑论断卡 | 主要受批评盲点 |
-| :--- | :--- | :--- | :--- | :--- |
-| 反官僚最后斗争论 | Moshe Lewin, *Lenin's Last Struggle* (1968) | 将晚年口授群读为反大国沙文主义、改组监察院及撤换斯大林的连贯政治改革方案；但指出列宁始终未废除派别禁令与一党垄断。 | `CLM-lewin-1968-testament-intent`; `CLM-lewin-1968-georgian-affair-bureaucracy`; `CLM-lewin-1968-cooperation-shift` | 写于苏联全开档案前，连贯“总体计划”程度及12月22日电话定年受后续考据挑战。 |
-| 民族政策修正 | Jeremy Smith, *The Bolsheviks and the National Question* (1999) | 强调列斯在集中制大原则上的长期共识，并据十二大特别会议解密速记揭示斯大林被迫作出的本土化妥协。 | `CLM-smith-jeremy-1999-georgian-affair-reassessed`; `CLM-smith-jeremy-1999-twelfth-congress-korenizatsiia` | 行政协调解释须与列宁1923年3月5–6日对斯大林绝交信的激烈措辞并观。 |
-| 后苏联档案与寡头共治论 | Oleg Khlevniuk, *Stalin* (2015) | 以斯大林1923–1927年多次亲口承认遗嘱存在及3月7日复函驳斥伪造论；指出1月4日补遗重在“权力再平衡”而非逐出高层，且1920年代寡头集体领导真实存在。 | `CLM-khlevniuk-2015-secretariat-and-nomenklatura`; `CLM-khlevniuk-2015-collective-leadership-erosion` | 需注意勿将1920年代末成熟名册规模倒推回1922年。 |
-| 文献流转质疑与重定年派 | Stephen Kotkin, *Stalin, Vol. 1* (2014, Ch. 11) | 指出《给代表大会的信》缺失列宁亲签与原始速记底本、打字件经克鲁普斯卡娅与秘书圈流转存有加工疑窦，并据斯大林3月7日复函“约五周前”将电话冲突重定年于1923年1月下旬；同时强调斯大林不可替代的机关功能使其难因一纸信函下台。 | `CLM-kotkin-2014-geopolitics-and-ideology`; `L3 1922-12` 专章对勘 | 尚无直接物证证明秘书团凭空捏造，且难以解释斯大林本人在十三大与1927全会从未质疑文件真伪。 |
-| 左翼悲剧论 vs 政治失误批判 | Isaac Deutscher (1959) vs Robert Service, *Trotsky* (2009) | 多伊彻痛惜托洛茨基3月6日拒绝落井下石错失良机且受困一党纪律；瑟维斯则据档案批评托洛茨基共享威权前提、两拒人民委员会副主席职务并在十二大傲慢避战，纯属政治判断失误。 | `CLM-deutscher-1959-disarmed-prophet-paradox`; `CLM-service-2009-trotsky-authoritarian-consensus`; `CLM-service-2009-trotsky-political-tactical-blunders` | 需将个人性格失误置于书记处与三驾马车结构结盟中评估。 |
-| 俄国“伪列宁文本”极端派 | V. A. Sakharov (2003 遗嘱专著; 2012《十字路口》) | 其2003年专著极端断言遗嘱与民族札记系克鲁普斯卡娅—托派伪造；库内已入库的2012年著作则聚焦《论合作社》两稿差异与1920年代路线争夺（两书议题边界须严格区分）。 | `CLM-sakharov-2012-lenin-cooperative-plan-debates`; `CLM-sakharov-2012-nep-crossroads-1928` | 全盘伪造说遭赫列夫纽克、洛吉诺夫等主流俄罗斯档案学者一致否证。 |
-
-### `DEB-1923-nationality-and-empire`：布尔什维克民族政策、格鲁吉亚事件与苏维埃“肯定性行动帝国”性质之争
-## [T1] 核心问题定义
-`1922-08` 至 `1923-04-25`（自“自治化”方案、格鲁吉亚冲突至俄共十二大民族问题特别会议闭幕）及其后1920年代本土化实践，布尔什维克是在建设多民族“肯定性行动帝国”内的制度化本土化体制，还是以先锋队组织垄断维系的大俄罗斯官僚集权？争论焦点在于解密速记揭示的制度妥协与各学派因果—价值判断之分。
-
-## [T2] 各学派立场对照矩阵
-| 学派/取向 | 代表学者与著作 | 核心论点摘要 | 支撑论断卡 | 主要受批评盲点 |
-| :--- | :--- | :--- | :--- | :--- |
-| 列宁晚期斗争与反官僚论 | Moshe Lewin, *Lenin's Last Struggle* (1968) | 格鲁吉亚事件暴露大俄罗斯沙文主义“为整个政府机器所服务”并与官僚机构合流，列宁晚年警觉最高层专政退化风险，准备清算 *dzerzhimordy*；民族问题是撤换斯大林问责的实质切口之一。 | `CLM-lewin-1968-georgian-affair-bureaucracy`; `CLM-lewin-1968-testament-intent` | 易将列宁口述笔记重构为高度连贯的“遗嘱计划”；写于1990年代十二大特别会议速记解密之前。 |
-| 自由主义—极权连续论 | Richard Pipes, *The Formation of the Soviet Union: Communism and Nationalism, 1917–1923* (1954; rev. ed. 1964) | 论证布尔什维克以红军武力征服外高加索与边疆，通过单一集权党中央架空形式上的联邦制；十二大被定性为斯大林行政中央集权对民族自治的彻底胜利（Smith 正面驳斥此说）。 | `CLM-carr-1950-self-determination-to-federal-reunion`；`CLM-smith-jeremy-1999-twelfth-congress-korenizatsiia` 对勘引述 | 1991年解密的十二大民族问题特别会议速记显示边疆代表反击与中央制度让步远比“单方全胜”复杂。 |
-| 解密档案民族妥协论 | Jeremy D. Smith, *The Bolsheviks and the National Question, 1917–1923* (1999) | 列宁—斯大林在集中制原则上确有共识，但 `1923-04` 十二大民族问题特别会议显示边疆代表迫使斯大林大幅退让，奠定1920年代本土化相对稳固期；格鲁吉亚危机不宜简化为列斯个人生死对决。 | `CLM-smith-jeremy-1999-twelfth-congress-korenizatsiia`; `CLM-smith-jeremy-1999-georgian-affair-reassessed` | 本土化制度繁荣期止于1930年代逆转，分期边界须清晰。 |
-| 帝国史学框架 | Ronald Grigor Suny, *The Red Flag Unfurled* (2017) 等 | 沙俄—苏联宜在“宗主—边缘不平等从属与差异治理”的帝国框架下理解民族建构；1991年后“苏联=帝国”共识含事后目的论归因风险。 | `CLM-suny-2017-empire-and-nationality-dimension` | 帝国理论有助于宏观比较定位，但不能替代十二大速记级制度考证。 |
-| 乌克兰社会史与本土化悖论 | George Liber, *Soviet Nationality Policy, Urban Growth, and Identity Change in the Ukrainian SSR 1923–1934* (1992) | 本土化整合城乡乌克兰人、扩张乌克兰语公共领域的同时，制度化语言边界并孕育中央难以完全消化的地方民族诉求。 | `CLM-liber-1992-korenizatsiia-paradox-late-1920s`; `CLM-liber-1992-ukrainianization-and-urban-working-class` | 侧重乌克兰工业城市化案例，外高加索与中亚须分区域检验。 |
-| “肯定性行动帝国”概念框架 | Terry Martin, *The Affirmative Action Empire* (2001) 等 | 1920年代苏联对非俄罗斯民族实施制度化优待（干部、语言、教育与领土配额），以党国政治垄断为前提整合多民族边缘——动员成效与潜在离心张力并存。 | （Martin 专著独立论断卡尚待 `close-reader` 入库；现阶段参看 `POL-korenizatsiia` 与 `CLM-smith-jeremy-1999-twelfth-congress-korenizatsiia`） | 概念易被字面混同于当代西方多元主义平权政策，须严守一党专政前提。 |
-
-### `DEB-1924-socialism-in-one-country`：一国建成社会主义与不断革命论
-## [T1] 核心问题定义
-欧洲革命迟滞后，苏联能否凭国内力量建成社会主义，还是生产力与世界市场的联系使最终完成有赖国际革命？争论中的建设、建成和免于复辟并非同一问题；工农联盟、外部安全及党内联盟变化又如何改变这些概念的政治意义？各方均主张建设，分歧在条件、界限与国际前景。
-
-## [T2] 各学派立场对照矩阵
-**经验基准**：1924年4月斯大林《论列宁主义基础》初版仍沿用“一国不够组织社会主义生产”旧公式，1924年12月《十月革命和俄国共产党人的策略》正式改口，1925年4月俄共（布）十四次代表会议确认为全党方针；1925年斯大林与布哈林结盟，季诺维也夫转向反对派，十四大批准斯大林中央政治报告路线决议案以 **`559 : 65`** 获胜（反对票主要来自列宁格勒代表团，`DATA-04-party-membership-and-congress-votes-1903-1929`）；1926年联合反对派形成，1927年十五大后遭到组织性排斥。各方都讨论国内建设和国际环境。
-
-| 学派/取向 | 代表学者与著作 | 核心论点摘要 | 支撑论断卡 | 主要受批评盲点 |
-| :--- | :--- | :--- | :--- | :--- |
-| 党内多数派 | 斯大林、布哈林，1925年论战（直核布哈林 `1925-04_bukharin-road-to-socialism.md`） | 国内力量可建设社会主义，但免于外部干涉与复辟的最终保障仍有国际条件；布哈林1925年4月原文侧重工农合作渐进增长，须与斯大林表述分别核对。 | `CLM-bukharin-stalin-1925-one-country-internal-forces` | 该卡斯大林引文经2026年汇编转引，不能代替布哈林 S 级原文或十四次代表会议正式通过本。 |
-| 联合反对派与不断革命论 | 托洛茨基《1905》（1909/1922）；托洛茨基、季诺维也夫，1925—1927 | 不断革命论原典论证无产阶级夺权后无法止步于民主阶段且依赖西欧联合；1926年季诺维也夫区分建设可能与最终胜利，托洛茨基强调世界生产力、贸易和廉价商品压力。 | `CLM-trotsky-1905-december-uprising-lessons-and-permanent-revolution-defense`（B级）；`CLM-zinoviev-trotsky-1926-world-economy-critique` | 1926年汇编中部分托洛茨基段落未标确切单行本年份；不应把不断革命论简述为反对国内建设。 |
-| 反对派政治史与战术/波拿巴反思 | Isaac Deutscher, *The Prophet Unarmed* (1959) & 1952年比较论文（检索ID沿用 `CLM-shlapentokh-*`）；Robert Service, *Trotsky: A Biography* (2009) | 德伊舍尔把理论分歧放回反对派失势轨迹，并指出全党囿于法国“红色拿破仑”迷思围剿托洛茨基，反助斯大林依托书记处文官集权；瑟维斯反驳官僚必然论，归因托洛茨基拒任要职、误判斯大林与战术僵化。 | `CLM-deutscher-1959-disarmed-prophet-paradox`；`CLM-deutscher-1959-united-opposition-defeat`；`CLM-shlapentokh-bonapartism-fear-against-trotsky`；`CLM-service-2009-trotsky-political-tactical-blunders` | 德伊舍尔1959/1952年著述对主人公及工业化“历史进步”带有同情滤镜（库内尚无 Shlapentokh 原著）；瑟维斯则相对低估书记处任命制的结构权重。 |
-| 制度与国际史 | E. H. Carr, *The Russian Revolution From Lenin to Stalin, 1917–1929* (1979)；*Foundations of a Planned Economy, 1926–1929*, Vol. 3-II (1976) | 以落后、工业化与国际关系的交织解释政策与理论综合；1927年中国革命失败与战争恐慌加剧共产国际路线及派别争执。 | `CLM-carr-1979-stalin-synthesis-of-russian-backwardness-and-industrialism`；`CLM-carr-1976-china-1927-defeat-and-comintern-factionalism` | 宏观制度综合不能代替逐版文本、会议程序与表决史。 |
-| 列宁思想解释 | Valentin Sakharov（瓦连京·萨哈罗夫）, *На распутье... 1921–1929 гг.*（《站在十字路口》，2012） | 论证列宁《论合作社》两份口述稿存在根本理论断裂（放弃初稿“商贩式”流通合作社，第二稿转向国有土地与生产资料上的生产合作社/集体农庄），指斥布哈林偷换概念，并论证斯大林工业化与 MTS 集体农庄路线是第二稿的正统继承人。 | `CLM-sakharov-2012-lenin-cooperative-plan-debates` | 具鲜明后苏联亲斯大林/反布哈林倾向；“列宁晚期生产合作社逻辑”不能直接等同于 1929–1930 年暴力全盘强制集体化，亦非 1925 年党内表决裁决。 |
-| 列宁格勒反对派 | Yuri Zhukov（尤里·茹科夫）, 《格里高利·季诺维也夫：被遗忘的世界革命领袖》(2011) | 季诺维也夫1925年发难植根列宁格勒地方权力与共产国际世界革命经验（含1923年德国失败），并非托洛茨基路线的简单副本。 | `CLM-zhukov-zinoviev-1925-leningrad-opposition`；`CLM-zhukov-zinoviev-comintern-and-1923-germany` | 带有后苏联民族国家现实主义倾向（赞斯大林1923年审慎、贬季氏盲动），其叙事仍须与会议速记与文本版本对勘。 |
-
-### `DEB-1928-bukharin-alternative`：布哈林替代方案与新经济政策终结之争
-## [T1] 核心问题定义
-1927至1929年粮食危机与新经济政策的瓦解，是否意味着渐进工业化和工农联盟已无可行出路，还是党内权力与政策选择扼杀了布哈林的替代方案？投资、价格、农民供粮和政治动员之间的约束究竟有多强，必须把经济可行性、政治可行性与实际权力斗争分别检验。
-
-## [T2] 各学派立场对照矩阵
-**经验基准**：1928年粮食收购危机后领导层采用非常措施；布哈林同年批评征粮和工业化节奏，1929年四月及十一月中央全会使右派进一步失势，同年清党开除率达 `11%`（约17万人，`DATA-04-party-membership-and-congress-votes-1903-1929`）。各方都面对工业投资、粮食供给与工农社会结构约束。
-
-| 学派/取向 | 代表学者与著作 | 核心论点摘要 | 支撑论断卡 | 主要受批评盲点 |
-| :--- | :--- | :--- | :--- | :--- |
-| 新经济政策替代论 | Stephen Cohen, *Bukharin and the Bolshevik Revolution* (1973) | 市场、合作社和渐进工业化提供可争论的替代路径；组织机器与政治斗争使该路线失败。 | `CLM-cohen-1973-nep-viability`；`CLM-cohen-1973-notes-of-an-economist`；`CLM-cohen-1973-bukharin-organizational-defeat` | 可构想的经济路径不自动证明可获得党内多数或满足高投资目标。 |
-| 工业化经济思想史 | Alexander Erlich, *The Soviet Industrialization Debate* (1960) | 布哈林平衡增长与普列奥布拉任斯基积累方案共同面对投资约束；强制全盘集体化非各派原有共同结论。 | `CLM-erlich-1960-bukharin-balanced-growth`；`CLM-erlich-1960-preobrazhensky-dilemma`；`CLM-erlich-1960-stalin-overkill-turn` | 模型不能单独解决权力、执行和国际冲击问题。 |
-| 经济结构与政策选择 | Alec Nove, *Was Stalin Really Necessary?* (1964) | 提出“条件性必然”与“1927年NEP死胡同（cul-de-sac）”：给定布尔什维克保住一党政权、拒绝斯托雷平式富农资本主义与高速重工业化三大前提，布哈林市场渐进路径存在内在政治经济不一致；但仍须区分发展目标与强制手段。 | `CLM-nove-1964-stalin-necessity-dilemma` | 反事实替代方案的实施条件难以在单线历史中完全检验（详见下栏 KAPROST 交锋）。 |
-| 意识形态与政治能动性 | Stephen Kotkin, *Stalin*, Vol. 1 (2014)；Sheila Fitzpatrick, *The Russian Cultural Revolution (1928–1931)* (1978) | 市场发展与党内阶级政治构成张力，斯大林西伯利亚干预使危机转向不能仅由结构推导；“文化革命”动员更将政治局右派、教育人民委员部温和派与沙赫蒂案连成“右倾危险”连续体。 | `CLM-kotkin-2014-bukharin-dilemma`；`CLM-fitzpatrick-1978-anti-bukharin-ideological-offensive` | 科特金第一卷叙事止于1928年底；宣传建构的意识形态连续体亦不能直接等同右派成员一致的文化纲领。 |
-| 组织与动员政治 | Oleg Khlevniuk, *Stalin* (2015)；David Priestland, *Stalinism and the Politics of Mobilization* (2007)；Catherine Merridale, *Moscow Politics and the Rise of Stalin* (1990) | 干部控制、反右“复兴主义”动员与乌格拉诺夫莫斯科地方权力瓦解共同决定布哈林集团败局。 | `CLM-khlevniuk-2015-defeat-of-right-opposition`；`CLM-priestland-2007-1928-mobilization-turn-against-bukharin`；`CLM-merridale-1990-uglanov-moscow-collapse` | 组织性胜利并不单独证明任一经济路线的长期优劣。 |
-| 反事实计量与改革经济学 | Holland Hunter / R. W. Davies / 谷内融，*戴维斯纪念文集* (1995)；刘伟、平新乔，《平衡与非平衡：布哈林与普列奥布拉仁斯基之争》（1989，B级） | 亨特借 KAPROST 模型论证非集体化 NEP 本可成功，但戴维斯（1994）反驳1928年市场已遭行政扰乱，谷内融1929年1—6月政治局档案证实非常措施演变为全国体制；刘伟、平新乔将布氏重估为“短缺经济学”先驱，指出斯大林采纳了普氏非均衡配额内核。 | `CLM-davies-festschrift-1995-nep-statistics-and-planning-debates`；`CLM-bukharin-preobrazhensky-equilibrium-vs-accumulation-zh`（B级） | KAPROST 假设重工业高积累下农民仍配合市场；刘、平一文沿用中译“81亿金卢布”误植数字，引用须剔除该数。 |
-| 后苏联档案重估 | Viktor Zemskov（维克托·泽姆斯科夫），《斯大林时代》（2018，B级）；Valentin Sakharov（瓦连京·萨哈罗夫），《站在十字路口》（2012） | 泽姆斯科夫指出布哈林渐进合作化在内战记忆塑造的党员群体中缺乏政治亲和力；萨哈罗夫从反布哈林修正派立场论证2,400万碎片化小农难以支撑工业国防，MTS 与集体化是避免“斯托雷平第二版”的战略决断。 | `CLM-zemskov-2018-archival-constraints-and-party-radicalism`（B级）；`CLM-sakharov-2012-nep-crossroads-1928` | 泽氏未提供党员心态系统统计且沿用中译稿（B级）；萨哈罗夫的国家理性辩护淡化了强制集体化后的农业灾难与清洗恶果。 |
-
-## 4. 关联时间线锚点 (共 0 条)
+## 4. 关联时间线骨干锚点 (L0–L2 展示 0 条)

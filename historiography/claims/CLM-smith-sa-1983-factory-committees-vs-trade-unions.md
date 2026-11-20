@@ -7,8 +7,8 @@ publication_year: 1983
 source_tier: A
 local_source_path: "sources/monographs/smith_sa_1983_red_petrograd_zh/ch07_第五章_工会与工资待遇的改善.md#L344-L350"
 original_pages: "中译本 pp. 85, 137–139, 166, 193（即源文件标注 PDF pp. 90, 142–144, 171, 198）；注意：均为中译本页码，非英文原版页码"
-targets_cards: [ORG-factory-committees, ORG-pctu, ORG-metalworkers-union, CON-industrial-unionism, EVT-1918-04-metalworkers-merger]
-debate: DEB-factory-committees-vs-trade-unions
+targets_cards: ["ORG-factory-committees-1917", "PER-shlyapnikov"]
+debate: DEB-1918-working-class-and-bolsheviks
 supports: []
 rebuts: ["“孟什维克主导工会 vs 布尔什维克主导工厂委员会”的二元对抗叙事（西方通说）"]
 qualifies: ["Anweiler / Keep 等对“委员会 vs 工会”的组织—意识形态二分", "苏联史学中“工会自然领导经济”的目的论叙述"]

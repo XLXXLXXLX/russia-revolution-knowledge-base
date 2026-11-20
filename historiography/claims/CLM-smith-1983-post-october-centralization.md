@@ -7,8 +7,8 @@ publication_year: 1983
 source_tier: A
 local_source_path: "sources/monographs/smith_1983_red_petrograd/ch10_pages_251-275.md#L5-L1140"
 original_pages: "pp. 208, 239–263 (PDF pp. 220, 251–275)"
-targets_cards: ["ORG-factory-committees", "ORG-trade-unions", "CON-workers-control", "PER-lenin"]
-debate: DEB-1918-workers-control-to-centralization
+targets_cards: ["ORG-factory-committees-1917", "PER-tomsky", "CON-workers-control", "PER-lenin"]
+debate: DEB-1918-war-communism-ideology-or-emergency
 supports: []
 rebuts: []
 qualifies: []

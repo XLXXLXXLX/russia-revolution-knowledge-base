@@ -5,71 +5,104 @@ title: 1918年夏左翼社革党决裂与红色恐怖制度化
 names:
   ru: Разрыв с левыми эсерами и красный террор (1918)
   en: Left SR Rupture and Red Terror (Summer–Autumn 1918)
-  aliases: ["红色恐怖", "第五次全俄苏维埃", "米尔巴赫事件"]
+  aliases:
+  - 红色恐怖
+  - 第五次全俄苏维埃
+  - 米尔巴赫事件
 dates:
-  start_ns: "1918-07-04"
-  end_ns: "1918-09-30"
-coverage_status: draft
-perspectives_present: ["archival-revisionist", "institutional-violence", "liberal-totalitarian", "soviet-official"]
-perspectives_missing: ["victim-prosopography"]
-related_debates: ["DEB-1918-red-terror-and-civil-war-origins"]
-updated_at: "2026-11-18"
+  start_ns: '1918-07-04'
+  end_ns: '1918-09-05'
+coverage_status: multi-perspective
+perspectives_present:
+- rabinowitch-archival-coalition
+- leggett-institutional
+- pipes-ideological-continuity
+- melgunov-opposition-testimony
+- ryan-ideology-and-practice
+- mayer-revolution-counterrevolution
+- mozokhin-archival-quantitative
+- soviet-official
+perspectives_missing:
+- complete-local-victim-registers
+- symmetric-white-terror-series
+related_debates:
+- DEB-1918-red-terror-and-civil-war-origins
+- DEB-1918-constituent-assembly-and-soviet-democracy
+updated_at: '2026-11-19'
 ---
 
-# 1918年夏左翼社革党决裂与红色恐怖
-
 ## [T1] 60秒定性微摘要
-1918年7月第五次全俄苏维埃大会期间，左翼社革党刺杀德国大使米尔巴赫引爆执政联盟彻底决裂；8月30日乌里茨基遇害与列宁遇刺重伤后，人民委员会于1918-09-05颁布《关于红色恐怖的决议》，将集中营隔离、枪决涉白卫阴谋叛乱者与公开处决名单正式制度化，终结苏维埃多党并存格局。
+
+1918年7月左翼社革党刺杀米尔巴赫，其意在逼废和约抑或夺权存史学争议，随后遭布党镇压并被逐出苏维埃权力核心。8月30日乌里茨基遇害、列宁遇刺后，9月5日红色恐怖法令将集中营隔离与枪决制度化。一党垄断与暴力升级须分别追踪，登记死亡数非全部受害者。
 
 ## [T2] 核心脉络、时效关系边表与史学争鸣光谱
 
 ### 2.1 核心历史脉络
-- **联盟裂痕与苏维埃五大（1918.06–07）**：布列斯特和约后，左翼社会革命党在余粮征集与农村 **贫农委员会（комбеды，6月11日颁令）** 问题上与布尔什维克激烈冲突。`1918-07-04` 至 `07-10` **第五次全俄苏维埃代表大会** 召开；Rabinowitch 考据指布尔什维克凭 **约399名资格存疑代表** 取得议场多数（`p. 288`），粉碎左翼社革党通过苏维埃多数合法扭转路线的希望（`CLM-rabinowitch-2007-left-sr-coalition-collapse`）。
-- **米尔巴赫刺杀与“起义”定性（1918.07.06–07）**：左翼社革党中央派布柳姆金刺杀德国大使米尔巴赫，意图挑起德军进攻从而废除布列斯特和约；列宁政府立即定性为 **“左翼社革党反革命叛乱”**，在莫斯科及仍维持合作关系的彼得格勒全面搜捕清洗该党——Rabinowitch 强调此举实为“武力抗议”而非夺权政变（同上 CLM）。
-- **8月30日双刺杀案与红色恐怖法令（1918.08–09）**：`1918-08-30` 彼得格勒契卡主席 **乌里茨基** 遭坎内吉谢尔刺杀身亡，同日 **列宁** 在莫斯科米赫尔松工厂遭卡普兰枪击重伤；9月2日契卡主席捷尔任斯基签发逮捕人质及就地枪决命令，9月3–5日内务人民委员彼得罗夫斯基发出大规模扣押人质通电，`1918-09-05` **人民委员会（СНК）** 正式颁布《关于红色恐怖的决议》（9月10日《消息报》第195号公布，见 `sources/web-archive/E06_E09_state_and_comintern/1918-09-05_decree-on-red-terror.md`；另见 `CLM-leggett-1981-red-terror-institutionalization`、`CLM-cheka-chronicle-hostage-and-local-autonomy`），将强化契卡与集中营隔离、枪决白卫组织叛乱牵连者上升为中央法令。
-- **恐怖实施与契卡垄断暴力（1918.09–冬）**：全俄契卡通报处决数千人；拉齐斯在《红色恐怖》期刊宣扬阶级判决标准（`CLM-leggett-1981-red-terror-institutionalization` `p. 114`）。左社在苏维埃里被驱逐，苏维埃形式多党合作终结（对接 `CLM-cheka-chronicle-suppression-of-socialist-rivals`）。
+
+**粮食政策撕裂尚存的苏维埃合作。** 本卡所有日期均为1918年2月14日改历后的公历。左翼社革党3月因和约退阁，但地方苏维埃、北方公社和契卡内仍有两党合作。春季粮食专政、武装征粮与`1918-06-11`贫农委员会法令，把农村按阶级重新划分，左社担忧冲击村社、侵害农民土地革命成果；反和约与农村政策争执遂相互强化。不能把1918年的粮食专政直接称作1919年才普遍制度化的余粮收集制全部完成。
+
+**苏维埃五大与米尔巴赫事件。** `1918-07-04..10`第五次全俄苏维埃大会围绕和约、粮食政策和代表资格激烈交锋；开幕初步统计为布党678、左社269、余88（共1,035正式代表）；资格审查委员会左社少数派质疑约399名布党代表资格，Rabinowitch（2007，p.288）佐以莫吉廖夫省档案认为存在有力旁证，同时坦言选举未经独立调查，不能写成公认造假总数。`07-06`布柳姆金与安德烈耶夫持契卡授权文件进入德国使馆，刺杀米尔巴赫伯爵，随后投奔波波夫指挥的契卡战斗支队；前来追查的捷尔任斯基被扣押。左社中央的策划、刺杀者的行动、莫斯科支队的武装反应及外省不同左社组织应分开，不得把全党每名成员都当作同一密令的执行者。
+
+**Rabinowitch的核心修正与其边界。** 依据解密档案及彼得格勒调查，Rabinowitch（pp.294、301、308–309）认为左社党中央主要试图以激进武装抗议迫使列宁政府废除布列斯特和约、重启对德革命战争，**不是企图推翻苏维埃政权并自行夺权**。刺杀与扣押仍是真实暴力行动，缺乏夺权目标并不使其成为和平请愿。布党将事件定性为反革命叛乱，拉脱维亚部队于`07-07`镇压莫斯科支队，在大会拘押左社代表，并扩及尚合作的彼得格勒左社组织；对后者被捕161人的调查至12月未证实反苏阴谋（后续检验，非本事件结束日）。以Rabinowitch的解释，布党借机剥夺主要社会主义伙伴的独立制约，推动一党执政垄断；这不同于主张所有左社成员当日即被消灭，亦不同于把苏联官方“夺权叛乱”说无主语复述。
+
+**同时期叛乱不能合并成左社统一阴谋。** `1918-07-06..21`萨文科夫系统在雅罗斯拉夫尔发动起义，城镇战与事后处决加深红白极化；其组织系统不同于左社中央。左社出身的东线司令穆拉维约夫于`07-10..11`在辛比尔斯克反对和约、宣布重开对德战争并发动哗变，旋告失败身亡，也不能仅因时点接近就断言受莫斯科左社统一指挥。政治威胁、实际作战与政府宣传的归类须分别检验。
+
+**8月11日奔萨电报显示恐怖早于遇刺。** `1918-08-11`列宁致奔萨共产党人的电报要求公开绞死“不少于100名”被认作富农、富人者，公布姓名、夺粮并指定人质，以使远近居民恐惧。这是中央领导的命令文本，证明威慑性暴力的主动倡导；不是已执行100次绞刑的地方完成清单。不能把该电报与8月9日另一份奔萨集中营命令合成一份文书，也不能把恐怖的起点只放在8月30日以后。
+
+**8月30日两起袭击与9月5日法令。** `1918-08-30`乌里茨基在彼得格勒被坎内吉谢尔刺杀；同日列宁在莫斯科米赫尔松（Михельсон）工厂演说后遭枪击重伤，芬妮·卡普兰被拘，官方认定其为枪手并于9月3日处决。传统叙事称卡普兰枪伤列宁；现存材料不足以在本卡解决侦讯、具体射击经过等争议，更不能从两案并日推出共同指挥。9月2日全俄中执委宣布共和国为军营；9月4日《消息报》刊彼得罗夫斯基扣押资产阶级、军官人质的通电；`1918-09-05`人民委员会正式颁布**《论红色恐怖》／《关于红色恐怖的决议》**，9月10日《消息报》第195号刊布。法令四项要点为：以恐怖保障后方；增派负责党员强化契卡；将阶级敌人隔离于集中营；枪决与白卫组织、阴谋、叛乱有牵连者，并公布姓名和理由。**法令正文没有“人质”条款，也非捷尔任斯基或列宁亲笔签署**：刊布本署库尔斯基、彼得罗夫斯基、邦奇-布鲁耶维奇，打字原稿另有福季耶娃。不能以列宁政治责任代替实际签署事实。
+
+**拉齐斯的阶级定罪论属于后续阐释。** 拉齐斯在`1918-11`《红色恐怖》刊物要求按被告阶级、出身、教育及职业而非具体反苏行为决定命运（Leggett p.114）。这说明法令实施中的阶级标签逻辑，不是9月5日决议的一段逐字引文；列宁后来又批评其把阶级暴力机械理解为消灭所有资产阶级个体，因政权仍需技术专家。不能把拉齐斯一句话等同所有契卡卷宗的实际审理方法。
 
 ### 2.2 时效关系摘要边表
+
 | 关联节点 ID | 关系类型 | 有效时段 | 一句话关系实质摘要 | 核心依据/争鸣 |
 | :--- | :--- | :--- | :--- | :--- |
-| `ORG-left-srs` | `ruptured_with` | 1918.07 | 米尔巴赫刺杀后遭全面镇压，最大农村盟友出局。 | `CLM-rabinowitch-2007-left-sr-coalition-collapse` |
-| `PER-lenin` | `authorized` | 1918.09 | 批准红色恐怖决议，将遇刺转化为制度暴力。 | `CLM-pipes-1990-red-terror-leninist-logic` |
-| `PER-dzerzhinsky` | `directed` | 1918.07–1919 | 主持契卡贯彻肃反、9月2日命令与集中营隔离等强制政策（注：9月5日人民委员会决议由库尔斯基、彼得罗夫斯基、邦奇-布鲁耶维奇签署）。 | `CLM-leggett-1981-red-terror-institutionalization` |
-| `ORG-cheka-ogpu` | `empowered` | 1918.09起 | 获超司法肃反权，成为党国强制核心。 | `CLM-leggett-1981-cheka-to-gpu-continuity` |
-| `MTG-1917-10-2nd-congress-of-soviets` | `contrasted_with` | 1917.10 vs 1918.09 | 从1917年10月建政转向1918年9月制度化恐怖行政执法。 | `DEB-1918-red-terror-and-civil-war-origins` |
-| `EVT-1918-03-brest-litovsk-treaty` | `precondition` | 1918.03–07 | 和约激怒左社，加速联盟崩溃。 | 同上 |
+| `ORG-left-srs` | armed_protest_then_exclusion | 1918-07-06起 | 据Rabinowitch，逼废和约的暴力抗议被定性为夺权叛乱并遭清洗。 | `CLM-rabinowitch-2007-left-sr-coalition-collapse` |
+| `PER-spiridonova` | coalition_opponent_detained | 1918-07-04..07 | 在大会挑战粮食与和约政策，刺杀后左社领导与代表遭拘押。 | 夏季L3；Rabinowitch ch11 |
+| `PER-dzerzhinsky` | detained_then_repression_director | 1918-07至09 | 追查刺杀时被扣押，契卡此后失去左社内部制约。 | Leggett pp.71–77；RN-W20 |
+| `PER-lenin` | terror_directive_author | 1918-08-11 | 奔萨电报主动要求威慑性绞刑和人质，命令不等于执行统计。 | 奔萨电报原典 |
+| `MTG-1918-07-5th-congress-of-soviets` | political_rupture_arena | 1918-07-04..10 | 大会争执、代表拘押与宪法通过构成两党苏维埃合作转折。 | 夏季L3 |
+| `ORG-cheka-ogpu` | coercion_strengthened | 1918-07至09 | 左社退出与9月决议强化契卡，但其法外权限并非当天从零开始。 | `CLM-leggett-1981-red-terror-institutionalization` |
+| `INS-cheka-gpu-ogpu` | extrajudicial_continuity | 1918起 | 登记处决与地方漏报须区分，国家安全机构沿革另有时间节点。 | `CLM-mozokhin-cheka-to-ogpu-extrajudicial-jurisdiction-1918-1929` |
+| `INS-sovnarkom-and-vtsik` | decree_and_mobilization | 1918-09-02..05 | 中执委军营宣告、人民委员会红色恐怖决议为不同国家行为。 | 9月5日法令刊布本与原稿 |
+| `POL-war-communism` | food_conflict_context | 1918春夏 | 粮食专政与贫农委员会破坏联盟，非抽象意识形态独自触发。 | RN-W20；夏季L3 |
+| `EVT-1918-03-brest-litovsk-treaty` | disputed_peace | 1918-03至07 | 和约退阁后合作仍存，7月暴力抗议使裂痕转为镇压。 | `CLM-rabinowitch-2007-left-sr-coalition-collapse` |
 
-### 2.3 四派史学争鸣矩阵
-| 学派/学者 | 核心解释 | 库内 CLM | 主要批评点 |
-| :--- | :--- | :--- | :--- |
-| **Rabinowitch（档案修正派）** | 7月事件是列宁借机消灭合法竞争者，非真实起义；地方联盟本可持续 | `CLM-rabinowitch-2007-left-sr-coalition-collapse` | 战略层面少论德方—布尔什维克互动 |
-| **Leggett（制度暴力）** | 恐怖源于列宁恐怖主义学说 + 7月清除制动阀 + 9月制度化 | `CLM-leggett-1981-red-terror-institutionalization` | 被指低估战时俄国内在暴力 |
-| **Ratkovsky / 《契卡红色恐怖纪事》（S级汇编）** | 地方契卡自治与人质、肃反档案呈现恐怖幅度与清洗社会主义者 | `CLM-cheka-chronicle-hostage-and-local-autonomy` | 编纂史料，需辨伪个案 |
-| **Pipes（极权起源）** | 红色恐怖体现列宁“夺权—消灭阶级敌人”连续逻辑，非单纯自卫 | `CLM-pipes-1990-red-terror-leninist-logic` | 社会史派批评其目的论过度 |
+### 2.3 定量口径与史学争鸣
 
-## [T3] 深度考证、分期细目与原文引证档案
+**死亡数字必须先问时间、地域、机构和死亡类型。** DATA-06及RN-W20据莫佐欣《镇压的权利》ch04–05，馆藏PDF pp.15–16，录入下表；其档案来源为俄罗斯联邦安全局中央档案馆汇总，档案表与作者推算要分层。
 
-### 3.1 1918-09-05 人民委员会决议正文要点（据已入库 `WEB-1918-09-05-red-terror` 及契卡纪事 `ch09`）
-- **决议背景与总原则**：人民委员会听取全俄肃反委员会（与反革命、投机倒把和职务犯罪作斗争的非常委员会）主席报告后，认定在当前局势下 **以恐怖保障后方** 实属直接必要。
-- **派遣负责党员强化契卡**：为加强全俄肃反委员会的活动并使其具有 **更大的计划性**，必须向该委员会派遣尽可能多的负责的党员同志。
-- **集中营隔离阶级敌人**：必须通过将阶级敌人 **隔离在集中营中** 的方式保卫苏维埃共和国。
-- **枪决白卫牵连者并公布名单**：凡与 **白卫组织、阴谋和叛乱** 有牵连者一律予以枪决；必须公布所有被枪决者的姓名及其适用该措施的理由。
-- *文件边界*：刊布本签署人是司法人民委员库尔斯基、内务人民委员彼得罗夫斯基、人民委员会办公厅主任邦奇-布鲁耶维奇（打字原稿另有秘书福季耶娃）。决议只写四事：以恐怖保障后方；向契卡增派负责党员并使其活动更有计划；以集中营隔离阶级敌人；枪决与白卫组织、阴谋和叛乱有牵连者，并公布姓名与适用理由。契卡全称里的“投机倒把和职务犯罪”是机构职衔，不是另列罪目。扣押资产阶级人质见于 1918-09-02 捷尔任斯基全俄肃反委员会命令与约 1918-09-03/05 彼得罗夫斯基通电，不是本决议正文（见 [`1918-09-05_decree-on-red-terror.md`](../../sources/web-archive/E06_E09_state_and_comintern/1918-09-05_decree-on-red-terror.md)）。地方处决统计各派争议大，须引 TsA FSB / RGASPI 原件。
+| 来源与覆盖范围 | 数值 | 统计边界及不能推出的结论 |
+| :--- | :--- | :--- |
+| Mozokhin：1918年34省契卡登记处决 | **6,300人**；其中反革命罪**1,637人** | 不是仅9月、不是完整全俄、更非内战全部政治暴力死亡；罪名是机关归类，不能据此认定其余皆依法定罪。（原书注1918–1919合计中17地区数据未经核实） |
+| Mozokhin：1919年前7个月35省 | **2,089人**；反革命罪**387人** | 年份、月份、省份均不同，不可充作1918年红色恐怖数。 |
+| Mozokhin：约1918—1921年（原书明言系近四年中的约三年统计）有案可查合计 | **约17,500人**；另录1921年**9,701人** | 未完整覆盖1919后5个月与1920年，且漏计克里米亚、喀琅施塔得等；9,701已在合计范围内，不可重复相加。 |
+| Mozokhin：VChK全期实际规模估计 | **不超过50,000人** | 作者在承认漏计后的综合上限判断，不是档案逐人穷尽清册或各派共识。 |
+| Leggett（1981），pp.359–360，经RN-W4 | 契卡及内卫直接处决约**140,000人**；另估镇压起义及监狱、集中营死亡至少**140,000人** | 机构与死亡原因范围大于中央登记契卡处决；第二栏不能当作另一批“已登记枪决”，更不能整列移作1918年9月人数。 |
 
-### 3.2 Rabinowitch 论断引证提要
-> 译文：左社行动旨在“重塑列宁领导的人民委员会的政策”（`reshaping the policies of the Leninist Sovnarkom`）而非武力夺权；列宁利用刺杀在莫斯科与仍存合作伙伴关系的彼得格勒同时发起先发制人打击。见 `CLM-rabinowitch-2007-left-sr-coalition-collapse` 所引 `pp. 294, 308–309`（英文直引载于该论断卡）。
+- **Leggett／Pipes的连续性解释**：阶级敌人概念、列宁主动命令与契卡党直属地位，使恐怖不只是被暗杀刺激后的报复。Leggett侧重权限、组织与司法冲突，Pipes更强调少数派拒绝分享权力的政治逻辑；不能把二者简单合称无差别的“原罪论”。两者较高规模估算仍须按机构、时段与死亡类型重建，不能用价值判断解决统计。
+- **Melgunov《俄国红色恐怖》（1924）**属于经历镇压、后流亡的反布尔什维克史家对报刊、见证和受害者材料的汇集，兼有当事人控诉与事后历史解释两种属性。它揭示官方汇总可能漏掉的暴力，却不是现代完整人口统计；本卡不把未经逐项重核的百万级转引指定为其最终自估总数。T3列1924版馆藏入口及原书英译入口，不能用书目存在冒充死亡总数已核。
+- **Ryan（2012）**强调列宁思想怎样赋予革命暴力正当性，同时把意识形态放回战争、革命及实践中；不能仅凭其书名便归入不需具体环境的原罪宿命论。这里采用出版社介绍所能支持的研究定位，不为未逐页核验的死亡估算安置假页码。**Mayer《复仇女神》（2000）**则把革命、反革命、国内与外部抵抗放在同一解释框架，强调报复与反报复的升级螺旋。白卫恐怖和生存威胁须纳入比较，但不据此免除红色政权在命令、对象选择与延续制度上的责任，也不宣称红白死亡已获对称统计。
+- **Rabinowitch**以春夏相对克制、左社原无夺权计划及合作仍有可能性的证据，反对把1918年结局写成十月预定剧本。**Mozokhin**压低夸大统计，且倾向区分内战非常状态与和平期继续法外镇压；其国家主义评价不随档案表自动成为客观定论。苏联官方自卫叙事同样不能遮蔽社会主义对手和劳动者受害。
+- **经验裁断**：7月清除主要合作伙伴、8月主动恐怖指令、9月全国性决议及后来一党制度巩固，是相互关联而有独立证据的过程。登记数是下限材料，广义估算是另一个统计问题；不能一面以少量登记数否认大规模暴力，一面把整个内战死亡归给9月5日法令。
 
-### 3.3 Leggett 论断引证提要
-> 译文：红色恐怖“无疑源于列宁自十月以来不断宣扬并实行的恐怖学说”（`undoubtedly sprang from Lenin's doctrine of terror, preached and practised since October`）；9月法令是制度化契机。见 `CLM-leggett-1981-red-terror-institutionalization` 所引 `p. 102`、`p. 114`（拉齐斯阶级判决标准英文直引亦载于该论断卡）。
+## [T3] 深度考证与引文档案
 
-### 3.4 Pipes 论断引证提要
-> 将恐怖解释为布尔什维克意识形态与沙俄国家传统的合流（`CLM-pipes-1990-red-terror-leninist-logic`）——须与 Leggett 的制度节点论对照，避免单一决定论。
-
-### 3.5 时间校准与排序键说明
-- 1918年夏秋事件均在 **2月14日改历之后**，本卡叙事统一用 **N.S.**；遇刺 `1918-08-30`、决议 `1918-09-05` 均为单公历，无儒略历并行注记需求。
-- `dates.start_ns: "1918-07-04"` 取第五次全俄苏维埃代表大会开幕日（1918-06-11 贫农委员会法令为其前史背景，不另立非文件日之 6月4日）。
-
-### 3.6 馆藏文本与待补一手反证
-- `sources/web-archive/E06_E09_state_and_comintern/1918-09-05_decree-on-red-terror.md`（1918-09-05《关于红色恐怖的决议》刊布本、打字原稿与英德对译）
-- Rabinowitch 布列斯特后一年：`sources/monographs/rabinowitch_2007_in_power/ch17_11_the_suicide_of_the_left_srs.md`
-- 契卡纪事中文字节：`sources/primary/cheka_red_terror_chronicle_zh/`（`ch09` 录有 1918-09-05 决议正文；待补俄文原件扫描核校）。
+- [1918-07_left_sr_uprising_and_red_terror_launch](../../timeline/L3_daily/1918-07_left_sr_uprising_and_red_terror_launch.md)
+- [DATA-06-1918-1929-cheka-ogpu-sentencing-and-1929-collectivization-surge](../../data/DATA-06-1918-1929-cheka-ogpu-sentencing-and-1929-collectivization-surge.md)
+- [RN-W20-psr-civil-war-tragedy-and-cheka-ogpu-extrajudicial-powers](../../reading-notes/scott_smith_mozokhin/RN-W20-psr-civil-war-tragedy-and-cheka-ogpu-extrajudicial-powers.md)
+- [RN-W4-cheka-origins-and-red-terror](../../reading-notes/leggett_1981_cheka/RN-W4-cheka-origins-and-red-terror.md)
+- [RN-W2-first-year-soviet-rule](../../reading-notes/rabinowitch_2007_in_power/RN-W2-first-year-soviet-rule.md)
+- [1918-09-05_decree-on-red-terror](../../sources/web-archive/E06_E09_state_and_comintern/1918-09-05_decree-on-red-terror.md)
+- [ch17_11_the_suicide_of_the_left_srs](../../sources/monographs/rabinowitch_2007_in_power/ch17_11_the_suicide_of_the_left_srs.md)
+- [CLM-pipes-1990-red-terror-leninist-logic](../../historiography/claims/CLM-pipes-1990-red-terror-leninist-logic.md)
+- [CLM-rabinowitch-2007-left-sr-coalition-collapse](../../historiography/claims/CLM-rabinowitch-2007-left-sr-coalition-collapse.md)
+- [CLM-leggett-1981-red-terror-institutionalization](../../historiography/claims/CLM-leggett-1981-red-terror-institutionalization.md)
+- [CLM-mozokhin-cheka-to-ogpu-extrajudicial-jurisdiction-1918-1929](../../historiography/claims/CLM-mozokhin-cheka-to-ogpu-extrajudicial-jurisdiction-1918-1929.md)
+- [DEB-1918-red-terror-and-civil-war-origins](../../historiography/debates/DEB-1918-red-terror-and-civil-war-origins.md)
+- [DEB-1918-constituent-assembly-and-soviet-democracy](../../historiography/debates/DEB-1918-constituent-assembly-and-soviet-democracy.md)
+- [S级：1918年8月11日列宁奔萨绞刑电报，附原档坐标](https://www.marxists.org/archive/lenin/works/1918/aug/11c.htm)
+- [Melgunov（1924），《俄国红色恐怖》第二版，俄罗斯国家图书馆目录](https://search.rsl.ru/ru/record/01004042436)
+- [Melgunov原书英译：宾夕法尼亚大学图书馆版本入口](https://onlinebooks.library.upenn.edu/webbin/book/lookupid?key=olbp105932)
+- [Ryan（2012），《列宁的恐怖》出版社研究介绍](https://www.routledge.com/link/link/p/book/9781138815681)
+- [Mayer（2000），《复仇女神》出版社内容介绍与版本信息](https://press.princeton.edu/books/ebook/9781400823437/the-furies-pdf)

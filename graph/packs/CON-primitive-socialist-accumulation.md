@@ -1,14 +1,9 @@
-# 1-Hop 平衡上下文包：`CON-primitive-socialist-accumulation` (社会主义原始积累)
+# 1-Hop 去重平衡上下文包：`CON-primitive-socialist-accumulation`
 
-> 本文件由 `python scripts/kb.py pack` 自动编译，旨在将失控的 `1+N` 随机读取压缩为**等权重、带时效边实质与史学盲区告警**的单次全景读取。
+> 由 `python scripts/kb.py pack` 动态编译：保留 **100% 一跳邻居与多时段关系边**，跨卡自动去重争鸣与时间线，并关联学者学派 (`SCH-*`)。
 
-## 0. 认知完备度与反偏斜仪表盘 (Epistemic & Skew Warnings)
-- **主卡路径**: `cards/concepts/CON-primitive-socialist-accumulation.md`
-- **完备度等级**: `multi-perspective`
-- **已覆盖视角**: `economic-history-erlich, revisionist-cohen, peasant-social-history-lewin, macroeconomic-planning-carr-davies`
-- **待补齐视角**: `novaya-ekonomika-1926-russian-ocr-collation, smirnov-1919-original-article`
-- **偏斜风险提示**:
-  - ⚠️ 主卡显式声明尚缺以下视角待补: `novaya-ekonomika-1926-russian-ocr-collation, smirnov-1919-original-article`。
+## 0. 认知完备度与反偏斜仪表盘
+- **`CON-primitive-socialist-accumulation`** (社会主义原始积累 | `cards/concepts/CON-primitive-socialist-accumulation.md` | `multi-perspective`): 已覆盖=`economic-history-erlich, revisionist-cohen, peasant-social-history-lewin, macroeconomic-planning-carr-davies`；待补=`novaya-ekonomika-1926-russian-ocr-collation, smirnov-1919-original-article`
 
 ## 1. 主卡核心层 ([T1] + [T2])
 ## [T1] 60秒定性微摘要
@@ -47,42 +42,17 @@
   - **[农村社会史与中期危机预言论 / Moshe Lewin, E. H. Carr]** (`CLM-lewin-peasants-1968-grain-procurement-crisis`, `PER-preobrazhensky`): 莱文指出普氏对结构性商品荒与投资断崖的警告包含深刻诊断，但不等于认定集体化暴力为唯一出路（Lewin 1968, PDF p. 12）。
   - **[农经统计实证派 / A. V. Chayanov, N. D. Kondratiev]**：以农户劳动力均衡与1920年代工农产品比价实证，质疑剪刀差式积累能否在个体农业长期存续；斯大林1930年代官方虽将“原始积累”词条打入冷宫，实践中却以更强硬的超经济征敛实现类似汲取（意识形态反讽）。
 
-## 2. 一跳邻域等权重微摘要 (共 8 个关联节点，严防大卡霸占上下文)
-### 邻居节点: `PER-preobrazhensky`
-- **时效关系边** (`PER-preobrazhensky` → `CON-primitive-socialist-accumulation` | `formulated-law` | 有效时段: `1924-1926`): 在《新经济学》中提出国营工业须靠价格非等价交换从个体小农经济汲取积累资金，但未主张暴力剥夺或全盘集体化。
-- **时效关系边** (`CON-primitive-socialist-accumulation` → `PER-preobrazhensky` | `theorized-and-codified-by` | 有效时段: `1920–1927`): 1920年从斯米尔诺夫处借用该词，1924–1926年在《新经济学》中将其体系化为过渡时期对抗价值规律的“社会主义原始积累基本规律”
-- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 老布尔什维克经济理论家，1920–1921年任中央书记。1923年领衔起草《四十六人声明》抨击书记等级制；1924–1926年提出“社会主义原始积累规律”，主张以价格—税收杠杆而非行政暴力从私营部门汲取资金，与布哈林大论战；1928–1929年因误判斯大林工业化转向率先脱离托洛茨基和解，1937年被处决。
+## 2. 一跳邻域全量微摘要目录 (去重后共 8 个节点，0 截断)
+- **`PER-preobrazhensky`**（叶夫根尼·普列奥布拉任斯基）: 老布尔什维克经济理论家，1920–1921年任中央书记。1923年起草《四十六人声明》批判书记等级制；1924–1926年提出社会主义原始积累，以价格税收而非行政暴力向私营部门筹资，与布哈林论战。1928–1929年误判斯大林工业化转向而脱离托派求和，1937年被处决。 ‖ `←CON-primitive-socialist-accumulation`[theorized-and-codified-by|1920–1927]: 1920年从斯米尔诺夫处借用该词，1924–1926年在《新经济学》中将其体系化为过渡时… ； `→CON-primitive-socialist-accumulation`[chief-theorist|1924–1927]: 在《新经济学》中将其数学—政治经济模型化，揭示苏联匮乏外资条件下工业重资产更新与农业商品率低的“两难”
+- **`PER-bukharin`**（尼古拉·布哈林）: 布尔什维克核心理论家、《真理报》主编及共产国际书记处负责人。列宁遗嘱誉其“全党宠儿”但质疑其辩证法；1918年领衔左翼共产主义，1921年后转向新经济政策均衡路线，1925–1927联斯大林击溃左派，1928–1929因反对暴力征粮与超工业化遭击败并逐出政治局。 ‖ `←CON-primitive-socialist-accumulation`[fiercely-rebutted-by|1924.12–1928]: 斥其为吞噬工农结合、把农民当殖民地搜刮的“应用杜冈主义”与行会垄断寄生论，主张以工业降价…
+- **`CON-smychka`**（工农结合）: 工农结合原指连接或接合，在新经济政策下指国营工业与农民经济通过商品交换、价格和合作社形成的纽带。1923年剪刀差暴露其脆弱性，布哈林与普列奥布拉任斯基提出不同工业化方案；1928至1929年强制征购和集体化使结合逐渐转向行政组织与“生产性结合”。 ‖ `←CON-primitive-socialist-accumulation`[structural-tension-with|1924–1928]: 揭示了在固定资本集中更新与农民“强制销售”消失的条件下，若不借助价格剪刀差向农业抽取超额… ； `→CON-primitive-socialist-accumulation`[结构张力|1924–1928]: 从非社会主义农业提取剩余资金与维系农民激励的冲突。
+- **`POL-nep`**（新经济政策）: 1921年春在农村起义、城市工潮与喀琅施塔得危机倒逼下逐步确立、取代战时共产主义的混合经济体制。以固定实物税（后改货币税）取代余粮收集制，渐次放开城乡市场与小私营商业（耐普曼），由国家掌控大工业、银行、运输与外贸“制高点”；1928–1929年在收购危机与政治转向中逐步瓦解。 ‖ `←CON-primitive-socialist-accumulation`[operated-within-yet-destabilized|1924–1928]: 普氏理论预设新经济政策个体小农与市场交换将存续数十年，但其垄断高价抽血方案无法在农民拥有…
+- **`PER-stalin`**（约瑟夫·斯大林）: 布尔什维克高加索地下组织者、民族事务人民委员（1917–1923）及中央总书记（1922起）。依托书记处任命权与安全危机叙事，先联季-加压制托洛茨基，再联布哈林击溃联合反对派；1927–1929年以战备恐慌与“自上而下革命”击败布哈林集团，1929年12月拍板“把富农作为阶级消灭”并终结新经济政策。 ‖ `←CON-primitive-socialist-accumulation`[rhetorically-appropriated-and-violently-transcended-by|1925–1927批判；1928–1929改造]: 1928年7月全会以“贡赋论”借用其不等价交换逻辑，1929年底更以普氏从未预见的暴力全…
+- **`PER-dzerzhinsky`**（费利克斯·捷尔任斯基）: 波兰立陶宛社民党与布尔什维克领导人。1917年建全俄肃反委员会（契卡）并续掌GPU/OGPU至逝世，奠定苏维埃安全与法外镇压体制；1924–1926年兼任最高国民经济委员会主席，力挺新经济政策市场均衡、保护技术专家并反对超工业化，1926年7月预警“红色独裁者”后猝逝于中央全会。 ‖ `←CON-primitive-socialist-accumulation`[opposed-by-industrial-chief|1924–1926]: 捷尔任斯基在最高国民经济委员会主席任上坚决抵制靠抬高工业品垄断价格搜刮农民的方案，力主压…
+- **`PER-strumilin`**（斯坦尼斯拉夫·斯特鲁米林）: 苏联经济统计学家与计划方法论家，1921年起任职国家计委，1923年入俄共；早年属孟什维克之说据俄科学院条目，仍待名册核验。二十年代计划论争中被视为目的论代表，主张计划主动重塑经济比例，有别于从既有约束出发的发生论，不能简化为否认一切规律。 ‖ `→CON-primitive-socialist-accumulation`[plan-expansion-and-accumulation-nexus|1926–1929]: 计划扩张论与非均衡原始积累思想共同强化了对市场均衡约束的突破
+- **`PER-kuibyshev`**（瓦列里安·古比雪夫）: 苏联工业化关键操盘手（1888–1935）。1918年曾在萨马拉追随左派共产主义者并任东线政委；1922年任中央书记，1923–1926年兼掌中监委与工农检查院，将列宁监督构想转为打击反对派工具；1926年接掌最高国民经济委员会，力推重工业高指标并坚定支持斯大林。 ‖ `→CON-primitive-socialist-accumulation`[implements-via-planning|1928–1929]: 通过国家计划委员会与部门体系将超工业化资源动员制度化，效果超越左派1923年理论争辩的纸面方案
 
-### 邻居节点: `PER-bukharin`
-- **时效关系边** (`CON-primitive-socialist-accumulation` → `PER-bukharin` | `fiercely-rebutted-by` | 有效时段: `1924.12–1928`): 斥其为吞噬工农结合、把农民当殖民地搜刮的“应用杜冈主义”与行会垄断寄生论，主张以工业降价周转与合作社储蓄替代强制抽血
-- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 布尔什维克核心理论家、《真理报》主编及共产国际书记处负责人。列宁遗嘱誉其“全党宠儿”但质疑其辩证法；1918年领衔左翼共产主义，1921年后转向新经济政策均衡路线，1925–1927联斯大林击溃左派，1928–1929因反对暴力征粮与超工业化遭击败并逐出政治局。
-
-### 邻居节点: `CON-smychka`
-- **时效关系边** (`CON-primitive-socialist-accumulation` → `CON-smychka` | `structural-tension-with` | 有效时段: `1924–1928`): 揭示了在固定资本集中更新与农民“强制销售”消失的条件下，若不借助价格剪刀差向农业抽取超额积累，城乡商品结合同样会因“工业品饥荒”而断裂
-- **时效关系边** (`CON-smychka` → `CON-primitive-socialist-accumulation` | `结构张力` | 有效时段: `1924–1928`): 从非社会主义农业提取剩余资金与维系农民激励的冲突。
-- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 工农结合原指连接或接合，在新经济政策下指国营工业与农民经济通过商品交换、价格和合作社形成的纽带。1923年剪刀差暴露其脆弱性，布哈林与普列奥布拉任斯基提出不同工业化方案；1928至1929年强制征购和集体化使结合逐渐转向行政组织与“生产性结合”。
-
-### 邻居节点: `POL-nep`
-- **时效关系边** (`CON-primitive-socialist-accumulation` → `POL-nep` | `operated-within-yet-destabilized` | 有效时段: `1924–1928`): 普氏理论预设新经济政策个体小农与市场交换将存续数十年，但其垄断高价抽血方案无法在农民拥有罢卖自由的NEP市场内自解
-- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 1921年春在农村起义、城市工潮与喀琅施塔得危机倒逼下逐步确立、取代战时共产主义的混合经济体制。以固定实物税（后改货币税）取代余粮收集制，渐次放开城乡市场与小私营商业（耐普曼），由国家掌控大工业、银行、运输与外贸“制高点”；1928–1929年在收购危机与政治转向中逐步瓦解。
-
-### 邻居节点: `PER-stalin`
-- **时效关系边** (`CON-primitive-socialist-accumulation` → `PER-stalin` | `rhetorically-appropriated-and-violently-transcended-by` | 有效时段: `1925–1927批判；1928–1929改造`): 1928年7月全会以“贡赋论”借用其不等价交换逻辑，1929年底更以普氏从未预见的暴力全盘集体化直接取消农民市场主体地位
-- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 布尔什维克高加索地下组织者、民族事务人民委员（1917–1923）及中央总书记（1922起）。依托书记处任命权与安全危机叙事，先联季-加压制托洛茨基，再联布哈林击溃联合反对派；1927–1929年以战备恐慌与“自上而下革命”击败布哈林集团，1929年12月拍板“把富农作为阶级消灭”并终结新经济政策。
-
-### 邻居节点: `PER-dzerzhinsky`
-- **时效关系边** (`CON-primitive-socialist-accumulation` → `PER-dzerzhinsky` | `opposed-by-industrial-chief` | 有效时段: `1924–1926`): 捷尔任斯基在最高国民经济委员会主席任上坚决抵制靠抬高工业品垄断价格搜刮农民的方案，力主压降工业生产成本以弥合剪刀差
-- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 波兰立陶宛社民党与布尔什维克领导人。1917年建全俄肃反委员会（契卡）并续掌GPU/OGPU至逝世，奠定苏维埃安全与法外镇压体制；1924–1926年兼任最高国民经济委员会主席，力挺新经济政策市场均衡、保护技术专家并反对超工业化，1926年7月预警“红色独裁者”后猝逝于中央全会。
-
-### 邻居节点: `PER-kuibyshev`
-- **时效关系边** (`PER-kuibyshev` → `CON-primitive-socialist-accumulation` | `implements-via-planning` | 有效时段: `1928–1929`): 通过国家计划委员会与部门体系将超工业化资源动员制度化，效果超越左派1923年理论争辩的纸面方案
-- **节点定性微摘要 [T1]** (完备度 `draft`): 经济学出身的老布尔什维克：1923–1926执掌中央监察委员会—工农检查院（CCC–RKI）纠察全党；1926年8月接替捷尔任斯基任最高国民经济委员会（VSNKh）主席（至1930年11月），1927年12月进入政治局，1930年11月起转任国家计划委员会（Gosplan）主席，主导一五计划时期重工业高指标冲刺与技术官僚动员，1928–1929站斯大林多数派，是“大转变”经济机器的关键执行帅。
-
-### 邻居节点: `PER-strumilin`
-- **时效关系边** (`PER-strumilin` → `CON-primitive-socialist-accumulation` | `plan-expansion-and-accumulation-nexus` | 有效时段: `1926–1929`): 计划扩张论与非均衡原始积累思想共同强化了对市场均衡约束的突破
-- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 斯特鲁米林是俄国及苏联经济统计学家与计划方法论家，1921年起任职国家计划委员会，1923年加入俄共（布）（早年曾属孟什维克之说据俄科学院条目，仍待代表名册核验）。1920年代计划论争中，他常被视为目的论取向代表，主张计划主动重塑经济比例；这一立场不同于从既有约束出发的发生论，但不能简化为否认一切规律。
-
-## 3. 关联史学争鸣光谱 (Historiographical Debates)
+## 3. 关联史学争鸣与学者论断索引 (主卡外关联争鸣 2 项)
 ### `DEB-1928-bukharin-alternative`：布哈林替代方案与新经济政策终结之争
 ## [T1] 核心问题定义
 1927至1929年粮食危机与新经济政策的瓦解，是否意味着渐进工业化和工农联盟已无可行出路，还是党内权力与政策选择扼杀了布哈林的替代方案？投资、价格、农民供粮和政治动员之间的约束究竟有多强，必须把经济可行性、政治可行性与实际权力斗争分别检验。
@@ -116,6 +86,30 @@
 | 列宁思想解释 | Valentin Sakharov（瓦连京·萨哈罗夫）, *На распутье... 1921–1929 гг.*（《站在十字路口》，2012） | 论证列宁《论合作社》两份口述稿存在根本理论断裂（放弃初稿“商贩式”流通合作社，第二稿转向国有土地与生产资料上的生产合作社/集体农庄），指斥布哈林偷换概念，并论证斯大林工业化与 MTS 集体农庄路线是第二稿的正统继承人。 | `CLM-sakharov-2012-lenin-cooperative-plan-debates` | 具鲜明后苏联亲斯大林/反布哈林倾向；“列宁晚期生产合作社逻辑”不能直接等同于 1929–1930 年暴力全盘强制集体化，亦非 1925 年党内表决裁决。 |
 | 列宁格勒反对派 | Yuri Zhukov（尤里·茹科夫）, 《格里高利·季诺维也夫：被遗忘的世界革命领袖》(2011) | 季诺维也夫1925年发难植根列宁格勒地方权力与共产国际世界革命经验（含1923年德国失败），并非托洛茨基路线的简单副本。 | `CLM-zhukov-zinoviev-1925-leningrad-opposition`；`CLM-zhukov-zinoviev-comintern-and-1923-germany` | 带有后苏联民族国家现实主义倾向（赞斯大林1923年审慎、贬季氏盲动），其叙事仍须与会议速记与文本版本对勘。 |
 
-## 4. 关联时间线锚点 (共 2 条)
-- **1926-07-14 [N.S.]** (`TL-W25-1926-07-14-01`, L3): **七月中央与中监委联席全会开幕；联合反对派宣读《十三人声明》** — 联席全会（7月14–23日）开幕，托洛茨基、季诺维也夫、加米涅夫、皮达可夫、克鲁普斯卡娅等13名中央/中监委成员发表24页纲领性声明正式组建联合反对派，但在英俄委员会少数派案中以10:152惨败。
-- **1928-07-09 [N.S.]** (`TL-W32-1928-07-09-01`, L3): **斯大林在七月全会晚间抛农业“超额税/贡赋（дань）”论与“阶级斗争尖锐化”双支柱** — 7月9日晚斯大林发表关键闭门演说，驳斥索科利尼科夫与奥新斯基的提价诉求，宣称苏联既无殖民地也无外债，工业化只能依靠农民通过剪刀差缴纳“类似于贡赋（дань）的超额税”；同时抛出“社会主义越胜利、阶级敌人抵抗越激烈”理论，将非常措施定位为某些条件下不可避免的手段，事实上吸收了昔日左派原始积累逻辑。
+
+### 3.1 关联核心论断与史学家学派坐标 (`CLM-*` → `SCH-*`, 展示前 24/32 条)
+- **`CLM-erlich-1960-preobrazhensky-dilemma`** [`SCH-erlich-alexander`(亚历山大·埃利希) | pp. 34-36, 40-41, 49-51, 170-171 (PDF pp. 51-53, 57-58, 66-68, 185-186)]: 
+- **`CLM-erlich-1960-bukharin-balanced-growth`** [`SCH-erlich-alexander`(亚历山大·埃利希) | pp. 21-23 (PDF pp. 38-40)]: 
+- **`CLM-cohen-1973-nep-viability`** [`SCH-cohen-stephen`(斯蒂芬·F·科恩) | pp. 270-276, 316-320]: 
+- **`CLM-carr-davies-1969-nemchinov-table-critique`** [`SCH-davies-rw`(R·W·戴维斯) | pp. 55, 72-73, 117, 244-246]: 
+- **`CLM-cohen-1973-july-1928-plenum-and-kamenev`** [`SCH-cohen-stephen`(斯蒂芬·F·科恩) | pp. 289-291]: 
+- **`CLM-erlich-1960-stalin-overkill-turn`** [`SCH-erlich-alexander`(亚历山大·埃利希) | pp. 161-169, 172-177, 183-184 (PDF pp. 176-184, 187-192, 198-199)]: 
+- **`CLM-lewin-peasants-1968-grain-procurement-crisis`** [`SCH-lewin-moshe`(摩西·莱文) | pp. 221, 228-229, 242-243]: 
+- **`CLM-bukharin-preobrazhensky-equilibrium-vs-accumulation-zh`** [`SCH-liu-wei-ping-xinqiao`(刘伟与平新乔 · chinese-political-economy) | 原刊 pp. 92–99 (PDF pp. 1–8；英文提要 pp. 127–128 / PDF pp. 9–10)]: 
+- **`CLM-cohen-1973-notes-of-an-economist`** [`SCH-cohen-stephen`(斯蒂芬·F·科恩) | pp. 295-296, 318-320]: 
+- **`CLM-cohen-1973-bukharin-organizational-defeat`** [`SCH-cohen-stephen`(斯蒂芬·F·科恩) | pp. 287-289, 297-301, 322-329]: 
+- **`CLM-nove-1964-stalin-necessity-dilemma`** [`SCH-nove-alec`(亚历克·诺夫) | pp. 20-26, 32]: 
+- **`CLM-kotkin-2014-bukharin-dilemma`** [`SCH-kotkin-stephen`(斯蒂芬·科特金) | EPUB Coda (OEBPS/9780698170100_EPUB_1-25.xhtml) & Ch. 14 (OEBPS/9780698170100_EPUB_1-24.xhtml)]: 
+- **`CLM-fitzpatrick-1978-anti-bukharin-ideological-offensive`** [`SCH-fitzpatrick-sheila`(希拉·菲茨帕特里克) | pp. 11–14, 20–21]: 
+- **`CLM-khlevniuk-2015-defeat-of-right-opposition`** [`SCH-khlevniuk-oleg`(奥列格·赫列夫纽克) | EPUB ops/xhtml/ch03.html（His Revolution 开篇至全盘集体化的 1929 年 11 月宣布）。工作区文本无纸质页码。]: 
+- **`CLM-priestland-2007-1928-mobilization-turn-against-bukharin`** [`SCH-priestland-david`(大卫·普里斯特兰) | pp. 234–237; 291–296]: 
+- **`CLM-merridale-1990-uglanov-moscow-collapse`** [`SCH-merridale-catherine`(凯瑟琳·梅里代尔) | pp. 53-64]: 
+- **`CLM-davies-festschrift-1995-nep-statistics-and-planning-debates`** [`SCH-hunter-holland`(霍兰·亨特 · cliometrics) | pp. 18-21, 82-94, 218-226]: 
+- **`CLM-zemskov-2018-archival-constraints-and-party-radicalism`** [`SCH-zemskov-viktor`(维克托·尼古拉耶维奇·泽姆斯科夫) | 馆藏中文PDF pp. 2–4, 7–10；非俄文原版纸页]: 
+- **`CLM-sakharov-2012-nep-crossroads-1928`** [`SCH-sakharov-valentin`(瓦连京·萨哈罗夫) | EPUB Ch. 4.2 & Ch. 4.3]: 
+- **`CLM-bukharin-stalin-1925-one-country-internal-forces`** [`SCH-stalin-iosif`(约瑟夫·维萨里奥诺维奇·斯大林 · participant-primary-text) | 汇编 PDF pp. 38–40、85–90、113–115；《斯大林全集》页码仅按宿主转引，本卡未回核]: 
+- **`CLM-trotsky-1905-december-uprising-lessons-and-permanent-revolution-defense`** [`SCH-trotsky-leon`(列夫·达维多维奇·托洛茨基 · participant-historian) | 中译书页 ·225·、·278·、·281·–·282·、·292·、·308·、·325·–·328·、·330·、·406·（1922 年俄文第 2 版系统，PDF pp. 229–410）]: 
+- **`CLM-zinoviev-trotsky-1926-world-economy-critique`** [`SCH-trotsky-leon`(列夫·达维多维奇·托洛茨基 · participant-historian) | 汇编 PDF pp. 67–68、82–91；季诺维也夫引文自标 1925 年问题，托洛茨基诸段在汇编中无单行本年份与页码]: 
+- **`CLM-deutscher-1959-disarmed-prophet-paradox`** [`SCH-isaac-deutscher`(艾萨克·多伊彻) | （中译本无独立纸页；对应第二部 1923 年争论章）]: 
+
+## 4. 关联时间线骨干锚点 (L0–L2 展示 0 条，另有 2 条 L3 逐日细节见 `timeline/L3_daily/`)

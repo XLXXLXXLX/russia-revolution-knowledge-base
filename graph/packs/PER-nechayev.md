@@ -1,18 +1,13 @@
-# 1-Hop 平衡上下文包：`PER-nechayev` (谢尔盖·根纳季耶维奇·涅恰耶夫)
+# 1-Hop 去重平衡上下文包：`PER-nechayev`
 
-> 本文件由 `python scripts/kb.py pack` 自动编译，旨在将失控的 `1+N` 随机读取压缩为**等权重、带时效边实质与史学盲区告警**的单次全景读取。
+> 由 `python scripts/kb.py pack` 动态编译：保留 **100% 一跳邻居与多时段关系边**，跨卡自动去重争鸣与时间线，并关联学者学派 (`SCH-*`)。
 
-## 0. 认知完备度与反偏斜仪表盘 (Epistemic & Skew Warnings)
-- **主卡路径**: `cards/people/PER-nechayev.md`
-- **完备度等级**: `multi-perspective`
-- **已覆盖视角**: `movement-history-venturi, conceptual-history-mayer, berlin-moral-humanism, cold-war-leninist-precursor-thesis`
-- **待补齐视角**: `soviet-bonch-bruevich-debate-detail, post-soviet-archival-biography`
-- **偏斜风险提示**:
-  - ⚠️ 主卡显式声明尚缺以下视角待补: `soviet-bonch-bruevich-debate-detail, post-soviet-archival-biography`。
+## 0. 认知完备度与反偏斜仪表盘
+- **`PER-nechayev`** (谢尔盖·根纳季耶维奇·涅恰耶夫 | `cards/people/PER-nechayev.md` | `multi-perspective`): 已覆盖=`movement-history-venturi, conceptual-history-mayer, berlin-moral-humanism, cold-war-leninist-precursor-thesis`；待补=`soviet-bonch-bruevich-debate-detail, post-soviet-archival-biography`
 
 ## 1. 主卡核心层 ([T1] + [T2])
 ## [T1] 60秒定性微摘要
-19世纪60年代末俄国极端密谋革命家、“涅恰耶夫主义”（*нечаевщина*）代名词。出身纺织中心伊万诺沃平民家庭，1868–1869年介入圣彼得堡学潮；1869年赴日内瓦结识巴枯宁并携回《革命者教义问答》（*Катехизис революционера*），返莫斯科组建“人民惩治社”（*Народная расправа*），于 `1869-11-21 [O.S.] / 1869-12-03 [N.S.]` 伙同社员谋杀异议学生伊万诺夫。1871年其追随者公开受审，反向激发柴可夫斯基小组的伦理自净与“到民间去”运动；1872年自瑞士引渡回俄，遭亚历山大二世法外敕令终身秘密幽禁，1882年死于彼得保罗要塞。
+极端密谋革命家。1869年结识巴枯宁，携《革命者教义问答》返俄组建人民惩治社，11-21[O.S.]/12-03[N.S.]伙同社员杀害异议学生伊万诺夫。1871年追随者受审反促革命群体伦理自省；1872年自瑞士引渡回俄，遭沙皇法外敕令终身秘密幽禁，1882年死于要塞。
 
 ## [T2] 核心脉络、时效关系边表与史学争鸣光谱
 
@@ -40,32 +35,15 @@
   - **[第一国际与早期马克思主义的正统排斥 / 马克思、恩格斯与解放劳动社]**：马克思与恩格斯在1872年海牙代表大会及1873年报告《社会主义民主同盟和国际工人协会》中公开揭露涅恰耶夫案件，痛斥《人民惩治》第2期描绘的强制社会蓝图为“兵营共产主义”（*казарменный коммунизм*）；普列汉诺夫、查苏利奇、阿克雪里罗德创立俄国马克思主义传统时，亦始终把“涅恰耶夫主义”当作脱离工人阶级自觉运动的反面警戒。
   - **[梅耶概念史解构 / Robert Mayer]**（`CLM-mayer-1999-lenin-jacobin-metaphor-vs-blanquism`，`pp. 132–133, 145–146, 149 n.26`）：梅耶考证，涅恰耶夫本人著作中从未自称“雅各宾派”，巴枯宁决裂后亦未称其为雅各宾派；所谓“俄国雅各宾主义/涅恰耶夫主义”是论敌事后发明的污名标签。1903–1905年俄国社会民主工党分裂时，孟什维克用“雅各宾主义”暗指“布朗基主义或涅恰耶夫主义”以攻击列宁，而列宁自诩“雅各宾派”实则承袭普列汉诺夫1901年借自法国大革命“山岳派对抗吉伦特派”的正统马克思主义阶级斗争隐喻，不能据此倒推出布尔什维克在思想渊源上认祖涅恰耶夫。
 
-## 2. 一跳邻域等权重微摘要 (共 6 个关联节点，严防大卡霸占上下文)
-### 邻居节点: `PER-bakunin`
-- **时效关系边** (`PER-nechayev` → `PER-bakunin` | `collaborator -> bitter-rupture` | 有效时段: `1869-04 [N.S.]–1870-06 [N.S.]`): 日内瓦合编《革命者教义问答》与《人民惩治》，凶案与讹诈败露后巴枯宁痛斥其“耶稣会制度”并断交
-- **节点定性微摘要 [T1]** (完备度 `draft`): 国际无政府主义与俄国民粹派“造反派/暴动派（*buntari*）”宗师。1814年生于特维尔省贵族家庭，1861年自西伯利亚越狱流亡西欧，在第一国际与马克思激烈论战并撰《国家制度和无政府状态》（1873）。强调村社与农民造反传统的革命潜力，影响1874年“到民间去”运动中受其思想启发的参与者，并与拉夫罗夫、特卡乔夫论战。
+## 2. 一跳邻域全量微摘要目录 (去重后共 6 个节点，0 截断)
+- **`PER-bakunin`**（米哈伊尔·巴枯宁）: 国际无政府主义与俄国民粹派“造反派（buntari）”宗师。1848年投身欧洲起义后囚流西伯利亚，1861年越狱流亡西欧，在第一国际与马克思决裂并著《国家制度和无政府状态》。断言俄国村社与农民暴动传统具天然革命潜能，感召1874年“到民间去”造反派，曾与涅恰耶夫合作旋即痛斥断交。 ‖ `→PER-nechayev`[collaborator -> bitter-rupture|1869-04–1870-06 [N.S.]]: 日内瓦合作编印《革命者教义问答》等宣传品，凶案与讹诈败露后彻底决裂（1870-06-02 [N.S.] 致涅恰耶夫痛斥“耶稣会制度”长信后由 Confino 1966 刊布） ； `←PER-nechayev`[collaborator -> bitter-rupture|1869-04 [N.S.]–1870-06 [N.S.]]: 日内瓦合编《革命者教义问答》与《人民惩治》，凶案与讹诈败露后巴枯宁痛斥其“耶稣会制度”并断交
+- **`PER-tkachev`**（彼得·特卡乔夫）: 俄国革命民粹派政论家、《警钟》（Nabat）主编。断定帝俄国家“悬在空中”且资产阶级薄弱，主张由纪律化少数密谋党抢先夺权再自上而下改造社会；1874–1875年与拉夫罗夫及恩格斯公开论战，亦遭民意党正式纲领排斥。其是否构成列宁先锋党“雅各宾”直系先驱，为俄国革命史核心公案。 ‖ `←PER-nechayev`[co-conspirator|1868–1869]: 彼得堡学潮期间共同起草《革命行动纲领》，共享1870年大限焦虑与少数派组织冲动，但理论路… ； `→PER-nechayev`[co-conspirator|1868–1869]: 圣彼得堡学潮中合草《革命行动纲领》，共享少数派密谋冲动，但特氏以历史窗口与国家社会学取代了涅氏无原则权术
+- **`CON-narodnichestvo`**（俄国民粹主义：运动、自我认知与论战范畴）: 俄国民粹主义以人民特别是农民及村社为变革依托，却非单一教义。赫尔岑、车尔尼雪夫斯基开启先声，一八六九年形成古典民粹派；七十年代分化出政治恐怖与土地宣传两支，后经八九十年代合法论争与社革党改造。学界历来并存派普斯界定的七十年代反智“狭义”与列宁—瓦利茨基的“广义”世界观界定。 ‖ `←PER-nechayev`[negative-catalyst|1871–1874]: 1871年审判曝光其欺诈谋杀手段，反向激发柴可夫斯基小组以伦理纯洁性和公开宣传开启“到民…
+- **`PER-zasulich`**（维拉·查苏利奇）: 俄国女革命家、早期马克思主义奠基人之一。1878年枪击鞭笞政治犯的彼得堡市长特雷波夫获陪审团无罪开释；1879年拒恐怖共创土地平分社，1881年法文致信马克思叩问村社前途。1883年参与创立劳动解放社并任《火星报》编委，1903年二大遭除名后转入孟什维克，1917年反对十月夺权。 ‖ `←PER-nechayev`[implicated-witness -> critic|1869–1871及以后]: 早年因代收信件卷入涅恰耶夫案侦讯，晚年回忆指认涅恰耶夫对知识分子群体而言完全是“异类外人” ； `→PER-nechayev`[implicated-witness -> critic|1869–1871及以后]: 早年因代收书信牵连涅恰耶夫案遭长期囚流，晚年回忆斥涅氏对俄国知识界完全是“异类外人”
+- **`ORG-narodnaya-volya`**（民意党）: 1879年夏秋自土地与自由社分裂产生的俄国激进民粹派秘密政党，由执行委员会实行集中地下领导。该党虽以政治刺杀挑战沙皇专制并在1881年3月炸死亚历山大二世，其1879年纲领与致新皇信仍明确诉诸立宪会议与普选自由，绝非纯虚无暗杀团伙；1883年前后国内中枢瓦解。 ‖ `←PER-nechayev`[prison-correspondent|1879–1881]: 自阿列克谢耶夫半月堡通过策反卫兵联络执委会，主动让路于三月一日刺杀计划，未改变民意党政治纲领
+- **`PER-lenin`**（弗拉基米尔·列宁）: 布尔什维克党缔造者、苏俄人民委员会主席（1917–1924）。1893年投身马克思主义运动，1903年促成布尔什维克分化；1917年发表《四月提纲》并领导十月夺权，历经布列斯特和约、内战与战时共产主义；1921年主持转向新经济政策，晚年（1922–1923）就官僚化与接班人同斯大林冲突。 ‖ `←PER-nechayev`[historiographical-foil|1903后争鸣]: 孟什维克与冷战史学常以“涅恰耶夫主义”影射布尔什维克；概念史考证列宁雅各宾隐喻源于普列汉…
 
-### 邻居节点: `PER-tkachev`
-- **时效关系边** (`PER-nechayev` → `PER-tkachev` | `co-conspirator` | 有效时段: `1868–1869`): 彼得堡学潮期间共同起草《革命行动纲领》，共享1870年大限焦虑与少数派组织冲动，但理论路径有别
-- **节点定性微摘要 [T1]** (完备度 `draft`): 俄国革命民粹派政论家、《警钟》（*Nabat*）主编。系统阐述落后国由纪律化少数派密谋夺权、革命后党临时专政的“俄国雅各宾主义”；1870年代与恩格斯公开论战；其是否构成列宁主义组织与专政观念之“直系先驱”在东西方马克思主义史学中长期存在激烈争鸣。
-
-### 邻居节点: `CON-narodnichestvo`
-- **时效关系边** (`PER-nechayev` → `CON-narodnichestvo` | `negative-catalyst` | 有效时段: `1871–1874`): 1871年审判曝光其欺诈谋杀手段，反向激发柴可夫斯基小组以伦理纯洁性和公开宣传开启“到民间去”运动
-- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 俄国民粹主义以人民特别是农民及村社为变革依托，却非单一教义。赫尔岑、车尔尼雪夫斯基开启先声，一八六九年形成古典民粹派；七十年代分化出政治恐怖与土地宣传两支，后经八九十年代合法论争与社革党改造。学界历来并存派普斯界定的七十年代反智“狭义”与列宁—瓦利茨基的“广义”世界观界定。
-
-### 邻居节点: `PER-zasulich`
-- **时效关系边** (`PER-nechayev` → `PER-zasulich` | `implicated-witness -> critic` | 有效时段: `1869–1871及以后`): 早年因代收信件卷入涅恰耶夫案侦讯，晚年回忆指认涅恰耶夫对知识分子群体而言完全是“异类外人”
-- **节点定性微摘要 [T1]** (完备度 `draft`): 俄国女革命家、早期马克思主义者。1878年开枪行刺特雷波夫并在公审中获无罪开释；1879年组建“土地平分社”，1881年致信马克思探讨俄国公社前途；1883年共同创立“劳动解放社”，后任《火星报》编辑；1903年二大后加入孟什维克，一战持护国主义立场并反对十月夺权。
-
-### 邻居节点: `ORG-narodnaya-volya`
-- **时效关系边** (`PER-nechayev` → `ORG-narodnaya-volya` | `prison-correspondent` | 有效时段: `1879–1881`): 自阿列克谢耶夫半月堡通过策反卫兵联络执委会，主动让路于三月一日刺杀计划，未改变民意党政治纲领
-- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 1879年夏秋自土地与自由社分裂产生的俄国激进民粹派秘密政党，由执行委员会实行集中地下领导。该党虽以政治刺杀挑战沙皇专制并在1881年3月炸死亚历山大二世，其1879年纲领与致新皇信仍明确诉诸立宪会议与普选自由，绝非纯虚无暗杀团伙；1883年前后国内中枢瓦解。
-
-### 邻居节点: `PER-lenin`
-- **时效关系边** (`PER-nechayev` → `PER-lenin` | `historiographical-foil` | 有效时段: `1903后争鸣`): 孟什维克与冷战史学常以“涅恰耶夫主义”影射布尔什维克；概念史考证列宁雅各宾隐喻源于普列汉诺夫而非涅氏
-- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 布尔什维克党缔造者、苏俄人民委员会主席（1917–1924）。1893年投身马克思主义运动，1903年促成布尔什维克分化；1917年发表《四月提纲》并领导十月夺权，历经布列斯特和约、内战与战时共产主义；1921年主持转向新经济政策，晚年（1922–1923）就官僚化与接班人同斯大林冲突。
-
-## 3. 关联史学争鸣光谱 (Historiographical Debates)
+## 3. 关联史学争鸣与学者论断索引 (主卡外关联争鸣 2 项)
 ### `DEB-1879-narodnaya-volya-to-bolshevism`：民意党与布尔什维主义：密谋传统的连续性与异质性
 ## [T1] 核心问题定义
 民意党的秘密纪律、职业革命与政治暴力，同后来的布尔什维克组织之间有何关系？争论必须分别考察组织手段、革命目标、道德论证和具体传承链条：相似的地下技术本身不能证明永久党专政或思想一脉相承。
@@ -95,4 +73,29 @@
 | 帝国边疆社会民主主义 | Eric Blanc, *Revolutionary Social Democracy* (2021) | 以帝国边疆非俄罗斯民族社会民主党（崩得、拉脱维亚、波兰、芬兰等）的群众性合法/半合法组织实践与共同的“革命考茨基主义”，打破仅以俄国中心流亡小报编委为轴的建党叙事。 | `CLM-blanc-2021-revolutionary-kautskyanism-in-empire`；`CLM-blanc-2021-beyond-russocentric-bolshevism` | 边疆宏观组织比较不能取代二大第23次与第31次会议具体党章文本、联邦制否决及唱名票序的微观因果。 |
 | 工人能动性与政治修辞辨析 | S. A. Smith (1996/1999，收入 Reginald E. Zelnik 编论文集)；Robert Mayer (1999) | Smith（及Zelnik译注卡纳奇科夫自传）揭示1895–1917年彼得堡“觉悟工人”追求去监护化自治、排斥知识分子两派内斗；Robert Mayer考证列宁1903–1904年的“雅各宾”自称直接承袭普列汉诺夫1901年的法国大革命修辞以打击机会主义，而非效法特卡乔夫或布朗基密谋。 | `CLM-zelnik-1999-worker-intelligentsia-tutelage-tension`；`CLM-zelnik-1999-kanatchikov-conscious-worker-formation`；`CLM-mayer-1999-lenin-jacobin-metaphor-vs-blanquism` | 概念史修辞澄清与基层工人心态史分属不同分析层面，需与中央党组织制度变迁互证。 |
 
-## 4. 关联时间线锚点 (共 0 条)
+
+### 3.1 关联核心论断与史学家学派坐标 (`CLM-*` → `SCH-*`, 展示前 22/22 条)
+- **`CLM-mayer-1999-lenin-jacobin-metaphor-vs-blanquism`** [`SCH-mayer-robert`(罗伯特·迈耶) | pp. 127-129, 140-146]: 
+- **`CLM-berlin-1960-populism-moral-core`** [`SCH-berlin-isaiah`(以赛亚·伯林 · liberal-intellectual-history) | pp. vii-xxvi]: 
+- **`CLM-venturi-1960-lipetsk-voronezh-split`** [`SCH-venturi-franco`(弗朗科·文图里) | pp. 647-663]: 
+- **`CLM-venturi-1960-narodnaya-volya-constitutionalism`** [`SCH-venturi-franco`(弗朗科·文图里) | pp. 649, 655, 667-681, 716]: 
+- **`CLM-walicki-1969-narodnichestvo-definition`** [`SCH-walicki-andrzej`(安杰伊·瓦利茨基) | pp. 1-9, 23-28 [PDF pp. 13-21, 35-40]]: 
+- **`CLM-walicki-1969-marx-populist-affinity`** [`SCH-walicki-andrzej`(安杰伊·瓦利茨基) | pp. 132-133, 179-194 [PDF pp. 144-145, 191-206]]: 
+- **`CLM-walicki-1969-plekhanov-rational-reality`** [`SCH-walicki-andrzej`(安杰伊·瓦利茨基) | pp. 153-165 [PDF pp. 165-177]]: 
+- **`CLM-lih-2006-erfurtian-merger-formula`** [`SCH-lih-lars`(拉斯·T·利) | pp. 6-9, 41-49, 74-106, 113-121, 556-557]: 
+- **`CLM-lih-2006-textbook-myth-critique`** [`SCH-lih-lars`(拉斯·T·利) | pp. 5, 13-33, 555]: 
+- **`CLM-pipes-1990-patrimonial-state-and-intelligentsia`** [`SCH-pipes-richard`(理查德·派普斯) | ch. 2 (Official Russia); ch. 4 (The Intelligentsia); cf. Introduction]: 
+- **`CLM-pipes-1990-october-classic-coup`** [`SCH-pipes-richard`(理查德·派普斯) | ch. 11 (The October Coup); cf. Introduction]: 
+- **`CLM-jacobin-ancestry-tkachev-blanqui-and-leninism`** [`SCH-chamberlin-william-henry`(威廉·亨利·钱伯林) | pp. 251–257 (PDF pp. 2–8)]: 
+- **`CLM-haimson-1955-lenin-what-is-to-be-done`** [`SCH-haimson-leopold`(利奥波德·海姆森) | pp. 132-141]: 
+- **`CLM-haimson-1955-consciousness-spontaneity`** [`SCH-haimson-leopold`(利奥波德·海姆森) | pp. vi-viii, 7-11]: 
+- **`CLM-haimson-1955-1903-second-congress-split`** [`SCH-haimson-leopold`(利奥波德·海姆森) | pp. 175-191]: 
+- **`CLM-haimson-1987-menshevik-party-ethos-and-family`** [`SCH-haimson-leopold`(利奥波德·海姆森) | pp. 14–17]: 
+- **`CLM-lih-2006-kautsky-and-spontaneity`** [`SCH-lih-lars`(拉斯·T·利) | pp. 35-37, 555, 613-667]: 
+- **`CLM-getzler-1967-martov-1903-clause-one`** [`SCH-getzler-israel`(伊斯雷尔·格茨勒) | pp. 78-79]: 
+- **`CLM-blanc-2021-revolutionary-kautskyanism-in-empire`** [`SCH-blanc-eric`(埃里克·布兰克) | pp. 25–28, 569–578]: 
+- **`CLM-blanc-2021-beyond-russocentric-bolshevism`** [`SCH-blanc-eric`(埃里克·布兰克) | pp. 15–16, 23–26]: 
+- **`CLM-zelnik-1999-worker-intelligentsia-tutelage-tension`** [`SCH-smith-sa`(斯蒂芬·A·史密斯（S. A. Smith）) | pp. 6-7, 13-15, 18-27, 51-52]: 
+- **`CLM-zelnik-1999-kanatchikov-conscious-worker-formation`** [`SCH-smith-sa`(斯蒂芬·A·史密斯（S. A. Smith）) | pp. 9-12, 26-27]: 
+
+## 4. 关联时间线骨干锚点 (L0–L2 展示 0 条)

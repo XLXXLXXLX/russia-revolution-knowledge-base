@@ -1,14 +1,14 @@
 ---
 id: CLM-godson-1981-tenth-congress-to-1929-transmission-belt-unions
 type: claim
-scholar: "Joseph Godson (in Leonard Schapiro & Joseph Godson, eds.)"
+scholar: SCH-godson-joseph
 work_title: "\"The Role of the Trade Unions,\" in Leonard Schapiro and Joseph Godson (eds.), The Soviet Worker: Illusions and Realities (London: Macmillan, 1981; repr. 1982)"
 publication_year: 1981
 source_tier: "T2 西方自由制度学派／冷战劳工政策研究"
 local_source_path: "sources/monographs/soviet_workers_illusions_and_reality_zh/ch04_pages_101-125.md#L785-L1121, sources/monographs/soviet_workers_illusions_and_reality_zh/ch05_pages_126-150.md#L5-L712"
 original_pages: "Book pp. 106–111, 121, 128–129 [PDF pp. 118–123, 133, 140–141]"
-targets_cards: ["SCH-schapiro-leonard", "PER-tomsky", "ORG-aucctu"]
-debate: "苏维埃工会国家化与工人政治自主性的终结时点（1917–1929）"
+targets_cards: ["ORG-workers-opposition", "PER-tomsky"]
+debate: DEB-1921-trade-union-controversy-and-party-unity
 supports: ["CLM-schapiro-1981-end-of-illusion-unions-1917-to-tomsky-fall"]
 rebuts: []
 qualifies: ["CLM-lebsky-industrial-paternalism-origins-1917-1929"]

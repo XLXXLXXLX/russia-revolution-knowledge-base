@@ -2,7 +2,7 @@
 id: CLM-daniels-1960-bukharin-right-opposition-defeat
 type: claim
 title: Daniels：布哈林右翼先被解除组织力量，再遭公开定罪
-scholar: SCH-daniels
+scholar: SCH-daniels-robert
 work_title: "The Conscience of the Revolution: Communist Opposition in Soviet Russia"
 publication_year: 1960
 source_tier: A

@@ -5,62 +5,55 @@ title: 亚历山大·恰亚诺夫
 names:
   ru: Александр Васильевич Чаянов
   en: Alexander Vasilyevich Chayanov
-  aliases: ["A. V. Chayanov", "А. В. Чаянов", "亚历山大·瓦西里耶维奇·恰亚诺夫", "恰扬诺夫", "恰亚诺夫"]
+  aliases: ["А. В. Чаянов", "A. V. Chayanov", "亚历山大·瓦西里耶维奇·恰亚诺夫", "恰扬诺夫", "恰亚诺夫"]
 dates:
-  start_ns: "1888-01-29"
-  end_ns: "1937-10-03"
-coverage_status: draft
-perspectives_present: ["institutional-economic-history", "revisionist", "peasant-studies", "archival-post-soviet"]
-perspectives_missing: ["soviet-orthodox"]
+  start_ns: "1888-01-29" # 1888-01-17 [O.S.] / 1888-01-29 [N.S.]（+12天）生于莫斯科
+  end_ns: "1937-10-03" # 1937-10-03 [N.S.] 在阿拉木图大清洗中被枪决
+coverage_status: multi-perspective
+perspectives_present: ["peasant-studies-lewin", "state-spetsy-siegelbaum-joravsky", "lenin-agrarian-service", "nep-alternative-cohen", "collectivization-davies"]
+perspectives_missing: ["chayanov-1925-russian-original-pages", "shanin-peasant-economy-monograph", "tkp-1930-interrogation-files"]
 related_debates: ["DEB-1928-bukharin-alternative"]
-updated_at: "2026-11-18"
+updated_at: "2026-11-19"
 ---
 
-## [T1] 60秒定性微摘要
-俄国及苏联农业经济学家、农村社会学家与合作社理论家，农业经济学“组织—生产学派”（`организационно-производственная школа`）领袖。代表作《农民经济组织》（1923德文版/1925俄文版）与《农民合作社的基本思想和组织形式》（1919/1927）提出家庭小农的“劳动—消费均衡”（`трудо-потребительский баланс`）与“人口分化”（`демографическая дифференциация`）模型，挑战正统马克思主义的农村资本主义两极分化论；主张通过供销、信贷与农产品加工等“纵向合作化”（`вертикальная кооперация`）把千百万家庭农场渐进整合进社会主义大经济，而非剥夺农户生产自主权的强制全盘集体化。其合作社著述在1923年1月被列宁调阅并影响《论合作社》及布哈林路线；`1929-12-27` 遭斯大林在马克思主义者土地问题专家代表会议演说中公开点名痛批；1930年因“劳动农民党”冤案被捕，1937年10月3日在大清洗中被判处死刑并同日枪决。
+## [T1] 150字定性微摘要
+苏俄农业经济学家、“组织—生产学派”领袖（1888–1937）。提出家庭小农“劳动—消费均衡”与“人口分化”模型，主张以“纵向合作化”而非强制集体化整合小农。1923年1月送交列宁的合作社书目包含其著作；1929年12月遭斯大林点名痛批，后陷“劳动农民党”冤案，1937年被处决。
 
-## [T2] 核心脉络、时效关系边表与史学争鸣光谱
+## [T2] 核心脉络、关系网络与史学争鸣
 
-### 2.1 核心历史脉络
-- **早年学术养成、合作社运动与1917年土地改革（1888–1918）**：`1888-01-17 [O.S.] / 1888-01-29 [N.S.]` 生于莫斯科（父亲为出身农民的纺织工商业主，母亲为农学知识分子，待补莫斯科教区出生记录）。1906–1911年就读于莫斯科农业学院（彼得罗夫农业学院），师从阿·尼·切林采夫（А. Н. Челинцев）、尼·帕·马卡罗夫与亚·福·福尔图纳托夫，深入研究俄国地方自治局（Земство）农户家计统计与西欧合作社经验。1915–1917年深度参与全俄亚麻种植者中央合作社与合作社大会领导工作；1917年二月革命后参与创建全俄土地改革同盟并任临时政府（`ORG-provisional-government`）土地总委员会委员，在十月革命前夕曾短期出任临时政府农业部副部长。
-- **“组织—生产学派”与家庭小农理论体系（1919–1925）**：十月革命后留苏服务，1919年创立并长期执掌彼得罗夫（季米里亚泽夫）农业学院附属农业经济科学研究室（后升格为农业经济研究所 НИИСХЭ），凝聚起“组织—生产学派”。在其核心理论著作《农民经济组织》（*Организация крестьянского хозяйства*，1923年先于柏林出德文版，1925年于莫斯科出俄文版）中，恰亚诺夫指出：不雇佣外部工资劳动的家庭小农并非追求剩余价值最大化的资本主义企业，其内部经济动力受制于家庭消费需求紧迫度与劳动辛苦程度（自我剥削）之间的**“劳动—消费均衡”**；俄国农村农户耕地与牲畜规模的差异，在很大程度上并非不可逆的资本主义阶级两极分化，而是随家庭生命周期（消费者与劳动者比率 `C/W` 变动）以及俄国农村诸子平分家产惯例（参见 `CON-peasant-commune-obshchina`、`CLM-service-lenin-v1-agrarian-marxism-and-1905-tactics`）涨落的**“人口分化”**。
-- **“纵向合作化”构想与列宁—布哈林新经济政策路线（1921–1927）**：恰亚诺夫在《农民合作社的基本思想和组织形式》（1919年初版、1927年增订）中区分了农业不同环节的规模效益：田间生物耕作环节适宜保留家庭农户的精细劳动激励，而农资采购、信贷金融、分级仓储、深加工（如奶油、亚麻、马铃薯加工）与远距离销售则具有显著规模经济。因此，社会主义改造不应通过“横向集中”强行把小农兼并为官僚化巨型农场，而应通过合作社网络实施**“纵向集中/纵向合作化”**，将农户的产前产后环节逐步社会化。1923年1月列宁（`PER-lenin`）在口授《论合作社》期间，专门通过克鲁普斯卡娅（`PER-krupskaya`）调阅了恰亚诺夫《农民合作社的基本思想和组织形式》（1919年莫斯科版，见 `1923-01-04_on-cooperation.md` 编者注 `[242]`）；1920年代中期，其学说与布哈林（`PER-bukharin`）通过供销信贷合作社使农民“和平长入社会主义”的构想高度共鸣（同时恰亚诺夫还以笔名伊万·克列姆涅夫于1920年发表乌托邦小说《我兄弟阿列克谢漫游农民乌托邦之国》）。
-- **斯大林 `1929-12-27` 点名批判与清洗结局（1927–1937）**：在1920年代中后期，以克里茨曼（Л. Н. Крицман）为首的共产主义学院“农业马克思主义者”学派持续批判恰亚诺夫抹杀农村阶级斗争（`RN-W8B-july-1917-and-1918-1929-state-society`）；`1927-09`《联合反对派政纲》将恰亚诺夫与康德拉季耶夫并列为盘踞在李可夫等人周围的“富裕农民政治代理人”（`1927-09_platform-joint-opposition-core.md` L395）。随着1929年全盘集体化与“消灭富农阶级”启动，斯大林于 `1929-12-27` 在马克思主义者土地问题专家代表会议上发表《论苏联土地政策的几个问题》，点名痛斥“恰扬诺夫一类的‘苏维埃的’经济学家的反科学理论”宣扬小农经济稳固论（`1929-12-27_stalin-agrarian-marxists-speech-dekulakization.md`）。1930年7月恰亚诺夫因虚构的“劳动农民党”（ТКП）案被捕，1932年被判刑五年并于1934年流放阿拉木图，1937年10月3日在大清洗中被苏联最高法院军事审判庭改判死刑并于同日枪决。
+### 2.1 核心历史脉络（19世纪俄国内 +12 天，1900.03–1918.01 俄国内 +13 天，1918.02.14 后依公历 `[N.S.]`）
+- **农学养成、合作社实践与1917年土改（1888–1918）**：`1888-01-17 [O.S.] / 1888-01-29 [N.S.]` 生于莫斯科。1906–1911年就读莫斯科农业学院，师从切林采夫、马卡罗夫与福尔图纳托夫，深研俄国地方自治局（Земство）农户家计统计与西欧合作社经验。1915–1917年投身全俄亚麻种植者中央合作社与全国合作社大会组织；1917年二月革命后参与筹建全俄土地改革同盟并任 `ORG-provisional-government`（临时政府）土地总委员会委员，十月前夕短期出任临时政府农业部副部长。
+- **“组织—生产学派”与家庭小农理论模型（1919–1925）**：十月革命后留苏执教，1919年创立并长期领导彼得罗夫（季米里亚泽夫）农业学院附属农业经济研究室（后升格为农业经济研究所 НИИСХЭ），凝聚起“组织—生产学派（организационно-производственная школа）”。在代表作《农民经济组织》（1923德文版/1925俄文版）中提出：不雇佣外部工资劳动的家庭农户并非追求利润最大化的资本主义企业，其投入动力受制于家庭消费需求紧迫度与体力辛苦程度（自我剥削）间的**“劳动—消费均衡（трудо-потребительский баланс）”**；俄国农户耕地与牲畜规模差异在很大程度上随家庭生命周期（消费者/劳动者比率 `C/W`）与诸子平分分家惯例（参 `CON-peasant-commune-obshchina`）涨落，构成**“人口分化（демографическая дифференциация）”**，从而挑战正统马克思主义的农村资本主义直线两极分化图式。
+- **“纵向合作化”与列宁—布哈林新经济政策共鸣（1921–1927）**：在《农民合作社的基本思想和组织形式》（1919/1927）中区分了农业规模效益边界——田间生物耕作适宜保留家庭农户精细激励，而采购、信贷、仓储、深加工（奶油、亚麻、马铃薯）与运销具显著规模经济，故应以**“纵向合作化（вертикальная кооперация）”**渐进社会化，而非通过“横向兼并”强行拼凑官僚大农庄（另以笔名伊万·克列姆涅夫于1920年发表农民乌托邦小说《我兄弟阿列克谢漫游农民乌托邦之国》）。1923年1月，按《列宁全集》编者注释，克鲁普斯卡娅曾索取合作社著作，送交列宁（`PER-lenin`）的合作社书目包含恰亚诺夫1919年版《农民合作社的基本思想和组织形式》（`1923-01-04_on-cooperation.md#L95`；列宁是否实际阅读及对其影响程度待核）；1920年代中期其主张在经济逻辑上同 `PER-bukharin` 依托流通信贷合作社引导中农“长入社会主义”构想高度契合。
+- **马克思主义者围剿、`1929-12-27` 点名批判与清洗结局（1927–1937）**：1920年代中后期，克里茨曼领导的共产主义学院“农业马克思主义者”学派持续批判其抹杀农村阶级分化（`RN-W8B-july-1917-and-1918-1929-state-society`）；`1927-09` `ORG-left-and-united-opposition`《政纲》亦将恰亚诺夫与 `PER-kondratiev` 并指为盘踞在 `PER-rykov` 周围替富裕农民代言并传播乌斯特里亚洛夫主义的非党专家（`1927-09_platform-joint-opposition-core.md#L395`）。1929年末全盘集体化全面启动后，`PER-stalin` 于 **`1929-12-27`** 在马克思主义者土地问题专家会议上公开点名痛斥“恰扬诺夫一类的‘苏维埃的’经济学家的反科学理论”宣扬小农稳固论（`1929-12-27_stalin-agrarian-marxists-speech-dekulakization.md#L137, L669`）。1930年7月因 `INS-cheka-gpu-ogpu` 罗织的虚构“劳动农民党（ТКП）”案被捕，1932年判刑五年、1934年流放阿拉木图，大清洗期间于 `1937-10-03 [N.S.]` 被改判死刑并同日枪决。
 
-### 2.2 时效关系摘要边表（Typed & Temporalized Edges）
-| 关联节点 ID | 关系类型 | 有效时段 | 一句话关系实质摘要（防 N+1 盲跳） | 核心依据/争鸣 |
+### 2.2 核心关系网络（结构化边表）
+| 目标节点 ID | 关系类型 | 有效时段 | 关系实质摘要 | 核心依据 |
 | :--- | :--- | :--- | :--- | :--- |
-| `PER-lenin` | `intellectual-reference` | 1923.01 | 1923年1月列宁口授《论合作社》时由克鲁普斯卡娅专门索取恰亚诺夫《农民合作社的基本思想和组织形式》（1919年版）参阅，助推列宁晚期合作社思想转向。 | `1923-01-04_on-cooperation.md`, `CLM-lewin-1968-cooperation-shift` |
-| `PER-bukharin` | `policy-resonance` | 1924–1929 | 其“纵向合作化”与保护家庭农户生产积极性的学说，为布哈林依靠流通信贷合作社引导中农渐进融入社会主义的路线提供了农业经济学支撑。 | `CLM-cohen-1973-nep-viability`, `DEB-1928-bukharin-alternative` |
-| `PER-kondratiev` | `academic-ally` | 1917–1930 | 同为农业人民委员部系统非党专家核心，与康德拉季耶夫的宏观景气/市场学派互补，1927年同遭左翼反对派点名、1930年同入“劳动农民党”冤案。 | `1927-09_platform-joint-opposition-core.md`, `CON-primitive-socialist-accumulation` |
-| `ORG-left-and-united-opposition` | `ideological-target` | 1925–1927 | 在1927年9月《联合反对派政纲》中被指控为围绕在右倾领导人周围、替富裕农民利益代言并宣扬乌斯特里亚洛夫主义的非党专家。 | `1927-09_platform-joint-opposition-core.md`, `CON-thermidor-and-bureaucracy` |
-| `PER-stalin` | `ideological-target -> purge-victim` | 1929.12–1937.10 | `1929-12-27` 被斯大林在马克思主义土地问题专家会议上公开点名痛批为宣扬小农稳固论的“反科学理论”；1930年被捕，1937年10月被处决。 | `1929-12-27_stalin-agrarian-marxists-speech-dekulakization.md` |
+| `PER-lenin` | `intellectual_reference_for` | 1923-01 | 据全集编者注释，1923年1月送交列宁的合作社书目包含其1919年著作；实际阅读及影响待核 | `1923-01-04_on-cooperation.md#L95`, `CLM-lewin-1968-cooperation-shift` |
+| `PER-bukharin` | `policy_and_economic_resonance` | 1924–1929 | “纵向合作化”与保护家庭农户生产激励为布哈林通过流通合作社渐进改造农业提供理论支柱 | `CLM-cohen-1973-nep-viability`, `DEB-1928-bukharin-alternative` |
+| `PER-kondratiev` | `academic_ally_and_co_accused` | 1917–1930 | 同为农业人民委员部非党专家权威，宏观景气学派与微观家庭农场学说互补；1930年同入TKP冤案 | `1927-09_platform-joint-opposition-core.md#L395`, `CON-primitive-socialist-accumulation` |
+| `ORG-left-and-united-opposition` | `targeted_as_kulak_agent_by` | 1925–1927 | 在1927-09《联合反对派政纲》中被指控为围绕右倾领导层宣扬乌斯特里亚洛夫学说的非党代理 | `1927-09_platform-joint-opposition-core.md#L395`, `CON-thermidor-and-bureaucracy` |
+| `PER-stalin` | `denounced_and_purged_by` | 1929-12–1937-10 | `1929-12-27` 遭斯大林演说公开点名斥为“反科学理论”；1930年被捕，1937年10月处决 | `1929-12-27_stalin-agrarian-marxists-speech-dekulakization.md#L137, L669` |
+| `POL-nep` | `cooperative_theorist_under` | 1921–1929 | 构建NEP农业合作社学理基石，在 `EVT-1929-great-turn-and-dekulakization-launch` 启动后被全面取缔 | `POL-nep`, `EVT-1929-great-turn-and-dekulakization-launch` |
 
-### 2.3 史学争鸣光谱（Historiographical Spectrum）
-- **经验共识**：恰亚诺夫是20世纪最重要的农民经济学家之一；他主掌的农业经济研究所是1920年代苏联农村微观看法与合作社研究的重镇；列宁1923年1月确曾调阅其1919年合作社专著；斯大林在 `1929-12-27` 演说中将其点名作为“小农经济稳固论”靶子予以政治宣判。
-- **主要解释分歧**：
-  - **[农民学与苏联农村社会史修正派 / Moshe Lewin (1968), Teodor Shanin, В. П. Данилов]**：莱文（Lewin）与丹尼洛夫（Danilov）高度评价恰亚诺夫与“组织—生产学派”对俄国小农家庭经济行为及中农（`serednyak`）特征的实证洞察，指出NEP后期农村所谓“富农”在很大程度上只是壮劳力较多或经营较好的“放大版中农”，斯大林集团强行套用僵化阶级分化模式消灭富农并实行全盘集体化，彻底摧毁了列宁晚期与恰亚诺夫共同探索的自愿渐进合作化道路（`CLM-lewin-peasants-1968-kulak-myth-and-serednyak`, `CLM-lewin-1968-cooperation-shift`）。
-  - **[专家与国家“焦虑共存”视角 / Lewis H. Siegelbaum (1992), David Joravsky]**：西格尔鲍姆援引约拉夫斯基指出，1920年代恰亚诺夫组织—生产学派与克里茨曼农业马克思主义学派的并存，体现了NEP时期苏维埃国家与“资产阶级专家”（`spetsy`）之间充满“相互依赖与敌意的焦虑感”的权宜妥协（`modus vivendi`）；一旦1928–1929年粮食收购危机引爆路线大转变，青年红色专家对非党学术权威的长期怨恨便迅速转化为灭顶的政治清算（`RN-W8B-july-1917-and-1918-1929-state-society`, `[pp. 146–148, 217–218]`）。
-  - **[早期列宁农业马克思主义重估 / Robert Service (1985)]**：瑟维斯在评估列宁1899年《俄国资本主义的发展》时，采纳了切尔年科夫与恰亚诺夫关于俄国农户诸子平分继承制与家庭人口周期阻断跨代资本主义积累的实证批评，指出恰亚诺夫模型深刻揭示了俄国传统村社小农对简单两极分化图式的抵抗力（`CLM-service-lenin-v1-agrarian-marxism-and-1905-tactics`, `[PDF pp. 77–79]`）。
+### 2.3 多视角史学争鸣与阐释边界
+- **经验共识**：恰亚诺夫是20世纪最具原创性的农民经济学家之一；他主持的农业经济研究所代表了1920年代苏联农业微观统计最高水准；按全集编者注释，1923年1月送交列宁的合作社书目包含其1919年著作（实际阅读及影响待核）；斯大林 `1929-12-27` 演说标志着对其学术学派的正式政治宣判。
+- **核心争鸣（详参 `DEB-1928-bukharin-alternative`）**：
+  - **农民学与苏联农村社会史修正派（Moshe Lewin, 1968; Teodor Shanin; В. П. Данилов）**：高度评价恰亚诺夫对俄国小农行为逻辑及中农（`serednyak`）特征的实证洞察，指出NEP后期农村所谓“富农”常只是劳力较多的“放大版中农”，而斯大林强行套用机械阶级分化模式摧毁了列宁晚期与恰亚诺夫共同探索的渐进合作化出路（`CLM-lewin-peasants-1968-kulak-myth-and-serednyak`, `CLM-lewin-1968-cooperation-shift`）。
+  - **“资产阶级专家”与苏维埃国家的焦虑共存（Lewis H. Siegelbaum, 1992; David Joravsky）**：指出1920年代恰亚诺夫学派与克里茨曼农业马克思主义学派并存，本质上属于NEP时期政权与非党专家（`spetsy`）之间充满“相互依赖与深层敌意”的权宜妥协；一旦1928–1929年粮食危机打破均衡，青年红色专家对非党权威的学术怨恨便直通政治清洗（`RN-W8B-july-1917-and-1918-1929-state-society` `[pp. 146–148, 217–218]`）。
+  - **早期列宁农村分化的实证校正（Robert Service, 1985）**：指出列宁早年《俄国资本主义的发展》低估了村社土地重分与恰亚诺夫式人口周期对跨代阶级分化的阻尼作用，凸显了恰亚诺夫模型超越单一阶级叙事的解释深度（`CLM-service-lenin-v1-agrarian-marxism-and-1905-tactics`）。
+  - **工业化约束质疑（R. W. Davies）**：Davies（`davies_industrialisation_en/ch194` 等）同时记录到：1929年底急于推进国家工业化与粮食商品率的苏维埃计划官僚指责恰亚诺夫路线无法解决快速城市化的商品粮瓶颈，反映理论优雅性与危机高压政权目标间的剧烈张力。
 
-## [T3] 深度考证、分期细目与原文引证档案
-
-### 3.1 列宁1923年1月口授《论合作社》前调阅恰亚诺夫著作档案
-- 据《列宁选集》关于 `1923-01-04` 至 `01-06` 口授《论合作社》的档案考证注 `[242]`，克鲁普斯卡娅在1923年1月为列宁索取的合作社核心参考书目中包含恰亚诺夫专著（`sources/web-archive/E02_E10_core_classics/1923-01-04_on-cooperation.md` L95）：
-  > "1923年1月，娜·康·克鲁普斯卡娅曾为列宁索取有关合作社的著作。给列宁送去了下列书籍：……亚·恰扬诺夫《农民合作社的基本思想和组织形式》1919年莫斯科版；米·伊·杜冈－巴拉诺夫斯基《合作社的社会基础》1916年莫斯科版；谢·尼·普罗柯波维奇《俄国的合作社运动，其理论和实践》1913年莫斯科版。" `[1923-01-04_on-cooperation.md#L95]`
-
-### 3.2 `1927-09`《联合反对派政纲》与 `1929-12-27` 斯大林演说中的点名痛批（S级原文核对）
-- **1927年9月《联合反对派政纲》第七章将恰亚诺夫指认为右倾领导人身边的非党专家代表**（`sources/web-archive/E09_E10_party_debates/1927-09_platform-joint-opposition-core.md` L395）：
-  > "Around them and in their immediate vicinity are working the 'non-party' – the Kondratievs, Sadyrins, Chayanovs and other political 'business agents' of the wealthy peasantry, more or less openly preaching the doctrines of Ustryalov." `[1927-09_platform-joint-opposition-core.md#L395]`
-- **`1929-12-27` 斯大林在马克思主义者土地问题专家代表会议上的演说《论苏联土地政策的几个问题》第三节“小农经济‘稳固’论”公开点名恰亚诺夫**（`sources/web-archive/E01_E10_supplements/1929-12-27_stalin-agrarian-marxists-speech-dekulakization.md` L137, L391, L669）：
-  - **俄文原文**（《斯大林全集》第12卷，`[c.151]`）：
-    > "Непонятно только, почему антинаучные теории “советских” экономистов типа Чаяновых должны иметь свободное хождение в нашей печати, а гениальные труды Маркса – Энгельса – Ленина о теории земельной ренты и абсолютной земельной ренты не должны популяризироваться и выдвигаться на первый план, должны лежать под спудом?" `[1929-12-27_stalin-agrarian-marxists-speech-dekulakization.md#L137]`
-  - **英文标准译文**（*Works*, Vol. 12, Moscow, 1954）：
-    > "The only incomprehensible thing is why the anti-scientific theories of 'Soviet' economists like Chayanov should be freely current in our press, while Marx’s, Engels’s and Lenin’s works of genius dealing with the theory of ground rent and absolute ground rent are not popularised and brought into the foreground, are kept hidden." `[1929-12-27_stalin-agrarian-marxists-speech-dekulakization.md#L391]`
-  - **中文标准译文**（《斯大林选集》下卷，`◎第217页◎`）：
-    > "只是令人不能理解，为什么恰扬诺夫一类的“苏维埃的”经济学家的反科学理论应当在我们报刊上通行无阻，而马克思、恩格斯和列宁关于地租和绝对地租理论的天才著作就不应当广泛宣传并提到首位，倒应当束之高阁呢？" `[1929-12-27_stalin-agrarian-marxists-speech-dekulakization.md#L669]`
-
-### 3.3 待补一手与定量档案
-1. 莫斯科 `1888-01-17 [O.S.] / 1888-01-29 [N.S.]` 出生登记档案及1917年10月临时政府农业部副部长任职档案；
-2. 恰亚诺夫《农民经济组织》（1925年俄文版）关于家庭劳动—消费均衡与人口分化的原始统计图表页码；
-3. 1930年“劳动农民党”（ТКП）审讯案卷、1937年10月3日阿拉木图死刑判决执行记录及1987年7月苏联最高法院平反决定书（S级）。
+## [T3] 溯源锚点与未决史料缺口
+- **站内已核 S / A / B 级锚点**：
+  - **S 级文献逐行锚点与直引**：
+    - [`sources/web-archive/E02_E10_core_classics/1923-01-04_on-cooperation.md`](../../sources/web-archive/E02_E10_core_classics/1923-01-04_on-cooperation.md)（L95，全集编者注释所载1923年1月送交列宁的合作社书目；属编者史料说明，与列宁正文分开，不能单独证成列宁实际阅读及其影响程度）：
+      > "1923年1月，娜·康·克鲁普斯卡娅曾为列宁索取有关合作社的著作。给列宁送去了下列书籍：……亚·恰扬诺夫《农民合作社的基本思想和组织形式》1919年莫斯科版……" [`1923-01-04_on-cooperation.md#L95`]
+    - [`sources/web-archive/E09_E10_party_debates/1927-09_platform-joint-opposition-core.md`](../../sources/web-archive/E09_E10_party_debates/1927-09_platform-joint-opposition-core.md)（L395，联合反对派点名指控恰亚诺夫与康德拉季耶夫）。
+    - [`sources/web-archive/E01_E10_supplements/1929-12-27_stalin-agrarian-marxists-speech-dekulakization.md`](../../sources/web-archive/E01_E10_supplements/1929-12-27_stalin-agrarian-marxists-speech-dekulakization.md)（L137 俄文、L391 英文、L669 中文，斯大林《论苏联土地政策的几个问题》公开点名痛批）：
+      > "只是令人不能理解，为什么恰扬诺夫一类的“苏维埃的”经济学家的反科学理论应当在我们报刊上通行无阻，而马克思、恩格斯和列宁关于地租和绝对地租理论的天才著作就不应当广泛宣传并提到首位，倒应当束之高阁呢？" [`1929-12-27_stalin-agrarian-marxists-speech-dekulakization.md#L669`]
+  - **A 级精读札记与论断卡**：[`RN-W8B-july-1917-and-1918-1929-state-society`](../../reading-notes/siegelbaum_rabinowitch/RN-W8B-july-1917-and-1918-1929-state-society.md)；[`CLM-lewin-peasants-1968-kulak-myth-and-serednyak`](../../historiography/claims/CLM-lewin-peasants-1968-kulak-myth-and-serednyak.md)；[`CLM-lewin-1968-cooperation-shift`](../../historiography/claims/CLM-lewin-1968-cooperation-shift.md)；[`CLM-service-lenin-v1-agrarian-marxism-and-1905-tactics`](../../historiography/claims/CLM-service-lenin-v1-agrarian-marxism-and-1905-tactics.md)；[`CLM-cohen-1973-nep-viability`](../../historiography/claims/CLM-cohen-1973-nep-viability.md)。
+- **外部待补核 S / A 级缺口**：
+  - **恰亚诺夫《农民经济组织》（1925年俄文版 / Daniel Thorner, Basile Kerblay & R. E. F. Smith 英译编注本 *The Theory of Peasant Economy*, 1966/1986）** 及 **Teodor Shanin《The Awkward Class》** 尚未全文入库——缺家庭 `C/W` 曲线与人口分化原始统计图表页码（A 级）。
+  - 1930年“劳动农民党（ТКП）”审讯卷宗、1937年10月3日死刑判决执行记录及1987年7月苏联最高法院平反决定书，以及莫斯科 `1888-01-17 [O.S.]` 教区出生登记原件（S 级）。

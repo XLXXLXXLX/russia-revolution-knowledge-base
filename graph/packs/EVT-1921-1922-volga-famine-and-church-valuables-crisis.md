@@ -1,18 +1,13 @@
-# 1-Hop 平衡上下文包：`EVT-1921-1922-volga-famine-and-church-valuables-crisis` (伏尔加—乌拉尔饥荒、国际救济与教会珍宝冲突)
+# 1-Hop 去重平衡上下文包：`EVT-1921-1922-volga-famine-and-church-valuables-crisis`
 
-> 本文件由 `python scripts/kb.py pack` 自动编译，旨在将失控的 `1+N` 随机读取压缩为**等权重、带时效边实质与史学盲区告警**的单次全景读取。
+> 由 `python scripts/kb.py pack` 动态编译：保留 **100% 一跳邻居与多时段关系边**，跨卡自动去重争鸣与时间线，并关联学者学派 (`SCH-*`)。
 
-## 0. 认知完备度与反偏斜仪表盘 (Epistemic & Skew Warnings)
-- **主卡路径**: `cards/events/EVT-1921-1922-volga-famine-and-church-valuables-crisis.md`
-- **完备度等级**: `multi-perspective`
-- **已覆盖视角**: `provincial-social-history, state-church-conflict, international-relief, political-biographical-loginov`
-- **待补齐视角**: `verified-national-demographic-estimates, full-confiscation-financial-accounts, primary-text-lenin-1922-03-19-letter`
-- **偏斜风险提示**:
-  - ⚠️ 主卡显式声明尚缺以下视角待补: `verified-national-demographic-estimates, full-confiscation-financial-accounts, primary-text-lenin-1922-03-19-letter`。
+## 0. 认知完备度与反偏斜仪表盘
+- **`EVT-1921-1922-volga-famine-and-church-valuables-crisis`** (伏尔加—乌拉尔饥荒、国际救济与教会珍宝冲突 | `cards/events/EVT-1921-1922-volga-famine-and-church-valuables-crisis.md` | `multi-perspective`): 已覆盖=`provincial-social-history, state-church-conflict, international-relief, political-biographical-loginov`；待补=`verified-national-demographic-estimates, full-confiscation-financial-accounts, primary-text-lenin-1922-03-19-letter`
 
 ## 1. 主卡核心层 ([T1] + [T2])
 ## [T1] 60秒定性微摘要
-内战、征粮、生产与运输崩溃叠加1920—1921年连续歉收与旱灾，在伏尔加、乌拉尔及其他地区造成大饥荒（Figes：全国约500万死亡）。国际救济（ARA）与国家救灾并行，政府同时压制独立民间赈济（Pomgol）。1922年强征教会贵重物品引发冲突；列宁`1922-03-19`的信主张以“最无情的精力”利用饥荒时机推进没收，但其目标与范围——是打击“反动神职人员”还是教会本身——在站内史家间有分歧。灾害死亡、受灾和救济数字必须按地域与统计对象区分。
+内战、征粮与生产运输崩溃叠加1920—1921年歉收旱灾，酿成大饥荒；Figes估全国死亡约500万。ARA与国家救济并行，独立赈济遭压制。1922年征收教会财物引发冲突；列宁3月19日信主张利用饥荒推进没收，其目标是反动神职人员还是教会本身，史家有分歧。
 
 ## [T2] 核心脉络、时效关系边表与史学争鸣光谱
 
@@ -39,39 +34,19 @@
 - **教会问题**：站内可核的两种读法并置于 Loginov ch08。其一为“列宁信件显示强烈政治意图”：信中要求趁饥荒“只有现在”最无情推进，并枪决“叛乱者”（L863–865）。其二为 Loginov 的限定性解读：他把该信看作针对“反动神职人员”这一政治力量，批评把此信等同于“摧毁东正教会本身、从肉体上消灭神职人员阶层”的说法为“蓄意的谎言”，并指出1922年3月下旬起列宁已不再直接参与教会事务（L857–862、L889）；他据赫穆尔金对35篇学位论文的统计，认为各地被判最高刑罚者“不到40人”，所谓“一万人”之说是“意识形态神话”（L881–887；波利斯基称8,100人，来源未说明）。Loginov 为立场鲜明的辩护性传记，其“限定性解读”与处决数是该作者的判断，须与独立研究对照。救济财政解释则重视饥荒中筹集外汇与食品的现实需求；二者不互斥：实际财政流向须依赖征收、销售和采购账目检验。
 - **外部待核线索**：学界另有政治史论者强调意识形态敌意与国家整体打击教会的计划；该论点**未在站内 Pipes 原文核得**（站内 Pipes 仅在 `ch07_introduction.md` L19 一句提到饥荒夺走“逾五百万”人命），本卡不将其归于任何具名学者，也不将其扩大为已证实的全面灭绝计划。
 
-## 2. 一跳邻域等权重微摘要 (共 7 个关联节点，严防大卡霸占上下文)
-### 邻居节点: `POL-war-communism`
-- **时效关系边** (`EVT-1921-1922-volga-famine-and-church-valuables-crisis` → `POL-war-communism` | `intensifies_vulnerability` | 有效时段: `1918–1921`): 长期征收消耗储备，旱灾又重创收成；Figes ch23 L27–28；地方征粮差异见罗利编著札记。
-- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 1918年夏至1921年3月苏维埃经济政策总称：余粮收集制、中小工业国有化、取缔私商、货币贬值与实物配给并举；因内战饥荒与国家能力崩溃而强化，却在1921年喀琅施塔得与坦波夫危机下为新经济政策实物税所取代；其性质是应急、乌托邦跃进还是国家统制传统延续，史家分歧剧烈。
+## 2. 一跳邻域全量微摘要目录 (去重后共 7 个节点，0 截断)
+- **`POL-war-communism`**（战时共产主义）: 1918年夏至1921年3月苏维埃经济政策总称：余粮收集制、中小工业国有化、取缔私商、货币贬值与实物配给并举；因内战饥荒与国家能力崩溃而强化，却在1921年喀琅施塔得与坦波夫危机下为新经济政策实物税所取代；其性质是应急、乌托邦跃进还是国家统制传统延续，史家分歧剧烈。 ‖ `←EVT-1921-1922-volga-famine-and-church-valuables-crisis`[intensifies_vulnerability|1918–1921]: 长期征收消耗储备，旱灾又重创收成；Figes ch23 L27–28；地方征粮差异见罗利…
+- **`PER-gorky`**（马克西姆·高尔基）: 俄国及苏联著名作家、政论家（1868—1936）。1905—1907年力助布尔什维克筹款，1908—1910年赞助卡普里党校并倡“造神说”。1917—1918年主编《新生活报》撰《不合时宜的思想》痛斥街头暴力与专政，内战期营救学者；1921年赴欧，1928—1932年归苏并背书斯大林体制。 ‖ `←EVT-1921-1922-volga-famine-and-church-valuables-crisis`[mobilizes_relief|1921-07-13 起]: 高尔基呼吁与参与 Pomgol 的筹建；外国粮药救济（ARA）并存，独立赈济空间遭政权压… ； `→EVT-1921-1922-volga-famine-and-church-valuables-crisis`[relief-initiator|1921.07–1922]: 向国际社会发出饥荒求援呼吁并筹建民间赈济委员会（Pomgol），因当局解散独立赈济组织而深感羞辱遂赴欧流寓
+- **`INS-sovnarkom-and-vtsik`**（人民委员会与全俄、全苏中央执行委员会）: 苏维埃代表大会闭会期间，中执委在宪制上监督政府，人民委员会却迅速掌握施政与大量法令制定。苏俄与1922年成立的苏联各有中执委与人民委员会，不能混同。党内领导与国家机关关系不断变化，政治局权重日增，但1920年代仍须经政府落实决策。 ‖ `←EVT-1921-1922-volga-famine-and-church-valuables-crisis`[confiscates|1922-02-23 起]: 财政救灾理由与对教会机构的强制打击相互交织（全俄中执委法令）。
+- **`INS-politburo-orgburo-secretariat`**（联共（布）中央政治局—组织局—书记处与官职等级名册制）: 1919年3月俄共八大后常设政治局、组织局与书记处，分掌政治决策、组织行政及日常党务人事。1922年4月斯大林任总书记后逐步控制议程、秘密文件分发与干部名册调配。经1924年七人小组协调、1925—1929年联盟重组与纪律整肃，托洛茨基、季诺维也夫、布哈林先后退出决策核心。 ‖ `←EVT-1921-1922-volga-famine-and-church-valuables-crisis`[postpones_then_resumes_confiscation|1922-03-16 → 03-20]: 03-16 决议推迟，03-20 带修改通过托洛茨基指示草案并否决逮捕吉洪；Logino…
+- **`PER-lenin`**（弗拉基米尔·列宁）: 布尔什维克党缔造者、苏俄人民委员会主席（1917–1924）。1893年投身马克思主义运动，1903年促成布尔什维克分化；1917年发表《四月提纲》并领导十月夺权，历经布列斯特和约、内战与战时共产主义；1921年主持转向新经济政策，晚年（1922–1923）就官僚化与接班人同斯大林冲突。 ‖ `←EVT-1921-1922-volga-famine-and-church-valuables-crisis`[directs_repression|1922-03-19]: 信件主张利用饥荒时机强行没收并处置“反动神职人员”；Loginov 将其限定为对政治对手…
+- **`PER-trotsky`**（列夫·托洛茨基）: 俄国革命家、“不断革命论”提出者，1905年彼得堡苏维埃实际领袖与1917年彼得格勒苏维埃主席；借军革委与苏维埃二大衔接统筹十月夺权，内战期起用4.8万军事专家缔造红军。1923–1927年领衔左翼与联合反对派抗衡斯大林集权并受“红色波拿巴”污名围剿，1927年被开除出党，1929年被驱逐出境。 ‖ `←EVT-1921-1922-volga-famine-and-church-valuables-crisis`[drafts_confiscation_line|1922-03-17 → 03-30]: 起草利用“进步神职人员”分化教会的指示，3月30日再函支持国家政治保卫局措施（Login…
+- **`POL-nep`**（新经济政策）: 1921年春在农村起义、城市工潮与喀琅施塔得危机倒逼下逐步确立、取代战时共产主义的混合经济体制。以固定实物税（后改货币税）取代余粮收集制，渐次放开城乡市场与小私营商业（耐普曼），由国家掌控大工业、银行、运输与外贸“制高点”；1928–1929年在收购危机与政治转向中逐步瓦解。 ‖ `←EVT-1921-1922-volga-famine-and-church-valuables-crisis`[contextualizes|1921–1922]: 粮食税取代余粮征集，未能立即消除饥荒。
 
-### 邻居节点: `PER-gorky`
-- **时效关系边** (`EVT-1921-1922-volga-famine-and-church-valuables-crisis` → `PER-gorky` | `mobilizes_relief` | 有效时段: `1921-07-13 起`): 高尔基呼吁与参与 Pomgol 的筹建；外国粮药救济（ARA）并存，独立赈济空间遭政权压缩（Figes ch23 L41–46）。
-- **节点定性微摘要 [T1]** (完备度 `draft`): 俄国及苏联著名作家、政论家与无产阶级文学奠基象征（本名阿列克谢·马克西莫维奇·彼什科夫，1868–1936）。早年以《海燕》《母亲》成为俄国觉悟工人与革命青年最重要的文学精神图腾，并在1905–1907年革命期间利用文学版税与欧美募款充当布尔什维克核心财政后盾。1908–1910年在意大利卡普里岛创办工人党校，与波格丹诺夫、卢那察尔斯基共倡将社会主义塑造为集体人文新宗教的“造神说”（`богостроительство`），遭列宁严厉批判。1917–1918年在彼得格勒主编半独立左翼日报《新生活报》（*Новая жизнь*）并连载政论《不合时宜的思想》（*Несвоевременные мысли*），尖锐谴责布尔什维克将落后的俄国当作残酷的社会实验场、煽动街头暴民仇恨并查封独立报刊（该报于 `1918-07-16` 被查封）；内战期间主持“改善学者生活中央委员会”与“世界文学”出版社，利用同列宁的私人关系营救大批旧知识分子。1921年秋赴欧洲（后长居意大利索伦托）疗养；1928–1929年应斯大林高规格邀请两度返苏巡游，并于1929年6月参观白海索洛维茨基特别集中营（СЛОН）后撰文为劳改改造体制辩护，标志苏联文化界收编与社会主义现实主义体制化的关键转折；1930年代初正式定居苏联并任苏联作家协会首任主席，1936年6月18日在莫斯科近郊戈尔基病逝。
-
-### 邻居节点: `INS-sovnarkom-and-vtsik`
-- **时效关系边** (`EVT-1921-1922-volga-famine-and-church-valuables-crisis` → `INS-sovnarkom-and-vtsik` | `confiscates` | 有效时段: `1922-02-23 起`): 财政救灾理由与对教会机构的强制打击相互交织（全俄中执委法令）。
-- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 苏维埃代表大会闭会期间，中执委在宪制上监督政府，人民委员会却迅速掌握施政与大量法令制定。苏俄与1922年成立的苏联各有中执委与人民委员会，不能混同。党内领导与国家机关关系不断变化，政治局权重日增，但1920年代仍须经政府落实决策。
-
-### 邻居节点: `INS-politburo-orgburo-secretariat`
-- **时效关系边** (`EVT-1921-1922-volga-famine-and-church-valuables-crisis` → `INS-politburo-orgburo-secretariat` | `postpones_then_resumes_confiscation` | 有效时段: `1922-03-16 → 03-20`): 03-16 决议推迟，03-20 带修改通过托洛茨基指示草案并否决逮捕吉洪；Loginov ch08 L850–867。
-- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 1919年3月俄共八大在斯维尔德洛夫逝世后常设分置政治局（政治决策）、组织局（组织行政）与书记处（日常党务与人事）。1922年4月斯大林出任总书记后，逐步掌握政治局议程截稿、秘密文件分发与干部等级名册（Номенклатура）调配杠杆；历经1924年“七人小组”协调与1925—1929年多轮联盟重组及纪律整肃，托洛茨基、季诺维也夫与布哈林等先后被逐出中央决策核心。
-
-### 邻居节点: `PER-lenin`
-- **时效关系边** (`EVT-1921-1922-volga-famine-and-church-valuables-crisis` → `PER-lenin` | `directs_repression` | 有效时段: `1922-03-19`): 信件主张利用饥荒时机强行没收并处置“反动神职人员”；Loginov 将其限定为对政治对手而非对宗教本身，见 2.3；原信全文未入库。
-- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 布尔什维克党缔造者、苏俄人民委员会主席（1917–1924）。1893年投身马克思主义运动，1903年促成布尔什维克分化；1917年发表《四月提纲》并领导十月夺权，历经布列斯特和约、内战与战时共产主义；1921年主持转向新经济政策，晚年（1922–1923）就官僚化与接班人同斯大林冲突。
-
-### 邻居节点: `PER-trotsky`
-- **时效关系边** (`EVT-1921-1922-volga-famine-and-church-valuables-crisis` → `PER-trotsky` | `drafts_confiscation_line` | 有效时段: `1922-03-17 → 03-30`): 起草利用“进步神职人员”分化教会的指示，3月30日再函支持国家政治保卫局措施（Loginov ch08 L851–856、L870–871）。
-- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 俄国革命家、“不断革命论”提出者，1905年彼得堡苏维埃实际领袖与1917年彼得格勒苏维埃主席；借军革委与苏维埃二大衔接统筹十月夺权，内战期起用4.8万军事专家缔造红军。1923–1927年领衔左翼与联合反对派抗衡斯大林集权并受“红色波拿巴”污名围剿，1927年被开除出党，1929年被驱逐出境。
-
-### 邻居节点: `POL-nep`
-- **时效关系边** (`EVT-1921-1922-volga-famine-and-church-valuables-crisis` → `POL-nep` | `contextualizes` | 有效时段: `1921–1922`): 粮食税取代余粮征集，未能立即消除饥荒。
-- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 1921年春在农村起义、城市工潮与喀琅施塔得危机倒逼下逐步确立、取代战时共产主义的混合经济体制。以固定实物税（后改货币税）取代余粮收集制，渐次放开城乡市场与小私营商业（耐普曼），由国家掌控大工业、银行、运输与外贸“制高点”；1928–1929年在收购危机与政治转向中逐步瓦解。
-
-## 3. 关联史学争鸣光谱 (Historiographical Debates)
+## 3. 关联史学争鸣与学者论断索引 (主卡外关联争鸣 2 项)
 ### `DEB-1918-war-communism-ideology-or-emergency`：战时共产主义与早期一党制本质之争：内战应急、乌托邦跃进还是国家统制连续？
 ## [T1] 核心问题定义
-1918–1921年的全面工业国有化、余粮收集制（`продразвёрстка`）、取缔私商、劳动军事化及多党苏维埃向一党专政的收缩，究竟是内战与供给崩溃逼迫的生存应急反应，还是布尔什维克反市场乌托邦蓝图的激进兑现，抑或一战以来国家统制与基层危机交互演化的结果？“战时共产主义”系1921年新经济政策转向时的事后追赋标签，须严格区分措施出台序列与事后总结。
+1918至1921年的全面国有化、余粮收集制、取缔私商、劳动军事化，以及多党苏维埃收为一党专政，究竟是内战与供给崩溃逼出的生存应急，还是反市场乌托邦的激进兑现，抑或一战以来国家统制与基层危机交互的结果？“战时共产主义”是1921年转向时的事后标签，须分清措施序列与事后总结。
 
 ## [T2] 各学派立场对照矩阵
 
@@ -96,4 +71,26 @@
 | 农村反征粮战争与外省地方史 | Orlando Figes (1996); Donald J. Raleigh (2001) | 1920—1921年坦波夫、西西伯利亚农村战争与萨拉托夫“地方喀琅施塔得”工潮早于水兵起义撼动政权根基，迫使列宁在2月上旬先行酝酿粮食税退却。 | `CLM-figes-1996-peasant-wars-and-nep-retreat`; `CLM-raleigh-2001-center-periphery-weak-state-nep` | 农民起义口号不可无差别套用于喀琅施塔得水兵。 |
 | 苏维埃官方／布尔什维克当事人 | 1921年政府通告与十大材料 | 指称白卫反革命及冰融后外国干涉风险，主张铁血镇压与党内绝对统一；属当时政权危机认知与宣传，非已证实的事前阴谋事实。 | `CLM-avrich-1970-white-plot-refutation` | 混淆事后白卫侨民募款企图与水兵起义真实起源。 |
 
-## 4. 关联时间线锚点 (共 0 条)
+
+### 3.1 关联核心论断与史学家学派坐标 (`CLM-*` → `SCH-*`, 展示前 19/19 条)
+- **`CLM-carr-1952-war-communism-internal-contradictions`** [`SCH-carr-eh`(爱德华·霍列特·卡尔) | Vol. 2 Chinese PDF pp. 70-120 (Chs. 17–18)]: 
+- **`CLM-mawdsley-1987-civil-war-militarized-regime`** [`SCH-mawdsley-evan`(埃文·莫兹利) | pp. 328, 331, 346-347]: 
+- **`CLM-mawdsley-1987-sovdepia-demographic-industrial-base`** [`SCH-mawdsley-evan`(埃文·莫兹利) | pp. 56–58, 69, 185–188, 217–218, 283–284]: 
+- **`CLM-pipes-1990-red-terror-leninist-logic`** [`SCH-pipes-richard`(理查德·派普斯) | ch. 18 (The Red Terror)]: 
+- **`CLM-pipes-1990-october-classic-coup`** [`SCH-pipes-richard`(理查德·派普斯) | ch. 11 (The October Coup); cf. Introduction]: 
+- **`CLM-smith-sa-1983-defensive-workers-control`** [`SCH-smith-sa`(斯蒂芬·A·史密斯（S. A. Smith）) | 中译本 pp. 106–112, 133, 135, 137, 191（即源文件标注 PDF pp. 111–117, 138, 140, 142, 196）；注意：均为中译本页码，非英文原版页码]: 
+- **`CLM-smith-sa-1983-from-workers-control-to-nationalization`** [`SCH-smith-sa`(斯蒂芬·A·史密斯（S. A. Smith）) | 中译本 pp. 155–156, 166–169, 177–179, 184–186, 192（即源文件标注 PDF pp. 160–161, 171–174, 182–184, 189–191, 197）；注意：均为中译本页码，非英文原版页码]: 
+- **`CLM-hoffmann-2011-continuum-of-total-war-1914-1929`** [`SCH-hoffmann-david`(大卫·L·霍夫曼) | pp. 12–13, 38, 127–128]: 
+- **`CLM-rabinowitch-2007-contingency-of-dictatorship`** [`SCH-rabinowitch-alexander`(亚历山大·拉比诺维奇) | pp. xi-xii, 390-398]: 
+- **`CLM-daniels-1960-left-communists-1918`** [`SCH-daniels-robert`(罗伯特·V·丹尼尔斯) | pp. 70-81]: Daniels：1918年左翼捍卫革命纲领，却在分裂关头受党统一约束
+- **`CLM-figes-1996-peasant-wars-and-nep-retreat`** [`SCH-figes-orlando`(奥兰多·费吉斯) | pp. 775-785]: 
+- **`CLM-zemskov-1929-dekulakization-demographic-baseline`** [`SCH-zemskov-viktor`(维克托·尼古拉耶维奇·泽姆斯科夫) | PDF pp. 6-11, 15-19, 52, 218 (原书 pp. 4-9, 13-17, 50, 216)]: 
+- **`CLM-avrich-1970-sailor-social-composition`** [`SCH-avrich-paul`(保罗·阿夫里奇) | pp. 101-105]: 
+- **`CLM-avrich-1970-soviets-without-bolsheviks`** [`SCH-avrich-paul`(保罗·阿夫里奇) | pp. 198-201, 179-180]: 
+- **`CLM-avrich-1970-white-plot-refutation`** [`SCH-avrich-paul`(保罗·阿夫里奇) | pp. 143-147, 816-818]: 
+- **`CLM-daniels-1960-tenth-congress-turning-point`** [`SCH-daniels-robert`(罗伯特·V·丹尼尔斯) | pp. 146-153]: Daniels：1921年十大将党统一转化为压缩合法反对空间的组织制度
+- **`CLM-siegelbaum-1992-nep-fragile-social-compromise`** [`SCH-siegelbaum-lewis`(刘易斯·H·西格尔鲍姆) | pp. 84, 91-93, 102-117, 136-144, 180-186 (PDF pp. 98, 105-107, 116-131, 150-158, 194-200)]: 
+- **`CLM-carr-1952-nep-retreat-and-commanding-heights`** [`SCH-carr-eh`(爱德华·霍列特·卡尔) | Vol. 2 Chinese PDF pp. 118-166 (Chs. 18–20)]: 
+- **`CLM-raleigh-2001-center-periphery-weak-state-nep`** [`SCH-raleigh-donald`(唐纳德·J·罗利) | Local PDF pp. 16–18, 139–173; English print pagination not verified]: 
+
+## 4. 关联时间线骨干锚点 (L0–L2 展示 0 条)

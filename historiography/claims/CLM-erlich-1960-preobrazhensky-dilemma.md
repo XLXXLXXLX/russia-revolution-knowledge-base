@@ -7,7 +7,7 @@ publication_year: 1960
 source_tier: A
 local_source_path: "sources/monographs/erlich_1960_industrialization/ch05_part_one_the_debate_part_2.md#L252-L353"
 original_pages: "pp. 34-36, 40-41, 49-51, 170-171 (PDF pp. 51-53, 57-58, 66-68, 185-186)"
-targets_cards: ["PER-preobrazhensky", "POL-nep", "EVT-1928-grain-crisis"]
+targets_cards: ["PER-preobrazhensky", "POL-nep", "EVT-1928-grain-procurement-crisis"]
 debate: DEB-1928-bukharin-alternative
 supports: []
 rebuts: []

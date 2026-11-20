@@ -7,7 +7,7 @@ publication_year: 1968
 source_tier: A
 local_source_path: "sources/monographs/lewin_1968_peasants/ch11_part_ii_a_two_years_interlude_1928-9_9_t.md#L718-L738"
 original_pages: "pp. 221, 228-229, 242-243"
-targets_cards: ["POL-nep", "PER-stalin", "PER-bukharin", "EVT-1928-grain-crisis"]
+targets_cards: ["POL-nep", "PER-stalin", "PER-bukharin", "EVT-1928-grain-procurement-crisis"]
 debate: DEB-1928-bukharin-alternative
 supports: []
 rebuts: []

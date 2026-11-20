@@ -1,18 +1,13 @@
-# 1-Hop 平衡上下文包：`CON-intelligentsia-and-vekhi` (俄国知识分子阶层、《路标》论战与“资产阶级专家”)
+# 1-Hop 去重平衡上下文包：`CON-intelligentsia-and-vekhi`
 
-> 本文件由 `python scripts/kb.py pack` 自动编译，旨在将失控的 `1+N` 随机读取压缩为**等权重、带时效边实质与史学盲区告警**的单次全景读取。
+> 由 `python scripts/kb.py pack` 动态编译：保留 **100% 一跳邻居与多时段关系边**，跨卡自动去重争鸣与时间线，并关联学者学派 (`SCH-*`)。
 
-## 0. 认知完备度与反偏斜仪表盘 (Epistemic & Skew Warnings)
-- **主卡路径**: `cards/concepts/CON-intelligentsia-and-vekhi.md`
-- **完备度等级**: `multi-perspective`
-- **已覆盖视角**: `berlin-venturi-moral-humanism, walicki-intellectual-history, labor-social-history-smith-zelnik, social-mobility-fitzpatrick, archival-security-mozokhin-smirnov, liberal-self-critique-vekhi, leninist-class-instrumental`
-- **待补齐视角**: `vekhi-1909-seven-essays-russian-fulltext, lenin-1909-12-on-vekhi-russian-collation, 1922-philosophers-ship-passenger-lists-primary`
-- **偏斜风险提示**:
-  - ⚠️ 主卡显式声明尚缺以下视角待补: `vekhi-1909-seven-essays-russian-fulltext, lenin-1909-12-on-vekhi-russian-collation, 1922-philosophers-ship-passenger-lists-primary`。
+## 0. 认知完备度与反偏斜仪表盘
+- **`CON-intelligentsia-and-vekhi`** (俄国知识分子阶层、《路标》论战与“资产阶级专家” | `cards/concepts/CON-intelligentsia-and-vekhi.md` | `multi-perspective`): 已覆盖=`berlin-venturi-moral-humanism, walicki-intellectual-history, labor-social-history-smith-zelnik, social-mobility-fitzpatrick, archival-security-mozokhin-smirnov, liberal-self-critique-vekhi, leninist-class-instrumental`；待补=`vekhi-1909-seven-essays-russian-fulltext, lenin-1909-12-on-vekhi-russian-collation, 1922-philosophers-ship-passenger-lists-primary`
 
 ## 1. 主卡核心层 ([T1] + [T2])
 ## [T1] 60秒定性微摘要
-从伦理异议共同体到苏维埃技术官僚的语义与阶级重构。1860年代平民知识分子（`разночинцы`）与拉夫罗夫“批判思维的个人”奠定反专制献身传统；1909年司徒卢威、别尔嘉耶夫等借《路标》（*Вехи*）痛批激进派反法制与政治狂热，遭列宁斥为“自由派叛卖百科全书”。十月革命后该群体被重划为受监控的“资产阶级专家（`спецы`）”，历经1922年“哲学船”驱逐人文异议者与1928年沙赫特案整肃，终由工农“提拔生（`выдвиженцы`）”再造为体制内苏维埃知识分子。
+俄国知识分子从伦理异议共同体向苏维埃体制群体重构。1860年代平民知识分子与拉夫罗夫奠定反专制献身传统；1909年《路标》批判激进派反法制与政治狂热，遭列宁谴责。十月后“资产阶级专家”受监控，经历1922年“哲学船”驱逐、1928年沙赫特案整肃及工农干部提拔。
 
 ## [T2] 核心脉络、时效关系边表与史学争鸣光谱
 
@@ -58,58 +53,44 @@
 - **[劳工文化史与比较工—知张力派 / Reginald E. Zelnik, S. A. Smith 1996, Mark Steinberg]**（`RN-W32-smith`; `CLM-smith-sa-1996-kruzhki-conscious-workers-and-intelligenty-tension`）：打破马哈伊斯基（Jan Machajski，“社会主义是知识分子夺权意识形态”）与派普斯（“激进知识分子操纵温顺工人”）的双重神话。S. A. Smith 通过圣彼得堡（1895–1917）与上海（1921–1927）比较证明：正因俄国工人识字率较高、“觉悟工人”厚度充足且1907年后知识分子大批脱党，布尔什维克党内爆发了远比中共剧烈的反知识分子监护冲突，促成首都基层党组织在1912–1917年由青年金属工接管；反直觉的是，这种早期冲突与20年代技术融合反而使苏联大清洗（主要吞噬党政军高官）未像中国反右与文革那样将整个城市受教育阶层单独列为首要打击对象（`RN-W32-smith` `[pp. 1–3, 50–56]`）。
 - **[社会流动、档案安全史与军事专业退化争鸣 / Sheila Fitzpatrick 1979, Oleg Mozokhin, Andrei Smirnov]**（`RN-W10`; `RN-W20`; `CLM-smirnov-red-army-commanders-vs-voenspetsy-1920s`）：菲茨帕特里克从向上社会流动视角指出，NEP时期高校“阶级配额”名存实亡与工厂基层“整专家（`спецеедство`）”积怨，为1928年沙赫特案后的“大提拔（`выдвижение`）”提供了真实社会基础，而这批工农提拔生构成了斯大林体制长达半个世纪的社会支柱；莫佐欣与斯米尔诺夫则从解密安全与军事档案揭示其惨重代价——1922年对知识界设立的法外驱逐/流放机制演化为1928年后按配额捏造“工程师破坏案”的秘密警察机器，而1924–1928年红军清洗旧军官（`военспецы`）与强推“工农化”更导致指挥员基础数理文化素养同步跌落至1917年沙俄战时步兵团水平之下。
 
-## 2. 一跳邻域等权重微摘要 (共 8 个关联节点，严防大卡霸占上下文)
-### 邻居节点: `PER-lavrov`
-- **时效关系边** (`CON-intelligentsia-and-vekhi` → `PER-lavrov` | `ethical-paradigm-founder` | 有效时段: `1868–1900`): 1868–1869《历史信札》确立“批判思维的个人”向劳动大众清偿历史债务的道德律令，奠定晚帝俄知识分子自我认同
-- **节点定性微摘要 [T1]** (完备度 `draft`): 俄国民粹派“准备派/宣传派（*lavristy*）”思想宗师与主观社会学奠基人。1823年生于普斯科夫省贵族家庭，1868–1869年发表《历史信札》，提出“批判思维的个人”对劳动人民负有沉重道德历史债务；1873年起主编《前进！》杂志，倡知识启蒙准备并批判特卡乔夫的少数派夺权；1880年代支持民意党的政治斗争。
+## 2. 一跳邻域全量微摘要目录 (去重后共 8 个节点，0 截断)
+- **`PER-lavrov`**（彼得·拉夫罗夫）: 俄国民粹派“宣传准备派（lavristy）”宗师与主观社会学奠基人。1868–1869年著《历史信札》，倡“批判思维的个人”须向人民清偿历史道德债务，感召1874年“到民间去”。1873年流亡主编《前进！》，批巴枯宁盲动并以“雅各宾社会主义者”批特卡乔夫夺权论，晚年合编《民意党通报》。 ‖ `←CON-intelligentsia-and-vekhi`[ethical-paradigm-founder|1868–1900]: 1868–1869《历史信札》确立“批判思维的个人”向劳动大众清偿历史债务的道德律令，奠… ； `→CON-intelligentsia-and-vekhi`[ethical-paradigm-founder|1868–1900]: 提出“批判思维的个人”概念，塑造晚帝俄知识分子的伦理使命感，亦埋下20世纪初工知“家长式监护”冲突伏笔
+- **`CON-narodnichestvo`**（俄国民粹主义：运动、自我认知与论战范畴）: 俄国民粹主义以人民特别是农民及村社为变革依托，却非单一教义。赫尔岑、车尔尼雪夫斯基开启先声，一八六九年形成古典民粹派；七十年代分化出政治恐怖与土地宣传两支，后经八九十年代合法论争与社革党改造。学界历来并存派普斯界定的七十年代反智“狭义”与列宁—瓦利茨基的“广义”世界观界定。 ‖ `←CON-intelligentsia-and-vekhi`[revolutionary-martyr-crucible|1870s–1881]: 民粹运动使平民知识分子从启蒙沙龙走向农村宣传与地下密谋献身，同时种下重社会平等而轻形式法…
+- **`PER-struve`**（彼得·伯恩哈多维奇·司徒卢威）: 司徒卢威从合法马克思主义者、1898年社民工党宣言起草人转向宪政与强国自由主义。1902年创办《解放》，1909年参与《路标》批判激进传统；1915年反对米留可夫妥协路线退出立宪民主党中央。内战从莫斯科全国中心转向南俄白军，1920年掌弗兰格尔政府外交，后流亡巴黎。 ‖ `←CON-intelligentsia-and-vekhi`[legal-marxist -> vekhi-critic|1894–1920]: 从1894年号召“去资本主义学校”的合法马克思主义旗手，转为1909年《路标》痛批知识界… ； `→CON-intelligentsia-and-vekhi`[vekhi-contributor|1909]: 以“反国家狂热”批判激进知识分子传统，与同侪及米留可夫、列宁均有分歧
+- **`PER-lenin`**（弗拉基米尔·列宁）: 布尔什维克党缔造者、苏俄人民委员会主席（1917–1924）。1893年投身马克思主义运动，1903年促成布尔什维克分化；1917年发表《四月提纲》并领导十月夺权，历经布列斯特和约、内战与战时共产主义；1921年主持转向新经济政策，晚年（1922–1923）就官僚化与接班人同斯大林冲突。 ‖ `←CON-intelligentsia-and-vekhi`[fierce-critic-and-pragmatic-user|1902–1923]: 1909年斥《路标》为“自由派叛卖百科全书”；执政后既强制任用并监控科技“资产阶级专家”…
+- **`PER-ustryalov`**（尼古拉·乌斯特里亚洛夫）: 俄国法学家、“路标转换派”与民族布尔什维主义创立者（1890–1937）。曾任高尔察克政府新闻局长，流亡后盛赞新经济政策为革命“热月演进”（外红内白萝卜），号召专家归国促成国家常态化。列宁十一大引述示警，反对派以“乌斯特里亚洛夫主义”攻讦右倾；1935年返苏，1937年遇害。 ‖ `←CON-intelligentsia-and-vekhi`[thermidorian-inversion-pole|1921.07–1928]: 1921年以《路标转换》反转1909《路标》母题，号召非党专家效忠重建俄罗斯疆域的苏维埃…
+- **`INS-cheka-gpu-ogpu`**（全俄肃反委员会—国家政治保卫局与总局（ВЧК–ГПУ–ОГПУ 制度档案））: 苏维埃政治警察谱系：1917年12月人民委员会内部决议创立契卡，1918年红色恐怖中央地行刑权演变；1922年改为苏俄内务部GPU，1923年设联盟OGPU，随后重建法外特别会议。机关兼事工农情绪监测与镇压，在1927年战争恐慌、沙赫特案及1928—1929年强征中作用关键。 ‖ `←CON-intelligentsia-and-vekhi`[extrajudicial-filter-and-framer|1918–1931]: 1922年借NKVD特别委员会执行“哲学船”驱逐与专家社团审查，1928年按政治局意图炮…
+- **`EVT-1928-shakhty-affair-show-trial`**（沙赫特事件与技术专家公开审判）: 1928年顿巴斯沙赫特矿区的事故与管理问题被秘密警察定性为经济破坏阴谋。莫斯科公开审判与宣传将旧技术专家的政治可靠性推上全国议程；检方求刑22人死刑，法庭判11人死刑，其中6人获减刑、5人被处决。案件既服务于高层政治动员，也与工人反专家情绪及培养工人出身新专家的政策相互作用。 ‖ `←CON-intelligentsia-and-vekhi`[rupture-of-nep-specialist-compromise|1928.03–07]: 将顿巴斯矿难政治化为旧技术专家勾结外国的阶级破坏阴谋，终结NEP专家妥协并直接触发工农干…
+- **`PER-stalin`**（约瑟夫·斯大林）: 布尔什维克高加索地下组织者、民族事务人民委员（1917–1923）及中央总书记（1922起）。依托书记处任命权与安全危机叙事，先联季-加压制托洛茨基，再联布哈林击溃联合反对派；1927–1929年以战备恐慌与“自上而下革命”击败布哈林集团，1929年12月拍板“把富农作为阶级消灭”并终结新经济政策。 ‖ `←CON-intelligentsia-and-vekhi`[architect-of-red-specialists|1928–1936]: 借1928年沙赫特案打击右倾与旧专家权威，发动工科配额“大提拔”造就忠于自身的苏维埃技术…
 
-### 邻居节点: `CON-narodnichestvo`
-- **时效关系边** (`CON-intelligentsia-and-vekhi` → `CON-narodnichestvo` | `revolutionary-martyr-crucible` | 有效时段: `1870s–1881`): 民粹运动使平民知识分子从启蒙沙龙走向农村宣传与地下密谋献身，同时种下重社会平等而轻形式法治的传统
-- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 俄国民粹主义以人民特别是农民及村社为变革依托，却非单一教义。赫尔岑、车尔尼雪夫斯基开启先声，一八六九年形成古典民粹派；七十年代分化出政治恐怖与土地宣传两支，后经八九十年代合法论争与社革党改造。学界历来并存派普斯界定的七十年代反智“狭义”与列宁—瓦利茨基的“广义”世界观界定。
-
-### 邻居节点: `PER-struve`
-- **时效关系边** (`CON-intelligentsia-and-vekhi` → `PER-struve` | `legal-marxist -> vekhi-critic` | 有效时段: `1894–1920`): 从1894年号召“去资本主义学校”的合法马克思主义旗手，转为1909年《路标》痛批知识界反国家狂热的自由保守派主将
-- **时效关系边** (`PER-struve` → `CON-intelligentsia-and-vekhi` | `vekhi-contributor` | 有效时段: `1909`): 以“反国家狂热”批判激进知识分子传统，与同侪及米留可夫、列宁均有分歧
-- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 经济学家、政论家与俄国自由派政治家。司徒卢威从1890年代的合法马克思主义者、1898年俄国社会民主工党《宣言》起草人，转向主张宪政与强大民族国家的自由主义；1902年在斯图加特创办《解放》，1909年参与《路标》，批判激进知识分子传统；1915年因反对米留可夫的妥协路线退出立宪民主党中央委员会。内战时从莫斯科“全国中心”转向南俄白军，1920年任弗兰格尔政府外交主管，后流亡并逝于巴黎。
-
-### 邻居节点: `PER-lenin`
-- **时效关系边** (`CON-intelligentsia-and-vekhi` → `PER-lenin` | `fierce-critic-and-pragmatic-user` | 有效时段: `1902–1923`): 1909年斥《路标》为“自由派叛卖百科全书”；执政后既强制任用并监控科技“资产阶级专家”，又于1922年亲自部署“哲学船”驱逐
-- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 布尔什维克党缔造者、苏俄人民委员会主席（1917–1924）。1893年投身马克思主义运动，1903年促成布尔什维克分化；1917年发表《四月提纲》并领导十月夺权，历经布列斯特和约、内战与战时共产主义；1921年主持转向新经济政策，晚年（1922–1923）就官僚化与接班人同斯大林冲突。
-
-### 邻居节点: `PER-ustryalov`
-- **时效关系边** (`CON-intelligentsia-and-vekhi` → `PER-ustryalov` | `thermidorian-inversion-pole` | 有效时段: `1921.07–1928`): 1921年以《路标转换》反转1909《路标》母题，号召非党专家效忠重建俄罗斯疆域的苏维埃国家以促成内部“热月演进”
-- **节点定性微摘要 [T1]** (完备度 `draft`): 俄国法学家、政治哲学家与流亡政论家，“路标转换派”（`сменовеховство`）与俄国“民族布尔什维克主义”（`национал-большевизм`）核心创立者。早年为立宪民主党右翼成员，1918–1919年内战期间在鄂木斯克任高尔察克白卫政府新闻局局长。1920年流亡中国哈尔滨，1921年7月参与在布拉格出版的文集《路标转换》（*Смена вех*），赞扬布尔什维克政权击败外国干涉并重新统一俄罗斯大国疆域，将新经济政策（`POL-nep`）诠释为俄国革命不可避免的“热月演进”（`Термидор` /“外红内白的萝卜”），号召白卫知识分子与非党专家停止武装对抗、同苏维埃政权合作以从内部促成其资产阶级民族国家化。列宁在 `1922-03` 俄共（布）十一大政治报告中公开引述乌斯特里亚洛夫，以此警示党内存在资本主义复辟与被旧文化征服的真实危险；在1925–1927年党内大论战中，“乌斯特里亚洛夫主义”（`устряловщина`）成为托洛茨基—季诺维也夫联合反对派攻击斯大林—布哈林路线及非党专家的核心话语武器。1935年随中东铁路出售返回苏联任教，1937年6月在大清洗中被捕并于同年9月14日被判处死刑枪决。
-
-### 邻居节点: `INS-cheka-gpu-ogpu`
-- **时效关系边** (`CON-intelligentsia-and-vekhi` → `INS-cheka-gpu-ogpu` | `extrajudicial-filter-and-framer` | 有效时段: `1918–1931`): 1922年借NKVD特别委员会执行“哲学船”驱逐与专家社团审查，1928年按政治局意图炮制沙赫特等“工程师破坏组织”案
-- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 苏维埃政治警察演进谱系（兼参 `ORG-cheka-ogpu`）。1917年12月依人民委员会内部决议创立契卡，历经1918年红色恐怖与央地行刑权演变；1922年改组为苏俄内务部下属GPU，1923年组建联盟层级OGPU并随后重建法外特别会议，一面以 *svodki* 监测工农情绪，一面在1927年战争恐慌、沙赫特案及1928—1929年强制征粮中充当核心强制机器。
-
-### 邻居节点: `EVT-1928-shakhty-affair-show-trial`
-- **时效关系边** (`CON-intelligentsia-and-vekhi` → `EVT-1928-shakhty-affair-show-trial` | `rupture-of-nep-specialist-compromise` | 有效时段: `1928.03–07`): 将顿巴斯矿难政治化为旧技术专家勾结外国的阶级破坏阴谋，终结NEP专家妥协并直接触发工农干部“大提拔”
-- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 1928年顿巴斯沙赫特矿区的事故与管理问题被秘密警察定性为经济破坏阴谋。莫斯科公开审判与宣传将旧技术专家的政治可靠性推上全国议程；检方求刑22人死刑，法庭判11人死刑，其中6人获减刑、5人被处决。案件既服务于高层政治动员，也与工人反专家情绪及培养工人出身新专家的政策相互作用。
-
-### 邻居节点: `PER-stalin`
-- **时效关系边** (`CON-intelligentsia-and-vekhi` → `PER-stalin` | `architect-of-red-specialists` | 有效时段: `1928–1936`): 借1928年沙赫特案打击右倾与旧专家权威，发动工科配额“大提拔”造就忠于自身的苏维埃技术官僚阶层
-- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 布尔什维克高加索地下组织者、民族事务人民委员（1917–1923）及中央总书记（1922起）。依托书记处任命权与安全危机叙事，先联季-加压制托洛茨基，再联布哈林击溃联合反对派；1927–1929年以战备恐慌与“自上而下革命”击败布哈林集团，1929年12月拍板“把富农作为阶级消灭”并终结新经济政策。
-
-## 3. 关联史学争鸣光谱 (Historiographical Debates)
+## 3. 关联史学争鸣与学者论断索引 (主卡外关联争鸣 3 项)
 - ⚠️ 引用了尚未创建的争鸣卡 `DEB-workers-intelligentsia-and-bolshevik-party`
 - ⚠️ 引用了尚未创建的争鸣卡 `DEB-populism-morality-and-leninism`
-### `DEB-1928-bukharin-alternative`：布哈林替代方案与新经济政策终结之争
-## [T1] 核心问题定义
-1927至1929年粮食危机与新经济政策的瓦解，是否意味着渐进工业化和工农联盟已无可行出路，还是党内权力与政策选择扼杀了布哈林的替代方案？投资、价格、农民供粮和政治动员之间的约束究竟有多强，必须把经济可行性、政治可行性与实际权力斗争分别检验。
+- **`DEB-1928-bukharin-alternative`**（布哈林替代方案与新经济政策终结之争 | `historiography/debates/DEB-1928-bukharin-alternative.md` | 流派 `nep-alternative, economic-growth, structural-dilemma, apparatus, ideology-and-mobilization, cliometrics-and-archival-reassessment`）：1927至1929年粮食危机与新经济政策的瓦解，是否意味着渐进工业化和工农联盟已无可行出路，还是党内权力与政策选择扼杀了布哈林的替代方案？投资、价格、农民供粮和政治动员之间的约束究竟有多强，必须把经济可行性、政治可行性与实际权力斗争分别检验。
 
-## [T2] 各学派立场对照矩阵
-**经验基准**：1928年粮食收购危机后领导层采用非常措施；布哈林同年批评征粮和工业化节奏，1929年四月及十一月中央全会使右派进一步失势，同年清党开除率达 `11%`（约17万人，`DATA-04-party-membership-and-congress-votes-1903-1929`）。各方都面对工业投资、粮食供给与工农社会结构约束。
+### 3.1 关联核心论断与史学家学派坐标 (`CLM-*` → `SCH-*`, 展示前 23/23 条)
+- **`CLM-berlin-1960-populism-moral-core`** [`SCH-berlin-isaiah`(以赛亚·伯林 · liberal-intellectual-history) | pp. vii-xxvi]: 
+- **`CLM-smith-sa-1996-kruzhki-conscious-workers-and-intelligenty-tension`** [`SCH-smith-sa`(斯蒂芬·A·史密斯（S. A. Smith）) | International Review of Social History, vol. 41 (1996), pp. 6–12, 18–27]: 
+- **`CLM-fitzpatrick-1979-nep-education-and-bourgeois-specialists`** [`SCH-fitzpatrick-sheila`(希拉·菲茨帕特里克) | pp. 100–101, 51–58, 74–77]: 
+- **`CLM-smirnov-red-army-commanders-vs-voenspetsy-1920s`** [`SCH-smirnov-andrei`(安德烈·阿纳托利耶维奇·斯米尔诺夫) | pp. 628-634, 670-672, 680-694]: 
+- **`CLM-fitzpatrick-1979-1928-shakhty-and-vydvizhentsy`** [`SCH-fitzpatrick-sheila`(希拉·菲茨帕特里克) | pp. 113–119, 139]: 
+- **`CLM-walicki-1969-narodnichestvo-definition`** [`SCH-walicki-andrzej`(安杰伊·瓦利茨基) | pp. 1-9, 23-28 [PDF pp. 13-21, 35-40]]: 
+- **`CLM-zelnik-1999-worker-intelligentsia-tutelage-tension`** [`SCH-smith-sa`(斯蒂芬·A·史密斯（S. A. Smith）) | pp. 6-7, 13-15, 18-27, 51-52]: 
+- **`CLM-cohen-1973-nep-viability`** [`SCH-cohen-stephen`(斯蒂芬·F·科恩) | pp. 270-276, 316-320]: 
+- **`CLM-cohen-1973-notes-of-an-economist`** [`SCH-cohen-stephen`(斯蒂芬·F·科恩) | pp. 295-296, 318-320]: 
+- **`CLM-cohen-1973-bukharin-organizational-defeat`** [`SCH-cohen-stephen`(斯蒂芬·F·科恩) | pp. 287-289, 297-301, 322-329]: 
+- **`CLM-erlich-1960-bukharin-balanced-growth`** [`SCH-erlich-alexander`(亚历山大·埃利希) | pp. 21-23 (PDF pp. 38-40)]: 
+- **`CLM-erlich-1960-preobrazhensky-dilemma`** [`SCH-erlich-alexander`(亚历山大·埃利希) | pp. 34-36, 40-41, 49-51, 170-171 (PDF pp. 51-53, 57-58, 66-68, 185-186)]: 
+- **`CLM-erlich-1960-stalin-overkill-turn`** [`SCH-erlich-alexander`(亚历山大·埃利希) | pp. 161-169, 172-177, 183-184 (PDF pp. 176-184, 187-192, 198-199)]: 
+- **`CLM-nove-1964-stalin-necessity-dilemma`** [`SCH-nove-alec`(亚历克·诺夫) | pp. 20-26, 32]: 
+- **`CLM-kotkin-2014-bukharin-dilemma`** [`SCH-kotkin-stephen`(斯蒂芬·科特金) | EPUB Coda (OEBPS/9780698170100_EPUB_1-25.xhtml) & Ch. 14 (OEBPS/9780698170100_EPUB_1-24.xhtml)]: 
+- **`CLM-fitzpatrick-1978-anti-bukharin-ideological-offensive`** [`SCH-fitzpatrick-sheila`(希拉·菲茨帕特里克) | pp. 11–14, 20–21]: 
+- **`CLM-khlevniuk-2015-defeat-of-right-opposition`** [`SCH-khlevniuk-oleg`(奥列格·赫列夫纽克) | EPUB ops/xhtml/ch03.html（His Revolution 开篇至全盘集体化的 1929 年 11 月宣布）。工作区文本无纸质页码。]: 
+- **`CLM-priestland-2007-1928-mobilization-turn-against-bukharin`** [`SCH-priestland-david`(大卫·普里斯特兰) | pp. 234–237; 291–296]: 
+- **`CLM-merridale-1990-uglanov-moscow-collapse`** [`SCH-merridale-catherine`(凯瑟琳·梅里代尔) | pp. 53-64]: 
+- **`CLM-davies-festschrift-1995-nep-statistics-and-planning-debates`** [`SCH-hunter-holland`(霍兰·亨特 · cliometrics) | pp. 18-21, 82-94, 218-226]: 
+- **`CLM-bukharin-preobrazhensky-equilibrium-vs-accumulation-zh`** [`SCH-liu-wei-ping-xinqiao`(刘伟与平新乔 · chinese-political-economy) | 原刊 pp. 92–99 (PDF pp. 1–8；英文提要 pp. 127–128 / PDF pp. 9–10)]: 
+- **`CLM-zemskov-2018-archival-constraints-and-party-radicalism`** [`SCH-zemskov-viktor`(维克托·尼古拉耶维奇·泽姆斯科夫) | 馆藏中文PDF pp. 2–4, 7–10；非俄文原版纸页]: 
+- **`CLM-sakharov-2012-nep-crossroads-1928`** [`SCH-sakharov-valentin`(瓦连京·萨哈罗夫) | EPUB Ch. 4.2 & Ch. 4.3]: 
 
-| 学派/取向 | 代表学者与著作 | 核心论点摘要 | 支撑论断卡 | 主要受批评盲点 |
-| :--- | :--- | :--- | :--- | :--- |
-| 新经济政策替代论 | Stephen Cohen, *Bukharin and the Bolshevik Revolution* (1973) | 市场、合作社和渐进工业化提供可争论的替代路径；组织机器与政治斗争使该路线失败。 | `CLM-cohen-1973-nep-viability`；`CLM-cohen-1973-notes-of-an-economist`；`CLM-cohen-1973-bukharin-organizational-defeat` | 可构想的经济路径不自动证明可获得党内多数或满足高投资目标。 |
-| 工业化经济思想史 | Alexander Erlich, *The Soviet Industrialization Debate* (1960) | 布哈林平衡增长与普列奥布拉任斯基积累方案共同面对投资约束；强制全盘集体化非各派原有共同结论。 | `CLM-erlich-1960-bukharin-balanced-growth`；`CLM-erlich-1960-preobrazhensky-dilemma`；`CLM-erlich-1960-stalin-overkill-turn` | 模型不能单独解决权力、执行和国际冲击问题。 |
-| 经济结构与政策选择 | Alec Nove, *Was Stalin Really Necessary?* (1964) | 提出“条件性必然”与“1927年NEP死胡同（cul-de-sac）”：给定布尔什维克保住一党政权、拒绝斯托雷平式富农资本主义与高速重工业化三大前提，布哈林市场渐进路径存在内在政治经济不一致；但仍须区分发展目标与强制手段。 | `CLM-nove-1964-stalin-necessity-dilemma` | 反事实替代方案的实施条件难以在单线历史中完全检验（详见下栏 KAPROST 交锋）。 |
-| 意识形态与政治能动性 | Stephen Kotkin, *Stalin*, Vol. 1 (2014)；Sheila Fitzpatrick, *The Russian Cultural Revolution (1928–1931)* (1978) | 市场发展与党内阶级政治构成张力，斯大林西伯利亚干预使危机转向不能仅由结构推导；“文化革命”动员更将政治局右派、教育人民委员部温和派与沙赫蒂案连成“右倾危险”连续体。 | `CLM-kotkin-2014-bukharin-dilemma`；`CLM-fitzpatrick-1978-anti-bukharin-ideological-offensive` | 科特金第一卷叙事止于1928年底；宣传建构的意识形态连续体亦不能直接等同右派成员一致的文化纲领。 |
-| 组织与动员政治 | Oleg Khlevniuk, *Stalin* (2015)；David Priestland, *Stalinism and the Politics of Mobilization* (2007)；Catherine Merridale, *Moscow Politics and the Rise of Stalin* (1990) | 干部控制、反右“复兴主义”动员与乌格拉诺夫莫斯科地方权力瓦解共同决定布哈林集团败局。 | `CLM-khlevniuk-2015-defeat-of-right-opposition`；`CLM-priestland-2007-1928-mobilization-turn-against-bukharin`；`CLM-merridale-1990-uglanov-moscow-collapse` | 组织性胜利并不单独证明任一经济路线的长期优劣。 |
-| 反事实计量与改革经济学 | Holland Hunter / R. W. Davies / 谷内融，*戴维斯纪念文集* (1995)；刘伟、平新乔，《平衡与非平衡：布哈林与普列奥布拉仁斯基之争》（1989，B级） | 亨特借 KAPROST 模型论证非集体化 NEP 本可成功，但戴维斯（1994）反驳1928年市场已遭行政扰乱，谷内融1929年1—6月政治局档案证实非常措施演变为全国体制；刘伟、平新乔将布氏重估为“短缺经济学”先驱，指出斯大林采纳了普氏非均衡配额内核。 | `CLM-davies-festschrift-1995-nep-statistics-and-planning-debates`；`CLM-bukharin-preobrazhensky-equilibrium-vs-accumulation-zh`（B级） | KAPROST 假设重工业高积累下农民仍配合市场；刘、平一文沿用中译“81亿金卢布”误植数字，引用须剔除该数。 |
-| 后苏联档案重估 | Viktor Zemskov（维克托·泽姆斯科夫），《斯大林时代》（2018，B级）；Valentin Sakharov（瓦连京·萨哈罗夫），《站在十字路口》（2012） | 泽姆斯科夫指出布哈林渐进合作化在内战记忆塑造的党员群体中缺乏政治亲和力；萨哈罗夫从反布哈林修正派立场论证2,400万碎片化小农难以支撑工业国防，MTS 与集体化是避免“斯托雷平第二版”的战略决断。 | `CLM-zemskov-2018-archival-constraints-and-party-radicalism`（B级）；`CLM-sakharov-2012-nep-crossroads-1928` | 泽氏未提供党员心态系统统计且沿用中译稿（B级）；萨哈罗夫的国家理性辩护淡化了强制集体化后的农业灾难与清洗恶果。 |
-
-## 4. 关联时间线锚点 (共 0 条)
+## 4. 关联时间线骨干锚点 (L0–L2 展示 0 条)

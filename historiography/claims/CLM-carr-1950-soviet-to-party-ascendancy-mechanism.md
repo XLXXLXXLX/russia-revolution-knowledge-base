@@ -7,8 +7,8 @@ publication_year: 1950
 source_tier: A
 local_source_path: "sources/monographs/carr_1950_bolshevik_rev_v1_en/ch08_pages_201-225.md#L1180-L1200; sources/monographs/carr_1950_bolshevik_rev_v1_en/ch09_pages_226-250.md#L66-L95, #L219-L489"
 original_pages: "pp. 148, 177, 193-232"
-targets_cards: ["ORG-sovnarkom", "ORG-vtsik", "ORG-politburo", "ORG-rcp-b", "POL-1918-rsfsr-constitution"]
-debate: DEB-bolshevik-party-state-origins
+targets_cards: ["INS-sovnarkom-and-vtsik", "INS-politburo-orgburo-secretariat", "ORG-bolsheviks-rcpb-vkpb"]
+debate: DEB-1918-constituent-assembly-and-soviet-democracy
 supports: []
 rebuts: []
 qualifies: []

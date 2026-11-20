@@ -7,7 +7,7 @@ publication_year: 2012
 source_tier: A
 local_source_path: "sources/monographs/sakharov_2012_crossroads/ch12_4_2_布哈林的替代方案_独特道路_曲解列宁_批判马克思.md#L318-L400"
 original_pages: "EPUB Ch. 4.2 & Ch. 4.3"
-targets_cards: ["PER-stalin", "PER-bukharin", "POL-nep", "EVT-1928-grain-crisis", "MTG-1929-04-cc-plenum"]
+targets_cards: ["PER-stalin", "PER-bukharin", "POL-nep", "EVT-1928-grain-procurement-crisis", "MTG-1929-04-cc-joint-plenum"]
 debate: DEB-1928-bukharin-alternative
 supports: []
 rebuts: []

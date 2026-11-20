@@ -1,14 +1,14 @@
 ---
 id: CLM-kollontai-1921-workers-opposition-critique-of-bureaucracy-and-specialists
 type: claim
-scholar: PER-kollontai
+scholar: SCH-kollontai-alexandra
 work_title: "The Workers' Opposition"
 publication_year: 1921
 source_tier: S
 local_source_path: "sources/primary/kollontai_1921_workers_opposition/ch00_pages_1-25.md#L40-L487; ch00#L1039-L1153; ch01_pages_26-30.md#L35-L59"
 original_pages: "PDF pp. 2-11, 22-27"
-targets_cards: ["PER-kollontai", "ORG-workers-opposition", "MTG-1920-9th-congress", "MTG-1921-10th-congress", "CON-edinonachalie", "CON-samodeiatelnost", "POL-war-communism"]
-debate: DEB-1921-party-bureaucracy-and-workers-opposition
+targets_cards: ["PER-kollontai", "ORG-workers-opposition", "DEB-1921-trade-union-controversy-and-party-unity", "MTG-1921-rcpb-10th-congress", "CON-democratic-centralism-and-vanguard", "POL-war-communism"]
+debate: DEB-1921-trade-union-controversy-and-party-unity
 supports: []
 rebuts: []
 qualifies: []

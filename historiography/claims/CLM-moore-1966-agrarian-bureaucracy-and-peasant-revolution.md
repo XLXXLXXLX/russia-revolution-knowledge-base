@@ -1,7 +1,7 @@
 ---
 id: CLM-moore-1966-agrarian-bureaucracy-and-peasant-revolution
 type: claim
-scholar: SCH-barrington-moore
+scholar: SCH-moore-barrington
 work_title: "Social Origins of Dictatorship and Democracy: Lord and Peasant in the Making of the Modern World"
 publication_year: 1966
 source_tier: A

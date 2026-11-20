@@ -1,178 +1,122 @@
-# 1-Hop 平衡上下文包：`EVT-1928-grain-procurement-crisis` (1927冬–1929年粮食收购危机)
+# 1-Hop 去重平衡上下文包：`EVT-1928-grain-procurement-crisis`
 
-> 本文件由 `python scripts/kb.py pack` 自动编译，旨在将失控的 `1+N` 随机读取压缩为**等权重、带时效边实质与史学盲区告警**的单次全景读取。
+> 由 `python scripts/kb.py pack` 动态编译：保留 **100% 一跳邻居与多时段关系边**，跨卡自动去重争鸣与时间线，并关联学者学派 (`SCH-*`)。
 
-## 0. 认知完备度与反偏斜仪表盘 (Epistemic & Skew Warnings)
-- **主卡路径**: `cards/events/EVT-1928-grain-procurement-crisis.md`
-- **完备度等级**: `draft`
-- **已覆盖视角**: `revisionist-political, peasant-social, economic-institutional, archival-biographical, grassroots-mentalite`
-- **待补齐视角**: `totalitarian-school-pipes-conquest, peasant-petition-and-letter-archives`
-- **偏斜风险提示**:
-  - ⚠️ 主卡当前完备度为 `draft`，尚未达到多源交叉核实定稿状态。
-  - ⚠️ 主卡显式声明尚缺以下视角待补: `totalitarian-school-pipes-conquest, peasant-petition-and-letter-archives`。
+## 0. 认知完备度与反偏斜仪表盘
+- **`EVT-1928-grain-procurement-crisis`** (1927冬–1929年粮食收购危机 | `cards/events/EVT-1928-grain-procurement-crisis.md` | `multi-perspective`): 已覆盖=`revisionist-political, peasant-social, economic-institutional, archival-biographical, grassroots-mentalite, post-soviet-archival-statistics, gendered-industrial-mobilization`；待补=`totalitarian-school-pipes-conquest, peasant-petition-and-letter-archives`
 
 ## 1. 主卡核心层 ([T1] + [T2])
-## [T1] 60秒定性微摘要
-以 `1927-10-01`（1927/28粮食收购统计年度期界起点，非单日突发事件）至 `1929-12-27`（斯大林宣布“消灭富农阶级”演说日）为期界的引发新经济政策（NEP）终结的体制性危机。工业品荒、农牧收购比价失衡及1927年战争恐慌引发农民惜售，国家收购量在11–12月暴跌；斯大林定性为“富农罢卖”，借刑法第107条与“乌拉尔—西伯利亚方法”推行强制征粮，击败布哈林右派并在1929年底转向全盘集体化。
+## [T1] 150字定性微摘要
+1927年秋冬国家收粮锐减，相对价格、工业品荒与战争恐慌共同削弱售粮意愿。1928年非常措施及随后村社摊派把交换危机转为强制征购和党内路线冲突；布哈林等反对者逐步失势，至1929年底转向全盘集体化。粮食总产、商品粮与国家采购须分开衡量。
 
-## [T2] 核心脉络、时效关系边表与史学争鸣光谱
+## [T2] 核心脉络、关系网络与史学争鸣
 
 ### 2.1 核心历史脉络
-- **第一阶段：1927年秋冬收购崩盘与多重诱因叠加（1927.10–1927.12）**：尽管1927年苏联农业总体丰收，但自1927/28收购年度（`1927-10-01` 统计期界起算）进入秋冬后，国家粮食收购量较上年同期急剧下滑（据 `DATA-03`，10月收购104万吨对上年152万吨，11月64.5万吨对上年157万吨，12月59.9万吨对上年146万吨，11–12月收购量不足上年同期一半）。危机由三重结构性与政策性冲击叠加而成：
-  1. **价格剪刀差与农牧比价扭曲**：国家在1926/27年度下调谷物官方收购价，同时大幅提高畜产品与经济作物价格，诱使农民将余粮充作饲料或留存；
-  2. **1927年春夏季“战争恐慌”与工业品荒（Goods Famine）**：1927年5月英苏断交引发的战争恐慌导致城乡居民在春季抢购盐、煤油、铁器与布匹，到秋季新粮上市时国营合作社货架早已空空如也（米高扬在联共十五大公开承认），农民手握4.5亿卢布现金却买不到工业品；
-  3. **联共十五大（1927.12）的政治盲视**：忙于粉碎托季联合反对派的党领导层对迫在眉睫的收购赤字迟钝麻木，直至1927年底城市口粮、红军补给与工业设备进口外汇同时告急。
-- **第二阶段：斯大林西伯利亚之行与“非常措施”（刑法第107条）（1928.01–1928.06）**：`1928-01-06`，斯大林向地方发出强硬指令，并于 `1928-01-15` 至 `02-06` 亲自赴乌拉尔与西伯利亚督战。`1928-01-20` 在新西伯利亚党政干部会议上，斯大林将危机定性为“富农蓄意破坏（富农罢卖）”，下令动用苏俄刑法第107条（反投机法）没收余粮、关闭农村集市、强摊农民公债，并首次明确提出唯一出路是搞集体农庄与国营农场。然而两套核心统计与史学口径均表明商品粮主体并非富农：据卡尔与戴维斯引述的涅姆钦诺夫统计表（见 `DATA-03`），1926/27年度全苏 **74.0% 的商品粮来自中农与贫农合计**（富农仅占20%，国营与集体农庄占6%）；而据莫舍·勒温论断卡（`CLM-lewin-peasants-1968-grain-procurement-crisis`）估算，**75%–80% 的商品粮掌握在中农（`serednyak`）手中**（两套统计分母口径不同，不可混焊为单一区间）。因此，所谓“打击富农”迅速演变为针对广大中农与产粮农民的战时余粮收集制（`prodrazverstka`）复活，引发农村恐慌与春耕缩减。
-- **第三阶段：1928年7月中央全会摊牌、“贡赋论”与布哈林右派反抗（1928.07–1928.11）**：在 `1928-07-04` 至 `07-12` 联共中央全会上，面对布哈林、李可夫、托姆斯基对非常措施的强烈抗议，斯大林一方面口头同意取消非常措施、略微上调粮价，另一方面抛出著名的“贡赋”（`dan'`，即超额税）理论与“社会主义越前进，阶级斗争越尖锐”论断。随着政治局内加里宁、伏罗希洛夫倒向斯大林，惊恐的布哈林于 `1928-07-11` 在索科尔尼科夫陪同下密会加米涅夫，痛斥斯大林路线是“军事封建剥削”，并于 `1928-09-30` 在《真理报》发表《一个经济学家的札记》作公开理论抗争；但斯大林在1928年10–11月迅速夺取乌格拉诺夫的莫斯科市委并孤立右派。
-- **第四阶段：“乌拉尔—西伯利亚方法”与1929年底全盘集体化大转折（1928冬–1929.12）**：由于1928年乌克兰与北高加索旱灾及农民消极抵制（缩减播面、屠宰牲畜），1928年秋冬危机再度恶化。斯大林推广“乌拉尔—西伯利亚方法”：据勒温论断卡（`CLM-lewin-peasants-1968-ural-siberian-method`）转述（具体制度细则与专书页码待回核），党全权代表利用村民大会（`skhod`）无法定人数限制的规则，操纵贫农投票将高额交粮定额强加给“富农与富裕中农”，辅以五倍罚款（`pyatikratka`）、刑法第61条第3款（财产拍卖与流放）及清洗村苏维埃主席（勒温论断卡转述比例为82%，国家粮食储备仍较上年下降20%）。强制征粮的恶性循环最终促使斯大林在1929年11月中央全会与 `1929-12-27` 演说中宣布“消灭富农阶级”与“全盘集体化”。
 
-### 2.2 时效关系摘要边表（Typed & Temporalized Edges）
-| 关联节点 ID | 关系类型 | 有效时段 | 一句话关系实质摘要（防 N+1 盲跳） | 核心依据/争鸣 |
+**秋冬收购骤降，而非“没有粮食”的同义词（1927）**。1927年10—12月国家采购分别为104万、64.5万、59.9万吨，上年同期为152万、157万、146万吨；11—12月均不足上年同期一半（`DATA-03-1926-1929-grain-procurement-and-nemchinov-table`；至1927年底国家收购较上年累计短缺约1.28亿普特／约209–210万吨，L3 `1928-01`）。本卡1927年10月1日起点只是秋季危机观察窗，不是农业年度统一起点或单日爆发日，亦不沿用“1927年总体丰收”作为未经分区核定的前提。谷物总产、运出农村的商品粮、国家所购粮及出口粮各有不同分母；国家一时收不到粮，不等于农村没有存粮，更不直接证明一个政治阶层协调罢卖。
+
+Carr与Davies强调谷物相对畜产品、经济作物的低官价，农村现金增加、税负变化和工业消费品短缺，使农民可通过售畜等途径取得现金而减少售粮。1927年战争恐慌又促使居民提前抢购和留存粮货；Velikanova以OGPU舆情材料重建这种心理环境，但报告记录的是被机关发现和分类的言行，不是全体农民投票。国家城市口粮、军队供应及外贸／工业进口需求同时增长，使市场交易困难成为政治危机。
+
+**第107条与西伯利亚督粮（1928年1—春季）**。1928年1月6日政治局签发斯大林起草的绝密督粮通令后，1月12日高层分兵（什维尔尼克赴乌拉尔、米高扬赴北高加索），斯大林本人1月15日至2月6日秘密巡视西伯利亚（Cohen 泛写“乌拉尔和西伯利亚”，实行程为新西伯利亚、巴尔瑙尔、鲁布佐夫斯克、鄂木斯克及克拉斯诺亚尔斯克），1月20日新西伯利亚闭门讲话把问题归为“富农”操纵并强令适用刑法第107条。没收、搜查、封市和行政压力波及中农，显露“打击少数阶级敌人”与依赖普通产粮农户之间的矛盾。Kotkin将讲话解释为列宁主义阶级逻辑中的转折，同时承认此时没有全盘集体化的现成操作蓝图；不能把1929年底全国性跃进的完整规则倒填为1928年1月已定案（`CLM-kotkin-2014-siberian-grain-turn`）。
+
+1928年5月28日斯大林《在粮食战线上》援引涅姆奇诺夫表，将战前商品率26%与1926/27年的13.3%对照，主张大型集体生产。该近似表同时列中贫农贡献商品粮74%、富农20%、国营和集体农庄6%；它不支持富农掌握全部商品粮。表的阶层分组、家庭分裂和口粮改善也影响前后比较，Carr—Davies据此批判简单的“富农罢卖”诊断。Lewin另估中农掌握75%—80%的商品粮，类别和推算口径有别，不能把两数熔成“中农占74%—80%”这一伪精确区间。
+
+**7月妥协与右翼逐渐失去组织阵地（1928年7—11月）**。同期并行的沙赫特技术专家案（1928年3—7月）与征粮危机共振，7月9日5名死刑犯枪决正与斯大林七月全会“贡赋”暨“阶级斗争尖锐化”演说同日，而布哈林、托姆斯基三月附和抓捕削弱了同古比雪夫、奥尔忠尼启则的制衡联盟（`EVT-1928-shakhty-affair-show-trial`）。7月4—12日中央全会在非常措施造成的冲突中承诺避免重复，粮价调整与“贡赋”辩论并存。斯大林7月9日为工业化通过城乡价格抽取类似贡税作辩护；这是参与者的政策论证，不是已经完成的国民收入转移核算。布哈林7月11日密会加米涅夫、9月30日发表《一个经济学家的札记》，同李可夫、托姆斯基反对强制及过量投资。莫斯科乌格拉诺夫阵地在秋季瓦解，莫洛托夫11月接任；不能把10月地方干部清洗与正式接任合成同日。Cohen、Merridale与Apalkov分别解释理论替代、基层疏离、人事权和“党的统一”规则怎样约束右翼。
+
+**1928—1929年冬危机、1929年制度强化与年底转向**。减收、作物分布及交售意愿变化使下一轮收购困难持续。Lewin所述乌拉尔—西伯利亚方法以村社摊派和“自下而上压力”包装国家指标，配合合作社断供、五倍罚款；五倍罚款的授权与刑法第61条第3款修订分别推进至1929年4月、6月。不能将这套成熟组合统称为1928年1月第107条的原样实施，也不能把“1928至1930年3月间撤换82%村苏维埃主席”压缩成1929年一年的数据（`CLM-lewin-peasants-1968-ural-siberian-method`）。
+
+1929年4月联席全会、随后计划批准与秋季指标跃升压缩了温和路线。11月10—17日中央全会将布哈林逐出政治局并警告李可夫、托姆斯基（25日三人签署检讨、26日见报），12月委员会仍就速度、退社权、消费牲畜及富农处理争论；12月25日斯大林否决草案，27日公开宣布消灭富农阶级，具体过程由 `EVT-1929-great-turn-and-dekulakization-launch` 承接。至12月25日当季累计征购13,616,151吨、上年同期6,345,277吨，是强制政策下的另一个年度截面，不能同1927年秋月度数直接相减。征粮专项逮捕49,068人与其他OGPU办案条线也不得相加（DATA-06）。
+
+工业化还在重组城市劳动供给。N. D. Arapovich所载1929年重工业女工招募与技术教育配额，显示资源动员不只发生在乡村；这是同时期工业化政策的一面，不能据此证明收购暴力的必要性、女性已获平等或农民外流已被全部吸收。
+
+### 2.2 核心关系网络（结构化边表）
+
+| 目标节点 ID | 关系类型 | 有效时段（公历） | 关系实质摘要 | 核心依据 |
 | :--- | :--- | :--- | :--- | :--- |
-| `PER-stalin` | `leads` | 1928.01–1929.12 | 亲赴西伯利亚督战，将危机定性为“富农罢卖”，推行刑法第107条、贡赋论与乌拉尔—西伯利亚方法直至全盘集体化。 | `CLM-kotkin-2014-siberian-grain-turn`, `CLM-lewin-peasants-1968-ural-siberian-method` |
-| `PER-bukharin` | `opposes` | 1928.02–1929.11 | 痛斥非常措施与“贡赋论”为军事封建剥削，发表《一个经济学家的札记》捍卫NEP动态平衡，但遭组织挫败。 | `CLM-cohen-1973-july-1928-plenum-and-kamenev`, `CLM-cohen-1973-notes-of-an-economist` |
-| `PER-rykov` | `opposes` | 1928.02–1929.11 | 作为人民委员会主席在政治局与1928年7月全会上力主取消非常措施、恢复市场价格激励与局部进口谷物。 | `CLM-cohen-1973-bukharin-organizational-defeat` |
-| `PER-sokolnikov` | `participates_in` | 1928.07 | 主张通过外贸与价格杠杆化解危机，并于1928年7月11日陪同布哈林前往加米涅夫寓所密谈反斯大林同盟。 | `CLM-kotkin-2014-bukharin-dilemma` |
-| `PER-uglanov` | `opposes` | 1928.01–1928.10 | 在莫斯科公开反对打击“亲爱的小富农”与重工业冒进，1928年10月因此被斯大林改组夺取莫斯科市委。 | `CLM-merridale-1990-uglanov-moscow-collapse` |
-| `PER-molotov` | `leads` | 1928.01–1929.12 | 斯大林推行非常措施与乌拉尔—西伯利亚方法的头号执行官，督战清洗温和派地方干部并接管莫斯科市委。 | `CLM-lewin-peasants-1968-ural-siberian-method` |
+| `PER-stalin` | `coercive_policy_and_class_diagnosis` | 1928.01—1929.12 | 推动第107条征购、贡赋辩护与集体化转向，操作方案仍逐步形成 | Kotkin；Zemskov；原典 |
+| `PER-bukharin` | `alternative_policy_and_defeat` | 1928—1929.11 | 主张动态平衡与农民激励，反对非常措施并在组织斗争中失势 | Cohen；Erlich |
+| `PER-rykov` | `governmental_criticism` | 1928—1929 | 在政府及全会中反对强制、争取恢复农业与调整政策 | Cohen；Apalkov |
+| `PER-tomsky` | `right_opposition_ally` | 1928—1929 | 反对强制征粮并被清洗出工会领导层，1929年11月遭警告并与布、李联署检讨 | `MTG-1929-04-cc-joint-plenum`；`MTG-1929-11-cc-plenum` |
+| `PER-sokolnikov` | `market_and_external_trade_alternative` | 1928.07 | 参与布哈林—加米涅夫接触，市场和外贸方案须同其失去财政职位的时段区分 | Kotkin；Cohen |
+| `PER-uglanov` | `moscow_organizational_loss` | 1928年秋 | 温和农业路线未能克服基层疏离及人事网络弱点 | `CLM-merridale-1990-uglanov-moscow-collapse` |
+| `PER-molotov` | `organizational_and_policy_enforcement` | 1928—1929 | 参与多数派干部更替及强硬征购推进，11月接掌莫斯科 | Merridale；村庄悲剧档案 |
+| `POL-ural-siberian-method` | `institutionalized_procurement_pressure` | 1928—1929年冬至1929 | 村社摊派及随后罚款、刑法制裁组合，不同于第107条单项措施 | `CLM-lewin-peasants-1968-ural-siberian-method` |
+| `INS-cheka-gpu-ogpu` | `information_and_repression` | 1927—1929 | OGPU既提供农村情绪报告，也执行政治与征粮案件 | DATA-06；Velikanova |
+| `POL-first-five-year-plan` | `industrial_demand_and_policy_acceleration` | 1928—1929 | 投资及供给约束与农业资源提取相连，不证明特定手段不可替代 | Erlich；Zemskov |
+| `POL-nep` | `market_framework_undermined` | 1927—1929 | 以市场结合为主的制度逐步被行政交售和集体化替代 | `DEB-1928-bukharin-alternative` |
+| `EVT-1923-scissors-crisis` | `earlier_exchange_tension` | 1923／1927—1929 | 相对价格和购买力失衡有前史，不能等同两轮危机的政策结局 | DATA-02与DATA-03分口径对读 |
+| `EVT-1928-shakhty-affair-show-trial` | `parallel_political_track` | 1928.03—07 | 沙赫特案与粮食危机在四月、七月全会并行升级，重塑反右阵线 | 沙赫特事件卡；L3 `1928-01` |
+| `MTG-1929-04-cc-joint-plenum` | `right_line_condemned` | 1929.04.16—23 | 联席全会定性“布哈林右倾路线”并核准加速指标，压制温和替代空间 | 四月联席全会卡；L3 `1928-1929` |
+| `MTG-1929-11-cc-plenum` | `right_defeat_and_turn` | 1929.11.10—17 | 逐出布哈林、警告李可夫与托姆斯基（25日联署检讨），接通全面集体化转向 | 十一月全会卡；L3 `1928-1929` |
+| `EVT-1929-great-turn-and-dekulakization-launch` | `policy_escalation` | 1929年夏冬 | 收购危机与高指标、右翼败亡及阶级消灭宣告交汇 | 村庄悲剧；Davies |
 
-### 2.3 史学争鸣光谱：五方核心论断交锋（Five-School Historiographical Matrix）
-1. **斯蒂芬·科恩（Stephen F. Cohen, 1973）——政治传记与“布哈林替代方案”生命力论**：
-   - 科恩在《布哈林与布尔什维克革命》中坚决反驳“新经济政策到1927年已走入死胡同”的决定论。他认为1927年底的粮食危机并非源于NEP不可克服的结构性破产，而是源于国家计划失当、对谷物人为压价的“疯人院价格政策”（'madhouse' price policies）以及重工业投资过热造成的暂时性比例失调与商品荒。布哈林在《一个经济学家的札记》中提出的动态经济平衡方案完全具备现实可行性；右派的失败不是经济理论的破产，而是因为布哈林等人被党纪束缚于高层密室，敌不过斯大林掌控的中央书记处“影子政府”（参见 `CLM-cohen-1973-nep-viability`、`CLM-cohen-1973-july-1928-plenum-and-kamenev`、`CLM-cohen-1973-notes-of-an-economist`、`CLM-cohen-1973-bukharin-organizational-defeat`）。
-2. **莫舍·勒温（Moshe Lewin, 1968）——农村社会结构与“富农神话”解构论**：
-   - 勒温在《俄国农民与苏维埃政权》中从农村阶级结构出发，指出苏维埃时代的所谓“富农”（`kulak`）不过是“中农（`serednyak`）的放大版”，两者在粮价与工业品供应上利益完全一致。据其论断卡转述（未逐页回专书核对），由于75%–80%的商品粮实际上掌握在中农手中，斯大林将“富农与富裕分子（`zazhitochny`）”捆绑打击的刑法第107条及1928–1929年冬的“乌拉尔—西伯利亚方法”（含清洗82%村苏维埃主席，而国家粮食储备仍较上年低20%），从一开始就不可避免地演变为对中农主体的掠夺，直接摧毁了农民扩大再生产的意愿，形成“越抢粮越少、越少越全盘集体化”的恶性螺旋（参见 `CLM-lewin-peasants-1968-kulak-myth-and-serednyak`、`CLM-lewin-peasants-1968-grain-procurement-crisis`、`CLM-lewin-peasants-1968-ural-siberian-method`）。
-3. **E. H. 卡尔与 R. W. 戴维斯（Carr & Davies, 1969）——定量经济史、价格剪刀差与“涅姆钦诺夫表”考据论**：
-   - 卡尔与戴维斯在《计划经济的基础（1926–1929）》中用详尽的财政与价格数据还原了危机的微观机制：1926/27年度国家下调谷物价格却上调畜产品与技术作物价格，叠加1927年8–10月3亿卢布季节性工资流入农村（农村现金储备暴增至4.5亿卢布）、农业税减免13%以及行政强压工业品零售价引发的国营商店抢购一空，使农民既无卖粮换钱的紧迫感，又无货可买。更关键的是，他们彻底解构了斯大林1928年5月28日引用的统计学家涅姆钦诺夫（V. S. Nemchinov）表格：虽然由于农户（`dvor`）从战前1,600万户裂变为2,560万户及农民自身消费改善，粮食综合商品率从战前26%降至13.3%，但该表恰恰证明1926/27年度**74%的商品粮来自中农与贫农**（富农仅占20%），从而在实证上粉碎了斯大林的“富农罢卖论”——真正的矛盾是全体产粮农民与国家超高速工业化积累机器之间的结构性冲突（参见 `CLM-carr-davies-1969-grain-price-scissor-1927`、`CLM-carr-davies-1969-nemchinov-table-critique`；另参看 `CLM-erlich-1960-stalin-overkill-turn` 与 `CLM-nove-1964-stalin-necessity-dilemma`）。
-4. **斯蒂芬·科特金（Stephen Kotkin, 2014）——布尔什维克意识形态死结与专制决断论**：
-   - 科特金在《斯大林：权力的悖论》中承认1927年冬危机是布尔什维克自身价格与投资政策造成的“自残式危机”（self-induced crisis），但他同时否定科恩的“布哈林替代方案”。据科特金论断卡转述（未逐页回专书核对），在全体布尔什维克（包括布哈林）共享的列宁主义阶级世界观中，“新经济政策如果取得成功就必然失败”（the NEP had to fail if it succeeded）——因为最有效率、最能提供商品粮的约200万户8公顷以上农户在布尔什维克眼中正是“正在生长的农村资产阶级（富农）”。面对这一“阶级恶性循环”（class-based vicious circle），斯大林在 `1928-01-20` 新西伯利亚讲话中并非基于现成蓝图，而是出于真诚的列宁主义阶级焦虑与地缘安全冲动，用专制暴力把原本不可能的全盘集体化变成了既成事实（参见 `CLM-kotkin-2014-siberian-grain-turn`、`CLM-kotkin-2014-bukharin-dilemma`）。
-5. **奥尔加·韦利卡诺娃（Olga Velikanova, 2013）——1927年战争恐慌、OGPU 舆情密报（Svodki）与基层失败主义论**：
-   - 韦利卡诺娃在《大众视野中的苏联1927年战争恐慌》中补齐了纯经济史长期忽视的社会心理与国家安全维度：正是1927年春夏季由高层演讲与5月英苏断交引爆的“战争恐慌”（War Scare），导致民众在春季掀起恐慌性抢购狂潮，在秋收前就彻底耗尽了国家工业消费品储备，并于秋季引发农民为备战而囤积余粮。更深层的是，据韦利卡诺娃论断卡转述（未逐页回专书核对），OGPU 密报（`svodki`，仅1927年6–8月就记录了7,269起失败主义事件）显示，广大农民非但不愿保卫苏维埃政权，反而普遍流传“等待外敌入侵、领到步枪后掉转枪口清算苏维埃干部”的失败主义谣言。这种“后方农民将在战时背叛政权”的真实安全恐惧，促使斯大林在1928年作出“与其在战时同时面对波兰人和俄国庄稼汉（`muzhik`）两线作战，不如现在先彻底制服农民”的战略决断（参见 `CLM-velikanova-2013-war-scare-hoarding-and-grain-crisis`、`CLM-velikanova-2013-peasant-defeatism-rumors`、`CLM-velikanova-2013-leadership-manipulation-and-self-deception`）。
-- **待补入库的缺失视角（列于 `perspectives_missing`）**：理查德·派普斯 / 罗伯特·康奎斯特（Richard Pipes / Robert Conquest）式的极权主义学派解释，以及直接反映农民自身声音的农村基层诉愿与信件档案（如《农民致政权书信集》等一手档案）。
+### 2.3 主要史学争鸣与多流派解释
 
-## 2. 一跳邻域等权重微摘要 (共 18 个关联节点，严防大卡霸占上下文)
-### 邻居节点: `POL-nep`
-- **时效关系边** (`EVT-1928-grain-procurement-crisis` → `POL-nep` | `shattered` | 有效时段: `1927.11-1929.11`): 价格扭曲、商品荒与1927战争恐慌囤粮引发国家收购暴跌，斯大林诉诸第107条与乌拉尔-西伯利亚强制征粮，彻底摧毁新经济政策市场基础。
-- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 1921年春在农村起义、城市工潮与喀琅施塔得危机倒逼下逐步确立、取代战时共产主义的混合经济体制。以固定实物税（后改货币税）取代余粮收集制，渐次放开城乡市场与小私营商业（耐普曼），由国家掌控大工业、银行、运输与外贸“制高点”；1928–1929年在收购危机与政治转向中逐步瓦解。
+**经验事实层**：秋冬采购下降、1928年非常措施、右翼抗争以及1929年底跃进均有站内来源。NEP是否可持续、农民激励和国家需求孰重、意识形态与安全焦虑如何转换为具体强制，仍是争论，不以“必然终结”作无主语结论。
 
-### 邻居节点: `POL-ural-siberian-method`
-- **时效关系边** (`POL-ural-siberian-method` → `EVT-1928-grain-procurement-crisis` | `coercive-escalation` | 有效时段: `1928-1929`): 以操纵村社大会摊派、五倍罚款与刑法第107/61条入刑强征余粮，导致播面萎缩并直接通向1929年底全盘集体化。
-- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 1928–1929年冬季斯大林集团在规避“不再重复非常措施”承诺下，于乌拉尔与西伯利亚推广的征粮套路：借无法定人数之村社会“民主表决”摊派超额交粮，辅以合作社断供、五倍罚款（pyatikratka）及刑法第107/61条制裁；收购仍减产约20%，却直接通向1929年底强制集体化。
+- **Stephen F. Cohen（1973）的布哈林替代方案论**：价格失当、工业品荒和投资比例失衡可由政策调整而非摧毁NEP解决；右翼失败有组织压制与自我约束因素。方案具有经济合理性是作者的反事实论证，不是仅靠一次粮食表即可确证的成功保证（`CLM-cohen-1973-nep-viability`、`CLM-cohen-1973-notes-of-an-economist`、`CLM-cohen-1973-bukharin-organizational-defeat`）。
+- **Moshe Lewin（1968）的农民社会史**：所谓“富农”和富裕中农的行政捆绑扩大打击对象，村社摊派与处罚侵蚀农户再生产意愿；不能把全部村社表决当作独立农民支持。其跨期撤职比例和年度采购下降估计须保持原窗口，不改写成单一年份的全国储备或产量（`CLM-lewin-peasants-1968-kulak-myth-and-serednyak`、`CLM-lewin-peasants-1968-ural-siberian-method`）。
+- **E. H. Carr与R. W. Davies（1969）的定量经济史**：相对价格、现金、商品荒与农户裂变共同改变售粮条件；涅姆奇诺夫表揭示中贫农的商品粮主体地位，却是近似结构估计，不能单独排除所有地方富裕户惜售，也不等于农民阶层支持率（DATA-03及相关论断）。
+- **Stephen Kotkin（2014）与Olga Velikanova（2013）**：前者强调NEP成功也会在反资本主义阶级观中产生新的敌人，强制路线因而具有思想动力；后者以战争恐慌、抢购及失败主义报告连接政策与社会心理。两者都不证明1928年已存在完整执行蓝图；安全报告是受搜集和分类机制塑造的材料，不能由若干谣言推导“全体农民等候外敌”（相关Kotkin及Velikanova论断卡）。
+- **《苏联农村的悲剧》的档案编研**：四位主编 **V. P. Danilov（丹尼洛夫）、R. T. Manning（曼宁）、L. Viola（维奥拉）、N. A. Ivnitsky（伊夫尼茨基，兼第2卷长篇导言作者）** 将高层方案、地方竞速和农民反应放在同一证据链中。卷内当时档案为S 级，Ivnitsky导言为A 级；1929年12月的强迫、逃亡和屠畜记录能限定“自愿跃进”叙述，但不能无日期地代证1928年每个地方的执行（RN-W20及三张村庄悲剧论断）。
+- **Viktor Zemskov（泽姆斯科夫，2018馆藏译稿）**：既批判档案封闭与苏联史学将党预设为纠错主体，也要求区分布哈林路线的经济可行性和党员革命心态中的政治可接受性；演说和小说不等于干部支持率调查（`CLM-zemskov-2018-archival-constraints-and-party-radicalism`）。其“农业贡税”解释连接长期积累与强制转向，却未提供1924—1929年净转移逐年核算；1928年贡税辩护、采购下降及1930年特别安置须分证（`CLM-zemskov-2018-agrarian-tribute-and-coercive-turn`）。另版人口论断 `CLM-zemskov-1929-dekulakization-demographic-baseline` 提醒流放、迁移和死亡不等同，1930—1931年数不能填成1929年损失，1930年留庄比例也不能反推1929年自愿率。
+- **N. D. Arapovich（阿拉波维奇）的工业劳动视角**：1929年重工业招募与技术教育女性配额，把农业积累争论连接到技能、托育和岗位配置。其1929年1月1日行业表列全工业含女学徒的女性比重28.8%、机器制造与金属加工6.8%；是各行业内部女性比例，不是女工行业去向。20%高等技术学校女性招生要求是指标，不是实绩；其苏联正统进步叙事不能代替独立评估（`CLM-arapovich-1929-skills-quotas-and-heavy-industry-mobilization`，馆藏B 级）。
 
-### 邻居节点: `EVT-1927-war-scare-and-opposition-expulsion`
-- **时效关系边** (`EVT-1927-war-scare-and-opposition-expulsion` → `EVT-1928-grain-procurement-crisis` | `triggered-hoarding-and-repression` | 有效时段: `1927.05-12`): 1927年英苏断交与战争恐慌引发城乡抢购囤粮潮及OGPU高压行动，在催化冬季粮食收购危机的同时为清洗托季联合反对派提供战时借口。
-- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 1927年英苏断交与沃伊科夫遇刺引爆“战争恐慌”，伴随城乡抢购囤粮潮与OGPU“六月行动”（维诺格拉多夫转述仅6月至少9,000人被捕，韦利卡诺娃拼合6—7月下限估至少13,345人）。夏秋间党内多数派强化纪律与治安压制：反对派九月《政纲》遭禁、`11-07` 游行被冲散，托季 `11-14` 被开除党籍；12月十五大在秋冬购粮危机已发生之际完成对联合反对派的组织清除。
+极权主义专门研究与农民自述仍需扩充，列为外部缺口；现有政治传记、经济史、农民社会史、档案及工业劳动研究足以支撑本卡多视角定稿，不以未入藏书目阻断状态升级。
 
-### 邻居节点: `CON-kulak`
-- **时效关系边** (`CON-kulak` → `EVT-1928-grain-procurement-crisis` | `catalyst-of-criminalization` | 有效时段: `1927-10–1928-05`): 商品粮收购暴跌被斯大林归咎于“富农罢工”，触发从市场收购向行政强制的转折
-- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 俄国农村阶层与政治定罪复合概念。原系19世纪村社对高利贷盘剥者的贬称，列宁定性为农村资产阶级，斯托雷平改革试图培育独立私有农户，部分村社成员将分离户斥为富农；1918年成贫农委员会征粮对象，1925年NEP放宽下农村实呈中农化；1928–1929年经刑法第107条与雅科夫列夫委员会武器化为“作为阶级消灭”的清洗标签。
+## 2. 一跳邻域全量微摘要目录 (去重后共 22 个节点，0 截断)
+- **`CON-kulak`**（富农（作为社会阶层与政治定罪标签））: “富农”兼具农村阶层与政治定罪含义：19世纪原指高利贷盘剥者，列宁称农村资产阶级；斯托雷平改革分离户也遭村社如此指斥。1918年为贫农委员会征粮对象，1925年NEP放宽而农村趋向中农化；1928–1929年经刑法107条与雅科夫列夫委员会转为阶级清洗标签。 ‖ `→EVT-1928-grain-procurement-crisis`[catalyst-of-criminalization|1927-10–1928-05]: 商品粮收购暴跌被斯大林归咎于“富农罢工”，触发从市场收购向行政强制的转折
+- **`CON-smychka`**（工农结合）: 工农结合原指连接或接合，在新经济政策下指国营工业与农民经济通过商品交换、价格和合作社形成的纽带。1923年剪刀差暴露其脆弱性，布哈林与普列奥布拉任斯基提出不同工业化方案；1928至1929年强制征购和集体化使结合逐渐转向行政组织与“生产性结合”。 ‖ `→EVT-1928-grain-procurement-crisis`[危机转折|1927–1928]: 收购锐减与非常措施动摇市场结合的政治前提。
+- **`EVT-1923-scissors-crisis`**（1923年剪刀差危机与四十六人声明）: 1923年工业品高价、农产品低价与信贷收缩叠加，造成滞销、欠薪及工人抗议，动摇新经济政策的城乡交换。托洛茨基致中央信与四十六人声明分别把经济失衡同党内机关体制相联；价格随后收拢，民主改革争论却在列宁缺席和继承权竞争中转成纪律斗争。 ‖ `→EVT-1928-grain-procurement-crisis`[comparison_with_later_crisis|1923／1927—1929]: 城乡交换压力有连续性，1923滞销与1928非常征购的政策选择不同 ； `←EVT-1928-grain-procurement-crisis`[earlier_exchange_tension|1923／1927—1929]: 相对价格和购买力失衡有前史，不能等同两轮危机的政策结局
+- **`EVT-1927-war-scare-and-opposition-expulsion`**（1927年“战争恐慌”危机与联合反对派溃败）: 1927年英苏断交、沃伊科夫遇刺引发战争恐慌与抢购囤粮，OGPU六月行动大捕人：两项研究分别估6月至少9,000人、6—7月至少13,345人。反对派九月《政纲》遭禁，11月7日游行被冲散，14日托季被开除；十五大在购粮危机已发生时完成组织清除。 ‖ `→EVT-1928-grain-procurement-crisis`[triggers_prelude_to|1927.11–1928.01]: 1927年秋季国家购粮减半（11–12月急降）后，中央于12月发出紧急通函并在1928年初选择西伯利亚“非常措施”路径。
+- **`PER-stalin`**（约瑟夫·斯大林）: 布尔什维克高加索地下组织者、民族事务人民委员（1917–1923）及中央总书记（1922起）。依托书记处任命权与安全危机叙事，先联季-加压制托洛茨基，再联布哈林击溃联合反对派；1927–1929年以战备恐慌与“自上而下革命”击败布哈林集团，1929年12月拍板“把富农作为阶级消灭”并终结新经济政策。 ‖ `←EVT-1928-grain-procurement-crisis`[coercive_policy_and_class_diagnosis|1928.01—1929.12]: 推动第107条征购、贡赋辩护与集体化转向，操作方案仍逐步形成
+- **`PER-bukharin`**（尼古拉·布哈林）: 布尔什维克核心理论家、《真理报》主编及共产国际书记处负责人。列宁遗嘱誉其“全党宠儿”但质疑其辩证法；1918年领衔左翼共产主义，1921年后转向新经济政策均衡路线，1925–1927联斯大林击溃左派，1928–1929因反对暴力征粮与超工业化遭击败并逐出政治局。 ‖ `←EVT-1928-grain-procurement-crisis`[alternative_policy_and_defeat|1928—1929.11]: 主张动态平衡与农民激励，反对非常措施并在组织斗争中失势
+- **`PER-rykov`**（阿列克谢·李可夫）: 老布尔什维克与苏维埃经济组织家。1917年四月会议曾质疑《四月提纲》，十月后因维克热尔联合政府诉求辞职；两掌最高国民经济委员会，1924年继列宁任苏联人民委员会主席；1928–1929年协同布哈林抵制非常征粮并提“两年农业计划”遭撤职清洗，其名却在库班农民口号中回响。 ‖ `←EVT-1928-grain-procurement-crisis`[governmental_criticism|1928—1929]: 在政府及全会中反对强制、争取恢复农业与调整政策 ； `→EVT-1928-grain-procurement-crisis`[institutional-critic|1928–1929]: 在1928年7月全会直指滥权是1月征购政策“有机组成部分”，斥卡冈诺维奇辩词并提出替代性恢复计划
+- **`PER-tomsky`**（米哈伊尔·托姆斯基）: 印刷工出身的布尔什维克工会领袖，长期主持全俄及全苏工会中央理事会，1922年进入政治局。工会争论中支持列宁，既限制生产者自治，又在新经济政策下维护集体合同和劳动保护。1928—1929年与布哈林、李可夫抵制激进转轨，遭干部改组夺去工会阵地，1936年自杀。 ‖ `←EVT-1928-grain-procurement-crisis`[right_opposition_ally|1928—1929]: 反对强制征粮并被清洗出工会领导层，1929年11月遭警告并与布、李联署检讨
+- **`PER-sokolnikov`**（格里戈里·索科尔尼科夫）: 布尔什维克财政领袖与布列斯特和约签署代表，曾在内战中支持正规军建设。1922—1926年主持财政，以切尔文改革、预算和信贷纪律稳定新经济政策，却与工业扩张需求冲突。1925年参加新反对派，要求撤换斯大林总书记；1928年陪同布哈林密会加米涅夫，后转外交，1939年狱中被害。 ‖ `←EVT-1928-grain-procurement-crisis`[market_and_external_trade_alternative|1928.07]: 参与布哈林—加米涅夫接触，市场和外贸方案须同其失去财政职位的时段区分 ； `→EVT-1928-grain-procurement-crisis`[proposed_market_adjustment|1928]: 主张价格、贸易和财政约束下调节供给，与强制征粮转轨相冲突
+- **`PER-uglanov`**（尼古拉·乌格拉诺夫）: 工人出身的布尔什维克党务领袖，1924年接掌莫斯科党委，曾助斯大林压制左派，后支持布哈林渐进工业化与纺织轻工业。1928年夏秋，组织分配部、区委反叛与基层不满合流，使其地方阵地瓦解；十一月去职，次年失去中央要职。其温和经济路线与专横组织作风并存，1937年遇害。 ‖ `←EVT-1928-grain-procurement-crisis`[moscow_organizational_loss|1928年秋]: 温和农业路线未能克服基层疏离及人事网络弱点 ； `→EVT-1928-grain-procurement-crisis`[opposed_permanent_emergency|1928-02–10]: 担忧征粮强制与城乡商品交换破坏，并维护棉纺轻工业供需
+- **`PER-molotov`**（维亚切斯拉夫·莫洛托夫）: 莫洛托夫是布尔什维克党务骨干与斯大林主要副手。1917年二月在《真理报》及俄国局反对支持临时政府；1921年任中央责任书记，后以书记处工作协同斯大林掌权。1928年11月至1929年4月接掌莫斯科委员会，并加强斯大林阵营对共产国际的控制，推动集体化加速。 ‖ `←EVT-1928-grain-procurement-crisis`[organizational_and_policy_enforcement|1928—1929]: 参与多数派干部更替及强硬征购推进，11月接掌莫斯科
+- **`POL-ural-siberian-method`**（乌拉尔—西伯利亚方法与强制征粮配套法制）: 1928–1929年冬季斯大林集团在规避“不再重复非常措施”承诺下，于乌拉尔与西伯利亚推广的征粮套路：借无法定人数之村社会“民主表决”摊派超额交粮，辅以合作社断供、五倍罚款（pyatikratka）及刑法第107/61条制裁；收购仍减产约20%，却直接通向1929年底强制集体化。 ‖ `←EVT-1928-grain-procurement-crisis`[institutionalized_procurement_pressure|1928—1929年冬至1929]: 村社摊派及随后罚款、刑法制裁组合，不同于第107条单项措施 ； `→EVT-1928-grain-procurement-crisis`[escalation-within|1927–1929]: 本方法是该危机第三—四阶段核心操作手段之一
+- **`INS-cheka-gpu-ogpu`**（全俄肃反委员会—国家政治保卫局与总局（ВЧК–ГПУ–ОГПУ 制度档案））: 苏维埃政治警察谱系：1917年12月人民委员会内部决议创立契卡，1918年红色恐怖中央地行刑权演变；1922年改为苏俄内务部GPU，1923年设联盟OGPU，随后重建法外特别会议。机关兼事工农情绪监测与镇压，在1927年战争恐慌、沙赫特案及1928—1929年强征中作用关键。 ‖ `←EVT-1928-grain-procurement-crisis`[information_and_repression|1927—1929]: OGPU既提供农村情绪报告，也执行政治与征粮案件 ； `→EVT-1928-grain-procurement-crisis`[coercive_enforcer_and_informant|1927.06–1929.12]: *svodki* 既向政治局呈报农村失败主义与抗粮动态，又在1928–1929年配合法院与地方“三人小组”直接投入武装征粮与农村镇压
+- **`POL-first-five-year-plan`**（第一个五年计划）: 苏联首部正式工业化纲领，1928–1929年在起点与最高方案争论中定案。1929-04-16至23日中央联席全会、04-23至29日十六次党代表会议及05-20至28日全苏苏维埃五大批准最高方案；下半年投资、钢铁与集体农庄指标加码，冲垮布哈林均衡路线，与NEP退场、强制集体化并进。 ‖ `←EVT-1928-grain-procurement-crisis`[industrial_demand_and_policy_acceleration|1928—1929]: 投资及供给约束与农业资源提取相连，不证明特定手段不可替代 ； `→EVT-1928-grain-procurement-crisis`[political-precipitant|1928.01–1929]: 征粮危机证明市场协调整合失败论，为超速方案铺路
+- **`POL-nep`**（新经济政策）: 1921年春在农村起义、城市工潮与喀琅施塔得危机倒逼下逐步确立、取代战时共产主义的混合经济体制。以固定实物税（后改货币税）取代余粮收集制，渐次放开城乡市场与小私营商业（耐普曼），由国家掌控大工业、银行、运输与外贸“制高点”；1928–1929年在收购危机与政治转向中逐步瓦解。 ‖ `←EVT-1928-grain-procurement-crisis`[market_framework_undermined|1927—1929]: 以市场结合为主的制度逐步被行政交售和集体化替代
+- **`EVT-1928-shakhty-affair-show-trial`**（沙赫特事件与技术专家公开审判）: 1928年顿巴斯沙赫特矿区的事故与管理问题被秘密警察定性为经济破坏阴谋。莫斯科公开审判与宣传将旧技术专家的政治可靠性推上全国议程；检方求刑22人死刑，法庭判11人死刑，其中6人获减刑、5人被处决。案件既服务于高层政治动员，也与工人反专家情绪及培养工人出身新专家的政策相互作用。 ‖ `←EVT-1928-grain-procurement-crisis`[parallel_political_track|1928.03—07]: 沙赫特案与粮食危机在四月、七月全会并行升级，重塑反右阵线 ； `→EVT-1928-grain-procurement-crisis`[parallel_political_track|1928年春]: 粮食危机与沙赫特案在四月全会并行处理，斯大林在两线上的得失不同（L3 L95）。
+- **`MTG-1929-04-cc-joint-plenum`**（联共（布）中央委员会与中央监察委员会四月联席全会）: 1929年4月16日至23日，联共（布）中央与中监委联席全会围绕征粮危机、工业化与新经济政策展开高层摊牌。布哈林痛斥“贡赋”与强制，斯大林以“右倾”与密谈案反击；全会秘密解除布哈林与托姆斯基关键职务但暂留三人政治局席位，随后十六次代表会议批准的一五计划仍维持有限集体化目标。 ‖ `←EVT-1928-grain-procurement-crisis`[right_line_condemned|1929.04.16—23]: 联席全会定性“布哈林右倾路线”并核准加速指标，压制温和替代空间 ； `→EVT-1928-grain-procurement-crisis`[structural-catalyst|1928–1929-04]: 乌克兰交粮跌至2,670万普特与市价飙升190%–365%直接触发全会关于“贡赋”与市场机制的对决。
+- **`MTG-1929-11-cc-plenum`**（联共（布）中央委员会十一月全会（1929））: 1929年11月10日至17日，联共（布）中央全会将布哈林逐出政治局、警告李可夫与托姆斯基等，并宣布宣传右倾与留党不相容。全会动员“二万五千人”下乡并推动集体化加速，但正式决议对富农处置仍留空白；经12月政治局委员会博弈与斯大林否决温和草案，年底演说最终引向消灭富农阶级转向。 ‖ `←EVT-1928-grain-procurement-crisis`[right_defeat_and_turn|1929.11.10—17]: 逐出布哈林、警告李可夫与托姆斯基（25日联署检讨），接通全面集体化转向
+- **`EVT-1929-great-turn-and-dekulakization-launch`**（1929年秋大转变与全盘集体化、消灭富农启动）: 1929年夏秋集体化指标跃升，征粮压力、工业化动员与击败右派相互强化。十一月全会推动工人下乡，十二月委员会草案仍有保留，继被斯大林否决；二十七日公开宣布消灭富农阶级。政治发动、名义入庄与实际生产改组有别，大规模驱逐制度在次年定型。 ‖ `←EVT-1928-grain-procurement-crisis`[policy_escalation|1929年夏冬]: 收购危机与高指标、右翼败亡及阶级消灭宣告交汇 ； `→EVT-1928-grain-procurement-crisis`[preceding_and_overlapping_crisis|1928—1929]: 非常征粮与工业化压力进入集体化加速，不能当作无选择的机械因果
+- **`PER-kondratiev`**（尼古拉·康德拉季耶夫）: 苏俄农业经济学家与长波周期理论创立者（1892–1938）。1917年10月任临时政府粮食部副部长；1920年起执掌财政部景气研究所，在计划方法论战中代表“发生学派”反对高指标目的论，主张依托市场均衡与农产出口推进工业化。1928年被打为“康德拉季耶夫主义”撤职，1938年遇害。 ‖ `→EVT-1928-grain-procurement-crisis`[dismissed_as_rightist_spets_amid|1928春]: 随1928年初粮食收购危机与路线急剧左转，其市场均衡与农产出口方案被打成“康德拉季耶夫主义”并遭免去景气研究所所长
+- **`PER-mikoyan`**（阿纳斯塔斯·米高扬）: 亚美尼亚裔布尔什维克干部，从下诺夫哥罗德转任东南与北高加索党务，1926年任政治局候补委员、掌苏联内外贸易。1928年春夏在法制限度与妥协间摇摆，9月受斯大林施压转向强硬，成为多数派骨干；其部门联系粮食采购、城乡交换与外贸，但强征与出口并非个人或单一部门决策。 ‖ `→EVT-1928-grain-procurement-crisis`[trade-commissariat-leader|1927–1929]: 贸易部门处于采购与商品供应接口；1928-01-12 督粮，02-10/02-12 双面表态
+- **`PER-kuibyshev`**（瓦列里安·古比雪夫）: 苏联工业化关键操盘手（1888–1935）。1918年曾在萨马拉追随左派共产主义者并任东线政委；1922年任中央书记，1923–1926年兼掌中监委与工农检查院，将列宁监督构想转为打击反对派工具；1926年接掌最高国民经济委员会，力推重工业高指标并坚定支持斯大林。 ‖ `→EVT-1928-grain-procurement-crisis`[policy-executor|1927.11–1929]: 在收购危机后推动工业投资加码与生产资料优先配给，假定农业问题可用行政手段解决
 
-### 邻居节点: `PER-stalin`
-- **时效关系边** (`EVT-1928-grain-procurement-crisis` → `PER-stalin` | `leads` | 有效时段: `1928.01–1929.12`): 亲赴西伯利亚督战，将危机定性为“富农罢卖”，推行刑法第107条、贡赋论与乌拉尔—西伯利亚方法直至全盘集体化。
-- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 布尔什维克高加索地下组织者、民族事务人民委员（1917–1923）及中央总书记（1922起）。依托书记处任命权与安全危机叙事，先联季-加压制托洛茨基，再联布哈林击溃联合反对派；1927–1929年以战备恐慌与“自上而下革命”击败布哈林集团，1929年12月拍板“把富农作为阶级消灭”并终结新经济政策。
+## 3. 关联史学争鸣与学者论断索引 (主卡外关联争鸣 3 项)
+- **`DEB-1928-bukharin-alternative`**（布哈林替代方案与新经济政策终结之争 | `historiography/debates/DEB-1928-bukharin-alternative.md` | 流派 `nep-alternative, economic-growth, structural-dilemma, apparatus, ideology-and-mobilization, cliometrics-and-archival-reassessment`）：1927至1929年粮食危机与新经济政策的瓦解，是否意味着渐进工业化和工农联盟已无可行出路，还是党内权力与政策选择扼杀了布哈林的替代方案？投资、价格、农民供粮和政治动员之间的约束究竟有多强，必须把经济可行性、政治可行性与实际权力斗争分别检验。
+- **`DEB-1929-collectivization-and-dekulakization-causes`**（1929年集体化与消灭富农政策的动因之争 | `historiography/debates/DEB-1929-collectivization-and-dekulakization-causes.md` | 流派 `peasant-social-history, statistical-economic-history, archival-local-escalation, geopolitics-and-scare, industrialization-constraints, agrarian-tribute-and-policing`）：1929年集体化加速与消灭富农政策的出现，究竟源于粮食收购和工业投资的结构约束，还是统计误判、地方竞速、战争恐慌与领导层选择的叠加？农民如何应对，中央内部何时形成强制方案？应把1928年非常征粮、1929年秋冬升级与次年全面执行分开考察。
+- **`DEB-1928-shakhty-specialist-baiting-and-cultural-revolution`**（沙赫特事件、反专家运动与文化革命动力之争 | `historiography/debates/DEB-1928-shakhty-specialist-baiting-and-cultural-revolution.md` | 流派 `leadership-politics, social-mobilization-fitzpatrick, industrial-crisis-and-enemy-making`）：1928年沙赫特案件及其后围绕旧技术专家的政治攻势，是高层为改变新经济政策方向和打击党内对手而操纵的结果，还是青年、工人和新干部向上流动诉求与阶级动员的共振？工业失调、责任归咎和国家镇压如何连接二者？运动的动员效果并不能证明案件指控属实。
 
-### 邻居节点: `PER-bukharin`
-- **时效关系边** (`EVT-1928-grain-procurement-crisis` → `PER-bukharin` | `opposes` | 有效时段: `1928.02–1929.11`): 痛斥非常措施与“贡赋论”为军事封建剥削，发表《一个经济学家的札记》捍卫NEP动态平衡，但遭组织挫败。
-- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 布尔什维克核心理论家、《真理报》主编及共产国际书记处负责人。列宁遗嘱誉其“全党宠儿”但质疑其辩证法；1918年领衔左翼共产主义，1921年后转向新经济政策均衡路线，1925–1927联斯大林击溃左派，1928–1929因反对暴力征粮与超工业化遭击败并逐出政治局。
+### 3.1 关联核心论断与史学家学派坐标 (`CLM-*` → `SCH-*`, 展示前 24/38 条)
+- **`CLM-kotkin-2014-siberian-grain-turn`** [`SCH-kotkin-stephen`(斯蒂芬·科特金) | EPUB Ch. 14 (OEBPS/9780698170100_EPUB_1-24.xhtml) & Coda (OEBPS/9780698170100_EPUB_1-25.xhtml)]: 
+- **`CLM-lewin-peasants-1968-ural-siberian-method`** [`SCH-lewin-moshe`(摩西·莱文) | pp. 386-390, 395]: 
+- **`CLM-merridale-1990-uglanov-moscow-collapse`** [`SCH-merridale-catherine`(凯瑟琳·梅里代尔) | pp. 53-64]: 
+- **`CLM-cohen-1973-nep-viability`** [`SCH-cohen-stephen`(斯蒂芬·F·科恩) | pp. 270-276, 316-320]: 
+- **`CLM-cohen-1973-notes-of-an-economist`** [`SCH-cohen-stephen`(斯蒂芬·F·科恩) | pp. 295-296, 318-320]: 
+- **`CLM-cohen-1973-bukharin-organizational-defeat`** [`SCH-cohen-stephen`(斯蒂芬·F·科恩) | pp. 287-289, 297-301, 322-329]: 
+- **`CLM-lewin-peasants-1968-kulak-myth-and-serednyak`** [`SCH-lewin-moshe`(摩西·莱文) | pp. 76-78]: 
+- **`CLM-zemskov-2018-archival-constraints-and-party-radicalism`** [`SCH-zemskov-viktor`(维克托·尼古拉耶维奇·泽姆斯科夫) | 馆藏中文PDF pp. 2–4, 7–10；非俄文原版纸页]: 
+- **`CLM-zemskov-2018-agrarian-tribute-and-coercive-turn`** [`SCH-zemskov-viktor`(维克托·尼古拉耶维奇·泽姆斯科夫) | 馆藏中文PDF pp. 7–8, 10–12；后续比较仅pp. 5–6]: 
+- **`CLM-zemskov-1929-dekulakization-demographic-baseline`** [`SCH-zemskov-viktor`(维克托·尼古拉耶维奇·泽姆斯科夫) | PDF pp. 6-11, 15-19, 52, 218 (原书 pp. 4-9, 13-17, 50, 216)]: 
+- **`CLM-arapovich-1929-skills-quotas-and-heavy-industry-mobilization`** [`SCH-arapovich-n-d`(阿拉洛维茨（馆藏扉页署Н. Д. Арапович，身份待书目复核） · soviet-orthodoxy) | 馆藏中文PDF pp. 36–40, 47–48, 58–60, 71, 74]: 
+- **`CLM-velikanova-2013-war-scare-hoarding-and-grain-crisis`** [`SCH-velikanova-olga`(奥尔加·韦利卡诺娃) | pp. 86-88, 106-107]: 
+- **`CLM-tragedy-village-1929-politburo-dekulakization-commission`** [`SCH-danilov-viktor`(维克托·彼得罗维奇·丹尼洛夫 · agrarian-archival-editorial) | PDF pp. 7–8, 14–15, 38–46, 73–81, 90–108]: 
+- **`CLM-tragedy-village-1929-peasant-self-liquidation-and-flight`** [`SCH-danilov-viktor`(维克托·彼得罗维奇·丹尼洛夫 · agrarian-archival-editorial) | PDF pp. 10–12, 19, 110–126, 142, 189–191, 203, 213, 219–220]: 
+- **`CLM-lewin-peasants-1968-grain-procurement-crisis`** [`SCH-lewin-moshe`(摩西·莱文) | pp. 221, 228-229, 242-243]: 
+- **`CLM-carr-davies-1969-nemchinov-table-critique`** [`SCH-davies-rw`(R·W·戴维斯) | pp. 55, 72-73, 117, 244-246]: 
+- **`CLM-cohen-1973-july-1928-plenum-and-kamenev`** [`SCH-cohen-stephen`(斯蒂芬·F·科恩) | pp. 289-291]: 
+- **`CLM-carr-davies-1969-grain-price-scissor-1927`** [`SCH-davies-rw`(R·W·戴维斯) | pp. 44-47 (esp. p. 46)]: 
+- **`CLM-nove-1964-stalin-necessity-dilemma`** [`SCH-nove-alec`(亚历克·诺夫) | pp. 20-26, 32]: 
+- **`CLM-erlich-1960-bukharin-balanced-growth`** [`SCH-erlich-alexander`(亚历山大·埃利希) | pp. 21-23 (PDF pp. 38-40)]: 
+- **`CLM-erlich-1960-preobrazhensky-dilemma`** [`SCH-erlich-alexander`(亚历山大·埃利希) | pp. 34-36, 40-41, 49-51, 170-171 (PDF pp. 51-53, 57-58, 66-68, 185-186)]: 
+- **`CLM-erlich-1960-stalin-overkill-turn`** [`SCH-erlich-alexander`(亚历山大·埃利希) | pp. 161-169, 172-177, 183-184 (PDF pp. 176-184, 187-192, 198-199)]: 
+- **`CLM-kotkin-2014-bukharin-dilemma`** [`SCH-kotkin-stephen`(斯蒂芬·科特金) | EPUB Coda (OEBPS/9780698170100_EPUB_1-25.xhtml) & Ch. 14 (OEBPS/9780698170100_EPUB_1-24.xhtml)]: 
+- **`CLM-fitzpatrick-1978-anti-bukharin-ideological-offensive`** [`SCH-fitzpatrick-sheila`(希拉·菲茨帕特里克) | pp. 11–14, 20–21]: 
 
-### 邻居节点: `PER-rykov`
-- **时效关系边** (`EVT-1928-grain-procurement-crisis` → `PER-rykov` | `opposes` | 有效时段: `1928.02–1929.11`): 作为人民委员会主席在政治局与1928年7月全会上力主取消非常措施、恢复市场价格激励与局部进口谷物。
-- **时效关系边** (`PER-rykov` → `EVT-1928-grain-procurement-crisis` | `institutional-critic` | 有效时段: `1928–1929`): 在1928年7月全会直指滥权是1月征购政策“有机组成部分”，斥卡冈诺维奇辩词并提出替代性恢复计划
-- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 老布尔什维克与苏维埃经济组织家。1917年四月会议曾质疑《四月提纲》，十月后因维克热尔联合政府诉求辞职；两掌最高国民经济委员会，1924年继列宁任苏联人民委员会主席；1928–1929年协同布哈林抵制非常征粮并提“两年农业计划”遭撤职清洗，其名却在库班农民口号中回响。
-
-### 邻居节点: `PER-sokolnikov`
-- **时效关系边** (`EVT-1928-grain-procurement-crisis` → `PER-sokolnikov` | `participates_in` | 有效时段: `1928.07`): 主张通过外贸与价格杠杆化解危机，并于1928年7月11日陪同布哈林前往加米涅夫寓所密谈反斯大林同盟。
-- **时效关系边** (`PER-sokolnikov` → `EVT-1928-grain-procurement-crisis` | `theorizes-alternative` | 有效时段: `1927–1928`): 主张利用价格与市场杠杆化解粮食危机，但因1926年初已离开政治局与财政人民委员部而缺乏体制杠杆。
-- **节点定性微摘要 [T1]** (完备度 `draft`): 布尔什维克经济学家、1922–1924年切尔文金本位货币改革主持者与1922年起主事至 `1926-01-16` 的财政人民委员。以无赤字预算与信贷紧缩捍卫货币稳定，与工业信贷扩张派冲突；1925年参与“新反对派”，`1926-01` 免去财政人民委员后改任国家计委副主席等职；1928年7月11日陪同布哈林密会加米涅夫；据科特金论断卡转述，其农村市场设想在党内具有鲜明理论色彩但因1926年后失势而无从落地；1937年1月被判刑十年，1939年5月21日在狱中被害。
-
-### 邻居节点: `PER-uglanov`
-- **时效关系边** (`EVT-1928-grain-procurement-crisis` → `PER-uglanov` | `opposes` | 有效时段: `1928.01–1928.10`): 在莫斯科公开反对打击“亲爱的小富农”与重工业冒进，1928年10月因此被斯大林改组夺取莫斯科市委。
-- **时效关系边** (`PER-uglanov` → `EVT-1928-grain-procurement-crisis` | `participates_in` | 有效时段: `1928.02–1928.10`): 在1928年7月中央全会上要求澄清十五大决议、避免农民担心重返战时共产主义，并担忧莫斯科纺织业面临棉花短缺。
-- **节点定性微摘要 [T1]** (完备度 `draft`): 布尔什维克党务活动家、右派地方实力派核心。1924年10月起任莫斯科市委第一书记，1926年1月十四大后升任中央政治局候补委员兼中央书记处书记、组织局委员；力主发展“印花布莫斯科”轻纺工业与温和农民政策；1928年秋因早年“乌格拉诺夫统治”疏远基层工人、市委组织分配部被斯大林派把持及政治局右派三巨头抛弃而于1928年11月被莫洛托夫取代，大清洗中遇害。
-
-### 邻居节点: `PER-molotov`
-- **时效关系边** (`EVT-1928-grain-procurement-crisis` → `PER-molotov` | `leads` | 有效时段: `1928.01–1929.12`): 斯大林推行非常措施与乌拉尔—西伯利亚方法的头号执行官，督战清洗温和派地方干部并接管莫斯科市委。
-- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 布尔什维克核心党务官僚与斯大林头号副手（1890–1986，本卡至1929年）。1917二月在《真理报》与俄国局持反临时政府强硬立场；1921任中央责任书记，后长期作为书记处大总管协同斯大林操盘；1928年11月至1929年4月接掌莫斯科委员会（MK），并代表斯大林阵营加强对共产国际领导工作的控制，推动集体化加速。
-
-### 邻居节点: `EVT-1929-great-turn-and-dekulakization-launch`
-- **时效关系边** (`EVT-1929-great-turn-and-dekulakization-launch` → `EVT-1928-grain-procurement-crisis` | `causal_chain` | 有效时段: `1928–1929`): 非常征粮逻辑延伸至全盘集体化。
-- **节点定性微摘要 [T1]** (完备度 `draft`): 1929年夏秋，征粮危机、五年计划指标跃升与布哈林集团战败交汇：斯大林11月7日发表《大转变的一年》，11月10–17日中央全会解除布哈林政治局委员职务；12月雅科夫列夫委员会方案遭斯大林否决加码，12月27日正式宣布“把富农作为阶级消灭”，终结新经济政策体制。
-
-### 邻居节点: `INS-cheka-gpu-ogpu`
-- **时效关系边** (`INS-cheka-gpu-ogpu` → `EVT-1928-grain-procurement-crisis` | `coercive_enforcer_and_informant` | 有效时段: `1927.06–1929.12`): *svodki* 既向政治局呈报农村失败主义与抗粮动态，又在1928–1929年配合法院与地方“三人小组”直接投入武装征粮与农村镇压
-- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 苏维埃政治警察演进谱系（兼参 `ORG-cheka-ogpu`）。1917年12月依人民委员会内部决议创立契卡，历经1918年红色恐怖与央地行刑权演变；1922年改组为苏俄内务部下属GPU，1923年组建联盟层级OGPU并随后重建法外特别会议，一面以 *svodki* 监测工农情绪，一面在1927年战争恐慌、沙赫特案及1928—1929年强制征粮中充当核心强制机器。
-
-### 邻居节点: `PER-kuibyshev`
-- **时效关系边** (`PER-kuibyshev` → `EVT-1928-grain-procurement-crisis` | `policy-executor` | 有效时段: `1927.11–1929`): 在收购危机后推动工业投资加码与生产资料优先配给，假定农业问题可用行政手段解决
-- **节点定性微摘要 [T1]** (完备度 `draft`): 经济学出身的老布尔什维克：1923–1926执掌中央监察委员会—工农检查院（CCC–RKI）纠察全党；1926年8月接替捷尔任斯基任最高国民经济委员会（VSNKh）主席（至1930年11月），1927年12月进入政治局，1930年11月起转任国家计划委员会（Gosplan）主席，主导一五计划时期重工业高指标冲刺与技术官僚动员，1928–1929站斯大林多数派，是“大转变”经济机器的关键执行帅。
-
-### 邻居节点: `PER-mikoyan`
-- **时效关系边** (`PER-mikoyan` → `EVT-1928-grain-procurement-crisis` | `trade-commissariat-leader` | 有效时段: `1927–1929`): 贸易部门处于采购与商品供应接口
-- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 米高扬是亚美尼亚裔布尔什维克干部，1920–1922年在下诺夫哥罗德省委崭露头角并进入中央候补委员，1920年代前期转至东南与北高加索党务，1926年进入政治局候补席并执掌苏联内外贸易。粮食采购、城乡商品交换与外贸计划交汇于其部门；1928年春夏他在“法制”限度与折中妥协之间摇摆，至1928年9月在斯大林施压下转向强硬路线，此后成为多数派骨干——强制征购和出口并非一个部门或一个人的单独决策。
-
-### 邻居节点: `POL-first-five-year-plan`
-- **时效关系边** (`POL-first-five-year-plan` → `EVT-1928-grain-procurement-crisis` | `political-precipitant` | 有效时段: `1928.01–1929`): 征粮危机证明市场协调整合失败论，为超速方案铺路
-- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 1928–1929年定案的苏联首部正式工业化纲领：国家计委“起点方案”与“最高方案”之争，经 `1929-04-16` 至 `23` 中央联席全会、`04-23` 至 `29` 第十六次党代表会议与 `05-20` 至 `28` 第五次全苏苏维埃代表大会批准最高方案；下半年工业投资、钢铁与集体农庄指标连环加码，冲垮布哈林“蜗牛般速度”均衡路线，标志新经济政策体制退场与强制集体化并进。
-
-### 邻居节点: `EVT-1928-shakhty-affair-show-trial`
-- **时效关系边** (`EVT-1928-shakhty-affair-show-trial` → `EVT-1928-grain-procurement-crisis` | `parallel_political_track` | 有效时段: `1928年春`): 粮食危机与沙赫特案在四月全会并行处理，斯大林在两线上的得失不同（L3 L95）。
-- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 1928年顿巴斯沙赫特矿区的事故与管理问题被秘密警察定性为经济破坏阴谋。莫斯科公开审判与宣传将旧技术专家的政治可靠性推上全国议程；检方求刑22人死刑，法庭判11人死刑，其中6人获减刑、5人被处决。案件既服务于高层政治动员，也与工人反专家情绪及培养工人出身新专家的政策相互作用。
-
-### 邻居节点: `CON-smychka`
-- **时效关系边** (`CON-smychka` → `EVT-1928-grain-procurement-crisis` | `危机转折` | 有效时段: `1927–1928`): 收购锐减与非常措施动摇市场结合的政治前提。
-- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 工农结合原指连接或接合，在新经济政策下指国营工业与农民经济通过商品交换、价格和合作社形成的纽带。1923年剪刀差暴露其脆弱性，布哈林与普列奥布拉任斯基提出不同工业化方案；1928至1929年强制征购和集体化使结合逐渐转向行政组织与“生产性结合”。
-
-### 邻居节点: `MTG-1929-04-cc-joint-plenum`
-- **时效关系边** (`MTG-1929-04-cc-joint-plenum` → `EVT-1928-grain-procurement-crisis` | `structural-catalyst` | 有效时段: `1928–1929-04`): 乌克兰交粮跌至2,670万普特与市价飙升190%–365%直接触发全会关于“贡赋”与市场机制的对决。
-- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 1929年4月16日至23日，联共（布）中央与中监委联席全会围绕征粮危机、工业化与新经济政策展开高层摊牌。布哈林痛斥“贡赋”与强制，斯大林以“右倾”与密谈案反击；全会秘密解除布哈林与托姆斯基关键职务但暂留三人政治局席位，随后十六次代表会议批准的一五计划仍维持有限集体化目标。
-
-## 3. 关联史学争鸣光谱 (Historiographical Debates)
-### `DEB-1928-bukharin-alternative`：布哈林替代方案与新经济政策终结之争
-## [T1] 核心问题定义
-1927至1929年粮食危机与新经济政策的瓦解，是否意味着渐进工业化和工农联盟已无可行出路，还是党内权力与政策选择扼杀了布哈林的替代方案？投资、价格、农民供粮和政治动员之间的约束究竟有多强，必须把经济可行性、政治可行性与实际权力斗争分别检验。
-
-## [T2] 各学派立场对照矩阵
-**经验基准**：1928年粮食收购危机后领导层采用非常措施；布哈林同年批评征粮和工业化节奏，1929年四月及十一月中央全会使右派进一步失势，同年清党开除率达 `11%`（约17万人，`DATA-04-party-membership-and-congress-votes-1903-1929`）。各方都面对工业投资、粮食供给与工农社会结构约束。
-
-| 学派/取向 | 代表学者与著作 | 核心论点摘要 | 支撑论断卡 | 主要受批评盲点 |
-| :--- | :--- | :--- | :--- | :--- |
-| 新经济政策替代论 | Stephen Cohen, *Bukharin and the Bolshevik Revolution* (1973) | 市场、合作社和渐进工业化提供可争论的替代路径；组织机器与政治斗争使该路线失败。 | `CLM-cohen-1973-nep-viability`；`CLM-cohen-1973-notes-of-an-economist`；`CLM-cohen-1973-bukharin-organizational-defeat` | 可构想的经济路径不自动证明可获得党内多数或满足高投资目标。 |
-| 工业化经济思想史 | Alexander Erlich, *The Soviet Industrialization Debate* (1960) | 布哈林平衡增长与普列奥布拉任斯基积累方案共同面对投资约束；强制全盘集体化非各派原有共同结论。 | `CLM-erlich-1960-bukharin-balanced-growth`；`CLM-erlich-1960-preobrazhensky-dilemma`；`CLM-erlich-1960-stalin-overkill-turn` | 模型不能单独解决权力、执行和国际冲击问题。 |
-| 经济结构与政策选择 | Alec Nove, *Was Stalin Really Necessary?* (1964) | 提出“条件性必然”与“1927年NEP死胡同（cul-de-sac）”：给定布尔什维克保住一党政权、拒绝斯托雷平式富农资本主义与高速重工业化三大前提，布哈林市场渐进路径存在内在政治经济不一致；但仍须区分发展目标与强制手段。 | `CLM-nove-1964-stalin-necessity-dilemma` | 反事实替代方案的实施条件难以在单线历史中完全检验（详见下栏 KAPROST 交锋）。 |
-| 意识形态与政治能动性 | Stephen Kotkin, *Stalin*, Vol. 1 (2014)；Sheila Fitzpatrick, *The Russian Cultural Revolution (1928–1931)* (1978) | 市场发展与党内阶级政治构成张力，斯大林西伯利亚干预使危机转向不能仅由结构推导；“文化革命”动员更将政治局右派、教育人民委员部温和派与沙赫蒂案连成“右倾危险”连续体。 | `CLM-kotkin-2014-bukharin-dilemma`；`CLM-fitzpatrick-1978-anti-bukharin-ideological-offensive` | 科特金第一卷叙事止于1928年底；宣传建构的意识形态连续体亦不能直接等同右派成员一致的文化纲领。 |
-| 组织与动员政治 | Oleg Khlevniuk, *Stalin* (2015)；David Priestland, *Stalinism and the Politics of Mobilization* (2007)；Catherine Merridale, *Moscow Politics and the Rise of Stalin* (1990) | 干部控制、反右“复兴主义”动员与乌格拉诺夫莫斯科地方权力瓦解共同决定布哈林集团败局。 | `CLM-khlevniuk-2015-defeat-of-right-opposition`；`CLM-priestland-2007-1928-mobilization-turn-against-bukharin`；`CLM-merridale-1990-uglanov-moscow-collapse` | 组织性胜利并不单独证明任一经济路线的长期优劣。 |
-| 反事实计量与改革经济学 | Holland Hunter / R. W. Davies / 谷内融，*戴维斯纪念文集* (1995)；刘伟、平新乔，《平衡与非平衡：布哈林与普列奥布拉仁斯基之争》（1989，B级） | 亨特借 KAPROST 模型论证非集体化 NEP 本可成功，但戴维斯（1994）反驳1928年市场已遭行政扰乱，谷内融1929年1—6月政治局档案证实非常措施演变为全国体制；刘伟、平新乔将布氏重估为“短缺经济学”先驱，指出斯大林采纳了普氏非均衡配额内核。 | `CLM-davies-festschrift-1995-nep-statistics-and-planning-debates`；`CLM-bukharin-preobrazhensky-equilibrium-vs-accumulation-zh`（B级） | KAPROST 假设重工业高积累下农民仍配合市场；刘、平一文沿用中译“81亿金卢布”误植数字，引用须剔除该数。 |
-| 后苏联档案重估 | Viktor Zemskov（维克托·泽姆斯科夫），《斯大林时代》（2018，B级）；Valentin Sakharov（瓦连京·萨哈罗夫），《站在十字路口》（2012） | 泽姆斯科夫指出布哈林渐进合作化在内战记忆塑造的党员群体中缺乏政治亲和力；萨哈罗夫从反布哈林修正派立场论证2,400万碎片化小农难以支撑工业国防，MTS 与集体化是避免“斯托雷平第二版”的战略决断。 | `CLM-zemskov-2018-archival-constraints-and-party-radicalism`（B级）；`CLM-sakharov-2012-nep-crossroads-1928` | 泽氏未提供党员心态系统统计且沿用中译稿（B级）；萨哈罗夫的国家理性辩护淡化了强制集体化后的农业灾难与清洗恶果。 |
-
-### `DEB-1929-collectivization-and-dekulakization-causes`：1929年集体化与消灭富农政策的动因之争
-## [T1] 核心问题定义
-1929年集体化加速与消灭富农政策的出现，究竟源于粮食收购和工业投资的结构约束，还是统计误判、地方竞速、战争恐慌与领导层选择的叠加？农民如何应对，中央内部何时形成强制方案？应把1928年非常征粮、1929年秋冬升级与次年全面执行分开考察。
-
-## [T2] 各学派立场对照矩阵
-**经验基准**：1927年冬至1928年春发生粮食收购危机，随后推行非常征粮；全苏农户入庄率在 1929-06-01 为 `3.9%`（约100万户）、1929-10-01 升至 `7.5%`（约190万户），1929年十一月全会后集体化加速，12月11日俄联邦春播集体化目标较10月计划骤增 `60%` 至 2,400 万公顷，“二万五千人”实际选拔 27,519 名工人，同年 OGPU 征粮农村专项逮捕 49,068 人（`DATA-06-1918-1929-cheka-ogpu-sentencing-and-1929-collectivization-surge`）；12月委员会讨论方案，斯大林12月27日公开宣布转向消灭富农作为阶级。
-
-| 学派/取向 | 代表学者与著作 | 核心论点摘要 | 支撑论断卡 | 主要受批评盲点 |
-| :--- | :--- | :--- | :--- | :--- |
-| 农民社会史 | Moshe Lewin, *Russian Peasants and Soviet Power* (1968) | 征粮危机和村庄利益结构不可简化为富农囤粮；乌拉尔—西伯利亚方法使强制扩展到村庄。 | `CLM-lewin-peasants-1968-grain-procurement-crisis`；`CLM-lewin-peasants-1968-kulak-myth-and-serednyak`；`CLM-lewin-peasants-1968-ural-siberian-method` | 农户分化和地区差异须借更细的地方档案检验。 |
-| 统计与决策史 | R. W. Davies, *The Socialist Offensive* (1980)；E. H. Carr & R. W. Davies, *Foundations of a Planned Economy*, Vol. 1, Part 1 (1969) | 秋季大转变的事后宣传归纳、十一月决议及涅姆奇诺夫谷物商品率表批判（中贫农占 74% 商品粮、农户裂变至 2,558.6 万户，戳穿“只打富农”神话）与1927年价格剪刀差须分别检验，不能把升级说成早已完整拟定。 | `CLM-davies-1980-autumn-1929-great-turn-fabrication`；`CLM-davies-1980-november-plenum-to-dekulakization`；`CLM-carr-davies-1969-nemchinov-table-critique`；`CLM-carr-davies-1969-grain-price-scissor-1927` | 统计本身的口径和地方上报偏差仍待交叉核验。 |
-| 档案与地方升级 | V. P. Danilov, R. Manning, L. Viola & N. A. Ivnitsky (eds.), 《苏联农村的悲剧》第2卷（1929年11月—1930年12月，2000） | 中央委员会内部曾讨论不同速度和处置方案，地方强制及农民逃离、变卖牲畜与政策升级交织。 | `CLM-tragedy-village-1929-november-plenum-escalation`；`CLM-tragedy-village-1929-politburo-dekulakization-commission`；`CLM-tragedy-village-1929-peasant-self-liquidation-and-flight` | 政治警察报告中的阶级归因须与地方材料对勘；译文需回核俄文。 |
-| 战争恐慌与地缘政治 | Olga Velikanova, *Popular Perceptions of Soviet Politics in the 1920s* (2013)；Stephen Kotkin, *Stalin*, Vol. 1 (2014)；David R. Shearer, *Stalin and War, 1918–1953* (2024) | 战争恐慌、囤积与西伯利亚征粮选择叠加推进高压路径；希勒进一步论证斯大林对迫近英波战争与军粮储备的判断直接决定了1928—1929年强制征粮与集体化的时间及病理性强度。 | `CLM-velikanova-2013-war-scare-hoarding-and-grain-crisis`；`CLM-kotkin-2014-siberian-grain-turn`；`CLM-stalin-war-1927-1929-threat-and-collectivization` | 外部安全威胁想象不能单独解释各地实施差异或证明强制不可避免。 |
-| 工业化结构约束 | Alexander Erlich, *The Soviet Industrialization Debate* (1960)；Alec Nove, *Was Stalin Really Necessary?* (1964) | 工业投资与农业剩余之间确有矛盾，但发展目标不等同暴力全盘集体化的必然性。 | `CLM-erlich-1960-preobrazhensky-dilemma`；`CLM-nove-1964-collectivization-economic-disaster` | 后果评价不能直接充作1929年决策者的动机。 |
-| 后苏联贡税论与治安联动 | Viktor Zemskov（维克托·泽姆斯科夫），《斯大林时代》（2018，B级）；Wendy Z. Goldman, *Inventing the Enemy* (2011) | 泽姆斯科夫把20年代低价收购解释为工业化农业“贡税”，并区分1929年底地方跨区驱逐与1930年1月制度化安置；高德曼追踪1929—1930年去富农化治安镇压与一五计划工业短缺、“破坏”话语的联动。 | `CLM-zemskov-2018-agrarian-tribute-and-coercive-turn`（B级）；`CLM-goldman-2011-great-turn-industrialization-and-wrecking` | 泽氏贡税解释缺分年净转移实证且严守1929/1930界线；高德曼核心厂区微观实证延伸至1930年代，不应前移为1929年既定图景。 |
-
-## 4. 关联时间线锚点 (共 16 条)
-- **1928-01-06 [N.S.]** (`TL-W32-1928-01-06-01`, L3): **十五大后粮食收购短缺1.28亿普特，政治局发出斯大林起草的绝密督战通牒** — 承接1927-12-14与12-24两道无效密令（见TL-W15-L3-27-13/17），至1927年底国家谷物收购较上年短缺约1.28亿普特（10–12月仅104、64.5、59.9万吨）。1月6日《真理报》承认收购放缓，同日政治局签发斯大林起草的“完全非常性质”绝密指令，严令加紧征税与反投机，并以严厉处分乃至撤职相威胁；次日VSNKh下令动员工业品支援收购。
-- **1928-01-12 [N.S.]** (`TL-W32-1928-01-12-01`, L3): **政治局委员分赴各产粮危机区督战，米高扬出席北高加索边委会会议** — 政治局派高层大员下沉一线：安德烈耶夫任北高加索边委第一书记，日丹诺夫赴伏尔加流域，什维尔尼克赴乌拉尔；米高扬赴北高加索并于1月12日出席边委会会议通过加快收购指令；乌克兰另抽调6,000名干部、列宁格勒抽调50名骨干驰援西伯利亚与哈萨克斯坦。
-- **1928-01-15 [N.S.]** (`TL-W32-1928-01-15-01`, L3): **斯大林自莫斯科秘密启程赴西伯利亚督粮（公开报刊秘而不宣）** — 斯大林罕见离开莫斯科乘专列东赴丰收却大面积惜售的西伯利亚（《社会主义通报》称莫洛托夫随行）。三周巡视期间苏联公开报刊完全未予报道；此行旨在强力推行《苏俄刑法典》第107条反投机没收条款，属于“第107条非常措施/乌拉尔—西伯利亚督粮实践”，严禁按AUD-14规范倒填为1929年3月方定型的成熟“乌拉尔—西伯利亚方法”。
-- **1928-01-17 [N.S.]** (`TL-W32-1928-01-17-01`, L3): **瑟尔佐夫与西伯利亚OGPU主席扎科夫斯基先行下达每区法办4至10名富农指令** — 在斯大林专列抵达前一日，西伯利亚边疆区党委第一书记瑟尔佐夫与当地OGPU首脑扎科夫斯基联合发令，要求各专区立即排查并依法起诉每区4至10名“富农投机分子”以示强硬表态。
-- **1928-01-18 [N.S.]** (`TL-W32-1928-01-18-01`, L3): **斯大林抵新西伯利亚召开边疆区党委局及60名粮食干部紧急会议** — 斯大林抵达西伯利亚首府新西伯利亚，召集边疆区党委局委员、粮食采购机关负责人及约60名一线干部开会，痛斥采购机关竞价混乱，强令无条件动用刑法第107条没收囤粮；次日（01-19）晨8:00致莫斯科中央书记科西奥尔加密电报汇报部署逮捕与收粮突破。
-- **1928-01-20 [N.S.]** (`TL-W32-1928-01-20-01`, L3): **斯大林在新西伯利亚发表闭门讲话，强推刑法第107条并首提集体农庄出路** — 斯大林在西伯利亚边疆区党委局闭门会议上责令动用刑法第107条没收余粮并将25%以低价或长期贷款分予贫农、封闭集市并清洗“软弱”司法与基层苏维埃干部；同时直言苏维埃不能长期立足于社会化工业与小农经济两种基础，须在三四年内转向集体农庄（科特金视此为集体化转向拍板，赫列夫纽克则认为核心是征粮政治化、全盘集体化拍板在1929-11）。
-- **1928-01-22 [N.S.]** (`TL-W32-1928-01-22-01`, L3): **斯大林抵达巴尔瑙尔督战，当地随即举行第107条首批公开审判** — 斯大林于1月21日离新西伯利亚南下，1月22日在阿尔泰重镇巴尔瑙尔车站及会议上斥责地方对富农妥协，掀起查抄与多线摊派风暴（流放记者索斯诺夫斯基2月22日致信称“1918–19年以来罕见合力扑向农民”）；1月24日巴尔瑙尔率先举行第107条公审重判3名富农。
-- **1928-01-23 [N.S.]** (`TL-W32-1928-01-23-01`, L3): **斯大林巡视鲁布佐夫斯克并召见塞米巴拉金斯克官员督办“特普洛夫富农案”** — 斯大林赴阿尔泰南部鲁布佐夫斯克站并召见邻近哈萨克斯坦塞米巴拉金斯克干部听训，夜宿专列，高调督办七旬大富农特普洛夫（Teplov）囤粮没收案作为第107条示范典型。
-- **1928-01-27 [N.S.]** (`TL-W32-1928-01-27-01`, L3): **斯大林巡视鄂木斯克站（1月下旬，约01-27–28）并于01-30自泰加站拍发密电** — 离开巴尔瑙尔与鲁布佐夫斯克后，斯大林北上西行赴鄂木斯克督粮与推动基层工人党员逮捕“富农投机者”（科特金与卡尔—戴维斯均确证鄂木斯克站，传统编年标作01-27–28，本地藏书未载精确日号，待核《斯大林全集》第11卷大事记pp.369–370）；多尔马托夫编档案集另载斯大林于01-30自泰加站发回绝密电报。
-- **1928-01-31 [N.S.]** (`TL-W32-1928-01-31-01`, L3): **斯大林于克拉斯诺亚尔斯克OGPU驻地彻夜召开东西伯利亚会议（01-31夜至02-01晨6时，02-02启程返京）** — 在艾赫陪同下，斯大林于1月31日深夜在克拉斯诺亚尔斯克地区OGPU驻地召集东西伯利亚党政高干直至2月1日约6:00散会，首次明确将遏制富农与“资本主义包围及突发长期战争”挂钩，当场电令米高扬将西伯利亚2月收购指标由23.5万吨提至32.5万吨（边区自行加码至40万吨）。2月2日斯大林自克拉斯诺亚尔斯克启程返莫斯科。
-- **1928-02-06 [N.S.]** (`TL-W32-1928-02-06-01`, L3): **斯大林返抵莫斯科，OGPU与米高扬密报揭示强制收粮正冲击中农与基层党组织** — 斯大林结束三周西伯利亚秘行返回老广场。虽2月全苏收购跃升至创纪录的190万吨，但2月10日OGPU密报警告西伯利亚基层党员普遍抗拒强征措施、有人附和反对派警告，同日米高扬在《真理报》坦承余粮主体在中农手中。
-- **1928-02-13 [N.S.]** (`TL-W32-1928-02-13-01`, L3): **政治局签发《致各级党组织第一封信》：表面纠偏、后台加压与3万干部动员** — 由斯大林、李可夫、布哈林、莫洛托夫、米高扬起草的《收购运动的初步总结和党的进一步任务》经政治局传阅批准：布—李写入“否定取消NEP”与禁止对余粮低于门槛农户适用第107条条款（阿帕利科夫引档案集作2,000普特，卡尔引全集作200普特）；但斯大林条款号召“不惜任何代价完成计划”并“清洗党、苏维埃与合作社机关”，同步全国动员4,000名干部与26,000名积极分子下乡，形成“同意并忽略”体制。
-- **1928-04-26 [N.S.]** (`TL-W32-1928-04-26-01`, L3): **春耕期收购再跌至25.4万吨，斯大林重启第107条第二波强征引发446起农民骚乱** — 4月冬麦主产区收购量骤降至25.4万吨（不足3月三分之一），斯大林绕开四月全会温情决议于4月26日前后再次启动刑法第107条及设卡强征。因冬季富农库存已竭，打击全面波及中农，4–6月全国爆发446起农民群众骚乱（1926–27两年仅63起），恐怖袭击5月升至51起。
-- **1928-05-28 [N.S.]** (`TL-W32-1928-05-28-01`, L3): **斯大林发表《在粮食战线上》演说，援引涅姆奇诺夫表宣告小农经济破产** — 斯大林赴布哈林势力腹地红色教授学院等院校讲话（06-02刊《真理报》），援引涅姆奇诺夫近似表论证农户从1,500–1,600万增至2,400–2,500万（卡尔核为25,586,000户）致使商品率从战前26.0%跌至13.3%（中贫农仅11.2%，算术11.51%），主张加速集体农庄与国营农场建设。对照DATA-03可见：该表恰证明74.0%商品粮在1926/27来自中贫农而非富农（20.0%），且斯大林4月1日9个月口径掩盖了秋收断崖与冬春强征反差。
-- **1928-07-04 [N.S.]** (`TL-W32-1928-07-04-01`, L3): **联共（布）七月中央全会开幕（07-04–12），奥新斯基、索科利尼科夫与产粮区大员告警“破裂”危机** — 7月4日全会开幕，首议共产国际事务后转入米高扬粮食报告激辩。奥新斯基、索科利尼科夫痛陈价格剪刀差与城乡“破裂（razmychka）”，主张提价与放缓工业化；产粮区首脑安德烈耶夫、彼得罗夫斯基及斯捷茨基惊呼中农乃至贫农广泛不满（担忧红军内爆发“新喀琅施塔得”）；而加里宁与伏罗希洛夫则在关键时刻倒向斯大林。
-- **1928-07-10 [N.S.]** (`TL-W32-1928-07-10-01`, L3): **七月全会布哈林答辩并通过表面妥协决议：提价并禁止重复非常措施（07-12闭幕）** — 7月10日布哈林与托姆斯基警告“两声钟响已过”、没有富农和耐普曼的NEP行不通；全会最终采纳布哈林稿基础上的妥协决议（07-10/11通过），承认存在“城乡破裂危险”，谴责余粮征集制式过火，承诺不再使用非常措施并推翻斯大林反对决定适当提高收购粮价（约15–20%，07-19颁令实施）。7月12日莫洛托夫作培养技术专家报告后全会闭幕。
+## 4. 关联时间线骨干锚点 (L0–L2 展示 0 条，另有 16 条 L3 逐日细节见 `timeline/L3_daily/`)

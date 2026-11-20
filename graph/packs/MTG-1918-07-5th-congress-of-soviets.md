@@ -1,14 +1,9 @@
-# 1-Hop 平衡上下文包：`MTG-1918-07-5th-congress-of-soviets` (第五次全俄工农兵与哥萨克苏维埃代表大会（1918年7月）)
+# 1-Hop 去重平衡上下文包：`MTG-1918-07-5th-congress-of-soviets`
 
-> 本文件由 `python scripts/kb.py pack` 自动编译，旨在将失控的 `1+N` 随机读取压缩为**等权重、带时效边实质与史学盲区告警**的单次全景读取。
+> 由 `python scripts/kb.py pack` 动态编译：保留 **100% 一跳邻居与多时段关系边**，跨卡自动去重争鸣与时间线，并关联学者学派 (`SCH-*`)。
 
-## 0. 认知完备度与反偏斜仪表盘 (Epistemic & Skew Warnings)
-- **主卡路径**: `cards/meetings/MTG-1918-07-5th-congress-of-soviets.md`
-- **完备度等级**: `multi-perspective`
-- **已覆盖视角**: `constitution-primary, archival-revisionist, soviet-government-contemporary, pipes-figes-exclusionary-logic, leggett-cheka-institutionalization, carr-constitutional-fusion`
-- **待补齐视角**: `full-congress-proceedings, independent-left-sr-archive, regional-credentials-materials`
-- **偏斜风险提示**:
-  - ⚠️ 主卡显式声明尚缺以下视角待补: `full-congress-proceedings, independent-left-sr-archive, regional-credentials-materials`。
+## 0. 认知完备度与反偏斜仪表盘
+- **`MTG-1918-07-5th-congress-of-soviets`** (第五次全俄工农兵与哥萨克苏维埃代表大会（1918年7月） | `cards/meetings/MTG-1918-07-5th-congress-of-soviets.md` | `multi-perspective`): 已覆盖=`constitution-primary, archival-revisionist, soviet-government-contemporary, pipes-figes-exclusionary-logic, leggett-cheka-institutionalization, carr-constitutional-fusion`；待补=`full-congress-proceedings, independent-left-sr-archive, regional-credentials-materials`
 
 ## 1. 主卡核心层 ([T1] + [T2])
 ## [T1] 60秒定性微摘要
@@ -43,32 +38,15 @@
 - **Carr（宪法层面的权力融合）**：把宪法视为党—苏维埃—行政权力融合的法典化（`CLM-carr-1950-1918-constitution-fusion-of-powers-and-class-franchise`）。
 - 站内 `DEB-1918-red-terror-and-civil-war-origins` 另含 Hoffmann、Mawdsley 等视角，可作延伸。
 
-## 2. 一跳邻域等权重微摘要 (共 6 个关联节点，严防大卡霸占上下文)
-### 邻居节点: `ORG-left-srs`
-- **时效关系边** (`MTG-1918-07-5th-congress-of-soviets` → `ORG-left-srs` | `coalition_breakdown` | 有效时段: `1918年3–7月`): 3月退出人民委员会，7月刺杀及拘押后苏维埃合作瓦解。
-- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 1917年底从社会革命党分裂出的激进民粹派政党（1917–1923），以斯皮里多诺娃、普罗相等为首。拥护苏维埃政权并于1917年12月加入人民委员会与布尔什维克联合执政；1918年3月因反《布列斯特和约》退阁但仍维持北方公社合作，7月6日刺杀德国大使米尔巴赫遭全面清洗而覆灭。
+## 2. 一跳邻域全量微摘要目录 (去重后共 6 个节点，0 截断)
+- **`EVT-1918-09-red-terror-and-left-sr-rupture`**（1918年夏左翼社革党决裂与红色恐怖制度化）: 1918年7月左翼社革党刺杀米尔巴赫，其意在逼废和约抑或夺权存史学争议，随后遭布党镇压并被逐出苏维埃权力核心。8月30日乌里茨基遇害、列宁遇刺后，9月5日红色恐怖法令将集中营隔离与枪决制度化。一党垄断与暴力升级须分别追踪，登记死亡数非全部受害者。 ‖ `→MTG-1918-07-5th-congress-of-soviets`[political_rupture_arena|1918-07-04..10]: 大会争执、代表拘押与宪法通过构成两党苏维埃合作转折。 ； `←MTG-1918-07-5th-congress-of-soviets`[consequence_in|1918年7–9月]: 7月破裂的后续：红色恐怖与左翼社革党制度性出局。
+- **`INS-sovnarkom-and-vtsik`**（人民委员会与全俄、全苏中央执行委员会）: 苏维埃代表大会闭会期间，中执委在宪制上监督政府，人民委员会却迅速掌握施政与大量法令制定。苏俄与1922年成立的苏联各有中执委与人民委员会，不能混同。党内领导与国家机关关系不断变化，政治局权重日增，但1920年代仍须经政府落实决策。 ‖ `→MTG-1918-07-5th-congress-of-soviets`[constitution_adoption|1918-07-10]: 通过苏俄宪法
+- **`ORG-left-srs`**（左翼社会革命党）: 1917年底从社会革命党分裂出的激进民粹派政党（1917–1923），以斯皮里多诺娃、普罗相等为首。拥护苏维埃政权并于1917年12月加入人民委员会与布尔什维克联合执政；1918年3月因反《布列斯特和约》退阁但仍维持北方公社合作，7月6日刺杀德国大使米尔巴赫遭全面清洗而覆灭。 ‖ `←MTG-1918-07-5th-congress-of-soviets`[coalition_breakdown|1918年3–7月]: 3月退出人民委员会，7月刺杀及拘押后苏维埃合作瓦解。
+- **`PER-spiridonova`**（玛丽亚·斯皮里多诺娃）: 左翼社革党领袖。1906年枪击镇压官卢热诺夫斯基致死，历十一年苦役获革命声望。1917–1918年推动农民苏维埃合并，竞选立宪会议主席以153票负于切尔诺夫244票；1918年7月苏维埃五大期间参与发起刺杀米尔巴赫，亲赴会场承担政治责任并被捕。 ‖ `←MTG-1918-07-5th-congress-of-soviets`[challenges_government|1918年夏]: 左翼社革党领袖批评和约及农村政策；资格异议须与已证事实分开；刺杀后到大剧院解释时被捕。
+- **`EVT-1918-03-brest-litovsk-treaty`**（1918年布列斯特-里托夫斯克和约危机与签约）: 1917年12月停战至1918年3月签约，列宁主和、托洛茨基“不战不和”与布哈林革命战争路线交锋。德军进逼后，中央2月23日以7赞成、4反对、4弃权接受最后通牒；和约保存政权，也加深党内裂痕并促使左翼社革党退阁。 ‖ `←MTG-1918-07-5th-congress-of-soviets`[contested_at|1918年7月]: 和约成为两党冲突及刺杀背景。
+- **`ORG-cheka-ogpu`**（全俄肃反委员会—国家政治保卫局）: 苏俄与苏联早期政治警察机关（1917–1934），由捷尔任斯基创立。历经全俄肃反委员会（ВЧК，1917–1922）、国家政治保卫局（ГПУ，1922–1923）与国家政治保卫总局（ОГПУ，1923–1934）三阶段，从法外非常机构演变为直属政治局的常设宪制部门，执行红色恐怖与强制集体化。 ‖ `←MTG-1918-07-5th-congress-of-soviets`[entangled_in_conflict|1918年7月]: 刺杀与武装冲突涉及波波夫的契卡战斗支队，事后契卡内部左翼成员被清除。
 
-### 邻居节点: `PER-spiridonova`
-- **时效关系边** (`MTG-1918-07-5th-congress-of-soviets` → `PER-spiridonova` | `challenges_government` | 有效时段: `1918年夏`): 左翼社革党领袖批评和约及农村政策；资格异议须与已证事实分开。
-- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 左翼社会革命党核心领袖（1884–1941，本卡至1929年）。1906年枪击坦波夫镇压官卢热诺夫斯基致其重伤后死亡，经十一年苦役获全国革命声望；1917–1918年推动农民苏维埃合并，竞选立宪会议主席获153票对切尔诺夫244票；1918年7月苏维埃五大参与发起刺杀米尔巴赫行动并亲赴会场承担政治责任被捕。
-
-### 邻居节点: `EVT-1918-03-brest-litovsk-treaty`
-- **时效关系边** (`MTG-1918-07-5th-congress-of-soviets` → `EVT-1918-03-brest-litovsk-treaty` | `contested_at` | 有效时段: `1918年7月`): 和约成为两党冲突及刺杀背景。
-- **节点定性微摘要 [T1]** (完备度 `draft`): 1917年12月停战谈判至1918年3月签约：党内列宁“割地喘息”派、托洛茨基“不战不和”与布哈林“革命战争”派激烈对决；2月18日德军恢复进攻并经2月18/19日夜 7:5:1 试探性电告后，2月23日（公历）中央委员会以 **7:4:4** 接受严苛最后通牒，3月3日签约并经俄共七大批准，左翼社革党遂退出人民委员会。
-
-### 邻居节点: `ORG-cheka-ogpu`
-- **时效关系边** (`MTG-1918-07-5th-congress-of-soviets` → `ORG-cheka-ogpu` | `entangled_in_conflict` | 有效时段: `1918年7月`): 刺客和参与武装冲突者与契卡机构相联系。
-- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 苏俄与苏联早期政治警察机关（1917–1934），由捷尔任斯基创立。历经全俄肃反委员会（ВЧК，1917–1922）、国家政治保卫局（ГПУ，1922–1923）与国家政治保卫总局（ОГПУ，1923–1934）三阶段，从法外非常机构演变为直属政治局的常设宪制部门，执行红色恐怖与强制集体化。
-
-### 邻居节点: `INS-sovnarkom-and-vtsik`
-- **时效关系边** (`INS-sovnarkom-and-vtsik` → `MTG-1918-07-5th-congress-of-soviets` | `constitution_adoption` | 有效时段: `1918-07-10`): 通过苏俄宪法
-- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 苏维埃代表大会闭会期间，中执委在宪制上监督政府，人民委员会却迅速掌握施政与大量法令制定。苏俄与1922年成立的苏联各有中执委与人民委员会，不能混同。党内领导与国家机关关系不断变化，政治局权重日增，但1920年代仍须经政府落实决策。
-
-### 邻居节点: `EVT-1918-09-red-terror-and-left-sr-rupture`
-- **时效关系边** (`MTG-1918-07-5th-congress-of-soviets` → `EVT-1918-09-red-terror-and-left-sr-rupture` | `consequence_in` | 有效时段: `1918年7–9月`): 7月破裂的后续：红色恐怖与左翼社革党制度性出局。
-- **节点定性微摘要 [T1]** (完备度 `draft`): 1918年7月第五次全俄苏维埃大会期间，左翼社革党刺杀德国大使米尔巴赫引爆执政联盟彻底决裂；8月30日乌里茨基遇害与列宁遇刺重伤后，人民委员会于1918-09-05颁布《关于红色恐怖的决议》，将集中营隔离、枪决涉白卫阴谋叛乱者与公开处决名单正式制度化，终结苏维埃多党并存格局。
-
-## 3. 关联史学争鸣光谱 (Historiographical Debates)
+## 3. 关联史学争鸣与学者论断索引 (主卡外关联争鸣 2 项)
 ### `DEB-1918-red-terror-and-civil-war-origins`：红色恐怖、契卡扩张与内战期一党专政起源之争（1918–1921）
 ## [T1] 核心问题定义
 红色恐怖和契卡法外权力是列宁主义政治逻辑的必然结果，还是内战、粮食危机、联盟破裂与地方暴力交织下的制度选择？中央命令与地方自主行动怎样互相强化？恐怖升级、社会主义对手遭镇压和一党统治形成各有不同时间线，不能压缩成同一事件。
@@ -98,4 +76,30 @@
 | 自由主义制度批判 | Richard Pipes, *The Russian Revolution* (1990) | 将1918年1月枪击保卫立宪会议游行与武力关闭议会视为列宁夺权意志与极权恐怖制度化的真正起点，认为布尔什维克借民众疲惫确立了不受制约的专政。 | `CLM-pipes-1990-october-classic-coup`; `CLM-pipes-1990-red-terror-leninist-logic` | 对地方苏维埃多党合作与1918年上半年布尔什维克党内争论关注不足。 |
 | 孟什维克与议会民主传记派 | Israel Getzler, *Martov* (1967); W. H. Roobol, *Tsereteli* (1976) | 策烈铁里在 `1918-01-05 [O.S.]` 立宪会议讲坛作最后跨阶级议会民主抗辩；马尔托夫则在会后转入苏维埃体制内开展半合法反对（直至 `1918-06-14` 全俄中执委驱逐右社革与孟什维克）。 | `CLM-getzler-1967-martov-soviet-opposition`; `CLM-roobol-1976-tsereteli-tragedy-of-moderation` | 领袖政治伦理需与工厂全权代表会议（丘拉科夫 `CLM-churakov-2004-*`）实证规模对勘。 |
 
-## 4. 关联时间线锚点 (共 0 条)
+
+### 3.1 关联核心论断与史学家学派坐标 (`CLM-*` → `SCH-*`, 展示前 24/24 条)
+- **`CLM-leggett-1981-red-terror-institutionalization`** [`SCH-leggett-george`(乔治·莱格特) | pp. 56-59, 102-115, 144-145 (PDF pp. 94-97, 140-153, 182-183)]: 
+- **`CLM-rabinowitch-2007-left-sr-coalition-collapse`** [`SCH-rabinowitch-alexander`(亚历山大·拉比诺维奇) | pp. 274-282, 287-309, 395-396]: 
+- **`CLM-carr-1950-1918-constitution-fusion-of-powers-and-class-franchise`** [`SCH-carr-eh`(爱德华·霍列特·卡尔) | [PDF pp. 67, 72-74]]: 
+- **`CLM-pipes-1990-red-terror-leninist-logic`** [`SCH-pipes-richard`(理查德·派普斯) | ch. 18 (The Red Terror)]: 
+- **`CLM-leggett-1981-vecheka-extra-legal-origins`** [`SCH-leggett-george`(乔治·莱格特) | pp. 17-22, 47-49 (PDF pp. 55-60, 85-87)]: 
+- **`CLM-leggett-1981-cheka-to-gpu-continuity`** [`SCH-leggett-george`(乔治·莱格特) | pp. 339-352, 355-363 (PDF pp. 377-390, 393-401)]: 
+- **`CLM-rabinowitch-2007-contingency-of-dictatorship`** [`SCH-rabinowitch-alexander`(亚历山大·拉比诺维奇) | pp. xi-xii, 390-398]: 
+- **`CLM-raleigh-2001-local-bolshevik-violence-and-clientelism`** [`SCH-raleigh-donald`(唐纳德·J·罗利) | Local PDF pp. 104, 112–130; English print pagination not verified]: 
+- **`CLM-cheka-chronicle-hostage-and-local-autonomy`** [`SCH-ratkovsky-ilya`(伊利亚·拉特科夫斯基) | EPUB OPS/ch1-6.xhtml; OPS/ch1-10.xhtml; OPS/ch1-14.xhtml; OPS/ch1-15.xhtml; OPS/ch1-16.xhtml; OPS/ch1-19.xhtml（提取文本无印刷页码）]: 
+- **`CLM-cheka-chronicle-suppression-of-socialist-rivals`** [`SCH-ratkovsky-ilya`(伊利亚·拉特科夫斯基) | EPUB OPS/ch1-4.xhtml; OPS/ch1-5.xhtml; OPS/ch1-9.xhtml; OPS/ch1-10.xhtml; OPS/ch1-15.xhtml; OPS/ch1-16.xhtml（提取文本无印刷页码）]: 
+- **`CLM-plekhanov-am-dzerzhinsky-cheka-institutionalization`** [`SCH-ratkovsky-ilya`(伊利亚·拉特科夫斯基) | pp. 55-56, 97-106, 118-123, 147-155, 209-211, 228]: 
+- **`CLM-halle-1920-martov-critique-of-terror-and-21-conditions`** [`SCH-martov-iulii`(尤利·奥西波维奇·马尔托夫 · participant-primary-text) | pp. 167–170, 173, 175–176, 179 (Lih translation in the 2011 Lewis/Lih edition; printed page = PDF page − 1). Full speech pp. 167–179, delivered 15 October 1920 [N.S.]]: 
+- **`CLM-smith-scott-2011-psr-third-force-collapse`** [`SCH-radkey-oliver`(奥利弗·亨利·拉德基) | pp. 452-455, 467-473, 490-493 (PDF pp. 468-471, 483-489, 506-509)]: 
+- **`CLM-churakov-2004-soviet-worker-protest-dynamics-1918`** [`SCH-churakov-dmitry`(德米特里·奥列戈维奇·丘拉科夫) | pp. 84-88, 352-355]: 
+- **`CLM-churakov-2004-izhevsk-votkinsk-worker-insurrection`** [`SCH-churakov-dmitry`(德米特里·奥列戈维奇·丘拉科夫) | pp. 258-285, 290-298, 304-325]: 
+- **`CLM-mawdsley-1987-civil-war-militarized-regime`** [`SCH-mawdsley-evan`(埃文·莫兹利) | pp. 328, 331, 346-347]: 
+- **`CLM-hoffmann-2011-continuum-of-total-war-1914-1929`** [`SCH-hoffmann-david`(大卫·L·霍夫曼) | pp. 12–13, 38, 127–128]: 
+- **`CLM-mozokhin-cheka-to-ogpu-extrajudicial-jurisdiction-1918-1929`** [`SCH-mozokhin-oleg`(奥列格·莫佐欣) | PDF pp. 8-36, 44-49, 117-136]: 
+- **`CLM-zemskov-1920s-archival-repression-scale-before-1930`** [`SCH-zemskov-viktor`(维克托·尼古拉耶维奇·泽姆斯科夫) | PDF pp. 199-200, 210-214, 220-221 (原书 pp. 197-198, 208-212, 218-219)]: 
+- **`CLM-rabinowitch-2007-constituent-assembly`** [`SCH-rabinowitch-alexander`(亚历山大·拉比诺维奇) | pp. 88-91, 105-110, 121-127]: 
+- **`CLM-pipes-1990-october-classic-coup`** [`SCH-pipes-richard`(理查德·派普斯) | ch. 11 (The October Coup); cf. Introduction]: 
+- **`CLM-getzler-1967-martov-soviet-opposition`** [`SCH-getzler-israel`(伊斯雷尔·格茨勒) | pp. 168-191]: 
+- **`CLM-roobol-1976-tsereteli-tragedy-of-moderation`** [`SCH-roobol-wh`(W·H·罗博尔) | pp. 39, 253–257 (printed page = PDF page − 10). Narrative evidence for 1907 and 1917 runs through pp. 32–65 and pp. 81–182; those pages are not all quoted here.]: 
+
+## 4. 关联时间线骨干锚点 (L0–L2 展示 0 条)

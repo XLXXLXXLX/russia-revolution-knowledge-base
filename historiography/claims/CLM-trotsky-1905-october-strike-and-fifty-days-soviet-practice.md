@@ -1,7 +1,7 @@
 ---
 id: CLM-trotsky-1905-october-strike-and-fifty-days-soviet-practice
 type: claim
-scholar: PER-trotsky
+scholar: SCH-trotsky-leon
 work_title: "《1905》第七至十三章、第二十章及第二部分第一至三章"
 publication_year: 1922
 source_tier: B

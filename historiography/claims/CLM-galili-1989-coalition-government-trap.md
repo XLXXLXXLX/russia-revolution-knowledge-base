@@ -7,8 +7,8 @@ publication_year: 1989
 source_tier: A
 local_source_path: "sources/monographs/galili_1989_menshevik_leaders/ch11_five_toward_a_coalition_government.md#L622-L1235"
 original_pages: "pp. 169-170, 177-181 (PDF pp. 195-196, 203-207)"
-targets_cards: ["ORG-mensheviks", "PER-dan-f", "PER-chkheidze", "PER-tsereteli", "EVT-1917-04-crisis"]
-debate: DEB-1917-dual-power-and-coalition
+targets_cards: ["ORG-mensheviks", "PER-dan", "ORG-petrograd-soviet", "PER-tsereteli", "POL-april-theses-1917"]
+debate: DEB-1917-dual-power-and-february-origins
 supports: []
 rebuts: []
 qualifies: []

@@ -1,14 +1,9 @@
-# 1-Hop 平衡上下文包：`PER-witte` (谢尔盖·维特)
+# 1-Hop 去重平衡上下文包：`PER-witte`
 
-> 本文件由 `python scripts/kb.py pack` 自动编译，旨在将失控的 `1+N` 随机读取压缩为**等权重、带时效边实质与史学盲区告警**的单次全景读取。
+> 由 `python scripts/kb.py pack` 动态编译：保留 **100% 一跳邻居与多时段关系边**，跨卡自动去重争鸣与时间线，并关联学者学派 (`SCH-*`)。
 
-## 0. 认知完备度与反偏斜仪表盘 (Epistemic & Skew Warnings)
-- **主卡路径**: `cards/people/PER-witte.md`
-- **完备度等级**: `multi-perspective`
-- **已覆盖视角**: `state-substitution-gerschenkron, trotskyist-uneven-development, gentry-social-history-manning, fiscal-revisionist-plaggenborg, liberal-constitutional-pipes-figes`
-- **待补齐视角**: `archival-tsarist-chancery-minutes, post-soviet-biographical`
-- **偏斜风险提示**:
-  - ⚠️ 主卡显式声明尚缺以下视角待补: `archival-tsarist-chancery-minutes, post-soviet-biographical`。
+## 0. 认知完备度与反偏斜仪表盘
+- **`PER-witte`** (谢尔盖·维特 | `cards/people/PER-witte.md` | `multi-perspective`): 已覆盖=`state-substitution-gerschenkron, trotskyist-uneven-development, gentry-social-history-manning, fiscal-revisionist-plaggenborg, liberal-constitutional-pipes-figes`；待补=`archival-tsarist-chancery-minutes, post-soviet-biographical`
 
 ## 1. 主卡核心层 ([T1] + [T2])
 ## [T1] 150字定性微摘要
@@ -39,48 +34,18 @@
 - **实用机会主义与立宪破局的两难（Richard Pipes & Orlando Figes）**：Pipes 在《俄国革命》（`ch09` L374–381, L466–489；`ch13` L83–96, L431–455）中将维特评为帝俄晚期最杰出的实用主义政治家（尽管缺乏宏大政治远见且早期亲专制），他在1905年10月备忘录中为分化反对派甚至提出过考虑对杜马负责或获其信任的内阁，且1906年立宪体制保留了真实的立法、质询与国际信贷约束权，并非毫无实效。Figes 则在《人民的悲剧》（`ch12_5` L288–295, L314–323, L360）中强调，尼古拉二世从一开始就极不情愿受《十月宣言》约束，维特在与米留可夫谈判时被迫坦承自己无法承诺立宪是因为“沙皇不想要宪法”，故自由派拒绝入阁并非无理取闹；而在莫斯科起义被镇压后，维特自承在宫廷失宠、无力阻止杜尔诺沃的残酷报复（编者按：使用《维特伯爵回忆录》时，须警惕其把镇压与立宪受挫全盘推咎于沙皇与政敌的事后自辩倾向）。
 - **土地缙绅反叛与财政税负修正（Roberta T. Manning & Stefan Plaggenborg）**：Manning 揭示维特体制在农业部门内部引发传统土地贵族的集体恐慌，限制地方自治局税源的法令更直接迫使省级缙绅在1904–1905年站到反对派一边（`CLM-manning-1982-gentry-fronde-to-reaction`）。Plaggenborg 在1995年论文（“Tax Policy and the Question of Peasant Poverty in Tsarist Russia, 1881–1905”, *Cahiers du Monde russe* 36(1–2), pp. 53–70/69，据 `E02_1881-1904_marxism_and_parties` 采信）中进一步重算1881–1905年消费税与直接税流向，质疑“农民独自承担全部工业化代价”的传统单线判断，主张将农村税负与城市消费者、工业部门内部税负拆开计量；同期民粹派（丹尼尔逊）与合法马克思主义者（`PER-struve`）的“俄国资本主义命运之争”亦围绕维特工业化展开（`CLM-walicki-1969-marx-populist-affinity`）。
 
-## 2. 一跳邻域等权重微摘要 (共 9 个关联节点，严防大卡霸占上下文)
-### 邻居节点: `EVT-1905-revolution`
-- **时效关系边** (`PER-witte` → `EVT-1905-revolution` | `manifesto-drafter-and-premier` | 有效时段: `1905.10-1906.04`): 在1905年十月全俄总罢工绝境中说服尼古拉二世签署《十月宣言》并出任首任统一大臣会议主席，一面镇压苏维埃一面敲定法国大贷款稳住政权。
-- **时效关系边** (`EVT-1905-revolution` → `PER-witte` | `negotiator_and_suppressor` | 有效时段: `1905.10–1906.04`): 劝谏颁布《十月宣言》分化反对派，随后逮捕彼得堡苏维埃并借国际借款缓解政府对首届杜马的即时财政依赖
-- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 1905年1月9日[O.S.]“血腥星期日”至1907年6月3日[O.S.]六三新选举法间的帝俄首次全民革命。涵盖十月总罢工、彼得堡苏维埃、水兵哗变、莫斯科起义与黑土区农村暴动；迫使沙皇颁布《十月宣言》与杜马体制，随革命退潮，有限代议制度保留并受保守选举法约束。
+## 2. 一跳邻域全量微摘要目录 (去重后共 9 个节点，0 截断)
+- **`EVT-1891-1903-witte-industrialization-and-marxist-labor-turn`**（1891–1903年维特工业化与俄国马克思主义工运转向）: 1891–1903年维特国家工业化与俄国马克思主义工运转向。1891–1892年饥荒触发民粹派与马克思主义大论战，1896–1897年彼得堡纺织工潮迫使沙皇颁布11.5小时工时法；历经经济派与“警察社会主义”博弈，1903年二大引发持续派争。 ‖ `→PER-witte`[macro_economic_driver|1892–1903]: 主导重工、铁路与1897金本位，催生高度集中的现代无产阶级，并于 1903-08-16 [O.S.] 被免去财政大臣 ； `←PER-witte`[chief_architect_of|1892–1903]: 主导铁路、关税、酒类专卖与1897金本位工业化，同时在工潮压力下颁布1897工时法并与祖…
+- **`EVT-1905-revolution`**（1905–1907年俄国第一次革命）: 1905年1月9日[O.S.]“血腥星期日”至1907年6月3日[O.S.]六三新选举法间的帝俄首次全民革命。涵盖十月总罢工、彼得堡苏维埃、水兵哗变、莫斯科起义与黑土区农村暴动；迫使沙皇颁布《十月宣言》与杜马体制，随革命退潮，有限代议制度保留并受保守选举法约束。 ‖ `→PER-witte`[negotiator_and_suppressor|1905.10–1906.04]: 劝谏颁布《十月宣言》分化反对派，随后逮捕彼得堡苏维埃并借国际借款缓解政府对首届杜马的即时财政依赖 ； `←PER-witte`[manifesto_architect_and_suppressor|1905–1906]: 拟定《十月宣言》分化反对派，随后逮捕彼得堡苏维埃、镇压莫斯科起义，并以国际借款减轻政府对…
+- **`PER-gapon`**（格奥尔吉·阿波罗诺维奇·加邦）: 东正教司祭，组织合法工人大会。1905-01-09[O.S.]/01-22[N.S.]率工人向沙皇请愿，结合宗教申诉与立宪要求，遭军警镇压。流亡后返俄，接受政府津贴并接触警察官员；1906-03-28[O.S.]/04-10[N.S.]被社革党人鲁坚贝格及工人小队私刑绞死。 ‖ `→PER-witte`[covert-subsidy-patron|1905-11 [O.S.]]: 维特内阁通过中间人拨款资助加邦恢复合法工人大会，企图以此对冲圣彼得堡苏维埃与武装起义号召
+- **`PER-nicholas-ii`**（尼古拉二世）: 末代沙皇（1894–1917在位），固守东正教君权与家产制专制。1905年经历血腥星期日，被迫签署《十月宣言》；1915年赴莫吉廖夫兼任最高统帅，宫廷趋于孤立。1917-03-02[O.S.]/03-15[N.S.]在普斯科夫退位，1918-07-17于叶卡捷琳堡被处决。 ‖ `→PER-witte`[reluctant-sovereign|1894–1906]: 依赖维特推进工业化并在1905年10月危局中签署其起草的《十月宣言》，但始终痛恨其削弱专制特权并在1906年将其罢免 ； `←PER-witte`[chief_minister_distrusted_and_discarded|1894–1906]: 沙皇依赖维特推动工业化并在1905危局中起用其拟定《十月宣言》，但厌恶其逼宫让步，190…
+- **`POL-october-manifesto-and-1906-fundamental-laws`**（十月宣言、国家根本法与六三体制）: 1905年革命迫使沙皇签署《十月宣言》，承诺公民自由、杜马立法同意权。1906年《国家根本法》使代议立法制度化，同时保留皇权、上院否决与休会紧急立法；1907年未经议会同意改选举法，形成延至1917年的六三体制。它并非议会责任内阁，亦不能视为纯粹装饰。 ‖ `←PER-witte`[co_architect_of|1905.10–1906.04]: 推动 1905-10-17 [O.S.] 宪政退却文本，并在离任前参与1906年《国家根… ； `→PER-witte`[architect|1905]: 维特主张以宣言和统一政府应对革命危机，最终由皇帝签署
+- **`PER-trotsky`**（列夫·托洛茨基）: 俄国革命家、“不断革命论”提出者，1905年彼得堡苏维埃实际领袖与1917年彼得格勒苏维埃主席；借军革委与苏维埃二大衔接统筹十月夺权，内战期起用4.8万军事专家缔造红军。1923–1927年领衔左翼与联合反对派抗衡斯大林集权并受“红色波拿巴”污名围剿，1927年被开除出党，1929年被驱逐出境。 ‖ `←PER-witte`[adversary_and_theorist|1905]: 托洛茨基作为彼得堡苏维埃核心发布《财政宣言》试图冲击维特金本位储备，事后在《1905》中…
+- **`PER-stolypin`**（彼得·斯托雷平）: 帝俄内务大臣（1906–1911）暨大臣会议主席（1906.07–1911.09）。以野战法庭与1907年六三选举法平定革命余波，借土地法令允许农户脱社确权、培植私有小农；1911年3月因西部六省地方自治法案第87条危机失势，同年9月在基辅遇刺，成为晚期的改革路径争议核心。 ‖ `←PER-witte`[predecessor_and_rival|1906–1911]: 斯托雷平接管维特留下的财政与《基本法》秩序后改走联合贵族—拆解村社路线，维特在国务会议曾…
+- **`ORG-kadets`**（立宪民主党（卡德特党））: 1905年10月从解放同盟诞生的俄国自由主义核心政党，主张四尾制宪、有偿征地与议会道路，曾主导前两届杜马与战时进步同盟。1917年二月主导首届临时政府并切断对杜马从属关系，旋因战争、土地危机及科尔尼洛夫事件退阁丧失民心，十月后被定为“人民公敌”并在内战与流亡中分裂。 ‖ `←PER-witte`[failed_negotiator_with|1905.10–11]: 维特邀自由派入阁，因立宪民主党拒绝与杜尔诺沃共事且维特被迫承认“沙皇不愿立宪”而破裂
+- **`ORG-octobrists-and-progressive-bloc`**（十月十七日同盟与进步同盟）: 1905年十月宣言后形成的十月十七日同盟是拥护君主立宪的温和自由主义政党；1915年的进步同盟是跨党派杜马联盟，二者并非同一组织。两者既要求改善政府与社会关系，又忧惧群众革命；1917年部分杜马领袖成为临时政权支点，却不能独掌街头、军队与苏维埃。 ‖ `←PER-witte`[courted_moderates|1905.10–1906]: 曾试图拉拢希波夫、古契柯夫等十月党—温和派人士入阁充当政治缓冲未果
 
-### 邻居节点: `PER-gapon`
-- **时效关系边** (`PER-gapon` → `PER-witte` | `covert-subsidy-patron` | 有效时段: `1905-11 [O.S.]`): 维特内阁通过中间人拨款资助加邦恢复合法工人大会，企图以此对冲圣彼得堡苏维埃与武装起义号召
-- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 东正教司祭、1905年“血腥星期日”请愿运动核心组织者。出身乌克兰波尔塔瓦省哥萨克书吏家庭，1902年起接触祖巴托夫“警察社会主义”试验，1903–1904年组建合法群众团体“圣彼得堡俄国工厂工人大会”。`1905-01-09 [O.S.] / 1905-01-22 [N.S.]` 携融合宗教父权申诉与立宪会议纲领的《致沙皇请愿书》率逾十万工人和平游行，遭军警排枪镇压，重创民众“慈父沙皇”信仰。惨案后流亡日内瓦周旋于各革命党之间，1905年底返俄后秘密接受维特政府津贴并接触警察司副司长拉奇科夫斯基；`1906-03-28 [O.S.] / 1906-04-10 [N.S.]` 在圣彼得堡北郊奥泽尔基别墅被社革党人鲁坚贝格及工人小队私刑绞死。
-
-### 邻居节点: `PER-nicholas-ii`
-- **时效关系边** (`PER-nicholas-ii` → `PER-witte` | `reluctant-sovereign` | 有效时段: `1894–1906`): 依赖维特推进工业化并在1905年10月危局中签署其起草的《十月宣言》，但始终痛恨其削弱专制特权并在1906年将其罢免
-- **时效关系边** (`PER-witte` → `PER-nicholas-ii` | `chief-minister -> distrusted-discarded` | 有效时段: `1894–1906`): 沙皇厌恶维特的强势与立宪让步，1903年将其调离财政部，1905年10月危局中被迫起用，1906年春法国贷款落定后于 04-22 [O.S.] / 05-05 [N.S.] 将其免职
-- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 俄罗斯帝国末代沙皇（1894–1917在位）。固守东正教君权神授与家产制专制信条；经历1905年血腥星期日并被迫签署《十月宣言》，1915年亲赴莫吉廖夫兼任最高统帅引发宫廷孤立，`1917-03-02 [O.S.] / 1917-03-15 [N.S.]` 在普斯科夫退位，`1918-07-17` 在叶卡捷琳堡伊帕季耶夫宅邸被处决。
-
-### 邻居节点: `PER-trotsky`
-- **时效关系边** (`PER-witte` → `PER-trotsky` | `adversary-and-theorist` | 有效时段: `1905`): 托洛茨基作为彼得堡苏维埃领导人与维特内阁正面博弈（12月2日[O.S.]《财政宣言》冲击金本位储备），其后又在《1905》中作为理论解释者以维特工业化论证“不平衡与综合发展”
-- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 俄国革命家、“不断革命论”提出者，1905年彼得堡苏维埃实际领袖与1917年彼得格勒苏维埃主席；借军革委与苏维埃二大衔接统筹十月夺权，内战期起用4.8万军事专家缔造红军。1923–1927年领衔左翼与联合反对派抗衡斯大林集权并受“红色波拿巴”污名围剿，1927年被开除出党，1929年被驱逐出境。
-
-### 邻居节点: `PER-stolypin`
-- **时效关系边** (`PER-witte` → `PER-stolypin` | `predecessor-rival` | 有效时段: `1906–1911`): 斯托雷平承接维特内阁末期谈妥的法国贷款与 1906-04-26 [O.S.] / 05-09 [N.S.] 公布的《基本法》框架，转向拆解村社并修复与联合贵族会的关系，两人晚年相互攻讦
-- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 帝俄内务大臣（1906–1911）暨大臣会议主席（1906.07–1911.09）。以野战法庭与1907年六三选举法平定革命余波，借土地法令允许农户脱社确权、培植私有小农；1911年3月因西部六省地方自治法案第87条危机失势，同年9月在基辅遇刺，成为晚期的改革路径争议核心。
-
-### 邻居节点: `ORG-kadets`
-- **时效关系边** (`PER-witte` → `ORG-kadets` | `failed-negotiator` | 有效时段: `1905.10–11`): 维特试图拉拢自由派与地方自治局温和派入阁，因立宪民主党坚持制宪议会与土地改革而破裂
-- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 1905年10月从解放同盟诞生的俄国自由主义核心政党，主张四尾制宪、有偿征地与议会道路，曾主导前两届杜马与战时进步同盟。1917年二月主导首届临时政府并切断对杜马从属关系，旋因战争、土地危机及科尔尼洛夫事件退阁丧失民心，十月后被定为“人民公敌”并在内战与流亡中分裂。
-
-### 邻居节点: `POL-october-manifesto-and-1906-fundamental-laws`
-- **时效关系边** (`POL-october-manifesto-and-1906-fundamental-laws` → `PER-witte` | `architect` | 有效时段: `1905`): 维特主张以宣言和统一政府应对革命危机，最终由皇帝签署
-- **时效关系边** (`PER-witte` → `POL-october-manifesto-and-1906-fundamental-laws` | `co_architect_of` | 有效时段: `1905.10–1906.04`): 推动 1905-10-17 [O.S.] 宪政退却文本，并在离任前参与1906年《国家根本法》框架定型与财政过渡
-- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 1905年革命迫使尼古拉二世签署维特推动的《十月宣言》，承诺公民自由和杜马立法同意权；1906年修订《国家根本法》使代议立法制度化，同时保留皇权、上院否决及休会紧急立法。1907年以未经议会同意的新选举法重组杜马，形成持续到1917年帝制崩溃的保守“六三体制”。它既不是议会责任内阁，也不能简单视为毫无影响的装饰。
-
-### 邻居节点: `EVT-1891-1903-witte-industrialization-and-marxist-labor-turn`
-- **时效关系边** (`EVT-1891-1903-witte-industrialization-and-marxist-labor-turn` → `PER-witte` | `macro_economic_driver` | 有效时段: `1892–1903`): 主导重工、铁路与1897金本位，催生高度集中的现代无产阶级，并于 1903-08-16 [O.S.] 被免去财政大臣
-- **时效关系边** (`PER-witte` → `EVT-1891-1903-witte-industrialization-and-marxist-labor-turn` | `chief_architect_of` | 有效时段: `1892–1903`): 主导铁路、关税、酒类专卖与1897金本位工业化，同时在工潮压力下颁布1897工时法并与祖巴托夫警察工会体制博弈
-- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 1891–1903年维特国家工业化与俄国马克思主义工运转向。1891–1892年饥荒触发民粹派与马克思主义大论战，1896–1897年彼得堡纺织工潮迫使沙皇颁布11.5小时工时法；历经经济派与“警察社会主义”博弈，1903年二大引发持续派争。
-
-### 邻居节点: `ORG-octobrists-and-progressive-bloc`
-- **时效关系边** (`PER-witte` → `ORG-octobrists-and-progressive-bloc` | `courted_moderates` | 有效时段: `1905.10–1906`): 曾试图拉拢希波夫、古契柯夫等十月党—温和派人士入阁充当政治缓冲未果
-- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 1905年十月宣言后形成的十月十七日同盟是拥护君主立宪的温和自由主义政党；1915年的进步同盟是跨党派杜马联盟，二者并非同一组织。两者既要求改善政府与社会关系，又忧惧群众革命；1917年部分杜马领袖成为临时政权支点，却不能独掌街头、军队与苏维埃。
-
-## 3. 关联史学争鸣光谱 (Historiographical Debates)
+## 3. 关联史学争鸣与学者论断索引 (主卡外关联争鸣 2 项)
 ### `DEB-1906-stolypin-wager-and-agrarian-viability`：村社生命力与斯托雷平土改前景之争
 ## [T1] 核心问题定义
 如果没有世界大战，帝俄能否借私有农户与农业增长和平化解农村革命？争议同时涉及生产效率、村社制度的适应力与政治稳定，任何一项的改善都不能自动证明另外两项。反事实命题不能由改革中断的事实直接证成或证伪。
@@ -110,4 +75,26 @@
 | 反必然论、世袭国家与自由派宪制困境（兼对乐观演进派的回应） | Richard Pipes, *The Russian Revolution* (1990); Fedor Gaida (2003) | Pipes代表反海姆森的政治偶然论与世袭国家观，断言“20世纪初俄国没有任何事物不可阻挡地推向革命，除了一支异常庞大而狂热的职业革命家队伍”，强调一战冲击才是制度崩解主因（与Gerschenkron等战前工业现代化乐观演进派呼应）；Fedor Gaida剖析杜马自由派要求“信任内阁”却畏惧承担革命责任的制度困境（注：Gaida对进步集团的实证主要在1915–1916战时，不可直接倒灌为1914年前事实）。 | `CLM-pipes-1990-patrimonial-state-and-intelligentsia`；`CLM-gaida-2003-progressive-bloc-dilemma` | 将1912–1914年逾百万罢工归咎于少数职业革命家煽动，难以解释布尔什维克在合法工会与保险局选举中的真实得票优势。 |
 | 现代化断裂、连续危机与总体战治理 | Mark D. Steinberg, *The Russian Revolution, 1905–1921* (2017); David L. Hoffmann, *Cultivating the Masses* (2011); 姚海（主编）《俄国革命史》(2013) | Steinberg与Hoffmann将1905–1921/1929年置于现代性危机与1914年后欧洲总体战人口动员、粮食统制和国家暴力技术连续谱中；姚海指出1905–1914年沙皇政权主动关闭政治改革窗口造成现代化进程断裂，激发下层平民激进主义。 | `CLM-steinberg-2017-continuum-of-crisis-1905-1921`；`CLM-hoffmann-2011-continuum-of-total-war-1914-1929`；`CLM-yao-hai-1917-modernization-rupture-and-plebeian-radicalism` | 1914年后的战时总体战治理经验不能倒果为因地充当1914年7月前和平时期必然崩溃的证明。 |
 
-## 4. 关联时间线锚点 (共 0 条)
+
+### 3.1 关联核心论断与史学家学派坐标 (`CLM-*` → `SCH-*`, 展示前 19/19 条)
+- **`CLM-trotsky-1905-hypertrophied-tsarist-state`** [`SCH-trotsky-leon`(列夫·达维多维奇·托洛茨基 · participant-historian) | 中译书页 ·20·–·30·、·326·、·330·、·333·–·334·（1922 年俄文第 2 版系统；无独立纸书页）]: 
+- **`CLM-manning-1982-gentry-fronde-to-reaction`** [`SCH-manning-roberta`(罗伯塔·T·曼宁) | pp. 54–60, 122–124]: 
+- **`CLM-trotsky-1905-petersburg-soviet-embryo-government`** [`SCH-trotsky-leon`(列夫·达维多维奇·托洛茨基 · participant-historian) | 中译书页 ·112·–·118·、·182·–·188·、·221·–·233·、·248·–·250·（俄历现场；1922 年俄文第 2 版系统）]: 
+- **`CLM-manning-1982-june-third-coup-social-basis`** [`SCH-manning-roberta`(罗伯塔·T·曼宁) | pp. 238–239]: 
+- **`CLM-trotsky-1930-uneven-and-combined-development`** [`SCH-trotsky-leon`(列夫·达维多维奇·托洛茨基 · participant-historian) | （中译 EPUB 无纸页；第一卷第一章）]: 
+- **`CLM-walicki-1969-marx-populist-affinity`** [`SCH-walicki-andrzej`(安杰伊·瓦利茨基) | pp. 132-133, 179-194 [PDF pp. 144-145, 191-206]]: 
+- **`CLM-figes-1996-peasant-moral-economy-1917`** [`SCH-figes-orlando`(奥兰多·费吉斯) | pp. 343-352]: 
+- **`CLM-hildermeier-2000-agrarian-socialism-modernization-dilemma`** [`SCH-hildermeier-manfred`(曼弗雷德·希尔德迈尔) | EPUB版无稳定原书页码；以本地章节与行号定位（ch08 L75–232, ch09 L26–44, ch12 L204–282, ch13 L107–185, ch17 L115–310, ch20 L750–753, ch24 L180–285, ch26 L6–96；epub:main-8.xhtml, main-9.xhtml, main-12.xhtml, main-13.xhtml, main-21.xhtml, main-25.xhtml, main-27.xhtml）]: 
+- **`CLM-service-lenin-v1-agrarian-marxism-and-1905-tactics`** [`SCH-service-robert`(罗伯特·瑟维斯) | pp. 74-80, 152-166, 169-185 (中译本 PDF 页码)]: 
+- **`CLM-steinberg-2017-continuum-of-crisis-1905-1921`** [`SCH-steinberg-mark`(马克·D·斯坦伯格) | pp. 19, 61–62, 107–108]: 
+- **`CLM-bonnell-1983-1912-1914-union-and-insurance-boards-bolshevik-capture`** [`SCH-bonnell-victoria`(维多利亚·E·邦内尔) | Book pp. 366–371, 390–438 [PDF pp. 389–394, 413–461]]: 
+- **`CLM-bonnell-1983-state-employer-repression-undermining-menshevik-reformism`** [`SCH-bonnell-victoria`(维多利亚·E·邦内尔) | Book pp. 292–305, 316–323, 336–352, 372–389, 450–452 [PDF pp. 315–328, 339–346, 359–375, 395–412, 473–475]]: 
+- **`CLM-hogan-1994-petersburg-metalworkers-1905-to-lena`** [`SCH-hogan-heather`(希瑟·霍根 · labor-social-history) | pp. 85–112]: 
+- **`CLM-smith-sa-1996-petersburg-bolshevik-vs-menshevik-worker-appeal`** [`SCH-smith-sa`(斯蒂芬·A·史密斯（S. A. Smith）) | International Review of Social History, vol. 41 (1996), pp. 12–15, 19–25]: 
+- **`CLM-hildermeier-2000-azev-affair-and-stolypin-era-paralysis`** [`SCH-hildermeier-manfred`(曼弗雷德·希尔德迈尔) | EPUB版无稳定原书页码；以本地章节与行号定位（ch14 L24–91, ch18 L112–150, ch22 L6–108, ch23 L81–217, ch24 L8–285, ch25 L6–33, ch26 L6–62；epub:main-14.xhtml, main-23.xhtml, main-24.xhtml, main-25.xhtml, main-26.xhtml, main-27.xhtml）]: 
+- **`CLM-pipes-1990-patrimonial-state-and-intelligentsia`** [`SCH-pipes-richard`(理查德·派普斯) | ch. 2 (Official Russia); ch. 4 (The Intelligentsia); cf. Introduction]: 
+- **`CLM-gaida-2003-progressive-bloc-dilemma`** [`SCH-gaida-fedor`(费奥多尔·盖达) | pp. 135-136, 162-168]: 
+- **`CLM-hoffmann-2011-continuum-of-total-war-1914-1929`** [`SCH-hoffmann-david`(大卫·L·霍夫曼) | pp. 12–13, 38, 127–128]: 
+- **`CLM-yao-hai-1917-modernization-rupture-and-plebeian-radicalism`** [`SCH-yao-hai`(姚海) | [PDF pp. 47-55, 57-64, 68-72, 75-81, 87-88]]: 
+
+## 4. 关联时间线骨干锚点 (L0–L2 展示 0 条)

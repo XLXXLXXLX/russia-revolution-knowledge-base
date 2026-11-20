@@ -1,7 +1,7 @@
 ---
 id: CLM-halle-1920-martov-critique-of-terror-and-21-conditions
 type: claim
-scholar: PER-martov-l
+scholar: SCH-martov-iulii
 work_title: "May the USPD be preserved (speech at the USPD Halle Congress, 15 October 1920), in Ben Lewis and Lars T. Lih (eds.), Martov and Zinoviev: Head to Head in Halle"
 publication_year: 1920
 source_tier: S

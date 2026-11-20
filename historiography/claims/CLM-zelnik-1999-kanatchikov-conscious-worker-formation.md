@@ -1,14 +1,14 @@
 ---
 id: CLM-zelnik-1999-kanatchikov-conscious-worker-formation
 type: claim
-scholar: SCH-smith-steve
+scholar: SCH-smith-sa
 work_title: "Workers, the Intelligentsia and Marxist Parties: St Petersburg, 1895-1917 and Shanghai, 1921-1927 (in Reginald E. Zelnik, ed., Workers and Intelligentsia in Late Imperial Russia)"
 publication_year: 1996
 source_tier: A
 local_source_path: "sources/monographs/zelnik_1999_workers_intelligentsia/ch00_pages_1-25.md#L422-L599"
 original_pages: "pp. 9-12, 26-27"
-targets_cards: ["PER-kanatchikov", "CON-soznatelnost", "ORG-rsdlp-bolsheviks"]
-debate: DEB-worker-intelligentsia-tutelage-and-autonomy
+targets_cards: ["ORG-bolsheviks-rcpb-vkpb", "CON-democratic-centralism-and-vanguard"]
+debate: DEB-1903-bolshevik-menshevik-split
 supports: []
 rebuts: []
 qualifies: []

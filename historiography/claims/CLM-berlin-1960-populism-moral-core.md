@@ -8,7 +8,7 @@ source_tier: A
 local_source_path: "sources/monographs/venturi_1960_roots/ch00_pages_1-30.md#L111-L1446"
 original_pages: "pp. vii-xxvi"
 targets_cards: ["ORG-narodnaya-volya", "ORG-chernyi-peredel"]
-debate: DEB-populism-morality-and-leninism
+debate: DEB-1879-narodnaya-volya-to-bolshevism
 supports: []
 rebuts: []
 qualifies: []

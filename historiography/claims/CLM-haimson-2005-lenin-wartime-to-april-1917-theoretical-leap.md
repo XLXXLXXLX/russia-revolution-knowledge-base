@@ -7,8 +7,8 @@ publication_year: 2005
 source_tier: A
 local_source_path: "sources/monographs/haimson_2005_experience/ch05_part_i_lenin_martov_and_the_issue_of_pow.md#L72-L536"
 original_pages: "pp. 27-38 [PDF pp. 61-72]; pp. 245-247 [PDF pp. 279-281]"
-targets_cards: ["PER-lenin", "PER-martov-l", "PER-kamenev", "PER-rykov", "EVT-1917-april-theses", "POL-april-theses"]
-debate: DEB-1917-bolshevik-seizure-of-power
+targets_cards: ["PER-lenin", "PER-martov-l", "PER-kamenev", "PER-rykov", "POL-april-theses-1917"]
+debate: DEB-1917-october-coup-or-social-revolution
 supports: []
 rebuts: []
 qualifies: []

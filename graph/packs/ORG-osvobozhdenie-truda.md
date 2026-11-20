@@ -1,14 +1,9 @@
-# 1-Hop 平衡上下文包：`ORG-osvobozhdenie-truda` (劳动解放社)
+# 1-Hop 去重平衡上下文包：`ORG-osvobozhdenie-truda`
 
-> 本文件由 `python scripts/kb.py pack` 自动编译，旨在将失控的 `1+N` 随机读取压缩为**等权重、带时效边实质与史学盲区告警**的单次全景读取。
+> 由 `python scripts/kb.py pack` 动态编译：保留 **100% 一跳邻居与多时段关系边**，跨卡自动去重争鸣与时间线，并关联学者学派 (`SCH-*`)。
 
-## 0. 认知完备度与反偏斜仪表盘 (Epistemic & Skew Warnings)
-- **主卡路径**: `cards/organizations/ORG-osvobozhdenie-truda.md`
-- **完备度等级**: `multi-perspective`
-- **已覆盖视角**: `intellectual-history-walicki, movement-history-venturi, consciousness-history-haimson, erfurtian-and-jacobin-genealogy-lih-mayer, labor-social-history-zelnik-smith`
-- **待补齐视角**: `second-international-archival-records, smuggling-network-police-dossiers`
-- **偏斜风险提示**:
-  - ⚠️ 主卡显式声明尚缺以下视角待补: `second-international-archival-records, smuggling-network-police-dossiers`。
+## 0. 认知完备度与反偏斜仪表盘
+- **`ORG-osvobozhdenie-truda`** (劳动解放社 | `cards/organizations/ORG-osvobozhdenie-truda.md` | `multi-perspective`): 已覆盖=`intellectual-history-walicki, movement-history-venturi, consciousness-history-haimson, erfurtian-and-jacobin-genealogy-lih-mayer, labor-social-history-zelnik-smith`；待补=`second-international-archival-records, smuggling-network-police-dossiers`
 
 ## 1. 主卡核心层 ([T1] + [T2])
 ## [T1] 150字定性微摘要
@@ -43,56 +38,20 @@
 - **爱尔福特正统与雅各宾修辞回溯（Robert Mayer, 1999; Lars T. Lih, 2006）**：证伪“普列汉诺夫代表民主西方、列宁代表俄国亚细亚密谋”的冷战二分——1901年率先把法国大革命“山岳派 vs. 吉伦特派”引入俄国社民党内斗的恰恰是老雅各宾同情者 `PER-plekhanov`（`CLM-mayer-1999-lenin-jacobin-metaphor-vs-blanquism`），而劳动解放社与《火星报》一代原本共享德国SPD爱尔福特蓝图（`CLM-lih-2006-erfurtian-merger-formula`）。
 - **苏联正统党史的扬抑结构**：长期誉之为“俄国马克思主义的摇篮与列宁主义的理论阶梯”，却对五位创始人中后来四位站在布尔什维克对立面（及捷伊奇的孟什维克晚年、1881年马克思信札长期未刊）语焉不详。
 
-## 2. 一跳邻域等权重微摘要 (共 11 个关联节点，严防大卡霸占上下文)
-### 邻居节点: `PER-plekhanov`
-- **时效关系边** (`PER-plekhanov` → `ORG-osvobozhdenie-truda` | `founder-theorist` | 有效时段: `1883-1903`): 1883年9月25日在日内瓦与查苏利奇、阿克雪里罗得等创立俄国首个马克思主义团体，奠定俄国社会民主主义理论基础。
-- **时效关系边** (`ORG-osvobozhdenie-truda` → `PER-plekhanov` | `founder-chief-theorist` | 有效时段: `1883–1903`): 创始人与阶段论、反布朗基主义信条的主要阐发者
-- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): “俄国马克思主义之父”。1879年拒恐怖另立土地平分社，1883年在日内瓦创劳动解放社奠定两阶段革命论；1901年首创社民“山岳派”隐喻，1903二大助列宁裁撤老编委又于11月倒向马尔托夫，1905后斥“不该拿起武器”；一战与1917办《统一报》极右护国并坚决反对十月夺权。
+## 2. 一跳邻域全量微摘要目录 (去重后共 11 个节点，0 截断)
+- **`ORG-chernyi-peredel`**（黑土重分派）: 1879年沃罗涅日分裂后由普列汉诺夫、查苏利奇、阿克雪里罗得、捷伊奇等组建的民粹派组织，反对以刺杀沙皇取代群众农村工作，主张村社经济鼓动与地方“经济恐怖”。1880年初彼得堡印刷所被抄后骨干流亡瑞士，成为1880—1883年间俄国部分民粹派向马克思主义过渡的关键桥梁。 ‖ `→ORG-osvobozhdenie-truda`[transition_bridge_to|1881–1883]: 日内瓦流亡核心在组织停摆与思想清算后，另行创立俄国首个马克思主义流亡团体 ； `←ORG-osvobozhdenie-truda`[ideological_successor_via_break|1883]: 流亡残余清算民粹公社论后另立马克思主义团体，组织与纲领上非原样更名
+- **`PER-plekhanov`**（格奥尔基·普列汉诺夫）: “俄国马克思主义之父”。1879年拒恐怖另立土地平分社，1883年在日内瓦创劳动解放社奠定两阶段革命论；1901年首创社民“山岳派”隐喻，1903二大助列宁裁撤老编委又于11月倒向马尔托夫，1905后斥“不该拿起武器”；一战与1917办《统一报》极右护国并坚决反对十月夺权。 ‖ `←ORG-osvobozhdenie-truda`[founder_and_chief_theorist|1883–1903]: 理论灵魂与第一代俄国马克思主义正统（阶段论、反布朗基、唯物史观）确立者 ； `→ORG-osvobozhdenie-truda`[founder-theorist|1883–1903]: 在日内瓦创立俄国首个马克思主义团体，奠定俄国两阶段革命论、一元论唯物史观与反民粹理论体系
+- **`PER-zasulich`**（维拉·查苏利奇）: 俄国女革命家、早期马克思主义奠基人之一。1878年枪击鞭笞政治犯的彼得堡市长特雷波夫获陪审团无罪开释；1879年拒恐怖共创土地平分社，1881年法文致信马克思叩问村社前途。1883年参与创立劳动解放社并任《火星报》编委，1903年二大遭除名后转入孟什维克，1917年反对十月夺权。 ‖ `←ORG-osvobozhdenie-truda`[co_founder_translator|1883–1903]: 五人核心之一，长期主持马恩文献译介、海内外通信及《火星报》老编辑部事务 ； `→ORG-osvobozhdenie-truda`[co-founder|1883–1903]: 日内瓦五人创立核心之一，主责马克思主义经典俄译、海外出版及与第二国际社会党人联络
+- **`PER-axelrod`**（帕维尔·阿克雪里罗得）: 俄国马克思主义奠基人与孟什维克精神领袖。早年涉足巴枯宁派民粹与土地平分社，1883年参与创立劳动解放社；1903年二大后率先斥列宁派为“雅各宾俱乐部”，揭示工人自主活动与密谋监护之争；1905年首倡全俄工人代表大会，1917年归国任国际派少数中委，晚年流亡柏林批判苏俄专政。 ‖ `←ORG-osvobozhdenie-truda`[co_founder_organizer|1883–1903]: 五人核心之一，负责第二国际联络与组织反思，1903年后与查苏利奇主导反集中制批判 ； `→ORG-osvobozhdenie-truda`[co_founder|1883–1903]: 俄国首个马克思主义团体五位创始人之一，主掌国际联络与工运策略论著
+- **`EVT-1891-1903-witte-industrialization-and-marxist-labor-turn`**（1891–1903年维特工业化与俄国马克思主义工运转向）: 1891–1903年维特国家工业化与俄国马克思主义工运转向。1891–1892年饥荒触发民粹派与马克思主义大论战，1896–1897年彼得堡纺织工潮迫使沙皇颁布11.5小时工时法；历经经济派与“警察社会主义”博弈，1903年二大引发持续派争。 ‖ `←ORG-osvobozhdenie-truda`[theoretical_benchmark_for|1891–1903]: 在1890年代资本主义论战与反“经济主义”中为国内工运转向提供理论坐标
+- **`PER-lenin`**（弗拉基米尔·列宁）: 布尔什维克党缔造者、苏俄人民委员会主席（1917–1924）。1893年投身马克思主义运动，1903年促成布尔什维克分化；1917年发表《四月提纲》并领导十月夺权，历经布列斯特和约、内战与战时共产主义；1921年主持转向新经济政策，晚年（1922–1923）就官僚化与接班人同斯大林冲突。 ‖ `←ORG-osvobozhdenie-truda`[junior_ally_then_rival|1895–1903]: 受该社著述哺育并于1900年合办《火星报》，后围绕工农联盟与党组织发生分裂
+- **`PER-martov-l`**（尤利·马尔托夫）: 孟什维克核心领袖与国际主义左翼旗手。1903年二大凭党章第一条（28:22:1）与列宁分道；1917年七月夜倡“清一色社会主义政府”遭党内主流否决，十月二大率派退场；1918年工人抗议浪潮中坚持苏维埃合法反对派立场，1920年哈雷大会与季诺维也夫正面交锋痛斥恐怖与二十一条，后流亡柏林病逝。 ‖ `←ORG-osvobozhdenie-truda`[iskra_partner_and_heir|1900–1903]: 与三位元老合办《火星报》，1903年二大后联手阿克雪里罗得与查苏利奇建立孟什维克传统
+- **`MTG-1903-rsdlp-2nd-congress`**（俄国社会民主工党第二次代表大会（1903年7–8月））: `1903-07-30` 至 `08-23 [N.S.]` 俄社民工党二大先后在布鲁塞尔与伦敦召开。大会通过党纲；第23次会议马尔托夫党章第一条 `28:22:1` 胜列宁案。随后的崩得与经济派退场逆转了多数，列宁借微弱多数改组《火星报》三人编委，由此衍生布尔什维克与孟什维克之名。 ‖ `←ORG-osvobozhdenie-truda`[dissolved_at|1903-08-23 [N.S.]]: 二大闭幕之际完成职能并入统一政党（以闭幕日 1903-08-23 [N.S.] 作分析性…
+- **`ORG-mensheviks`**（孟什维克）: 俄国社会民主主义政党（1903–1924），源于1903年二大马尔托夫等与列宁围绕党章第一条及集中制的决裂，主张开放型群众政党与工人自主活动。1917年分化为策烈铁里、但恩主导的入阁“革命护国派”与马尔托夫领导的反战“国际主义派”；十月后开展苏维埃合法反对派抗争，1921年后遭取缔。 ‖ `←ORG-osvobozhdenie-truda`[intellectual_matrix_for|1903–1904]: 查苏利奇、阿克雪里罗得（及随后倒向的普列汉诺夫）构筑孟什维克“群众自主活动”哲学底色
+- **`CON-narodnichestvo`**（俄国民粹主义：运动、自我认知与论战范畴）: 俄国民粹主义以人民特别是农民及村社为变革依托，却非单一教义。赫尔岑、车尔尼雪夫斯基开启先声，一八六九年形成古典民粹派；七十年代分化出政治恐怖与土地宣传两支，后经八九十年代合法论争与社革党改造。学界历来并存派普斯界定的七十年代反智“狭义”与列宁—瓦利茨基的“广义”世界观界定。 ‖ `←ORG-osvobozhdenie-truda`[polemical_antithesis|1883–1900]: 将广义民粹主义（涵盖从70年代革命派到沃龙佐夫、丹尼尔逊）树立为主要论战他者
+- **`ORG-zemlya-i-volya`**（土地与自由社）: 本卡聚焦1876—1879年第二代土地与自由社（纳坦松、米海洛夫、普列汉诺夫等组建），须与1861—1864年无法人承续的同名第一代严格区分。该社借农村定居宣传吸纳“到民间去”挫败教训，后在政府镇压下因恐怖路线与农村工作之争于1879年夏秋分裂为民意党与黑土重分派。 ‖ `←ORG-osvobozhdenie-truda`[generational-break|1879–1883]: 自第二代土地与自由社—土地平分社脉络转出，标志民粹行动派向马克思主义理论派的断裂
 
-### 邻居节点: `PER-axelrod`
-- **时效关系边** (`PER-axelrod` → `ORG-osvobozhdenie-truda` | `co-founder` | 有效时段: `1883-1903`): 历经柴可夫斯基小组与土地平分社后与普列汉诺夫共建劳动解放社，1903后成为孟什维克“工人自主活动”理念教父。
-- **时效关系边** (`ORG-osvobozhdenie-truda` → `PER-axelrod` | `co-founder` | 有效时段: `1883–1903`): 五人创立核心之一，后期与查苏利奇在1903年《火星报》及孟什维克路线中坚持群众工人党原则
-- **节点定性微摘要 [T1]** (完备度 `draft`): 帕维尔·阿克雪里罗得（约1850–1928），俄国马克思主义与孟什维克思想奠基人之一。早年投身民粹活动并经由基辅巴枯宁派转入土地平分社，1883年参与创立劳动解放社，1903年二大与马尔托夫共同批判列宁超集中制；晚年提出“工人代表大会”构想，成为孟什维克群众工人政党路线的理论象征。
-
-### 邻居节点: `ORG-chernyi-peredel`
-- **时效关系边** (`ORG-osvobozhdenie-truda` → `ORG-chernyi-peredel` | `successor-ideological` | 有效时段: `1883`): 土地平分社流亡残余在清算民粹乌托邦后另立马克思主义机关，组织上非简单改名
-- **时效关系边** (`ORG-chernyi-peredel` → `ORG-osvobozhdenie-truda` | `transition_bridge_to` | 有效时段: `1881–1883`): 日内瓦流亡核心在组织停摆与思想清算后，另行创立俄国首个马克思主义流亡团体
-- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 1879年沃罗涅日分裂后由普列汉诺夫、查苏利奇、阿克雪里罗得、捷伊奇等组建的民粹派组织，反对以刺杀沙皇取代群众农村工作，主张村社经济鼓动与地方“经济恐怖”。1880年初彼得堡印刷所被抄后骨干流亡瑞士，成为1880—1883年间俄国部分民粹派向马克思主义过渡的关键桥梁。
-
-### 邻居节点: `PER-zasulich`
-- **时效关系边** (`ORG-osvobozhdenie-truda` → `PER-zasulich` | `co-founder` | 有效时段: `1883–1903`): 五人创立核心之一，负责翻译、联络与出版
-- **时效关系边** (`PER-zasulich` → `ORG-osvobozhdenie-truda` | `co-founder` | 有效时段: `1883–1903`): 劳动解放社核心创立五人之一，负责海外出版、文献翻译与第二国际社会党人联络
-- **节点定性微摘要 [T1]** (完备度 `draft`): 俄国女革命家、早期马克思主义者。1878年开枪行刺特雷波夫并在公审中获无罪开释；1879年组建“土地平分社”，1881年致信马克思探讨俄国公社前途；1883年共同创立“劳动解放社”，后任《火星报》编辑；1903年二大后加入孟什维克，一战持护国主义立场并反对十月夺权。
-
-### 邻居节点: `ORG-zemlya-i-volya`
-- **时效关系边** (`ORG-osvobozhdenie-truda` → `ORG-zemlya-i-volya` | `generational-break` | 有效时段: `1879–1883`): 自第二代土地与自由社—土地平分社脉络转出，标志民粹行动派向马克思主义理论派的断裂
-- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 本卡聚焦1876—1879年第二代土地与自由社（纳坦松、米海洛夫、普列汉诺夫等组建），须与1861—1864年无法人承续的同名第一代严格区分。该社借农村定居宣传吸纳“到民间去”挫败教训，后在政府镇压下因恐怖路线与农村工作之争于1879年夏秋分裂为民意党与黑土重分派。
-
-### 邻居节点: `PER-lenin`
-- **时效关系边** (`ORG-osvobozhdenie-truda` → `PER-lenin` | `critical-heir` | 有效时段: `1890s–1903`): 曾受该社理论抚育，后在接受资本主义“现在时”与组织策略上与普列汉诺夫路径分岔
-- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 布尔什维克党缔造者、苏俄人民委员会主席（1917–1924）。1893年投身马克思主义运动，1903年促成布尔什维克分化；1917年发表《四月提纲》并领导十月夺权，历经布列斯特和约、内战与战时共产主义；1921年主持转向新经济政策，晚年（1922–1923）就官僚化与接班人同斯大林冲突。
-
-### 邻居节点: `CON-narodnichestvo`
-- **时效关系边** (`ORG-osvobozhdenie-truda` → `CON-narodnichestvo` | `polemical-object` | 有效时段: `1883–1900`): 以“古典民粹主义”为系统批判对象，参与界定1869年后民粹观念结构
-- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 俄国民粹主义以人民特别是农民及村社为变革依托，却非单一教义。赫尔岑、车尔尼雪夫斯基开启先声，一八六九年形成古典民粹派；七十年代分化出政治恐怖与土地宣传两支，后经八九十年代合法论争与社革党改造。学界历来并存派普斯界定的七十年代反智“狭义”与列宁—瓦利茨基的“广义”世界观界定。
-
-### 邻居节点: `EVT-1891-1903-witte-industrialization-and-marxist-labor-turn`
-- **时效关系边** (`ORG-osvobozhdenie-truda` → `EVT-1891-1903-witte-industrialization-and-marxist-labor-turn` | `theoretical_benchmark_for` | 有效时段: `1891–1903`): 在1890年代资本主义论战与反“经济主义”中为国内工运转向提供理论坐标
-- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 1891–1903年维特国家工业化与俄国马克思主义工运转向。1891–1892年饥荒触发民粹派与马克思主义大论战，1896–1897年彼得堡纺织工潮迫使沙皇颁布11.5小时工时法；历经经济派与“警察社会主义”博弈，1903年二大引发持续派争。
-
-### 邻居节点: `PER-martov-l`
-- **时效关系边** (`ORG-osvobozhdenie-truda` → `PER-martov-l` | `iskra_partner_and_heir` | 有效时段: `1900–1903`): 与三位元老合办《火星报》，1903年二大后联手阿克雪里罗得与查苏利奇建立孟什维克传统
-- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 孟什维克核心领袖与国际主义左翼旗手。1903年二大凭党章第一条（28:22:1）与列宁分道；1917年七月夜倡“清一色社会主义政府”遭党内主流否决，十月二大率派退场；1918年工人抗议浪潮中坚持苏维埃合法反对派立场，1920年哈雷大会与季诺维也夫正面交锋痛斥恐怖与二十一条，后流亡柏林病逝。
-
-### 邻居节点: `MTG-1903-rsdlp-2nd-congress`
-- **时效关系边** (`ORG-osvobozhdenie-truda` → `MTG-1903-rsdlp-2nd-congress` | `dissolved_at` | 有效时段: `1903-08-23 [N.S.]`): 二大闭幕之际完成职能并入统一政党（以闭幕日 1903-08-23 [N.S.] 作分析性锚点，精确解散声明原件待核）
-- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): `1903-07-30` 至 `08-23 [N.S.]` 俄社民工党二大先后在布鲁塞尔与伦敦召开。大会通过党纲；第23次会议马尔托夫党章第一条 `28:22:1` 胜列宁案。随后的崩得与经济派退场逆转了多数，列宁借微弱多数改组《火星报》三人编委，由此衍生布尔什维克与孟什维克之名。
-
-### 邻居节点: `ORG-mensheviks`
-- **时效关系边** (`ORG-osvobozhdenie-truda` → `ORG-mensheviks` | `intellectual_matrix_for` | 有效时段: `1903–1904`): 查苏利奇、阿克雪里罗得（及随后倒向的普列汉诺夫）构筑孟什维克“群众自主活动”哲学底色
-- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 俄国社会民主主义政党（1903–1924），源于1903年二大马尔托夫等与列宁围绕党章第一条及集中制的决裂，主张开放型群众政党与工人自主活动。1917年分化为策烈铁里、但恩主导的入阁“革命护国派”与马尔托夫领导的反战“国际主义派”；十月后开展苏维埃合法反对派抗争，1921年后遭取缔。
-
-## 3. 关联史学争鸣光谱 (Historiographical Debates)
+## 3. 关联史学争鸣与学者论断索引 (主卡外关联争鸣 2 项)
 ### `DEB-1879-narodnaya-volya-to-bolshevism`：民意党与布尔什维主义：密谋传统的连续性与异质性
 ## [T1] 核心问题定义
 民意党的秘密纪律、职业革命与政治暴力，同后来的布尔什维克组织之间有何关系？争论必须分别考察组织手段、革命目标、道德论证和具体传承链条：相似的地下技术本身不能证明永久党专政或思想一脉相承。
@@ -122,4 +81,29 @@
 | 帝国边疆社会民主主义 | Eric Blanc, *Revolutionary Social Democracy* (2021) | 以帝国边疆非俄罗斯民族社会民主党（崩得、拉脱维亚、波兰、芬兰等）的群众性合法/半合法组织实践与共同的“革命考茨基主义”，打破仅以俄国中心流亡小报编委为轴的建党叙事。 | `CLM-blanc-2021-revolutionary-kautskyanism-in-empire`；`CLM-blanc-2021-beyond-russocentric-bolshevism` | 边疆宏观组织比较不能取代二大第23次与第31次会议具体党章文本、联邦制否决及唱名票序的微观因果。 |
 | 工人能动性与政治修辞辨析 | S. A. Smith (1996/1999，收入 Reginald E. Zelnik 编论文集)；Robert Mayer (1999) | Smith（及Zelnik译注卡纳奇科夫自传）揭示1895–1917年彼得堡“觉悟工人”追求去监护化自治、排斥知识分子两派内斗；Robert Mayer考证列宁1903–1904年的“雅各宾”自称直接承袭普列汉诺夫1901年的法国大革命修辞以打击机会主义，而非效法特卡乔夫或布朗基密谋。 | `CLM-zelnik-1999-worker-intelligentsia-tutelage-tension`；`CLM-zelnik-1999-kanatchikov-conscious-worker-formation`；`CLM-mayer-1999-lenin-jacobin-metaphor-vs-blanquism` | 概念史修辞澄清与基层工人心态史分属不同分析层面，需与中央党组织制度变迁互证。 |
 
-## 4. 关联时间线锚点 (共 0 条)
+
+### 3.1 关联核心论断与史学家学派坐标 (`CLM-*` → `SCH-*`, 展示前 22/22 条)
+- **`CLM-walicki-1969-marx-populist-affinity`** [`SCH-walicki-andrzej`(安杰伊·瓦利茨基) | pp. 132-133, 179-194 [PDF pp. 144-145, 191-206]]: 
+- **`CLM-mayer-1999-lenin-jacobin-metaphor-vs-blanquism`** [`SCH-mayer-robert`(罗伯特·迈耶) | pp. 127-129, 140-146]: 
+- **`CLM-walicki-1969-plekhanov-rational-reality`** [`SCH-walicki-andrzej`(安杰伊·瓦利茨基) | pp. 153-165 [PDF pp. 165-177]]: 
+- **`CLM-haimson-1955-1903-second-congress-split`** [`SCH-haimson-leopold`(利奥波德·海姆森) | pp. 175-191]: 
+- **`CLM-walicki-1969-narodnichestvo-definition`** [`SCH-walicki-andrzej`(安杰伊·瓦利茨基) | pp. 1-9, 23-28 [PDF pp. 13-21, 35-40]]: 
+- **`CLM-zelnik-1999-kanatchikov-conscious-worker-formation`** [`SCH-smith-sa`(斯蒂芬·A·史密斯（S. A. Smith）) | pp. 9-12, 26-27]: 
+- **`CLM-zelnik-1999-worker-intelligentsia-tutelage-tension`** [`SCH-smith-sa`(斯蒂芬·A·史密斯（S. A. Smith）) | pp. 6-7, 13-15, 18-27, 51-52]: 
+- **`CLM-lih-2006-erfurtian-merger-formula`** [`SCH-lih-lars`(拉斯·T·利) | pp. 6-9, 41-49, 74-106, 113-121, 556-557]: 
+- **`CLM-venturi-1960-lipetsk-voronezh-split`** [`SCH-venturi-franco`(弗朗科·文图里) | pp. 647-663]: 
+- **`CLM-berlin-1960-populism-moral-core`** [`SCH-berlin-isaiah`(以赛亚·伯林 · liberal-intellectual-history) | pp. vii-xxvi]: 
+- **`CLM-venturi-1960-narodnaya-volya-constitutionalism`** [`SCH-venturi-franco`(弗朗科·文图里) | pp. 649, 655, 667-681, 716]: 
+- **`CLM-lih-2006-textbook-myth-critique`** [`SCH-lih-lars`(拉斯·T·利) | pp. 5, 13-33, 555]: 
+- **`CLM-pipes-1990-patrimonial-state-and-intelligentsia`** [`SCH-pipes-richard`(理查德·派普斯) | ch. 2 (Official Russia); ch. 4 (The Intelligentsia); cf. Introduction]: 
+- **`CLM-pipes-1990-october-classic-coup`** [`SCH-pipes-richard`(理查德·派普斯) | ch. 11 (The October Coup); cf. Introduction]: 
+- **`CLM-jacobin-ancestry-tkachev-blanqui-and-leninism`** [`SCH-chamberlin-william-henry`(威廉·亨利·钱伯林) | pp. 251–257 (PDF pp. 2–8)]: 
+- **`CLM-haimson-1955-lenin-what-is-to-be-done`** [`SCH-haimson-leopold`(利奥波德·海姆森) | pp. 132-141]: 
+- **`CLM-haimson-1955-consciousness-spontaneity`** [`SCH-haimson-leopold`(利奥波德·海姆森) | pp. vi-viii, 7-11]: 
+- **`CLM-haimson-1987-menshevik-party-ethos-and-family`** [`SCH-haimson-leopold`(利奥波德·海姆森) | pp. 14–17]: 
+- **`CLM-lih-2006-kautsky-and-spontaneity`** [`SCH-lih-lars`(拉斯·T·利) | pp. 35-37, 555, 613-667]: 
+- **`CLM-getzler-1967-martov-1903-clause-one`** [`SCH-getzler-israel`(伊斯雷尔·格茨勒) | pp. 78-79]: 
+- **`CLM-blanc-2021-revolutionary-kautskyanism-in-empire`** [`SCH-blanc-eric`(埃里克·布兰克) | pp. 25–28, 569–578]: 
+- **`CLM-blanc-2021-beyond-russocentric-bolshevism`** [`SCH-blanc-eric`(埃里克·布兰克) | pp. 15–16, 23–26]: 
+
+## 4. 关联时间线骨干锚点 (L0–L2 展示 0 条)

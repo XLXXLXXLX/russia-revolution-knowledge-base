@@ -1,14 +1,9 @@
-# 1-Hop 平衡上下文包：`EVT-1928-shakhty-affair-show-trial` (沙赫特事件与技术专家公开审判)
+# 1-Hop 去重平衡上下文包：`EVT-1928-shakhty-affair-show-trial`
 
-> 本文件由 `python scripts/kb.py pack` 自动编译，旨在将失控的 `1+N` 随机读取压缩为**等权重、带时效边实质与史学盲区告警**的单次全景读取。
+> 由 `python scripts/kb.py pack` 动态编译：保留 **100% 一跳邻居与多时段关系边**，跨卡自动去重争鸣与时间线，并关联学者学派 (`SCH-*`)。
 
-## 0. 认知完备度与反偏斜仪表盘 (Epistemic & Skew Warnings)
-- **主卡路径**: `cards/events/EVT-1928-shakhty-affair-show-trial.md`
-- **完备度等级**: `multi-perspective`
-- **已覆盖视角**: `political-institutional, social-history, education-cultural-revolution, industrial-site-and-enemy-construction`
-- **待补齐视角**: `complete-trial-transcript, independent-investigation-case-files`
-- **偏斜风险提示**:
-  - ⚠️ 主卡显式声明尚缺以下视角待补: `complete-trial-transcript, independent-investigation-case-files`。
+## 0. 认知完备度与反偏斜仪表盘
+- **`EVT-1928-shakhty-affair-show-trial`** (沙赫特事件与技术专家公开审判 | `cards/events/EVT-1928-shakhty-affair-show-trial.md` | `multi-perspective`): 已覆盖=`political-institutional, social-history, education-cultural-revolution, industrial-site-and-enemy-construction`；待补=`complete-trial-transcript, independent-investigation-case-files`
 
 ## 1. 主卡核心层 ([T1] + [T2])
 ## [T1] 60秒定性微摘要
@@ -40,40 +35,17 @@
 - **工业现场与敌人建构**：[`SCH-kuromiya-hiroaki`](../../historiography/scholars/SCH-kuromiya-hiroaki.md)（站内 `grounded`）记黑宫1988年《斯大林的工业革命》的“spets-baiting”论与顿巴斯研究；站内另有其顿巴斯章节的 Siegelbaum–Suny 相关章（[ch10_5](../../sources/monographs/siegelbaum_suny_1994_making_workers_soviet_zh/ch10_5_donbas_miners_in_war_revolution_and_ci.md)）。本卡已读上述 SCH 卡与该章，但其沙赫特案具体文本未读，不为其指定超出此范围的细节。三种取向的矩阵见 [`DEB-1928-shakhty-specialist-baiting-and-cultural-revolution`](../../historiography/debates/DEB-1928-shakhty-specialist-baiting-and-cultural-revolution.md)。
 - **共同边界**：矿业事故与管理困难的存在，不能证明公诉方所称跨国统一阴谋；审讯证言与公开庭审均须结合调查档案、取证条件及其他独立证据检验。Goldman 仅在其著作 p. 44 n.33 脚注提及沙赫特案，后来“破坏”话语日常化与1936年再处决等晚期证据不得投射回1928年，故本卡不引其作沙赫特案证据。
 
-## 2. 一跳邻域等权重微摘要 (共 8 个关联节点，严防大卡霸占上下文)
-### 邻居节点: `CON-intelligentsia-and-vekhi`
-- **时效关系边** (`CON-intelligentsia-and-vekhi` → `EVT-1928-shakhty-affair-show-trial` | `rupture-of-nep-specialist-compromise` | 有效时段: `1928.03–07`): 将顿巴斯矿难政治化为旧技术专家勾结外国的阶级破坏阴谋，终结NEP专家妥协并直接触发工农干部“大提拔”
-- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 从伦理异议共同体到苏维埃技术官僚的语义与阶级重构。1860年代平民知识分子（`разночинцы`）与拉夫罗夫“批判思维的个人”奠定反专制献身传统；1909年司徒卢威、别尔嘉耶夫等借《路标》（*Вехи*）痛批激进派反法制与政治狂热，遭列宁斥为“自由派叛卖百科全书”。十月革命后该群体被重划为受监控的“资产阶级专家（`спецы`）”，历经1922年“哲学船”驱逐人文异议者与1928年沙赫特案整肃，终由工农“提拔生（`выдвиженцы`）”再造为体制内苏维埃知识分子。
+## 2. 一跳邻域全量微摘要目录 (去重后共 8 个节点，0 截断)
+- **`CON-intelligentsia-and-vekhi`**（俄国知识分子阶层、《路标》论战与“资产阶级专家”）: 俄国知识分子从伦理异议共同体向苏维埃体制群体重构。1860年代平民知识分子与拉夫罗夫奠定反专制献身传统；1909年《路标》批判激进派反法制与政治狂热，遭列宁谴责。十月后“资产阶级专家”受监控，经历1922年“哲学船”驱逐、1928年沙赫特案整肃及工农干部提拔。 ‖ `→EVT-1928-shakhty-affair-show-trial`[rupture-of-nep-specialist-compromise|1928.03–07]: 将顿巴斯矿难政治化为旧技术专家勾结外国的阶级破坏阴谋，终结NEP专家妥协并直接触发工农干部“大提拔”
+- **`EVT-1928-grain-procurement-crisis`**（1927冬–1929年粮食收购危机）: 1927年秋冬国家收粮锐减，相对价格、工业品荒与战争恐慌共同削弱售粮意愿。1928年非常措施及随后村社摊派把交换危机转为强制征购和党内路线冲突；布哈林等反对者逐步失势，至1929年底转向全盘集体化。粮食总产、商品粮与国家采购须分开衡量。 ‖ `→EVT-1928-shakhty-affair-show-trial`[parallel_political_track|1928.03—07]: 沙赫特案与粮食危机在四月、七月全会并行升级，重塑反右阵线 ； `←EVT-1928-shakhty-affair-show-trial`[parallel_political_track|1928年春]: 粮食危机与沙赫特案在四月全会并行处理，斯大林在两线上的得失不同（L3 L95）。
+- **`ORG-cheka-ogpu`**（全俄肃反委员会—国家政治保卫局）: 苏俄与苏联早期政治警察机关（1917–1934），由捷尔任斯基创立。历经全俄肃反委员会（ВЧК，1917–1922）、国家政治保卫局（ГПУ，1922–1923）与国家政治保卫总局（ОГПУ，1923–1934）三阶段，从法外非常机构演变为直属政治局的常设宪制部门，执行红色恐怖与强制集体化。 ‖ `←EVT-1928-shakhty-affair-show-trial`[escalates_case|1928年春]: 地方 OGPU（叶夫多基莫夫）向最高层推动案件；见科特金札记。（注：库中另有 INS-c…
+- **`PER-stalin`**（约瑟夫·斯大林）: 布尔什维克高加索地下组织者、民族事务人民委员（1917–1923）及中央总书记（1922起）。依托书记处任命权与安全危机叙事，先联季-加压制托洛茨基，再联布哈林击溃联合反对派；1927–1929年以战备恐慌与“自上而下革命”击败布哈林集团，1929年12月拍板“把富农作为阶级消灭”并终结新经济政策。 ‖ `←EVT-1928-shakhty-affair-show-trial`[politicizes_case|1928-04-10 前后]: 将案件挂钩白俄流亡与外国干涉，并提议VTUZ划转（遭否决）；见 L3 L95。
+- **`PER-rykov`**（阿列克谢·李可夫）: 老布尔什维克与苏维埃经济组织家。1917年四月会议曾质疑《四月提纲》，十月后因维克热尔联合政府诉求辞职；两掌最高国民经济委员会，1924年继列宁任苏联人民委员会主席；1928–1929年协同布哈林抵制非常征粮并提“两年农业计划”遭撤职清洗，其名却在库班农民口号中回响。 ‖ `←EVT-1928-shakhty-affair-show-trial`[challenges_management|1928年春夏]: 李可夫在四月全会作沙赫特案报告；侦查绕开管理体系，案件也冲击技术治理；不同领导人态度并不…
+- **`PER-bukharin`**（尼古拉·布哈林）: 布尔什维克核心理论家、《真理报》主编及共产国际书记处负责人。列宁遗嘱誉其“全党宠儿”但质疑其辩证法；1918年领衔左翼共产主义，1921年后转向新经济政策均衡路线，1925–1927联斯大林击溃左派，1928–1929因反对暴力征粮与超工业化遭击败并逐出政治局。 ‖ `←EVT-1928-shakhty-affair-show-trial`[reconfigures_political_conflict|1928–1929]: 案件扩大敌情与右倾危险话语；科特金同时记布、托公开支持抓捕，不能写成一致反对。
+- **`POL-first-five-year-plan`**（第一个五年计划）: 苏联首部正式工业化纲领，1928–1929年在起点与最高方案争论中定案。1929-04-16至23日中央联席全会、04-23至29日十六次党代表会议及05-20至28日全苏苏维埃五大批准最高方案；下半年投资、钢铁与集体农庄指标加码，冲垮布哈林均衡路线，与NEP退场、强制集体化并进。 ‖ `←EVT-1928-shakhty-affair-show-trial`[precondition_context|1928–1929]: 案件为随后的工业化动员与技术干部政策提供话语背景。
+- **`PER-yagoda`**（亨里希·雅戈达）: 苏联秘密警察组织者，1923年起任OGPU第二副主席；缅任斯基1926年任主席后因病少理日常事务，雅戈达影响渐增，职衔与实际权力须区分。其机关在战争恐慌、镇压反对派及1928–1929年控制社会中服务大转变；1934–1936年任内务人民委员，1938年公审后被处决。 ‖ `→EVT-1928-shakhty-affair-show-trial`[security-investigation|1928]: 1928-03-02 呈送报告并陪同面见斯大林；机关调查与打击专家的政治运动相连
 
-### 邻居节点: `PER-yagoda`
-- **时效关系边** (`PER-yagoda` → `EVT-1928-shakhty-affair-show-trial` | `security-investigation` | 有效时段: `1928`): 机关调查与打击专家的政治运动相连
-- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 雅戈达是苏联秘密警察机关的组织者。1923年起任国家政治保卫总局（OGPU）第二副主席，缅任斯基1926年任主席后因病较少主持日常事务，他的实际影响逐步上升；1927年战争恐慌、反对派打击和1928–1929年的社会控制使他的机关成为大转变的关键工具。1934–1936年任内务人民委员，1937年被捕，1938年在公审后被处决。正式职衔与事实上的权力增长不可混同。
-
-### 邻居节点: `ORG-cheka-ogpu`
-- **时效关系边** (`EVT-1928-shakhty-affair-show-trial` → `ORG-cheka-ogpu` | `escalates_case` | 有效时段: `1928年春`): 地方 OGPU（叶夫多基莫夫）向最高层推动案件；见科特金札记。（注：库中另有 INS-cheka-gpu-ogpu 作机构档案，本卡统一取 ORG 节点。）
-- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 苏俄与苏联早期政治警察机关（1917–1934），由捷尔任斯基创立。历经全俄肃反委员会（ВЧК，1917–1922）、国家政治保卫局（ГПУ，1922–1923）与国家政治保卫总局（ОГПУ，1923–1934）三阶段，从法外非常机构演变为直属政治局的常设宪制部门，执行红色恐怖与强制集体化。
-
-### 邻居节点: `PER-stalin`
-- **时效关系边** (`EVT-1928-shakhty-affair-show-trial` → `PER-stalin` | `politicizes_case` | 有效时段: `1928-04-10 前后`): 将案件挂钩白俄流亡与外国干涉，并提议VTUZ划转（遭否决）；见 L3 L95。
-- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 布尔什维克高加索地下组织者、民族事务人民委员（1917–1923）及中央总书记（1922起）。依托书记处任命权与安全危机叙事，先联季-加压制托洛茨基，再联布哈林击溃联合反对派；1927–1929年以战备恐慌与“自上而下革命”击败布哈林集团，1929年12月拍板“把富农作为阶级消灭”并终结新经济政策。
-
-### 邻居节点: `PER-rykov`
-- **时效关系边** (`EVT-1928-shakhty-affair-show-trial` → `PER-rykov` | `challenges_management` | 有效时段: `1928年春夏`): 李可夫在四月全会作沙赫特案报告；侦查绕开管理体系，案件也冲击技术治理；不同领导人态度并不按党派简单排列。
-- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 老布尔什维克与苏维埃经济组织家。1917年四月会议曾质疑《四月提纲》，十月后因维克热尔联合政府诉求辞职；两掌最高国民经济委员会，1924年继列宁任苏联人民委员会主席；1928–1929年协同布哈林抵制非常征粮并提“两年农业计划”遭撤职清洗，其名却在库班农民口号中回响。
-
-### 邻居节点: `PER-bukharin`
-- **时效关系边** (`EVT-1928-shakhty-affair-show-trial` → `PER-bukharin` | `reconfigures_political_conflict` | 有效时段: `1928–1929`): 案件扩大敌情与右倾危险话语；科特金同时记布、托公开支持抓捕，不能写成一致反对。
-- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 布尔什维克核心理论家、《真理报》主编及共产国际书记处负责人。列宁遗嘱誉其“全党宠儿”但质疑其辩证法；1918年领衔左翼共产主义，1921年后转向新经济政策均衡路线，1925–1927联斯大林击溃左派，1928–1929因反对暴力征粮与超工业化遭击败并逐出政治局。
-
-### 邻居节点: `EVT-1928-grain-procurement-crisis`
-- **时效关系边** (`EVT-1928-shakhty-affair-show-trial` → `EVT-1928-grain-procurement-crisis` | `parallel_political_track` | 有效时段: `1928年春`): 粮食危机与沙赫特案在四月全会并行处理，斯大林在两线上的得失不同（L3 L95）。
-- **节点定性微摘要 [T1]** (完备度 `draft`): 以 `1927-10-01`（1927/28粮食收购统计年度期界起点，非单日突发事件）至 `1929-12-27`（斯大林宣布“消灭富农阶级”演说日）为期界的引发新经济政策（NEP）终结的体制性危机。工业品荒、农牧收购比价失衡及1927年战争恐慌引发农民惜售，国家收购量在11–12月暴跌；斯大林定性为“富农罢卖”，借刑法第107条与“乌拉尔—西伯利亚方法”推行强制征粮，击败布哈林右派并在1929年底转向全盘集体化。
-
-### 邻居节点: `POL-first-five-year-plan`
-- **时效关系边** (`EVT-1928-shakhty-affair-show-trial` → `POL-first-five-year-plan` | `precondition_context` | 有效时段: `1928–1929`): 案件为随后的工业化动员与技术干部政策提供话语背景。
-- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 1928–1929年定案的苏联首部正式工业化纲领：国家计委“起点方案”与“最高方案”之争，经 `1929-04-16` 至 `23` 中央联席全会、`04-23` 至 `29` 第十六次党代表会议与 `05-20` 至 `28` 第五次全苏苏维埃代表大会批准最高方案；下半年工业投资、钢铁与集体农庄指标连环加码，冲垮布哈林“蜗牛般速度”均衡路线，标志新经济政策体制退场与强制集体化并进。
-
-## 3. 关联史学争鸣光谱 (Historiographical Debates)
+## 3. 关联史学争鸣与学者论断索引 (主卡外关联争鸣 2 项)
 ### `DEB-1928-bukharin-alternative`：布哈林替代方案与新经济政策终结之争
 ## [T1] 核心问题定义
 1927至1929年粮食危机与新经济政策的瓦解，是否意味着渐进工业化和工农联盟已无可行出路，还是党内权力与政策选择扼杀了布哈林的替代方案？投资、价格、农民供粮和政治动员之间的约束究竟有多强，必须把经济可行性、政治可行性与实际权力斗争分别检验。
@@ -105,4 +77,28 @@
 | 社会流动与上下互动 | Fitzpatrick 强调文化革命中的青年、工农出身干部和提拔者对旧等级与专家地位的挑战；上层号召与基层诉求相互作用。 | 不应把基层积极分子等同整个工人阶级，也不能忽视组织资源和强制权掌握在上层手中。红色教授学院与青年团在本案的具体作用需分开核查。 | `CLM-fitzpatrick-1979-1928-shakhty-and-vydvizhentsy`; `CLM-fitzpatrick-1978-cultural-revolution-from-below-and-above` |
 | 工业现场与敌人建构 | Kuromiya、Goldman、Bailes 的相关研究提示，将生产压力、事故、管理矛盾和针对破坏者的动员放在同一过程考察。 | 不能将每一次事故、短缺或控告都还原成中央有意制造的替罪羊；Goldman 后续大恐怖研究的证据年代不能不加区分地投射至1928年。 | `CLM-goldman-2011-great-turn-industrialization-and-wrecking`; `CLM-goldman-2011-social-dynamics-of-vigilance-vs-totalitarian-model` |
 
-## 4. 关联时间线锚点 (共 0 条)
+
+### 3.1 关联核心论断与史学家学派坐标 (`CLM-*` → `SCH-*`, 展示前 21/21 条)
+- **`CLM-fitzpatrick-1979-1928-shakhty-and-vydvizhentsy`** [`SCH-fitzpatrick-sheila`(希拉·菲茨帕特里克) | pp. 113–119, 139]: 
+- **`CLM-cohen-1973-nep-viability`** [`SCH-cohen-stephen`(斯蒂芬·F·科恩) | pp. 270-276, 316-320]: 
+- **`CLM-cohen-1973-notes-of-an-economist`** [`SCH-cohen-stephen`(斯蒂芬·F·科恩) | pp. 295-296, 318-320]: 
+- **`CLM-cohen-1973-bukharin-organizational-defeat`** [`SCH-cohen-stephen`(斯蒂芬·F·科恩) | pp. 287-289, 297-301, 322-329]: 
+- **`CLM-erlich-1960-bukharin-balanced-growth`** [`SCH-erlich-alexander`(亚历山大·埃利希) | pp. 21-23 (PDF pp. 38-40)]: 
+- **`CLM-erlich-1960-preobrazhensky-dilemma`** [`SCH-erlich-alexander`(亚历山大·埃利希) | pp. 34-36, 40-41, 49-51, 170-171 (PDF pp. 51-53, 57-58, 66-68, 185-186)]: 
+- **`CLM-erlich-1960-stalin-overkill-turn`** [`SCH-erlich-alexander`(亚历山大·埃利希) | pp. 161-169, 172-177, 183-184 (PDF pp. 176-184, 187-192, 198-199)]: 
+- **`CLM-nove-1964-stalin-necessity-dilemma`** [`SCH-nove-alec`(亚历克·诺夫) | pp. 20-26, 32]: 
+- **`CLM-kotkin-2014-bukharin-dilemma`** [`SCH-kotkin-stephen`(斯蒂芬·科特金) | EPUB Coda (OEBPS/9780698170100_EPUB_1-25.xhtml) & Ch. 14 (OEBPS/9780698170100_EPUB_1-24.xhtml)]: 
+- **`CLM-fitzpatrick-1978-anti-bukharin-ideological-offensive`** [`SCH-fitzpatrick-sheila`(希拉·菲茨帕特里克) | pp. 11–14, 20–21]: 
+- **`CLM-khlevniuk-2015-defeat-of-right-opposition`** [`SCH-khlevniuk-oleg`(奥列格·赫列夫纽克) | EPUB ops/xhtml/ch03.html（His Revolution 开篇至全盘集体化的 1929 年 11 月宣布）。工作区文本无纸质页码。]: 
+- **`CLM-priestland-2007-1928-mobilization-turn-against-bukharin`** [`SCH-priestland-david`(大卫·普里斯特兰) | pp. 234–237; 291–296]: 
+- **`CLM-merridale-1990-uglanov-moscow-collapse`** [`SCH-merridale-catherine`(凯瑟琳·梅里代尔) | pp. 53-64]: 
+- **`CLM-davies-festschrift-1995-nep-statistics-and-planning-debates`** [`SCH-hunter-holland`(霍兰·亨特 · cliometrics) | pp. 18-21, 82-94, 218-226]: 
+- **`CLM-bukharin-preobrazhensky-equilibrium-vs-accumulation-zh`** [`SCH-liu-wei-ping-xinqiao`(刘伟与平新乔 · chinese-political-economy) | 原刊 pp. 92–99 (PDF pp. 1–8；英文提要 pp. 127–128 / PDF pp. 9–10)]: 
+- **`CLM-zemskov-2018-archival-constraints-and-party-radicalism`** [`SCH-zemskov-viktor`(维克托·尼古拉耶维奇·泽姆斯科夫) | 馆藏中文PDF pp. 2–4, 7–10；非俄文原版纸页]: 
+- **`CLM-sakharov-2012-nep-crossroads-1928`** [`SCH-sakharov-valentin`(瓦连京·萨哈罗夫) | EPUB Ch. 4.2 & Ch. 4.3]: 
+- **`CLM-cohen-1973-july-1928-plenum-and-kamenev`** [`SCH-cohen-stephen`(斯蒂芬·F·科恩) | pp. 289-291]: 
+- **`CLM-fitzpatrick-1978-cultural-revolution-from-below-and-above`** [`SCH-fitzpatrick-sheila`(希拉·菲茨帕特里克) | pp. 11–15, 17–19]: 
+- **`CLM-goldman-2011-great-turn-industrialization-and-wrecking`** [`SCH-goldman-wendy`(温迪·Z·戈德曼) | pp. 7, 11, 14, 43–47, 56, 87–90, 306–310]: 
+- **`CLM-goldman-2011-social-dynamics-of-vigilance-vs-totalitarian-model`** [`SCH-goldman-wendy`(温迪·Z·戈德曼) | pp. 4–8, 20–22, 25–31, 60–66, 300–305, 312–314]: 
+
+## 4. 关联时间线骨干锚点 (L0–L2 展示 0 条)

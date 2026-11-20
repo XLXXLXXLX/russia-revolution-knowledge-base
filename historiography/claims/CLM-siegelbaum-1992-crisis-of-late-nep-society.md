@@ -7,11 +7,8 @@ publication_year: 1992
 source_tier: A
 local_source_path: "sources/monographs/siegelbaum_1992_state_and_society/ch06_pages_181-210.md#L1063-L1077"
 original_pages: "pp. 176-180, 188-225 (PDF pp. 190-194, 202-239)"
-targets_cards:
-  - POL-new-economic-policy
-  - EVT-1927-1928-grain-procurement-crisis
-  - EVT-1928-shakhty-trial
-debate: DEB-collapse-of-nep-and-stalin-revolution
+targets_cards: ["POL-nep", "EVT-1928-grain-procurement-crisis", "EVT-1928-shakhty-affair-show-trial"]
+debate: DEB-1928-bukharin-alternative
 supports: []
 rebuts: []
 qualifies: []

@@ -1,18 +1,13 @@
-# 1-Hop 平衡上下文包：`CON-workers-control` (工人监督（工厂委员会与生产者自治）)
+# 1-Hop 去重平衡上下文包：`CON-workers-control`
 
-> 本文件由 `python scripts/kb.py pack` 自动编译，旨在将失控的 `1+N` 随机读取压缩为**等权重、带时效边实质与史学盲区告警**的单次全景读取。
+> 由 `python scripts/kb.py pack` 动态编译：保留 **100% 一跳邻居与多时段关系边**，跨卡自动去重争鸣与时间线，并关联学者学派 (`SCH-*`)。
 
-## 0. 认知完备度与反偏斜仪表盘 (Epistemic & Skew Warnings)
-- **主卡路径**: `cards/concepts/CON-workers-control.md`
-- **完备度等级**: `multi-perspective`
-- **已覆盖视角**: `factory-social-history-smith-sa, tsarist-shopfloor-culture-bonnell, left-opposition-institutional-daniels, wage-and-labor-incentives-ilyukhov, stalinist-shopfloor-afterlife-filtzer`
-- **待补齐视角**: `1917-11-14-decree-on-workers-control-ocr-text, 1918-04-lenin-immediate-tasks-original-pages, 1921-01-25-workers-opposition-theses-pravda-original, anarcho-syndicalist-golos-truda-primary-files`
-- **偏斜风险提示**:
-  - ⚠️ 主卡显式声明尚缺以下视角待补: `1917-11-14-decree-on-workers-control-ocr-text, 1918-04-lenin-immediate-tasks-original-pages, 1921-01-25-workers-opposition-theses-pravda-original, anarcho-syndicalist-golos-truda-primary-files`。
+## 0. 认知完备度与反偏斜仪表盘
+- **`CON-workers-control`** (工人监督（工厂委员会与生产者自治） | `cards/concepts/CON-workers-control.md` | `multi-perspective`): 已覆盖=`factory-social-history-smith-sa, tsarist-shopfloor-culture-bonnell, left-opposition-institutional-daniels, wage-and-labor-incentives-ilyukhov, stalinist-shopfloor-afterlife-filtzer`；待补=`1917-11-14-decree-on-workers-control-ocr-text, 1918-04-lenin-immediate-tasks-original-pages, 1921-01-25-workers-opposition-theses-pravda-original, anarcho-syndicalist-golos-truda-primary-files`
 
 ## 1. 主卡核心层 ([T1] + [T2])
 ## [T1] 60秒定性微摘要
-俄国工厂委员会与工人民主核心概念。源自1905年车间自发行动；1917年彼得格勒工厂委员会为保卫就业与维持生产推行防御性监督，十月后写入《工人监督条例》；1918年起在经济崩溃与国有化压力下部分委员会并入工会，中央管理和劳动纪律强化；1921年党内生产者自治方案遭政治否决，但基层实践和合议管理并未一夜消失。
+工人监督源自1905年车间行动；1917年彼得格勒工厂委员会为保就业、维持生产实行防御性监督，十月后写入《工人监督条例》。1918年起经济崩溃与国有化推动部分委员会并入工会，中央管理与劳动纪律强化；1921年生产者自治方案遭党内否决，但基层实践与合议管理并未骤然消失。
 
 ## [T2] 核心脉络、时效关系边表与史学争鸣光谱
 
@@ -78,128 +73,53 @@
 - **[党内反对派制度政治史派 / Robert V. Daniels]**（`CLM-daniels-1960-left-communists-1918`, `ORG-workers-opposition`）：从1918年左派共产主义者到1921年工人反对派追踪布尔什维克党内“革命理想主义良心”与“执政官僚实用主义”的断裂，指出1921年政权为求生存倒向专家、行政官僚与警察主导的管理秩序，压碎工人反对派标志着“苏维埃政权开始吞噬自身良心的时刻”（p. 138）。
 - **[后苏联劳动激励史与车间微观控制派 / A. A. Ilyukhov, Donald Filtzer]**（`CLM-ilyukhov-war-communism-leveling-vs-nep-piecework`, `CLM-filtzer-1986-atomized-worker-control-over-labor-process`）：跳出政治口号考察车间薪酬与劳动过程实态——Ilyukhov 揭示战时共产主义在极端实物平均化（技工/杂工比1.02:1）与被迫全面恢复计件工资之间剧烈摇摆；Filtzer 则证明斯大林消灭集体工人民主后，超高速工业化的劳力饥渴反而迫使厂长在车间向个体工人的跳槽与怠工让步，形成无政治权利但有微观工序议价空间的苏维埃独特生产关系。
 
-## 2. 一跳邻域等权重微摘要 (共 15 个关联节点，严防大卡霸占上下文)
-### 邻居节点: `ORG-factory-committees-1917`
-- **时效关系边** (`ORG-factory-committees-1917` → `CON-workers-control` | `practiced-and-transformed` | 有效时段: `1917.03-1918.06`): 从二月后保卫就业、防止关厂停工的防御性监督起步，十月后经《工人监督条例》最终汇入国家工业国有化与一长制。
-- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 1917年二月革命后兴起的企业级工人自治与“工人监督”组织，在彼得格勒国有军工大厂最先成形，十月起义前召开四次市级代表会议（至1918年初共六次）与一次全俄代表会议。最初以保生产、防失业为务实目标，夏秋转向政治激进；1918年初在经济瓦解与政党生产主义推动下并入产业工会，企业管理逐步转向国家集中化，但合议制与自主诉求仍有残存。
+## 2. 一跳邻域全量微摘要目录 (去重后共 15 个节点，0 截断)
+- **`EVT-1905-revolution`**（1905–1907年俄国第一次革命）: 1905年1月9日[O.S.]“血腥星期日”至1907年6月3日[O.S.]六三新选举法间的帝俄首次全民革命。涵盖十月总罢工、彼得堡苏维埃、水兵哗变、莫斯科起义与黑土区农村暴动；迫使沙皇颁布《十月宣言》与杜马体制，随革命退潮，有限代议制度保留并受保守选举法约束。 ‖ `←CON-workers-control`[shopfloor-prototype-forged-in|1905-10–1905-11]: 彼得堡五金工以“接管实行”强推八小时工作制并建立选厂代表制，奠定1917年工厂委员会原型
+- **`EVT-1917-02-february-revolution`**（1917年二月革命）: 1917年2月23日至3月3日（俄历；公历3月8—16日），彼得格勒女工罢工、跨厂动员与驻军兵变推翻帝制。杜马委员会接管行政，苏维埃代表工兵，临时政府在革命全权与旧宪制断裂中成立；双重政权并非简单的主动让权。 ‖ `←CON-workers-control`[mass-revival-triggered-by|1917-03–1917-10]: 二月后彼得格勒工厂委员会迅速接管车间秩序，由防停工找燃料的防御性监督演变为车间双重政权
+- **`PER-lenin`**（弗拉基米尔·列宁）: 布尔什维克党缔造者、苏俄人民委员会主席（1917–1924）。1893年投身马克思主义运动，1903年促成布尔什维克分化；1917年发表《四月提纲》并领导十月夺权，历经布列斯特和约、内战与战时共产主义；1921年主持转向新经济政策，晚年（1922–1923）就官僚化与接班人同斯大林冲突。 ‖ `←CON-workers-control`[legitimized-as-audit-then-subordinated-to-one-man-management|1917-04–1921-03]: 列宁《四月提纲》与《工人监督条例》肯定基层稽核监督，但始终视其为会计检查而非自治管理，1…
+- **`EVT-1917-10-october-revolution`**（1917年十月革命）: 1917年10月24—27日（俄历；公历11月6—9日），军事革命委员会夺取彼得格勒中枢，冬宫陷落，苏维埃二大通过和平、土地法令并建立人民委员会。群众激进化、组织夺权与多党联合失败交织；首都迅速接管不代表全国无血革命。 ‖ `←CON-workers-control`[codified-and-pushed-to-bottom-up-nationalization-after|1917-11–1918-02]: 十月夺权后颁布《工人监督条例》，资方抵制引发77%由基层签发的惩罚性没收令浪潮 ； `→CON-workers-control`[social_support|1917秋]: 工厂委员会防止关厂的监督诉求与布党政治选择衔接。
+- **`CON-state-capitalism`**（国家资本主义（苏维埃政权下的））: 布尔什维克过渡经济概念。列宁1917–1918年以德国战时统制经济为蓝本，将“苏维埃政权下的国家资本主义”定为通向社会主义的进步阶梯，遭左派共产主义者斥为向资本投降；1921年重定义为租让制、租赁与合作社，1923年《论合作社》悄然转向；1925年新反对派反用此词攻击布哈林—斯大林。 ‖ `←CON-workers-control`[displaced-in-bolshevik-industrial-policy-by|1918-04–1918-06]: 列宁以“苏维埃国家资本主义”论证学习泰罗制、计件工资与服从专家统一意志，取代车间自治探索
+- **`ORG-left-communists-1918`**（1918年左翼共产主义者）: 1918年初俄共（布）内以布哈林、奥新斯基、拉狄克、普列奥布拉任斯基为首的极左集团，借《共产党人》（`Коммунист`）杂志反对《布列斯特和约》与列宁“国家资本主义”一长制；俄共七大批准和约后作为有组织派别逐步消解，但其国际主义与反官僚化诉求深刻塑造此后党内反对派谱系。 ‖ `←CON-workers-control`[defended-against-bureaucratic-centralization-by|1918-03–1918-06]: 奥新斯基、布哈林等左派共产主义者批判一长制与专家特权扼杀无产阶级生产现场主动性
+- **`POL-war-communism`**（战时共产主义）: 1918年夏至1921年3月苏维埃经济政策总称：余粮收集制、中小工业国有化、取缔私商、货币贬值与实物配给并举；因内战饥荒与国家能力崩溃而强化，却在1921年喀琅施塔得与坦波夫危机下为新经济政策实物税所取代；其性质是应急、乌托邦跃进还是国家统制传统延续，史家分歧剧烈。 ‖ `←CON-workers-control`[absorbed-into-centralized-glavki-and-piecework-under|1918-06–1921-02]: 全面国有化并未带来工人自治，反而将委员会并入工会、纳入总管理局集权与1919年强制计件制
+- **`ORG-workers-opposition`**（工人反对派）: 俄共（布）党内以产业工人和工会干部为主体的左翼反对派（1920–1922），由什利亚普尼科夫、梅德韦杰夫及理论代言人柯伦泰领导。在1920–1921年工会争论中痛斥党政官僚化与专家“一长制”，主张由“全俄生产者代表大会”及工会自治管理国民经济；1921年十大被定性为无政府工团主义倾向并遭解散。 ‖ `←CON-workers-control`[revived-as-producers-congress-demand-by|1920-09–1921-03]: 什利亚普尼科夫与柯伦泰要求将国民经济移交“全俄生产者代表大会”与产业工会自治管理
+- **`PER-shlyapnikov`**（亚历山大·什利亚普尼科夫）: 金属车工出身的老布尔什维克，一战时主持北欧交通线与俄国局，1917年任首届劳动人民委员。1920—1922年领导工人反对派，主张生产者自治；十大落败后入中央，秘密处分动议又差一票未过。其反官僚诉求与维护一党政权并存，晚年回忆须与当时记录对读，1937年遇害。 ‖ `←CON-workers-control`[articulated-union-management-thesis-by|1920-12–1922-02]: 尽管1918年春曾主张恢复计件与纪律，1920年底作为五金工会领袖领衔提出生产者自治管理纲领
+- **`PER-kollontai`**（亚历山德拉·柯伦泰）: 将军家庭出身的马克思主义女工运动家，1917年支持四月提纲，十月后任国家救济人民委员。主持妇女部并倡家务社会化，1921年为工人反对派撰写纲领，批判专家治厂与官僚委任。其解放理想遭遇福利紧缩、就业隔离及党内纪律的约束；1922年转入外交，历驻挪威、墨西哥、瑞典而幸存。 ‖ `←CON-workers-control`[theorized-proletarian-self-activity-in|1921-01–1921-03]: 撰写《工人反对派》小册子，从阶级主体性高度批判官僚委派制与资产阶级专家特权 ； `→CON-workers-control`[theorist_of_collective_self_activity|1920–1921]: 将工人参与由监督扩展到创造社会主义生产组织，仍受一党政治框架限制
+- **`PER-trotsky`**（列夫·托洛茨基）: 俄国革命家、“不断革命论”提出者，1905年彼得堡苏维埃实际领袖与1917年彼得格勒苏维埃主席；借军革委与苏维埃二大衔接统筹十月夺权，内战期起用4.8万军事专家缔造红军。1923–1927年领衔左翼与联合反对派抗衡斯大林集权并受“红色波拿巴”污名围剿，1927年被开除出党，1929年被驱逐出境。 ‖ `←CON-workers-control`[opposed-from-statification-and-militarization-pole-by|1920-01–1921-03]: 主张“工会国家化”与生产军事化集权，在组织纪律上与列宁联手压制工人反对派
+- **`PER-tomsky`**（米哈伊尔·托姆斯基）: 印刷工出身的布尔什维克工会领袖，长期主持全俄及全苏工会中央理事会，1922年进入政治局。工会争论中支持列宁，既限制生产者自治，又在新经济政策下维护集体合同和劳动保护。1928—1929年与布哈林、李可夫抵制激进转轨，遭干部改组夺去工会阵地，1936年自杀。 ‖ `←CON-workers-control`[channeled-into-transmission-belt-unionism-by|1918-04–1928-12]: 作为列宁派工会领袖既推动委员会并入工会，又拒绝工团主义接管经济，确立NEP下保护性工会路线
+- **`MTG-1921-rcpb-10th-congress`**（俄国共产党（布尔什维克）第十次代表大会）: 1921年3月8日至16日，俄共（布）十大在经济崩溃与喀琅施塔得起义交织下召开。大会决定以粮食税取代余粮收集制，开启新经济政策转向；同时终结工会大辩论，通过《关于党的统一》禁止派别活动并谴责工人反对派。经济退却与党内纪律收紧并行，会后中央与书记处改组重塑了组织权力格局。 ‖ `←CON-workers-control`[condemned-as-anarcho-syndicalist-deviation-at|1921-03-08–03-16]: 工会问题三方案分别获多数派336、托洛茨基50、工人反对派18票；另有工团主义倾向决议，…
+- **`POL-ban-on-factions-1921`**（《关于党的统一》派别禁令）: 俄共十大于1921年3月16日通过《关于党的统一》，要求解散按纲领组成的派别，并保留规定渠道的批评。秘密第七条设中央领导成员的特殊处分程序；1924年1月公开宣读、1926年7月首次动用开除季诺维也夫出政治局，危机措置遂渐成约束反对派的工具，但不同年份执行不等同原条文。 ‖ `←CON-workers-control`[organizationally-foreclosed-by|1921-03-16起]: 派别禁令切断了党内工人民主派合法结社呼吁车间自治的制度通道
+- **`ORG-factory-committees-1917`**（1917–1918年彼得格勒及全俄工厂委员会（Фабзавкомы））: 二月革命后兴起的企业工人自治与监督组织，先在彼得格勒国有军工大厂成形。十月前开四次市级及一次全俄代表会议，至1918年初市级共六次；从保生产、防失业转向政治激进。1918年初经济瓦解与政党生产主义推动其并入产业工会，管理趋于国家集中，但合议制与自主诉求仍存。 ‖ `→CON-workers-control`[practiced-and-transformed|1917.03-1918.06]: 从二月后保卫就业、防止关厂停工的防御性监督起步，十月后经《工人监督条例》最终汇入国家工业国有化与一长制。
 
-### 邻居节点: `EVT-1905-revolution`
-- **时效关系边** (`CON-workers-control` → `EVT-1905-revolution` | `shopfloor-prototype-forged-in` | 有效时段: `1905-10–1905-11`): 彼得堡五金工以“接管实行”强推八小时工作制并建立选厂代表制，奠定1917年工厂委员会原型
-- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 1905年1月9日[O.S.]“血腥星期日”至1907年6月3日[O.S.]六三新选举法间的帝俄首次全民革命。涵盖十月总罢工、彼得堡苏维埃、水兵哗变、莫斯科起义与黑土区农村暴动；迫使沙皇颁布《十月宣言》与杜马体制，随革命退潮，有限代议制度保留并受保守选举法约束。
+## 3. 关联史学争鸣与学者论断索引 (主卡外关联争鸣 4 项)
+- **`DEB-1917-dual-power-and-february-origins`**（二月革命起源与“双重政权”宪制形成之争（1917） | `historiography/debates/DEB-1917-dual-power-and-february-origins.md` | 流派 `social-history, liberal-constitutional, participant, trotskyist, menshevik-coalition, elite-conspiracy-critique`）：二月革命是无领导的群众爆发，还是工厂与兵营中分散的积极分子推动的起义？沙皇退位后，杜马临时委员会、苏维埃与临时政府如何谈判并形成彼此制约的权力格局？群众压力、精英选择和战时危机的因果权重仍有争议，不能以宫廷阴谋代替街头革命。
+- **`DEB-1917-october-coup-or-social-revolution`**（十月革命：少数派政变还是社会革命？ | `historiography/debates/DEB-1917-october-coup-or-social-revolution.md` | 流派 `liberal-coup, party-social-history, russian-revisionist-timing, labor-local-history, moderate-socialist-and-constitutional-legitimacy, participant-marxist, peasant-social-history, borderland-and-memory-historiography`）：十月武装夺权是少数派政变，还是工人、士兵与农民社会革命的政治表达？有组织的起义与广泛的基层动员能否同时成立，苏维埃多数又能否代表全国选民？这些问题涉及不同地区、不同时间的支持与合法性，不能以一次投票或一次攻占行动互相替代。
+- **`DEB-1918-war-communism-ideology-or-emergency`**（战时共产主义与早期一党制本质之争：内战应急、乌托邦跃进还是国家统制连续？ | `historiography/debates/DEB-1918-war-communism-ideology-or-emergency.md` | 流派 `emergency-carr-mawdsley, utopian-tragedy-malia-pipes, state-continuity-lih-smith, mixed-causation-rabinowitch-lewin`）：1918至1921年的全面国有化、余粮收集制、取缔私商、劳动军事化，以及多党苏维埃收为一党专政，究竟是内战与供给崩溃逼出的生存应急，还是反市场乌托邦的激进兑现，抑或一战以来国家统制与基层危机交互的结果？“战时共产主义”是1921年转向时的事后标签，须分清措施序列与事后总结。
+- **`DEB-1921-kronstadt-and-nep-origins`**（喀琅施塔得起义与新经济政策的双轨转折 | `historiography/debates/DEB-1921-kronstadt-and-nep-origins.md` | 流派 `social-history, political-institutional, provincial-and-state-society, soviet-orthodox`）：喀琅施塔得是白卫阴谋、农民反抗，还是要求重建劳动者苏维埃民主的革命者起义？1921年实物税与禁止党内派别同期出现，如何解释经济退却和政治收紧的联系、彼此差异及长期后果？
 
-### 邻居节点: `EVT-1917-02-february-revolution`
-- **时效关系边** (`CON-workers-control` → `EVT-1917-02-february-revolution` | `mass-revival-triggered-by` | 有效时段: `1917-03–1917-10`): 二月后彼得格勒工厂委员会迅速接管车间秩序，由防停工找燃料的防御性监督演变为车间双重政权
-- **节点定性微摘要 [T1]** (完备度 `draft`): 1917年2月23日至3月3日（公历3月8日至16日），彼得格勒爆发民众起义推翻罗曼诺夫王朝。妇女与工人和平抗议迅速演变为卫戍部队大规模倒戈；沙皇尼古拉二世退位，国家杜马临时委员会与彼得格勒苏维埃并立催生“双重政权”，开启俄国长达八个月的宪政民主探索与剧烈社会激进化进程。
+### 3.1 关联核心论断与史学家学派坐标 (`CLM-*` → `SCH-*`, 展示前 24/53 条)
+- **`CLM-bonnell-1983-conscious-worker-stratum-and-shopfloor`** [`SCH-bonnell-victoria`(维多利亚·E·邦内尔) | pp. 12–13, 31, 46–48, 55–56, 71–72]: 
+- **`CLM-smith-sa-1983-defensive-workers-control`** [`SCH-smith-sa`(斯蒂芬·A·史密斯（S. A. Smith）) | 中译本 pp. 106–112, 133, 135, 137, 191（即源文件标注 PDF pp. 111–117, 138, 140, 142, 196）；注意：均为中译本页码，非英文原版页码]: 
+- **`CLM-smith-1983-workers-control-pragmatism`** [`SCH-smith-sa`(斯蒂芬·A·史密斯（S. A. Smith）) | pp. 141–149, 258 (PDF pp. 153–161, 270)]: 
+- **`CLM-smith-sa-1983-factory-committees-vs-trade-unions`** [`SCH-smith-sa`(斯蒂芬·A·史密斯（S. A. Smith）) | 中译本 pp. 85, 137–139, 166, 193（即源文件标注 PDF pp. 90, 142–144, 171, 198）；注意：均为中译本页码，非英文原版页码]: 
+- **`CLM-smith-sa-1983-from-workers-control-to-nationalization`** [`SCH-smith-sa`(斯蒂芬·A·史密斯（S. A. Smith）) | 中译本 pp. 155–156, 166–169, 177–179, 184–186, 192（即源文件标注 PDF pp. 160–161, 171–174, 182–184, 189–191, 197）；注意：均为中译本页码，非英文原版页码]: 
+- **`CLM-smith-1983-post-october-centralization`** [`SCH-smith-sa`(斯蒂芬·A·史密斯（S. A. Smith）) | pp. 208, 239–263 (PDF pp. 220, 251–275)]: 
+- **`CLM-ilyukhov-war-communism-leveling-vs-nep-piecework`** [`SCH-ilyukhov-alexander`(亚历山大·伊利尤霍夫) | pp. 43–50]: 
+- **`CLM-daniels-1960-left-communists-1918`** [`SCH-daniels-robert`(罗伯特·V·丹尼尔斯) | pp. 70-81]: Daniels：1918年左翼捍卫革命纲领，却在分裂关头受党统一约束
+- **`CLM-filtzer-1986-atomized-worker-control-over-labor-process`** [`SCH-filtzer-donald`(唐纳德·费尔泽) | pp. 1–2, 8–9, 27–29, 44–63, 80–89, 92–93, 107–115]: 
+- **`CLM-daniels-1960-tenth-congress-turning-point`** [`SCH-daniels-robert`(罗伯特·V·丹尼尔斯) | pp. 146-153]: Daniels：1921年十大将党统一转化为压缩合法反对空间的组织制度
+- **`CLM-kollontai-1921-all-russian-congress-of-producers-program`** [`SCH-kollontai-alexandra`(亚历山德拉·柯伦泰 · participant-primary-text) | PDF pp. 11-21, 25-30]: 
+- **`CLM-hasegawa-2018-sub-elite-activists`** [`SCH-hasegawa-tsuyoshi`(长谷川毅) | pp. 643–645 (PDF pp. 664–666); cf. pp. 203–204, 218 (PDF pp. 224–225, 239)]: 
+- **`CLM-hasegawa-2018-duma-committee-revision`** [`SCH-hasegawa-tsuyoshi`(长谷川毅) | pp. xiii–xiv (PDF pp. 14–15); pp. 366–368, 377–378 (PDF pp. 387–389, 398–399); p. 652 (PDF p. 673)]: 
+- **`CLM-hasegawa-2018-dual-power-origins`** [`SCH-hasegawa-tsuyoshi`(长谷川毅) | pp. 626–638 (PDF pp. 647–659); cf. pp. 649, 660 (PDF pp. 670, 681)]: 
+- **`CLM-gaida-2003-liberals-in-february-1917`** [`SCH-gaida-fedor`(费奥多尔·盖达) | pp. 355-356, 433-439]: 
+- **`CLM-sukhanov-1922-dual-power-pact`** [`SCH-sukhanov-nikolai`(尼古拉·苏汉诺夫) | pp. 117–126, 150, 153–158 (PDF pp. 163–172, 196, 199–204); cf. pp. 68, 104–108, 113–114]: 
+- **`CLM-trotsky-1930-dual-power-instability`** [`SCH-trotsky-leon`(列夫·达维多维奇·托洛茨基 · participant-historian) | （中译 EPUB 无纸页；第一卷第十一、十六章）]: 
+- **`CLM-galili-1989-revolutionary-defensism`** [`SCH-galili-ziva`(齐娃·加利利) | pp. 134-140, 148-151 (PDF pp. 152-158, 174-177)]: 
+- **`CLM-galili-1989-coalition-government-trap`** [`SCH-galili-ziva`(齐娃·加利利) | pp. 169-170, 177-181 (PDF pp. 195-196, 203-207)]: 
+- **`CLM-spitsyn-february-1917-elite-conspiracy-thesis`** [`SCH-spitsyn-yevgeny`(叶夫根尼·斯皮岑) | PDF pp. 11–15, 24, 28]: 
+- **`CLM-figes-1996-soldier-mutiny-and-social-inversion`** [`SCH-figes-orlando`(奥兰多·费吉斯) | pp. 404-412]: 
+- **`CLM-pipes-1990-october-classic-coup`** [`SCH-pipes-richard`(理查德·派普斯) | ch. 11 (The October Coup); cf. Introduction]: 
+- **`CLM-rabinowitch-1976-open-democratic-mass-party`** [`SCH-rabinowitch-alexander`(亚历山大·拉比诺维奇) | 未核：EPUB 章节及行号]: 
+- **`CLM-rabinowitch-1976-october-three-factions-debate`** [`SCH-rabinowitch-alexander`(亚历山大·拉比诺维奇) | 未核：EPUB 章节及行号]: 
 
-### 邻居节点: `PER-lenin`
-- **时效关系边** (`CON-workers-control` → `PER-lenin` | `legitimized-as-audit-then-subordinated-to-one-man-management` | 有效时段: `1917-04–1921-03`): 列宁《四月提纲》与《工人监督条例》肯定基层稽核监督，但始终视其为会计检查而非自治管理，1918年春起转向专家一长制
-- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 布尔什维克党缔造者、苏俄人民委员会主席（1917–1924）。1893年投身马克思主义运动，1903年促成布尔什维克分化；1917年发表《四月提纲》并领导十月夺权，历经布列斯特和约、内战与战时共产主义；1921年主持转向新经济政策，晚年（1922–1923）就官僚化与接班人同斯大林冲突。
-
-### 邻居节点: `EVT-1917-10-october-revolution`
-- **时效关系边** (`CON-workers-control` → `EVT-1917-10-october-revolution` | `codified-and-pushed-to-bottom-up-nationalization-after` | 有效时段: `1917-11–1918-02`): 十月夺权后颁布《工人监督条例》，资方抵制引发77%由基层签发的惩罚性没收令浪潮
-- **节点定性微摘要 [T1]** (完备度 `draft`): 1917年10月24日至26日（公历11月6日至8日），布尔什维克依托彼得格勒苏维埃军事革命委员会推翻克伦斯基临时政府。起义占领首都交通通信要冲并攻克冬宫；第二届全俄苏维埃代表大会通过和平法令与土地法令，成立以列宁为首的人民委员会，确立苏维埃苏俄政权，开启全球社会主义运动新纪元。
-
-### 邻居节点: `CON-state-capitalism`
-- **时效关系边** (`CON-workers-control` → `CON-state-capitalism` | `displaced-in-bolshevik-industrial-policy-by` | 有效时段: `1918-04–1918-06`): 列宁以“苏维埃国家资本主义”论证学习泰罗制、计件工资与服从专家统一意志，取代车间自治探索
-- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 布尔什维克过渡经济概念。列宁1917–1918年以德国战时统制经济为蓝本，将“苏维埃政权下的国家资本主义”定为通向社会主义的进步阶梯，遭左派共产主义者斥为向资本投降；1921年重定义为租让制、租赁与合作社，1923年《论合作社》悄然转向；1925年新反对派反用此词攻击布哈林—斯大林。
-
-### 邻居节点: `ORG-left-communists-1918`
-- **时效关系边** (`CON-workers-control` → `ORG-left-communists-1918` | `defended-against-bureaucratic-centralization-by` | 有效时段: `1918-03–1918-06`): 奥新斯基、布哈林等左派共产主义者批判一长制与专家特权扼杀无产阶级生产现场主动性
-- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 1918年初俄共（布）内以布哈林、奥新斯基、拉狄克、普列奥布拉任斯基为首的极左集团，借《共产党人》（`Коммунист`）杂志反对《布列斯特和约》与列宁“国家资本主义”一长制；俄共七大批准和约后作为有组织派别逐步消解，但其国际主义与反官僚化诉求深刻塑造此后党内反对派谱系。
-
-### 邻居节点: `POL-war-communism`
-- **时效关系边** (`CON-workers-control` → `POL-war-communism` | `absorbed-into-centralized-glavki-and-piecework-under` | 有效时段: `1918-06–1921-02`): 全面国有化并未带来工人自治，反而将委员会并入工会、纳入总管理局集权与1919年强制计件制
-- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 1918年夏至1921年3月苏维埃经济政策总称：余粮收集制、中小工业国有化、取缔私商、货币贬值与实物配给并举；因内战饥荒与国家能力崩溃而强化，却在1921年喀琅施塔得与坦波夫危机下为新经济政策实物税所取代；其性质是应急、乌托邦跃进还是国家统制传统延续，史家分歧剧烈。
-
-### 邻居节点: `ORG-workers-opposition`
-- **时效关系边** (`CON-workers-control` → `ORG-workers-opposition` | `revived-as-producers-congress-demand-by` | 有效时段: `1920-09–1921-03`): 什利亚普尼科夫与柯伦泰要求将国民经济移交“全俄生产者代表大会”与产业工会自治管理
-- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 俄共（布）党内以产业工人和工会干部为主体的左翼反对派（1920–1922），由什利亚普尼科夫、梅德韦杰夫及理论代言人柯伦泰领导。在1920–1921年工会争论中痛斥党政官僚化与专家“一长制”，主张由“全俄生产者代表大会”及工会自治管理国民经济；1921年十大被定性为无政府工团主义倾向并遭解散。
-
-### 邻居节点: `PER-shlyapnikov`
-- **时效关系边** (`CON-workers-control` → `PER-shlyapnikov` | `articulated-union-management-thesis-by` | 有效时段: `1920-12–1922-02`): 尽管1918年春曾主张恢复计件与纪律，1920年底作为五金工会领袖领衔提出生产者自治管理纲领
-- **节点定性微摘要 [T1]** (完备度 `draft`): 老布尔什维克五金工人出身。1917年二月革命期间主持中央俄国局；十月后首任劳动人民委员。1920—1922年工人反对派实际领袖，1921年俄共十大上其纲领获18票（336:50:18）并遭《关于党的统一》决议取缔，1937年大清洗中被处决。
-
-### 邻居节点: `PER-kollontai`
-- **时效关系边** (`CON-workers-control` → `PER-kollontai` | `theorized-proletarian-self-activity-in` | 有效时段: `1921-01–1921-03`): 撰写《工人反对派》小册子，从阶级主体性高度批判官僚委派制与资产阶级专家特权
-- **节点定性微摘要 [T1]** (完备度 `draft`): 布尔什维克女权理论家、首任女人民委员与中央妇女部主任。1921年《工人反对派》小册子批判党内官僚化与专家治厂；NEP时代家务社会化与“自由结合”构想与财政紧缩、城乡结构冲突碰撞，见 Goldman 社会史检验。
-
-### 邻居节点: `PER-trotsky`
-- **时效关系边** (`CON-workers-control` → `PER-trotsky` | `opposed-from-statification-and-militarization-pole-by` | 有效时段: `1920-01–1921-03`): 主张“工会国家化”与生产军事化集权，在组织纪律上与列宁联手压制工人反对派
-- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 俄国革命家、“不断革命论”提出者，1905年彼得堡苏维埃实际领袖与1917年彼得格勒苏维埃主席；借军革委与苏维埃二大衔接统筹十月夺权，内战期起用4.8万军事专家缔造红军。1923–1927年领衔左翼与联合反对派抗衡斯大林集权并受“红色波拿巴”污名围剿，1927年被开除出党，1929年被驱逐出境。
-
-### 邻居节点: `PER-tomsky`
-- **时效关系边** (`CON-workers-control` → `PER-tomsky` | `channeled-into-transmission-belt-unionism-by` | 有效时段: `1918-04–1928-12`): 作为列宁派工会领袖既推动委员会并入工会，又拒绝工团主义接管经济，确立NEP下保护性工会路线
-- **节点定性微摘要 [T1]** (完备度 `draft`): 工人出身老布尔什维克，1919–1929年执掌全苏工会并任政治局委员。1920–21年工会争论支持列宁抵制托洛茨基“工会国家化”；新经济政策时期捍卫工会集体谈判自主；1928–29年与布哈林、李可夫结成“右翼三巨头”抗斯大林激进路线，后遭清洗自尽。
-
-### 邻居节点: `MTG-1921-rcpb-10th-congress`
-- **时效关系边** (`CON-workers-control` → `MTG-1921-rcpb-10th-congress` | `condemned-as-anarcho-syndicalist-deviation-at` | 有效时段: `1921-03-08–03-16`): 工会问题三方案分别获多数派336、托洛茨基50、工人反对派18票；另有工团主义倾向决议，不能混为同一表决
-- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 1921年3月8日至16日，俄共（布）十大在经济崩溃与喀琅施塔得起义交织下召开。大会决定以粮食税取代余粮收集制，开启新经济政策转向；同时终结工会大辩论，通过《关于党的统一》禁止派别活动并谴责工人反对派。经济退却与党内纪律收紧并行，会后中央与书记处改组重塑了组织权力格局。
-
-### 邻居节点: `POL-ban-on-factions-1921`
-- **时效关系边** (`CON-workers-control` → `POL-ban-on-factions-1921` | `organizationally-foreclosed-by` | 有效时段: `1921-03-16起`): 派别禁令切断了党内工人民主派合法结社呼吁车间自治的制度通道
-- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 俄共十大于1921年3月16日通过《关于党的统一》，要求解散按纲领组成的派别，并保留规定渠道的批评。秘密第七条设中央领导成员的特殊处分程序；1924年1月公开宣读、1926年7月首次动用开除季诺维也夫出政治局，危机措置遂渐成约束反对派的工具，但不同年份执行不等同原条文。
-
-## 3. 关联史学争鸣光谱 (Historiographical Debates)
-### `DEB-1917-dual-power-and-february-origins`：二月革命起源与“双重政权”宪制形成之争（1917）
-## [T1] 核心问题定义
-二月革命是无领导的群众爆发，还是工厂与兵营中分散的积极分子推动的起义？沙皇退位后，杜马临时委员会、苏维埃与临时政府如何谈判并形成彼此制约的权力格局？群众压力、精英选择和战时危机的因果权重仍有争议，不能以宫廷阴谋代替街头革命。
-
-## [T2] 各学派立场对照矩阵
-**经验基准**：1917-02-23 [O.S.] / 1917-03-08 [N.S.] 国际妇女节罢工扩大；27日 [O.S.] / 3月12日 [N.S.] 首都预备营哗变，国家杜马临时委员会与彼得格勒工兵代表苏维埃在塔夫利达宫东西两翼同日成立；3月1日 [O.S.] / 3月14日 [N.S.] 苏维埃发布《第一号命令》；3月2日 [O.S.] / 3月15日 [N.S.] 尼古拉二世在普斯科夫退位并传位米哈伊尔大公；3月3日 [O.S.] / 3月16日 [N.S.] 米哈伊尔大公签署《拒绝即位宣言》（将最高政权形制交由普选立宪会议决定并呼吁服从临时政府），同日临时政府举行首次内阁会议。各机构的正式法统主张与实际暴力和行政控制力并不重合。
-
-| 学派/取向 | 代表学者与著作 | 核心论点摘要 | 支撑论断卡 | 主要受批评盲点 |
-| :--- | :--- | :--- | :--- | :--- |
-| 社会史、次精英网络与2018年宪制自我修正 | Tsuyoshi Hasegawa, *The February Revolution: Petrograd, 1917* (1981; rev. ed. 2018) | 街头起义既非纯粹盲目自发也非布尔什维克中央指挥，而是跨党派工厂与兵营“中下层积极分子（sub-elite activists）”在各党上层犹豫时串联引爆；2018年新版更推翻自己1981年“杜马自由派系不情愿革命者”旧论，证明杜马临时委员会先于苏维埃建立军事委员会、于2月27日晚11:30主动夺权，且“双重政权”并非苏维埃自愿让权（苏维埃并无国家行政机器可让），而是米留可夫在3月3日首次内阁会议上蓄意废黜国家杜马、自断民选法统后，反使强势临时政府沦为需仰赖虚弱苏维埃合法性的无根政权。 | `CLM-hasegawa-2018-sub-elite-activists`；`CLM-hasegawa-2018-duma-committee-revision`；`CLM-hasegawa-2018-dual-power-origins` | 高度聚焦首都彼得格勒五日决战，对外省政权接收与农村公社反应需结合地方档案补充。 |
-| 自由派困境与“叹着气的革命者” | Fedor Gaida, *Liberal Opposition in Russia, 1914–1917* (2003) | 与Hasegawa 2018年版针锋相对：论证杜马自由派缺乏基层组织，在二月并非胸有成竹的主动夺权者，而是因畏惧沙皇军法审判与街头暴民清洗才仓促接权的“叹着气的革命者／革命的俘虏”；二月获胜的不是作为立宪机构的第四届杜马，而是作为群众集会物理场所的塔夫利达宫，这一事实同样从档案层面直接证伪了“自由派预先策划二月革命”的阴谋论。 | `CLM-gaida-2003-liberals-in-february-1917` | 偏重杜马自由派上层书信与内阁心态，不能单独解释2月27日驻军哗变的兵营微观动因。 |
-| 当事人夜间妥协见证（B级文献） | N. N. Sukhanov, *The Russian Revolution, 1917* (1922) | 以苏维埃执委会亲历者视角记录3月1–2日夜与米留可夫、古契科夫的谈判：苏维埃多数派因惧怕“资产阶级退缩导致军事反革命镇压”，以“不入阁、有条件支持、保留士兵控制权”达成双重政权契约。 | `CLM-sukhanov-1922-dual-power-pact` | 属B级当事人回忆录，兼具在场见证与孟什维克国际派事后自我辩护，须与双方会议速记互证。 |
-| 革命马克思主义阶级主权论（B级文献） | Leon Trotsky, *History of the Russian Revolution* (1930–32) | 将双重政权界定为一切伟大革命中“两个不可调和统治阶级（资产阶级与无产阶级/兵农）分掌正式政权与实际武装”的过渡性主权分裂，断言其内在结构不稳定性必然通向十月二次革命或反革命专政。 | `CLM-trotsky-1930-dual-power-instability` | 属B级十月领导人事后理论化，将二月的多党协商张力嵌入通向十月布尔什维克夺权的目的论轨道。 |
-| 孟什维克“革命护国主义”与联合政府陷阱 | Ziva Galili, *The Menshevik Leaders in the Russian Revolution* (1989) | 第二章从粮食与铁路技术依赖、对失控“士兵革命”的疑虑及工人反专政心理正面解释3月初双重政权的诞生；随后以“革命护国主义”和5月入阁解释苏维埃社会权威与联合政府行政责任之间的致命撕裂。 | `CLM-galili-1989-revolutionary-defensism`；`CLM-galili-1989-coalition-government-trap` | 5月以后的联合政府危机属双重政权中后期演变，应与2月底3月初的政权创生机制分段考察。 |
-| 精英宫廷阴谋论及其社会史反证 | 叶夫根尼·斯皮岑（E. Yu. Spitsyn）《俄罗斯帝国与苏联通史》第3卷（B级新传统主义综合）；Orlando Figes, *A People's Tragedy* (1996) | 斯皮岑渲染军方高层、杜马自由派与协约国驻俄使团的“精英倒沙皇阴谋”；Figes（注：所引论断卡主论3月《第一号命令》后至10月的军纪瓦解、社会等级逆转与“战壕布尔什维主义”）与Hasegawa、Fedor Gaida共同证明基层士兵拒绝向人群开火及社会反威权爆发具有完全独立于精英接触的动力。 | `CLM-spitsyn-february-1917-elite-conspiracy-thesis`；`CLM-figes-1996-soldier-mutiny-and-social-inversion` | 上层倒沙皇接触或普斯科夫劝退绝不等于指挥2月23–27日街头罢工与预备营哗变；混淆精英善后与起义命令链违反证据等级铁律。 |
-
-### `DEB-1917-october-coup-or-social-revolution`：十月革命：少数派政变还是社会革命？
-## [T1] 核心问题定义
-十月武装夺权是少数派政变，还是工人、士兵与农民社会革命的政治表达？有组织的起义与广泛的基层动员能否同时成立，苏维埃多数又能否代表全国选民？这些问题涉及不同地区、不同时间的支持与合法性，不能以一次投票或一次攻占行动互相替代。
-
-## [T2] 各学派立场对照矩阵
-**经验基准**：彼得格勒苏维埃军事革命委员会组织行动，临时政府于1917-10-25 [O.S.] / 1917-11-07 [N.S.] 被推翻；第二次全俄工兵代表苏维埃代表大会当晚开幕，孟什维克与右派社革党抗议退场，大会于10月26日 [O.S.] / 11月8日 [N.S.] 通过《和平法令》《土地法令》并组建人民委员会。据站内选举统计（`DATA-01-1905-1917-strikes-and-petrograd-elections`、`DATA-07-1905-1918-unions-moscow-swings-and-constituent-assembly-votes`），布尔什维克在1917年9月莫斯科区杜马获51.5%选票、11月全俄立宪会议选举在大城市与北/西前线占优，但在全国立宪会议总票中仅占约22.5%–24%（社革党各单合占约37%–40%，且选票名册未反映10月左翼社革党独立分党）。苏维埃代表、立宪会议选民与农村夺地农民并非同一政治总体。
-
-| 学派/取向 | 代表学者与著作 | 核心论点摘要 | 支撑论断卡 | 主要受批评盲点 |
-| :--- | :--- | :--- | :--- | :--- |
-| 自由主义“静默技术性政变”论 | Richard Pipes, *The Russian Revolution* (1990) | 援引马拉帕尔泰“静默技术性政变”概念，断言十月并非群众起义，而是列宁与军革委利用临时政府权威真空发动的少数派武装夺权，且本质上是**“针对全国苏维埃组织本身的政变”**——抢在苏维埃二大开幕前推翻临时政府，将全国苏维埃代表置于既成事实之下。 | `CLM-pipes-1990-october-classic-coup` | 将工人赤卫队与驻军顺从简化为阴谋家操纵，难以解释布尔什维克在9–11月两都市/区杜马及北方前线选票中的真实多数。 |
-| 开放性群众政党与托洛茨基苏维埃合法性策略 | Alexander Rabinowitch, *The Bolsheviks Come to Power* (1976) | 1917年的彼得格勒布尔什维克并非铁板一块的密谋集团，而是吸收数万工人兵士、容忍加米涅夫—季诺维也夫公开异议的开放性群众政党；夺权成功关键在于**托洛茨基策略**——以彼得格勒苏维埃军革委“保卫苏维埃与卫戍部队”为名实施防御性展开，并将政权移交严格锚定于第二次全俄苏维埃代表大会开幕，以赢得无党派工兵的苏维埃合法性认同。 | `CLM-rabinowitch-1976-open-democratic-mass-party`；`CLM-rabinowitch-1976-october-three-factions-debate`；`CLM-rabinowitch-1976-trotsky-soviet-congress-strategy` | 首都党组织的战前民主开放性与苏维埃防卫策略，不能自动推及外省夺权或10月底维克热尔谈判破裂后的一党专政化。 |
-| 列宁“稍纵即逝窗口”与先行夺权论（与托洛茨基路线之张力） | Vladlen T. Loginov, *Lenin in 1917: On the Brink of the Possible* (2017) | 与拉比诺维奇聚焦托洛茨基“等待并依托苏维埃二大”形成直接张力：洛吉诺夫论证列宁之所以痛斥“等待苏维埃代表大会是白痴行为或背叛、拖延就是死亡”，是因为洞察到10月中旬无政府浪潮与军事反革命夹击下存在“稍纵即逝的夺权窗口”，唯有在大会开幕前先行武装夺权、造成既成事实，才能迫使动摇的苏维埃大会接管政权。 | `CLM-loginov-lenin-1917-fleeting-window-of-power` | 高度认同列宁对紧急时机的政治直觉，但恰恰从反面印证了“先行夺权把苏维埃二大置于既成事实”的程序正当性争议。 |
-| 工厂控制与莫斯科“政策先于党派”社会史 | S. A. Smith, *Red Petrograd* (1983); Diane P. Koenker, *Moscow Workers and the 1917 Revolution* (1981) | S. A. Smith证明彼得格勒工厂委员会推行“工人监督”最初是防止企业主关厂与经济崩溃的防御性自救，而非按意识形态蓝图消灭资本主义；Koenker证明莫斯科十月经历了与彼得格勒截然不同的惨烈炮战，且莫斯科多数工人虽在原则上拥护苏维埃政权，却**拒绝为党派垄断冒内战风险**（支持多党社会主义联合），其激进化遵循**“政策先于党派（policy before party）”**的理性渐进机制。 | `CLM-smith-sa-1983-defensive-workers-control`；`CLM-koenker-1981-moscow-october-armed-struggle-vs-petrograd`；`CLM-koenker-1981-rational-incremental-radicalization` | 两都工业工人的防御性/理性选择不能代表占人口八成的农村公社或边疆民族地区。 |
-| 维克热尔妥协流产与立宪会议合法性冲突 | John D. Basil, *The Mensheviks in the Revolution of 1917* (1984); 姚海（主编）《俄国革命史》(2013); Alexander Rabinowitch, *The Bolsheviks in Power* (2007) | Basil与姚海剖析十月后全俄铁道工会（维克热尔）调停与清一色社会主义联合政府谈判：孟什维克内部分裂与10月29–30日士官生暴动撕裂妥协，布尔什维克中央内部加米涅夫、季诺维也夫、李可夫、诺金等辞职警告“纯布尔什维克政府只能靠政治恐怖维持”；姚海与Rabinowitch (2007) 进一步揭示苏维埃阶级专政逻辑与普选立宪会议（1918年1月5–6日被武力解散）之间不可调和的二元合法性冲突。 | `CLM-basil-1984-october-and-vikzhel-collapse`；`CLM-yao-hai-post-october-coalition-failure-and-one-party-formation`；`CLM-yao-hai-constituent-assembly-vs-soviet-legitimacy-clash`；`CLM-rabinowitch-2007-constituent-assembly` | 维克热尔谈判与立宪会议解散解释了十月向一党制滑落的制度拐点，但不能反过来否定10月25日临时政府已彻底丧失首都工兵支持的事实。 |
-| 当事人革命解释与反对派在场反证（B级文献） | [B级当事人文献] Leon Trotsky, *History of the Russian Revolution* (1930–32); N. N. Sukhanov, *The Russian Revolution, 1917* (1922) | 托洛茨基将起义定性为“在苏维埃合法性掩护下实施的武装夺权艺术”；**苏汉诺夫的证言尤具史学张力**——他虽作为孟什维克国际派痛斥布尔什维克政权缺乏民主准备、悔恨温和派10月25日夜退场将苏维埃拱手让给列宁，却**以亲历反对者身份断然驳斥右翼“纯军事阴谋”说**，证言彼得格勒工人与驻军当时确以压倒性多数支持推翻临时政府。 | `CLM-trotsky-1930-art-of-insurrection-and-soviet-legality`；`CLM-sukhanov-1922-october-walkout-tragedy` | 两者均属B级当事人回忆与事后政治辩护（托洛茨基旨在反击斯大林并凸显自身军革委功绩，苏汉诺夫旨在检讨国际派失策），必须与当时会议速记对读。 |
-| 农民道德经济、帝国边疆与十月记忆建构 | Orlando Figes (1996); Ronald Grigor Suny (2017); Eric Blanc (2021); Frederick C. Corney, *Telling October* (2004) | Figes揭示农民公社夺地遵循自身“道德经济”，利用《土地法令》将既成黑分土地合法化而非服从城市党令；Suny综合社会史与阶级话语极化；Blanc将1917年十月放入帝国边疆民族与阶级互动视野；Corney则考证党史委（Istpart）与1920年代庆典如何将原本混乱多中心的十月夺权事后重塑为宏大叙事神话。 | `CLM-figes-1996-peasant-moral-economy-1917`；`CLM-suny-2017-totalitarian-vs-social-history-turn`；`CLM-suny-2017-class-discourse-and-polarization`；`CLM-blanc-2021-borderlands-in-1905-and-1917`；`CLM-corney-2004-istpart-and-institutionalizing-october-memory` | 农民夺地与边疆动员支持推翻旧政权，但并不等于授权布尔什维克随后的余粮收集制与一党垄断；记忆建构研究不可消解1917年秋真实的社会崩溃。 |
-
-### `DEB-1918-war-communism-ideology-or-emergency`：战时共产主义与早期一党制本质之争：内战应急、乌托邦跃进还是国家统制连续？
-## [T1] 核心问题定义
-1918–1921年的全面工业国有化、余粮收集制（`продразвёрстка`）、取缔私商、劳动军事化及多党苏维埃向一党专政的收缩，究竟是内战与供给崩溃逼迫的生存应急反应，还是布尔什维克反市场乌托邦蓝图的激进兑现，抑或一战以来国家统制与基层危机交互演化的结果？“战时共产主义”系1921年新经济政策转向时的事后追赋标签，须严格区分措施出台序列与事后总结。
-
-## [T2] 各学派立场对照矩阵
-
-**经验共识**：1917年底至1918年春尚存布尔什维克—左翼社革党联合执政与“国家资本主义”探索；1918年夏起全面国有化与强制征粮随内战升级扩展；1920年达至劳动军事化与无货币幻想顶峰；1921年3月俄共十大在农村起义与喀琅施塔得危机下转向实物税（NEP）与党内派别禁令。
-
-| 学派/取向 | 代表学者与著作 | 核心论点摘要 | 支撑论断卡 | 主要受批评盲点 |
-| :--- | :--- | :--- | :--- | :--- |
-| **内战军事应急与双元矛盾论** | E. H. Carr, *The Bolshevik Revolution*, Vol. 2 (1952); Evan Mawdsley, *The Russian Civil War* (1987) | 强调工业瓦解、封锁与300万红军补给迫使政权诉诸垂直“总局主义”与强制征粮；但Carr同时指出1920年后期确曾滋生把战时自然经济奉为直接通往共产主义捷径的意识形态幻象。 | `CLM-carr-1952-war-communism-internal-contradictions`; `CLM-mawdsley-1987-civil-war-militarized-regime`; `CLM-mawdsley-1987-sovdepia-demographic-industrial-base` | 单靠军事紧急状态难以完全解释1920年底内战大局已定后为何仍出台小手工业全面国有化令。 |
-| **意识形态乌托邦与废法专政论** | Martin Malia, *The Soviet Tragedy* (1994); Richard Pipes, *The Russian Revolution* (1990) | 认为消灭私有产权与市场交换本就是马克思主义核心诉求，内战只是扫除了渐进障碍、催化乌托邦跃进；Pipes强调契卡与排斥反对派早于大规模内战爆发。 | `CLM-pipes-1990-red-terror-leninist-logic`; `CLM-pipes-1990-october-classic-coup` | 易将不同阶段的应急妥协（如1918春列宁国家资本主义方案）回溯拉平为单一既定时间表。 |
-| **战时国家统制连续与自下而上倒逼论** | Lars T. Lih; S. A. Smith, *Red Petrograd* (1983); David Hoffmann (2011) | 揭示沙皇与临时政府在一战中已启动粮食专卖与国家统制；Smith证明1917–1918春77%早期企业没收源自基层工厂委员会应对关厂危机的自下而上压力，而非中央乌托邦指令。 | `CLM-smith-sa-1983-defensive-workers-control`; `CLM-smith-sa-1983-from-workers-control-to-nationalization`; `CLM-hoffmann-2011-continuum-of-total-war-1914-1929` | 总体战技术连续性不能替代对布尔什维克消灭整个有产阶级政治权利之独特意识形态动力的解释。 |
-| **复合危机、党内张力与农村社会钳制论** | Alexander Rabinowitch (2007); Robert V. Daniels (1960); Moshe Lewin (1968/1985) | 追踪布列斯特和约、左翼社革党决裂及左翼共产主义者/工人反对派论战如何一步步锁死多党与党内多元空间，同时揭示小农汪洋的反抗最终迫使政权在1921年退却但保留了战时强制记忆。 | `CLM-rabinowitch-2007-contingency-of-dictatorship`; `CLM-daniels-1960-left-communists-1918`; `CLM-figes-1996-peasant-wars-and-nep-retreat`; `CLM-zemskov-1929-dekulakization-demographic-baseline` | 首都与萨拉托夫、坦波夫、乌拉尔等外省的时间差与暴力烈度须结合地方档案（Raleigh、Churakov）细化。 |
-
-### `DEB-1921-kronstadt-and-nep-origins`：喀琅施塔得起义与新经济政策的双轨转折
-## [T1] 核心问题定义
-喀琅施塔得是白卫阴谋、农民反抗，还是要求重建劳动者苏维埃民主的革命者起义？1921年实物税与禁止党内派别同期出现，如何解释经济退却和政治收紧的联系、彼此差异及长期后果？
-
-## [T2] 各学派立场对照矩阵
-| 学派/取向 | 代表学者与著作 | 核心论点摘要 | 支撑论断卡 | 主要受批评盲点 |
-| :--- | :--- | :--- | :--- | :--- |
-| 社会史与反阴谋论 | Paul Avrich, *Kronstadt, 1921* (1970) | 水兵构成有变化但老兵仍领导起义；诉求为去除单党垄断的多左翼劳动者苏维埃，证据不支持流亡白卫事先操纵，也未提出米留可夫伪造的“不要共产党人的苏维埃”口号。 | `CLM-avrich-1970-sailor-social-composition`; `CLM-avrich-1970-soviets-without-bolsheviks`; `CLM-avrich-1970-white-plot-refutation` | 起义者内部差异及后苏联解密海军档案仍需补充。 |
-| 党内组织史与国家—社会契约论 | Robert V. Daniels (1960); Lewis Siegelbaum (1992) | 十大《关于党的统一》（含秘密第7条）构成布尔什维克组织史决定性转折；1921年新政实质是“放开经济市民社会空间，同时彻底封闭党内外政治异议空间”。 | `CLM-daniels-1960-tenth-congress-turning-point`; `CLM-siegelbaum-1992-nep-fragile-social-compromise`; `CLM-carr-1952-nep-retreat-and-commanding-heights` | 党内规则与宏观契约仍需结合外省微距失控过程。 |
-| 农村反征粮战争与外省地方史 | Orlando Figes (1996); Donald J. Raleigh (2001) | 1920—1921年坦波夫、西西伯利亚农村战争与萨拉托夫“地方喀琅施塔得”工潮早于水兵起义撼动政权根基，迫使列宁在2月上旬先行酝酿粮食税退却。 | `CLM-figes-1996-peasant-wars-and-nep-retreat`; `CLM-raleigh-2001-center-periphery-weak-state-nep` | 农民起义口号不可无差别套用于喀琅施塔得水兵。 |
-| 苏维埃官方／布尔什维克当事人 | 1921年政府通告与十大材料 | 指称白卫反革命及冰融后外国干涉风险，主张铁血镇压与党内绝对统一；属当时政权危机认知与宣传，非已证实的事前阴谋事实。 | `CLM-avrich-1970-white-plot-refutation` | 混淆事后白卫侨民募款企图与水兵起义真实起源。 |
-
-## 4. 关联时间线锚点 (共 2 条)
-- **1917-04-04 [O.S.] / 1917-04-17 [N.S.]** (`TL-W32-1917-04-17-01`, L3): **列宁在塔夫利达宫两度宣读《四月提纲》，引发孟什维克与党内剧烈震动** — 1917-04-04 [O.S.] / 04-17 [N.S.]下午，列宁在塔夫利达宫先后于布尔什维克代表会及布尔什维克—孟什维克联席会上缓慢宣读《四月提纲》：明确第2条“从第一阶段向无产阶级和贫苦农民掌权的第二阶段过渡”、第3条“不给临时政府任何支持”，及第8条“不是把‘实施’社会主义作为直接任务，而只是立刻过渡到由工人代表苏维埃监督社会产品生产和分配”。博格达诺夫斥为“疯子胡言”，戈尔登贝格称其“竖起内战旗帜”，斯捷克洛夫亦驳斥，几仅柯伦泰一人公开声援；苏汉诺夫ch15末“April 14th”系4月4日印误。
-- **1917-11-15 [O.S.] / 1917-11-28 [N.S.]** (`TL-W36-1917-11-28-01`, L3): **工兵全俄中执委与农民苏维埃执委会合并；人民委员会恢复常态例会** — 农民苏维埃非常大会108名执委连同100名军人与50名工会代表并入全俄中执委，构成工兵农全俄最高代议联合体；人民委员会于同日恢复日常会议并再电交战国促停战，同期颁行《工人监督条例》。
+## 4. 关联时间线骨干锚点 (L0–L2 展示 0 条，另有 2 条 L3 逐日细节见 `timeline/L3_daily/`)

@@ -7,8 +7,8 @@ publication_year: 1952
 source_tier: A
 local_source_path: "sources/monographs/carr_bolshevik_rev_v2_zh/ch05_第四部分_经济秩序_part_3.md#L1021-L1084; sources/monographs/carr_bolshevik_rev_v2_zh/ch06_第四部分_经济秩序_part_4.md#L334-L399, #L970-L1043; sources/monographs/carr_bolshevik_rev_v2_zh/ch07_第四部分_经济秩序_part_5.md#L700-L737"
 original_pages: "Vol. 2 Chinese PDF pp. 70-120 (Chs. 17–18)"
-targets_cards: ["POL-war-communism", "POL-prodrazverstka", "EVT-1921-kronstadt", "CON-proletarian-declassing"]
-debate: DEB-war-communism-origins-and-nature
+targets_cards: ["POL-war-communism", "EVT-1921-kronstadt", "DEB-1918-working-class-and-bolsheviks"]
+debate: DEB-1918-war-communism-ideology-or-emergency
 supports: []
 rebuts: []
 qualifies: []

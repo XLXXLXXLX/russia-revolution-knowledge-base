@@ -8,7 +8,7 @@ source_tier: A
 local_source_path: "sources/monographs/haimson_1987_three_revolutionaries/ch06_introduction.md#L103-L237"
 original_pages: "pp. 14–17"
 targets_cards: ["ORG-mensheviks", "PER-martov-l", "PER-lenin"]
-debate: DEB-origins-of-bolshevism
+debate: DEB-1903-bolshevik-menshevik-split
 supports: []
 rebuts: []
 qualifies: ["CLM-haimson-1955-consciousness-spontaneity"]

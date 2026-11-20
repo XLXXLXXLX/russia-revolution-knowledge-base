@@ -1,7 +1,7 @@
 ---
 id: CLM-zinoviev-trotsky-1926-world-economy-critique
 type: claim
-scholar: PER-trotsky
+scholar: SCH-trotsky-leon
 work_title: "季诺维也夫《列宁主义》与托洛茨基《单独一国的社会主义？》等（2026 年汇编中的引文）"
 publication_year: 1926
 source_tier: S

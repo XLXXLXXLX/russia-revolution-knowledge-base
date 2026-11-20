@@ -7,8 +7,8 @@ publication_year: 1981
 source_tier: A
 local_source_path: "sources/monographs/leggett_1981_cheka/ch04_pages_121-150.md#L848-L1261"
 original_pages: "pp. 56-59, 102-115, 144-145 (PDF pp. 94-97, 140-153, 182-183)"
-targets_cards: ["POL-red-terror", "ORG-cheka", "PER-lenin", "PER-dzerzhinsky", "PER-latsis-m", "EVT-1918-left-sr-uprising"]
-debate: DEB-1918-red-terror-origins
+targets_cards: ["EVT-1918-09-red-terror-and-left-sr-rupture", "ORG-cheka-ogpu", "PER-lenin", "PER-dzerzhinsky"]
+debate: DEB-1918-red-terror-and-civil-war-origins
 supports: []
 rebuts: []
 qualifies: []

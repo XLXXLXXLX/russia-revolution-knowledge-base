@@ -1,18 +1,13 @@
-# 1-Hop 平衡上下文包：`CON-revolutionary-defensism-and-defeatism` (革命护国主义与革命失败主义)
+# 1-Hop 去重平衡上下文包：`CON-revolutionary-defensism-and-defeatism`
 
-> 本文件由 `python scripts/kb.py pack` 自动编译，旨在将失控的 `1+N` 随机读取压缩为**等权重、带时效边实质与史学盲区告警**的单次全景读取。
+> 由 `python scripts/kb.py pack` 动态编译：保留 **100% 一跳邻居与多时段关系边**，跨卡自动去重争鸣与时间线，并关联学者学派 (`SCH-*`)。
 
-## 0. 认知完备度与反偏斜仪表盘 (Epistemic & Skew Warnings)
-- **主卡路径**: `cards/concepts/CON-revolutionary-defensism-and-defeatism.md`
-- **完备度等级**: `multi-perspective`
-- **已覆盖视角**: `menshevik-revolutionary-defensist-galili-roobol, zimmerwald-internationalist-getzler-basil, leninist-defeatist-and-breathing-space, left-communist-revolutionary-war-daniels-cohen, soldier-social-history-figes-rabinowitch`
-- **待补齐视角**: `lenin-1914-11-war-and-russian-sd-original-pages, lenin-1915-07-defeat-of-ones-own-government-original, 1917-03-14-soviet-appeal-to-peoples-of-world-fulltext, wade-1969-russian-search-for-peace-monograph, 7th-party-congress-stenogram-original-pages`
-- **偏斜风险提示**:
-  - ⚠️ 主卡显式声明尚缺以下视角待补: `lenin-1914-11-war-and-russian-sd-original-pages, lenin-1915-07-defeat-of-ones-own-government-original, 1917-03-14-soviet-appeal-to-peoples-of-world-fulltext, wade-1969-russian-search-for-peace-monograph, 7th-party-congress-stenogram-original-pages`。
+## 0. 认知完备度与反偏斜仪表盘
+- **`CON-revolutionary-defensism-and-defeatism`** (革命护国主义与革命失败主义 | `cards/concepts/CON-revolutionary-defensism-and-defeatism.md` | `multi-perspective`): 已覆盖=`menshevik-revolutionary-defensist-galili-roobol, zimmerwald-internationalist-getzler-basil, leninist-defeatist-and-breathing-space, left-communist-revolutionary-war-daniels-cohen, soldier-social-history-figes-rabinowitch`；待补=`lenin-1914-11-war-and-russian-sd-original-pages, lenin-1915-07-defeat-of-ones-own-government-original, 1917-03-14-soviet-appeal-to-peoples-of-world-fulltext, wade-1969-russian-search-for-peace-monograph, 7th-party-congress-stenogram-original-pages`
 
 ## 1. 主卡核心层 ([T1] + [T2])
 ## [T1] 60秒定性微摘要
-1914–1918年俄国社会主义者围绕世界大战与革命关系的对抗性概念对。1914年裂为普列汉诺夫护国主义、马尔托夫齐美尔瓦尔德国际主义和平论与列宁“使本国政府战败/变外战为内战”；1917年春策烈铁里确立苏维埃主流“革命护国主义”，旋被四月照会与六月攻势掏空；1918年初布列斯特危机中再裂变为左派“革命战争”与列宁“喘息和约”。
+1914–1918年社会主义者的战争路线分歧：普列汉诺夫护国、马尔托夫主张国际主义和平，列宁倡本国政府战败与变外战为内战。1917年策烈铁里主导“革命护国主义”，遭四月照会与六月攻势削弱；1918年布列斯特危机又分出左派“革命战争”与列宁“喘息和约”。
 
 ## [T2] 核心脉络、时效关系边表与史学争鸣光谱
 
@@ -64,136 +59,51 @@
 - **[列宁主义战略弹性与情境互动派 / Alexander Rabinowitch, V. T. Loginov]**（Rabinowitch 1976/2007 `RN-W17`, `EVT-1918-03-brest-litovsk-treaty`; Loginov `RN-W12B` L114）：突出列宁面对群众情绪的极高策略弹性——1917年4月果断收起孤立的“失败主义”锋芒以争取“真诚护国派”士兵，1918年2月直面旧军队彻底瓦解、无兵可战的客观绝境而力挽狂澜；但也揭示了这一决断直接导致左翼社革党联盟破裂与一党专政加速成型。
 - **[保守—自由派“德国因素与权力算计”论 / Richard Pipes, Robert Service]**（`RN-W4B`; `RN-W12B`）：将列宁1914年的“失败主义”、1917年4月经德国“密封列车”返俄与1918年3月不惜割让三分之一人口工业区同德皇签约串成同一条权力工具主义逻辑——即民族领土与战争胜负自始至终皆可作为夺取并垄断党国专政的筹码（对此，社会史学者如 Figes `RN-W5` 与 Rabinowitch 反驳“德国代理人决定论”，指出士兵厌战与六月攻势崩溃纯属俄国本土社会危机）。
 
-## 2. 一跳邻域等权重微摘要 (共 12 个关联节点，严防大卡霸占上下文)
-### 邻居节点: `PER-plekhanov`
-- **时效关系边** (`CON-revolutionary-defensism-and-defeatism` → `PER-plekhanov` | `unconditional-defensist-pole` | 有效时段: `1914-08–1918-05 [N.S.]`): 主张击败德奥军国主义是俄国民主前提，领导《统一》派站到苏维埃国际主义对立面
-- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): “俄国马克思主义之父”。1879年拒恐怖另立土地平分社，1883年在日内瓦创劳动解放社奠定两阶段革命论；1901年首创社民“山岳派”隐喻，1903二大助列宁裁撤老编委又于11月倒向马尔托夫，1905后斥“不该拿起武器”；一战与1917办《统一报》极右护国并坚决反对十月夺权。
+## 2. 一跳邻域全量微摘要目录 (去重后共 12 个节点，0 截断)
+- **`PER-plekhanov`**（格奥尔基·普列汉诺夫）: “俄国马克思主义之父”。1879年拒恐怖另立土地平分社，1883年在日内瓦创劳动解放社奠定两阶段革命论；1901年首创社民“山岳派”隐喻，1903二大助列宁裁撤老编委又于11月倒向马尔托夫，1905后斥“不该拿起武器”；一战与1917办《统一报》极右护国并坚决反对十月夺权。 ‖ `←CON-revolutionary-defensism-and-defeatism`[unconditional-defensist-pole|1914-08–1918-05 [N.S.]]: 主张击败德奥军国主义是俄国民主前提，领导《统一》派站到苏维埃国际主义对立面
+- **`PER-martov-l`**（尤利·马尔托夫）: 孟什维克核心领袖与国际主义左翼旗手。1903年二大凭党章第一条（28:22:1）与列宁分道；1917年七月夜倡“清一色社会主义政府”遭党内主流否决，十月二大率派退场；1918年工人抗议浪潮中坚持苏维埃合法反对派立场，1920年哈雷大会与季诺维也夫正面交锋痛斥恐怖与二十一条，后流亡柏林病逝。 ‖ `←CON-revolutionary-defensism-and-defeatism`[zimmerwald-internationalist-pole|1914-09–1917-10 [N.S.]]: 首倡“既不胜利也不失败”与各国工人协同反战，既反护国主义又拒列宁失败主义与分裂路线
+- **`PER-lenin`**（弗拉基米尔·列宁）: 布尔什维克党缔造者、苏俄人民委员会主席（1917–1924）。1893年投身马克思主义运动，1903年促成布尔什维克分化；1917年发表《四月提纲》并领导十月夺权，历经布列斯特和约、内战与战时共产主义；1921年主持转向新经济政策，晚年（1922–1923）就官僚化与接班人同斯大林冲突。 ‖ `←CON-revolutionary-defensism-and-defeatism`[defeatist-theorist -> breathing-space-realist|1914-09–1918-03 [N.S.]]: 1914倡本国政府战败与变外战为内战，1917春柔化措辞攻破革命护国派，1918力推割地…
+- **`PER-tsereteli`**（伊拉克利·策烈铁里）: 格鲁吉亚孟什维克领袖，1917年彼得格勒苏维埃“革命护国主义”总设计师。3月自西伯利亚流放归来后主导苏维埃执委会“星室”，力推联立政府与六月攻势以维系同自由派的同盟；因经济瘫痪与镇压布尔什维克而流失工人支持，十月革命后返格鲁吉亚并在流亡中著述。 ‖ `←CON-revolutionary-defensism-and-defeatism`[architect-of-revolutionary-defensism|1917-04-02–1917-09 [N.S.]]: 确立苏维埃“民主普遍和平+和平前积极卫国”主流路线，因捆绑联合政府与六月攻势而破产
+- **`PER-milyukov`**（帕维尔·米留可夫）: 俄国历史学家、卡德特党核心领袖（1859–1943）。主持解放同盟确立四尾制宪与有偿征地纲领；一战任进步同盟舵手，1916年发表“愚蠢还是叛国”演说；1917年任首届临时政府外长，03-03/03-16架空杜马，因04-18[O.S.]/05-01[N.S.]照会下野，流亡提“新策略”。 ‖ `←CON-revolutionary-defensism-and-defeatism`[annexationist-nemesis|1917-03-15–1917-05-15 [N.S.]]: 坚持君士坦丁堡海峡等秘密条约目标，4月18日[O.S.]照会直接引爆革命护国主义首场信任危机
+- **`PER-kerensky`**（亚历山大·克伦斯基）: 杜马劳动派律师、1917年临时政府司法部长、陆海军部长与总理（07-08[O.S.]/07-21[N.S.]起）。二月率先筹建杜马军事委员会，兼任苏维埃副主席入阁；六月攻势受阻、调防与退阁触发七月危机（07-06/19转全面溃败），八月与科尔尼洛夫决裂，十月离冬宫反扑失败流亡。 ‖ `←CON-revolutionary-defensism-and-defeatism`[military-gambler|1917-05-18–1917-07-18 [N.S.]]: 发动6月18日[O.S.]攻势企图以军事胜利换外交筹码，溃败后彻底摧毁温和苏维埃军中威信
+- **`ORG-left-communists-1918`**（1918年左翼共产主义者）: 1918年初俄共（布）内以布哈林、奥新斯基、拉狄克、普列奥布拉任斯基为首的极左集团，借《共产党人》（`Коммунист`）杂志反对《布列斯特和约》与列宁“国家资本主义”一长制；俄共七大批准和约后作为有组织派别逐步消解，但其国际主义与反官僚化诉求深刻塑造此后党内反对派谱系。 ‖ `←CON-revolutionary-defensism-and-defeatism`[revolutionary-war-dissident|1918-01–1918-03]: 以国际革命优先原则反对布列斯特屈膝媾和，主张对德帝国主义展开革命游击战
+- **`PER-bukharin`**（尼古拉·布哈林）: 布尔什维克核心理论家、《真理报》主编及共产国际书记处负责人。列宁遗嘱誉其“全党宠儿”但质疑其辩证法；1918年领衔左翼共产主义，1921年后转向新经济政策均衡路线，1925–1927联斯大林击溃左派，1928–1929因反对暴力征粮与超工业化遭击败并逐出政治局。 ‖ `←CON-revolutionary-defensism-and-defeatism`[leader-of-revolutionary-war-faction|1918-01–1918-03]: 1月党内扩大讨论曾以32:15压倒列宁，在2月23日中央表决中投下4张反对票之一
+- **`PER-trotsky`**（列夫·托洛茨基）: 俄国革命家、“不断革命论”提出者，1905年彼得堡苏维埃实际领袖与1917年彼得格勒苏维埃主席；借军革委与苏维埃二大衔接统筹十月夺权，内战期起用4.8万军事专家缔造红军。1923–1927年领衔左翼与联合反对派抗衡斯大林集权并受“红色波拿巴”污名围剿，1927年被开除出党，1929年被驱逐出境。 ‖ `←CON-revolutionary-defensism-and-defeatism`[neither-war-nor-peace-broker|1918-01–1918-02-23]: 试图以单方面停战拒签规避革命战争与屈辱签约两难，德军突进后于2月23日弃权放行列宁方案
+- **`ORG-left-srs`**（左翼社会革命党）: 1917年底从社会革命党分裂出的激进民粹派政党（1917–1923），以斯皮里多诺娃、普罗相等为首。拥护苏维埃政权并于1917年12月加入人民委员会与布尔什维克联合执政；1918年3月因反《布列斯特和约》退阁但仍维持北方公社合作，7月6日刺杀德国大使米尔巴赫遭全面清洗而覆灭。 ‖ `←CON-revolutionary-defensism-and-defeatism`[coalition-partner-ruptured-over-peace|1917-12–1918-07]: 拥护十月《和平法令》却痛斥布列斯特割地投降，3月退阁抗议并于7月刺杀德使
+- **`POL-brest-litovsk-treaty`**（布列斯特-立陶夫斯克和约）: 布列斯特和约路线是在军事崩溃与世界革命期待之间作出的单独媾和选择。列宁主张割地换取喘息，布哈林主张革命战争，托洛茨基“不战不和”随德军进逼破产。1918年3月签约虽保住苏维埃政权，却造成重大领土与工业损失，引发党内激烈分裂并推动左派社革党退出联合政府。 ‖ `←CON-revolutionary-defensism-and-defeatism`[realpolitik-outcome|1918-03-03–1918-11-13]: 以丧失大片西部边疆换取苏维埃政权存续，标志国家生存逻辑压倒早期革命战争口号
+- **`EVT-1914-1916-wwi-mobilization-shell-crisis-and-progressive-bloc`**（1914–1916年一战总动员、弹药危机与杜马进步同盟危机）: 1914年7月德国宣战至1916年末帝俄总体战危机演化。1915年大撤退与弹药短缺催生战时工业委员会及杜马进步同盟；沙皇亲征并放任内阁“部长走马灯”，军工扩招、里季希粮食摊派受挫与恶性通胀加剧精英离心和城市工潮，将政权推向1917年二月危机门槛。 ‖ `→CON-revolutionary-defensism-and-defeatism`[ideological_cleavage|1914–1916]: 战争把俄国社会主义者撕裂为护国派、齐美尔瓦尔德国际派与列宁革命失败主义三大阵营
 
-### 邻居节点: `PER-martov-l`
-- **时效关系边** (`CON-revolutionary-defensism-and-defeatism` → `PER-martov-l` | `zimmerwald-internationalist-pole` | 有效时段: `1914-09–1917-10 [N.S.]`): 首倡“既不胜利也不失败”与各国工人协同反战，既反护国主义又拒列宁失败主义与分裂路线
-- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 孟什维克核心领袖与国际主义左翼旗手。1903年二大凭党章第一条（28:22:1）与列宁分道；1917年七月夜倡“清一色社会主义政府”遭党内主流否决，十月二大率派退场；1918年工人抗议浪潮中坚持苏维埃合法反对派立场，1920年哈雷大会与季诺维也夫正面交锋痛斥恐怖与二十一条，后流亡柏林病逝。
+## 3. 关联史学争鸣与学者论断索引 (主卡外关联争鸣 5 项)
+- **`DEB-1903-bolshevik-menshevik-split`**（《怎么办？》与1903年布尔什维克—孟什维克分裂实质之争 | `historiography/debates/DEB-1903-bolshevik-menshevik-split.md` | 流派 `participant, cold-war-jacobin-continuity, intellectual-history, erfurt-reinterpretation, menshevik, borderland-social-democracy, labor-history`）：《怎么办？》的自发性与意识理论究竟体现精英代替工人，还是欧洲社会民主主义所共有的结合公式？1903年党章、领导机构选举和代表退会如何共同造成分裂，又能否把后来的一党统治直接追溯到当时？必须区分文本论战、组织选择和事后政治后果。
+- **`DEB-1917-dual-power-and-february-origins`**（二月革命起源与“双重政权”宪制形成之争（1917） | `historiography/debates/DEB-1917-dual-power-and-february-origins.md` | 流派 `social-history, liberal-constitutional, participant, trotskyist, menshevik-coalition, elite-conspiracy-critique`）：二月革命是无领导的群众爆发，还是工厂与兵营中分散的积极分子推动的起义？沙皇退位后，杜马临时委员会、苏维埃与临时政府如何谈判并形成彼此制约的权力格局？群众压力、精英选择和战时危机的因果权重仍有争议，不能以宫廷阴谋代替街头革命。
+- **`DEB-1917-july-days-spontaneity-vs-conspiracy`**（1917年七月事变：未遂政变、草根自发，还是联合政府调停失灵的反噬 | `historiography/debates/DEB-1917-july-days-spontaneity-vs-conspiracy.md` | 流派 `liberal-putsch, party-organizational-social-history, coalition-politics, armed-workers, leadership-history`）：彼得格勒七月武装示威是列宁策划的未遂夺权，还是士兵、水兵和工人推动、党内多中心被迫回应的运动？联合政府与苏维埃多数派的选择又如何改变冲突？出发令、群众动机和德国经费指控属于不同证据问题，不能凭其中一项推定其他结论，也不能倒推十月。
+- **`DEB-1917-october-coup-or-social-revolution`**（十月革命：少数派政变还是社会革命？ | `historiography/debates/DEB-1917-october-coup-or-social-revolution.md` | 流派 `liberal-coup, party-social-history, russian-revisionist-timing, labor-local-history, moderate-socialist-and-constitutional-legitimacy, participant-marxist, peasant-social-history, borderland-and-memory-historiography`）：十月武装夺权是少数派政变，还是工人、士兵与农民社会革命的政治表达？有组织的起义与广泛的基层动员能否同时成立，苏维埃多数又能否代表全国选民？这些问题涉及不同地区、不同时间的支持与合法性，不能以一次投票或一次攻占行动互相替代。
+- **`DEB-1918-war-communism-ideology-or-emergency`**（战时共产主义与早期一党制本质之争：内战应急、乌托邦跃进还是国家统制连续？ | `historiography/debates/DEB-1918-war-communism-ideology-or-emergency.md` | 流派 `emergency-carr-mawdsley, utopian-tragedy-malia-pipes, state-continuity-lih-smith, mixed-causation-rabinowitch-lewin`）：1918至1921年的全面国有化、余粮收集制、取缔私商、劳动军事化，以及多党苏维埃收为一党专政，究竟是内战与供给崩溃逼出的生存应急，还是反市场乌托邦的激进兑现，抑或一战以来国家统制与基层危机交互的结果？“战时共产主义”是1921年转向时的事后标签，须分清措施序列与事后总结。
 
-### 邻居节点: `PER-lenin`
-- **时效关系边** (`CON-revolutionary-defensism-and-defeatism` → `PER-lenin` | `defeatist-theorist -> breathing-space-realist` | 有效时段: `1914-09–1918-03 [N.S.]`): 1914倡本国政府战败与变外战为内战，1917春柔化措辞攻破革命护国派，1918力推割地喘息和约
-- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 布尔什维克党缔造者、苏俄人民委员会主席（1917–1924）。1893年投身马克思主义运动，1903年促成布尔什维克分化；1917年发表《四月提纲》并领导十月夺权，历经布列斯特和约、内战与战时共产主义；1921年主持转向新经济政策，晚年（1922–1923）就官僚化与接班人同斯大林冲突。
+### 3.1 关联核心论断与史学家学派坐标 (`CLM-*` → `SCH-*`, 展示前 24/62 条)
+- **`CLM-galili-1989-revolutionary-defensism`** [`SCH-galili-ziva`(齐娃·加利利) | pp. 134-140, 148-151 (PDF pp. 152-158, 174-177)]: 
+- **`CLM-rabinowitch-2007-left-sr-coalition-collapse`** [`SCH-rabinowitch-alexander`(亚历山大·拉比诺维奇) | pp. 274-282, 287-309, 395-396]: 
+- **`CLM-daniels-1960-left-communists-1918`** [`SCH-daniels-robert`(罗伯特·V·丹尼尔斯) | pp. 70-81]: Daniels：1918年左翼捍卫革命纲领，却在分裂关头受党统一约束
+- **`CLM-jacobin-ancestry-tkachev-blanqui-and-leninism`** [`SCH-chamberlin-william-henry`(威廉·亨利·钱伯林) | pp. 251–257 (PDF pp. 2–8)]: 
+- **`CLM-pipes-1990-patrimonial-state-and-intelligentsia`** [`SCH-pipes-richard`(理查德·派普斯) | ch. 2 (Official Russia); ch. 4 (The Intelligentsia); cf. Introduction]: 
+- **`CLM-haimson-1955-lenin-what-is-to-be-done`** [`SCH-haimson-leopold`(利奥波德·海姆森) | pp. 132-141]: 
+- **`CLM-haimson-1955-consciousness-spontaneity`** [`SCH-haimson-leopold`(利奥波德·海姆森) | pp. vi-viii, 7-11]: 
+- **`CLM-haimson-1955-1903-second-congress-split`** [`SCH-haimson-leopold`(利奥波德·海姆森) | pp. 175-191]: 
+- **`CLM-haimson-1987-menshevik-party-ethos-and-family`** [`SCH-haimson-leopold`(利奥波德·海姆森) | pp. 14–17]: 
+- **`CLM-lih-2006-erfurtian-merger-formula`** [`SCH-lih-lars`(拉斯·T·利) | pp. 6-9, 41-49, 74-106, 113-121, 556-557]: 
+- **`CLM-lih-2006-kautsky-and-spontaneity`** [`SCH-lih-lars`(拉斯·T·利) | pp. 35-37, 555, 613-667]: 
+- **`CLM-lih-2006-textbook-myth-critique`** [`SCH-lih-lars`(拉斯·T·利) | pp. 5, 13-33, 555]: 
+- **`CLM-getzler-1967-martov-1903-clause-one`** [`SCH-getzler-israel`(伊斯雷尔·格茨勒) | pp. 78-79]: 
+- **`CLM-blanc-2021-revolutionary-kautskyanism-in-empire`** [`SCH-blanc-eric`(埃里克·布兰克) | pp. 25–28, 569–578]: 
+- **`CLM-blanc-2021-beyond-russocentric-bolshevism`** [`SCH-blanc-eric`(埃里克·布兰克) | pp. 15–16, 23–26]: 
+- **`CLM-zelnik-1999-worker-intelligentsia-tutelage-tension`** [`SCH-smith-sa`(斯蒂芬·A·史密斯（S. A. Smith）) | pp. 6-7, 13-15, 18-27, 51-52]: 
+- **`CLM-zelnik-1999-kanatchikov-conscious-worker-formation`** [`SCH-smith-sa`(斯蒂芬·A·史密斯（S. A. Smith）) | pp. 9-12, 26-27]: 
+- **`CLM-mayer-1999-lenin-jacobin-metaphor-vs-blanquism`** [`SCH-mayer-robert`(罗伯特·迈耶) | pp. 127-129, 140-146]: 
+- **`CLM-hasegawa-2018-sub-elite-activists`** [`SCH-hasegawa-tsuyoshi`(长谷川毅) | pp. 643–645 (PDF pp. 664–666); cf. pp. 203–204, 218 (PDF pp. 224–225, 239)]: 
+- **`CLM-hasegawa-2018-duma-committee-revision`** [`SCH-hasegawa-tsuyoshi`(长谷川毅) | pp. xiii–xiv (PDF pp. 14–15); pp. 366–368, 377–378 (PDF pp. 387–389, 398–399); p. 652 (PDF p. 673)]: 
+- **`CLM-hasegawa-2018-dual-power-origins`** [`SCH-hasegawa-tsuyoshi`(长谷川毅) | pp. 626–638 (PDF pp. 647–659); cf. pp. 649, 660 (PDF pp. 670, 681)]: 
+- **`CLM-gaida-2003-liberals-in-february-1917`** [`SCH-gaida-fedor`(费奥多尔·盖达) | pp. 355-356, 433-439]: 
+- **`CLM-sukhanov-1922-dual-power-pact`** [`SCH-sukhanov-nikolai`(尼古拉·苏汉诺夫) | pp. 117–126, 150, 153–158 (PDF pp. 163–172, 196, 199–204); cf. pp. 68, 104–108, 113–114]: 
+- **`CLM-trotsky-1930-dual-power-instability`** [`SCH-trotsky-leon`(列夫·达维多维奇·托洛茨基 · participant-historian) | （中译 EPUB 无纸页；第一卷第十一、十六章）]: 
 
-### 邻居节点: `PER-tsereteli`
-- **时效关系边** (`CON-revolutionary-defensism-and-defeatism` → `PER-tsereteli` | `architect-of-revolutionary-defensism` | 有效时段: `1917-04-02–1917-09 [N.S.]`): 确立苏维埃“民主普遍和平+和平前积极卫国”主流路线，因捆绑联合政府与六月攻势而破产
-- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 格鲁吉亚孟什维克领袖，1917年彼得格勒苏维埃“革命护国主义”总设计师。3月自西伯利亚流放归来后主导苏维埃执委会“星室”，力推联立政府与六月攻势以维系同自由派的同盟；因经济瘫痪与镇压布尔什维克而流失工人支持，十月革命后返格鲁吉亚并在流亡中著述。
-
-### 邻居节点: `PER-milyukov`
-- **时效关系边** (`CON-revolutionary-defensism-and-defeatism` → `PER-milyukov` | `annexationist-nemesis` | 有效时段: `1917-03-15–1917-05-15 [N.S.]`): 坚持君士坦丁堡海峡等秘密条约目标，4月18日[O.S.]照会直接引爆革命护国主义首场信任危机
-- **节点定性微摘要 [T1]** (完备度 `draft`): 俄国历史学家、立宪民主党（卡德特党）核心领袖。曾主持“解放同盟”并提出四尾制宪与有偿征地纲领；1915年组建战时“进步同盟”；1917年二月后任首届临时政府外交部长，在3月3日（俄历）/3月16日（公历）会议上架空国家杜马、宣称“全部完满权力”，5月因坚持参战照会下野。
-
-### 邻居节点: `PER-kerensky`
-- **时效关系边** (`CON-revolutionary-defensism-and-defeatism` → `PER-kerensky` | `military-gambler` | 有效时段: `1917-05-18–1917-07-18 [N.S.]`): 发动6月18日[O.S.]攻势企图以军事胜利换外交筹码，溃败后彻底摧毁温和苏维埃军中威信
-- **节点定性微摘要 [T1]** (完备度 `draft`): 俄国杜马劳动派律师、1917年临时政府司法部长（3月起）、陆海军部长（5月起）与总理（俄历7月8日起至十月）。二月革命中率先筹建杜马军事委员会；6月发动加里西亚攻势失败，7月事变后接掌总理，8月底与科尔尼洛夫决裂；十月起义当日上午离京求援失败后长期流亡欧美。
-
-### 邻居节点: `ORG-left-communists-1918`
-- **时效关系边** (`CON-revolutionary-defensism-and-defeatism` → `ORG-left-communists-1918` | `revolutionary-war-dissident` | 有效时段: `1918-01–1918-03`): 以国际革命优先原则反对布列斯特屈膝媾和，主张对德帝国主义展开革命游击战
-- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 1918年初俄共（布）内以布哈林、奥新斯基、拉狄克、普列奥布拉任斯基为首的极左集团，借《共产党人》（`Коммунист`）杂志反对《布列斯特和约》与列宁“国家资本主义”一长制；俄共七大批准和约后作为有组织派别逐步消解，但其国际主义与反官僚化诉求深刻塑造此后党内反对派谱系。
-
-### 邻居节点: `PER-bukharin`
-- **时效关系边** (`CON-revolutionary-defensism-and-defeatism` → `PER-bukharin` | `leader-of-revolutionary-war-faction` | 有效时段: `1918-01–1918-03`): 1月党内扩大讨论曾以32:15压倒列宁，在2月23日中央表决中投下4张反对票之一
-- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 布尔什维克核心理论家、《真理报》主编及共产国际书记处负责人。列宁遗嘱誉其“全党宠儿”但质疑其辩证法；1918年领衔左翼共产主义，1921年后转向新经济政策均衡路线，1925–1927联斯大林击溃左派，1928–1929因反对暴力征粮与超工业化遭击败并逐出政治局。
-
-### 邻居节点: `PER-trotsky`
-- **时效关系边** (`CON-revolutionary-defensism-and-defeatism` → `PER-trotsky` | `neither-war-nor-peace-broker` | 有效时段: `1918-01–1918-02-23`): 试图以单方面停战拒签规避革命战争与屈辱签约两难，德军突进后于2月23日弃权放行列宁方案
-- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 俄国革命家、“不断革命论”提出者，1905年彼得堡苏维埃实际领袖与1917年彼得格勒苏维埃主席；借军革委与苏维埃二大衔接统筹十月夺权，内战期起用4.8万军事专家缔造红军。1923–1927年领衔左翼与联合反对派抗衡斯大林集权并受“红色波拿巴”污名围剿，1927年被开除出党，1929年被驱逐出境。
-
-### 邻居节点: `ORG-left-srs`
-- **时效关系边** (`CON-revolutionary-defensism-and-defeatism` → `ORG-left-srs` | `coalition-partner-ruptured-over-peace` | 有效时段: `1917-12–1918-07`): 拥护十月《和平法令》却痛斥布列斯特割地投降，3月退阁抗议并于7月刺杀德使
-- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 1917年底从社会革命党分裂出的激进民粹派政党（1917–1923），以斯皮里多诺娃、普罗相等为首。拥护苏维埃政权并于1917年12月加入人民委员会与布尔什维克联合执政；1918年3月因反《布列斯特和约》退阁但仍维持北方公社合作，7月6日刺杀德国大使米尔巴赫遭全面清洗而覆灭。
-
-### 邻居节点: `POL-brest-litovsk-treaty`
-- **时效关系边** (`CON-revolutionary-defensism-and-defeatism` → `POL-brest-litovsk-treaty` | `realpolitik-outcome` | 有效时段: `1918-03-03–1918-11-13`): 以丧失大片西部边疆换取苏维埃政权存续，标志国家生存逻辑压倒早期革命战争口号
-- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 布列斯特和约路线是在军事崩溃与世界革命期待之间作出的单独媾和选择。列宁主张割地换取喘息，布哈林主张革命战争，托洛茨基“不战不和”随德军进逼破产。1918年3月签约虽保住苏维埃政权，却造成重大领土与工业损失，引发党内激烈分裂并推动左派社革党退出联合政府。
-
-### 邻居节点: `EVT-1914-1916-wwi-mobilization-shell-crisis-and-progressive-bloc`
-- **时效关系边** (`EVT-1914-1916-wwi-mobilization-shell-crisis-and-progressive-bloc` → `CON-revolutionary-defensism-and-defeatism` | `ideological_cleavage` | 有效时段: `1914–1916`): 战争把俄国社会主义者撕裂为护国派、齐美尔瓦尔德国际派与列宁革命失败主义三大阵营
-- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 1914年7月德国宣战至1916年末帝俄总体战危机演化。1915年大撤退与弹药短缺催生战时工业委员会及杜马进步同盟；沙皇亲征并放任内阁“部长走马灯”，军工扩招、里季希粮食摊派受挫与恶性通胀加剧精英离心和城市工潮，将政权推向1917年二月危机门槛。
-
-## 3. 关联史学争鸣光谱 (Historiographical Debates)
-### `DEB-1903-bolshevik-menshevik-split`：《怎么办？》与1903年布尔什维克—孟什维克分裂实质之争
-## [T1] 核心问题定义
-《怎么办？》的自发性与意识理论究竟体现精英代替工人，还是欧洲社会民主主义所共有的结合公式？1903年党章、领导机构选举和代表退会如何共同造成分裂，又能否把后来的一党统治直接追溯到当时？必须区分文本论战、组织选择和事后政治后果。
-
-## [T2] 各学派立场对照矩阵
-**经验基准**：二大在布鲁塞尔与伦敦举行（会场公历1903-07-30至08-23 [N.S.]，对应俄历07-17至08-10 [O.S.]）；`era`覆盖1902《怎么办？》至1904年论战。第23次会议（08-02 [N.S.] / 07-20 [O.S.]）党章第一条51票唱名表决中，列宁“参加党的一个组织”案以23:28被否、马尔托夫“在组织领导下经常亲自协助”案以28:22（1弃权）通过、整条以35:1（12弃权）通过；随后经济派（阿基莫夫、马尔丁诺夫，2票）与崩得（《记录》口径5人5票，Haimson口径5人4票）退场改变票基，在第31次会议《火星报》三人编委（普列汉诺夫、列宁、马尔托夫）选举中列宁派以25:2（20弃权，Haimson口径22:20:2）获胜而得名“多数派”。更硬的事后反证是：1906年斯德哥尔摩四大在孟什维克62:46占多数的条件下，党章第一条直接改回列宁1903年“参加党的一个组织”公式，证明1903年字句之争并非永久不可逾越的意识形态鸿沟。
-
-| 学派/取向 | 代表学者与著作 | 核心论点摘要 | 支撑论断卡 | 主要受批评盲点 |
-| :--- | :--- | :--- | :--- | :--- |
-| 冷战自由派与雅各宾—特卡乔夫连续论（及1904当事人先声） | William Henry Chamberlin (1958, 援引 Karpovich 与 Talmon)；Richard Pipes, *The Russian Revolution* (1990)；[当事人 B 级论战] Leon Trotsky, *Our Political Tasks* (1904) | 将《怎么办？》与1903年建党方案置于法国雅各宾派—布朗基—特卡乔夫“少数密谋家夺权”及俄国激进知识分子职业革命家传统中，视之为一党专政的制度基因；托洛茨基1904年已从党内提出“党组织替代党、中央替代组织、独裁者替代中央”的“替代主义”警告。 | `CLM-jacobin-ancestry-tkachev-blanqui-and-leninism`；`CLM-pipes-1990-patrimonial-state-and-intelligentsia` | 以1917/1930年代结局倒推1902–1903年文本，忽视考茨基主流正统语境及1906年孟什维克自己采纳列宁党章第一条的事实。 |
-| 思想史与组织张力 | Leopold H. Haimson, *The Russian Marxists and the Origins of Bolshevism* (1955)；Haimson (1987) | 俄国马克思主义知识分子内部长期存在“自觉性（意识）”与“自发性”的心理及认识论张力，在《怎么办？》、二大组织冲突及孟什维克“党内大家庭”伦理 vs 布尔什维克集中制中集中爆发。 | `CLM-haimson-1955-lenin-what-is-to-be-done`；`CLM-haimson-1955-consciousness-spontaneity`；`CLM-haimson-1955-1903-second-congress-split`；`CLM-haimson-1987-menshevik-party-ethos-and-family` | 知识分子群体心理连续性不能替代对二大逐场议程、崩得退席与编委改选偶然票序的制度分析。 |
-| 爱尔福特语境重释 | Lars T. Lih, *Lenin Rediscovered: What Is to Be Done? in Context* (2006) | 《怎么办？》核心是考茨基《爱尔福特纲领》“社会主义与工人运动相结合”的欧洲社民主流公式，旨在以德国SPD模式激发地下工作者信心，绝非轻蔑工人的“担忧工联主义”密谋手册。 | `CLM-lih-2006-erfurtian-merger-formula`；`CLM-lih-2006-kautsky-and-spontaneity`；`CLM-lih-2006-textbook-myth-critique` | 强调1902年文本的爱尔福特共识，容易淡化1903年二大后在中央集权、编委人事与派别组织操作上的真实决裂。 |
-| 孟什维克政治传记 | Israel Getzler, *Martov: A Political Biography of a Russian Social Democrat* (1967) | 从马尔托夫对党员资格弹性、老编委集体荣誉及党内自治的维护解释1903年决裂，指出马尔托夫拒任三人编委使组织微差升级为派别分野。 | `CLM-getzler-1967-martov-1903-clause-one` | 马尔托夫个人品格与后期民主社会主义立场不能简单投射为1903年全体“软派”火星派代表的既定纲领。 |
-| 帝国边疆社会民主主义 | Eric Blanc, *Revolutionary Social Democracy* (2021) | 以帝国边疆非俄罗斯民族社会民主党（崩得、拉脱维亚、波兰、芬兰等）的群众性合法/半合法组织实践与共同的“革命考茨基主义”，打破仅以俄国中心流亡小报编委为轴的建党叙事。 | `CLM-blanc-2021-revolutionary-kautskyanism-in-empire`；`CLM-blanc-2021-beyond-russocentric-bolshevism` | 边疆宏观组织比较不能取代二大第23次与第31次会议具体党章文本、联邦制否决及唱名票序的微观因果。 |
-| 工人能动性与政治修辞辨析 | S. A. Smith (1996/1999，收入 Reginald E. Zelnik 编论文集)；Robert Mayer (1999) | Smith（及Zelnik译注卡纳奇科夫自传）揭示1895–1917年彼得堡“觉悟工人”追求去监护化自治、排斥知识分子两派内斗；Robert Mayer考证列宁1903–1904年的“雅各宾”自称直接承袭普列汉诺夫1901年的法国大革命修辞以打击机会主义，而非效法特卡乔夫或布朗基密谋。 | `CLM-zelnik-1999-worker-intelligentsia-tutelage-tension`；`CLM-zelnik-1999-kanatchikov-conscious-worker-formation`；`CLM-mayer-1999-lenin-jacobin-metaphor-vs-blanquism` | 概念史修辞澄清与基层工人心态史分属不同分析层面，需与中央党组织制度变迁互证。 |
-
-### `DEB-1917-dual-power-and-february-origins`：二月革命起源与“双重政权”宪制形成之争（1917）
-## [T1] 核心问题定义
-二月革命是无领导的群众爆发，还是工厂与兵营中分散的积极分子推动的起义？沙皇退位后，杜马临时委员会、苏维埃与临时政府如何谈判并形成彼此制约的权力格局？群众压力、精英选择和战时危机的因果权重仍有争议，不能以宫廷阴谋代替街头革命。
-
-## [T2] 各学派立场对照矩阵
-**经验基准**：1917-02-23 [O.S.] / 1917-03-08 [N.S.] 国际妇女节罢工扩大；27日 [O.S.] / 3月12日 [N.S.] 首都预备营哗变，国家杜马临时委员会与彼得格勒工兵代表苏维埃在塔夫利达宫东西两翼同日成立；3月1日 [O.S.] / 3月14日 [N.S.] 苏维埃发布《第一号命令》；3月2日 [O.S.] / 3月15日 [N.S.] 尼古拉二世在普斯科夫退位并传位米哈伊尔大公；3月3日 [O.S.] / 3月16日 [N.S.] 米哈伊尔大公签署《拒绝即位宣言》（将最高政权形制交由普选立宪会议决定并呼吁服从临时政府），同日临时政府举行首次内阁会议。各机构的正式法统主张与实际暴力和行政控制力并不重合。
-
-| 学派/取向 | 代表学者与著作 | 核心论点摘要 | 支撑论断卡 | 主要受批评盲点 |
-| :--- | :--- | :--- | :--- | :--- |
-| 社会史、次精英网络与2018年宪制自我修正 | Tsuyoshi Hasegawa, *The February Revolution: Petrograd, 1917* (1981; rev. ed. 2018) | 街头起义既非纯粹盲目自发也非布尔什维克中央指挥，而是跨党派工厂与兵营“中下层积极分子（sub-elite activists）”在各党上层犹豫时串联引爆；2018年新版更推翻自己1981年“杜马自由派系不情愿革命者”旧论，证明杜马临时委员会先于苏维埃建立军事委员会、于2月27日晚11:30主动夺权，且“双重政权”并非苏维埃自愿让权（苏维埃并无国家行政机器可让），而是米留可夫在3月3日首次内阁会议上蓄意废黜国家杜马、自断民选法统后，反使强势临时政府沦为需仰赖虚弱苏维埃合法性的无根政权。 | `CLM-hasegawa-2018-sub-elite-activists`；`CLM-hasegawa-2018-duma-committee-revision`；`CLM-hasegawa-2018-dual-power-origins` | 高度聚焦首都彼得格勒五日决战，对外省政权接收与农村公社反应需结合地方档案补充。 |
-| 自由派困境与“叹着气的革命者” | Fedor Gaida, *Liberal Opposition in Russia, 1914–1917* (2003) | 与Hasegawa 2018年版针锋相对：论证杜马自由派缺乏基层组织，在二月并非胸有成竹的主动夺权者，而是因畏惧沙皇军法审判与街头暴民清洗才仓促接权的“叹着气的革命者／革命的俘虏”；二月获胜的不是作为立宪机构的第四届杜马，而是作为群众集会物理场所的塔夫利达宫，这一事实同样从档案层面直接证伪了“自由派预先策划二月革命”的阴谋论。 | `CLM-gaida-2003-liberals-in-february-1917` | 偏重杜马自由派上层书信与内阁心态，不能单独解释2月27日驻军哗变的兵营微观动因。 |
-| 当事人夜间妥协见证（B级文献） | N. N. Sukhanov, *The Russian Revolution, 1917* (1922) | 以苏维埃执委会亲历者视角记录3月1–2日夜与米留可夫、古契科夫的谈判：苏维埃多数派因惧怕“资产阶级退缩导致军事反革命镇压”，以“不入阁、有条件支持、保留士兵控制权”达成双重政权契约。 | `CLM-sukhanov-1922-dual-power-pact` | 属B级当事人回忆录，兼具在场见证与孟什维克国际派事后自我辩护，须与双方会议速记互证。 |
-| 革命马克思主义阶级主权论（B级文献） | Leon Trotsky, *History of the Russian Revolution* (1930–32) | 将双重政权界定为一切伟大革命中“两个不可调和统治阶级（资产阶级与无产阶级/兵农）分掌正式政权与实际武装”的过渡性主权分裂，断言其内在结构不稳定性必然通向十月二次革命或反革命专政。 | `CLM-trotsky-1930-dual-power-instability` | 属B级十月领导人事后理论化，将二月的多党协商张力嵌入通向十月布尔什维克夺权的目的论轨道。 |
-| 孟什维克“革命护国主义”与联合政府陷阱 | Ziva Galili, *The Menshevik Leaders in the Russian Revolution* (1989) | 第二章从粮食与铁路技术依赖、对失控“士兵革命”的疑虑及工人反专政心理正面解释3月初双重政权的诞生；随后以“革命护国主义”和5月入阁解释苏维埃社会权威与联合政府行政责任之间的致命撕裂。 | `CLM-galili-1989-revolutionary-defensism`；`CLM-galili-1989-coalition-government-trap` | 5月以后的联合政府危机属双重政权中后期演变，应与2月底3月初的政权创生机制分段考察。 |
-| 精英宫廷阴谋论及其社会史反证 | 叶夫根尼·斯皮岑（E. Yu. Spitsyn）《俄罗斯帝国与苏联通史》第3卷（B级新传统主义综合）；Orlando Figes, *A People's Tragedy* (1996) | 斯皮岑渲染军方高层、杜马自由派与协约国驻俄使团的“精英倒沙皇阴谋”；Figes（注：所引论断卡主论3月《第一号命令》后至10月的军纪瓦解、社会等级逆转与“战壕布尔什维主义”）与Hasegawa、Fedor Gaida共同证明基层士兵拒绝向人群开火及社会反威权爆发具有完全独立于精英接触的动力。 | `CLM-spitsyn-february-1917-elite-conspiracy-thesis`；`CLM-figes-1996-soldier-mutiny-and-social-inversion` | 上层倒沙皇接触或普斯科夫劝退绝不等于指挥2月23–27日街头罢工与预备营哗变；混淆精英善后与起义命令链违反证据等级铁律。 |
-
-### `DEB-1917-july-days-spontaneity-vs-conspiracy`：1917年七月事变：未遂政变、草根自发，还是联合政府调停失灵的反噬
-## [T1] 核心问题定义
-彼得格勒七月武装示威是列宁策划的未遂夺权，还是士兵、水兵和工人推动、党内多中心被迫回应的运动？联合政府与苏维埃多数派的选择又如何改变冲突？出发令、群众动机和德国经费指控属于不同证据问题，不能凭其中一项推定其他结论，也不能倒推十月。
-
-## [T2] 各学派立场对照矩阵
-**经验共识**：俄历6月18日（公历7月1日）夏季攻势发动后，临时政府抽调首都卫戍部队开赴前线并威胁解散抗命单位。俄历7月2日（公历7月15日）立宪民主党阁员辞职，第一届联合内阁破裂；此时总理仍是李沃夫，克伦斯基在事变之后才接任。俄历7月3日（公历7月16日）下午4时，布尔什维克中央委员会一度决定劝阻上街；全俄军事组织当晚7时转向支持并组织武装示威，彼得堡委员会被带动，中央委员会在午夜前撤回已经付排的劝阻稿，次日《真理报》头版留白。俄历7月4日（公历7月17日）列宁从芬兰赶回克舍辛斯卡娅公馆，阳台讲话克制，没有当场发布夺取冬宫式的命令。塔夫利达宫外喀琅施塔得水兵一度扣留农业部长切尔诺夫，托洛茨基（当时仍是区联派，不是布尔什维克中央委员）出面解救。全俄中央执行委员会的孟什维克与社革党护国派拒绝54家工厂代表要求苏维埃甩掉资产阶级部长的呼吁，也拒绝马尔托夫的“清一色社会主义政府”方案。俄历7月4日（公历7月17日）下午约5时，司法部长佩列韦尔泽夫向80余名军方代表与报界释放列宁接受德国津贴的侦讯材料（右翼《活语言报》于次日7月5日清晨刊出）；当晚至俄历7月5日（公历7月18日）前线部队入城，捣毁《真理报》，解除第一机枪团和工厂武装，列宁转入地下。游行总人数和伤亡没有入库的医院与卫戍区清册，本卡不定数。
-
-| 学派/取向 | 代表学者与著作 | 核心论点摘要 | 支撑论断卡 | 主要受批评盲点 |
-| :--- | :--- | :--- | :--- | :--- |
-| **未遂政变论** | Richard Pipes, *The Russian Revolution* (1990)，第19章及书末年表 | 把四月、六月、七月写成列宁三次把人群赶上街头、自己留在幕后的 putsch。七月是其中最接近成功、也最接近毁掉布尔什维克党的一次，可比希特勒1923年啤酒馆政变。事后把事变说成党力图导入和平渠道的自发示威，是推卸责任。劝阻令只说明党要控制节奏，不能证明党与发难无关。第一机枪团是主要基地；抽调该团威胁到下一次夺权所需的武装。 | **库内没有专论七月的 Pipes 原子论断卡。** 锚点是 `sources/monographs/pipes_1990_russian_rev/ch19_section.md`（六月攻势失败后“又一次 putsch”）与 `sources/monographs/pipes_1990_russian_rev/ch30_chronology.md`（“July 4: Bolshevik putsch quelled”）。`CLM-pipes-1990-october-classic-coup` 只论十月，不能挪来充当七月证据。 | 派普斯自己写明：列宁在准备阶段的个人作用“无法坐实”；人在芬兰不等于没有参与，但这是类比十月的推断，不是7月3日的命令链。德国补贴在外交部档案中可证，钱的具体用途他自己也称为仍不清楚。把补贴、伪造十卢布钞票和“列宁下令起义”连成一条因果，超出他已建立的证据。 |
-| **三层组织分裂与草根越权论** | Alexander Rabinowitch, *Prelude to Revolution* (1968) | 驳斥“全党一致领导的和平示威”和“列宁自上而下的未遂武装政变”共用的铁板一块前提。1917年夏的彼得格勒布尔什维克分成中央委员会、全俄军事组织、彼得堡委员会三个相对自治的决策中心，又分成温和派、列宁的务实中间派和立即起义的极左派。7月3日的顺序是颠倒的：全城会议先反对上街，军事组织晚7时转向，中央最后才被迫站到运动前面。直接引爆力来自第一机枪团怕被解散和调往前线、喀琅施塔得水兵对杜尔诺沃别墅突袭和旧军官复职的愤怒，以及普梯洛夫工人的工资与关厂危机。机枪团党员对沃洛达尔斯基说，退党也比反对本团决议好。 | `CLM-rabinowitch-1968-divided-bolshevik-party-july`；`CLM-rabinowitch-1968-grassroots-soldier-sailor-radicalism` | 出色地拆开了首都三层机构，对外省、前线和临时政府反间谍行动着墨较薄。涅夫斯基回忆承认军事组织的演说实际上在鼓动出动，所以“自发”不能写成党内无人推波。失败后中央借挫败收紧对军事组织的监督，不能把七月的松散结构投射到十月。 |
-| **联合政府缓兵调停失灵与孟什维克三向瘫痪论** | Ziva Galili, *The Menshevik Leaders in the Russian Revolution* (1989); John D. Basil, *The Mensheviks in the Revolution of 1917* (1984) | 五月入阁不是盲目乐观。四月危机后丹（F. I. Dan）与齐赫伊泽已经预言：社会主义者入阁会激起无法兑现的期望，把苏维埃绑上政府战车，使社会主义部长站到群众运动的“客观对立面”。五、六月间，五金工人成批改选布尔什维克；区杜马总票上护国派联盟仍有56%，维堡区布尔什维克已占58.2%。领导层用全俄苏维埃一大和外省、军队代表堆出的中央执行委员会多数，把首都工人的要求当成乌托邦极端主义；Basil进一步揭示孟什维克在齐赫伊泽—策烈铁里右翼联合派、马尔托夫左翼与技术官僚间陷入三向瘫痪。七月是分水岭：工人当时要的仍是多党的苏维埃政府，孟什维克拒绝接权，裂痕从此无法缝合。 | `CLM-galili-1989-coalition-government-trap`；`CLM-galili-1989-menshevik-worker-alienation`；`CLM-basil-1984-menshevik-three-way-paralysis`。票数对照 `DATA-01-1905-1917-strikes-and-petrograd-elections` | 解释的是温和派社会主义者为何失去首都工人并拒接政权，不替代“谁在7月3日晚间改变了军事组织立场”的组织史问题。外省知识分子推动入阁的叙述，不能写成全体孟什维克工人都已倒向布尔什维克；印刷工人仍支持护国派。 |
-| **工人武装的区划化（辅助社会史，不是第四套政变理论）** | Michael M. Boll, *The Petrograd Armed Workers Movement in the February Revolution* (1979) | 四月底苏维埃精英拒绝为赤卫队背书后，工人武装下沉到区和工厂。六月底彼得格勒仍有约五千至六千名赤卫队员。七月是士兵到厂动员，各厂民兵和赤卫队几乎全体上街；镇压之后民警被改成市杜马控制的西欧式警察，工人把武装视为被夺走的革命成果。 | `CLM-boll-1979-red-guards-radicalization-to-july` | 博尔把八至十月划出本书范围。他强调士兵主动性大于工人自发，与拉比诺维奇相容，但不能单独证明或否定列宁的意图。 |
-| **列宁7月时机判断与中央否决硬证** | Vladlen T. Loginov, *Lenin in 1917: On the Brink of the Possible* (2017)；[四月接收史 B 级背景] N. N. Sukhanov (1922) | 洛吉诺夫考证：列宁最初认为7月3日武装示威“不合时宜（inopportune）”，担心孤立首都；事变遭镇压后，列宁在7月10日 [O.S.] 提纲中宣布“全部政权归苏维埃”的和平发展期已终结、主张撤回该口号，但**7月13–14日 [O.S.] 布尔什维克中央扩大会议竟明确否决了列宁的提纲**（加米涅夫、诺金等坚持保留苏维埃和平夺权路线）——这一档案事实正面证明列宁在1917年7月远不能对全党单向发号施令。苏汉诺夫（B级回忆录）仅提供4月3–4日列宁归国冲击的早期背景。 | `CLM-loginov-lenin-vs-party-moderates-1917`；`CLM-sukhanov-1922-lenin-april-arrival-shock`（四月 B 级当事人背景） | 7月13–14日事后党内否决证明党内非一言堂，但7月3–4日夜克舍辛斯卡娅公馆内部口头磋商细节仍需与军事组织委员回忆互勘。 |
-
-### `DEB-1917-october-coup-or-social-revolution`：十月革命：少数派政变还是社会革命？
-## [T1] 核心问题定义
-十月武装夺权是少数派政变，还是工人、士兵与农民社会革命的政治表达？有组织的起义与广泛的基层动员能否同时成立，苏维埃多数又能否代表全国选民？这些问题涉及不同地区、不同时间的支持与合法性，不能以一次投票或一次攻占行动互相替代。
-
-## [T2] 各学派立场对照矩阵
-**经验基准**：彼得格勒苏维埃军事革命委员会组织行动，临时政府于1917-10-25 [O.S.] / 1917-11-07 [N.S.] 被推翻；第二次全俄工兵代表苏维埃代表大会当晚开幕，孟什维克与右派社革党抗议退场，大会于10月26日 [O.S.] / 11月8日 [N.S.] 通过《和平法令》《土地法令》并组建人民委员会。据站内选举统计（`DATA-01-1905-1917-strikes-and-petrograd-elections`、`DATA-07-1905-1918-unions-moscow-swings-and-constituent-assembly-votes`），布尔什维克在1917年9月莫斯科区杜马获51.5%选票、11月全俄立宪会议选举在大城市与北/西前线占优，但在全国立宪会议总票中仅占约22.5%–24%（社革党各单合占约37%–40%，且选票名册未反映10月左翼社革党独立分党）。苏维埃代表、立宪会议选民与农村夺地农民并非同一政治总体。
-
-| 学派/取向 | 代表学者与著作 | 核心论点摘要 | 支撑论断卡 | 主要受批评盲点 |
-| :--- | :--- | :--- | :--- | :--- |
-| 自由主义“静默技术性政变”论 | Richard Pipes, *The Russian Revolution* (1990) | 援引马拉帕尔泰“静默技术性政变”概念，断言十月并非群众起义，而是列宁与军革委利用临时政府权威真空发动的少数派武装夺权，且本质上是**“针对全国苏维埃组织本身的政变”**——抢在苏维埃二大开幕前推翻临时政府，将全国苏维埃代表置于既成事实之下。 | `CLM-pipes-1990-october-classic-coup` | 将工人赤卫队与驻军顺从简化为阴谋家操纵，难以解释布尔什维克在9–11月两都市/区杜马及北方前线选票中的真实多数。 |
-| 开放性群众政党与托洛茨基苏维埃合法性策略 | Alexander Rabinowitch, *The Bolsheviks Come to Power* (1976) | 1917年的彼得格勒布尔什维克并非铁板一块的密谋集团，而是吸收数万工人兵士、容忍加米涅夫—季诺维也夫公开异议的开放性群众政党；夺权成功关键在于**托洛茨基策略**——以彼得格勒苏维埃军革委“保卫苏维埃与卫戍部队”为名实施防御性展开，并将政权移交严格锚定于第二次全俄苏维埃代表大会开幕，以赢得无党派工兵的苏维埃合法性认同。 | `CLM-rabinowitch-1976-open-democratic-mass-party`；`CLM-rabinowitch-1976-october-three-factions-debate`；`CLM-rabinowitch-1976-trotsky-soviet-congress-strategy` | 首都党组织的战前民主开放性与苏维埃防卫策略，不能自动推及外省夺权或10月底维克热尔谈判破裂后的一党专政化。 |
-| 列宁“稍纵即逝窗口”与先行夺权论（与托洛茨基路线之张力） | Vladlen T. Loginov, *Lenin in 1917: On the Brink of the Possible* (2017) | 与拉比诺维奇聚焦托洛茨基“等待并依托苏维埃二大”形成直接张力：洛吉诺夫论证列宁之所以痛斥“等待苏维埃代表大会是白痴行为或背叛、拖延就是死亡”，是因为洞察到10月中旬无政府浪潮与军事反革命夹击下存在“稍纵即逝的夺权窗口”，唯有在大会开幕前先行武装夺权、造成既成事实，才能迫使动摇的苏维埃大会接管政权。 | `CLM-loginov-lenin-1917-fleeting-window-of-power` | 高度认同列宁对紧急时机的政治直觉，但恰恰从反面印证了“先行夺权把苏维埃二大置于既成事实”的程序正当性争议。 |
-| 工厂控制与莫斯科“政策先于党派”社会史 | S. A. Smith, *Red Petrograd* (1983); Diane P. Koenker, *Moscow Workers and the 1917 Revolution* (1981) | S. A. Smith证明彼得格勒工厂委员会推行“工人监督”最初是防止企业主关厂与经济崩溃的防御性自救，而非按意识形态蓝图消灭资本主义；Koenker证明莫斯科十月经历了与彼得格勒截然不同的惨烈炮战，且莫斯科多数工人虽在原则上拥护苏维埃政权，却**拒绝为党派垄断冒内战风险**（支持多党社会主义联合），其激进化遵循**“政策先于党派（policy before party）”**的理性渐进机制。 | `CLM-smith-sa-1983-defensive-workers-control`；`CLM-koenker-1981-moscow-october-armed-struggle-vs-petrograd`；`CLM-koenker-1981-rational-incremental-radicalization` | 两都工业工人的防御性/理性选择不能代表占人口八成的农村公社或边疆民族地区。 |
-| 维克热尔妥协流产与立宪会议合法性冲突 | John D. Basil, *The Mensheviks in the Revolution of 1917* (1984); 姚海（主编）《俄国革命史》(2013); Alexander Rabinowitch, *The Bolsheviks in Power* (2007) | Basil与姚海剖析十月后全俄铁道工会（维克热尔）调停与清一色社会主义联合政府谈判：孟什维克内部分裂与10月29–30日士官生暴动撕裂妥协，布尔什维克中央内部加米涅夫、季诺维也夫、李可夫、诺金等辞职警告“纯布尔什维克政府只能靠政治恐怖维持”；姚海与Rabinowitch (2007) 进一步揭示苏维埃阶级专政逻辑与普选立宪会议（1918年1月5–6日被武力解散）之间不可调和的二元合法性冲突。 | `CLM-basil-1984-october-and-vikzhel-collapse`；`CLM-yao-hai-post-october-coalition-failure-and-one-party-formation`；`CLM-yao-hai-constituent-assembly-vs-soviet-legitimacy-clash`；`CLM-rabinowitch-2007-constituent-assembly` | 维克热尔谈判与立宪会议解散解释了十月向一党制滑落的制度拐点，但不能反过来否定10月25日临时政府已彻底丧失首都工兵支持的事实。 |
-| 当事人革命解释与反对派在场反证（B级文献） | [B级当事人文献] Leon Trotsky, *History of the Russian Revolution* (1930–32); N. N. Sukhanov, *The Russian Revolution, 1917* (1922) | 托洛茨基将起义定性为“在苏维埃合法性掩护下实施的武装夺权艺术”；**苏汉诺夫的证言尤具史学张力**——他虽作为孟什维克国际派痛斥布尔什维克政权缺乏民主准备、悔恨温和派10月25日夜退场将苏维埃拱手让给列宁，却**以亲历反对者身份断然驳斥右翼“纯军事阴谋”说**，证言彼得格勒工人与驻军当时确以压倒性多数支持推翻临时政府。 | `CLM-trotsky-1930-art-of-insurrection-and-soviet-legality`；`CLM-sukhanov-1922-october-walkout-tragedy` | 两者均属B级当事人回忆与事后政治辩护（托洛茨基旨在反击斯大林并凸显自身军革委功绩，苏汉诺夫旨在检讨国际派失策），必须与当时会议速记对读。 |
-| 农民道德经济、帝国边疆与十月记忆建构 | Orlando Figes (1996); Ronald Grigor Suny (2017); Eric Blanc (2021); Frederick C. Corney, *Telling October* (2004) | Figes揭示农民公社夺地遵循自身“道德经济”，利用《土地法令》将既成黑分土地合法化而非服从城市党令；Suny综合社会史与阶级话语极化；Blanc将1917年十月放入帝国边疆民族与阶级互动视野；Corney则考证党史委（Istpart）与1920年代庆典如何将原本混乱多中心的十月夺权事后重塑为宏大叙事神话。 | `CLM-figes-1996-peasant-moral-economy-1917`；`CLM-suny-2017-totalitarian-vs-social-history-turn`；`CLM-suny-2017-class-discourse-and-polarization`；`CLM-blanc-2021-borderlands-in-1905-and-1917`；`CLM-corney-2004-istpart-and-institutionalizing-october-memory` | 农民夺地与边疆动员支持推翻旧政权，但并不等于授权布尔什维克随后的余粮收集制与一党垄断；记忆建构研究不可消解1917年秋真实的社会崩溃。 |
-
-### `DEB-1918-war-communism-ideology-or-emergency`：战时共产主义与早期一党制本质之争：内战应急、乌托邦跃进还是国家统制连续？
-## [T1] 核心问题定义
-1918–1921年的全面工业国有化、余粮收集制（`продразвёрстка`）、取缔私商、劳动军事化及多党苏维埃向一党专政的收缩，究竟是内战与供给崩溃逼迫的生存应急反应，还是布尔什维克反市场乌托邦蓝图的激进兑现，抑或一战以来国家统制与基层危机交互演化的结果？“战时共产主义”系1921年新经济政策转向时的事后追赋标签，须严格区分措施出台序列与事后总结。
-
-## [T2] 各学派立场对照矩阵
-
-**经验共识**：1917年底至1918年春尚存布尔什维克—左翼社革党联合执政与“国家资本主义”探索；1918年夏起全面国有化与强制征粮随内战升级扩展；1920年达至劳动军事化与无货币幻想顶峰；1921年3月俄共十大在农村起义与喀琅施塔得危机下转向实物税（NEP）与党内派别禁令。
-
-| 学派/取向 | 代表学者与著作 | 核心论点摘要 | 支撑论断卡 | 主要受批评盲点 |
-| :--- | :--- | :--- | :--- | :--- |
-| **内战军事应急与双元矛盾论** | E. H. Carr, *The Bolshevik Revolution*, Vol. 2 (1952); Evan Mawdsley, *The Russian Civil War* (1987) | 强调工业瓦解、封锁与300万红军补给迫使政权诉诸垂直“总局主义”与强制征粮；但Carr同时指出1920年后期确曾滋生把战时自然经济奉为直接通往共产主义捷径的意识形态幻象。 | `CLM-carr-1952-war-communism-internal-contradictions`; `CLM-mawdsley-1987-civil-war-militarized-regime`; `CLM-mawdsley-1987-sovdepia-demographic-industrial-base` | 单靠军事紧急状态难以完全解释1920年底内战大局已定后为何仍出台小手工业全面国有化令。 |
-| **意识形态乌托邦与废法专政论** | Martin Malia, *The Soviet Tragedy* (1994); Richard Pipes, *The Russian Revolution* (1990) | 认为消灭私有产权与市场交换本就是马克思主义核心诉求，内战只是扫除了渐进障碍、催化乌托邦跃进；Pipes强调契卡与排斥反对派早于大规模内战爆发。 | `CLM-pipes-1990-red-terror-leninist-logic`; `CLM-pipes-1990-october-classic-coup` | 易将不同阶段的应急妥协（如1918春列宁国家资本主义方案）回溯拉平为单一既定时间表。 |
-| **战时国家统制连续与自下而上倒逼论** | Lars T. Lih; S. A. Smith, *Red Petrograd* (1983); David Hoffmann (2011) | 揭示沙皇与临时政府在一战中已启动粮食专卖与国家统制；Smith证明1917–1918春77%早期企业没收源自基层工厂委员会应对关厂危机的自下而上压力，而非中央乌托邦指令。 | `CLM-smith-sa-1983-defensive-workers-control`; `CLM-smith-sa-1983-from-workers-control-to-nationalization`; `CLM-hoffmann-2011-continuum-of-total-war-1914-1929` | 总体战技术连续性不能替代对布尔什维克消灭整个有产阶级政治权利之独特意识形态动力的解释。 |
-| **复合危机、党内张力与农村社会钳制论** | Alexander Rabinowitch (2007); Robert V. Daniels (1960); Moshe Lewin (1968/1985) | 追踪布列斯特和约、左翼社革党决裂及左翼共产主义者/工人反对派论战如何一步步锁死多党与党内多元空间，同时揭示小农汪洋的反抗最终迫使政权在1921年退却但保留了战时强制记忆。 | `CLM-rabinowitch-2007-contingency-of-dictatorship`; `CLM-daniels-1960-left-communists-1918`; `CLM-figes-1996-peasant-wars-and-nep-retreat`; `CLM-zemskov-1929-dekulakization-demographic-baseline` | 首都与萨拉托夫、坦波夫、乌拉尔等外省的时间差与暴力烈度须结合地方档案（Raleigh、Churakov）细化。 |
-
-## 4. 关联时间线锚点 (共 3 条)
-- **1917-03-14 [O.S.] / 1917-03-27 [N.S.]** (`TL-W32-1917-03-27-01`, L3): **彼得格勒苏维埃全会一致通过《告全世界人民书》** — 彼得格勒苏维埃通过《告全世界人民书》，呼吁各国劳动者迫使本国统治者实现不兼并、不赔款的民主和平，同时宣称革命俄国将保卫自由免遭内外侵犯。孟什维克—社会革命党多数派与加米涅夫—斯大林主导的布尔什维克代表一致投赞成票；托洛茨基批评该文告标志着与苏黎世列宁反战路线的公开背离。
-- **1917-03-15 [O.S.] / 1917-03-28 [N.S.]** (`TL-W32-1917-03-28-01`, L3): **加米涅夫、斯大林接管《真理报》编辑部并定调有条件支持与和解护国** — 加米涅夫、斯大林与穆拉诺夫撤换莫洛托夫等原编辑并从3月15日 [O.S.]（第9号）起掌管《真理报》，撰文主张有条件支持临时政府、只要德军进攻就“以子弹回击子弹”，次日斯大林声称“打倒战争”口号无用。维堡区工人强烈抗议乃至要求开除三人党籍；列宁《远方来信》亦遭删改或压稿。
-- **1917-03-21 [O.S.] / 1917-04-03 [N.S.]** (`TL-W32-1917-04-03-01`, L3): **策烈铁里自伊尔库茨克返抵彼得格勒并在执委会确立“革命护国主义”** — “西伯利亚齐美尔瓦尔德派”核心策烈铁里于1917-03-21 [O.S.] / 04-03 [N.S.]抵京，当晚在苏维埃执委会面对苏汉诺夫、拉林反战施压草案发表决定性演说，要求苏维埃“放弃不负责任的反对派政策”，把保卫革命俄国与国内进步资产阶级合作定为实现和平的前提，催生主宰苏维埃直至十月的孟什维克—社革党革命护国派联盟。
+## 4. 关联时间线骨干锚点 (L0–L2 展示 0 条，另有 3 条 L3 逐日细节见 `timeline/L3_daily/`)

@@ -33,7 +33,7 @@ updated_at: "2026-11-18"
 | `PER-lenin` | `absent-influence` | 1923-04 | 病重失语缺席，其格鲁吉亚—民族问题口述笔记仅在代表团闭门传达而未能触发人事清算 | `CLM-lewin-1968-georgian-affair-bureaucracy`; `DEB-1922-lenin-testament-and-stalin-rise` |
 | `PER-trotsky` | `reports-scissors-crisis` | 1923-04 | 以价格剪刀图主张工业计划化与流通改革，但在格鲁吉亚议题上对“三驾马车”妥协 | `CLM-carr-1954-scissors-crisis-mechanics`; `CLM-lewin-1968-georgian-affair-bureaucracy` |
 | `PER-stalin` | `reports-nations-then-retreats` | 1923-04 | 民族论纲在特别会议遭边疆代表围攻后作条文让步，同时稳固书记处与扩编中委优势 | `CLM-smith-jeremy-1999-twelfth-congress-korenizatsiia`; `CLM-lewin-1968-georgian-affair-bureaucracy` |
-| `EVT-1922-georgian-affair` | `addressed-behind-closed-doors` | 1923-04 | 格鲁吉亚冲突卷宗与列宁笔记促成反大俄罗斯沙文主义条文，但涉事中央大员未受处分 | `CLM-lewin-1968-georgian-affair-bureaucracy`; `CLM-smith-jeremy-1999-georgian-affair-reassessed` |
+| `EVT-1922-georgian-affair-and-ussr-formation` | `addressed-behind-closed-doors` | 1923-04 | 格鲁吉亚冲突卷宗与列宁笔记促成反大俄罗斯沙文主义条文，但涉事中央大员未受处分 | `CLM-lewin-1968-georgian-affair-bureaucracy`; `CLM-smith-jeremy-1999-georgian-affair-reassessed` |
 | `POL-korenizatsiia` | `institutionalized-at` | 1923-04起 | 民族问题决议将干部与语言本土化写入苏联早期联邦运作框架 | `CLM-smith-jeremy-1999-twelfth-congress-korenizatsiia` |
 | `POL-nep` | `economic-context` | 1923 | 新经济政策剪刀差流通危机在大会公开化，行政调节与后续信贷杠杆并行 | `CLM-carr-1954-scissors-crisis-mechanics` |
 

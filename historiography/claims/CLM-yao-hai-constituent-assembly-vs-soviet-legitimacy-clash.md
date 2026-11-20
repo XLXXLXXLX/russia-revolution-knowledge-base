@@ -7,8 +7,8 @@ publication_year: 2013
 source_tier: A
 local_source_path: "sources/monographs/yao_hai_ussr_history_v1_russian_rev_zh/ch498_中旬_克雷莫夫将军被古契柯夫召到彼得格勒_在会见时_克雷莫夫建议古契柯夫和李沃夫.md#L458-L1088; sources/monographs/yao_hai_ussr_history_v1_russian_rev_zh/ch499_中旬_克雷莫夫将军被古契柯夫召到彼得格勒_在会见时_克雷莫夫建议古契柯夫和李沃夫.md#L1-L335"
 original_pages: "[PDF pp. 574-596]"
-targets_cards: ["ORG-constituent-assembly", "ORG-vtsik", "ORG-sr-party", "PER-lenin", "PER-chernov", "EVT-dispersal-of-constituent-assembly"]
-debate: DEB-constituent-assembly-and-october-legitimacy
+targets_cards: ["CON-constituent-assembly", "INS-sovnarkom-and-vtsik", "ORG-psr", "PER-lenin", "PER-chernov", "EVT-1918-01-constituent-assembly-dispersal"]
+debate: DEB-1918-constituent-assembly-and-soviet-democracy
 supports: ["CLM-yao-hai-1917-modernization-rupture-and-plebeian-radicalism", "CLM-carr-1950-1918-constitution-fusion-of-powers-and-class-franchise"]
 rebuts: ["CLM-pipes-1990-october-classic-coup"]
 qualifies: ["CLM-rabinowitch-2007-contingency-of-dictatorship"]

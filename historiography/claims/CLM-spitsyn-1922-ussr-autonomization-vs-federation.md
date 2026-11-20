@@ -7,7 +7,7 @@ publication_year: 2015
 source_tier: B
 local_source_path: "sources/monographs/spitsyn_russia_ussr_v3_zh/ch08_第一部分_1917-1941年的苏维埃俄国和苏联_part_4.md#L856-L1019"
 original_pages: "PDF pp. 105–117"
-targets_cards: ["EVT-creation-of-ussr", "CON-autonomization", "CON-korenizatsiia"]
+targets_cards: ["EVT-1922-georgian-affair-and-ussr-formation", "POL-korenizatsiia"]
 debate: null
 supports: []
 rebuts: []

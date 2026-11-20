@@ -1,14 +1,9 @@
-# 1-Hop 平衡上下文包：`PER-guchkov` (亚历山大·伊万诺维奇·古契科夫)
+# 1-Hop 去重平衡上下文包：`PER-guchkov`
 
-> 本文件由 `python scripts/kb.py pack` 自动编译，旨在将失控的 `1+N` 随机读取压缩为**等权重、带时效边实质与史学盲区告警**的单次全景读取。
+> 由 `python scripts/kb.py pack` 动态编译：保留 **100% 一跳邻居与多时段关系边**，跨卡自动去重争鸣与时间线，并关联学者学派 (`SCH-*`)。
 
-## 0. 认知完备度与反偏斜仪表盘 (Epistemic & Skew Warnings)
-- **主卡路径**: `cards/people/PER-guchkov.md`
-- **完备度等级**: `multi-perspective`
-- **已覆盖视角**: `octobrist-constitutional, liberal-archive-gaida, hasegawa-revision, primary-abdication-documents, resignation-chronology-L3, us-diplomatic-record`
-- **待补齐视角**: `soldier-social-history, guchkov-memoir-full-text`
-- **偏斜风险提示**:
-  - ⚠️ 主卡显式声明尚缺以下视角待补: `soldier-social-history, guchkov-memoir-full-text`。
+## 0. 认知完备度与反偏斜仪表盘
+- **`PER-guchkov`** (亚历山大·伊万诺维奇·古契科夫 | `cards/people/PER-guchkov.md` | `multi-perspective`): 已覆盖=`octobrist-constitutional, liberal-archive-gaida, hasegawa-revision, primary-abdication-documents, resignation-chronology-L3, us-diplomatic-record`；待补=`soldier-social-history, guchkov-memoir-full-text`
 
 ## 1. 主卡核心层 ([T1] + [T2])
 ## [T1] 60秒定性微摘要
@@ -40,59 +35,21 @@
 - **长谷川毅**：承认古契科夫集团拟定具体截车方案，同时对参与者、捕获沙皇后的打算和计划可行性保持审慎。[《二月革命》](https://files.libcom.org/files/Tsuyoshi%20Hasegawa%20-%20The%20February%20Revolution%2C%20Petrograd%2C%201917%20-%20The%20End%20of%20the%20Tsarist%20Regime%20and%20the%20Birth%20of%20Dual%20Power%20%282017%29.pdf)，第10章及第23章注66（库藏：`sources/monographs/hasegawa_february_1917/ch17_chapter_10_the_liberals_conspiracies_and.md`、`ch33_chapter_23_the_duma_committee_and_the_mo.md`；注66引 Lyandres 2013 并指出沙皇被截获后的处置方案尚不清楚）。
 - **盖达**：强调自由派反对派组织虚弱及高级军官支持不足，认为其未能把政变意图落实为行动；其政治精英视角需与士兵、工人的行动史结合（`CLM-gaida-2003-liberals-in-february-1917`）。
 
-## 2. 一跳邻域等权重微摘要 (共 12 个关联节点，严防大卡霸占上下文)
-### 邻居节点: `PER-rodzianko`
-- **时效关系边** (`PER-guchkov` → `PER-rodzianko` | `octobrist-colleague` | 有效时段: `1905–1917`): 同属杜马温和立宪政治圈，战争和革命中均寻求解决君主制危机
-- **时效关系边** (`PER-rodzianko` → `PER-guchkov` | `octobrist-colleague` | 有效时段: `1905–1917`): 同属十月党政治圈，革命中寻求有序权力转移
-- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 十月党政治家、1911–1917年国家杜马议长，1917年二月革命中主持杜马临时委员会。他力图以信任内阁及君主立宪方式应对危机：既秘密推动以自己为内阁首脑的大公《宪制宣言》，又在3月3日转而劝阻米哈伊尔即位；面对起义士兵、彼得格勒苏维埃和自由派内部的政权设计冲突，临时政府成立后其杜马中心方案被米留可夫等人击败。回忆录中的领导者形象须与会议记录和同时代证据互校。
+## 2. 一跳邻域全量微摘要目录 (去重后共 12 个节点，0 截断)
+- **`EVT-1914-1916-wwi-mobilization-shell-crisis-and-progressive-bloc`**（1914–1916年一战总动员、弹药危机与杜马进步同盟危机）: 1914年7月德国宣战至1916年末帝俄总体战危机演化。1915年大撤退与弹药短缺催生战时工业委员会及杜马进步同盟；沙皇亲征并放任内阁“部长走马灯”，军工扩招、里季希粮食摊派受挫与恶性通胀加剧精英离心和城市工潮，将政权推向1917年二月危机门槛。 ‖ `→PER-guchkov`[war_industry_organizer_and_plotter|1915–1916]: 在第四届杜马院外主持中央战时工业委员会，并于1916年底联络青年军官图谋宫廷政变逼沙皇退位
+- **`INS-state-duma-1906-1917`**（俄罗斯帝国国家杜马（第一至第四届））: 1905年革命使君主制接受立法性国家杜马，但1906年基本法仍保留皇帝任免政府、解散杜马与紧急立法权。头两届因土地与政治责任问题短命；1907年选举法后第三、四届趋保守。1915年进步同盟施压，1917年二月杜马临时委员会参与接管政权，须与苏维埃共析。 ‖ `→PER-guchkov`[chaired_third_duma|1910–1911]: 主持第三届杜马 ； `←PER-guchkov`[third-duma-speaker|1910-03-10–1911-03-15 [O.S.]]: 第三届杜马议长，辞职后由罗将柯继任
+- **`ORG-octobrists-and-progressive-bloc`**（十月十七日同盟与进步同盟）: 1905年十月宣言后形成的十月十七日同盟是拥护君主立宪的温和自由主义政党；1915年的进步同盟是跨党派杜马联盟，二者并非同一组织。两者既要求改善政府与社会关系，又忧惧群众革命；1917年部分杜马领袖成为临时政权支点，却不能独掌街头、军队与苏维埃。 ‖ `→PER-guchkov`[party-leader-and-minister|1905–1917]: 十月党领袖，1917年任临时政府陆海军部长 ； `←PER-guchkov`[party-leader-then-extra-parliamentary|1905–1917]: 十月党领袖；战时经军工委转向超党团的折衷强硬派
+- **`PER-rodzianko`**（米哈伊尔·弗拉基米罗维奇·罗将柯）: 十月党人，1911–1917年杜马议长，二月革命时主持临时委员会，谋以信任内阁、君主立宪应变，曾推大公宪制方案，后劝阻米哈伊尔即位。临时政府成立后，面对起义士兵、苏维埃与自由派内部分歧，其杜马中心方案败于米留可夫等；回忆录的领袖形象须与会议记录及同时代证据互校。 ‖ `←PER-guchkov`[octobrist-colleague|1905–1917]: 同属杜马温和立宪政治圈；1911-03 由罗将柯接任杜马议长；革命中均寻求解决君主制危机… ； `→PER-guchkov`[octobrist-colleague|1905–1917]: 同属十月党政治圈；1911-03 接任杜马议长；革命中寻求有序权力转移，3月3日 [O.S.] 在米哈伊尔问题上立场分化
+- **`PER-milyukov`**（帕维尔·米留可夫）: 俄国历史学家、卡德特党核心领袖（1859–1943）。主持解放同盟确立四尾制宪与有偿征地纲领；一战任进步同盟舵手，1916年发表“愚蠢还是叛国”演说；1917年任首届临时政府外长，03-03/03-16架空杜马，因04-18[O.S.]/05-01[N.S.]照会下野，流亡提“新策略”。 ‖ `←PER-guchkov`[cabinet-colleague|1917.03–05]: 同为自由派临时政府成员；古契科夫先辞（04-29/30 [O.S.]），米留可夫后辞（1…
+- **`ORG-provisional-government`**（1917年俄国临时政府）: 1917年3月至11月俄国最高行政机关：由自由主义杜马派在李沃夫公爵主持下组成，宣称继承沙皇“全部政权”，却在工兵苏维埃与前线《第一号命令》制约下陷入土地、军队与和平三重困局；经四届内阁（李沃夫首届、五月至九月三次资产阶级—社会主义联立内阁及九月短期五人执政内阁）未能稳住宪政民主，终为十月起义推翻。 ‖ `←PER-guchkov`[war-and-navy-minister|1917.03–05]: 首届临时政府陆海军部长，因军队权威与四月危机辞职
+- **`PER-nicholas-ii`**（尼古拉二世）: 末代沙皇（1894–1917在位），固守东正教君权与家产制专制。1905年经历血腥星期日，被迫签署《十月宣言》；1915年赴莫吉廖夫兼任最高统帅，宫廷趋于孤立。1917-03-02[O.S.]/03-15[N.S.]在普斯科夫退位，1918-07-17于叶卡捷琳堡被处决。 ‖ `←PER-guchkov`[abdication-emissary|1917-03-02 [O.S.]]: 与舒尔金在普斯科夫接收退位诏书
+- **`PER-kerensky`**（亚历山大·克伦斯基）: 杜马劳动派律师、1917年临时政府司法部长、陆海军部长与总理（07-08[O.S.]/07-21[N.S.]起）。二月率先筹建杜马军事委员会，兼任苏维埃副主席入阁；六月攻势受阻、调防与退阁触发七月危机（07-06/19转全面溃败），八月与科尔尼洛夫决裂，十月离冬宫反扑失败流亡。 ‖ `←PER-guchkov`[successor-war-minister|1917.05]: 古契科夫辞职后由克伦斯基接任陆海军部长
+- **`EVT-1917-02-february-revolution`**（1917年二月革命）: 1917年2月23日至3月3日（俄历；公历3月8—16日），彼得格勒女工罢工、跨厂动员与驻军兵变推翻帝制。杜马委员会接管行政，苏维埃代表工兵，临时政府在革命全权与旧宪制断裂中成立；双重政权并非简单的主动让权。 ‖ `←PER-guchkov`[abdication-emissary-and-minister|1917.03]: 与舒尔金接收退位文书，后掌陆海军部
+- **`EVT-1917-08-kornilov-affair`**（1917年科尔尼洛夫事件）: 1917-08-24至08-31[O.S.]/09-06至09-13[N.S.]，克伦斯基与科尔尼洛夫经萨文科夫调兵、李沃夫传话及电报对质后决裂。铁路工人、赤卫队与穆斯林代表瓦解第3骑兵军；末日夜彼得格勒苏维埃通过布尔什维克政权决议，主席团改选在后。 ‖ `←PER-guchkov`[political-supporter|1917.08]: 支持科尔尼洛夫强力整军路线，具体协调程度须另证
+- **`PER-sukhanov`**（尼古拉·苏汉诺夫）: 苏汉诺夫（本姓格伊默尔）是1917年彼得格勒苏维埃创建者之一、国际主义社会主义者和《革命札记》作者。二月革命中他参与苏维埃与杜马人士的谈判，四月亲历列宁归国，十月随孟什维克国际主义派退出苏维埃二大。其回忆录既保存现场细节，又带有作者知道结局后形成的政治解释；两者须分开使用。 ‖ `→PER-guchkov`[duma-side-negotiation-counterpart|1917.03]: 夜间组阁谈判中杜马方面重要人物
+- **`POL-october-manifesto-and-1906-fundamental-laws`**（十月宣言、国家根本法与六三体制）: 1905年革命迫使沙皇签署《十月宣言》，承诺公民自由、杜马立法同意权。1906年《国家根本法》使代议立法制度化，同时保留皇权、上院否决与休会紧急立法；1907年未经议会同意改选举法，形成延至1917年的六三体制。它并非议会责任内阁，亦不能视为纯粹装饰。 ‖ `→PER-guchkov`[octobrist-leader|1905–1917]: 十月党领袖，体现拥护宣言的温和右翼自由派路线
 
-### 邻居节点: `PER-milyukov`
-- **时效关系边** (`PER-guchkov` → `PER-milyukov` | `cabinet-colleague` | 有效时段: `1917.03–05`): 同为自由派临时政府成员，在四月危机前后相继离职
-- **节点定性微摘要 [T1]** (完备度 `draft`): 俄国历史学家、立宪民主党（卡德特党）核心领袖。曾主持“解放同盟”并提出四尾制宪与有偿征地纲领；1915年组建战时“进步同盟”；1917年二月后任首届临时政府外交部长，在3月3日（俄历）/3月16日（公历）会议上架空国家杜马、宣称“全部完满权力”，5月因坚持参战照会下野。
-
-### 邻居节点: `EVT-1917-02-february-revolution`
-- **时效关系边** (`PER-guchkov` → `EVT-1917-02-february-revolution` | `abdication-emissary-and-minister` | 有效时段: `1917.03`): 与舒尔金接收退位文书，后掌陆海军部
-- **节点定性微摘要 [T1]** (完备度 `draft`): 1917年2月23日至3月3日（公历3月8日至16日），彼得格勒爆发民众起义推翻罗曼诺夫王朝。妇女与工人和平抗议迅速演变为卫戍部队大规模倒戈；沙皇尼古拉二世退位，国家杜马临时委员会与彼得格勒苏维埃并立催生“双重政权”，开启俄国长达八个月的宪政民主探索与剧烈社会激进化进程。
-
-### 邻居节点: `EVT-1917-08-kornilov-affair`
-- **时效关系边** (`PER-guchkov` → `EVT-1917-08-kornilov-affair` | `political-supporter` | 有效时段: `1917.08`): 支持科尔尼洛夫强力整军路线，具体协调程度须另证
-- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): `1917-08-24 [O.S.] / 09-06 [N.S.]` 至 `08-31 / 09-13` 克伦斯基与科尔尼洛夫在萨文科夫调兵、李沃夫传话及 `08-26` 电报对质后决裂。克雷莫夫第3骑兵军遭铁路拆轨、重装赤卫队与穆斯林代表瓦解；`1917-08-31 [O.S.] / 1917-09-13 [N.S.]`夜彼得格勒苏维埃通过布尔什维克政权决议；主席团改选发生在后续阶段。
-
-### 邻居节点: `INS-state-duma-1906-1917`
-- **时效关系边** (`INS-state-duma-1906-1917` → `PER-guchkov` | `chaired_third_duma` | 有效时段: `1910–1911`): 主持第三届杜马
-- **时效关系边** (`PER-guchkov` → `INS-state-duma-1906-1917` | `third-duma-speaker` | 有效时段: `1910-03-10–1911-03-15 [O.S.]`): 第三届杜马议长，辞职后由罗将柯继任
-- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 1905年革命使君主制接受立法性国家杜马，但1906年基本法仍保留皇帝任免政府、解散杜马与紧急立法权。头两届因土地与政治责任问题短命；1907年选举法后第三、四届趋保守。1915年进步同盟施压，1917年二月杜马临时委员会参与接管政权，须与苏维埃共析。
-
-### 邻居节点: `ORG-octobrists-and-progressive-bloc`
-- **时效关系边** (`ORG-octobrists-and-progressive-bloc` → `PER-guchkov` | `party-leader-and-minister` | 有效时段: `1905–1917`): 十月党领袖，1917年任临时政府陆海军部长
-- **时效关系边** (`PER-guchkov` → `ORG-octobrists-and-progressive-bloc` | `party-leader-then-extra-parliamentary` | 有效时段: `1905–1917`): 十月党领袖；战时经军工委转向超党团的折衷强硬派
-- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 1905年十月宣言后形成的十月十七日同盟是拥护君主立宪的温和自由主义政党；1915年的进步同盟是跨党派杜马联盟，二者并非同一组织。两者既要求改善政府与社会关系，又忧惧群众革命；1917年部分杜马领袖成为临时政权支点，却不能独掌街头、军队与苏维埃。
-
-### 邻居节点: `ORG-provisional-government`
-- **时效关系边** (`PER-guchkov` → `ORG-provisional-government` | `war-and-navy-minister` | 有效时段: `1917.03–05`): 首届临时政府陆海军部长，因军队权威与四月危机辞职
-- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 1917年3月至11月俄国最高行政机关：由自由主义杜马派在李沃夫公爵主持下组成，宣称继承沙皇“全部政权”，却在工兵苏维埃与前线《第一号命令》制约下陷入土地、军队与和平三重困局；经四届内阁（李沃夫首届、五月至九月三次资产阶级—社会主义联立内阁及九月短期五人执政内阁）未能稳住宪政民主，终为十月起义推翻。
-
-### 邻居节点: `PER-nicholas-ii`
-- **时效关系边** (`PER-guchkov` → `PER-nicholas-ii` | `abdication-emissary` | 有效时段: `1917-03-02 [O.S.]`): 与舒尔金在普斯科夫接收退位诏书
-- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 俄罗斯帝国末代沙皇（1894–1917在位）。固守东正教君权神授与家产制专制信条；经历1905年血腥星期日并被迫签署《十月宣言》，1915年亲赴莫吉廖夫兼任最高统帅引发宫廷孤立，`1917-03-02 [O.S.] / 1917-03-15 [N.S.]` 在普斯科夫退位，`1918-07-17` 在叶卡捷琳堡伊帕季耶夫宅邸被处决。
-
-### 邻居节点: `PER-kerensky`
-- **时效关系边** (`PER-guchkov` → `PER-kerensky` | `successor-war-minister` | 有效时段: `1917.05`): 古契科夫辞职后由克伦斯基接任陆海军部长
-- **节点定性微摘要 [T1]** (完备度 `draft`): 俄国杜马劳动派律师、1917年临时政府司法部长（3月起）、陆海军部长（5月起）与总理（俄历7月8日起至十月）。二月革命中率先筹建杜马军事委员会；6月发动加里西亚攻势失败，7月事变后接掌总理，8月底与科尔尼洛夫决裂；十月起义当日上午离京求援失败后长期流亡欧美。
-
-### 邻居节点: `PER-sukhanov`
-- **时效关系边** (`PER-sukhanov` → `PER-guchkov` | `duma-side-negotiation-counterpart` | 有效时段: `1917.03`): 夜间组阁谈判中杜马方面重要人物
-- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 苏汉诺夫（本姓格伊默尔）是1917年彼得格勒苏维埃创建者之一、国际主义社会主义者和《革命札记》作者。二月革命中他参与苏维埃与杜马人士的谈判，四月亲历列宁归国，十月随孟什维克国际主义派退出苏维埃二大。其回忆录既保存现场细节，又带有作者知道结局后形成的政治解释；两者须分开使用。
-
-### 邻居节点: `POL-october-manifesto-and-1906-fundamental-laws`
-- **时效关系边** (`POL-october-manifesto-and-1906-fundamental-laws` → `PER-guchkov` | `octobrist-leader` | 有效时段: `1905–1917`): 十月党领袖，体现拥护宣言的温和右翼自由派路线
-- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 1905年革命迫使尼古拉二世签署维特推动的《十月宣言》，承诺公民自由和杜马立法同意权；1906年修订《国家根本法》使代议立法制度化，同时保留皇权、上院否决及休会紧急立法。1907年以未经议会同意的新选举法重组杜马，形成持续到1917年帝制崩溃的保守“六三体制”。它既不是议会责任内阁，也不能简单视为毫无影响的装饰。
-
-### 邻居节点: `EVT-1914-1916-wwi-mobilization-shell-crisis-and-progressive-bloc`
-- **时效关系边** (`EVT-1914-1916-wwi-mobilization-shell-crisis-and-progressive-bloc` → `PER-guchkov` | `war_industry_organizer_and_plotter` | 有效时段: `1915–1916`): 在第四届杜马院外主持中央战时工业委员会，并于1916年底联络青年军官图谋宫廷政变逼沙皇退位
-- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 1914年7月德国宣战至1916年末帝俄总体战危机演化。1915年大撤退与弹药短缺催生战时工业委员会及杜马进步同盟；沙皇亲征并放任内阁“部长走马灯”，军工扩招、里季希粮食摊派受挫与恶性通胀加剧精英离心和城市工潮，将政权推向1917年二月危机门槛。
-
-## 3. 关联史学争鸣光谱 (Historiographical Debates)
+## 3. 关联史学争鸣与学者论断索引 (主卡外关联争鸣 1 项)
 ### `DEB-1917-dual-power-and-february-origins`：二月革命起源与“双重政权”宪制形成之争（1917）
 ## [T1] 核心问题定义
 二月革命是无领导的群众爆发，还是工厂与兵营中分散的积极分子推动的起义？沙皇退位后，杜马临时委员会、苏维埃与临时政府如何谈判并形成彼此制约的权力格局？群众压力、精英选择和战时危机的因果权重仍有争议，不能以宫廷阴谋代替街头革命。
@@ -109,5 +66,18 @@
 | 孟什维克“革命护国主义”与联合政府陷阱 | Ziva Galili, *The Menshevik Leaders in the Russian Revolution* (1989) | 第二章从粮食与铁路技术依赖、对失控“士兵革命”的疑虑及工人反专政心理正面解释3月初双重政权的诞生；随后以“革命护国主义”和5月入阁解释苏维埃社会权威与联合政府行政责任之间的致命撕裂。 | `CLM-galili-1989-revolutionary-defensism`；`CLM-galili-1989-coalition-government-trap` | 5月以后的联合政府危机属双重政权中后期演变，应与2月底3月初的政权创生机制分段考察。 |
 | 精英宫廷阴谋论及其社会史反证 | 叶夫根尼·斯皮岑（E. Yu. Spitsyn）《俄罗斯帝国与苏联通史》第3卷（B级新传统主义综合）；Orlando Figes, *A People's Tragedy* (1996) | 斯皮岑渲染军方高层、杜马自由派与协约国驻俄使团的“精英倒沙皇阴谋”；Figes（注：所引论断卡主论3月《第一号命令》后至10月的军纪瓦解、社会等级逆转与“战壕布尔什维主义”）与Hasegawa、Fedor Gaida共同证明基层士兵拒绝向人群开火及社会反威权爆发具有完全独立于精英接触的动力。 | `CLM-spitsyn-february-1917-elite-conspiracy-thesis`；`CLM-figes-1996-soldier-mutiny-and-social-inversion` | 上层倒沙皇接触或普斯科夫劝退绝不等于指挥2月23–27日街头罢工与预备营哗变；混淆精英善后与起义命令链违反证据等级铁律。 |
 
-## 4. 关联时间线锚点 (共 1 条)
-- **1917-04-29 [O.S.] / 1917-05-12 [N.S.]** (`TL-W32-1917-05-12-02`, L3): **陆海军部长古契科夫宣布辞职（4月30日正式离任）** — 因反对进一步军改及拒签《士兵权利宣言》、痛感对首都驻军毫无号令之权，陆海军部长古契科夫于1917-04-29 [O.S.] / 05-12 [N.S.]宣布辞职（托洛茨基记4月30日正式离职），第一届资产阶级临时政府随即陷入全面瘫痪。
+
+### 3.1 关联核心论断与史学家学派坐标 (`CLM-*` → `SCH-*`, 展示前 11/11 条)
+- **`CLM-gaida-2003-liberals-in-february-1917`** [`SCH-gaida-fedor`(费奥多尔·盖达) | pp. 355-356, 433-439]: 
+- **`CLM-gaida-2003-progressive-bloc-dilemma`** [`SCH-gaida-fedor`(费奥多尔·盖达) | pp. 135-136, 162-168]: 
+- **`CLM-spitsyn-february-1917-elite-conspiracy-thesis`** [`SCH-spitsyn-yevgeny`(叶夫根尼·斯皮岑) | PDF pp. 11–15, 24, 28]: 
+- **`CLM-sukhanov-1922-dual-power-pact`** [`SCH-sukhanov-nikolai`(尼古拉·苏汉诺夫) | pp. 117–126, 150, 153–158 (PDF pp. 163–172, 196, 199–204); cf. pp. 68, 104–108, 113–114]: 
+- **`CLM-hasegawa-2018-sub-elite-activists`** [`SCH-hasegawa-tsuyoshi`(长谷川毅) | pp. 643–645 (PDF pp. 664–666); cf. pp. 203–204, 218 (PDF pp. 224–225, 239)]: 
+- **`CLM-hasegawa-2018-duma-committee-revision`** [`SCH-hasegawa-tsuyoshi`(长谷川毅) | pp. xiii–xiv (PDF pp. 14–15); pp. 366–368, 377–378 (PDF pp. 387–389, 398–399); p. 652 (PDF p. 673)]: 
+- **`CLM-hasegawa-2018-dual-power-origins`** [`SCH-hasegawa-tsuyoshi`(长谷川毅) | pp. 626–638 (PDF pp. 647–659); cf. pp. 649, 660 (PDF pp. 670, 681)]: 
+- **`CLM-trotsky-1930-dual-power-instability`** [`SCH-trotsky-leon`(列夫·达维多维奇·托洛茨基 · participant-historian) | （中译 EPUB 无纸页；第一卷第十一、十六章）]: 
+- **`CLM-galili-1989-revolutionary-defensism`** [`SCH-galili-ziva`(齐娃·加利利) | pp. 134-140, 148-151 (PDF pp. 152-158, 174-177)]: 
+- **`CLM-galili-1989-coalition-government-trap`** [`SCH-galili-ziva`(齐娃·加利利) | pp. 169-170, 177-181 (PDF pp. 195-196, 203-207)]: 
+- **`CLM-figes-1996-soldier-mutiny-and-social-inversion`** [`SCH-figes-orlando`(奥兰多·费吉斯) | pp. 404-412]: 
+
+## 4. 关联时间线骨干锚点 (L0–L2 展示 0 条，另有 1 条 L3 逐日细节见 `timeline/L3_daily/`)

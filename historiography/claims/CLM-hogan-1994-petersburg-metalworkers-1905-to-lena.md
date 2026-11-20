@@ -1,7 +1,7 @@
 ---
 id: CLM-hogan-1994-petersburg-metalworkers-1905-to-lena
 type: claim
-scholar: "Heather Hogan"
+scholar: SCH-hogan-heather
 work_title: "Making Workers Soviet: Power, Class, and Identity"
 publication_year: 1994
 source_tier: A

@@ -1,18 +1,13 @@
-# 1-Hop 平衡上下文包：`CON-peasant-commune-obshchina` (农村公社（米尔 / 村社）)
+# 1-Hop 去重平衡上下文包：`CON-peasant-commune-obshchina`
 
-> 本文件由 `python scripts/kb.py pack` 自动编译，旨在将失控的 `1+N` 随机读取压缩为**等权重、带时效边实质与史学盲区告警**的单次全景读取。
+> 由 `python scripts/kb.py pack` 动态编译：保留 **100% 一跳邻居与多时段关系边**，跨卡自动去重争鸣与时间线，并关联学者学派 (`SCH-*`)。
 
-## 0. 认知完备度与反偏斜仪表盘 (Epistemic & Skew Warnings)
-- **主卡路径**: `cards/concepts/CON-peasant-commune-obshchina.md`
-- **完备度等级**: `multi-perspective`
-- **已覆盖视角**: `populist-socialist-walicki-venturi, late-marx-multilinear-zasulich, leninist-differentiation, neo-populist-psr-hildermeier, peasant-moral-economy-figes, soviet-rural-sociology-lewin-siegelbaum, russian-agrarian-archival-danilov-davies`
-- **待补齐视角**: `1861-emancipation-statutes-original, lenin-1899-development-of-capitalism-original-pages, 1922-rsfsr-land-code-original-text, danilov-1977-soviet-pre-kolkhoz-peasantry-russian-monograph, 1930-07-30-decree-abolishing-land-societies-original`
-- **偏斜风险提示**:
-  - ⚠️ 主卡显式声明尚缺以下视角待补: `1861-emancipation-statutes-original, lenin-1899-development-of-capitalism-original-pages, 1922-rsfsr-land-code-original-text, danilov-1977-soviet-pre-kolkhoz-peasantry-russian-monograph, 1930-07-30-decree-abolishing-land-societies-original`。
+## 0. 认知完备度与反偏斜仪表盘
+- **`CON-peasant-commune-obshchina`** (农村公社（米尔 / 村社） | `cards/concepts/CON-peasant-commune-obshchina.md` | `multi-perspective`): 已覆盖=`populist-socialist-walicki-venturi, late-marx-multilinear-zasulich, leninist-differentiation, neo-populist-psr-hildermeier, peasant-moral-economy-figes, soviet-rural-sociology-lewin-siegelbaum, russian-agrarian-archival-danilov-davies`；待补=`1861-emancipation-statutes-original, lenin-1899-development-of-capitalism-original-pages, 1922-rsfsr-land-code-original-text, danilov-1977-soviet-pre-kolkhoz-peasantry-russian-monograph, 1930-07-30-decree-abolishing-land-societies-original`
 
 ## 1. 主卡核心层 ([T1] + [T2])
 ## [T1] 60秒定性微摘要
-帝俄至苏俄初期乡村核心自治与土地重分制度。1861年废奴改革保留连环保与重分地村社；民粹派奉为社会主义胚胎并获1881年晚年马克思有条件背书，列宁1899年判其资本主义分化，斯托雷平立法拆解之；1917–1918年农民“黑土重分”令其强力复兴并写入1922年《土地法典》，终在1929–1930年全盘集体化中被集体农庄彻底摧毁。
+村社是帝俄至苏俄的乡村自治与土地重分制度。1861年改革保留连环保与重分地；民粹派视为社会主义胚胎，1881年马克思有条件认可其前景，列宁强调资本主义分化，斯托雷平立法拆解。1917–1918年土地重分使其复兴，1922年获法典承认，1929–1930年遭集体化摧毁。
 
 ## [T2] 核心脉络、时效关系边表与史学争鸣光谱
 
@@ -63,140 +58,53 @@
 - **[苏维埃农村社会学与“古风化”学派 / Moshe Lewin, Lewis Siegelbaum]**（`RN-W3` `[pp. 41–77, 386–395]`; `RN-W8B` `[pp. 51, 91–93]`）：揭示1917–1921年土地拉平造成农村“古风化”与小农同质化；1920年代NEP下村社（`сход`）全面压倒贫弱的农村苏维埃，富农仅是“放大版的中农”。1928–1930年斯大林之所以发动暴力集体化，正是因为以米尔为依托的数千万中农共同体构成了超高速国家工业化无法靠市场绕开的制度屏障。
 - **[俄罗斯农史与后苏联档案学派 / V. P. Danilov, N. A. Ivnitsky, R. W. Davies]**（Danilov 1977 *Sovetskaia dokolkhoznaia derevnia*; `CLM-tragedy-village-1929-politburo-dekulakization-commission`, `RN-W20`; Davies `RN-W18`）：达尼洛夫以扎实的20年代农村人口与地权统计还原“前集体农庄时代苏维埃乡村”中米尔的绝对主导地位与合作化渐进可能；1990年代达尼洛夫与伊夫尼茨基主持解密的政治局与OGPU档案则铁证如山地表明，1929–1930年集体农庄绝非米尔传统的自然生长，而是以流放约180万–210万农民（参 Zemskov `CLM-zemskov-1929-dekulakization-demographic-baseline` 对达尼洛夫重复计算的口径勘误）和剥夺村民大会自主权为代价的国家强制征服。
 
-## 2. 一跳邻域等权重微摘要 (共 15 个关联节点，严防大卡霸占上下文)
-### 邻居节点: `PER-herzen`
-- **时效关系边** (`CON-peasant-commune-obshchina` → `PER-herzen` | `ideological-founder` | 有效时段: `1848–1870 [N.S.]`): 将俄国重分村社塑造成免蹈西方无产阶级化覆辙的“俄国社会主义”基石
-- **节点定性微摘要 [T1]** (完备度 `draft`): 19世纪俄国革命民主派思想巨擘与流亡出版家。生于莫斯科贵族家庭，`1812-03-25 [O.S.] / 1812-04-06 [N.S.]`；1847年1月出境后于1853年在伦敦创办自由俄罗斯印刷所并于1857年夏主笔《钟声》，系统批判农奴制与西欧资本主义异化，提出以农村公社为基础的“俄国式社会主义”愿景；`1870-01-21 [N.S.]` 逝于巴黎。
+## 2. 一跳邻域全量微摘要目录 (去重后共 15 个节点，0 截断)
+- **`PER-herzen`**（亚历山大·赫尔岑）: 19世纪俄国革命民主派思想家、“俄国社会主义”奠基人与流亡出版家。1847年永居西欧，目睹1848革命退潮后批判西方资产阶级市侩制度与历史决定论，转向依托俄国农村公社的自主发展构想。1853年设伦敦自由俄罗斯印刷所，1857年创办《钟声》，在废奴改革与青年激进派之间搭建流亡舆论枢纽。 ‖ `←CON-peasant-commune-obshchina`[ideological-founder|1848–1870 [N.S.]]: 将俄国重分村社塑造成免蹈西方无产阶级化覆辙的“俄国社会主义”基石 ； `→CON-peasant-commune-obshchina`[ideological-founder|1848–1870]: 1848革命幻灭后将俄国重分村社提升为抵御西欧无产阶级化、实现社会主义再生的制度基石
+- **`PER-chernyshevsky`**（尼古拉·车尔尼雪夫斯基）: 19世纪俄国革命民主派理论家与《现代人》主笔。以唯物主义伦理与“合理利己主义”批判农奴制，1859年有条件论证农村公社可借先进成果跨过资本主义。1862年被捕，狱中著《怎么办？》以拉赫美托夫“新人”伦理深塑民粹派与青年列宁；1864年经民事处决服苦役继而流放西伯利亚，1889年病逝萨拉托夫。 ‖ `←CON-peasant-commune-obshchina`[dialectical-theorist|1859–1889]: 论证后发国家可借先进技术使公社所有制直接跃迁为现代社会主义集体生产 ； `→CON-peasant-commune-obshchina`[dialectical-theorist|1859–1889]: 1859年论证后发俄国可借西方现代技术使村社直接跃迁为社会主义集体生产，获1881年晚年马克思草稿正面援引
+- **`PER-zasulich`**（维拉·查苏利奇）: 俄国女革命家、早期马克思主义奠基人之一。1878年枪击鞭笞政治犯的彼得堡市长特雷波夫获陪审团无罪开释；1879年拒恐怖共创土地平分社，1881年法文致信马克思叩问村社前途。1883年参与创立劳动解放社并任《火星报》编委，1903年二大遭除名后转入孟什维克，1917年反对十月夺权。 ‖ `←CON-peasant-commune-obshchina`[epistolary-interrogator|1881-02-16–1881-03-08 [N.S.]]: 致信马克思追问村社命运，促成晚年马克思限定《资本论》西欧适用边界 ； `→CON-peasant-commune-obshchina`[epistolary-interrogator|1881-02-16–1881-03-08 [N.S.]]: 法文致信马克思追问俄国村社命运，促成晚年马克思限定《资本论》西欧适用边界并撰写四份重要草稿
+- **`PER-lenin`**（弗拉基米尔·列宁）: 布尔什维克党缔造者、苏俄人民委员会主席（1917–1924）。1893年投身马克思主义运动，1903年促成布尔什维克分化；1917年发表《四月提纲》并领导十月夺权，历经布列斯特和约、内战与战时共产主义；1921年主持转向新经济政策，晚年（1922–1923）就官僚化与接班人同斯大林冲突。 ‖ `←CON-peasant-commune-obshchina`[marxist-differentiation-critic -> tactical-endorser|1899–1923]: 1899年断定村社已资本主义分化，1917年十月却照单采纳社革党委托书承认村社平分土地
+- **`ORG-psr`**（社会革命党）: 1901年末合并建立的俄国新民粹派政党，以土地社会化纲领与战斗组织暗杀闻名。1917年选民基数居全俄之冠却在战争、分地拖延与左翼分裂中失势；虽夺立宪会议多数仍遭解散，内战“第三条道路”溃于高尔察克政变，1922年莫斯科公审后在国内覆灭。 ‖ `←CON-peasant-commune-obshchina`[programmatic-champion|1902–1918]: 以村社均分使用传统建构“土地社会化”纲领，在黑土村社地带获最高选票支持
+- **`PER-stolypin`**（彼得·斯托雷平）: 帝俄内务大臣（1906–1911）暨大臣会议主席（1906.07–1911.09）。以野战法庭与1907年六三选举法平定革命余波，借土地法令允许农户脱社确权、培植私有小农；1911年3月因西部六省地方自治法案第87条危机失势，同年9月在基辅遇刺，成为晚期的改革路径争议核心。 ‖ `←CON-peasant-commune-obshchina`[state-dismantler|1906-11-22–1911-09-18 [N.S.]]: 颁布独立田庄（хутор/отруб）法令试图拆解村社集体地权、培植保守小私有者阶层 ； `→CON-peasant-commune-obshchina`[targeted_for_dissolution|1906–1911]: 视重分村社为农业停滞与动乱根源而力图培育平行私有农场，但遭黑土区共同体与条田耕作惯性普遍抵制
+- **`POL-war-communism`**（战时共产主义）: 1918年夏至1921年3月苏维埃经济政策总称：余粮收集制、中小工业国有化、取缔私商、货币贬值与实物配给并举；因内战饥荒与国家能力崩溃而强化，却在1921年喀琅施塔得与坦波夫危机下为新经济政策实物税所取代；其性质是应急、乌托邦跃进还是国家统制传统延续，史家分歧剧烈。 ‖ `←CON-peasant-commune-obshchina`[defensive-shell-against|1918-06–1921-03]: 复兴后的村社团结一致抵制贫农委员会分化与余粮收集制，迫使政权转向NEP
+- **`POL-nep`**（新经济政策）: 1921年春在农村起义、城市工潮与喀琅施塔得危机倒逼下逐步确立、取代战时共产主义的混合经济体制。以固定实物税（后改货币税）取代余粮收集制，渐次放开城乡市场与小私营商业（耐普曼），由国家掌控大工业、银行、运输与外贸“制高点”；1928–1929年在收购危机与政治转向中逐步瓦解。 ‖ `←CON-peasant-commune-obshchina`[juridical-coexistence|1922-10-30–1928-01]: 1922年《土地法典》以“土地社”承认村社大会自治，构成NEP脆弱城乡妥协的制度底座
+- **`CON-kulak`**（富农（作为社会阶层与政治定罪标签））: “富农”兼具农村阶层与政治定罪含义：19世纪原指高利贷盘剥者，列宁称农村资产阶级；斯托雷平改革分离户也遭村社如此指斥。1918年为贫农委员会征粮对象，1925年NEP放宽而农村趋向中农化；1928–1929年经刑法107条与雅科夫列夫委员会转为阶级清洗标签。 ‖ `←CON-peasant-commune-obshchina`[embedded-intra-village-neighbor|1917–1930]: 村社内部富户与中贫农共享反剪刀差利益，1917与1928–1930年村内团结往往强于官方…
+- **`PER-stalin`**（约瑟夫·斯大林）: 布尔什维克高加索地下组织者、民族事务人民委员（1917–1923）及中央总书记（1922起）。依托书记处任命权与安全危机叙事，先联季-加压制托洛茨基，再联布哈林击溃联合反对派；1927–1929年以战备恐慌与“自上而下革命”击败布哈林集团，1929年12月拍板“把富农作为阶级消灭”并终结新经济政策。 ‖ `←CON-peasant-commune-obshchina`[procedural-hijacker -> liquidator|1928-01–1930-07]: 先借乌拉尔—西伯利亚方法操控村社大会摊派余粮，继以全盘集体化彻底废除传统村社
+- **`EVT-1929-great-turn-and-dekulakization-launch`**（1929年秋大转变与全盘集体化、消灭富农启动）: 1929年夏秋集体化指标跃升，征粮压力、工业化动员与击败右派相互强化。十一月全会推动工人下乡，十二月委员会草案仍有保留，继被斯大林否决；二十七日公开宣布消灭富农阶级。政治发动、名义入庄与实际生产改组有别，大规模驱逐制度在次年定型。 ‖ `←CON-peasant-commune-obshchina`[terminal-destruction|1929-11–1930-07]: 强制集体农庄化与“去富农化”摧毁米尔自治与小农家庭经济 ； `→CON-peasant-commune-obshchina`[reorganization_of_rural_power|1929年底起]: 村社摊派与农庄化重塑家庭及村庄自主，制度消解延入1930年
+- **`ORG-chernyi-peredel`**（黑土重分派）: 1879年沃罗涅日分裂后由普列汉诺夫、查苏利奇、阿克雪里罗得、捷伊奇等组建的民粹派组织，反对以刺杀沙皇取代群众农村工作，主张村社经济鼓动与地方“经济恐怖”。1880年初彼得堡印刷所被抄后骨干流亡瑞士，成为1880—1883年间俄国部分民粹派向马克思主义过渡的关键桥梁。 ‖ `→CON-peasant-commune-obshchina`[central_programmatic_axis|1879–1881]: 以村社土地重分为行动与理想基石，并触发1881年查苏利奇—马克思公社前途大辩论
+- **`PER-alexander-ii`**（亚历山大二世）: 沙皇（1855–1881在位）。克里米亚战败后推动大改革，1861-02-19[O.S.]/03-03[N.S.]签署废奴宣言，继行自治、司法与兵役改革，却拒绝国家立宪。后转保守镇压；1881-03-01[O.S.]/03-13[N.S.]酝酿有限咨询改革时遭民意党刺杀。 ‖ `→CON-peasant-commune-obshchina`[legal-institutionalizer|1861–1881]: 1861年废奴法令将赎买金与赋税连环保绑定于法定乡村公社，既作治安稳定器又埋下农村土地冲突根源
+- **`POL-decrees-on-peace-and-land-1917`**（1917年和平法令与土地法令）: 苏维埃二大1917-10-26[O.S.]/11-08[N.S.]晚约21时后通过和平法令，倡公开谈判、不兼并不赔款；土地法令于10-27[O.S.]/11-09[N.S.]凌晨1时后表决，无偿废地主所有制并收入242份农民委托书编成的纲领。回应士兵农民诉求，落实仍历冲突。 ‖ `→CON-peasant-commune-obshchina`[recognized-among-forms|1917–1918]: 委托书允许村社等多种土地使用形式，地方实践常由村社组织重分
+- **`POL-stolypin-agrarian-reform`**（斯托雷平土地改革）: 1906年起，斯托雷平政府试图通过农户份地私有化、土地整理、农民银行贷款和移民，创造较自主的农民经营者并稳定农村。退出重分村社、确权、合并土地和迁居独立农庄是不同步骤，成功率及地区差异很大。大战减缓实施，1917年土地革命中许多分离土地重新进入村社分配；改革并未消除农民的土地渴求。 ‖ `→CON-peasant-commune-obshchina`[restructured|1906–1917]: 改革改变重分村社中的地权，1917年后村社又成为重分土地的重要机构
 
-### 邻居节点: `PER-chernyshevsky`
-- **时效关系边** (`CON-peasant-commune-obshchina` → `PER-chernyshevsky` | `dialectical-theorist` | 有效时段: `1859–1889`): 论证后发国家可借先进技术使公社所有制直接跃迁为现代社会主义集体生产
-- **节点定性微摘要 [T1]** (完备度 `draft`): 19世纪俄国革命民主派理论家与政论家。《现代人》杂志主笔（1850s–1862），以《艺术对现实的审美关系》与小说《怎么办？》塑造“拉赫美托夫”新人类理想；1862年被捕后于1864年经民事处决仪式（`гражданская казнь`）发往西伯利亚流放苦役，其著述深刻影响1870年代民粹派与青年列宁的阅读形成。
+## 3. 关联史学争鸣与学者论断索引 (主卡外关联争鸣 5 项)
+- **`DEB-1879-narodnaya-volya-to-bolshevism`**（民意党与布尔什维主义：密谋传统的连续性与异质性 | `historiography/debates/DEB-1879-narodnaya-volya-to-bolshevism.md` | 流派 `liberal-intellectual-history, social-intellectual-history, erfurtian-revisionist, conceptual-history`）：民意党的秘密纪律、职业革命与政治暴力，同后来的布尔什维克组织之间有何关系？争论必须分别考察组织手段、革命目标、道德论证和具体传承链条：相似的地下技术本身不能证明永久党专政或思想一脉相承。
+- **`DEB-1914-haimson-thesis-stability`**（海姆森命题：战前俄国的社会稳定与双重极化 | `historiography/debates/DEB-1914-haimson-thesis-stability.md` | 流派 `urban-polarization, labor-social-history, elite-political-history, liberal-institutional-and-contingent, crisis-and-war`）：一战前的工业增长、土地改革与杜马政治，能否使帝国逐步稳定，还是工人与有产社会、社会与专制国家的双重极化已侵蚀统治基础？1912年后罢工回升和改革受阻如何与战争冲击相互作用，须区分可观察的危机与无法验证的无战争反事实及其解释限度。
+- **`DEB-1921-kronstadt-and-nep-origins`**（喀琅施塔得起义与新经济政策的双轨转折 | `historiography/debates/DEB-1921-kronstadt-and-nep-origins.md` | 流派 `social-history, political-institutional, provincial-and-state-society, soviet-orthodox`）：喀琅施塔得是白卫阴谋、农民反抗，还是要求重建劳动者苏维埃民主的革命者起义？1921年实物税与禁止党内派别同期出现，如何解释经济退却和政治收紧的联系、彼此差异及长期后果？
+- **`DEB-1928-bukharin-alternative`**（布哈林替代方案与新经济政策终结之争 | `historiography/debates/DEB-1928-bukharin-alternative.md` | 流派 `nep-alternative, economic-growth, structural-dilemma, apparatus, ideology-and-mobilization, cliometrics-and-archival-reassessment`）：1927至1929年粮食危机与新经济政策的瓦解，是否意味着渐进工业化和工农联盟已无可行出路，还是党内权力与政策选择扼杀了布哈林的替代方案？投资、价格、农民供粮和政治动员之间的约束究竟有多强，必须把经济可行性、政治可行性与实际权力斗争分别检验。
+- **`DEB-1929-collectivization-and-dekulakization-causes`**（1929年集体化与消灭富农政策的动因之争 | `historiography/debates/DEB-1929-collectivization-and-dekulakization-causes.md` | 流派 `peasant-social-history, statistical-economic-history, archival-local-escalation, geopolitics-and-scare, industrialization-constraints, agrarian-tribute-and-policing`）：1929年集体化加速与消灭富农政策的出现，究竟源于粮食收购和工业投资的结构约束，还是统计误判、地方竞速、战争恐慌与领导层选择的叠加？农民如何应对，中央内部何时形成强制方案？应把1928年非常征粮、1929年秋冬升级与次年全面执行分开考察。
 
-### 邻居节点: `PER-zasulich`
-- **时效关系边** (`CON-peasant-commune-obshchina` → `PER-zasulich` | `epistolary-interrogator` | 有效时段: `1881-02-16–1881-03-08 [N.S.]`): 致信马克思追问村社命运，促成晚年马克思限定《资本论》西欧适用边界
-- **节点定性微摘要 [T1]** (完备度 `draft`): 俄国女革命家、早期马克思主义者。1878年开枪行刺特雷波夫并在公审中获无罪开释；1879年组建“土地平分社”，1881年致信马克思探讨俄国公社前途；1883年共同创立“劳动解放社”，后任《火星报》编辑；1903年二大后加入孟什维克，一战持护国主义立场并反对十月夺权。
+### 3.1 关联核心论断与史学家学派坐标 (`CLM-*` → `SCH-*`, 展示前 24/67 条)
+- **`CLM-hildermeier-2000-agrarian-socialism-modernization-dilemma`** [`SCH-hildermeier-manfred`(曼弗雷德·希尔德迈尔) | EPUB版无稳定原书页码；以本地章节与行号定位（ch08 L75–232, ch09 L26–44, ch12 L204–282, ch13 L107–185, ch17 L115–310, ch20 L750–753, ch24 L180–285, ch26 L6–96；epub:main-8.xhtml, main-9.xhtml, main-12.xhtml, main-13.xhtml, main-21.xhtml, main-25.xhtml, main-27.xhtml）]: 
+- **`CLM-siegelbaum-1992-nep-fragile-social-compromise`** [`SCH-siegelbaum-lewis`(刘易斯·H·西格尔鲍姆) | pp. 84, 91-93, 102-117, 136-144, 180-186 (PDF pp. 98, 105-107, 116-131, 150-158, 194-200)]: 
+- **`CLM-lewin-peasants-1968-ural-siberian-method`** [`SCH-lewin-moshe`(摩西·莱文) | pp. 386-390, 395]: 
+- **`CLM-tragedy-village-1929-politburo-dekulakization-commission`** [`SCH-danilov-viktor`(维克托·彼得罗维奇·丹尼洛夫 · agrarian-archival-editorial) | PDF pp. 7–8, 14–15, 38–46, 73–81, 90–108]: 
+- **`CLM-zemskov-1929-dekulakization-demographic-baseline`** [`SCH-zemskov-viktor`(维克托·尼古拉耶维奇·泽姆斯科夫) | PDF pp. 6-11, 15-19, 52, 218 (原书 pp. 4-9, 13-17, 50, 216)]: 
+- **`CLM-walicki-1969-marx-populist-affinity`** [`SCH-walicki-andrzej`(安杰伊·瓦利茨基) | pp. 132-133, 179-194 [PDF pp. 144-145, 191-206]]: 
+- **`CLM-intelligentsia-19c-alienation-and-revolutionary-ethos`** [`SCH-pereira-ngo`(N·G·O·佩雷拉) | pp. 295, 298–303 (PDF pp. 1, 4–9)]: 
+- **`CLM-figes-1996-peasant-moral-economy-1917`** [`SCH-figes-orlando`(奥兰多·费吉斯) | pp. 343-352]: 
+- **`CLM-berlin-1960-populism-moral-core`** [`SCH-berlin-isaiah`(以赛亚·伯林 · liberal-intellectual-history) | pp. vii-xxvi]: 
+- **`CLM-venturi-1960-lipetsk-voronezh-split`** [`SCH-venturi-franco`(弗朗科·文图里) | pp. 647-663]: 
+- **`CLM-venturi-1960-narodnaya-volya-constitutionalism`** [`SCH-venturi-franco`(弗朗科·文图里) | pp. 649, 655, 667-681, 716]: 
+- **`CLM-walicki-1969-narodnichestvo-definition`** [`SCH-walicki-andrzej`(安杰伊·瓦利茨基) | pp. 1-9, 23-28 [PDF pp. 13-21, 35-40]]: 
+- **`CLM-walicki-1969-plekhanov-rational-reality`** [`SCH-walicki-andrzej`(安杰伊·瓦利茨基) | pp. 153-165 [PDF pp. 165-177]]: 
+- **`CLM-lih-2006-erfurtian-merger-formula`** [`SCH-lih-lars`(拉斯·T·利) | pp. 6-9, 41-49, 74-106, 113-121, 556-557]: 
+- **`CLM-lih-2006-textbook-myth-critique`** [`SCH-lih-lars`(拉斯·T·利) | pp. 5, 13-33, 555]: 
+- **`CLM-mayer-1999-lenin-jacobin-metaphor-vs-blanquism`** [`SCH-mayer-robert`(罗伯特·迈耶) | pp. 127-129, 140-146]: 
+- **`CLM-pipes-1990-patrimonial-state-and-intelligentsia`** [`SCH-pipes-richard`(理查德·派普斯) | ch. 2 (Official Russia); ch. 4 (The Intelligentsia); cf. Introduction]: 
+- **`CLM-pipes-1990-october-classic-coup`** [`SCH-pipes-richard`(理查德·派普斯) | ch. 11 (The October Coup); cf. Introduction]: 
+- **`CLM-steinberg-2017-continuum-of-crisis-1905-1921`** [`SCH-steinberg-mark`(马克·D·斯坦伯格) | pp. 19, 61–62, 107–108]: 
+- **`CLM-bonnell-1983-1912-1914-union-and-insurance-boards-bolshevik-capture`** [`SCH-bonnell-victoria`(维多利亚·E·邦内尔) | Book pp. 366–371, 390–438 [PDF pp. 389–394, 413–461]]: 
+- **`CLM-bonnell-1983-state-employer-repression-undermining-menshevik-reformism`** [`SCH-bonnell-victoria`(维多利亚·E·邦内尔) | Book pp. 292–305, 316–323, 336–352, 372–389, 450–452 [PDF pp. 315–328, 339–346, 359–375, 395–412, 473–475]]: 
+- **`CLM-hogan-1994-petersburg-metalworkers-1905-to-lena`** [`SCH-hogan-heather`(希瑟·霍根 · labor-social-history) | pp. 85–112]: 
+- **`CLM-smith-sa-1996-petersburg-bolshevik-vs-menshevik-worker-appeal`** [`SCH-smith-sa`(斯蒂芬·A·史密斯（S. A. Smith）) | International Review of Social History, vol. 41 (1996), pp. 12–15, 19–25]: 
 
-### 邻居节点: `PER-lenin`
-- **时效关系边** (`CON-peasant-commune-obshchina` → `PER-lenin` | `marxist-differentiation-critic -> tactical-endorser` | 有效时段: `1899–1923`): 1899年断定村社已资本主义分化，1917年十月却照单采纳社革党委托书承认村社平分土地
-- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 布尔什维克党缔造者、苏俄人民委员会主席（1917–1924）。1893年投身马克思主义运动，1903年促成布尔什维克分化；1917年发表《四月提纲》并领导十月夺权，历经布列斯特和约、内战与战时共产主义；1921年主持转向新经济政策，晚年（1922–1923）就官僚化与接班人同斯大林冲突。
-
-### 邻居节点: `ORG-psr`
-- **时效关系边** (`CON-peasant-commune-obshchina` → `ORG-psr` | `programmatic-champion` | 有效时段: `1902–1918`): 以村社均分使用传统建构“土地社会化”纲领，在黑土村社地带获最高选票支持
-- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 1901年末合并建立的俄国新民粹派政党，以土地社会化纲领与战斗组织暗杀闻名。1917年选民基数居全俄之冠却在战争、分地拖延与左翼分裂中失势；虽夺立宪会议多数仍遭解散，内战“第三条道路”溃于高尔察克政变，1922年莫斯科公审后在国内覆灭。
-
-### 邻居节点: `PER-stolypin`
-- **时效关系边** (`CON-peasant-commune-obshchina` → `PER-stolypin` | `state-dismantler` | 有效时段: `1906-11-22–1911-09-18 [N.S.]`): 颁布独立田庄（хутор/отруб）法令试图拆解村社集体地权、培植保守小私有者阶层
-- **时效关系边** (`PER-stolypin` → `CON-peasant-commune-obshchina` | `targeted_for_dissolution` | 有效时段: `1906–1911`): 视重分村社为农业停滞与动乱根源而力图培育平行私有农场，但遭黑土区共同体与条田耕作惯性普遍抵制
-- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 帝俄内务大臣（1906–1911）暨大臣会议主席（1906.07–1911.09）。以野战法庭与1907年六三选举法平定革命余波，借土地法令允许农户脱社确权、培植私有小农；1911年3月因西部六省地方自治法案第87条危机失势，同年9月在基辅遇刺，成为晚期的改革路径争议核心。
-
-### 邻居节点: `POL-war-communism`
-- **时效关系边** (`CON-peasant-commune-obshchina` → `POL-war-communism` | `defensive-shell-against` | 有效时段: `1918-06–1921-03`): 复兴后的村社团结一致抵制贫农委员会分化与余粮收集制，迫使政权转向NEP
-- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 1918年夏至1921年3月苏维埃经济政策总称：余粮收集制、中小工业国有化、取缔私商、货币贬值与实物配给并举；因内战饥荒与国家能力崩溃而强化，却在1921年喀琅施塔得与坦波夫危机下为新经济政策实物税所取代；其性质是应急、乌托邦跃进还是国家统制传统延续，史家分歧剧烈。
-
-### 邻居节点: `POL-nep`
-- **时效关系边** (`CON-peasant-commune-obshchina` → `POL-nep` | `juridical-coexistence` | 有效时段: `1922-10-30–1928-01`): 1922年《土地法典》以“土地社”承认村社大会自治，构成NEP脆弱城乡妥协的制度底座
-- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 1921年春在农村起义、城市工潮与喀琅施塔得危机倒逼下逐步确立、取代战时共产主义的混合经济体制。以固定实物税（后改货币税）取代余粮收集制，渐次放开城乡市场与小私营商业（耐普曼），由国家掌控大工业、银行、运输与外贸“制高点”；1928–1929年在收购危机与政治转向中逐步瓦解。
-
-### 邻居节点: `CON-kulak`
-- **时效关系边** (`CON-peasant-commune-obshchina` → `CON-kulak` | `embedded-intra-village-neighbor` | 有效时段: `1917–1930`): 村社内部富户与中贫农共享反剪刀差利益，1917与1928–1930年村内团结往往强于官方阶级划线
-- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 俄国农村阶层与政治定罪复合概念。原系19世纪村社对高利贷盘剥者的贬称，列宁定性为农村资产阶级，斯托雷平改革试图培育独立私有农户，部分村社成员将分离户斥为富农；1918年成贫农委员会征粮对象，1925年NEP放宽下农村实呈中农化；1928–1929年经刑法第107条与雅科夫列夫委员会武器化为“作为阶级消灭”的清洗标签。
-
-### 邻居节点: `PER-stalin`
-- **时效关系边** (`CON-peasant-commune-obshchina` → `PER-stalin` | `procedural-hijacker -> liquidator` | 有效时段: `1928-01–1930-07`): 先借乌拉尔—西伯利亚方法操控村社大会摊派余粮，继以全盘集体化彻底废除传统村社
-- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 布尔什维克高加索地下组织者、民族事务人民委员（1917–1923）及中央总书记（1922起）。依托书记处任命权与安全危机叙事，先联季-加压制托洛茨基，再联布哈林击溃联合反对派；1927–1929年以战备恐慌与“自上而下革命”击败布哈林集团，1929年12月拍板“把富农作为阶级消灭”并终结新经济政策。
-
-### 邻居节点: `EVT-1929-great-turn-and-dekulakization-launch`
-- **时效关系边** (`CON-peasant-commune-obshchina` → `EVT-1929-great-turn-and-dekulakization-launch` | `terminal-destruction` | 有效时段: `1929-11–1930-07`): 强制集体农庄化与“去富农化”摧毁米尔自治与小农家庭经济
-- **节点定性微摘要 [T1]** (完备度 `draft`): 1929年夏秋，征粮危机、五年计划指标跃升与布哈林集团战败交汇：斯大林11月7日发表《大转变的一年》，11月10–17日中央全会解除布哈林政治局委员职务；12月雅科夫列夫委员会方案遭斯大林否决加码，12月27日正式宣布“把富农作为阶级消灭”，终结新经济政策体制。
-
-### 邻居节点: `PER-alexander-ii`
-- **时效关系边** (`PER-alexander-ii` → `CON-peasant-commune-obshchina` | `legal-institutionalizer` | 有效时段: `1861–1881`): 1861年废奴法令将赎买金与赋税连环保绑定于法定乡村公社，既作治安稳定器又埋下农村土地冲突根源
-- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 俄罗斯帝国沙皇（1855–1881在位），史称“解放者沙皇”。克里米亚战争战败后自上而下启动“大改革”：`1861-02-19 [O.S.] / 1861-03-03 [N.S.]` 签署废除农奴制宣言，继推1864年地方自治局（Земство）与司法陪审制、1874年普遍兵役制，却始终拒绝国家层面的立宪议会；1866年卡拉科佐夫行刺未遂后转向保守警宪镇压，激发1870年代民粹派激进化与政治恐怖浪潮。1880年冬宫爆炸后起用洛里斯-梅利科夫酝酿有限咨询委员会方案，于签署草案当日 `1881-03-01 [O.S.] / 1881-03-13 [N.S.]` 在圣彼得堡叶卡捷琳娜运河畔被民意党炸弹刺杀身亡。
-
-### 邻居节点: `POL-decrees-on-peace-and-land-1917`
-- **时效关系边** (`POL-decrees-on-peace-and-land-1917` → `CON-peasant-commune-obshchina` | `recognized-among-forms` | 有效时段: `1917–1918`): 委托书允许村社等多种土地使用形式，地方实践常由村社组织重分
-- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 全俄工兵代表苏维埃第二次代表大会于 `1917-10-26 [O.S.] / 1917-11-08 [N.S.]` 的会议通过和平与土地两项法令：前者提出立即公开谈判、不兼并不赔款的民主和平及停战；后者无偿废除地主土地所有制，并收入根据242份地方农民委托书编成的土地委托书。和平法令于当晚（约21时后）通过；土地法令的实际表决在 `10-26` 夜至 `10-27 [O.S.] / 11-09 [N.S.]` 凌晨（01:00后）。它们回应了士兵和农民最迫切的要求，实际和平与农村土地秩序仍须经过漫长、冲突性的落实。
-
-### 邻居节点: `POL-stolypin-agrarian-reform`
-- **时效关系边** (`POL-stolypin-agrarian-reform` → `CON-peasant-commune-obshchina` | `restructured` | 有效时段: `1906–1917`): 改革改变重分村社中的地权，1917年后村社又成为重分土地的重要机构
-- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 1906年起，斯托雷平政府试图通过农户份地私有化、土地整理、农民银行贷款和移民，创造较自主的农民经营者并稳定农村。退出重分村社、确权、合并土地和迁居独立农庄是不同步骤，成功率及地区差异很大。大战减缓实施，1917年土地革命中许多分离土地重新进入村社分配；改革并未消除农民的土地渴求。
-
-### 邻居节点: `ORG-chernyi-peredel`
-- **时效关系边** (`ORG-chernyi-peredel` → `CON-peasant-commune-obshchina` | `central_programmatic_axis` | 有效时段: `1879–1881`): 以村社土地重分为行动与理想基石，并触发1881年查苏利奇—马克思公社前途大辩论
-- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 1879年沃罗涅日分裂后由普列汉诺夫、查苏利奇、阿克雪里罗得、捷伊奇等组建的民粹派组织，反对以刺杀沙皇取代群众农村工作，主张村社经济鼓动与地方“经济恐怖”。1880年初彼得堡印刷所被抄后骨干流亡瑞士，成为1880—1883年间俄国部分民粹派向马克思主义过渡的关键桥梁。
-
-## 3. 关联史学争鸣光谱 (Historiographical Debates)
-### `DEB-1879-narodnaya-volya-to-bolshevism`：民意党与布尔什维主义：密谋传统的连续性与异质性
-## [T1] 核心问题定义
-民意党的秘密纪律、职业革命与政治暴力，同后来的布尔什维克组织之间有何关系？争论必须分别考察组织手段、革命目标、道德论证和具体传承链条：相似的地下技术本身不能证明永久党专政或思想一脉相承。
-
-## [T2] 各学派立场对照矩阵
-| 学派/取向 | 代表学者与著作 | 核心论点摘要 | 支撑论断卡 | 主要受批评盲点 |
-| :--- | :--- | :--- | :--- | :--- |
-| 自由主义思想史 | Isaiah Berlin, Venturi 英译本导论 (1960) | 承认职业密谋组织形态的先例，强调民粹伦理、个人良知与后来的党专政存在断裂。 | `CLM-berlin-1960-populism-moral-core` | 理想型可能淡化民意党内部的强制与雅各宾倾向。 |
-| 政治思想与运动史 | Franco Venturi, *Roots of Revolution* (1960) | 1879年组织分裂源自农村工作困境与策略冲突；民意党融合社会革命和制宪目标，同时保留临时专政的张力。 | `CLM-venturi-1960-lipetsk-voronezh-split`; `CLM-venturi-1960-narodnaya-volya-constitutionalism` | 运动史不等同于完整的思想史；立宪主张的实际执行仍需检验。 |
-| 观念社会史与晚年马克思互动 | Andrzej Walicki, *The Controversy over Capitalism* (1969) | 区分民粹主义思潮与组织；1881年马克思复查苏利奇信及草稿承认俄国村社有条件充当社会再生支点，普列汉诺夫的反少数派夺权传统则展示另一条转化路径。 | `CLM-walicki-1969-narodnichestvo-definition`; `CLM-walicki-1969-marx-populist-affinity`; `CLM-walicki-1969-plekhanov-rational-reality` | 思想结构不直接证明组织传承，且对基层参与者关注有限。 |
-| 爱尔福特正统重审与雅各宾概念史 | Lars T. Lih, *Lenin Rediscovered* (2006); Robert Mayer (1999) | 正面证伪“特卡乔夫/民意党密谋传统→列宁《怎么办？》”直线谱系：列宁以德国社民党（SPD）公开群众党为理想模板，因警察国家才借用秘密外壳；其“社会民主党雅各宾派”隐喻直接承自普列汉诺夫1901年反机会主义修辞而非特卡乔夫。 | `CLM-lih-2006-erfurtian-merger-formula`; `CLM-lih-2006-textbook-myth-critique`; `CLM-mayer-1999-lenin-jacobin-metaphor-vs-blanquism` | 还原1901–1902年正统语境并不能消解1903年后真实发生的组织集权裂变。 |
-| 自由主义制度批判 | Richard Pipes, *The Russian Revolution* (1990) | 其关于激进知识分子与家产专制国家对立、布尔什维克夺权及恐怖的论证，提供长期政治文化比较视角。 | `CLM-pipes-1990-patrimonial-state-and-intelligentsia`; `CLM-pipes-1990-october-classic-coup` | 将不同年代政治目标与组织条件回溯拉平的风险。 |
-
-### `DEB-1914-haimson-thesis-stability`：海姆森命题：战前俄国的社会稳定与双重极化
-## [T1] 核心问题定义
-一战前的工业增长、土地改革与杜马政治，能否使帝国逐步稳定，还是工人与有产社会、社会与专制国家的双重极化已侵蚀统治基础？1912年后罢工回升和改革受阻如何与战争冲击相互作用，须区分可观察的危机与无法验证的无战争反事实及其解释限度。
-
-## [T2] 各学派立场对照矩阵
-**经验基准**：1907-06-03 [O.S.] / 1907-06-16 [N.S.] 政变重组选举制度；1912-04-04 [O.S.] / 1912-04-17 [N.S.] 勒拿河金矿惨案后工潮急剧高涨。据工厂视察官统计（`DATA-01-1905-1917-strikes-and-petrograd-elections`），罢工人数从1910年谷底46,623人跃升至1912年725,491人、1913年887,096人、1914年上半年1,337,458人（政治罢工占79.2%）；至1914年6月，彼得堡18个工会理事会中约14.5个、全俄保险局选举中多数工人代表已由布尔什维克及其盟友控制（`DATA-07-1905-1918-unions-moscow-swings-and-constituent-assembly-votes`）。工业增长、制度延续与社会冲突升级并存，均不能单独证明无世界大战条件下革命或稳定必然发生。
-
-| 学派/取向 | 代表学者与著作 | 核心论点摘要 | 支撑论断卡 | 主要受批评盲点 |
-| :--- | :--- | :--- | :--- | :--- |
-| 城市双重极化与2005年自我修正 | Leopold H. Haimson, “The Problem of Social Stability in Urban Russia, 1905–1917” (1964–65); *Russia's Revolutionary Experience, 1905–1917* (2005) | 提出战前城市存在“工人阶级 vs 有产自由派社会”与“有产社会 vs 专制官僚政权”双重极化：1912–1914年彼得堡工人在“礼貌相待”人格尊严诉求与“平等与分离并重”心态下转投布尔什维克；2005年专著附录二（pp. 250–251）据Bonnell等研究亲自修正1964年旧说，承认激进主力并非刚进城的“农村新移民怨恨”，而是长期城市化、年轻识字的第二代熟练金属工。 | `CLM-steinberg-2017-continuum-of-crisis-1905-1921`（比较脉络）；海姆森2005原著实证锚定 `reading-notes/haimson2005_kollontai1921/RN-W29-haimson-lenin-1917-leap-and-kollontai-workers-opposition.md` | 城市与彼得堡金属工样本不能直接推及农村、内地省份与非俄罗斯边疆，且1914年7月街垒不能等同于无战争下的全国政权崩溃。 |
-| 工会、保险局与车间劳工社会史 | Victoria E. Bonnell, *Roots of Rebellion* (1983); Heather Hogan, *Forging Revolution* (1993/1994); S. A. Smith (1996) | Bonnell以工会与疾病保险基金选举（1913年8月彼得堡金属工盟约3/4老会员倒戈、1914年3月全市保险委35:12）证实1912–1914年工人布尔什维克化，同时正面反驳海姆森1964年“半农民新兵论”，证明激进化骨干是长期城市化熟练工与手工业工匠，且国家—雇主联手镇压摧毁了孟什维克渐进改良空间；Hogan与Smith揭示泰勒制“科学管理”、失业委与市杜马“他们 vs 我们”对立如何瓦解劳资妥协。 | `CLM-bonnell-1983-1912-1914-union-and-insurance-boards-bolshevik-capture`；`CLM-bonnell-1983-state-employer-repression-undermining-menshevik-reformism`；`CLM-hogan-1994-petersburg-metalworkers-1905-to-lena`；`CLM-smith-sa-1996-petersburg-bolshevik-vs-menshevik-worker-appeal` | 首都金属加工与印刷业的高组织度经验无法直接代表全俄纺织、采矿或季节性散工群体。 |
-| 乡绅反扑与国家精英政治 | Roberta T. Manning, *The Crisis of the Old Order in Russia* (1982); Manfred Hildermeier, *The Russian Socialist Revolutionary Party Before the First World War* (2000) | Manning证明“六月三日体制”植根于外省贵族乡绅的等级反扑（地方自治局与联合贵族会），正是这一保守底座瘫痪了斯托雷平地方行政改革并孤立了立宪君主派；Hildermeier揭示阿泽夫事件与斯托雷平镇压使社革党在1907–1914年陷入组织瘫痪。 | `CLM-manning-1982-june-third-coup-social-basis`；`CLM-manning-1982-gentry-fronde-to-reaction`；`CLM-hildermeier-2000-azev-affair-and-stolypin-era-paralysis` | 乡绅精英政治与政党危机须同基层工人罢工及公社农民抵制互证。 |
-| 反必然论、世袭国家与自由派宪制困境（兼对乐观演进派的回应） | Richard Pipes, *The Russian Revolution* (1990); Fedor Gaida (2003) | Pipes代表反海姆森的政治偶然论与世袭国家观，断言“20世纪初俄国没有任何事物不可阻挡地推向革命，除了一支异常庞大而狂热的职业革命家队伍”，强调一战冲击才是制度崩解主因（与Gerschenkron等战前工业现代化乐观演进派呼应）；Fedor Gaida剖析杜马自由派要求“信任内阁”却畏惧承担革命责任的制度困境（注：Gaida对进步集团的实证主要在1915–1916战时，不可直接倒灌为1914年前事实）。 | `CLM-pipes-1990-patrimonial-state-and-intelligentsia`；`CLM-gaida-2003-progressive-bloc-dilemma` | 将1912–1914年逾百万罢工归咎于少数职业革命家煽动，难以解释布尔什维克在合法工会与保险局选举中的真实得票优势。 |
-| 现代化断裂、连续危机与总体战治理 | Mark D. Steinberg, *The Russian Revolution, 1905–1921* (2017); David L. Hoffmann, *Cultivating the Masses* (2011); 姚海（主编）《俄国革命史》(2013) | Steinberg与Hoffmann将1905–1921/1929年置于现代性危机与1914年后欧洲总体战人口动员、粮食统制和国家暴力技术连续谱中；姚海指出1905–1914年沙皇政权主动关闭政治改革窗口造成现代化进程断裂，激发下层平民激进主义。 | `CLM-steinberg-2017-continuum-of-crisis-1905-1921`；`CLM-hoffmann-2011-continuum-of-total-war-1914-1929`；`CLM-yao-hai-1917-modernization-rupture-and-plebeian-radicalism` | 1914年后的战时总体战治理经验不能倒果为因地充当1914年7月前和平时期必然崩溃的证明。 |
-
-### `DEB-1921-kronstadt-and-nep-origins`：喀琅施塔得起义与新经济政策的双轨转折
-## [T1] 核心问题定义
-喀琅施塔得是白卫阴谋、农民反抗，还是要求重建劳动者苏维埃民主的革命者起义？1921年实物税与禁止党内派别同期出现，如何解释经济退却和政治收紧的联系、彼此差异及长期后果？
-
-## [T2] 各学派立场对照矩阵
-| 学派/取向 | 代表学者与著作 | 核心论点摘要 | 支撑论断卡 | 主要受批评盲点 |
-| :--- | :--- | :--- | :--- | :--- |
-| 社会史与反阴谋论 | Paul Avrich, *Kronstadt, 1921* (1970) | 水兵构成有变化但老兵仍领导起义；诉求为去除单党垄断的多左翼劳动者苏维埃，证据不支持流亡白卫事先操纵，也未提出米留可夫伪造的“不要共产党人的苏维埃”口号。 | `CLM-avrich-1970-sailor-social-composition`; `CLM-avrich-1970-soviets-without-bolsheviks`; `CLM-avrich-1970-white-plot-refutation` | 起义者内部差异及后苏联解密海军档案仍需补充。 |
-| 党内组织史与国家—社会契约论 | Robert V. Daniels (1960); Lewis Siegelbaum (1992) | 十大《关于党的统一》（含秘密第7条）构成布尔什维克组织史决定性转折；1921年新政实质是“放开经济市民社会空间，同时彻底封闭党内外政治异议空间”。 | `CLM-daniels-1960-tenth-congress-turning-point`; `CLM-siegelbaum-1992-nep-fragile-social-compromise`; `CLM-carr-1952-nep-retreat-and-commanding-heights` | 党内规则与宏观契约仍需结合外省微距失控过程。 |
-| 农村反征粮战争与外省地方史 | Orlando Figes (1996); Donald J. Raleigh (2001) | 1920—1921年坦波夫、西西伯利亚农村战争与萨拉托夫“地方喀琅施塔得”工潮早于水兵起义撼动政权根基，迫使列宁在2月上旬先行酝酿粮食税退却。 | `CLM-figes-1996-peasant-wars-and-nep-retreat`; `CLM-raleigh-2001-center-periphery-weak-state-nep` | 农民起义口号不可无差别套用于喀琅施塔得水兵。 |
-| 苏维埃官方／布尔什维克当事人 | 1921年政府通告与十大材料 | 指称白卫反革命及冰融后外国干涉风险，主张铁血镇压与党内绝对统一；属当时政权危机认知与宣传，非已证实的事前阴谋事实。 | `CLM-avrich-1970-white-plot-refutation` | 混淆事后白卫侨民募款企图与水兵起义真实起源。 |
-
-### `DEB-1928-bukharin-alternative`：布哈林替代方案与新经济政策终结之争
-## [T1] 核心问题定义
-1927至1929年粮食危机与新经济政策的瓦解，是否意味着渐进工业化和工农联盟已无可行出路，还是党内权力与政策选择扼杀了布哈林的替代方案？投资、价格、农民供粮和政治动员之间的约束究竟有多强，必须把经济可行性、政治可行性与实际权力斗争分别检验。
-
-## [T2] 各学派立场对照矩阵
-**经验基准**：1928年粮食收购危机后领导层采用非常措施；布哈林同年批评征粮和工业化节奏，1929年四月及十一月中央全会使右派进一步失势，同年清党开除率达 `11%`（约17万人，`DATA-04-party-membership-and-congress-votes-1903-1929`）。各方都面对工业投资、粮食供给与工农社会结构约束。
-
-| 学派/取向 | 代表学者与著作 | 核心论点摘要 | 支撑论断卡 | 主要受批评盲点 |
-| :--- | :--- | :--- | :--- | :--- |
-| 新经济政策替代论 | Stephen Cohen, *Bukharin and the Bolshevik Revolution* (1973) | 市场、合作社和渐进工业化提供可争论的替代路径；组织机器与政治斗争使该路线失败。 | `CLM-cohen-1973-nep-viability`；`CLM-cohen-1973-notes-of-an-economist`；`CLM-cohen-1973-bukharin-organizational-defeat` | 可构想的经济路径不自动证明可获得党内多数或满足高投资目标。 |
-| 工业化经济思想史 | Alexander Erlich, *The Soviet Industrialization Debate* (1960) | 布哈林平衡增长与普列奥布拉任斯基积累方案共同面对投资约束；强制全盘集体化非各派原有共同结论。 | `CLM-erlich-1960-bukharin-balanced-growth`；`CLM-erlich-1960-preobrazhensky-dilemma`；`CLM-erlich-1960-stalin-overkill-turn` | 模型不能单独解决权力、执行和国际冲击问题。 |
-| 经济结构与政策选择 | Alec Nove, *Was Stalin Really Necessary?* (1964) | 提出“条件性必然”与“1927年NEP死胡同（cul-de-sac）”：给定布尔什维克保住一党政权、拒绝斯托雷平式富农资本主义与高速重工业化三大前提，布哈林市场渐进路径存在内在政治经济不一致；但仍须区分发展目标与强制手段。 | `CLM-nove-1964-stalin-necessity-dilemma` | 反事实替代方案的实施条件难以在单线历史中完全检验（详见下栏 KAPROST 交锋）。 |
-| 意识形态与政治能动性 | Stephen Kotkin, *Stalin*, Vol. 1 (2014)；Sheila Fitzpatrick, *The Russian Cultural Revolution (1928–1931)* (1978) | 市场发展与党内阶级政治构成张力，斯大林西伯利亚干预使危机转向不能仅由结构推导；“文化革命”动员更将政治局右派、教育人民委员部温和派与沙赫蒂案连成“右倾危险”连续体。 | `CLM-kotkin-2014-bukharin-dilemma`；`CLM-fitzpatrick-1978-anti-bukharin-ideological-offensive` | 科特金第一卷叙事止于1928年底；宣传建构的意识形态连续体亦不能直接等同右派成员一致的文化纲领。 |
-| 组织与动员政治 | Oleg Khlevniuk, *Stalin* (2015)；David Priestland, *Stalinism and the Politics of Mobilization* (2007)；Catherine Merridale, *Moscow Politics and the Rise of Stalin* (1990) | 干部控制、反右“复兴主义”动员与乌格拉诺夫莫斯科地方权力瓦解共同决定布哈林集团败局。 | `CLM-khlevniuk-2015-defeat-of-right-opposition`；`CLM-priestland-2007-1928-mobilization-turn-against-bukharin`；`CLM-merridale-1990-uglanov-moscow-collapse` | 组织性胜利并不单独证明任一经济路线的长期优劣。 |
-| 反事实计量与改革经济学 | Holland Hunter / R. W. Davies / 谷内融，*戴维斯纪念文集* (1995)；刘伟、平新乔，《平衡与非平衡：布哈林与普列奥布拉仁斯基之争》（1989，B级） | 亨特借 KAPROST 模型论证非集体化 NEP 本可成功，但戴维斯（1994）反驳1928年市场已遭行政扰乱，谷内融1929年1—6月政治局档案证实非常措施演变为全国体制；刘伟、平新乔将布氏重估为“短缺经济学”先驱，指出斯大林采纳了普氏非均衡配额内核。 | `CLM-davies-festschrift-1995-nep-statistics-and-planning-debates`；`CLM-bukharin-preobrazhensky-equilibrium-vs-accumulation-zh`（B级） | KAPROST 假设重工业高积累下农民仍配合市场；刘、平一文沿用中译“81亿金卢布”误植数字，引用须剔除该数。 |
-| 后苏联档案重估 | Viktor Zemskov（维克托·泽姆斯科夫），《斯大林时代》（2018，B级）；Valentin Sakharov（瓦连京·萨哈罗夫），《站在十字路口》（2012） | 泽姆斯科夫指出布哈林渐进合作化在内战记忆塑造的党员群体中缺乏政治亲和力；萨哈罗夫从反布哈林修正派立场论证2,400万碎片化小农难以支撑工业国防，MTS 与集体化是避免“斯托雷平第二版”的战略决断。 | `CLM-zemskov-2018-archival-constraints-and-party-radicalism`（B级）；`CLM-sakharov-2012-nep-crossroads-1928` | 泽氏未提供党员心态系统统计且沿用中译稿（B级）；萨哈罗夫的国家理性辩护淡化了强制集体化后的农业灾难与清洗恶果。 |
-
-### `DEB-1929-collectivization-and-dekulakization-causes`：1929年集体化与消灭富农政策的动因之争
-## [T1] 核心问题定义
-1929年集体化加速与消灭富农政策的出现，究竟源于粮食收购和工业投资的结构约束，还是统计误判、地方竞速、战争恐慌与领导层选择的叠加？农民如何应对，中央内部何时形成强制方案？应把1928年非常征粮、1929年秋冬升级与次年全面执行分开考察。
-
-## [T2] 各学派立场对照矩阵
-**经验基准**：1927年冬至1928年春发生粮食收购危机，随后推行非常征粮；全苏农户入庄率在 1929-06-01 为 `3.9%`（约100万户）、1929-10-01 升至 `7.5%`（约190万户），1929年十一月全会后集体化加速，12月11日俄联邦春播集体化目标较10月计划骤增 `60%` 至 2,400 万公顷，“二万五千人”实际选拔 27,519 名工人，同年 OGPU 征粮农村专项逮捕 49,068 人（`DATA-06-1918-1929-cheka-ogpu-sentencing-and-1929-collectivization-surge`）；12月委员会讨论方案，斯大林12月27日公开宣布转向消灭富农作为阶级。
-
-| 学派/取向 | 代表学者与著作 | 核心论点摘要 | 支撑论断卡 | 主要受批评盲点 |
-| :--- | :--- | :--- | :--- | :--- |
-| 农民社会史 | Moshe Lewin, *Russian Peasants and Soviet Power* (1968) | 征粮危机和村庄利益结构不可简化为富农囤粮；乌拉尔—西伯利亚方法使强制扩展到村庄。 | `CLM-lewin-peasants-1968-grain-procurement-crisis`；`CLM-lewin-peasants-1968-kulak-myth-and-serednyak`；`CLM-lewin-peasants-1968-ural-siberian-method` | 农户分化和地区差异须借更细的地方档案检验。 |
-| 统计与决策史 | R. W. Davies, *The Socialist Offensive* (1980)；E. H. Carr & R. W. Davies, *Foundations of a Planned Economy*, Vol. 1, Part 1 (1969) | 秋季大转变的事后宣传归纳、十一月决议及涅姆奇诺夫谷物商品率表批判（中贫农占 74% 商品粮、农户裂变至 2,558.6 万户，戳穿“只打富农”神话）与1927年价格剪刀差须分别检验，不能把升级说成早已完整拟定。 | `CLM-davies-1980-autumn-1929-great-turn-fabrication`；`CLM-davies-1980-november-plenum-to-dekulakization`；`CLM-carr-davies-1969-nemchinov-table-critique`；`CLM-carr-davies-1969-grain-price-scissor-1927` | 统计本身的口径和地方上报偏差仍待交叉核验。 |
-| 档案与地方升级 | V. P. Danilov, R. Manning, L. Viola & N. A. Ivnitsky (eds.), 《苏联农村的悲剧》第2卷（1929年11月—1930年12月，2000） | 中央委员会内部曾讨论不同速度和处置方案，地方强制及农民逃离、变卖牲畜与政策升级交织。 | `CLM-tragedy-village-1929-november-plenum-escalation`；`CLM-tragedy-village-1929-politburo-dekulakization-commission`；`CLM-tragedy-village-1929-peasant-self-liquidation-and-flight` | 政治警察报告中的阶级归因须与地方材料对勘；译文需回核俄文。 |
-| 战争恐慌与地缘政治 | Olga Velikanova, *Popular Perceptions of Soviet Politics in the 1920s* (2013)；Stephen Kotkin, *Stalin*, Vol. 1 (2014)；David R. Shearer, *Stalin and War, 1918–1953* (2024) | 战争恐慌、囤积与西伯利亚征粮选择叠加推进高压路径；希勒进一步论证斯大林对迫近英波战争与军粮储备的判断直接决定了1928—1929年强制征粮与集体化的时间及病理性强度。 | `CLM-velikanova-2013-war-scare-hoarding-and-grain-crisis`；`CLM-kotkin-2014-siberian-grain-turn`；`CLM-stalin-war-1927-1929-threat-and-collectivization` | 外部安全威胁想象不能单独解释各地实施差异或证明强制不可避免。 |
-| 工业化结构约束 | Alexander Erlich, *The Soviet Industrialization Debate* (1960)；Alec Nove, *Was Stalin Really Necessary?* (1964) | 工业投资与农业剩余之间确有矛盾，但发展目标不等同暴力全盘集体化的必然性。 | `CLM-erlich-1960-preobrazhensky-dilemma`；`CLM-nove-1964-collectivization-economic-disaster` | 后果评价不能直接充作1929年决策者的动机。 |
-| 后苏联贡税论与治安联动 | Viktor Zemskov（维克托·泽姆斯科夫），《斯大林时代》（2018，B级）；Wendy Z. Goldman, *Inventing the Enemy* (2011) | 泽姆斯科夫把20年代低价收购解释为工业化农业“贡税”，并区分1929年底地方跨区驱逐与1930年1月制度化安置；高德曼追踪1929—1930年去富农化治安镇压与一五计划工业短缺、“破坏”话语的联动。 | `CLM-zemskov-2018-agrarian-tribute-and-coercive-turn`（B级）；`CLM-goldman-2011-great-turn-industrialization-and-wrecking` | 泽氏贡税解释缺分年净转移实证且严守1929/1930界线；高德曼核心厂区微观实证延伸至1930年代，不应前移为1929年既定图景。 |
-
-## 4. 关联时间线锚点 (共 0 条)
+## 4. 关联时间线骨干锚点 (L0–L2 展示 0 条)

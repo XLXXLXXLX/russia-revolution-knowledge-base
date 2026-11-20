@@ -1,18 +1,13 @@
-# 1-Hop 平衡上下文包：`INS-gosbank-and-narkomfin` (财政人民委员部与国家银行（革命财政、货币与信贷）)
+# 1-Hop 去重平衡上下文包：`INS-gosbank-and-narkomfin`
 
-> 本文件由 `python scripts/kb.py pack` 自动编译，旨在将失控的 `1+N` 随机读取压缩为**等权重、带时效边实质与史学盲区告警**的单次全景读取。
+> 由 `python scripts/kb.py pack` 动态编译：保留 **100% 一跳邻居与多时段关系边**，跨卡自动去重争鸣与时间线，并关联学者学派 (`SCH-*`)。
 
-## 0. 认知完备度与反偏斜仪表盘 (Epistemic & Skew Warnings)
-- **主卡路径**: `cards/institutions/INS-gosbank-and-narkomfin.md`
-- **完备度等级**: `multi-perspective`
-- **已覆盖视角**: `economic-institutional, monetary-history, economic-nationalist-interpretation, carr-davies-statistical-institutional, erlich-industrialization-constraints, katasonov-state-autonomy`
-- **待补齐视角**: `annual-branch-balance-sheets, regional-cash-clearing, gosbank-annual-reports-primary`
-- **偏斜风险提示**:
-  - ⚠️ 主卡显式声明尚缺以下视角待补: `annual-branch-balance-sheets, regional-cash-clearing, gosbank-annual-reports-primary`。
+## 0. 认知完备度与反偏斜仪表盘
+- **`INS-gosbank-and-narkomfin`** (财政人民委员部与国家银行（革命财政、货币与信贷） | `cards/institutions/INS-gosbank-and-narkomfin.md` | `multi-perspective`): 已覆盖=`economic-institutional, monetary-history, economic-nationalist-interpretation, carr-davies-statistical-institutional, erlich-industrialization-constraints, katasonov-state-autonomy`；待补=`annual-branch-balance-sheets, regional-cash-clearing, gosbank-annual-reports-primary`
 
 ## 1. 主卡核心层 ([T1] + [T2])
 ## [T1] 60秒定性微摘要
-革命政权先接管帝国国家银行、国有化私人银行，内战期又撤销人民银行并将业务移交财政机关。新经济政策重建银行与预算，1922–1924年切尔沃涅茨和贬值中的苏维埃纸币一度并行，随后完成币制改革。1920年代末信贷与工业投资争论导致银行领导更替；1930年后的现金与非现金结算区分不可直接回填成1929年已完善的封闭双循环。
+革命政权接管国家银行并国有化私行，内战期撤销人民银行、业务归财政机关。NEP重建银行预算，1922–1924年切尔沃涅茨与贬值苏维埃纸币先并行后统一。二十年代末信贷与工业投资争论引发银行领导更替；1930年后现金与非现金结算之分，不可回填为1929年已完善的封闭双循环。
 
 ## [T2] 核心脉络、时效关系边表与史学争鸣光谱
 
@@ -39,29 +34,16 @@
 - **皮达可夫等当事人（论战立场）**：同期批评是政策参与者对紧缩后果的论战判断，不是无争议事实。
 - **卡塔索诺夫（国家自主与工业化评价）**：以国家自主及工业化为评价尺度解释外贸垄断和现金／非现金区分，其“大坝”叙事有助提出问题，但其时间划分、隔离程度及因果关系须以银行规章、企业账户和居民收支交叉核验；其著作按本库札记口径列为B级二手解释，不能单独作硬数据定论（`CLM-katasonov-two-circuit-cash-noncash-ruble-dam`）。
 
-## 2. 一跳邻域等权重微摘要 (共 4 个关联节点，严防大卡霸占上下文)
-### 邻居节点: `POL-sokolnikov-chervonets-monetary-reform`
-- **时效关系边** (`INS-gosbank-and-narkomfin` → `POL-sokolnikov-chervonets-monetary-reform` | `implemented_monetary_reform` | 有效时段: `1922–1924`): 财政与国银协调预算、发行及旧纸币收兑
-- **时效关系边** (`POL-sokolnikov-chervonets-monetary-reform` → `INS-gosbank-and-narkomfin` | `issuing-institution` | 有效时段: `1922–1924`): 国家银行发行切尔文，财政人民委员部主导预算与货币纪律
-- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 1922–1924年，财政人民委员索科利尼科夫与包括尤罗夫斯基、库特列尔在内的财政专家参与稳定货币：国家银行发行有黄金和商业资产准备的切尔沃涅茨银行券，先与急剧贬值的苏维埃纸币并行（切尔文占全部流通纸币价值比重约由3%升至37%，再至约80%），再通过1924年发行国库券、收兑旧纸币统一计价。稳定依赖财政、信贷与商品供给，1925–1926年工业融资和外汇压力使其面临新的约束。
+## 2. 一跳邻域全量微摘要目录 (去重后共 4 个节点，0 截断)
+- **`POL-sokolnikov-chervonets-monetary-reform`**（索科利尼科夫与切尔沃涅茨币制改革）: 1922–1924年索科利尼科夫与尤罗夫斯基、库特列尔等稳定货币：国行发行有黄金、商业资产准备的切尔沃涅茨，先与贬值苏维埃纸币并行，1924年以国库券和收兑统一计价。稳定依赖财政、信贷与商品供给；1925–1926年工业融资及外汇压力又构成约束。 ‖ `←INS-gosbank-and-narkomfin`[implemented_monetary_reform|1922–1924]: 财政与国银协调预算、发行及旧纸币收兑；50,000:1 收兑、10:1 固定 ； `→INS-gosbank-and-narkomfin`[issuing-institution|1922–1924]: 国家银行发行切尔文，财政人民委员部主导预算与货币纪律
+- **`PER-sokolnikov`**（格里戈里·索科尔尼科夫）: 布尔什维克财政领袖与布列斯特和约签署代表，曾在内战中支持正规军建设。1922—1926年主持财政，以切尔文改革、预算和信贷纪律稳定新经济政策，却与工业扩张需求冲突。1925年参加新反对派，要求撤换斯大林总书记；1928年陪同布哈林密会加米涅夫，后转外交，1939年狱中被害。 ‖ `←INS-gosbank-and-narkomfin`[led_finance|1922.11–1926.01.16（苏联部分自1923.07.06）]: 担任财政人民委员（1922.01起实际主持部务），强调稳币及预算纪律；1926-01-1…
+- **`INS-vsnkh-and-gosplan`**（最高国民经济委员会与国家计划委员会（ВСНХ 与 Госплан））: 最高国民经济委员会与国家计划委员会分别承担工业管理与总体计划职能。前者从1917年12月吸纳工人监督演变为内战总局制，新经济政策下改组为经济核算托拉斯；后者自1921年协调预测，二十年代中期后卷入财政纪律、投资速度与第一个五年计划指标的激烈博弈。 ‖ `←INS-gosbank-and-narkomfin`[contested_credit_and_investment|1923–1929]: 工业周转及投资要求与财政、货币约束交锋，具体争端须逐案考证 ； `→INS-gosbank-and-narkomfin`[信贷与预算博弈|1923–1929]: 围绕切尔文稳定、预算削减与重工业放贷持续发生部门冲突。
+- **`POL-nep`**（新经济政策）: 1921年春在农村起义、城市工潮与喀琅施塔得危机倒逼下逐步确立、取代战时共产主义的混合经济体制。以固定实物税（后改货币税）取代余粮收集制，渐次放开城乡市场与小私营商业（耐普曼），由国家掌控大工业、银行、运输与外贸“制高点”；1928–1929年在收购危机与政治转向中逐步瓦解。 ‖ `←INS-gosbank-and-narkomfin`[financed_and_regulated|1921–1929]: 重建国家银行与财政税收，市场交易与国有经济并存
 
-### 邻居节点: `PER-sokolnikov`
-- **时效关系边** (`INS-gosbank-and-narkomfin` → `PER-sokolnikov` | `led_finance` | 有效时段: `1922–1926`): 担任财政人民委员，强调稳币及预算纪律；1926年离职
-- **节点定性微摘要 [T1]** (完备度 `draft`): 布尔什维克经济学家、1922–1924年切尔文金本位货币改革主持者与1922年起主事至 `1926-01-16` 的财政人民委员。以无赤字预算与信贷紧缩捍卫货币稳定，与工业信贷扩张派冲突；1925年参与“新反对派”，`1926-01` 免去财政人民委员后改任国家计委副主席等职；1928年7月11日陪同布哈林密会加米涅夫；据科特金论断卡转述，其农村市场设想在党内具有鲜明理论色彩但因1926年后失势而无从落地；1937年1月被判刑十年，1939年5月21日在狱中被害。
-
-### 邻居节点: `INS-vsnkh-and-gosplan`
-- **时效关系边** (`INS-gosbank-and-narkomfin` → `INS-vsnkh-and-gosplan` | `contested_credit_and_investment` | 有效时段: `1923–1929`): 工业周转及投资要求与财政、货币约束交锋，具体争端须逐案考证
-- **时效关系边** (`INS-vsnkh-and-gosplan` → `INS-gosbank-and-narkomfin` | `信贷与预算博弈` | 有效时段: `1923–1929`): 围绕切尔文稳定、预算削减与重工业放贷持续发生部门冲突。
-- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 最高国民经济委员会与国家计划委员会分别承担工业管理与总体计划职能。前者从1917年12月吸纳工人监督演变为内战总局制，新经济政策下改组为经济核算托拉斯；后者自1921年协调预测，二十年代中期后卷入财政纪律、投资速度与第一个五年计划指标的激烈博弈。
-
-### 邻居节点: `POL-nep`
-- **时效关系边** (`INS-gosbank-and-narkomfin` → `POL-nep` | `financed_and_regulated` | 有效时段: `1921–1929`): 重建国家银行与财政税收，市场交易与国有经济并存
-- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 1921年春在农村起义、城市工潮与喀琅施塔得危机倒逼下逐步确立、取代战时共产主义的混合经济体制。以固定实物税（后改货币税）取代余粮收集制，渐次放开城乡市场与小私营商业（耐普曼），由国家掌控大工业、银行、运输与外贸“制高点”；1928–1929年在收购危机与政治转向中逐步瓦解。
-
-## 3. 关联史学争鸣光谱 (Historiographical Debates)
+## 3. 关联史学争鸣与学者论断索引 (主卡外关联争鸣 2 项)
 ### `DEB-1918-war-communism-ideology-or-emergency`：战时共产主义与早期一党制本质之争：内战应急、乌托邦跃进还是国家统制连续？
 ## [T1] 核心问题定义
-1918–1921年的全面工业国有化、余粮收集制（`продразвёрстка`）、取缔私商、劳动军事化及多党苏维埃向一党专政的收缩，究竟是内战与供给崩溃逼迫的生存应急反应，还是布尔什维克反市场乌托邦蓝图的激进兑现，抑或一战以来国家统制与基层危机交互演化的结果？“战时共产主义”系1921年新经济政策转向时的事后追赋标签，须严格区分措施出台序列与事后总结。
+1918至1921年的全面国有化、余粮收集制、取缔私商、劳动军事化，以及多党苏维埃收为一党专政，究竟是内战与供给崩溃逼出的生存应急，还是反市场乌托邦的激进兑现，抑或一战以来国家统制与基层危机交互的结果？“战时共产主义”是1921年转向时的事后标签，须分清措施序列与事后总结。
 
 ## [T2] 各学派立场对照矩阵
 
@@ -91,8 +73,31 @@
 | 反事实计量与改革经济学 | Holland Hunter / R. W. Davies / 谷内融，*戴维斯纪念文集* (1995)；刘伟、平新乔，《平衡与非平衡：布哈林与普列奥布拉仁斯基之争》（1989，B级） | 亨特借 KAPROST 模型论证非集体化 NEP 本可成功，但戴维斯（1994）反驳1928年市场已遭行政扰乱，谷内融1929年1—6月政治局档案证实非常措施演变为全国体制；刘伟、平新乔将布氏重估为“短缺经济学”先驱，指出斯大林采纳了普氏非均衡配额内核。 | `CLM-davies-festschrift-1995-nep-statistics-and-planning-debates`；`CLM-bukharin-preobrazhensky-equilibrium-vs-accumulation-zh`（B级） | KAPROST 假设重工业高积累下农民仍配合市场；刘、平一文沿用中译“81亿金卢布”误植数字，引用须剔除该数。 |
 | 后苏联档案重估 | Viktor Zemskov（维克托·泽姆斯科夫），《斯大林时代》（2018，B级）；Valentin Sakharov（瓦连京·萨哈罗夫），《站在十字路口》（2012） | 泽姆斯科夫指出布哈林渐进合作化在内战记忆塑造的党员群体中缺乏政治亲和力；萨哈罗夫从反布哈林修正派立场论证2,400万碎片化小农难以支撑工业国防，MTS 与集体化是避免“斯托雷平第二版”的战略决断。 | `CLM-zemskov-2018-archival-constraints-and-party-radicalism`（B级）；`CLM-sakharov-2012-nep-crossroads-1928` | 泽氏未提供党员心态系统统计且沿用中译稿（B级）；萨哈罗夫的国家理性辩护淡化了强制集体化后的农业灾难与清洗恶果。 |
 
-## 4. 关联时间线锚点 (共 4 条)
-- **1917-11-11 [O.S.] / 1917-11-24 [N.S.]** (`TL-W36-1917-11-24-01`, L3): **全俄农民苏维埃非常大会开幕；缅任斯基强催国家银行付款** — 斯皮里多诺娃主导下的左翼社革党在彼得格勒主持全俄农民代表苏维埃非常大会，打破右翼把大会迁往莫吉廖夫的企图并与列宁推动工农苏维埃合流；同日财政人民委员缅任斯基赴拒认新政权的国家银行强催款项遭拒。
-- **1917-11-14 [O.S.] / 1917-11-27 [N.S.]** (`TL-W36-1917-11-27-01`, L3): **彼得格勒银行及国库职员142:14表决拒认苏维埃（校勘姚海银行国有化误期）** — 继11-13季诺维也夫出任彼得格勒苏维埃主席后，11-14彼得格勒银行职员大会与国库人员以142:14压倒多数拒绝承认人民委员会及支付拨款支票。校勘注：姚海本误将12-14 [O.S.]商业银行国有化法令提前记作11-14夜。
-- **1917-11-17 [O.S.] / 1917-11-30 [N.S.]** (`TL-W36-1917-11-30-01`, L3): **中执委通过《关系指示》；武装强入国家银行提500万卢布；开启布—左翼社革党入阁谈判** — 全俄中执委通过斯维尔德洛夫拟定的政府—中执委关系准则；缅任斯基率赤卫队强行闯入罢工中的国家银行提取500万卢布；同日布尔什维克与左翼社革党正式展开持续至12-09的三周入阁谈判（科列加耶夫旋先任农业委员）。
-- **1924-02-01 [N.S.]** (`TL-W36-1924-02-01`, L3): **索科利尼科夫完成切尔文涅茨与国库券币制改革收口** — 1924年2至3月，财政人民委员索科利尼科夫停印贬值的旧苏维埃纸币（sovznaki），发行1、3、5卢布国库券及银辅币，按10卢布=1切尔文涅茨固定平价并以50,000:1比率回收1923年版纸币，终结双轨货币混乱并巩固NEP工农交换信用。
+
+### 3.1 关联核心论断与史学家学派坐标 (`CLM-*` → `SCH-*`, 展示前 24/30 条)
+- **`CLM-other-nep-1923-sokolnikov-monetary-discipline`** [`SCH-zhukov-yuri`(尤里·茹科夫) | pp. 151-158, 208-212]: 
+- **`CLM-katasonov-two-circuit-cash-noncash-ruble-dam`** [`SCH-katasonov-valentin`(瓦连京·尤里耶维奇·卡塔索诺夫) | pp. 152–153（馆藏中译本 PDF）]: 
+- **`CLM-carr-1952-war-communism-internal-contradictions`** [`SCH-carr-eh`(爱德华·霍列特·卡尔) | Vol. 2 Chinese PDF pp. 70-120 (Chs. 17–18)]: 
+- **`CLM-mawdsley-1987-civil-war-militarized-regime`** [`SCH-mawdsley-evan`(埃文·莫兹利) | pp. 328, 331, 346-347]: 
+- **`CLM-mawdsley-1987-sovdepia-demographic-industrial-base`** [`SCH-mawdsley-evan`(埃文·莫兹利) | pp. 56–58, 69, 185–188, 217–218, 283–284]: 
+- **`CLM-pipes-1990-red-terror-leninist-logic`** [`SCH-pipes-richard`(理查德·派普斯) | ch. 18 (The Red Terror)]: 
+- **`CLM-pipes-1990-october-classic-coup`** [`SCH-pipes-richard`(理查德·派普斯) | ch. 11 (The October Coup); cf. Introduction]: 
+- **`CLM-smith-sa-1983-defensive-workers-control`** [`SCH-smith-sa`(斯蒂芬·A·史密斯（S. A. Smith）) | 中译本 pp. 106–112, 133, 135, 137, 191（即源文件标注 PDF pp. 111–117, 138, 140, 142, 196）；注意：均为中译本页码，非英文原版页码]: 
+- **`CLM-smith-sa-1983-from-workers-control-to-nationalization`** [`SCH-smith-sa`(斯蒂芬·A·史密斯（S. A. Smith）) | 中译本 pp. 155–156, 166–169, 177–179, 184–186, 192（即源文件标注 PDF pp. 160–161, 171–174, 182–184, 189–191, 197）；注意：均为中译本页码，非英文原版页码]: 
+- **`CLM-hoffmann-2011-continuum-of-total-war-1914-1929`** [`SCH-hoffmann-david`(大卫·L·霍夫曼) | pp. 12–13, 38, 127–128]: 
+- **`CLM-rabinowitch-2007-contingency-of-dictatorship`** [`SCH-rabinowitch-alexander`(亚历山大·拉比诺维奇) | pp. xi-xii, 390-398]: 
+- **`CLM-daniels-1960-left-communists-1918`** [`SCH-daniels-robert`(罗伯特·V·丹尼尔斯) | pp. 70-81]: Daniels：1918年左翼捍卫革命纲领，却在分裂关头受党统一约束
+- **`CLM-figes-1996-peasant-wars-and-nep-retreat`** [`SCH-figes-orlando`(奥兰多·费吉斯) | pp. 775-785]: 
+- **`CLM-zemskov-1929-dekulakization-demographic-baseline`** [`SCH-zemskov-viktor`(维克托·尼古拉耶维奇·泽姆斯科夫) | PDF pp. 6-11, 15-19, 52, 218 (原书 pp. 4-9, 13-17, 50, 216)]: 
+- **`CLM-cohen-1973-nep-viability`** [`SCH-cohen-stephen`(斯蒂芬·F·科恩) | pp. 270-276, 316-320]: 
+- **`CLM-cohen-1973-notes-of-an-economist`** [`SCH-cohen-stephen`(斯蒂芬·F·科恩) | pp. 295-296, 318-320]: 
+- **`CLM-cohen-1973-bukharin-organizational-defeat`** [`SCH-cohen-stephen`(斯蒂芬·F·科恩) | pp. 287-289, 297-301, 322-329]: 
+- **`CLM-erlich-1960-bukharin-balanced-growth`** [`SCH-erlich-alexander`(亚历山大·埃利希) | pp. 21-23 (PDF pp. 38-40)]: 
+- **`CLM-erlich-1960-preobrazhensky-dilemma`** [`SCH-erlich-alexander`(亚历山大·埃利希) | pp. 34-36, 40-41, 49-51, 170-171 (PDF pp. 51-53, 57-58, 66-68, 185-186)]: 
+- **`CLM-erlich-1960-stalin-overkill-turn`** [`SCH-erlich-alexander`(亚历山大·埃利希) | pp. 161-169, 172-177, 183-184 (PDF pp. 176-184, 187-192, 198-199)]: 
+- **`CLM-nove-1964-stalin-necessity-dilemma`** [`SCH-nove-alec`(亚历克·诺夫) | pp. 20-26, 32]: 
+- **`CLM-kotkin-2014-bukharin-dilemma`** [`SCH-kotkin-stephen`(斯蒂芬·科特金) | EPUB Coda (OEBPS/9780698170100_EPUB_1-25.xhtml) & Ch. 14 (OEBPS/9780698170100_EPUB_1-24.xhtml)]: 
+- **`CLM-fitzpatrick-1978-anti-bukharin-ideological-offensive`** [`SCH-fitzpatrick-sheila`(希拉·菲茨帕特里克) | pp. 11–14, 20–21]: 
+- **`CLM-khlevniuk-2015-defeat-of-right-opposition`** [`SCH-khlevniuk-oleg`(奥列格·赫列夫纽克) | EPUB ops/xhtml/ch03.html（His Revolution 开篇至全盘集体化的 1929 年 11 月宣布）。工作区文本无纸质页码。]: 
+
+## 4. 关联时间线骨干锚点 (L0–L2 展示 0 条，另有 4 条 L3 逐日细节见 `timeline/L3_daily/`)

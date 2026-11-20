@@ -1,14 +1,14 @@
 ---
 id: CLM-foglesong-1995-ideological-origins-of-us-intervention
 type: claim
-scholar: SCH-foglesong
+scholar: SCH-foglesong-david
 work_title: "America's Secret War against Bolshevism: U.S. Intervention in the Russian Civil War, 1917–1920（《美国对抗布尔什维克主义的秘密战争：1917—1920年美国对俄国内战的干涉》）"
 publication_year: 1995
 source_tier: A
 local_source_path: "sources/monographs/foglesong_1995_secret_war_zh/ch04_第二章_美国反布尔什维克主义的起源.md#L85-L675"
 original_pages: "pp. 16-32, 206-211 (PDF pp. 20-36, 210-215)"
-targets_cards: ["PER-woodrow-wilson", "EVT-allied-intervention-russian-civil-war"]
-debate: DEB-allied-intervention-motives-and-impact
+targets_cards: ["EVT-1918-1920-russian-civil-war"]
+debate: DEB-1918-red-terror-and-civil-war-origins
 supports: []
 rebuts: []
 qualifies: []

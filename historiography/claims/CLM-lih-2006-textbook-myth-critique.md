@@ -7,8 +7,8 @@ publication_year: 2006
 source_tier: A
 local_source_path: "sources/monographs/lih_2006_lenin_rediscovered/ch02_commentary_part_1.md#L419-L1173"
 original_pages: "pp. 5, 13-33, 555"
-targets_cards: ["PER-lenin", "ORG-rsdlp", "PER-stalin", "CON-vanguard-party"]
-debate: DEB-1902-lenin-witbd-and-party-nature
+targets_cards: ["PER-lenin", "ORG-bolsheviks-rcpb-vkpb", "PER-stalin", "CON-democratic-centralism-and-vanguard"]
+debate: DEB-1903-bolshevik-menshevik-split
 supports: []
 rebuts: []
 qualifies: []

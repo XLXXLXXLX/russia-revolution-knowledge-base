@@ -6,7 +6,7 @@ era: "1927-1929"
 dates:
   start_ns: "1927-10-01"
   end_ns: "1929-11-17"
-core_cards: ["PER-bukharin", "PER-rykov", "PER-tomsky", "PER-stalin", "PER-preobrazhensky", "PER-uglanov", "ORG-right-opposition-1928", "POL-nep", "POL-first-five-year-plan", "CON-smychka", "CON-primitive-socialist-accumulation", "EVT-1928-grain-procurement-crisis", "EVT-1928-shakhty-affair-show-trial", "MTG-1929-04-cc-joint-plenum", "MTG-1929-11-cc-plenum"]
+core_cards: ["PER-bukharin", "PER-rykov", "PER-tomsky", "PER-stalin", "PER-preobrazhensky", "PER-uglanov", "ORG-right-opposition-1928", "POL-nep", "POL-first-five-year-plan", "CON-smychka", "CON-primitive-socialist-accumulation", "EVT-1928-grain-procurement-crisis", "EVT-1928-shakhty-affair-show-trial", "MTG-1929-04-cc-joint-plenum", "MTG-1929-11-cc-plenum", "EVT-1923-scissors-crisis", "EVT-1929-great-turn-and-dekulakization-launch"]
 coverage_status: multi-perspective
 perspectives_present: ["nep-alternative", "economic-growth", "structural-dilemma", "apparatus", "ideology-and-mobilization", "cliometrics-and-archival-reassessment"]
 perspectives_missing: ["regional-agricultural-accounts", "full-plenum-stenograms"]

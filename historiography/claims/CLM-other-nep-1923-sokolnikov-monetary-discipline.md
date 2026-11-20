@@ -7,7 +7,7 @@ publication_year: 2006
 source_tier: A
 local_source_path: "sources/monographs/other_side_of_nep_1923_1925_zh/ch06_pages_151-175.md#L244-L276"
 original_pages: "pp. 151-158, 208-212"
-targets_cards: ["POL-nep", "PER-sokolnikov", "PER-pyatakov", "ORG-gosplan"]
+targets_cards: ["POL-nep", "PER-sokolnikov", "PER-pyatakov", "INS-vsnkh-and-gosplan"]
 debate: DEB-1928-bukharin-alternative
 supports: []
 rebuts: []

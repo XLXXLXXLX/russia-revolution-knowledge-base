@@ -1,14 +1,9 @@
-# 1-Hop 平衡上下文包：`EVT-1914-1916-wwi-mobilization-shell-crisis-and-progressive-bloc` (1914–1916年一战总动员、弹药危机与杜马进步同盟危机)
+# 1-Hop 去重平衡上下文包：`EVT-1914-1916-wwi-mobilization-shell-crisis-and-progressive-bloc`
 
-> 本文件由 `python scripts/kb.py pack` 自动编译，旨在将失控的 `1+N` 随机读取压缩为**等权重、带时效边实质与史学盲区告警**的单次全景读取。
+> 由 `python scripts/kb.py pack` 动态编译：保留 **100% 一跳邻居与多时段关系边**，跨卡自动去重争鸣与时间线，并关联学者学派 (`SCH-*`)。
 
-## 0. 认知完备度与反偏斜仪表盘 (Epistemic & Skew Warnings)
-- **主卡路径**: `cards/events/EVT-1914-1916-wwi-mobilization-shell-crisis-and-progressive-bloc.md`
-- **完备度等级**: `multi-perspective`
-- **已覆盖视角**: `february-microhistory-hasegawa, liberal-opposition-gaida, total-war-modernity-hoffmann, patrimonial-state-pipes, tragedy-social-history-figes, menshevik-social-history-galili, neo-traditionalist-spitsyn`
-- **待补齐视角**: `central-asian-1916-revolt-monograph, imperial-stavka-logistics-ledger`
-- **偏斜风险提示**:
-  - ⚠️ 主卡显式声明尚缺以下视角待补: `central-asian-1916-revolt-monograph, imperial-stavka-logistics-ledger`。
+## 0. 认知完备度与反偏斜仪表盘
+- **`EVT-1914-1916-wwi-mobilization-shell-crisis-and-progressive-bloc`** (1914–1916年一战总动员、弹药危机与杜马进步同盟危机 | `cards/events/EVT-1914-1916-wwi-mobilization-shell-crisis-and-progressive-bloc.md` | `multi-perspective`): 已覆盖=`february-microhistory-hasegawa, liberal-opposition-gaida, total-war-modernity-hoffmann, patrimonial-state-pipes, tragedy-social-history-figes, menshevik-social-history-galili, neo-traditionalist-spitsyn`；待补=`central-asian-1916-revolt-monograph, imperial-stavka-logistics-ledger`
 
 ## 1. 主卡核心层 ([T1] + [T2])
 ## [T1] 150字定性微摘要
@@ -40,44 +35,18 @@
 - **自由派反对派的“信任内阁”折中与多重自缚机制（F. A. Gaida / Tsuyoshi Hasegawa）**：Gaida（`ch05` L244–260，`RN-W8-liberal-opposition-and-bolshevik-nationality-policy`）精细拆解了1915–1916年自由派为何节节退缩——这并非单一的“害怕群众革命”，而是四重机制交织的结果：(1) 既想借社会危机逼宫，又恐惧一旦号召街头运动将引发不可控的下层无政府暴动；(2) 自由派内部（莫斯科工业家/进步党“责任内阁”派 vs 米留可夫立宪民主党“信任内阁”派 vs 古奇科夫院外军工/密谋派）激烈的领导权竞逐；(3) 立宪民主党在战局危殆之际并不愿真正接盘承担战时行政管理责任；(4) 自由派在杜马院外缺乏严密政党基层组织（`CLM-gaida-2003-progressive-bloc-dilemma`, `CLM-gaida-2003-liberals-in-february-1917`）。长谷川毅则补充指出，尽管自由派在1916年底前瞻前顾后，但在1917年2月27日起义既成事实之际，杜马临时委员会仍做出了主动接管国家权力的关键政治决断（`CLM-hasegawa-2018-duma-committee-revision`）。同时，在劳工翼侧，格沃兹杰夫领导的中央战时工业委员会“工人小组”虽试图借助合法平台协调国防生产与工人权益，却在沙皇警察猜忌（1917年1月27日[O.S.]全员被捕）与布尔什维克“阶级合作叛徒”攻击的夹击下陷入“皮洛士式惨胜”（`hasegawa_february_1917/ch12` L557–560；其1917年二月后向革命护国主义及联合政府劳工部的演变见 `RN-W5-menshevik-defensism-and-coalition`）。
 - **新传统主义“上层精英阴谋”叙事与多维历史综合的对勘（叶·尤·斯皮岑 E. Yu. Spitsyn vs 长谷川毅）**：俄罗斯当代新传统主义教科书作者斯皮岑（B 级当代教辅阐释文献）反对把1914–1916年写成单纯的自发经济危机，强调以 `PER-guchkov`、Zemgor 领导层与部分高级将领为代表的军工资产阶级和自由派自1915–1916年起便酝酿宫廷政变以逼迫尼古拉二世退位（`CLM-spitsyn-february-1917-elite-conspiracy-thesis`）。学术综合视角（如长谷川毅 `ch10` 及盖达）肯定古奇科夫小组与吕沃夫/克伦斯基圈子在1916年底至1917年初确曾筹议逼宫方案，但实证表明这些密谋因内部不合与行动迟缓，在1917年2月23日下层女工、金属工与随后卫戍部队自发哗变爆发前从未付诸实施，故不可将二月革命简化为单一上层阴谋。
 
-## 2. 一跳邻域等权重微摘要 (共 9 个关联节点，严防大卡霸占上下文)
-### 邻居节点: `EVT-1907-1914-june-third-regime-and-lena-to-july-strikes`
-- **时效关系边** (`EVT-1907-1914-june-third-regime-and-lena-to-july-strikes` → `EVT-1914-1916-wwi-mobilization-shell-crisis-and-progressive-bloc` | `interrupted_and_transformed_by` | 有效时段: `1914.07–1916`): 1914年7月战争动员打断圣彼得堡街垒总罢工，但将未决的社会—政制裂痕推入更深层的总体战危机
-- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 1907年6月3日[O.S.]六三政变至1914年7月一战爆发间的战前危机年代。前五年呈现土地缙绅杜马优势、斯托雷平土改与地下党受挫蛰伏；1912年4月勒拿金矿惨案引爆《真理报》创刊、工会与保险会转向及1914年7月圣彼得堡街垒工潮，引发战前稳定与否之争。
+## 2. 一跳邻域全量微摘要目录 (去重后共 9 个节点，0 截断)
+- **`EVT-1907-1914-june-third-regime-and-lena-to-july-strikes`**（1907–1914年六三体制、斯托雷平反动与勒拿至七月工潮）: 1907年6月3日[O.S.]六三政变至1914年7月一战爆发间的战前危机年代。前五年呈现土地缙绅杜马优势、斯托雷平土改与地下党受挫蛰伏；1912年4月勒拿金矿惨案引爆《真理报》创刊、工会与保险会转向及1914年7月圣彼得堡街垒工潮，引发战前稳定与否之争。 ‖ `→EVT-1914-1916-wwi-mobilization-shell-crisis-and-progressive-bloc`[interrupted_and_transformed_by|1914.07–1916]: 1914年7月战争动员打断圣彼得堡街垒总罢工，但将未决的社会—政制裂痕推入更深层的总体战危机
+- **`PER-nicholas-ii`**（尼古拉二世）: 末代沙皇（1894–1917在位），固守东正教君权与家产制专制。1905年经历血腥星期日，被迫签署《十月宣言》；1915年赴莫吉廖夫兼任最高统帅，宫廷趋于孤立。1917-03-02[O.S.]/03-15[N.S.]在普斯科夫退位，1918-07-17于叶卡捷琳堡被处决。 ‖ `←EVT-1914-1916-wwi-mobilization-shell-crisis-and-progressive-bloc`[self_isolating_commander|1915.08–1916.12]: 亲任最高统帅赴莫吉廖夫大本营，将首都人事留给皇后与拉斯普京圈影响，促使军政精英、宗室与杜…
+- **`ORG-octobrists-and-progressive-bloc`**（十月十七日同盟与进步同盟）: 1905年十月宣言后形成的十月十七日同盟是拥护君主立宪的温和自由主义政党；1915年的进步同盟是跨党派杜马联盟，二者并非同一组织。两者既要求改善政府与社会关系，又忧惧群众革命；1917年部分杜马领袖成为临时政权支点，却不能独掌街头、军队与苏维埃。 ‖ `←EVT-1914-1916-wwi-mobilization-shell-crisis-and-progressive-bloc`[formed_loyal_opposition|1915.08–1916]: 针对“炮弹荒”与宫廷失序结盟提出“信任内阁”妥协纲领，但受制于害怕群众革命、派系竞逐与回…
+- **`INS-state-duma-1906-1917`**（俄罗斯帝国国家杜马（第一至第四届））: 1905年革命使君主制接受立法性国家杜马，但1906年基本法仍保留皇帝任免政府、解散杜马与紧急立法权。头两届因土地与政治责任问题短命；1907年选举法后第三、四届趋保守。1915年进步同盟施压，1917年二月杜马临时委员会参与接管政权，须与苏维埃共析。 ‖ `←EVT-1914-1916-wwi-mobilization-shell-crisis-and-progressive-bloc`[institutional_battleground|1914–1916]: 杜马讲坛成为揭露后方行政失序与宫廷丑闻的扩音器，1916年11月米留可夫演说重创内阁声誉
+- **`PER-milyukov`**（帕维尔·米留可夫）: 俄国历史学家、卡德特党核心领袖（1859–1943）。主持解放同盟确立四尾制宪与有偿征地纲领；一战任进步同盟舵手，1916年发表“愚蠢还是叛国”演说；1917年任首届临时政府外长，03-03/03-16架空杜马，因04-18[O.S.]/05-01[N.S.]照会下野，流亡提“新策略”。 ‖ `←EVT-1914-1916-wwi-mobilization-shell-crisis-and-progressive-bloc`[liberal_spokesman|1915–1916]: 以“信任内阁”折中口号捏合进步同盟，1916年11月1日[O.S.]“愚蠢还是叛国”演说…
+- **`PER-guchkov`**（亚历山大·伊万诺维奇·古契科夫）: 十月十七日同盟领袖、第三届杜马前议长与战时军事工业委员会负责人。1917年他同舒尔金赴普斯科夫接收尼古拉二世退位文书，出任临时政府陆海军部长；军队权威危机和四月政治危机中辞职。战前宫廷政变计划真实存在，但未实际发动，不能将其当作二月起义的成熟指挥方案。 ‖ `←EVT-1914-1916-wwi-mobilization-shell-crisis-and-progressive-bloc`[war_industry_organizer_and_plotter|1915–1916]: 在第四届杜马院外主持中央战时工业委员会，并于1916年底联络青年军官图谋宫廷政变逼沙皇退位
+- **`PER-lvov`**（格奥尔吉·叶夫根尼耶维奇·李沃夫）: 地方自治领袖、一战救济组织主席，临时政府首任总理兼内务部长。1917-03-02[O.S.]/03-15[N.S.]起主政，推公民自由与自治改革，反强制信念遭夺地、军队瓦解及双重政权挑战；07-07/08[O.S.]/07-20/21[N.S.]辞职，后流亡法国从事救济。 ‖ `←EVT-1914-1916-wwi-mobilization-shell-crisis-and-progressive-bloc`[zemgor_leader|1914–1916]: 率领全俄地方自治会与城市联合会（Zemgor）承担前线伤兵救护与后勤补给，成长为温和派候…
+- **`CON-revolutionary-defensism-and-defeatism`**（革命护国主义与革命失败主义）: 1914–1918年社会主义者的战争路线分歧：普列汉诺夫护国、马尔托夫主张国际主义和平，列宁倡本国政府战败与变外战为内战。1917年策烈铁里主导“革命护国主义”，遭四月照会与六月攻势削弱；1918年布列斯特危机又分出左派“革命战争”与列宁“喘息和约”。 ‖ `←EVT-1914-1916-wwi-mobilization-shell-crisis-and-progressive-bloc`[ideological_cleavage|1914–1916]: 战争把俄国社会主义者撕裂为护国派、齐美尔瓦尔德国际派与列宁革命失败主义三大阵营
+- **`EVT-1917-02-february-revolution`**（1917年二月革命）: 1917年2月23日至3月3日（俄历；公历3月8—16日），彼得格勒女工罢工、跨厂动员与驻军兵变推翻帝制。杜马委员会接管行政，苏维埃代表工兵，临时政府在革命全权与旧宪制断裂中成立；双重政权并非简单的主动让权。 ‖ `←EVT-1914-1916-wwi-mobilization-shell-crisis-and-progressive-bloc`[structural_and_political_catalyst|1914–1917.02]: 总体战后方运输与粮食失衡、首都军工工人激增及精英离心，为1917年2月革命提供了结构与政…
 
-### 邻居节点: `PER-nicholas-ii`
-- **时效关系边** (`EVT-1914-1916-wwi-mobilization-shell-crisis-and-progressive-bloc` → `PER-nicholas-ii` | `self_isolating_commander` | 有效时段: `1915.08–1916.12`): 亲任最高统帅赴莫吉廖夫大本营，将首都人事留给皇后与拉斯普京圈影响，促使军政精英、宗室与杜马离心
-- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 俄罗斯帝国末代沙皇（1894–1917在位）。固守东正教君权神授与家产制专制信条；经历1905年血腥星期日并被迫签署《十月宣言》，1915年亲赴莫吉廖夫兼任最高统帅引发宫廷孤立，`1917-03-02 [O.S.] / 1917-03-15 [N.S.]` 在普斯科夫退位，`1918-07-17` 在叶卡捷琳堡伊帕季耶夫宅邸被处决。
-
-### 邻居节点: `ORG-octobrists-and-progressive-bloc`
-- **时效关系边** (`EVT-1914-1916-wwi-mobilization-shell-crisis-and-progressive-bloc` → `ORG-octobrists-and-progressive-bloc` | `formed_loyal_opposition` | 有效时段: `1915.08–1916`): 针对“炮弹荒”与宫廷失序结盟提出“信任内阁”妥协纲领，但受制于害怕群众革命、派系竞逐与回避行政责任而进退失据
-- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 1905年十月宣言后形成的十月十七日同盟是拥护君主立宪的温和自由主义政党；1915年的进步同盟是跨党派杜马联盟，二者并非同一组织。两者既要求改善政府与社会关系，又忧惧群众革命；1917年部分杜马领袖成为临时政权支点，却不能独掌街头、军队与苏维埃。
-
-### 邻居节点: `INS-state-duma-1906-1917`
-- **时效关系边** (`EVT-1914-1916-wwi-mobilization-shell-crisis-and-progressive-bloc` → `INS-state-duma-1906-1917` | `institutional_battleground` | 有效时段: `1914–1916`): 杜马讲坛成为揭露后方行政失序与宫廷丑闻的扩音器，1916年11月米留可夫演说重创内阁声誉
-- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 1905年革命使君主制接受立法性国家杜马，但1906年基本法仍保留皇帝任免政府、解散杜马与紧急立法权。头两届因土地与政治责任问题短命；1907年选举法后第三、四届趋保守。1915年进步同盟施压，1917年二月杜马临时委员会参与接管政权，须与苏维埃共析。
-
-### 邻居节点: `PER-milyukov`
-- **时效关系边** (`EVT-1914-1916-wwi-mobilization-shell-crisis-and-progressive-bloc` → `PER-milyukov` | `liberal_spokesman` | 有效时段: `1915–1916`): 以“信任内阁”折中口号捏合进步同盟，1916年11月1日[O.S.]“愚蠢还是叛国”演说引爆全国反宫廷舆情
-- **节点定性微摘要 [T1]** (完备度 `draft`): 俄国历史学家、立宪民主党（卡德特党）核心领袖。曾主持“解放同盟”并提出四尾制宪与有偿征地纲领；1915年组建战时“进步同盟”；1917年二月后任首届临时政府外交部长，在3月3日（俄历）/3月16日（公历）会议上架空国家杜马、宣称“全部完满权力”，5月因坚持参战照会下野。
-
-### 邻居节点: `PER-guchkov`
-- **时效关系边** (`EVT-1914-1916-wwi-mobilization-shell-crisis-and-progressive-bloc` → `PER-guchkov` | `war_industry_organizer_and_plotter` | 有效时段: `1915–1916`): 在第四届杜马院外主持中央战时工业委员会，并于1916年底联络青年军官图谋宫廷政变逼沙皇退位
-- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 十月十七日同盟领袖、第三届杜马前议长与战时军事工业委员会负责人。1917年他同舒尔金赴普斯科夫接收尼古拉二世退位文书，出任临时政府陆海军部长；军队权威危机和四月政治危机中辞职。战前宫廷政变计划真实存在，但未实际发动，不能将其当作二月起义的成熟指挥方案。
-
-### 邻居节点: `PER-lvov`
-- **时效关系边** (`EVT-1914-1916-wwi-mobilization-shell-crisis-and-progressive-bloc` → `PER-lvov` | `zemgor_leader` | 有效时段: `1914–1916`): 率领全俄地方自治会与城市联合会（Zemgor）承担前线伤兵救护与后勤补给，成长为温和派候任阁揆人选
-- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 留里克王族后裔、俄国地方自治运动领袖、1917年临时政府首任总理兼内务部长。早年主持图拉省地方自治局与战时救济，一战期间任全俄地方自治联合会及全俄地方自治与城市联合会总委员会（Земгор）主席，成为自由派公共社会的全国象征。`1917-03-02 [O.S.] / 1917-03-15 [N.S.]` 起主持首届及第一届联合临时政府，推行广泛公民自由与地方自治改革，但其排斥国家强制的“民粹式自由主义”信念在农民夺地、军队瓦解与双重政权冲突中彻底破产。七月危机后于 `1917-07-07/08 [O.S.] / 1917-07-20/21 [N.S.]` 辞职交棒克伦斯基，十月革命后经西伯利亚流亡法国，主持巴黎俄国政治会议与难民救济，`1925-03-07 [N.S.]` 逝于巴黎近郊。
-
-### 邻居节点: `CON-revolutionary-defensism-and-defeatism`
-- **时效关系边** (`EVT-1914-1916-wwi-mobilization-shell-crisis-and-progressive-bloc` → `CON-revolutionary-defensism-and-defeatism` | `ideological_cleavage` | 有效时段: `1914–1916`): 战争把俄国社会主义者撕裂为护国派、齐美尔瓦尔德国际派与列宁革命失败主义三大阵营
-- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 1914–1918年俄国社会主义者围绕世界大战与革命关系的对抗性概念对。1914年裂为普列汉诺夫护国主义、马尔托夫齐美尔瓦尔德国际主义和平论与列宁“使本国政府战败/变外战为内战”；1917年春策烈铁里确立苏维埃主流“革命护国主义”，旋被四月照会与六月攻势掏空；1918年初布列斯特危机中再裂变为左派“革命战争”与列宁“喘息和约”。
-
-### 邻居节点: `EVT-1917-02-february-revolution`
-- **时效关系边** (`EVT-1914-1916-wwi-mobilization-shell-crisis-and-progressive-bloc` → `EVT-1917-02-february-revolution` | `structural_and_political_catalyst` | 有效时段: `1914–1917.02`): 总体战后方运输与粮食失衡、首都军工工人激增及精英离心，为1917年2月革命提供了结构与政治温床
-- **节点定性微摘要 [T1]** (完备度 `draft`): 1917年2月23日至3月3日（公历3月8日至16日），彼得格勒爆发民众起义推翻罗曼诺夫王朝。妇女与工人和平抗议迅速演变为卫戍部队大规模倒戈；沙皇尼古拉二世退位，国家杜马临时委员会与彼得格勒苏维埃并立催生“双重政权”，开启俄国长达八个月的宪政民主探索与剧烈社会激进化进程。
-
-## 3. 关联史学争鸣光谱 (Historiographical Debates)
+## 3. 关联史学争鸣与学者论断索引 (主卡外关联争鸣 2 项)
 ### `DEB-1914-haimson-thesis-stability`：海姆森命题：战前俄国的社会稳定与双重极化
 ## [T1] 核心问题定义
 一战前的工业增长、土地改革与杜马政治，能否使帝国逐步稳定，还是工人与有产社会、社会与专制国家的双重极化已侵蚀统治基础？1912年后罢工回升和改革受阻如何与战争冲击相互作用，须区分可观察的危机与无法验证的无战争反事实及其解释限度。
@@ -109,7 +78,32 @@
 | 孟什维克“革命护国主义”与联合政府陷阱 | Ziva Galili, *The Menshevik Leaders in the Russian Revolution* (1989) | 第二章从粮食与铁路技术依赖、对失控“士兵革命”的疑虑及工人反专政心理正面解释3月初双重政权的诞生；随后以“革命护国主义”和5月入阁解释苏维埃社会权威与联合政府行政责任之间的致命撕裂。 | `CLM-galili-1989-revolutionary-defensism`；`CLM-galili-1989-coalition-government-trap` | 5月以后的联合政府危机属双重政权中后期演变，应与2月底3月初的政权创生机制分段考察。 |
 | 精英宫廷阴谋论及其社会史反证 | 叶夫根尼·斯皮岑（E. Yu. Spitsyn）《俄罗斯帝国与苏联通史》第3卷（B级新传统主义综合）；Orlando Figes, *A People's Tragedy* (1996) | 斯皮岑渲染军方高层、杜马自由派与协约国驻俄使团的“精英倒沙皇阴谋”；Figes（注：所引论断卡主论3月《第一号命令》后至10月的军纪瓦解、社会等级逆转与“战壕布尔什维主义”）与Hasegawa、Fedor Gaida共同证明基层士兵拒绝向人群开火及社会反威权爆发具有完全独立于精英接触的动力。 | `CLM-spitsyn-february-1917-elite-conspiracy-thesis`；`CLM-figes-1996-soldier-mutiny-and-social-inversion` | 上层倒沙皇接触或普斯科夫劝退绝不等于指挥2月23–27日街头罢工与预备营哗变；混淆精英善后与起义命令链违反证据等级铁律。 |
 
-## 4. 关联时间线锚点 (共 15 条)
+
+### 3.1 关联核心论断与史学家学派坐标 (`CLM-*` → `SCH-*`, 展示前 22/22 条)
+- **`CLM-gaida-2003-progressive-bloc-dilemma`** [`SCH-gaida-fedor`(费奥多尔·盖达) | pp. 135-136, 162-168]: 
+- **`CLM-gaida-2003-liberals-in-february-1917`** [`SCH-gaida-fedor`(费奥多尔·盖达) | pp. 355-356, 433-439]: 
+- **`CLM-spitsyn-february-1917-elite-conspiracy-thesis`** [`SCH-spitsyn-yevgeny`(叶夫根尼·斯皮岑) | PDF pp. 11–15, 24, 28]: 
+- **`CLM-hoffmann-2011-continuum-of-total-war-1914-1929`** [`SCH-hoffmann-david`(大卫·L·霍夫曼) | pp. 12–13, 38, 127–128]: 
+- **`CLM-hasegawa-2018-duma-committee-revision`** [`SCH-hasegawa-tsuyoshi`(长谷川毅) | pp. xiii–xiv (PDF pp. 14–15); pp. 366–368, 377–378 (PDF pp. 387–389, 398–399); p. 652 (PDF p. 673)]: 
+- **`CLM-steinberg-2017-continuum-of-crisis-1905-1921`** [`SCH-steinberg-mark`(马克·D·斯坦伯格) | pp. 19, 61–62, 107–108]: 
+- **`CLM-bonnell-1983-1912-1914-union-and-insurance-boards-bolshevik-capture`** [`SCH-bonnell-victoria`(维多利亚·E·邦内尔) | Book pp. 366–371, 390–438 [PDF pp. 389–394, 413–461]]: 
+- **`CLM-bonnell-1983-state-employer-repression-undermining-menshevik-reformism`** [`SCH-bonnell-victoria`(维多利亚·E·邦内尔) | Book pp. 292–305, 316–323, 336–352, 372–389, 450–452 [PDF pp. 315–328, 339–346, 359–375, 395–412, 473–475]]: 
+- **`CLM-hogan-1994-petersburg-metalworkers-1905-to-lena`** [`SCH-hogan-heather`(希瑟·霍根 · labor-social-history) | pp. 85–112]: 
+- **`CLM-smith-sa-1996-petersburg-bolshevik-vs-menshevik-worker-appeal`** [`SCH-smith-sa`(斯蒂芬·A·史密斯（S. A. Smith）) | International Review of Social History, vol. 41 (1996), pp. 12–15, 19–25]: 
+- **`CLM-manning-1982-june-third-coup-social-basis`** [`SCH-manning-roberta`(罗伯塔·T·曼宁) | pp. 238–239]: 
+- **`CLM-manning-1982-gentry-fronde-to-reaction`** [`SCH-manning-roberta`(罗伯塔·T·曼宁) | pp. 54–60, 122–124]: 
+- **`CLM-hildermeier-2000-azev-affair-and-stolypin-era-paralysis`** [`SCH-hildermeier-manfred`(曼弗雷德·希尔德迈尔) | EPUB版无稳定原书页码；以本地章节与行号定位（ch14 L24–91, ch18 L112–150, ch22 L6–108, ch23 L81–217, ch24 L8–285, ch25 L6–33, ch26 L6–62；epub:main-14.xhtml, main-23.xhtml, main-24.xhtml, main-25.xhtml, main-26.xhtml, main-27.xhtml）]: 
+- **`CLM-pipes-1990-patrimonial-state-and-intelligentsia`** [`SCH-pipes-richard`(理查德·派普斯) | ch. 2 (Official Russia); ch. 4 (The Intelligentsia); cf. Introduction]: 
+- **`CLM-yao-hai-1917-modernization-rupture-and-plebeian-radicalism`** [`SCH-yao-hai`(姚海) | [PDF pp. 47-55, 57-64, 68-72, 75-81, 87-88]]: 
+- **`CLM-hasegawa-2018-sub-elite-activists`** [`SCH-hasegawa-tsuyoshi`(长谷川毅) | pp. 643–645 (PDF pp. 664–666); cf. pp. 203–204, 218 (PDF pp. 224–225, 239)]: 
+- **`CLM-hasegawa-2018-dual-power-origins`** [`SCH-hasegawa-tsuyoshi`(长谷川毅) | pp. 626–638 (PDF pp. 647–659); cf. pp. 649, 660 (PDF pp. 670, 681)]: 
+- **`CLM-sukhanov-1922-dual-power-pact`** [`SCH-sukhanov-nikolai`(尼古拉·苏汉诺夫) | pp. 117–126, 150, 153–158 (PDF pp. 163–172, 196, 199–204); cf. pp. 68, 104–108, 113–114]: 
+- **`CLM-trotsky-1930-dual-power-instability`** [`SCH-trotsky-leon`(列夫·达维多维奇·托洛茨基 · participant-historian) | （中译 EPUB 无纸页；第一卷第十一、十六章）]: 
+- **`CLM-galili-1989-revolutionary-defensism`** [`SCH-galili-ziva`(齐娃·加利利) | pp. 134-140, 148-151 (PDF pp. 152-158, 174-177)]: 
+- **`CLM-galili-1989-coalition-government-trap`** [`SCH-galili-ziva`(齐娃·加利利) | pp. 169-170, 177-181 (PDF pp. 195-196, 203-207)]: 
+- **`CLM-figes-1996-soldier-mutiny-and-social-inversion`** [`SCH-figes-orlando`(奥兰多·费吉斯) | pp. 404-412]: 
+
+## 4. 关联时间线骨干锚点 (L0–L2 展示 15 条)
 - **1914-07-17 [O.S.] / 1914-07-30 [N.S.]** (`TL-W3-1914-07-30`, L2): **俄国总动员** — 派普斯双写 July 17/30。这是宣战前的动员日，不是德国的宣战照会。
 - **1914-07-19 [O.S.] / 1914-08-01 [N.S.]** (`TL-W15-L1-E05-01`, L1): **德国对俄宣战** — 总体战改变革命运动的环境，帝国军事、财政和供应体系进入长期压力。
 - **1914-07-19 [O.S.] / 1914-08-01 [N.S.]** (`TL-W3-1914-08-01`, L2): **德国对俄宣战与尼古拉二世的战争状态宣言** — L0 终点是德国对俄宣战。派普斯双写 July 19 / August 1。长谷川把同一俄历日写成尼古拉二世向德国和奥匈宣战。两个句子的主语不同，落在同一个俄历日的通行编年里。奥匈的单独宣战日不另补。

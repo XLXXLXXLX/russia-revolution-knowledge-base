@@ -1,18 +1,13 @@
-# 1-Hop 平衡上下文包：`MTG-1917-07-rsdlp-6th-congress` (俄国社会民主工党（布尔什维克）第六次代表大会)
+# 1-Hop 去重平衡上下文包：`MTG-1917-07-rsdlp-6th-congress`
 
-> 本文件由 `python scripts/kb.py pack` 自动编译，旨在将失控的 `1+N` 随机读取压缩为**等权重、带时效边实质与史学盲区告警**的单次全景读取。
+> 由 `python scripts/kb.py pack` 动态编译：保留 **100% 一跳邻居与多时段关系边**，跨卡自动去重争鸣与时间线，并关联学者学派 (`SCH-*`)。
 
-## 0. 认知完备度与反偏斜仪表盘 (Epistemic & Skew Warnings)
-- **主卡路径**: `cards/meetings/MTG-1917-07-rsdlp-6th-congress.md`
-- **完备度等级**: `multi-perspective`
-- **已覆盖视角**: `social-organizational-rabinowitch, geopolitical-biographical-kotkin, institutional-carr, revisionist-cohen`
-- **待补齐视角**: `1917-stenographic-minutes-lost-original, sovokin-1973-lenin-draft-theses-russian-fulltext`
-- **偏斜风险提示**:
-  - ⚠️ 主卡显式声明尚缺以下视角待补: `1917-stenographic-minutes-lost-original, sovokin-1973-lenin-draft-theses-russian-fulltext`。
+## 0. 认知完备度与反偏斜仪表盘
+- **`MTG-1917-07-rsdlp-6th-congress`** (俄国社会民主工党（布尔什维克）第六次代表大会 | `cards/meetings/MTG-1917-07-rsdlp-6th-congress.md` | `multi-perspective`): 已覆盖=`social-organizational-rabinowitch, geopolitical-biographical-kotkin, institutional-carr, revisionist-cohen`；待补=`1917-stenographic-minutes-lost-original, sovokin-1973-lenin-draft-theses-russian-fulltext`
 
 ## 1. 主卡核心层 ([T1] + [T2])
 ## [T1] 60秒定性微摘要
-`1917-07-26` 至 `08-03 [O.S.] / 1917-08-08` 至 `08-16 [N.S.]`，布尔什维克在彼得格勒半地下召开第六次代表大会。列宁藏身拉兹利夫湖缺席、托洛茨基等系狱，由斯维尔德洛夫主持，斯大林与布哈林作主要政治与国际报告。大会正式批准约4,000人的托洛茨基“区联派（`Межрайонцы`）”并入，在激辩后暂时撤下“一切政权归苏维埃”口号，并留下普列奥布拉任斯基修正案与斯大林“俄国可能率先开辟社会主义道路/创造性马克思主义”的著名交锋。
+1917-07-26至08-03[O.S.]/08-08至08-16[N.S.]，布尔什维克六大在彼得格勒半地下召开，列宁、托洛茨基缺席，斯维尔德洛夫主持。大会批准区联派并入，暂撤“一切政权归苏维埃”口号；普列奥布拉任斯基与斯大林就俄国率先开辟社会主义道路交锋。
 
 ## [T2] 核心脉络、时效关系边表与史学争鸣光谱
 
@@ -63,32 +58,15 @@
 
 ---
 
-## 2. 一跳邻域等权重微摘要 (共 6 个关联节点，严防大卡霸占上下文)
-### 邻居节点: `EVT-1917-07-july-days`
-- **时效关系边** (`MTG-1917-07-rsdlp-6th-congress` → `EVT-1917-07-july-days` | `forces_underground` | 有效时段: `1917-07-05 至 08-03 [O.S.] / 1917-07-18 至 08-16 [N.S.]`): 七月流血与通缉迫使列宁隐蔽拉兹利夫、托洛茨基与加米涅夫入狱，大会在维堡区与纳尔瓦区半地下召开并重新评估苏维埃性质（Rabinowitch 1976, ch06–ch07）。
-- **节点定性微摘要 [T1]** (完备度 `draft`): `1917-07-03 [O.S.] / 07-16 [N.S.]` 至 `07-05 / 07-18` 彼得格勒武装群众危机。第一机枪团、喀琅施塔得水兵与普梯洛夫工人自发抗议六月攻势及内阁危机；分裂为温和中央、激进军事组织与彼得堡委员会的布尔什维克被动卷入（区联派领袖托洛茨基在外围声援并解救切尔诺夫），遭苏维埃护国派与临时政府调军镇压。
+## 2. 一跳邻域全量微摘要目录 (去重后共 6 个节点，0 截断)
+- **`EVT-1917-07-july-days`**（1917年七月事变）: 1917年7月3—5日（俄历；公历7月16—18日），机枪团、水兵与工人要求苏维埃接权。布尔什维克中央、军事组织与地方党委在劝阻和介入间分裂；德国经费指控与调兵镇压扭转局势。基层激进化、党内决策和资助指控须分别求证。 ‖ `←MTG-1917-07-rsdlp-6th-congress`[forces_underground|1917-07-05 至 08-03 [O.S.] / 1917-07-18 至 08-16 [N.S.]]: 七月流血与通缉迫使列宁隐蔽拉兹利夫、托洛茨基与加米涅夫入狱，大会在维堡区与纳尔瓦区半地下…
+- **`PER-lenin`**（弗拉基米尔·列宁）: 布尔什维克党缔造者、苏俄人民委员会主席（1917–1924）。1893年投身马克思主义运动，1903年促成布尔什维克分化；1917年发表《四月提纲》并领导十月夺权，历经布列斯特和约、内战与战时共产主义；1921年主持转向新经济政策，晚年（1922–1923）就官僚化与接班人同斯大林冲突。 ‖ `←MTG-1917-07-rsdlp-6th-congress`[guides_remotely_with_compromise|1917-07-15 至 08-03 [O.S.] / 1917-07-28 至 08-16 [N.S.]]: 虽缺席会场，借《论口号》促使大会撤下“一切政权归苏维埃”并拒绝出庭受审；但大会通过7人委…
+- **`PER-sverdlov`**（雅科夫·斯维尔德洛夫）: 布尔什维克地下组织与党国协调骨干。1917年四月会议后主持中央书记处，参与十月军革委，11月任全俄中执委主席；1918年干预立宪会议开幕、主持苏俄宪法起草。1919年3月早逝，在内战与党组织扩张背景下加速八大及会后全会常设政治局、组织局、书记处的分工。 ‖ `←MTG-1917-07-rsdlp-6th-congress`[organizes_and_reports|1917-07-26 至 08-03 [O.S.] / 1917-08-08 至 08-16 [N.S.]]: 在列宁、托洛茨基双双缺席下，斯维尔德洛夫统筹组织与主持，斯大林担纲政治主报告，布哈林担纲…
+- **`PER-trotsky`**（列夫·托洛茨基）: 俄国革命家、“不断革命论”提出者，1905年彼得堡苏维埃实际领袖与1917年彼得格勒苏维埃主席；借军革委与苏维埃二大衔接统筹十月夺权，内战期起用4.8万军事专家缔造红军。1923–1927年领衔左翼与联合反对派抗衡斯大林集权并受“红色波拿巴”污名围剿，1927年被开除出党，1929年被驱逐出境。 ‖ `←MTG-1917-07-rsdlp-6th-congress`[merges_into|1917-07-26 至 08-03 [O.S.] / 1917-08-08 至 08-16 [N.S.]]: 约4,000名区联派成员正式并入布尔什维克党，托洛茨基、乌里茨基、越飞当选中央委员，完成…
+- **`PER-preobrazhensky`**（叶夫根尼·普列奥布拉任斯基）: 老布尔什维克经济理论家，1920–1921年任中央书记。1923年起草《四十六人声明》批判书记等级制；1924–1926年提出社会主义原始积累，以价格税收而非行政暴力向私营部门筹资，与布哈林论战。1928–1929年误判斯大林工业化转向而脱离托派求和，1937年被处决。 ‖ `←MTG-1917-07-rsdlp-6th-congress`[clashes_over_strategy|1917-08-03 [O.S.] / 1917-08-16 [N.S.]]: 普氏要求写入“以西方无产阶级革命为条件”，斯大林以“创造性马克思主义”主张俄国可能率先开…
+- **`ORG-bolsheviks-rcpb-vkpb`**（布尔什维克派—俄共（布）—联共（布））: 布尔什维克起于1903年社民工党二大后的党内多数派，经流亡、地下活动与1917年群众扩张成为执政党；1918年称俄共（布），1925年称联共（布）。它从地方主动性较强的革命党，演变为拥有任命网络与纪律制裁的党国核心，过程分阶段且存争议。 ‖ `→MTG-1917-07-rsdlp-6th-congress`[party-congress|1917-07]: 代表约20–24万党员的口径
 
-### 邻居节点: `PER-lenin`
-- **时效关系边** (`MTG-1917-07-rsdlp-6th-congress` → `PER-lenin` | `guides_remotely_with_compromise` | 有效时段: `1917-07-15 至 08-03 [O.S.] / 1917-07-28 至 08-16 [N.S.]`): 虽缺席会场，借《论口号》促使大会撤下“一切政权归苏维埃”并拒绝出庭受审；但大会通过7人委员会融入莫斯科派保卫苏维埃条款，并非机械照搬（Rabinowitch 1976, ch07 L15–27）。
-- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 布尔什维克党缔造者、苏俄人民委员会主席（1917–1924）。1893年投身马克思主义运动，1903年促成布尔什维克分化；1917年发表《四月提纲》并领导十月夺权，历经布列斯特和约、内战与战时共产主义；1921年主持转向新经济政策，晚年（1922–1923）就官僚化与接班人同斯大林冲突。
-
-### 邻居节点: `PER-sverdlov`
-- **时效关系边** (`MTG-1917-07-rsdlp-6th-congress` → `PER-sverdlov` | `organizes_and_reports` | 有效时段: `1917-07-26 至 08-03 [O.S.] / 1917-08-08 至 08-16 [N.S.]`): 在列宁、托洛茨基双双缺席下，斯维尔德洛夫统筹组织与主持，斯大林担纲政治主报告，布哈林担纲国际报告，奠定十月前党内实务领导班底（Kotkin 2014, ch12 L460–461）。
-- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 布尔什维克地下组织骨干与早期党国协调中枢（1885–1919）。1902年入党长期流放西伯利亚；1917年四月会议后主持中央书记处并参与十月军革委核心；11月接任全俄中执委主席，1918年主持干预立宪会议开幕及苏俄首部宪法起草（7月10日通过）；1919年3月早逝在内战与党组织扩张背景下加速了八大及会后中央全会常设政治局、组织局与书记处的制度分工。
-
-### 邻居节点: `PER-trotsky`
-- **时效关系边** (`MTG-1917-07-rsdlp-6th-congress` → `PER-trotsky` | `merges_into` | 有效时段: `1917-07-26 至 08-03 [O.S.] / 1917-08-08 至 08-16 [N.S.]`): 约4,000名区联派成员正式并入布尔什维克党，托洛茨基、乌里茨基、越飞当选中央委员，完成十月起义核心领导层拼图（Carr 1950, ch04 p. 91）。
-- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 俄国革命家、“不断革命论”提出者，1905年彼得堡苏维埃实际领袖与1917年彼得格勒苏维埃主席；借军革委与苏维埃二大衔接统筹十月夺权，内战期起用4.8万军事专家缔造红军。1923–1927年领衔左翼与联合反对派抗衡斯大林集权并受“红色波拿巴”污名围剿，1927年被开除出党，1929年被驱逐出境。
-
-### 邻居节点: `PER-preobrazhensky`
-- **时效关系边** (`MTG-1917-07-rsdlp-6th-congress` → `PER-preobrazhensky` | `clashes_over_strategy` | 有效时段: `1917-08-03 [O.S.] / 1917-08-16 [N.S.]`): 普氏要求写入“以西方无产阶级革命为条件”，斯大林以“创造性马克思主义”主张俄国可能率先开辟社会主义道路并获大会多数支持（Kotkin 2014, ch12 L463–465）。
-- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 老布尔什维克经济理论家，1920–1921年任中央书记。1923年领衔起草《四十六人声明》抨击书记等级制；1924–1926年提出“社会主义原始积累规律”，主张以价格—税收杠杆而非行政暴力从私营部门汲取资金，与布哈林大论战；1928–1929年因误判斯大林工业化转向率先脱离托洛茨基和解，1937年被处决。
-
-### 邻居节点: `ORG-bolsheviks-rcpb-vkpb`
-- **时效关系边** (`ORG-bolsheviks-rcpb-vkpb` → `MTG-1917-07-rsdlp-6th-congress` | `party-congress` | 有效时段: `1917-07`): 代表约20–24万党员的口径
-- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 布尔什维克起于1903年社民工党二大后的党内多数派，经流亡、地下活动与1917年群众扩张成为执政党；1918年称俄共（布），1925年称联共（布）。它从地方主动性较强的革命党，演变为拥有任命网络与纪律制裁的党国核心，过程分阶段且存争议。
-
-## 3. 关联史学争鸣光谱 (Historiographical Debates)
+## 3. 关联史学争鸣与学者论断索引 (主卡外关联争鸣 2 项)
 ### `DEB-1917-october-coup-or-social-revolution`：十月革命：少数派政变还是社会革命？
 ## [T1] 核心问题定义
 十月武装夺权是少数派政变，还是工人、士兵与农民社会革命的政治表达？有组织的起义与广泛的基层动员能否同时成立，苏维埃多数又能否代表全国选民？这些问题涉及不同地区、不同时间的支持与合法性，不能以一次投票或一次攻占行动互相替代。
@@ -122,4 +100,30 @@
 | 列宁思想解释 | Valentin Sakharov（瓦连京·萨哈罗夫）, *На распутье... 1921–1929 гг.*（《站在十字路口》，2012） | 论证列宁《论合作社》两份口述稿存在根本理论断裂（放弃初稿“商贩式”流通合作社，第二稿转向国有土地与生产资料上的生产合作社/集体农庄），指斥布哈林偷换概念，并论证斯大林工业化与 MTS 集体农庄路线是第二稿的正统继承人。 | `CLM-sakharov-2012-lenin-cooperative-plan-debates` | 具鲜明后苏联亲斯大林/反布哈林倾向；“列宁晚期生产合作社逻辑”不能直接等同于 1929–1930 年暴力全盘强制集体化，亦非 1925 年党内表决裁决。 |
 | 列宁格勒反对派 | Yuri Zhukov（尤里·茹科夫）, 《格里高利·季诺维也夫：被遗忘的世界革命领袖》(2011) | 季诺维也夫1925年发难植根列宁格勒地方权力与共产国际世界革命经验（含1923年德国失败），并非托洛茨基路线的简单副本。 | `CLM-zhukov-zinoviev-1925-leningrad-opposition`；`CLM-zhukov-zinoviev-comintern-and-1923-germany` | 带有后苏联民族国家现实主义倾向（赞斯大林1923年审慎、贬季氏盲动），其叙事仍须与会议速记与文本版本对勘。 |
 
-## 4. 关联时间线锚点 (共 0 条)
+
+### 3.1 关联核心论断与史学家学派坐标 (`CLM-*` → `SCH-*`, 展示前 24/32 条)
+- **`CLM-rabinowitch-1976-open-democratic-mass-party`** [`SCH-rabinowitch-alexander`(亚历山大·拉比诺维奇) | 未核：EPUB 章节及行号]: 
+- **`CLM-pipes-1990-october-classic-coup`** [`SCH-pipes-richard`(理查德·派普斯) | ch. 11 (The October Coup); cf. Introduction]: 
+- **`CLM-rabinowitch-1976-october-three-factions-debate`** [`SCH-rabinowitch-alexander`(亚历山大·拉比诺维奇) | 未核：EPUB 章节及行号]: 
+- **`CLM-rabinowitch-1976-trotsky-soviet-congress-strategy`** [`SCH-rabinowitch-alexander`(亚历山大·拉比诺维奇) | 未核：EPUB 章节及行号]: 
+- **`CLM-loginov-lenin-1917-fleeting-window-of-power`** [`SCH-loginov-vladlen`(弗拉德连·洛吉诺夫) | pp. 523-524, 531-532, 560-561, 621-622, 656-658]: 
+- **`CLM-smith-sa-1983-defensive-workers-control`** [`SCH-smith-sa`(斯蒂芬·A·史密斯（S. A. Smith）) | 中译本 pp. 106–112, 133, 135, 137, 191（即源文件标注 PDF pp. 111–117, 138, 140, 142, 196）；注意：均为中译本页码，非英文原版页码]: 
+- **`CLM-koenker-1981-moscow-october-armed-struggle-vs-petrograd`** [`SCH-koenker-diane`(黛安·P·科恩克尔) | pp. 329–355 (local PDF pp. 345–371); p. 366 (PDF p. 382)]: 
+- **`CLM-koenker-1981-rational-incremental-radicalization`** [`SCH-koenker-diane`(黛安·P·科恩克尔) | pp. 359–363 (local PDF pp. 375–379); p. 254 (PDF p. 270)]: 
+- **`CLM-basil-1984-october-and-vikzhel-collapse`** [`SCH-basil-john`(约翰·D·巴兹尔) | pp. 165–175（本地 PDF 同号）]: 
+- **`CLM-yao-hai-post-october-coalition-failure-and-one-party-formation`** [`SCH-yao-hai`(姚海) | [PDF pp. 532-535, 543-569]]: 
+- **`CLM-yao-hai-constituent-assembly-vs-soviet-legitimacy-clash`** [`SCH-yao-hai`(姚海) | [PDF pp. 574-596]]: 
+- **`CLM-rabinowitch-2007-constituent-assembly`** [`SCH-rabinowitch-alexander`(亚历山大·拉比诺维奇) | pp. 88-91, 105-110, 121-127]: 
+- **`CLM-trotsky-1930-art-of-insurrection-and-soviet-legality`** [`SCH-trotsky-leon`(列夫·达维多维奇·托洛茨基 · participant-historian) | （中译 EPUB 无纸页；第三卷第二十—二十一章）]: 
+- **`CLM-sukhanov-1922-october-walkout-tragedy`** [`SCH-sukhanov-nikolai`(尼古拉·苏汉诺夫) | pp. 631–647, 657–660 (PDF pp. 683–699, 709–711)]: 
+- **`CLM-figes-1996-peasant-moral-economy-1917`** [`SCH-figes-orlando`(奥兰多·费吉斯) | pp. 343-352]: 
+- **`CLM-suny-2017-totalitarian-vs-social-history-turn`** [`SCH-suny-ronald-gregor`(罗纳德·格里戈尔·苏尼) | pp. 87-95 (approx. ch. 2 sect. on totalitarianism and revision)]: 
+- **`CLM-suny-2017-class-discourse-and-polarization`** [`SCH-suny-ronald-gregor`(罗纳德·格里戈尔·苏尼) | pp. 160-175 (approx. ch. 5 on class, strikes, discourse)]: 
+- **`CLM-blanc-2021-borderlands-in-1905-and-1917`** [`SCH-blanc-eric`(埃里克·布兰克) | pp. 20–23, 338–436, 488–531, 457–543]: 
+- **`CLM-corney-2004-istpart-and-institutionalizing-october-memory`** [`SCH-corney-frederick`(弗雷德里克·C·科尼 · memory-and-cultural-history) | 【待规整语料】]: 
+- **`CLM-bukharin-stalin-1925-one-country-internal-forces`** [`SCH-stalin-iosif`(约瑟夫·维萨里奥诺维奇·斯大林 · participant-primary-text) | 汇编 PDF pp. 38–40、85–90、113–115；《斯大林全集》页码仅按宿主转引，本卡未回核]: 
+- **`CLM-trotsky-1905-december-uprising-lessons-and-permanent-revolution-defense`** [`SCH-trotsky-leon`(列夫·达维多维奇·托洛茨基 · participant-historian) | 中译书页 ·225·、·278·、·281·–·282·、·292·、·308·、·325·–·328·、·330·、·406·（1922 年俄文第 2 版系统，PDF pp. 229–410）]: 
+- **`CLM-zinoviev-trotsky-1926-world-economy-critique`** [`SCH-trotsky-leon`(列夫·达维多维奇·托洛茨基 · participant-historian) | 汇编 PDF pp. 67–68、82–91；季诺维也夫引文自标 1925 年问题，托洛茨基诸段在汇编中无单行本年份与页码]: 
+- **`CLM-deutscher-1959-disarmed-prophet-paradox`** [`SCH-isaac-deutscher`(艾萨克·多伊彻) | （中译本无独立纸页；对应第二部 1923 年争论章）]: 
+
+## 4. 关联时间线骨干锚点 (L0–L2 展示 0 条)

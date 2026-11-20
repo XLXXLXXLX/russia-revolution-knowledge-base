@@ -1,18 +1,13 @@
-# 1-Hop 平衡上下文包：`MTG-1912-01-prague-conference` (俄国社会民主工党第六次（布拉格）全俄代表会议)
+# 1-Hop 去重平衡上下文包：`MTG-1912-01-prague-conference`
 
-> 本文件由 `python scripts/kb.py pack` 自动编译，旨在将失控的 `1+N` 随机读取压缩为**等权重、带时效边实质与史学盲区告警**的单次全景读取。
+> 由 `python scripts/kb.py pack` 动态编译：保留 **100% 一跳邻居与多时段关系边**，跨卡自动去重争鸣与时间线，并关联学者学派 (`SCH-*`)。
 
-## 0. 认知完备度与反偏斜仪表盘 (Epistemic & Skew Warnings)
-- **主卡路径**: `cards/meetings/MTG-1912-01-prague-conference.md`
-- **完备度等级**: `multi-perspective`
-- **已覆盖视角**: `soviet-orthodox, western-political-history-kotkin, menshevik-historiography-getzler, revisionist-lih, empire-wide-comparative-blanc`
-- **待补齐视角**: `primary-prague-protocols-direct-transcript`
-- **偏斜风险提示**:
-  - ⚠️ 主卡显式声明尚缺以下视角待补: `primary-prague-protocols-direct-transcript`。
+## 0. 认知完备度与反偏斜仪表盘
+- **`MTG-1912-01-prague-conference`** (俄国社会民主工党第六次（布拉格）全俄代表会议 | `cards/meetings/MTG-1912-01-prague-conference.md` | `multi-perspective`): 已覆盖=`soviet-orthodox, western-political-history-kotkin, menshevik-historiography-getzler, revisionist-lih, empire-wide-comparative-blanc`；待补=`primary-prague-protocols-direct-transcript`
 
 ## 1. 主卡核心层 ([T1] + [T2])
 ## [T1] 60秒定性微摘要
-1912-01-18至1912-01-30 [N.S.]列宁派在奥匈帝国布拉格召开的秘密代表会议。会议自任俄国社会民主工党最高全权机关，宣布《我们的曙光》等孟什维克取消派已置身党外，废除1910年巴黎协议，选出布尔什维克主导的中央委员会并会后增补斯大林入中委及俄罗斯局，建立起独立领导中央并加深两派组织决裂（尽管俄国国内地方联合委员会与基层合作仍长期延续）。
+1912-01-18至01-30[N.S.]，列宁派在布拉格秘密开会，自任社民工党最高机关，宣告《我们的曙光》等取消派置身党外，废除1910年巴黎协议。会议选出布尔什维克主导的中央，会后增补斯大林入中委及俄罗斯局；独立中央加深分裂，但国内地方联合与基层合作仍延续。
 
 ## [T2] 核心脉络、时效关系边表与史学争鸣光谱
 
@@ -43,45 +38,18 @@
   - **[孟什维克史学与政治传记派 / Israel Getzler (1967)]**（`getzler_1967_martov/ch06`）：以马尔托夫视角复盘1908–1911年“错失的机遇（The Missed Opportunity）”，认为孟什维克在1910年巴黎全会上手握“征款丑闻”道义优势却因顾惜统一未果断另立党统，反而通过反取消主义妥协决议武装了列宁，使列宁得以在1912年1月收割正式党名、托管基金与合法出版先机。
   - **[修正式社会民主主义语境派与帝国基层比较派 / Lars T. Lih (2006, 2012) & Eric Blanc (2021)]**（`CLM-lih-2006-textbook-myth-critique`; `blanc_2021_rev_sd/ch13`）：反对把布拉格会议神化或妖魔化为“一夜之间建成纯粹先锋党”的断裂点。Lih 与 Blanc 指出，会议仅驱逐公开否定地下党的《我们的曙光》取消派而未排除护党孟什维克，且在俄国国内强烈的“非派别统一”工人情绪制约下，《真理报》最初以联合护党孟什维克的非派别面貌运作，外省与边疆两派联合委员会一直延续至1917年夏秋——布尔什维克后来的群众霸权恰恰得益于长期留在更广泛的社会民主党框架内争夺多数，而非过早自我孤立为狭隘宗派。
 
-## 2. 一跳邻域等权重微摘要 (共 9 个关联节点，严防大卡霸占上下文)
-### 邻居节点: `PER-lenin`
-- **时效关系边** (`PER-lenin` → `MTG-1912-01-prague-conference` | `convened-and-split-party` | 有效时段: `1912.01`): 召集布拉格全俄代表会议驱逐孟什维克取消派、组建纯布尔什维克中央委员会，会后将斯大林增补入中委与俄国局。
-- **时效关系边** (`MTG-1912-01-prague-conference` → `PER-lenin` | `architect-and-drafter` | 有效时段: `1911–1912`): 主导筹备并起草核心决议，借布拉格会议建立布尔什维克主导的独立中央、驱逐《我们的曙光》取消派并掌控正式党名与经费
-- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 布尔什维克党缔造者、苏俄人民委员会主席（1917–1924）。1893年投身马克思主义运动，1903年促成布尔什维克分化；1917年发表《四月提纲》并领导十月夺权，历经布列斯特和约、内战与战时共产主义；1921年主持转向新经济政策，晚年（1922–1923）就官僚化与接班人同斯大林冲突。
+## 2. 一跳邻域全量微摘要目录 (去重后共 9 个节点，0 截断)
+- **`EVT-1907-1914-june-third-regime-and-lena-to-july-strikes`**（1907–1914年六三体制、斯托雷平反动与勒拿至七月工潮）: 1907年6月3日[O.S.]六三政变至1914年7月一战爆发间的战前危机年代。前五年呈现土地缙绅杜马优势、斯托雷平土改与地下党受挫蛰伏；1912年4月勒拿金矿惨案引爆《真理报》创刊、工会与保险会转向及1914年7月圣彼得堡街垒工潮，引发战前稳定与否之争。 ‖ `→MTG-1912-01-prague-conference`[party_reorganization|1912.01]: 布尔什维克宣布《我们的曙光》取消派置身党外并建立独立中委与俄罗斯局，与同年4月工运爆发形成共振
+- **`EVT-1912-04-lena-goldfields-massacre`**（1912年勒拿金矿惨案与战前工运高涨）: 1912-04-04[O.S.]/04-17[N.S.]，宪兵向勒拿金矿请愿矿工开枪，死伤数百。04-11[O.S.]/04-24[N.S.]马卡罗夫在杜马称“过去如此，今后亦如此”，激化罢工；04-22[O.S.]/05-05[N.S.]《真理报》创刊与五一工潮开启战前城市“双重极化”。 ‖ `→MTG-1912-01-prague-conference`[precedes|1912.01 -> 04]: 布拉格会议虽完成中央机构独立化，但4月创刊的《真理报》一线干部仍一度与党性孟什维克联合维系工报。
+- **`PER-lenin`**（弗拉基米尔·列宁）: 布尔什维克党缔造者、苏俄人民委员会主席（1917–1924）。1893年投身马克思主义运动，1903年促成布尔什维克分化；1917年发表《四月提纲》并领导十月夺权，历经布列斯特和约、内战与战时共产主义；1921年主持转向新经济政策，晚年（1922–1923）就官僚化与接班人同斯大林冲突。 ‖ `←MTG-1912-01-prague-conference`[architect-and-drafter|1911–1912]: 主导筹备并起草核心决议，借布拉格会议建立布尔什维克主导的独立中央、驱逐《我们的曙光》取消… ； `→MTG-1912-01-prague-conference`[convened-and-split-party|1912.01]: 召集布拉格全俄代表会议驱逐孟什维克取消派、组建纯布尔什维克中央委员会，会后将斯大林增补入中委与俄国局。
+- **`PER-stalin`**（约瑟夫·斯大林）: 布尔什维克高加索地下组织者、民族事务人民委员（1917–1923）及中央总书记（1922起）。依托书记处任命权与安全危机叙事，先联季-加压制托洛茨基，再联布哈林击溃联合反对派；1927–1929年以战备恐慌与“自上而下革命”击败布哈林集团，1929年12月拍板“把富农作为阶级消灭”并终结新经济政策。 ‖ `←MTG-1912-01-prague-conference`[co-opted-to-inner-circle|1912.01–02]: 会后即由列宁提议缺席增补为中委暨俄罗斯局成员，完成从外高加索实干者向全俄十二人核心圈的关…
+- **`PER-ordzhonikidze`**（格里戈里·“谢尔戈”·奥尔忠尼启则）: 外高加索布尔什维克领导人，1912年任中委，1922年格鲁吉亚事件中殴打党员引列宁震怒。1926年11月兼任中监委主席与工农检查人民委员，两机构联合办公而非合并，主持处分托季派；1928–1929年农业政策倾向斯大林，仍求集体领导调和，密会传单曝光后转而追责右派。 ‖ `←MTG-1912-01-prague-conference`[organizer-and-courier|1911–1912.02]: 担任俄国组织委员会核心组织者并在布拉格当选中委，会后赴沃洛格达向流放中的斯大林通报增补决定
+- **`PER-zinoviev`**（格里戈里·季诺维也夫）: 老布尔什维克、共产国际首任主席（1919–1926）。1917年十月公开反对武装起义；1920年哈雷演说力推二十一条与阶级恐怖，1923年豪赌“德国十月”并首倡社民党“法西斯羽翼”论；借“三驾马车”排托后于1925年发起新反对派，1926年7月首因秘密第7条被逐出政治局，1927年底被开除后屈服。 ‖ `←MTG-1912-01-prague-conference`[cc-lieutenant|1912.01]: 当选布拉格会议产生的中央委员会委员及中央机关报核心成员，巩固列宁流亡核心助手地位
+- **`ORG-mensheviks`**（孟什维克）: 俄国社会民主主义政党（1903–1924），源于1903年二大马尔托夫等与列宁围绕党章第一条及集中制的决裂，主张开放型群众政党与工人自主活动。1917年分化为策烈铁里、但恩主导的入阁“革命护国派”与马尔托夫领导的反战“国际主义派”；十月后开展苏维埃合法反对派抗争，1921年后遭取缔。 ‖ `←MTG-1912-01-prague-conference`[expelled-rival|1912.01–08]: 会议宣布《我们的曙光》等取消派已置身党外（仅2名护党孟什维克与会），促使马尔托夫与托洛茨…
+- **`PER-martov-l`**（尤利·马尔托夫）: 孟什维克核心领袖与国际主义左翼旗手。1903年二大凭党章第一条（28:22:1）与列宁分道；1917年七月夜倡“清一色社会主义政府”遭党内主流否决，十月二大率派退场；1918年工人抗议浪潮中坚持苏维埃合法反对派立场，1920年哈雷大会与季诺维也夫正面交锋痛斥恐怖与二十一条，后流亡柏林病逝。 ‖ `←MTG-1912-01-prague-conference`[outmaneuvered-opponent|1910–1912]: 因1908–1911年对列宁优柔错失先手并将《社会民主党人报》与施密特遗产信托主动权让出…
+- **`MTG-1903-rsdlp-2nd-congress`**（俄国社会民主工党第二次代表大会（1903年7–8月））: `1903-07-30` 至 `08-23 [N.S.]` 俄社民工党二大先后在布鲁塞尔与伦敦召开。大会通过党纲；第23次会议马尔托夫党章第一条 `28:22:1` 胜列宁案。随后的崩得与经济派退场逆转了多数，列宁借微弱多数改组《火星报》三人编委，由此衍生布尔什维克与孟什维克之名。 ‖ `←MTG-1912-01-prague-conference`[organizational-rupture-deepening|1903→1912]: 1903年二大形成最初派别分野，1912年布拉格会议在中央领导层建制上树起独立旗帜并加深…
 
-### 邻居节点: `EVT-1912-04-lena-goldfields-massacre`
-- **时效关系边** (`EVT-1912-04-lena-goldfields-massacre` → `MTG-1912-01-prague-conference` | `precedes` | 有效时段: `1912.01 -> 04`): 布拉格会议虽完成中央机构独立化，但4月创刊的《真理报》一线干部仍一度与党性孟什维克联合维系工报。
-- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): `1912-04-04 [O.S.] / 04-17 [N.S.]` 博代博勒拿金矿宪兵向和平请愿矿工排枪齐射，死伤数百。`1912-04-11 [O.S.] / 1912-04-24 [N.S.]` 马卡罗夫杜马狂言“过去如此，今后亦如此”引爆全俄罢工，《真理报》 `1912-04-22 [O.S.] / 1912-05-05 [N.S.]` 创刊与五一工潮开启战前城市“双重极化”。
-
-### 邻居节点: `PER-stalin`
-- **时效关系边** (`MTG-1912-01-prague-conference` → `PER-stalin` | `co-opted-to-inner-circle` | 有效时段: `1912.01–02`): 会后即由列宁提议缺席增补为中委暨俄罗斯局成员，完成从外高加索实干者向全俄十二人核心圈的关键跃升
-- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 布尔什维克高加索地下组织者、民族事务人民委员（1917–1923）及中央总书记（1922起）。依托书记处任命权与安全危机叙事，先联季-加压制托洛茨基，再联布哈林击溃联合反对派；1927–1929年以战备恐慌与“自上而下革命”击败布哈林集团，1929年12月拍板“把富农作为阶级消灭”并终结新经济政策。
-
-### 邻居节点: `PER-ordzhonikidze`
-- **时效关系边** (`MTG-1912-01-prague-conference` → `PER-ordzhonikidze` | `organizer-and-courier` | 有效时段: `1911–1912.02`): 担任俄国组织委员会核心组织者并在布拉格当选中委，会后赴沃洛格达向流放中的斯大林通报增补决定
-- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 外高加索布尔什维克强人与党纪监督重臣（1886–1937，本卡至1929年）。1912任中央委员；1922主政外高加索因“格鲁吉亚事件”殴打党员触发列宁震怒；1926年11月起任中监委主席兼苏联工农检查人民委员（两机构联合办公而非合并），主持开除托季派；1928–1929年一面在农业政策上倾向斯大林、一面维持集体领导调和，密会传单曝光后转而主持对右派的纪律追责。
-
-### 邻居节点: `PER-zinoviev`
-- **时效关系边** (`MTG-1912-01-prague-conference` → `PER-zinoviev` | `cc-lieutenant` | 有效时段: `1912.01`): 当选布拉格会议产生的中央委员会委员及中央机关报核心成员，巩固列宁流亡核心助手地位
-- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 老布尔什维克、共产国际首任主席（1919–1926）。1917年十月公开反对武装起义；1920年哈雷演说力推二十一条与阶级恐怖，1923年豪赌“德国十月”并首倡社民党“法西斯羽翼”论；借“三驾马车”排托后于1925年发起新反对派，1926年7月首因秘密第7条被逐出政治局，1927年底被开除后屈服。
-
-### 邻居节点: `ORG-mensheviks`
-- **时效关系边** (`MTG-1912-01-prague-conference` → `ORG-mensheviks` | `expelled-rival` | 有效时段: `1912.01–08`): 会议宣布《我们的曙光》等取消派已置身党外（仅2名护党孟什维克与会），促使马尔托夫与托洛茨基于1912年8月维也纳组建“八月联盟”
-- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 俄国社会民主主义政党（1903–1924），源于1903年二大马尔托夫等与列宁围绕党章第一条及集中制的决裂，主张开放型群众政党与工人自主活动。1917年分化为策烈铁里、但恩主导的入阁“革命护国派”与马尔托夫领导的反战“国际主义派”；十月后开展苏维埃合法反对派抗争，1921年后遭取缔。
-
-### 邻居节点: `PER-martov-l`
-- **时效关系边** (`MTG-1912-01-prague-conference` → `PER-martov-l` | `outmaneuvered-opponent` | 有效时段: `1910–1912`): 因1908–1911年对列宁优柔错失先手并将《社会民主党人报》与施密特遗产信托主动权让出，至1912年1月痛失中央党统名号
-- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 孟什维克核心领袖与国际主义左翼旗手。1903年二大凭党章第一条（28:22:1）与列宁分道；1917年七月夜倡“清一色社会主义政府”遭党内主流否决，十月二大率派退场；1918年工人抗议浪潮中坚持苏维埃合法反对派立场，1920年哈雷大会与季诺维也夫正面交锋痛斥恐怖与二十一条，后流亡柏林病逝。
-
-### 邻居节点: `MTG-1903-rsdlp-2nd-congress`
-- **时效关系边** (`MTG-1912-01-prague-conference` → `MTG-1903-rsdlp-2nd-congress` | `organizational-rupture-deepening` | 有效时段: `1903→1912`): 1903年二大形成最初派别分野，1912年布拉格会议在中央领导层建制上树起独立旗帜并加深组织决裂，但地方基层彻底分党仍延续至1917年
-- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): `1903-07-30` 至 `08-23 [N.S.]` 俄社民工党二大先后在布鲁塞尔与伦敦召开。大会通过党纲；第23次会议马尔托夫党章第一条 `28:22:1` 胜列宁案。随后的崩得与经济派退场逆转了多数，列宁借微弱多数改组《火星报》三人编委，由此衍生布尔什维克与孟什维克之名。
-
-### 邻居节点: `EVT-1907-1914-june-third-regime-and-lena-to-july-strikes`
-- **时效关系边** (`EVT-1907-1914-june-third-regime-and-lena-to-july-strikes` → `MTG-1912-01-prague-conference` | `party_reorganization` | 有效时段: `1912.01`): 布尔什维克宣布《我们的曙光》取消派置身党外并建立独立中委与俄罗斯局，与同年4月工运爆发形成共振
-- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 1907年6月3日[O.S.]六三政变至1914年7月一战爆发间的战前危机年代。前五年呈现土地缙绅杜马优势、斯托雷平土改与地下党受挫蛰伏；1912年4月勒拿金矿惨案引爆《真理报》创刊、工会与保险会转向及1914年7月圣彼得堡街垒工潮，引发战前稳定与否之争。
-
-## 3. 关联史学争鸣光谱 (Historiographical Debates)
+## 3. 关联史学争鸣与学者论断索引 (主卡外关联争鸣 2 项)
 ### `DEB-1903-bolshevik-menshevik-split`：《怎么办？》与1903年布尔什维克—孟什维克分裂实质之争
 ## [T1] 核心问题定义
 《怎么办？》的自发性与意识理论究竟体现精英代替工人，还是欧洲社会民主主义所共有的结合公式？1903年党章、领导机构选举和代表退会如何共同造成分裂，又能否把后来的一党统治直接追溯到当时？必须区分文本论战、组织选择和事后政治后果。
@@ -113,5 +81,31 @@
 | 反必然论、世袭国家与自由派宪制困境（兼对乐观演进派的回应） | Richard Pipes, *The Russian Revolution* (1990); Fedor Gaida (2003) | Pipes代表反海姆森的政治偶然论与世袭国家观，断言“20世纪初俄国没有任何事物不可阻挡地推向革命，除了一支异常庞大而狂热的职业革命家队伍”，强调一战冲击才是制度崩解主因（与Gerschenkron等战前工业现代化乐观演进派呼应）；Fedor Gaida剖析杜马自由派要求“信任内阁”却畏惧承担革命责任的制度困境（注：Gaida对进步集团的实证主要在1915–1916战时，不可直接倒灌为1914年前事实）。 | `CLM-pipes-1990-patrimonial-state-and-intelligentsia`；`CLM-gaida-2003-progressive-bloc-dilemma` | 将1912–1914年逾百万罢工归咎于少数职业革命家煽动，难以解释布尔什维克在合法工会与保险局选举中的真实得票优势。 |
 | 现代化断裂、连续危机与总体战治理 | Mark D. Steinberg, *The Russian Revolution, 1905–1921* (2017); David L. Hoffmann, *Cultivating the Masses* (2011); 姚海（主编）《俄国革命史》(2013) | Steinberg与Hoffmann将1905–1921/1929年置于现代性危机与1914年后欧洲总体战人口动员、粮食统制和国家暴力技术连续谱中；姚海指出1905–1914年沙皇政权主动关闭政治改革窗口造成现代化进程断裂，激发下层平民激进主义。 | `CLM-steinberg-2017-continuum-of-crisis-1905-1921`；`CLM-hoffmann-2011-continuum-of-total-war-1914-1929`；`CLM-yao-hai-1917-modernization-rupture-and-plebeian-radicalism` | 1914年后的战时总体战治理经验不能倒果为因地充当1914年7月前和平时期必然崩溃的证明。 |
 
-## 4. 关联时间线锚点 (共 1 条)
-- **1912-04-22 [O.S.] / 1912-05-05 [N.S.]** (`TL-W25-1912-05-05-01`, L3): **布尔什维克合法工人日报《真理报》创刊** — 在《星报》同日被查封之际，首份大型合法工人日报《真理报》第1号在圣彼得堡问世（布朗证实其初期为与党性孟什维克联合的“非宗派团结工报”，S级核验波列塔耶夫发行、莫洛托夫编务、斯大林撰社论）。
+
+### 3.1 关联核心论断与史学家学派坐标 (`CLM-*` → `SCH-*`, 展示前 24/26 条)
+- **`CLM-lih-2006-textbook-myth-critique`** [`SCH-lih-lars`(拉斯·T·利) | pp. 5, 13-33, 555]: 
+- **`CLM-blanc-2021-revolutionary-kautskyanism-in-empire`** [`SCH-blanc-eric`(埃里克·布兰克) | pp. 25–28, 569–578]: 
+- **`CLM-jacobin-ancestry-tkachev-blanqui-and-leninism`** [`SCH-chamberlin-william-henry`(威廉·亨利·钱伯林) | pp. 251–257 (PDF pp. 2–8)]: 
+- **`CLM-pipes-1990-patrimonial-state-and-intelligentsia`** [`SCH-pipes-richard`(理查德·派普斯) | ch. 2 (Official Russia); ch. 4 (The Intelligentsia); cf. Introduction]: 
+- **`CLM-haimson-1955-lenin-what-is-to-be-done`** [`SCH-haimson-leopold`(利奥波德·海姆森) | pp. 132-141]: 
+- **`CLM-haimson-1955-consciousness-spontaneity`** [`SCH-haimson-leopold`(利奥波德·海姆森) | pp. vi-viii, 7-11]: 
+- **`CLM-haimson-1955-1903-second-congress-split`** [`SCH-haimson-leopold`(利奥波德·海姆森) | pp. 175-191]: 
+- **`CLM-haimson-1987-menshevik-party-ethos-and-family`** [`SCH-haimson-leopold`(利奥波德·海姆森) | pp. 14–17]: 
+- **`CLM-lih-2006-erfurtian-merger-formula`** [`SCH-lih-lars`(拉斯·T·利) | pp. 6-9, 41-49, 74-106, 113-121, 556-557]: 
+- **`CLM-lih-2006-kautsky-and-spontaneity`** [`SCH-lih-lars`(拉斯·T·利) | pp. 35-37, 555, 613-667]: 
+- **`CLM-getzler-1967-martov-1903-clause-one`** [`SCH-getzler-israel`(伊斯雷尔·格茨勒) | pp. 78-79]: 
+- **`CLM-blanc-2021-beyond-russocentric-bolshevism`** [`SCH-blanc-eric`(埃里克·布兰克) | pp. 15–16, 23–26]: 
+- **`CLM-zelnik-1999-worker-intelligentsia-tutelage-tension`** [`SCH-smith-sa`(斯蒂芬·A·史密斯（S. A. Smith）) | pp. 6-7, 13-15, 18-27, 51-52]: 
+- **`CLM-zelnik-1999-kanatchikov-conscious-worker-formation`** [`SCH-smith-sa`(斯蒂芬·A·史密斯（S. A. Smith）) | pp. 9-12, 26-27]: 
+- **`CLM-mayer-1999-lenin-jacobin-metaphor-vs-blanquism`** [`SCH-mayer-robert`(罗伯特·迈耶) | pp. 127-129, 140-146]: 
+- **`CLM-steinberg-2017-continuum-of-crisis-1905-1921`** [`SCH-steinberg-mark`(马克·D·斯坦伯格) | pp. 19, 61–62, 107–108]: 
+- **`CLM-bonnell-1983-1912-1914-union-and-insurance-boards-bolshevik-capture`** [`SCH-bonnell-victoria`(维多利亚·E·邦内尔) | Book pp. 366–371, 390–438 [PDF pp. 389–394, 413–461]]: 
+- **`CLM-bonnell-1983-state-employer-repression-undermining-menshevik-reformism`** [`SCH-bonnell-victoria`(维多利亚·E·邦内尔) | Book pp. 292–305, 316–323, 336–352, 372–389, 450–452 [PDF pp. 315–328, 339–346, 359–375, 395–412, 473–475]]: 
+- **`CLM-hogan-1994-petersburg-metalworkers-1905-to-lena`** [`SCH-hogan-heather`(希瑟·霍根 · labor-social-history) | pp. 85–112]: 
+- **`CLM-smith-sa-1996-petersburg-bolshevik-vs-menshevik-worker-appeal`** [`SCH-smith-sa`(斯蒂芬·A·史密斯（S. A. Smith）) | International Review of Social History, vol. 41 (1996), pp. 12–15, 19–25]: 
+- **`CLM-manning-1982-june-third-coup-social-basis`** [`SCH-manning-roberta`(罗伯塔·T·曼宁) | pp. 238–239]: 
+- **`CLM-manning-1982-gentry-fronde-to-reaction`** [`SCH-manning-roberta`(罗伯塔·T·曼宁) | pp. 54–60, 122–124]: 
+- **`CLM-hildermeier-2000-azev-affair-and-stolypin-era-paralysis`** [`SCH-hildermeier-manfred`(曼弗雷德·希尔德迈尔) | EPUB版无稳定原书页码；以本地章节与行号定位（ch14 L24–91, ch18 L112–150, ch22 L6–108, ch23 L81–217, ch24 L8–285, ch25 L6–33, ch26 L6–62；epub:main-14.xhtml, main-23.xhtml, main-24.xhtml, main-25.xhtml, main-26.xhtml, main-27.xhtml）]: 
+- **`CLM-gaida-2003-progressive-bloc-dilemma`** [`SCH-gaida-fedor`(费奥多尔·盖达) | pp. 135-136, 162-168]: 
+
+## 4. 关联时间线骨干锚点 (L0–L2 展示 0 条，另有 1 条 L3 逐日细节见 `timeline/L3_daily/`)

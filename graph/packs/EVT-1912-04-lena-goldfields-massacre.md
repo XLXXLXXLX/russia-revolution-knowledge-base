@@ -1,18 +1,13 @@
-# 1-Hop 平衡上下文包：`EVT-1912-04-lena-goldfields-massacre` (1912年勒拿金矿惨案与战前工运高涨)
+# 1-Hop 去重平衡上下文包：`EVT-1912-04-lena-goldfields-massacre`
 
-> 本文件由 `python scripts/kb.py pack` 自动编译，旨在将失控的 `1+N` 随机读取压缩为**等权重、带时效边实质与史学盲区告警**的单次全景读取。
+> 由 `python scripts/kb.py pack` 动态编译：保留 **100% 一跳邻居与多时段关系边**，跨卡自动去重争鸣与时间线，并关联学者学派 (`SCH-*`)。
 
-## 0. 认知完备度与反偏斜仪表盘 (Epistemic & Skew Warnings)
-- **主卡路径**: `cards/events/EVT-1912-04-lena-goldfields-massacre.md`
-- **完备度等级**: `multi-perspective`
-- **已覆盖视角**: `labor-social-history, kautskyan-comparative, archival-tsarist-press`
-- **待补齐视角**: `bonnell-ch22-ocr-pending, archival-manukhin-full-dossier`
-- **偏斜风险提示**:
-  - ⚠️ 主卡显式声明尚缺以下视角待补: `bonnell-ch22-ocr-pending, archival-manukhin-full-dossier`。
+## 0. 认知完备度与反偏斜仪表盘
+- **`EVT-1912-04-lena-goldfields-massacre`** (1912年勒拿金矿惨案与战前工运高涨 | `cards/events/EVT-1912-04-lena-goldfields-massacre.md` | `multi-perspective`): 已覆盖=`labor-social-history, kautskyan-comparative, archival-tsarist-press`；待补=`bonnell-ch22-ocr-pending, archival-manukhin-full-dossier`
 
 ## 1. 主卡核心层 ([T1] + [T2])
 ## [T1] 60秒定性微摘要
-`1912-04-04 [O.S.] / 04-17 [N.S.]` 博代博勒拿金矿宪兵向和平请愿矿工排枪齐射，死伤数百。`1912-04-11 [O.S.] / 1912-04-24 [N.S.]` 马卡罗夫杜马狂言“过去如此，今后亦如此”引爆全俄罢工，《真理报》 `1912-04-22 [O.S.] / 1912-05-05 [N.S.]` 创刊与五一工潮开启战前城市“双重极化”。
+1912-04-04[O.S.]/04-17[N.S.]，宪兵向勒拿金矿请愿矿工开枪，死伤数百。04-11[O.S.]/04-24[N.S.]马卡罗夫在杜马称“过去如此，今后亦如此”，激化罢工；04-22[O.S.]/05-05[N.S.]《真理报》创刊与五一工潮开启战前城市“双重极化”。
 
 ## [T2] 核心脉络、时效关系边表与史学争鸣光谱
 
@@ -38,36 +33,15 @@
   - **非宗派《真理报》与“意外共识”修正（Eric Blanc, 2021 / Michael Melancon, 2006）**：布朗对照20世纪20–30年代党史教科书指出，1912年4月刚创刊的《真理报》并不排斥与党性孟什维克携手高喊“不惜一切代价团结”，直到8月右翼孟什维克另立妥协派《光线报》（*Luch*）后，《真理报》方凭借在厂矿日常对抗中的不妥协阶级立场赢得多数工人支持（参见 `CLM-blanc-2021-revolutionary-kautskyanism-in-empire`；`blanc_2021_rev_sd/ch13`）。梅兰孔亦补充指出，1912年4月谴责勒拿暴行曾罕见形成涵盖保守派、自由派、社革党与社民党的“意外共识”，不可将四月怒潮简约为布尔什维克单一政党动员。
   - **经济现代化与反事实慎思（Gerschenkron / Pipes）**：自由派与经济史学者（参 `DEB-1914-haimson-thesis-stability`）提醒，1912–1914年工业强劲增长与城市工潮并行，且城市罢工材料不能直接等同农村与边疆稳定度，若无1914年世界大战冲击，仅凭勒拿后工潮是否必然导致革命仍有争论。
 
-## 2. 一跳邻域等权重微摘要 (共 7 个关联节点，严防大卡霸占上下文)
-### 邻居节点: `DEB-1914-haimson-thesis-stability`
-- **时效关系边** (`EVT-1912-04-lena-goldfields-massacre` → `DEB-1914-haimson-thesis-stability` | `ignited-prewar-polarization` | 有效时段: `1912.04-1914.07`): 博代博宪兵枪杀矿工与内务大臣马卡罗夫狂言点燃全俄政治罢工潮与《真理报》创刊，开启一战前城市工人激进化与双重极化。
-- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 一战前的工业增长、土地改革与杜马政治，能否使帝国逐步稳定，还是工人与有产社会、社会与专制国家的双重极化已侵蚀统治基础？1912年后罢工回升和改革受阻如何与战争冲击相互作用，须区分可观察的危机与无法验证的无战争反事实及其解释限度。
+## 2. 一跳邻域全量微摘要目录 (去重后共 6 个节点，0 截断)
+- **`EVT-1907-1914-june-third-regime-and-lena-to-july-strikes`**（1907–1914年六三体制、斯托雷平反动与勒拿至七月工潮）: 1907年6月3日[O.S.]六三政变至1914年7月一战爆发间的战前危机年代。前五年呈现土地缙绅杜马优势、斯托雷平土改与地下党受挫蛰伏；1912年4月勒拿金矿惨案引爆《真理报》创刊、工会与保险会转向及1914年7月圣彼得堡街垒工潮，引发战前稳定与否之争。 ‖ `→EVT-1912-04-lena-goldfields-massacre`[inflection_point_of|1912.04]: 终结1907–1911年工运低潮并直接触发城市长期政治罢工与《真理报》发行浪潮
+- **`PER-lenin`**（弗拉基米尔·列宁）: 布尔什维克党缔造者、苏俄人民委员会主席（1917–1924）。1893年投身马克思主义运动，1903年促成布尔什维克分化；1917年发表《四月提纲》并领导十月夺权，历经布列斯特和约、内战与战时共产主义；1921年主持转向新经济政策，晚年（1922–1923）就官僚化与接班人同斯大林冲突。 ‖ `←EVT-1912-04-lena-goldfields-massacre`[mobilizes_after|1912.04–1914]: 在海外流亡中借惨案激化的合法工人报刊阵地与《真理报》重新聚合国内骨干，开启战前决裂式扩张。
+- **`PER-stalin`**（约瑟夫·斯大林）: 布尔什维克高加索地下组织者、民族事务人民委员（1917–1923）及中央总书记（1922起）。依托书记处任命权与安全危机叙事，先联季-加压制托洛茨基，再联布哈林击溃联合反对派；1927–1929年以战备恐慌与“自上而下革命”击败布哈林集团，1929年12月拍板“把富农作为阶级消灭”并终结新经济政策。 ‖ `←EVT-1912-04-lena-goldfields-massacre`[edits|1912.04.22–05]: 参与彼得堡《真理报》创刊并撰写发刊词，衔接布尔什维克合法出版与首都工人动员。
+- **`PER-molotov`**（维亚切斯拉夫·莫洛托夫）: 莫洛托夫是布尔什维克党务骨干与斯大林主要副手。1917年二月在《真理报》及俄国局反对支持临时政府；1921年任中央责任书记，后以书记处工作协同斯大林掌权。1928年11月至1929年4月接掌莫斯科委员会，并加强斯大林阵营对共产国际的控制，推动集体化加速。 ‖ `←EVT-1912-04-lena-goldfields-massacre`[edits|1912.04.22–]: 担任创刊初期《真理报》编辑部秘书，协调稿件与基层工人通讯联络。
+- **`ORG-kadets`**（立宪民主党（卡德特党））: 1905年10月从解放同盟诞生的俄国自由主义核心政党，主张四尾制宪、有偿征地与议会道路，曾主导前两届杜马与战时进步同盟。1917年二月主导首届临时政府并切断对杜马从属关系，旋因战争、土地危机及科尔尼洛夫事件退阁丧失民心，十月后被定为“人民公敌”并在内战与流亡中分裂。 ‖ `←EVT-1912-04-lena-goldfields-massacre`[protests_in_duma|1912.04]: 在国家杜马联合提出紧急质询斥责政府无法无天（*bespravie*），但拒绝与街头工人汇流。
+- **`MTG-1912-01-prague-conference`**（俄国社会民主工党第六次（布拉格）全俄代表会议）: 1912-01-18至01-30[N.S.]，列宁派在布拉格秘密开会，自任社民工党最高机关，宣告《我们的曙光》等取消派置身党外，废除1910年巴黎协议。会议选出布尔什维克主导的中央，会后增补斯大林入中委及俄罗斯局；独立中央加深分裂，但国内地方联合与基层合作仍延续。 ‖ `←EVT-1912-04-lena-goldfields-massacre`[precedes|1912.01 -> 04]: 布拉格会议虽完成中央机构独立化，但4月创刊的《真理报》一线干部仍一度与党性孟什维克联合维…
 
-### 邻居节点: `PER-lenin`
-- **时效关系边** (`EVT-1912-04-lena-goldfields-massacre` → `PER-lenin` | `mobilizes_after` | 有效时段: `1912.04–1914`): 在海外流亡中借惨案激化的合法工人报刊阵地与《真理报》重新聚合国内骨干，开启战前决裂式扩张。
-- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 布尔什维克党缔造者、苏俄人民委员会主席（1917–1924）。1893年投身马克思主义运动，1903年促成布尔什维克分化；1917年发表《四月提纲》并领导十月夺权，历经布列斯特和约、内战与战时共产主义；1921年主持转向新经济政策，晚年（1922–1923）就官僚化与接班人同斯大林冲突。
-
-### 邻居节点: `PER-stalin`
-- **时效关系边** (`EVT-1912-04-lena-goldfields-massacre` → `PER-stalin` | `edits` | 有效时段: `1912.04.22–05`): 参与彼得堡《真理报》创刊并撰写发刊词，衔接布尔什维克合法出版与首都工人动员。
-- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 布尔什维克高加索地下组织者、民族事务人民委员（1917–1923）及中央总书记（1922起）。依托书记处任命权与安全危机叙事，先联季-加压制托洛茨基，再联布哈林击溃联合反对派；1927–1929年以战备恐慌与“自上而下革命”击败布哈林集团，1929年12月拍板“把富农作为阶级消灭”并终结新经济政策。
-
-### 邻居节点: `PER-molotov`
-- **时效关系边** (`EVT-1912-04-lena-goldfields-massacre` → `PER-molotov` | `edits` | 有效时段: `1912.04.22–`): 担任创刊初期《真理报》编辑部秘书，协调稿件与基层工人通讯联络。
-- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 布尔什维克核心党务官僚与斯大林头号副手（1890–1986，本卡至1929年）。1917二月在《真理报》与俄国局持反临时政府强硬立场；1921任中央责任书记，后长期作为书记处大总管协同斯大林操盘；1928年11月至1929年4月接掌莫斯科委员会（MK），并代表斯大林阵营加强对共产国际领导工作的控制，推动集体化加速。
-
-### 邻居节点: `ORG-kadets`
-- **时效关系边** (`EVT-1912-04-lena-goldfields-massacre` → `ORG-kadets` | `protests_in_duma` | 有效时段: `1912.04`): 在国家杜马联合提出紧急质询斥责政府无法无天（*bespravie*），但拒绝与街头工人汇流。
-- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 1905年10月从解放同盟诞生的俄国自由主义核心政党，主张四尾制宪、有偿征地与议会道路，曾主导前两届杜马与战时进步同盟。1917年二月主导首届临时政府并切断对杜马从属关系，旋因战争、土地危机及科尔尼洛夫事件退阁丧失民心，十月后被定为“人民公敌”并在内战与流亡中分裂。
-
-### 邻居节点: `MTG-1912-01-prague-conference`
-- **时效关系边** (`EVT-1912-04-lena-goldfields-massacre` → `MTG-1912-01-prague-conference` | `precedes` | 有效时段: `1912.01 -> 04`): 布拉格会议虽完成中央机构独立化，但4月创刊的《真理报》一线干部仍一度与党性孟什维克联合维系工报。
-- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 1912-01-18至1912-01-30 [N.S.]列宁派在奥匈帝国布拉格召开的秘密代表会议。会议自任俄国社会民主工党最高全权机关，宣布《我们的曙光》等孟什维克取消派已置身党外，废除1910年巴黎协议，选出布尔什维克主导的中央委员会并会后增补斯大林入中委及俄罗斯局，建立起独立领导中央并加深两派组织决裂（尽管俄国国内地方联合委员会与基层合作仍长期延续）。
-
-### 邻居节点: `EVT-1907-1914-june-third-regime-and-lena-to-july-strikes`
-- **时效关系边** (`EVT-1907-1914-june-third-regime-and-lena-to-july-strikes` → `EVT-1912-04-lena-goldfields-massacre` | `inflection_point_of` | 有效时段: `1912.04`): 终结1907–1911年工运低潮并直接触发城市长期政治罢工与《真理报》发行浪潮
-- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 1907年6月3日[O.S.]六三政变至1914年7月一战爆发间的战前危机年代。前五年呈现土地缙绅杜马优势、斯托雷平土改与地下党受挫蛰伏；1912年4月勒拿金矿惨案引爆《真理报》创刊、工会与保险会转向及1914年7月圣彼得堡街垒工潮，引发战前稳定与否之争。
-
-## 3. 关联史学争鸣光谱 (Historiographical Debates)
+## 3. 关联史学争鸣与学者论断索引 (主卡外关联争鸣 1 项)
 ### `DEB-1914-haimson-thesis-stability`：海姆森命题：战前俄国的社会稳定与双重极化
 ## [T1] 核心问题定义
 一战前的工业增长、土地改革与杜马政治，能否使帝国逐步稳定，还是工人与有产社会、社会与专制国家的双重极化已侵蚀统治基础？1912年后罢工回升和改革受阻如何与战争冲击相互作用，须区分可观察的危机与无法验证的无战争反事实及其解释限度。
@@ -83,4 +57,21 @@
 | 反必然论、世袭国家与自由派宪制困境（兼对乐观演进派的回应） | Richard Pipes, *The Russian Revolution* (1990); Fedor Gaida (2003) | Pipes代表反海姆森的政治偶然论与世袭国家观，断言“20世纪初俄国没有任何事物不可阻挡地推向革命，除了一支异常庞大而狂热的职业革命家队伍”，强调一战冲击才是制度崩解主因（与Gerschenkron等战前工业现代化乐观演进派呼应）；Fedor Gaida剖析杜马自由派要求“信任内阁”却畏惧承担革命责任的制度困境（注：Gaida对进步集团的实证主要在1915–1916战时，不可直接倒灌为1914年前事实）。 | `CLM-pipes-1990-patrimonial-state-and-intelligentsia`；`CLM-gaida-2003-progressive-bloc-dilemma` | 将1912–1914年逾百万罢工归咎于少数职业革命家煽动，难以解释布尔什维克在合法工会与保险局选举中的真实得票优势。 |
 | 现代化断裂、连续危机与总体战治理 | Mark D. Steinberg, *The Russian Revolution, 1905–1921* (2017); David L. Hoffmann, *Cultivating the Masses* (2011); 姚海（主编）《俄国革命史》(2013) | Steinberg与Hoffmann将1905–1921/1929年置于现代性危机与1914年后欧洲总体战人口动员、粮食统制和国家暴力技术连续谱中；姚海指出1905–1914年沙皇政权主动关闭政治改革窗口造成现代化进程断裂，激发下层平民激进主义。 | `CLM-steinberg-2017-continuum-of-crisis-1905-1921`；`CLM-hoffmann-2011-continuum-of-total-war-1914-1929`；`CLM-yao-hai-1917-modernization-rupture-and-plebeian-radicalism` | 1914年后的战时总体战治理经验不能倒果为因地充当1914年7月前和平时期必然崩溃的证明。 |
 
-## 4. 关联时间线锚点 (共 0 条)
+
+### 3.1 关联核心论断与史学家学派坐标 (`CLM-*` → `SCH-*`, 展示前 14/14 条)
+- **`CLM-blanc-2021-revolutionary-kautskyanism-in-empire`** [`SCH-blanc-eric`(埃里克·布兰克) | pp. 25–28, 569–578]: 
+- **`CLM-zelnik-1999-worker-intelligentsia-tutelage-tension`** [`SCH-smith-sa`(斯蒂芬·A·史密斯（S. A. Smith）) | pp. 6-7, 13-15, 18-27, 51-52]: 
+- **`CLM-steinberg-2017-continuum-of-crisis-1905-1921`** [`SCH-steinberg-mark`(马克·D·斯坦伯格) | pp. 19, 61–62, 107–108]: 
+- **`CLM-bonnell-1983-1912-1914-union-and-insurance-boards-bolshevik-capture`** [`SCH-bonnell-victoria`(维多利亚·E·邦内尔) | Book pp. 366–371, 390–438 [PDF pp. 389–394, 413–461]]: 
+- **`CLM-bonnell-1983-state-employer-repression-undermining-menshevik-reformism`** [`SCH-bonnell-victoria`(维多利亚·E·邦内尔) | Book pp. 292–305, 316–323, 336–352, 372–389, 450–452 [PDF pp. 315–328, 339–346, 359–375, 395–412, 473–475]]: 
+- **`CLM-hogan-1994-petersburg-metalworkers-1905-to-lena`** [`SCH-hogan-heather`(希瑟·霍根 · labor-social-history) | pp. 85–112]: 
+- **`CLM-smith-sa-1996-petersburg-bolshevik-vs-menshevik-worker-appeal`** [`SCH-smith-sa`(斯蒂芬·A·史密斯（S. A. Smith）) | International Review of Social History, vol. 41 (1996), pp. 12–15, 19–25]: 
+- **`CLM-manning-1982-june-third-coup-social-basis`** [`SCH-manning-roberta`(罗伯塔·T·曼宁) | pp. 238–239]: 
+- **`CLM-manning-1982-gentry-fronde-to-reaction`** [`SCH-manning-roberta`(罗伯塔·T·曼宁) | pp. 54–60, 122–124]: 
+- **`CLM-hildermeier-2000-azev-affair-and-stolypin-era-paralysis`** [`SCH-hildermeier-manfred`(曼弗雷德·希尔德迈尔) | EPUB版无稳定原书页码；以本地章节与行号定位（ch14 L24–91, ch18 L112–150, ch22 L6–108, ch23 L81–217, ch24 L8–285, ch25 L6–33, ch26 L6–62；epub:main-14.xhtml, main-23.xhtml, main-24.xhtml, main-25.xhtml, main-26.xhtml, main-27.xhtml）]: 
+- **`CLM-pipes-1990-patrimonial-state-and-intelligentsia`** [`SCH-pipes-richard`(理查德·派普斯) | ch. 2 (Official Russia); ch. 4 (The Intelligentsia); cf. Introduction]: 
+- **`CLM-gaida-2003-progressive-bloc-dilemma`** [`SCH-gaida-fedor`(费奥多尔·盖达) | pp. 135-136, 162-168]: 
+- **`CLM-hoffmann-2011-continuum-of-total-war-1914-1929`** [`SCH-hoffmann-david`(大卫·L·霍夫曼) | pp. 12–13, 38, 127–128]: 
+- **`CLM-yao-hai-1917-modernization-rupture-and-plebeian-radicalism`** [`SCH-yao-hai`(姚海) | [PDF pp. 47-55, 57-64, 68-72, 75-81, 87-88]]: 
+
+## 4. 关联时间线骨干锚点 (L0–L2 展示 0 条)

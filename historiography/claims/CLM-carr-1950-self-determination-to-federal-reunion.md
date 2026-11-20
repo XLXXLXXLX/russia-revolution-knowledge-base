@@ -7,8 +7,8 @@ publication_year: 1950
 source_tier: A
 local_source_path: "sources/monographs/carr_1950_bolshevik_rev_v1_en/ch11_pages_276-300.md#L458-L528; sources/monographs/carr_1950_bolshevik_rev_v1_en/ch15_pages_376-400.md#L255-L303; sources/monographs/carr_1950_bolshevik_rev_v1_en/ch16_pages_401-425.md#L810-L930"
 original_pages: "pp. 253-285, 364-428"
-targets_cards: ["CON-national-self-determination", "ORG-ussr", "ORG-narkomnats", "ORG-rcp-b", "POL-1923-ussr-constitution"]
-debate: DEB-soviet-federalism-and-self-determination
+targets_cards: ["POL-korenizatsiia", "EVT-1922-georgian-affair-and-ussr-formation", "ORG-bolsheviks-rcpb-vkpb"]
+debate: DEB-1923-nationality-and-empire
 supports: []
 rebuts: []
 qualifies: []

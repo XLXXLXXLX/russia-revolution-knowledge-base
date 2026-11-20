@@ -7,10 +7,8 @@ publication_year: 1992
 source_tier: A
 local_source_path: "sources/monographs/siegelbaum_1992_state_and_society/ch04_pages_121-150.md#L1348-L1364"
 original_pages: "pp. 84, 91-93, 102-117, 136-144, 180-186 (PDF pp. 98, 105-107, 116-131, 150-158, 194-200)"
-targets_cards:
-  - POL-new-economic-policy
-  - CONCEPT-smychka
-debate: DEB-viability-and-contradictions-of-nep
+targets_cards: ["POL-nep", "CON-smychka"]
+debate: DEB-1928-bukharin-alternative
 supports: []
 rebuts: []
 qualifies: []

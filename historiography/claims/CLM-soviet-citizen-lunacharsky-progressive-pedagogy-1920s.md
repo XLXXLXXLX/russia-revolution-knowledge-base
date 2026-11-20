@@ -1,14 +1,14 @@
 ---
 id: CLM-soviet-citizen-lunacharsky-progressive-pedagogy-1920s
 type: claim
-scholar: "George Avis (ed.) / Lynne Attwood / Jim Riordan / Felicity O'Dell / John Dunstan"
+scholar: SCH-avis-george
 work_title: "The Making of the Soviet Citizen: Character Formation and Civic Training in Soviet Education (《苏维埃公民的塑造：苏维埃教育中的品格塑造与公民训练》)"
 publication_year: 1987
 source_tier: "T2 现代专著（英国苏联教育社会史论文集）"
 local_source_path: "sources/monographs/making_soviet_citizen_education_zh/"
 original_pages: "PDF pp. 41, 63-64, 80, 86, 94, 100-102 (原书 pp. 32, 54-55, 71, 77, 85, 91-93)"
 targets_cards: []
-debate: "1920年代卢那察尔斯基—克鲁普斯卡娅进步主义综合技术劳动学校与性别平等实验向1929年集体主义纪律训练体制的转轨（1918–1929）"
+debate: DEB-1920s-gender-family-and-everyday-life
 supports: []
 rebuts: []
 qualifies: []

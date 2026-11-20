@@ -7,7 +7,7 @@ publication_year: 1968
 source_tier: A
 local_source_path: "sources/monographs/lewin_1968_peasants/ch05_3_the_problem_of_class_stratification_wi.md#L595-L653"
 original_pages: "pp. 76-78"
-targets_cards: ["PER-stalin", "PER-bukharin", "POL-nep", "CON-kulak", "CON-serednyak"]
+targets_cards: ["PER-stalin", "PER-bukharin", "POL-nep", "CON-kulak"]
 debate: DEB-1928-bukharin-alternative
 supports: []
 rebuts: []

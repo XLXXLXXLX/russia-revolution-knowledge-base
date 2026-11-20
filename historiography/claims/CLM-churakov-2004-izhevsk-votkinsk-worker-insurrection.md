@@ -1,14 +1,14 @@
 ---
 id: CLM-churakov-2004-izhevsk-votkinsk-worker-insurrection
 type: claim
-scholar: SCH-churakov-d
+scholar: SCH-churakov-dmitry
 work_title: "Революция, государство, рабочий протест: Формы, динамика и природа массовых выступлений рабочих в Советской России. 1917—1918 годы"
 publication_year: 2004
 source_tier: A
 local_source_path: "sources/monographs/ru_rev_state_working_class/ch12_pages_301-325.md#L844-L936"
 original_pages: "pp. 258-285, 290-298, 304-325"
-targets_cards: ["EVT-1918-izhevsk-votkinsk", "ORG-komuch", "ORG-mensheviks", "ORG-psr"]
-debate: DEB-1918-izhevsk-votkinsk-uprising
+targets_cards: ["EVT-1918-worker-protest-and-izhevsk-uprising", "ORG-komuch-and-democratic-counterrevolution", "ORG-mensheviks", "ORG-psr"]
+debate: DEB-1918-working-class-and-bolsheviks
 supports: []
 rebuts: []
 qualifies: []

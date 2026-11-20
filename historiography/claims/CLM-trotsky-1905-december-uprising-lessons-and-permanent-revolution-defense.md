@@ -1,7 +1,7 @@
 ---
 id: CLM-trotsky-1905-december-uprising-lessons-and-permanent-revolution-defense
 type: claim
-scholar: PER-trotsky
+scholar: SCH-trotsky-leon
 work_title: "《1905》第十八章、第二十一章、第二十二章、附件一至三及第二部分第三章"
 publication_year: 1922
 source_tier: B

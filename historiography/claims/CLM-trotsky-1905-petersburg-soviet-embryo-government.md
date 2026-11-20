@@ -1,7 +1,7 @@
 ---
 id: CLM-trotsky-1905-petersburg-soviet-embryo-government
 type: claim
-scholar: PER-trotsky
+scholar: SCH-trotsky-leon
 work_title: "《1905》第八章、第十六章、第二十章与第二十二章"
 publication_year: 1922
 source_tier: B

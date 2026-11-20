@@ -1,16 +1,14 @@
 ---
 id: CLM-mawdsley-1987-white-movement-structural-defeat
 type: claim
-scholar: SCH-mawdsley
+scholar: SCH-mawdsley-evan
 work_title: "俄国内战 (The Russian Civil War)"
 publication_year: 1987
 source_tier: A
 local_source_path: "sources/monographs/mawdsley_1987_civil_war_zh/ch13_第二部分_1919_白军之年_part_5.md"
 original_pages: "pp. 212–218, 272–276, 286–289"
-targets_cards:
-  - "E-civil-war-white-defeat"
-  - "I-white-movement-kolchak-denikin-wrangel"
-debate: DEB-civil-war-determinants
+targets_cards: ["EVT-1918-1920-russian-civil-war"]
+debate: DEB-1918-red-terror-and-civil-war-origins
 supports:
   - "CLM-kakurin-1928-red-army-interior-lines-strategy"
 rebuts: []

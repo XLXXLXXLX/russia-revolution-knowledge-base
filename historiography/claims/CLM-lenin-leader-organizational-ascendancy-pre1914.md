@@ -7,8 +7,8 @@ publication_year: 2005
 source_tier: A
 local_source_path: "sources/monographs/lenin_how_became_leader_zh/ch16_第三章_斗争协会_part_3.md#L361-L481"
 original_pages: "PDF pp. 261-265 / 原书 pp. 249-253（并参照 PDF pp. 209-214, 435-438, 492-506；注：全书实证叙事覆及1870–1901春，尾声附1903年2月巴黎讲座）"
-targets_cards: ["PER-lenin", "ORG-union-of-struggle", "ORG-iskra", "PER-martov-l", "PER-plekhanov", "PER-struve"]
-debate: DEB-lenin-early-leadership-formation
+targets_cards: ["PER-lenin", "ORG-osvobozhdenie-truda", "PER-martov-l", "PER-plekhanov", "PER-struve"]
+debate: DEB-1903-bolshevik-menshevik-split
 supports: ["CLM-service-lenin-v1-agrarian-marxism-and-1905-tactics"]
 rebuts: []
 qualifies: ["CLM-service-lenin-v1-bogdanov-vpered-rupture-and-prague-1912"]

@@ -1,7 +1,7 @@
 ---
 id: CLM-boll-1979-red-guards-radicalization-to-july
 type: claim
-scholar: SCH-boll-michael-m
+scholar: SCH-boll-michael
 work_title: "The Petrograd Armed Workers Movement in the February Revolution (February–July, 1917)"
 publication_year: 1979
 source_tier: A

@@ -1,14 +1,14 @@
 ---
 id: CLM-cheka-chronicle-hostage-and-local-autonomy
 type: claim
-scholar: SCH-ratkovsky-igor
+scholar: SCH-ratkovsky-ilya
 work_title: "Хроника красного террора ВЧК. Карающий меч революции"
 publication_year: 2017
 source_tier: A
 local_source_path: "sources/primary/cheka_red_terror_chronicle_zh/ch09_section.md#L125-L148"
 original_pages: "EPUB OPS/ch1-6.xhtml; OPS/ch1-10.xhtml; OPS/ch1-14.xhtml; OPS/ch1-15.xhtml; OPS/ch1-16.xhtml; OPS/ch1-19.xhtml（提取文本无印刷页码）"
 targets_cards: ["ORG-cheka-ogpu", "PER-dzerzhinsky", "PER-lenin", "PER-zinoviev", "POL-war-communism"]
-debate: DEB-1918-red-terror-origins
+debate: DEB-1918-red-terror-and-civil-war-origins
 supports: []
 rebuts: []
 qualifies: ["CLM-leggett-1981-red-terror-institutionalization"]

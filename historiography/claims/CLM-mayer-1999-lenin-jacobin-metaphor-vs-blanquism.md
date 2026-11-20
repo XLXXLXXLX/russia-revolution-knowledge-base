@@ -7,8 +7,8 @@ publication_year: 1999
 source_tier: A
 local_source_path: "sources/monographs/mayer_1999_lenin_jacobin/ch18_144.md#L11-L43"
 original_pages: "pp. 127-129, 140-146"
-targets_cards: ["PER-lenin", "PER-plekhanov", "PER-tkachev", "ORG-rsdlp-bolsheviks", "ORG-rsdlp-mensheviks"]
-debate: DEB-lenin-jacobin-identity-and-vanguardism
+targets_cards: ["PER-lenin", "PER-plekhanov", "PER-tkachev", "ORG-bolsheviks-rcpb-vkpb", "ORG-mensheviks"]
+debate: DEB-1879-narodnaya-volya-to-bolshevism
 supports: []
 rebuts: []
 qualifies: []

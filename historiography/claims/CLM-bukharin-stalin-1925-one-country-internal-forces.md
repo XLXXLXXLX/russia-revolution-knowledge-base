@@ -1,7 +1,7 @@
 ---
 id: CLM-bukharin-stalin-1925-one-country-internal-forces
 type: claim
-scholar: PER-stalin
+scholar: SCH-stalin-iosif
 work_title: "斯大林关于一国建成社会主义的修正表述（汇编所引《论列宁主义基础》1926 年再版改句、《关于我国建成社会主义的可能性（答坡柯也夫同志）》，以及 1925 年 4 月十四次代表会议的转述）"
 publication_year: 1925
 source_tier: S

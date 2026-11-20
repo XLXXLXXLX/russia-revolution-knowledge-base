@@ -1,7 +1,7 @@
 ---
 id: CLM-sukhanov-1922-october-walkout-tragedy
 type: claim
-scholar: SCH-sukhanov-nn
+scholar: SCH-sukhanov-nikolai
 work_title: "The Russian Revolution 1917: A Personal Record (abridged translation of Zapiski o revoliutsii, 1922–23)"
 publication_year: 1922
 source_tier: B

@@ -7,8 +7,8 @@ publication_year: 1968
 source_tier: A
 local_source_path: "sources/monographs/lewin_1968_lenins_last_struggle/ch18_10.md#L14-L18, #L32-L33, #L58-L60; ch17_9.md#L36-L37, #L42-L48, #L53; ch07_chronology_of_events.md#L40-L90; ch19_appendixes.md#L7-L110, #L145-L185"
 original_pages: "n/a（EPUB 无页码锚点）；Ch.9、Ch.10 与 Appendixes I–III, VII–VIII"
-targets_cards: ["EVT-1922-georgian-affair", "EVT-1922-ussr-formation", "PER-lenin", "PER-stalin", "PER-ordzhonikidze", "PER-dzerzhinsky", "PER-mdivani", "CON-great-russian-chauvinism", "CON-bureaucratic-degeneration", "ORG-rki"]
-debate: DEB-1923-lenin-testament-and-succession
+targets_cards: ["EVT-1922-georgian-affair-and-ussr-formation", "PER-lenin", "PER-stalin", "PER-ordzhonikidze", "PER-dzerzhinsky", "DEB-1923-nationality-and-empire", "CON-thermidor-and-bureaucracy", "INS-rabkrin-and-ccc"]
+debate: DEB-1922-lenin-testament-and-stalin-rise
 supports: []
 rebuts: []
 qualifies: []

@@ -7,7 +7,7 @@ publication_year: 1995
 source_tier: A
 local_source_path: "sources/monographs/cooper_perrie_1995_davies_festschrift_zh/ch14_11_为何有缺陷的基础从未得到修复_霍兰_亨特.md#L186-L321"
 original_pages: "pp. 18-21, 82-94, 218-226"
-targets_cards: ["POL-nep", "EVT-1928-grain-crisis", "PER-bukharin", "PER-stalin", "CON-smychka"]
+targets_cards: ["POL-nep", "EVT-1928-grain-procurement-crisis", "PER-bukharin", "PER-stalin", "CON-smychka"]
 debate: DEB-1928-bukharin-alternative
 supports: []
 rebuts: []

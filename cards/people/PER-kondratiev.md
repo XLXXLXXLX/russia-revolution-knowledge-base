@@ -5,56 +5,52 @@ title: 尼古拉·康德拉季耶夫
 names:
   ru: Николай Дмитриевич Кондратьев
   en: Nikolai Dmitrievich Kondratiev
-  aliases: ["N. D. Kondratiev", "N. D. Kondrat'ev", "Н. Д. Кондратьев", "尼古拉·德米特里耶维奇·康德拉季耶夫", "康德拉季耶夫"]
+  aliases: ["Н. Д. Кондратьев", "N. D. Kondratiev", "N. D. Kondrat'ev", "尼古拉·德米特里耶维奇·康德拉季耶夫", "康德拉季耶夫"]
 dates:
-  start_ns: "1892-03-16"
-  end_ns: "1938-09-17"
-coverage_status: draft
-perspectives_present: ["institutional-economic-history", "revisionist", "archival-post-soviet"]
-perspectives_missing: ["soviet-orthodox"]
+  start_ns: "1892-03-16" # 1892-03-04 [O.S.] / 1892-03-16 [N.S.]（+12天）生于科斯特罗马省加卢耶夫斯卡亚村
+  end_ns: "1938-09-17" # 1938-09-17 [N.S.] 在莫斯科近郊科穆纳尔卡靶场被枪决
+coverage_status: multi-perspective
+perspectives_present: ["development-planning-carr-nove", "nep-alternative-cohen-erlich", "cliometric-vs-constraints-hunter-davies", "neo-traditionalist-spitsyn"]
+perspectives_missing: ["kondratiev-1925-long-waves-russian-pages", "tkp-1930-interrogation-files", "carr-foundations-planning-original-pages"]
 related_debates: ["DEB-1928-bukharin-alternative"]
-updated_at: "2026-11-18"
+updated_at: "2026-11-19"
 ---
 
-## [T1] 60秒定性微摘要
-俄国及苏联农业经济学家、统计学家与长波周期理论创立者，前社会革命党人（1917年10月任临时政府粮食部副部长）。1920年创办并领导财政人民委员部附属景气研究所（Конъюнктурный институт），提出资本主义经济发展的“大周期”（康德拉季耶夫长波）假说。1923–1927年间主持农业人民委员部农业与林业远景规划编制，在五年计划方法论论战中作为“发生学派”（`генетический подход`）核心代表，批驳国家计委与最高国民经济委员会的“目的论派”（`телеологический подход`）高指标方案，主张依托市场均衡、商品化农户自我积累与农产品出口换汇稳步推进工业化。1927–1928年被官方及党内左翼斥为代表富农利益的“康德拉季耶夫主义”（`кондратьевщина`）并解除景气研究所所长职务；1930年因虚构的“劳动农民党”（ТКП）案被捕入狱，1938年9月17日大清洗期间被改判死刑并枪决。
+## [T1] 150字定性微摘要
+苏俄农业经济学家与长波周期理论创立者（1892–1938）。1917年10月任临时政府粮食部副部长；1920年起执掌财政部景气研究所，在计划方法论战中代表“发生学派”反对高指标目的论，主张依托市场均衡与农产出口推进工业化。1928年被打为“康德拉季耶夫主义”撤职，1938年遇害。
 
-## [T2] 核心脉络、时效关系边表与史学争鸣光谱
+## [T2] 核心脉络、关系网络与史学争鸣
 
-### 2.1 核心历史脉络
-- **早年求学与社会革命党从政经历（1892–1919）**：`1892-03-04 [O.S.] / 1892-03-16 [N.S.]` 生于科斯特罗马省基涅什马县加卢耶夫斯卡亚村（Галуевская，农家出身，待补教区出生登记原页）。早年加入社会革命党（`ORG-psr`），就读于圣彼得堡大学法律系，师从经济学家米·伊·杜冈-巴拉诺夫斯基（М. И. Туган-Барановский）与社会学家马·马·柯瓦列夫斯基，专攻农业统计与地方自治局经济研究。1917年二月革命后积极参与全俄农民代表苏维埃与土地委员会筹备，主张有组织的土地社会化与粮食国家调配；`1917-10-05 [O.S.] / 1917-10-18 [N.S.]` 出任临时政府（`ORG-provisional-government`）粮食部副部长（协助部长谢·尼·普罗柯波维奇），旋因十月起义（`EVT-1917-10-october-revolution`）爆发卸任。1917年11月当选立宪会议代表（科斯特罗马选区社革党名单），1918年移居莫斯科任教并投身合作社与农业学术机构，1919年正式脱离社会革命党。
-- **创建景气研究所与长波周期理论（1920–1926）**：1920年10月在莫斯科创立景气研究所（后划归苏联财政人民委员部，受索科尔尼科夫 `PER-sokolnikov` 重用与庇护）并任首任所长，构建起苏联1920年代最权威的物价指数、农业市场行市与宏观经济波动监测体系。他在《世界经济及其在战时和战后的景气》（1922）与《大经济周期》（1925）等论著中系统提出资本主义世界经济存在约45–60年的长波周期（上升波伴随重大技术革新、固定资本大规模更新与新市场开拓，下降波伴随长期农业萧条），这一判断直接挑战了共产国际与党内关于世界资本主义即将总崩溃的线性教条，遭到托洛茨基（`PER-trotsky`，主张外部危机由非周期性历史政治突变决定）与官方马克思主义者的激烈批评。
-- **农业远景规划、“发生学派 vs. 目的论派”论战（1923–1927）**：1923–1927年间兼任俄罗斯苏维埃联邦社会主义共和国农业人民委员部计划委员会（Земплан）学术领导，主持起草1923–1928年农林业发展远景规划（常被称为“康德拉季耶夫五年计划”）。在围绕国民经济计划方法论与工业化路径的论战中，康德拉季耶夫与格罗曼（В. Г. Громан）、巴扎罗夫（В. А. Базаров）被归入“发生学派”（`генетический подход`），与斯特鲁米林（С. Г. Струмилин）等代表的“目的论派”（`телеологический подход`）正面对垒（参见 `INS-vsnkh-and-gosplan`、`POL-first-five-year-plan`）。康德拉季耶夫主张，科学计划必须建立在对客观经济规律、历史统计趋势与资源真实约束的经验外推之上，不能以主观政治指令凭空设定高指标；在农业与工业关系上，他反对通过工农业价格“剪刀差”或超额重税竭泽而渔（参见 `CON-primitive-socialist-accumulation`），主张放宽对农村雇工、租地与勤劳富裕农户自我积累的行政限制，依靠高生产率的商品化个体农业扩大出口、换取外国工业设备，从而在市场动态均衡中稳步推进工业化。
-- **“康德拉季耶夫主义”整肃与最终结局（1927–1938）**：随着新经济政策后期路线斗争白热化，托洛茨基—季诺维也夫联合反对派在 `1927-09`《联合反对派政纲》中将康德拉季耶夫、萨德林、恰亚诺夫等非党专家点名为围绕在李可夫（`PER-rykov`）、斯米尔诺夫等人身边的富裕农民“政治代理人”与“乌斯特里亚洛夫学说鼓吹者”（参见 `CON-thermidor-and-bureaucracy`）；斯大林集团则在1927年十五大（`MTG-1927-12-15th-party-congress`）及1928年粮食收购危机（`EVT-1928-grain-procurement-crisis`）后将农业专家主张定性为替富农张目的反革命“康德拉季耶夫主义”（`кондратьевщина`），于1928年春撤销其景气研究所所长职务并关闭该所。1930年6月康德拉季耶夫在国家政治保卫总局（`INS-cheka-gpu-ogpu`）罗织的“劳动农民党”（Трудовая крестьянская партия）冤案中被捕判处八年监禁（关押于苏兹达尔政治隔离所），1938年9月17日大清洗期间被苏联最高法院军事审判庭改判死刑并于同日在莫斯科近郊科穆纳尔卡靶场枪决。
+### 2.1 核心历史脉络（19世纪俄国内 +12 天，1900.03–1918.01 俄国内 +13 天，1918.02.14 后依公历 `[N.S.]`）
+- **社会革命党出身与1917年临时政府粮食副部长（1892–1919）**：`1892-03-04 [O.S.] / 1892-03-16 [N.S.]` 生于科斯特罗马省基涅什马县农家。早年加入社会革命党（`ORG-psr`），就读圣彼得堡大学法律系，受业于杜冈-巴拉诺夫斯基（周期与合作经济）与柯瓦列夫斯基，专攻农业统计与地方自治局经济。1917年二月革命后积极参与全俄农民代表苏维埃与土地委员会事务；**`1917-10-05 [O.S.] / 1917-10-18 [N.S.]` 出任 `ORG-provisional-government`（临时政府）粮食部副部长**（协助普罗柯波维奇），旋因十月起义（`EVT-1917-10-october-revolution`）卸任。同年11月当选立宪会议代表（科斯特罗马社革党名单），1918年迁居莫斯科任教并投身农业学术机构，1919年正式退出社会革命党。
+- **创建景气研究所与“康德拉季耶夫长波”假说（1920–1926）**：1920年10月在莫斯科创立景气研究所（Конъюнктурный институт，后划归 `INS-gosbank-and-narkomfin` 苏联财政人民委员部，受 `PER-sokolnikov` 重用）并任首任所长，建成1920年代苏联最具公信力的物价指数、农业市场行市与宏观波动监测体系。他在《世界经济及其在战时和战后的景气》（1922）与《大经济周期》（1925）中提出资本主义世界存在约45–60年的长波周期假说——认为周期性技术革命、资本更新与市场波动决定长期走势，从而直接挑战共产国际关于资本主义立刻总崩溃的线性命题，并遭到 `PER-trotsky`（强调重大历史政治突变打破周期）与正统马克思主义者的严词反驳。
+- **“发生学派 vs. 目的论派”计划方法论之争（1923–1927）**：1923–1927年兼任俄罗斯联邦农业人民委员部计划委员会（Земплан）学术领导，主持编制1923–1928年农林业远景规划（俗称“康德拉季耶夫五年计划”）。围绕国家计划方法论，康德拉季耶夫与格罗曼、巴扎罗夫构成**“发生学派（генетический подход）”**，同 `INS-vsnkh-and-gosplan`（国家计委与最高国民经济委员会）内斯特鲁米林等人代表的**“目的论派（телеологический подход）”**展开激烈交锋：发生学派主张计划须受限于既有经济规律、人口/产量统计趋势与市场商品率约束，反对凭政治指令倒推超高速重工业指标，主张放松对富裕商品化农户租地雇工的限制、通过工农业均衡贸易与农产出口换取外国设备，再渐进积累工业资本（参 `CON-primitive-socialist-accumulation`, `POL-first-five-year-plan`）。
+- **“康德拉季耶夫主义”定罪与清洗遇害（1927–1938）**：`1927-09` `ORG-left-and-united-opposition`《政纲》率先在党内文件中将“康德拉季耶夫分子、萨德林分子、恰亚诺夫分子”定性为盘踞在 `PER-rykov` 周围、鼓吹乌斯特里亚洛夫学说的富裕农民代理人（`1927-09_platform-joint-opposition-core.md#L395`）。随 `EVT-1928-grain-procurement-crisis` 爆发与 `MTG-1927-12-15th-party-congress` 后路线左转，斯大林（`PER-stalin`）集团接过这一标签将市场均衡主张打成反革命**“康德拉季耶夫主义（кондратьевщина）”**，于1928年春被免去景气研究所所长职务，研究所随后于1930年关闭。1930年6月因 `INS-cheka-gpu-ogpu` 虚构的“劳动农民党（ТКП）”案被捕，1932年被判处八年监禁（囚于苏兹达尔政治隔离营），大清洗期间于 `1938-09-17 [N.S.]` 被最高法院军事审判庭改判死刑并于同日在莫斯科科穆纳尔卡枪决。
 
-### 2.2 时效关系摘要边表（Typed & Temporalized Edges）
-| 关联节点 ID | 关系类型 | 有效时段 | 一句话关系实质摘要（防 N+1 盲跳） | 核心依据/争鸣 |
+### 2.2 核心关系网络（结构化边表）
+| 目标节点 ID | 关系类型 | 有效时段 | 关系实质摘要 | 核心依据 |
 | :--- | :--- | :--- | :--- | :--- |
-| `ORG-psr` | `member -> resigns` | 1905–1919 | 早年参加社会革命党并于1917年10月任临时政府粮食部副部长、当选立宪会议代表，1919年退党转向纯学术与苏维埃经济专家工作。 | 传记史学共识 |
-| `PER-sokolnikov` | `institutional-patron` | 1922–1926.01 | 在索科尔尼科夫主政财政人民委员部期间主持下属景气研究所，以价格指数与市场周期研究支撑切尔文货币稳定与均衡财政路线。 | `PER-sokolnikov`, `RN-W24-lenin-to-stalin-revolution-from-below-to-above` |
-| `INS-vsnkh-and-gosplan` | `methodological-opponent` | 1924–1928 | 作为“发生学派”代表，批评国家计委与最高国民经济委员会“目的论派”脱离农业积累基础与市场承载力的超高速重工业投资方案。 | `RN-W24-lenin-to-stalin-revolution-from-below-to-above`, `RN-W32-spitsyn-neo-traditionalist-synthesis-1917-1929` |
-| `PER-chayanov` | `academic-colleague` | 1917–1930 | 同为NEP时期农业人民委员部与合作社研究核心非党专家，分别从宏观市场景气/比较优势与微观家庭农场组织维度捍卫个体与合作农业，1927–1930年同遭批判与逮捕。 | `CON-primitive-socialist-accumulation`, `1927-09_platform-joint-opposition-core.md` |
-| `ORG-left-and-united-opposition` | `ideological-target` | 1925–1927 | 被联合反对派在1927年9月政纲中指责为盘踞在苏维埃机关内、代表富裕农民利益并传播乌斯特里亚洛夫主义的头号非党专家。 | `1927-09_platform-joint-opposition-core.md`, `CON-thermidor-and-bureaucracy` |
-| `PER-stalin` | `ideological-target -> purge-victim` | 1927–1938 | 1927–1928年被斯大林体制打成“康德拉季耶夫主义”富农代言人并撤职；1930年因“劳动农民党”假案入狱，1938年9月被处决。 | `EVT-1929-great-turn-and-dekulakization-launch` |
+| `ORG-psr` | `former_member_and_minister` | 1905–1919 | 早年入社革党，1917年10月任临时政府粮食部副部长并当选立宪会议代表，1919年退党专事学术 | `ORG-psr`, `ORG-provisional-government` |
+| `PER-sokolnikov` | `institutional_patron` | 1922–1926-01 | 索科尔尼科夫主政财政部期间庇护其景气研究所，以物价监测配合切尔文货币稳定与市场均衡财政 | `PER-sokolnikov`, `POL-sokolnikov-chervonets-monetary-reform` |
+| `INS-vsnkh-and-gosplan` | `methodological_opponent` | 1924–1928 | 作为“发生学派”领袖反对计委/VSNKh“目的论派”脱离农业积累基础的跃进式重工业方案 | `INS-vsnkh-and-gosplan`, `RN-W24-lenin-to-stalin-revolution-from-below-to-above` |
+| `PER-chayanov` | `academic_ally_and_co_accused` | 1917–1930 | 同为农业部体系非党专家支柱，宏观市场景气研究与微观家庭农场学说互补；1930年同入TKP冤案 | `PER-chayanov`, `1927-09_platform-joint-opposition-core.md#L395` |
+| `ORG-left-and-united-opposition` | `targeted_as_ustryalovite_by` | 1925–1927 | 被1927-09《联合反对派政纲》指认为在各州县享有实权并替富裕农民代言的头号非党专家靶子 | `1927-09_platform-joint-opposition-core.md#L395`, `CON-thermidor-and-bureaucracy` |
+| `PER-stalin` | `denounced_and_executed_under` | 1927–1938-09 | 被斯大林体制定性为反革命“康德拉季耶夫主义”，1928年春撤职、研究所1930年关闭；1930年6月因TKP案被捕、1932年判八年，1938年处决 | `EVT-1929-great-turn-and-dekulakization-launch`, `PER-stalin` |
+| `POL-sokolnikov-chervonets-monetary-reform` | `conjuncture_index_architect_for` | 1922–1926-01 | 主持财政部景气研究所编制工农业物价与市场景气指数，为切尔文硬通货稳定与均衡预算提供经验监测底座 | `PER-sokolnikov`, `POL-sokolnikov-chervonets-monetary-reform` |
+| `EVT-1928-grain-procurement-crisis` | `dismissed_as_rightist_spets_amid` | 1928春 | 随1928年初粮食收购危机与路线急剧左转，其市场均衡与农产出口方案被打成“康德拉季耶夫主义”并遭免去景气研究所所长 | `EVT-1928-grain-procurement-crisis`, `DEB-1928-bukharin-alternative` |
 
-### 2.3 史学争鸣光谱（Historiographical Spectrum）
-- **经验共识**：康德拉季耶夫是1920年代苏联财政人民委员部景气研究所的创建者与世界知名周期经济学家；他在1923–1927年间主张依托市场价格信号、商品化农户与农矿出口推进渐进工业化，并在计划方法论上代表“发生学派”；1928年因政治路线剧变失势，1930年卷入“劳动农民党”冤案被捕。
-- **主要解释分歧**：
-  - **[发展经济学与体制张力视角 / E. H. Carr (1979), Alec Nove]**：卡尔指出，康德拉季耶夫与财政部专家遵循古典比较优势与市场均衡法则，主张优先投资低成本、高回报的农业与轻工业并通过出口换取资本品；这在经济学逻辑上完全自洽，但与布尔什维克执政党在资本主义包围下追赶西方、迅速建立独立重工业与国防体系的政治意志发生不可调和的碰撞，最终导致“目的论派”以政治意志压倒“发生学派”的经济可行性测算（`RN-W24-lenin-to-stalin-revolution-from-below-to-above`, `[pp. 108–110, 144–145]`）。
-  - **[新经济政策多元生态与布哈林替代方案视角 / Stephen F. Cohen (1973), Alexander Erlich (1960)]**：埃利希与科恩强调，康德拉季耶夫等非党专家关于工农业市场均衡、价格激励与粮食供给弹性的实证研究，为1920年代中期布哈林（`PER-bukharin`）、李可夫（`PER-rykov`）的温和工业化路线提供了重要数据与学理支撑；对“康德拉季耶夫主义”的整肃不仅是针对非党技术知识分子（`spetsy`）的打击，更是斯大林瓦解党内右倾温和派政策根基的序幕（`CLM-cohen-1973-nep-viability`, `CLM-erlich-1960-bukharin-balanced-growth`）。
-  - **[计量反事实与结构硬约束之争 / Holland Hunter vs. R. W. Davies (1995)]**：霍兰·亨特肯定1920年代景气与统计机构的客观性，认为延续非集体化农业与市场均衡本可建立更健康的工业基础；而戴维斯（R. W. Davies）与新传统主义学者（如斯皮岑 `RN-W32-spitsyn-neo-traditionalist-synthesis-1917-1929`）则指出，1920年代末农村“中农化”造成的商品粮率低迷以及重工业高资本积累需求，使康德拉季耶夫依赖自由市场与富农/富裕中农商品粮出口的方案在布尔什维克政治框架内难以持续（`CLM-davies-festschrift-1995-nep-statistics-and-planning-debates`）。
+### 2.3 多视角史学争鸣与阐释边界
+- **经验共识**：康德拉季耶夫是1920年代苏联财政部景气研究所的灵魂人物与国际著名的经济周期理论家；在苏联工业化方法论争论中代表立足统计趋势与市场平衡的“发生学派”；1928年随新经济政策危机被罢黜，1930年卷入虚构的“劳动农民党”案并于1938年遇害。
+- **核心争鸣（详参 `DEB-1928-bukharin-alternative`）**：
+  - **经济理性 vs. 追赶型政治意志（E. H. Carr, 1979; Alec Nove, 1964）**：Carr（`RN-W24-lenin-to-stalin-revolution-from-below-to-above`, `[pp. 108–110, 144–145]`）与 Nove（`CLM-nove-1964-stalin-necessity-dilemma`）指出，康德拉季耶夫依托比较优势、鼓励高效率商品农户出口农产品换取设备在古典经济学上完全自洽，但与布尔什维克政权在外部军事孤立下迅速打造重工业—国防独立体系的政治目标发生不可调和的冲突，“目的论派”由此以政治决断压倒经济测算。
+  - **NEP 生态支撑与布哈林替代方案（Stephen F. Cohen, 1973; Alexander Erlich, 1960）**：Cohen（`CLM-cohen-1973-nep-viability`）与 Erlich（`CLM-erlich-1960-bukharin-balanced-growth`）强调，康德拉季耶夫景气研究所对价格剪刀差、供需弹性的经验测算客观上构成了布哈林—李可夫温和工业化替代方案的学理底盘；先整肃“康德拉季耶夫主义”非党专家（`spetsy`），成为斯大林清剿党内右倾温和派的重要前哨战。
+  - **计量反事实 vs. 结构硬约束（`CLM-davies-festschrift-1995-nep-statistics-and-planning-debates`; E. Yu. Spitsyn）**：Davies 纪念论文集（`CLM-davies-festschrift-1995-nep-statistics-and-planning-debates`）各章分别讨论1920年代景气统计质量、反事实增长及结构约束（具体支持与反驳论点须按各章作者与原页分别列出，不将论文集多种观点合并归于 Davies 本人）；俄国新传统派史家 Spitsyn（`RN-W32-spitsyn-neo-traditionalist-synthesis-1917-1929`）另从国家安全与积累约束视角单列指出，1920年代末商品粮与投资缺口使康德拉季耶夫构想难以满足迅速工业化与国防目标。
 
-## [T3] 深度考证、分期细目与原文引证档案
-
-### 3.1 1927年《联合反对派政纲》对“康德拉季耶夫派非党专家”的政治指控
-- 在1927年9月提交的《布尔什维克列宁主义者（反对派）政纲》第七章中，托洛茨基与季诺维也夫联合反对派将康德拉季耶夫、萨德林、恰亚诺夫等人作为右倾路线的社会与思想缩影加以猛烈抨击（`sources/web-archive/E09_E10_party_debates/1927-09_platform-joint-opposition-core.md` L395）：
-  > "Around them and in their immediate vicinity are working the 'non-party' – the Kondratievs, Sadyrins, Chayanovs and other political 'business agents' of the wealthy peasantry, more or less openly preaching the doctrines of Ustryalov. In every region, and often in every *Uyezd*, are to be found the little Kondratievs and Sadyrins enjoying their bit of real power and influence." `[1927-09_platform-joint-opposition-core.md#L395]`
-- **史料辨析**：这一引文直观展现了1920年代中后期非党农业专家在布尔什维克党内派系斗争中的处境——反对派通过将康德拉季耶夫、恰亚诺夫贴上“富裕农民代理人”与“乌斯特里亚洛夫主义者”标签来攻击李可夫与布哈林，而斯大林在击败左翼反对派后随即接过这一话语武器，将其转化为1928–1930年清洗非党农业经济学家的刑事罪名。
-
-### 3.2 发生学派（Genetic Approach）与1920年代统计体制的终结
-- 对接 `RN-W24-lenin-to-stalin-revolution-from-below-to-above` 与 `CLM-davies-festschrift-1995-nep-statistics-and-planning-debates`：卡尔在分析1925–1927年计划争论时指出，以格罗曼、康德拉季耶夫为代表的“发生学派”坚持计划必须受制于既有农业商品率、市场购买力与物价均衡，而“目的论派”则主张由国家战略目标倒推生产任务 `[pp. 108–110, 144–145]`。霍兰·亨特进一步指出，随着1928–1929年景气研究所被撤并及高指标指令性计划启动，苏联1920年代相对客观的部门平衡与价格景气统计体系被“按需知密”的粉饰性统计所取代 `[pp. 221–224]`。
-
-### 3.3 待补一手与定量档案
-1. 科斯特罗马省基涅什马县 `1892-03-04 [O.S.] / 1892-03-16 [N.S.]` 出生教区登记簿与1917年10月临时政府粮食部副部长任免公文；
-2. 康德拉季耶夫《大经济周期》（*Большие циклы конъюнктуры*, 1925）与《论计划工作的原理》（1927）俄文原刊页码；
-3. 1930年“劳动农民党”（ТКП）案审讯卷宗、1938年9月17日最高法院军事审判庭死刑判决书及1987年7月苏联最高法院平反裁定书（S级）。
+## [T3] 溯源锚点与未决史料缺口
+- **站内已核 S / A / B 级锚点**：
+  - **S 级文献逐行锚点与直引**：[`sources/web-archive/E09_E10_party_debates/1927-09_platform-joint-opposition-core.md`](../../sources/web-archive/E09_E10_party_debates/1927-09_platform-joint-opposition-core.md)（L395，联合反对派将康德拉季耶夫树立为右倾专家代表）：
+    > "Around them and in their immediate vicinity are working the 'non-party' – the Kondratievs, Sadyrins, Chayanovs and other political 'business agents' of the wealthy peasantry, more or less openly preaching the doctrines of Ustryalov. In every region, and often in every *Uyezd*, are to be found the little Kondratievs and Sadyrins enjoying their bit of real power and influence." [`1927-09_platform-joint-opposition-core.md#L395`]
+  - **A 级精读札记与论断卡**：[`RN-W24-lenin-to-stalin-revolution-from-below-to-above`](../../reading-notes/carr1979_service2009/RN-W24-lenin-to-stalin-revolution-from-below-to-above.md)（“发生学派 vs. 目的论派”与宏观规划之争）；[`CLM-davies-festschrift-1995-nep-statistics-and-planning-debates`](../../historiography/claims/CLM-davies-festschrift-1995-nep-statistics-and-planning-debates.md)（Holland Hunter 与 Davies 关于1920年代景气统计体系的争鸣）；[`CLM-cohen-1973-nep-viability`](../../historiography/claims/CLM-cohen-1973-nep-viability.md)；[`CLM-erlich-1960-bukharin-balanced-growth`](../../historiography/claims/CLM-erlich-1960-bukharin-balanced-growth.md)；[`CLM-nove-1964-stalin-necessity-dilemma`](../../historiography/claims/CLM-nove-1964-stalin-necessity-dilemma.md)；[`RN-W32-spitsyn-neo-traditionalist-synthesis-1917-1929`](../../reading-notes/spitsyn_russia_ussr_v3_zh/RN-W32-spitsyn-neo-traditionalist-synthesis-1917-1929.md)。
+- **外部待补核 S / A 级缺口**：
+  - **康德拉季耶夫《大经济周期》（*Большие циклы конъюнктуры*, 1925）**、**《论计划工作的原理》（1927）** 俄文原刊及 **E. H. Carr, *Foundations of a Planned Economy*** 中发生学派/目的论派辩论原页（A 级）。
+  - 科斯特罗马省 `1892-03-04 [O.S.]` 出生教区登记、1917年10月临时政府粮食部副部长任命公文、1930年 TKP 审讯卷宗、1938年9月17日死刑判决及1987年7月苏联最高法院平反裁定原件（S 级）。

@@ -1,14 +1,9 @@
-# 1-Hop 平衡上下文包：`ORG-vikzhel` (全俄铁路雇员与工人联合会执行委员会（维克热尔）)
+# 1-Hop 去重平衡上下文包：`ORG-vikzhel`
 
-> 本文件由 `python scripts/kb.py pack` 自动编译，旨在将失控的 `1+N` 随机读取压缩为**等权重、带时效边实质与史学盲区告警**的单次全景读取。
+> 由 `python scripts/kb.py pack` 动态编译：保留 **100% 一跳邻居与多时段关系边**，跨卡自动去重争鸣与时间线，并关联学者学派 (`SCH-*`)。
 
-## 0. 认知完备度与反偏斜仪表盘 (Epistemic & Skew Warnings)
-- **主卡路径**: `cards/organizations/ORG-vikzhel.md`
-- **完备度等级**: `multi-perspective`
-- **已覆盖视角**: `rabinowitch-contingency-thesis-via-CLM, moscow-social-history-koenker, menshevik-history-basil, carr-institutional-political-economy, pipes-power-concentration-via-CLM`
-- **待补齐视角**: `vikzhel-proceedings-original, railway-union-membership-and-vikzhedor-primary-records, revolutionary-left-structural-incompatibility-claim-cards`
-- **偏斜风险提示**:
-  - ⚠️ 主卡显式声明尚缺以下视角待补: `vikzhel-proceedings-original, railway-union-membership-and-vikzhedor-primary-records, revolutionary-left-structural-incompatibility-claim-cards`。
+## 0. 认知完备度与反偏斜仪表盘
+- **`ORG-vikzhel`** (全俄铁路雇员与工人联合会执行委员会（维克热尔） | `cards/organizations/ORG-vikzhel.md` | `multi-perspective`): 已覆盖=`rabinowitch-contingency-thesis-via-CLM, moscow-social-history-koenker, menshevik-history-basil, carr-institutional-political-economy, pipes-power-concentration-via-CLM`；待补=`vikzhel-proceedings-original, railway-union-membership-and-vikzhedor-primary-records, revolutionary-left-structural-incompatibility-claim-cards`
 
 ## 1. 主卡核心层 ([T1] + [T2])
 ## [T1] 60秒定性微摘要
@@ -52,62 +47,22 @@
 ### 2.3 史学争鸣光谱
 库内辩题 `DEB-1917-all-socialist-coalition-vikzhel-missed-chance` 登记四派。Rabinowitch 强调早期社会主义多党政治的现实可能性及其在危机中受挫，布党内部并非一开始就有统一的一党专政计划（`CLM-rabinowitch-2007-left-sr-coalition-collapse`；`CLM-rabinowitch-2007-contingency-of-dictatorship`）。Pipes–Malia 一极强调意图与权力集中，把联合谈判视为列宁不愿分享权力的表现（`CLM-pipes-1990-october-classic-coup`）；Trotsky–Deutscher 一线的“革命左翼结构不相容论”库内尚无专门论断卡，作缺口登记。Koenker 以莫斯科工人及街头战斗为焦点（`RN-W32-koenker-moscow-strikes-duma-votes-and-october-week`）；Basil 则提示反对布尔什维克夺权者对武力与谈判也发生分裂（`CLM-basil-1984-october-and-vikzhel-collapse`）。广泛联合是否可行仍是反事实问题，铁路工会压力并不保证各方接受相同条件。
 
-## 2. 一跳邻域等权重微摘要 (共 13 个关联节点，严防大卡霸占上下文)
-### 邻居节点: `ORG-bolsheviks-rcpb-vkpb`
-- **时效关系边** (`ORG-bolsheviks-rcpb-vkpb` → `ORG-vikzhel` | `coalition-negotiation` | 有效时段: `1917–1918`): 铁路工会斡旋联合政府，暴露执政党内部的策略分歧
-- **时效关系边** (`ORG-vikzhel` → `ORG-bolsheviks-rcpb-vkpb` | `mediated-coalition-talks` | 有效时段: `1917–1918`): 借铁路运输杠杆要求联合政府，并暴露布党内部严重分歧
-- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 布尔什维克起于1903年社民工党二大后的党内多数派，经流亡、地下活动与1917年群众扩张成为执政党；1918年称俄共（布），1925年称联共（布）。它从地方主动性较强的革命党，演变为拥有任命网络与纪律制裁的党国核心，过程分阶段且存争议。
+## 2. 一跳邻域全量微摘要目录 (去重后共 13 个节点，0 截断)
+- **`INS-sovnarkom-and-vtsik`**（人民委员会与全俄、全苏中央执行委员会）: 苏维埃代表大会闭会期间，中执委在宪制上监督政府，人民委员会却迅速掌握施政与大量法令制定。苏俄与1922年成立的苏联各有中执委与人民委员会，不能混同。党内领导与国家机关关系不断变化，政治局权重日增，但1920年代仍须经政府落实决策。 ‖ `→ORG-vikzhel`[legislative_power_dispute|1917-11]: 11-04 表决与联合政府谈判背景 ； `←ORG-vikzhel`[legislative-power-dispute|1917-11]: 11-04 中执委表决人民委员会法令权
+- **`ORG-bolsheviks-rcpb-vkpb`**（布尔什维克派—俄共（布）—联共（布））: 布尔什维克起于1903年社民工党二大后的党内多数派，经流亡、地下活动与1917年群众扩张成为执政党；1918年称俄共（布），1925年称联共（布）。它从地方主动性较强的革命党，演变为拥有任命网络与纪律制裁的党国核心，过程分阶段且存争议。 ‖ `→ORG-vikzhel`[coalition-negotiation|1917-10至11]: 铁路工会斡旋联合政府，暴露党内中央委员会多数与少数分歧 ； `←ORG-vikzhel`[mediated-coalition-talks|1917.10–11]: 借铁路运输杠杆要求联合政府，并暴露布党内部严重分歧
+- **`ORG-mensheviks`**（孟什维克）: 俄国社会民主主义政党（1903–1924），源于1903年二大马尔托夫等与列宁围绕党章第一条及集中制的决裂，主张开放型群众政党与工人自主活动。1917年分化为策烈铁里、但恩主导的入阁“革命护国派”与马尔托夫领导的反战“国际主义派”；十月后开展苏维埃合法反对派抗争，1921年后遭取缔。 ‖ `←ORG-vikzhel`[negotiation-participant|1917]: 孟什维克内部对政府和抵抗方式并不一致，部分人参与调停
+- **`ORG-psr`**（社会革命党）: 1901年末合并建立的俄国新民粹派政党，以土地社会化纲领与战斗组织暗杀闻名。1917年选民基数居全俄之冠却在战争、分地拖延与左翼分裂中失势；虽夺立宪会议多数仍遭解散，内战“第三条道路”溃于高尔察克政变，1922年莫斯科公审后在国内覆灭。 ‖ `←ORG-vikzhel`[negotiation-participant|1917]: 右翼社革党主导机关并拒绝让步，社革党分裂改变联盟可能
+- **`ORG-left-srs`**（左翼社会革命党）: 1917年底从社会革命党分裂出的激进民粹派政党（1917–1923），以斯皮里多诺娃、普罗相等为首。拥护苏维埃政权并于1917年12月加入人民委员会与布尔什维克联合执政；1918年3月因反《布列斯特和约》退阁但仍维持北方公社合作，7月6日刺杀德国大使米尔巴赫遭全面清洗而覆灭。 ‖ `←ORG-vikzhel`[coalition-partner-after-failure|1917.12–1918]: 谈判破裂后单独入阁，改变广泛联盟的可能性
+- **`EVT-1917-10-october-revolution`**（1917年十月革命）: 1917年10月24—27日（俄历；公历11月6—9日），军事革命委员会夺取彼得格勒中枢，冬宫陷落，苏维埃二大通过和平、土地法令并建立人民委员会。群众激进化、组织夺权与多党联合失败交织；首都迅速接管不代表全国无血革命。 ‖ `←ORG-vikzhel`[post-insurrection-mediation|1917]: 起义后以罢工威胁促谈，莫斯科同时有停火斡旋
+- **`PER-lenin`**（弗拉基米尔·列宁）: 布尔什维克党缔造者、苏俄人民委员会主席（1917–1924）。1893年投身马克思主义运动，1903年促成布尔什维克分化；1917年发表《四月提纲》并领导十月夺权，历经布列斯特和约、内战与战时共产主义；1921年主持转向新经济政策，晚年（1922–1923）就官僚化与接班人同斯大林冲突。 ‖ `←ORG-vikzhel`[ultimatum-opponent|1917-11]: 反对排除自己与托洛茨基的联合方案，提出十人最后通牒
+- **`PER-kamenev`**（列夫·加米涅夫）: 老布尔什维克、首任全俄中执委主席。1917年自四月至立宪会议一贯坚守温和宪政社会主义联盟路线并公开反对十月起义；1924年十三大联手季诺维也夫压下《列宁遗嘱》，1925年十四大公开发言反斯大林“领袖”集权后失势；1928年7月密会布哈林并留下外泄笔记，反成右派致命罪证。 ‖ `←ORG-vikzhel`[coalition-advocate|1917-11]: 布党内主张广泛联合的代表人物
+- **`PER-zinoviev`**（格里戈里·季诺维也夫）: 老布尔什维克、共产国际首任主席（1919–1926）。1917年十月公开反对武装起义；1920年哈雷演说力推二十一条与阶级恐怖，1923年豪赌“德国十月”并首倡社民党“法西斯羽翼”论；借“三驾马车”排托后于1925年发起新反对派，1926年7月首因秘密第7条被逐出政治局，1927年底被开除后屈服。 ‖ `←ORG-vikzhel`[coalition-advocate-then-retreat|1917-11]: 辞职并于 11-06/07 认错
+- **`PER-rykov`**（阿列克谢·李可夫）: 老布尔什维克与苏维埃经济组织家。1917年四月会议曾质疑《四月提纲》，十月后因维克热尔联合政府诉求辞职；两掌最高国民经济委员会，1924年继列宁任苏联人民委员会主席；1928–1929年协同布哈林抵制非常征粮并提“两年农业计划”遭撤职清洗，其名却在库班农民口号中回响。 ‖ `←ORG-vikzhel`[coalition-advocate|1917-11]: 辞职者之一
+- **`PER-sverdlov`**（雅科夫·斯维尔德洛夫）: 布尔什维克地下组织与党国协调骨干。1917年四月会议后主持中央书记处，参与十月军革委，11月任全俄中执委主席；1918年干预立宪会议开幕、主持苏俄宪法起草。1919年3月早逝，在内战与党组织扩张背景下加速八大及会后全会常设政治局、组织局、书记处的分工。 ‖ `←ORG-vikzhel`[vtsik-chair|1917-11]: 11-08 [O.S.] 接任中执委主席
+- **`PER-martov-l`**（尤利·马尔托夫）: 孟什维克核心领袖与国际主义左翼旗手。1903年二大凭党章第一条（28:22:1）与列宁分道；1917年七月夜倡“清一色社会主义政府”遭党内主流否决，十月二大率派退场；1918年工人抗议浪潮中坚持苏维埃合法反对派立场，1920年哈雷大会与季诺维也夫正面交锋痛斥恐怖与二十一条，后流亡柏林病逝。 ‖ `←ORG-vikzhel`[negotiation-participant|1917-11]: 国际主义孟什维克，与谈判相关
+- **`PER-dan`**（费奥多尔·但）: 孟什维克核心组织领袖，马尔托夫挚友兼妹夫。1871年生于彼得堡医师家庭（原姓古尔维奇）。1917年与策烈铁里共掌彼得格勒苏维埃执委会“星室”推行“革命护国主义”（6月11日曾阻止策烈铁里解除布尔什维克武装）；十月后转向左翼中派并在苏俄境内坚持合法反对，直至1922年被驱逐出国。 ‖ `←ORG-vikzhel`[negotiation-participant|1917-11]: 孟什维克领导人之一
 
-### 邻居节点: `ORG-mensheviks`
-- **时效关系边** (`ORG-vikzhel` → `ORG-mensheviks` | `negotiation-participant` | 有效时段: `1917`): 孟什维克内部对政府和抵抗方式并不一致，部分人参与调停
-- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 俄国社会民主主义政党（1903–1924），源于1903年二大马尔托夫等与列宁围绕党章第一条及集中制的决裂，主张开放型群众政党与工人自主活动。1917年分化为策烈铁里、但恩主导的入阁“革命护国派”与马尔托夫领导的反战“国际主义派”；十月后开展苏维埃合法反对派抗争，1921年后遭取缔。
-
-### 邻居节点: `ORG-psr`
-- **时效关系边** (`ORG-vikzhel` → `ORG-psr` | `negotiation-participant` | 有效时段: `1917–1918`): 社革党分裂及左翼单独入阁改变广泛联盟的可能性
-- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 1901年末合并建立的俄国新民粹派政党，以土地社会化纲领与战斗组织暗杀闻名。1917年选民基数居全俄之冠却在战争、分地拖延与左翼分裂中失势；虽夺立宪会议多数仍遭解散，内战“第三条道路”溃于高尔察克政变，1922年莫斯科公审后在国内覆灭。
-
-### 邻居节点: `EVT-1917-10-october-revolution`
-- **时效关系边** (`ORG-vikzhel` → `EVT-1917-10-october-revolution` | `post-insurrection-mediation` | 有效时段: `1917`): 起义后以罢工威胁促谈，莫斯科同时有停火斡旋
-- **节点定性微摘要 [T1]** (完备度 `draft`): 1917年10月24日至26日（公历11月6日至8日），布尔什维克依托彼得格勒苏维埃军事革命委员会推翻克伦斯基临时政府。起义占领首都交通通信要冲并攻克冬宫；第二届全俄苏维埃代表大会通过和平法令与土地法令，成立以列宁为首的人民委员会，确立苏维埃苏俄政权，开启全球社会主义运动新纪元。
-
-### 邻居节点: `INS-sovnarkom-and-vtsik`
-- **时效关系边** (`INS-sovnarkom-and-vtsik` → `ORG-vikzhel` | `legislative_power_dispute` | 有效时段: `1917-11`): 11-04 表决与联合政府谈判背景
-- **时效关系边** (`ORG-vikzhel` → `INS-sovnarkom-and-vtsik` | `legislative-power-dispute` | 有效时段: `1917-11`): 11-04 中执委表决人民委员会法令权
-- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 苏维埃代表大会闭会期间，中执委在宪制上监督政府，人民委员会却迅速掌握施政与大量法令制定。苏俄与1922年成立的苏联各有中执委与人民委员会，不能混同。党内领导与国家机关关系不断变化，政治局权重日增，但1920年代仍须经政府落实决策。
-
-### 邻居节点: `ORG-left-srs`
-- **时效关系边** (`ORG-vikzhel` → `ORG-left-srs` | `coalition-partner-after-failure` | 有效时段: `1917.12–1918`): 谈判破裂后单独入阁，改变广泛联盟的可能性
-- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 1917年底从社会革命党分裂出的激进民粹派政党（1917–1923），以斯皮里多诺娃、普罗相等为首。拥护苏维埃政权并于1917年12月加入人民委员会与布尔什维克联合执政；1918年3月因反《布列斯特和约》退阁但仍维持北方公社合作，7月6日刺杀德国大使米尔巴赫遭全面清洗而覆灭。
-
-### 邻居节点: `PER-lenin`
-- **时效关系边** (`ORG-vikzhel` → `PER-lenin` | `ultimatum-opponent` | 有效时段: `1917-11`): 反对排除自己与托洛茨基的联合方案，提出十人最后通牒
-- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 布尔什维克党缔造者、苏俄人民委员会主席（1917–1924）。1893年投身马克思主义运动，1903年促成布尔什维克分化；1917年发表《四月提纲》并领导十月夺权，历经布列斯特和约、内战与战时共产主义；1921年主持转向新经济政策，晚年（1922–1923）就官僚化与接班人同斯大林冲突。
-
-### 邻居节点: `PER-kamenev`
-- **时效关系边** (`ORG-vikzhel` → `PER-kamenev` | `coalition-advocate` | 有效时段: `1917-11`): 布党内主张广泛联合的代表人物
-- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 老布尔什维克、首任全俄中执委主席。1917年自四月至立宪会议一贯坚守温和宪政社会主义联盟路线并公开反对十月起义；1924年十三大联手季诺维也夫压下《列宁遗嘱》，1925年十四大公开发言反斯大林“领袖”集权后失势；1928年7月密会布哈林并留下外泄笔记，反成右派致命罪证。
-
-### 邻居节点: `PER-zinoviev`
-- **时效关系边** (`ORG-vikzhel` → `PER-zinoviev` | `coalition-advocate-then-retreat` | 有效时段: `1917-11`): 辞职并于 11-06/07 认错
-- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 老布尔什维克、共产国际首任主席（1919–1926）。1917年十月公开反对武装起义；1920年哈雷演说力推二十一条与阶级恐怖，1923年豪赌“德国十月”并首倡社民党“法西斯羽翼”论；借“三驾马车”排托后于1925年发起新反对派，1926年7月首因秘密第7条被逐出政治局，1927年底被开除后屈服。
-
-### 邻居节点: `PER-rykov`
-- **时效关系边** (`ORG-vikzhel` → `PER-rykov` | `coalition-advocate` | 有效时段: `1917-11`): 辞职者之一
-- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 老布尔什维克与苏维埃经济组织家。1917年四月会议曾质疑《四月提纲》，十月后因维克热尔联合政府诉求辞职；两掌最高国民经济委员会，1924年继列宁任苏联人民委员会主席；1928–1929年协同布哈林抵制非常征粮并提“两年农业计划”遭撤职清洗，其名却在库班农民口号中回响。
-
-### 邻居节点: `PER-sverdlov`
-- **时效关系边** (`ORG-vikzhel` → `PER-sverdlov` | `vtsik-chair` | 有效时段: `1917-11`): 11-08 [O.S.] 接任中执委主席
-- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 布尔什维克地下组织骨干与早期党国协调中枢（1885–1919）。1902年入党长期流放西伯利亚；1917年四月会议后主持中央书记处并参与十月军革委核心；11月接任全俄中执委主席，1918年主持干预立宪会议开幕及苏俄首部宪法起草（7月10日通过）；1919年3月早逝在内战与党组织扩张背景下加速了八大及会后中央全会常设政治局、组织局与书记处的制度分工。
-
-### 邻居节点: `PER-martov-l`
-- **时效关系边** (`ORG-vikzhel` → `PER-martov-l` | `negotiation-participant` | 有效时段: `1917-11`): 国际主义孟什维克，与谈判相关
-- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 孟什维克核心领袖与国际主义左翼旗手。1903年二大凭党章第一条（28:22:1）与列宁分道；1917年七月夜倡“清一色社会主义政府”遭党内主流否决，十月二大率派退场；1918年工人抗议浪潮中坚持苏维埃合法反对派立场，1920年哈雷大会与季诺维也夫正面交锋痛斥恐怖与二十一条，后流亡柏林病逝。
-
-### 邻居节点: `PER-dan`
-- **时效关系边** (`ORG-vikzhel` → `PER-dan` | `negotiation-participant` | 有效时段: `1917-11`): 孟什维克领导人之一
-- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 孟什维克核心组织领袖，马尔托夫挚友兼妹夫。1871年生于彼得堡医师家庭（原姓古尔维奇）。1917年与策烈铁里共掌彼得格勒苏维埃执委会“星室”推行“革命护国主义”（6月11日曾阻止策烈铁里解除布尔什维克武装）；十月后转向左翼中派并在苏俄境内坚持合法反对，直至1922年被驱逐出国。
-
-## 3. 关联史学争鸣光谱 (Historiographical Debates)
+## 3. 关联史学争鸣与学者论断索引 (主卡外关联争鸣 2 项)
 ### `DEB-1917-october-coup-or-social-revolution`：十月革命：少数派政变还是社会革命？
 ## [T1] 核心问题定义
 十月武装夺权是少数派政变，还是工人、士兵与农民社会革命的政治表达？有组织的起义与广泛的基层动员能否同时成立，苏维埃多数又能否代表全国选民？这些问题涉及不同地区、不同时间的支持与合法性，不能以一次投票或一次攻占行动互相替代。
@@ -140,13 +95,31 @@
 | 革命左翼的结构不相容 | Trotsky、Deutscher强调对十月合法性、权力归属和列宁、托洛茨基本人入阁的冲突，认为某些条件将削弱革命政府。 | 托洛茨基兼具参与者与事后论辩者身份；不能把反对党内部不同条件视作始终一致。 | `CLM-basil-1984-october-and-vikzhel-collapse` |
 | 温和社会主义与地方政治 | Galili、Koenker、Hickey 的研究方向提示考察温和派及省城组织的分歧，不应只看首都领袖。 | 各作者对维克热尔及地方联盟的具体论断仍须逐项核实；地方个案不必然代表全国。 | `CLM-galili-1989-coalition-government-trap`; `CLM-hickey-2001-smolensk-moderate-socialists-collapse-1917`; `CLM-basil-1984-menshevik-three-way-paralysis` |
 
-## 4. 关联时间线锚点 (共 9 条)
-- **1917-10-28 [O.S.] / 1917-11-10 [N.S.]** (`TL-W36-1917-11-10-01`, L3): **克伦斯基—克拉斯诺夫攻占皇村；首都文官大罢工扩大** — 克伦斯基携克拉斯诺夫约700名哥萨克占领加特契纳并推进至首都近郊皇村；全俄部委公务员与银行职员总罢工蔓延；孟什维克中央表决严禁与布尔什维克谈判联合；莫斯科爆发邮电、电话局激战并经维克热尔调停达成短暂24小时停火（诺根险遭枪杀）。
-- **1917-10-29 [O.S.] / 1917-11-11 [N.S.]** (`TL-W36-1917-11-11-01`, L3): **彼得格勒士官生暴动遭粉碎；维克热尔发出铁路总罢工通牒** — “拯救委员会”策动的彼得格勒各军校士官生暴动当晚被赤卫队与水兵镇压（约200名士官生伤亡，左翼社革党人穆拉维约夫出任首都防卫司令并颁戒严令）；同夜维克热尔威胁30日午夜发动全俄铁路总罢工，在列宁、托洛茨基缺席下，布尔什维克中央一致同意开启全社会主义联合政府谈判（5:3:1保留候选人否决界线）。
-- **1917-10-30 [O.S.] / 1917-11-12 [N.S.]** (`TL-W36-1917-11-12-01`, L3): **普尔科沃高地击退克拉斯诺夫；维克热尔要求排除列宁与托洛茨基** — 1万余名红军赤卫队与水兵在普尔科沃高地击退克拉斯诺夫哥萨克，解除了首都最迫切的军事围攻；同日维克热尔特别委员会上的右翼社革党与孟什维克强硬要求解散人民委员会、解除赤卫队武装并排除列宁与托洛茨基入阁，孟什维克内部亦因士官生暴动发生剧烈左右分裂。
-- **1917-10-31 [O.S.] / 1917-11-13 [N.S.]** (`TL-W36-1917-11-13-01`, L3): **孟什维克1票险胜同意谈判；莫斯科架设重炮轰击克里姆林宫** — 孟什维克中央以1票之差推翻禁令派丹与阿布拉莫维奇赴谈，各方草拟由切尔诺夫或阿夫克森齐耶夫领衔“临时人民委员会”的草案，奥布霍夫厂愤怒工人冲入会场敦促立即签约停战；莫斯科红军增至约3万人并开始从麻雀山架重炮轰击克里姆林宫。
-- **1917-11-01 [O.S.] / 1917-11-14 [N.S.]** (`TL-W36-1917-11-14-01`, L3): **普尔科沃大捷后列宁、托洛茨基党内强硬摊牌反击维克热尔** — 列宁与托洛茨基返抵彼得堡委员会及中央扩大会议强力扭转妥协局面，列宁称谈判“本应作为军事行动的外交遮羞布”，托洛茨基坚持己方必须占75%席位；中央10:4否决立刻破裂后经沃洛达尔斯基在全俄中执委确立强硬前提；同日孟什维克左翼在中央12:11胜出并致右翼退场。
-- **1917-11-02 [O.S.] / 1917-11-15 [N.S.]** (`TL-W36-1917-11-15-01`, L3): **列宁10:5谴责党内反对派，深夜加米涅夫在全俄中执委推让半数席位** — 布尔什维克中央以10:5通过列宁决议斥责党内调和反对派；但深夜加米涅夫、季诺维也夫趁列宁不在场，说服全俄中执委布尔什维克党团表决同意让出人民委员会半数席位并吸纳市杜马代表；同夜莫斯科白军防线崩盘签署停战投降议定书。
-- **1917-11-03 [O.S.] / 1917-11-16 [N.S.]** (`TL-W36-1917-11-16-01`, L3): **莫斯科克里姆林宫收复、军校投降；列宁发出十人最后通牒** — 清晨红军收复莫斯科克里姆林宫，16:00亚历山大军事学校投降，莫斯科七日血战（数百人阵亡）结束；维克热尔会场梁赞诺夫递交普梯洛夫强硬决议被阿布拉莫维奇宣布谈判已死；当夜列宁起草十人联署最后通牒限令党内五名少数派无条件服从。
-- **1917-11-04 [O.S.] / 1917-11-17 [N.S.]** (`TL-W36-1917-11-17-01`, L3): **全俄中执委34:24确认报禁与紧急立法权，5名中委及多名人民委员辞职** — 全俄中执委以34:24:1否决拉林撤销报禁动议，并以29:23:3（异文25:23）确认人民委员会紧急立法权；左翼社革党退出MRC，加米涅夫、季诺维也夫、李可夫、米柳亭、诺根辞去中委职务，李可夫等4名人民委员及数名副委员辞职警告“仅余政治恐怖一条路”。
-- **1917-11-05 [O.S.] / 1917-11-18 [N.S.]** (`TL-W36-1917-11-18-01`, L3): **维克热尔会议彻底崩溃；列宁发公开信斥责“临阵逃兵”** — 11月5日夜至6日凌晨，因布尔什维克与左翼社革党缺席而右翼拒绝实质让步，维克热尔多党联合政府协商无限期流产；列宁发中央公开信斥责辞职派为“知识分子怀疑派与逃兵”，下达不服从即开除出党的最后纪律通牒。
+
+### 3.1 关联核心论断与史学家学派坐标 (`CLM-*` → `SCH-*`, 展示前 24/25 条)
+- **`CLM-basil-1984-october-and-vikzhel-collapse`** [`SCH-basil-john`(约翰·D·巴兹尔) | pp. 165–175（本地 PDF 同号）]: 
+- **`CLM-getzler-1967-martov-soviet-opposition`** [`SCH-getzler-israel`(伊斯雷尔·格茨勒) | pp. 168-191]: 
+- **`CLM-yao-hai-post-october-coalition-failure-and-one-party-formation`** [`SCH-yao-hai`(姚海) | [PDF pp. 532-535, 543-569]]: 
+- **`CLM-rabinowitch-2007-left-sr-coalition-collapse`** [`SCH-rabinowitch-alexander`(亚历山大·拉比诺维奇) | pp. 274-282, 287-309, 395-396]: 
+- **`CLM-rabinowitch-2007-contingency-of-dictatorship`** [`SCH-rabinowitch-alexander`(亚历山大·拉比诺维奇) | pp. xi-xii, 390-398]: 
+- **`CLM-pipes-1990-october-classic-coup`** [`SCH-pipes-richard`(理查德·派普斯) | ch. 11 (The October Coup); cf. Introduction]: 
+- **`CLM-rabinowitch-1976-open-democratic-mass-party`** [`SCH-rabinowitch-alexander`(亚历山大·拉比诺维奇) | 未核：EPUB 章节及行号]: 
+- **`CLM-rabinowitch-1976-october-three-factions-debate`** [`SCH-rabinowitch-alexander`(亚历山大·拉比诺维奇) | 未核：EPUB 章节及行号]: 
+- **`CLM-rabinowitch-1976-trotsky-soviet-congress-strategy`** [`SCH-rabinowitch-alexander`(亚历山大·拉比诺维奇) | 未核：EPUB 章节及行号]: 
+- **`CLM-loginov-lenin-1917-fleeting-window-of-power`** [`SCH-loginov-vladlen`(弗拉德连·洛吉诺夫) | pp. 523-524, 531-532, 560-561, 621-622, 656-658]: 
+- **`CLM-smith-sa-1983-defensive-workers-control`** [`SCH-smith-sa`(斯蒂芬·A·史密斯（S. A. Smith）) | 中译本 pp. 106–112, 133, 135, 137, 191（即源文件标注 PDF pp. 111–117, 138, 140, 142, 196）；注意：均为中译本页码，非英文原版页码]: 
+- **`CLM-koenker-1981-moscow-october-armed-struggle-vs-petrograd`** [`SCH-koenker-diane`(黛安·P·科恩克尔) | pp. 329–355 (local PDF pp. 345–371); p. 366 (PDF p. 382)]: 
+- **`CLM-koenker-1981-rational-incremental-radicalization`** [`SCH-koenker-diane`(黛安·P·科恩克尔) | pp. 359–363 (local PDF pp. 375–379); p. 254 (PDF p. 270)]: 
+- **`CLM-yao-hai-constituent-assembly-vs-soviet-legitimacy-clash`** [`SCH-yao-hai`(姚海) | [PDF pp. 574-596]]: 
+- **`CLM-rabinowitch-2007-constituent-assembly`** [`SCH-rabinowitch-alexander`(亚历山大·拉比诺维奇) | pp. 88-91, 105-110, 121-127]: 
+- **`CLM-trotsky-1930-art-of-insurrection-and-soviet-legality`** [`SCH-trotsky-leon`(列夫·达维多维奇·托洛茨基 · participant-historian) | （中译 EPUB 无纸页；第三卷第二十—二十一章）]: 
+- **`CLM-sukhanov-1922-october-walkout-tragedy`** [`SCH-sukhanov-nikolai`(尼古拉·苏汉诺夫) | pp. 631–647, 657–660 (PDF pp. 683–699, 709–711)]: 
+- **`CLM-figes-1996-peasant-moral-economy-1917`** [`SCH-figes-orlando`(奥兰多·费吉斯) | pp. 343-352]: 
+- **`CLM-suny-2017-totalitarian-vs-social-history-turn`** [`SCH-suny-ronald-gregor`(罗纳德·格里戈尔·苏尼) | pp. 87-95 (approx. ch. 2 sect. on totalitarianism and revision)]: 
+- **`CLM-suny-2017-class-discourse-and-polarization`** [`SCH-suny-ronald-gregor`(罗纳德·格里戈尔·苏尼) | pp. 160-175 (approx. ch. 5 on class, strikes, discourse)]: 
+- **`CLM-blanc-2021-borderlands-in-1905-and-1917`** [`SCH-blanc-eric`(埃里克·布兰克) | pp. 20–23, 338–436, 488–531, 457–543]: 
+- **`CLM-corney-2004-istpart-and-institutionalizing-october-memory`** [`SCH-corney-frederick`(弗雷德里克·C·科尼 · memory-and-cultural-history) | 【待规整语料】]: 
+- **`CLM-galili-1989-coalition-government-trap`** [`SCH-galili-ziva`(齐娃·加利利) | pp. 169-170, 177-181 (PDF pp. 195-196, 203-207)]: 
+- **`CLM-hickey-2001-smolensk-moderate-socialists-collapse-1917`** [`SCH-raleigh-donald`(唐纳德·J·罗利) | Local PDF pp. 28–63; English print pagination not verified]: 
+
+## 4. 关联时间线骨干锚点 (L0–L2 展示 0 条，另有 9 条 L3 逐日细节见 `timeline/L3_daily/`)

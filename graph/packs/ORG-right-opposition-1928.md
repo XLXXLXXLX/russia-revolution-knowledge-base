@@ -1,14 +1,9 @@
-# 1-Hop 平衡上下文包：`ORG-right-opposition-1928` (1928–1929年右翼反对派（右倾集团）)
+# 1-Hop 去重平衡上下文包：`ORG-right-opposition-1928`
 
-> 本文件由 `python scripts/kb.py pack` 自动编译，旨在将失控的 `1+N` 随机读取压缩为**等权重、带时效边实质与史学盲区告警**的单次全景读取。
+> 由 `python scripts/kb.py pack` 动态编译：保留 **100% 一跳邻居与多时段关系边**，跨卡自动去重争鸣与时间线，并关联学者学派 (`SCH-*`)。
 
-## 0. 认知完备度与反偏斜仪表盘 (Epistemic & Skew Warnings)
-- **主卡路径**: `cards/organizations/ORG-right-opposition-1928.md`
-- **完备度等级**: `multi-perspective`
-- **已覆盖视角**: `revisionist-cohen, peasant-social-lewin-tragedy, labor-shopfloor-filtzer, local-party-merridale, archival-khlevniuk-apalkov, biographical-kotkin, economic-davies-sakharov, institutional-daniels-carr-goldman`
-- **待补齐视角**: `complete-1929-april-november-plenum-stenograms-unabridged`
-- **偏斜风险提示**:
-  - ⚠️ 主卡显式声明尚缺以下视角待补: `complete-1929-april-november-plenum-stenograms-unabridged`。
+## 0. 认知完备度与反偏斜仪表盘
+- **`ORG-right-opposition-1928`** (1928–1929年右翼反对派（右倾集团） | `cards/organizations/ORG-right-opposition-1928.md` | `multi-perspective`): 已覆盖=`revisionist-cohen, peasant-social-lewin-tragedy, labor-shopfloor-filtzer, local-party-merridale, archival-khlevniuk-apalkov, biographical-kotkin, economic-davies-sakharov, institutional-daniels-carr-goldman`；待补=`complete-1929-april-november-plenum-stenograms-unabridged`
 
 ## 1. 主卡核心层 ([T1] + [T2])
 ## [T1] 150字定性微摘要
@@ -49,146 +44,57 @@
   - **基层激进情绪、魔幻思维与集体化现实瓶颈（Catherine Merridale, 1990; Stephen Kotkin, 2014; R. W. Davies, 1980）**：梅里代尔指出乌格拉诺夫不仅死于中央调动，也因青年积极分子厌倦高失业与小市民作风而自我疏离（`CLM-merridale-1990-grassroots-activist-radicalism`）；科特金认为布哈林患了只谈价格杠杆却拒不面对苏联真实粮食商品率低下的“魔幻思维”（`CLM-kotkin-2014-bukharin-dilemma`）；戴维斯（`CLM-davies-1980-november-plenum-to-dekulakization`）则证伪“全盘集体化纯粹源于经济合理性”，指出十一月全会后莫斯科派“两万五千人”下乡直接接续暴发户式剥夺。
   - **车间劳动体制转折与工会史争鸣（Donald Filtzer, 1986; Robert Daniels, 1960; Joseph Godson, 1981; Wendy Goldman, 2011）**：菲尔策尔超越高层权力史，揭示清洗托姆斯基与 `1929-03-06` 人民委员会解雇令（RKK 由事前同意降格为事后终局复核）+ 突击工提额是重创工会防卫机制的制度分水岭（`CLM-filtzer-1986-1929-tomsky-purge-and-shock-work`），同时强调1929年法典未改与熟练工短缺下基层车间仍存非正式避让与妥协空间；戈尔德曼（`CLM-goldman-2011-1920s-oppositions-to-enemy-category`）强调“右倾机会主义与党籍不相容”使1920年代党内政策路线分歧完成向“阶级敌人”定罪的质变；赫列夫纽克与阿帕尔科夫（`CLM-khlevniuk-2015-defeat-of-right-opposition`, `CLM-apalkov-2023-collective-to-personal-dictatorship`）则将其定格为政治局寡头集体领导向斯大林个人独裁过渡的终点。
 
-## 2. 一跳邻域等权重微摘要 (共 20 个关联节点，严防大卡霸占上下文)
-### 邻居节点: `PER-bukharin`
-- **时效关系边** (`PER-bukharin` → `ORG-right-opposition-1928` | `theoretical-leader` | 有效时段: `1928.01-1929.11`): 与李可夫、托姆斯基联手抵制斯大林非常征粮与贡赋论，在1929年4月与11月两次中央全会上被击溃。
-- **时效关系边** (`ORG-right-opposition-1928` → `PER-bukharin` | `theoretical-leader` | 有效时段: `1928–1929`): 右派首席理论家，《经济学家札记》与工农市场动态平衡工业化论代言人
-- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 布尔什维克核心理论家、《真理报》主编及共产国际书记处负责人。列宁遗嘱誉其“全党宠儿”但质疑其辩证法；1918年领衔左翼共产主义，1921年后转向新经济政策均衡路线，1925–1927联斯大林击溃左派，1928–1929因反对暴力征粮与超工业化遭击败并逐出政治局。
+## 2. 一跳邻域全量微摘要目录 (去重后共 20 个节点，0 截断)
+- **`CON-democratic-centralism-and-vanguard`**（先锋队党与民主集中制）: 布尔什维克组织原则的跨期复合概念：从民意党集中制与特卡乔夫“自觉少数”，经1902年职业革命家论、1905–1906年成文的民主集中制及1917年群众政党，至1921年禁派令与斯大林书记处官职名册制，派别空间收缩；部分制度史研究强调干部任命权日益压过民主原则。 ‖ `→ORG-right-opposition-1928`[final-target|1928–1929]: 布哈林、李可夫等虽从未建立组织派别，仍被以“派别性”与“两面派”定性击败
+- **`CON-kulak`**（富农（作为社会阶层与政治定罪标签））: “富农”兼具农村阶层与政治定罪含义：19世纪原指高利贷盘剥者，列宁称农村资产阶级；斯托雷平改革分离户也遭村社如此指斥。1918年为贫农委员会征粮对象，1925年NEP放宽而农村趋向中农化；1928–1929年经刑法107条与雅科夫列夫委员会转为阶级清洗标签。 ‖ `→ORG-right-opposition-1928`[accused-as-"kulak-agents"|1928–1929]: 布哈林、李可夫、托姆斯基反对军事封建剥削农民，反被斯大林贴上“富农代理人/右倾投降派”标签击败
+- **`INS-politburo-orgburo-secretariat`**（联共（布）中央政治局—组织局—书记处与官职等级名册制）: 1919年3月俄共八大后常设政治局、组织局与书记处，分掌政治决策、组织行政及日常党务人事。1922年4月斯大林任总书记后逐步控制议程、秘密文件分发与干部名册调配。经1924年七人小组协调、1925—1929年联盟重组与纪律整肃，托洛茨基、季诺维也夫、布哈林先后退出决策核心。 ‖ `→ORG-right-opposition-1928`[disarmed_and_purged_by|1928.01–1929.11]: 虽主持政府部委、工会与党报，但在高层保密纪律约束与书记处—组织分配部人事改组下于1929–1930年相继退出政治局
+- **`INS-sovnarkom-and-vtsik`**（人民委员会与全俄、全苏中央执行委员会）: 苏维埃代表大会闭会期间，中执委在宪制上监督政府，人民委员会却迅速掌握施政与大量法令制定。苏俄与1922年成立的苏联各有中执委与人民委员会，不能混同。党内领导与国家机关关系不断变化，政治局权重日增，但1920年代仍须经政府落实决策。 ‖ `→ORG-right-opposition-1928`[policy_conflict|1928–1929]: 李可夫等政府领导人的政策立场在党内失势
+- **`MTG-1928-07-comintern-6th-congress`**（共产国际第六次代表大会）: 1928-07-17至09-01，共产国际六大通过首部正式纲领，确立第三时期框架，突出右倾及调和危险。Carr据辩论与终稿推断，布哈林尚能阻止把社会法西斯主义写为纲领定性；斯大林派却借“走廊大会”分化支部，为秋冬夺取执委会控制及1929年倒布铺路。 ‖ `→ORG-right-opposition-1928`[international-precursor-front|1928.07–1929.08]: 六大先行确立“右倾危险”与“对右倾调和态度”政治罪名，随后反噬联共党内的布哈林—李可夫—托姆斯基集团
+- **`MTG-1929-04-cc-joint-plenum`**（联共（布）中央委员会与中央监察委员会四月联席全会）: 1929年4月16日至23日，联共（布）中央与中监委联席全会围绕征粮危机、工业化与新经济政策展开高层摊牌。布哈林痛斥“贡赋”与强制，斯大林以“右倾”与密谈案反击；全会秘密解除布哈林与托姆斯基关键职务但暂留三人政治局席位，随后十六次代表会议批准的一五计划仍维持有限集体化目标。 ‖ `→ORG-right-opposition-1928`[politically-defeated|1929-04]: 经济与组织路线在联席全会遭压倒性否决，6–8月陆续失去报刊、工会与共产国际阵地。 ； `←ORG-right-opposition-1928`[doctrinal_condemnation|1929-04]: 斯大林《论党内右倾》与布哈林4月18日长篇辩辞正面交锋，公开定性右倾机会主义
+- **`MTG-1929-11-cc-plenum`**（联共（布）中央委员会十一月全会（1929））: 1929年11月10日至17日，联共（布）中央全会将布哈林逐出政治局、警告李可夫与托姆斯基等，并宣布宣传右倾与留党不相容。全会动员“二万五千人”下乡并推动集体化加速，但正式决议对富农处置仍留空白；经12月政治局委员会博弈与斯大林否决温和草案，年底演说最终引向消灭富农阶级转向。 ‖ `→ORG-right-opposition-1928`[outlawed-in-party|1929-11-17]: 全会主决议第六节宣布宣传右倾机会主义与留在联共（布）党内不相容。 ； `←ORG-right-opposition-1928`[final_liquidation_venue|1929-11]: 宣布右倾宣传与党籍不相容、开除布哈林政治局席位，直通 EVT-1929-great-tu…
+- **`PER-bukharin`**（尼古拉·布哈林）: 布尔什维克核心理论家、《真理报》主编及共产国际书记处负责人。列宁遗嘱誉其“全党宠儿”但质疑其辩证法；1918年领衔左翼共产主义，1921年后转向新经济政策均衡路线，1925–1927联斯大林击溃左派，1928–1929因反对暴力征粮与超工业化遭击败并逐出政治局。 ‖ `←ORG-right-opposition-1928`[chief_theorist_and_target|1928–1929]: 主笔《札记》与七月/四月全会辩词，1929-11-17被逐出政治局并遭开除出党威胁 ； `→ORG-right-opposition-1928`[theoretical-leader|1928.01-1929.11]: 与李可夫、托姆斯基联手抵制斯大林非常征粮与贡赋论，在1929年4月与11月两次中央全会上被击溃。
+- **`PER-rykov`**（阿列克谢·李可夫）: 老布尔什维克与苏维埃经济组织家。1917年四月会议曾质疑《四月提纲》，十月后因维克热尔联合政府诉求辞职；两掌最高国民经济委员会，1924年继列宁任苏联人民委员会主席；1928–1929年协同布哈林抵制非常征粮并提“两年农业计划”遭撤职清洗，其名却在库班农民口号中回响。 ‖ `←ORG-right-opposition-1928`[state_premier_ally|1928–1929]: 人民委员会主席，在国家机器层面抵制“贡赋”和非常征粮常态化，11月遭警告
+- **`PER-tomsky`**（米哈伊尔·托姆斯基）: 印刷工出身的布尔什维克工会领袖，长期主持全俄及全苏工会中央理事会，1922年进入政治局。工会争论中支持列宁，既限制生产者自治，又在新经济政策下维护集体合同和劳动保护。1928—1929年与布哈林、李可夫抵制激进转轨，遭干部改组夺去工会阵地，1936年自杀。 ‖ `←ORG-right-opposition-1928`[trade_union_anchor|1928–1929-05]: 反对剥夺工会劳动保护权与强推计件定额，1928.12被架空、1929.05逐出 VTsSPS ； `→ORG-right-opposition-1928`[trade-union-pillar|1928-1929.06]: 以全苏工会中央理事会主席身份与布哈林、李可夫联手抵制超工业化与突击队压榨，1929年5-6月遭斯大林—卡冈诺维奇清洗出工会领导层。
+- **`PER-uglanov`**（尼古拉·乌格拉诺夫）: 工人出身的布尔什维克党务领袖，1924年接掌莫斯科党委，曾助斯大林压制左派，后支持布哈林渐进工业化与纺织轻工业。1928年夏秋，组织分配部、区委反叛与基层不满合流，使其地方阵地瓦解；十一月去职，次年失去中央要职。其温和经济路线与专横组织作风并存，1937年遇害。 ‖ `←ORG-right-opposition-1928`[local_party_bastion|1928-04–1928-10]: 莫斯科市委书记，因政治局三巨头袖手旁观与组织分配部清洗在10月全会失守 ； `→ORG-right-opposition-1928`[local_party_anchor|1928]: 莫斯科为右翼主要地方支点，但并非拥有独立群众民主的自治堡垒
+- **`PER-stalin`**（约瑟夫·斯大林）: 布尔什维克高加索地下组织者、民族事务人民委员（1917–1923）及中央总书记（1922起）。依托书记处任命权与安全危机叙事，先联季-加压制托洛茨基，再联布哈林击溃联合反对派；1927–1929年以战备恐慌与“自上而下革命”击败布哈林集团，1929年12月拍板“把富农作为阶级消灭”并终结新经济政策。 ‖ `←ORG-right-opposition-1928`[defeated_by|1928–1929]: 借书记处任免、中监委机器、POL-first-five-year-plan 跃进及反分裂…
+- **`PER-kaganovich`**（拉扎尔·卡冈诺维奇）: 斯大林核心组织干将（1893–1991）。犹太制鞋学徒出身，1922年起在中央组织机关任职，1924年主持合并后的组织分配部建构官职等级名录；1925–1928年任乌共（布）总书记推行乌克兰化兼肃民族倾向；1928年返京清洗莫斯科市委与全苏工会，1929年充当强征与集体化急先锋。 ‖ `←ORG-right-opposition-1928`[union_purge_enforcer|1928-12–1929-05]: 1928.12工会八大空降 VTsSPS 替换托姆斯基人马，将工会转型为生产动员“传送带”
+- **`PER-molotov`**（维亚切斯拉夫·莫洛托夫）: 莫洛托夫是布尔什维克党务骨干与斯大林主要副手。1917年二月在《真理报》及俄国局反对支持临时政府；1921年任中央责任书记，后以书记处工作协同斯大林掌权。1928年11月至1929年4月接掌莫斯科委员会，并加强斯大林阵营对共产国际的控制，推动集体化加速。 ‖ `←ORG-right-opposition-1928`[apparatus_replacer|1928-11–1929]: 1928.11接管莫斯科市委肃清乌格拉诺夫余部，并出任政治局全面集体化委员会主任
+- **`PER-kamenev`**（列夫·加米涅夫）: 老布尔什维克、首任全俄中执委主席。1917年自四月至立宪会议一贯坚守温和宪政社会主义联盟路线并公开反对十月起义；1924年十三大联手季诺维也夫压下《列宁遗嘱》，1925年十四大公开发言反斯大林“领袖”集权后失势；1928年7月密会布哈林并留下外泄笔记，反成右派致命罪证。 ‖ `←ORG-right-opposition-1928`[fatal_secret_interlocutor|1928-07]: 1928-07-11与布哈林、索科尔尼科夫秘密晤谈；1929.01笔录泄露沦为派别铁证
+- **`POL-ban-on-factions-1921`**（《关于党的统一》派别禁令）: 俄共十大于1921年3月16日通过《关于党的统一》，要求解散按纲领组成的派别，并保留规定渠道的批评。秘密第七条设中央领导成员的特殊处分程序；1924年1月公开宣读、1926年7月首次动用开除季诺维也夫出政治局，危机措置遂渐成约束反对派的工具，但不同年份执行不等同原条文。 ‖ `←ORG-right-opposition-1928`[self_paralyzing_constraint|1928–1929]: 右派自身曾拥护该反派别禁令，导致1928–1929受自我制约而避免公开串联地方党组织
+- **`POL-nep`**（新经济政策）: 1921年春在农村起义、城市工潮与喀琅施塔得危机倒逼下逐步确立、取代战时共产主义的混合经济体制。以固定实物税（后改货币税）取代余粮收集制，渐次放开城乡市场与小私营商业（耐普曼），由国家掌控大工业、银行、运输与外贸“制高点”；1928–1929年在收购危机与政治转向中逐步瓦解。 ‖ `←ORG-right-opposition-1928`[defended_then_abandoned|1928–1929]: 捍卫工农市场结合（CON-smychka）与逐步合作化；十一月败北同步终结新经济政策
+- **`POL-ural-siberian-method`**（乌拉尔—西伯利亚方法与强制征粮配套法制）: 1928–1929年冬季斯大林集团在规避“不再重复非常措施”承诺下，于乌拉尔与西伯利亚推广的征粮套路：借无法定人数之村社会“民主表决”摊派超额交粮，辅以合作社断供、五倍罚款（pyatikratka）及刑法第107/61条制裁；收购仍减产约20%，却直接通向1929年底强制集体化。 ‖ `←ORG-right-opposition-1928`[opposed_coercive_policy|1928–1929]: 反对以村社贫农表决包装刑法第61/107条对中富农实施强制摊派与超额剥夺 ； `→ORG-right-opposition-1928`[opposed-by|1928–1929]: 布哈林集团视其为破坏新经济政策信任与工农联盟的非常措施变体
+- **`PER-mikoyan`**（阿纳斯塔斯·米高扬）: 亚美尼亚裔布尔什维克干部，从下诺夫哥罗德转任东南与北高加索党务，1926年任政治局候补委员、掌苏联内外贸易。1928年春夏在法制限度与妥协间摇摆，9月受斯大林施压转向强硬，成为多数派骨干；其部门联系粮食采购、城乡交换与外贸，但强征与出口并非个人或单一部门决策。 ‖ `→ORG-right-opposition-1928`[moderate-bloc-then-defector|1928.02–09]: 在“法制”限度与折中路线中接近右翼，9月后与之划清界线
+- **`POL-first-five-year-plan`**（第一个五年计划）: 苏联首部正式工业化纲领，1928–1929年在起点与最高方案争论中定案。1929-04-16至23日中央联席全会、04-23至29日十六次党代表会议及05-20至28日全苏苏维埃五大批准最高方案；下半年投资、钢铁与集体农庄指标加码，冲垮布哈林均衡路线，与NEP退场、强制集体化并进。 ‖ `→ORG-right-opposition-1928`[opposed|1928–1929.05]: 右派警告剪刀差与强征恶果，组织上败北
 
-### 邻居节点: `PER-tomsky`
-- **时效关系边** (`PER-tomsky` → `ORG-right-opposition-1928` | `trade-union-pillar` | 有效时段: `1928-1929.06`): 以全苏工会中央理事会主席身份与布哈林、李可夫联手抵制超工业化与突击队压榨，1929年5-6月遭斯大林—卡冈诺维奇清洗出工会领导层。
-- **时效关系边** (`ORG-right-opposition-1928` → `PER-tomsky` | `trade-union-anchor` | 有效时段: `1928–1929.05`): 全苏工会领袖，1928.12工会八大起遭架空、1929.05被逐出VTsSPS主席团，工会丧失常设集体防卫自主权
-- **节点定性微摘要 [T1]** (完备度 `draft`): 工人出身老布尔什维克，1919–1929年执掌全苏工会并任政治局委员。1920–21年工会争论支持列宁抵制托洛茨基“工会国家化”；新经济政策时期捍卫工会集体谈判自主；1928–29年与布哈林、李可夫结成“右翼三巨头”抗斯大林激进路线，后遭清洗自尽。
+## 3. 关联史学争鸣与学者论断索引 (主卡外关联争鸣 3 项)
+- **`DEB-1921-trade-union-controversy-and-party-unity`**（1921年工会争论、工人反对派与党内统一之争 | `historiography/debates/DEB-1921-trade-union-controversy-and-party-unity.md` | 流派 `lenin-ten, trotsky-militarization, workers-opposition, party-institutional-history, labor-social-history, industrial-paternalism`）：内战结束之际，工会应成为国家管理生产的传动机构，还是维护工人利益并参与管理的独立空间？工人反对派、托洛茨基和列宁的方案分歧，如何与第十次党代表大会禁止派别相互交织？喀琅施塔得危机既是决议援引的背景，也是有待独立考察的社会抗议，不能混同党内派别。
+- **`DEB-1928-bukharin-alternative`**（布哈林替代方案与新经济政策终结之争 | `historiography/debates/DEB-1928-bukharin-alternative.md` | 流派 `nep-alternative, economic-growth, structural-dilemma, apparatus, ideology-and-mobilization, cliometrics-and-archival-reassessment`）：1927至1929年粮食危机与新经济政策的瓦解，是否意味着渐进工业化和工农联盟已无可行出路，还是党内权力与政策选择扼杀了布哈林的替代方案？投资、价格、农民供粮和政治动员之间的约束究竟有多强，必须把经济可行性、政治可行性与实际权力斗争分别检验。
+- **`DEB-1929-collectivization-and-dekulakization-causes`**（1929年集体化与消灭富农政策的动因之争 | `historiography/debates/DEB-1929-collectivization-and-dekulakization-causes.md` | 流派 `peasant-social-history, statistical-economic-history, archival-local-escalation, geopolitics-and-scare, industrialization-constraints, agrarian-tribute-and-policing`）：1929年集体化加速与消灭富农政策的出现，究竟源于粮食收购和工业投资的结构约束，还是统计误判、地方竞速、战争恐慌与领导层选择的叠加？农民如何应对，中央内部何时形成强制方案？应把1928年非常征粮、1929年秋冬升级与次年全面执行分开考察。
 
-### 邻居节点: `CON-democratic-centralism-and-vanguard`
-- **时效关系边** (`CON-democratic-centralism-and-vanguard` → `ORG-right-opposition-1928` | `final-target` | 有效时段: `1928–1929`): 布哈林、李可夫等虽从未建立组织派别，仍被以“派别性”与“两面派”定性击败
-- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 布尔什维克组织原则的跨期复合概念。从民意党执委会集中制与特卡乔夫“自觉少数”，经1902年《怎么办？》职业革命家组织、1905–1906年首次成文的“民主集中制”与1917年开放竞争的群众政党，至1921年禁派令与斯大林书记处—官职名册制，合法派别活动空间大幅收缩；一些制度史研究认为干部任命权日益压过民主原则。
+### 3.1 关联核心论断与史学家学派坐标 (`CLM-*` → `SCH-*`, 展示前 24/48 条)
+- **`CLM-cohen-1973-bukharin-organizational-defeat`** [`SCH-cohen-stephen`(斯蒂芬·F·科恩) | pp. 287-289, 297-301, 322-329]: 
+- **`CLM-cohen-1973-july-1928-plenum-and-kamenev`** [`SCH-cohen-stephen`(斯蒂芬·F·科恩) | pp. 289-291]: 
+- **`CLM-carr-1976-sixth-comintern-congress-third-period-bukharin`** [`SCH-carr-eh`(爱德华·霍列特·卡尔) | pp. 441-445, 449, 452, 553-554, 559, 602-603, 641-643]: 
+- **`CLM-merridale-1990-uglanov-moscow-collapse`** [`SCH-merridale-catherine`(凯瑟琳·梅里代尔) | pp. 53-64]: 
+- **`CLM-filtzer-1986-1929-tomsky-purge-and-shock-work`** [`SCH-filtzer-donald`(唐纳德·费尔泽) | pp. 22–24, 68–72, 76–82, 96–108, 274, 280–282, 287]: 
+- **`CLM-daniels-1960-bukharin-right-opposition-defeat`** [`SCH-daniels-robert`(罗伯特·V·丹尼尔斯) | pp. 362-369; context pp. 333-361, 370-382]: Daniels：布哈林右翼先被解除组织力量，再遭公开定罪
+- **`CLM-tragedy-village-1929-peasant-self-liquidation-and-flight`** [`SCH-danilov-viktor`(维克托·彼得罗维奇·丹尼洛夫 · agrarian-archival-editorial) | PDF pp. 10–12, 19, 110–126, 142, 189–191, 203, 213, 219–220]: 
+- **`CLM-khlevniuk-2015-defeat-of-right-opposition`** [`SCH-khlevniuk-oleg`(奥列格·赫列夫纽克) | EPUB ops/xhtml/ch03.html（His Revolution 开篇至全盘集体化的 1929 年 11 月宣布）。工作区文本无纸质页码。]: 
+- **`CLM-godson-1981-tenth-congress-to-1929-transmission-belt-unions`** [`SCH-godson-joseph`(约瑟夫·戈德森 · cold-war-labor-studies) | Book pp. 106–111, 121, 128–129 [PDF pp. 118–123, 133, 140–141]]: 
+- **`CLM-lewin-peasants-1968-ural-siberian-method`** [`SCH-lewin-moshe`(摩西·莱文) | pp. 386-390, 395]: 
+- **`CLM-cohen-1973-nep-viability`** [`SCH-cohen-stephen`(斯蒂芬·F·科恩) | pp. 270-276, 316-320]: 
+- **`CLM-lewin-peasants-1968-grain-procurement-crisis`** [`SCH-lewin-moshe`(摩西·莱文) | pp. 221, 228-229, 242-243]: 
+- **`CLM-sakharov-2012-lenin-cooperative-plan-debates`** [`SCH-sakharov-valentin`(瓦连京·萨哈罗夫) | EPUB Ch. 1.3 & Ch. 4.2]: 
+- **`CLM-merridale-1990-grassroots-activist-radicalism`** [`SCH-merridale-catherine`(凯瑟琳·梅里代尔) | pp. 61-65]: 
+- **`CLM-kotkin-2014-bukharin-dilemma`** [`SCH-kotkin-stephen`(斯蒂芬·科特金) | EPUB Coda (OEBPS/9780698170100_EPUB_1-25.xhtml) & Ch. 14 (OEBPS/9780698170100_EPUB_1-24.xhtml)]: 
+- **`CLM-davies-1980-november-plenum-to-dekulakization`** [`SCH-davies-rw`(R·W·戴维斯) | Vol. 1 printed pp. 159–167, 182–202；Vol. 2 本地 PDF pp. 50–55, 101–102]: 
+- **`CLM-goldman-2011-1920s-oppositions-to-enemy-category`** [`SCH-goldman-wendy`(温迪·Z·戈德曼) | pp. 18, 34, 36–37, 56–57, 73–78]: 
+- **`CLM-apalkov-2023-collective-to-personal-dictatorship`** [`SCH-apalkov-dmitry`(德米特里·阿帕尔科夫 · post-soviet-archival-party-history) | pp. 20-33, 124-127, 149-158, 191-195]: 
+- **`CLM-cohen-1973-notes-of-an-economist`** [`SCH-cohen-stephen`(斯蒂芬·F·科恩) | pp. 295-296, 318-320]: 
+- **`CLM-kollontai-1921-workers-opposition-critique-of-bureaucracy-and-specialists`** [`SCH-kollontai-alexandra`(亚历山德拉·柯伦泰 · participant-primary-text) | PDF pp. 2-11, 22-27]: 
+- **`CLM-kollontai-1921-all-russian-congress-of-producers-program`** [`SCH-kollontai-alexandra`(亚历山德拉·柯伦泰 · participant-primary-text) | PDF pp. 11-21, 25-30]: 
+- **`CLM-service-2009-trotsky-authoritarian-consensus`** [`SCH-service-robert`(罗伯特·瑟维斯) | 中译 EPUB 无纸页码；对应英文本第 23–24、28–29、37 章及引言]: 
+- **`CLM-daniels-1960-tenth-congress-turning-point`** [`SCH-daniels-robert`(罗伯特·V·丹尼尔斯) | pp. 146-153]: Daniels：1921年十大将党统一转化为压缩合法反对空间的组织制度
+- **`CLM-schapiro-1981-end-of-illusion-unions-1917-to-tomsky-fall`** [`SCH-schapiro-leonard`(伦纳德·沙皮罗) | Book pp. 1–14 [PDF pp. 13–26]]: 
 
-### 邻居节点: `CON-kulak`
-- **时效关系边** (`CON-kulak` → `ORG-right-opposition-1928` | `accused-as-"kulak-agents"` | 有效时段: `1928–1929`): 布哈林、李可夫、托姆斯基反对军事封建剥削农民，反被斯大林贴上“富农代理人/右倾投降派”标签击败
-- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 俄国农村阶层与政治定罪复合概念。原系19世纪村社对高利贷盘剥者的贬称，列宁定性为农村资产阶级，斯托雷平改革试图培育独立私有农户，部分村社成员将分离户斥为富农；1918年成贫农委员会征粮对象，1925年NEP放宽下农村实呈中农化；1928–1929年经刑法第107条与雅科夫列夫委员会武器化为“作为阶级消灭”的清洗标签。
-
-### 邻居节点: `INS-politburo-orgburo-secretariat`
-- **时效关系边** (`INS-politburo-orgburo-secretariat` → `ORG-right-opposition-1928` | `disarmed_and_purged_by` | 有效时段: `1928.01–1929.11`): 虽主持政府部委、工会与党报，但在高层保密纪律约束与书记处—组织分配部人事改组下于1929–1930年相继退出政治局
-- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 1919年3月俄共八大在斯维尔德洛夫逝世后常设分置政治局（政治决策）、组织局（组织行政）与书记处（日常党务与人事）。1922年4月斯大林出任总书记后，逐步掌握政治局议程截稿、秘密文件分发与干部等级名册（Номенклатура）调配杠杆；历经1924年“七人小组”协调与1925—1929年多轮联盟重组及纪律整肃，托洛茨基、季诺维也夫与布哈林等先后被逐出中央决策核心。
-
-### 邻居节点: `INS-sovnarkom-and-vtsik`
-- **时效关系边** (`INS-sovnarkom-and-vtsik` → `ORG-right-opposition-1928` | `policy_conflict` | 有效时段: `1928–1929`): 李可夫等政府领导人的政策立场在党内失势
-- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 苏维埃代表大会闭会期间，中执委在宪制上监督政府，人民委员会却迅速掌握施政与大量法令制定。苏俄与1922年成立的苏联各有中执委与人民委员会，不能混同。党内领导与国家机关关系不断变化，政治局权重日增，但1920年代仍须经政府落实决策。
-
-### 邻居节点: `MTG-1928-07-comintern-6th-congress`
-- **时效关系边** (`MTG-1928-07-comintern-6th-congress` → `ORG-right-opposition-1928` | `international-precursor-front` | 有效时段: `1928.07–1929.08`): 六大先行确立“右倾危险”与“对右倾调和态度”政治罪名，随后反噬联共党内的布哈林—李可夫—托姆斯基集团
-- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 1928-07-17至1928-09-01在莫斯科召开的共产国际第六次代表大会，首次通过正式《共产国际纲领》，确立“第三时期”战略框架并将“右倾危险及对右倾的调和态度”列为主要威胁。据 Carr 对辩论与终稿的推断，布哈林当时尚能阻止将“社会法西斯主义”确立为纲领正式定性标签，但斯大林派借会场外“走廊大会”分化各国支部，为1928年秋冬夺取执委会控制权及1929年全面倒布铺平道路。
-
-### 邻居节点: `PER-rykov`
-- **时效关系边** (`ORG-right-opposition-1928` → `PER-rykov` | `governmental-figurehead` | 有效时段: `1928–1929`): 人民委员会主席，在政治局捍卫取消非常征粮与审慎五年计划指标
-- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 老布尔什维克与苏维埃经济组织家。1917年四月会议曾质疑《四月提纲》，十月后因维克热尔联合政府诉求辞职；两掌最高国民经济委员会，1924年继列宁任苏联人民委员会主席；1928–1929年协同布哈林抵制非常征粮并提“两年农业计划”遭撤职清洗，其名却在库班农民口号中回响。
-
-### 邻居节点: `PER-stalin`
-- **时效关系边** (`ORG-right-opposition-1928` → `PER-stalin` | `defeats-organizational` | 有效时段: `1928–1929`): 凭书记处干部调配、五年计划投资分配与反右倾运动逐个拔除莫斯科市委与工会堡垒
-- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 布尔什维克高加索地下组织者、民族事务人民委员（1917–1923）及中央总书记（1922起）。依托书记处任命权与安全危机叙事，先联季-加压制托洛茨基，再联布哈林击溃联合反对派；1927–1929年以战备恐慌与“自上而下革命”击败布哈林集团，1929年12月拍板“把富农作为阶级消灭”并终结新经济政策。
-
-### 邻居节点: `POL-nep`
-- **时效关系边** (`ORG-right-opposition-1928` → `POL-nep` | `defends -> liquidated-with` | 有效时段: `1928–1929`): 右派捍卫NEP长期市场—合作化过渡道路；随其败北让位于强制集体化与指令计划
-- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 1921年春在农村起义、城市工潮与喀琅施塔得危机倒逼下逐步确立、取代战时共产主义的混合经济体制。以固定实物税（后改货币税）取代余粮收集制，渐次放开城乡市场与小私营商业（耐普曼），由国家掌控大工业、银行、运输与外贸“制高点”；1928–1929年在收购危机与政治转向中逐步瓦解。
-
-### 邻居节点: `POL-ural-siberian-method`
-- **时效关系边** (`ORG-right-opposition-1928` → `POL-ural-siberian-method` | `opposes` | 有效时段: `1928.10–1929`): 反对借村社舆论包装刑法第61/107条实施强制下乡征粮与剥夺
-- **时效关系边** (`POL-ural-siberian-method` → `ORG-right-opposition-1928` | `opposed-by` | 有效时段: `1928–1929`): 布哈林集团视其为破坏新经济政策信任与工农联盟的非常措施变体
-- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 1928–1929年冬季斯大林集团在规避“不再重复非常措施”承诺下，于乌拉尔与西伯利亚推广的征粮套路：借无法定人数之村社会“民主表决”摊派超额交粮，辅以合作社断供、五倍罚款（pyatikratka）及刑法第107/61条制裁；收购仍减产约20%，却直接通向1929年底强制集体化。
-
-### 邻居节点: `PER-uglanov`
-- **时效关系边** (`ORG-right-opposition-1928` → `PER-uglanov` | `organizational-casualty` | 有效时段: `1928.10`): 莫斯科市委右翼支点被中央组织分配部改组瓦解，右派三巨头受党纪束缚未公开驰援
-- **节点定性微摘要 [T1]** (完备度 `draft`): 布尔什维克党务活动家、右派地方实力派核心。1924年10月起任莫斯科市委第一书记，1926年1月十四大后升任中央政治局候补委员兼中央书记处书记、组织局委员；力主发展“印花布莫斯科”轻纺工业与温和农民政策；1928年秋因早年“乌格拉诺夫统治”疏远基层工人、市委组织分配部被斯大林派把持及政治局右派三巨头抛弃而于1928年11月被莫洛托夫取代，大清洗中遇害。
-
-### 邻居节点: `POL-first-five-year-plan`
-- **时效关系边** (`POL-first-five-year-plan` → `ORG-right-opposition-1928` | `opposed` | 有效时段: `1928–1929.05`): 右派警告剪刀差与强征恶果，组织上败北
-- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 1928–1929年定案的苏联首部正式工业化纲领：国家计委“起点方案”与“最高方案”之争，经 `1929-04-16` 至 `23` 中央联席全会、`04-23` 至 `29` 第十六次党代表会议与 `05-20` 至 `28` 第五次全苏苏维埃代表大会批准最高方案；下半年工业投资、钢铁与集体农庄指标连环加码，冲垮布哈林“蜗牛般速度”均衡路线，标志新经济政策体制退场与强制集体化并进。
-
-### 邻居节点: `PER-mikoyan`
-- **时效关系边** (`PER-mikoyan` → `ORG-right-opposition-1928` | `moderate-bloc-then-defector` | 有效时段: `1928.02–09`): 在“法制”限度与折中路线中接近右翼，9月后与之划清界线
-- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 米高扬是亚美尼亚裔布尔什维克干部，1920–1922年在下诺夫哥罗德省委崭露头角并进入中央候补委员，1920年代前期转至东南与北高加索党务，1926年进入政治局候补席并执掌苏联内外贸易。粮食采购、城乡商品交换与外贸计划交汇于其部门；1928年春夏他在“法制”限度与折中妥协之间摇摆，至1928年9月在斯大林施压下转向强硬路线，此后成为多数派骨干——强制征购和出口并非一个部门或一个人的单独决策。
-
-### 邻居节点: `MTG-1929-04-cc-joint-plenum`
-- **时效关系边** (`MTG-1929-04-cc-joint-plenum` → `ORG-right-opposition-1928` | `politically-defeated` | 有效时段: `1929-04`): 经济与组织路线在联席全会遭压倒性否决，6–8月陆续失去报刊、工会与共产国际阵地。
-- **时效关系边** (`ORG-right-opposition-1928` → `MTG-1929-04-cc-joint-plenum` | `doctrinal_condemnation` | 有效时段: `1929-04`): 斯大林《论党内右倾》与布哈林4月18日长篇辩辞正面交锋，公开定性右倾机会主义
-- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 1929年4月16日至23日，联共（布）中央与中监委联席全会围绕征粮危机、工业化与新经济政策展开高层摊牌。布哈林痛斥“贡赋”与强制，斯大林以“右倾”与密谈案反击；全会秘密解除布哈林与托姆斯基关键职务但暂留三人政治局席位，随后十六次代表会议批准的一五计划仍维持有限集体化目标。
-
-### 邻居节点: `MTG-1929-11-cc-plenum`
-- **时效关系边** (`MTG-1929-11-cc-plenum` → `ORG-right-opposition-1928` | `outlawed-in-party` | 有效时段: `1929-11-17`): 全会主决议第六节宣布宣传右倾机会主义与留在联共（布）党内不相容。
-- **时效关系边** (`ORG-right-opposition-1928` → `MTG-1929-11-cc-plenum` | `final_liquidation_venue` | 有效时段: `1929-11`): 宣布右倾宣传与党籍不相容、开除布哈林政治局席位，直通 EVT-1929-great-turn-and-dekulakization-launch
-- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 1929年11月10日至17日，联共（布）中央全会将布哈林逐出政治局、警告李可夫与托姆斯基等，并宣布宣传右倾与留党不相容。全会动员“二万五千人”下乡并推动集体化加速，但正式决议对富农处置仍留空白；经12月政治局委员会博弈与斯大林否决温和草案，年底演说最终引向消灭富农阶级转向。
-
-### 邻居节点: `PER-kaganovich`
-- **时效关系边** (`ORG-right-opposition-1928` → `PER-kaganovich` | `union_purge_enforcer` | 有效时段: `1928-12–1929-05`): 1928.12工会八大空降 VTsSPS 替换托姆斯基人马，将工会转型为生产动员“传送带”
-- **节点定性微摘要 [T1]** (完备度 `draft`): 犹太裔出身、斯大林最亲信的组织型干部：1920年代在组织局与书记处负责人事调配与机关整肃；1925–1928任乌共（布）总书记推进并监控乌克兰化；1928年调回莫斯科介入工会整肃，1929年投身集体化与一五计划行政动员，以铁腕执行弥补意识形态干部短缺。
-
-### 邻居节点: `PER-molotov`
-- **时效关系边** (`ORG-right-opposition-1928` → `PER-molotov` | `apparatus_replacer` | 有效时段: `1928-11–1929`): 1928.11接管莫斯科市委肃清乌格拉诺夫余部，并出任政治局全面集体化委员会主任
-- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 布尔什维克核心党务官僚与斯大林头号副手（1890–1986，本卡至1929年）。1917二月在《真理报》与俄国局持反临时政府强硬立场；1921任中央责任书记，后长期作为书记处大总管协同斯大林操盘；1928年11月至1929年4月接掌莫斯科委员会（MK），并代表斯大林阵营加强对共产国际领导工作的控制，推动集体化加速。
-
-### 邻居节点: `PER-kamenev`
-- **时效关系边** (`ORG-right-opposition-1928` → `PER-kamenev` | `fatal_secret_interlocutor` | 有效时段: `1928-07`): 1928-07-11与布哈林、索科尔尼科夫秘密晤谈；1929.01笔录泄露沦为派别铁证
-- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 老布尔什维克、首任全俄中执委主席。1917年自四月至立宪会议一贯坚守温和宪政社会主义联盟路线并公开反对十月起义；1924年十三大联手季诺维也夫压下《列宁遗嘱》，1925年十四大公开发言反斯大林“领袖”集权后失势；1928年7月密会布哈林并留下外泄笔记，反成右派致命罪证。
-
-### 邻居节点: `POL-ban-on-factions-1921`
-- **时效关系边** (`ORG-right-opposition-1928` → `POL-ban-on-factions-1921` | `self_paralyzing_constraint` | 有效时段: `1928–1929`): 右派自身曾拥护该反派别禁令，导致1928–1929受自我制约而避免公开串联地方党组织
-- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 俄共十大于1921年3月16日通过《关于党的统一》，要求解散按纲领组成的派别，并保留规定渠道的批评。秘密第七条设中央领导成员的特殊处分程序；1924年1月公开宣读、1926年7月首次动用开除季诺维也夫出政治局，危机措置遂渐成约束反对派的工具，但不同年份执行不等同原条文。
-
-## 3. 关联史学争鸣光谱 (Historiographical Debates)
-### `DEB-1921-trade-union-controversy-and-party-unity`：1921年工会争论、工人反对派与党内统一之争
-## [T1] 核心问题定义
-内战结束之际，工会应成为国家管理生产的传动机构，还是维护工人利益并参与管理的独立空间？工人反对派、托洛茨基和列宁的方案分歧，如何与第十次党代表大会禁止派别相互交织？喀琅施塔得危机既是决议援引的背景，也是有待独立考察的社会抗议，不能混同党内派别。
-
-## [T2] 各学派立场对照矩阵
-**经验基准**：核心论战发生在1920年11月至1921年3月16日十大闭幕（`era`延至1929年托姆斯基倒台及车间体制定型）。据 `DATA-04-party-membership-and-congress-votes-1903-1929`，十大694名表决代表中工会决议票型为“十人纲领” **336票**、托洛茨基—布哈林纲领 **50票**、工人反对派 **18票**（弃权2票；1月莫斯科预备会为 `57:33:21`），《关于党的统一》反对票不足30票；秘密第7条设定处分中央委员程序。喀琅施塔得决议并非工人反对派纲领。
-
-| 学派/取向 | 代表学者与著作 | 核心论点摘要 | 支撑论断卡 | 主要受批评盲点 |
-| :--- | :--- | :--- | :--- | :--- |
-| 工人反对派 | 亚历山德拉·柯伦泰，《工人反对派》(1921) | 批评官僚和专家支配，要求由生产者代表大会组织国民经济。 | `CLM-kollontai-1921-workers-opposition-critique-of-bureaucracy-and-specialists`；`CLM-kollontai-1921-all-russian-congress-of-producers-program` | 纲领是参与者政治介入，本身亦不反对排斥非共多数，不能直接代表全体工人。 |
-| 列宁与“十人纲领” | 列宁与“十人纲领”（十大代表大会多数派）；Joseph Godson, *The Soviet Worker* (1981) | 工会既是“共产主义学校”与党群“传送带”，又借民主集中制、全厂单一产业工会及内部秘密党组锁死底层独立空间，否定抗议合法性。 | `CLM-godson-1981-tenth-congress-to-1929-transmission-belt-unions` | 教义与组织章程剖析偏重上层结构，对1920年代车间议价空间关注有限。 |
-| 托洛茨基与劳动军事化 | Robert Service, *Trotsky: A Biography* (2009) | 托洛茨基推动劳动军事化与Tsektran，主张“工人职责是执行命令”，在专政与一党垄断上与列宁、斯大林共享更深共识。 | `CLM-service-2009-trotsky-authoritarian-consensus` | 传记解释不能替代1920—1921年中央全会逐次辩论原档，亦不否定其后民主诉求与垄断的结构悖论。 |
-| 党内制度转折 | Robert V. Daniels, *The Conscience of the Revolution* (1960) | 禁派收缩组织化异议空间，但并未立即消灭一切分歧。 | `CLM-daniels-1960-tenth-congress-turning-point` | 制度后果不能等同当时所有代表预谋后来的镇压。 |
-| 工会终结与家长制三方交锋 | Leonard Schapiro (1981)；Donald Filtzer (1986)；Maksim Lebsky (2021) | Schapiro 主张1920–21即已政治终结（1920-06逮捕莫斯科印刷工会、1921初捕约2,000名孟什维克、1921-05金属工会 `120:40` 否决中央名单遭强推）；Filtzer 论证RKK与车间讨价还价延至1928-12至1929-05托姆斯基免职及1929-03-06单方解雇令；Lebsky 揭示 ФУБР 75%住房与逐宿令塑造社会依附。 | `CLM-schapiro-1981-end-of-illusion-unions-1917-to-tomsky-fall`；`CLM-filtzer-1986-nep-unemployment-and-shopfloor-bargaining`；`CLM-filtzer-1986-1929-tomsky-purge-and-shock-work`；`CLM-lebsky-industrial-paternalism-origins-1917-1929` | 三方分别侧重党团压制、车间谈判与福利依附，且均受就业市场与宏观政策转轨影响。 |
-
-### `DEB-1928-bukharin-alternative`：布哈林替代方案与新经济政策终结之争
-## [T1] 核心问题定义
-1927至1929年粮食危机与新经济政策的瓦解，是否意味着渐进工业化和工农联盟已无可行出路，还是党内权力与政策选择扼杀了布哈林的替代方案？投资、价格、农民供粮和政治动员之间的约束究竟有多强，必须把经济可行性、政治可行性与实际权力斗争分别检验。
-
-## [T2] 各学派立场对照矩阵
-**经验基准**：1928年粮食收购危机后领导层采用非常措施；布哈林同年批评征粮和工业化节奏，1929年四月及十一月中央全会使右派进一步失势，同年清党开除率达 `11%`（约17万人，`DATA-04-party-membership-and-congress-votes-1903-1929`）。各方都面对工业投资、粮食供给与工农社会结构约束。
-
-| 学派/取向 | 代表学者与著作 | 核心论点摘要 | 支撑论断卡 | 主要受批评盲点 |
-| :--- | :--- | :--- | :--- | :--- |
-| 新经济政策替代论 | Stephen Cohen, *Bukharin and the Bolshevik Revolution* (1973) | 市场、合作社和渐进工业化提供可争论的替代路径；组织机器与政治斗争使该路线失败。 | `CLM-cohen-1973-nep-viability`；`CLM-cohen-1973-notes-of-an-economist`；`CLM-cohen-1973-bukharin-organizational-defeat` | 可构想的经济路径不自动证明可获得党内多数或满足高投资目标。 |
-| 工业化经济思想史 | Alexander Erlich, *The Soviet Industrialization Debate* (1960) | 布哈林平衡增长与普列奥布拉任斯基积累方案共同面对投资约束；强制全盘集体化非各派原有共同结论。 | `CLM-erlich-1960-bukharin-balanced-growth`；`CLM-erlich-1960-preobrazhensky-dilemma`；`CLM-erlich-1960-stalin-overkill-turn` | 模型不能单独解决权力、执行和国际冲击问题。 |
-| 经济结构与政策选择 | Alec Nove, *Was Stalin Really Necessary?* (1964) | 提出“条件性必然”与“1927年NEP死胡同（cul-de-sac）”：给定布尔什维克保住一党政权、拒绝斯托雷平式富农资本主义与高速重工业化三大前提，布哈林市场渐进路径存在内在政治经济不一致；但仍须区分发展目标与强制手段。 | `CLM-nove-1964-stalin-necessity-dilemma` | 反事实替代方案的实施条件难以在单线历史中完全检验（详见下栏 KAPROST 交锋）。 |
-| 意识形态与政治能动性 | Stephen Kotkin, *Stalin*, Vol. 1 (2014)；Sheila Fitzpatrick, *The Russian Cultural Revolution (1928–1931)* (1978) | 市场发展与党内阶级政治构成张力，斯大林西伯利亚干预使危机转向不能仅由结构推导；“文化革命”动员更将政治局右派、教育人民委员部温和派与沙赫蒂案连成“右倾危险”连续体。 | `CLM-kotkin-2014-bukharin-dilemma`；`CLM-fitzpatrick-1978-anti-bukharin-ideological-offensive` | 科特金第一卷叙事止于1928年底；宣传建构的意识形态连续体亦不能直接等同右派成员一致的文化纲领。 |
-| 组织与动员政治 | Oleg Khlevniuk, *Stalin* (2015)；David Priestland, *Stalinism and the Politics of Mobilization* (2007)；Catherine Merridale, *Moscow Politics and the Rise of Stalin* (1990) | 干部控制、反右“复兴主义”动员与乌格拉诺夫莫斯科地方权力瓦解共同决定布哈林集团败局。 | `CLM-khlevniuk-2015-defeat-of-right-opposition`；`CLM-priestland-2007-1928-mobilization-turn-against-bukharin`；`CLM-merridale-1990-uglanov-moscow-collapse` | 组织性胜利并不单独证明任一经济路线的长期优劣。 |
-| 反事实计量与改革经济学 | Holland Hunter / R. W. Davies / 谷内融，*戴维斯纪念文集* (1995)；刘伟、平新乔，《平衡与非平衡：布哈林与普列奥布拉仁斯基之争》（1989，B级） | 亨特借 KAPROST 模型论证非集体化 NEP 本可成功，但戴维斯（1994）反驳1928年市场已遭行政扰乱，谷内融1929年1—6月政治局档案证实非常措施演变为全国体制；刘伟、平新乔将布氏重估为“短缺经济学”先驱，指出斯大林采纳了普氏非均衡配额内核。 | `CLM-davies-festschrift-1995-nep-statistics-and-planning-debates`；`CLM-bukharin-preobrazhensky-equilibrium-vs-accumulation-zh`（B级） | KAPROST 假设重工业高积累下农民仍配合市场；刘、平一文沿用中译“81亿金卢布”误植数字，引用须剔除该数。 |
-| 后苏联档案重估 | Viktor Zemskov（维克托·泽姆斯科夫），《斯大林时代》（2018，B级）；Valentin Sakharov（瓦连京·萨哈罗夫），《站在十字路口》（2012） | 泽姆斯科夫指出布哈林渐进合作化在内战记忆塑造的党员群体中缺乏政治亲和力；萨哈罗夫从反布哈林修正派立场论证2,400万碎片化小农难以支撑工业国防，MTS 与集体化是避免“斯托雷平第二版”的战略决断。 | `CLM-zemskov-2018-archival-constraints-and-party-radicalism`（B级）；`CLM-sakharov-2012-nep-crossroads-1928` | 泽氏未提供党员心态系统统计且沿用中译稿（B级）；萨哈罗夫的国家理性辩护淡化了强制集体化后的农业灾难与清洗恶果。 |
-
-### `DEB-1929-collectivization-and-dekulakization-causes`：1929年集体化与消灭富农政策的动因之争
-## [T1] 核心问题定义
-1929年集体化加速与消灭富农政策的出现，究竟源于粮食收购和工业投资的结构约束，还是统计误判、地方竞速、战争恐慌与领导层选择的叠加？农民如何应对，中央内部何时形成强制方案？应把1928年非常征粮、1929年秋冬升级与次年全面执行分开考察。
-
-## [T2] 各学派立场对照矩阵
-**经验基准**：1927年冬至1928年春发生粮食收购危机，随后推行非常征粮；全苏农户入庄率在 1929-06-01 为 `3.9%`（约100万户）、1929-10-01 升至 `7.5%`（约190万户），1929年十一月全会后集体化加速，12月11日俄联邦春播集体化目标较10月计划骤增 `60%` 至 2,400 万公顷，“二万五千人”实际选拔 27,519 名工人，同年 OGPU 征粮农村专项逮捕 49,068 人（`DATA-06-1918-1929-cheka-ogpu-sentencing-and-1929-collectivization-surge`）；12月委员会讨论方案，斯大林12月27日公开宣布转向消灭富农作为阶级。
-
-| 学派/取向 | 代表学者与著作 | 核心论点摘要 | 支撑论断卡 | 主要受批评盲点 |
-| :--- | :--- | :--- | :--- | :--- |
-| 农民社会史 | Moshe Lewin, *Russian Peasants and Soviet Power* (1968) | 征粮危机和村庄利益结构不可简化为富农囤粮；乌拉尔—西伯利亚方法使强制扩展到村庄。 | `CLM-lewin-peasants-1968-grain-procurement-crisis`；`CLM-lewin-peasants-1968-kulak-myth-and-serednyak`；`CLM-lewin-peasants-1968-ural-siberian-method` | 农户分化和地区差异须借更细的地方档案检验。 |
-| 统计与决策史 | R. W. Davies, *The Socialist Offensive* (1980)；E. H. Carr & R. W. Davies, *Foundations of a Planned Economy*, Vol. 1, Part 1 (1969) | 秋季大转变的事后宣传归纳、十一月决议及涅姆奇诺夫谷物商品率表批判（中贫农占 74% 商品粮、农户裂变至 2,558.6 万户，戳穿“只打富农”神话）与1927年价格剪刀差须分别检验，不能把升级说成早已完整拟定。 | `CLM-davies-1980-autumn-1929-great-turn-fabrication`；`CLM-davies-1980-november-plenum-to-dekulakization`；`CLM-carr-davies-1969-nemchinov-table-critique`；`CLM-carr-davies-1969-grain-price-scissor-1927` | 统计本身的口径和地方上报偏差仍待交叉核验。 |
-| 档案与地方升级 | V. P. Danilov, R. Manning, L. Viola & N. A. Ivnitsky (eds.), 《苏联农村的悲剧》第2卷（1929年11月—1930年12月，2000） | 中央委员会内部曾讨论不同速度和处置方案，地方强制及农民逃离、变卖牲畜与政策升级交织。 | `CLM-tragedy-village-1929-november-plenum-escalation`；`CLM-tragedy-village-1929-politburo-dekulakization-commission`；`CLM-tragedy-village-1929-peasant-self-liquidation-and-flight` | 政治警察报告中的阶级归因须与地方材料对勘；译文需回核俄文。 |
-| 战争恐慌与地缘政治 | Olga Velikanova, *Popular Perceptions of Soviet Politics in the 1920s* (2013)；Stephen Kotkin, *Stalin*, Vol. 1 (2014)；David R. Shearer, *Stalin and War, 1918–1953* (2024) | 战争恐慌、囤积与西伯利亚征粮选择叠加推进高压路径；希勒进一步论证斯大林对迫近英波战争与军粮储备的判断直接决定了1928—1929年强制征粮与集体化的时间及病理性强度。 | `CLM-velikanova-2013-war-scare-hoarding-and-grain-crisis`；`CLM-kotkin-2014-siberian-grain-turn`；`CLM-stalin-war-1927-1929-threat-and-collectivization` | 外部安全威胁想象不能单独解释各地实施差异或证明强制不可避免。 |
-| 工业化结构约束 | Alexander Erlich, *The Soviet Industrialization Debate* (1960)；Alec Nove, *Was Stalin Really Necessary?* (1964) | 工业投资与农业剩余之间确有矛盾，但发展目标不等同暴力全盘集体化的必然性。 | `CLM-erlich-1960-preobrazhensky-dilemma`；`CLM-nove-1964-collectivization-economic-disaster` | 后果评价不能直接充作1929年决策者的动机。 |
-| 后苏联贡税论与治安联动 | Viktor Zemskov（维克托·泽姆斯科夫），《斯大林时代》（2018，B级）；Wendy Z. Goldman, *Inventing the Enemy* (2011) | 泽姆斯科夫把20年代低价收购解释为工业化农业“贡税”，并区分1929年底地方跨区驱逐与1930年1月制度化安置；高德曼追踪1929—1930年去富农化治安镇压与一五计划工业短缺、“破坏”话语的联动。 | `CLM-zemskov-2018-agrarian-tribute-and-coercive-turn`（B级）；`CLM-goldman-2011-great-turn-industrialization-and-wrecking` | 泽氏贡税解释缺分年净转移实证且严守1929/1930界线；高德曼核心厂区微观实证延伸至1930年代，不应前移为1929年既定图景。 |
-
-## 4. 关联时间线锚点 (共 7 条)
-- **1928-03-10 [N.S.]** (`TL-W32-1928-03-10-01`, L3): **《真理报》公布沙赫特反革命专家破坏案公报，政治局出现跨阵营错位与德苏谈判破裂** — 3月10日《真理报》公布检察机关与北高加索OGPU破获沙赫特矿区“资产阶级专家”勾结前矿主及外国资本破坏案（3月公告涉55人，5月庭审53人）。3月11日李可夫发文肯定罪名但警告勿迫害专家，3月15日德国因5名德国技师被捕无限期中止6亿马克贸易信贷谈判；3月下旬奥尔忠尼启则（03-26）与古比雪夫（03-28）试图降温“反专家狂潮”，而托姆斯基（03-29致伏罗希洛夫函；莫佐欣中译误作02-02）与布哈林最初却附和破案，自失联合技术官僚盟友契机。
-- **1928-04-13 [N.S.]** (`TL-W32-1928-04-13-01`, L3): **斯大林（莫斯科）与布哈林（列宁格勒）同日演讲公开显露路线裂痕** — 四月全会闭幕两日后，斯大林在莫斯科高喊“内外敌人环伺、一刻不能忘记”，借“自我批评”冲击国家与工会机关并讽刺讨好贫富双方者“不是马克思主义者而是傻瓜”；同日布哈林在列宁格勒虽支持沙赫特清查，却首次公开警告把非常措施视作“常态”和夸大行政手段的危险。
-- **1928-05-18 [N.S.]** (`TL-W32-1928-05-18-01`, L3): **莫斯科工会大厦圆柱大厅沙赫特案公开审判开庭（05-18至07-06/07-07）** — 1922年社革党审判后最大规模全苏公开秀审在莫斯科工会大厦圆柱大厅开幕并向全国无线电广播：维辛斯基任首席审判长、克雷连科任首席公诉人，53名本国及3名德国技术人员受审（20人认罪、11人部分认罪、其余翻供或否认）。全国借公审开展反专家工人集会动员，重塑工业纪律与阶级敌人话语。
-- **1928-06-15 [N.S.]** (`TL-W32-1928-06-15-01`, L3): **弗鲁姆金致信政治局告急，6月下旬布哈林与斯大林在政治局彻底失和** — 6月15日财政副人民委员弗鲁姆金致信政治局告警农村普遍反对非常措施；斯大林违背合议决议于6月20日以书记处名义私函反批并确立“右倾”靶标。6月27日政治局会上布哈林、李可夫、托姆斯基指称政策陷入破裂，布哈林此后拒绝将书面意见交斯大林传阅（唯恐被罗织罪名），双方个人与工作关系彻底撕裂。
-- **1928-07-04 [N.S.]** (`TL-W32-1928-07-04-01`, L3): **联共（布）七月中央全会开幕（07-04–12），奥新斯基、索科利尼科夫与产粮区大员告警“破裂”危机** — 7月4日全会开幕，首议共产国际事务后转入米高扬粮食报告激辩。奥新斯基、索科利尼科夫痛陈价格剪刀差与城乡“破裂（razmychka）”，主张提价与放缓工业化；产粮区首脑安德烈耶夫、彼得罗夫斯基及斯捷茨基惊呼中农乃至贫农广泛不满（担忧红军内爆发“新喀琅施塔得”）；而加里宁与伏罗希洛夫则在关键时刻倒向斯大林。
-- **1928-07-10 [N.S.]** (`TL-W32-1928-07-10-01`, L3): **七月全会布哈林答辩并通过表面妥协决议：提价并禁止重复非常措施（07-12闭幕）** — 7月10日布哈林与托姆斯基警告“两声钟响已过”、没有富农和耐普曼的NEP行不通；全会最终采纳布哈林稿基础上的妥协决议（07-10/11通过），承认存在“城乡破裂危险”，谴责余粮征集制式过火，承诺不再使用非常措施并推翻斯大林反对决定适当提高收购粮价（约15–20%，07-19颁令实施）。7月12日莫洛托夫作培养技术专家报告后全会闭幕。
-- **1928-07-11 [N.S.]** (`TL-W32-1928-07-11-01`, L3): **布哈林在索科利尼科夫陪同下密访加米涅夫，“成吉思汗”与“军事封建剥削”谈话留档** — 因政治局失去多数且遭斯大林派散布离间谣言，布哈林在索科利尼科夫陪同下于全会闭幕前夜密会已失势的加米涅夫。布哈林痛斥斯大林为“没有原则的阴谋家、成吉思汗、将会勒死我们所有人”，称“贡赋”与强征系“对农民的军事封建剥削”，却悲叹“中央害怕争论，公开争论会被杀”。加米涅夫连夜手写纲要寄季诺维也夫，1929-01被托派印传单曝光后成为依据十大第7条定罪右翼的铁案。
+## 4. 关联时间线骨干锚点 (L0–L2 展示 0 条，另有 7 条 L3 逐日细节见 `timeline/L3_daily/`)

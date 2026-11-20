@@ -1,7 +1,7 @@
 ---
 id: CLM-bukharin-preobrazhensky-equilibrium-vs-accumulation-zh
 type: claim
-scholar: "刘伟、平新乔 (Liu Wei & Ping Xinqiao)"
+scholar: SCH-liu-wei-ping-xinqiao
 work_title: "平衡与非平衡：布哈林与普列奥布拉仁斯基之争（载《经济学家》1989年第2期，第92–99页）"
 publication_year: 1989
 source_tier: B

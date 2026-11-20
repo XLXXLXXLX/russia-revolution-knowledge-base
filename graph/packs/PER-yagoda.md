@@ -1,18 +1,13 @@
-# 1-Hop 平衡上下文包：`PER-yagoda` (亨里希·雅戈达)
+# 1-Hop 去重平衡上下文包：`PER-yagoda`
 
-> 本文件由 `python scripts/kb.py pack` 自动编译，旨在将失控的 `1+N` 随机读取压缩为**等权重、带时效边实质与史学盲区告警**的单次全景读取。
+> 由 `python scripts/kb.py pack` 动态编译：保留 **100% 一跳邻居与多时段关系边**，跨卡自动去重争鸣与时间线，并关联学者学派 (`SCH-*`)。
 
-## 0. 认知完备度与反偏斜仪表盘 (Epistemic & Skew Warnings)
-- **主卡路径**: `cards/people/PER-yagoda.md`
-- **完备度等级**: `multi-perspective`
-- **已覆盖视角**: `security-institutional, archival-repression, popular-perceptions, cheka-institutional-history-leggett, high-politics-kotkin-lewin, extrajudicial-jurisdiction-mozokhin, L3-daily-chronology`
-- **待补齐视角**: `ogpu-personnel-appointment-originals, 1929-10-orders-full-text`
-- **偏斜风险提示**:
-  - ⚠️ 主卡显式声明尚缺以下视角待补: `ogpu-personnel-appointment-originals, 1929-10-orders-full-text`。
+## 0. 认知完备度与反偏斜仪表盘
+- **`PER-yagoda`** (亨里希·雅戈达 | `cards/people/PER-yagoda.md` | `multi-perspective`): 已覆盖=`security-institutional, archival-repression, popular-perceptions, cheka-institutional-history-leggett, high-politics-kotkin-lewin, extrajudicial-jurisdiction-mozokhin, L3-daily-chronology`；待补=`ogpu-personnel-appointment-originals, 1929-10-orders-full-text`
 
 ## 1. 主卡核心层 ([T1] + [T2])
 ## [T1] 60秒定性微摘要
-雅戈达是苏联秘密警察机关的组织者。1923年起任国家政治保卫总局（OGPU）第二副主席，缅任斯基1926年任主席后因病较少主持日常事务，他的实际影响逐步上升；1927年战争恐慌、反对派打击和1928–1929年的社会控制使他的机关成为大转变的关键工具。1934–1936年任内务人民委员，1937年被捕，1938年在公审后被处决。正式职衔与事实上的权力增长不可混同。
+苏联秘密警察组织者，1923年起任OGPU第二副主席；缅任斯基1926年任主席后因病少理日常事务，雅戈达影响渐增，职衔与实际权力须区分。其机关在战争恐慌、镇压反对派及1928–1929年控制社会中服务大转变；1934–1936年任内务人民委员，1938年公审后被处决。
 
 ## [T2] 核心脉络、时效关系边表与史学争鸣光谱
 
@@ -41,40 +36,17 @@
 - **社会感知研究**：韦利卡诺娃利用情报汇编显示战争传闻和农村不满的广度，同时提醒其由安全机关筛选、贴标签，不能将机关所称敌情视为独立证实的阴谋。
 - **高层政治史**：科特金、莱温、赫列夫纽克把雅戈达置于斯大林与布哈林对峙的背景中；个人关系、斯大林压力与安全机关自身利益可并置考察，不能仅凭结果推断雅戈达在每一转折点的真实立场和命令链。
 
-## 2. 一跳邻域等权重微摘要 (共 8 个关联节点，严防大卡霸占上下文)
-### 邻居节点: `INS-cheka-gpu-ogpu`
-- **时效关系边** (`PER-yagoda` → `INS-cheka-gpu-ogpu` | `deputy-and-operational-leader` | 有效时段: `1923–1929`): 二副及后来的第一副主席；区分正式人事与日常权力
-- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 苏维埃政治警察演进谱系（兼参 `ORG-cheka-ogpu`）。1917年12月依人民委员会内部决议创立契卡，历经1918年红色恐怖与央地行刑权演变；1922年改组为苏俄内务部下属GPU，1923年组建联盟层级OGPU并随后重建法外特别会议，一面以 *svodki* 监测工农情绪，一面在1927年战争恐慌、沙赫特案及1928—1929年强制征粮中充当核心强制机器。
+## 2. 一跳邻域全量微摘要目录 (去重后共 8 个节点，0 截断)
+- **`INS-cheka-gpu-ogpu`**（全俄肃反委员会—国家政治保卫局与总局（ВЧК–ГПУ–ОГПУ 制度档案））: 苏维埃政治警察谱系：1917年12月人民委员会内部决议创立契卡，1918年红色恐怖中央地行刑权演变；1922年改为苏俄内务部GPU，1923年设联盟OGPU，随后重建法外特别会议。机关兼事工农情绪监测与镇压，在1927年战争恐慌、沙赫特案及1928—1929年强征中作用关键。 ‖ `←PER-yagoda`[deputy-and-operational-leader|1923-09-18–1934]: 二副（1923-09-18 任命，11-02/15 联盟级 OGPU 确认）、1929-…
+- **`PER-dzerzhinsky`**（费利克斯·捷尔任斯基）: 波兰立陶宛社民党与布尔什维克领导人。1917年建全俄肃反委员会（契卡）并续掌GPU/OGPU至逝世，奠定苏维埃安全与法外镇压体制；1924–1926年兼任最高国民经济委员会主席，力挺新经济政策市场均衡、保护技术专家并反对超工业化，1926年7月预警“红色独裁者”后猝逝于中央全会。 ‖ `←PER-yagoda`[subordinate|至1926]: 在其领导的安全机关中升任副职
+- **`PER-sverdlov`**（雅科夫·斯维尔德洛夫）: 布尔什维克地下组织与党国协调骨干。1917年四月会议后主持中央书记处，参与十月军革委，11月任全俄中执委主席；1918年干预立宪会议开幕、主持苏俄宪法起草。1919年3月早逝，在内战与党组织扩张背景下加速八大及会后全会常设政治局、组织局、书记处的分工。 ‖ `←PER-yagoda`[early-patron-and-kinship|1910s–1919]: 早期庇护人；通过斯维尔德洛夫关系网及与其外甥女的婚姻进入权力圈
+- **`PER-stalin`**（约瑟夫·斯大林）: 布尔什维克高加索地下组织者、民族事务人民委员（1917–1923）及中央总书记（1922起）。依托书记处任命权与安全危机叙事，先联季-加压制托洛茨基，再联布哈林击溃联合反对派；1927–1929年以战备恐慌与“自上而下革命”击败布哈林集团，1929年12月拍板“把富农作为阶级消灭”并终结新经济政策。 ‖ `←PER-yagoda`[security-apparatus-and-party-leadership|1927–1929]: 党领导的安全政策与机关自身情报、扩权逻辑相互作用；1928年向斯大林提交书面解释并转向多数派
+- **`PER-bukharin`**（尼古拉·布哈林）: 布尔什维克核心理论家、《真理报》主编及共产国际书记处负责人。列宁遗嘱誉其“全党宠儿”但质疑其辩证法；1918年领衔左翼共产主义，1921年后转向新经济政策均衡路线，1925–1927联斯大林击溃左派，1928–1929因反对暴力征粮与超工业化遭击败并逐出政治局。 ‖ `←PER-yagoda`[personal-contact-disputed-policy-inference|1928–1929]: 布哈林1928-07-11向加米涅夫称其“和我们在一起”；雅戈达随后书面向斯大林解释，私…
+- **`ORG-left-and-united-opposition`**（1923–1927年左翼反对派与托季联合反对派）: 1923年剪刀差危机触发的托洛茨基—普列奥布拉任斯基“左翼反对派”，经1926年春与季诺维也夫—加米涅夫“新反对派”结盟为托季联合反对派；以《四十六人声明》与《1927年政纲》批判官僚体制与“一国社会主义”、主张价格—财政渠道的计划工业化，于1927年12月十五大被组织摧毁。 ‖ `←PER-yagoda`[surveillance-and-suppression|1927]: 对联合反对派的监视、地下印刷所打击
+- **`EVT-1927-war-scare-and-opposition-expulsion`**（1927年“战争恐慌”危机与联合反对派溃败）: 1927年英苏断交、沃伊科夫遇刺引发战争恐慌与抢购囤粮，OGPU六月行动大捕人：两项研究分别估6月至少9,000人、6—7月至少13,345人。反对派九月《政纲》遭禁，11月7日游行被冲散，14日托季被开除；十五大在购粮危机已发生时完成组织清除。 ‖ `←PER-yagoda`[repression-executor|1927]: 第131号指令针对被界定为农村失败主义的言论
+- **`EVT-1928-shakhty-affair-show-trial`**（沙赫特事件与技术专家公开审判）: 1928年顿巴斯沙赫特矿区的事故与管理问题被秘密警察定性为经济破坏阴谋。莫斯科公开审判与宣传将旧技术专家的政治可靠性推上全国议程；检方求刑22人死刑，法庭判11人死刑，其中6人获减刑、5人被处决。案件既服务于高层政治动员，也与工人反专家情绪及培养工人出身新专家的政策相互作用。 ‖ `←PER-yagoda`[security-investigation|1928]: 1928-03-02 呈送报告并陪同面见斯大林；机关调查与打击专家的政治运动相连
 
-### 邻居节点: `PER-dzerzhinsky`
-- **时效关系边** (`PER-yagoda` → `PER-dzerzhinsky` | `subordinate` | 有效时段: `至1926`): 在其领导的安全机关中升任副职
-- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 波兰立陶宛社民党与布尔什维克领导人。1917年建全俄肃反委员会（契卡）并续掌GPU/OGPU至逝世，奠定苏维埃安全与法外镇压体制；1924–1926年兼任最高国民经济委员会主席，力挺新经济政策市场均衡、保护技术专家并反对超工业化，1926年7月预警“红色独裁者”后猝逝于中央全会。
-
-### 邻居节点: `PER-stalin`
-- **时效关系边** (`PER-yagoda` → `PER-stalin` | `security-apparatus-and-party-leadership` | 有效时段: `1927–1929`): 党领导的安全政策与机关自身情报、扩权逻辑相互作用
-- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 布尔什维克高加索地下组织者、民族事务人民委员（1917–1923）及中央总书记（1922起）。依托书记处任命权与安全危机叙事，先联季-加压制托洛茨基，再联布哈林击溃联合反对派；1927–1929年以战备恐慌与“自上而下革命”击败布哈林集团，1929年12月拍板“把富农作为阶级消灭”并终结新经济政策。
-
-### 邻居节点: `PER-bukharin`
-- **时效关系边** (`PER-yagoda` → `PER-bukharin` | `personal-contact-disputed-policy-inference` | 有效时段: `1920年代`): 私交不等于派别忠诚或政策同盟
-- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 布尔什维克核心理论家、《真理报》主编及共产国际书记处负责人。列宁遗嘱誉其“全党宠儿”但质疑其辩证法；1918年领衔左翼共产主义，1921年后转向新经济政策均衡路线，1925–1927联斯大林击溃左派，1928–1929因反对暴力征粮与超工业化遭击败并逐出政治局。
-
-### 邻居节点: `EVT-1927-war-scare-and-opposition-expulsion`
-- **时效关系边** (`PER-yagoda` → `EVT-1927-war-scare-and-opposition-expulsion` | `repression-executor` | 有效时段: `1927`): 第131号指令针对被界定为农村失败主义的言论
-- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 1927年英苏断交与沃伊科夫遇刺引爆“战争恐慌”，伴随城乡抢购囤粮潮与OGPU“六月行动”（维诺格拉多夫转述仅6月至少9,000人被捕，韦利卡诺娃拼合6—7月下限估至少13,345人）。夏秋间党内多数派强化纪律与治安压制：反对派九月《政纲》遭禁、`11-07` 游行被冲散，托季 `11-14` 被开除党籍；12月十五大在秋冬购粮危机已发生之际完成对联合反对派的组织清除。
-
-### 邻居节点: `EVT-1928-shakhty-affair-show-trial`
-- **时效关系边** (`PER-yagoda` → `EVT-1928-shakhty-affair-show-trial` | `security-investigation` | 有效时段: `1928`): 机关调查与打击专家的政治运动相连
-- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 1928年顿巴斯沙赫特矿区的事故与管理问题被秘密警察定性为经济破坏阴谋。莫斯科公开审判与宣传将旧技术专家的政治可靠性推上全国议程；检方求刑22人死刑，法庭判11人死刑，其中6人获减刑、5人被处决。案件既服务于高层政治动员，也与工人反专家情绪及培养工人出身新专家的政策相互作用。
-
-### 邻居节点: `PER-sverdlov`
-- **时效关系边** (`PER-yagoda` → `PER-sverdlov` | `early-patron-and-kinship` | 有效时段: `1910s–1919`): 早期庇护人；通过斯维尔德洛夫关系网及与其外甥女的婚姻进入权力圈
-- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 布尔什维克地下组织骨干与早期党国协调中枢（1885–1919）。1902年入党长期流放西伯利亚；1917年四月会议后主持中央书记处并参与十月军革委核心；11月接任全俄中执委主席，1918年主持干预立宪会议开幕及苏俄首部宪法起草（7月10日通过）；1919年3月早逝在内战与党组织扩张背景下加速了八大及会后中央全会常设政治局、组织局与书记处的制度分工。
-
-### 邻居节点: `ORG-left-and-united-opposition`
-- **时效关系边** (`PER-yagoda` → `ORG-left-and-united-opposition` | `surveillance-and-suppression` | 有效时段: `1927`): 对联合反对派的监视、地下印刷所打击
-- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 1923年剪刀差危机触发的托洛茨基—普列奥布拉任斯基“左翼反对派”，经1926年春与季诺维也夫—加米涅夫“新反对派”结盟为托季联合反对派；以《四十六人声明》与《1927年政纲》批判官僚体制与“一国社会主义”、主张价格—财政渠道的计划工业化，于1927年12月十五大被组织摧毁。
-
-## 3. 关联史学争鸣光谱 (Historiographical Debates)
+## 3. 关联史学争鸣与学者论断索引 (主卡外关联争鸣 2 项)
 ### `DEB-1928-bukharin-alternative`：布哈林替代方案与新经济政策终结之争
 ## [T1] 核心问题定义
 1927至1929年粮食危机与新经济政策的瓦解，是否意味着渐进工业化和工农联盟已无可行出路，还是党内权力与政策选择扼杀了布哈林的替代方案？投资、价格、农民供粮和政治动员之间的约束究竟有多强，必须把经济可行性、政治可行性与实际权力斗争分别检验。
@@ -106,5 +78,29 @@
 | 社会流动与上下互动 | Fitzpatrick 强调文化革命中的青年、工农出身干部和提拔者对旧等级与专家地位的挑战；上层号召与基层诉求相互作用。 | 不应把基层积极分子等同整个工人阶级，也不能忽视组织资源和强制权掌握在上层手中。红色教授学院与青年团在本案的具体作用需分开核查。 | `CLM-fitzpatrick-1979-1928-shakhty-and-vydvizhentsy`; `CLM-fitzpatrick-1978-cultural-revolution-from-below-and-above` |
 | 工业现场与敌人建构 | Kuromiya、Goldman、Bailes 的相关研究提示，将生产压力、事故、管理矛盾和针对破坏者的动员放在同一过程考察。 | 不能将每一次事故、短缺或控告都还原成中央有意制造的替罪羊；Goldman 后续大恐怖研究的证据年代不能不加区分地投射至1928年。 | `CLM-goldman-2011-great-turn-industrialization-and-wrecking`; `CLM-goldman-2011-social-dynamics-of-vigilance-vs-totalitarian-model` |
 
-## 4. 关联时间线锚点 (共 1 条)
-- **1924-01-22 [N.S.]** (`TL-W36-1924-01-22-01`, L3): **全俄十一次苏维埃代表大会发丧与“第比利斯电报”谜案** — 1924-01-22加里宁向全俄十一次苏维埃代表大会泣告列宁逝世，23日灵柩抵莫斯科工会大厦。同日晨托洛茨基在第比利斯站收到斯大林加密电报称周六（01-26）下葬并建议其因病续赴苏呼米；01-25治丧委员会因风雪与工程推迟葬礼至周日01-27，1月23日贝利亚已通过亚戈达密报托氏动向。托氏缺席葬礼成政治重创，学界就“电报欺骗说”与“政治麻痹说”分歧显著。
+
+### 3.1 关联核心论断与史学家学派坐标 (`CLM-*` → `SCH-*`, 展示前 22/22 条)
+- **`CLM-mozokhin-cheka-to-ogpu-extrajudicial-jurisdiction-1918-1929`** [`SCH-mozokhin-oleg`(奥列格·莫佐欣) | PDF pp. 8-36, 44-49, 117-136]: 
+- **`CLM-cohen-1973-nep-viability`** [`SCH-cohen-stephen`(斯蒂芬·F·科恩) | pp. 270-276, 316-320]: 
+- **`CLM-cohen-1973-notes-of-an-economist`** [`SCH-cohen-stephen`(斯蒂芬·F·科恩) | pp. 295-296, 318-320]: 
+- **`CLM-cohen-1973-bukharin-organizational-defeat`** [`SCH-cohen-stephen`(斯蒂芬·F·科恩) | pp. 287-289, 297-301, 322-329]: 
+- **`CLM-erlich-1960-bukharin-balanced-growth`** [`SCH-erlich-alexander`(亚历山大·埃利希) | pp. 21-23 (PDF pp. 38-40)]: 
+- **`CLM-erlich-1960-preobrazhensky-dilemma`** [`SCH-erlich-alexander`(亚历山大·埃利希) | pp. 34-36, 40-41, 49-51, 170-171 (PDF pp. 51-53, 57-58, 66-68, 185-186)]: 
+- **`CLM-erlich-1960-stalin-overkill-turn`** [`SCH-erlich-alexander`(亚历山大·埃利希) | pp. 161-169, 172-177, 183-184 (PDF pp. 176-184, 187-192, 198-199)]: 
+- **`CLM-nove-1964-stalin-necessity-dilemma`** [`SCH-nove-alec`(亚历克·诺夫) | pp. 20-26, 32]: 
+- **`CLM-kotkin-2014-bukharin-dilemma`** [`SCH-kotkin-stephen`(斯蒂芬·科特金) | EPUB Coda (OEBPS/9780698170100_EPUB_1-25.xhtml) & Ch. 14 (OEBPS/9780698170100_EPUB_1-24.xhtml)]: 
+- **`CLM-fitzpatrick-1978-anti-bukharin-ideological-offensive`** [`SCH-fitzpatrick-sheila`(希拉·菲茨帕特里克) | pp. 11–14, 20–21]: 
+- **`CLM-khlevniuk-2015-defeat-of-right-opposition`** [`SCH-khlevniuk-oleg`(奥列格·赫列夫纽克) | EPUB ops/xhtml/ch03.html（His Revolution 开篇至全盘集体化的 1929 年 11 月宣布）。工作区文本无纸质页码。]: 
+- **`CLM-priestland-2007-1928-mobilization-turn-against-bukharin`** [`SCH-priestland-david`(大卫·普里斯特兰) | pp. 234–237; 291–296]: 
+- **`CLM-merridale-1990-uglanov-moscow-collapse`** [`SCH-merridale-catherine`(凯瑟琳·梅里代尔) | pp. 53-64]: 
+- **`CLM-davies-festschrift-1995-nep-statistics-and-planning-debates`** [`SCH-hunter-holland`(霍兰·亨特 · cliometrics) | pp. 18-21, 82-94, 218-226]: 
+- **`CLM-bukharin-preobrazhensky-equilibrium-vs-accumulation-zh`** [`SCH-liu-wei-ping-xinqiao`(刘伟与平新乔 · chinese-political-economy) | 原刊 pp. 92–99 (PDF pp. 1–8；英文提要 pp. 127–128 / PDF pp. 9–10)]: 
+- **`CLM-zemskov-2018-archival-constraints-and-party-radicalism`** [`SCH-zemskov-viktor`(维克托·尼古拉耶维奇·泽姆斯科夫) | 馆藏中文PDF pp. 2–4, 7–10；非俄文原版纸页]: 
+- **`CLM-sakharov-2012-nep-crossroads-1928`** [`SCH-sakharov-valentin`(瓦连京·萨哈罗夫) | EPUB Ch. 4.2 & Ch. 4.3]: 
+- **`CLM-cohen-1973-july-1928-plenum-and-kamenev`** [`SCH-cohen-stephen`(斯蒂芬·F·科恩) | pp. 289-291]: 
+- **`CLM-fitzpatrick-1979-1928-shakhty-and-vydvizhentsy`** [`SCH-fitzpatrick-sheila`(希拉·菲茨帕特里克) | pp. 113–119, 139]: 
+- **`CLM-fitzpatrick-1978-cultural-revolution-from-below-and-above`** [`SCH-fitzpatrick-sheila`(希拉·菲茨帕特里克) | pp. 11–15, 17–19]: 
+- **`CLM-goldman-2011-great-turn-industrialization-and-wrecking`** [`SCH-goldman-wendy`(温迪·Z·戈德曼) | pp. 7, 11, 14, 43–47, 56, 87–90, 306–310]: 
+- **`CLM-goldman-2011-social-dynamics-of-vigilance-vs-totalitarian-model`** [`SCH-goldman-wendy`(温迪·Z·戈德曼) | pp. 4–8, 20–22, 25–31, 60–66, 300–305, 312–314]: 
+
+## 4. 关联时间线骨干锚点 (L0–L2 展示 0 条，另有 1 条 L3 逐日细节见 `timeline/L3_daily/`)

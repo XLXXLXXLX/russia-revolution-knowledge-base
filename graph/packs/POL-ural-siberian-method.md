@@ -1,14 +1,9 @@
-# 1-Hop 平衡上下文包：`POL-ural-siberian-method` (乌拉尔—西伯利亚方法与强制征粮配套法制)
+# 1-Hop 去重平衡上下文包：`POL-ural-siberian-method`
 
-> 本文件由 `python scripts/kb.py pack` 自动编译，旨在将失控的 `1+N` 随机读取压缩为**等权重、带时效边实质与史学盲区告警**的单次全景读取。
+> 由 `python scripts/kb.py pack` 动态编译：保留 **100% 一跳邻居与多时段关系边**，跨卡自动去重争鸣与时间线，并关联学者学派 (`SCH-*`)。
 
-## 0. 认知完备度与反偏斜仪表盘 (Epistemic & Skew Warnings)
-- **主卡路径**: `cards/policies/POL-ural-siberian-method.md`
-- **完备度等级**: `multi-perspective`
-- **已覆盖视角**: `peasant-social-lewin, biographical-ideological-kotkin, grain-crisis-synthesis`
-- **待补齐视角**: `siberian-local-archive-quantitative`
-- **偏斜风险提示**:
-  - ⚠️ 主卡显式声明尚缺以下视角待补: `siberian-local-archive-quantitative`。
+## 0. 认知完备度与反偏斜仪表盘
+- **`POL-ural-siberian-method`** (乌拉尔—西伯利亚方法与强制征粮配套法制 | `cards/policies/POL-ural-siberian-method.md` | `multi-perspective`): 已覆盖=`peasant-social-lewin, biographical-ideological-kotkin, grain-crisis-synthesis`；待补=`siberian-local-archive-quantitative`
 
 ## 1. 主卡核心层 ([T1] + [T2])
 ## [T1] 60秒定性微摘要
@@ -41,33 +36,16 @@
   - **[修正派与右派视角]**：布哈林—李可夫路线认为该方法摧毁农民售粮激励，以政治命令替代专业经济约束（Cohen/Daniels 右派叙事与此一致，详见 `ORG-right-opposition-1928`）。
   - **定量经济史（Carr-Davies 传统）**：收购量、播面与畜头损失的宏观序列须与 Lewin 地方机制叙述交叉核验（`CLM-carr-davies-1969-grain-price-scissor-1927` 提供价格结构背景）。
 
-## 2. 一跳邻域等权重微摘要 (共 6 个关联节点，严防大卡霸占上下文)
-### 邻居节点: `EVT-1928-grain-procurement-crisis`
-- **时效关系边** (`POL-ural-siberian-method` → `EVT-1928-grain-procurement-crisis` | `coercive-escalation` | 有效时段: `1928-1929`): 以操纵村社大会摊派、五倍罚款与刑法第107/61条入刑强征余粮，导致播面萎缩并直接通向1929年底全盘集体化。
-- **节点定性微摘要 [T1]** (完备度 `draft`): 以 `1927-10-01`（1927/28粮食收购统计年度期界起点，非单日突发事件）至 `1929-12-27`（斯大林宣布“消灭富农阶级”演说日）为期界的引发新经济政策（NEP）终结的体制性危机。工业品荒、农牧收购比价失衡及1927年战争恐慌引发农民惜售，国家收购量在11–12月暴跌；斯大林定性为“富农罢卖”，借刑法第107条与“乌拉尔—西伯利亚方法”推行强制征粮，击败布哈林右派并在1929年底转向全盘集体化。
+## 2. 一跳邻域全量微摘要目录 (去重后共 7 个节点，0 截断)
+- **`CON-kulak`**（富农（作为社会阶层与政治定罪标签））: “富农”兼具农村阶层与政治定罪含义：19世纪原指高利贷盘剥者，列宁称农村资产阶级；斯托雷平改革分离户也遭村社如此指斥。1918年为贫农委员会征粮对象，1925年NEP放宽而农村趋向中农化；1928–1929年经刑法107条与雅科夫列夫委员会转为阶级清洗标签。 ‖ `→POL-ural-siberian-method`[penal-administrative-instrument|1928-01–1929-11]: 借刑法第107条、第61条与村社“社会摊派”将拒交余粮农户批量司法定罪为富农
+- **`EVT-1928-grain-procurement-crisis`**（1927冬–1929年粮食收购危机）: 1927年秋冬国家收粮锐减，相对价格、工业品荒与战争恐慌共同削弱售粮意愿。1928年非常措施及随后村社摊派把交换危机转为强制征购和党内路线冲突；布哈林等反对者逐步失势，至1929年底转向全盘集体化。粮食总产、商品粮与国家采购须分开衡量。 ‖ `→POL-ural-siberian-method`[institutionalized_procurement_pressure|1928—1929年冬至1929]: 村社摊派及随后罚款、刑法制裁组合，不同于第107条单项措施 ； `←POL-ural-siberian-method`[escalation-within|1927–1929]: 本方法是该危机第三—四阶段核心操作手段之一
+- **`ORG-right-opposition-1928`**（1928–1929年右翼反对派（右倾集团））: 1928–1929年以布哈林、李可夫、托姆斯基为核心的联共（布）党内温和派联盟，并非严密地下派系，而是依托政府、工会与莫斯科市委抵制非常征粮常态化、“贡赋论”与超工业化冒进；受制于反派别党纪，各阵地逐一遭书记处拔除，1929年11月战败认错。 ‖ `→POL-ural-siberian-method`[opposed_coercive_policy|1928–1929]: 反对以村社贫农表决包装刑法第61/107条对中富农实施强制摊派与超额剥夺 ； `←POL-ural-siberian-method`[opposed-by|1928–1929]: 布哈林集团视其为破坏新经济政策信任与工农联盟的非常措施变体
+- **`PER-kaganovich`**（拉扎尔·卡冈诺维奇）: 斯大林核心组织干将（1893–1991）。犹太制鞋学徒出身，1922年起在中央组织机关任职，1924年主持合并后的组织分配部建构官职等级名录；1925–1928年任乌共（布）总书记推行乌克兰化兼肃民族倾向；1928年返京清洗莫斯科市委与全苏工会，1929年充当强征与集体化急先锋。 ‖ `→POL-ural-siberian-method`[field_institutionalizer|1929-03–1929-04]: 1929-03赴乌拉尔推动“社会抵制”并电请“传签”追认（3月20日政治局党内追认东部既成事实；相应国家立法至6月28日方出现）
+- **`PER-stalin`**（约瑟夫·斯大林）: 布尔什维克高加索地下组织者、民族事务人民委员（1917–1923）及中央总书记（1922起）。依托书记处任命权与安全危机叙事，先联季-加压制托洛茨基，再联布哈林击溃联合反对派；1927–1929年以战备恐慌与“自上而下革命”击败布哈林集团，1929年12月拍板“把富农作为阶级消灭”并终结新经济政策。 ‖ `←POL-ural-siberian-method`[architect-and-promoter|1928–1929]: 宣称“自下而上压力”原则，同时承认当局额外施压
+- **`POL-nep`**（新经济政策）: 1921年春在农村起义、城市工潮与喀琅施塔得危机倒逼下逐步确立、取代战时共产主义的混合经济体制。以固定实物税（后改货币税）取代余粮收集制，渐次放开城乡市场与小私营商业（耐普曼），由国家掌控大工业、银行、运输与外贸“制高点”；1928–1929年在收购危机与政治转向中逐步瓦解。 ‖ `←POL-ural-siberian-method`[undermines|1928–1929]: 市场激励与自愿售粮机制被行政强制与刑事制裁侵蚀
+- **`PER-molotov`**（维亚切斯拉夫·莫洛托夫）: 莫洛托夫是布尔什维克党务骨干与斯大林主要副手。1917年二月在《真理报》及俄国局反对支持临时政府；1921年任中央责任书记，后以书记处工作协同斯大林掌权。1928年11月至1929年4月接掌莫斯科委员会，并加强斯大林阵营对共产国际的控制，推动集体化加速。 ‖ `←POL-ural-siberian-method`[executed-on-ground|1928–1929]: 作为斯大林派地方督战与组织清洗的执行枢纽（旁证详见粮食危机事件卡）
 
-### 邻居节点: `CON-kulak`
-- **时效关系边** (`CON-kulak` → `POL-ural-siberian-method` | `penal-administrative-instrument` | 有效时段: `1928-01–1929-11`): 借刑法第107条、第61条与村社“社会摊派”将拒交余粮农户批量司法定罪为富农
-- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 俄国农村阶层与政治定罪复合概念。原系19世纪村社对高利贷盘剥者的贬称，列宁定性为农村资产阶级，斯托雷平改革试图培育独立私有农户，部分村社成员将分离户斥为富农；1918年成贫农委员会征粮对象，1925年NEP放宽下农村实呈中农化；1928–1929年经刑法第107条与雅科夫列夫委员会武器化为“作为阶级消灭”的清洗标签。
-
-### 邻居节点: `ORG-right-opposition-1928`
-- **时效关系边** (`ORG-right-opposition-1928` → `POL-ural-siberian-method` | `opposes` | 有效时段: `1928.10–1929`): 反对借村社舆论包装刑法第61/107条实施强制下乡征粮与剥夺
-- **时效关系边** (`POL-ural-siberian-method` → `ORG-right-opposition-1928` | `opposed-by` | 有效时段: `1928–1929`): 布哈林集团视其为破坏新经济政策信任与工农联盟的非常措施变体
-- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 1928–1929年以布哈林、李可夫、托姆斯基为核心的联共（布）党内温和派联盟，并非严密地下派系，而是依托政府、工会与莫斯科市委抵制非常征粮常态化、“贡赋论”与超工业化冒进；受制于反派别党纪，各阵地逐一遭书记处拔除，1929年11月战败认错。
-
-### 邻居节点: `PER-stalin`
-- **时效关系边** (`POL-ural-siberian-method` → `PER-stalin` | `architect-and-promoter` | 有效时段: `1928–1929`): 宣称“自下而上压力”原则，同时承认当局额外施压
-- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 布尔什维克高加索地下组织者、民族事务人民委员（1917–1923）及中央总书记（1922起）。依托书记处任命权与安全危机叙事，先联季-加压制托洛茨基，再联布哈林击溃联合反对派；1927–1929年以战备恐慌与“自上而下革命”击败布哈林集团，1929年12月拍板“把富农作为阶级消灭”并终结新经济政策。
-
-### 邻居节点: `POL-nep`
-- **时效关系边** (`POL-ural-siberian-method` → `POL-nep` | `undermines` | 有效时段: `1928–1929`): 市场激励与自愿售粮机制被行政强制与刑事制裁侵蚀
-- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 1921年春在农村起义、城市工潮与喀琅施塔得危机倒逼下逐步确立、取代战时共产主义的混合经济体制。以固定实物税（后改货币税）取代余粮收集制，渐次放开城乡市场与小私营商业（耐普曼），由国家掌控大工业、银行、运输与外贸“制高点”；1928–1929年在收购危机与政治转向中逐步瓦解。
-
-### 邻居节点: `PER-molotov`
-- **时效关系边** (`POL-ural-siberian-method` → `PER-molotov` | `executed-on-ground` | 有效时段: `1928–1929`): 作为斯大林派地方督战与组织清洗的执行枢纽（旁证详见粮食危机事件卡）
-- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 布尔什维克核心党务官僚与斯大林头号副手（1890–1986，本卡至1929年）。1917二月在《真理报》与俄国局持反临时政府强硬立场；1921任中央责任书记，后长期作为书记处大总管协同斯大林操盘；1928年11月至1929年4月接掌莫斯科委员会（MK），并代表斯大林阵营加强对共产国际领导工作的控制，推动集体化加速。
-
-## 3. 关联史学争鸣光谱 (Historiographical Debates)
+## 3. 关联史学争鸣与学者论断索引 (主卡外关联争鸣 2 项)
 ### `DEB-1928-bukharin-alternative`：布哈林替代方案与新经济政策终结之争
 ## [T1] 核心问题定义
 1927至1929年粮食危机与新经济政策的瓦解，是否意味着渐进工业化和工农联盟已无可行出路，还是党内权力与政策选择扼杀了布哈林的替代方案？投资、价格、农民供粮和政治动员之间的约束究竟有多强，必须把经济可行性、政治可行性与实际权力斗争分别检验。
@@ -86,5 +64,27 @@
 | 后苏联档案重估 | Viktor Zemskov（维克托·泽姆斯科夫），《斯大林时代》（2018，B级）；Valentin Sakharov（瓦连京·萨哈罗夫），《站在十字路口》（2012） | 泽姆斯科夫指出布哈林渐进合作化在内战记忆塑造的党员群体中缺乏政治亲和力；萨哈罗夫从反布哈林修正派立场论证2,400万碎片化小农难以支撑工业国防，MTS 与集体化是避免“斯托雷平第二版”的战略决断。 | `CLM-zemskov-2018-archival-constraints-and-party-radicalism`（B级）；`CLM-sakharov-2012-nep-crossroads-1928` | 泽氏未提供党员心态系统统计且沿用中译稿（B级）；萨哈罗夫的国家理性辩护淡化了强制集体化后的农业灾难与清洗恶果。 |
 
 - ⚠️ 引用了尚未创建的争鸣卡 `DEB-collectivization-and-kulak-question`
-## 4. 关联时间线锚点 (共 1 条)
-- **1928-01-15 [N.S.]** (`TL-W32-1928-01-15-01`, L3): **斯大林自莫斯科秘密启程赴西伯利亚督粮（公开报刊秘而不宣）** — 斯大林罕见离开莫斯科乘专列东赴丰收却大面积惜售的西伯利亚（《社会主义通报》称莫洛托夫随行）。三周巡视期间苏联公开报刊完全未予报道；此行旨在强力推行《苏俄刑法典》第107条反投机没收条款，属于“第107条非常措施/乌拉尔—西伯利亚督粮实践”，严禁按AUD-14规范倒填为1929年3月方定型的成熟“乌拉尔—西伯利亚方法”。
+
+### 3.1 关联核心论断与史学家学派坐标 (`CLM-*` → `SCH-*`, 展示前 20/20 条)
+- **`CLM-kotkin-2014-siberian-grain-turn`** [`SCH-kotkin-stephen`(斯蒂芬·科特金) | EPUB Ch. 14 (OEBPS/9780698170100_EPUB_1-24.xhtml) & Coda (OEBPS/9780698170100_EPUB_1-25.xhtml)]: 
+- **`CLM-lewin-peasants-1968-ural-siberian-method`** [`SCH-lewin-moshe`(摩西·莱文) | pp. 386-390, 395]: 
+- **`CLM-cohen-1973-notes-of-an-economist`** [`SCH-cohen-stephen`(斯蒂芬·F·科恩) | pp. 295-296, 318-320]: 
+- **`CLM-lewin-peasants-1968-grain-procurement-crisis`** [`SCH-lewin-moshe`(摩西·莱文) | pp. 221, 228-229, 242-243]: 
+- **`CLM-carr-davies-1969-grain-price-scissor-1927`** [`SCH-davies-rw`(R·W·戴维斯) | pp. 44-47 (esp. p. 46)]: 
+- **`CLM-cohen-1973-nep-viability`** [`SCH-cohen-stephen`(斯蒂芬·F·科恩) | pp. 270-276, 316-320]: 
+- **`CLM-cohen-1973-bukharin-organizational-defeat`** [`SCH-cohen-stephen`(斯蒂芬·F·科恩) | pp. 287-289, 297-301, 322-329]: 
+- **`CLM-erlich-1960-bukharin-balanced-growth`** [`SCH-erlich-alexander`(亚历山大·埃利希) | pp. 21-23 (PDF pp. 38-40)]: 
+- **`CLM-erlich-1960-preobrazhensky-dilemma`** [`SCH-erlich-alexander`(亚历山大·埃利希) | pp. 34-36, 40-41, 49-51, 170-171 (PDF pp. 51-53, 57-58, 66-68, 185-186)]: 
+- **`CLM-erlich-1960-stalin-overkill-turn`** [`SCH-erlich-alexander`(亚历山大·埃利希) | pp. 161-169, 172-177, 183-184 (PDF pp. 176-184, 187-192, 198-199)]: 
+- **`CLM-nove-1964-stalin-necessity-dilemma`** [`SCH-nove-alec`(亚历克·诺夫) | pp. 20-26, 32]: 
+- **`CLM-kotkin-2014-bukharin-dilemma`** [`SCH-kotkin-stephen`(斯蒂芬·科特金) | EPUB Coda (OEBPS/9780698170100_EPUB_1-25.xhtml) & Ch. 14 (OEBPS/9780698170100_EPUB_1-24.xhtml)]: 
+- **`CLM-fitzpatrick-1978-anti-bukharin-ideological-offensive`** [`SCH-fitzpatrick-sheila`(希拉·菲茨帕特里克) | pp. 11–14, 20–21]: 
+- **`CLM-khlevniuk-2015-defeat-of-right-opposition`** [`SCH-khlevniuk-oleg`(奥列格·赫列夫纽克) | EPUB ops/xhtml/ch03.html（His Revolution 开篇至全盘集体化的 1929 年 11 月宣布）。工作区文本无纸质页码。]: 
+- **`CLM-priestland-2007-1928-mobilization-turn-against-bukharin`** [`SCH-priestland-david`(大卫·普里斯特兰) | pp. 234–237; 291–296]: 
+- **`CLM-merridale-1990-uglanov-moscow-collapse`** [`SCH-merridale-catherine`(凯瑟琳·梅里代尔) | pp. 53-64]: 
+- **`CLM-davies-festschrift-1995-nep-statistics-and-planning-debates`** [`SCH-hunter-holland`(霍兰·亨特 · cliometrics) | pp. 18-21, 82-94, 218-226]: 
+- **`CLM-bukharin-preobrazhensky-equilibrium-vs-accumulation-zh`** [`SCH-liu-wei-ping-xinqiao`(刘伟与平新乔 · chinese-political-economy) | 原刊 pp. 92–99 (PDF pp. 1–8；英文提要 pp. 127–128 / PDF pp. 9–10)]: 
+- **`CLM-zemskov-2018-archival-constraints-and-party-radicalism`** [`SCH-zemskov-viktor`(维克托·尼古拉耶维奇·泽姆斯科夫) | 馆藏中文PDF pp. 2–4, 7–10；非俄文原版纸页]: 
+- **`CLM-sakharov-2012-nep-crossroads-1928`** [`SCH-sakharov-valentin`(瓦连京·萨哈罗夫) | EPUB Ch. 4.2 & Ch. 4.3]: 
+
+## 4. 关联时间线骨干锚点 (L0–L2 展示 0 条，另有 1 条 L3 逐日细节见 `timeline/L3_daily/`)

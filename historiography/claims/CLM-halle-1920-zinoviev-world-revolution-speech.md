@@ -1,7 +1,7 @@
 ---
 id: CLM-halle-1920-zinoviev-world-revolution-speech
 type: claim
-scholar: PER-zinoviev
+scholar: SCH-zinoviev-grigorii
 work_title: "World revolution and the Third International (speech at the USPD Halle Congress, 14 October 1920), in Ben Lewis and Lars T. Lih (eds.), Martov and Zinoviev: Head to Head in Halle"
 publication_year: 1920
 source_tier: S

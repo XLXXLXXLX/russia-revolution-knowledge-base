@@ -8,7 +8,7 @@ source_tier: A
 local_source_path: "sources/monographs/walicki_1969_controversy/ch00_pages_1-30.md#L113-L854"
 original_pages: "pp. 1-9, 23-28 [PDF pp. 13-21, 35-40]"
 targets_cards: ["CON-narodnichestvo", "ORG-narodnaya-volya", "PER-lenin"]
-debate: DEB-narodnichestvo-concept
+debate: DEB-1879-narodnaya-volya-to-bolshevism
 supports: []
 rebuts: []
 qualifies: []

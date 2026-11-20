@@ -7,8 +7,8 @@ publication_year: 2018
 source_tier: A
 local_source_path: "sources/monographs/hasegawa_february_1917/ch02_preface.md#L110-L156"
 original_pages: "pp. xiii–xiv (PDF pp. 14–15); pp. 366–368, 377–378 (PDF pp. 387–389, 398–399); p. 652 (PDF p. 673)"
-targets_cards: ["ORG-duma-committee", "PER-rodzianko", "PER-miliukov", "EVT-1917-february-revolution"]
-debate: DEB-1917-february-liberal-role-and-dual-power
+targets_cards: ["INS-state-duma-1906-1917", "PER-rodzianko", "PER-milyukov", "EVT-1917-02-february-revolution"]
+debate: DEB-1917-dual-power-and-february-origins
 supports: []
 rebuts: []
 qualifies: []

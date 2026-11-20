@@ -1,0 +1,107 @@
+{
+  "suite_id": "B2_context_budget_and_skew",
+  "version": "1.0.0",
+  "created_at": "2026-11-19",
+  "last_reviewed": "2026-11-19",
+  "author": "main-agent:gemini-4-carbon",
+  "description": "多卡防偏斜上下文编译预算与边缘行动者零丢失基准：同时检验 Token/字符膨胀控制（去重与折叠）与全量一跳邻域/CLM出处/SCH学派不丢失。",
+  "thresholds": {
+    "bundle_budget_pass_rate_min": 0.9,
+    "one_hop_neighbor_recall_min": 1.0,
+    "peripheral_canary_recall_min": 1.0,
+    "t1_cap_compliance_rate_min": 1.0,
+    "t1_max_non_ws_chars": 150
+  },
+  "bundles": [
+    {
+      "id": "B2-01",
+      "split": "dev",
+      "title": "新经济政策终结与1928-1929党内右翼博弈",
+      "card_ids": ["PER-stalin", "PER-bukharin", "POL-nep"],
+      "max_compiled_chars": 65000,
+      "must_retain_neighbors": ["PER-uglanov", "PER-rykov", "PER-tomsky", "PER-sokolnikov", "PER-chayanov", "PER-preobrazhensky"],
+      "must_retain_debates": ["DEB-1928-bukharin-alternative"]
+    },
+    {
+      "id": "B2-02",
+      "split": "dev",
+      "title": "1903俄国社民工党二大分裂与先锋队组织论争",
+      "card_ids": ["PER-lenin", "PER-martov-l", "MTG-1903-rsdlp-2nd-congress", "CON-democratic-centralism-and-vanguard"],
+      "max_compiled_chars": 75000,
+      "must_retain_neighbors": ["PER-plekhanov", "PER-axelrod", "PER-trotsky", "PER-zasulich"],
+      "must_retain_debates": ["DEB-1903-bolshevik-menshevik-split"]
+    },
+    {
+      "id": "B2-03",
+      "split": "dev",
+      "title": "从1905苏维埃到1917二月双重政权",
+      "card_ids": ["EVT-1905-revolution", "EVT-1917-02-february-revolution", "CON-soviet", "CON-dual-power"],
+      "max_compiled_chars": 75000,
+      "must_retain_neighbors": ["PER-kerensky", "PER-tsereteli", "ORG-petrograd-soviet", "PER-milyukov", "PER-gapon"],
+      "must_retain_debates": ["DEB-1917-dual-power-and-february-origins"]
+    },
+    {
+      "id": "B2-04",
+      "split": "dev",
+      "title": "斯托雷平土地改革与帝国晚期宪政危机",
+      "card_ids": ["PER-stolypin", "POL-stolypin-agrarian-reform", "INS-state-duma-1906-1917"],
+      "max_compiled_chars": 60000,
+      "must_retain_neighbors": ["PER-nicholas-ii", "PER-guchkov", "PER-milyukov", "CON-peasant-commune-obshchina"],
+      "must_retain_debates": ["DEB-1906-stolypin-wager-and-agrarian-viability"]
+    },
+    {
+      "id": "B2-05",
+      "split": "dev",
+      "title": "工厂委员会、工人监督与战时共产主义演进",
+      "card_ids": ["CON-workers-control", "POL-war-communism", "INS-vsnkh-and-gosplan"],
+      "max_compiled_chars": 60000,
+      "must_retain_neighbors": ["PER-shlyapnikov", "ORG-factory-committees-1917", "ORG-left-communists-1918", "PER-kuibyshev", "PER-kondratiev"],
+      "must_retain_debates": []
+    },
+    {
+      "id": "B2-06",
+      "split": "dev",
+      "title": "1921危机：坦波夫、喀琅施塔得与俄共十大",
+      "card_ids": ["EVT-1921-kronstadt", "EVT-1920-1921-tambov-and-peasant-revolts", "MTG-1921-rcpb-10th-congress", "ORG-workers-opposition"],
+      "max_compiled_chars": 70000,
+      "must_retain_neighbors": ["PER-antonov", "PER-tukhachevsky", "PER-shlyapnikov", "PER-kollontai"],
+      "must_retain_debates": ["DEB-1921-kronstadt-and-nep-origins"]
+    },
+    {
+      "id": "B2-07",
+      "split": "dev",
+      "title": "单超大型枢纽人物卡极限压缩测试（列宁）",
+      "card_ids": ["PER-lenin"],
+      "max_compiled_chars": 55000,
+      "must_retain_neighbors": ["PER-krupskaya", "PER-bogdanov", "PER-figner", "PER-kollontai"],
+      "must_retain_debates": ["DEB-1903-bolshevik-menshevik-split"]
+    },
+    {
+      "id": "B2-08",
+      "split": "holdout",
+      "title": "党国核心机器：政治局-组织局-书记处与工农检查院",
+      "card_ids": ["INS-politburo-orgburo-secretariat", "INS-rabkrin-and-ccc", "PER-kuibyshev", "PER-kaganovich"],
+      "max_compiled_chars": 65000,
+      "must_retain_neighbors": ["PER-stalin", "PER-molotov", "PER-ordzhonikidze", "PER-krupskaya"],
+      "must_retain_debates": []
+    },
+    {
+      "id": "B2-09",
+      "split": "holdout",
+      "title": "剪刀差危机、切尔文币制改革与1928粮食收购危机",
+      "card_ids": ["EVT-1923-scissors-crisis", "POL-sokolnikov-chervonets-monetary-reform", "EVT-1928-grain-procurement-crisis"],
+      "max_compiled_chars": 60000,
+      "must_retain_neighbors": ["PER-sokolnikov", "PER-kondratiev", "PER-preobrazhensky", "PER-mikoyan"],
+      "must_retain_debates": []
+    },
+    {
+      "id": "B2-10",
+      "split": "holdout",
+      "title": "民粹主义、民意党与早期俄国马克思主义转向",
+      "card_ids": ["CON-narodnichestvo", "ORG-narodnaya-volya", "PER-plekhanov"],
+      "max_compiled_chars": 55000,
+      "must_retain_neighbors": ["PER-chernyshevsky", "PER-lavrov", "PER-zasulich", "PER-figner"],
+      "must_retain_debates": ["DEB-1879-narodnaya-volya-to-bolshevism"]
+    }
+  ]
+}

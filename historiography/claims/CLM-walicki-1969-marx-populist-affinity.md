@@ -8,7 +8,7 @@ source_tier: A
 local_source_path: "sources/monographs/walicki_1969_controversy/ch06_pages_181-210.md#L440-L1087"
 original_pages: "pp. 132-133, 179-194 [PDF pp. 144-145, 191-206]"
 targets_cards: ["CON-narodnichestvo", "ORG-narodnaya-volya", "PER-plekhanov", "PER-lenin"]
-debate: DEB-marx-russia-commune
+debate: DEB-1879-narodnaya-volya-to-bolshevism
 supports: []
 rebuts: []
 qualifies: []

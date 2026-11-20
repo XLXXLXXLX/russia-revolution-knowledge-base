@@ -1,18 +1,13 @@
-# 1-Hop 平衡上下文包：`INS-rabkrin-and-ccc` (中央监察委员会与工农检查人民委员部（联合工作体制）)
+# 1-Hop 去重平衡上下文包：`INS-rabkrin-and-ccc`
 
-> 本文件由 `python scripts/kb.py pack` 自动编译，旨在将失控的 `1+N` 随机读取压缩为**等权重、带时效边实质与史学盲区告警**的单次全景读取。
+> 由 `python scripts/kb.py pack` 动态编译：保留 **100% 一跳邻居与多时段关系边**，跨卡自动去重争鸣与时间线，并关联学者学派 (`SCH-*`)。
 
-## 0. 认知完备度与反偏斜仪表盘 (Epistemic & Skew Warnings)
-- **主卡路径**: `cards/institutions/INS-rabkrin-and-ccc.md`
-- **完备度等级**: `multi-perspective`
-- **已覆盖视角**: `lenin-institutional-reform, archival-party-history, discipline-and-opposition, carr-party-state-fusion, lewin-bureaucratization, khlevniuk-apparatus-archival, daniels-party-control-organs`
-- **待补齐视角**: `regional-inspection-case-files, rabkrin-staff-statistics`
-- **偏斜风险提示**:
-  - ⚠️ 主卡显式声明尚缺以下视角待补: `regional-inspection-case-files, rabkrin-staff-statistics`。
+## 0. 认知完备度与反偏斜仪表盘
+- **`INS-rabkrin-and-ccc`** (中央监察委员会与工农检查人民委员部（联合工作体制） | `cards/institutions/INS-rabkrin-and-ccc.md` | `multi-perspective`): 已覆盖=`lenin-institutional-reform, archival-party-history, discipline-and-opposition, carr-party-state-fusion, lewin-bureaucratization, khlevniuk-apparatus-archival, daniels-party-control-organs`；待补=`regional-inspection-case-files, rabkrin-staff-statistics`
 
 ## 1. 主卡核心层 ([T1] + [T2])
 ## [T1] 60秒定性微摘要
-工农检查人民委员部（RKI）是国家监察机关，中央监察委员会（中监委）是党的纪律与监督机关。1923年二者经改组实行共同领导与联合办公，**仍是两个机构，并未法律合并为一个机构**（“合并”是列宁1923年1月的设想，也是 Carr、Lewin 的叙述用语；法律与实践层面的合署须分开标注）。列宁希望借此改善官僚机器并支持中央团结；随后联合工作机构在党内斗争中也参与审查与纪律处分，形成监督者受制于党内权力关系的悖论。
+工农检查人民委员部是国家监察机关，中监委是党的纪律监督机关。1923年改组后共同领导、联合办公，仍为两个机构，未在法律上合并；列宁的合并设想及Carr、Lewin的叙述用语须与此区分。改革旨在改善官僚机器、维护中央团结，联合机构随后参与党内审查处分，监督亦受权力关系制约。
 
 ## [T2] 核心脉络、时效关系边表与史学争鸣光谱
 
@@ -47,49 +42,19 @@
 
 列宁改革的实际设计与后来实现之间存在差距，不应以结果替代动机。
 
-## 2. 一跳邻域等权重微摘要 (共 10 个关联节点，严防大卡霸占上下文)
-### 邻居节点: `PER-lenin`
-- **时效关系边** (`INS-rabkrin-and-ccc` → `PER-lenin` | `proposed_reorganization` | 有效时段: `1923.01–1923.03`): 主张精简检查机构，加强党内监察与国家检查联动
-- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 布尔什维克党缔造者、苏俄人民委员会主席（1917–1924）。1893年投身马克思主义运动，1903年促成布尔什维克分化；1917年发表《四月提纲》并领导十月夺权，历经布列斯特和约、内战与战时共产主义；1921年主持转向新经济政策，晚年（1922–1923）就官僚化与接班人同斯大林冲突。
+## 2. 一跳邻域全量微摘要目录 (去重后共 10 个节点，0 截断)
+- **`PER-lenin`**（弗拉基米尔·列宁）: 布尔什维克党缔造者、苏俄人民委员会主席（1917–1924）。1893年投身马克思主义运动，1903年促成布尔什维克分化；1917年发表《四月提纲》并领导十月夺权，历经布列斯特和约、内战与战时共产主义；1921年主持转向新经济政策，晚年（1922–1923）就官僚化与接班人同斯大林冲突。 ‖ `←INS-rabkrin-and-ccc`[proposed_reorganization|1923.01–1923.03]: 主张精简检查机构、中央新增 75–100 人并将中监委与改组后 RKI 主体结合（设想合…
+- **`PER-stalin`**（约瑟夫·斯大林）: 布尔什维克高加索地下组织者、民族事务人民委员（1917–1923）及中央总书记（1922起）。依托书记处任命权与安全危机叙事，先联季-加压制托洛茨基，再联布哈林击溃联合反对派；1927–1929年以战备恐慌与“自上而下革命”击败布哈林集团，1929年12月拍板“把富农作为阶级消灭”并终结新经济政策。 ‖ `←INS-rabkrin-and-ccc`[first_rki_commissar|1920–1922]: RKI 首任人民委员（自国家监察人民委员部延续）；此时尚非1923年联合工作体制
+- **`PER-kuibyshev`**（瓦列里安·古比雪夫）: 苏联工业化关键操盘手（1888–1935）。1918年曾在萨马拉追随左派共产主义者并任东线政委；1922年任中央书记，1923–1926年兼掌中监委与工农检查院，将列宁监督构想转为打击反对派工具；1926年接掌最高国民经济委员会，力推重工业高指标并坚定支持斯大林。 ‖ `←INS-rabkrin-and-ccc`[held_distinct_dual_offices|1923.04–1926.08]: 分别担任中监委主席与苏联工农检查人民委员；1926年转任 VSNKh，交接期未覆盖 ； `→INS-rabkrin-and-ccc`[held_dual_leadership_of|1923-04–1926-08]: 十二大后兼任党中监委主席与苏联RKI人民委员（合署办公而非合并），将监督权转向反反对派党纪执法
+- **`PER-ordzhonikidze`**（格里戈里·“谢尔戈”·奥尔忠尼启则）: 外高加索布尔什维克领导人，1912年任中委，1922年格鲁吉亚事件中殴打党员引列宁震怒。1926年11月兼任中监委主席与工农检查人民委员，两机构联合办公而非合并，主持处分托季派；1928–1929年农业政策倾向斯大林，仍求集体领导调和，密会传单曝光后转而追责右派。 ‖ `←INS-rabkrin-and-ccc`[held_distinct_dual_offices|1926.11.03–1930.11（本卡截至1929）]: 两种职务兼任，参与反对派纪律审查
+- **`ORG-left-and-united-opposition`**（1923–1927年左翼反对派与托季联合反对派）: 1923年剪刀差危机触发的托洛茨基—普列奥布拉任斯基“左翼反对派”，经1926年春与季诺维也夫—加米涅夫“新反对派”结盟为托季联合反对派；以《四十六人声明》与《1927年政纲》批判官僚体制与“一国社会主义”、主张价格—财政渠道的计划工业化，于1927年12月十五大被组织摧毁。 ‖ `←INS-rabkrin-and-ccc`[investigated_and_disciplined|1926–1927]: 中监委参与党纪调查，重大处分由相关党机关决定
+- **`INS-politburo-orgburo-secretariat`**（联共（布）中央政治局—组织局—书记处与官职等级名册制）: 1919年3月俄共八大后常设政治局、组织局与书记处，分掌政治决策、组织行政及日常党务人事。1922年4月斯大林任总书记后逐步控制议程、秘密文件分发与干部名册调配。经1924年七人小组协调、1925—1929年联盟重组与纪律整肃，托洛茨基、季诺维也夫、布哈林先后退出决策核心。 ‖ `←INS-rabkrin-and-ccc`[oversight_and_power_context|1923–1929]: 制度上可监督党政领导，实际独立性受中央权力及纪律规范制约
+- **`MTG-1921-rcpb-10th-congress`**（俄国共产党（布尔什维克）第十次代表大会）: 1921年3月8日至16日，俄共（布）十大在经济崩溃与喀琅施塔得起义交织下召开。大会决定以粮食税取代余粮收集制，开启新经济政策转向；同时终结工会大辩论，通过《关于党的统一》禁止派别活动并谴责工人反对派。经济退却与党内纪律收紧并行，会后中央与书记处改组重塑了组织权力格局。 ‖ `←INS-rabkrin-and-ccc`[institutionalized_party_control_functions|1921.03]: 党内监察与纪律职能进一步制度化的节点（条文待核）
+- **`MTG-1922-03-11th-party-congress`**（俄国共产党（布尔什维克）第十一次代表大会（1922年））: 1922-03-27至04-02[N.S.]，俄共十一大在莫斯科召开，为列宁最后出席的党代会。他宣布NEP退却结束，强调管理、文化与官僚主义；大会警告工人反对派。04-03新中央全会设总书记并选出斯大林，04-04《真理报》公布；任命、公布均须与大会决定区分。 ‖ `←INS-rabkrin-and-ccc`[context|1922.03–04]: 站内札记记十一大中监委与格别乌协作；斯大林同期兼掌 RKI 至1922年 ； `→INS-rabkrin-and-ccc`[parallel_control_organ|1922年]: 中监委与工农检查院同期运作，斯大林同期仍兼掌工农检查院。
+- **`MTG-1923-04-12th-party-congress`**（俄国共产党（布尔什维克）第十二次代表大会）: 1923年4月17—25日莫斯科举行。列宁第三次中风后首次缺席党代会，代表团分组秘密传达其民族问题笔记；托洛茨基以“剪刀差”图主张计划化工业化；民族问题特别会议迫使斯大林退让并确立本土化妥协决议，但会后人事布局仍背离列宁清算官僚沙文主义的初衷。 ‖ `←INS-rabkrin-and-ccc`[implemented_reorganization|1923.04]: 扩大中央委员会与中监委，建立 CCC–RKI 共同领导
+- **`CON-thermidor-and-bureaucracy`**（苏维埃热月与官僚主义蜕变）: 借法国大革命雅各宾衰亡隐喻诊断苏维埃政权变质的核心概念。1921–1923年列宁晚年痛斥国家机关实质承袭沙皇旧机器、仅涂苏维埃油漆；路标转换派乌斯特里亚洛夫从右翼欢呼NEP为民族布尔什维克“热月”；1923–1927年左翼与联合反对派则以“党国官僚中间派与热月危险”批判斯大林—布哈林体制。 ‖ `←INS-rabkrin-and-ccc`[diagnosed_in|1923–1929]: 官僚化诊断背景：监察机关能否抑制官僚化
 
-### 邻居节点: `PER-stalin`
-- **时效关系边** (`INS-rabkrin-and-ccc` → `PER-stalin` | `first_rki_commissar` | 有效时段: `1920–1922`): 主持苏俄工农检查部；此时尚非1923年联合工作体制
-- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 布尔什维克高加索地下组织者、民族事务人民委员（1917–1923）及中央总书记（1922起）。依托书记处任命权与安全危机叙事，先联季-加压制托洛茨基，再联布哈林击溃联合反对派；1927–1929年以战备恐慌与“自上而下革命”击败布哈林集团，1929年12月拍板“把富农作为阶级消灭”并终结新经济政策。
-
-### 邻居节点: `PER-kuibyshev`
-- **时效关系边** (`INS-rabkrin-and-ccc` → `PER-kuibyshev` | `held_distinct_dual_offices` | 有效时段: `1923–1926`): 分别担任中监委主席与苏联工农检查人民委员
-- **节点定性微摘要 [T1]** (完备度 `draft`): 经济学出身的老布尔什维克：1923–1926执掌中央监察委员会—工农检查院（CCC–RKI）纠察全党；1926年8月接替捷尔任斯基任最高国民经济委员会（VSNKh）主席（至1930年11月），1927年12月进入政治局，1930年11月起转任国家计划委员会（Gosplan）主席，主导一五计划时期重工业高指标冲刺与技术官僚动员，1928–1929站斯大林多数派，是“大转变”经济机器的关键执行帅。
-
-### 邻居节点: `PER-ordzhonikidze`
-- **时效关系边** (`INS-rabkrin-and-ccc` → `PER-ordzhonikidze` | `held_distinct_dual_offices` | 有效时段: `1926–1929`): 两种职务兼任，参与反对派纪律审查
-- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 外高加索布尔什维克强人与党纪监督重臣（1886–1937，本卡至1929年）。1912任中央委员；1922主政外高加索因“格鲁吉亚事件”殴打党员触发列宁震怒；1926年11月起任中监委主席兼苏联工农检查人民委员（两机构联合办公而非合并），主持开除托季派；1928–1929年一面在农业政策上倾向斯大林、一面维持集体领导调和，密会传单曝光后转而主持对右派的纪律追责。
-
-### 邻居节点: `ORG-left-and-united-opposition`
-- **时效关系边** (`INS-rabkrin-and-ccc` → `ORG-left-and-united-opposition` | `investigated_and_disciplined` | 有效时段: `1926–1927`): 中监委参与党纪调查，重大处分由相关党机关决定
-- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 1923年剪刀差危机触发的托洛茨基—普列奥布拉任斯基“左翼反对派”，经1926年春与季诺维也夫—加米涅夫“新反对派”结盟为托季联合反对派；以《四十六人声明》与《1927年政纲》批判官僚体制与“一国社会主义”、主张价格—财政渠道的计划工业化，于1927年12月十五大被组织摧毁。
-
-### 邻居节点: `INS-politburo-orgburo-secretariat`
-- **时效关系边** (`INS-rabkrin-and-ccc` → `INS-politburo-orgburo-secretariat` | `oversight_and_power_context` | 有效时段: `1923–1929`): 制度上可监督党政领导，实际独立性受中央权力及纪律规范制约
-- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 1919年3月俄共八大在斯维尔德洛夫逝世后常设分置政治局（政治决策）、组织局（组织行政）与书记处（日常党务与人事）。1922年4月斯大林出任总书记后，逐步掌握政治局议程截稿、秘密文件分发与干部等级名册（Номенклатура）调配杠杆；历经1924年“七人小组”协调与1925—1929年多轮联盟重组及纪律整肃，托洛茨基、季诺维也夫与布哈林等先后被逐出中央决策核心。
-
-### 邻居节点: `MTG-1921-rcpb-10th-congress`
-- **时效关系边** (`INS-rabkrin-and-ccc` → `MTG-1921-rcpb-10th-congress` | `institutionalized_party_control_functions` | 有效时段: `1921.03`): 党内监察与纪律职能进一步制度化的节点（条文待核）
-- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 1921年3月8日至16日，俄共（布）十大在经济崩溃与喀琅施塔得起义交织下召开。大会决定以粮食税取代余粮收集制，开启新经济政策转向；同时终结工会大辩论，通过《关于党的统一》禁止派别活动并谴责工人反对派。经济退却与党内纪律收紧并行，会后中央与书记处改组重塑了组织权力格局。
-
-### 邻居节点: `MTG-1922-03-11th-party-congress`
-- **时效关系边** (`INS-rabkrin-and-ccc` → `MTG-1922-03-11th-party-congress` | `context` | 有效时段: `1922.03–04`): 站内札记记十一大中监委与格别乌协作；斯大林同期兼掌 RKI 至1922年
-- **时效关系边** (`MTG-1922-03-11th-party-congress` → `INS-rabkrin-and-ccc` | `parallel_control_organ` | 有效时段: `1922年`): 中监委与工农检查院同期运作，斯大林同期仍兼掌工农检查院。
-- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 1922-03-27 至 1922-04-02 [N.S.]，俄共（布）十一大在莫斯科召开，是列宁生前出席的最后一次党代会。列宁宣布新经济政策的退却结束，强调经济管理、文化能力和官僚主义问题；大会审议工人反对派申诉并予以警告。闭幕次日，**1922-04-03 [N.S.]** 新中央全会设总书记并选出斯大林（任命日）；《真理报》于 **04-04** 低调公布（公布日），二者须与大会本身的决定区分。
-
-### 邻居节点: `MTG-1923-04-12th-party-congress`
-- **时效关系边** (`INS-rabkrin-and-ccc` → `MTG-1923-04-12th-party-congress` | `implemented_reorganization` | 有效时段: `1923.04`): 扩大中央委员会与中监委，建立 CCC–RKI 共同领导
-- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 1923年4月17—25日莫斯科举行。列宁第三次中风后首次缺席党代会，代表团分组秘密传达其民族问题笔记；托洛茨基以“剪刀差”图主张计划化工业化；民族问题特别会议迫使斯大林退让并确立本土化妥协决议，但会后人事布局仍背离列宁清算官僚沙文主义的初衷。
-
-### 邻居节点: `CON-thermidor-and-bureaucracy`
-- **时效关系边** (`INS-rabkrin-and-ccc` → `CON-thermidor-and-bureaucracy` | `diagnosed_in` | 有效时段: `1923–1929`): 官僚化诊断背景：监察机关能否抑制官僚化
-- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 借法国大革命雅各宾衰亡隐喻诊断苏维埃政权变质的核心概念。1921–1923年列宁晚年痛斥国家机关实质承袭沙皇旧机器、仅涂苏维埃油漆；路标转换派乌斯特里亚洛夫从右翼欢呼NEP为民族布尔什维克“热月”；1923–1927年左翼与联合反对派则以“党国官僚中间派与热月危险”批判斯大林—布哈林体制。
-
-## 3. 关联史学争鸣光谱 (Historiographical Debates)
+## 3. 关联史学争鸣与学者论断索引 (主卡外关联争鸣 2 项)
 ### `DEB-1922-lenin-testament-and-stalin-rise`：列宁晚年、格鲁吉亚事件与斯大林崛起机制
 ## [T1] 核心问题定义
 列宁晚年口授文稿和格鲁吉亚冲突，是反官僚与反斯大林的总体“最后斗争”，还是对共同集权框架内具体做法的修正？《遗嘱》本身是否存在文本流转疑点？斯大林的上升又如何由个人策略、书记处机关、寡头集体领导与反对派失策共同解释？
@@ -106,7 +71,7 @@
 
 ### `DEB-1923-nationality-and-empire`：布尔什维克民族政策、格鲁吉亚事件与苏维埃“肯定性行动帝国”性质之争
 ## [T1] 核心问题定义
-`1922-08` 至 `1923-04-25`（自“自治化”方案、格鲁吉亚冲突至俄共十二大民族问题特别会议闭幕）及其后1920年代本土化实践，布尔什维克是在建设多民族“肯定性行动帝国”内的制度化本土化体制，还是以先锋队组织垄断维系的大俄罗斯官僚集权？争论焦点在于解密速记揭示的制度妥协与各学派因果—价值判断之分。
+自1922年8月“自治化”方案与格鲁吉亚冲突起，至1923年4月俄共十二大闭幕，布尔什维克究竟是在建设“肯定性行动帝国”式的制度化本土化实践，还是以先锋队组织垄断维系大俄罗斯官僚集权？争论焦点是解密速记所示的制度妥协，以及各学派因果判断与价值判断之别。
 
 ## [T2] 各学派立场对照矩阵
 | 学派/取向 | 代表学者与著作 | 核心论点摘要 | 支撑论断卡 | 主要受批评盲点 |
@@ -118,6 +83,25 @@
 | 乌克兰社会史与本土化悖论 | George Liber, *Soviet Nationality Policy, Urban Growth, and Identity Change in the Ukrainian SSR 1923–1934* (1992) | 本土化整合城乡乌克兰人、扩张乌克兰语公共领域的同时，制度化语言边界并孕育中央难以完全消化的地方民族诉求。 | `CLM-liber-1992-korenizatsiia-paradox-late-1920s`; `CLM-liber-1992-ukrainianization-and-urban-working-class` | 侧重乌克兰工业城市化案例，外高加索与中亚须分区域检验。 |
 | “肯定性行动帝国”概念框架 | Terry Martin, *The Affirmative Action Empire* (2001) 等 | 1920年代苏联对非俄罗斯民族实施制度化优待（干部、语言、教育与领土配额），以党国政治垄断为前提整合多民族边缘——动员成效与潜在离心张力并存。 | （Martin 专著独立论断卡尚待 `close-reader` 入库；现阶段参看 `POL-korenizatsiia` 与 `CLM-smith-jeremy-1999-twelfth-congress-korenizatsiia`） | 概念易被字面混同于当代西方多元主义平权政策，须严守一党专政前提。 |
 
-## 4. 关联时间线锚点 (共 2 条)
-- **1924-01-01 [N.S.]** (`TL-W36-1924-01-01`, L3): **“列宁号召”突击吸纳逾20万工人入党及中监委封杀遗嘱流传** — 1924-01-30中监委率先严禁私下流传列宁《给代表大会的信》副本；2至5月间领导层发起“列宁号召”（Ленинский призыв），免除常规审查突击吸纳20万至24万在职车间工人入党（党员增逾40%），并破格允许预备党员参与十三大代表选举，彻底稀释老党员生态并壮大书记处票仓。
-- **1925-01-17 [N.S.]** (`TL-W36-1925-01-17-01`, L3): **中央—中监委联席全会解除托洛茨基陆海军人民委员兼革军委主席职务** — 继托洛茨基1925-01-15致信请求卸去军委主席且拒不认错后，01-17中央与中监委联席全会正式解除其陆海军人民委员兼苏联革军委主席职务（伏龙芝继任，其10月去世后由伏罗希洛夫接掌），同时由斯大林联手多数派否决季加开除其出政治局提案并宣告“文学讨论”闭幕；“三驾马车”旋因共同敌人倒台走向1925年分裂。
+
+### 3.1 关联核心论断与史学家学派坐标 (`CLM-*` → `SCH-*`, 展示前 18/18 条)
+- **`CLM-khlevniuk-2015-secretariat-and-nomenklatura`** [`SCH-khlevniuk-oleg`(奥列格·赫列夫纽克) | EPUB ops/xhtml/ch02.html（In Lenin's Shadow，GENERAL SECRETARY 至 1923 年 9 月组织局安排）；制度总论见 ops/xhtml/ch01a.html。工作区文本无纸质页码。]: 
+- **`CLM-carr-1950-politburo-orgburo-displacement-of-state-organs`** [`SCH-carr-eh`(爱德华·霍列特·卡尔) | [PDF pp. 96, 100-105, 109-114]]: 
+- **`CLM-lewin-1968-testament-intent`** [`SCH-lewin-moshe`(摩西·莱文) | n/a（EPUB 无页码锚点）；Ch.10 'If Lenin Had Lived . . .'；列宁原文脚注见 Soch. XLV p. 392；XLIV p. 428]: 
+- **`CLM-lewin-1968-georgian-affair-bureaucracy`** [`SCH-lewin-moshe`(摩西·莱文) | n/a（EPUB 无页码锚点）；Ch.9、Ch.10 与 Appendixes I–III, VII–VIII]: 
+- **`CLM-lewin-1968-cooperation-shift`** [`SCH-lewin-moshe`(摩西·莱文) | n/a（EPUB 无页码锚点）；Ch.8 'Russia between West and East'；列宁原文脚注 Soch. XLV pp. 367, 370, 373, 387–88, 389]: 
+- **`CLM-smith-jeremy-1999-georgian-affair-reassessed`** [`SCH-smith-jeremy`(杰里米·史密斯) | pp. 252-253, 260-262, 266-268, 285-288, 296-297]: 
+- **`CLM-smith-jeremy-1999-twelfth-congress-korenizatsiia`** [`SCH-smith-jeremy`(杰里米·史密斯) | pp. 311, 321-325, 327-331]: 
+- **`CLM-khlevniuk-2015-collective-leadership-erosion`** [`SCH-khlevniuk-oleg`(奥列格·赫列夫纽克) | EPUB ops/xhtml/ch02.html（TRYING OUT COLLECTIVE LEADERSHIP 至 THE CHOICE）。工作区文本无纸质页码。]: 
+- **`CLM-kotkin-2014-geopolitics-and-ideology`** [`SCH-kotkin-stephen`(斯蒂芬·科特金) | EPUB Ch. 13 (OEBPS/9780698170100_EPUB_1-23.xhtml) & Coda (OEBPS/9780698170100_EPUB_1-25.xhtml)]: 
+- **`CLM-deutscher-1959-disarmed-prophet-paradox`** [`SCH-isaac-deutscher`(艾萨克·多伊彻) | （中译本无独立纸页；对应第二部 1923 年争论章）]: 
+- **`CLM-service-2009-trotsky-authoritarian-consensus`** [`SCH-service-robert`(罗伯特·瑟维斯) | 中译 EPUB 无纸页码；对应英文本第 23–24、28–29、37 章及引言]: 
+- **`CLM-service-2009-trotsky-political-tactical-blunders`** [`SCH-service-robert`(罗伯特·瑟维斯) | 中译 EPUB 无纸页码；对应英文本引言及第 31–32、37–38 章]: 
+- **`CLM-sakharov-2012-lenin-cooperative-plan-debates`** [`SCH-sakharov-valentin`(瓦连京·萨哈罗夫) | EPUB Ch. 1.3 & Ch. 4.2]: 
+- **`CLM-sakharov-2012-nep-crossroads-1928`** [`SCH-sakharov-valentin`(瓦连京·萨哈罗夫) | EPUB Ch. 4.2 & Ch. 4.3]: 
+- **`CLM-carr-1950-self-determination-to-federal-reunion`** [`SCH-carr-eh`(爱德华·霍列特·卡尔) | pp. 253-285, 364-428]: 
+- **`CLM-suny-2017-empire-and-nationality-dimension`** [`SCH-suny-ronald-gregor`(罗纳德·格里戈尔·苏尼) | pp. 125-140 (approx. ch. 3 opening theory; see also Witte L322-328)]: 
+- **`CLM-liber-1992-korenizatsiia-paradox-late-1920s`** [`SCH-liber-george`(乔治·O·利伯) | pp. 155–157; 180–186]: 
+- **`CLM-liber-1992-ukrainianization-and-urban-working-class`** [`SCH-liber-george`(乔治·O·利伯) | pp. 75–76; 99–105]: 
+
+## 4. 关联时间线骨干锚点 (L0–L2 展示 0 条，另有 2 条 L3 逐日细节见 `timeline/L3_daily/`)

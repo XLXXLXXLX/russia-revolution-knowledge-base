@@ -13,6 +13,10 @@ sources/monographs/*/*.md
 sources/primary/*/*.md
 !sources/primary/*/toc.md
 
+# 本地 SQLite FTS5 章节定位索引缓存与单次基准运行临时输出
+.cache/
+benchmarks/results/
+
 # 浏览器未完成下载与系统临时文件
 *.crdownload
 *.part

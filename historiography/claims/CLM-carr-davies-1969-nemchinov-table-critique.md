@@ -1,13 +1,13 @@
 ---
 id: CLM-carr-davies-1969-nemchinov-table-critique
 type: claim
-scholar: SCH-carr-davies
+scholar: SCH-davies-rw
 work_title: "Foundations of a Planned Economy, 1926–1929, Volume 1, Part 1"
 publication_year: 1969
 source_tier: A
 local_source_path: "sources/monographs/carr_davies_1969_foundations_v1p1/ch02_pages_61-90.md#L1280-L1316"
 original_pages: "pp. 55, 72-73, 117, 244-246"
-targets_cards: ["EVT-1928-grain-crisis", "PER-stalin", "POL-collectivization"]
+targets_cards: ["EVT-1928-grain-procurement-crisis", "PER-stalin", "EVT-1929-great-turn-and-dekulakization-launch"]
 debate: DEB-1928-bukharin-alternative
 supports: []
 rebuts: []

@@ -1,13 +1,13 @@
 ---
 id: CLM-tragedy-village-1929-politburo-dekulakization-commission
 type: claim
-scholar: SCH-danilov-ivnitsky-eds
+scholar: SCH-danilov-viktor
 work_title: "Трагедия советской деревни. Коллективизация и раскулачивание. Том 2: Ноябрь 1929 — декабрь 1930（《苏联农村的悲剧》第2卷）"
 publication_year: 2000
 source_tier: S
 local_source_path: "sources/primary/tragedy_soviet_village_v2_1929_zh/ch04_1929年11月_1930年12月_part_2.md#L2515-L2760"
 original_pages: "PDF pp. 7–8, 14–15, 38–46, 73–81, 90–108"
-targets_cards: ["PER-stalin", "PER-bukharin", "POL-nep", "EVT-1928-grain-crisis"]
+targets_cards: ["PER-stalin", "PER-bukharin", "POL-nep", "EVT-1928-grain-procurement-crisis"]
 debate: DEB-1928-bukharin-alternative
 supports: []
 rebuts: []

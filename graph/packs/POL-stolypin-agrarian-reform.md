@@ -1,14 +1,9 @@
-# 1-Hop 平衡上下文包：`POL-stolypin-agrarian-reform` (斯托雷平土地改革)
+# 1-Hop 去重平衡上下文包：`POL-stolypin-agrarian-reform`
 
-> 本文件由 `python scripts/kb.py pack` 自动编译，旨在将失控的 `1+N` 随机读取压缩为**等权重、带时效边实质与史学盲区告警**的单次全景读取。
+> 由 `python scripts/kb.py pack` 动态编译：保留 **100% 一跳邻居与多时段关系边**，跨卡自动去重争鸣与时间线，并关联学者学派 (`SCH-*`)。
 
-## 0. 认知完备度与反偏斜仪表盘 (Epistemic & Skew Warnings)
-- **主卡路径**: `cards/policies/POL-stolypin-agrarian-reform.md`
-- **完备度等级**: `multi-perspective`
-- **已覆盖视角**: `agrarian-social-history, modernization, peasant-agency, soviet-leninist-evaluation, political-history`
-- **待补齐视角**: `regional-primary-statistics`
-- **偏斜风险提示**:
-  - ⚠️ 主卡显式声明尚缺以下视角待补: `regional-primary-statistics`。
+## 0. 认知完备度与反偏斜仪表盘
+- **`POL-stolypin-agrarian-reform`** (斯托雷平土地改革 | `cards/policies/POL-stolypin-agrarian-reform.md` | `multi-perspective`): 已覆盖=`agrarian-social-history, modernization, peasant-agency, soviet-leninist-evaluation, political-history`；待补=`regional-primary-statistics`
 
 ## 1. 主卡核心层 ([T1] + [T2])
 ## [T1] 60秒定性微摘要
@@ -38,35 +33,15 @@
 - **Hildermeier的农业社会主义研究**关注村社现实变化与社革党纲领的适应困境；农民对土地的诉求不能自动等同于对政党全部理论的认同。改革的政治稳定效果与农业发展效果应分别评价。
 - **与Haimson稳定论的关系**：土地改革是否构成战前稳定的社会基础，见 `DEB-1914-haimson-thesis-stability`；本卡不预设答案。
 
-## 2. 一跳邻域等权重微摘要 (共 6 个关联节点，严防大卡霸占上下文)
-### 邻居节点: `POL-decrees-on-peace-and-land-1917`
-- **时效关系边** (`POL-decrees-on-peace-and-land-1917` → `POL-stolypin-agrarian-reform` | `reversed-land-property-framework` | 有效时段: `1917–1918`): 取消土地私有与地方重新分地改变了战前改革的制度基础
-- **时效关系边** (`POL-stolypin-agrarian-reform` → `POL-decrees-on-peace-and-land-1917` | `superseded-in-land-revolution` | 有效时段: `1917–1918`): 土地法令确认取消土地私有和农民多种土地使用安排
-- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 全俄工兵代表苏维埃第二次代表大会于 `1917-10-26 [O.S.] / 1917-11-08 [N.S.]` 的会议通过和平与土地两项法令：前者提出立即公开谈判、不兼并不赔款的民主和平及停战；后者无偿废除地主土地所有制，并收入根据242份地方农民委托书编成的土地委托书。和平法令于当晚（约21时后）通过；土地法令的实际表决在 `10-26` 夜至 `10-27 [O.S.] / 11-09 [N.S.]` 凌晨（01:00后）。它们回应了士兵和农民最迫切的要求，实际和平与农村土地秩序仍须经过漫长、冲突性的落实。
+## 2. 一跳邻域全量微摘要目录 (去重后共 6 个节点，0 截断)
+- **`INS-state-duma-1906-1917`**（俄罗斯帝国国家杜马（第一至第四届））: 1905年革命使君主制接受立法性国家杜马，但1906年基本法仍保留皇帝任免政府、解散杜马与紧急立法权。头两届因土地与政治责任问题短命；1907年选举法后第三、四届趋保守。1915年进步同盟施压，1917年二月杜马临时委员会参与接管政权，须与苏维埃共析。 ‖ `→POL-stolypin-agrarian-reform`[legislative_context|1907–1911]: 第三届杜马土地改革议案
+- **`ORG-octobrists-and-progressive-bloc`**（十月十七日同盟与进步同盟）: 1905年十月宣言后形成的十月十七日同盟是拥护君主立宪的温和自由主义政党；1915年的进步同盟是跨党派杜马联盟，二者并非同一组织。两者既要求改善政府与社会关系，又忧惧群众革命；1917年部分杜马领袖成为临时政权支点，却不能独掌街头、军队与苏维埃。 ‖ `→POL-stolypin-agrarian-reform`[legislative-support|1907–1911]: 土地改革议案获第三届杜马多数
+- **`PER-stolypin`**（彼得·斯托雷平）: 帝俄内务大臣（1906–1911）暨大臣会议主席（1906.07–1911.09）。以野战法庭与1907年六三选举法平定革命余波，借土地法令允许农户脱社确权、培植私有小农；1911年3月因西部六省地方自治法案第87条危机失势，同年9月在基辅遇刺，成为晚期的改革路径争议核心。 ‖ `→POL-stolypin-agrarian-reform`[principal_architect_of|1906–1911]: 借 1906-11-09 [O.S.] 敕令与 1910-06-14 [O.S.] 法律推行允许农户脱社确权、整田并地与西伯利亚移民 ； `←POL-stolypin-agrarian-reform`[promoted-by|1906–1911]: 以法律、信贷和移民支持个体经营并维护帝制秩序
+- **`POL-decrees-on-peace-and-land-1917`**（1917年和平法令与土地法令）: 苏维埃二大1917-10-26[O.S.]/11-08[N.S.]晚约21时后通过和平法令，倡公开谈判、不兼并不赔款；土地法令于10-27[O.S.]/11-09[N.S.]凌晨1时后表决，无偿废地主所有制并收入242份农民委托书编成的纲领。回应士兵农民诉求，落实仍历冲突。 ‖ `→POL-stolypin-agrarian-reform`[reversed-land-property-framework|1917–1918]: 取消土地私有与地方重新分地改变了战前改革的制度基础 ； `←POL-stolypin-agrarian-reform`[superseded-in-land-revolution|1917–1918]: 土地法令确认取消土地私有和农民多种土地使用安排
+- **`POL-october-manifesto-and-1906-fundamental-laws`**（十月宣言、国家根本法与六三体制）: 1905年革命迫使沙皇签署《十月宣言》，承诺公民自由、杜马立法同意权。1906年《国家根本法》使代议立法制度化，同时保留皇权、上院否决与休会紧急立法；1907年未经议会同意改选举法，形成延至1917年的六三体制。它并非议会责任内阁，亦不能视为纯粹装饰。 ‖ `→POL-stolypin-agrarian-reform`[enabled-by|1906–1917]: 1906年土地敕令以第87条为程序基础，后经立法机关处理 ； `←POL-stolypin-agrarian-reform`[authorized-under|1906]: 首次敕令借第87条休会立法，后续正式法律须区分
+- **`CON-peasant-commune-obshchina`**（农村公社（米尔 / 村社））: 村社是帝俄至苏俄的乡村自治与土地重分制度。1861年改革保留连环保与重分地；民粹派视为社会主义胚胎，1881年马克思有条件认可其前景，列宁强调资本主义分化，斯托雷平立法拆解。1917–1918年土地重分使其复兴，1922年获法典承认，1929–1930年遭集体化摧毁。 ‖ `←POL-stolypin-agrarian-reform`[restructured|1906–1917]: 改革改变重分村社中的地权，1917年后村社又成为重分土地的重要机构
 
-### 邻居节点: `POL-october-manifesto-and-1906-fundamental-laws`
-- **时效关系边** (`POL-october-manifesto-and-1906-fundamental-laws` → `POL-stolypin-agrarian-reform` | `enabled-by` | 有效时段: `1906–1917`): 1906年土地敕令以第87条为程序基础，后经立法机关处理
-- **时效关系边** (`POL-stolypin-agrarian-reform` → `POL-october-manifesto-and-1906-fundamental-laws` | `authorized-under` | 有效时段: `1906`): 首次敕令借第87条休会立法，后续正式法律须区分
-- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 1905年革命迫使尼古拉二世签署维特推动的《十月宣言》，承诺公民自由和杜马立法同意权；1906年修订《国家根本法》使代议立法制度化，同时保留皇权、上院否决及休会紧急立法。1907年以未经议会同意的新选举法重组杜马，形成持续到1917年帝制崩溃的保守“六三体制”。它既不是议会责任内阁，也不能简单视为毫无影响的装饰。
-
-### 邻居节点: `PER-stolypin`
-- **时效关系边** (`POL-stolypin-agrarian-reform` → `PER-stolypin` | `promoted-by` | 有效时段: `1906–1911`): 以法律、信贷和移民支持个体经营并维护帝制秩序
-- **时效关系边** (`PER-stolypin` → `POL-stolypin-agrarian-reform` | `principal_architect_of` | 有效时段: `1906–1911`): 借 1906-11-09 [O.S.] 敕令与 1910-06-14 [O.S.] 法律推行允许农户脱社确权、整田并地与西伯利亚移民
-- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 帝俄内务大臣（1906–1911）暨大臣会议主席（1906.07–1911.09）。以野战法庭与1907年六三选举法平定革命余波，借土地法令允许农户脱社确权、培植私有小农；1911年3月因西部六省地方自治法案第87条危机失势，同年9月在基辅遇刺，成为晚期的改革路径争议核心。
-
-### 邻居节点: `CON-peasant-commune-obshchina`
-- **时效关系边** (`POL-stolypin-agrarian-reform` → `CON-peasant-commune-obshchina` | `restructured` | 有效时段: `1906–1917`): 改革改变重分村社中的地权，1917年后村社又成为重分土地的重要机构
-- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 帝俄至苏俄初期乡村核心自治与土地重分制度。1861年废奴改革保留连环保与重分地村社；民粹派奉为社会主义胚胎并获1881年晚年马克思有条件背书，列宁1899年判其资本主义分化，斯托雷平立法拆解之；1917–1918年农民“黑土重分”令其强力复兴并写入1922年《土地法典》，终在1929–1930年全盘集体化中被集体农庄彻底摧毁。
-
-### 邻居节点: `INS-state-duma-1906-1917`
-- **时效关系边** (`INS-state-duma-1906-1917` → `POL-stolypin-agrarian-reform` | `legislative_context` | 有效时段: `1907–1911`): 第三届杜马土地改革议案
-- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 1905年革命使君主制接受立法性国家杜马，但1906年基本法仍保留皇帝任免政府、解散杜马与紧急立法权。头两届因土地与政治责任问题短命；1907年选举法后第三、四届趋保守。1915年进步同盟施压，1917年二月杜马临时委员会参与接管政权，须与苏维埃共析。
-
-### 邻居节点: `ORG-octobrists-and-progressive-bloc`
-- **时效关系边** (`ORG-octobrists-and-progressive-bloc` → `POL-stolypin-agrarian-reform` | `legislative-support` | 有效时段: `1907–1911`): 土地改革议案获第三届杜马多数
-- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 1905年十月宣言后形成的十月十七日同盟是拥护君主立宪的温和自由主义政党；1915年的进步同盟是跨党派杜马联盟，二者并非同一组织。两者既要求改善政府与社会关系，又忧惧群众革命；1917年部分杜马领袖成为临时政权支点，却不能独掌街头、军队与苏维埃。
-
-## 3. 关联史学争鸣光谱 (Historiographical Debates)
+## 3. 关联史学争鸣与学者论断索引 (主卡外关联争鸣 2 项)
 ### `DEB-1914-haimson-thesis-stability`：海姆森命题：战前俄国的社会稳定与双重极化
 ## [T1] 核心问题定义
 一战前的工业增长、土地改革与杜马政治，能否使帝国逐步稳定，还是工人与有产社会、社会与专制国家的双重极化已侵蚀统治基础？1912年后罢工回升和改革受阻如何与战争冲击相互作用，须区分可观察的危机与无法验证的无战争反事实及其解释限度。
@@ -96,4 +71,22 @@
 | 农民社会史 | Shanin、Figes、Pallot、Hildermeier | 村社兼具资源分配、保障和协调功能；地方制度与土地压力影响农民选择，强制分离可能加深村内冲突。黑土核心区与边缘地区的差异须按省、年份和地权类别核对，不能把任何一地推广全国。 | `CLM-figes-1996-peasant-moral-economy-1917`; `CLM-hildermeier-2000-agrarian-socialism-modernization-dilemma` |
 | 马克思主义道路论 | 列宁的“普鲁士道路”与“美国道路” | 土地集中和地主主导的资本主义转型，与农民革命清除地主土地的道路具有不同社会代价；这是政治经济学的道路比较，并非后见之明式预测。 | `CLM-service-lenin-v1-agrarian-marxism-and-1905-tactics` |
 
-## 4. 关联时间线锚点 (共 0 条)
+
+### 3.1 关联核心论断与史学家学派坐标 (`CLM-*` → `SCH-*`, 展示前 15/15 条)
+- **`CLM-hildermeier-2000-agrarian-socialism-modernization-dilemma`** [`SCH-hildermeier-manfred`(曼弗雷德·希尔德迈尔) | EPUB版无稳定原书页码；以本地章节与行号定位（ch08 L75–232, ch09 L26–44, ch12 L204–282, ch13 L107–185, ch17 L115–310, ch20 L750–753, ch24 L180–285, ch26 L6–96；epub:main-8.xhtml, main-9.xhtml, main-12.xhtml, main-13.xhtml, main-21.xhtml, main-25.xhtml, main-27.xhtml）]: 
+- **`CLM-steinberg-2017-continuum-of-crisis-1905-1921`** [`SCH-steinberg-mark`(马克·D·斯坦伯格) | pp. 19, 61–62, 107–108]: 
+- **`CLM-bonnell-1983-1912-1914-union-and-insurance-boards-bolshevik-capture`** [`SCH-bonnell-victoria`(维多利亚·E·邦内尔) | Book pp. 366–371, 390–438 [PDF pp. 389–394, 413–461]]: 
+- **`CLM-bonnell-1983-state-employer-repression-undermining-menshevik-reformism`** [`SCH-bonnell-victoria`(维多利亚·E·邦内尔) | Book pp. 292–305, 316–323, 336–352, 372–389, 450–452 [PDF pp. 315–328, 339–346, 359–375, 395–412, 473–475]]: 
+- **`CLM-hogan-1994-petersburg-metalworkers-1905-to-lena`** [`SCH-hogan-heather`(希瑟·霍根 · labor-social-history) | pp. 85–112]: 
+- **`CLM-smith-sa-1996-petersburg-bolshevik-vs-menshevik-worker-appeal`** [`SCH-smith-sa`(斯蒂芬·A·史密斯（S. A. Smith）) | International Review of Social History, vol. 41 (1996), pp. 12–15, 19–25]: 
+- **`CLM-manning-1982-june-third-coup-social-basis`** [`SCH-manning-roberta`(罗伯塔·T·曼宁) | pp. 238–239]: 
+- **`CLM-manning-1982-gentry-fronde-to-reaction`** [`SCH-manning-roberta`(罗伯塔·T·曼宁) | pp. 54–60, 122–124]: 
+- **`CLM-hildermeier-2000-azev-affair-and-stolypin-era-paralysis`** [`SCH-hildermeier-manfred`(曼弗雷德·希尔德迈尔) | EPUB版无稳定原书页码；以本地章节与行号定位（ch14 L24–91, ch18 L112–150, ch22 L6–108, ch23 L81–217, ch24 L8–285, ch25 L6–33, ch26 L6–62；epub:main-14.xhtml, main-23.xhtml, main-24.xhtml, main-25.xhtml, main-26.xhtml, main-27.xhtml）]: 
+- **`CLM-pipes-1990-patrimonial-state-and-intelligentsia`** [`SCH-pipes-richard`(理查德·派普斯) | ch. 2 (Official Russia); ch. 4 (The Intelligentsia); cf. Introduction]: 
+- **`CLM-gaida-2003-progressive-bloc-dilemma`** [`SCH-gaida-fedor`(费奥多尔·盖达) | pp. 135-136, 162-168]: 
+- **`CLM-hoffmann-2011-continuum-of-total-war-1914-1929`** [`SCH-hoffmann-david`(大卫·L·霍夫曼) | pp. 12–13, 38, 127–128]: 
+- **`CLM-yao-hai-1917-modernization-rupture-and-plebeian-radicalism`** [`SCH-yao-hai`(姚海) | [PDF pp. 47-55, 57-64, 68-72, 75-81, 87-88]]: 
+- **`CLM-figes-1996-peasant-moral-economy-1917`** [`SCH-figes-orlando`(奥兰多·费吉斯) | pp. 343-352]: 
+- **`CLM-service-lenin-v1-agrarian-marxism-and-1905-tactics`** [`SCH-service-robert`(罗伯特·瑟维斯) | pp. 74-80, 152-166, 169-185 (中译本 PDF 页码)]: 
+
+## 4. 关联时间线骨干锚点 (L0–L2 展示 0 条)

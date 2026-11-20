@@ -1,7 +1,7 @@
 ---
 id: CLM-bonnell-1983-1912-1914-union-and-insurance-boards-bolshevik-capture
 type: claim
-scholar: Victoria E. Bonnell
+scholar: SCH-bonnell-victoria
 work_title: "Roots of Rebellion: Workers' Politics and Organizations in St. Petersburg and Moscow, 1900–1914（中译本《反叛的根源：圣彼得堡与莫斯科的工人政治与组织（1900–1914）》）"
 publication_year: 1983
 source_tier: A
@@ -9,7 +9,7 @@ local_source_path: "sources/monographs/bonnell_1983_roots_of_rebellion_zh/ch18_p
 original_pages: "Book pp. 366–371, 390–438 [PDF pp. 389–394, 413–461]"
 targets_cards:
   - DEB-1914-haimson-thesis-stability
-  - SCH-bonnell-victoria
+  - ORG-bolsheviks-rcpb-vkpb
 supports:
   - DEB-1914-haimson-thesis-stability
 rebuts: []

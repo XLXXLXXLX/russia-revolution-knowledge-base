@@ -110,10 +110,37 @@ def extract_pdf(pdf_path: Path, out_dir: Path, chunk_pages: int) -> list[dict]:
         )
 
     doc.close()
-    return written
+    empty_ratio = empty_pages / max(total_pages, 1)
+    return written, {"total_pages": total_pages, "empty_pages": empty_pages, "empty_ratio": round(empty_ratio, 4)}
 
 
-def extract_epub(epub_path: Path, out_dir: Path) -> list[dict]:
+def extract_docx(docx_path: Path, out_dir: Path) -> tuple[list[dict], dict]:
+    with zipfile.ZipFile(docx_path, "r") as zf:
+        xml_bytes = zf.read("word/document.xml")
+    root = ET.fromstring(xml_bytes)
+    paragraphs: list[str] = []
+    for p in root.findall(".//{*}p"):
+        texts = [t.text for t in p.findall(".//{*}t") if t.text]
+        line = "".join(texts).strip()
+        if line:
+            paragraphs.append(line)
+    body = "\n\n".join(paragraphs)
+    fn = "ch00_full_document.md"
+    content = f"# {docx_path.stem}\n\n> 原书文件名: `{docx_path.name}` | DOCX 提取\n\n{body}\n"
+    (out_dir / fn).write_text(content, encoding="utf-8")
+    written = [
+        {
+            "file": fn,
+            "title": docx_path.stem,
+            "pdf_pages": "docx:all",
+            "lines": content.count("\n"),
+            "chars": len(content),
+        }
+    ]
+    return written, {"total_pages": 1, "empty_pages": 0 if body else 1, "empty_ratio": 0.0 if body else 1.0}
+
+
+def extract_epub(epub_path: Path, out_dir: Path) -> tuple[list[dict], dict]:
     from bs4 import BeautifulSoup, XMLParsedAsHTMLWarning
 
     warnings.filterwarnings("ignore", category=XMLParsedAsHTMLWarning)
@@ -177,19 +204,28 @@ def extract_epub(epub_path: Path, out_dir: Path) -> list[dict]:
             )
             sec_idx += 1
 
-    return written
+    return written, {"total_pages": len(written), "empty_pages": 0, "empty_ratio": 0.0 if written else 1.0}
 
 
-def write_master_toc(book_name: str, out_dir: Path, written: list[dict]) -> None:
+def write_master_toc_and_manifest(book_name: str, out_dir: Path, written: list[dict], stats: dict) -> bool:
+    import yaml
+
+    needs_ocr = stats.get("empty_ratio", 0.0) >= 0.85
     total_lines = sum(w["lines"] for w in written)
     total_chars = sum(w["chars"] for w in written)
+    guidance = (
+        "⚠️ **纯图像扫描告警 (`needs_ocr: true`)**：本文件空白文本页占比高达 "
+        f"`{stats.get('empty_ratio', 0.0):.1%}`，已自动隔离！`close-reader` 严禁读取空壳占位章节，待 OCR 后方可入库精读。"
+        if needs_ocr
+        else "请直接按下方文件名使用 `read` 工具（`offset=1, limit=1800` 翻页）连续顺读整章，严禁使用 `grep` 断章取义。"
+    )
     toc_lines = [
         f"# 文献分章与行号目录索引 (`toc.md`)",
         f"",
         f"- **原始文件**: `{book_name}`",
         f"- **规整目录**: `{out_dir.relative_to(ROOT).as_posix() if out_dir.is_relative_to(ROOT) else out_dir.as_posix()}`",
-        f"- **章节总数**: `{len(written)}` | **总行数**: `{total_lines}` | **总字符数**: `{total_chars}`",
-        f"- **精读指引 (`close-reader`)**: 请直接按下方文件名使用 `read` 工具（`offset=1, limit=1800` 翻页）连续顺读整章，严禁使用 `grep` 断章取义。",
+        f"- **章节总数**: `{len(written)}` | **总行数**: `{total_lines}` | **总字符数**: `{total_chars}` | **needs_ocr**: `{str(needs_ocr).lower()}`",
+        f"- **精读指引 (`close-reader`)**: {guidance}",
         f"",
         f"| 序号 | 章节文件 | 章节标题 | 页码/来源锚点 | 总行数 | 字符数 |",
         f"| ---: | :--- | :--- | :--- | ---: | ---: |",
@@ -199,6 +235,19 @@ def write_master_toc(book_name: str, out_dir: Path, written: list[dict]) -> None
             f"| {i:02d} | `{w['file']}` | {w['title'].replace('|', '｜')} | `{w['pdf_pages']}` | `{w['lines']}` | `{w['chars']}` |"
         )
     (out_dir / "toc.md").write_text("\n".join(toc_lines) + "\n", encoding="utf-8")
+
+    mf_path = out_dir / "manifest.yaml"
+    mf_data = yaml.safe_load(mf_path.read_text(encoding="utf-8")) if mf_path.exists() else {}
+    if not isinstance(mf_data, dict):
+        mf_data = {}
+    mf_data.setdefault("source_file", book_name)
+    mf_data["chapter_count"] = len(written)
+    mf_data["empty_page_ratio"] = stats.get("empty_ratio", 0.0)
+    mf_data["needs_ocr"] = needs_ocr
+    if needs_ocr:
+        mf_data["ocr_note"] = "Auto-quarantined by extract_book.py: >=85% pages lack embedded text layer."
+    mf_path.write_text(yaml.safe_dump(mf_data, allow_unicode=True, sort_keys=False), encoding="utf-8")
+    return needs_ocr
 
 
 def main() -> int:
@@ -222,17 +271,20 @@ def main() -> int:
 
     ext = in_path.suffix.lower()
     if ext == ".pdf":
-        written = extract_pdf(in_path, out_dir, args.chunk_pages)
+        written, stats = extract_pdf(in_path, out_dir, args.chunk_pages)
     elif ext == ".epub":
-        written = extract_epub(in_path, out_dir)
+        written, stats = extract_epub(in_path, out_dir)
+    elif ext == ".docx":
+        written, stats = extract_docx(in_path, out_dir)
     else:
         print(f"暂不支持自动提取后缀 {ext}，请使用专用脚本处理", file=sys.stderr)
         return 1
 
-    write_master_toc(in_path.name, out_dir, written)
+    needs_ocr = write_master_toc_and_manifest(in_path.name, out_dir, written, stats)
+    ocr_flag = " [⚠️ 检出纯扫描无文字层，已自动标记 needs_ocr: true 隔离]" if needs_ocr else ""
     print(
         f"✅ 提取完成: `{in_path.name}` -> `{out_dir.relative_to(ROOT).as_posix()}` "
-        f"(共 {len(written)} 章, 合计 {sum(w['chars'] for w in written)} 字符, 已生成 toc.md)"
+        f"(共 {len(written)} 章, 合计 {sum(w['chars'] for w in written)} 字符, 已生成 toc.md & manifest.yaml){ocr_flag}"
     )
     return 0
 

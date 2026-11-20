@@ -1,7 +1,7 @@
 ---
 id: CLM-carr-1954-platform-of-46-economic-roots
 type: claim
-scholar: SCH-carr-edward
+scholar: SCH-carr-eh
 work_title: "The Interregnum, 1923-1924"
 publication_year: 1954
 source_tier: A

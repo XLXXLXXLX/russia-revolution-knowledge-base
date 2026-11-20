@@ -7,8 +7,8 @@ publication_year: 2013
 source_tier: A
 local_source_path: "sources/monographs/yao_hai_ussr_history_v1_russian_rev_zh/ch496_中旬_克雷莫夫将军被古契柯夫召到彼得格勒_在会见时_克雷莫夫建议古契柯夫和李沃夫.md#L750-L768, #L844-L852; sources/monographs/yao_hai_ussr_history_v1_russian_rev_zh/ch497_中旬_克雷莫夫将军被古契柯夫召到彼得格勒_在会见时_克雷莫夫建议古契柯夫和李沃夫.md#L180-L436, #L472-L973; sources/monographs/yao_hai_ussr_history_v1_russian_rev_zh/ch498_中旬_克雷莫夫将军被古契柯夫召到彼得格勒_在会见时_克雷莫夫建议古契柯夫和李沃夫.md#L48-L295"
 original_pages: "[PDF pp. 532-535, 543-569]"
-targets_cards: ["ORG-sovnarkom", "ORG-vtsik", "ORG-vikzhel", "ORG-cheka", "PER-lenin", "PER-trotsky", "PER-kamenev", "PER-martov", "EVT-second-congress-of-soviets"]
-debate: DEB-bolshevik-party-state-origins
+targets_cards: ["INS-sovnarkom-and-vtsik", "ORG-vikzhel", "ORG-cheka-ogpu", "PER-lenin", "PER-trotsky", "PER-kamenev", "PER-martov-l", "MTG-1917-10-2nd-congress-of-soviets"]
+debate: DEB-1918-constituent-assembly-and-soviet-democracy
 supports: ["CLM-rabinowitch-2007-contingency-of-dictatorship", "CLM-carr-1950-politburo-orgburo-displacement-of-state-organs"]
 rebuts: ["CLM-pipes-1990-red-terror-leninist-logic"]
 qualifies: ["CLM-carr-1950-sovnarkom-decree-power-over-vtsik"]

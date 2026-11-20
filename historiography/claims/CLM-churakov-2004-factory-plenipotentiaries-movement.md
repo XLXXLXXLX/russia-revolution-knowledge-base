@@ -1,14 +1,14 @@
 ---
 id: CLM-churakov-2004-factory-plenipotentiaries-movement
 type: claim
-scholar: SCH-churakov-d
+scholar: SCH-churakov-dmitry
 work_title: "Революция, государство, рабочий протест: Формы, динамика и природа массовых выступлений рабочих в Советской России. 1917—1918 годы"
 publication_year: 2004
 source_tier: A
 local_source_path: "sources/monographs/ru_rev_state_working_class/ch05_pages_126-150.md#L758-L1136"
 original_pages: "pp. 75, 139-149, 176-177, 213-216"
-targets_cards: ["ORG-assembly-of-plenipotentiaries", "ORG-mensheviks", "ORG-psr", "EVT-1918-07-02-petrograd-strike"]
-debate: DEB-1918-plenipotentiaries-and-opposition
+targets_cards: ["EVT-1918-worker-protest-and-izhevsk-uprising", "ORG-mensheviks", "ORG-psr"]
+debate: DEB-1918-working-class-and-bolsheviks
 supports: []
 rebuts: []
 qualifies: []

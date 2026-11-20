@@ -7,7 +7,7 @@ publication_year: 1970
 source_tier: A
 local_source_path: "sources/monographs/avrich_1970_kronstadt/ch04_pages_101-125.md#L688-L705"
 original_pages: "pp. 143-147, 816-818"
-targets_cards: ["EVT-1921-kronstadt", "ORG-bolshevik-party"]
+targets_cards: ["EVT-1921-kronstadt", "ORG-bolsheviks-rcpb-vkpb"]
 debate: DEB-1917-october-coup-or-social-revolution
 supports: []
 rebuts: []

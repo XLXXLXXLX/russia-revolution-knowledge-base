@@ -7,8 +7,8 @@ publication_year: 2013
 source_tier: A
 local_source_path: "sources/monographs/yao_hai_ussr_history_v1_russian_rev_zh/ch476_前言_part_1.md#L480-L602, #L735-L757, #L834-L912; sources/monographs/yao_hai_ussr_history_v1_russian_rev_zh/ch477_前言_part_2.md#L78-L145, #L257-L395, #L503-L758; sources/monographs/yao_hai_ussr_history_v1_russian_rev_zh/ch478_前言_part_3.md#L102-L138"
 original_pages: "[PDF pp. 47-55, 57-64, 68-72, 75-81, 87-88]"
-targets_cards: ["EVT-february-revolution", "EVT-july-days", "EVT-kornilov-affair", "PER-nicholas-ii", "PER-lenin", "PER-stolypin", "ORG-provisional-government", "ORG-petrograd-soviet"]
-debate: DEB-1917-modernization-and-revolution-continuity
+targets_cards: ["EVT-1917-02-february-revolution", "EVT-1917-07-july-days", "EVT-1917-08-kornilov-affair", "PER-nicholas-ii", "PER-lenin", "PER-stolypin", "ORG-provisional-government", "ORG-petrograd-soviet"]
+debate: DEB-1914-haimson-thesis-stability
 supports: ["CLM-rabinowitch-1976-open-democratic-mass-party", "CLM-yao-hai-constituent-assembly-vs-soviet-legitimacy-clash"]
 rebuts: ["CLM-pipes-1990-october-classic-coup"]
 qualifies: ["CLM-carr-1950-politburo-orgburo-displacement-of-state-organs"]

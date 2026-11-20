@@ -1,14 +1,14 @@
 ---
 id: CLM-plekhanov-am-dzerzhinsky-vsnkh-nep-industrialism-1924-1926
 type: claim
-scholar: SCH-plekhanov-am
+scholar: SCH-ratkovsky-ilya
 work_title: "Дзержинский. От «Астронома» до «Железного Феликса»（《捷尔任斯基：从“天文学家”到“钢铁费利克斯”》，馆藏归档 plekhanov_dzerzhinsky_zh；内页撰著 И. С. Ратьковский，核心档案依托 А. М. Плеханов、А. А. Плеханов 编《Ф. Э. Дзержинский — председатель ВЧК-ОГПУ. 1917–1926》[2007]）"
 publication_year: 2017
 source_tier: A
 local_source_path: "sources/monographs/plekhanov_dzerzhinsky_zh/ch09_pages_226-250.md#L48-L756"
 original_pages: "pp. 227-230, 236-246, 251-256"
-targets_cards: [PSN-dzerzhinsky-felix, ORG-vsnkh, POL-new-economic-policy]
-debate: DEB-nep-viability-and-industrialization
+targets_cards: ["PER-dzerzhinsky", "INS-vsnkh-and-gosplan", "POL-nep"]
+debate: DEB-1928-bukharin-alternative
 supports: [CLM-cohen-1973-nep-viability]
 rebuts: []
 qualifies: []

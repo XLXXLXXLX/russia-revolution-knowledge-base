@@ -1,14 +1,9 @@
-# 1-Hop 平衡上下文包：`PER-kolchak` (亚历山大·高尔察克)
+# 1-Hop 去重平衡上下文包：`PER-kolchak`
 
-> 本文件由 `python scripts/kb.py pack` 自动编译，旨在将失控的 `1+N` 随机读取压缩为**等权重、带时效边实质与史学盲区告警**的单次全景读取。
+> 由 `python scripts/kb.py pack` 动态编译：保留 **100% 一跳邻居与多时段关系边**，跨卡自动去重争鸣与时间线，并关联学者学派 (`SCH-*`)。
 
-## 0. 认知完备度与反偏斜仪表盘 (Epistemic & Skew Warnings)
-- **主卡路径**: `cards/people/PER-kolchak.md`
-- **完备度等级**: `multi-perspective`
-- **已覆盖视角**: `civil-war-military-mawdsley-kakurin, social-history-figes, psr-tragedy-radkey, covert-intervention-foglesong`
-- **待补齐视角**: `pipes-1994-regime-monograph, scott-smith-2011-ufa-cabinet, omsk-archives-direct-text`
-- **偏斜风险提示**:
-  - ⚠️ 主卡显式声明尚缺以下视角待补: `pipes-1994-regime-monograph, scott-smith-2011-ufa-cabinet, omsk-archives-direct-text`。
+## 0. 认知完备度与反偏斜仪表盘
+- **`PER-kolchak`** (亚历山大·高尔察克 | `cards/people/PER-kolchak.md` | `multi-perspective`): 已覆盖=`civil-war-military-mawdsley-kakurin, social-history-figes, psr-tragedy-radkey, covert-intervention-foglesong`；待补=`pipes-1994-regime-monograph, scott-smith-2011-ufa-cabinet, omsk-archives-direct-text`
 
 ## 1. 主卡核心层 ([T1] + [T2])
 ## [T1] 150字定性微摘要
@@ -44,51 +39,19 @@
   - **[Figes 白色恐怖、游击战与社会脱节论]**（`figes ch21#L38–L79`）：重在解剖政权与社会的彻底断裂——鄂木斯克的道德腐化、拒绝动用黄金与颁布反动土地声明、对西伯利亚独立农民实施鞭刑与焚村恐怖征兵，直接把本无封建地主矛盾的西伯利亚农民推向大规模游击反抗，4/5逃兵率瓦解了白军战斗力；且与 Mawdsley 不同，Figes（`ch21#L65–L70`）认为游击战自战事伊始即爆发并至攻势高潮时中断西伯利亚铁路补给、迫使数千士兵自前线抽调清剿。
   - **[Pipes 1994 续作待核问题清单（原著未入库）]**（`SCH-pipes-richard`）：自由保守派史学家理查德·派普斯的《布尔什维克政权下的俄国》（*Russia Under the Bolshevik Regime*, 1994）在库内尚未入库（库内仅藏1990年《俄国革命》，叙事止于1918年中），因此其对高尔察克政权组织分散、民族与地方自治资源处置以及协约国承认与撤援作用的具体论证与页码权重，现阶段仅列为**待补原著或已核转引后方能定论的问题清单**（详目见 T3 外部缺口），不以缺书书目充当既定结论。
 
-## 2. 一跳邻域等权重微摘要 (共 10 个关联节点，严防大卡霸占上下文)
-### 邻居节点: `EVT-1918-1920-russian-civil-war`
-- **时效关系边** (`PER-kolchak` → `EVT-1918-1920-russian-civil-war` | `eastern-white-supreme-ruler` | 有效时段: `1918.11-1920.02`): 1918年11月18日鄂木斯克政变推翻社革党督政府自任最高执政，1919春西进遭伏龙芝东线红军击溃并于伊尔库茨克被处决。
-- **节点定性微摘要 [T1]** (完备度 `draft`): 1918–1920年苏俄内战：布尔什维克依托“苏托邦”人口、军火与莫斯科铁路枢纽内线机动，先后粉碎高尔察克、邓尼金、弗兰格尔白军及马赫诺黑军，并压制社革党第三力量；协约国干涉与边疆民族武装相互牵制。
+## 2. 一跳邻域全量微摘要目录 (去重后共 10 个节点，0 截断)
+- **`EVT-1918-1920-russian-civil-war`**（俄国内战（1918–1920））: 1918至1920年红白主战场的内战中，布尔什维克依托中央腹地、军火遗产与铁路机动击败分散白军；征粮和恐怖又激起工农反抗。乌克兰及外高加索的民族国家竞争不能归入简单红白对决，克里米亚撤离仅标志主要白军战线收束，边疆与农民战争仍在延续。 ‖ `→PER-kolchak`[eastern_white_opponent|1918.11—1920.02]: 鄂木斯克政变终结东部督政府路线，春攻受挫后转入西伯利亚败退 ； `←PER-kolchak`[eastern-white-supremo|1918.11–1920.02]: 名义上的全俄白军“最高执政”，1919春曾一度最逼近伏尔加河但终成最先覆灭的白军主要战线
+- **`ORG-komuch-and-democratic-counterrevolution`**（萨马拉立宪会议成员委员会（Комуч）与乌法督政府）: 1918年6月8日社会革命党人在捷克军团占领萨马拉后建立“立宪会议成员委员会”（Комуч），9月23日在乌法合组五人全俄临时政府（乌法督政府），试图构建独立于红白之间的“民主反革命”。因强征农民、依赖旧军官“保护色”并遭左右夹击，终在1918年11月18日高尔察克政变中覆灭。 ‖ `→PER-kolchak`[war-minister-to-coup-usurper|1918.11]: 11月4日入阁任督政府陆海军部长，11月18日借鄂木斯克哥萨克与军官政变取代督政府出任白军“最高执政” ； `←PER-kolchak`[regime-terminator|1918.11]: 以军事独裁终结伏尔加—乌法“民主反革命”第三条道路，使社革“保护色”政治彻底破产
+- **`ORG-psr`**（社会革命党）: 1901年末合并建立的俄国新民粹派政党，以土地社会化纲领与战斗组织暗杀闻名。1917年选民基数居全俄之冠却在战争、分地拖延与左翼分裂中失势；虽夺立宪会议多数仍遭解散，内战“第三条道路”溃于高尔察克政变，1922年莫斯科公审后在国内覆灭。 ‖ `→PER-kolchak`[overthrown_by|1918-11]: 1918-11-18 [N.S.] 鄂木斯克政变逮捕乌法执政府社革派代表，宣告内战“第三条道路”破产（实出 Radkey 1963） ； `←PER-kolchak`[coup-and-purge-target|1918.11–1918.12]: 11.18政变推翻社革党主导的乌法督政府，12月镇压鄂木斯克起义时大肆屠戮社革党立宪会议代表
+- **`PER-denikin`**（安东·邓尼金）: 俄国陆军中将、志愿军与南俄武装力量总司令（1872—1947）。1919年夏秋依《莫斯科训令》三路北伐逼近奥廖尔与图拉；因大俄罗斯主义排斥边疆民族及哥萨克、纵容“沙拉班”地主复辟与大规模反犹屠杀致后方崩溃，1920年3月自新罗西斯克仓皇撤退辞职，流亡欧美著史终老。 ‖ `→PER-kolchak`[uncoordinated-white-ally|1919]: 1919年3月弃援察里津会师而转攻顿巴斯，东西白军错峰进攻便利红军内线各个击破 ； `←PER-kolchak`[uncoordinated-white-ally|1919]: 东西两线攻势时序错位且隔绝逾2万公里陆海路途，便利红军内线铁路逐次歼灭
+- **`PER-frunze`**（米哈伊尔·伏龙芝）: 米哈伊尔·伏龙芝（1885–1925），红军内战名将与军事改革家。1919年东线重创高尔察克、1920年南线攻克克里米亚并肃清马赫诺部；1923年十二大迫斯大林民族政策让步；1925年1月接替托洛茨基掌陆海军人民委员部，推行基干与民兵混合军改及一长制，10月手术后猝逝。 ‖ `→PER-kolchak`[defeated-opponent|1919.04–06]: 率东线南集群借铁路内线机动发动布古鲁斯兰—乌法反攻，6月9日克乌法彻底扭转东线战局 ； `←PER-kolchak`[defeated-by|1919.04–1919.08]: 伏龙芝率红军东线南集群在乌法战役与东线反攻中击溃高尔察克西伯利亚主力
+- **`EVT-1918-worker-protest-and-izhevsk-uprising`**（1918年苏俄工人抗议、工厂全权代表会议运动与伊热夫斯克—沃特金斯克大起义）: 1918年春夏，失业、饥荒与基层组织国家化引发工人抗议，丘拉科夫估涉及210—220家企业、10万—25万人。彼得格勒形成非常代表会议，莫斯科局部让步；卡马河军工镇在强征等冲突下起义，伊热夫斯克与沃特金斯克组成人民军，最高约2.5万人，终遭红军反攻瓦解。 ‖ `←PER-kolchak`[absorbed-worker-rebels|1918.11–1919]: 收编镇压后东撤的约1万名伊热夫斯克与沃特金斯克兵工厂反布起义工人编入汉任西集团军
+- **`PER-lvov`**（格奥尔吉·叶夫根尼耶维奇·李沃夫）: 地方自治领袖、一战救济组织主席，临时政府首任总理兼内务部长。1917-03-02[O.S.]/03-15[N.S.]起主政，推公民自由与自治改革，反强制信念遭夺地、军队瓦解及双重政权挑战；07-07/08[O.S.]/07-20/21[N.S.]辞职，后流亡法国从事救济。 ‖ `←PER-kolchak`[paris-diplomatic-envoy|1918.11–1919]: 委托前临时政府总理李沃夫王公率俄罗斯政治会议赴华盛顿与巴黎和会游说外援及外交承认
+- **`PER-chernov`**（维克托·切尔诺夫）: 俄国社会革命党创始人兼首席理论家，“土地社会化”纲领制定者。早期纵容阿泽夫战斗组织并在1909年丑闻后陷于党务瘫痪；1917年任联合内阁农业部长进退维谷，1918年1月以244:153当选全俄立宪会议一日主席即遭驱散，萨马拉—乌法“第三力量”亦破产，后流亡欧美。 ‖ `←PER-kolchak`[adversary-and-coup-victim|1918.11]: 1918年11月政变后切尔诺夫遭兵变部队拘捕，捷克军团介入后始脱险离境
+- **`PER-ustryalov`**（尼古拉·乌斯特里亚洛夫）: 俄国法学家、“路标转换派”与民族布尔什维主义创立者（1890–1937）。曾任高尔察克政府新闻局长，流亡后盛赞新经济政策为革命“热月演进”（外红内白萝卜），号召专家归国促成国家常态化。列宁十一大引述示警，反对派以“乌斯特里亚洛夫主义”攻讦右倾；1935年返苏，1937年遇害。 ‖ `→PER-kolchak`[propaganda_chief_for|1918–1919]: 任鄂木斯克白卫政府新闻局长，高尔察克败亡促其彻底否定白卫依附外力路线并转向“路标转换”
+- **`PER-wrangel`**（彼得·弗兰格尔）: 俄国白军将领、克里米亚南俄“执政”（1878—1928）。1919年6月攻克察里津后因路线分歧与邓尼金决裂；1920年4月接掌克里米亚残部，整编“俄罗斯军队”并借克里沃舍因、司徒卢威推行有限土改以图外援，但白色恐怖难挽颓势；11月兵败彼列科普后组织14.6万人撤离，流亡创立全军联盟。 ‖ `→PER-kolchak`[unreached-eastern-ally|1919.06–1919.08]: 弗兰格尔主张自察里津沿伏尔加河继续北进接应高尔察克，但因高尔察克早溃而落空
 
-### 邻居节点: `ORG-komuch-and-democratic-counterrevolution`
-- **时效关系边** (`PER-kolchak` → `ORG-komuch-and-democratic-counterrevolution` | `overthrew-in-omsk-coup` | 有效时段: `1918.11.18`): 在鄂木斯克发动军事政变推翻社革党主导的全俄临时政府（乌法督政府），宣告内战“第三种力量”民主反革命路线破产。
-- **时效关系边** (`ORG-komuch-and-democratic-counterrevolution` → `PER-kolchak` | `war-minister-to-coup-usurper` | 有效时段: `1918.11`): 11月4日入阁任督政府陆海军部长，11月18日借鄂木斯克哥萨克与军官政变取代督政府出任白军“最高执政”
-- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 1918年6月8日社会革命党人在捷克军团占领萨马拉后建立“立宪会议成员委员会”（Комуч），9月23日在乌法合组五人全俄临时政府（乌法督政府），试图构建独立于红白之间的“民主反革命”。因强征农民、依赖旧军官“保护色”并遭左右夹击，终在1918年11月18日高尔察克政变中覆灭。
-
-### 邻居节点: `PER-denikin`
-- **时效关系边** (`PER-denikin` → `PER-kolchak` | `uncoordinated-ally` | 有效时段: `1919`): 东西攻势时序错开，便利红军逐次歼灭
-- **时效关系边** (`PER-kolchak` → `PER-denikin` | `strategic-uncoordinated-ally` | 有效时段: `1919`): 与白军各战线错时进攻致红军逐一击破
-- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 俄国陆军中将、志愿军与南俄武装力量总司令（1872—1947）。1919年夏秋依《莫斯科训令》三路北伐逼近奥廖尔与图拉；因大俄罗斯主义排斥边疆民族及哥萨克、纵容“沙拉班”地主复辟与大规模反犹屠杀致后方崩溃，1920年3月自新罗西斯克仓皇撤退辞职，流亡欧美著史终老。
-
-### 邻居节点: `ORG-psr`
-- **时效关系边** (`PER-kolchak` → `ORG-psr` | `coup-against` | 有效时段: `1918.11`): 取代乌法全俄临时政府（督政府），终结社革“第三力量”幻象
-- **时效关系边** (`ORG-psr` → `PER-kolchak` | `overthrown_by` | 有效时段: `1918-11`): 1918-11-18 [N.S.] 鄂木斯克政变逮捕乌法执政府社革派代表，宣告内战“第三条道路”破产（实出 Radkey 1963）
-- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 1901年末合并建立的俄国新民粹派政党，以土地社会化纲领与战斗组织暗杀闻名。1917年选民基数居全俄之冠却在战争、分地拖延与左翼分裂中失势；虽夺立宪会议多数仍遭解散，内战“第三条道路”溃于高尔察克政变，1922年莫斯科公审后在国内覆灭。
-
-### 邻居节点: `PER-frunze`
-- **时效关系边** (`PER-kolchak` → `PER-frunze` | `defeated-by` | 有效时段: `1919.04–06`): 东线南集群铁路机动击溃春攻
-- **节点定性微摘要 [T1]** (完备度 `draft`): 米哈伊尔·伏龙芝（1885–1925），内战红军名将：1919年东线击溃高尔察克，1920年南线攻克弗兰格尔克里米亚；1923年十二大迫斯大林民族政策让步，1924–1925主持军事改革接替托洛茨基，1925年10月手术后猝死。
-
-### 邻居节点: `PER-ustryalov`
-- **时效关系边** (`PER-ustryalov` → `PER-kolchak` | `propaganda-chief` | 有效时段: `1918–1919`): 在鄂木斯克白卫政权任政府新闻局局长，为高尔察克独裁提供恢复大俄罗斯国家秩序的意识形态辩护；高尔察克败亡促使其彻底反思白卫路线。
-- **节点定性微摘要 [T1]** (完备度 `draft`): 俄国法学家、政治哲学家与流亡政论家，“路标转换派”（`сменовеховство`）与俄国“民族布尔什维克主义”（`национал-большевизм`）核心创立者。早年为立宪民主党右翼成员，1918–1919年内战期间在鄂木斯克任高尔察克白卫政府新闻局局长。1920年流亡中国哈尔滨，1921年7月参与在布拉格出版的文集《路标转换》（*Смена вех*），赞扬布尔什维克政权击败外国干涉并重新统一俄罗斯大国疆域，将新经济政策（`POL-nep`）诠释为俄国革命不可避免的“热月演进”（`Термидор` /“外红内白的萝卜”），号召白卫知识分子与非党专家停止武装对抗、同苏维埃政权合作以从内部促成其资产阶级民族国家化。列宁在 `1922-03` 俄共（布）十一大政治报告中公开引述乌斯特里亚洛夫，以此警示党内存在资本主义复辟与被旧文化征服的真实危险；在1925–1927年党内大论战中，“乌斯特里亚洛夫主义”（`устряловщина`）成为托洛茨基—季诺维也夫联合反对派攻击斯大林—布哈林路线及非党专家的核心话语武器。1935年随中东铁路出售返回苏联任教，1937年6月在大清洗中被捕并于同年9月14日被判处死刑枪决。
-
-### 邻居节点: `PER-wrangel`
-- **时效关系边** (`PER-wrangel` → `PER-kolchak` | `unreached-eastern-ally` | 有效时段: `1919.06–1919.08`): 弗兰格尔主张高加索集团军自察里津沿伏尔加河继续北进接应高尔察克，但因高尔察克早溃而落空
-- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 俄国白军将领、克里米亚南俄“执政”（1878—1928）。1919年6月攻克察里津后因路线分歧与邓尼金决裂；1920年4月接掌克里米亚残部，整编“俄罗斯军队”并借克里沃舍因、司徒卢威推行有限土改以图外援，但白色恐怖难挽颓势；11月兵败彼列科普后组织14.6万人撤离，流亡创立全军联盟。
-
-### 邻居节点: `EVT-1918-worker-protest-and-izhevsk-uprising`
-- **时效关系边** (`PER-kolchak` → `EVT-1918-worker-protest-and-izhevsk-uprising` | `absorbed-worker-rebels` | 有效时段: `1918.11–1919`): 收编镇压后东撤的约1万名伊热夫斯克与沃特金斯克兵工厂反布起义工人编入汉任西集团军
-- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 1918年春夏，面对复员失业、饥荒与基层组织“国家化”，苏俄控制区约210—220家企业爆发工人抗议（丘拉科夫估全俄涉10万—25万人）。各地呈分化走向：彼得格勒成立“非常工厂全权代表会议”（同时期稳定支持约2万—3万人，7月2日政治罢工约5,000—10,000人）；莫斯科行局部让步安抚；卡马河畔军工镇则在地方极左过火与强征冲突下先后爆发伊热夫斯克军工起义与沃特金斯克外援配合夺权，组建最高约2.5万人的卡马河畔人民军，终在内战军事化与红军反攻下瓦解。
-
-### 邻居节点: `PER-lvov`
-- **时效关系边** (`PER-kolchak` → `PER-lvov` | `paris-diplomatic-envoy` | 有效时段: `1918.11–1919`): 委托前临时政府总理李沃夫王公率俄罗斯政治会议赴华盛顿与巴黎和会游说外援及外交承认
-- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 留里克王族后裔、俄国地方自治运动领袖、1917年临时政府首任总理兼内务部长。早年主持图拉省地方自治局与战时救济，一战期间任全俄地方自治联合会及全俄地方自治与城市联合会总委员会（Земгор）主席，成为自由派公共社会的全国象征。`1917-03-02 [O.S.] / 1917-03-15 [N.S.]` 起主持首届及第一届联合临时政府，推行广泛公民自由与地方自治改革，但其排斥国家强制的“民粹式自由主义”信念在农民夺地、军队瓦解与双重政权冲突中彻底破产。七月危机后于 `1917-07-07/08 [O.S.] / 1917-07-20/21 [N.S.]` 辞职交棒克伦斯基，十月革命后经西伯利亚流亡法国，主持巴黎俄国政治会议与难民救济，`1925-03-07 [N.S.]` 逝于巴黎近郊。
-
-### 邻居节点: `PER-chernov`
-- **时效关系边** (`PER-kolchak` → `PER-chernov` | `adversary-and-coup-victim` | 有效时段: `1918.11`): 1918年11月政变后切尔诺夫遭兵变部队拘捕，捷克军团介入后始脱险离境
-- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 俄国社会革命党创始人兼首席理论家，“土地社会化”纲领制定者。早期纵容阿泽夫战斗组织并在1909年丑闻后陷于党务瘫痪；1917年任联合内阁农业部长进退维谷，1918年1月以244:153当选全俄立宪会议一日主席即遭驱散，萨马拉—乌法“第三力量”亦破产，后流亡欧美。
-
-## 3. 关联史学争鸣光谱 (Historiographical Debates)
+## 3. 关联史学争鸣与学者论断索引 (主卡外关联争鸣 2 项)
 ### `DEB-1918-democratic-counterrevolution-third-force`：科穆奇、乌法督政府与民主反革命何以覆灭
 ## [T1] 核心问题定义
 1918年伏尔加—西伯利亚的科穆奇与乌法督政府，何以未能维持一条独立于布尔什维克与军事右翼的道路？“民主反革命”指向其反布尔什维克及立宪代表制的政治组合，并不意味着这些政府内部、其社会支持者或所有反红力量均有相同目标。
@@ -121,4 +84,29 @@
 | 内战军事化结构与总体战现代治理 | Evan Mawdsley, *The Russian Civil War* (1987); David L. Hoffmann, *Cultivating the Masses* (2011) | Mawdsley从军事地理与政权生存结构出发，指出内战与政治高度军事化均是十月夺权方式的直接代价（“内战代价即革命代价”）；Hoffmann将契卡监控、集中营与粮食强制置于1914年一战以来欧洲列强总体战人口治理与国家暴力技术的连续谱中。 | `CLM-mawdsley-1987-civil-war-militarized-regime`；`CLM-hoffmann-2011-continuum-of-total-war-1914-1929` | 欧洲总体战技术共性或军事地理决定论，不能消解布尔什维克在1921年内战结束后仍保留并制度化法外警察权力的政治选择责任。 |
 | 后苏联FSB/GARF档案定量校准与莫佐欣“战时/和平期二分法” | O. B. Mozokhin (莫佐欣, 2006/2016)；V. N. Zemskov (泽姆斯科夫, 2010s) | 莫佐欣据俄罗斯联邦安全局中央档案馆（ЦА ФСБ РФ）统计表（`DATA-06-1918-1929-cheka-ogpu-sentencing-and-1929-collectivization-surge`），确认1918–1921年有案可查契卡处决约1.75万人（计入缺省全期上限不超过5万），并提出鲜明的**国家主义二分法**——肯定1918–1921年战时契卡镇压武装叛乱的应急必要性，却**尖锐批判1922年后和平时期GPU/OGPU继续垄断法外司法**（如1924年4,097起反革命案仅6起移交法院，战时死刑率6.9% vs 和平期0.5%/0.94%）；泽姆斯科夫据GARF档案校准1918–1920年登记反革命案判刑62,231人、处决25,709人（含未登记上限<10万），共同驳斥百万级夸大数字。 | `CLM-mozokhin-cheka-to-ogpu-extrajudicial-jurisdiction-1918-1929`；`CLM-zemskov-1920s-archival-repression-scale-before-1930` | 中央汇总报表未涵盖1918–1920年前线红军革命军事法庭、征粮队及地方县契卡未上报的就地处决，档案下限不等于实际死亡总数。 |
 
-## 4. 关联时间线锚点 (共 0 条)
+
+### 3.1 关联核心论断与史学家学派坐标 (`CLM-*` → `SCH-*`, 展示前 22/22 条)
+- **`CLM-smith-scott-2011-psr-third-force-collapse`** [`SCH-radkey-oliver`(奥利弗·亨利·拉德基) | pp. 452-455, 467-473, 490-493 (PDF pp. 468-471, 483-489, 506-509)]: 
+- **`CLM-foglesong-1995-wilson-covert-anti-bolshevik-war`** [`SCH-foglesong-david`(戴维·S·福格尔松) | pp. 3-7, 41-49, 56-65, 78-86, 167-191, 209-211 (PDF pp. 7-11, 45-53, 60-69, 82-90, 171-195, 213-215)]: 
+- **`CLM-kakurin-1928-red-army-interior-lines-strategy`** [`SCH-kakurin-nikolai`(尼古拉·叶夫根尼耶维奇·卡库林) | pp. xvi–xviii, 91–93, 101–103, 198–203, 210–229]: 
+- **`CLM-mawdsley-1987-white-movement-structural-defeat`** [`SCH-mawdsley-evan`(埃文·莫兹利) | pp. 212–218, 272–276, 286–289]: 
+- **`CLM-mawdsley-1987-sovdepia-demographic-industrial-base`** [`SCH-mawdsley-evan`(埃文·莫兹利) | pp. 56–58, 69, 185–188, 217–218, 283–284]: 
+- **`CLM-mawdsley-1987-civil-war-militarized-regime`** [`SCH-mawdsley-evan`(埃文·莫兹利) | pp. 328, 331, 346-347]: 
+- **`CLM-churakov-2004-izhevsk-votkinsk-worker-insurrection`** [`SCH-churakov-dmitry`(德米特里·奥列戈维奇·丘拉科夫) | pp. 258-285, 290-298, 304-325]: 
+- **`CLM-pipes-1990-red-terror-leninist-logic`** [`SCH-pipes-richard`(理查德·派普斯) | ch. 18 (The Red Terror)]: 
+- **`CLM-leggett-1981-vecheka-extra-legal-origins`** [`SCH-leggett-george`(乔治·莱格特) | pp. 17-22, 47-49 (PDF pp. 55-60, 85-87)]: 
+- **`CLM-leggett-1981-red-terror-institutionalization`** [`SCH-leggett-george`(乔治·莱格特) | pp. 56-59, 102-115, 144-145 (PDF pp. 94-97, 140-153, 182-183)]: 
+- **`CLM-leggett-1981-cheka-to-gpu-continuity`** [`SCH-leggett-george`(乔治·莱格特) | pp. 339-352, 355-363 (PDF pp. 377-390, 393-401)]: 
+- **`CLM-rabinowitch-2007-contingency-of-dictatorship`** [`SCH-rabinowitch-alexander`(亚历山大·拉比诺维奇) | pp. xi-xii, 390-398]: 
+- **`CLM-rabinowitch-2007-left-sr-coalition-collapse`** [`SCH-rabinowitch-alexander`(亚历山大·拉比诺维奇) | pp. 274-282, 287-309, 395-396]: 
+- **`CLM-raleigh-2001-local-bolshevik-violence-and-clientelism`** [`SCH-raleigh-donald`(唐纳德·J·罗利) | Local PDF pp. 104, 112–130; English print pagination not verified]: 
+- **`CLM-cheka-chronicle-hostage-and-local-autonomy`** [`SCH-ratkovsky-ilya`(伊利亚·拉特科夫斯基) | EPUB OPS/ch1-6.xhtml; OPS/ch1-10.xhtml; OPS/ch1-14.xhtml; OPS/ch1-15.xhtml; OPS/ch1-16.xhtml; OPS/ch1-19.xhtml（提取文本无印刷页码）]: 
+- **`CLM-cheka-chronicle-suppression-of-socialist-rivals`** [`SCH-ratkovsky-ilya`(伊利亚·拉特科夫斯基) | EPUB OPS/ch1-4.xhtml; OPS/ch1-5.xhtml; OPS/ch1-9.xhtml; OPS/ch1-10.xhtml; OPS/ch1-15.xhtml; OPS/ch1-16.xhtml（提取文本无印刷页码）]: 
+- **`CLM-plekhanov-am-dzerzhinsky-cheka-institutionalization`** [`SCH-ratkovsky-ilya`(伊利亚·拉特科夫斯基) | pp. 55-56, 97-106, 118-123, 147-155, 209-211, 228]: 
+- **`CLM-halle-1920-martov-critique-of-terror-and-21-conditions`** [`SCH-martov-iulii`(尤利·奥西波维奇·马尔托夫 · participant-primary-text) | pp. 167–170, 173, 175–176, 179 (Lih translation in the 2011 Lewis/Lih edition; printed page = PDF page − 1). Full speech pp. 167–179, delivered 15 October 1920 [N.S.]]: 
+- **`CLM-churakov-2004-soviet-worker-protest-dynamics-1918`** [`SCH-churakov-dmitry`(德米特里·奥列戈维奇·丘拉科夫) | pp. 84-88, 352-355]: 
+- **`CLM-hoffmann-2011-continuum-of-total-war-1914-1929`** [`SCH-hoffmann-david`(大卫·L·霍夫曼) | pp. 12–13, 38, 127–128]: 
+- **`CLM-mozokhin-cheka-to-ogpu-extrajudicial-jurisdiction-1918-1929`** [`SCH-mozokhin-oleg`(奥列格·莫佐欣) | PDF pp. 8-36, 44-49, 117-136]: 
+- **`CLM-zemskov-1920s-archival-repression-scale-before-1930`** [`SCH-zemskov-viktor`(维克托·尼古拉耶维奇·泽姆斯科夫) | PDF pp. 199-200, 210-214, 220-221 (原书 pp. 197-198, 208-212, 218-219)]: 
+
+## 4. 关联时间线骨干锚点 (L0–L2 展示 0 条)

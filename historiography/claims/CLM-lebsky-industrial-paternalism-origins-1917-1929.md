@@ -7,8 +7,8 @@ publication_year: 2021
 source_tier: "T2 当代俄罗斯左翼马克思主义社会史"
 local_source_path: "sources/monographs/soviet_working_class_industrial_paternalism_zh/ch02_序言.md#L116-L560, sources/monographs/soviet_working_class_industrial_paternalism_zh/ch03_第一章_社会职能_1917_1965年的苏联企业.md#L9-L202"
 original_pages: "PDF pp. 9–26, 29–36, 48–49"
-targets_cards: ["SCH-lebsky-maksim", "CON-industrial-paternalism", "CON-declassing"]
-debate: "苏维埃工会国家化与工业家长制的制度起源（1917–1929）"
+targets_cards: ["ORG-factory-committees-1917", "DEB-1918-working-class-and-bolsheviks"]
+debate: DEB-1921-trade-union-controversy-and-party-unity
 supports: ["CLM-lebsky-industrial-paternalism-origins-1920s"]
 rebuts: []
 qualifies: ["CLM-schapiro-1981-end-of-illusion-unions-1917-to-tomsky-fall", "CLM-godson-1981-tenth-congress-to-1929-transmission-belt-unions"]

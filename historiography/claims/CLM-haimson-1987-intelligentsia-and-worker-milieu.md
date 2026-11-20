@@ -8,7 +8,7 @@ source_tier: A
 local_source_path: "sources/monographs/haimson_1987_three_revolutionaries/ch06_introduction.md#L1346-L1539"
 original_pages: "pp. 28–32"
 targets_cards: ["PER-martov-l", "CON-narodnichestvo"]
-debate: DEB-origins-of-bolshevism
+debate: DEB-1903-bolshevik-menshevik-split
 supports: []
 rebuts: []
 qualifies: []

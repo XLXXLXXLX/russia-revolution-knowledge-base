@@ -3,7 +3,7 @@ id: DEB-1918-war-communism-ideology-or-emergency
 type: debate
 title: 战时共产主义与早期一党制本质之争：内战应急、乌托邦跃进还是国家统制连续？
 era: "1917-1921"
-core_cards: ["POL-war-communism", "CON-state-capitalism", "CON-soviet", "POL-nep", "ORG-left-communists-1918", "ORG-workers-opposition", "EVT-1921-kronstadt"]
+core_cards: ["POL-war-communism", "CON-state-capitalism", "CON-soviet", "POL-nep", "ORG-left-communists-1918", "ORG-workers-opposition", "EVT-1921-kronstadt", "EVT-1918-1920-russian-civil-war", "EVT-1920-1921-tambov-and-peasant-revolts"]
 coverage_status: multi-perspective
 perspectives_present: ["emergency-carr-mawdsley", "utopian-tragedy-malia-pipes", "state-continuity-lih-smith", "mixed-causation-rabinowitch-lewin"]
 perspectives_missing: ["regional-peasant-war-economy"]
@@ -11,7 +11,7 @@ updated_at: "2026-11-18"
 ---
 
 ## [T1] 核心问题定义
-1918–1921年的全面工业国有化、余粮收集制（`продразвёрстка`）、取缔私商、劳动军事化及多党苏维埃向一党专政的收缩，究竟是内战与供给崩溃逼迫的生存应急反应，还是布尔什维克反市场乌托邦蓝图的激进兑现，抑或一战以来国家统制与基层危机交互演化的结果？“战时共产主义”系1921年新经济政策转向时的事后追赋标签，须严格区分措施出台序列与事后总结。
+1918至1921年的全面国有化、余粮收集制、取缔私商、劳动军事化，以及多党苏维埃收为一党专政，究竟是内战与供给崩溃逼出的生存应急，还是反市场乌托邦的激进兑现，抑或一战以来国家统制与基层危机交互的结果？“战时共产主义”是1921年转向时的事后标签，须分清措施序列与事后总结。
 
 ## [T2] 各学派立场对照矩阵
 

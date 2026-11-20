@@ -1,7 +1,7 @@
 ---
 id: CLM-trotsky-1905-hypertrophied-tsarist-state
 type: claim
-scholar: PER-trotsky
+scholar: SCH-trotsky-leon
 work_title: "《1905》第一章、第二章与附件五〈论俄国历史发展的特殊性〉"
 publication_year: 1922
 source_tier: B

@@ -1,0 +1,219 @@
+{
+  "suite_id": "B1_graph_and_integrity",
+  "version": "1.0.0",
+  "created_at": "2026-11-19",
+  "last_reviewed": "2026-11-19",
+  "author": "main-agent:gemini-4-carbon",
+  "description": "确定性知识工程与图谱一致性基准：测试 YAML 元数据保真度、卡片 2.2 关系表与 edges.jsonl 多时段同步率、跨集合外键完整性（CLM->SCH/Card）以及双历法跨世纪/改历后防误算回归用例。",
+  "thresholds": {
+    "frontmatter_parity_rate_min": 1.0,
+    "multi_period_edge_retention_rate_min": 1.0,
+    "card_table_digest_sync_rate_min": 0.98,
+    "unresolved_table_target_count_max": 0,
+    "clm_scholar_fk_valid_rate_min": 1.0,
+    "clm_card_fk_valid_rate_min": 1.0,
+    "duplicate_scholar_count_max": 0,
+    "calendar_vector_pass_rate_min": 1.0,
+    "post_reform_false_dual_date_count_max": 0,
+    "post_reform_yaml_os_count_max": 0,
+    "card_meta_prompt_leak_count_max": 0
+  },
+  "frontmatter_canary_cards": [
+    {
+      "id": "B1-FM-01",
+      "split": "dev",
+      "card_id": "PER-uglanov",
+      "reason": "多行 YAML 列表 perspectives_present / perspectives_missing 在手写解析器下易丢失为空字典"
+    },
+    {
+      "id": "B1-FM-02",
+      "split": "dev",
+      "card_id": "PER-stalin",
+      "reason": "核心枢纽人物卡带行尾注释的引号日期与多争鸣列表解析保真"
+    },
+    {
+      "id": "B1-FM-03",
+      "split": "holdout",
+      "card_id": "EVT-1917-10-october-revolution",
+      "reason": "事件卡双历法字段行尾注释剥离与嵌套列表解析保真"
+    },
+    {
+      "id": "B1-FM-04",
+      "split": "holdout",
+      "card_id": "PER-kondratiev",
+      "reason": "Wave 56 新升格人物卡的完整 YAML 字段往返一致性"
+    }
+  ],
+  "multi_period_edge_canaries": [
+    {
+      "id": "B1-EDGE-01",
+      "split": "dev",
+      "source": "PER-uglanov",
+      "target": "PER-stalin",
+      "min_distinct_edges": 2,
+      "expected_period_substrings": ["1924", "1928"],
+      "rationale": "乌格拉诺夫与斯大林存在 1924-1927 清洗季派盟友与 1928 秋莫斯科改组决裂两段截然相反的关系，严禁被 (source, target) 去重吞没第二条边"
+    },
+    {
+      "id": "B1-EDGE-02",
+      "split": "holdout",
+      "source": "EVT-1922-georgian-affair-and-ussr-formation",
+      "target": "PER-lenin",
+      "min_distinct_edges": 2,
+      "expected_period_substrings": ["1922-09", "1922-12"],
+      "rationale": "格鲁吉亚事件中列宁 1922 年秋修正联盟方案与 1922 年底口授民族问题笔记分属两个关键阶段边"
+    }
+  ],
+  "calendar_regression_vectors": [
+    {
+      "id": "B1-CAL-01",
+      "split": "dev",
+      "input_date": "1861-02-19",
+      "src_cal": "os",
+      "expected_os": "1861-02-19",
+      "expected_ns": "1861-03-03",
+      "diff_days": 12,
+      "valid": true,
+      "note": "1861 农奴制改革诏书签署日（19世纪相差12天且跨2月平年边界）"
+    },
+    {
+      "id": "B1-CAL-02",
+      "split": "dev",
+      "input_date": "1881-03-01",
+      "src_cal": "os",
+      "expected_os": "1881-03-01",
+      "expected_ns": "1881-03-13",
+      "diff_days": 12,
+      "valid": true,
+      "note": "民意党刺杀亚历山大二世（19世纪相差12天）"
+    },
+    {
+      "id": "B1-CAL-03",
+      "split": "dev",
+      "input_date": "1900-02-28",
+      "src_cal": "os",
+      "expected_os": "1900-02-28",
+      "expected_ns": "1900-03-12",
+      "diff_days": 12,
+      "valid": true,
+      "note": "世纪闰差跳变前最后一日：儒略历 1900 为闰年而公历 1900 为平年"
+    },
+    {
+      "id": "B1-CAL-04",
+      "split": "dev",
+      "input_date": "1900-02-29",
+      "src_cal": "os",
+      "expected_os": "1900-02-29",
+      "expected_ns": "1900-03-13",
+      "diff_days": 13,
+      "valid": true,
+      "note": "儒略历独有的 1900-02-29 合法存在，对应公历 1900-03-13"
+    },
+    {
+      "id": "B1-CAL-05",
+      "split": "dev",
+      "input_date": "1900-02-29",
+      "src_cal": "ns",
+      "valid": false,
+      "note": "公历 1900 年不是闰年，1900-02-29 [N.S.] 必须报错拒绝"
+    },
+    {
+      "id": "B1-CAL-06",
+      "split": "dev",
+      "input_date": "1900-03-01",
+      "src_cal": "os",
+      "expected_os": "1900-03-01",
+      "expected_ns": "1900-03-14",
+      "diff_days": 13,
+      "valid": true,
+      "note": "20世纪起两历相差正式变为 13 天"
+    },
+    {
+      "id": "B1-CAL-07",
+      "split": "dev",
+      "input_date": "1905-01-09",
+      "src_cal": "os",
+      "expected_os": "1905-01-09",
+      "expected_ns": "1905-01-22",
+      "diff_days": 13,
+      "valid": true,
+      "note": "1905 血腥星期日"
+    },
+    {
+      "id": "B1-CAL-08",
+      "split": "holdout",
+      "input_date": "1911-03-14",
+      "src_cal": "os",
+      "expected_os": "1911-03-14",
+      "expected_ns": "1911-03-27",
+      "diff_days": 13,
+      "valid": true,
+      "note": "斯托雷平动用基本法第87条颁布西部六省地方自治局法令"
+    },
+    {
+      "id": "B1-CAL-09",
+      "split": "holdout",
+      "input_date": "1917-02-23",
+      "src_cal": "os",
+      "expected_os": "1917-02-23",
+      "expected_ns": "1917-03-08",
+      "diff_days": 13,
+      "valid": true,
+      "note": "二月革命国际妇女节罢工爆发（平年2月跨月换算）"
+    },
+    {
+      "id": "B1-CAL-10",
+      "split": "dev",
+      "input_date": "1917-10-25",
+      "src_cal": "os",
+      "expected_os": "1917-10-25",
+      "expected_ns": "1917-11-07",
+      "diff_days": 13,
+      "valid": true,
+      "note": "十月武装起义与苏维埃二大开幕"
+    },
+    {
+      "id": "B1-CAL-11",
+      "split": "holdout",
+      "input_date": "1918-01-31",
+      "src_cal": "os",
+      "expected_os": "1918-01-31",
+      "expected_ns": "1918-02-13",
+      "diff_days": 13,
+      "valid": true,
+      "note": "苏俄改历前最后一夜：次日直接跳至公历 1918-02-14"
+    },
+    {
+      "id": "B1-CAL-12",
+      "split": "holdout",
+      "input_date": "1918-05-09",
+      "src_cal": "ns",
+      "expected_os": "1918-04-26",
+      "expected_ns": "1918-05-09",
+      "diff_days": 13,
+      "valid": true,
+      "post_reform_soviet_decree": true,
+      "forbidden_markdown_pattern": "1918-05-09 [O.S.] / 1918-05-22 [N.S.]",
+      "note": "苏俄粮食人民委员部非常权力法令（1918-05-09 已是公历，严禁误当俄历再加13天写成 05-22！）"
+    }
+  ],
+  "post_reform_dual_date_whitelist_keywords": [
+    "白军",
+    "白卫",
+    "邓尼金",
+    "弗兰格尔",
+    "高尔察克",
+    "东正教",
+    "牧首",
+    "流亡",
+    "侨民",
+    "旧历习惯",
+    "顿河",
+    "南俄",
+    "错误配对",
+    "不得沿用",
+    "不沿用",
+    "误作",
+    "误写"
+  ]
+}

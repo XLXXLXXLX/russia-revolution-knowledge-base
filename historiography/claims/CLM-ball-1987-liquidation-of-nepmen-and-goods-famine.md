@@ -7,7 +7,7 @@ publication_year: 1987
 source_tier: A
 local_source_path: "sources/monographs/ball_1987_nepmen_zh/ch10_第二部分_part_2.md#L34-L125"
 original_pages: "pp. 120-124, 198-203"
-targets_cards: ["POL-nep", "PER-stalin", "PER-bukharin", "EVT-1928-grain-crisis"]
+targets_cards: ["POL-nep", "PER-stalin", "PER-bukharin", "EVT-1928-grain-procurement-crisis"]
 debate: DEB-1928-bukharin-alternative
 supports: []
 rebuts: []

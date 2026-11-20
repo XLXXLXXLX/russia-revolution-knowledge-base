@@ -7,7 +7,7 @@ publication_year: 1968
 source_tier: A
 local_source_path: "sources/monographs/lewin_1968_peasants/ch16_14_the_crisis_continues.md#L182-L221"
 original_pages: "pp. 386-390, 395"
-targets_cards: ["PER-stalin", "POL-nep", "POL-ural-siberian-method", "EVT-1928-grain-crisis"]
+targets_cards: ["PER-stalin", "POL-nep", "POL-ural-siberian-method", "EVT-1928-grain-procurement-crisis"]
 debate: DEB-1928-bukharin-alternative
 supports: []
 rebuts: []

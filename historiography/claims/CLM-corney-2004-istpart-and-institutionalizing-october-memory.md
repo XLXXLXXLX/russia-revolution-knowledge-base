@@ -7,7 +7,7 @@ publication_year: 2004
 source_tier: A
 local_source_path: "inbox/Telling October- Memory and the Making of the Bolshevik Revolution ( etc.) (z-library.sk, 1lib.sk, z-lib.sk).pdf"
 original_pages: "【待规整语料】"
-targets_cards: ["EVT-1917-10-october-revolution", "PER-lenin", "ORG-bolshevik-party"]
+targets_cards: ["EVT-1917-10-october-revolution", "PER-lenin", "ORG-bolsheviks-rcpb-vkpb"]
 debate: null
 supports: []
 rebuts: []

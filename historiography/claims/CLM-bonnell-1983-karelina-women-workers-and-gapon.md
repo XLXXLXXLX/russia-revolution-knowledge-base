@@ -1,16 +1,13 @@
 ---
 id: CLM-bonnell-1983-karelina-women-workers-and-gapon
 type: claim
-scholar: Victoria E. Bonnell
+scholar: SCH-bonnell-victoria
 work_title: "The Russian Worker: Life and Labor under the Tsarist Regime"
 publication_year: 1983
 source_tier: A
 local_source_path: "sources/primary/bonnell_1983_russian_worker_memoirs/ch01_pages_31-60.md"
 original_pages: "pp. 17–19, 29–30"
-targets_cards:
-  - PER-karelina
-  - EVT-1905-revolution
-  - ORG-psr
+targets_cards: ["PER-gapon", "EVT-1905-revolution", "ORG-psr"]
 supports: []
 rebuts: []
 qualifies:

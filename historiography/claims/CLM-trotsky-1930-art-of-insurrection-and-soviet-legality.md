@@ -1,7 +1,7 @@
 ---
 id: CLM-trotsky-1930-art-of-insurrection-and-soviet-legality
 type: claim
-scholar: PER-trotsky
+scholar: SCH-trotsky-leon
 work_title: "История русской революции / 《俄国革命史》"
 publication_year: 1930
 source_tier: B

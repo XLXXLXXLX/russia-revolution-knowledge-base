@@ -7,8 +7,8 @@ publication_year: 2006
 source_tier: A
 local_source_path: "sources/monographs/lih_2006_lenin_rediscovered/ch20_commentary_part_19.md#L29-L1373"
 original_pages: "pp. 35-37, 555, 613-667"
-targets_cards: ["PER-lenin", "PER-kautsky", "CON-spontaneity-consciousness"]
-debate: DEB-1902-lenin-witbd-and-party-nature
+targets_cards: ["PER-lenin", "CON-democratic-centralism-and-vanguard"]
+debate: DEB-1903-bolshevik-menshevik-split
 supports: []
 rebuts: []
 qualifies: []

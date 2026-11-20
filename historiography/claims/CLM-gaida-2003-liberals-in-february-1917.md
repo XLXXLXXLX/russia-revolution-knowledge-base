@@ -7,8 +7,8 @@ publication_year: 2003
 source_tier: A
 local_source_path: "sources/monographs/gaida_2003_liberal_opposition_zh/ch17_pages_426-450.md#L204-L352"
 original_pages: "pp. 355-356, 433-439"
-targets_cards: ["ORG-duma-committee", "PER-milyukov", "PER-rodzyanko", "EVT-1917-02-february-revolution", "ORG-kadets"]
-debate: DEB-1917-february-nature
+targets_cards: ["INS-state-duma-1906-1917", "PER-milyukov", "PER-rodzianko", "EVT-1917-02-february-revolution", "ORG-kadets"]
+debate: DEB-1917-dual-power-and-february-origins
 supports: []
 rebuts: []
 qualifies: []

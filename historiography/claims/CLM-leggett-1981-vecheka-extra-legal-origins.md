@@ -7,8 +7,8 @@ publication_year: 1981
 source_tier: A
 local_source_path: "sources/monographs/leggett_1981_cheka/ch01_pages_31-60.md#L1055-L1286"
 original_pages: "pp. 17-22, 47-49 (PDF pp. 55-60, 85-87)"
-targets_cards: ["ORG-cheka", "PER-dzerzhinsky", "PER-lenin", "PER-steinberg-i"]
-debate: DEB-1918-red-terror-origins
+targets_cards: ["ORG-cheka-ogpu", "PER-dzerzhinsky", "PER-lenin", "ORG-left-srs"]
+debate: DEB-1918-red-terror-and-civil-war-origins
 supports: []
 rebuts: []
 qualifies: []

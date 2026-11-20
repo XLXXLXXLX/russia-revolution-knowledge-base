@@ -2,7 +2,7 @@
 id: CLM-daniels-1960-tenth-congress-turning-point
 type: claim
 title: Daniels：1921年十大将党统一转化为压缩合法反对空间的组织制度
-scholar: SCH-daniels
+scholar: SCH-daniels-robert
 work_title: "The Conscience of the Revolution: Communist Opposition in Soviet Russia"
 publication_year: 1960
 source_tier: A

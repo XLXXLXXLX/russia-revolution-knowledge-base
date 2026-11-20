@@ -1,14 +1,9 @@
-# 1-Hop 平衡上下文包：`INS-rkka-red-army-and-rvr` (工农红军与共和国革命军事委员会（РККА 与 РВСР）)
+# 1-Hop 去重平衡上下文包：`INS-rkka-red-army-and-rvr`
 
-> 本文件由 `python scripts/kb.py pack` 自动编译，旨在将失控的 `1+N` 随机读取压缩为**等权重、带时效边实质与史学盲区告警**的单次全景读取。
+> 由 `python scripts/kb.py pack` 动态编译：保留 **100% 一跳邻居与多时段关系边**，跨卡自动去重争鸣与时间线，并关联学者学派 (`SCH-*`)。
 
-## 0. 认知完备度与反偏斜仪表盘 (Epistemic & Skew Warnings)
-- **主卡路径**: `cards/institutions/INS-rkka-red-army-and-rvr.md`
-- **完备度等级**: `multi-perspective`
-- **已覆盖视角**: `military-institutional, kakurin-strategic, mawdsley-comparative, deutscher-trotsky, service-critical, smirnov-training`
-- **待补齐视角**: `soldier-experience-micro, reform-primary-orders`
-- **偏斜风险提示**:
-  - ⚠️ 主卡显式声明尚缺以下视角待补: `soldier-experience-micro, reform-primary-orders`。
+## 0. 认知完备度与反偏斜仪表盘
+- **`INS-rkka-red-army-and-rvr`** (工农红军与共和国革命军事委员会（РККА 与 РВСР） | `cards/institutions/INS-rkka-red-army-and-rvr.md` | `multi-perspective`): 已覆盖=`military-institutional, kakurin-strategic, mawdsley-comparative, deutscher-trotsky, service-critical, smirnov-training`；待补=`soldier-experience-micro, reform-primary-orders`
 
 ## 1. 主卡核心层 ([T1] + [T2])
 ## [T1] 150字定性微摘要
@@ -39,62 +34,23 @@
 - **托洛茨基建军角色与去职争议**：Isaac Deutscher（1952/1959）将托洛茨基视作被一党制武器解除武装的组织者，并剖析老布尔什维克用法国大革命“红色波拿巴”先例围剿红军统帅的政治心理（`CLM-deutscher-1959-disarmed-prophet-paradox`、Deutscher 1952/1959 法国革命类比论断）；Robert Service（2009）则反驳“民主派托洛茨基”叙事，指出其在就地枪决、十一抽杀、劳动军事化及镇压喀琅施塔得上与列宁—斯大林共享威权共识，且因战术失策放弃政府实权（`CLM-service-2009-trotsky-authoritarian-consensus`、`CLM-service-2009-trotsky-political-tactical-blunders`）；多尔马托夫编斯大林档案选编（2018）呈现察里津前线斯大林抗命与反专家倾向的原始电报（`CLM-stalin-docs-tsaritsyn-and-civil-war-command-style`）。
 - **1920年代军制病灶**：A. A. Smirnov 依托 РГВА 档案把红军战术与指挥赤字溯源至 1918–1929 年“去军事化”条令、排斥旧专家与阶级配额（`CLM-smirnov-1920s-territorial-militia-and-combat-training-deficit`、`CLM-smirnov-red-army-commanders-vs-voenspetsy-1920s`），阅读时须注意其回溯 1941 年惨败并淡化 1937—1938 年大清洗的立场局限。士兵日常经验与原始调令全本仍待补充。
 
-## 2. 一跳邻域等权重微摘要 (共 12 个关联节点，严防大卡霸占上下文)
-### 邻居节点: `PER-trotsky`
-- **时效关系边** (`PER-trotsky` → `INS-rkka-red-army-and-rvr` | `founder-chairman` | 有效时段: `1918.03-1925.01`): 主持组建义务兵役制工农红军与共和国革命军事委员会，强制征用逾4.8万前沙皇军事专家并配以政治委员双签制赢得内战。
-- **时效关系边** (`INS-rkka-red-army-and-rvr` → `PER-trotsky` | `commanded` | 有效时段: `1918–1925`): 创建红军军事专家体系与 RVSR 集权，八大击退军事反对派与察里津集团。
-- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 俄国革命家、“不断革命论”提出者，1905年彼得堡苏维埃实际领袖与1917年彼得格勒苏维埃主席；借军革委与苏维埃二大衔接统筹十月夺权，内战期起用4.8万军事专家缔造红军。1923–1927年领衔左翼与联合反对派抗衡斯大林集权并受“红色波拿巴”污名围剿，1927年被开除出党，1929年被驱逐出境。
+## 2. 一跳邻域全量微摘要目录 (去重后共 14 个节点，0 截断)
+- **`EVT-1918-1920-russian-civil-war`**（俄国内战（1918–1920））: 1918至1920年红白主战场的内战中，布尔什维克依托中央腹地、军火遗产与铁路机动击败分散白军；征粮和恐怖又激起工农反抗。乌克兰及外高加索的民族国家竞争不能归入简单红白对决，克里米亚撤离仅标志主要白军战线收束，边疆与农民战争仍在延续。 ‖ `→INS-rkka-red-army-and-rvr`[mobilized_and_coordinated|1918—1920]: 征兵、军事专家与政委监督把人口资源转为常规军及内线调动能力 ； `←INS-rkka-red-army-and-rvr`[作战载体|1918–1920]: 依托铁路内线与苏维埃腹地人口工业底座打赢内战。
+- **`EVT-1920-1921-tambov-and-peasant-revolts`**（坦波夫安东诺夫起义与1920–1921年农民绿军风暴）: 1920年坦波夫抗征粮冲突扩大为安东诺夫领导的农民战争，与其他省份起义及城市工潮共振，暴露苏维埃农村统治危机。1921年粮食税让步与重兵围剿、人质及集中营政策并行；主力在夏季受挫，零星抵抗延续，不能把新经济政策视为农村随即恢复和解。 ‖ `→INS-rkka-red-army-and-rvr`[concentrated_force|1921]: 白军主要战线收束后正规军投入国内清剿
+- **`EVT-1921-kronstadt`**（喀琅施塔得水兵起义）: 1921年二月底至三月，喀琅施塔得水兵与居民以十五条决议要求改选苏维埃、开放劳动者及左翼政治自由，并成立临时革命委员会。红军跨冰夺回要塞，镇压与实物税、禁派决议交叠；经济退却早已酝酿，起义加剧其紧迫性，却未带来政治权力的开放。 ‖ `→INS-rkka-red-army-and-rvr`[military_assault|1921.03.07—18]: 正规军、军校学员与党代表参加攻岛，参战人数不等于伤亡
+- **`PER-trotsky`**（列夫·托洛茨基）: 俄国革命家、“不断革命论”提出者，1905年彼得堡苏维埃实际领袖与1917年彼得格勒苏维埃主席；借军革委与苏维埃二大衔接统筹十月夺权，内战期起用4.8万军事专家缔造红军。1923–1927年领衔左翼与联合反对派抗衡斯大林集权并受“红色波拿巴”污名围剿，1927年被开除出党，1929年被驱逐出境。 ‖ `←INS-rkka-red-army-and-rvr`[缔造与统帅|1918.03–1925.01]: 任革军委主席并主导征兵、军事专家与政委体制，1925年被免职。 ； `→INS-rkka-red-army-and-rvr`[architect-and-chair|1918-03–1925-01]: 强征逾4.8万旧军官与21.5万旧军士并推行政委双重签署制，借铁路内线突击建成300万正规红军，1925年1月15日和平交权
+- **`PER-stalin`**（约瑟夫·斯大林）: 布尔什维克高加索地下组织者、民族事务人民委员（1917–1923）及中央总书记（1922起）。依托书记处任命权与安全危机叙事，先联季-加压制托洛茨基，再联布哈林击溃联合反对派；1927–1929年以战备恐慌与“自上而下革命”击败布哈林集团，1929年12月拍板“把富农作为阶级消灭”并终结新经济政策。 ‖ `←INS-rkka-red-army-and-rvr`[战线抗命与政治摩擦|1918–1920；1925–1929]: 察里津排斥旧专家并对革军委抗命，后借反波拿巴猜忌取代托派。
+- **`PER-dzerzhinsky`**（费利克斯·捷尔任斯基）: 波兰立陶宛社民党与布尔什维克领导人。1917年建全俄肃反委员会（契卡）并续掌GPU/OGPU至逝世，奠定苏维埃安全与法外镇压体制；1924–1926年兼任最高国民经济委员会主席，力挺新经济政策市场均衡、保护技术专家并反对超工业化，1926年7月预警“红色独裁者”后猝逝于中央全会。 ‖ `←INS-rkka-red-army-and-rvr`[后方保卫协同|1918–1920]: 契卡协同红军清剿逃兵、保障铁路运输与后方稳定。
+- **`MTG-1919-03-8th-party-congress`**（俄国共产党（布尔什维克）第八次代表大会）: 1919年3月18日至23日，俄共（布）八大在内战中通过第二党纲，围绕民族自决、红军正规化与党内集中化激烈争辩，提出巩固与中农的联盟。大会及会后一中全会确立政治局、组织局和书记处常设框架，否定党组织联邦制并强化党团对苏维埃的控制；军事反对派与民主集中派的抗辩凸显集权并非无争议。 ‖ `←INS-rkka-red-army-and-rvr`[军事争论定调|1919.03]: 军事反对派挑战专家路线，大会确认正规军与政治监督并行。 ； `→INS-rkka-red-army-and-rvr`[military-policy|1919-03]: 秘密会议以174:95票确认正规军与军事专家路线，同时折衷强调政委与党务监督。
+- **`POL-war-communism`**（战时共产主义）: 1918年夏至1921年3月苏维埃经济政策总称：余粮收集制、中小工业国有化、取缔私商、货币贬值与实物配给并举；因内战饥荒与国家能力崩溃而强化，却在1921年喀琅施塔得与坦波夫危机下为新经济政策实物税所取代；其性质是应急、乌托邦跃进还是国家统制传统延续，史家分歧剧烈。 ‖ `←INS-rkka-red-army-and-rvr`[动员体制耦合|1918–1921]: 余粮征集、军工配给与部队动员形成相互锁定的军事化体制。
+- **`PER-frunze`**（米哈伊尔·伏龙芝）: 米哈伊尔·伏龙芝（1885–1925），红军内战名将与军事改革家。1919年东线重创高尔察克、1920年南线攻克克里米亚并肃清马赫诺部；1923年十二大迫斯大林民族政策让步；1925年1月接替托洛茨基掌陆海军人民委员部，推行基干与民兵混合军改及一长制，10月手术后猝逝。 ‖ `←INS-rkka-red-army-and-rvr`[体制改革|1924.03–1925.10]: 在财政紧缩下主导正规军与地方民兵混合改制及一长制过渡。 ； `→INS-rkka-red-army-and-rvr`[chief-reformer|1924–1925]: 主持伏龙芝军事改革，奠定NEP时期基干—民兵混合制与一长制基础，同时显著削减旧军事专家比例
+- **`PER-voroshilov`**（克利缅特·伏罗希洛夫）: 卢甘斯克工人布尔什维克。1918年察里津战役与斯大林结盟，抵制托洛茨基起用旧军官；1919年八大参与军事反对力量，后任第一骑兵军革军委委员。1925年11月继任苏联陆海军人民委员兼革命军事委员会主席，1926年入政治局，1928–1929年支持斯大林击败布哈林。 ‖ `←INS-rkka-red-army-and-rvr`[继任掌军|1925.11–1929.12]: 接任革军委主席，防范农民地域师并推行1928年干部“工农化”。 ； `→INS-rkka-red-army-and-rvr`[peoples_commissar_head|1925.11–1929.12]: 执掌陆海军人民委员部与苏联革军委（РВС СССР），警惕农民地域师政治风险、推进干部工农化并争取一五计划军工拨款
+- **`PER-tukhachevsky`**（米哈伊尔·图哈切夫斯基）: 红军统帅、军事理论家，前近卫军少尉，历掌第5集团军与高加索方面军。1920年率西方面军攻华沙失败，与斯大林及西南方面军就利沃夫调兵和败责长期争执；1921年镇压喀琅施塔得起义，指挥坦波夫清剿重创安东诺夫主力，1925–1928年任红军参谋长。 ‖ `←INS-rkka-red-army-and-rvr`[参谋长与建军摩擦|1918–1929]: 历任方面军司令及1925–1928年总参谋长，与伏罗希洛夫产生职权与训战分歧。 ； `→INS-rkka-red-army-and-rvr`[front-commander-and-strategist|1918-1929]: 统率红军东线与高加索战线获胜，1920年夏指挥西方面军进攻华沙受挫并与斯大林结怨，1921年主持镇压喀琅施塔得与坦波夫起义。
+- **`POL-first-five-year-plan`**（第一个五年计划）: 苏联首部正式工业化纲领，1928–1929年在起点与最高方案争论中定案。1929-04-16至23日中央联席全会、04-23至29日十六次党代表会议及05-20至28日全苏苏维埃五大批准最高方案；下半年投资、钢铁与集体农庄指标加码，冲垮布哈林均衡路线，与NEP退场、强制集体化并进。 ‖ `←INS-rkka-red-army-and-rvr`[工业化军备重塑|1928–1929]: 重工业五年计划与阶级配额重塑红军后勤现代化与干部构成。
+- **`EVT-1918-03-brest-litovsk-treaty`**（1918年布列斯特-里托夫斯克和约危机与签约）: 1917年12月停战至1918年3月签约，列宁主和、托洛茨基“不战不和”与布哈林革命战争路线交锋。德军进逼后，中央2月23日以7赞成、4反对、4弃权接受最后通牒；和约保存政权，也加深党内裂痕并促使左翼社革党退阁。 ‖ `←INS-rkka-red-army-and-rvr`[enabled_survival|1918.03]: 退出大战释放机动兵力投入内战。
+- **`ORG-workers-opposition`**（工人反对派）: 俄共（布）党内以产业工人和工会干部为主体的左翼反对派（1920–1922），由什利亚普尼科夫、梅德韦杰夫及理论代言人柯伦泰领导。在1920–1921年工会争论中痛斥党政官僚化与专家“一长制”，主张由“全俄生产者代表大会”及工会自治管理国民经济；1921年十大被定性为无政府工团主义倾向并遭解散。 ‖ `←INS-rkka-red-army-and-rvr`[criticized|1920–1921]: 工人反对派批评工会军事化与官僚指挥。
 
-### 邻居节点: `EVT-1918-1920-russian-civil-war`
-- **时效关系边** (`INS-rkka-red-army-and-rvr` → `EVT-1918-1920-russian-civil-war` | `won-interior-lines-war` | 有效时段: `1918-1920`): 依托苏维埃腹地6000万人口、沙皇中央军火库与莫斯科放射铁路网，以逾4.8万军事专家与政委双签制在多线内战中击溃分散白军。
-- **时效关系边** (`EVT-1918-1920-russian-civil-war` → `INS-rkka-red-army-and-rvr` | `institutional-vehicle` | 有效时段: `1918–1920`): 红军专家—政委体制与突击战线铁路调配承载内线战略
-- **节点定性微摘要 [T1]** (完备度 `draft`): 1918–1920年苏俄内战：布尔什维克依托“苏托邦”人口、军火与莫斯科铁路枢纽内线机动，先后粉碎高尔察克、邓尼金、弗兰格尔白军及马赫诺黑军，并压制社革党第三力量；协约国干涉与边疆民族武装相互牵制。
-
-### 邻居节点: `PER-frunze`
-- **时效关系边** (`PER-frunze` → `INS-rkka-red-army-and-rvr` | `reformer-chairman` | 有效时段: `1924.03-1925.10`): 接替托洛茨基主持1924-1925军事改革，确立正规军与领土民兵混合体制并加强党对指挥系统垄断。
-- **时效关系边** (`INS-rkka-red-army-and-rvr` → `PER-frunze` | `reformed` | 有效时段: `1924–1925`): 伏龙芝改革建立正规干部师与地方领土民兵混合体制并重塑条令纪律（1925.01接替托洛茨基，1925.10.31去世后由伏罗希洛夫继任）。
-- **节点定性微摘要 [T1]** (完备度 `draft`): 米哈伊尔·伏龙芝（1885–1925），内战红军名将：1919年东线击溃高尔察克，1920年南线攻克弗兰格尔克里米亚；1923年十二大迫斯大林民族政策让步，1924–1925主持军事改革接替托洛茨基，1925年10月手术后猝死。
-
-### 邻居节点: `PER-tukhachevsky`
-- **时效关系边** (`PER-tukhachevsky` → `INS-rkka-red-army-and-rvr` | `front-commander-and-strategist` | 有效时段: `1918-1929`): 统率红军东线与高加索战线获胜，1920年夏指挥西方面军进攻华沙受挫并与斯大林结怨，1921年主持镇压喀琅施塔得与坦波夫起义。
-- **时效关系边** (`INS-rkka-red-army-and-rvr` → `PER-tukhachevsky` | `参谋长与建军摩擦` | 有效时段: `1918–1929`): 历任方面军司令及1925–1928年总参谋长，与伏罗希洛夫产生职权与训战分歧。
-- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 红军统帅与军事理论家（1893–1937，本卡至1929年）。前近卫谢苗诺夫团少尉投奔红军，历掌东线第5集团军与高加索方面军；1920年夏率西方面军进逼华沙失利，与斯大林及西南方面军围绕利沃夫调兵与败责产生长期争执；1921年受命镇压喀琅施塔得起义并指挥坦波夫清剿重创安东诺夫军主力；1925–1928年任工农红军参谋长。
-
-### 邻居节点: `PER-dzerzhinsky`
-- **时效关系边** (`INS-rkka-red-army-and-rvr` → `PER-dzerzhinsky` | `secured_rear` | 有效时段: `1918–1920`): 契卡肃反与铁路保卫支撑红军后勤。
-- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 波兰立陶宛社民党与布尔什维克领导人。1917年建全俄肃反委员会（契卡）并续掌GPU/OGPU至逝世，奠定苏维埃安全与法外镇压体制；1924–1926年兼任最高国民经济委员会主席，力挺新经济政策市场均衡、保护技术专家并反对超工业化，1926年7月预警“红色独裁者”后猝逝于中央全会。
-
-### 邻居节点: `POL-war-communism`
-- **时效关系边** (`INS-rkka-red-army-and-rvr` → `POL-war-communism` | `sustained_by` | 有效时段: `1918–1921`): 余粮征集与劳动力抽调支撑红军规模。
-- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 1918年夏至1921年3月苏维埃经济政策总称：余粮收集制、中小工业国有化、取缔私商、货币贬值与实物配给并举；因内战饥荒与国家能力崩溃而强化，却在1921年喀琅施塔得与坦波夫危机下为新经济政策实物税所取代；其性质是应急、乌托邦跃进还是国家统制传统延续，史家分歧剧烈。
-
-### 邻居节点: `EVT-1918-03-brest-litovsk-treaty`
-- **时效关系边** (`INS-rkka-red-army-and-rvr` → `EVT-1918-03-brest-litovsk-treaty` | `enabled_survival` | 有效时段: `1918.03`): 退出大战释放机动兵力投入内战。
-- **节点定性微摘要 [T1]** (完备度 `draft`): 1917年12月停战谈判至1918年3月签约：党内列宁“割地喘息”派、托洛茨基“不战不和”与布哈林“革命战争”派激烈对决；2月18日德军恢复进攻并经2月18/19日夜 7:5:1 试探性电告后，2月23日（公历）中央委员会以 **7:4:4** 接受严苛最后通牒，3月3日签约并经俄共七大批准，左翼社革党遂退出人民委员会。
-
-### 邻居节点: `ORG-workers-opposition`
-- **时效关系边** (`INS-rkka-red-army-and-rvr` → `ORG-workers-opposition` | `criticized` | 有效时段: `1920–1921`): 工人反对派批评工会军事化与官僚指挥。
-- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 俄共（布）党内以产业工人和工会干部为主体的左翼反对派（1920–1922），由什利亚普尼科夫、梅德韦杰夫及理论代言人柯伦泰领导。在1920–1921年工会争论中痛斥党政官僚化与专家“一长制”，主张由“全俄生产者代表大会”及工会自治管理国民经济；1921年十大被定性为无政府工团主义倾向并遭解散。
-
-### 邻居节点: `MTG-1919-03-8th-party-congress`
-- **时效关系边** (`MTG-1919-03-8th-party-congress` → `INS-rkka-red-army-and-rvr` | `policy-confirmed` | 有效时段: `1919.03`): 击败军事反对派，确认военспецy—政委红军体制
-- **时效关系边** (`INS-rkka-red-army-and-rvr` → `MTG-1919-03-8th-party-congress` | `军事争论定调` | 有效时段: `1919.03`): 军事反对派挑战专家路线，大会确认正规军与政治监督并行。
-- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 1919年3月18日至23日，俄共（布）八大在内战中通过第二党纲，围绕民族自决、红军正规化与党内集中化激烈争辩，提出巩固与中农的联盟。大会及会后一中全会确立政治局、组织局和书记处常设框架，否定党组织联邦制并强化党团对苏维埃的控制；军事反对派与民主集中派的抗辩凸显集权并非无争议。
-
-### 邻居节点: `PER-voroshilov`
-- **时效关系边** (`PER-voroshilov` → `INS-rkka-red-army-and-rvr` | `peoples_commissar_head` | 有效时段: `1925.11–1929.12`): 执掌陆海军人民委员部与苏联革军委（РВС СССР），警惕农民地域师政治风险、推进干部工农化并争取一五计划军工拨款
-- **时效关系边** (`INS-rkka-red-army-and-rvr` → `PER-voroshilov` | `继任掌军` | 有效时段: `1925.11–1929.12`): 接任革军委主席，防范农民地域师并推行1928年干部“工农化”。
-- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 卢甘斯克工人布尔什维克（1881–1969，本卡至1929年）。1918年察里津保卫战与斯大林结盟抵制托洛茨基起用旧军事专家路线；1919年在八大代表察里津系参与军事反对力量，后任第一骑兵军革军委委员；1925年11月继任苏联陆海军人民委员兼苏联革命军事委员会主席，1926年入政治局，1928–1929年坚定支持斯大林击败布哈林。
-
-### 邻居节点: `PER-stalin`
-- **时效关系边** (`INS-rkka-red-army-and-rvr` → `PER-stalin` | `战线抗命与政治摩擦` | 有效时段: `1918–1920；1925–1929`): 察里津排斥旧专家并对革军委抗命，后借反波拿巴猜忌取代托派。
-- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 布尔什维克高加索地下组织者、民族事务人民委员（1917–1923）及中央总书记（1922起）。依托书记处任命权与安全危机叙事，先联季-加压制托洛茨基，再联布哈林击溃联合反对派；1927–1929年以战备恐慌与“自上而下革命”击败布哈林集团，1929年12月拍板“把富农作为阶级消灭”并终结新经济政策。
-
-### 邻居节点: `POL-first-five-year-plan`
-- **时效关系边** (`INS-rkka-red-army-and-rvr` → `POL-first-five-year-plan` | `工业化军备重塑` | 有效时段: `1928–1929`): 重工业五年计划与阶级配额重塑红军后勤现代化与干部构成。
-- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 1928–1929年定案的苏联首部正式工业化纲领：国家计委“起点方案”与“最高方案”之争，经 `1929-04-16` 至 `23` 中央联席全会、`04-23` 至 `29` 第十六次党代表会议与 `05-20` 至 `28` 第五次全苏苏维埃代表大会批准最高方案；下半年工业投资、钢铁与集体农庄指标连环加码，冲垮布哈林“蜗牛般速度”均衡路线，标志新经济政策体制退场与强制集体化并进。
-
-## 3. 关联史学争鸣光谱 (Historiographical Debates)
+## 3. 关联史学争鸣与学者论断索引 (主卡外关联争鸣 2 项)
 ### `DEB-1918-red-terror-and-civil-war-origins`：红色恐怖、契卡扩张与内战期一党专政起源之争（1918–1921）
 ## [T1] 核心问题定义
 红色恐怖和契卡法外权力是列宁主义政治逻辑的必然结果，还是内战、粮食危机、联盟破裂与地方暴力交织下的制度选择？中央命令与地方自主行动怎样互相强化？恐怖升级、社会主义对手遭镇压和一党统治形成各有不同时间线，不能压缩成同一事件。
@@ -114,7 +70,7 @@
 
 ### `DEB-1918-war-communism-ideology-or-emergency`：战时共产主义与早期一党制本质之争：内战应急、乌托邦跃进还是国家统制连续？
 ## [T1] 核心问题定义
-1918–1921年的全面工业国有化、余粮收集制（`продразвёрстка`）、取缔私商、劳动军事化及多党苏维埃向一党专政的收缩，究竟是内战与供给崩溃逼迫的生存应急反应，还是布尔什维克反市场乌托邦蓝图的激进兑现，抑或一战以来国家统制与基层危机交互演化的结果？“战时共产主义”系1921年新经济政策转向时的事后追赋标签，须严格区分措施出台序列与事后总结。
+1918至1921年的全面国有化、余粮收集制、取缔私商、劳动军事化，以及多党苏维埃收为一党专政，究竟是内战与供给崩溃逼出的生存应急，还是反市场乌托邦的激进兑现，抑或一战以来国家统制与基层危机交互的结果？“战时共产主义”是1921年转向时的事后标签，须分清措施序列与事后总结。
 
 ## [T2] 各学派立场对照矩阵
 
@@ -127,9 +83,31 @@
 | **战时国家统制连续与自下而上倒逼论** | Lars T. Lih; S. A. Smith, *Red Petrograd* (1983); David Hoffmann (2011) | 揭示沙皇与临时政府在一战中已启动粮食专卖与国家统制；Smith证明1917–1918春77%早期企业没收源自基层工厂委员会应对关厂危机的自下而上压力，而非中央乌托邦指令。 | `CLM-smith-sa-1983-defensive-workers-control`; `CLM-smith-sa-1983-from-workers-control-to-nationalization`; `CLM-hoffmann-2011-continuum-of-total-war-1914-1929` | 总体战技术连续性不能替代对布尔什维克消灭整个有产阶级政治权利之独特意识形态动力的解释。 |
 | **复合危机、党内张力与农村社会钳制论** | Alexander Rabinowitch (2007); Robert V. Daniels (1960); Moshe Lewin (1968/1985) | 追踪布列斯特和约、左翼社革党决裂及左翼共产主义者/工人反对派论战如何一步步锁死多党与党内多元空间，同时揭示小农汪洋的反抗最终迫使政权在1921年退却但保留了战时强制记忆。 | `CLM-rabinowitch-2007-contingency-of-dictatorship`; `CLM-daniels-1960-left-communists-1918`; `CLM-figes-1996-peasant-wars-and-nep-retreat`; `CLM-zemskov-1929-dekulakization-demographic-baseline` | 首都与萨拉托夫、坦波夫、乌拉尔等外省的时间差与暴力烈度须结合地方档案（Raleigh、Churakov）细化。 |
 
-## 4. 关联时间线锚点 (共 5 条)
-- **1920-07-23 [N.S.]** (`TL-W26-1920-07-23-01`, L3): **加米涅夫令西南方面军主攻利沃夫方向** — 红军总司令令叶戈罗夫—斯大林西南方面军向利沃夫进攻以分割波军，而非优先增援图哈切夫斯基华沙轴，铸成8月南翼空虚。
-- **1920-08-13 [N.S.]** (`TL-W26-1920-08-13-01`, L3): **斯大林拒绝将第一骑兵军北调华沙方向** — 总司令加米涅夫指令西南方面军政委斯大林将骑兵调援西方面军，遭拒；此时第一骑兵军深陷利沃夫，无法及时支援毕苏斯基反击点。
-- **1924-04-01 [N.S.]** (`TL-W36-1924-04-01`, L3): **斯大林讲授《论列宁主义基础》初版；伏龙芝替代斯克良斯基掌军委** — 1924年4月斯大林在斯维尔德洛夫大学讲授《论列宁主义基础》（5月成书，初版仍遵循正统承认一国无法独自取得社会主义最终胜利与组织社会主义生产）。同期伏龙芝取代托洛茨基亲信斯克良斯基出任革军委副主席兼副人民委员，架空托氏军权；5月托氏出版《论列宁》遭批。
-- **1925-01-17 [N.S.]** (`TL-W36-1925-01-17-01`, L3): **中央—中监委联席全会解除托洛茨基陆海军人民委员兼革军委主席职务** — 继托洛茨基1925-01-15致信请求卸去军委主席且拒不认错后，01-17中央与中监委联席全会正式解除其陆海军人民委员兼苏联革军委主席职务（伏龙芝继任，其10月去世后由伏罗希洛夫接掌），同时由斯大林联手多数派否决季加开除其出政治局提案并宣告“文学讨论”闭幕；“三驾马车”旋因共同敌人倒台走向1925年分裂。
-- **1926-07-23 [N.S.]** (`TL-W25-1926-07-23-01`, L3): **七月联席全会首次动用十大第7条，将季诺维也夫逐出政治局** — 全会闭幕前首次援引俄共（布）十大《关于党的统一》秘密第7条开除季诺维也夫政治局席位、开除拉斯舍夫中央委员并革去革军委副职外放中东路，增补鲁祖塔克及奥尔忠尼启则、基洛夫、卡冈诺维奇等五名候补。
+
+### 3.1 关联核心论断与史学家学派坐标 (`CLM-*` → `SCH-*`, 展示前 24/36 条)
+- **`CLM-deutscher-1959-disarmed-prophet-paradox`** [`SCH-isaac-deutscher`(艾萨克·多伊彻) | （中译本无独立纸页；对应第二部 1923 年争论章）]: 
+- **`CLM-service-2009-trotsky-authoritarian-consensus`** [`SCH-service-robert`(罗伯特·瑟维斯) | 中译 EPUB 无纸页码；对应英文本第 23–24、28–29、37 章及引言]: 
+- **`CLM-mawdsley-1987-sovdepia-demographic-industrial-base`** [`SCH-mawdsley-evan`(埃文·莫兹利) | pp. 56–58, 69, 185–188, 217–218, 283–284]: 
+- **`CLM-kakurin-1928-red-army-interior-lines-strategy`** [`SCH-kakurin-nikolai`(尼古拉·叶夫根尼耶维奇·卡库林) | pp. xvi–xviii, 91–93, 101–103, 198–203, 210–229]: 
+- **`CLM-stalin-docs-tsaritsyn-and-civil-war-command-style`** [`SCH-dolmatov-vladimir`(弗拉基米尔·多尔马托夫（编） · archival-documentary-edition)]: 
+- **`CLM-mawdsley-1987-civil-war-militarized-regime`** [`SCH-mawdsley-evan`(埃文·莫兹利) | pp. 328, 331, 346-347]: 
+- **`CLM-smirnov-1920s-territorial-militia-and-combat-training-deficit`** [`SCH-smirnov-andrei`(安德烈·阿纳托利耶维奇·斯米尔诺夫) | pp. 102, 761-764, 779-783, 792-794, 817]: 
+- **`CLM-smirnov-red-army-commanders-vs-voenspetsy-1920s`** [`SCH-smirnov-andrei`(安德烈·阿纳托利耶维奇·斯米尔诺夫) | pp. 628-634, 670-672, 680-694]: 
+- **`CLM-service-2009-trotsky-political-tactical-blunders`** [`SCH-service-robert`(罗伯特·瑟维斯) | 中译 EPUB 无纸页码；对应英文本引言及第 31–32、37–38 章]: 
+- **`CLM-shlapentokh-bonapartism-fear-against-trotsky`** [`SCH-isaac-deutscher`(艾萨克·多伊彻) | p. 370, p. 374 (cf. The Prophet Unarmed ch21#L49-L50, ch22#L114-L175, ch27#L245-L260)]: 
+- **`CLM-stalin-war-1920-polish-war-lessons`** [`SCH-shearer-david`(戴维·R·希勒) | pp. 4, 11–15 (PDF pp. 11, 17–22)]: 
+- **`CLM-avrich-1970-white-plot-refutation`** [`SCH-avrich-paul`(保罗·阿夫里奇) | pp. 143-147, 816-818]: 
+- **`CLM-pipes-1990-red-terror-leninist-logic`** [`SCH-pipes-richard`(理查德·派普斯) | ch. 18 (The Red Terror)]: 
+- **`CLM-leggett-1981-vecheka-extra-legal-origins`** [`SCH-leggett-george`(乔治·莱格特) | pp. 17-22, 47-49 (PDF pp. 55-60, 85-87)]: 
+- **`CLM-leggett-1981-red-terror-institutionalization`** [`SCH-leggett-george`(乔治·莱格特) | pp. 56-59, 102-115, 144-145 (PDF pp. 94-97, 140-153, 182-183)]: 
+- **`CLM-leggett-1981-cheka-to-gpu-continuity`** [`SCH-leggett-george`(乔治·莱格特) | pp. 339-352, 355-363 (PDF pp. 377-390, 393-401)]: 
+- **`CLM-rabinowitch-2007-contingency-of-dictatorship`** [`SCH-rabinowitch-alexander`(亚历山大·拉比诺维奇) | pp. xi-xii, 390-398]: 
+- **`CLM-rabinowitch-2007-left-sr-coalition-collapse`** [`SCH-rabinowitch-alexander`(亚历山大·拉比诺维奇) | pp. 274-282, 287-309, 395-396]: 
+- **`CLM-raleigh-2001-local-bolshevik-violence-and-clientelism`** [`SCH-raleigh-donald`(唐纳德·J·罗利) | Local PDF pp. 104, 112–130; English print pagination not verified]: 
+- **`CLM-cheka-chronicle-hostage-and-local-autonomy`** [`SCH-ratkovsky-ilya`(伊利亚·拉特科夫斯基) | EPUB OPS/ch1-6.xhtml; OPS/ch1-10.xhtml; OPS/ch1-14.xhtml; OPS/ch1-15.xhtml; OPS/ch1-16.xhtml; OPS/ch1-19.xhtml（提取文本无印刷页码）]: 
+- **`CLM-cheka-chronicle-suppression-of-socialist-rivals`** [`SCH-ratkovsky-ilya`(伊利亚·拉特科夫斯基) | EPUB OPS/ch1-4.xhtml; OPS/ch1-5.xhtml; OPS/ch1-9.xhtml; OPS/ch1-10.xhtml; OPS/ch1-15.xhtml; OPS/ch1-16.xhtml（提取文本无印刷页码）]: 
+- **`CLM-plekhanov-am-dzerzhinsky-cheka-institutionalization`** [`SCH-ratkovsky-ilya`(伊利亚·拉特科夫斯基) | pp. 55-56, 97-106, 118-123, 147-155, 209-211, 228]: 
+- **`CLM-halle-1920-martov-critique-of-terror-and-21-conditions`** [`SCH-martov-iulii`(尤利·奥西波维奇·马尔托夫 · participant-primary-text) | pp. 167–170, 173, 175–176, 179 (Lih translation in the 2011 Lewis/Lih edition; printed page = PDF page − 1). Full speech pp. 167–179, delivered 15 October 1920 [N.S.]]: 
+- **`CLM-smith-scott-2011-psr-third-force-collapse`** [`SCH-radkey-oliver`(奥利弗·亨利·拉德基) | pp. 452-455, 467-473, 490-493 (PDF pp. 468-471, 483-489, 506-509)]: 
+
+## 4. 关联时间线骨干锚点 (L0–L2 展示 0 条，另有 5 条 L3 逐日细节见 `timeline/L3_daily/`)

@@ -7,8 +7,8 @@ publication_year: 1983
 source_tier: A
 local_source_path: "sources/monographs/smith_1983_red_petrograd/ch06_pages_151-175.md#L118-L482"
 original_pages: "pp. 141–149, 258 (PDF pp. 153–161, 270)"
-targets_cards: ["CON-workers-control", "ORG-factory-committees"]
-debate: DEB-1917-workers-control-nature
+targets_cards: ["CON-workers-control", "ORG-factory-committees-1917"]
+debate: DEB-1918-working-class-and-bolsheviks
 supports: []
 rebuts: []
 qualifies: []

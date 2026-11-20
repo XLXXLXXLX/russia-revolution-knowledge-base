@@ -7,11 +7,8 @@ publication_year: 1968
 source_tier: A
 local_source_path: "sources/monographs/rabinowitch_1968_prelude_zh/ch07_5七月起义开始.md#L238-L374"
 original_pages: "PDF pp. 61-67, 80-87, 121-122"
-targets_cards:
-  - EVT-1917-07-july-days
-  - GRP-petrograd-garrison-soldiers
-  - GRP-kronstadt-sailors
-debate: DEB-spontaneity-vs-conspiracy-july-1917
+targets_cards: ["EVT-1917-07-july-days", "EVT-1917-10-october-revolution", "EVT-1921-kronstadt"]
+debate: DEB-1917-july-days-spontaneity-vs-conspiracy
 supports: []
 rebuts: []
 qualifies: []

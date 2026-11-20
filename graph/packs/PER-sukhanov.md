@@ -1,14 +1,9 @@
-# 1-Hop 平衡上下文包：`PER-sukhanov` (尼古拉·苏汉诺夫)
+# 1-Hop 去重平衡上下文包：`PER-sukhanov`
 
-> 本文件由 `python scripts/kb.py pack` 自动编译，旨在将失控的 `1+N` 随机读取压缩为**等权重、带时效边实质与史学盲区告警**的单次全景读取。
+> 由 `python scripts/kb.py pack` 动态编译：保留 **100% 一跳邻居与多时段关系边**，跨卡自动去重争鸣与时间线，并关联学者学派 (`SCH-*`)。
 
-## 0. 认知完备度与反偏斜仪表盘 (Epistemic & Skew Warnings)
-- **主卡路径**: `cards/people/PER-sukhanov.md`
-- **完备度等级**: `multi-perspective`
-- **已覆盖视角**: `eyewitness-memoir, february-institutional-history, menshevik-theory, order-one-primary-text, lenin-our-revolution-primary-text, L3-daily-chronology, menshevik-defensism-galili`
-- **待补齐视角**: `order-one-soldier-meeting-stenography, soviet-economic-employment-records`
-- **偏斜风险提示**:
-  - ⚠️ 主卡显式声明尚缺以下视角待补: `order-one-soldier-meeting-stenography, soviet-economic-employment-records`。
+## 0. 认知完备度与反偏斜仪表盘
+- **`PER-sukhanov`** (尼古拉·苏汉诺夫 | `cards/people/PER-sukhanov.md` | `multi-perspective`): 已覆盖=`eyewitness-memoir, february-institutional-history, menshevik-theory, order-one-primary-text, lenin-our-revolution-primary-text, L3-daily-chronology, menshevik-defensism-galili`；待补=`order-one-soldier-meeting-stenography, soviet-economic-employment-records`
 
 ## 1. 主卡核心层 ([T1] + [T2])
 ## [T1] 60秒定性微摘要
@@ -42,44 +37,18 @@
 - **苏汉诺夫本人**的现场观察有独特价值；但他关于布尔什维克胜利、退场责任和社会主义前提的判断，写作时已受十月后的结果影响，须与大会记录、同时期报刊及不同派别回忆交叉检验。
 - **列宁与孟什维克的分歧**涉及革命阶段、国际条件和国家权力能否改变落后条件，不能把双方理论判断直接当作不证自明的社会事实。
 
-## 2. 一跳邻域等权重微摘要 (共 9 个关联节点，严防大卡霸占上下文)
-### 邻居节点: `ORG-petrograd-soviet`
-- **时效关系边** (`PER-sukhanov` → `ORG-petrograd-soviet` | `founder-and-executive` | 有效时段: `1917`): 从临时执委会到组阁磋商的参与者
-- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 1917年二月革命后在塔夫利达宫诞生的首都工兵政权：执委会主席始终为齐赫伊泽，策烈铁里是执委会常务局核心领袖并主导“革命护国”路线，颁布《第一号命令》重塑军队纪律；夏秋左翼浪潮下于俄历8月31日（公历9月13日）全体大会首次通过布尔什维克决议，托洛茨基随后当选主席，十月以军事革命委员会夺权枢纽终结临时政府。
+## 2. 一跳邻域全量微摘要目录 (去重后共 9 个节点，0 截断)
+- **`PER-gorky`**（马克西姆·高尔基）: 俄国及苏联著名作家、政论家（1868—1936）。1905—1907年力助布尔什维克筹款，1908—1910年赞助卡普里党校并倡“造神说”。1917—1918年主编《新生活报》撰《不合时宜的思想》痛斥街头暴力与专政，内战期营救学者；1921年赴欧，1928—1932年归苏并背书斯大林体制。 ‖ `→PER-sukhanov`[novaya-zhizn-co-editor|1917.04–1918.07]: 共同主持彼得格勒半独立左翼日报《新生活报》，成为1917–1918年批判布尔什维克暴力专政的核心言论阵地 ； `←PER-sukhanov`[novaya-zhizn-colleague|1917.04–1918]: 《新生活报》同人，国际主义论说阵地
+- **`ORG-petrograd-soviet`**（彼得格勒工兵代表苏维埃）: 二月革命后诞生于塔夫利达宫的工兵政权，颁布《第一号命令》。执委会主席为齐赫伊泽，策烈铁里是常务局核心并主导革命护国路线。1917-08-31[O.S.]/09-13[N.S.]首次通过布尔什维克决议，托洛茨基随后任主席；十月军事革命委员会成为推翻临时政府的枢纽。 ‖ `←PER-sukhanov`[founder-and-executive|1917]: 从临时执委会到组阁磋商的参与者
+- **`PER-martov-l`**（尤利·马尔托夫）: 孟什维克核心领袖与国际主义左翼旗手。1903年二大凭党章第一条（28:22:1）与列宁分道；1917年七月夜倡“清一色社会主义政府”遭党内主流否决，十月二大率派退场；1918年工人抗议浪潮中坚持苏维埃合法反对派立场，1920年哈雷大会与季诺维也夫正面交锋痛斥恐怖与二十一条，后流亡柏林病逝。 ‖ `←PER-sukhanov`[internationalist-ally|1917]: 同反战国际主义，1917-05 起正式入孟什维克国际主义派，二大退场问题发生分歧
+- **`PER-lenin`**（弗拉基米尔·列宁）: 布尔什维克党缔造者、苏俄人民委员会主席（1917–1924）。1893年投身马克思主义运动，1903年促成布尔什维克分化；1917年发表《四月提纲》并领导十月夺权，历经布列斯特和约、内战与战时共产主义；1921年主持转向新经济政策，晚年（1922–1923）就官僚化与接班人同斯大林冲突。 ‖ `←PER-sukhanov`[eyewitness-and-theoretical-opponent|1917–1923]: 亲历归国演说；革命成熟度论战被列宁点名
+- **`PER-milyukov`**（帕维尔·米留可夫）: 俄国历史学家、卡德特党核心领袖（1859–1943）。主持解放同盟确立四尾制宪与有偿征地纲领；一战任进步同盟舵手，1916年发表“愚蠢还是叛国”演说；1917年任首届临时政府外长，03-03/03-16架空杜马，因04-18[O.S.]/05-01[N.S.]照会下野，流亡提“新策略”。 ‖ `←PER-sukhanov`[negotiating-counterpart|1917.03]: 就临时政府组成与支持条件谈判
+- **`PER-guchkov`**（亚历山大·伊万诺维奇·古契科夫）: 十月十七日同盟领袖、第三届杜马前议长与战时军事工业委员会负责人。1917年他同舒尔金赴普斯科夫接收尼古拉二世退位文书，出任临时政府陆海军部长；军队权威危机和四月政治危机中辞职。战前宫廷政变计划真实存在，但未实际发动，不能将其当作二月起义的成熟指挥方案。 ‖ `←PER-sukhanov`[duma-side-negotiation-counterpart|1917.03]: 夜间组阁谈判中杜马方面重要人物
+- **`PER-tsereteli`**（伊拉克利·策烈铁里）: 格鲁吉亚孟什维克领袖，1917年彼得格勒苏维埃“革命护国主义”总设计师。3月自西伯利亚流放归来后主导苏维埃执委会“星室”，力推联立政府与六月攻势以维系同自由派的同盟；因经济瘫痪与镇压布尔什维克而流失工人支持，十月革命后返格鲁吉亚并在流亡中著述。 ‖ `←PER-sukhanov`[executive-committee-defensist-rival|1917.03–10]: 执委会护国派主将，与国际主义派在战争与联合政府问题上分歧
+- **`PER-kerensky`**（亚历山大·克伦斯基）: 杜马劳动派律师、1917年临时政府司法部长、陆海军部长与总理（07-08[O.S.]/07-21[N.S.]起）。二月率先筹建杜马军事委员会，兼任苏维埃副主席入阁；六月攻势受阻、调防与退阁触发七月危机（07-06/19转全面溃败），八月与科尔尼洛夫决裂，十月离冬宫反扑失败流亡。 ‖ `←PER-sukhanov`[soviet-executive-and-minister-counterpart|1917.03–10]: 同在二月后苏维埃与政府并存结构的两端
+- **`PER-trotsky`**（列夫·托洛茨基）: 俄国革命家、“不断革命论”提出者，1905年彼得堡苏维埃实际领袖与1917年彼得格勒苏维埃主席；借军革委与苏维埃二大衔接统筹十月夺权，内战期起用4.8万军事专家缔造红军。1923–1927年领衔左翼与联合反对派抗衡斯大林集权并受“红色波拿巴”污名围剿，1927年被开除出党，1929年被驱逐出境。 ‖ `←PER-sukhanov`[congress-confrontation-opponent|1917-10-25 [O.S.]]: 苏维埃二大现场交锋对手，二大退场的直接语境
 
-### 邻居节点: `PER-martov-l`
-- **时效关系边** (`PER-sukhanov` → `PER-martov-l` | `internationalist-ally` | 有效时段: `1917`): 同反战国际主义，二大退场问题发生分歧
-- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 孟什维克核心领袖与国际主义左翼旗手。1903年二大凭党章第一条（28:22:1）与列宁分道；1917年七月夜倡“清一色社会主义政府”遭党内主流否决，十月二大率派退场；1918年工人抗议浪潮中坚持苏维埃合法反对派立场，1920年哈雷大会与季诺维也夫正面交锋痛斥恐怖与二十一条，后流亡柏林病逝。
-
-### 邻居节点: `PER-lenin`
-- **时效关系边** (`PER-sukhanov` → `PER-lenin` | `eyewitness-and-theoretical-opponent` | 有效时段: `1917–1923`): 亲历归国演说；革命成熟度论战被列宁点名
-- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 布尔什维克党缔造者、苏俄人民委员会主席（1917–1924）。1893年投身马克思主义运动，1903年促成布尔什维克分化；1917年发表《四月提纲》并领导十月夺权，历经布列斯特和约、内战与战时共产主义；1921年主持转向新经济政策，晚年（1922–1923）就官僚化与接班人同斯大林冲突。
-
-### 邻居节点: `PER-milyukov`
-- **时效关系边** (`PER-sukhanov` → `PER-milyukov` | `negotiating-counterpart` | 有效时段: `1917.03`): 就临时政府组成与支持条件谈判
-- **节点定性微摘要 [T1]** (完备度 `draft`): 俄国历史学家、立宪民主党（卡德特党）核心领袖。曾主持“解放同盟”并提出四尾制宪与有偿征地纲领；1915年组建战时“进步同盟”；1917年二月后任首届临时政府外交部长，在3月3日（俄历）/3月16日（公历）会议上架空国家杜马、宣称“全部完满权力”，5月因坚持参战照会下野。
-
-### 邻居节点: `PER-guchkov`
-- **时效关系边** (`PER-sukhanov` → `PER-guchkov` | `duma-side-negotiation-counterpart` | 有效时段: `1917.03`): 夜间组阁谈判中杜马方面重要人物
-- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 十月十七日同盟领袖、第三届杜马前议长与战时军事工业委员会负责人。1917年他同舒尔金赴普斯科夫接收尼古拉二世退位文书，出任临时政府陆海军部长；军队权威危机和四月政治危机中辞职。战前宫廷政变计划真实存在，但未实际发动，不能将其当作二月起义的成熟指挥方案。
-
-### 邻居节点: `PER-tsereteli`
-- **时效关系边** (`PER-sukhanov` → `PER-tsereteli` | `executive-committee-defensist-rival` | 有效时段: `1917.03–10`): 执委会护国派主将，与国际主义派在战争与联合政府问题上分歧
-- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 格鲁吉亚孟什维克领袖，1917年彼得格勒苏维埃“革命护国主义”总设计师。3月自西伯利亚流放归来后主导苏维埃执委会“星室”，力推联立政府与六月攻势以维系同自由派的同盟；因经济瘫痪与镇压布尔什维克而流失工人支持，十月革命后返格鲁吉亚并在流亡中著述。
-
-### 邻居节点: `PER-kerensky`
-- **时效关系边** (`PER-sukhanov` → `PER-kerensky` | `soviet-executive-and-minister-counterpart` | 有效时段: `1917.03–10`): 同在二月后苏维埃与政府并存结构的两端
-- **节点定性微摘要 [T1]** (完备度 `draft`): 俄国杜马劳动派律师、1917年临时政府司法部长（3月起）、陆海军部长（5月起）与总理（俄历7月8日起至十月）。二月革命中率先筹建杜马军事委员会；6月发动加里西亚攻势失败，7月事变后接掌总理，8月底与科尔尼洛夫决裂；十月起义当日上午离京求援失败后长期流亡欧美。
-
-### 邻居节点: `PER-gorky`
-- **时效关系边** (`PER-sukhanov` → `PER-gorky` | `novaya-zhizn-colleague` | 有效时段: `1917.04–1918`): 《新生活报》同人，国际主义论说阵地
-- **节点定性微摘要 [T1]** (完备度 `draft`): 俄国及苏联著名作家、政论家与无产阶级文学奠基象征（本名阿列克谢·马克西莫维奇·彼什科夫，1868–1936）。早年以《海燕》《母亲》成为俄国觉悟工人与革命青年最重要的文学精神图腾，并在1905–1907年革命期间利用文学版税与欧美募款充当布尔什维克核心财政后盾。1908–1910年在意大利卡普里岛创办工人党校，与波格丹诺夫、卢那察尔斯基共倡将社会主义塑造为集体人文新宗教的“造神说”（`богостроительство`），遭列宁严厉批判。1917–1918年在彼得格勒主编半独立左翼日报《新生活报》（*Новая жизнь*）并连载政论《不合时宜的思想》（*Несвоевременные мысли*），尖锐谴责布尔什维克将落后的俄国当作残酷的社会实验场、煽动街头暴民仇恨并查封独立报刊（该报于 `1918-07-16` 被查封）；内战期间主持“改善学者生活中央委员会”与“世界文学”出版社，利用同列宁的私人关系营救大批旧知识分子。1921年秋赴欧洲（后长居意大利索伦托）疗养；1928–1929年应斯大林高规格邀请两度返苏巡游，并于1929年6月参观白海索洛维茨基特别集中营（СЛОН）后撰文为劳改改造体制辩护，标志苏联文化界收编与社会主义现实主义体制化的关键转折；1930年代初正式定居苏联并任苏联作家协会首任主席，1936年6月18日在莫斯科近郊戈尔基病逝。
-
-### 邻居节点: `PER-trotsky`
-- **时效关系边** (`PER-sukhanov` → `PER-trotsky` | `congress-confrontation-opponent` | 有效时段: `1917-10-25 [O.S.]`): 苏维埃二大现场交锋对手，二大退场的直接语境
-- **节点定性微摘要 [T1]** (完备度 `multi-perspective`): 俄国革命家、“不断革命论”提出者，1905年彼得堡苏维埃实际领袖与1917年彼得格勒苏维埃主席；借军革委与苏维埃二大衔接统筹十月夺权，内战期起用4.8万军事专家缔造红军。1923–1927年领衔左翼与联合反对派抗衡斯大林集权并受“红色波拿巴”污名围剿，1927年被开除出党，1929年被驱逐出境。
-
-## 3. 关联史学争鸣光谱 (Historiographical Debates)
+## 3. 关联史学争鸣与学者论断索引 (主卡外关联争鸣 2 项)
 ### `DEB-1917-dual-power-and-february-origins`：二月革命起源与“双重政权”宪制形成之争（1917）
 ## [T1] 核心问题定义
 二月革命是无领导的群众爆发，还是工厂与兵营中分散的积极分子推动的起义？沙皇退位后，杜马临时委员会、苏维埃与临时政府如何谈判并形成彼此制约的权力格局？群众压力、精英选择和战时危机的因果权重仍有争议，不能以宫廷阴谋代替街头革命。
@@ -113,4 +82,31 @@
 | 当事人革命解释与反对派在场反证（B级文献） | [B级当事人文献] Leon Trotsky, *History of the Russian Revolution* (1930–32); N. N. Sukhanov, *The Russian Revolution, 1917* (1922) | 托洛茨基将起义定性为“在苏维埃合法性掩护下实施的武装夺权艺术”；**苏汉诺夫的证言尤具史学张力**——他虽作为孟什维克国际派痛斥布尔什维克政权缺乏民主准备、悔恨温和派10月25日夜退场将苏维埃拱手让给列宁，却**以亲历反对者身份断然驳斥右翼“纯军事阴谋”说**，证言彼得格勒工人与驻军当时确以压倒性多数支持推翻临时政府。 | `CLM-trotsky-1930-art-of-insurrection-and-soviet-legality`；`CLM-sukhanov-1922-october-walkout-tragedy` | 两者均属B级当事人回忆与事后政治辩护（托洛茨基旨在反击斯大林并凸显自身军革委功绩，苏汉诺夫旨在检讨国际派失策），必须与当时会议速记对读。 |
 | 农民道德经济、帝国边疆与十月记忆建构 | Orlando Figes (1996); Ronald Grigor Suny (2017); Eric Blanc (2021); Frederick C. Corney, *Telling October* (2004) | Figes揭示农民公社夺地遵循自身“道德经济”，利用《土地法令》将既成黑分土地合法化而非服从城市党令；Suny综合社会史与阶级话语极化；Blanc将1917年十月放入帝国边疆民族与阶级互动视野；Corney则考证党史委（Istpart）与1920年代庆典如何将原本混乱多中心的十月夺权事后重塑为宏大叙事神话。 | `CLM-figes-1996-peasant-moral-economy-1917`；`CLM-suny-2017-totalitarian-vs-social-history-turn`；`CLM-suny-2017-class-discourse-and-polarization`；`CLM-blanc-2021-borderlands-in-1905-and-1917`；`CLM-corney-2004-istpart-and-institutionalizing-october-memory` | 农民夺地与边疆动员支持推翻旧政权，但并不等于授权布尔什维克随后的余粮收集制与一党垄断；记忆建构研究不可消解1917年秋真实的社会崩溃。 |
 
-## 4. 关联时间线锚点 (共 0 条)
+
+### 3.1 关联核心论断与史学家学派坐标 (`CLM-*` → `SCH-*`, 展示前 24/30 条)
+- **`CLM-hasegawa-2018-dual-power-origins`** [`SCH-hasegawa-tsuyoshi`(长谷川毅) | pp. 626–638 (PDF pp. 647–659); cf. pp. 649, 660 (PDF pp. 670, 681)]: 
+- **`CLM-sukhanov-1922-october-walkout-tragedy`** [`SCH-sukhanov-nikolai`(尼古拉·苏汉诺夫) | pp. 631–647, 657–660 (PDF pp. 683–699, 709–711)]: 
+- **`CLM-sukhanov-1922-lenin-april-arrival-shock`** [`SCH-sukhanov-nikolai`(尼古拉·苏汉诺夫) | pp. 269–292 (PDF pp. 317–340)]: 
+- **`CLM-sukhanov-1922-dual-power-pact`** [`SCH-sukhanov-nikolai`(尼古拉·苏汉诺夫) | pp. 117–126, 150, 153–158 (PDF pp. 163–172, 196, 199–204); cf. pp. 68, 104–108, 113–114]: 
+- **`CLM-hasegawa-2018-sub-elite-activists`** [`SCH-hasegawa-tsuyoshi`(长谷川毅) | pp. 643–645 (PDF pp. 664–666); cf. pp. 203–204, 218 (PDF pp. 224–225, 239)]: 
+- **`CLM-hasegawa-2018-duma-committee-revision`** [`SCH-hasegawa-tsuyoshi`(长谷川毅) | pp. xiii–xiv (PDF pp. 14–15); pp. 366–368, 377–378 (PDF pp. 387–389, 398–399); p. 652 (PDF p. 673)]: 
+- **`CLM-gaida-2003-liberals-in-february-1917`** [`SCH-gaida-fedor`(费奥多尔·盖达) | pp. 355-356, 433-439]: 
+- **`CLM-trotsky-1930-dual-power-instability`** [`SCH-trotsky-leon`(列夫·达维多维奇·托洛茨基 · participant-historian) | （中译 EPUB 无纸页；第一卷第十一、十六章）]: 
+- **`CLM-galili-1989-revolutionary-defensism`** [`SCH-galili-ziva`(齐娃·加利利) | pp. 134-140, 148-151 (PDF pp. 152-158, 174-177)]: 
+- **`CLM-galili-1989-coalition-government-trap`** [`SCH-galili-ziva`(齐娃·加利利) | pp. 169-170, 177-181 (PDF pp. 195-196, 203-207)]: 
+- **`CLM-spitsyn-february-1917-elite-conspiracy-thesis`** [`SCH-spitsyn-yevgeny`(叶夫根尼·斯皮岑) | PDF pp. 11–15, 24, 28]: 
+- **`CLM-figes-1996-soldier-mutiny-and-social-inversion`** [`SCH-figes-orlando`(奥兰多·费吉斯) | pp. 404-412]: 
+- **`CLM-pipes-1990-october-classic-coup`** [`SCH-pipes-richard`(理查德·派普斯) | ch. 11 (The October Coup); cf. Introduction]: 
+- **`CLM-rabinowitch-1976-open-democratic-mass-party`** [`SCH-rabinowitch-alexander`(亚历山大·拉比诺维奇) | 未核：EPUB 章节及行号]: 
+- **`CLM-rabinowitch-1976-october-three-factions-debate`** [`SCH-rabinowitch-alexander`(亚历山大·拉比诺维奇) | 未核：EPUB 章节及行号]: 
+- **`CLM-rabinowitch-1976-trotsky-soviet-congress-strategy`** [`SCH-rabinowitch-alexander`(亚历山大·拉比诺维奇) | 未核：EPUB 章节及行号]: 
+- **`CLM-loginov-lenin-1917-fleeting-window-of-power`** [`SCH-loginov-vladlen`(弗拉德连·洛吉诺夫) | pp. 523-524, 531-532, 560-561, 621-622, 656-658]: 
+- **`CLM-smith-sa-1983-defensive-workers-control`** [`SCH-smith-sa`(斯蒂芬·A·史密斯（S. A. Smith）) | 中译本 pp. 106–112, 133, 135, 137, 191（即源文件标注 PDF pp. 111–117, 138, 140, 142, 196）；注意：均为中译本页码，非英文原版页码]: 
+- **`CLM-koenker-1981-moscow-october-armed-struggle-vs-petrograd`** [`SCH-koenker-diane`(黛安·P·科恩克尔) | pp. 329–355 (local PDF pp. 345–371); p. 366 (PDF p. 382)]: 
+- **`CLM-koenker-1981-rational-incremental-radicalization`** [`SCH-koenker-diane`(黛安·P·科恩克尔) | pp. 359–363 (local PDF pp. 375–379); p. 254 (PDF p. 270)]: 
+- **`CLM-basil-1984-october-and-vikzhel-collapse`** [`SCH-basil-john`(约翰·D·巴兹尔) | pp. 165–175（本地 PDF 同号）]: 
+- **`CLM-yao-hai-post-october-coalition-failure-and-one-party-formation`** [`SCH-yao-hai`(姚海) | [PDF pp. 532-535, 543-569]]: 
+- **`CLM-yao-hai-constituent-assembly-vs-soviet-legitimacy-clash`** [`SCH-yao-hai`(姚海) | [PDF pp. 574-596]]: 
+- **`CLM-rabinowitch-2007-constituent-assembly`** [`SCH-rabinowitch-alexander`(亚历山大·拉比诺维奇) | pp. 88-91, 105-110, 121-127]: 
+
+## 4. 关联时间线骨干锚点 (L0–L2 展示 0 条)

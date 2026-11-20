@@ -8,7 +8,7 @@ source_tier: A
 local_source_path: "sources/monographs/venturi_1960_roots/ch23_pages_691-720.md#L763-L1705"
 original_pages: "pp. 649, 655, 667-681, 716"
 targets_cards: ["ORG-narodnaya-volya"]
-debate: DEB-narodnaya-volya-jacobinism-vs-constitutionalism
+debate: DEB-1879-narodnaya-volya-to-bolshevism
 supports: []
 rebuts: []
 qualifies: []

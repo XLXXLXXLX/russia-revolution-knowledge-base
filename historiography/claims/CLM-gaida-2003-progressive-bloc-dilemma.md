@@ -7,8 +7,8 @@ publication_year: 2003
 source_tier: A
 local_source_path: "sources/monographs/gaida_2003_liberal_opposition_zh/ch05_pages_126-150.md#L251-L260"
 original_pages: "pp. 135-136, 162-168"
-targets_cards: ["ORG-progressive-bloc", "ORG-kadets", "PER-milyukov", "EVT-1915-progressive-bloc"]
-debate: DEB-1917-liberal-collapse
+targets_cards: ["ORG-octobrists-and-progressive-bloc", "ORG-kadets", "PER-milyukov", "EVT-1914-1916-wwi-mobilization-shell-crisis-and-progressive-bloc"]
+debate: DEB-1917-dual-power-and-february-origins
 supports: []
 rebuts: []
 qualifies: []
