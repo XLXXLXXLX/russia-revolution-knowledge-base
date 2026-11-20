@@ -1,0 +1,16 @@
+slug: ryazanovsky_history_of_russia_7ed_zh
+title: 俄罗斯史（第7版）
+author: Nicholas V. Riasanovsky；Mark D. Steinberg
+pub_year: 2005
+language: zh
+epistemic_tier: B
+source_file: inbox/俄罗斯史(第7版) ((美) 尼古拉·梁赞诺夫斯基,马_ (Z-Library).pdf
+chapter_count: 2
+needs_ocr: true
+notes: 提取器因 PDF 页面树循环错误（cycle in page tree）中止；目录及章节提取未完成，已设为隔离状态避免污染检索。
+extraction_status: failed
+extraction_error: 'PyMuPDF: cycle in page tree; extraction stopped before toc.md/manifest
+  generation.'
+partial_chapter_files:
+- ch00_封面.md
+- ch01_目录.md

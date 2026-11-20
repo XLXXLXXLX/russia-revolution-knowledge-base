@@ -10,7 +10,7 @@ names:
   - 叶夫列莫夫 (Ефремов)
 dates:
   start_ns: '1880-10-31'
-  end_ns: '1936-08-21'
+  end_ns: '1936-08-22'
   start_os: '1880-10-19'
 coverage_status: multi-perspective
 perspectives_present:
@@ -27,7 +27,7 @@ perspectives_missing:
 related_debates:
 - DEB-1921-trade-union-controversy-and-party-unity
 - DEB-1928-bukharin-alternative
-updated_at: '2026-11-19'
+updated_at: '2026-11-20'
 ---
 
 ## [T1] 150字定性微摘要
@@ -38,10 +38,10 @@ updated_at: '2026-11-19'
 ### 2.1 核心历史脉络
 - **印刷工与苏维埃活动（1880–1917）**：本姓叶夫列莫夫，1880-10-19 [O.S.] / 1880-10-31 [N.S.]生于彼得堡附近。做过印刷、刻版等工作，1904年加入布尔什维克，1905年参与列维尔（Reval，今塔林）苏维埃，经历逮捕、苦役与流放；1917年在莫斯科工会和党的组织中活动。
 - **工会中枢与十人纲领（1918–1921）**：1918年起进入全俄工会中央理事会领导，1919年任主席，后随国家组成改称全苏工会中央理事会（VTsSPS）。1918–1929指长期领导跨度，不能写成连续十一年无间断任主席。1920–1921年同列宁等提出《十人纲领》，反对托洛茨基把工会并入国家生产管理、以军事化办法整顿干部，也反对工人反对派让生产者大会掌管经济。十大工会表决336∶50∶18确立其阵营优势，但工会保护职能以党的政治支配为前提，不能等同独立工会制度。
-- **梁赞诺夫修正案与短暂失势（1921–1922）**：1921年全俄工会四大党团中，梁赞诺夫要求由组织起来的党员群众自行选举领导，修正案以约1500∶30通过。托姆斯基未阻止这一结果，随即被撤换并派往突厥斯坦，安德烈耶夫一度接掌工会；1922年恢复主席职务，同年进入政治局正式委员行列。此事说明他早在NEP开端已受中央约束，不是直到1929年才第一次遭政治干预（Daniels，pp.157–159）。
+- **梁赞诺夫修正案与短暂失势（1921–1922）**：1921年全俄工会四大党团中，梁赞诺夫要求由组织起来的党员群众自行选举领导，修正案以约1500∶30通过。托姆斯基未阻止这一结果。1921年被撤主席并派往突厥斯坦，安德烈耶夫接任主席；他回宠后先任全俄工会中央理事会书记，1922年春入政治局，同年秋才恢复主席，安德烈耶夫改任铁路工会。此事说明他早在NEP开端已受中央约束，不是直到1929年才第一次遭政治干预（Daniels，pp.157–159；书记、入局与复主席次序见pp.158–159）。
 - **NEP三角协调与集体合同（1922–1927）**：在“红色厂长—党组织—工会”的企业三角中，支持生产恢复，同时要求工资、劳动安全、集体合同及劳动争议处理保留实际作用。经济核算下国有企业也会压低成本、侵害工人利益，工会遂有调停与保护职能；但机关的任命、秘密党组和禁派别制度划定其上限。他参与压制左翼反对派，不能把后来反对斯大林倒推为始终反对一党垄断。1925–1927年英苏工会委员会又体现国际工会政策同苏联外交需要的交织。
 - **右翼三巨头与工会八大（1928）**：粮食供应恶化和投资加码中，同布哈林、李可夫反对非常征粮常态化与牺牲工人消费的超工业化。古比雪夫领导的工业机关要求提额、降低成本、扩大投资，与工会防卫工资和劳动条件发生正面冲突；具体人物亦有跨阵营合作，不能把所有冲突都归成固定三人集团。1928年12月全苏工会八大期间，斯大林派卡冈诺维奇进入工会领导层，改变干部名单和党团力量；托姆斯基辞职抗议并一度拒绝复工，实际控制先遭剥夺，主席名义尚未在当月完成正式撤销。
-- **四月决定、五六月执行与十一月认错（1929）**：1929-04-16至1929-04-23 [N.S.]中央与中监委联席全会决定解除其关键工会职务，暂留政治局席位。Filtzer记5月逐出主席团、引《劳动报》1929-06-02 [N.S.]报道；Daniels将中央工会清洗落实置于6月。故采用“四月党内决定—五六月执行及公布”，不把6月2日报刊日期擅定为全体手续唯一发生日，也不误称什维尔尼克立即接任。1929-03-06 [N.S.]解雇令允许厂方绕过定额冲突委员会（RKK）事前同意，以事后终局申诉取代事前防卫；《劳动法典》并未同步全盘修改，车间妥协仍存。十一月受严重警告，11月25日与布哈林、李可夫签认错声明，次日刊出。1930年才离开政治局；1936-08-21 [N.S.]在清洗威胁下自杀。
+- **四月决定、五六月执行与十一月认错（1929）**：1929-04-16至1929-04-23 [N.S.]中央与中监委联席全会决定解除其关键工会职务，暂留政治局席位。Filtzer记5月逐出主席团、引《劳动报》1929-06-02 [N.S.]报道；Daniels将中央工会清洗落实置于6月。故采用“四月党内决定—五六月执行及公布”，不把6月2日报刊日期擅定为全体手续唯一发生日，也不误称什维尔尼克立即接任。1929-03-06 [N.S.]解雇令允许厂方绕过定额冲突委员会（RKK）事前同意，以事后终局申诉取代事前防卫；《劳动法典》并未同步全盘修改，车间妥协仍存。十一月受严重警告，11月25日与布哈林、李可夫签认错声明，次日刊出。1930年才离开政治局；1936-08-22 [N.S.]自杀；若另有21日夜间异文，须附报道出处，不得把21日写入唯一 end_ns。
 
 ### 2.2 核心关系网络（结构化边表）
 | 目标节点 ID | 关系类型 | 有效时段 | 关系实质摘要 | 核心依据 |
@@ -67,7 +67,7 @@ updated_at: '2026-11-19'
 - **站内已核 S / A 级锚点**：
   - [Daniels RN-W1C](../../reading-notes/daniels_1960_conscience/RN-W1C-communist-oppositions-1918-1929.md)，原书[pp.133–157](../../sources/monographs/daniels_1960_conscience/ch06_pages_151-175.md)末尾与[pp.158–182](../../sources/monographs/daniels_1960_conscience/ch07_pages_176-200.md)开头（梁赞诺夫案与复职），[pp.333–357](../../sources/monographs/daniels_1960_conscience/ch14_pages_351-375.md)（pp.344–348工会八大至6月清洗）；[DATA-04](../../data/DATA-04-party-membership-and-congress-votes-1903-1929.md)。
   - [RN-W35多作者对读](../../reading-notes/schapiro_1981_and_lebsky_workers/RN-W35-schapiro-vs-lebsky-soviet-trade-unions-and-industrial-paternalism-1917-1929.md)、[Schapiro第1章论断](../../historiography/claims/CLM-schapiro-1981-end-of-illusion-unions-1917-to-tomsky-fall.md)、[Godson第5章论断](../../historiography/claims/CLM-godson-1981-tenth-congress-to-1929-transmission-belt-unions.md)、[Lebsky家长制论断](../../historiography/claims/CLM-lebsky-industrial-paternalism-origins-1917-1929.md)。
-  - [Filtzer RN-W20](../../reading-notes/filtzer_1986/RN-W20-nep-labor-market-and-1928-1929-shopfloor-turn.md)、[原书含p.108的切片](../../sources/monographs/filtzer_1986_soviet_workers/ch04_pages_101-125.md)与[注185所在切片](../../sources/monographs/filtzer_1986_soviet_workers/ch11_pages_276-300.md)、[清洗与突击劳动论断](../../historiography/claims/CLM-filtzer-1986-1929-tomsky-purge-and-shock-work.md)。p.108注引《劳动报》6月2日为报道锚点，不冒充已见原始免职公文。
+  - [Filtzer RN-W20](../../reading-notes/filtzer_1986/RN-W20-nep-labor-market-and-1928-1929-shopfloor-turn.md)、[原书pp.22–24五月逐出主席团](../../sources/monographs/filtzer_1986_soviet_workers/ch01_pages_26-50.md)、[原书含p.108的切片](../../sources/monographs/filtzer_1986_soviet_workers/ch04_pages_101-125.md)、[注35与注185所在切片](../../sources/monographs/filtzer_1986_soviet_workers/ch11_pages_276-300.md)、[清洗与突击劳动论断](../../historiography/claims/CLM-filtzer-1986-1929-tomsky-purge-and-shock-work.md)。五月逐出主席团的报道锚是第一章注35《劳动报》6月2日（书 pp.22–24）；p.108注185是3月6日人民委员会法令、3月7日《真理报》。两注不得对调，不冒充已见原始免职公文。
   - [Cohen决战札记](../../reading-notes/cohen_1973_bukharin/RN-W3-bukharin-stalin-1928-1929-showdown.md)、[Khlevniuk权力机器札记](../../reading-notes/khlevniuk_2015_stalin/RN-W3-politburo-apparatus-and-1929-victory.md)、[四月联席全会](../meetings/MTG-1929-04-cc-joint-plenum.md)、[右翼联盟](../organizations/ORG-right-opposition-1928.md)、[1928–1929微距卷](../../timeline/L3_daily/1928-1929_bukharin_stalin_final_showdown.md)、[工会争鸣](../../historiography/debates/DEB-1921-trade-union-controversy-and-party-unity.md)、[布哈林替代方案争鸣](../../historiography/debates/DEB-1928-bukharin-alternative.md)。
 - **外部待补核 S / A 级缺口**：
   - Charters Wynn托姆斯基传记及相关A级研究全文尚待入库，不虚构书页或把未读传记结论作独立证据。

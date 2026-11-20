@@ -1,7 +1,7 @@
 {
   "benchmark_system_version": "1.0.0",
   "created_at": "2026-11-19",
-  "last_maintained_at": "2026-11-19",
+  "last_maintained_at": "2026-11-20",
   "maintenance_policy": {
     "review_sla_days": 14,
     "min_holdout_ratio": 0.2,
@@ -44,7 +44,7 @@
       "format": "jsonl",
       "mode": "hybrid_canary_and_qa",
       "author": "subagent:gemini-4-hydrogen",
-      "last_reviewed": "2026-11-19"
+      "last_reviewed": "2026-11-20"
     },
     {
       "id": "B4B",
@@ -53,7 +53,7 @@
       "format": "jsonl",
       "mode": "hybrid_canary_and_qa",
       "author": "subagent:grok-4.7",
-      "last_reviewed": "2026-11-19"
+      "last_reviewed": "2026-11-20"
     },
     {
       "id": "B5",

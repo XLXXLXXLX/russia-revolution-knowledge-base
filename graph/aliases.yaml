@@ -1105,3 +1105,27 @@ entities:
     ru: "Закавказские республики, Бакинская коммуна и советизация Закавказья (1918–1921)"
     en: "Transcaucasian Republics, Baku Commune, and Sovietization (1918–1921)"
     aliases: ["外高加索民主联邦共和国", "巴库公社", "二十六名巴库政委", "格鲁吉亚民主共和国", "外高加索苏维埃化", "俄格1920条约"]
+
+  EVT-1861-02-emancipation-of-the-serfs:
+    canonical_zh: "1861年农奴制改革"
+    ru: "Крестьянская реформа 1861 года (Отмена крепостного права)"
+    en: "Emancipation of the Serfs (1861)"
+    aliases: ["废除农奴制宣言", "二一九宣言", "Манифест 19 февраля 1861 года", "Крестьянская реформа"]
+
+  EVT-1918-05-czechoslovak-legion-and-komuch-revolt:
+    canonical_zh: "1918年捷克斯洛伐克军团起义与萨马拉科穆奇“民主反革命”实验"
+    ru: "Восстание Чехословацкого корпуса и Комуч (1918)"
+    en: "Czechoslovak Legion Revolt and Komuch Democratic Counter-Revolution (1918)"
+    aliases: ["捷克军团起义", "萨马拉科穆奇事件", "东线民主反革命", "Мятеж Чехословацкого корпуса"]
+
+  MTG-1917-06-1st-congress-of-soviets:
+    canonical_zh: "全俄工兵代表苏维埃第一次代表大会"
+    ru: "I Всероссийский съезд Советов рабочих и солдатских депутатов"
+    en: "First All-Russian Congress of Soviets of Workers' and Soldiers' Deputies"
+    aliases: ["全俄苏维埃一大", "1917年6月全俄苏维埃代表大会", "First Congress of Soviets (June 1917)"]
+
+  MTG-1918-03-7th-party-congress:
+    canonical_zh: "俄国共产党（布尔什维克）第七次紧急代表大会"
+    ru: "Седьмой экстренный съезд РКП(б)"
+    en: "Seventh Extraordinary Congress of the Russian Communist Party (Bolsheviks)"
+    aliases: ["俄共（布）七大", "布党第七次代表大会", "7th Party Congress (1918)"]

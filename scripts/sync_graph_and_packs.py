@@ -101,38 +101,57 @@ def main() -> int:
                 continue
             if "---" in cols[0] or "---" in cols[1]:
                 continue
-            m = ID_PAT.search(cols[0])
-            if not m:
+            m0 = ID_PAT.findall(cols[0])
+            arrow_mode = False
+            if m0:
+                raw_targets = m0
+                rel = re.sub(r"`|\*", "", cols[1]).strip() or "related-to"
+                period = re.sub(r"`|\*", "", cols[2]).strip() or "1861-1929"
+                digest = re.sub(r"`", "", cols[3]).strip()
+                ev_col = cols[4] if len(cols) >= 5 else ""
+                direction = "→"
+            elif len(cols) >= 5 and cols[0] in ("→", "←", "↔", "->", "<-", "<->") and ID_PAT.search(cols[2]):
+                arrow_mode = True
+                direction = cols[0]
+                rel = re.sub(r"`|\*", "", cols[1]).strip() or "related-to"
+                raw_targets = ID_PAT.findall(cols[2])
+                period = re.sub(r"`|\*", "", cols[3]).strip() or "1861-1929"
+                digest = re.sub(r"`", "", cols[4]).strip()
+                ev_col = cols[4]
+            else:
                 continue
-            raw_target = m.group(0)
-            target = ID_REMAP.get(raw_target, raw_target)
-            if target == cid:
-                continue
-            if target not in valid_ids:
-                unresolved_errors.append(f"{cid} -> {raw_target}")
-                continue
-            rel = re.sub(r"`|\*", "", cols[1]).strip() or "related-to"
-            period = re.sub(r"`|\*", "", cols[2]).strip() or "1861-1929"
-            digest = re.sub(r"`", "", cols[3]).strip()
+
             if not digest or "一句话" in digest:
                 continue
-            ev_list = list(dict.fromkeys(EV_PAT.findall(cols[4]))) if len(cols) >= 5 else []
+            ev_list = list(dict.fromkeys(EV_PAT.findall(ev_col))) if ev_col else []
 
-            edge_key = (cid, target, rel[:60], period[:60])
-            if edge_key in seen_table_keys:
-                continue
-            seen_table_keys.add(edge_key)
-            overridden_directed_pairs.add((cid, target))
-            table_edges.append(
-                {
-                    "source": cid,
-                    "target": target,
-                    "relation": rel[:60],
-                    "period": period[:60],
-                    "digest": digest,
-                    "evidence": ev_list[:6],
-                }
-            )
+            for raw_target in raw_targets:
+                target = ID_REMAP.get(raw_target, raw_target)
+                if target == cid:
+                    continue
+                if target not in valid_ids:
+                    unresolved_errors.append(f"{cid} -> {raw_target}")
+                    continue
+                if arrow_mode and direction in ("←", "<-"):
+                    src_id, dst_id = target, cid
+                else:
+                    src_id, dst_id = cid, target
+
+                edge_key = (src_id, dst_id, rel[:60], period[:60])
+                if edge_key in seen_table_keys:
+                    continue
+                seen_table_keys.add(edge_key)
+                overridden_directed_pairs.add((src_id, dst_id))
+                table_edges.append(
+                    {
+                        "source": src_id,
+                        "target": dst_id,
+                        "relation": rel[:60],
+                        "period": period[:60],
+                        "digest": digest,
+                        "evidence": ev_list[:6],
+                    }
+                )
 
     if unresolved_errors:
         print(f"❌ 卡片 2.2 表存在 {len(unresolved_errors)} 个未解析悬空目标 ID，拒绝静默丢弃:", file=sys.stderr)

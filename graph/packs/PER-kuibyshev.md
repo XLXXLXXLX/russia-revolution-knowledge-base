@@ -36,9 +36,11 @@
   - **制度分年史与“国家意志粉碎景气”（E. H. Carr & R. W. Davies, 1969; Stephen Kotkin, 2014）**：Carr 与 Davies（`CLM-carr-davies-1969-grain-price-scissor-1927`）强调，1927年农产品价格剪刀差与VSNKh各部门投资饥渴已把体制推至均衡边缘；Kotkin（`ch21`）则生动记录古比雪夫如何一边在沙赫特案初起时试图保护实用型技术专家、一边在1928年豪言“国家意志粉碎了市场景气”，暴露出技术官僚“既要效率又要服从政治冲刺”的内在撕裂。
   - **集体领导侵蚀与斯大林朋友圈分化（Oleg Khlevniuk, 2015）**：Khlevniuk（`CLM-khlevniuk-2015-defeat-of-right-opposition`, `CLM-khlevniuk-2015-collective-leadership-erosion`）提醒，直至1928年中，古比雪夫与米高扬仍被布哈林及斯大林双方视为“尚未完全锁定”的摇摆重镇（斯大林1928年8月曾专电莫洛托夫严防托姆斯基“做通古比雪夫工作”）；但其部门对投资拨款的极端渴望最终使他彻底绑定于斯大林的“快速工业化联盟”。
 
-## 2. 一跳邻域全量微摘要目录 (去重后共 13 个节点，0 截断)
+## 2. 一跳邻域全量微摘要目录 (去重后共 15 个节点，0 截断)
+- **`EVT-1928-shakhty-affair-show-trial`**（沙赫特事件与技术专家公开审判）: 1928年顿巴斯沙赫特矿区的事故与管理问题被秘密警察定性为经济破坏阴谋。莫斯科公开审判与宣传将旧技术专家的政治可靠性推上全国议程；检方求刑22人死刑，法庭判11人死刑，其中6人获减刑、5人被处决。案件既服务于高层政治动员，也与工人反专家情绪及培养工人出身新专家的政策相互作用。 ‖ `→PER-kuibyshev`[challenges_management|1928年春夏]: 李可夫在四月全会作沙赫特案报告；侦查绕开管理体系，案件也冲击技术治理；不同领导人态度并不按党派简单排列。
 - **`INS-rabkrin-and-ccc`**（中央监察委员会与工农检查人民委员部（联合工作体制））: 工农检查人民委员部是国家监察机关，中监委是党的纪律监督机关。1923年改组后共同领导、联合办公，仍为两个机构，未在法律上合并；列宁的合并设想及Carr、Lewin的叙述用语须与此区分。改革旨在改善官僚机器、维护中央团结，联合机构随后参与党内审查处分，监督亦受权力关系制约。 ‖ `→PER-kuibyshev`[held_distinct_dual_offices|1923.04–1926.08]: 分别担任中监委主席与苏联工农检查人民委员；1926年转任 VSNKh，交接期未覆盖 ； `←PER-kuibyshev`[held_dual_leadership_of|1923-04–1926-08]: 十二大后兼任党中监委主席与苏联RKI人民委员（合署办公而非合并），将监督权转向反反对派党…
 - **`INS-vsnkh-and-gosplan`**（最高国民经济委员会与国家计划委员会（ВСНХ 与 Госплан））: 最高国民经济委员会与国家计划委员会分别承担工业管理与总体计划职能。前者从1917年12月吸纳工人监督演变为内战总局制，新经济政策下改组为经济核算托拉斯；后者自1921年协调预测，二十年代中期后卷入财政纪律、投资速度与第一个五年计划指标的激烈博弈。 ‖ `→PER-kuibyshev`[经委主席|1926.08–1930]: 推动工业加速扩张并压低计委保守派的平衡限制。 ； `←PER-kuibyshev`[chair_and_hyperindustrializer|1926-08–1934-02]: 先后主政VSNKh（1926.08–1930.11）与国家计委（1930.11–1934…
+- **`MTG-1922-03-11th-party-congress`**（俄国共产党（布尔什维克）第十一次代表大会（1922年））: 1922-03-27至04-02[N.S.]，俄共十一大在莫斯科召开，为列宁最后出席的党代会。他宣布NEP退却结束，强调管理、文化与官僚主义；大会警告工人反对派。04-03新中央全会设总书记并选出斯大林，04-04《真理报》公布；任命、公布均须与大会决定区分。 ‖ `→PER-kuibyshev`[co-appointed_secretaries|1922-04-03]: 与斯大林同批任书记。
 - **`PER-dzerzhinsky`**（费利克斯·捷尔任斯基）: 波兰立陶宛社民党与布尔什维克领导人。1917年建全俄肃反委员会（契卡）并续掌GPU/OGPU至逝世，奠定苏维埃安全与法外镇压体制；1924–1926年兼任最高国民经济委员会主席，力挺新经济政策市场均衡、保护技术专家并反对超工业化，1926年7月预警“红色独裁者”后猝逝于中央全会。 ‖ `→PER-kuibyshev`[deputy-and-confidant -> successor|1924–1926.07]: 1926-07-03致古比雪夫绝笔信吐露绝望并预警“红色掘墓人”；其猝死后古比雪夫接任VSNKh并转向高速重工业化 ； `←PER-kuibyshev`[confidant_then_vsnkh_successor|1924–1926-08]: 1926-07-03接获捷尔任斯基“红色掘墓人”绝笔预警；后者猝逝后接任VSNKh主席并…
 - **`PER-krupskaya`**（娜杰日达·克鲁普斯卡娅）: 娜杰日达·克鲁普斯卡娅（1869–1939），布尔什维克元老、列宁夫人兼秘密通信枢纽；1918年后主持教育人民委员部成人政教与扫盲，1922–1923年守护列宁病榻口授并于1924年5月移交十三份文件。1925–1926年短暂参与反对派后脱离，晚年转入教育制度工作。 ‖ `→PER-kuibyshev`[adversarial-episode|1923.01]: 据洛吉诺夫转述，1923年1月围绕列宁文章发表有单印报纸之议，克鲁普斯卡娅与托洛茨基、加米涅夫坚持正式刊发
 - **`PER-stalin`**（约瑟夫·斯大林）: 布尔什维克高加索地下组织者、民族事务人民委员（1917–1923）及中央总书记（1922起）。依托书记处任命权与安全危机叙事，先联季-加压制托洛茨基，再联布哈林击溃联合反对派；1927–1929年以战备恐慌与“自上而下革命”击败布哈林集团，1929年12月拍板“把富农作为阶级消灭”并终结新经济政策。 ‖ `←PER-kuibyshev`[secretariat_lieutenant_and_ally|1922-04–1935-01]: 1922任中央书记，1923–1926以中监委护航多数派，1928–1929在工业化大争…
@@ -84,7 +86,7 @@
 | 后苏联档案重估 | Viktor Zemskov（维克托·泽姆斯科夫），《斯大林时代》（2018，B级）；Valentin Sakharov（瓦连京·萨哈罗夫），《站在十字路口》（2012） | 泽姆斯科夫指出布哈林渐进合作化在内战记忆塑造的党员群体中缺乏政治亲和力；萨哈罗夫从反布哈林修正派立场论证2,400万碎片化小农难以支撑工业国防，MTS 与集体化是避免“斯托雷平第二版”的战略决断。 | `CLM-zemskov-2018-archival-constraints-and-party-radicalism`（B级）；`CLM-sakharov-2012-nep-crossroads-1928` | 泽氏未提供党员心态系统统计且沿用中译稿（B级）；萨哈罗夫的国家理性辩护淡化了强制集体化后的农业灾难与清洗恶果。 |
 
 
-### 3.1 关联核心论断与史学家学派坐标 (`CLM-*` → `SCH-*`, 展示前 24/31 条)
+### 3.1 关联核心论断与史学家学派坐标 (`CLM-*` → `SCH-*`, 展示前 24/32 条)
 - **`CLM-lewin-1968-testament-intent`** [`SCH-lewin-moshe`(摩西·莱文) | n/a（EPUB 无页码锚点）；Ch.10 'If Lenin Had Lived . . .'；列宁原文脚注见 Soch. XLV p. 392；XLIV p. 428]: 
 - **`CLM-cohen-1973-notes-of-an-economist`** [`SCH-cohen-stephen`(斯蒂芬·F·科恩) | pp. 295-296, 318-320]: 
 - **`CLM-khlevniuk-2015-secretariat-and-nomenklatura`** [`SCH-khlevniuk-oleg`(奥列格·赫列夫纽克) | EPUB ops/xhtml/ch02.html（In Lenin's Shadow，GENERAL SECRETARY 至 1923 年 9 月组织局安排）；制度总论见 ops/xhtml/ch01a.html。工作区文本无纸质页码。]: 
@@ -94,6 +96,7 @@
 - **`CLM-erlich-1960-bukharin-balanced-growth`** [`SCH-erlich-alexander`(亚历山大·埃利希) | pp. 21-23 (PDF pp. 38-40)]: 
 - **`CLM-khlevniuk-2015-defeat-of-right-opposition`** [`SCH-khlevniuk-oleg`(奥列格·赫列夫纽克) | EPUB ops/xhtml/ch03.html（His Revolution 开篇至全盘集体化的 1929 年 11 月宣布）。工作区文本无纸质页码。]: 
 - **`CLM-khlevniuk-2015-collective-leadership-erosion`** [`SCH-khlevniuk-oleg`(奥列格·赫列夫纽克) | EPUB ops/xhtml/ch02.html（TRYING OUT COLLECTIVE LEADERSHIP 至 THE CHOICE）。工作区文本无纸质页码。]: 
+- **`CLM-stalin-docs-1920s-secretariat-correspondence-and-grain-turn`** [`SCH-dolmatov-vladimir`(弗拉基米尔·多尔马托夫（编） · archival-documentary-edition)]: 
 - **`CLM-filtzer-1986-1929-tomsky-purge-and-shock-work`** [`SCH-filtzer-donald`(唐纳德·费尔泽) | pp. 22–24, 68–72, 76–82, 96–108, 274, 280–282, 287]: 
 - **`CLM-lewin-1968-georgian-affair-bureaucracy`** [`SCH-lewin-moshe`(摩西·莱文) | n/a（EPUB 无页码锚点）；Ch.9、Ch.10 与 Appendixes I–III, VII–VIII]: 
 - **`CLM-lewin-1968-cooperation-shift`** [`SCH-lewin-moshe`(摩西·莱文) | n/a（EPUB 无页码锚点）；Ch.8 'Russia between West and East'；列宁原文脚注 Soch. XLV pp. 367, 370, 373, 387–88, 389]: 
@@ -108,6 +111,5 @@
 - **`CLM-cohen-1973-nep-viability`** [`SCH-cohen-stephen`(斯蒂芬·F·科恩) | pp. 270-276, 316-320]: 
 - **`CLM-cohen-1973-bukharin-organizational-defeat`** [`SCH-cohen-stephen`(斯蒂芬·F·科恩) | pp. 287-289, 297-301, 322-329]: 
 - **`CLM-erlich-1960-preobrazhensky-dilemma`** [`SCH-erlich-alexander`(亚历山大·埃利希) | pp. 34-36, 40-41, 49-51, 170-171 (PDF pp. 51-53, 57-58, 66-68, 185-186)]: 
-- **`CLM-nove-1964-stalin-necessity-dilemma`** [`SCH-nove-alec`(亚历克·诺夫) | pp. 20-26, 32]: 
 
 ## 4. 关联时间线骨干锚点 (L0–L2 展示 0 条，另有 9 条 L3 逐日细节见 `timeline/L3_daily/`)

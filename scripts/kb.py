@@ -403,6 +403,9 @@ def compile_pack_markdown(
     sec23_pat = re.compile(r"(?ms)^###\s+2\.3\b.*$")
     pipe_pad_pat = re.compile(r"[ \t]*\|[ \t]*")
 
+    raw_t2_total = sum(len(cards[cid]["tiers"].get("T2", "")) for cid in card_ids)
+    fold_sec23 = len(card_ids) >= 5 or (len(card_ids) >= 3 and (raw_t2_total > 22000 or len(neighbor_ids) > 70))
+
     out.append("## 1. 主卡核心层 ([T1] + [T2])")
     for cid in card_ids:
         c = cards[cid]
@@ -414,7 +417,7 @@ def compile_pack_markdown(
             out.append(f"### 主卡 `{cid}`：{meta.get('title', '')}")
             t1_block = rel_md_link_pat.sub(r"\1", t1_block)
             t2_block = rel_md_link_pat.sub(r"\1", t2_block)
-            if len(card_ids) >= 5:
+            if fold_sec23:
                 # 压缩表格多余空格，并将与第 3 节重复的 2.3 争鸣叙述折叠为保留全部实体/论断 ID 的紧凑索引行
                 t2_lines = [
                     pipe_pad_pat.sub(" | ", ln).strip() if ln.lstrip().startswith("|") else ln
@@ -450,7 +453,7 @@ def compile_pack_markdown(
             per = e.get("period", "")
             dig = str(e.get("digest", "")).strip()
             if s in primary_with_t2_edges and t == nid:
-                if nb_total > 95 and len(card_ids) >= 5:
+                if nb_total > 75 and len(card_ids) >= 4:
                     tag = f"`←{s}`[{rel}]"
                 elif nb_total > 25:
                     tag = f"`←{s}`[{rel}|{per}]"
@@ -458,9 +461,9 @@ def compile_pack_markdown(
                     dig_disp = dig[:44] + "…" if len(dig) > 46 else dig
                     tag = f"`←{s}`[{rel}|{per}]: {dig_disp}"
             elif s == nid:
-                if nb_total > 95 and len(card_ids) >= 5:
+                if nb_total > 75 and len(card_ids) >= 4:
                     tag = f"`→{t}`[{rel}]"
-                elif nb_total > 75:
+                elif nb_total > 60:
                     tag = f"`→{t}`[{rel}|{per}]"
                 elif nb_total > 25:
                     dig_disp = dig[:38] + "…" if len(dig) > 40 else dig
@@ -543,7 +546,7 @@ def compile_pack_markdown(
     # 穿透关联 CLM -> SCH 展示具体史学家与学派归属
     if referenced_clms:
         out.append("")
-        clm_limit = 12 if len(card_ids) >= 5 else (16 if len(card_ids) > 2 else 24)
+        clm_limit = 9 if len(card_ids) >= 6 else (12 if len(card_ids) >= 5 else (16 if len(card_ids) > 2 else 24))
         out.append(f"### 3.1 关联核心论断与史学家学派坐标 (`CLM-*` → `SCH-*`, 展示前 {min(len(referenced_clms), clm_limit)}/{len(referenced_clms)} 条)")
         for clm_id in referenced_clms[:clm_limit]:
             if clm_id not in cards:
@@ -579,7 +582,7 @@ def compile_pack_markdown(
     shown_events = [ev for ev in all_linked_events if ev.get("level", 2) <= max_tl_level]
     shown_events.sort(key=lambda x: (x.get("date_ns", ""), x.get("time_of_day") or "", x.get("id", "")))
 
-    tl_cap = 32 if len(card_ids) >= 5 else 42
+    tl_cap = 22 if len(card_ids) >= 6 else (32 if len(card_ids) >= 5 else 42)
     l2_omitted = 0
     if len(card_ids) >= 3 and len(shown_events) > tl_cap:
         scored_ev: list[tuple[int, int, str, dict[str, Any]]] = []
@@ -687,38 +690,52 @@ def _compute_corpus_signature() -> str:
                 mt = p.stat().st_mtime
                 if mt > latest_mtime:
                     latest_mtime = mt
-    return f"{count}:{int(latest_mtime)}"
+    return f"v2:{count}:{int(latest_mtime)}"
+
+
+def _tier_score_adj(tier: str, explicit_book: bool) -> float:
+    if explicit_book:
+        return 0.0
+    t = (tier or "A").strip().upper()[:1]
+    return {"S": 0.0, "A": 0.0, "B": 0.0, "C": -2.0, "D": -5.0}.get(t, 0.0)
 
 
 def ensure_chapter_fts_index(force_rebuild: bool = False) -> sqlite3.Connection:
     CACHE_DIR.mkdir(parents=True, exist_ok=True)
     sig = _compute_corpus_signature()
 
-    if FTS_DB_PATH.exists() and not force_rebuild:
-        conn = sqlite3.connect(FTS_DB_PATH)
+    if FTS_DB_PATH.exists():
+        if not force_rebuild:
+            conn = sqlite3.connect(FTS_DB_PATH)
+            try:
+                row = conn.execute("SELECT val FROM meta WHERE key='corpus_sig'").fetchone()
+                if row and row[0] == sig:
+                    return conn
+            except sqlite3.Error:
+                pass
+            conn.close()
         try:
-            row = conn.execute("SELECT val FROM meta WHERE key='corpus_sig'").fetchone()
-            if row and row[0] == sig:
-                return conn
-        except sqlite3.Error:
+            FTS_DB_PATH.unlink(missing_ok=True)
+        except OSError:
             pass
-        conn.close()
-        FTS_DB_PATH.unlink(missing_ok=True)
 
     conn = sqlite3.connect(FTS_DB_PATH)
     conn.execute("PRAGMA journal_mode=WAL;")
     conn.execute("PRAGMA synchronous=NORMAL;")
+    conn.execute("DROP TABLE IF EXISTS meta;")
+    conn.execute("DROP TABLE IF EXISTS quarantined_books;")
+    conn.execute("DROP TABLE IF EXISTS chapters_fts;")
     conn.execute("CREATE TABLE meta (key TEXT PRIMARY KEY, val TEXT);")
     conn.execute(
         "CREATE TABLE quarantined_books (book_dir TEXT PRIMARY KEY, slug TEXT, source_file TEXT, empty_ratio REAL);"
     )
     conn.execute(
         "CREATE VIRTUAL TABLE chapters_fts USING fts5("
-        "path UNINDEXED, book_dir UNINDEXED, line_count UNINDEXED, title, body, tokenize='trigram'"
+        "path UNINDEXED, book_dir UNINDEXED, line_count UNINDEXED, tier UNINDEXED, title, body, tokenize='trigram'"
         ");"
     )
 
-    fts_rows: list[tuple[str, str, int, str, str]] = []
+    fts_rows: list[tuple[str, str, int, str, str, str]] = []
     qrn_rows: list[tuple[str, str, str, float]] = []
 
     for cat in ("monographs", "primary"):
@@ -750,6 +767,11 @@ def ensure_chapter_fts_index(force_rebuild: bool = False) -> sqlite3.Connection:
                 qrn_rows.append((rel_bdir, bdir.name, src_name, round(empty_ratio, 4)))
                 continue
 
+            default_tier = "S" if cat == "primary" else "A"
+            book_tier = str(
+                mf_data.get("epistemic_tier") or mf_data.get("source_tier") or mf_data.get("tier") or default_tier
+            ).strip().upper()[:1]
+
             for cf, txt in texts:
                 if _is_chapter_effectively_empty(txt):
                     continue
@@ -760,6 +782,7 @@ def ensure_chapter_fts_index(force_rebuild: bool = False) -> sqlite3.Connection:
                         cf.relative_to(ROOT).as_posix(),
                         rel_bdir,
                         txt.count("\n") + 1,
+                        book_tier,
                         f"{bdir.name} {ch_title}",
                         txt,
                     )
@@ -778,6 +801,7 @@ def ensure_chapter_fts_index(force_rebuild: bool = False) -> sqlite3.Connection:
                     wf.relative_to(ROOT).as_posix(),
                     wf.parent.relative_to(ROOT).as_posix(),
                     txt.count("\n") + 1,
+                    "S",
                     w_title,
                     txt,
                 )
@@ -785,15 +809,23 @@ def ensure_chapter_fts_index(force_rebuild: bool = False) -> sqlite3.Connection:
 
     with conn:
         conn.executemany("INSERT INTO quarantined_books VALUES (?, ?, ?, ?)", qrn_rows)
-        conn.executemany("INSERT INTO chapters_fts VALUES (?, ?, ?, ?, ?)", fts_rows)
+        conn.executemany("INSERT INTO chapters_fts VALUES (?, ?, ?, ?, ?, ?)", fts_rows)
         conn.execute("INSERT INTO meta VALUES ('corpus_sig', ?)", (sig,))
 
     return conn
 
 
-def search_chapters(query: str, top_k: int = 10, force_rebuild: bool = False) -> tuple[list[dict[str, Any]], list[dict[str, Any]]]:
+def search_chapters(
+    query: str,
+    top_k: int = 10,
+    force_rebuild: bool = False,
+    book_filter: str | None = None,
+) -> tuple[list[dict[str, Any]], list[dict[str, Any]]]:
     conn = ensure_chapter_fts_index(force_rebuild=force_rebuild)
     q_clean = query.strip()
+    bf = (book_filter or "").strip().lower()
+    bf_sql = " AND LOWER(book_dir) LIKE ?" if bf else ""
+    bf_params: tuple[Any, ...] = (f"%{bf}%",) if bf else ()
     raw_tokens = [
         tok.strip()
         for tok in re.split(r"[\s()（）\[\]【】/—–\-·,，:：;；\"'“”‘’]+", q_clean)
@@ -812,28 +844,28 @@ def search_chapters(query: str, top_k: int = 10, force_rebuild: bool = False) ->
         escaped = ['"' + t.replace('"', '""') + '"' for t in tri_tokens]
         and_expr = " AND ".join(escaped)
         rows = conn.execute(
-            "SELECT path, book_dir, line_count, title, bm25(chapters_fts, 0.0, 0.0, 0.0, 5.0, 1.0) AS score "
-            "FROM chapters_fts WHERE chapters_fts MATCH ? ORDER BY score LIMIT ?",
-            (and_expr, max(top_k * 4, 30)),
+            "SELECT path, book_dir, line_count, tier, title, bm25(chapters_fts, 0.0, 0.0, 0.0, 0.0, 5.0, 1.0) AS score "
+            f"FROM chapters_fts WHERE chapters_fts MATCH ?{bf_sql} ORDER BY score LIMIT ?",
+            (and_expr, *bf_params, max(top_k * 4, 30)),
         ).fetchall()
-        for path, bdir, lcnt, title, bm25_val in rows:
+        for path, bdir, lcnt, tier, title, bm25_val in rows:
             candidates[path] = {
                 "path": path,
                 "book_dir": bdir,
                 "lines": int(lcnt),
                 "title": title,
-                "score": round(-float(bm25_val) + 10.0, 4),
+                "score": round(-float(bm25_val) + 10.0 + _tier_score_adj(tier, bool(bf)), 4),
             }
 
         # 若多词 AND 命中不足，补充 OR 召回并按命中词元数重排
         if len(candidates) < top_k and len(escaped) > 1:
             or_expr = " OR ".join(escaped)
             or_rows = conn.execute(
-                "SELECT path, book_dir, line_count, title, body, bm25(chapters_fts, 0.0, 0.0, 0.0, 4.0, 1.0) AS score "
-                "FROM chapters_fts WHERE chapters_fts MATCH ? ORDER BY score LIMIT 40",
-                (or_expr,),
+                "SELECT path, book_dir, line_count, tier, title, body, bm25(chapters_fts, 0.0, 0.0, 0.0, 0.0, 4.0, 1.0) AS score "
+                f"FROM chapters_fts WHERE chapters_fts MATCH ?{bf_sql} ORDER BY score LIMIT 40",
+                (or_expr, *bf_params),
             ).fetchall()
-            for path, bdir, lcnt, title, body, bm25_val in or_rows:
+            for path, bdir, lcnt, tier, title, body, bm25_val in or_rows:
                 if path in candidates:
                     continue
                 hay = (title + "\n" + body).lower()
@@ -843,7 +875,7 @@ def search_chapters(query: str, top_k: int = 10, force_rebuild: bool = False) ->
                     "book_dir": bdir,
                     "lines": int(lcnt),
                     "title": title,
-                    "score": round(-float(bm25_val) + matched_cnt * 2.5, 4),
+                    "score": round(-float(bm25_val) + matched_cnt * 2.5 + _tier_score_adj(tier, bool(bf)), 4),
                 }
 
     # 2) 短词元 (<3 字符，如双字中文人名“柳廷”) LIKE 补充扫描
@@ -854,26 +886,29 @@ def search_chapters(query: str, top_k: int = 10, force_rebuild: bool = False) ->
             where_clauses.append("(body LIKE ? OR title LIKE ?)")
             pat = f"%{st}%"
             params.extend([pat, pat])
+        if bf:
+            where_clauses.append("LOWER(book_dir) LIKE ?")
+            params.append(f"%{bf}%")
         sql = (
-            "SELECT path, book_dir, line_count, title, body FROM chapters_fts WHERE "
+            "SELECT path, book_dir, line_count, tier, title, body FROM chapters_fts WHERE "
             + " AND ".join(where_clauses)
             + " LIMIT 60"
         )
-        for path, bdir, lcnt, title, body in conn.execute(sql, params).fetchall():
+        for path, bdir, lcnt, tier, title, body in conn.execute(sql, params).fetchall():
             freq = sum(body.lower().count(st.lower()) + title.lower().count(st.lower()) * 4 for st in short_tokens)
             candidates[path] = {
                 "path": path,
                 "book_dir": bdir,
                 "lines": int(lcnt),
                 "title": title,
-                "score": round(float(freq), 4),
+                "score": round(float(freq) + _tier_score_adj(tier, bool(bf)), 4),
             }
 
     # 3) 检查是否触碰已隔离的纯扫描空书 (`needs_ocr`)
     quarantine_hits: list[dict[str, Any]] = []
     for bdir, slug, src_file, eratio in conn.execute("SELECT book_dir, slug, source_file, empty_ratio FROM quarantined_books"):
         hay_q = f"{bdir} {slug} {src_file}".lower()
-        if any(t.lower() in hay_q for t in raw_tokens):
+        if (bf and bf in hay_q) or any(t.lower() in hay_q for t in raw_tokens):
             quarantine_hits.append(
                 {
                     "book_dir": bdir,
@@ -889,7 +924,7 @@ def search_chapters(query: str, top_k: int = 10, force_rebuild: bool = False) ->
 
 
 def cmd_locate_chapters(args: argparse.Namespace) -> int:
-    ranked, qrn_hits = search_chapters(args.query, top_k=args.top, force_rebuild=args.rebuild)
+    ranked, qrn_hits = search_chapters(args.query, top_k=args.top, force_rebuild=args.rebuild, book_filter=args.book)
     if args.json:
         # 保持列表顶层结构以兼容自动化调用；隔离告警可通过 stderr 提示
         if qrn_hits:
@@ -1281,8 +1316,9 @@ def build_parser() -> argparse.ArgumentParser:
     p_pack.add_argument("--write", action="store_true", help="单卡模式下写入 graph/packs/<ID>.md")
     p_pack.set_defaults(func=cmd_pack)
 
-    p_loc = sub.add_parser("locate-chapters", help="基于 SQLite FTS5 trigram 定位 145 本史料具体章节并告警空书")
+    p_loc = sub.add_parser("locate-chapters", help="基于 SQLite FTS5 trigram 定位史料具体章节并告警空书")
     p_loc.add_argument("query", help="中/英/俄检索词，如 '乌格拉诺夫' 或 'scissors crisis'")
+    p_loc.add_argument("--book", default=None, help="按书目目录名子串过滤，如 'burrage' 或 'davies_1980'")
     p_loc.add_argument("--top", type=int, default=10, help="返回前 N 个候选章节 (默认 10)")
     p_loc.add_argument("--json", action="store_true", help="输出机器可读 JSON 列表")
     p_loc.add_argument("--rebuild", action="store_true", help="强制重建 .cache/kb_chapters.sqlite 索引")
