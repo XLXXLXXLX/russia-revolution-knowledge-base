@@ -1,9 +1,9 @@
 {
   "tag": "w60_final",
-  "timestamp": "2026-11-21T20:58:35+08:00",
+  "timestamp": "2026-11-21T21:16:25+08:00",
   "split": "all",
-  "git_head": "e10e3fc",
-  "git_dirty_files": 16,
+  "git_head": "57f376d",
+  "git_dirty_files": 34,
   "overall_passed": true,
   "suites": {
     "B1": {
@@ -228,22 +228,23 @@
       "passed": true,
       "metrics": {
         "locate_chapters_implemented": 1,
-        "book_hit_at_3": 0.9062,
+        "book_hit_at_3": 0.875,
         "book_hit_at_5": 0.9375,
         "exact_chapter_hit_at_3": 0.7812,
-        "exact_chapter_hit_at_5": 0.875,
-        "exact_chapter_mrr": 0.6654,
-        "chapter_hit_at_3": 0.9062,
+        "exact_chapter_hit_at_5": 0.8125,
+        "exact_chapter_mrr": 0.6581,
+        "chapter_hit_at_3": 0.875,
         "chapter_hit_at_5": 0.9375,
-        "chapter_mrr": 0.7214,
-        "median_query_ms": 60.5,
+        "chapter_mrr": 0.724,
+        "median_query_ms": 49.62,
         "empty_scan_books_detected": 0,
         "empty_scan_quarantine_rate": 1.0,
         "quarantine_canary_pass_rate": 1.0
       },
       "samples": {
         "locator_misses": [
-          "B3-OCR-01 (October has been making us) -> exact chapter miss (top3=['sources/monographs/douds_2018_inside_lenins_government/ch10_inside_lenin_s_government.md', 'sources/monographs/corney_2004_telling_october/ch04_introduction_writing_the_event.md', 'sources/monographs/khalid_2015_making_uzbekistan_zh/ch03_acknowledgments.md'])",
+          "B3-LOC-23 (VSNKh) -> exact chapter miss (top3=['sources/articles/oppenheim_1973_supreme_economic_council_1917_1921/ch24_image_25.md', 'sources/articles/oppenheim_1973_supreme_economic_council_1917_1921/ch20_image_21.md', 'sources/articles/oppenheim_1973_supreme_economic_council_1917_1921/ch07_image_8.md'])",
+          "B3-OCR-01 (October has been making us) -> exact chapter miss (top3=['sources/monographs/corney_2004_telling_october/ch04_introduction_writing_the_event.md', 'sources/monographs/douds_2018_inside_lenins_government/ch10_inside_lenin_s_government.md', 'sources/monographs/khalid_2015_making_uzbekistan_zh/ch03_acknowledgments.md'])",
           "B3-OCR-03 (There are no parallel unions in Russia) -> exact chapter miss (top3=['sources/monographs/kotkin_2017_stalin_v2/ch24_stalin.md', 'sources/monographs/carr_1964_socialism_in_one_country_v3p1/ch21_pages_526-550.md', 'sources/monographs/smith_1983_red_petrograd/ch00_pages_1-25.md'])"
         ],
         "unquarantined_empty_books": []

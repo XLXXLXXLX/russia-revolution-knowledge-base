@@ -1,7 +1,7 @@
 # 俄国革命知识库（1860s–1929）馆藏文献总目 (`sources/LITERATURE_CATALOG.md`)
 
-- **馆藏拆解目录总数**: `214` 部/篇（`sources/primary/` 一手档案原典 `25` 部 + `sources/monographs/` 学术专著/回忆录 `178` 部 + `sources/articles/` 中英俄同行评议期刊论文 `11` 篇）
-- **全文状态**: `✅ 可读全文 214 项` | `⚠️ 纯扫描/残卷隔离 (needs_ocr: true) 0 项`
+- **馆藏拆解目录总数**: `237` 部/篇（`sources/primary/` 一手档案原典 `25` 部 + `sources/monographs/` 学术专著/回忆录 `178` 部 + `sources/articles/` 中英俄同行评议期刊论文 `34` 篇）
+- **全文状态**: `✅ 可读全文 237 项` | `⚠️ 纯扫描/残卷隔离 (needs_ocr: true) 0 项`
 - **支持格式**: `PDF`（PyMuPDF 页码锚点）、`EPUB`（自动合并逐页 XML 切片）、`DOCX/DOC`、`DjVu`（原生纯 Python `ZPCodec + BZZ` 提取 `TXTz` 俄文文本层）。
 - **检索协议**: 主控官通过 `python scripts/kb.py locate-chapters "<关键词>"` 毫秒级跨专著、一手档案与三语期刊论文定位章节（自动隔离 `needs_ocr: true` 目录），再交 `close-reader` 整章顺读。
 
@@ -222,14 +222,37 @@
 
 | 序号 | 目录 Slug | 信源等级 | 语种 | 论文题名与发表期刊 | 作者 | 切片数 | 文本体积 (KB) | 状态 |
 | ---: | :--- | :---: | :---: | :--- | :--- | ---: | ---: | :--- |
-| 1 | `davidian_1997_military_censorship_civil_war_1918_1920_ru` | `A` | `ru` | Военная цензура в России в годы гражданской войны 1918–1920 гг. (Cahiers du Monde russe, 38:1–2, 1997) | Ирина Давидян | 10 | 34.3 | ✅ 可读全文 |
-| 2 | `hoch_1994_on_good_numbers_and_bad_peasant_living` | `A` | `en` | On Good Numbers and Bad: Malthus, Population Trends and Peasant Standard of Living in Late Imperial Russia (Slavic Review, 53:1, 1994) | Steven L. Hoch | 36 | 118.3 | ✅ 可读全文 |
-| 3 | `holquist_1997_bolshevik_surveillance_pan_european` | `A` | `en` | "Information Is the Alpha and Omega of Our Work": Bolshevik Surveillance in Its Pan-European Context (Journal of Modern History, 69:3, 1997) | Peter Holquist | 36 | 133.9 | ✅ 可读全文 |
-| 4 | `khlevniuk_2001_stalin_and_state_security_organs_ru` | `A` | `ru` | Сталин и органы государственной безопасности (Cahiers du Monde russe, 42:2–4, 2001) | Олег Хлевнюк | 14 | 49.5 | ✅ 可读全文 |
-| 5 | `lih_2000_bukharins_illusion_war_communism_and_nep` | `A` | `en` | Bukharin's "Illusion": War Communism and the Meaning of NEP (Russian History, 27:1–4, 2000) | Lars T. Lih | 2 | 127.0 | ✅ 可读全文 |
-| 6 | `melancon_1988_who_wrote_what_february_1917_proclamations` | `A` | `en` | Who Wrote What and When?: Proclamations of the February Revolution in Petrograd, 23 February – 1 March 1917 (Soviet Studies, 40:3, 1988) | Michael Melancon | 22 | 87.5 | ✅ 可读全文 |
-| 7 | `nep_early_grain_policy_peasant_resistance_zh` | `A` | `zh` | 新经济政策前期苏联粮食政策的负面效应与农民反抗（《俄罗斯研究》2013年第4期） | 赵旭黎 | 1 | 49.1 | ✅ 可读全文 |
-| 8 | `plaggenborg_1990_who_paid_industrialisation_tsarist_russia` | `A` | `en` | Who Paid for the Industrialisation of Tsarist Russia? (Revolutionary Russia, 3:2, 1990) | Stefan Plaggenborg | 2 | 78.0 | ✅ 可读全文 |
-| 9 | `plaggenborg_1995_tax_policy_peasant_poverty_1881_1905` | `A` | `en` | Tax Policy and the Question of Peasant Poverty in Tsarist Russia, 1881–1905 (Cahiers du Monde russe, 36:1–2, 1995) | Stefan Plaggenborg | 18 | 70.8 | ✅ 可读全文 |
-| 10 | `stalin_vs_bukharin_rykov_nep_debate_zh` | `A` | `zh` | 废除还是坚持新经济政策——斯大林同以布哈林、李可夫为首的“右派”的争论（《俄罗斯东欧中亚研究》2013年第2期） | 陈爱茹 | 1 | 45.2 | ✅ 可读全文 |
-| 11 | `wheatcroft_1974_reliability_prewar_grain_statistics` | `A` | `en` | The Reliability of Russian Prewar Grain Output Statistics (Soviet Studies, 26:2, 1974) | S. G. Wheatcroft | 2 | 77.1 | ✅ 可读全文 |
+| 1 | `ali_1974_aspects_of_rkpb_secretariat_1919_1922` | `A` | `en` | Aspects of the RKP(B) Secretariat, March 1919 to April 1922 (Soviet Studies, 26:3, 1974) | Janice Ali | 21 | 63.0 | ✅ 可读全文 |
+| 2 | `bowman_1993_russias_first_income_taxes_1885_1914` | `A` | `en` | Russias First Income Taxes: The Effects of Modernized Taxes on Commerce and Industry, 1885–1914 (Slavic Review, 52:2, 1993) | Linda Bowman | 28 | 97.7 | ✅ 可读全文 |
+| 3 | `burbank_2000_code_versus_custom_volost_court_appeals` | `A` | `en` | Code versus Custom? Norms and Tactics in Peasant Volost Court Appeals, 1889–1917 (Russian Review, 59:3, 2000) | Jane Burbank | 1 | 62.2 | ✅ 可读全文 |
+| 4 | `davidian_1997_military_censorship_civil_war_1918_1920_ru` | `A` | `ru` | Военная цензура в России в годы гражданской войны 1918–1920 гг. (Cahiers du Monde russe, 38:1–2, 1997) | Ирина Давидян | 10 | 34.3 | ✅ 可读全文 |
+| 5 | `duval_1979_sverdlov_and_vtsik_october_1917_july_1918` | `A` | `en` | Yakov M. Sverdlov and the All-Russian Central Executive Committee of Soviets (VTsIK), October 1917–July 1918 (Soviet Studies, 31:1, 1979) | Charles Duval | 20 | 65.4 | ✅ 可读全文 |
+| 6 | `engelstein_1993_combined_underdevelopment_discipline_law` | `A` | `en` | Combined Underdevelopment: Discipline and the Law in Imperial and Soviet Russia (American Historical Review, 98:2, 1993) | Laura Engelstein | 17 | 62.6 | ✅ 可读全文 |
+| 7 | `fitzpatrick_1993_ascribing_class_social_identity_soviet_russia` | `A` | `en` | Ascribing Class: The Construction of Social Identity in Soviet Russia (Journal of Modern History, 65:4, 1993) | Sheila Fitzpatrick | 27 | 88.0 | ✅ 可读全文 |
+| 8 | `frank_1987_popular_justice_russian_peasantry_1870_1900` | `A` | `en` | Popular Justice, Community, and Culture among the Russian Peasantry, 1870–1900 (Russian Review, 46:3, 1987) | Frank, Stephen P. | 28 | 100.1 | ✅ 可读全文 |
+| 9 | `gaudin_1998_no_place_to_lay_my_head_stolypin` | `A` | `en` | No Place to Lay My Head: Marginalization and the Right to Land during the Stolypin Reforms (Slavic Review, 57:4, 1998) | Gaudin, Corinne | 28 | 101.2 | ✅ 可读全文 |
+| 10 | `gregory_sailors_1976_russian_monetary_policy_1861_1913` | `A` | `en` | Russian Monetary Policy and Industrialization, 1861–1913 (Journal of Economic History, 36:4, 1976) | Paul R. Gregory | 23 | 75.6 | ✅ 可读全文 |
+| 11 | `haimson_1964_social_stability_urban_russia_pt1` | `A` | `en` | The Problem of Social Stability in Urban Russia, 1905–1917 (Part One) (Slavic Review, 23:4, 1964) | Leopold Haimson | 25 | 84.4 | ✅ 可读全文 |
+| 12 | `haimson_1965_social_stability_urban_russia_pt2` | `A` | `en` | The Problem of Social Stability in Urban Russia, 1905–1917 (Part Two) (Slavic Review, 24:1, 1965) | Leopold Haimson | 23 | 73.7 | ✅ 可读全文 |
+| 13 | `hasegawa_1973_militia_february_revolution_dual_power` | `A` | `en` | The Formation of the Militia in the February Revolution: An Aspect of the Origins of Dual Power (Slavic Review, 32:2, 1973) | Tsuyoshi Hasegawa | 21 | 72.0 | ✅ 可读全文 |
+| 14 | `hatch_1987_working_class_politics_moscow_mensheviks_1921_22` | `A` | `en` | Working-Class Politics in Moscow During the Early NEP: Mensheviks and Workers Organizations, 1921–22 (Soviet Studies, 39:4, 1987) | John B. Hatch | 19 | 70.1 | ✅ 可读全文 |
+| 15 | `hatch_1989_lenin_levy_workers_moscow_1921_1928` | `A` | `en` | The Lenin Levy and the Social Origins of Stalinism: Workers and the Communist Party in Moscow, 1921–1928 (Slavic Review, 48:4, 1989) | John B. Hatch | 21 | 92.6 | ✅ 可读全文 |
+| 16 | `hoch_1994_on_good_numbers_and_bad_peasant_living` | `A` | `en` | On Good Numbers and Bad: Malthus, Population Trends and Peasant Standard of Living in Late Imperial Russia (Slavic Review, 53:1, 1994) | Steven L. Hoch | 36 | 118.3 | ✅ 可读全文 |
+| 17 | `hoch_2004_did_emancipated_serfs_pay_too_much` | `A` | `en` | Did Russias Emancipated Serfs Really Pay Too Much for Too Little Land? (Slavic Review, 63:2, 2004) | (Author: )Hoch, Steven L. | 29 | 88.9 | ✅ 可读全文 |
+| 18 | `holquist_1997_bolshevik_surveillance_pan_european` | `A` | `en` | "Information Is the Alpha and Omega of Our Work": Bolshevik Surveillance in Its Pan-European Context (Journal of Modern History, 69:3, 1997) | Peter Holquist | 36 | 133.9 | ✅ 可读全文 |
+| 19 | `hunter_szyrmer_1991_testing_early_soviet_economic_alternatives` | `A` | `en` | Testing Early Soviet Economic Alternatives (Slavic Review, 50:2, 1991) | Holland Hunter & Janusz M. Szyrmer | 16 | 42.6 | ✅ 可读全文 |
+| 20 | `khlevniuk_2001_stalin_and_state_security_organs_ru` | `A` | `ru` | Сталин и органы государственной безопасности (Cahiers du Monde russe, 42:2–4, 2001) | Олег Хлевнюк | 14 | 49.5 | ✅ 可读全文 |
+| 21 | `kotsonis_2011_problem_of_individual_stolypin_reforms` | `A` | `en` | The Problem of the Individual in the Stolypin Reforms (Kritika, 12:1, 2011) | Kotsonis, Yanni (author) | 2 | 85.6 | ✅ 可读全文 |
+| 22 | `lih_2000_bukharins_illusion_war_communism_and_nep` | `A` | `en` | Bukharin's "Illusion": War Communism and the Meaning of NEP (Russian History, 27:1–4, 2000) | Lars T. Lih | 2 | 127.0 | ✅ 可读全文 |
+| 23 | `melancon_1988_who_wrote_what_february_1917_proclamations` | `A` | `en` | Who Wrote What and When?: Proclamations of the February Revolution in Petrograd, 23 February – 1 March 1917 (Soviet Studies, 40:3, 1988) | Michael Melancon | 22 | 87.5 | ✅ 可读全文 |
+| 24 | `nep_early_grain_policy_peasant_resistance_zh` | `A` | `zh` | 新经济政策前期苏联粮食政策的负面效应与农民反抗（《俄罗斯研究》2013年第4期） | 赵旭黎 | 1 | 49.1 | ✅ 可读全文 |
+| 25 | `oppenheim_1973_supreme_economic_council_1917_1921` | `A` | `en` | The Supreme Economic Council 1917–21 (Soviet Studies, 25:1, 1973) | Samuel A. Oppenheim | 25 | 84.8 | ✅ 可读全文 |
+| 26 | `plaggenborg_1990_who_paid_industrialisation_tsarist_russia` | `A` | `en` | Who Paid for the Industrialisation of Tsarist Russia? (Revolutionary Russia, 3:2, 1990) | Stefan Plaggenborg | 2 | 78.0 | ✅ 可读全文 |
+| 27 | `plaggenborg_1995_tax_policy_peasant_poverty_1881_1905` | `A` | `en` | Tax Policy and the Question of Peasant Poverty in Tsarist Russia, 1881–1905 (Cahiers du Monde russe, 36:1–2, 1995) | Stefan Plaggenborg | 18 | 70.8 | ✅ 可读全文 |
+| 28 | `priestland_1997_bolshevik_ideology_party_state_relations` | `A` | `en` | Bolshevik Ideology and the Debate Over Party-State Relations, 1918–21 (Revolutionary Russia, 10:2, 1997) | (Author: )Priestland, David; ( Fellow and Tutor in Modern History, St Edmund Hall, Oxford) | 2 | 72.3 | ✅ 可读全文 |
+| 29 | `rieber_2001_stalin_man_of_the_borderlands` | `A` | `en` | Stalin, Man of the Borderlands (American Historical Review, 106:4, 2001) | Alfred J. Rieber | 41 | 168.2 | ✅ 可读全文 |
+| 30 | `rigby_1988_origins_of_nomenklatura_system` | `A` | `en` | Staffing USSR Incorporated: The Origins of the Nomenklatura System (Soviet Studies, 40:4, 1988) | Rigby, T. H. | 1 | 56.5 | ✅ 可读全文 |
+| 31 | `sanborn_2000_mobilization_of_1914_russian_nation` | `A` | `en` | The Mobilization of 1914 and the Question of the Russian Nation: A Reexamination (Slavic Review, 59:2, 2000) | Josh Sanborn | 24 | 86.8 | ✅ 可读全文 |
+| 32 | `stalin_vs_bukharin_rykov_nep_debate_zh` | `A` | `zh` | 废除还是坚持新经济政策——斯大林同以布哈林、李可夫为首的“右派”的争论（《俄罗斯东欧中亚研究》2013年第2期） | 陈爱茹 | 1 | 45.2 | ✅ 可读全文 |
+| 33 | `weissman_1986_prohibition_alcohol_control_1920s_nep` | `A` | `en` | Prohibition and Alcohol Control in the USSR: The 1920s Campaign against Illegal Spirits (Soviet Studies, 38:3, 1986) | Weissman, Neil | 1 | 71.2 | ✅ 可读全文 |
+| 34 | `wheatcroft_1974_reliability_prewar_grain_statistics` | `A` | `en` | The Reliability of Russian Prewar Grain Output Statistics (Soviet Studies, 26:2, 1974) | S. G. Wheatcroft | 2 | 77.1 | ✅ 可读全文 |
