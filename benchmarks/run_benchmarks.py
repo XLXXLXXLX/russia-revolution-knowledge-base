@@ -807,7 +807,7 @@ def eval_b3(split_filter: str) -> dict[str, Any]:
     empty_books_quarantined = 0
     unquarantined_books: list[str] = []
 
-    for cat in ("monographs", "primary"):
+    for cat in ("monographs", "primary", "articles"):
         cat_dir = ROOT / "sources" / cat
         if not cat_dir.exists():
             continue

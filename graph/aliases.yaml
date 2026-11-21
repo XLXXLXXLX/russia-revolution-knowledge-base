@@ -1129,3 +1129,15 @@ entities:
     ru: "Седьмой экстренный съезд РКП(б)"
     en: "Seventh Extraordinary Congress of the Russian Communist Party (Bolsheviks)"
     aliases: ["俄共（布）七大", "布党第七次代表大会", "7th Party Congress (1918)"]
+
+  MTG-1928-11-cc-plenum:
+    canonical_zh: "联共（布）1928年11月中央委员会全会"
+    ru: "Ноябрьский пленум ЦК ВКП(б) (16–24 ноября 1928 г.)"
+    en: "November 1928 Plenum of the Central Committee of the CPSU(b)"
+    aliases: ["1928年十一月全会", "联共（布）1928年11月中央全会"]
+
+  POL-1889-land-captains-and-vyshnegradsky-fiscal-regime:
+    canonical_zh: "1889年地方行政长官制与维什涅格拉茨基关税—护照财政挤压体制"
+    ru: "Земские участковые начальники (1889) и фискально-таможенная система И. А. Вышнеградского"
+    en: "Land Captains (1889) and Vyshnegradsky's Fiscal-Tariff Extraction Regime"
+    aliases: ["地方行政长官", "земский начальник", "维什涅格拉茨基税制", "1891年禁止性关税税则", "亚历山大三世农村反改革"]

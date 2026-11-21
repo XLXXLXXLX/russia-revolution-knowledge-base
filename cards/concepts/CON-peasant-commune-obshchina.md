@@ -10,10 +10,10 @@ dates:
   start_ns: "1861-03-03" # 1861-02-19 [O.S.] / 1861-03-03 [N.S.] 亚历山大二世签署废除农奴制法令，以法定“乡村公社”（сельское общество）固化连环保与份地定期重分体制
   end_ns: "1930-07-30" # 1930-07-30 [N.S.，改历后] 全俄中执委与俄联邦人民委员会颁令在全盘集体化地区正式废除“土地社”（земельные общества），终结传统米尔自治
 coverage_status: multi-perspective
-perspectives_present: ["populist-socialist-walicki-venturi", "late-marx-multilinear-zasulich", "leninist-differentiation", "neo-populist-psr-hildermeier", "peasant-moral-economy-figes", "soviet-rural-sociology-lewin-siegelbaum", "russian-agrarian-archival-danilov-davies"]
+perspectives_present: ["populist-socialist-walicki-venturi", "late-marx-multilinear-zasulich", "leninist-differentiation", "neo-populist-psr-hildermeier", "peasant-moral-economy-figes", "soviet-rural-sociology-lewin-siegelbaum", "russian-agrarian-archival-danilov-davies", "migration-passport-coercion-burds", "cliometric-sponge-effect-allen-gregory"]
 perspectives_missing: ["1861-emancipation-statutes-original", "lenin-1899-development-of-capitalism-original-pages", "1922-rsfsr-land-code-original-text", "danilov-1977-soviet-pre-kolkhoz-peasantry-russian-monograph", "1930-07-30-decree-abolishing-land-societies-original"]
-related_debates: ["DEB-1879-narodnaya-volya-to-bolshevism", "DEB-1914-haimson-thesis-stability", "DEB-1921-kronstadt-and-nep-origins", "DEB-1928-bukharin-alternative", "DEB-1929-collectivization-and-dekulakization-causes"]
-updated_at: "2026-11-18"
+related_debates: ["DEB-1879-narodnaya-volya-to-bolshevism", "DEB-1906-stolypin-wager-and-agrarian-viability", "DEB-1914-haimson-thesis-stability", "DEB-1921-kronstadt-and-nep-origins", "DEB-1928-bukharin-alternative", "DEB-1929-collectivization-and-dekulakization-causes"]
+updated_at: "2026-11-21"
 ---
 
 ## [T1] 60秒定性微摘要
@@ -27,7 +27,7 @@ updated_at: "2026-11-18"
 ### 2.1 分期语义裂变脉络
 
 - **裂变 0｜1861–1880年代：废奴改革的财政桎梏 vs 民粹派“通往社会主义之桥”与马克思1881年通信**
-  - **沙皇法制构造**：`1861-02-19 [O.S.] / 1861-03-03 [N.S.]` 废奴法令将份地产权赋予法定的“乡村公社”（`сельское общество`）而非个体农户，捆绑49年赎买金、赋税**连环保**（`круговая порука`，直至 `1903-03-12 [O.S.] / 1903-03-25 [N.S.]` 始废除，赎金至 `1905-11-03 [O.S.] / 1905-11-16 [N.S.]` 废除）与内部通行证限制，由家长组成的村民大会（`сход`）按人口/劳力定期重分条田（`передел`）。
+  - **沙皇法制构造、内部护照钳制与1889年地方行政长官**：`1861-02-19 [O.S.] / 1861-03-03 [N.S.]` 废奴法令将份地产权赋予法定的“乡村公社”（`сельское общество`），捆绑49年赎买金、赋税**连环保**（`круговая порука`，`1903-03-12 [O.S.] / 1903-03-25 [N.S.]` 废除，赎金至 `1905-11-03 [O.S.] / 1905-11-16 [N.S.]` 废除）与通行证限制，由村民大会（`сход`）定期重分条田（`передел`）。据伯兹（`CLM-burds-1998-passport-regime-and-commune-fiscal-coercion`）考证，连环保以警察查封威慑为后盾，驱使长老与家长操纵短期**内部护照**（`1894-06-03 [O.S.] / 1894-06-15 [N.S.]`《居留证条例》），并在 `1889-07-12 [O.S.] / 1889-07-24 [N.S.]` 世袭贵族**地方行政长官**（`POL-1889-land-captains-and-vyshnegradsky-fiscal-regime`）背书下对欠税外出务工农扣薪押返。
   - **赫尔岑、车尔尼雪夫斯基与古典民粹派**：赫尔岑（`PER-herzen`）在1848年欧洲革命幻灭后创立以重分村社为基石的“俄国社会主义”；车尔尼雪夫斯基（`PER-chernyshevsky`）在1859年《对关于土地公社所有制的哲学偏见的批判》中以辩证三段论论证落后者可借西方先进技术使原始公社直接跃升为高级集体所有制（`CLM-walicki-1969-populism-vs-western-capitalism`, `RN-W1B` `[pp. 10–18]`）；1870年代“到民间去”与1879年土地平分派（`ORG-chernyi-peredel`）均奉米尔为未来社会主义母体（Venturi `RN-W2`）。
   - **1881年查苏利奇—马克思通信（西欧流亡通信，仅标公历 `[N.S.]`）**：面对俄国早期“马克思主义者”宣称村社注定灭亡，查苏利奇（`PER-zasulich`）于 `1881-02-16 [N.S.]` 自日内瓦致信伦敦的马克思，称此乃俄国社会主义者的“生死问题”（`question de vie ou de mort`）。马克思经四易法文草稿（剖析村社内部“公有土地 vs 家庭份地私营”的**固有二重性**`dualisme inhérent`），于 `1881-03-08 [N.S.]` 正式复信：明确将《资本论》原始积累的“历史必然性”严格限定于西欧，判定俄国公社可成为**“俄国社会新生的支点”**（`le point d'appuis de la régénération sociale en Russie`）；`1882-01-21 [N.S.]` 马克思、恩格斯《共产党宣言》俄文第二版序言补充条件——若俄国革命成为西方无产阶级革命的信号而双方互补，现存土地公有制便能成为共产主义发展的起点（`E01_narodniks` 四件S级原档）。
 
@@ -53,7 +53,8 @@ updated_at: "2026-11-18"
 | `PER-zasulich` | `epistolary-interrogator` | 1881-02-16–1881-03-08 [N.S.] | 致信马克思追问村社命运，促成晚年马克思限定《资本论》西欧适用边界 | `1881-02-16_zasulich-to-marx_fr.md`; `1881-03-08_marx-to-zasulich_fr.md` |
 | `PER-lenin` | `marxist-differentiation-critic -> tactical-endorser` | 1899–1923 | 1899年断定村社已资本主义分化，1917年十月却照单采纳社革党委托书承认村社平分土地 | Walicki `RN-W1B`; `1917-10-26_decrees-on-peace-and-land.md` |
 | `ORG-psr` | `programmatic-champion` | 1902–1918 | 以村社均分使用传统建构“土地社会化”纲领，在黑土村社地带获最高选票支持 | `CLM-hildermeier-2000-agrarian-socialism-modernization-dilemma` |
-| `PER-stolypin` | `state-dismantler` | 1906-11-22–1911-09-18 [N.S.] | 颁布独立田庄（`хутор/отруб`）法令试图拆解村社集体地权、培植保守小私有者阶层 | `PER-stolypin`; Figes `ch16` L78 |
+| `PER-stolypin` | `state-dismantler` | 1906-11-22–1911-09-18 [N.S.] | 颁布独立田庄（`хутор/отруб`）法令试图拆解村社集体地权、培植保守小私有者阶层 | `PER-stolypin`; `CLM-ascher-2001-stolypin-agrarian-reform-political-impasse` |
+| `POL-1889-land-captains-and-vyshnegradsky-fiscal-regime` | `bureaucratic-tutelage-over` | 1889-07-24–1906-10-18 [N.S.] | 1889年贵族地方行政长官与1894年短期内部护照制将村社锻造为跨城乡催缴赎金的强制机器 | `CLM-burds-1998-passport-regime-and-commune-fiscal-coercion` |
 | `POL-war-communism` | `defensive-shell-against` | 1918-06–1921-03 | 复兴后的村社团结一致抵制贫农委员会分化与余粮收集制，迫使政权转向NEP | Siegelbaum `RN-W8B` L109; Figes `RN-W5` |
 | `POL-nep` | `juridical-coexistence` | 1922-10-30–1928-01 | 1922年《土地法典》以“土地社”承认村社大会自治，构成NEP脆弱城乡妥协的制度底座 | `CLM-siegelbaum-1992-nep-fragile-social-compromise` |
 | `CON-kulak` | `embedded-intra-village-neighbor` | 1917–1930 | 村社内部富户与中贫农共享反剪刀差利益，1917与1928–1930年村内团结往往强于官方阶级划线 | Lewin `RN-W3` L38; Figes `ch16` L86 |
@@ -67,6 +68,7 @@ updated_at: "2026-11-18"
 - **[农民道德经济与悲剧史观 / Orlando Figes]**（`sources/monographs/figes_1996_peoples_tragedy/ch16` L78–114; `RN-W5`）：强调1917年村社是高度排外的“圈内人自卫共同体”——村内贫富冲突远少于邻村争地冲突，农民凭村社完成庄园夺地后只想关起门来自治，对外部国家法治与议会漠不关心，这种狭隘乡土主义客观上便利了布尔什维克各个击破。
 - **[苏维埃农村社会学与“古风化”学派 / Moshe Lewin, Lewis Siegelbaum]**（`RN-W3` `[pp. 41–77, 386–395]`; `RN-W8B` `[pp. 51, 91–93]`）：揭示1917–1921年土地拉平造成农村“古风化”与小农同质化；1920年代NEP下村社（`сход`）全面压倒贫弱的农村苏维埃，富农仅是“放大版的中农”。1928–1930年斯大林之所以发动暴力集体化，正是因为以米尔为依托的数千万中农共同体构成了超高速国家工业化无法靠市场绕开的制度屏障。
 - **[俄罗斯农史与后苏联档案学派 / V. P. Danilov, N. A. Ivnitsky, R. W. Davies]**（Danilov 1977 *Sovetskaia dokolkhoznaia derevnia*; `CLM-tragedy-village-1929-politburo-dekulakization-commission`, `RN-W20`; Davies `RN-W18`）：达尼洛夫以扎实的20年代农村人口与地权统计还原“前集体农庄时代苏维埃乡村”中米尔的绝对主导地位与合作化渐进可能；1990年代达尼洛夫与伊夫尼茨基主持解密的政治局与OGPU档案则铁证如山地表明，1929–1930年集体农庄绝非米尔传统的自然生长，而是以流放约180万–210万农民（参 Zemskov `CLM-zemskov-1929-dekulakization-demographic-baseline` 对达尼洛夫重复计算的口径勘误）和剥夺村民大会自主权为代价的国家强制征服。
+- **[劳工迁移财政微观史与计量经济史重估 / Jeffrey Burds, Paul R. Gregory, Robert C. Allen]**（`CLM-burds-1998-passport-regime-and-commune-fiscal-coercion`; `CLM-allen-2003-late-imperial-agrarian-growth-and-gregory`）：伯兹揭示1861–1903年间村社长老与家长如何借连环保威慑与短期内部护照盘剥青年外出务工农；格雷戈里（1982）与艾伦（2003）推翻格申克龙“村社导致农业停滞论”（欧俄小麦单产从 `400` 升至 `709 kg/ha`，追平北美大平原 `696 kg/ha`），但艾伦同时指出村社均分造成“海绵效应”（按年度定额估算欧俄可用农业劳动力约为实际所需的 **2.2倍**，详参3.2节季节性限定），导致实际工资停滞、地租暴涨与小农抗拒斯托雷平极化。
 
 ## [T3] 原文引证、语义漂移对照与反讽引述警示
 
@@ -93,6 +95,8 @@ updated_at: "2026-11-18"
   > “If up to one-third of the peasant households in Russia farmed private holdings on the eve of the revolution, then four years later less than 2 per cent continued to do so… The village commune was greatly strengthened as a result of the revolution. It revived from its pre-revolutionary state of torpor and decay to become the main organizing force of the peasant revolution on the land. All the main political organs of the revolution in the countryside — the village committees, the peasant unions and the Soviets — were really no more than the peasant commune in a more revolutionary form.”
 - **Siegelbaum 论1922年《土地法典》确认村社（`skhod`）治理权与农村苏维埃空壳化（1992；A级专著）**（`reading-notes/siegelbaum_rabinowitch/RN-W8B-july-1917-and-1918-1929-state-society.md` L131，引原书 `[pp. 91–93 / PDF pp. 105–107]`）：
   > 1922年《土地法典》在法律上承认了农民的土地使用权选择自由，实际上将传统的重分村社（法律上称为“土地社” `zemel'noe obshchestvo`）及其村民大会（`skhod`）确立为农村土地与公共事务的实际治理者，而农村苏维埃（`selsovet`）在NEP初期财政紧缩下沦为依赖村社补贴的空壳。
+- **Burds（1998）与 Allen（2003）关键定量口径补充**：
+  > 伯兹（`CLM-burds-1998-passport-regime-and-commune-fiscal-coercion`）：非黑土中央工业区1861年赎买估值达土地市价 `200%–276%`；1900年欧俄仅 `0.22%` 村社实际均摊欠税，1890–1896年欧俄 `49.5%` 内部护照期限 ≤3个月，`1894-06-03 [O.S.] / 1894-06-15 [N.S.]`《居留证条例》法定成年未分家子女领照须经家长同意。艾伦（`CLM-allen-2003-late-imperial-agrarian-growth-and-gregory`）：1913年欧俄可用农业劳动力 `3,970万` 成年男工当量年，按年度定额仅需 `1,780万`（差额约 `2,190万`，但须保留夏收农忙高峰季节性需求限定）。
 
 ### 3.3 反讽引述警示（Ironic / Polemical Quotation Warnings）
 > [!WARNING]

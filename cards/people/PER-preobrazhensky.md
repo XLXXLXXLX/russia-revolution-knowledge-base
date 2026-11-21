@@ -10,10 +10,10 @@ dates:
   start_ns: "1886-02-27"
   end_ns: "1937-07-13"
 coverage_status: multi-perspective
-perspectives_present: ["primary-1923-platform-of-46", "economic-history-erlich", "institutional-carr", "peasant-social-history-lewin", "revisionist-cohen", "trotskyist-deutscher"]
-perspectives_missing: ["post-soviet-archival-rehabilitation", "russian-new-economics-full-ocr", "1931-unpublished-manuscript-full"]
+perspectives_present: ["primary-1923-platform-of-46", "primary-1926-new-economics-full", "economic-history-erlich", "cliometric-allen", "institutional-carr", "peasant-social-history-lewin", "revisionist-cohen", "trotskyist-deutscher"]
+perspectives_missing: ["post-soviet-archival-rehabilitation", "1931-unpublished-manuscript-full"]
 related_debates: ["DEB-1918-war-communism-ideology-or-emergency", "DEB-1921-kronstadt-and-nep-origins", "DEB-1924-socialism-in-one-country", "DEB-1928-bukharin-alternative", "DEB-1929-collectivization-and-dekulakization-causes"]
-updated_at: "2026-11-18"
+updated_at: "2026-11-21"
 ---
 
 ## [T1] 60秒定性微摘要
@@ -24,7 +24,7 @@ updated_at: "2026-11-18"
 ### 2.1 核心历史脉络
 - **左翼共产主义者、战时纸币论与中央书记（1903–1921）**：生于 `1886-02-15 [O.S.] / 1886-02-27 [N.S.]` 奥廖尔省博尔霍夫；1903年入党并长期在乌拉尔主持地下革命。1918年初在《布列斯特和约》问题上与布哈林同属 **“左翼共产主义者”**（`ORG-left-communists-1918`）；1919年与布哈林合著《共产主义ABC》，1920年出版《无产阶级专政时期的纸币》（其中在注释中将“社会主义原始积累”概念的发明归功于弗·米·斯米尔诺夫，Erlich p. 43n）；1920年3月俄共九大至1921年3月十大期间担任俄共（布）中央书记处书记之一，并与克列斯廷斯基、谢列布里亚科夫共同构成早期相对民主的集体书记处，十大后在列宁改组下集体去职。
 - **领衔起草《四十六人声明》（1923.10）**：1923年秋剪刀差危机爆发之际（见 L3 `1923-10_scissors_and_new_course_crisis.md`），普列奥布拉任斯基排名首位领衔起草 **`1923-10-15 [N.S.]` 提交政治局的《四十六人声明》**（`1923-10-15_declaration-of-the-forty-six.md`，紧随其后者为布列斯拉夫与谢列布里亚科夫）。卡尔（`CLM-carr-1954-platform-of-46-economic-roots`）指出，声明深刻打通了经济混乱与党内专制之联系：一面列举7月底以来切尔文卢布动荡、银行信贷危机、高价滞销、农民收购破产与预算随意削减，痛陈所谓经济成就实系“自发而非依靠不称职的领导”；另一面更首次发出振聋发聩的制度控诉——十大人事任命制已演变为**“党日益毫不掩饰地分化成书记等级和平民百姓（`секретарская иерархия и 'простые смертные'`）”**，由上而下选拔的官僚机关已“取代党”（`CON-thermidor-and-bureaucracy`）。虽在 `1923-10-25–27` 联席全会及 `1924-01-16–18` 十三次代表会议上奋起申辩“工人民主”，仍遭多数派斥为派别活动并开启“反托洛茨基主义”整肃。
-- **《新经济学》、“普列奥布拉任斯基两难”与大论战（1924–1927）**：1924年发表《社会主义积累的基本规律》，1926年结集为《新经济学》（`CON-primitive-socialist-accumulation`）。埃利希（`CLM-erlich-1960-preobrazhensky-dilemma`）精确复原其四重结构约束：（1）战后及内战耗损造成**集中性固定资本更新瓶颈**，且重工业资本—产出比高达 `4:1` 至 `5:1`、建设周期长达3–4年；（2）废除地租及将农税降至战前三分之一以下消除了沙俄式“饥饿强迫售粮”，致使“农民如今并不急于售粮”；（3）社会主义国家工业受工会与政治伦理约束，无法靠残酷压低工人实际工资完成积累；（4）唯有借助**外贸垄断与国营工业垄断定价（即“价格税”）**从广袤的私营与小农部门汲取部分剩余。但埃利希同时点破致命的 **“普列奥布拉任斯基两难”**：在私营农户仍占主导、NEP市场机制尚存的前提下，工业垄断高价一旦越过临界点就会招致农民罢买罢售甚至政治破裂（至1928年春普氏仍公开反对以行政暴力逼迫中农）；**其模型与斯大林式暴力剥夺、强制全盘集体农庄存在本质制度分野**——普氏设想个体农户还将持续数十年，依价格/税收等间接市场杠杆运转。1927年底在十五大后作为“联合反对派”（`ORG-left-and-united-opposition`）骨干被开除出党并流放乌拉尔斯克。
+- **《新经济学》原典逻辑、“两个调节者”与“普列奥布拉任斯基两难”（1924–1927）**：1924年发表《社会主义积累的基本规律》，1926年增订出版《新经济学》（`CON-primitive-socialist-accumulation`，`CLM-preobrazhensky-1926-primitive-socialist-accumulation-law`）。原典将苏维埃“商品社会主义经济体系”界定为**社会主义原始积累规律**与**价值规律**两大对立调节者的搏斗场：因国内工业品均价约比国外高一倍，若开放自由外贸按世界价值规律等价交换，2/3至3/4国营工业将破产；故必须依托外贸垄断、保护关税与国营工业垄断定价（并排挤截留批零差价的私商耐普曼，预警1924年盲目行政降价造成逾4,000万卢布损失及1925–1927年 `3.8亿–5亿` 卢布“商品荒”），在工业成本下降条件下兼顾**“积累+提薪+降价”动态三角目标**，同时明言超经济暴力与镇压中农系绝对禁忌，主张减免农村直接税并支持自愿农业生产合作社。埃利希（`CLM-erlich-1960-preobrazhensky-dilemma`）与艾伦（`CLM-allen-2003-soft-budget-constraints-and-heavy-industry-drive`）进一步辨明：**普氏模型假定个体农户与市场机制长期存续，与斯大林1929年后暴力集体化存在本质制度分野**（作为1929年后的比较，艾伦估算1937年经商店销售的农产品加工消费品930亿卢布净额中国家取得约760亿即82%，将该特定口径概括为“行动中的普列奥布拉任斯基”，但不能泛化为整个1930年代全部零售商品的统一税率）。1927年底在十五大后作为“联合反对派”（`ORG-left-and-united-opposition`）骨干被开除出党并流放乌拉尔斯克。
 - **1928–1929误判斯大林转向、率先脱离托洛茨基和解与悲剧结局（1928–1937）**：1928年斯大林发动反富农非常征粮并推进加速五年计划后，流放中的普列奥布拉任斯基产生致命理论错觉，将斯大林的行政跃进误判为党在客观历史压力下被迫“实行我们（社会主义原始积累）的政策”。多伊彻（`CLM-deutscher-1959-alma-ata-bukharin-stalin-split`）详细记述：1928年夏起普氏提出与莫斯科“中派”结盟并请愿召开特别代表会议以共抗“右倾复辟危险”；流放阿拉木图的托洛茨基（`PER-trotsky`）断然拒斥，斥之为自毁政治灵魂的幻想（**“看守和囚徒不能成为同盟者”**）。由此普列奥布拉任斯基与拉狄克（`PER-radek`）率先同托洛茨基分道扬镳，于**1929年7月**发表声明脱离反对派换取复归党籍。然而1931年他在未刊手稿中便已清醒警示“过度积累”与过度投资正扼杀轻工业与消费品供给、酿成新一轮危机（Erlich pp. 178–180），并最终对强制集体化坦言未曾预见；此后数年屡遭再开除与复党折磨，终于 **`1937-07-13 [N.S.]`** 在大清洗中被判死刑处决（1988年平反）。
 
 ### 2.2 时效关系摘要边表（Typed & Temporalized Edges）
@@ -70,9 +70,9 @@ updated_at: "2026-11-18"
 
 ### 3.3 本地馆藏专著、一手锚点与待补清单
 - **已入库精读目录与论断锚点**：
-  - 一手文献：`sources/web-archive/E09_E10_party_debates/1923-10-15_declaration-of-the-forty-six.md`（中英俄三语《四十六人声明》）、`sources/web-archive/E01_E10_supplements/1923-10-15_declaration-of-the-forty-six.md`（46名签署者档案校勘）；
-  - 专著与论断：`sources/monographs/erlich_1960_debate/`（`CLM-erlich-1960-preobrazhensky-dilemma`、`CLM-erlich-1960-stalin-overkill-turn`）、`sources/monographs/carr_1954_interregnum/`（`CLM-carr-1954-platform-of-46-economic-roots`）、`sources/monographs/deutscher_prophet_trilogy_zh/`（`CLM-deutscher-1959-alma-ata-bukharin-stalin-split`）、`sources/monographs/lewin_1968_peasants/`、`timeline/L3_daily/1923-10_scissors_and_new_course_crisis.md`；
-  - 关联概念卡：`CON-primitive-socialist-accumulation`、`CON-thermidor-and-bureaucracy`、`CON-smychka`。
+  - 一手文献：`sources/primary/preobrazhensky_1926_new_economics_zh/`（《新经济学》1926年第2版中译全本，`CLM-preobrazhensky-1926-primitive-socialist-accumulation-law`，[`RN-W60-preobrazhensky-1926-and-allen-2003`](../../reading-notes/allen_preobrazhensky_accumulation/RN-W60-preobrazhensky-1926-and-allen-2003.md)）、`sources/web-archive/E09_E10_party_debates/1923-10-15_declaration-of-the-forty-six.md`（中英俄三语《四十六人声明》）、`sources/web-archive/E01_E10_supplements/1923-10-15_declaration-of-the-forty-six.md`（46名签署者档案校勘）；
+  - 专著与论断：`sources/monographs/allen_2003_farm_to_factory/`（`CLM-allen-2003-soft-budget-constraints-and-heavy-industry-drive`）、`sources/monographs/erlich_1960_debate/`（`CLM-erlich-1960-preobrazhensky-dilemma`、`CLM-erlich-1960-stalin-overkill-turn`）、`sources/monographs/carr_1954_interregnum/`（`CLM-carr-1954-platform-of-46-economic-roots`）、`sources/monographs/deutscher_prophet_trilogy_zh/`（`CLM-deutscher-1959-alma-ata-bukharin-stalin-split`）、`sources/monographs/lewin_1968_peasants/`、`timeline/L3_daily/1923-10_scissors_and_new_course_crisis.md`；
+  - 关联概念与学者卡：`CON-primitive-socialist-accumulation`、`CON-thermidor-and-bureaucracy`、`CON-smychka`、`SCH-preobrazhensky-evgeny`。
 - **待核查一手文本与档案清单** *(严禁凭记忆编造页码)*：
-  1. 《新经济学》（1926）中译本/俄文版 OCR 提取（`inbox/` 扫描件已标 `needs_ocr: true`，待补第二章“社会主义原始积累规律”逐段原引）；
+  1. 《新经济学》1926年俄文原版纸书页码逐条对读（当前已入库1984年北京中译全本纯文本）；
   2. 1931年未刊长篇手稿（论“过度积累”与再生产比例危机）俄文档案出版物及1936–1937年侦讯与枪决执行档案。

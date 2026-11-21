@@ -854,7 +854,7 @@ def _compute_corpus_signature() -> str:
     """轻量级毫秒级语料签名 (<3ms)：仅 stat 一级书目目录与索引元数据文件，避免每次查询遍历 5500+ 切片。"""
     dir_count = 0
     latest_mtime = 0.0
-    for cat in ("monographs", "primary"):
+    for cat in ("monographs", "primary", "articles"):
         base = ROOT / "sources" / cat
         if not base.exists():
             continue
@@ -921,7 +921,7 @@ def ensure_chapter_fts_index(force_rebuild: bool = False) -> sqlite3.Connection:
     fts_rows: list[tuple[str, str, int, str, str, str]] = []
     qrn_rows: list[tuple[str, str, str, float]] = []
 
-    for cat in ("monographs", "primary"):
+    for cat in ("monographs", "primary", "articles"):
         cat_dir = ROOT / "sources" / cat
         if not cat_dir.exists():
             continue

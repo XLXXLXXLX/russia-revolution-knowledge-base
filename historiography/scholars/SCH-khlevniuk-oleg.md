@@ -26,6 +26,8 @@ updated_at: "2026-11-18"
 | `CLM-khlevniuk-2015-secretariat-and-nomenklatura` | 1922年起总书记核心实权在于设定政治局议程与中层干部调配（任命制雏形） | *Stalin: New Biography of a Dictator* (2015) |
 | `CLM-khlevniuk-2015-collective-leadership-erosion` | 1924–1927年“七人小组”集体领导真实有效运转，并非斯大林自始独裁 | 同上 |
 | `CLM-khlevniuk-2015-defeat-of-right-opposition` | 1928西伯利亚征粮被斯大林用作打破集体领导、清剿布哈林-李可夫-托姆斯基寡头制衡的政治决战 | 同上 |
+| `CLM-kak-lomali-nep-1928-stalin-right-danger-speech` | 1928-11-19演说借弗鲁姆金第二封信与莫斯科事件“隔山打牛”，正式确立右倾主要危险（S级速记） | 《Как ломали НЭП》Т. 3 (2000) |
+| `CLM-khlevniuk-danilov-2000-nov-1928-plenum-compromise-trap` | 1928年11月会前“辞职—折中协议”实成捆死布哈林集团手脚、由李可夫背书高指标的妥协陷阱 | 《Как ломали НЭП》Т. 3 导言 (2000) |
 
-## [T3] 馆藏专著与待补档案
-- 已入库：`sources/monographs/khlevniuk_2015_stalin/`；待寻合编档案集：`BIB-022`（《Как ломали НЭП》5卷本）。
+## [T3] 馆藏专著与档案集锚点
+- 已入库：`sources/monographs/khlevniuk_2015_stalin/`；`sources/primary/kak_lomali_nep_1928_v3_ru/`（与丹尼洛夫、瓦特林合编《Как ломали НЭП》第3卷：1928年11月中央全会俄文速记全本，精读见 [`RN-W60-kak-lomali-nep-1928-nov-plenum`](../../reading-notes/kak_lomali_nep_1928_v3/RN-W60-kak-lomali-nep-1928-nov-plenum.md)；其余第1–2、4–5卷仍列待补）。

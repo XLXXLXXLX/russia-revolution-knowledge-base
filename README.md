@@ -11,9 +11,9 @@
 
 ## 当前馆藏与知识图谱规模
 
-- **四级双历法时间线（`timeline/`）**：1 个 L0 十阶段总览 + 114 节点 L1 骨干大事记 + **10 卷 L2 分期月度编年（`E01–E10` 全覆盖）** + **28 卷 L3 逐日/逐时风暴眼微距卷** + **724 条**经俄历/公历数学核验的 `events_ledger.jsonl` 原子事件。
-- **三层防偏斜卡片与概念系谱（`cards/` & `glossary/`）**：共 **188 张实体卡 + 23 张史学争鸣母题卡（合计 211 张核心卡，100% 全部达成 `multi-perspective` 多视角交叉核验定稿，100% 具备标准 `### 2.2` 时效关系边表，0 draft）**，配套 25 概念跨期语义裂变排雷总表（[`glossary/CONCEPT_GENEALOGY_INDEX.md`](./glossary/CONCEPT_GENEALOGY_INDEX.md)）。
-- **多元史学争鸣与原子论断库（`historiography/` & `reading-notes/`）**：累计 **611 个** 校验通过的卡片/争鸣母题（`DEB-*`）/学者档案（`SCH-*`，全部遵守 `[T1] ≤ 150` 字）/带原文直引页码锚点的原子论断卡（`CLM-*`，共 294 张）、**111 份** 全文精读札记与外网文献简报、**32 份** 跨模型家族异源对抗审计报告（`audits/`，P0/P1 100% 闭环清零），配套 **1,589 条** 100% 源自卡片 `### 2.2` 单一真源的时效有向关系边（0 悬空 Stub、0 僵尸引导边）、**9 份** 定量微序列档案（`data/DATA-01..09`）、**49 篇** 多语种 S 级在线原典（`sources/web-archive/`）以及 **187 部** 已拆解分章的本地专著与速记档案汇编（**187 部 100%** 全部具备完整可读纯文本并纳入 SQLite FTS5 索引，含 PDF、EPUB、DOCX、OCR 重建本与原生纯 Python 解码的俄文 DjVu 全会速记，`needs_ocr` 空扫隔离 0 部，详见 [`sources/LITERATURE_CATALOG.md`](./sources/LITERATURE_CATALOG.md)）。
+- **四级双历法时间线（`timeline/`）**：1 个 L0 十阶段总览 + 114 节点 L1 骨干大事记 + **10 卷 L2 分期月度编年（`E01–E10` 全覆盖）** + **28 卷 L3 逐日/逐时风暴眼微距卷** + **731 条**经俄历/公历数学核验的 `events_ledger.jsonl` 原子事件。
+- **三层防偏斜卡片与概念系谱（`cards/` & `glossary/`）**：共 **190 张实体卡 + 23 张史学争鸣母题卡（合计 213 张核心卡，100% 全部达成 `multi-perspective` 多视角交叉核验定稿，100% 具备标准 `### 2.2` 时效关系边表，0 draft）**，配套 25 概念跨期语义裂变排雷总表（[`glossary/CONCEPT_GENEALOGY_INDEX.md`](./glossary/CONCEPT_GENEALOGY_INDEX.md)）。
+- **多元史学争鸣与原子论断库（`historiography/` & `reading-notes/`）**：累计 **635 个** 校验通过的卡片/争鸣母题（`DEB-*`）/学者档案（`SCH-*`，共 115 张，全部遵守 `[T1] ≤ 150` 字）/带原文直引页码锚点的原子论断卡（`CLM-*`，共 307 张）、**115 份** 全文精读札记与外网文献简报、**33 份** 跨模型家族异源对抗审计报告（`audits/`，P0/P1 100% 闭环清零），配套 **1,609 条** 100% 源自卡片 `### 2.2` 单一真源的时效有向关系边（0 悬空 Stub、0 僵尸引导边）、**9 份** 定量微序列档案（`data/DATA-01..09`）、**49 篇** 多语种 S/A 级在线文献（`sources/web-archive/`）、支持中英俄期刊论文入库的 [`sources/articles/`](./sources/articles/) 管线，以及 **187 部** 已拆解分章的本地专著与速记档案汇编（**187 部 100%** 全部具备完整可读纯文本并纳入 SQLite FTS5 索引，含 PDF、EPUB、DOCX、OCR 重建本与原生纯 Python 解码的俄文 DjVu 全会速记，`needs_ocr` 空扫隔离 0 部，详见 [`sources/LITERATURE_CATALOG.md`](./sources/LITERATURE_CATALOG.md)）。
 
 ---
 
