@@ -10,7 +10,7 @@ dates:
   start_ns: "1887-01-13" # 1887-01-01 [O.S.] / 1887-01-13 [N.S.] 维什涅格拉茨基出任财政部主管开启极限财政挤压；1889-07-12 [O.S.] / 1889-07-24 [N.S.] 颁布《地方行政长官条例》
   end_ns: "1906-10-18" # 1903-03-12 [O.S.] / 1903-03-25 [N.S.] 废除连环保；1906-10-05 [O.S.] / 1906-10-18 [N.S.] 斯托雷平敕令废除护照限制与地方行政长官免审拘留权（该官职本身存续至1917年）
 coverage_status: multi-perspective
-perspectives_present: ["peasant-migration-fiscal-burds", "tariff-institutional-sobolev", "liberal-political-ascher", "cliometric-allen-gregory"]
+perspectives_present: ["peasant-migration-fiscal-burds", "tariff-institutional-sobolev", "liberal-political-ascher", "cliometric-allen-gregory", "fiscal-incidence-and-visibility-plaggenborg-kotsonis", "volost-court-appeals-popkins-burbank"]
 perspectives_missing: ["1889-statute-full-russian-clauses", "1891-1892-famine-zemstvo-relief-archives"]
 related_debates: ["DEB-1906-stolypin-wager-and-agrarian-viability", "DEB-1914-haimson-thesis-stability"]
 updated_at: "2026-11-21"
@@ -42,10 +42,11 @@ updated_at: "2026-11-21"
 - **[俄国财政制度批判派与格申克龙命题 / М. Н. Соболев, Alexander Gerschenkron]**（`CLM-sobolev-1899-vyshnegradsky-1891-tariff-and-fiscal-squeeze`）：索博列夫以国务会议档案证明 1876–1891 年加税本质上是转嫁外债与军费负担的累退“财政主义”，64%–68% 的食品税负与昂贵农机税直接抑制了农业技术进步；格申克龙进而将赎金、间接税与村社束缚概括为导致1905年革命的“农民绝对贫困化与农业内卷危机”。
 - **[计量经济史重估与刘易斯二元撕裂论 / Paul R. Gregory, Robert C. Allen]**（`CLM-allen-2003-late-imperial-agrarian-growth-and-gregory`）：格雷戈里（1982）重构国民收入证明 1885–1913 年俄国农业产出翻番、小麦单产追平北美大平原、农户税后净收入上升，证伪了单一“绝对贫困化停滞论”；艾伦（2003）则在确认单产增长的同时指出，按年度定额估算村社“海绵效应”使欧俄可用农业劳动力总量约为农业需求的 2.2 倍（`3,970万` 对 `1,780万` 成年男工当量年，须保留季节性限定），致城乡雇工实际工资三十年停滞而实际地租暴涨，经济增长红利极度偏向地产者。
 - **[劳工迁移微观社会史与宪政政治史 / Jeffrey Burds, Abraham Ascher]**（`CLM-burds-1998-passport-regime-and-commune-fiscal-coercion`, `CLM-ascher-2001-stolypin-agrarian-reform-political-impasse`）：伯兹揭示仇恨的焦点不仅是税额高低，更是短期内部护照、押解返乡与乡法院笞刑，以及地方行政长官对村社和家长控制的行政支持对青年农民工尊严的日常羞辱，这使进城务工农成为把城市激进意识带回乡村的媒介；阿舍则证明 1889 年贵族地方特权在 1908–1909 年成为锁死斯托雷平渐进改革的致命政治礁石。
+- **[城乡税负重估与财政—司法二元治理术 / Stefan Plaggenborg, Yanni Kotsonis, Gareth Popkins & Jane Burbank]**（`CLM-kotsonis-plaggenborg-tsarist-indirect-and-direct-taxation`, `CLM-burbank-2000-peasant-volost-courts-code-and-custom`）：普拉根博格（1995）与科佐尼斯（2014）证明1881年后废人头税与间接税扩张使占人口两成的城市工商业承担了1901年 `65%` 消费税与 `68%` 总国税（1913年农民直接国税仅占总岁入 `1.0%`），但因税务督察被禁入村，“农民在财政上不是个人”，1914年禁酒令毁掉近三成岁入后遂逼出1916–1921年直接暴力摊派；波普金斯（2000，承继伯班克脉络）则据1889年后三级上诉档案证明农村妇女等积极援引《民法》对抗村社习惯，反倒是省局屡用“劳动原则”强保官方化习惯，二元司法摇摆侵蚀了政权合法性。
 
 ## [T3] 深度考证、分期细目与原文引证档案
-- **已入库 A 级专著与精读札记锚点**：
-  - 合璧精读札记：[`RN-W60-burds-sobolev-ascher-agrarian-governance`](../../reading-notes/late_imperial_agrarian_state/RN-W60-burds-sobolev-ascher-agrarian-governance.md)、[`RN-W60-preobrazhensky-1926-and-allen-2003`](../../reading-notes/allen_preobrazhensky_accumulation/RN-W60-preobrazhensky-1926-and-allen-2003.md)；
+- **已入库 A 级专著、论文与精读札记锚点**：
+  - 合璧精读札记：[`RN-W60-burds-sobolev-ascher-agrarian-governance`](../../reading-notes/late_imperial_agrarian_state/RN-W60-burds-sobolev-ascher-agrarian-governance.md)、[`RN-W60-preobrazhensky-1926-and-allen-2003`](../../reading-notes/allen_preobrazhensky_accumulation/RN-W60-preobrazhensky-1926-and-allen-2003.md)、[`RN-W61-kotsonis-hoch-plaggenborg-burbank-haimson`](../../reading-notes/late_imperial_fiscal_and_haimson/RN-W61-kotsonis-hoch-plaggenborg-burbank-haimson.md)；
   - 索博列夫《19世纪下半叶俄国的关税政策》（1911年托木斯克版中译本，`sources/monographs/sobolev_1899_russian_tariff_policy_zh/ch19`, `ch25–ch29`，注意 `ch19` 贸易表进/出口列头印反勘误及未直引“宁肯少吃也要出口”俗语的证据边界）；
   - 伯兹 *Peasant Dreams and Market Politics*（`sources/monographs/burds_1998_peasant_dreams/ch01–ch04`，1900年 `0.22%` 连环保重摊率、1890–1896年 `49.5%` 三个月内短期护照与 `1894-06-03 [O.S.]` 居留证条例）；
   - 阿舍 *P. A. Stolypin*（`sources/monographs/ascher_2001_stolypin/ch12`, `ch15`，1889年条例权限与1908–1909年联合贵族会阻击地方改革始末）。

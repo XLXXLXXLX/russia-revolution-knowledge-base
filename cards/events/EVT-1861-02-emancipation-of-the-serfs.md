@@ -24,15 +24,15 @@ perspectives_present:
 - tragedy-cultural-figes
 - populist-socialist-walicki
 - patrimonial-state-pipes
+- cliometric-redemption-reappraisal-hoch
 perspectives_missing:
 - emancipation-statutes-original-clauses
 - emmons-field-gentry-committee-archives
-- peasant-redemption-provincial-ledgers
 related_debates:
 - DEB-1879-narodnaya-volya-to-bolshevism
 - DEB-1906-stolypin-wager-and-agrarian-viability
 - DEB-1914-haimson-thesis-stability
-updated_at: '2026-11-20'
+updated_at: '2026-11-21'
 ---
 
 ## [T1] 60秒定性微摘要
@@ -70,6 +70,7 @@ updated_at: '2026-11-20'
 - **历史社会学农业官僚制派（Barrington Moore, 1966 / `CLM-moore-1966-agrarian-bureaucracy-and-peasant-revolution`）**：从比较现代化视角指出，俄国皇室农业官僚制既压制了独立资产阶级兴起，又在1861年后把地主剥离出地方治安与司法互惠职能，只留下寄生的赎买金索取；而被强行保留的米尔村社则把农民贫困转化为一致反地主的“激进性团结”。
 - **文化悲剧与国家—社会断裂派（Orlando Figes, 1996 / Richard Pipes, 1990）**：Figes 在 `ch09` 中着重剖析改革令“自由”与“土地”脱节：农民按习惯法坚信土地归劳动者，而沙皇官僚却用法律将大部分良田保留在贵族手中；Pipes（`CLM-pipes-1990-patrimonial-state-and-intelligentsia`）则将1861年连同后续“大改革”置于帝俄家产制结构下，认为村社强化反而在法律上隔绝了农民与现代公民产权，延迟了农村现代法制发育。
 - **马克思主义与士绅危机制约派（Andrzej Walicki / Roberta Manning / 列宁传统）**：列宁后来在革命史评述中将1861年定性为“农奴主对农民的第一次洗劫”，同时指出改革以极其痛苦的“普鲁士式/地主式”道路打开了俄国资本主义渗透闸门；Walicki（`CLM-walicki-1969-narodnichestvo-definition`）辨析车尔尼雪夫斯基与民粹派如何在改革现场即已敏锐洞察资本主义分化威胁；Manning（`CLM-manning-1982-gentry-fronde-to-reaction`、`ch13`）则补入改革后四十年土地贵族不断衰落并在1905年被1861年遗留的土地冲突反噬的阶级轨迹。
+- **长尾分布与赎金计量重估派（Steven L. Hoch, 2004 / `CLM-hoch-2004-emancipation-redemption-statistical-reappraisal`）**：正面证伪洛西茨基（1906）与格申克龙“赎金溢价90%/20%与普遍割地致贫”定论，指出1863–1872年10.8万宗土地交易呈强烈左偏长尾（`>500` 俄亩大庄园占金额 `62%`、均价仅 `14.52` 卢布，`<25` 俄亩小宗占宗数 `57%`、均价达 `55.11` 卢布），按农民实际小宗购地规模赋权后45省份地市值实达 `12.05亿` 卢布（原表误印 `10.25亿`），法定赎金 `8.67亿` 卢布实属折价优待；同时改革前份地呈右偏长尾，法定上限仅削平少数超大代役租份地（鲍里索格列布斯克县 `60%` 割地集中于 `16.5%` 农奴），27县中23县众数份地未变且高度拉平聚拢。
 
 ## [T3] 深度考证与引文档案
 
@@ -83,6 +84,7 @@ updated_at: '2026-11-20'
   - [洛吉诺夫《列宁传》第2章：1861-02-19 签署与 1861-03-05 公布（`ch02_第一部_如何成为领袖.md`）](../../sources/monographs/loginov_lenin_bio_zh/ch02_第一部_如何成为领袖.md)
   - [Barrington Moore 论断卡：`CLM-moore-1966-agrarian-bureaucracy-and-peasant-revolution`](../../historiography/claims/CLM-moore-1966-agrarian-bureaucracy-and-peasant-revolution.md)
   - [Andrzej Walicki 论断卡：`CLM-walicki-1969-narodnichestvo-definition`](../../historiography/claims/CLM-walicki-1969-narodnichestvo-definition.md)
+  - [Steven L. Hoch (2004) 赎金与长尾分布重估论断卡：`CLM-hoch-2004-emancipation-redemption-statistical-reappraisal`](../../historiography/claims/CLM-hoch-2004-emancipation-redemption-statistical-reappraisal.md)（精读见 [`RN-W61-kotsonis-hoch-plaggenborg-burbank-haimson`](../../reading-notes/late_imperial_fiscal_and_haimson/RN-W61-kotsonis-hoch-plaggenborg-burbank-haimson.md)）
   - [关联人物与概念卡：`PER-alexander-ii`](../people/PER-alexander-ii.md)、[`CON-peasant-commune-obshchina`](../concepts/CON-peasant-commune-obshchina.md)
   - [关联争鸣卡：`DEB-1879-narodnaya-volya-to-bolshevism`](../../historiography/debates/DEB-1879-narodnaya-volya-to-bolshevism.md)、[`DEB-1906-stolypin-wager-and-agrarian-viability`](../../historiography/debates/DEB-1906-stolypin-wager-and-agrarian-viability.md)
 - **双历法核验记录（19世纪 `N.S. = O.S. + 12`；经 `scripts/kb.py date` 核验）**：

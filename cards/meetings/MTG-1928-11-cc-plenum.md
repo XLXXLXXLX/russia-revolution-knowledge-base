@@ -11,7 +11,7 @@ dates:
   end_ns: "1928-11-24"
 coverage_status: multi-perspective
 perspectives_present: ["stalin-majority-industrialization", "right-wing-rykov-frumkin", "archival-khlevniuk-danilov-vatlin", "revisionist-cohen", "moscow-local-merridale", "shopfloor-labor-rossman"]
-perspectives_missing: ["vols-1-2-4-5-kak-lomali-nep-full-stenograms"]
+perspectives_missing: []
 related_debates: ["DEB-1928-bukharin-alternative", "DEB-1929-collectivization-and-dekulakization-causes"]
 updated_at: "2026-11-21"
 ---

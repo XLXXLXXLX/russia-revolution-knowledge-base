@@ -22,7 +22,7 @@
 
 ### 2. 英语核心斯拉夫学与经济史期刊论文（*Slavic Review* / *Kritika* / *The Russian Review* / *Europe-Asia Studies* / *Cahiers du Monde russe* / *Journal of Modern History*）
 - **晚帝俄农民消费税负与人口生活水平论战**：Stefan Plaggenborg (*Slavic Review*, 1990, *"Who Paid for the Industrialization of Tsarist Russia?"*)；Steven Hoch (*Slavic Review*, 1994, *"On Good Numbers and Bad: Malthus, Population Trends and Peasant Standard of Living in Late Imperial Russia"*)。
-- **一战—十月—内战“危机连续体”**：Peter Holquist (*Journal of Modern History*, 1997, *"‘Information Is the Alpha and Omega of Our Work’: Bolshevik Surveillance in Its Pan-European Context"*)；Michael Melancon 与 Lars T. Lih 关于 1917 年二月党派协调与战时粮食专卖延续性的论文。
+- **一战—十月—内战“危机连续体”**：✅ Peter Holquist (*Journal of Modern History*, 1997) 已入库精读；待补 Michael Melancon 关于 1917 年二月党派协调及 Lars T. Lih 关于战时粮食专卖延续性的早期论文。
 - **NEP 谷物平衡表与干部腐败/整风微观研究**：R. W. Davies & Stephen G. Wheatcroft 在 *Soviet Studies / Europe-Asia Studies* 发表的谷物平衡表系列考辨；James Heinzen 关于 1920 年代苏维埃反贿赂与基层行政论文。
 
 ### 3. 中文俄苏史核心期刊论文（《历史研究》《世界历史》《俄罗斯东欧中亚研究》等）

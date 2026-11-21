@@ -26,6 +26,7 @@ updated_at: "2026-11-18"
 | `CLM-getzler-1967-martov-1903-clause-one` | 1903党章第一条争论实质是群众自治党模型与集中制模型的原则交锋 | *Martov: A Political Biography* (1967) |
 | `CLM-getzler-1967-martov-1917-internationalism` | 1917马尔托夫受困于维护孟什维克党统一而错失独立整合左翼反战浪潮之机 | 同上 |
 | `CLM-getzler-1967-martov-soviet-opposition` | 1918–1920“半忠诚、半不妥协”的苏维埃宪法反对派实践 | 同上 |
+| `CLM-getzler-1983-kronstadt-soviet-democracy-and-1921-veterans` | 1917–1918年喀琅施塔得高度制度化的多党苏维埃议会民主传统与1921年两主力舰逾93.9%老水兵延续性 | *Kronstadt 1917–1921: The Fate of a Soviet Democracy* (1983) |
 
 ## [T3] 馆藏专著锚点
-- 已入库：`sources/monographs/getzler_1967_martov/`。
+- 已入库：`sources/monographs/getzler_1967_martov/`、`sources/monographs/getzler_1983_kronstadt/`（精读见 [`RN-W61-getzler-holquist-duval-oppenheim-rigby`](../../reading-notes/kronstadt_and_early_party_state/RN-W61-getzler-holquist-duval-oppenheim-rigby.md)）。

@@ -10,10 +10,10 @@ dates:
   start_ns: "1929-11-10"
   end_ns: "1929-11-17"
 coverage_status: multi-perspective
-perspectives_present: ['party-majority-stalin', 'right-opposition', 'archival-rural-tragedy-danilov-ivnitsky', 'economic-history-davies', 'revisionist-cohen', 'archival-khlevniuk', 'zemskov-party-radicalism']
-perspectives_missing: ['complete-plenum-stenogram', 'independent-peasant-voices']
+perspectives_present: ['party-majority-stalin', 'right-opposition', 'archival-rural-tragedy-danilov-ivnitsky', 'archival-stenogram-danilov-khlevniuk-gorskaia', 'economic-history-davies', 'revisionist-cohen', 'zemskov-party-radicalism']
+perspectives_missing: ['independent-peasant-voices']
 related_debates: ['DEB-1928-bukharin-alternative', 'DEB-1929-collectivization-and-dekulakization-causes']
-updated_at: "2026-11-19"
+updated_at: "2026-11-21"
 ---
 
 ## [T1] 150字定性微摘要
@@ -22,8 +22,8 @@ updated_at: "2026-11-19"
 ## [T2] 核心脉络、时效关系边表与史学争鸣光谱
 
 ### 2.1 核心历史脉络
-- **《大转变的一年》前奏与 `11-12` 最后抗辩**：会前 **`1929-11-07`**（11 月 3 日完稿），斯大林在《真理报》发表[《大转变的一年》](../../sources/web-archive/E06_E10_turning_points/1929-11-07_year-of-great-turn.md)，宣称中农正“整村整乡”涌入集体农庄；此系高度政治化的动员判断，不能未经地方档案核查就当作自愿入庄证明。**`1929-11-12`**，布哈林、李可夫、托姆斯基向全会提交最后抗辩声明，仍坚持对农业危机与强制手段的警告。
-- **`1929-11-17` 双决议结构与会后公开检讨**：全会收官日通过[两项须严格区分的决议](../../sources/web-archive/W32_milestone_docs/1929-11-17_cpsu-november-plenum-resolution-right-deviation.md)——① 专项决议《关于布哈林同志集团》（`РГАСПИ. Ф. 17. Оп. 2. Д. 422. Л. 5–6`），决定将**布哈林**开除出政治局，对**李可夫**、**托姆斯基**以及**乌加罗夫（Ф. Я. Угаров）**发出严重警告；② 依据斯大林致莫洛托夫亲笔便条与鲁祖塔克动议，在主决议《关于 1929/30 年度国民经济控制数字》第六节写入“宣布宣传右倾机会主义观点及对它的调和态度与留在联共（布）队伍内不相容”（次日 **`11-18`** 载于《真理报》第 268 号）。全会并未立即开除三人党籍；闭幕 8 天后，托姆斯基、布哈林、李可夫于 **`1929-11-25`** 签署公开检讨声明，次日（**`11-26`**）见报《真理报》。
+- **《大转变的一年》前奏、镇压飙升与 `11-12` 十二点声明**：据《Как ломали НЭП》第5卷导言与速记（全会举行14次会议，实到中委 `64`、候补中委 `48`、中监委 `80`、中审委 `9` 人，**合计 `201` 人**，`CLM-kak-lomali-nep-1929-v5-nov-plenum-bukharin-expulsion`），会前OGPU农村镇压人数从截至 `10-04` 的 `7,817` 人猛增至截至 **`11-04` 的 `28,344` 人**，而 **`11-07`** 斯大林发表[《大转变的一年》](../../sources/web-archive/E06_E10_turning_points/1929-11-07_year-of-great-turn.md)宣称中农大批入庄时，中央统计局截至 `10-01` 普查实际农户入庄率仅 **`7.6%`**。**`1929-11-12`** 第5次会议上，李可夫宣读三人联署十二点《声明》：虽承认“转折性的一年”并宣布“同中央多数派分歧予以撤销”，但仍直指谷物、畜牧业（“畜群一定减少”）与实际工资三项计划未完成、非常措施把中农推向富农，遭奥尔忠尼启则、莫洛托夫与斯大林（`11-13` 未刊速记斥其为“畸形儿”并威胁“揍肋骨”）猛烈围攻；原莫斯科右派干将**科托夫（`11-12`）、米哈伊洛夫（`11-13`）、乌格拉诺夫与库利科夫（`11-17`）**相继当场倒戈悔过（`11-18`《真理报》集中刊出）。
+- **`1929-11-17` 表决票数（反对 `2` 票、无人弃权）、双决议结构与会后检讨**：`11-17` 第14次闭幕会在布哈林、李可夫缺席下（布哈林书面投反对票、对本人处分弃权），除托姆斯基、乌加罗夫投反对票外，其余现场投票者赞成、无人弃权（原记录未清点精确赞成数），通过[专项决议《关于布哈林同志集团》](../../sources/web-archive/W32_milestone_docs/1929-11-17_cpsu-november-plenum-resolution-right-deviation.md)，将**布哈林**逐出政治局并对**李可夫、托姆斯基、乌加罗夫**发出警告；同时在主决议《关于1929/30年度国民经济控制数字》增补“宣传右倾机会主义观点及对其调和态度与留在联共（布）队伍内不相容”（`11-18` 见报）。全会未立即开除三人党籍；**`1929-11-25`** 三人被迫签署投降声明，次日（**`11-26`**）载于《真理报》。
 - **集体化跃进、“二万五千人”与全会内部的虚报争议**：全会决定动员**“二万五千人”**工业工人长期下乡领导集体化（逾 7 万人报名，**`12-18`** 中央核定控制额 **26,380 人**、实际选拔 **27,519 人**，[DATA-06](../../data/DATA-06-1918-1929-cheka-ogpu-sentencing-and-1929-collectivization-surge.md)），并决定组建全苏农业人民委员部（**`12-07`** 正式成立，雅科夫列夫任人民委员）。会上不仅俄罗斯人委会主席锡尔佐夫（Syrtsov）宣读调查揭露霍皮奥尔专区（Khoper）高入庄率背后的行政强迫与农庄瓦解，乌克兰党书记**科西奥尔（Kosior）**亦当场承认部分乌克兰村庄所谓“全面集体化”纯系居民不知情的纸面虚报（Davies `Vol. 1 p. 165`）。但莫洛托夫与下伏尔加书记谢博尔达耶夫（Sheboldaev）强推加速（后者随即于 `11-24/25` 萨拉托夫会议部署 1930 年内全面集体化）。虽然全会正式决议仍保留 1,500 万公顷目标而未写死全国完成期限，但地方竞相加码与暴力征粮迅猛升级（截至 `12-25` 全苏收购粮食达 **1,361.6 万吨**，为上年同期 `634.5 万吨` 之 2.15 倍；当年 OGPU 征粮专项逮捕 **49,068 人**，`DATA-06`）。
 - **12 月雅科夫列夫 18 人委员会博弈与斯大林 `12-25` 亲笔否决**：十一月全会虽号召进攻富农，却未规定全面没收财产与逐村流放。**`1929-12-05`**，政治局成立由雅科夫列夫主持的 18 人集体化委员会，**`12-08`** 下设 8 个分委员会。其中**鲍曼（K. Ya. Bauman）**主持的富农政策分委员会（`≤12-14`，Doc 4）鉴于全苏富农家庭达 **500 万–600 万人**，认为“全体迁徙是绝望的”，提出三类差别化处置方案（拟将大多数富农剥夺生产资料后留在集体农庄无选举权试用 3–5 年）；**`1929-12-18`** 委员会形成一致草案（`12-22` 呈政治局，Doc 12），规定主产粮区 2–3 年完成、以农业劳动组合为主体，并明确**保留奶牛、小畜、小农具私有权以及自愿退社退股权**。然而 **`1929-12-25`** 斯大林致信莫洛托夫（Doc 16）明确否决该草案（“这个草案，我认为不合适”），随即在 **`1929-12-27`** 马克思主义土地学家会议[演说](../../sources/web-archive/E01_E10_supplements/1929-12-27_stalin-agrarian-marxists-speech-dekulakization.md)中公开宣布“把富农作为阶级消灭”，并在 **`1930-01-05`** 政治局最终决议中删净全部保护条款。
 
@@ -56,4 +56,4 @@ updated_at: "2026-11-19"
   - **R. W. Davies（1980）**：[1929 集体化起飞精读](../../reading-notes/davies_basil/RN-W18-1929-collectivization-takeoff-and-mensheviks-1917.md)，配套[十一月全会至去富农化](../../historiography/claims/CLM-davies-1980-november-plenum-to-dekulakization.md)与[1929 年秋《大转变的一年》统计争议](../../historiography/claims/CLM-davies-1980-autumn-1929-great-turn-fabrication.md)（注：Davies 所用委员会材料部分转引苏联学者档案摘录，已由丹尼洛夫—伊夫尼茨基档案集补全原件）。
   - **Stephen F. Cohen（1973）与 Oleg Khlevniuk（2015）**：[Cohen 精读](../../reading-notes/cohen_1973_bukharin/RN-W3-bukharin-stalin-1928-1929-showdown.md)（配套[布哈林组织失败论断](../../historiography/claims/CLM-cohen-1973-bukharin-organizational-defeat.md)）；[Khlevniuk 精读](../../reading-notes/khlevniuk_2015_stalin/RN-W3-politburo-apparatus-and-1929-victory.md)（配套[右翼反对派落败论断](../../historiography/claims/CLM-khlevniuk-2015-defeat-of-right-opposition.md)）。
   - **Viktor Zemskov（泽姆斯科夫，2018，Wave 39 馆藏）**：[从 NEP 到大转变精读（1924–1929）](../../reading-notes/stalin_era_economy_repression_1924_1954_zh/RN-W39-stalin-era-nep-to-great-turn-1924-1929.md)，配套[档案约束与执政党激进心态](../../historiography/claims/CLM-zemskov-2018-archival-constraints-and-party-radicalism.md)、[农业贡赋与强制转向](../../historiography/claims/CLM-zemskov-2018-agrarian-tribute-and-coercive-turn.md)与[1929 年末去富农化人口与分期基线](../../historiography/claims/CLM-zemskov-1929-dekulakization-demographic-baseline.md)。
-- **证据缺口声明**：十一月全会全体发言的完整俄文逐字速记原册与独立于 OGPU 报告体系之外的农民基层一手自述仍属档案缺口。
+- **已入库 S 级全会完整速记集**：`sources/primary/kak_lomali_nep_1929_v5_ru/`（《Как ломали НЭП. Том 5: Пленум ЦК ВКП(б) 10–17 ноября 1929 г.》，2000年版；全14次会议速记、`Протокол № 7` 正式决议及斯大林 `11-13` 从未公开发表的未修改原始速记稿），精读见 [`RN-W61-july1928-april1929-nov1929-stenograms`](../../reading-notes/kak_lomali_nep_1928_1929_plenums/RN-W61-july1928-april1929-nov1929-stenograms.md) 与 [`CLM-kak-lomali-nep-1929-v5-nov-plenum-bukharin-expulsion`](../../historiography/claims/CLM-kak-lomali-nep-1929-v5-nov-plenum-bukharin-expulsion.md)；剩余外部缺口为独立于 OGPU 报告体系的农民基层私家文书。

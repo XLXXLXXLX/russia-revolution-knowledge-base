@@ -24,7 +24,8 @@ updated_at: "2026-11-18"
 ### 2.2 时效关系摘要边表
 | 关联节点 ID | 关系类型 | 有效时段 | 一句话关系实质摘要 | 核心依据/争鸣 |
 | :--- | :--- | :--- | :--- | :--- |
-| `DEB-1903-bolshevik-menshevik-split` | `reinterpreted` | 研究对象：1902–1903 | Lih强调列宁对工人阶级政治能力的信任及其与正统社会民主主义的联系；此解释不自动消除组织实践上的分歧。 | 见下列代表作；出版年份并非关系发生年份 |
+| `DEB-1903-bolshevik-menshevik-split` | `reinterpreted` | 研究对象：1902–1903 | Lih强调列宁对工人阶级政治能力的信任及其与正统社会民主主义的联系；此解释不自动消除组织实践上的分歧。 | `lih_2006_lenin_rediscovered` |
+| `DEB-1918-war-communism-ideology-or-emergency` | `reinterpreted` | 研究对象：1918–1930 | 颠覆对布哈林“幻觉破灭”公式的最大化解读，证明布哈林始终捍卫《过渡时期经济学》并以希法亭国家资本主义类比追求消灭市场的“单一组织社会”，还考出“NEP普遍必然”公式实源于斯大林1928年7月全会。 | `CLM-lih-2000-bukharins-illusion-war-communism-and-nep` |
 
 ### 2.3 史学争鸣光谱
 - **基本区分**：研究对象的历史事实须与该学者的解释性论点分开检验。
@@ -32,5 +33,5 @@ updated_at: "2026-11-18"
 - **比较与局限**：围绕其对论战修辞、意识由外灌输及列宁与考茨基关系的解释，存在不同读法；须结合1903年代表大会及后续实践检验。
 
 ## [T3] 深度考证与文献档案
-- **A级研究**：Lars T. Lih, *Lenin Rediscovered: What Is to Be Done? in Context* (2006)，本地 `sources/monographs/lih_2006_lenin_rediscovered/`。具体页码和文本译法待核。
+- **A级研究**：Lars T. Lih, *Lenin Rediscovered: What Is to Be Done? in Context* (2006)，本地 `sources/monographs/lih_2006_lenin_rediscovered/`；Lars T. Lih, *"Bukharin's 'Illusion': War Communism and the Meaning of NEP,"* *Russian History / Histoire Russe* 27:1–4 (2000): 417–460，本地已入库并完成全文精读 `sources/articles/lih_2000_bukharins_illusion_war_communism_and_nep/`（见 `CLM-lih-2000-bukharins-illusion-war-communism-and-nep` 与 [`RN-W61-carr-mcdonald-hatch-weissman-hunter-lih`](../../reading-notes/nep_countryside_and_party_levy/RN-W61-carr-mcdonald-hatch-weissman-hunter-lih.md)）。
 - 本卡为方法论索引；以上为概述而非逐字引文。引用具体论断前须回到相关章节核对原文、版本及页码，避免将方法标签当作固定学派身份。

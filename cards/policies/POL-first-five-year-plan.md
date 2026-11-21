@@ -44,7 +44,7 @@ updated_at: "2026-11-18"
 - **经验共识**：1929年4–5月苏联批准第一个五年计划 **最高方案**；指标显著高于前一年草案；1929年下半年集体化与工业指标再度加码；与布哈林失败及新经济政策终结同年发生。
 - **主要解释分歧**（详参 `DEB-1928-bukharin-alternative`, `DEB-1929-collectivization-and-dekulakization-causes`）：
   - **[“过量转弯”与国防恐吓论 / Alexander Erlich]** (`CLM-erlich-1960-stalin-overkill-turn`, `CLM-erlich-1960-bukharin-balanced-growth`)：最高方案投资率远超可行边界；若把斯大林战争恐吓当字面，计划近乎“恐惧死亡引发的自杀”。
-  - **[档案计量史学 / R. W. Davies, E. H. Carr]** (`CLM-davies-1980-autumn-1929-great-turn-fabrication`, `CLM-davies-1980-november-plenum-to-dekulakization`, `CLM-carr-davies-1969-grain-price-scissor-1927`)：强调控制数字编制、信贷与价格政策的衔接失灵；1929年秋统计“混乱矛盾”，反映竞赛政治而非纯粹理性计划。
+  - **[档案计量与跨期反事实模拟 / R. W. Davies, Holland Hunter & Janusz Szyrmer, Robert C. Allen]** (`CLM-davies-1980-autumn-1929-great-turn-fabrication`, `CLM-hunter-szyrmer-1991-kaprost-early-soviet-alternatives`, `CLM-allen-2003-nep-continuation-vs-collectivization-counterfactual`)：Davies 揭示1929年秋统计竞赛失真；Hunter 与 Szyrmer（1991）12部门跨期线性规划 `KAPROST` 模型纳入2–4年资本建设周期与机械产能瓶颈，在无集体化、较慢城市化及外生生产率提高等组合假设下估算，1941年初固定资本存量可比实际 `1,140亿` 卢布高出 `+29.6%` 至 `+40.1%`（Davies 质疑其假定农民自愿供粮，Allen 2003 则在修正其外生迁移与预定人均消费假设后以 `0.7` 销售弹性证实高投资NEP可行）。
   - **[修正派政治传记 / Stephen Cohen, Moshe Lewin]** (`CLM-cohen-1973-bukharin-organizational-defeat`, `CLM-nove-1964-stalin-necessity-dilemma`)：1929年春布哈林路线仍具经济合理性，失败是书记处权力与非常措施而非技术必然。
   - **[车间社会史 / Donald Filtzer]** (`CLM-filtzer-1986-1929-tomsky-purge-and-shock-work`, `CLM-filtzer-1986-atomized-worker-control-over-labor-process`)：计划批准后即伴随突击工、定额加码与高流动率，工人以离职谈判抵抗——宏观指标有微观妥协成本。
 

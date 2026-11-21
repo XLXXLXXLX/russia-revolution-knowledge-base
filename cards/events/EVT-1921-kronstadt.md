@@ -10,10 +10,10 @@ dates:
   start_ns: "1921-02-28"
   end_ns: "1921-03-18"
 coverage_status: multi-perspective
-perspectives_present: ["anarchist-social-history", "soviet-orthodox", "trotskyist", "western-political-history"]
+perspectives_present: ["anarchist-social-history", "soviet-democracy-getzler", "soviet-orthodox", "trotskyist", "western-political-history"]
 perspectives_missing: ["post-soviet-archival-1999", "gendered-social-history"]
 related_debates: ["DEB-1918-war-communism-ideology-or-emergency", "DEB-1921-kronstadt-and-nep-origins", "DEB-1921-trade-union-controversy-and-party-unity"]
-updated_at: "2026-11-19"
+updated_at: "2026-11-21"
 ---
 
 ## [T1] 150字定性微摘要
@@ -51,7 +51,7 @@ updated_at: "2026-11-19"
 
 **可核事实与解释分歧**：十五条、3月2日委员会成立、政府进攻与3月18日要塞失守有文本与研究支持。外部白卫阴谋是否事前发动起义、军人社会构成能否解释其政治性质、镇压是否必要，以及NEP与禁派的因果关系，均须保留具名解释与证据限制。
 
-- **Paul Avrich的反阴谋论与水兵社会史**：流亡者确有计划及事后援助企图，但他未找到这些计划在起义前已控制舰上领导的可信证据；事后求援不构成事前操纵证明（`CLM-avrich-1970-white-plot-refutation`）。他承认1921年舰队四分之三以上海员为农民出身，却指出老水兵和技师仍领导起义，新老人员都受乡村苦难影响；“农民成分”不是“新兵取代革命者”的同义词；站内 Figes（ch22）与微距卷转引 Israel Getzler 记“《彼得罗巴甫洛夫斯克》与《塞瓦斯托波尔》号两艘主力舰94%舰员于1918年前入伍”，但该口径仅覆盖两舰且 Getzler 原书未入藏，不能外推代表全要塞驻军（`CLM-avrich-1970-sailor-social-composition`）。
+- **Paul Avrich与Israel Getzler（原书已入库）的水兵社会构成与多党苏维埃连续性考证**：Avrich证伪事前白卫控制论（`CLM-avrich-1970-white-plot-refutation`），承认1921年逾75%海员出身农民但资深水兵与技师仍领导起义（`CLM-avrich-1970-sailor-social-composition`）。现已入库精读的 Getzler《Kronstadt 1917–1921》（1983，`CLM-getzler-1983-kronstadt-soviet-democracy-and-1921-veterans`）重构1917–1918年五届自由多党苏维埃选举（布尔什维克1918年1月峰值 `139/301` 席、`04-01` 跌至 `53/183` 席，同年6–7月由外部政令摧毁）及拉马诺夫“第三次革命”思想，并据谢马诺夫海军档案厘清三层分母：**两艘主力舰《彼得罗巴甫洛夫斯克》与《塞瓦斯托波尔》号已知入伍年份的 `2,028` 名水兵中 `1,904` 人（`93.9%`，即Figes转引“94%”之源）于1917年及以前入伍（仅 `137` 人［`6.8%`］系1918–1921年入伍；两分子相加多13人系原书未解释差异）**，并据出生年份资料推测波罗的海舰队在 `1921-01-01` **很可能至少 `75.5%`** 在1918年前入伍，严禁将两舰 `93.9%` 外推为全岛约 `27,000` 驻军比例。
 - **Avrich对口号的校勘**：“苏维埃不要共产党人”见于别处农民武装及流亡自由派的转述，不能写成喀琅施塔得决议自身的口号。水兵反对党独占而容许左翼布尔什维克在改选苏维埃中参加；米留科夫把运动描述成排除共产党、进而恢复立宪会议，属于外部政治解释（`CLM-avrich-1970-soviets-without-bolsheviks`）。
 - **布尔什维克当事人及托洛茨基的保卫专政论**：要塞地位、融冰风险和外国干涉记忆构成其真实安全焦虑；以白卫反革命定性则同时具有宣传和镇压正当化作用。1921年通告、发令行为与托洛茨基1930年代事后辩护有不同史料属性，“悲剧性必要”不是已经验证的军事反事实。
 - **Robert V. Daniels、Orlando Figes与Donald J. Raleigh的分层解释**：Daniels以十大为党内组织史关键转折，也保留规则当时的程序限制；Figes把水兵危机放入普遍农民战争，Raleigh以萨拉托夫说明物质让步未立刻恢复地方同意。三者共同反对把NEP写成一日完成的和解，但不能把经济抗议、党内派别和基地临时革命委员会归为同一运动。相关争议以喀琅施塔得／NEP起源、战时共产主义及工会／党内统一三张母题卡分工承接。
@@ -85,9 +85,10 @@ Avrich 论断卡中仅 `CLM-avrich-1970-white-plot-refutation` 的 `original_pag
 - [DATA-04](../../data/DATA-04-party-membership-and-congress-votes-1903-1929.md)：代表总额、工会表决与粮食税、禁派时间。
 - [1921年3月微距卷](../../timeline/L3_daily/1921-03_kronstadt_and_10th_congress.md)：工潮、军政双线时序与03.18终点。
 - [实物税法令](../../sources/web-archive/E03_E08_party_and_state_docs/1921-03-21_decree-on-tax-in-kind-prodnalog.md)：S 级正式法令，与大会方向决议分开使用。
+- [Getzler (1983) 专著精读与论断卡](../../historiography/claims/CLM-getzler-1983-kronstadt-soviet-democracy-and-1921-veterans.md)：A 级原著已入库（`sources/monographs/getzler_1983_kronstadt/`，精读见 [`RN-W61-getzler-holquist-duval-oppenheim-rigby`](../../reading-notes/kronstadt_and_early_party_state/RN-W61-getzler-holquist-duval-oppenheim-rigby.md)），核清两舰 `1,904/2,028 (93.9%)` 老水兵、全舰队推测很可能至少 `75.5%` 1918年前入伍与15人革委会履历。
 
 ### 3.3 外部待补核 S / A 级缺口
 
 - **S 级**：十五条决议俄文原报、2月28日舰上异文（若有）、舰队人事册、临时革命委员会会议记录、各阶段战斗／俘虏／处决名册与对芬兰流亡者的后续处置档案；地方分项不能与全国契卡年表重复加总。
 - **S 级**：列宁2月8日农民问题提纲与政治局原档、十大完整速记及相关军事命令。站内已有原典转录和A 级研究，不冒称已查阅尚未入藏的未刊原卷。
-- **A 级／已刊档案集**：Israel Getzler（1983）专著、Naumov与Kosakovsky等整理的后苏联喀琅施塔得档案集，须取得直接可核文本再作页级对勘；不以同姓学者札记或网络转述冒充。
+- **已刊档案集**：Naumov与Kosakovsky等整理的1999年后苏联喀琅施塔得解密档案集仍待补入。

@@ -35,7 +35,7 @@ updated_at: "2026-11-21"
 | :--- | :--- | :--- | :--- | :--- |
 | `PER-lenin` | `chaired_government` | 1917–1924 | 主持苏俄、后又主持苏联人民委员会 | `WEB-1917-10-26-decrees-peace-land`；Carr |
 | `PER-kamenev` | `chaired_vtsik` | 1917.10–11 | 二大选出的首任中执委主席 | L3 `1917-11_…` L126 |
-| `PER-sverdlov` | `chaired_vtsik` | 1917.11–1919 | `1917-11-08 [O.S.]` 接替加米涅夫 | L3 `1917-11_…` L126 |
+| `PER-sverdlov` | `chaired_vtsik` | 1917.11–1919.03 | `1917-11-08 [O.S.]` 以5票优势接替加米涅夫，借15人党团门槛、主席团8人核心与 `1918-06-14` 驱逐令收编中执委 | `CLM-duval-oppenheim-vtsik-and-vsnkh-consolidation` |
 | `PER-kalinin` | `chaired_vtsik` | 1919–1929 | 1919年起任中执委主席，后为联盟主席团成员 | `PER-kalinin` 卡 |
 | `PER-rykov` | `chaired_government` | 1924–1929 | 接任人民委员会主席，1928–1929年政策立场失势 | `CLM-khlevniuk-2015-defeat-of-right-opposition` |
 | `ORG-vikzhel` | `legislative_power_dispute` | 1917-11 | 11-04 表决与联合政府谈判背景 | L3 `1917-11_…`；`DEB-1917-all-socialist-coalition-vikzhel-missed-chance` |
@@ -51,7 +51,7 @@ updated_at: "2026-11-21"
 | `EVT-1922-georgian-affair-and-ussr-formation` | `union_constitutional_context` | 1922–1924 | 联盟宪制在共和国权限和中央集权之间建立复杂分工 | `RN-W32-carr-dispersal-and-reunion-nationalities-ussr-1917-1923`（原：Carr vol. 1, pp. 402–409） |
 
 ### 2.3 史学争鸣光谱
-**共识**：政府的紧急施政权与党内领导日益重要，苏俄和联盟两级机关在宪法上并存。**分歧**：Carr 重视宪法权限与行政运作之间的偏差，强调党权威如何协调国家机构，但早期写作受未公开档案限制；Douds（2018，`CLM-douds-2018-sovnarkom-collegiality-and-politburo-eclipse`）依托 GARF/RGASPI 内阁原档反驳极权主义学派“党中央自始至高无上论”，证明1917–1918年人民委员会及53次布尔什维克—左派社革党联合内阁是真实运转的最高行政中枢，1919–1922年向政治局滑移系部委合议制本位主义、内战掏空苏维埃授权链与拒斥分权制衡教条的非预期后果；Rabinowitch 依据彼得格勒和中央档案强调1917–1918年联合政府的争执、地方合作及一党统治形成的偶然性（`CLM-rabinowitch-2007-contingency-of-dictatorship`）；Khlevniuk 对后期政治局内部的联盟变化和合议限制提供校正（`CLM-khlevniuk-2015-collective-leadership-erosion`）；Levy 一线讨论苏维埃机关“活跃化”的悖论（`CLM-soviet-democracy-1924-1927-ozhivlenie-sovetov-paradox`；`reading-notes/levy_soviet_democracy/RN-W23-makhaevism-intelligentsia-and-soviet-democracy-1917-1929.md`）。Pipes 一极强调意识形态与权力集中。
+**共识**：政府的紧急施政权与党内领导日益重要，苏俄和联盟两级机关在宪法上并存。**分歧**：Carr 重视宪法权限与行政运作之间的偏差，并在《一国社会主义》第2卷实证剖析1924–1926年“活跃苏维埃”运动在中农占优、`сход` 复兴与无村级预算间陷入的集权悖论（`CLM-carr-1959-revitalizing-soviets-and-local-finance-1924-1926`）；Duval（1979，`CLM-duval-oppenheim-vtsik-and-vsnkh-consolidation`）还原斯维尔德洛夫如何用15人党团门槛、四大席位改组（布尔什维克升至 `141/207` 席）与8人主席团核心架空早期VTsIK；Douds（2018，`CLM-douds-2018-sovnarkom-collegiality-and-politburo-eclipse`）依托 GARF/RGASPI 内阁原档反驳“党中央自始至高无上论”，证明1917–1918年人民委员会及53次布尔什维克—左派社革党联合内阁是真实运转的最高行政中枢，1919–1922年向政治局滑移系部委合议制本位主义与拒斥分权制衡教条的非预期后果；Rabinowitch 强调1917–1918年一党统治形成的偶然性（`CLM-rabinowitch-2007-contingency-of-dictatorship`）；Khlevniuk 校正后期政治局合议边界（`CLM-khlevniuk-2015-collective-leadership-erosion`）；Levy 与 McDonald（2011，`CLM-mcdonald-2011-riazan-village-governance-and-1930-revolt`）分别从制度悖论与梁赞农村“自家预算”纠缠切入基层苏维埃运作；Pipes 一极强调意识形态与权力集中。
 
 ## [T3] 深度考证与文献档案
 
