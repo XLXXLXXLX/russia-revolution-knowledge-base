@@ -21,6 +21,7 @@
 
 | 模块 | 路径 | 说明 |
 | :--- | :--- | :--- |
+| **通用框架子模块与项目配置** | [`framework/`](./framework/README.md) / [`kb_config.yaml`](./kb_config.yaml) | 可复用于一般历史学与社会学研究的通用知识库引擎、方法论文档与一键脚手架 |
 | **双模态交互总则与编排规范** | [`AGENTS.md`](./AGENTS.md) / [`.opencode/agents/`](./.opencode/agents/) | 对外讲史文风规范、6 大专职 Subagent 角色权限边界与五大史学铁律 |
 | **跨 Provider 模型路由表** | [`docs/MODEL_ROUTING.md`](./docs/MODEL_ROUTING.md) / [`config/agent_models.json`](./config/agent_models.json) | Antigravity / Codex / Grok / OpenCode 分层调度矩阵 |
 | **方法论与架构设计** | [`docs/ARCHITECTURE.md`](./docs/ARCHITECTURE.md) | 四级双历法时间线、反 N+1 偏斜图谱机制、暂缓向量化原则 |

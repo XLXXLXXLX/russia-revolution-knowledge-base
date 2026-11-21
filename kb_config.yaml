@@ -1,0 +1,117 @@
+framework_version: "1.0.0"
+
+project:
+  name: "俄国革命知识库"
+  slug: "russian-revolution-knowledge-base"
+  discipline: "history"
+  time_span: "1860s–1929"
+  primary_languages: ["zh", "en", "ru"]
+  default_period_fallback: "1861-1929"
+
+calendar:
+  mode: "dual_julian_gregorian"
+  reform_date_ns: "1918-02-14"
+  reform_label: "苏俄 1918-02-14 [N.S.] 改历"
+  post_reform_whitelist:
+    - "白军"
+    - "白卫"
+    - "邓尼金"
+    - "弗兰格尔"
+    - "高尔察克"
+    - "东正教"
+    - "牧首"
+    - "流亡"
+    - "侨民"
+    - "旧历习惯"
+    - "顿河"
+    - "南俄"
+    - "错误配对"
+    - "不得沿用"
+    - "不沿用"
+    - "误作"
+    - "误写"
+
+entities:
+  prefixes: ["PER", "ORG", "INS", "EVT", "MTG", "POL", "CON"]
+  evidence_prefixes: ["CLM", "DEB", "DATA", "RN", "MTG", "EVT", "POL", "CON", "ORG", "INS", "PER"]
+  any_id_prefixes: ["PER", "ORG", "INS", "EVT", "MTG", "POL", "CON", "LOC", "DOC", "WORK", "DEB", "CLM", "SCH", "RN"]
+  id_remap:
+    ORG-bolsheviks: "ORG-bolsheviks-rcpb-vkpb"
+    ORG-left-communists: "ORG-left-communists-1918"
+    ORG-united-opposition: "ORG-left-and-united-opposition"
+    ORG-right-opposition: "ORG-right-opposition-1928"
+    MTG-1921-03-10th-party-congress: "MTG-1921-rcpb-10th-congress"
+    EVT-1918-03-03-brest-litovsk-treaty: "EVT-1918-03-brest-litovsk-treaty"
+    MTG-1903-07-rsdlp-2nd-congress: "MTG-1903-rsdlp-2nd-congress"
+  alias_language_fields: ["ru", "en"]
+
+epistemology:
+  t1_max_non_ws_chars: 150
+  require_sec22_for_entity_cards: true
+  require_scholar_fk_for_claims: true
+  perspectives_taxonomy:
+    - "soviet-orthodox"
+    - "trotskyist"
+    - "liberal-totalitarian"
+    - "revisionist"
+    - "new-institutional"
+    - "archival-post-soviet"
+
+pack_budget:
+  small_bundle_max_chars: 53500
+  large_bundle_max_chars: 63500
+  small_bundle_card_limit: 3
+  default_max_tl_level: 2
+
+sources:
+  categories: ["monographs", "primary", "articles"]
+  primary_tier_categories: ["primary"]
+  web_archive_dir: "sources/web-archive"
+  inbox_dir: "inbox"
+  known_corrupted_files:
+    "Lars T. Lih - Lenin Rediscovered - What Is to Be Done In Context (2008).pdf":
+      max_size_bytes: 400000
+      flag: "corrupted_zlib_stream"
+
+benchmarks:
+  b4_suites:
+    - tag: "B4A"
+      path: "benchmarks/suites/b4a_historiography_1861_1918.jsonl"
+    - tag: "B4B"
+      path: "benchmarks/suites/b4b_historiography_1918_1929.jsonl"
+  b2_featured_bundle_id: "B2-01"
+  b5_holdout_min_samples: 3
+  b5_require_blind_judge: true
+  judge_domain_label: "俄国革命史"
+  melodrama_cliches:
+    - "字字带血"
+    - "催命符"
+    - "催命便条"
+    - "惊险赌局"
+    - "万劫不复"
+    - "怒火中烧"
+    - "彻底坐不住了"
+    - "剑已经出鞘"
+    - "雷鸣般的掌声"
+    - "像困在笼中的狮子"
+  meta_prompt_leak_patterns:
+    - "任务示例所称"
+    - "按本任务要求"
+    - "提示词要求"
+    - "待子代理补齐"
+  forbid_scaffolding_tokens:
+    - "[T1]"
+    - "[T2]"
+    - "[T3]"
+    - "CLM-"
+    - "PER-"
+    - "EVT-"
+    - "ORG-"
+    - "DEB-"
+    - "1-Hop"
+    - "[O.S.]"
+    - "[N.S.]"
+    - "start_ns"
+    - "coverage_status"
+  audit_report_globs: ["AUD-19*.md", "AUD-20*.md"]
+  default_as_of_date: "2026-11-20"
