@@ -1,9 +1,9 @@
 {
   "tag": "w60_final",
-  "timestamp": "2026-11-21T19:41:37+08:00",
+  "timestamp": "2026-11-21T20:02:24+08:00",
   "split": "all",
-  "git_head": "7c87892",
-  "git_dirty_files": 58,
+  "git_head": "fa155a0",
+  "git_dirty_files": 20,
   "overall_passed": true,
   "suites": {
     "B1": {
@@ -232,19 +232,19 @@
         "book_hit_at_5": 0.9688,
         "exact_chapter_hit_at_3": 0.7812,
         "exact_chapter_hit_at_5": 0.9062,
-        "exact_chapter_mrr": 0.6821,
+        "exact_chapter_mrr": 0.6664,
         "chapter_hit_at_3": 0.9062,
         "chapter_hit_at_5": 0.9688,
-        "chapter_mrr": 0.7484,
-        "median_query_ms": 41.73,
+        "chapter_mrr": 0.7224,
+        "median_query_ms": 23.12,
         "empty_scan_books_detected": 0,
         "empty_scan_quarantine_rate": 1.0,
         "quarantine_canary_pass_rate": 1.0
       },
       "samples": {
         "locator_misses": [
-          "B3-OCR-01 (October has been making us) -> exact chapter miss (top3=['sources/monographs/corney_2004_telling_october/ch04_introduction_writing_the_event.md', 'sources/monographs/douds_2018_inside_lenins_government/ch10_inside_lenin_s_government.md', 'sources/monographs/khalid_2015_making_uzbekistan_zh/ch03_acknowledgments.md'])",
-          "B3-OCR-03 (There are no parallel unions in Russia) -> exact chapter miss (top3=['sources/monographs/kotkin_2017_stalin_v2/ch24_stalin.md', 'sources/monographs/smith_1983_red_petrograd/ch00_pages_1-25.md', 'sources/monographs/daniels_1960_conscience/ch14_pages_351-375.md'])"
+          "B3-OCR-01 (October has been making us) -> exact chapter miss (top3=['sources/monographs/douds_2018_inside_lenins_government/ch10_inside_lenin_s_government.md', 'sources/monographs/corney_2004_telling_october/ch04_introduction_writing_the_event.md', 'sources/monographs/khalid_2015_making_uzbekistan_zh/ch03_acknowledgments.md'])",
+          "B3-OCR-03 (There are no parallel unions in Russia) -> exact chapter miss (top3=['sources/monographs/kotkin_2017_stalin_v2/ch24_stalin.md', 'sources/monographs/carr_1964_socialism_in_one_country_v3p1/ch21_pages_526-550.md', 'sources/monographs/smith_1983_red_petrograd/ch00_pages_1-25.md'])"
         ],
         "unquarantined_empty_books": []
       }
