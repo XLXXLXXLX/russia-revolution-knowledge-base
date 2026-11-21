@@ -1,8 +1,8 @@
 # 待寻核心电子书与一手档案补缺清单（Bibliography Wishlist v3）
 
-> **更新状态（2026-11-20 · 第二批 16 部新书入库与 DjVu 解码后）**：
-> - 本地 `inbox/` 当前共 **156 个核心文献文件（2,352.4 MB）**，已通过升级版 `scripts/extract_book.py`（支持 PDF / 逐页合并 EPUB / DOCX / 原生纯 Python DjVu `TXTz` 解码）全量规整为 `sources/primary/` **13 部** + `sources/monographs/` **150 部**（总计 **163 部**，详见 [`sources/LITERATURE_CATALOG.md`](./LITERATURE_CATALOG.md)）。
-> - 原愿望单 `ADD-02`（McKean 1990）、`ADD-03`（Emmons 1968）、`ADD-04`（Swain 1996）、`ADD-05`（Scott B. Smith 2011）、`ADD-06`（Lara Douds 2018）、`ADD-07`（Simon Pirani 2008）、`ADD-08` 第3卷（《Как ломали НЭП》1928年11月全会速记，213.8万字符俄文全文）、`ADD-09`（Kotkin 2017 第2卷）、`ADD-11`（Robert C. Allen 2003）、`ADD-12`（Terry Martin 2001）以及 Ascher《斯托雷平传》(2001)、Burds《农民的梦想》(1998)、和田春树《俄国革命：彼得格勒，1917年2月》、Stites《革命的梦想》**均已成功提取入库并纳入 FTS5 章节雷达**！
+> **更新状态（2026-11-21 · Google Drive 书库补采 20 部文字层专著/原典后）**：
+> - 本地 `inbox/` 当前共 **176 个核心文献文件（2,635.8 MB）**，已通过 `scripts/extract_book.py` 全量规整为 `sources/primary/` **15 部** + `sources/monographs/` **167 部**（总计 **182 部**，其中 **166 部可读纯文本**、**16 部自动隔离**，详见 [`sources/LITERATURE_CATALOG.md`](./sources/LITERATURE_CATALOG.md)）。
+> - 本轮从 Google Drive 新补入 20 部自带纯文本层的高价值文献（含救活原本纯扫描的《联共（布）党史简明教程》，新增《共产主义 ABC》、斯大林全集第 1 卷、索博列夫《19 世纪下半叶俄国的关税政策》、卡尔《布尔什维克革命》英文原版第 2–3 卷、利比希《从彼岸看》、海伍德《现代化列宁的俄国》、利赫《列宁再发现》中译本、沃伊季科夫《斯大林对抗季诺维也夫》、赫希《民族帝国》、哈立德《制造乌兹别克斯坦》、平诺《集体的失落》、罗斯曼《斯大林治下的工人抵抗运动》、徐天新《苏联史·第 4 卷》、韦斯特伍德《俄罗斯铁路史》、里斯《斯大林主义与苏联铁路运输》等），并均已纳入 FTS5 章节检索雷达。
 
 ---
 

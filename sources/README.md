@@ -1,7 +1,7 @@
 # 史料与文献目录导航（`sources/`）
 
-- **全量文献总目**：[`sources/LITERATURE_CATALOG.md`](./LITERATURE_CATALOG.md)（完整收录 `sources/primary/` **13 部**一手档案汇编、`sources/monographs/` **150 部**学术专著与回忆录、`sources/web-archive/` **49 篇**多语种 S 级在线原典，以及 `inbox/` **156 个**本地电子书库存）。
-- **待寻核心文献愿望单**：[`../BIBLIOGRAPHY_WISHLIST.md`](../BIBLIOGRAPHY_WISHLIST.md)（标记本轮已入库的 15 部新补专著/速记卷，并列出剩余待补卷次与需替换残损/纯扫底本条目）。
+- **全量文献总目**：[`sources/LITERATURE_CATALOG.md`](./LITERATURE_CATALOG.md)（完整收录 `sources/primary/` **15 部**一手档案与原典、`sources/monographs/` **167 部**学术专著与回忆录、`sources/web-archive/` **49 篇**多语种 S 级在线原典，以及 `inbox/` **176 个**本地电子书库存；其中 **166 部**具备完整可检索纯文本，**16 部**纯扫描/残卷自动隔离）。
+- **待寻核心文献愿望单**：[`../BIBLIOGRAPHY_WISHLIST.md`](../BIBLIOGRAPHY_WISHLIST.md)（持续追踪新增入库批次、剩余待补卷次与需替换残损/纯扫底本条目）。
 - **公开在线档案库导航**：[`sources/WEB_REPOSITORIES.md`](./WEB_REPOSITORIES.md)。
 - **原始电子书库存快照**：[`sources/inbox_inventory.jsonl`](./inbox_inventory.jsonl)（含文件体积与 `truncated_pdf_missing_eof` 完整性自动巡检标签）。
 
