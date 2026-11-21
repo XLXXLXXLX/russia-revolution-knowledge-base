@@ -1,9 +1,9 @@
 {
   "tag": "w60_final",
-  "timestamp": "2026-11-21T20:02:24+08:00",
+  "timestamp": "2026-11-21T20:58:35+08:00",
   "split": "all",
-  "git_head": "fa155a0",
-  "git_dirty_files": 20,
+  "git_head": "e10e3fc",
+  "git_dirty_files": 16,
   "overall_passed": true,
   "suites": {
     "B1": {
@@ -229,14 +229,14 @@
       "metrics": {
         "locate_chapters_implemented": 1,
         "book_hit_at_3": 0.9062,
-        "book_hit_at_5": 0.9688,
+        "book_hit_at_5": 0.9375,
         "exact_chapter_hit_at_3": 0.7812,
-        "exact_chapter_hit_at_5": 0.9062,
-        "exact_chapter_mrr": 0.6664,
+        "exact_chapter_hit_at_5": 0.875,
+        "exact_chapter_mrr": 0.6654,
         "chapter_hit_at_3": 0.9062,
-        "chapter_hit_at_5": 0.9688,
-        "chapter_mrr": 0.7224,
-        "median_query_ms": 23.12,
+        "chapter_hit_at_5": 0.9375,
+        "chapter_mrr": 0.7214,
+        "median_query_ms": 60.5,
         "empty_scan_books_detected": 0,
         "empty_scan_quarantine_rate": 1.0,
         "quarantine_canary_pass_rate": 1.0

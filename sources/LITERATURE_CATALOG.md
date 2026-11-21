@@ -1,9 +1,9 @@
 # 俄国革命知识库（1860s–1929）馆藏文献总目 (`sources/LITERATURE_CATALOG.md`)
 
-- **馆藏拆解目录总数**: `202` 部（`sources/primary/` 一手档案原典 `24` 部 + `sources/monographs/` 学术专著/回忆录 `178` 部）
-- **全文状态**: `✅ 可读全文 202 部` | `⚠️ 纯扫描/残卷隔离 (needs_ocr: true) 0 部`
-- **支持格式**: `PDF`（PyMuPDF 页码锚点）、`EPUB`（自动合并逐页 XML 切片）、`DOCX/DOC`、`DjVu`（原生纯 Python `ZPCodec + BZZ` 提取 `TXTz` 俄文文本层），另设 `sources/articles/` 支持中英俄学术论文入库。
-- **检索协议**: 主控官通过 `python scripts/kb.py locate-chapters "<关键词>"` 毫秒级定位章节（自动隔离 `needs_ocr: true` 目录），再交 `close-reader` 整章顺读。
+- **馆藏拆解目录总数**: `214` 部/篇（`sources/primary/` 一手档案原典 `25` 部 + `sources/monographs/` 学术专著/回忆录 `178` 部 + `sources/articles/` 中英俄同行评议期刊论文 `11` 篇）
+- **全文状态**: `✅ 可读全文 214 项` | `⚠️ 纯扫描/残卷隔离 (needs_ocr: true) 0 项`
+- **支持格式**: `PDF`（PyMuPDF 页码锚点）、`EPUB`（自动合并逐页 XML 切片）、`DOCX/DOC`、`DjVu`（原生纯 Python `ZPCodec + BZZ` 提取 `TXTz` 俄文文本层）。
+- **检索协议**: 主控官通过 `python scripts/kb.py locate-chapters "<关键词>"` 毫秒级跨专著、一手档案与三语期刊论文定位章节（自动隔离 `needs_ocr: true` 目录），再交 `close-reader` 整章顺读。
 
 ## 一、一手档案、会议速记与历史原典 (`sources/primary/`)
 
@@ -28,11 +28,12 @@
 | 17 | `socialism_in_one_country_debate_docs_zh` | `S` | `zh` | 革命何以关于一国建成社会主义的讨论 (Zerklora、红锲社、Levski、青山霁、Nekoist 等 编者 郑阑干) (z-library.sk, 1lib.sk, z-lib.sk).pdf | - | 18 | 386.4 | ✅ 可读全文 |
 | 18 | `sovetskaya_derevnya_vchk_ogpu_v1_ru` | `S` | `ru` | Советская деревня глазами ВЧК–ОГПУ–НКВД. Том 1: 1918–1922 | А. Берелович, В. П. Данилов (ред.) | 30 | 4195.0 | ✅ 可读全文 |
 | 19 | `sovetskaya_derevnya_vchk_ogpu_v2_ru` | `S` | `ru` | Советская деревня глазами ВЧК–ОГПУ–НКВД. Том 2: 1923–1929 | А. Берелович, В. П. Данилов (ред.) | 44 | 6192.0 | ✅ 可读全文 |
-| 20 | `stalin_major_documents_zh` | `S` | `zh` | 斯大林1878-1953(主要文献) (一个普通的人) (z-library.sk, 1lib.sk, z-lib.sk).pdf | - | 16 | 475.3 | ✅ 可读全文 |
-| 21 | `stalin_works_v1_1901_1907_zh` | `S` | `zh` | 斯大林全集 第一卷（1901—1907） | 约·维·斯大林 | 41 | 1443.8 | ✅ 可读全文 |
-| 22 | `tragedy_soviet_village_v1_1927_1929_zh` | `S` | `zh` | 苏联农村的悲剧：集体化与富农驱逐 文献与资料 第1卷（1927年5月—1929年11月） | 维·彼·达尼洛夫、罗·曼宁、林·维奥拉 编 | 40 | 2760.8 | ✅ 可读全文 |
-| 23 | `tragedy_soviet_village_v2_1929_zh` | `S` | `zh` | 苏联农村的悲剧 集体化与消灭富农 文献和材料 第2卷 1929年11月 — 1930年12月 Трагедия_советской_деревни_Том_2 (一个普通的人) (z-library.sk, 1lib.sk, z-lib.sk).pdf | - | 54 | 2513.7 | ✅ 可读全文 |
-| 24 | `trotsky_1905_zh` | `B` | `zh` | 1905 | 列夫·达维多维奇·托洛茨基 | 22 | 892.9 | ✅ 可读全文 |
+| 20 | `sovetskaya_derevnya_vchk_ogpu_v3p1_ru` | `S` | `ru` | Советская деревня глазами ВЧК–ОГПУ–НКВД. Том 3, Книга 1: 1930–1931 | А. Берелович, В. П. Данилов (ред.) | 31 | 4290.5 | ✅ 可读全文 |
+| 21 | `stalin_major_documents_zh` | `S` | `zh` | 斯大林1878-1953(主要文献) (一个普通的人) (z-library.sk, 1lib.sk, z-lib.sk).pdf | - | 16 | 475.3 | ✅ 可读全文 |
+| 22 | `stalin_works_v1_1901_1907_zh` | `S` | `zh` | 斯大林全集 第一卷（1901—1907） | 约·维·斯大林 | 41 | 1443.8 | ✅ 可读全文 |
+| 23 | `tragedy_soviet_village_v1_1927_1929_zh` | `S` | `zh` | 苏联农村的悲剧：集体化与富农驱逐 文献与资料 第1卷（1927年5月—1929年11月） | 维·彼·达尼洛夫、罗·曼宁、林·维奥拉 编 | 40 | 2760.8 | ✅ 可读全文 |
+| 24 | `tragedy_soviet_village_v2_1929_zh` | `S` | `zh` | 苏联农村的悲剧 集体化与消灭富农 文献和材料 第2卷 1929年11月 — 1930年12月 Трагедия_советской_деревни_Том_2 (一个普通的人) (z-library.sk, 1lib.sk, z-lib.sk).pdf | - | 54 | 2513.7 | ✅ 可读全文 |
+| 25 | `trotsky_1905_zh` | `B` | `zh` | 1905 | 列夫·达维多维奇·托洛茨基 | 22 | 892.9 | ✅ 可读全文 |
 
 ## 二、学术专著与重要亲历者文献 (`sources/monographs/`)
 
@@ -216,3 +217,19 @@
 | 176 | `zhang_jianhua_political_radicalism_zh` | `A` | `zh` | C:\Users\lsaax\.t3\projects\russian-revolution-knowledge-base\inbox\政治激进主义与近代俄国政治 (张建华等著) (Z-Library).pdf | - | 44 | 809.6 | ✅ 可读全文 |
 | 177 | `zheng_yifan_nep_russia_zh` | `A` | `zh` | 苏联史 第三卷 新经济政策的俄国 | 郑异凡 | 75 | 1715.9 | ✅ 可读全文 |
 | 178 | `zhukov_zinoviev_zh` | `A` | `zh` | 格里高利·季诺维也夫被遗忘的世界革命领袖-Григорий Зиновьев. Отвергнутый вождь мировой революции (尤里·茹科夫,Юрий Ник... (z-library.sk, 1lib.sk, z-lib.sk).epub | - | 35 | 1472.8 | ✅ 可读全文 |
+
+## 三、中、英、俄语同行评议学术论文 (`sources/articles/`)
+
+| 序号 | 目录 Slug | 信源等级 | 语种 | 论文题名与发表期刊 | 作者 | 切片数 | 文本体积 (KB) | 状态 |
+| ---: | :--- | :---: | :---: | :--- | :--- | ---: | ---: | :--- |
+| 1 | `davidian_1997_military_censorship_civil_war_1918_1920_ru` | `A` | `ru` | Военная цензура в России в годы гражданской войны 1918–1920 гг. (Cahiers du Monde russe, 38:1–2, 1997) | Ирина Давидян | 10 | 34.3 | ✅ 可读全文 |
+| 2 | `hoch_1994_on_good_numbers_and_bad_peasant_living` | `A` | `en` | On Good Numbers and Bad: Malthus, Population Trends and Peasant Standard of Living in Late Imperial Russia (Slavic Review, 53:1, 1994) | Steven L. Hoch | 36 | 118.3 | ✅ 可读全文 |
+| 3 | `holquist_1997_bolshevik_surveillance_pan_european` | `A` | `en` | "Information Is the Alpha and Omega of Our Work": Bolshevik Surveillance in Its Pan-European Context (Journal of Modern History, 69:3, 1997) | Peter Holquist | 36 | 133.9 | ✅ 可读全文 |
+| 4 | `khlevniuk_2001_stalin_and_state_security_organs_ru` | `A` | `ru` | Сталин и органы государственной безопасности (Cahiers du Monde russe, 42:2–4, 2001) | Олег Хлевнюк | 14 | 49.5 | ✅ 可读全文 |
+| 5 | `lih_2000_bukharins_illusion_war_communism_and_nep` | `A` | `en` | Bukharin's "Illusion": War Communism and the Meaning of NEP (Russian History, 27:1–4, 2000) | Lars T. Lih | 2 | 127.0 | ✅ 可读全文 |
+| 6 | `melancon_1988_who_wrote_what_february_1917_proclamations` | `A` | `en` | Who Wrote What and When?: Proclamations of the February Revolution in Petrograd, 23 February – 1 March 1917 (Soviet Studies, 40:3, 1988) | Michael Melancon | 22 | 87.5 | ✅ 可读全文 |
+| 7 | `nep_early_grain_policy_peasant_resistance_zh` | `A` | `zh` | 新经济政策前期苏联粮食政策的负面效应与农民反抗（《俄罗斯研究》2013年第4期） | 赵旭黎 | 1 | 49.1 | ✅ 可读全文 |
+| 8 | `plaggenborg_1990_who_paid_industrialisation_tsarist_russia` | `A` | `en` | Who Paid for the Industrialisation of Tsarist Russia? (Revolutionary Russia, 3:2, 1990) | Stefan Plaggenborg | 2 | 78.0 | ✅ 可读全文 |
+| 9 | `plaggenborg_1995_tax_policy_peasant_poverty_1881_1905` | `A` | `en` | Tax Policy and the Question of Peasant Poverty in Tsarist Russia, 1881–1905 (Cahiers du Monde russe, 36:1–2, 1995) | Stefan Plaggenborg | 18 | 70.8 | ✅ 可读全文 |
+| 10 | `stalin_vs_bukharin_rykov_nep_debate_zh` | `A` | `zh` | 废除还是坚持新经济政策——斯大林同以布哈林、李可夫为首的“右派”的争论（《俄罗斯东欧中亚研究》2013年第2期） | 陈爱茹 | 1 | 45.2 | ✅ 可读全文 |
+| 11 | `wheatcroft_1974_reliability_prewar_grain_statistics` | `A` | `en` | The Reliability of Russian Prewar Grain Output Statistics (Soviet Studies, 26:2, 1974) | S. G. Wheatcroft | 2 | 77.1 | ✅ 可读全文 |
