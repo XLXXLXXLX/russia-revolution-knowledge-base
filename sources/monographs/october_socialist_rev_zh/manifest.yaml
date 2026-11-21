@@ -1,5 +1,24 @@
 slug: october_socialist_rev_zh
 title: 十月社会主义革命
 language: zh
-needs_ocr: true
-ocr_note: "Pure image scan without embedded text layer; quarantined from close-reader and chapter FTS until OCR"
+needs_ocr: false
+source_file: G:\其他计算机\我的笔记本电脑\alist\4-历史-苏联（苏俄）史\俄国十月社会主义革命 (2).pdf
+source_sha256: f5622ad222f551780f2a654be393650a927e7b7400cbca5258492fa7d1003479
+source_format: pdf
+original_retained: true
+chapter_count: 7
+empty_page_ratio: 0.0
+status: text_extracted
+edition_check: 《世界史资料丛刊·现代史部分·俄国十月社会主义革命》，徐天新选译，商务印书馆，1997，ISBN 7-100-01045-4。云盘 16MB 扫描件与本 170 页文字层本标题、译者、页数一致。
+duplicate_copies_not_extracted:
+- G:\我的云端硬盘\资料\4-历史-苏联（苏俄）史\俄国十月社会主义革命.pdf
+- G:\其他计算机\我的笔记本电脑\alist\4-历史-苏联（苏俄）史\俄国十月社会主义革命.pdf
+quality_check:
+  total_pages: 170
+  text_bearing_pages: 170
+  low_or_empty_pages: 0
+  low_text_pages: []
+  chapter_files: 7
+  anchors_cover: 1-170
+  text_layer_status: 嵌入式文字层可提取；抽查页中文占比中位数 0.815
+  extraction: PyMuPDF get_text

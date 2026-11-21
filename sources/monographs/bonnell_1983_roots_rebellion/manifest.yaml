@@ -1,33 +1,60 @@
 id: MONO-bonnell-1983-roots-rebellion
 slug: bonnell_1983_roots_rebellion
-title: "反叛的根源：圣彼得堡与莫斯科的工人政治与组织（1900–1914）"
-title_original: "Roots of Rebellion: Workers' Politics and Organizations in St. Petersburg and Moscow, 1900–1914"
-author: "维多利亚·E·邦内尔"
-author_original: "Victoria E. Bonnell"
-publisher: "University of California Press (Berkeley, Los Angeles, London)"
+title: 反叛的根源：圣彼得堡与莫斯科的工人政治与组织（1900–1914）
+title_original: 'Roots of Rebellion: Workers'' Politics and Organizations in St. Petersburg and Moscow, 1900–1914'
+author: 维多利亚·E·邦内尔
+author_original: Victoria E. Bonnell
+publisher: University of California Press (Berkeley, Los Angeles, London)
 pub_year: 1983
-isbn: "0-520-04740-0"
-language: "en"
-epistemic_tier: "A"
-subject_period: "1900–1914 (沙皇晚期俄国工人的组织化历程、1905年革命中的工会运动与一战前激进化)"
-source_file: "inbox/Roots of Rebellion - Workers Politics and Organizations in St. Petersburg and Moscow, 1900-1914. (Victoria E. Bonnell) (z-library.sk, 1lib.sk, z-lib.sk).pdf"
+isbn: 0-520-04740-0
+language: en
+epistemic_tier: A
+subject_period: 1900–1914 (沙皇晚期俄国工人的组织化历程、1905年革命中的工会运动与一战前激进化)
+source_file: inbox/ocr-replacements/Roots of Rebellion Workers’ Politics and Organizations in St. Petersburg and Moscow, 1900-1914
+  (Victoria E. Bonnell).pdf
 source_format: pdf
-needs_ocr: true
+needs_ocr: false
 quality_check:
-  total_pages: 586
-  text_bearing_pages: 0
-  empty_or_image_pages: 586
-  ocr_coverage_pct: 0.0
-  text_layer_status: "纯扫描图像 PDF（无嵌入式文本层），拥有完整的章节书签目录大纲，正文各页需经 OCR 识别后方可进行全文检索与精读"
+  total_pages: 596
+  text_layer_pages: 583
+  blank_or_unlettered_pages:
+  - 3
+  - 7
+  - 13
+  - 23
+  - 127
+  - 373
+  - 479
+  - 567
+  image_checked_pages:
+  - 1
+  - 587
+  - 592
+  - 594
+  - 596
+  low_or_empty_pages: 8
+  chapter_files: 27
+  anchors_cover: 1-596
+  chars: 1385152
+  lines: 26961
+  extraction: PyMuPDF get_text; image check only where the text layer missed a caption or title
 extraction_stats:
-  chapters_count: 32
-  total_lines: 2444
-  total_chars: 35952
-  chunk_strategy: "chunk_pages_30"
-  index_file: "toc.md"
-status: needs_ocr
-quality_notes: "586 PDF pages in 32 chunks; scanned image PDF without embedded text layer (needs_ocr: true)"
-historiographical_note: >
-  欧美俄国革命社会史学派（Revisionist / Social History School）开山经典之一。
-  邦内尔通过对圣彼得堡和莫斯科两地手工业与现代工厂工人的阶级意识、行业协会与工会组织演变，以及 1905–1914 年间工运激进化历程的详尽实证研究，
-  推翻了传统的列宁主义“外部灌输论”与自由主义/孟什维克“自发改良论”的简单两分法，系统展现了俄国熟练产业工人自下而上的自主阶级形成（Class Formation）与政治激进化机制。
+  chapters_count: 27
+  total_lines: 26961
+  total_chars: 1385152
+  chunk_strategy: chapter_title_pages
+  index_file: toc.md
+status: text_extracted
+quality_notes: 596 PDF pages, 27 chapters, 1385152 chars. Text layer extracted directly. Pages whose text layer missed a title
+  or caption were checked against the image.
+historiographical_note: '欧美俄国革命社会史学派（Revisionist / Social History School）开山经典之一。 邦内尔通过对圣彼得堡和莫斯科两地手工业与现代工厂工人的阶级意识、行业协会与工会组织演变，以及
+  1905–1914 年间工运激进化历程的详尽实证研究， 推翻了传统的列宁主义“外部灌输论”与自由主义/孟什维克“自发改良论”的简单两分法，系统展现了俄国熟练产业工人自下而上的自主阶级形成（Class Formation）与政治激进化机制。
+
+  '
+source_sha256: 7b60352bbcf82cedcd679408eb93dadaf1be965ce22c714c4fd2176c09fbd2b1
+original_retained: true
+chapter_count: 27
+empty_page_ratio: 0.0134
+printed_page_map: 阿拉伯数字正文的印刷页码约等于 PDF 页减 23（Introduction 的 PDF 第 24 页 = 印刷第 1 页）。书末图版不在这套换算里。
+edition_check: University of California Press, 1983. 精装 ISBN 0-520-04740-0，平装 ISBN 0-520-05114-9，LC 83-1084，HD6735.L4B66。与旧
+  586 页无字扫描壳是同一版；旧壳的 PDF 页码属于另一次扫描，未沿用。本文件 596 页，Acrobat Paper Capture（2017-05-07），无书签。

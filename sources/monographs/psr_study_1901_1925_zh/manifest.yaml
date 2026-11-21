@@ -1,4 +1,27 @@
 id: SRC-psr-study-1901-1925-zh
 directory_name: psr_study_1901_1925_zh
-needs_ocr: true
-note: "原始 PDF（440页）为纯扫描图像无嵌入式文本层（PDF-I），待 OCR 补提后精读，严禁伪造引文。"
+needs_ocr: false
+note: 标题页为解国良《A Study of the Russian Social Revolutionary Party, 1901–1925》。440 页已逐页 OCR。未把《锤击镰刀》写入本书。
+source_file: C:\Users\lsaax\.t3\projects\russian-revolution-knowledge-base\inbox\俄国社会革命党研究1901-1925.pdf
+source_sha256: 5f13ab474d7496372c44ba065290f8a3d5fe3f4097729c693cc6562b49559f41
+source_format: pdf
+original_retained: true
+chapter_count: 438
+empty_page_ratio: 0.0
+status: ocr_extracted
+edition_check: 文件名候选《锤击镰刀：被布尔什维克镇压的社会革命党》实为 Oliver H. Radkey, The Sickle under the Hammer (Columbia University Press, 1963)，542
+  页，与本书 440 页章壳不符，未使用。
+quality_check:
+  total_pages: 440
+  text_bearing_pages: 440
+  low_or_empty_pages: 0
+  low_text_pages: []
+  chapter_files: 438
+  anchors_cover: 1-440
+  duplicate_anchor_pages: 0
+  text_layer_status: 原 PDF 无嵌入式文字层；本目录为逐页 OCR，锚点为 PDF 物理页码
+  ocr_engine: tesseract 5.5.3
+  ocr_lang: chi_sim+eng
+  ocr_psm: 6
+  zoom: 2.0
+  tessdata_dir: C:\Users\lsaax\.t3\projects\russian-revolution-knowledge-base\.cache\cloud-grok-ocr\tessdata

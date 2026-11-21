@@ -4,4 +4,26 @@ author: G. D. H. Cole
 language: zh
 epistemic_tier: A
 pdf_type: PDF-I
-needs_ocr: true
+needs_ocr: false
+source_file: C:\Users\lsaax\.t3\projects\russian-revolution-knowledge-base\inbox\社会主义思想史 第四卷上 共产主义与社会民主主义1914-1931.pdf
+source_sha256: ad5439ea1e1ae09faa68dc330dc97d4fdda908d95349bd31855a9e55e9886463
+source_format: pdf
+original_retained: true
+chapter_count: 36
+empty_page_ratio: 0.0
+status: ocr_extracted
+edition_check: 标题页为《社会主义思想史》第四卷上册《共产主义与社会民主主义 1914—1931》，G. D. H. 柯尔著，宋宁、周叶谦、李鹏远、李梅彬等译，商务印书馆 1990。447 页。未写入下册。ch21–ch35 文件名沿用旧壳「残页P13」，实为正文页段的重复锚点；原件页数完整，未残损。
+quality_check:
+  total_pages: 447
+  text_bearing_pages: 447
+  low_or_empty_pages: 0
+  low_text_pages: []
+  chapter_files: 36
+  anchors_cover: 1-447
+  duplicate_anchor_pages: 423
+  text_layer_status: 原 PDF 无嵌入式文字层；本目录为逐页 OCR，锚点为 PDF 物理页码
+  ocr_engine: tesseract 5.5.3
+  ocr_lang: chi_sim+eng
+  ocr_psm: 6
+  zoom: 2.0
+  tessdata_dir: C:\Users\lsaax\.t3\projects\russian-revolution-knowledge-base\.cache\cloud-grok-ocr\tessdata

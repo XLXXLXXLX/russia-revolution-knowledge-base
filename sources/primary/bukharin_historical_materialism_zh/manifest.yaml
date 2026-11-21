@@ -1,0 +1,42 @@
+id: SRC-bukharin-historical-materialism-zh
+slug: bukharin_historical_materialism_zh
+category: primary
+title: 历史唯物主义理论
+title_original: Теория исторического материализма
+author: 尼古拉·伊万诺维奇·布哈林
+author_original: Николай Иванович Бухарин
+language: zh
+epistemic_tier: S
+subject_period: 1921 年布哈林理论著作的中译扫描本（社会平衡、阶级与过渡时期）
+source_file: G:\我的云端硬盘\资料\4-历史学-马克思主义历史学\历史唯物主义理论.pdf
+source_sha256: 335966ead31a0cbfc6a141e84c2922af1043fc958ed3dfcac0b1fad88e47d353
+source_format: pdf
+original_retained: true
+duplicate_copies_not_extracted:
+- G:\我的云端硬盘\资料\5-其他社会科学-马克思主义及其他左翼理论\历史唯物主义、历史与社会学\历史唯物主义理论 ([苏联] 布哈林) (Z-Library).pdf
+- G:\其他计算机\我的笔记本电脑\alist\4-历史学-马克思主义历史学\历史唯物主义理论.pdf
+- G:\其他计算机\我的笔记本电脑\alist\5-其他社会科学-马克思主义及其他左翼理论\历史唯物主义、历史与社会学\历史唯物主义理论 ([苏联] 布哈林) (Z-Library).pdf
+needs_ocr: false
+chapter_count: 16
+empty_page_ratio: 0.0026
+quality_check:
+  total_pages: 383
+  text_bearing_pages: 382
+  low_or_empty_pages: 1
+  failed_pages: []
+  low_text_pages:
+  - 2
+  ocr_engine: tesseract 5.5.3
+  ocr_lang: chi_sim+eng
+  ocr_psm: 6
+  tessdata_dir: C:\Users\lsaax\.t3\projects\russian-revolution-knowledge-base\.cache\cloud-grok-ocr\tessdata
+  text_layer_status: 原 PDF 无嵌入式文字层；本目录为逐页 OCR，锚点为 PDF 物理页码
+extraction_stats:
+  chapters_count: 16
+  total_lines: 12235
+  total_chars: 302596
+  chunk_strategy: chunk_pages_25
+  index_file: toc.md
+bookmarks_sample: []
+status: ocr_extracted
+quality_notes: ''

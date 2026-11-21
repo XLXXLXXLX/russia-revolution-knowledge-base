@@ -1,34 +1,38 @@
 id: MONO-zheng-yifan-nep-russia-zh
 slug: zheng_yifan_nep_russia_zh
-title: "苏联史 第三卷 新经济政策的俄国"
-title_original: "《苏联史 第三卷 新经济政策的俄国》"
-author: "郑异凡"
-author_original: "Zheng Yifan"
-series: "教育部“九五”规划国家重点社科项目《苏联史》（十卷本）第三卷"
-publisher: "人民出版社"
+title: 苏联史 第三卷 新经济政策的俄国
+title_original: 《苏联史 第三卷 新经济政策的俄国》
+author: 郑异凡
+author_original: Zheng Yifan
+series: 教育部“九五”规划国家重点社科项目《苏联史》（十卷本）第三卷
+publisher: 人民出版社
 pub_year: 2013
-isbn: "978-7-01-012028-7"
-language: "zh"
-epistemic_tier: "A"
-subject_period: "1921–1929 (战时共产主义危机、向新经济政策转变、农业与工业恢复、党内理论与路线大争论、新经济政策终结)"
-source_file: "inbox/苏联史 第三卷 新经济政策的俄国 郑异凡著.pdf"
+isbn: 978-7-01-012028-7
+language: zh
+epistemic_tier: A
+subject_period: 1921–1929 (战时共产主义危机、向新经济政策转变、农业与工业恢复、党内理论与路线大争论、新经济政策终结)
+source_file: inbox/苏联史 第三卷 新经济政策的俄国 郑异凡著.pdf
 source_format: pdf
-needs_ocr: true
+needs_ocr: false
 quality_check:
   total_pages: 752
   text_bearing_pages: 0
   empty_or_image_pages: 752
   ocr_coverage_pct: 0.0
-  text_layer_status: "大容量高质量扫描图像 PDF（无嵌入式文字层），包含完整详细的 75 个章节与子节书签索引，正文需要 OCR 处理方可进行全文检索与文本精读"
+  text_layer_status: 原 PDF 无嵌入式文字层，已生成逐页 OCR 文本
 extraction_stats:
   chapters_count: 75
-  total_lines: 3237
-  total_chars: 43015
-  chunk_strategy: "chunk_pages_30"
-  index_file: "toc.md"
-status: needs_ocr
-quality_notes: "752 PDF pages in 75 chapters/sections (scanned book without embedded text layer; needs_ocr: true)"
-historiographical_note: >
-  中国苏联史学界泰斗郑异凡研究员五十年学术积淀的集大成之作，教育部重大社科项目《苏联史》第三卷。
-  著作以海量俄国解密档案和中央会议速记为依托，客观严谨地还原了列宁对社会主义道路的曲折探索、
+  total_lines: 32445
+  total_chars: 725495
+  chunk_strategy: chunk_pages_30
+  index_file: toc.md
+status: ocr_extracted
+quality_notes: 逐页 OCR。锚点为 PDF 物理页。引文请核对扫描原件。 PDF 第 95、273、557 页为空白页。第 668 页为图版分隔页，已据扫描图补录标题“附录”。
+historiographical_note: '中国苏联史学界泰斗郑异凡研究员五十年学术积淀的集大成之作，教育部重大社科项目《苏联史》第三卷。 著作以海量俄国解密档案和中央会议速记为依托，客观严谨地还原了列宁对社会主义道路的曲折探索、
   工农业剪刀差与粮食危机、托洛茨基/季诺维也夫/布哈林/斯大林多轮党内大论战，以及斯大林最终以“非常措施”终结新经济政策的历史全过程，是华语学界该领域的奠基性权威巨著。
+
+  '
+ocr_note: 'OCR completed page-by-page; failed pages: []'
+ocr_pages: 752
+ocr_failed_pages: []
+empty_page_ratio: 0.003989361702127659

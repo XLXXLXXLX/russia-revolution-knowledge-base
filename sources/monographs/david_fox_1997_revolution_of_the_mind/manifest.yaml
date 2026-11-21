@@ -5,10 +5,40 @@ language: en
 epistemic_tier: A
 slug: david_fox_1997_revolution_of_the_mind
 category: monographs
-source_file: Revolution of the Mind- Higher Learning among the Bolsheviks, 1918 -
-  1929 ( etc.) (z-library.sk, 1lib.sk, z-lib.sk).pdf
-chapter_count: 0
-empty_page_ratio: 0.0
-needs_ocr: true
-ocr_note: Truncated PDF download in inbox/ (missing %%EOF trailer, 0 readable pages);
-  auto-quarantined until intact copy is supplied.
+source_file: inbox/ocr-replacements/Revolution of the Mind Higher Learning Among the Bolsheviks, 1918-1929 (Michael David-Fox).pdf
+chapter_count: 12
+empty_page_ratio: 0.0157
+needs_ocr: false
+source_sha256: 3540923a88f9cf5a02f5b10fb073cdb0c35ec1d2ea444c56c216f79a3a976045
+source_format: pdf
+original_retained: true
+status: text_extracted
+printed_page_map: 阿拉伯数字正文的印刷页码约等于 PDF 页减 21（Introduction 的 PDF 第 22 页 = 印刷第 1 页）。13 条书签都是 JSTOR 内部 id，页码为 -1，未用于分章。每页重复的 JSTOR
+  下载戳已从正文去掉。
+quality_check:
+  total_pages: 319
+  text_layer_pages: 313
+  blank_or_unlettered_pages:
+  - 7
+  - 9
+  - 11
+  - 19
+  - 21
+  image_checked_pages:
+  - 1
+  low_or_empty_pages: 5
+  chapter_files: 12
+  anchors_cover: 1-319
+  chars: 861531
+  lines: 13969
+  extraction: PyMuPDF get_text; image check only where the text layer missed a caption or title
+edition_check: Cornell University Press, 1997；2016 年第一次平装印刷的 JSTOR 扫描（2016-11-22 下载）。精装 ISBN 978-0-8014-3128-9，平装 ISBN 978-1-5017-0717-9，LC
+  96-47757。inbox 里原先那件在 512 KB 处截断、0 可读页，仍留在原处。书签不能用。
+quality_notes: 319 PDF pages, 12 chapters, 861531 chars. Text layer extracted directly. Pages whose text layer missed a title
+  or caption were checked against the image.
+extraction_stats:
+  chapters_count: 12
+  total_lines: 13969
+  total_chars: 861531
+  chunk_strategy: chapter_title_pages
+  index_file: toc.md

@@ -5,10 +5,52 @@ language: en
 epistemic_tier: A
 slug: corney_2004_telling_october
 category: monographs
-source_file: Telling October- Memory and the Making of the Bolshevik Revolution (
-  etc.) (z-library.sk, 1lib.sk, z-lib.sk).pdf
-chapter_count: 0
-empty_page_ratio: 0.0
-needs_ocr: true
-ocr_note: Truncated PDF download in inbox/ (missing %%EOF trailer, 0 readable pages);
-  auto-quarantined until intact copy is supplied.
+source_file: inbox/ocr-replacements/Telling October Memory And The Making Of The Bolshevik Revolution (Frederick C. Corney).pdf
+chapter_count: 17
+empty_page_ratio: 0.0406
+needs_ocr: false
+source_sha256: 60fe20768a3f290bbd50492f69e688a36ddbc58080db062c92301eb63dc3c288
+source_format: pdf
+original_retained: true
+status: text_extracted
+printed_page_map: 阿拉伯数字正文的印刷页码约等于 PDF 页减 18（Introduction 的 PDF 第 19 页 = 印刷第 1 页）。书签页码与各章首页一致；目录页把第 5 章认成 “s.”、第 6 章认成 “8.”，分章不采用那两处误识。
+quality_check:
+  total_pages: 320
+  text_layer_pages: 301
+  blank_or_unlettered_pages:
+  - 6
+  - 8
+  - 10
+  - 18
+  - 30
+  - 32
+  - 112
+  - 114
+  - 218
+  - 236
+  - 240
+  - 292
+  - 310
+  image_checked_pages:
+  - 1
+  - 2
+  - 17
+  - 31
+  - 113
+  - 320
+  low_or_empty_pages: 13
+  chapter_files: 17
+  anchors_cover: 1-320
+  chars: 858080
+  lines: 13592
+  extraction: PyMuPDF get_text; image check only where the text layer missed a caption or title
+edition_check: Cornell University Press, 2004 年初版。精装 ISBN 0-8014-4219-2，平装 ISBN 0-8014-8931-8（封底条码 978-0-8014-8931-8），LC DK265.C643
+  2004。inbox 里原先那件在 916 KB 处截断、0 可读页，仍留在原处。18 条书签与各章首页一致。
+quality_notes: 320 PDF pages, 17 chapters, 858080 chars. Text layer extracted directly. Pages whose text layer missed a title
+  or caption were checked against the image.
+extraction_stats:
+  chapters_count: 17
+  total_lines: 13592
+  total_chars: 858080
+  chunk_strategy: chapter_title_pages
+  index_file: toc.md

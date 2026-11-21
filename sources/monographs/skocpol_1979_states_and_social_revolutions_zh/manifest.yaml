@@ -1,0 +1,169 @@
+id: MONO-skocpol-1979-states-social-revolutions-zh
+slug: skocpol_1979_states_and_social_revolutions_zh
+category: monographs
+title: 国家与社会革命：对法国、俄国和中国的比较分析
+title_original: 'States and Social Revolutions: A Comparative Analysis of France,
+  Russia, and China'
+author: 西达·斯考切波
+author_original: Theda Skocpol
+language: zh
+epistemic_tier: A
+subject_period: 法国、俄国与中国社会革命的比较历史社会学（1979；东方编译所译丛中译）
+source_file: G:\我的云端硬盘\资料\2-社会学-组织社会学\［东方编译所译丛］国家与社会革命：对法国、俄国和中国的比较分析（States and Social
+  Revolutions  A Comparative Analysis of France, Russia and China）.pdf
+source_sha256: 0d6f399614f37b765d38463ebad304139aaef69a6fb301e596622fc9bccd1ea2
+source_format: pdf
+original_retained: true
+duplicate_copies_not_extracted:
+- G:\其他计算机\我的笔记本电脑\alist\2-社会学-组织社会学\［东方编译所译丛］国家与社会革命：对法国、俄国和中国的比较分析（States and Social
+  Revolutions  A Comparative Analysis of France, Russia and China）.pdf
+needs_ocr: false
+chapter_count: 17
+empty_page_ratio: 0.0166
+quality_check:
+  total_pages: 422
+  text_bearing_pages: 415
+  low_or_empty_pages: 7
+  failed_pages: []
+  low_text_pages:
+  - 26
+  - 30
+  - 86
+  - 87
+  - 88
+  - 229
+  - 230
+  ocr_engine: tesseract 5.5.3
+  ocr_lang: chi_sim+eng
+  ocr_psm: 6
+  tessdata_dir: C:\Users\lsaax\.t3\projects\russian-revolution-knowledge-base\.cache\cloud-grok-ocr\tessdata
+  text_layer_status: 原 PDF 无嵌入式文字层；本目录为逐页 OCR，锚点为 PDF 物理页码
+extraction_stats:
+  chapters_count: 17
+  total_lines: 16769
+  total_chars: 552480
+  chunk_strategy: chunk_pages_25
+  index_file: toc.md
+bookmarks_sample:
+- level: 1
+  title: 国家与社会革命 0001
+  page: 1
+- level: 1
+  title: 国家与社会革命 0002
+  page: 2
+- level: 1
+  title: 国家与社会革命 0003
+  page: 3
+- level: 1
+  title: 国家与社会革命 0004
+  page: 4
+- level: 1
+  title: 国家与社会革命 0005
+  page: 5
+- level: 1
+  title: 国家与社会革命 0006
+  page: 6
+- level: 1
+  title: 国家与社会革命 0007
+  page: 7
+- level: 1
+  title: 国家与社会革命 0008
+  page: 8
+- level: 1
+  title: 国家与社会革命 0009
+  page: 9
+- level: 1
+  title: 国家与社会革命 0010
+  page: 10
+- level: 1
+  title: 国家与社会革命 0011
+  page: 11
+- level: 1
+  title: 国家与社会革命 0012
+  page: 12
+- level: 1
+  title: 国家与社会革命 0013
+  page: 13
+- level: 1
+  title: 国家与社会革命 0014
+  page: 14
+- level: 1
+  title: 国家与社会革命 0015
+  page: 15
+- level: 1
+  title: 国家与社会革命 0016
+  page: 16
+- level: 1
+  title: 国家与社会革命 0017
+  page: 17
+- level: 1
+  title: 国家与社会革命 0018
+  page: 18
+- level: 1
+  title: 国家与社会革命 0019
+  page: 19
+- level: 1
+  title: 国家与社会革命 0020
+  page: 20
+- level: 1
+  title: 国家与社会革命 0021
+  page: 21
+- level: 1
+  title: 国家与社会革命 0022
+  page: 22
+- level: 1
+  title: 国家与社会革命 0023
+  page: 23
+- level: 1
+  title: 国家与社会革命 0024
+  page: 24
+- level: 1
+  title: 国家与社会革命 0025
+  page: 25
+- level: 1
+  title: 国家与社会革命 0026
+  page: 26
+- level: 1
+  title: 国家与社会革命 0027
+  page: 27
+- level: 1
+  title: Untitled
+  page: 360
+- level: 1
+  title: Untitled
+  page: 360
+- level: 1
+  title: Untitled
+  page: 360
+- level: 1
+  title: 国家与社会革命 0028
+  page: 28
+- level: 1
+  title: 国家与社会革命 0029
+  page: 29
+- level: 1
+  title: 国家与社会革命 0030
+  page: 30
+- level: 1
+  title: 国家与社会革命 0031
+  page: 31
+- level: 1
+  title: 国家与社会革命 0032
+  page: 32
+- level: 1
+  title: 国家与社会革命 0033
+  page: 33
+- level: 1
+  title: 国家与社会革命 0034
+  page: 34
+- level: 1
+  title: 国家与社会革命 0035
+  page: 35
+- level: 1
+  title: 国家与社会革命 0036
+  page: 36
+- level: 1
+  title: 国家与社会革命 0037
+  page: 37
+status: ocr_extracted
+quality_notes: ''

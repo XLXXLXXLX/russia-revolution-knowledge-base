@@ -1,0 +1,95 @@
+id: MONO-bonnell-1997-iconography-of-power
+slug: bonnell_1997_iconography_of_power
+category: monographs
+title: 'Iconography of Power: Soviet Political Posters under Lenin and Stalin'
+title_original: 'Iconography of Power: Soviet Political Posters under Lenin and Stalin'
+author: Victoria E. Bonnell
+author_original: Victoria E. Bonnell
+language: en
+epistemic_tier: A
+subject_period: 1917 年以后苏维埃政治招贴的图像志（列宁与斯大林时期）
+source_file: G:\我的云端硬盘\资料\9-其他-红色海报书籍\victoria-e-bonnell-iconography-of-power-soviet-political-posters-under-lenin-and-stalin.pdf
+source_sha256: 846e86c195c4ebfa1389adcac9f24fd0784edf36cb0500bc962f672d5015ba03
+source_format: pdf
+original_retained: true
+duplicate_copies_not_extracted:
+- G:\其他计算机\我的笔记本电脑\alist\9-其他-红色海报书籍\victoria-e-bonnell-iconography-of-power-soviet-political-posters-under-lenin-and-stalin.pdf
+needs_ocr: false
+chapter_count: 8
+empty_page_ratio: 0.0101
+quality_check:
+  total_pages: 199
+  text_bearing_pages: 197
+  low_or_empty_pages: 2
+  failed_pages: []
+  low_text_pages:
+  - 2
+  - 39
+  ocr_engine: tesseract 5.5.3
+  ocr_lang: eng
+  ocr_psm: 3
+  tessdata_dir: C:\Users\lsaax\.t3\projects\russian-revolution-knowledge-base\.cache\cloud-grok-ocr\tessdata
+  text_layer_status: 原 PDF 无嵌入式文字层；本目录为逐页 OCR，锚点为 PDF 物理页码
+extraction_stats:
+  chapters_count: 8
+  total_lines: 16287
+  total_chars: 696502
+  chunk_strategy: chunk_pages_25
+  index_file: toc.md
+bookmarks_sample:
+- level: 1
+  title: 000Cover
+  page: 1
+- level: 1
+  title: '001'
+  page: 2
+- level: 1
+  title: '002'
+  page: 36
+- level: 1
+  title: '003'
+  page: 44
+- level: 1
+  title: '004'
+  page: 55
+- level: 1
+  title: '005'
+  page: 62
+- level: 1
+  title: '006'
+  page: 65
+- level: 1
+  title: '007'
+  page: 66
+- level: 1
+  title: 008
+  page: 70
+- level: 1
+  title: 009
+  page: 78
+- level: 1
+  title: '010'
+  page: 84
+- level: 1
+  title: '011'
+  page: 101
+- level: 1
+  title: '012'
+  page: 109
+- level: 1
+  title: '013'
+  page: 129
+- level: 1
+  title: '014'
+  page: 137
+- level: 1
+  title: '015'
+  page: 149
+- level: 1
+  title: '016'
+  page: 156
+- level: 1
+  title: '017'
+  page: 199
+status: ocr_extracted
+quality_notes: ''

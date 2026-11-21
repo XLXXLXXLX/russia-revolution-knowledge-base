@@ -1,0 +1,40 @@
+id: MONO-soviet-grain-production-1913-1944
+slug: soviet_grain_production_1913_1944
+category: monographs
+title: 苏联粮食生产 1913–1944
+title_original: Производство зерна в СССР, 1913–1944
+author: ''
+author_original: ''
+language: ru
+epistemic_tier: A
+subject_period: 1913–1944 年苏联各区播种面积、单产与总产量统计表扫描
+source_file: G:\我的云端硬盘\资料\3-经济学-马克思主义或现代古典主义经济学\苏联粮食生产1913-1944.pdf
+source_sha256: edb4110102ace439984554c72abd5e7cc986bc248f1079ff600315d7443f9e0e
+source_format: pdf
+original_retained: true
+duplicate_copies_not_extracted:
+- G:\其他计算机\我的笔记本电脑\alist\3-经济学-马克思主义或现代古典主义经济学\苏联粮食生产1913-1944.pdf
+needs_ocr: false
+chapter_count: 8
+empty_page_ratio: 0.0052
+quality_check:
+  total_pages: 194
+  text_bearing_pages: 193
+  low_or_empty_pages: 1
+  failed_pages: []
+  low_text_pages:
+  - 1
+  ocr_engine: tesseract 5.5.3
+  ocr_lang: rus
+  ocr_psm: 6
+  tessdata_dir: C:\Users\lsaax\.t3\projects\russian-revolution-knowledge-base\.cache\cloud-grok-ocr\tessdata
+  text_layer_status: 原 PDF 无嵌入式文字层；本目录为逐页 OCR，锚点为 PDF 物理页码
+extraction_stats:
+  chapters_count: 8
+  total_lines: 6657
+  total_chars: 487984
+  chunk_strategy: chunk_pages_25
+  index_file: toc.md
+bookmarks_sample: []
+status: ocr_extracted
+quality_notes: ''

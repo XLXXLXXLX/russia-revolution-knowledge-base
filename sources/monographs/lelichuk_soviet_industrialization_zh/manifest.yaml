@@ -2,5 +2,29 @@ slug: lelichuk_soviet_industrialization_zh
 title: 苏联工业化
 language: zh
 author: V. S. Lelchuk
-needs_ocr: true
-ocr_note: "Pure image scan without embedded text layer; quarantined from close-reader and chapter FTS until OCR"
+needs_ocr: false
+source_file: G:\我的云端硬盘\资料\4-历史-苏联（苏俄）史\苏联的工业化 历史、经验、问题 (列利丘克) (Z-Library).pdf
+source_sha256: 43ad6205dd622d2bf0de2907e3e43cecd391a67cdb25f5192706b60deaf65b7d
+source_format: pdf
+original_retained: true
+chapter_count: 16
+empty_page_ratio: 0.0026
+status: ocr_extracted
+edition_check: 标题页为《苏联的工业化：历史、经验、问题》，[苏联] В.С.列利丘克著，闻一译，商务印书馆，苏联丛书。389 页与既有章壳一致。
+duplicate_copies_not_extracted:
+- G:\其他计算机\我的笔记本电脑\alist\4-历史-苏联（苏俄）史\苏联的工业化 历史、经验、问题 (列利丘克) (Z-Library).pdf
+quality_check:
+  total_pages: 389
+  text_bearing_pages: 388
+  low_or_empty_pages: 1
+  low_text_pages:
+  - 12
+  chapter_files: 16
+  anchors_cover: 1-389
+  duplicate_anchor_pages: 0
+  text_layer_status: 原 PDF 无嵌入式文字层；本目录为逐页 OCR，锚点为 PDF 物理页码
+  ocr_engine: tesseract 5.5.3
+  ocr_lang: chi_sim+eng
+  ocr_psm: 6
+  zoom: 2.0
+  tessdata_dir: C:\Users\lsaax\.t3\projects\russian-revolution-knowledge-base\.cache\cloud-grok-ocr\tessdata

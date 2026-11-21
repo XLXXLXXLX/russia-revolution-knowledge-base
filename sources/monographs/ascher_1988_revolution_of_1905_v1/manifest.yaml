@@ -8,6 +8,10 @@ category: monographs
 source_file: The Revolution of 1905 Russia in Disarray (1994) (Abraham Ascher) (z-library.sk,
   1lib.sk, z-lib.sk).pdf
 chapter_count: 9
-empty_page_ratio: 0.9614
-needs_ocr: true
-ocr_note: 'Auto-quarantined by extract_book.py: >=85% pages lack embedded text layer.'
+needs_ocr: false
+ocr_note: 'OCR completed page-by-page; failed pages: []'
+ocr_pages: 207
+ocr_failed_pages: []
+embedded_empty_page_ratio: 0.9614
+empty_page_ratio: 0.0
+status: ocr_extracted

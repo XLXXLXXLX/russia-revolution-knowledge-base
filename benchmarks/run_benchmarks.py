@@ -846,8 +846,8 @@ def eval_b3(split_filter: str) -> dict[str, Any]:
     book_mrr = statistics.mean(book_rr_list) if book_rr_list else 0.0
     exact_mrr = statistics.mean(exact_rr_list) if exact_rr_list else 0.0
     med_ms = round(statistics.median(latencies_ms), 2) if latencies_ms else -1.0
-    quarantine_rate = empty_books_quarantined / max(empty_books_total, 1)
-    qrn_canary_rate = qrn_canary_passed / max(len(qrn_items), 1)
+    quarantine_rate = empty_books_quarantined / empty_books_total if empty_books_total else 1.0
+    qrn_canary_rate = qrn_canary_passed / len(qrn_items) if qrn_items else 1.0
 
     metrics = {
         "locate_chapters_implemented": 1 if has_locate_cli else 0,

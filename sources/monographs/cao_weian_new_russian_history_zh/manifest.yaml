@@ -2,5 +2,33 @@ slug: cao_weian_new_russian_history_zh
 title: 俄国史新论：从基辅罗斯、莫斯科罗斯到彼得堡罗斯
 language: zh
 author: 曹维安
-needs_ocr: true
-ocr_note: "Pure image scan without embedded text layer; quarantined from close-reader and chapter FTS until OCR"
+needs_ocr: false
+source_file: G:\我的云端硬盘\资料\4-历史-苏联（苏俄）史\俄国史新论 从基辅罗斯、莫斯科罗斯到彼得堡罗斯 (曹维_ (Z-Library).pdf
+source_sha256: bebec7b8360e3c86b231d81122eef2be5b4ec1a897054a5f0a8107855e5efcb2
+source_format: pdf
+original_retained: true
+chapter_count: 307
+empty_page_ratio: 0.0157
+status: ocr_extracted
+edition_check: 封面为《俄国史新论：从基辅罗斯、莫斯科罗斯到彼得堡罗斯》，曹维安、郭响宏著，陕西师范大学史学丛书，科学出版社。319 页。未采用文件名检索误中的 E. H. Carr《苏维埃俄国史》各卷。
+duplicate_copies_not_extracted:
+- G:\其他计算机\我的笔记本电脑\alist\4-历史-苏联（苏俄）史\俄国史新论 从基辅罗斯、莫斯科罗斯到彼得堡罗斯 (曹维_ (Z-Library).pdf
+quality_check:
+  total_pages: 319
+  text_bearing_pages: 314
+  low_or_empty_pages: 5
+  low_text_pages:
+  - 42
+  - 104
+  - 174
+  - 176
+  - 234
+  chapter_files: 307
+  anchors_cover: 1-319
+  duplicate_anchor_pages: 0
+  text_layer_status: 原 PDF 无嵌入式文字层；本目录为逐页 OCR，锚点为 PDF 物理页码
+  ocr_engine: tesseract 5.5.3
+  ocr_lang: chi_sim+eng
+  ocr_psm: 6
+  zoom: 2.0
+  tessdata_dir: C:\Users\lsaax\.t3\projects\russian-revolution-knowledge-base\.cache\cloud-grok-ocr\tessdata

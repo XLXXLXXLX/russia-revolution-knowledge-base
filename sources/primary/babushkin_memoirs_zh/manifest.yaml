@@ -1,0 +1,43 @@
+id: SRC-babushkin-memoirs-zh
+slug: babushkin_memoirs_zh
+category: primary
+title: 巴布什金回忆录
+title_original: Воспоминания Ивана Васильевича Бабушкина
+author: 伊万·瓦西里耶维奇·巴布什金
+author_original: Иван Васильевич Бабушкин
+language: zh-Hant
+epistemic_tier: B
+subject_period: 1890 年代至 1905 年彼得堡工人运动当事人回忆（繁体中译扫描）
+source_file: G:\我的云端硬盘\资料\9-其他-tg搬运\历史\巴布什金回忆录.pdf
+source_sha256: cecf64ab79f09e418230175f91b2f0a8889de8faa5faf6f425c3ff21b3fcf7be
+source_format: pdf
+original_retained: true
+duplicate_copies_not_extracted:
+- G:\我的云端硬盘\资料\9-其他-tg搬运\历史\巴布什金回忆录 (2).pdf
+needs_ocr: false
+chapter_count: 8
+empty_page_ratio: 0.0
+quality_check:
+  total_pages: 191
+  text_bearing_pages: 191
+  low_or_empty_pages: 0
+  failed_pages: []
+  low_text_pages: []
+  ocr_engine: tesseract 5.5.3
+  ocr_lang: chi_tra+eng
+  ocr_psm: 6
+  tessdata_dir: C:\Users\lsaax\.t3\projects\russian-revolution-knowledge-base\.cache\cloud-grok-ocr\tessdata
+  text_layer_status: 原 PDF 无嵌入式文字层；本目录为逐页 OCR，锚点为 PDF 物理页码
+extraction_stats:
+  chapters_count: 8
+  total_lines: 6683
+  total_chars: 151163
+  chunk_strategy: chunk_pages_25
+  index_file: toc.md
+bookmarks_sample: []
+status: ocr_extracted
+quality_notes: >
+  原扫描每页内嵌图像约 736×1120、1-bit，远低于同批其他书。
+  已用 chi_tra 逐页 OCR，191 页均有文字且无引擎失败页，但字形错误率高
+  （如“列宁”常成“列生/列宇”，“巴布什金”常成“巴布石金”）。
+  可作检索线索，不可把 OCR 句子直接当作成品引文；核对须回看云盘原件。

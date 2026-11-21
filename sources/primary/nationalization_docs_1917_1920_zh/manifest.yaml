@@ -1,4 +1,31 @@
 id: SRC-nationalization-docs-1917-1920-zh
 directory_name: nationalization_docs_1917_1920_zh
-needs_ocr: true
-note: "原始 PDF 为 841 页纯扫描图像无嵌入式文本层（PDF-I），禁止伪造未提取的汉译原文直引，待后续 OCR 流水线补提。"
+needs_ocr: false
+note: 标题页为《苏联工业国有化：1917—1920年文件资料汇编》，生活·读书·新知三联书店，一九五八年·北京。841 页已逐页 OCR 写入既有章节。原扫描件未移动。
+source_file: C:\Users\lsaax\.t3\projects\russian-revolution-knowledge-base\inbox\苏联工业国有化：1917-1920年文件资料汇编 (苏_ (Z-Library).pdf
+source_sha256: 54293d4b3ee6345f7c99d284f7d6632382fb16b392f0501bf33493dbcfc4b682
+source_format: pdf
+original_retained: true
+chapter_count: 29
+empty_page_ratio: 0.0036
+status: ocr_extracted
+edition_check: 与章壳来源文件名、页数一致。未使用其他书。
+duplicate_copies_not_extracted:
+- G:\其他计算机\我的笔记本电脑\alist\4-历史-苏联（苏俄）史\苏联工业国有化：1917-1920年文件资料汇编 (苏_ (Z-Library).pdf
+quality_check:
+  total_pages: 841
+  text_bearing_pages: 838
+  low_or_empty_pages: 3
+  low_text_pages:
+  - 111
+  - 321
+  - 549
+  chapter_files: 29
+  anchors_cover: 1-841
+  duplicate_anchor_pages: 0
+  text_layer_status: 原 PDF 无嵌入式文字层；本目录为逐页 OCR，锚点为 PDF 物理页码
+  ocr_engine: tesseract 5.5.3
+  ocr_lang: chi_sim+eng
+  ocr_psm: 6
+  zoom: 2.0
+  tessdata_dir: C:\Users\lsaax\.t3\projects\russian-revolution-knowledge-base\.cache\cloud-grok-ocr\tessdata

@@ -4,4 +4,28 @@ author: G. D. H. Cole
 language: zh
 epistemic_tier: A
 pdf_type: PDF-I
-needs_ocr: true
+needs_ocr: false
+source_file: C:\Users\lsaax\.t3\projects\russian-revolution-knowledge-base\inbox\社会主义思想史 第三卷下 第二国际 1889-1914.pdf
+source_sha256: 7d5fb92b4f436b15eec3fcc5c3cacfcb57c1e814452c1261f81295f32c00983c
+source_format: pdf
+original_retained: true
+chapter_count: 28
+empty_page_ratio: 0.0022
+status: ocr_extracted
+edition_check: 标题页为《社会主义思想史》第三卷下册《第二国际 1889—1914年》，G. D. H. 柯尔著，何慕李译，商务印书馆 1988。455 页。未写入第三卷上册或第四卷。ch20–ch27 文件名沿用旧壳「缺页P217」，实为正文页段的重复锚点；逐页
+  OCR 仅 p.221 无字，原件未残损。
+quality_check:
+  total_pages: 455
+  text_bearing_pages: 454
+  low_or_empty_pages: 1
+  low_text_pages:
+  - 221
+  chapter_files: 28
+  anchors_cover: 1-455
+  duplicate_anchor_pages: 233
+  text_layer_status: 原 PDF 无嵌入式文字层；本目录为逐页 OCR，锚点为 PDF 物理页码
+  ocr_engine: tesseract 5.5.3
+  ocr_lang: chi_sim+eng
+  ocr_psm: 6
+  zoom: 2.0
+  tessdata_dir: C:\Users\lsaax\.t3\projects\russian-revolution-knowledge-base\.cache\cloud-grok-ocr\tessdata

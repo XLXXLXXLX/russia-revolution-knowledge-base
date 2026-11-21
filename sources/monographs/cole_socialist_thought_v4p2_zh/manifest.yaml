@@ -4,4 +4,29 @@ author: G. D. H. Cole
 language: zh
 epistemic_tier: A
 pdf_type: PDF-I
-needs_ocr: true
+needs_ocr: false
+source_file: C:\Users\lsaax\.t3\projects\russian-revolution-knowledge-base\inbox\社会主义思想史 第四卷下 共产主义与社会民主主义1914-1931.pdf
+source_sha256: f0efe0e0200a318b766bb3b0c9c914246558bd3765c9dcedaf645b67e5c477c3
+source_format: pdf
+original_retained: true
+chapter_count: 15
+empty_page_ratio: 0.0048
+status: ocr_extracted
+edition_check: '英文扉页为 A History of Socialist Thought, Volume IV, Part II: Communism and Social Democracy, 1914–1931, G. D.
+  H. Cole, Macmillan 1958；中文标题页为《社会主义思想史》第四卷下册，商务印书馆 1994，ISBN 7-100-01370-4。421 页。'
+quality_check:
+  total_pages: 421
+  text_bearing_pages: 419
+  low_or_empty_pages: 2
+  low_text_pages:
+  - 1
+  - 2
+  chapter_files: 15
+  anchors_cover: 1-421
+  duplicate_anchor_pages: 0
+  text_layer_status: 原 PDF 无嵌入式文字层；本目录为逐页 OCR，锚点为 PDF 物理页码
+  ocr_engine: tesseract 5.5.3
+  ocr_lang: chi_sim+eng
+  ocr_psm: 6
+  zoom: 2.0
+  tessdata_dir: C:\Users\lsaax\.t3\projects\russian-revolution-knowledge-base\.cache\cloud-grok-ocr\tessdata

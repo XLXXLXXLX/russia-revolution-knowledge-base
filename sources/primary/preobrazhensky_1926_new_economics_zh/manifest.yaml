@@ -1,10 +1,35 @@
-bib_id: "BIB-025b"
-slug: "preobrazhensky_1926_new_economics_zh"
-title: "新经济学：对苏维埃经济进行理论分析的尝试"
-original_title: "Новая экономика"
-author: "Yevgeni Preobrazhensky (叶·普列奥布拉任斯基)"
+bib_id: BIB-025b
+slug: preobrazhensky_1926_new_economics_zh
+title: 新经济学：对苏维埃经济进行理论分析的尝试
+original_title: Новая экономика
+author: Yevgeni Preobrazhensky (叶·普列奥布拉任斯基)
 year: 1926
-language: "zh"
-epistemic_tier: "S"
-needs_ocr: true
-quality_notes: "19 PDF chunks but only 16,320 embedded chars — scanned image PDF requiring OCR before full-text close reading"
+language: zh
+epistemic_tier: S
+needs_ocr: false
+quality_notes: 标题页为《新经济学：对苏维埃经济进行理论分析的尝试》，叶·阿·普列奥布拉任斯基著，据苏联共产主义科学院出版社 1926 年版，北京 1984 年中译本。299 页已逐页 OCR。
+source_file: C:\Users\lsaax\.t3\projects\russian-revolution-knowledge-base\inbox\新经济学 对苏维埃经济进行理论分析的尝试 .pdf
+source_sha256: ca225daeb2e94feebec7184581085c92ef8cfc5981c798625b7dc43a8e548805
+source_format: pdf
+original_retained: true
+chapter_count: 19
+empty_page_ratio: 0.0
+status: ocr_extracted
+edition_check: 俄文书名页可见 Новая экономика，作者 Преображенский，Москва 1926。与章壳 299 页一致。
+duplicate_copies_not_extracted:
+- G:\我的云端硬盘\资料\4-历史-苏联（苏俄）史\新经济学 对苏维埃经济进行理论分析的尝试 .pdf
+- G:\其他计算机\我的笔记本电脑\alist\4-历史-苏联（苏俄）史\新经济学 对苏维埃经济进行理论分析的尝试 .pdf
+quality_check:
+  total_pages: 299
+  text_bearing_pages: 299
+  low_or_empty_pages: 0
+  low_text_pages: []
+  chapter_files: 19
+  anchors_cover: 1-299
+  duplicate_anchor_pages: 0
+  text_layer_status: 原 PDF 无嵌入式文字层；本目录为逐页 OCR，锚点为 PDF 物理页码
+  ocr_engine: tesseract 5.5.3
+  ocr_lang: chi_sim+eng
+  ocr_psm: 6
+  zoom: 2.0
+  tessdata_dir: C:\Users\lsaax\.t3\projects\russian-revolution-knowledge-base\.cache\cloud-grok-ocr\tessdata

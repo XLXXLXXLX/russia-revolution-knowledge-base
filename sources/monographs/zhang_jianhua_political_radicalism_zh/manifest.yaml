@@ -1,4 +1,29 @@
 id: SRC-zhang-jianhua-political-radicalism-zh
 directory_name: zhang_jianhua_political_radicalism_zh
-needs_ocr: true
-note: "张建华等《政治激进主义与近代俄国政治》（347页）为带书签目录的纯扫描图像 PDF（PDF-I），待核心章节 OCR 补提后精读。"
+needs_ocr: false
+note: 封面为《政治激进主义与近代俄国政治》，张建华等著，外国政治民主化进程研究丛书，上海三联书店。347 页已逐页 OCR。
+source_file: C:\Users\lsaax\.t3\projects\russian-revolution-knowledge-base\inbox\政治激进主义与近代俄国政治 (张建华等著) (Z-Library).pdf
+source_sha256: 1588deee2716d8696834ce0dc333951378ff15dbce2bfba69d6db354a80cbd4c
+source_format: pdf
+original_retained: true
+chapter_count: 44
+empty_page_ratio: 0.0
+status: ocr_extracted
+edition_check: 与章壳页数、书名一致。
+duplicate_copies_not_extracted:
+- G:\我的云端硬盘\资料\4-历史-苏联（苏俄）史\政治激进主义与近代俄国政治 (张建华等著) (Z-Library).pdf
+- G:\其他计算机\我的笔记本电脑\alist\4-历史-苏联（苏俄）史\政治激进主义与近代俄国政治 (张建华等著) (Z-Library).pdf
+quality_check:
+  total_pages: 347
+  text_bearing_pages: 347
+  low_or_empty_pages: 0
+  low_text_pages: []
+  chapter_files: 44
+  anchors_cover: 1-347
+  duplicate_anchor_pages: 6
+  text_layer_status: 原 PDF 无嵌入式文字层；本目录为逐页 OCR，锚点为 PDF 物理页码
+  ocr_engine: tesseract 5.5.3
+  ocr_lang: chi_sim+eng
+  ocr_psm: 6
+  zoom: 2.0
+  tessdata_dir: C:\Users\lsaax\.t3\projects\russian-revolution-knowledge-base\.cache\cloud-grok-ocr\tessdata

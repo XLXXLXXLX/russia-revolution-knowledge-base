@@ -1,7 +1,7 @@
 # 俄国革命知识库（1860s–1929）馆藏文献总目 (`sources/LITERATURE_CATALOG.md`)
 
-- **馆藏拆解目录总数**: `182` 部（`sources/primary/` 一手档案原典 `15` 部 + `sources/monographs/` 学术专著/回忆录 `167` 部）
-- **嵌入式文本状态**: `✅ 可读全文 166 部` | `⚠️ 纯扫描/残卷自动隔离 (needs_ocr: true) 16 部`
+- **馆藏拆解目录总数**: `187` 部（`sources/primary/` 一手档案原典 `17` 部 + `sources/monographs/` 学术专著/回忆录 `170` 部）
+- **全文状态**: `✅ 可读全文 187 部` | `⚠️ 纯扫描/残卷隔离 (needs_ocr: true) 0 部`
 - **支持格式**: `PDF`（PyMuPDF 页码锚点）、`EPUB`（自动合并逐页 XML 切片）、`DOCX`、`DjVu`（原生纯 Python `ZPCodec + BZZ` 提取 `TXTz` 俄文文本层）
 - **检索协议**: 主控官通过 `python scripts/kb.py locate-chapters "<关键词>"` 毫秒级定位章节（自动隔离 `needs_ocr: true` 目录），再交 `close-reader` 整章顺读。
 
@@ -16,14 +16,16 @@
 | 5 | `kakurin_1928_red_army_civil_war` | `S` | `en` | The Russian Civil War, 1918_ (Z-Library).pdf | - | 32 | 1878.0 | ✅ 可读全文 |
 | 6 | `kollontai_1921_workers_opposition` | `S` | `en` | The Workers' Opposition | Alexandra Kollontai | 2 | 115.5 | ✅ 可读全文 |
 | 7 | `martov_zinoviev_1920_halle` | `S` | `en` | Martov and Zinoviev _ head to head in Halle -- Martov, L_;Zinovyev, Grigory Yevseyevich;Lewis, Ben;Lih, -- 1st ed, London, 2011 -- November -- 9781447809111 -- ccae95a16ee8482b139566b9aa8c77d0 -- Anna’s Archive.pdf | - | 10 | 655.1 | ✅ 可读全文 |
-| 8 | `nationalization_docs_1917_1920_zh` | `S` | `en` | nationalization_docs_1917_1920_zh | - | 29 | 88.4 | ⚠️ 待OCR/补档 (`needs_ocr`) |
-| 9 | `preobrazhensky_1926_new_economics_zh` | `S` | `zh` | 新经济学：对苏维埃经济进行理论分析的尝试 | Yevgeni Preobrazhensky (叶·普列奥布拉任斯基) | 19 | 33.8 | ⚠️ 待OCR/补档 (`needs_ocr`) |
+| 8 | `nationalization_docs_1917_1920_zh` | `S` | `en` | nationalization_docs_1917_1920_zh | - | 29 | 1215.7 | ✅ OCR 全文 |
+| 9 | `preobrazhensky_1926_new_economics_zh` | `S` | `zh` | 新经济学：对苏维埃经济进行理论分析的尝试 | Yevgeni Preobrazhensky (叶·普列奥布拉任斯基) | 19 | 626.1 | ✅ OCR 全文 |
 | 10 | `short_course_1938_zh` | `S` | `zh` | 联共（布）党史简明教程（文字层补齐版） | 联共（布）中央特设委员会 | 30 | 1007.5 | ✅ 可读全文 |
 | 11 | `socialism_in_one_country_debate_docs_zh` | `S` | `zh` | 革命何以关于一国建成社会主义的讨论 (Zerklora、红锲社、Levski、青山霁、Nekoist 等 编者 郑阑干) (z-library.sk, 1lib.sk, z-lib.sk).pdf | - | 18 | 386.4 | ✅ 可读全文 |
 | 12 | `stalin_major_documents_zh` | `S` | `zh` | 斯大林1878-1953(主要文献) (一个普通的人) (z-library.sk, 1lib.sk, z-lib.sk).pdf | - | 16 | 475.3 | ✅ 可读全文 |
 | 13 | `stalin_works_v1_1901_1907_zh` | `S` | `zh` | 斯大林全集 第一卷（1901—1907） | 约·维·斯大林 | 41 | 1443.8 | ✅ 可读全文 |
 | 14 | `tragedy_soviet_village_v2_1929_zh` | `S` | `zh` | 苏联农村的悲剧 集体化与消灭富农 文献和材料 第2卷 1929年11月 — 1930年12月 Трагедия_советской_деревни_Том_2 (一个普通的人) (z-library.sk, 1lib.sk, z-lib.sk).pdf | - | 54 | 2513.7 | ✅ 可读全文 |
 | 15 | `trotsky_1905_zh` | `B` | `zh` | 1905 | 列夫·达维多维奇·托洛茨基 | 22 | 892.9 | ✅ 可读全文 |
+| 16 | `babushkin_memoirs_zh` | `B` | `zh-Hant` | 巴布什金回忆录 | 伊万·瓦西里耶维奇·巴布什金 | 8 | 260.8 | ✅ OCR 全文 |
+| 17 | `bukharin_historical_materialism_zh` | `S` | `zh` | 历史唯物主义理论 | 尼古拉·伊万诺维奇·布哈林 | 16 | 767.5 | ✅ OCR 全文 |
 
 ## 二、学术专著与重要亲历者文献 (`sources/monographs/`)
 
@@ -31,7 +33,7 @@
 | ---: | :--- | :---: | :---: | :--- | :--- | ---: | ---: | :--- |
 | 1 | `allen_2003_farm_to_factory` | `A` | `en` | Farm to Factory: A Reinterpretation of the Soviet Industrial Revolution | Robert C. Allen | 13 | 753.0 | ✅ 可读全文 |
 | 2 | `apalkov_intra_party_struggle_zh` | `A` | `zh` | 联共（布）党内斗争：从“集体领导”到斯大林个人统治 | Dmitrii I. Apalkov (德·伊·阿帕利科夫) | 12 | 355.3 | ✅ 可读全文 |
-| 3 | `ascher_1988_revolution_of_1905_v1` | `A` | `en` | The Revolution of 1905: Russia in Disarray (Vol. 1) | Abraham Ascher | 9 | 64.4 | ⚠️ 待OCR/补档 (`needs_ocr`) |
+| 3 | `ascher_1988_revolution_of_1905_v1` | `A` | `en` | The Revolution of 1905: Russia in Disarray (Vol. 1) | Abraham Ascher | 9 | 1141.5 | ✅ OCR 全文 |
 | 4 | `ascher_2001_stolypin` | `A` | `en` | P. A. Stolypin: The Search for Stability in Late Imperial Russia | Abraham Ascher | 26 | 1304.2 | ✅ 可读全文 |
 | 5 | `avrich_1970_kronstadt` | `A` | `en` | Kronstadt, 1921 | Paul Avrich | 12 | 545.0 | ✅ 可读全文 |
 | 6 | `ball_1987_nepmen_zh` | `A` | `zh` | 俄国最后的资本家：新经济政策时期的新商人（1921-1929） | Alan M. Ball | 20 | 620.6 | ✅ 可读全文 |
@@ -39,10 +41,10 @@
 | 8 | `blanc_2021_rev_sd` | `A` | `en` | 革命社会民主党：俄罗斯帝国全境的工人阶级政治（1882–1917） | 埃里克·布兰克 | 20 | 1243.5 | ✅ 可读全文 |
 | 9 | `boll_1979_red_guards` | `A` | `en` | The Petrograd armed workers movement in the February Revolution (February-July, 1917)  a study in the radicalization of the… (Boll, Michael M., 1938-) (z-library.sk, 1lib.sk, z-lib.sk).pdf | - | 8 | 517.6 | ✅ 可读全文 |
 | 10 | `bonnell_1983_roots_of_rebellion_zh` | `A` | `zh` | 俄国工人运动和组织的根源 (Roots of Rebellion, 1900-1914) | Victoria E. Bonnell | 20 | 1094.0 | ✅ 可读全文 |
-| 11 | `bonnell_1983_roots_rebellion` | `A` | `en` | 反叛的根源：圣彼得堡与莫斯科的工人政治与组织（1900–1914） | 维多利亚·E·邦内尔 | 32 | 66.9 | ⚠️ 待OCR/补档 (`needs_ocr`) |
+| 11 | `bonnell_1983_roots_rebellion` | `A` | `en` | 反叛的根源：圣彼得堡与莫斯科的工人政治与组织（1900–1914） | 维多利亚·E·邦内尔 | 27 | 1382.4 | ✅ 可读全文 |
 | 12 | `bukharin_preobrazhensky_debate_zh` | `A` | `zh` | 平衡与非平衡：布哈林与普列奥布拉仁斯基之争 | 中文研究论文 | 1 | 37.1 | ✅ 可读全文 |
 | 13 | `burds_1998_peasant_dreams` | `A` | `en` | Peasant Dreams and Market Politics: Labor Migration and the Russian Village, 1861–1905 | Jeffrey Burds | 13 | 834.0 | ✅ 可读全文 |
-| 14 | `cao_weian_new_russian_history_zh` | `A` | `zh` | 俄国史新论：从基辅罗斯、莫斯科罗斯到彼得堡罗斯 | 曹维安 | 307 | 83.7 | ⚠️ 待OCR/补档 (`needs_ocr`) |
+| 14 | `cao_weian_new_russian_history_zh` | `A` | `zh` | 俄国史新论：从基辅罗斯、莫斯科罗斯到彼得堡罗斯 | 曹维安 | 307 | 876.6 | ✅ OCR 全文 |
 | 15 | `carr_1950_bolshevik_rev_v1_en` | `A` | `en` | The Bolshevik Revolution, 1917-1923, Vol. 1.pdf | - | 18 | 1113.4 | ✅ 可读全文 |
 | 16 | `carr_1952_bolshevik_rev_v2_en` | `A` | `en` | The Bolshevik Revolution, 1917–1923, Vol. 2 (The Economic Order) | Edward Hallett Carr | 17 | 1028.7 | ✅ 可读全文 |
 | 17 | `carr_1953_bolshevik_rev_v3_en` | `A` | `en` | The Bolshevik Revolution, 1917–1923, Vol. 3 (Soviet Russia and the World) | Edward Hallett Carr | 26 | 1611.8 | ✅ 可读全文 |
@@ -56,14 +58,14 @@
 | 25 | `central_asia_nomads_zh` | `A` | `zh` | 游牧民族与苏联统治：列宁和斯大林统治下的中亚.pdf | - | 22 | 679.8 | ✅ 可读全文 |
 | 26 | `class_formation_comparative_2008` | `A` | `en` | Class Formation, Civil Society and the State: A Comparative Analysis of Russia, France, the US and England | 未核定（详见书名页） | 25 | 1459.5 | ✅ 可读全文 |
 | 27 | `cohen_1973_bukharin` | `A` | `en` | 布哈林与布尔什维克革命：政治传记（1888–1938） | 斯蒂芬·F·科恩 | 22 | 1464.6 | ✅ 可读全文 |
-| 28 | `cole_socialist_thought_v3p1_zh` | `B` | `zh` | 社会主义思想史 第三卷上：第二国际 1889–1914 | G. D. H. Cole | 22 | 56.6 | ⚠️ 待OCR/补档 (`needs_ocr`) |
-| 29 | `cole_socialist_thought_v3p2_zh` | `A` | `zh` | 社会主义思想史 第三卷下 第二国际 1889-1914 | G. D. H. Cole | 28 | 72.6 | ⚠️ 待OCR/补档 (`needs_ocr`) |
-| 30 | `cole_socialist_thought_v4p1_zh` | `A` | `zh` | 社会主义思想史 第四卷上 共产主义与社会民主主义 1914-1931 | G. D. H. Cole | 36 | 92.6 | ⚠️ 待OCR/补档 (`needs_ocr`) |
-| 31 | `cole_socialist_thought_v4p2_zh` | `A` | `zh` | 社会主义思想史 第四卷下 共产主义与社会民主主义 1914-1931 | G. D. H. Cole | 15 | 44.3 | ⚠️ 待OCR/补档 (`needs_ocr`) |
+| 28 | `cole_socialist_thought_v3p1_zh` | `B` | `zh` | 社会主义思想史 第三卷上：第二国际 1889–1914 | G. D. H. Cole | 22 | 1142.9 | ✅ OCR 全文 |
+| 29 | `cole_socialist_thought_v3p2_zh` | `A` | `zh` | 社会主义思想史 第三卷下 第二国际 1889-1914 | G. D. H. Cole | 28 | 1370.3 | ✅ OCR 全文 |
+| 30 | `cole_socialist_thought_v4p1_zh` | `A` | `zh` | 社会主义思想史 第四卷上 共产主义与社会民主主义 1914-1931 | G. D. H. Cole | 36 | 1809.2 | ✅ OCR 全文 |
+| 31 | `cole_socialist_thought_v4p2_zh` | `A` | `zh` | 社会主义思想史 第四卷下 共产主义与社会民主主义 1914-1931 | G. D. H. Cole | 15 | 888.1 | ✅ OCR 全文 |
 | 32 | `cooper_perrie_1995_davies_festschrift_zh` | `A` | `zh` | 苏联历史 1917-53纪念 R.W. 戴维斯的论文集 Soviet History 1917-53 Essays in Honour of R. W. Davies (一个普通的人) (z-library.sk, 1lib.sk, z-lib.sk).pdf | - | 16 | 660.7 | ✅ 可读全文 |
-| 33 | `corney_2004_telling_october` | `A` | `en` | Telling October: Memory and the Making of the Bolshevik Revolution | Frederick C. Corney | 0 | 0.0 | ⚠️ 待OCR/补档 (`needs_ocr`) |
+| 33 | `corney_2004_telling_october` | `A` | `en` | Telling October: Memory and the Making of the Bolshevik Revolution | Frederick C. Corney | 17 | 854.6 | ✅ 可读全文 |
 | 34 | `daniels_1960_conscience` | `A` | `en` | The Conscience of the Revolution: Communist Opposition in Soviet Russia | Robert Vincent Daniels | 23 | 1603.2 | ✅ 可读全文 |
-| 35 | `david_fox_1997_revolution_of_the_mind` | `A` | `en` | Revolution of the Mind: Higher Learning among the Bolsheviks, 1918–1929 | Michael David-Fox | 0 | 0.0 | ⚠️ 待OCR/补档 (`needs_ocr`) |
+| 35 | `david_fox_1997_revolution_of_the_mind` | `A` | `en` | Revolution of the Mind: Higher Learning among the Bolsheviks, 1918–1929 | Michael David-Fox | 12 | 859.8 | ✅ 可读全文 |
 | 36 | `davies_1980_collective_farm_zh` | `A` | `zh` | 苏维埃俄国的工业化 2 苏联集体农庄,1929-1930The Industrialisation of Soviet Russia 2 THE SOVIET COLLECTIVE FARM, 1929-1930 (一个普通的人) (z-library.sk, 1lib.sk, z-lib.sk).pdf | - | 17 | 428.3 | ✅ 可读全文 |
 | 37 | `davies_industrialisation_en` | `A` | `en` | The Industrialisation of Soviet Russia.epub | - | 508 | 1237.8 | ✅ 可读全文 |
 | 38 | `deutscher_prophet_trilogy_zh` | `B` | `zh` | 先知三部曲：武装的先知；被解除武装的先知；流亡的先知 | 伊萨克·多伊彻 | 41 | 3523.3 | ✅ 可读全文 |
@@ -104,7 +106,7 @@
 | 73 | `kotkin_2017_stalin_v2` | `A` | `en` | Stalin: Waiting for Hitler, 1929–1941 (Vol. 2) | Stephen Kotkin | 72 | 4776.2 | ✅ 可读全文 |
 | 74 | `lebsky_working_class_paternalism_zh` | `A` | `zh` | 苏联的工人阶级：工业家长制下的生活（中译本） (Максим Лебский) (z-library.sk, 1lib.sk, z-lib.sk).pdf | - | 14 | 320.8 | ✅ 可读全文 |
 | 75 | `leggett_1981_cheka` | `A` | `en` | 契卡：列宁的政治警察——全俄肃清反革命及怠工非常委员会（1917年12月至1922年2月） | 乔治·莱格特 | 19 | 1494.8 | ✅ 可读全文 |
-| 76 | `lelichuk_soviet_industrialization_zh` | `A` | `zh` | 苏联工业化 | V. S. Lelchuk | 16 | 41.2 | ⚠️ 待OCR/补档 (`needs_ocr`) |
+| 76 | `lelichuk_soviet_industrialization_zh` | `A` | `zh` | 苏联工业化 | V. S. Lelchuk | 16 | 722.6 | ✅ OCR 全文 |
 | 77 | `lenin_how_became_leader_zh` | `A` | `zh` | 弗拉基米尔·列宁：如何成为领袖（中译本）.pdf | - | 28 | 1035.2 | ✅ 可读全文 |
 | 78 | `levy_1987_socialism_intelligentsia` | `A` | `en` | Socialism-and-the-intelligentsia-1880-1914-Carl-Levy.pdf | - | 20 | 756.1 | ✅ 可读全文 |
 | 79 | `lewin_1968_lenins_last_struggle` | `A` | `en` | Lenin's Last Struggle | Moshe Lewin | 22 | 335.8 | ✅ 可读全文 |
@@ -127,7 +129,7 @@
 | 96 | `mozokhin_extrajudicial_powers_zh` | `A` | `zh` | 苏联国家安全机关 镇压的权利 1918年至1953年 Право на репрессии Внесудебные полномочия органов государственной безопа... (z-library.sk, 1lib.sk, z-lib.sk).pdf | - | 19 | 448.1 | ✅ 可读全文 |
 | 97 | `nineteenth_c_russian_intelligentsia` | `A` | `en` | The_nineteenth_century_Russian_intellige.pdf | - | 1 | 31.6 | ✅ 可读全文 |
 | 98 | `nove_1964_was_stalin_necessary` | `A` | `en` | Was Stalin Really Necessary? Some Problems of Soviet Economic Policy | Alec Nove | 21 | 731.1 | ✅ 可读全文 |
-| 99 | `october_socialist_rev_zh` | `A` | `zh` | 十月社会主义革命 | - | 7 | 17.7 | ⚠️ 待OCR/补档 (`needs_ocr`) |
+| 99 | `october_socialist_rev_zh` | `A` | `zh` | 十月社会主义革命 | - | 7 | 272.8 | ✅ 可读全文 |
 | 100 | `other_side_of_nep_1923_1925_zh` | `A` | `zh` | 新经济政策的另一面1923-1925年苏联的经济与政治斗争 (一个普通的人) (z-library.sk, 1lib.sk, z-lib.sk).pdf | - | 14 | 907.8 | ✅ 可读全文 |
 | 101 | `pinnow_2010_lost_to_the_collective_zh` | `A` | `zh` | 集体的失落：自杀与苏联社会主义的承诺（1921—1929） | Kenneth M. Pinnow | 12 | 737.3 | ✅ 可读全文 |
 | 102 | `pipes_1990_russian_rev` | `A` | `en` | The Russian Revolution | Richard Pipes | 37 | 2697.8 | ✅ 可读全文 |
@@ -135,7 +137,7 @@
 | 104 | `plekhanov_dzerzhinsky_zh` | `A` | `zh` | 捷尔任斯基从天文学家到钢铁费利克斯 Дзержинский. От «Астронома» до «Железного Феликса» (一个普通的人) (z-library.sk, 1lib.sk, z-lib.sk).pdf | - | 19 | 1107.9 | ✅ 可读全文 |
 | 105 | `priestland_2007_stalinism_mobilization_zh` | `A` | `zh` | 斯大林主义与动员政治战间俄国的思想、权力与恐怖 (大卫·普里斯特兰) (Z-Library).pdf | - | 26 | 1121.6 | ✅ 可读全文 |
 | 106 | `przeworski_class_formation_zh` | `A` | `zh` | 无产阶级的阶级形成历程：从《资本论》第一卷“原始积累”到最近的一些争议 | Adam Przeworski | 3 | 177.0 | ✅ 可读全文 |
-| 107 | `psr_study_1901_1925_zh` | `A` | `en` | psr_study_1901_1925_zh | - | 438 | 95.6 | ⚠️ 待OCR/补档 (`needs_ocr`) |
+| 107 | `psr_study_1901_1925_zh` | `A` | `en` | psr_study_1901_1925_zh | - | 438 | 1243.8 | ✅ OCR 全文 |
 | 108 | `rabinowitch_1968_prelude_zh` | `A` | `zh` | 革命的前奏：彼得格勒布尔什维克与1917年七月起义 | Alexander Rabinowitch (亚历山大·拉宾诺维奇) | 13 | 563.6 | ✅ 可读全文 |
 | 109 | `rabinowitch_1976_come_to_power_zh` | `A` | `zh` | 布尔什维克掌权：1917年彼得格勒革命 | Alexander Rabinowitch (亚历山大·拉宾诺维奇) | 20 | 959.9 | ✅ 可读全文 |
 | 110 | `rabinowitch_2007_bolsheviks_in_power_zh` | `A` | `ru` | 布尔什维克当权：彼得格勒苏维埃时代的第一年 | 亚历山大·拉比诺维奇 | 21 | 1151.2 | ✅ 可读全文 |
@@ -193,6 +195,9 @@
 | 162 | `zelnik_1999_workers_intelligentsia` | `A` | `en` | workers-the-intelligentsia-and-marxist-parties-st-petersburg-1895-1917-and-shanghai-1921-1927.pdf | - | 3 | 171.3 | ✅ 可读全文 |
 | 163 | `zelnik_1999_workers_intelligentsia_marxist_parties` | `A` | `en` | Workers, the Intelligentsia and Marxist Parties: St Petersburg, 1895–1917 and Shanghai, 1921–1927 | Steve A. Smith | 3 | 180.0 | ✅ 可读全文 |
 | 164 | `zemskov_stalin_era_zh` | `A` | `zh` | 《斯大林时代：经济，镇压，工业化》 ([俄]泽姆斯科夫) (Z-Library).pdf | - | 10 | 697.8 | ✅ 可读全文 |
-| 165 | `zhang_jianhua_political_radicalism_zh` | `A` | `en` | zhang_jianhua_political_radicalism_zh | - | 44 | 43.6 | ⚠️ 待OCR/补档 (`needs_ocr`) |
-| 166 | `zheng_yifan_nep_russia_zh` | `A` | `zh` | 苏联史 第三卷 新经济政策的俄国 | 郑异凡 | 75 | 88.2 | ⚠️ 待OCR/补档 (`needs_ocr`) |
+| 165 | `zhang_jianhua_political_radicalism_zh` | `A` | `en` | zhang_jianhua_political_radicalism_zh | - | 44 | 809.6 | ✅ OCR 全文 |
+| 166 | `zheng_yifan_nep_russia_zh` | `A` | `zh` | 苏联史 第三卷 新经济政策的俄国 | 郑异凡 | 75 | 1715.9 | ✅ OCR 全文 |
 | 167 | `zhukov_zinoviev_zh` | `A` | `zh` | 格里高利·季诺维也夫被遗忘的世界革命领袖-Григорий Зиновьев. Отвергнутый вождь мировой революции (尤里·茹科夫,Юрий Ник... (z-library.sk, 1lib.sk, z-lib.sk).epub | - | 35 | 1472.8 | ✅ 可读全文 |
+| 168 | `bonnell_1997_iconography_of_power` | `A` | `en` | Iconography of Power: Soviet Political Posters under Lenin and Stalin | Victoria E. Bonnell | 8 | 706.0 | ✅ OCR 全文 |
+| 169 | `skocpol_1979_states_and_social_revolutions_zh` | `A` | `zh` | 国家与社会革命：对法国、俄国和中国的比较分析 | 西达·斯考切波 | 17 | 1055.7 | ✅ OCR 全文 |
+| 170 | `soviet_grain_production_1913_1944` | `A` | `ru` | 苏联粮食生产 1913–1944 | - | 8 | 588.6 | ✅ OCR 全文 |
