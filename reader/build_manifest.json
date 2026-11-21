@@ -1,0 +1,47 @@
+{
+  "chapters": {
+    "ch09": {
+      "file": "reader/ch09_war_communism_and_kronstadt_turn.md",
+      "stamped_at": "2026-11-21T17:07:07Z",
+      "zh_total": 9299,
+      "endnote_count": 6,
+      "score": 100.0,
+      "dependency_hashes": {
+        "cards/policies/POL-war-communism.md": "0ad6ff49ce14aab1",
+        "cards/concepts/CON-workers-control.md": "cc2c45873b9aea91",
+        "cards/institutions/INS-vsnkh-and-gosplan.md": "abdaf8f2bfdcfe34",
+        "cards/events/EVT-1920-1921-tambov-and-peasant-revolts.md": "3c5819f0fd331814",
+        "cards/events/EVT-1921-kronstadt.md": "50e0659718111f3d",
+        "cards/meetings/MTG-1921-rcpb-10th-congress.md": "166f5252fbf69e00",
+        "cards/policies/POL-ban-on-factions-1921.md": "9dfc18144ad82137",
+        "historiography/debates/DEB-1918-war-communism-ideology-or-emergency.md": "4157f6139eb79f5d",
+        "historiography/debates/DEB-1921-kronstadt-and-nep-origins.md": "80b0941786cde5e5",
+        "historiography/debates/DEB-1921-trade-union-controversy-and-party-unity.md": "92cfd50ee5132ba6",
+        "timeline/L3_daily/1921-03_kronstadt_and_10th_congress.md": "fbda484005d9b216",
+        "reading-notes/kronstadt_and_early_party_state/RN-W61-getzler-holquist-duval-oppenheim-rigby.md": "29207b0fd12e4c9e",
+        "data/DATA-04-party-membership-and-congress-votes-1903-1929.md": "9283626199725928"
+      }
+    },
+    "ch13": {
+      "file": "reader/ch13_grain_crisis_and_right_opposition_defeat.md",
+      "stamped_at": "2026-11-21T17:07:07Z",
+      "zh_total": 8473,
+      "endnote_count": 6,
+      "score": 100.0,
+      "dependency_hashes": {
+        "cards/events/EVT-1928-grain-procurement-crisis.md": "c47e4a07726e6035",
+        "cards/events/EVT-1928-shakhty-affair-show-trial.md": "72556079cffacc72",
+        "cards/meetings/MTG-1928-07-cc-plenum.md": "25b7adf1deaafe52",
+        "cards/people/PER-bukharin.md": "1dda14cbd9e55748",
+        "cards/people/PER-uglanov.md": "d0506482214ddfae",
+        "cards/meetings/MTG-1928-11-cc-plenum.md": "c681695f8b0fe724",
+        "cards/meetings/MTG-1929-04-cc-joint-plenum.md": "3ef6af0f032937c2",
+        "historiography/debates/DEB-1928-bukharin-alternative.md": "052209afc893cd60",
+        "timeline/L3_daily/1928-01_siberian_grain_expedition_and_shakhty_affair.md": "e3ba923b63cf7876",
+        "timeline/L3_daily/1928-1929_bukharin_stalin_final_showdown.md": "54742cc3b512a610",
+        "reading-notes/kak_lomali_nep_1928_1929_plenums/RN-W61-july1928-april1929-nov1929-stenograms.md": "a4059b80296493f0",
+        "data/DATA-03-1926-1929-grain-procurement-and-nemchinov-table.md": "9e386153233e71ae"
+      }
+    }
+  }
+}

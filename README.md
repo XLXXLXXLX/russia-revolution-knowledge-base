@@ -21,6 +21,7 @@
 
 | 模块 | 路径 | 说明 |
 | :--- | :--- | :--- |
+| **独立顺读专题专著层（不提问直接通读）** | [`reader/`](./reader/README.md) / [`reader/SPEC.md`](./reader/SPEC.md) | 四编十五章《俄国革命与早期苏维埃体制（1861–1929）》高可读学术读本（手动无状态编译、正文与考证尾注分流） |
 | **通用框架子模块与项目配置** | [`framework/`](./framework/README.md) / [`kb_config.yaml`](./kb_config.yaml) | 可复用于一般历史学与社会学研究的通用知识库引擎、方法论文档与一键脚手架 |
 | **双模态交互总则与编排规范** | [`AGENTS.md`](./AGENTS.md) / [`.opencode/agents/`](./.opencode/agents/) | 对外讲史文风规范、6 大专职 Subagent 角色权限边界与五大史学铁律 |
 | **跨 Provider 模型路由表** | [`docs/MODEL_ROUTING.md`](./docs/MODEL_ROUTING.md) / [`config/agent_models.json`](./config/agent_models.json) | Antigravity / Codex / Grok / OpenCode 分层调度矩阵 |

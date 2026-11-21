@@ -1,0 +1,654 @@
+book_title: "帝国裂解与革命锻造：俄国革命与早期苏维埃体制（1861–1929）"
+version: "1.0-draft"
+target_total_zh_chars: 140000
+style_targets:
+  min_zh_chars: 7500
+  max_zh_chars: 12500
+  max_bullet_line_ratio: 0.08
+  min_mean_para_chars: 170
+  max_mean_para_chars: 430
+  min_endnotes: 3
+  max_endnotes: 10
+  max_endnote_char_share: 0.14
+
+parts:
+  - id: "P1"
+    title: "第一编｜旧制度的困局与地下火种（1861–1907）"
+    chapters: ["ch01", "ch02", "ch03"]
+  - id: "P2"
+    title: "第二编｜战前极化与总体战崩解（1907–1917.02）"
+    chapters: ["ch04", "ch05"]
+  - id: "P3"
+    title: "第三编｜1917 革命旋涡与内战熔炉（1917.03–1921.03）"
+    chapters: ["ch06", "ch07", "ch08", "ch09"]
+  - id: "P4"
+    title: "第四编｜新经济政策的张力、继任博弈与“大转变”（1921–1929）"
+    chapters: ["ch10", "ch11", "ch12", "ch13", "ch14", "ch15"]
+
+chapters:
+  - id: "ch01"
+    part: "P1"
+    number: "第一章"
+    title: "农奴解放的裂痕、村社秩序与民粹派的两难（1861–1881）"
+    file: "reader/ch01_emancipation_commune_and_populism.md"
+    era: "1861–1881"
+    target_zh_chars: 9000
+    pack_cards:
+      - "EVT-1861-02-emancipation-of-the-serfs"
+      - "CON-peasant-commune-obshchina"
+      - "CON-narodnichestvo"
+      - "EVT-1874-going-to-the-people"
+      - "ORG-zemlya-i-volya"
+      - "ORG-narodnaya-volya"
+      - "EVT-1881-03-assassination-of-alexander-ii"
+    reference_files:
+      - "timeline/L2_chronicles/E01_1861-1881_narodniks.md"
+      - "timeline/L3_daily/1878-01_zasulich_trial_and_zemlya_volya_split.md"
+      - "timeline/L3_daily/1881-03_march_first_assassination.md"
+      - "historiography/debates/DEB-1879-narodnaya-volya-to-bolshevism.md"
+      - "reading-notes/late_imperial_fiscal_and_haimson/RN-W61-kotsonis-hoch-plaggenborg-burbank-haimson.md"
+    section_plan:
+      - heading: "一、1861 年大改革的制度设计与赎买账本"
+        weight: "25%"
+        focus: "农奴解放法令的土地切夺与村社连环保，兼顾传统剥削论与霍赫（Steven Hoch）对赎买定价机制的统计重估。"
+      - heading: "二、村社内部道德经济与乡级习惯法世界"
+        weight: "20%"
+        focus: "重分制村社的运作逻辑，以及乡级法院（volost court）中农民如何主动利用成文程序与习惯法处理财产权纠纷。"
+      - heading: "三、“到民间去”的幻灭与革命地下组织的硬化"
+        weight: "30%"
+        focus: "从赫尔岑、车尔尼雪夫斯基、拉夫罗夫、巴枯宁到 1874 年夏青年下乡受挫，查苏利奇案与土地与自由社的分化。"
+      - heading: "四、1881 年 3 月 1 日的炸弹与“雅各宾民粹主义”遗产之争"
+        weight: "25%"
+        focus: "民意党执行委员会与亚历山大二世遇刺，文图里、派普斯等围绕地下集权密谋与日后布尔什维克关系的史学争鸣。"
+    must_contain_any:
+      - ["1861", "赎买"]
+      - ["村社", "公社"]
+      - ["到民间去", "1874"]
+      - ["民意党", "亚历山大二世"]
+    forbid_patterns: []
+
+  - id: "ch02"
+    part: "P1"
+    number: "第二章"
+    title: "国家工业化、财政枷锁与革命政党的分野（1881–1904）"
+    file: "reader/ch02_industrialization_fiscal_state_and_party_split.md"
+    era: "1881–1904"
+    target_zh_chars: 9000
+    pack_cards:
+      - "POL-1889-land-captains-and-vyshnegradsky-fiscal-regime"
+      - "EVT-1891-1903-witte-industrialization-and-marxist-labor-turn"
+      - "PER-witte"
+      - "ORG-osvobozhdenie-truda"
+      - "ORG-psr"
+      - "MTG-1903-rsdlp-2nd-congress"
+      - "DEB-1903-bolshevik-menshevik-split"
+    reference_files:
+      - "timeline/L2_chronicles/E02_1881-1904_marxism_and_parties.md"
+      - "timeline/L3_daily/1903-07_rsdlp_second_congress_split.md"
+      - "cards/people/PER-lenin.md"
+      - "cards/people/PER-martov-l.md"
+      - "cards/people/PER-plekhanov.md"
+    section_plan:
+      - heading: "一、亚历山大三世反改革、土地行政官与帝国间接税转型"
+        weight: "25%"
+        focus: "1889 年土地行政官制度，维什涅格拉茨基与维特的黄金本位、铁路工业化，以及普拉根博格与科措尼斯揭示的间接消费税与酒专卖财政结构。"
+      - heading: "二、半农半工的新兴产业工人与马克思主义对民粹派的论战"
+        weight: "25%"
+        focus: "彼得堡与中央工业区的车间生态，普列汉诺夫劳动解放社、列宁《俄国资本主义的发展》同合法民粹派的理论交锋，以及社会革命党与自由派的成形。"
+      - heading: "三、《怎么办？》的真实语境与地下政党构想"
+        weight: "20%"
+        focus: "列宁 1902 年《怎么办？》在反经济派论战中的位置，对照海姆森“自觉性与自发性”经典解释与利赫（Lars Lih）“艾尔福特主义”重审。"
+      - heading: "四、1903 年盛夏从布鲁塞尔到伦敦：布尔什维克与孟什维克之裂"
+        weight: "30%"
+        focus: "党章第一条马尔托夫 28 比 22 胜出，崩得与经济派退场后的票数反转，以及《火星报》编委会裁减引发的政治与心理决裂。"
+    must_contain_any:
+      - ["维特", "金本位", "酒类专卖"]
+      - ["怎么办", "火星报"]
+      - ["28", "22", "马尔托夫"]
+      - ["崩得", "编委会"]
+    forbid_patterns:
+      - "列宁在党章第一条表决中获胜"
+
+  - id: "ch03"
+    part: "P1"
+    number: "第三章"
+    title: "1905 风暴：苏维埃的诞生与未竟的立宪试验（1905–1907）"
+    file: "reader/ch03_1905_revolution_soviet_and_constitutional_experiment.md"
+    era: "1905–1907"
+    target_zh_chars: 9000
+    pack_cards:
+      - "EVT-1905-01-bloody-sunday"
+      - "EVT-1905-revolution"
+      - "POL-october-manifesto-and-1906-fundamental-laws"
+      - "EVT-1905-12-moscow-armed-uprising"
+      - "CON-permanent-revolution"
+      - "INS-state-duma-1906-1917"
+      - "ORG-kadets"
+    reference_files:
+      - "timeline/L2_chronicles/E03_1905-1907_first_revolution.md"
+      - "timeline/L3_daily/1905-01_bloody_sunday_and_october_soviet.md"
+      - "timeline/L3_daily/1905-12_petersburg_arrest_and_moscow_uprising.md"
+      - "data/DATA-01-1905-1917-strikes-and-petrograd-elections.md"
+    section_plan:
+      - heading: "一、日俄战败与“血腥星期日”击碎沙皇慈父神话"
+        weight: "25%"
+        focus: "加邦神父请愿游行惨案如何引爆全国工潮、黑土区农民夺地烧庄与边疆民族抗争。"
+      - heading: "二、十月总罢工、彼得堡苏维埃与《十月宣言》"
+        weight: "25%"
+        focus: "从伊万诺沃罢工委员会到彼得堡苏维埃的权力雏形，维特力劝尼古拉二世颁布《十月宣言》分化自由派与激进派。"
+      - heading: "三、十二月莫斯科街垒与革命战略的三重分野"
+        weight: "25%"
+        focus: "《财政宣言》、普列斯尼亚区武装起义的镇压，对比孟什维克、列宁“工农革命民主专政”与托洛茨基“不断革命论”。"
+      - heading: "四、1906 年《国家根本法》、两届杜马对峙与“六三政变”"
+        weight: "25%"
+        focus: "第 87 条保留皇权特权，立宪民主党与劳动派在土地强制征用上的冲撞，斯托雷平解散第二届杜马重塑选举法。"
+    must_contain_any:
+      - ["加邦", "血腥星期日"]
+      - ["十月宣言", "苏维埃"]
+      - ["莫斯科", "不断革命"]
+      - ["根本法", "第87条", "六三"]
+    forbid_patterns: []
+
+  - id: "ch04"
+    part: "P2"
+    number: "第四章"
+    title: "斯托雷平的豪赌与战前城市的双重极化（1907–1914）"
+    file: "reader/ch04_stolypin_wager_and_prewar_polarization.md"
+    era: "1907–1914"
+    target_zh_chars: 9000
+    pack_cards:
+      - "PER-stolypin"
+      - "POL-stolypin-agrarian-reform"
+      - "ORG-octobrists-and-progressive-bloc"
+      - "EVT-1912-04-lena-goldfields-massacre"
+      - "EVT-1907-1914-june-third-regime-and-lena-to-july-strikes"
+      - "DEB-1906-stolypin-wager-and-agrarian-viability"
+      - "DEB-1914-haimson-thesis-stability"
+    reference_files:
+      - "timeline/L2_chronicles/E04_1907-1914_stolypin_and_labor_upsurge.md"
+      - "timeline/L3_daily/1912-04_lena_goldfields_and_pravda_upsurge.md"
+      - "timeline/L3_daily/1914-07_petrograd_barricades_and_war_credits_rupture.md"
+      - "reading-notes/late_imperial_fiscal_and_haimson/RN-W61-kotsonis-hoch-plaggenborg-burbank-haimson.md"
+    section_plan:
+      - heading: "一、“先安定后改革”：军事法庭与六三杜马的脆弱联盟"
+        weight: "20%"
+        focus: "斯托雷平与古契柯夫十月党的合作机制，外省贵族保守主义（曼宁论点）对地方改革的掣肘。"
+      - heading: "二、“押注强壮而清醒者”：拆解村社土改的实效与乡村阻力"
+        weight: "25%"
+        focus: "独立田庄与插花地归并的数据实绩、地域差异与传统村社农民的抵制。"
+      - heading: "三、1911 年西部地方自治局危机与基辅歌剧院的枪声"
+        weight: "25%"
+        focus: "西部六省法案在国务会议受挫、动用第 87 条造成的皇室猜忌与议会盟友离心，直至博格罗夫行刺。"
+      - heading: "四、勒拿河惨案到 1914 年七月街垒：“海姆森命题”的百年争鸣"
+        weight: "30%"
+        focus: "1912 年后政治罢工潮、布尔什维克在工人保险与工会选举中的扩张，围绕海姆森“双重极化论”与乐观现代化论的深度对勘。"
+    must_contain_any:
+      - ["斯托雷平", "强壮"]
+      - ["西部六省", "第87条", "基辅"]
+      - ["勒拿", "1912"]
+      - ["海姆森", "双重极化"]
+    forbid_patterns:
+      - "西部九省全部推行"
+
+  - id: "ch05"
+    part: "P2"
+    number: "第五章"
+    title: "总体战的重压与沙皇政权的瓦解（1914–1917.02）"
+    file: "reader/ch05_total_war_and_february_collapse.md"
+    era: "1914.08–1917.03"
+    target_zh_chars: 9500
+    pack_cards:
+      - "EVT-1914-1916-wwi-mobilization-shell-crisis-and-progressive-bloc"
+      - "PER-nicholas-ii"
+      - "PER-milyukov"
+      - "CON-revolutionary-defensism-and-defeatism"
+      - "EVT-1917-02-february-revolution"
+      - "DEB-1917-dual-power-and-february-origins"
+    reference_files:
+      - "timeline/L2_chronicles/E05_1914-1917_great_war_crisis.md"
+      - "timeline/L3_daily/1917-02_february_eight_days.md"
+      - "reading-notes/kronstadt_and_early_party_state/RN-W61-getzler-holquist-duval-oppenheim-rigby.md"
+      - "data/DATA-01-1905-1917-strikes-and-petrograd-elections.md"
+    section_plan:
+      - heading: "一、爱国狂热之后：1915 大撤退、禁酒财政自毁与后方断裂"
+        weight: "25%"
+        focus: "前线炮弹危机、1914 年禁酒令斩断帝国四分之一岁入引发的纸币滥发与里蒂希粮食摊派（Kotsonis），铁路与城市补给失灵。"
+      - heading: "二、御驾亲征、进步同盟与总体战治理技术的生长"
+        weight: "25%"
+        focus: "尼古拉二世亲任统帅后的宫廷孤立，米留科夫“愚蠢还是叛国”演说，以及霍尔奎斯特（Peter Holquist）揭示的书信检查与总体战粮食/舆论监控连续体。"
+      - heading: "三、彼得格勒的寒冬八日：从女工面包队列到近卫军哗变"
+        weight: "30%"
+        focus: "俄历 1917 年 2 月 23 日至 27 日维堡区纺织女工与金属工联动、沃伦团倒戈，结合长谷川毅对基层中层积极分子与自发性关系的分析。"
+      - heading: "四、普斯科夫专列上的退位与革命新纪元的开启"
+        weight: "20%"
+        focus: "高级将领与杜马临时委员会的合流劝退，尼古拉二世与米哈伊尔大公相继放弃皇位，君主制在数日内土崩瓦解。"
+    must_contain_any:
+      - ["进步同盟", "米留科夫"]
+      - ["禁酒", "通胀", "摊派"]
+      - ["维堡", "沃伦", "女工"]
+      - ["普斯科夫", "退位"]
+    forbid_patterns: []
+
+  - id: "ch06"
+    part: "P3"
+    number: "第六章"
+    title: "从二月春潮到七月危机：“双重政权”为何失灵（1917.03–07）"
+    file: "reader/ch06_dual_power_april_theses_and_july_days.md"
+    era: "1917.03–1917.07"
+    target_zh_chars: 9500
+    pack_cards:
+      - "CON-dual-power"
+      - "ORG-provisional-government"
+      - "ORG-petrograd-soviet"
+      - "POL-april-theses-1917"
+      - "ORG-factory-committees-1917"
+      - "EVT-1917-07-july-days"
+      - "DEB-1917-july-days-spontaneity-vs-conspiracy"
+    reference_files:
+      - "timeline/L2_chronicles/E06_1917_dual_power_to_october.md"
+      - "timeline/L3_daily/1917-04_lenin_arrival_april_theses_and_milyukov_note.md"
+      - "timeline/L3_daily/1917-06_first_soviet_congress_and_june_crisis.md"
+      - "timeline/L3_daily/1917-07_july_days_and_kornilov_affair.md"
+    section_plan:
+      - heading: "一、陶立达宫两翼：临时政府与第一号命令下的兵权分野"
+        weight: "25%"
+        focus: "李沃夫内阁与苏维埃执行委员会的权力契约，策烈铁里“革命护国主义”的内在逻辑与束缚。"
+      - heading: "二、芬兰车站的震荡：《四月提纲》与布尔什维克的重新定向"
+        weight: "25%"
+        focus: "列宁返俄冲击加米涅夫温和路线，米留科夫照会引爆四月危机与第一届联合政府组建。"
+      - heading: "三、车间的生存自救与黑土区的土地风暴"
+        weight: "25%"
+        focus: "工厂委员会围绕燃料原料与八小时工作制的“工人监督”，农村村社自下而上接管地主田庄及与临时政府推迟土改的冲突。"
+      - heading: "四、六月攻势溃败与七月流血日子的进退失据"
+        weight: "25%"
+        focus: "第一机枪团、喀琅施塔得水兵与布尔什维克军事组织对党中央克制路线的冲击（拉比诺维奇微观重构），“德国间谍”指控与列宁转入地下。"
+    must_contain_any:
+      - ["陶立达宫", "第一号命令"]
+      - ["芬兰车站", "四月提纲"]
+      - ["工厂委员会", "工人监督"]
+      - ["七月", "第一机枪团", "喀琅施塔得"]
+    forbid_patterns: []
+
+  - id: "ch07"
+    part: "P3"
+    number: "第七章"
+    title: "科尔尼洛夫叛乱、苏维埃激进化与十月夺权（1917.08–11）"
+    file: "reader/ch07_kornilov_affair_and_october_insurrection.md"
+    era: "1917.08–1917.11"
+    target_zh_chars: 10000
+    pack_cards:
+      - "EVT-1917-08-kornilov-affair"
+      - "EVT-1917-10-october-revolution"
+      - "MTG-1917-10-2nd-congress-of-soviets"
+      - "POL-decrees-on-peace-and-land-1917"
+      - "ORG-vikzhel"
+      - "DEB-1917-october-coup-or-social-revolution"
+      - "DEB-1917-all-socialist-coalition-vikzhel-missed-chance"
+    reference_files:
+      - "timeline/L3_daily/1917-10_october_insurrection.md"
+      - "timeline/L3_daily/1917-11_vikzhel_coalition_talks_and_sovnarkom_crisis.md"
+      - "data/DATA-01-1905-1917-strikes-and-petrograd-elections.md"
+      - "cards/people/PER-trotsky.md"
+      - "cards/people/PER-kerensky.md"
+    section_plan:
+      - heading: "一、科尔尼洛夫事件与初秋苏维埃多数的翻转"
+        weight: "25%"
+        focus: "克伦斯基与科尔尼洛夫从合作误解到公开决裂，铁路工人与赤卫队瓦解进军，彼得格勒与莫斯科苏维埃相继转入布尔什维克多数。"
+      - heading: "二、党内的起义之争与军事革命委员会的渐进接管"
+        weight: "25%"
+        focus: "列宁催促立即起义、加米涅夫与季诺维也夫在《新生活报》公开异议、托洛茨基将夺权绑定于苏维埃合法性与二大会期。"
+      - heading: "三、斯莫尔尼宫与冬宫之夜：退场悲剧与三大法令"
+        weight: "30%"
+        focus: "俄历 10 月 24–26 日接管枢纽、阿芙乐尔号空包弹与冬宫渗透，二大开幕夜温和社会主义者退场、马尔托夫协调受挫，通过《和平法令》与吸纳 242 份农民委托书的《土地法令》。"
+      - heading: "四、维克热尔谈判的破裂与“政变论 vs 社会革命论”评析"
+        weight: "20%"
+        focus: "全俄铁总工会促和谈判、加米涅夫与李可夫等人民委员辞职抗议，首届纯布尔什维克内阁至左派社革党年底入阁，综评派普斯与社会史修正派之争。"
+    must_contain_any:
+      - ["科尔尼洛夫", "克伦斯基"]
+      - ["军事革命委员会", "斯莫尔尼"]
+      - ["历史的垃圾堆", "和平法令", "土地法令", "242"]
+      - ["维克热尔", "全俄铁总"]
+    forbid_patterns:
+      - "穿女装逃跑"
+      - "实弹轰击下数千人流血冲锋"
+
+  - id: "ch08"
+    part: "P3"
+    number: "第八章"
+    title: "解散立宪会议、布列斯特喘息与红白内战（1918–1920）"
+    file: "reader/ch08_constituent_assembly_brest_and_civil_war.md"
+    era: "1918.01–1920.11"
+    target_zh_chars: 10000
+    pack_cards:
+      - "EVT-1918-01-constituent-assembly-dispersal"
+      - "EVT-1918-03-brest-litovsk-treaty"
+      - "EVT-1918-05-czechoslovak-legion-and-komuch-revolt"
+      - "EVT-1918-09-red-terror-and-left-sr-rupture"
+      - "EVT-1918-1920-russian-civil-war"
+      - "INS-rkka-red-army-and-rvr"
+      - "DEB-1918-constituent-assembly-and-soviet-democracy"
+    reference_files:
+      - "timeline/L2_chronicles/E07_1917-1921_civil_war_and_war_communism.md"
+      - "timeline/L3_daily/1918-01_constituent_assembly_and_brest_crisis.md"
+      - "timeline/L3_daily/1918-07_left_sr_uprising_and_red_terror_launch.md"
+      - "timeline/L3_daily/1919-10_civil_war_southern_and_petrograd_climax.md"
+      - "data/DATA-07-1905-1918-unions-moscow-swings-and-constituent-assembly-votes.md"
+    section_plan:
+      - heading: "一、陶立达宫的最后一夜：普选制宪法统与阶级苏维埃的对撞"
+        weight: "20%"
+        focus: "立宪会议选票版图（社革党农村优势与中心城市军营布尔什维克优势），1918 年 1 月开会与强制解散，以及同年春夏温和社会主义政党遭排斥的过程。"
+      - heading: "二、“淫秽的和约”：布列斯特危机与左翼阵营大分裂"
+        weight: "25%"
+        focus: "列宁“喘息”现实主义、托洛茨基“不战不和”与布哈林“左派共产主义者”革命战争论的激烈交锋，条约苛刻代价与左派社革党退出政府。"
+      - heading: "三、1918 年夏的生死关头：民主反革命、左派社革党暴动与红色恐怖"
+        weight: "25%"
+        focus: "捷克斯洛伐克军团与萨马拉立宪会议成员委员会的兴衰，7 月米尔巴赫遇刺，8 月末列宁遇刺与契卡制度化红色恐怖（对比派普斯内生论与拉比诺维奇/拉特科夫斯基情境演进论）。"
+      - heading: "四、红白决战的地缘逻辑：军事专家、内线铁路与民族边疆"
+        weight: "30%"
+        focus: "托洛茨基组建正规红军与启用旧军官，莫兹利（Evan Mawdsley）核心腹地人口工业优势论，高尔察克、邓尼金与波苏战争及乌克兰马赫诺/民族运动的多角纠葛。"
+    must_contain_any:
+      - ["立宪会议", "切尔诺夫"]
+      - ["布列斯特", "左派共产主义"]
+      - ["捷克斯洛伐克", "红色恐怖", "契卡"]
+      - ["高尔察克", "邓尼金", "军事专家"]
+    forbid_patterns: []
+
+  - id: "ch09"
+    part: "P3"
+    number: "第九章"
+    title: "战时共产主义、农民战争与喀琅施塔得冰面上的转折（1918–1921.03）"
+    file: "reader/ch09_war_communism_and_kronstadt_turn.md"
+    era: "1918.05–1921.03"
+    target_zh_chars: 9800
+    pack_cards:
+      - "POL-war-communism"
+      - "CON-workers-control"
+      - "INS-vsnkh-and-gosplan"
+      - "EVT-1920-1921-tambov-and-peasant-revolts"
+      - "EVT-1921-kronstadt"
+      - "MTG-1921-rcpb-10th-congress"
+      - "POL-ban-on-factions-1921"
+    reference_files:
+      - "historiography/debates/DEB-1918-war-communism-ideology-or-emergency.md"
+      - "historiography/debates/DEB-1921-kronstadt-and-nep-origins.md"
+      - "historiography/debates/DEB-1921-trade-union-controversy-and-party-unity.md"
+      - "timeline/L3_daily/1921-03_kronstadt_and_10th_congress.md"
+      - "reading-notes/kronstadt_and_early_party_state/RN-W61-getzler-holquist-duval-oppenheim-rigby.md"
+      - "data/DATA-04-party-membership-and-congress-votes-1903-1929.md"
+    section_plan:
+      - heading: "一、从车间监督到总局统制：战时共产主义的成形与内在悖论"
+        weight: "25%"
+        focus: "1918 年春工业崩盘、彼得格勒产业工人骤减与最高国民经济委员会集权改组（从工人选派三分之二翻转为上级委派三分之二、一长制与专家启用），1918–1920 余粮收集制、小工业全面国有化与取消货币幻想；客观并置莫兹利应急论、派普斯/马利亚乌托邦论与卡尔/科措尼斯战时统制连续论。"
+      - heading: "二、内战胜利后的全面爆裂：坦波夫“绿军”与城市饥饿工潮"
+        weight: "25%"
+        focus: "1920–1921 年安东诺夫领导的坦波夫农民大起义与西西伯利亚抗征风暴，1921 年 2 月彼得格勒与萨拉托夫工厂减配引发的停工抗议，以及起义爆发前列宁在政治局已酝酿粮食税提纲的时序关系。"
+      - heading: "三、“一切权力归苏维埃，而非政党”：喀琅施塔得水兵的诉求与跨冰血战"
+        weight: "28%"
+        focus: "“彼得罗巴甫洛夫斯克”号十五条决议的核心诉求（多左翼苏维埃自由改选与取消阻击队，辨明其并非白卫流亡者渲染的“不要共产党人的苏维埃”），阿夫里奇与盖茨勒关于主力战列舰老水兵连续性与 1917–1918 多党苏维埃记忆的考证，托洛茨基通牒与图哈切夫斯基第七集团军跨冰强攻。"
+      - heading: "四、俄共十大的双轨遗产：经济退却与《关于党的统一》政治闭锁"
+        weight: "22%"
+        focus: "炮声中的俄共（布）第十次代表大会：工会争论与“工人反对派”受挫，以实物税取代余粮收集制的战略退却，同步通过含秘密第七条的《关于党的统一》禁止派别活动，确立“经济放宽、政治收紧”的新格局。"
+    endnote_guidance:
+      - "将两艘主力战列舰已知入伍年份水兵中 93.9%（1,904/2,028）系 1917 年及以前入伍、波罗的海舰队整体推测约至少 75.5% 的统计分母边界与名册细微差额放入尾注，正文只自然呈现两舰逾九成老兵与全舰队高比例资深水兵的结论。"
+      - "将 1921 年 2 月 28 日舰上先行通过与 3 月 1 日全要塞大会确认的文本版本说明、以及红军与起义者不同统计管道的伤亡区间放入尾注，正文保持流畅克制的叙事。"
+      - "区分红军总司令谢·谢·卡梅涅夫与政治局委员列·鲍·加米涅夫可自然点明或入尾注，切忌写成工作区审校口吻。"
+    must_contain_any:
+      - ["余粮收集制", "最高国民经济委员会", "一长制"]
+      - ["坦波夫", "安东诺夫"]
+      - ["彼得罗巴甫洛夫斯克", "十五条", "一切权力归苏维埃"]
+      - ["粮食税", "实物税", "关于党的统一", "工人反对派"]
+    forbid_patterns:
+      - "不能凭任务中的建议文件名"
+      - "站内实存原典文件名为"
+      - "Avrich证明喀琅施塔得全要塞94%是1917年的老布尔什维克"
+
+  - id: "ch10"
+    part: "P4"
+    number: "第十章"
+    title: "混合经济的重建、切尔文币制奇迹与列宁的最后抗争（1921–1924）"
+    file: "reader/ch10_nep_chervonets_and_lenins_last_struggle.md"
+    era: "1921.03–1924.05"
+    target_zh_chars: 9500
+    pack_cards:
+      - "POL-nep"
+      - "EVT-1921-1922-volga-famine-and-church-valuables-crisis"
+      - "POL-sokolnikov-chervonets-monetary-reform"
+      - "EVT-1923-scissors-crisis"
+      - "EVT-1922-georgian-affair-and-ussr-formation"
+      - "PER-lenin"
+      - "DEB-1922-lenin-testament-and-stalin-rise"
+    reference_files:
+      - "timeline/L2_chronicles/E08_1921-1924_nep_and_lenins_last_struggle.md"
+      - "timeline/L3_daily/1922-12_lenins_last_struggle_diary.md"
+      - "timeline/L3_daily/1923-10_scissors_and_new_course_crisis.md"
+      - "data/DATA-02-1922-1924-scissors-crisis-and-chervonets.md"
+    section_plan:
+      - heading: "一、饥荒阴影下的分步退却：实物税、耐普曼与政治大审判"
+        weight: "25%"
+        focus: "1921–1922 伏尔加饥荒与征用教会财物、社革党莫斯科公审及驱逐知识分子“哲学船”，新经济政策从局部商品交换被迫走向承认私商与货币市场。"
+      - heading: "二、双币并行的算术：索科利尼科夫、切尔沃涅茨与 1923 年剪刀差危机"
+        weight: "25%"
+        focus: "财政人民委员部启用旧专家发行切尔沃涅茨银行券与贬值旧苏维埃纸币并行、1924 年春国库券收口，以及国营工业提价与信贷紧缩交织的 1923 年秋“剪刀差危机”。"
+      - heading: "三、“自治化”冲突、格鲁吉亚事件与多民族联盟国家的诞生"
+        weight: "25%"
+        focus: "斯大林“自治化”方案与列宁平等加盟共和国构想的交锋，奥尔忠尼启则打人事件与大俄罗斯沙文主义批判，1922 年底苏联成立及“肯定性行动帝国”本土化政策。"
+      - heading: "四、克里姆林宫病榻上的口授：《政治遗嘱》与《论合作社》"
+        weight: "25%"
+        focus: "1922 年 12 月至 1923 年 3 月列宁口授撤换总书记建议、改组工农检查院与《论合作社》理论转向，直至 1924 年 5 月十三大代表团内部分别宣读遗嘱使斯大林涉险留任。"
+    must_contain_any:
+      - ["耐普曼", "制高点"]
+      - ["索科利尼科夫", "切尔沃涅茨", "切尔文", "剪刀差"]
+      - ["格鲁吉亚", "自治化"]
+      - ["给代表大会的信", "论合作社", "十三大"]
+    forbid_patterns:
+      - "1922年12月下旬获悉斯大林电话辱骂克鲁普斯卡娅后，愤而于1923年1月4日口授"
+
+  - id: "ch11"
+    part: "P4"
+    number: "第十一章"
+    title: "党国机器的成形：书记处、名录制与基层社会的纠缠（1921–1927）"
+    file: "reader/ch11_party_state_apparatus_workers_and_village.md"
+    era: "1921–1927"
+    target_zh_chars: 9500
+    pack_cards:
+      - "INS-politburo-orgburo-secretariat"
+      - "INS-sovnarkom-and-vtsik"
+      - "INS-rabkrin-and-ccc"
+      - "CON-peasant-commune-obshchina"
+      - "CON-soviet"
+      - "DEB-1920s-gender-family-and-everyday-life"
+    reference_files:
+      - "reading-notes/kronstadt_and_early_party_state/RN-W61-getzler-holquist-duval-oppenheim-rigby.md"
+      - "reading-notes/nep_countryside_and_party_levy/RN-W61-carr-mcdonald-hatch-weissman-hunter-lih.md"
+      - "data/DATA-08-1921-1929-nep-social-classes-unemployment-and-gender-labor.md"
+    section_plan:
+      - heading: "一、从斯维尔德洛夫的笔记本到官职等级名录制（Nomenklatura）"
+        weight: "28%"
+        focus: "政治局—组织局—书记处分工、1922 年总书记设立、1923 年夏秋第 1 与第 2 号官职名录创设及组织分配部（Orgraspred）干部调配网，兼顾赫列夫纽克与阿帕利科夫关于 1920 年代政治局真实寡头合议规则的分析。"
+      - heading: "二、“列宁征召”与车间契约：高失业阴影下的苏维埃工人阶级"
+        weight: "24%"
+        focus: "1924 年“列宁征召”吸纳大批工人入党如何重塑莫斯科工厂支部政治生态（哈奇），皮拉尼的“政治让渡换工资恢复”契约论，以及经济核算制下的高失业、女工边缘化与反耐普曼情绪。"
+      - heading: "三、“面向农村”的制度悖论：“活跃苏维埃”与政社纠缠的村庄"
+        weight: "26%"
+        focus: "1924–1926 年“活跃苏维埃”运动的三重两难（卡尔），以及无独立预算的村苏维埃如何依附传统土地村社与自筹税成为村庄缓冲器（麦克唐纳梁赞档案研究）。"
+      - heading: "四、私酿酒、国营伏特加与日常生活革命的退潮"
+        weight: "22%"
+        focus: "农村私酿耗粮查缉困局与 1925 年恢复“李可夫酒”国营专卖占国家总岁入 12% 的财政依赖悖论（韦斯曼），以及 1926 年婚姻家庭法争论折射的城市妇女与青年的日常处境。"
+    must_contain_any:
+      - ["书记处", "组织分配部", "名录"]
+      - ["列宁征召", "失业"]
+      - ["活跃苏维埃", "村社"]
+      - ["私酿", "伏特加", "12%"]
+    forbid_patterns:
+      - "第一号名录（No\\. 1）单项职位扩充至5,500个以上"
+
+  - id: "ch12"
+    part: "P4"
+    number: "第十二章"
+    title: "列宁身后的路线重组：从“三驾马车”到联合反对派的覆灭（1923–1927）"
+    file: "reader/ch12_succession_industrialization_debate_and_left_defeat.md"
+    era: "1923.10–1927.12"
+    target_zh_chars: 9500
+    pack_cards:
+      - "ORG-left-and-united-opposition"
+      - "CON-socialism-in-one-country"
+      - "CON-primitive-socialist-accumulation"
+      - "PER-preobrazhensky"
+      - "MTG-1925-12-14th-party-congress"
+      - "EVT-1927-war-scare-and-opposition-expulsion"
+      - "DEB-1924-socialism-in-one-country"
+    reference_files:
+      - "timeline/L2_chronicles/E09_1923-1927_succession_and_left_opposition.md"
+      - "timeline/L3_daily/1924-01_lenin_death_testament_and_lessons_of_october.md"
+      - "timeline/L3_daily/1925-12_fourteenth_congress_new_opposition_clash.md"
+      - "timeline/L3_daily/1927-10_tenth_anniversary_and_15th_congress.md"
+      - "data/DATA-04-party-membership-and-congress-votes-1903-1929.md"
+    section_plan:
+      - heading: "一、《四十六人声明》与《十月的教训》：“三驾马车”孤立托洛茨基"
+        weight: "25%"
+        focus: "1923 年秋党内民主危机与德国十月挫败，1924 年秋围绕《十月的教训》的历史记忆战与托洛茨基辞去陆海军人民委员。"
+      - heading: "二、“一国建成社会主义”与工业化经济学大论战"
+        weight: "25%"
+        focus: "斯大林—布哈林“一国建成社会主义”如何回应党务干部稳定诉求；普列奥布拉任斯基《新经济学》“社会主义原始积累规律”（靠垄断价格而非暴力剥夺）与布哈林工农市场动态均衡论的正面交锋（埃尔利希经典分析）。"
+      - heading: "三、1925 年十四大风暴：列宁格勒“新反对派”的反叛与溃败"
+        weight: "25%"
+        focus: "季诺维也夫、加米涅夫、索科利尼科夫借“国家资本主义”与富农分化发难，加米涅夫公开要求调离斯大林，大会 559 比 65 票压倒性结局与基洛夫接管列宁格勒。"
+      - heading: "四、1927 年英苏断交、中国革命受挫与联合反对派的终局"
+        weight: "25%"
+        focus: "托洛茨基—季诺维也夫—加米涅夫结盟、《八十三人政纲》、1927 年春外交“战争恐慌”与十月革命十周年街头抗议，十五大彻底开除左翼反对派。"
+    must_contain_any:
+      - ["四十六人", "十月的教训"]
+      - ["一国建成社会主义", "原始积累", "普列奥布拉任斯基"]
+      - ["十四大", "559", "65", "新反对派"]
+      - ["联合反对派", "战争恐慌", "十五大"]
+    forbid_patterns:
+      - "1925年12月十四大上由索科利尼科夫亲自发表演说正式动议撤换斯大林"
+
+  - id: "ch13"
+    part: "P4"
+    number: "第十三章"
+    title: "粮食危机与右派的困局：从西伯利亚之行到四月摊牌（1928.01–1929.04）"
+    file: "reader/ch13_grain_crisis_and_right_opposition_defeat.md"
+    era: "1927.10–1929.04"
+    target_zh_chars: 10200
+    pack_cards:
+      - "EVT-1928-grain-procurement-crisis"
+      - "EVT-1928-shakhty-affair-show-trial"
+      - "MTG-1928-07-cc-plenum"
+      - "PER-bukharin"
+      - "PER-uglanov"
+      - "MTG-1928-11-cc-plenum"
+      - "MTG-1929-04-cc-joint-plenum"
+    reference_files:
+      - "historiography/debates/DEB-1928-bukharin-alternative.md"
+      - "timeline/L3_daily/1928-01_siberian_grain_expedition_and_shakhty_affair.md"
+      - "timeline/L3_daily/1928-1929_bukharin_stalin_final_showdown.md"
+      - "reading-notes/kak_lomali_nep_1928_1929_plenums/RN-W61-july1928-april1929-nov1929-stenograms.md"
+      - "data/DATA-03-1926-1929-grain-procurement-and-nemchinov-table.md"
+    section_plan:
+      - heading: "一、1927 年冬的收购断崖、涅姆钦诺夫表与西伯利亚专列"
+        weight: "25%"
+        focus: "1927 年秋冬国家谷物收购锐减的价格比价与投资过热成因（卡尔与戴维斯、勒温、艾伦），斯大林援引涅姆钦诺夫统计表的逻辑及其口径缺陷，1928 年 1 月斯大林亲赴西伯利亚动用《刑法典》第 107 条强征余粮及沙赫蒂公审制造的阶级斗争气氛。"
+      - heading: "二、1928 年七月全会的“贡赋论”交锋与加米涅夫密谈隐患"
+        weight: "25%"
+        focus: "七月全会速记还原的正面冲撞：斯大林口头演说要求农民缴纳超额税“贡赋”，布哈林与李可夫警告非常措施将把中农推向反抗；全会妥协决议的双刃剑，以及 7 月 11 日布哈林密访加米涅夫留下的致命政治把柄。"
+      - heading: "三、《一个经济学家的札记》与莫斯科堡垒的内部穿透"
+        weight: "25%"
+        focus: "布哈林在共产国际六大阻击“社会法西斯主义”入纲与 9 月 30 日发表《一个经济学家的札记》（“不能用未来的砖头建造现实的工厂”）；剖析斯大林如何借组织分配部人事网从区委内部瓦解乌格拉诺夫的莫斯科市委，并在十一月中央全会以保留字面妥协、拒废个别课税锁死右派。"
+      - heading: "四、1929 年四月联席全会决战与“布哈林替代方案”的史学论争"
+        weight: "25%"
+        focus: "1929 年初密谈纪要引爆与《三人纲领》，四月中央与中监委联席全会上布哈林对“军事封建剥削”与“乌拉尔—西伯利亚法”的最后长篇抗辩、斯大林《论右倾》反击与压倒多数免职处分（仍暂留三人政治局席位，紧接十六次代表会议批准的一五计划最优方案仍预设期末集体与国营农场占播面 17.5%）；综合评析科恩、诺夫、科特金、利赫与计量经济史各派争鸣。"
+    endnote_guidance:
+      - "将斯大林 1928 年 7 月 9 日口头速记“相当大份额的贡赋”与全集软化版差异、以及 1929 年 4 月 22 日演说未刊速记（逮捕 200 名投机商、1924 格鲁吉亚枪决约 1,500 人）在审定本与全集中的删削层次收入尾注。"
+      - "将 1929 年 4 月联席全会出席名单（301 人到会、含 245 名具表决权中委与中监委委员）及 4 月 23 日决议“压倒多数赞成、反对 10 票、弃权 3 票（原记录未清点精确赞成数）”的档案考辨收入尾注，正文只自然呈现压倒多数与 10 票反对、3 票弃权。"
+      - "将亨特与西尔默 KAPROST 模型、艾伦反事实模拟的联合参数假设与戴维斯的保留意见简明放入正文或尾注，避免技术参数堆砌。"
+    must_contain_any:
+      - ["107条", "西伯利亚", "涅姆钦诺夫", "涅姆奇诺夫"]
+      - ["贡赋", "加米涅夫"]
+      - ["一个经济学家的札记", "未来的砖头", "乌格拉诺夫"]
+      - ["四月", "10", "3", "17.5%"]
+    forbid_patterns:
+      - "斯大林1928年1月亲自前往乌拉尔和西伯利亚"
+      - "1928年10月19日莫斯科全会当场免去了乌格拉诺夫的莫斯科市委第一书记职务"
+      - "1928年11月全会最终决议彻底删去了刺激农民经济利益"
+      - "正式计票记录载明赞成票精确为232票"
+      - "1929年4月批准的五年计划已经规定当年底完成全盘集体化"
+
+  - id: "ch14"
+    part: "P4"
+    number: "第十四章"
+    title: "“大转变”的定局：十一月全会、全面集体化与去富农化（1929.05–12）"
+    file: "reader/ch14_great_turn_november_plenum_and_dekulakization.md"
+    era: "1929.05–1930.01"
+    target_zh_chars: 9800
+    pack_cards:
+      - "POL-first-five-year-plan"
+      - "POL-ural-siberian-method"
+      - "MTG-1929-11-cc-plenum"
+      - "EVT-1929-great-turn-and-dekulakization-launch"
+      - "CON-kulak"
+      - "DEB-1929-collectivization-and-dekulakization-causes"
+    reference_files:
+      - "timeline/L3_daily/1929-11_november_plenum_to_dekulakization_decree.md"
+      - "reading-notes/kak_lomali_nep_1928_1929_plenums/RN-W61-july1928-april1929-nov1929-stenograms.md"
+      - "data/DATA-06-1918-1929-cheka-ogpu-sentencing-and-1929-collectivization-surge.md"
+    section_plan:
+      - heading: "一、1929 年夏秋的加速狂潮：指标膨胀、车间抗争与农村高压"
+        weight: "25%"
+        focus: "国家计委与地方党委竞相拉升集体化指标，伊万诺沃等地纺织工人反强化劳动与减配罢工（罗斯曼），以及乌拉尔—西伯利亚方法在全国产粮区的推广。"
+      - heading: "二、《大转变的一年》与十一月中央全会：右派的最后终局"
+        weight: "25%"
+        focus: "11 月 7 日《大转变的一年》背后的脆弱统计基础（戴维斯），十一月全会上三人十二点声明、莫斯科旧部倒戈、将布哈林逐出政治局及动员“二万五千人”产业工人下乡。"
+      - heading: "三、十二月雅科夫列夫委员会的妥协草案与斯大林的亲笔否决"
+        weight: "25%"
+        focus: "依托《苏联农村的悲剧》解密档案，还原鲍曼分委会与 12 月 18 日一致草案（保留奶牛小畜与退社权、拟将多数富农留庄改造）如何遭斯大林 12 月 25 日否决，并于 12 月 27 日公开宣布“把富农作为阶级消灭”。"
+      - heading: "四、村庄的震荡与长周期回望：宰牲风潮、基层缓冲崩塌与收官意涵"
+        weight: "25%"
+        focus: "1929 年底农民“自我去富农化”宰牲逃亡、库班农民呼喊布哈林之名抗议征购及皮捷利诺式抗暴的微观机制，总结新经济政策终结与斯大林体制成型的历史坐标。"
+    must_contain_any:
+      - ["乌拉尔—西伯利亚", "五倍"]
+      - ["大转变的一年", "十一月全会", "二万五千"]
+      - ["雅科夫列夫", "12月25日", "作为阶级消灭"]
+      - ["自我去富农化", "宰牲"]
+    forbid_patterns:
+      - "正式计票记录载明赞成票精确为60票"
+      - "巴拉绍夫纺织厂600名织工因削减面包配给而罢工"
+
+  - id: "ch15"
+    part: "P4"
+    number: "第十五章"
+    title: "词语的战场与百年的回响：核心概念裂变与俄国革命史学图景（跨期总论）"
+    file: "reader/ch15_conceptual_genealogies_and_historiography.md"
+    era: "1861–1929（跨期综合）"
+    target_zh_chars: 10000
+    pack_cards:
+      - "CON-soviet"
+      - "CON-state-capitalism"
+      - "CON-smychka"
+      - "CON-kulak"
+      - "CON-thermidor-and-bureaucracy"
+      - "CON-intelligentsia-and-vekhi"
+    reference_files:
+      - "glossary/CONCEPT_GENEALOGY_INDEX.md"
+      - "historiography/debates/DEB-1917-october-coup-or-social-revolution.md"
+      - "historiography/debates/DEB-1918-war-communism-ideology-or-emergency.md"
+      - "historiography/debates/DEB-1928-bukharin-alternative.md"
+    section_plan:
+      - heading: "一、“苏维埃”的三次蜕变：从罢工委员会、多党议场到党国基座"
+        weight: "25%"
+        focus: "串联 1905、1917、1918 宪法、1921 喀琅施塔得与 1925 活跃苏维埃，揭示同一制度词汇背后的代表权与权力转移。"
+      - heading: "二、“国家资本主义”与“工农结合”：过渡经济学话语的翻转与易位"
+        weight: "25%"
+        focus: "剖析列宁、左派共产主义者、布哈林与季诺维也夫围绕“国家资本主义”的三度换位，以及“工农结合”如何从市场交换漂移为生产集体化。"
+      - heading: "三、从“吃村社者”到阶级定罪标签：“富农”概念的六十年语义漂移"
+        weight: "20%"
+        focus: "追踪民粹派、斯托雷平分离户、1925“铁皮屋顶恐惧”直至 1929 年末三级清洗配额的概念政治化机制。"
+      - heading: "四、百年史学光谱：五代学派的方法论贡献与盲区对话"
+        weight: "30%"
+        focus: "系统评述苏联正统与左翼异议传统、西方自由派/极权主义学派、1960–80 年代社会史修正派、新制度/总体战现代性学派及 1991 年后俄国解密档案研究的交锋与互补。"
+    must_contain_any:
+      - ["苏维埃", "5:1", "五比一", "剥权者"]
+      - ["国家资本主义", "软煮的靴子", "论合作社"]
+      - ["富农", "吃村社者", "中农的放大版"]
+      - ["修正派", "极权主义", "总体战", "解密档案"]
+    forbid_patterns: []
