@@ -1,6 +1,6 @@
 # L3 显微时间线：1912 年勒拿金矿惨案、《真理报》创刊与俄国工运激进化浪潮
 
-> 编排角色：chronicle-weaver；状态：**W25 候选编年**（对应候选台账 [`_w25_candidate_events.jsonl`](./_w25_candidate_events.jsonl)）。覆盖 **1912-04-04 [O.S.] / 1912-04-17 [N.S.]** 至 **1912-05-01 [O.S.] / 1912-05-14 [N.S.]**。**日历规则**：1912 年为闰年且处于 2 月 29 日之后、1918 年苏俄改历之前，全卷俄历 `[O.S.]` 与公历 `[N.S.]` 严格固定相差 **13 天**（逐条均经 `python scripts/kb.py date <date> --from os` 数学校验）。挂载 [`DEB-1914-haimson-thesis-stability`](../../historiography/debates/DEB-1914-haimson-thesis-stability.md)、[`MTG-1912-01-prague-conference`](../../cards/meetings/MTG-1912-01-prague-conference.md)、[`SCH-haimson-leopold`](../../historiography/scholars/SCH-haimson-leopold.md)、[`SCH-zelnik-reginald`](../../historiography/scholars/SCH-zelnik-reginald.md)、[`SCH-blanc-eric`](../../historiography/scholars/SCH-blanc-eric.md)。
+> 状态：**W25 候选编年**。覆盖 **1912-04-04 [O.S.] / 1912-04-17 [N.S.]** 至 **1912-05-01 [O.S.] / 1912-05-14 [N.S.]**。**日历规则**：1912 年为闰年且处于 2 月 29 日之后、1918 年苏俄改历之前，全卷俄历 `[O.S.]` 与公历 `[N.S.]` 严格固定相差 **13 天**（逐条均经 `python scripts/kb.py date <date> --from os` 数学校验）。挂载 [`DEB-1914-haimson-thesis-stability`](../../historiography/debates/DEB-1914-haimson-thesis-stability.md)、[`MTG-1912-01-prague-conference`](../../cards/meetings/MTG-1912-01-prague-conference.md)、[`SCH-haimson-leopold`](../../historiography/scholars/SCH-haimson-leopold.md)、[`SCH-zelnik-reginald`](../../historiography/scholars/SCH-zelnik-reginald.md)、[`SCH-blanc-eric`](../../historiography/scholars/SCH-blanc-eric.md)。
 
 ## [T1] 60秒定性微摘要
 
@@ -8,14 +8,14 @@
 
 ## 编年与证据约定
 
-- **双历与闰年边界**：本卷全段位于 1912-02-29 之后，俄历 `[O.S.]` 加 **13 天**即得公历 `[N.S.]`（如 `1912-04-04 [O.S.]` → `1912-04-17 [N.S.]`；4 月俄历有 30 天，故 `1912-04-22 [O.S.]` → `1912-05-05 [N.S.]`）。凡涉俄国国内罢工、杜马议程与报刊发行日，均以 `[O.S.]` 锚定事实发生日并附 `[N.S.]` 对照。
+- **双历与闰年边界**：本卷全段位于 1912-02-29 之后，俄历 `[O.S.]` 加 **13 天**即得公历 `[N.S.]`（如 `1912-04-04 [O.S.]` → `1912-04-17 [N.S.]`；4 月俄历有 30 天，故 `1912-04-22 [O.S.] / 1912-05-05 [N.S.]` → `1912-05-05 [N.S.]`）。凡涉俄国国内罢工、杜马议程与报刊发行日，均以 `[O.S.]` 锚定事实发生日并附 `[N.S.]` 对照。
 - **多源伤亡与人数口径**：勒拿惨案死伤与 1912 年 4–5 月罢工总人数在沙皇官报、自由派报刊、马努欣调查团与苏联史学间存在显著差异（见下文表 1），本卷坚持**分口径并置**，不以单一事后成说覆盖原始档案差异。
 - **本地文献 vs 外部补充核验（S 级）**：海姆森 `ch09–ch13`、布朗 `ch13`、札记 `RN-W11B` / `RN-W22` 与 `DEB-1914-haimson-thesis-stability` 为库内已读 **A/B 级**支柱；梅兰孔（Michael Melancon）2006 年专著精细考据及《真理报》创刊号具体编辑部细节（波列塔耶夫、斯大林执笔社论、莫洛托夫、叶戈罗夫、售价 2 戈比等）经外部史料核验引入，一律显式标为 **S 级补充核验**。
-- **主台账协调**：[`events_ledger.jsonl`](../events_ledger.jsonl) 既有的 `TL-W15-L1-E04-05`（L1 勒拿惨案）、`TL-W3-1912-04-17`（L2 枪击）与 `TL-W3-1912-04`（《星报》月度记录）保持完全不动；本卷新增 L3 细粒度节点以 `TL-W25-1912-*` 记入 [`_w25_candidate_events.jsonl`](./_w25_candidate_events.jsonl)，**严禁直接改写主台账**。
+- **主台账协调**：[`events_ledger.jsonl`](../events_ledger.jsonl) 既有的 `TL-W15-L1-E04-05`（L1 勒拿惨案）、`TL-W3-1912-04-17`（L2 枪击）与 `TL-W3-1912-04`（《星报》月度记录）保持完全不动；本卷新增 L3 细粒度节点以 `TL-W25-1912-*` 记入 主台账（`events_ledger.jsonl`），**严禁直接改写主台账**。
 
 ---
 
-## [T2] 逐日与分时编年（1912-04-04 至 1912-05-01 [O.S.]）
+## [T2] 逐日与分时编年（1912-04-04 [O.S.] / 1912-04-17 [N.S.] 至 1912-05-01 [O.S.] / 1912-05-14 [N.S.]）
 
 ### 校勘速查表 1：勒拿惨案死伤多源口径对勘
 
@@ -161,7 +161,7 @@
 ## 日期核验与候选台账说明
 
 - **日期数学校验**：全部 12 条 `TL-W25-1912-*` 候选记录经 `python scripts/kb.py date <os> --from os` 实测，1912 年 4 月至 5 月俄历与公历均严格相差 **+13 天**。
-- **台账隔离**：候选事件写入 [`_w25_candidate_events.jsonl`](./_w25_candidate_events.jsonl)；**未修改** [`events_ledger.jsonl`](../events_ledger.jsonl)。
+- **台账隔离**：候选事件写入 主台账（`events_ledger.jsonl`）；**未修改** [`events_ledger.jsonl`](../events_ledger.jsonl)。
 
 ---
 
@@ -174,4 +174,4 @@
 - [^HM13]: **A级** 同上，Part II（1912 年夏圣彼得堡雇主反扑与西门子—哈尔斯克工潮）：[`ch13_part_ii_the_workers_movement_after_lena.md`](../../sources/monographs/haimson_2005_experience/ch13_part_ii_the_workers_movement_after_lena.md)。
 - [^BL13]: **A级** Eric Blanc, *Revolutionary Social Democracy: Working-Class Politics Across the Russian Empire (1882–1917)* (2021), ch. 7（布拉格会议后布尔什维克基层定位与《真理报》创刊初期的“非宗派统一工报”属性）：[`ch13_chapter_7_the_party_question.md`](../../sources/monographs/blanc_2021_rev_sd/ch13_chapter_7_the_party_question.md)（PDF pp. 283–287）。
 - [^RN22]: **B级精读札记** [`RN-W22-lenin-jacobin-myth-and-worker-intelligentsia-relations.md`](../../reading-notes/mayer_zelnik/RN-W22-lenin-jacobin-myth-and-worker-intelligentsia-relations.md)（Zelnik / S. A. Smith“觉悟工人”文化与反监护、1912–1914 工人接管彼得堡委员会轨迹）；参 [`RN-W11B-menshevik-subculture-and-bolshevik-wage-policy.md`](../../reading-notes/haimson_ilyukhov/RN-W11B-menshevik-subculture-and-bolshevik-wage-policy.md) 与 [`DEB-1914-haimson-thesis-stability.md`](../../historiography/debates/DEB-1914-haimson-thesis-stability.md)。
-- [^MEL06]: **S级外部核验** Michael Melancon, *The Lena Goldfields Massacre and the Crisis of the Late Tsarist State* (2006)（“意外共识”论点与马努欣 170 死 372 伤复核口径）及《真理报》1912-04-22 [O.S.] 创刊号编务核验（波列塔耶夫、叶戈罗夫、莫洛托夫、斯大林《我们的目标》、4 版 2 戈比及巅峰印量 4–6 万份）。
+- [^MEL06]: **S级外部核验** Michael Melancon, *The Lena Goldfields Massacre and the Crisis of the Late Tsarist State* (2006)（“意外共识”论点与马努欣 170 死 372 伤复核口径）及《真理报》1912-04-22 [O.S.] / 1912-05-05 [N.S.] 创刊号编务核验（波列塔耶夫、叶戈罗夫、莫洛托夫、斯大林《我们的目标》、4 版 2 戈比及巅峰印量 4–6 万份）。

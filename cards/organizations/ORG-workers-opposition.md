@@ -54,7 +54,7 @@ updated_at: "2026-11-18"
 
 ### 3.0 阅读札记与纲领文献锚点
 - **Daniels 精读札记**：`reading-notes/daniels_1960_conscience/RN-W1C-communist-oppositions-1918-1929.md`（涵1921年危机、十大转折与工会三派计票语境；关联论断 `CLM-daniels-1960-tenth-congress-turning-point`）。
-- **1921-01-25《真理报》工会问题提纲**：工人反对派公开纲领正文待 `source-extractor` 入库，规划路径 `sources/primary/shliapnikov_1921_workers_opposition_theses/1921-01-25_workers-opposition.md`（当前仅 Daniels 1960 英译复述与柯伦泰小册子 `sources/primary/kollontai_1921_workers_opposition/` 可互证）。
+- **1921-01-25《真理报》工会问题提纲**：工人反对派公开纲领正文原件待补，规划路径 `sources/primary/shliapnikov_1921_workers_opposition_theses/1921-01-25_workers-opposition.md`（当前仅 Daniels 1960 英译复述与柯伦泰小册子 `sources/primary/kollontai_1921_workers_opposition/` 可互证）。
 
 ### 3.1 1920–1921年工会大争论三大阵营纲领与社会心理对照表（据 Daniels 1960, `ch05`–`ch06`）
 | 对比维度 | 工人反对派（什利亚普尼科夫、柯伦泰、梅德韦杰夫） | 温和左翼 / 托—布联合平台（托洛茨基、布哈林） | 列宁派 / “十人政纲”（列宁、托姆斯基、季诺维也夫、斯大林） |

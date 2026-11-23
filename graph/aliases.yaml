@@ -1147,3 +1147,9 @@ entities:
     ru: "Июльский пленум ЦК ВКП(б) (4–12 июля 1928 г.)"
     en: "July 1928 Plenum of the Central Committee of the CPSU(b)"
     aliases: ["1928年七月全会", "联共（布）1928年7月中央全会"]
+
+  MTG-1928-04-cc-joint-plenum:
+    canonical_zh: "联共（布）1928年4月中央委员会与中央监察委员会联席全会"
+    ru: "Объединенный пленум ЦК и ЦКК ВКП(б) (6–11 апреля 1928 г.)"
+    en: "April 1928 Joint Plenum of the CC and TsKK of the CPSU(b)"
+    aliases: ["1928年四月联席全会", "1928年4月中央和中央监委联席全会", "联共（布）1928年4月全会"]

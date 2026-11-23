@@ -26,8 +26,17 @@
 ## 二、A级：开放获取学术期刊、书评与研究网络
 
 1. **CyberLeninka (`https://cyberleninka.ru/`)**：俄罗斯最大开放获取学术论文库，可免费检索下载当代俄罗斯历史学家关于民粹派、社会革命党、1917 地方苏维埃、新经济政策与 1928–1929 党内斗争的最新俄文同行评议论文。
-2. **H-Russia / H-Net Reviews (`https://networks.h-net.org/h-russia`)**：欧美俄国史学界权威长篇学术书评库，适合快速了解某部专著在学界受到的赞誉与方法论批评（辅助 `dialectic-auditor` 定位学术争鸣点，但不能替代阅读原书）。
+2. **H-Russia / H-Net Reviews (`https://networks.h-net.org/h-russia`)**：欧美俄国史学界权威长篇学术书评库，适合快速了解某部专著在学界受到的赞誉与方法论批评（辅助 `dialectic-auditor` 定位学术争鸣点，但不能替代阅读原书）。2026-11-23 实测：旧版书评页 `https://www.h-net.org/reviews/showrev.php` 与 `networks.h-net.org` 上的 H-Diplo 圆桌讨论页均返回完整 HTML 正文（正文在 `p.revtext` / `div.field--name-body`；灰色购书条不是正文）。
 3. **Russia's Great War and Revolution (`https://russiasgreatwar.org/`)**：国际学者合作项目，聚焦 1914–1922 帝国危机、一战与内战连续统研究。
+
+## 二附、本轮实测畅通的具名学者专栏与转载全文（2026-11-23）
+
+下列站点在本轮直接返回完整正文（HTTP 200，无验证码、人机验证）。`polit.ru` 两篇达维多夫讲座页返回 Cloudflare「Just a moment...」（403），未列入。
+
+1. **Скепсис (`https://scepsis.net/`)**：俄文史学文库。本轮 `library/id_3790.html`（Колоницкий《Плохо организованный голод》，页面编码 windows-1251）全文可读。
+2. **Гефтер (`https://gefter.ru/`)**：米哈伊尔·格夫特尔网站的具名史家专栏。本轮 Хлевнюк 2013-06-26 长文全文可读。
+3. **爱思想 (`https://www.aisixiang.com/`)**：中文转载门户。本轮郑异凡、沈志华、闻一、张广翔、左凤荣、姚海各篇 `div.article-content` 为完整正文；「文章来源」行在正文容器之外，入库时写入 `edition_note`。
+4. **Эхо Москвы 开放档案 (`https://echofm.online/`)**：广播逐字稿。本轮舒宾谈马赫诺的「Цена революции」（2014-10-26）全文可读；播放器、日期条与 MP3「Скачать」不是正文。
 
 ## 三、抓取入库规范
 凡从上述网站抓取全文存入 `sources/web-archive/` 时，必须在文件顶部附上 YAML Frontmatter：

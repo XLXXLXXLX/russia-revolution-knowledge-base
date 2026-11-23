@@ -10,10 +10,10 @@ dates:
   start_ns: "1928-10-01" # 1928年秋冬收购危机再爆发后推广
   end_ns: "1929-12-31" # 1929年底向全盘集体化跃迁后作为独立政策标签逐渐让位于集体农庄强征
 coverage_status: multi-perspective
-perspectives_present: ["peasant-social-lewin", "biographical-ideological-kotkin", "grain-crisis-synthesis"]
-perspectives_missing: ["siberian-local-archive-quantitative"]
+perspectives_present: ["peasant-social-lewin", "biographical-ideological-kotkin", "grain-crisis-synthesis", "post-soviet-archival"]
+perspectives_missing: ["regional-ukraine-north-caucasus-comparison"]
 related_debates: ["DEB-1928-bukharin-alternative", "DEB-collectivization-and-kulak-question"]
-updated_at: "2026-11-18"
+updated_at: "2026-11-23"
 ---
 
 ## [T1] 60秒定性微摘要
@@ -23,10 +23,10 @@ updated_at: "2026-11-18"
 
 ### 2.1 核心历史脉络
 - **1928年初第107条非常措施前史（1928.01–07）**：斯大林西伯利亚之行动用 **苏俄刑法第107条**（反投机）没收余粮、关闭集市，被布哈林右派斥为军事封建剥削（`CLM-kotkin-2014-siberian-grain-turn`, `EVT-1928-grain-procurement-crisis`）。`1928-07` 全会斯大林口头承诺克制非常措施。
-- **“乌拉尔—西伯利亚方法”定型（1928.10–1929.06）**：
-  - 因1928年减产与乌克兰收购暴跌，当局少直接动用第107条，改将措施包装为“有贫中农支持的自下而上压力”（`CLM-lewin-peasants-1968-ural-siberian-method`）。
-  - 法令规定全村交粮额由 **村社会（village society / skhod）** “民主决定”，因无出席法定人数（quorum），地方官员、党支部与贫农小组即可代行全村表决通过中央超额指标（Lewin p. 387）。
-  - 配套：**合作社断供**紧缺品；`1929-04` 授权 **五倍粮食罚款（pyatikratka）**；`1929-06` 修订 **刑法第61条第3款**，将拒交村社会“自愿”承担的任务定为最重两年监禁、没收与流放（Lewin pp. 389–390）。
+- **“乌拉尔—西伯利亚方法”定型与分步加码（1928.10–1929.06）**：
+  - 因1928年减产与乌克兰收购暴跌，当局少直接动用第107条，改包装为“有贫中农支持的自下而上压力”（`CLM-lewin-peasants-1968-ural-siberian-method`）。
+  - `1929-03-20`（3月20日）政治局正式批准以**村社会（`сход`）**“贫中农自我摊派”为核心的乌拉尔—西伯利亚方法（尚未写入五倍罚款）；因无法定出席人数（quorum），地方官员、党支部与贫农小组即可代行表决超额指标（Lewin p. 387）。
+  - 配套分步升级：**合作社断供**紧缺品；**五倍罚款（`пятикратка`）**继后追加（西伯利亚约 `1929-04-10` 起执行，`1929-04-28` 全俄中执委授权）；`1929-06` 增补**刑法第61条第3款**，将拒交摊派定为最重两年监禁、没收与流放（Lewin pp. 389–390; `CLM-tragedy-village-v1-1927-1929-emergency-measures-and-peasant-terror`）。
 - **失灵与集体化跃迁（1929.07–12）**：虽清洗82%村苏维埃主席并引发怠交（`volynka`）， **1928–29 收购总量仍比上年减20%**（Lewin p. 395）。莫斯科干部痛斥强臂手段无效，僵局推动1929年底全盘集体化决策（Kotkin 强调意识形态—阶级死结与此并行）（`CLM-kotkin-2014-siberian-grain-turn`）。
 
 ### 2.2 时效关系摘要边表（Typed & Temporalized Edges）

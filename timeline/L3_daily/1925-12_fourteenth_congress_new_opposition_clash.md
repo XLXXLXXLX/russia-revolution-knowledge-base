@@ -1,6 +1,6 @@
 # L3 显微时间线：1925 年十四大新反对派摊牌与列宁格勒地盘清算
 
-> 编排角色：chronicle-weaver；状态：**W24 正式微距编年**（对应主台账 [`events_ledger.jsonl`](../events_ledger.jsonl) 之 `TL-W24-1925-*` / `TL-W24-1926-*`）。覆盖 **1925-12-15 [N.S.]** 至 **1926-01-08 [N.S.]**（大会本体 **12-18—12-31**，尾声延至元旦后中央改组与列宁格勒接管）。**日历规则**：1925 年起本卷全部使用改历后格里高利公历，`date_os: null`。挂载 [`MTG-1925-12-14th-party-congress`](../../cards/meetings/MTG-1925-12-14th-party-congress.md)、[`DEB-1924-socialism-in-one-country`](../../historiography/debates/DEB-1924-socialism-in-one-country.md)、[`CON-state-capitalism`](../../cards/concepts/CON-state-capitalism.md)。
+> 状态：**W24 正式微距编年**（对应主台账 [`events_ledger.jsonl`](../events_ledger.jsonl) 之 `TL-W24-1925-*` / `TL-W24-1926-*`）。覆盖 **1925-12-15 [N.S.]** 至 **1926-01-08 [N.S.]**（大会本体 **12-18—12-31**，尾声延至元旦后中央改组与列宁格勒接管）。**日历规则**：1925 年起本卷全部使用改历后格里高利公历，`date_os: null`。挂载 [`MTG-1925-12-14th-party-congress`](../../cards/meetings/MTG-1925-12-14th-party-congress.md)、[`DEB-1924-socialism-in-one-country`](../../historiography/debates/DEB-1924-socialism-in-one-country.md)、[`CON-state-capitalism`](../../cards/concepts/CON-state-capitalism.md)。
 
 ## [T1] 60秒定性微摘要
 

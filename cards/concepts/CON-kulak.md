@@ -52,7 +52,7 @@ updated_at: "2026-11-18"
   - **制度升级**：1928–1929年冬发展为绕开法定人数限制、由贫农大会向“上层农户”强行摊派的“乌拉尔—西伯利亚方法”（`POL-ural-siberian-method`），1929年4月与6月更追加“五倍罚金”（пятикратка）与刑法第61条第3款苦役流放条款——任何未能完成摊派的中农皆可按政治态度被贴上“富农”或“富农帮凶/亚富农”（подкулачник）标签。
 
 - **裂变 5｜1929年12月–1930年1月（断代延伸）：雅科夫列夫委员会与“把富农作为阶级消灭”**
-  - **场合**：`MTG-1929-11-cc-plenum` 后的政治局雅科夫列夫委员会（`1929-12-05` 设立）与斯大林 `1929-12-27` 在马克思主义土地问题专家代表会议上的演说（`CLM-tragedy-village-1929-politburo-dekulakization-commission`, `CLM-davies-1980-november-plenum-to-dekulakization`）。
+  - **场合**：联共（布）1929年11月中央全会（`MTG-1929-11-cc-plenum`） 后的政治局雅科夫列夫委员会（`1929-12-05` 设立）与斯大林 `1929-12-27` 在马克思主义土地问题专家代表会议上的演说（`CLM-tragedy-village-1929-politburo-dekulakization-commission`, `CLM-davies-1980-november-plenum-to-dekulakization`）。
   - **决策突变**：1929年12月8日鲍曼（K. Ya. Bauman）小组与12月18日雅科夫列夫委员会一致通过的妥协草案，虽将反抗分子与富裕上层划归逮捕和迁徙，仍主张把全国约五六百万富农人口中的**大多数就地吸收进集体农庄**作为无表决权劳动力经受3–5年考验。12月25日斯大林致莫洛托夫便条断然否决该草案；**12月27日**斯大林公开宣布从此前“限制和排挤富农”转向 **“把富农作为阶级消灭”（ликвидация кулачества как класса）**，明令禁止富农加入集体农庄（本库演说文本见 `sources/web-archive/E01_E10_supplements/1929-12-27_stalin-agrarian-marxists-speech-dekulakization.md`；委员会过程另据 Davies pp. 197–198）。1930年1月4–5日政治局删去保障条款，1月30日正式确立按地区比例配额执行的第一类（立即关押集中营或处决）、第二类（举家流放北方/乌拉尔/西伯利亚/哈萨克）、第三类（本区内迁出集体农庄土地）三级“去富农化”（раскулачивание）机器。
   - **社会灾难与概念彻底失真**：农村爆发绝望的牲畜大宰杀与变卖家产逃往城市工矿的“自我去富农化”（самораскулачивание）；OGPU 内部档案自身承认基层为凑齐配额大肆扩捕——如中央黑土区安年斯克区被捕144人中，贫农与中农竟占约 **80%**（`CLM-tragedy-village-1929-peasant-self-liquidation-and-flight`）。这一跨年案例表明行政标签扩张殃及贫中农；它不能单独排除农村实际存在经济不平等。
 
@@ -80,7 +80,7 @@ updated_at: "2026-11-18"
 - **[剑桥经济—制度史派 / E. H. Carr, R. W. Davies]**（`CLM-carr-davies-1969-nemchinov-table-critique`, `CLM-davies-1980-november-plenum-to-dekulakization`）：细致拆解斯大林引用的涅姆钦诺夫表，指出将战前与1926/27年商品率下降简单归咎于“村社均分”，掩盖了工业品价格剪刀差、畜产品相对高价与农民自身消费改善等市场激励因素；同时复原1929年11–12月从行政冒进到斯大林拍板“作为阶级消灭”的逐周决策升级链。
 - **[后苏联俄罗斯档案学派 / V. P. Danilov 等编《俄罗斯农村的悲剧》、Yu. Zhukov]**（`CLM-tragedy-village-1929-politburo-dekulakization-commission`, `CLM-tragedy-village-1929-peasant-self-liquidation-and-flight`, `RN-W10`）：以政治局绝密档案与 OGPU 农村报告实证展示：一方面1925年放宽政策后局部地区确有富裕农户囤粮待价（Zhukov 视角），另一方面1929–1930年“去富农化”实为一场自上而下强加给全体农民的国家战争，引发“自我去富农化”逃亡潮与安年区跨年报告所记被捕者中约80%为贫中农的基层失控。
 - **[布哈林替代方案论 / Stephen F. Cohen]**（`sources/monographs/cohen_1973_bukharin/ch06, ch09`; `DEB-1928-bukharin-alternative`）：将1928–1929年反富农非常措施视为对列宁晚期《论合作社》渐进道路的人为中断；“富农危险”被斯大林用作先剽窃左翼纲领、再把布哈林派污名化为“富农代理人”的派系武器。
-- **[地缘—结构悖论与恐惧动员论 / Stephen Kotkin, Olga Velikanova]**（参 `EVT-1928-grain-procurement-crisis`, `POL-ural-siberian-method`）：Kotkin 指出“NEP若成功（农民积累消费）就必然在布尔什维克工业化目标面前失败”，斯大林在无外债条件下将小农经济本身视为地缘生存障碍；Velikanova 则强调1927年战争恐慌与 OGPU 情报回音室强化了高层“战时富农背叛”的灾难想象。
+- **[地缘—结构悖论与恐惧动员论 / Stephen Kotkin, Olga Velikanova]**（参 `EVT-1928-grain-procurement-crisis`, 乌拉尔—西伯利亚方法（`POL-ural-siberian-method`））：Kotkin 指出“NEP若成功（农民积累消费）就必然在布尔什维克工业化目标面前失败”，斯大林在无外债条件下将小农经济本身视为地缘生存障碍；Velikanova 则强调1927年战争恐慌与 OGPU 情报回音室强化了高层“战时富农背叛”的灾难想象。
 
 ## [T3] 原文引证、语义漂移对照与反讽引述警示
 

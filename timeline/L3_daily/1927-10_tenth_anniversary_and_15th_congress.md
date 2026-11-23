@@ -1,6 +1,6 @@
 # L3 显微时间线：1927年十周年、十五大与联合反对派败局
 
-> W15候选编年；主体1927年9—12月，尾声延至1928-01-15的供应调拨窗口，共18个日格/窗口。全卷使用改革后的格里高利公历 [N.S.]，候选 date_os 一律为 null。对应[候选账本](_w15_candidate_events.jsonl)、[L1骨干](../L1_milestones/1861-1929_backbone.md)、[E09脉络卷](../L2_chronicles/E09_1923-1927_succession_and_left_opposition.md)与[E10购粮危机卷](../L2_chronicles/E10_1927-1929_grain_crisis_and_bukharin_defeat.md)。
+> W15候选编年；主体1927年9—12月，尾声延至1928-01-15的供应调拨窗口，共18个日格/窗口。全卷使用改革后的格里高利公历 [N.S.]，候选 date_os 一律为 null。对应主台账（`events_ledger.jsonl`）、[L1骨干](../L1_milestones/1861-1929_backbone.md)、[E09脉络卷](../L2_chronicles/E09_1923-1927_succession_and_left_opposition.md)与[E10购粮危机卷](../L2_chronicles/E10_1927-1929_grain_crisis_and_bukharin_defeat.md)。
 
 ## [T1] 60秒定性微摘要
 

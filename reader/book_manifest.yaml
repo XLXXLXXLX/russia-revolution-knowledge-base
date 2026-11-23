@@ -47,6 +47,7 @@ chapters:
       - "timeline/L3_daily/1881-03_march_first_assassination.md"
       - "historiography/debates/DEB-1879-narodnaya-volya-to-bolshevism.md"
       - "reading-notes/late_imperial_fiscal_and_haimson/RN-W61-kotsonis-hoch-plaggenborg-burbank-haimson.md"
+      - "data/DATA-01-1905-1917-strikes-and-petrograd-elections.md"
     section_plan:
       - heading: "一、1861 年大改革的制度设计与赎买账本"
         weight: "25%"
@@ -193,7 +194,7 @@ chapters:
   - id: "ch05"
     part: "P2"
     number: "第五章"
-    title: "总体战的重压与沙皇政权的瓦解（1914–1917.02）"
+    title: "总体战的重压与沙皇政权的瓦解（1914.08–1917.03）"
     file: "reader/ch05_total_war_and_february_collapse.md"
     era: "1914.08–1917.03"
     target_zh_chars: 9500
@@ -317,7 +318,7 @@ chapters:
     number: "第八章"
     title: "解散立宪会议、布列斯特喘息与红白内战（1918–1920）"
     file: "reader/ch08_constituent_assembly_brest_and_civil_war.md"
-    era: "1918.01–1920.11"
+    era: "1917.12–1920.11"
     target_zh_chars: 10000
     pack_cards:
       - "EVT-1918-01-constituent-assembly-dispersal"
@@ -327,12 +328,17 @@ chapters:
       - "EVT-1918-1920-russian-civil-war"
       - "INS-rkka-red-army-and-rvr"
       - "DEB-1918-constituent-assembly-and-soviet-democracy"
+      - "DEB-1918-red-terror-and-civil-war-origins"
+      - "DEB-1918-democratic-counterrevolution-third-force"
+      - "DEB-1920-polish-war-and-revolutionary-export"
     reference_files:
       - "timeline/L2_chronicles/E07_1917-1921_civil_war_and_war_communism.md"
       - "timeline/L3_daily/1918-01_constituent_assembly_and_brest_crisis.md"
       - "timeline/L3_daily/1918-07_left_sr_uprising_and_red_terror_launch.md"
       - "timeline/L3_daily/1919-10_civil_war_southern_and_petrograd_climax.md"
       - "data/DATA-07-1905-1918-unions-moscow-swings-and-constituent-assembly-votes.md"
+      - "data/DATA-05-1917-1920-factory-demographics-and-civil-war-forces.md"
+      - "data/DATA-06-1918-1929-cheka-ogpu-sentencing-and-1929-collectivization-surge.md"
     section_plan:
       - heading: "一、陶立达宫的最后一夜：普选制宪法统与阶级苏维埃的对撞"
         weight: "20%"
@@ -358,7 +364,7 @@ chapters:
     number: "第九章"
     title: "战时共产主义、农民战争与喀琅施塔得冰面上的转折（1918–1921.03）"
     file: "reader/ch09_war_communism_and_kronstadt_turn.md"
-    era: "1918.05–1921.03"
+    era: "1917.11–1921.03"
     target_zh_chars: 9800
     pack_cards:
       - "POL-war-communism"
@@ -375,6 +381,8 @@ chapters:
       - "timeline/L3_daily/1921-03_kronstadt_and_10th_congress.md"
       - "reading-notes/kronstadt_and_early_party_state/RN-W61-getzler-holquist-duval-oppenheim-rigby.md"
       - "data/DATA-04-party-membership-and-congress-votes-1903-1929.md"
+      - "historiography/debates/DEB-1918-working-class-and-bolsheviks.md"
+      - "data/DATA-05-1917-1920-factory-demographics-and-civil-war-forces.md"
     section_plan:
       - heading: "一、从车间监督到总局统制：战时共产主义的成形与内在悖论"
         weight: "25%"
@@ -417,11 +425,13 @@ chapters:
       - "EVT-1922-georgian-affair-and-ussr-formation"
       - "PER-lenin"
       - "DEB-1922-lenin-testament-and-stalin-rise"
+      - "DEB-1923-nationality-and-empire"
     reference_files:
       - "timeline/L2_chronicles/E08_1921-1924_nep_and_lenins_last_struggle.md"
       - "timeline/L3_daily/1922-12_lenins_last_struggle_diary.md"
       - "timeline/L3_daily/1923-10_scissors_and_new_course_crisis.md"
       - "data/DATA-02-1922-1924-scissors-crisis-and-chervonets.md"
+      - "historiography/debates/DEB-1923-nationality-and-empire.md"
     section_plan:
       - heading: "一、饥荒阴影下的分步退却：实物税、耐普曼与政治大审判"
         weight: "25%"
@@ -534,13 +544,17 @@ chapters:
     pack_cards:
       - "EVT-1928-grain-procurement-crisis"
       - "EVT-1928-shakhty-affair-show-trial"
+      - "MTG-1928-04-cc-joint-plenum"
       - "MTG-1928-07-cc-plenum"
       - "PER-bukharin"
       - "PER-uglanov"
       - "MTG-1928-11-cc-plenum"
       - "MTG-1929-04-cc-joint-plenum"
+      - "POL-ural-siberian-method"
     reference_files:
       - "historiography/debates/DEB-1928-bukharin-alternative.md"
+      - "historiography/debates/DEB-1928-shakhty-specialist-baiting-and-cultural-revolution.md"
+      - "cards/policies/POL-ural-siberian-method.md"
       - "timeline/L3_daily/1928-01_siberian_grain_expedition_and_shakhty_affair.md"
       - "timeline/L3_daily/1928-1929_bukharin_stalin_final_showdown.md"
       - "reading-notes/kak_lomali_nep_1928_1929_plenums/RN-W61-july1928-april1929-nov1929-stenograms.md"

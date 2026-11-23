@@ -1,6 +1,6 @@
 # L3 显微时间线：1923年剪刀差与《新方针》危机
 
-> W15候选编年；范围1923年9月—1924年1月，17个证据支持的日格/窗口。所有日期均为改革后的格里高利公历 [N.S.]，候选 date_os 一律为 null。没有史料支持的日子留空，不制造逐日连续性。对应[候选账本](_w15_candidate_events.jsonl)、[L1骨干](../L1_milestones/1861-1929_backbone.md)、[E09脉络卷](../L2_chronicles/E09_1923-1927_succession_and_left_opposition.md)，并与[E08](../L2_chronicles/E08_1921-1924_nep_and_lenins_last_struggle.md)交叠。
+> W15候选编年；范围1923年9月—1924年1月，17个证据支持的日格/窗口。所有日期均为改革后的格里高利公历 [N.S.]，候选 date_os 一律为 null。没有史料支持的日子留空，不制造逐日连续性。对应主台账（`events_ledger.jsonl`）、[L1骨干](../L1_milestones/1861-1929_backbone.md)、[E09脉络卷](../L2_chronicles/E09_1923-1927_succession_and_left_opposition.md)，并与[E08](../L2_chronicles/E08_1921-1924_nep_and_lenins_last_struggle.md)交叠。
 
 ## [T1] 60秒定性微摘要
 

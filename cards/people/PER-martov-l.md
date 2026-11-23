@@ -44,7 +44,7 @@ updated_at: "2026-11-18"
 - **主要解释分歧**：
   - **[政治传记实证派 / Israel Getzler]** (`CLM-getzler-1967-martov-1903-clause-one`, `CLM-getzler-1967-martov-1917-internationalism`, `CLM-getzler-1967-martov-soviet-opposition`)：肯定马尔托夫1903年捍卫广义工人自治政党观与1918–1920年苏维埃体制内合法抗争的道德高度，但犀利指出1917年他迟疑于脱离护国派主流，将其“半吊子措施”困在党内反对位置，把激进化群众的红利拱手让予布尔什维克。
   - **[孟什维克社会与组织衰变史 / Ziva Galili, John D. Basil]** (`CLM-galili-1989-menshevik-worker-alienation`, `CLM-basil-1984-menshevik-three-way-paralysis`, `CLM-basil-1984-october-and-vikzhel-collapse`)：加利利揭示马尔托夫1917年7月4日夜“清一色社会主义政府”构想实乃弥合彼得格勒五金工人与苏维埃决裂的最后契机，却遭沉浸于 `gosudarstvennost'`（国家责任感）的策烈铁里、但扼杀；巴兹尔则勾勒十月前后孟什维克“四派—三极”组织瘫痪如何锁死了马尔托夫的一切操作空间。
-  - **[现场目击与事后懊悔证词 / N. N. Sukhanov, Leon Trotsky]** (`CLM-sukhanov-1922-october-walkout-tragedy`, Getzler p. 240)：苏汉诺夫（B级当事人证词）既拒绝把十月写成本质脱离工兵的纯阴谋，又将 `1917-10-25 [O.S.]` 未能违抗马尔托夫 `~14:12` 退场决定痛悔为“最大且无法抹去的罪过”；托洛茨基则既是现场将退场者扫入“历史垃圾箱”的对手，又是流亡后将其评为“缺乏意志发条的民主社会主义哈姆雷特”的史家。
+  - **[现场目击与事后懊悔证词 / N. N. Sukhanov, Leon Trotsky]** (`CLM-sukhanov-1922-october-walkout-tragedy`, Getzler p. 240)：苏汉诺夫（B级当事人证词）既拒绝把十月写成本质脱离工兵的纯阴谋，又将 `1917-10-25 [O.S.] / 1917-11-07 [N.S.]` 未能违抗马尔托夫 `~14:12` 退场决定痛悔为“最大且无法抹去的罪过”；托洛茨基则既是现场将退场者扫入“历史垃圾箱”的对手，又是流亡后将其评为“缺乏意志发条的民主社会主义哈姆雷特”的史家。
   - **[后苏联解密档案工人抗议研究 / Dmitry Churakov]** (`CLM-churakov-2004-factory-plenipotentiaries-movement`, `CLM-churakov-2004-soviet-worker-protest-dynamics-1918`)：借助 ЦА ФСБ РФ 侦讯档重估1918年工人抗议规模与孟什维克角色——一方面打破“全城三分之二工人追随全权代表会议”的流亡神话，另一方面揭示孟什维克既暗中协调议程又努力把失控的“饥饿暴动”拉回组织化轨道的双重张力。
   - **[1920哈雷辩论现代编校派 / Ben Lewis, Lars T. Lih]**（`CLM-halle-1920-martov-critique-of-terror-and-21-conditions` 语境注释）：Lih 敏锐注意到马尔托夫1920年哈雷演讲对“官僚专政”与“俄国不能自愈”的诊断预示了日后“早熟的托洛茨基主义”，唯其将蜕化起点提前至大战与一党专政初期；Lewis 则在肯定马尔托夫对莫斯科独裁体制预见力之余，冷峻指出战后欧陆“第三条道路”在社会民主主义改良与布尔什维主义夹缝中的历史性失败。
 

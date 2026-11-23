@@ -1,5 +1,8 @@
 id: SRC-psr-study-1901-1925-zh
 directory_name: psr_study_1901_1925_zh
+language: "zh"
+author: "解国良"
+title: "俄国社会革命党研究（1901–1925）"
 needs_ocr: false
 note: 标题页为解国良《A Study of the Russian Social Revolutionary Party, 1901–1925》。440 页已逐页 OCR。未把《锤击镰刀》写入本书。
 source_file: C:\Users\lsaax\.t3\projects\russian-revolution-knowledge-base\inbox\俄国社会革命党研究1901-1925.pdf

@@ -24,7 +24,7 @@ updated_at: "2026-11-18"
 ### 2.1 核心历史脉络
 - **派别分立（1903–1916）**：二大第一条表决中列宁草案被否决、马尔托夫案通过（`WEB-1903-08-02-rsdlp-rules-p1`，俄历08-02 / 公历08-15）；其后中央机构选举中的多数使“布尔什维克”之名出现（`MTG-1903-rsdlp-2nd-congress`）。多数与少数并非此后永久不变的社会集团。
 - **布拉格会议（1912）**：列宁派召集并选出中央委员会、排斥取消派（`MTG-1912-01-prague-conference`），但其对全党的代表性遭对手争议，自称不等于共识。
-- **群众党与内部争论（1917）**：党员数的通行说法为二月前后约2.4万、十月前后约35万，但该数字未入库一手出处，只作量级（见下表）。Rabinowitch 对彼得格勒的研究强调地方委员会、军事组织及新党员相对开放的参与，党内对临时政府、起义时机与社会主义联合政府均有分歧（`CLM-rabinowitch-1976-open-democratic-mass-party`；`CLM-rabinowitch-1976-october-three-factions-debate`；`MTG-1917-04-7th-april-party-conference`；`MTG-1917-07-rsdlp-6th-congress`）。地方证据不宜推广为全国均一状况。
+- **群众党与内部争论（1917）**：党员数的通行说法为二月前后约2.4万、十月前后约35万，但该数字未入库一手出处，只作量级（见下表）。Rabinowitch 对彼得格勒的研究强调地方委员会、军事组织及新党员相对开放的参与，党内对临时政府、起义时机与社会主义联合政府均有分歧（`CLM-rabinowitch-1976-open-democratic-mass-party`；`CLM-rabinowitch-1976-october-three-factions-debate`；俄国社会民主工党（布尔什维克）第七次全国代表会议（四月会议）（`MTG-1917-04-7th-april-party-conference`）；俄国社会民主工党（布尔什维克）第六次代表大会（`MTG-1917-07-rsdlp-6th-congress`））。地方证据不宜推广为全国均一状况。
 - **党员数口径并列**：
 
 | 时点 | 范围 | 数字 | 口径 / 来源 |
@@ -36,9 +36,9 @@ updated_at: "2026-11-18"
 | 1917 → 1918 | 彼得格勒 | 约5万 → 约6千 | Rabinowitch 2007 转引 Strumilin 统计（`RN-W2-first-year-soviet-rule`，pp. 390–401；参 `PER-strumilin`） |
 
   最后两行时段与统计口径是否同一，库内尚未调和，只能并列，不得相减或合并成单一“萎缩比例”。
-- **执政、布列斯特与内战（1918–1920）**：1918年围绕布列斯特和约形成最大的党内分裂，左派共产主义者主张革命战争（`ORG-left-communists-1918`；`EVT-1918-03-brest-litovsk-treaty`；`CLM-daniels-1960-left-communists-1918`）。1918年3月七大更名俄国共产党（布尔什维克）。内战、经济崩溃与军政动员促使集中指挥与干部委派扩张；老工人党员进入军队与行政机关，基层社会基础也受饥荒与迁移冲击。Rabinowitch 认为危机及应对而非预定蓝图对转变至关重要（`RN-W2-first-year-soviet-rule`）；Carr 则把党、苏维埃与国家三者关系的重组视为制度主线（`RN-W35-carr-lenin-party-instrument-and-soviet-constitution-1917-1923`；`RN-W23-carr-party-state-constitution-and-economic-order-1917-1923`；`INS-sovnarkom-and-vtsik`）。列宁1918年5月对“左派幼稚病”的批评见 `sources/web-archive/W32_milestone_docs/1918-05_lenin-left-wing-childishness-state-capitalism.md`。意识形态、强制选择与地方差异仍须单独考察。
-- **统一规则与党员再造（1921–1925）**：1921-03-16十大通过《关于党的统一》（`WEB-1921-03-16-on-party-unity`，含秘密第7条），全国表决为336:50:18（见 `ORG-workers-opposition` 所引 `CLM-daniels-1960-tenth-congress-turning-point`）；`POL-ban-on-factions-1921` 要求解散派别，清党与党员审查并行。规则未立即消灭党内争论，却为以后的制裁提供重要工具。1924年列宁逝世后的“列宁号召”吸收数十万新党员，工人比例名义上提高，新老党员经验差距也扩大；新党员并非整齐一致的选票集团。1925年十四大更名全联盟共产党（布尔什维克）。
-- **权力集中与1929观察截点**：书记处的任命、纪律与代表产生机制同政策联盟共同塑造权力；1927年左翼反对派遭排斥（`ORG-left-and-united-opposition`；`PER-stalin`），1928–1929年布哈林、李可夫、托姆斯基的反对逐步失败。赫列夫纽克强调任命权、联盟与对手失误共同侵蚀集体领导（`RN-W3-politburo-apparatus-and-1929-victory`）。不能说1929年一切制度已定型，也不能把后来结局倒推为必然。
+- **执政、布列斯特与内战（1918–1920）**：1918年围绕布列斯特和约形成最大的党内分裂，左派共产主义者主张革命战争（`ORG-left-communists-1918`；`EVT-1918-03-brest-litovsk-treaty`；`CLM-daniels-1960-left-communists-1918`）。1918年3月七大更名俄国共产党（布尔什维克）。内战、经济崩溃与军政动员促使集中指挥与干部委派扩张；老工人党员进入军队与行政机关，基层社会基础也受饥荒与迁移冲击。Rabinowitch 认为危机及应对而非预定蓝图对转变至关重要（`RN-W2-first-year-soviet-rule`）；Carr 则把党、苏维埃与国家三者关系的重组视为制度主线（`RN-W35-carr-lenin-party-instrument-and-soviet-constitution-1917-1923`；`RN-W23-carr-party-state-constitution-and-economic-order-1917-1923`；人民委员会与全俄中执委（`INS-sovnarkom-and-vtsik`））。列宁1918年5月对“左派幼稚病”的批评见 `sources/web-archive/W32_milestone_docs/1918-05_lenin-left-wing-childishness-state-capitalism.md`。意识形态、强制选择与地方差异仍须单独考察。
+- **统一规则与党员再造（1921–1925）**：1921-03-16十大通过《关于党的统一》（`WEB-1921-03-16-on-party-unity`，含秘密第7条），全国表决为336:50:18（见 `ORG-workers-opposition` 所引 `CLM-daniels-1960-tenth-congress-turning-point`）；《关于党的统一》派别禁令（`POL-ban-on-factions-1921`） 要求解散派别，清党与党员审查并行。规则未立即消灭党内争论，却为以后的制裁提供重要工具。1924年列宁逝世后的“列宁号召”吸收数十万新党员，工人比例名义上提高，新老党员经验差距也扩大；新党员并非整齐一致的选票集团。1925年十四大更名全联盟共产党（布尔什维克）。
+- **权力集中与1929观察截点**：书记处的任命、纪律与代表产生机制同政策联盟共同塑造权力；1927年左翼反对派遭排斥（`ORG-left-and-united-opposition`；约瑟夫·斯大林（`PER-stalin`）），1928–1929年布哈林、李可夫、托姆斯基的反对逐步失败。赫列夫纽克强调任命权、联盟与对手失误共同侵蚀集体领导（`RN-W3-politburo-apparatus-and-1929-victory`）。不能说1929年一切制度已定型，也不能把后来结局倒推为必然。
 
 ### 2.2 时效关系摘要边表
 | 关联节点 ID | 关系类型 | 有效时段 | 关系实质 | 依据 |

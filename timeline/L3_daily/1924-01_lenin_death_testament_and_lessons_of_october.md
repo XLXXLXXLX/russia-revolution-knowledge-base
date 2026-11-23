@@ -1,6 +1,6 @@
 # L3 显微时间线：列宁逝世、“遗嘱”压制与《十月的教训》大转向（1924—1925）
 
-> 编排角色：chronicle-weaver；状态：**W36 显微编年**（对应账本 [`_w36_1924_events.jsonl`](_w36_1924_events.jsonl)、[L1 骨干](../L1_milestones/1861-1929_backbone.md)、[E09 脉络卷](../L2_chronicles/E09_1923-1927_succession_and_left_opposition.md)）。上承 [1923 年剪刀差与《新方针》危机](1923-10_scissors_and_new_course_crisis.md)，下启 [1925 年十四大新反对派摊牌](1925-12_fourteenth_congress_new_opposition_clash.md)。**范围**：**1924-01-16 [N.S.]** 至 **1925-01-17 [N.S.]**。**日历规则**：苏俄/苏联已于 1918 年 2 月改历，全卷均为纯格里高利公历 `[N.S.]`，`date_os` 一律为 `null`。挂载 [`MTG-1924-05-13th-party-congress`](../../cards/meetings/MTG-1924-05-13th-party-congress.md)、[`CON-socialism-in-one-country`](../../cards/concepts/CON-socialism-in-one-country.md)、[`DEB-1922-lenin-testament-and-stalin-rise`](../../historiography/debates/DEB-1922-lenin-testament-and-stalin-rise.md)、[`DEB-1924-socialism-in-one-country`](../../historiography/debates/DEB-1924-socialism-in-one-country.md)。
+> 状态：**W36 显微编年**。上承 [1923 年剪刀差与《新方针》危机](1923-10_scissors_and_new_course_crisis.md)，下启 [1925 年十四大新反对派摊牌](1925-12_fourteenth_congress_new_opposition_clash.md)。**范围**：**1924-01-16 [N.S.]** 至 **1925-01-17 [N.S.]**。**日历规则**：苏俄/苏联已于 1918 年 2 月改历，全卷均为纯格里高利公历 `[N.S.]`，`date_os` 一律为 `null`。挂载 [`MTG-1924-05-13th-party-congress`](../../cards/meetings/MTG-1924-05-13th-party-congress.md)、[`CON-socialism-in-one-country`](../../cards/concepts/CON-socialism-in-one-country.md)、[`DEB-1922-lenin-testament-and-stalin-rise`](../../historiography/debates/DEB-1922-lenin-testament-and-stalin-rise.md)、[`DEB-1924-socialism-in-one-country`](../../historiography/debates/DEB-1924-socialism-in-one-country.md)。
 
 ## [T1] 60秒定性微摘要
 
@@ -9,7 +9,7 @@
 ## 编年与证据约定
 
 - **单历制度**：本卷覆盖 1924—1925 年，全数使用 `[N.S.]`（`date_os: null`），不设俄历对照栏。
-- **既有台账衔接边界**：[1923-10 L3 卷](1923-10_scissors_and_new_course_crisis.md)已设 `TL-W15-L3-23-15`（十三次代表会议开幕）、`TL-W15-L3-23-16`（谴责反对派）、`TL-W15-L3-23-17`（列宁逝世），[E09 脉络卷](../L2_chronicles/E09_1923-1927_succession_and_left_opposition.md)另载 `TL-W4-E09-1924-01/02/03`。本卷在微距上完整贯通 1924 年 1 月至 1925 年 1 月的细粒度链条，并在 [`_w36_1924_events.jsonl`](_w36_1924_events.jsonl) 中标明与上述既有条目的并表衔接而不篡改共享主账。
+- **既有台账衔接边界**：[1923-10 L3 卷](1923-10_scissors_and_new_course_crisis.md)已设 `TL-W15-L3-23-15`（十三次代表会议开幕）、`TL-W15-L3-23-16`（谴责反对派）、`TL-W15-L3-23-17`（列宁逝世），[E09 脉络卷](../L2_chronicles/E09_1923-1927_succession_and_left_opposition.md)另载 `TL-W4-E09-1924-01/02/03`。本卷在微距上完整贯通 1924 年 1 月至 1925 年 1 月的细粒度链条，并在 主台账（`events_ledger.jsonl`） 中标明与上述既有条目的并表衔接而不篡改共享主账。
 - **史料层级自觉**：严格区分**同时代档案/报刊**（政治局与全会速记/决议、`1922-12` 遗嘱原件、`1924-04` 与 `1924-12` 斯大林原版文本）、**A 级档案研究**（Khlevniuk、Kotkin、Daniels、Lewin、Carr）与**B 级当事人回忆/同情传记**（托洛茨基《我的生平》、Deutscher），不把事后自辩倒填成当时动机。
 
 ---
@@ -173,7 +173,7 @@
 
 1. **避免“倒置回忆录”陷阱**：托洛茨基在《我的生平》（1929—1930）及流亡著述中对“第比利斯电报”和“主动交出军委以避波拿巴主义猜疑”的叙述带有强烈事后辩护色彩；必须与 1924 年当时政治局来往电文、贝利亚密报及托氏 05 月“党永远正确”原话对勘，不得以 1930 年记忆取代 1924 年心态。[^KT][^D10]
 2. **区分“开除军职”与“开除出党”**：1924-01-18 十三次代表会议（定性倾向）、1925-01-17 联席全会（免除军职）、1926-10（革出政治局）、1927-11（开除党籍）四步严格分隔，严禁把 1927 年结局提前写入 1924—1925 年。
-3. **本卷与既有账本的关系**：本卷产出之 [`_w36_1924_events.jsonl`](_w36_1924_events.jsonl) 为 W36 独立事件账本，未擅改共享 `events_ledger.jsonl`、`edges.jsonl` 或 `aliases.yaml`。其中 `TL-W36-1924-01-16-01`、`TL-W36-1924-01-21-01` 分别对接 `1923-10` 卷尾 `TL-W15-L3-23-15/16/17`；`TL-W36-1924-05-18-01`、`TL-W36-1924-05-23-01`、`TL-W36-1924-12-17-01` 对应 `E09` 既有宏观节点 `TL-W4-E09-1924-01/02/03`。
+3. **本卷与既有账本的关系**：本卷产出之 主台账（`events_ledger.jsonl`） 为 W36 独立事件账本，未擅改共享 `events_ledger.jsonl`、`edges.jsonl` 或 `aliases.yaml`。其中 `TL-W36-1924-01-16-01`、`TL-W36-1924-01-21-01` 分别对接 `1923-10` 卷尾 `TL-W15-L3-23-15/16/17`；`TL-W36-1924-05-18-01`、`TL-W36-1924-05-23-01`、`TL-W36-1924-12-17-01` 对应 `E09` 既有宏观节点 `TL-W4-E09-1924-01/02/03`。
 
 ### 3. 本卷文献出处（分级核对）
 

@@ -65,7 +65,7 @@ updated_at: "2026-11-18"
 ### 3.3 馆藏
 - `sources/monographs/mawdsley_1987_civil_war_zh/`（尤其 `ch09`、`ch13` 1919年南线与 `ch15`–`ch16` 1920年南线；英文版 `sources/monographs/mawdsley_1987_civil_war/`）
 - `sources/monographs/hobsbawm_1959_primitive_rebels_zh/ch06_第二章_绿林好汉.md`、`ch31_六_一个不受都市毒化的农民公社.md`、`ch32_七_农民不信任政府.md`
-- 马赫诺回忆录与契卡南线审讯卷（`CLM-*` 待 `source-extractor` 专案）
+- 马赫诺回忆录与契卡南线审讯卷（一手回忆录与南线审讯原件待补）
 
 ### 3.4 双历与地理提示
 南俄作战记录常混用公历与地方习惯；古利亚伊波列事件在1918年初策应 **布列斯特—乌克兰走廊** 撤军真空。引文页码以英/中译本 `local_source_path` 为准，乌克兰文档案日期待专案复核。

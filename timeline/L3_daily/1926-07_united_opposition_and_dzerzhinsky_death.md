@@ -1,6 +1,6 @@
 # L3 显微时间线：1926 年联合反对派成立、捷尔任斯基猝死与《六人停战声明》
 
-> 编排角色：chronicle-weaver；状态：**W25 候选编年**（对应候选台账 [`_w25_candidate_events.jsonl`](./_w25_candidate_events.jsonl)）。覆盖 **1926-06-06 [N.S.]** 至 **1926-10-16 [N.S.]**（延伸附记 10-23 追认全会）。**日历规则**：1918 年苏俄改历后本卷全部使用格里高利公历，`date_os: null`。挂载 [`ORG-left-and-united-opposition`](../../cards/organizations/ORG-left-and-united-opposition.md)、[`POL-ban-on-factions-1921`](../../cards/policies/POL-ban-on-factions-1921.md)、[`INS-politburo-orgburo-secretariat`](../../cards/institutions/INS-politburo-orgburo-secretariat.md)、[`INS-vsnkh-and-gosplan`](../../cards/institutions/INS-vsnkh-and-gosplan.md)、[`DEB-1924-socialism-in-one-country`](../../historiography/debates/DEB-1924-socialism-in-one-country.md)。
+> 状态：**W25 候选编年**。覆盖 **1926-06-06 [N.S.]** 至 **1926-10-16 [N.S.]**（延伸附记 10-23 追认全会）。**日历规则**：1918 年苏俄改历后本卷全部使用格里高利公历，`date_os: null`。挂载 [`ORG-left-and-united-opposition`](../../cards/organizations/ORG-left-and-united-opposition.md)、[`POL-ban-on-factions-1921`](../../cards/policies/POL-ban-on-factions-1921.md)、[`INS-politburo-orgburo-secretariat`](../../cards/institutions/INS-politburo-orgburo-secretariat.md)、[`INS-vsnkh-and-gosplan`](../../cards/institutions/INS-vsnkh-and-gosplan.md)、[`DEB-1924-socialism-in-one-country`](../../historiography/debates/DEB-1924-socialism-in-one-country.md)。
 
 ## [T1] 60秒定性微摘要
 
@@ -13,7 +13,7 @@
   1. **拉斯舍夫集会地点**：库内原有 L2 摘要 `TL-W4-E09-1926-07-14` 将树林集会写作“拉兹古利亚伊树林”；而茹科夫传记（[`ch22`](../../sources/monographs/zhukov_zinoviev_zh/ch22_section.md)）与阿帕尔科夫（[`ch06`](../../sources/monographs/apalkov_intra_party_struggle_zh/ch06_第2章_列宁的_继承者_part_3.md)）依苏共中央档案明确核实集会地点为莫斯科近郊**多尔戈普鲁德纳亚站（Dolgoprudnaya）附近森林**（由克拉斯纳亚普列斯尼亚区活动分子别连基、车尔尼雪夫、沙皮罗召集，因国防副人民委员拉斯舍夫到场演讲而通称为“拉斯舍夫事件”）。本卷保留与主台账的交叉提示，不越权改动 [`events_ledger.jsonl`](../events_ledger.jsonl)。
   2. **古比雪夫接任 VSNKh 日期**：[`zhukov_zinoviev_zh/ch22_section.md`](../../sources/monographs/zhukov_zinoviev_zh/ch22_section.md) 中译本有一处明显的日月颠倒笔误（误印为“4 月 8 日”），对照捷尔任斯基 7 月 20 日逝世及 [`apalkov/ch07`](../../sources/monographs/apalkov_intra_party_struggle_zh/ch07_第2章_列宁的_继承者_part_4.md) 原文，古比雪夫正式出任最高国民经济委员会主席的准确日期为 **1926 年 8 月 5 日**。
 - **本地文献 vs 外部补充核验（S 级）**：多伊彻（`ch25`）、赫列夫纽克（`RN-W3`）、丹尼尔斯（`ch11`）、阿帕尔科夫（`ch06–ch07`）、普列汉诺夫/捷尔任斯基传（`ch10`）及茹科夫（`ch22–ch23`）均为库内 **A/B 级**已读支柱；涉及**航空仪表厂（Aviapribor）具体表决票数 27:78**、红色普梯洛夫厂 **1375:25** 票数详单与《十三人声明》部分连署人名录，凡超出本地译文正文细目的部分均标为 **S 级外部史料补充核验**。
-- **主台账协调**：[`events_ledger.jsonl`](../events_ledger.jsonl) 既有的 `TL-W15-L1-E09-13`（L1 七月全会与联合反对派）与 `TL-W4-E09-1926-07-14`（L2 七月全会清洗）保持原状不动；本卷 12 条细粒度 L3 节点以 `TL-W25-1926-*` 记入 [`_w25_candidate_events.jsonl`](./_w25_candidate_events.jsonl)，**严禁直接修改主台账**。
+- **主台账协调**：[`events_ledger.jsonl`](../events_ledger.jsonl) 既有的 `TL-W15-L1-E09-13`（L1 七月全会与联合反对派）与 `TL-W4-E09-1926-07-14`（L2 七月全会清洗）保持原状不动；本卷 12 条细粒度 L3 节点以 `TL-W25-1926-*` 记入 主台账（`events_ledger.jsonl`），**严禁直接修改主台账**。
 
 ---
 
@@ -177,7 +177,7 @@
 ## 日期核验与候选台账说明
 
 - **单历核验**：1926 年全部事件处于 1918 年苏俄改历之后，本卷所有日期均为公历 `[N.S.]`，对应 JSONL 严格置 `date_os: null`。
-- **台账隔离**：全部 12 条 `TL-W25-1926-*` 候选记录写入 [`_w25_candidate_events.jsonl`](./_w25_candidate_events.jsonl)；**未修改** [`events_ledger.jsonl`](../events_ledger.jsonl)。
+- **台账隔离**：全部 12 条 `TL-W25-1926-*` 候选记录写入 主台账（`events_ledger.jsonl`）；**未修改** [`events_ledger.jsonl`](../events_ledger.jsonl)。
 
 ---
 

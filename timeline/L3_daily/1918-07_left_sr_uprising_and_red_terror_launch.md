@@ -1,6 +1,6 @@
 # L3 显微时间线：1918 年夏——左翼社革党决裂、刺杀浪涌与红色恐怖制度启动
 
-> 编排角色：chronicle-weaver；状态：W20 微距编年（已并入主台账 [`events_ledger.jsonl`](../events_ledger.jsonl)）。覆盖 **1918-07-04** 至 **1918-09-05**（全部为苏俄改历后**纯公历**，`date_os: null`）。本卷采用**双轨结构**：**轨 A** 第五次全俄苏维埃代表大会与左翼社革党“武力抗议”（7 月 4–18 日）；**轨 B** 从布尔什维克—契卡Summer克制到 8 月 30 日刺杀、9 月 2 日“军营”公告与 9 月 5 日《关于红色恐怖》法令的制度化跃升。精读对接 [`RN-W2-first-year-soviet-rule`](../../reading-notes/rabinowitch_2007_in_power/RN-W2-first-year-soviet-rule.md)、[`RN-W16-cheka-terror-and-external-threat-mobilization`](../../reading-notes/cheka_and_war_scare/RN-W16-cheka-terror-and-external-threat-mobilization.md)、[`RN-W4-cheka-origins-and-red-terror`](../../reading-notes/leggett_1981_cheka/RN-W4-cheka-origins-and-red-terror.md)。
+> 覆盖 **1918-07-04** 至 **1918-09-05**（全部为苏俄改历后**纯公历**，`date_os: null`）。本卷采用**双轨结构**：**轨 A** 第五次全俄苏维埃代表大会与左翼社革党“武力抗议”（7 月 4–18 日）；**轨 B** 从契卡夏季的相对克制到 8 月 30 日刺杀、9 月 2 日“军营”公告与 9 月 5 日《关于红色恐怖》法令的制度化跃升。精读对接 [`RN-W2-first-year-soviet-rule`](../../reading-notes/rabinowitch_2007_in_power/RN-W2-first-year-soviet-rule.md)、[`RN-W16-cheka-terror-and-external-threat-mobilization`](../../reading-notes/cheka_and_war_scare/RN-W16-cheka-terror-and-external-threat-mobilization.md)、[`RN-W4-cheka-origins-and-red-terror`](../../reading-notes/leggett_1981_cheka/RN-W4-cheka-origins-and-red-terror.md)。
 
 ## [T1] 60秒定性微摘要
 

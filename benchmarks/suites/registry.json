@@ -1,7 +1,7 @@
 {
   "benchmark_system_version": "1.0.0",
   "created_at": "2026-11-19",
-  "last_maintained_at": "2026-11-21",
+  "last_maintained_at": "2026-11-23",
   "maintenance_policy": {
     "review_sla_days": 14,
     "min_holdout_ratio": 0.2,
@@ -17,7 +17,7 @@
       "format": "json",
       "mode": "deterministic",
       "author": "main-agent:gemini-4-carbon",
-      "last_reviewed": "2026-11-21"
+      "last_reviewed": "2026-11-23"
     },
     {
       "id": "B2",
@@ -26,7 +26,7 @@
       "format": "json",
       "mode": "deterministic",
       "author": "main-agent:gemini-4-carbon",
-      "last_reviewed": "2026-11-21"
+      "last_reviewed": "2026-11-23"
     },
     {
       "id": "B3",
@@ -35,7 +35,7 @@
       "format": "jsonl",
       "mode": "deterministic",
       "author": "subagent:gemini-4-neon",
-      "last_reviewed": "2026-11-21"
+      "last_reviewed": "2026-11-23"
     },
     {
       "id": "B4A",
@@ -44,7 +44,7 @@
       "format": "jsonl",
       "mode": "hybrid_canary_and_qa",
       "author": "subagent:gemini-4-hydrogen",
-      "last_reviewed": "2026-11-21"
+      "last_reviewed": "2026-11-23"
     },
     {
       "id": "B4B",
@@ -53,7 +53,7 @@
       "format": "jsonl",
       "mode": "hybrid_canary_and_qa",
       "author": "subagent:grok-4.7",
-      "last_reviewed": "2026-11-21"
+      "last_reviewed": "2026-11-23"
     },
     {
       "id": "B5",
@@ -62,7 +62,7 @@
       "format": "jsonl",
       "mode": "hybrid_lint_and_blind_judge",
       "author": "subagent:gemini-4-argon",
-      "last_reviewed": "2026-11-21"
+      "last_reviewed": "2026-11-23"
     }
   ]
 }
