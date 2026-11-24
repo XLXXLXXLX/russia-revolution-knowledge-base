@@ -16,7 +16,7 @@ updated_at: "2026-11-18"
 
 ## [T2] 方法论特征与关联核心论断
 - **方法论特征**：早期依托哈佛托洛茨基档案馆、历次党代表大会速记报告与流亡报刊，精细追踪派别组织纪律对异议空间的步步紧锁。
-- **关联论断卡**：`CLM-daniels-1960-left-communists-1918`、`CLM-daniels-1960-tenth-congress-turning-point`、`CLM-daniels-1960-bukharin-right-opposition-defeat`。
+- **关联论断卡**：`CLM-daniels-1960-left-communists-1918`、`CLM-daniels-1960-tenth-congress-turning-point`、`CLM-daniels-1960-bukharin-right-opposition-defeat`、`CLM-daniels-1960-two-streams-of-bolshevism-lenin-vs-bogdanov`、`CLM-daniels-1960-1917-right-bolshevik-moderate-opposition`、`CLM-daniels-1960-1919-military-opposition-and-democratic-centralists`、`CLM-daniels-1960-1920-collegiality-debate-and-tsektran-crisis`、`CLM-daniels-1960-trade-union-controversy-and-workers-opposition-program`、`CLM-daniels-1960-underground-workers-group-and-declaration-of-22`、`CLM-daniels-1960-secretariat-apparatus-rise-and-lenin-final-crisis`、`CLM-daniels-1960-1923-declaration-of-46-and-new-course-defeat`、`CLM-daniels-1960-lenin-levy-and-lessons-of-october-bolshevization`、`CLM-daniels-1960-zinoviev-and-united-opposition-structural-impotence`。
 
-## [T3] 馆藏专著锚点
-- 已入库：`sources/monographs/daniels_1960_conscience/`（*The Conscience of the Revolution*, 1960）。
+## [T3] 馆藏专著与整书导图锚点
+- 已入库：`sources/monographs/daniels_1960_conscience/`（*The Conscience of the Revolution*, 1960；全书逐章深度导图：[`BOOK-MAP-daniels-1960-conscience.md`](../../reading-notes/daniels_1960_conscience/BOOK-MAP-daniels-1960-conscience.md)；专题精读：[`RN-W1C-communist-oppositions-1918-1929.md`](../../reading-notes/daniels_1960_conscience/RN-W1C-communist-oppositions-1918-1929.md)）。

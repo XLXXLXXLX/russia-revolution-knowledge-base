@@ -10,10 +10,10 @@ dates:
   start_ns: "1923-04-25" # 俄共（布）十二大民族问题特别分组会议修订决议节点（大会报告为04-23）
   end_ns: "1929-12-31" # 本库研究观察截止日，非本土化政策废止日期
 coverage_status: multi-perspective
-perspectives_present: ["nationality-compromise-smith", "ukrainian-urban-history-liber", "debate-1923-archival"]
-perspectives_missing: ["caucasus-and-central-asia-implementation-pre1930", "cadre-and-language-execution-records-pre1930", "all-union-institutional-synthesis-martin-unverified-locally"]
+perspectives_present: ["nationality-compromise-smith", "ukrainian-urban-history-liber", "debate-1923-archival", "affirmative-action-empire-martin", "state-sponsored-evolutionism-hirsch"]
+perspectives_missing: ["local-raion-level-implementation-ledgers-pre1930"]
 related_debates: ["DEB-1923-nationality-and-empire"]
-updated_at: "2026-11-18"
+updated_at: "2026-11-24"
 ---
 
 ## [T1] 60秒定性微摘要
@@ -39,8 +39,8 @@ updated_at: "2026-11-18"
 - **主要解释分歧**（详参 `DEB-1923-nationality-and-empire`）：
   - **[解密档案修正研究 / Jeremy D. Smith]**（`Smith 1999, ch17`）：反驳派普斯（Pipes）将十二大视作“斯大林中央集权彻底胜利”的单向论断，指出少数民族与乌克兰代表迫使斯大林在共和国权利、语言保障与第二院立法否决权上作出实质妥协，但同时强调斯大林保住了第二院代表构成原则并通过党组织渠道强化了对共和国领导层的政治控制。
   - **[乌克兰城市与身份社会史 / George O. Liber]**（`Liber 1992`, `CLM-liber-1992-korenizatsiia-paradox-late-1920s`, `CLM-liber-1992-ukrainianization-and-urban-working-class`）：以**乌克兰苏维埃社会主义共和国**为个案，论证乌克兰化与农民入城工业化共同促进了城市工人与读者群体的乌克兰认同，但多官方语言体制也“制度化并延续了语言冲突”，催生出中央难以完全控驭的自发民族维权意识（注：此结论基于乌克兰经验，外推至高加索、中亚等边疆须另据地方档案与全联盟比较研究）。
-  - **[全联盟制度史参考与待补边界 / Terry Martin 等]**：西方学界以 Terry Martin《肯定性行动帝国》（*The Affirmative Action Empire*, 2001）为代表的全联盟本土化制度研究，以及1929年前高加索、中亚地区基层干部与语言执行的档案实证，因**本库当前源目录中尚无可逐页核证的 Martin 原著文本**，本卡仅标明研究接口，不声称已完成逐页互证。
-  - **[待核具体著作的学派解释框架]**：关于早期苏联官方叙事如何界定十二大“反大俄罗斯沙文主义”与“反地方民族主义”两条战线比重，以及部分后苏联民族史研究如何追溯1920年代末张力与1930年代政策转向（超出本库1929年底时间边界）的关联，须在后续引入具体代表作与页码后单列评述，避免无引文支撑的学派笼统概括或目的论倒推。
+  - **[全联盟“肯定性行动帝国”制度史 / Terry Martin]**（`Martin 2001`, `CLM-martin-2001-affirmative-action-empire-logic-and-twelfth-congress`, `CLM-martin-2001-ethnoterritorial-pyramid-and-border-arbitration`, `CLM-martin-2001-cultural-backwardness-and-mechanical-korenizatsiia-east`, `CLM-martin-2001-soft-line-vs-hard-line-dual-institutional-enforcement`, `CLM-martin-2001-russian-resentment-and-rsfsr-asymmetry-1923-1929`）：依托党中央与 OGPU 档案论证布尔什维克通过四级民族领土金字塔、突厥—穆斯林文字拉丁化（`CLM-martin-2001-latinization-campaign-symbolic-politics`）、“东方”落后民族配额化“机械本土化”与压抑俄联邦主体机构的不对称设计拆解跨阶级民族主义，并由“软线文教机构 + 硬线组织局/OGPU（如 1923 年苏丹-加利耶夫案，`CLM-martin-2001-sultan-galiev-affair-and-national-communism-policing`）”双轨维系，直至 1928–1929 年征粮与集体化风暴同农村本土化体制发生结构性碰撞（`CLM-martin-2001-grain-crisis-and-collectivization-collision-with-korenizatsiia`）。
+  - **[民族志知识与“国家主导的进化论” / Francine Hirsch]**（`Hirsch 2005`, `CLM-hirsch-2005-state-sponsored-evolutionism-and-double-assimilation`, `CLM-hirsch-2005-1924-central-asian-delimitation-participatory-petitions`, `CLM-hirsch-2005-1926-all-union-census-narodnost-classification`）：挑战单纯地缘让步论，揭示前帝国科学院 КИПС 民族志学者与苏维埃政权如何通过 1924 年中亚划界请愿互动、1926 年全苏人口普查分类与计委经济区划博弈，推进旨在加速落后族群向社会主义现代性跃迁的“双重同化”。
 
 ## [T3] 深度考证、分期细目与原文引证档案
 - **十二大民族问题博弈的双重面相（据 Jeremy Smith `ch17` 原文核校）**：
