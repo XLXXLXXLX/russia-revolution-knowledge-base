@@ -1,34 +1,33 @@
 {
   "campaign_name": "Russian Revolution KB (1861-1929) Weekly Subscription Burn",
   "started_at": "2026-11-18",
-  "status": "paused_at_20pct_quota_floor",
-  "resumed_at": "2026-11-20T09:02:00+08:00",
-  "paused_at": "2026-11-20T09:53:00+08:00",
+  "status": "wave64_paseo_complete",
+  "resumed_at": "2026-11-25T13:56:00+08:00",
+  "paused_at": "2026-11-25T14:57:00+08:00",
   "min_quota_remaining_pct": 20,
   "max_quota_used_pct": 80,
   "pause_after_in_flight": false,
   "resume_checkpoint": {
-    "completed_in_session": "09:00 自动唤醒后执行 Waves 64–66 并于触及 20% 剩余额度红线（Codex 5h 窗口 100% 用尽、周度窗口已用 ~76% 剩 ~24%）时平稳收官：(1) 完成 Wave 59 最后 6 张人物卡跨家族 Defect-Only 审计 AUD-20E（2 P0 + 6 P1 + 3 P2）及全部 11 项缺陷逐卡回写闭环，至此全库所有实体卡审计 100% 闭环；(2) 例行维护扩充 Benchmark 金丝雀（B4A/B4B 由 36 题增至 42 题，全套由 106 题增至 112 题）；(3) 拆解 8 本 inbox 书籍（4 本可读层入库、4 本无文字层/页面树异常自动隔离 needs_ocr: true）；(4) 完成 R. W. Davies（1980）两卷联读与 Roobol（1976）+ Basil（1984）策烈铁里/孟什维克整章深度精读（新增 2 份 RN 札记 + 8 张 CLM 主张卡）；(5) 新建 4 部缺失 L3 显微时间线（1878-01 查苏利奇案与土地与自由社分裂、1914-07 彼得堡街垒战与杜马拒投军事拨款、1917-06 苏维埃一大与六月危机、1918-05 粮食专政与捷克军团起义）；(6) 新建 4 张 multi-perspective 骨干实体卡（EVT-1861 农奴制改革、MTG-1917-06 苏维埃一大、MTG-1918-03 俄共七大、EVT-1918-05 捷克军团与科穆奇），全库实体卡达 188 张（0 draft）、独立文件 611 个、有向关系边 1,653 条；(7) 升级 kb.py（locate-chapters --book 过滤与自适应多卡包预算）及 sync_graph_and_packs.py（兼容双向箭头五列边表），v2_wave66_quota20 基线 5/5 套件全绿 PASS。",
+    "completed_in_session": "2026-11-25 13:56–14:57 完成 Paseo 声明式多 Agent 编排实战测试波次（Wave 64）：(1) 彻底清除 OpenCode 遗产与硬编码 Python 模型配置，迁移至客户端无关声明式编排（agents/*.md + paseo.json + docs/MODEL_ROUTING.md + framework/ 子模块同步）；(2) 闭环修补 AUD-27（reader/ch09，verify 100.0 PASS）与 AUD-28（reader/ch13，Codex xhigh 检出 8 P0 + 10 P1 + 2 P2，全量修补后 verify 100.0 PASS）；(3) 跨家族并行完成 5 部旗舰专著全书/断代精读拆解图谱（BOOK-MAP-erlich-1960、BOOK-MAP-getzler-1983、BOOK-MAP-khlevniuk-2015-to-1929、BOOK-MAP-cohen-1973-to-1929、BOOK-MAP-ascher-2001）与 37 张高密度原子论断卡（CLM-*）；(4) 全部 5 部专著 100% 完成异源模型交叉 Defect-Only 审计（AUD-29A..E）及全部 P0/P1/P2 缺陷回写关单（7 份审计合计检出并 100% 闭环 P0 89 项、P1 82 项、P2 28 项，共 199 项缺陷）；(5) 全部临时 Paseo 子 Agent 已归档清零，sync_graph_and_packs.py（870 独立文件 / 192 实体卡 / 1,623 边 / 0 报错）与 B1–B5 基准回归（w64_paseo_complete vs pre_paseo_migration：5/5 PASS，39/39 指标零退化）全绿通过。",
     "next_on_resume": [
-      "Step 1（额度恢复后首棒）：重启因 Codex 窗口触顶中断的两项高价值精读——W65-C1（Burrage 2008 比较阶级形成 + Przeworski + Haimson 2005 自修正附录）与 W65-C2（Alan M. Ball 1987《耐普曼 1921-1929》城市私营工商业兴亡）。",
-      "Step 2（微距编年与骨干补完）：将新增 4 部 L3 显微时间线中的关键逐日条目归并入 timeline/events_ledger.jsonl；继续补齐 1906-07 第一届杜马解散与维堡宣言、1921-02 彼得格勒罢工潮与新经济政策前夜、1922-04 热那亚/拉帕洛与社革党审判 L3 卷，以及 MTG-1920-03 俄共九大等细粒度节点。",
-      "Step 3（例行门禁）：每 3-5 波次运行 sync_graph_and_packs.py 与 benchmarks/run_benchmarks.py（check-health + run + compare vs v2_wave66_quota20），持续将新审计发现的 P0/P1 陷阱沉淀进 B4A/B4B。"
+      "Step 1（版本提交）：视用户确认，先提交 framework/ 子模块更新，再提交主仓库的 Paseo 迁移与 Wave 64 全部产出。",
+      "Step 2（金丝雀沉淀）：从 AUD-28 与 AUD-29A..E 抓获的 89 项真实 P0 史实/统计分母/历法陷阱中择优沉淀新题至 benchmarks/suites/b4a 与 b4b（保持 dev/holdout 2:1 划分）。",
+      "Step 3（后续精读与通史精修）：继续推进 reader/ 其余章节的异源盲审精修（如 ch04/ch07/ch10/ch14），以及 Alan M. Ball (1987)《耐普曼 1921-1929》、Burrage (2008) 等核心专著全书拆解。"
     ]
   },
   "concurrency_governor": {
     "max_grok_concurrent": 2,
     "max_antigravity_concurrent": 2,
     "max_codex_concurrent": 2,
-    "rule": "严格执行剩余额度 20%（已用 <=80%）停机线；严禁调用付费 opencode 兜底与 antigravity_2/claude-*；Antigravity 子代理 <=2 路并发且禁调 read_url_content；审计报告一律采用 Defect-Only 精简格式。"
+    "rule": "严格执行剩余额度 20%（已用 <=80%）停机线；常规波次避免消耗稀缺 antigravity/claude-opus-5-5 与 codex/gpt-6.2-astra；全局并发 <=4（单池 <=2）；审计报告一律采用跨家族 Defect-Only 精简格式。"
   },
   "provider_quota_status": {
-    "codex": "5h_window_100pct_used_resets_1411_weekly_~76pct_used_~24pct_remaining_stopped_at_20pct_floor",
-    "antigravity_2": "paused_cleanly_with_campaign",
-    "grok": "paused_cleanly_with_campaign",
-    "opencode_fallback": "strictly_disabled"
+    "codex": "healthy_post_reset_2026-11-25_1128",
+    "antigravity": "healthy",
+    "grok": "exhausted_402_skipped_in_wave64"
   },
   "books_extracted_count": 153,
-  "completed_waves": 66,
+  "completed_waves": 67,
   "active_wave": null,
-  "benchmark_baseline": "benchmarks/baselines/v2_wave66_quota20.json"
+  "benchmark_baseline": "benchmarks/baselines/w64_paseo_complete.json"
 }
