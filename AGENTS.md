@@ -32,33 +32,36 @@
    - 正文中**不要**穿插 `[PER-xxx.md](file:///...)` 内部卡片链接打断阅读逻辑（可在行文中自然点出史家姓名、著作名或原始文献名）；统一在全文末尾使用一个干净的折叠块 `<details><summary>附：本文史实与研究依托的工作区核心档案</summary>...</details>` 集中列出所依据的卡片、微距卷、定量表、精读札记与原典链接。
 
 ### 模态 B：对内知识库构建、精读、织网与审计编排（KB Engineering & Orchestration Mode）
-当用户要求拆解电子书、精读专著、扩充时间线、新建/修订卡片、执行交叉审计或消耗算力推进建库波次时，主会话 Agent 担任 **总编排者（Chief Historiographical Orchestrator）**，不包揽繁重的底层搬运与孤立检索，而是积极将任务拆解并分派给 `.opencode/agents/` 下的专职子 Agent 并行协作，并严格执行下文第一至第四节的全部工程、审计与基准维护规范。
+当用户要求拆解电子书、精读专著、扩充时间线、新建/修订卡片、执行交叉审计或消耗算力推进建库波次时，主会话 Agent 担任 **总编排者（Chief Historiographical Orchestrator）**，不包揽繁重的底层搬运与孤立检索，而是积极将任务拆解并使用当前宿主环境的原生子 Agent 派发工具分派给 `agents/` 下的专职子 Agent 并行协作，并严格执行下文第一至第四节的全部工程、审计与基准维护规范。
 
 ---
 
-## 一、角色分工与三层预算/复杂度模型调度准则（Orchestration Roster）
+## 一、角色分工与声明式模型调度准则（Client-Agnostic Orchestration Roster）
 
-本工作区严格执行 **“订阅额度优先 → 极复杂任务动用王牌 → 额度耗尽降级 OpenCode”** 的三层算力策略（配置见 `config/agent_models.json`，详参 `docs/MODEL_ROUTING.md`）：
+本工作区采用**声明式、客户端无关**的多 Agent 编排规范（详参 `docs/MODEL_ROUTING.md`），不依赖硬编码特定客户端的 Python 载荷拼接脚本，在 **Paseo**、**T3 Code** 等任意编排环境中均可直接原生运行。调度遵循 **“订阅主力优先 → 极复杂任务动用王牌 → 窗口受限时跨池分流”** 三层原则（具体可用模型与实例名由主控官按当前宿主运行时动态发现）：
 
-1. **🟢 第一顺位（日常默认 `--tier subscription`）**：优先消耗 **`codex`（GPT 订阅）**、**`grok`（Grok 订阅）**、**`antigravity_2`（Antigravity 订阅）** 中的常规模型（`gpt-6.1-sol/terra`、`gpt-6-luna`、`grok-4.7/fast`、`claude-sonnet-5-5`、`gemini-4-hydrogen/argon`）。**严禁将 `gpt-6-astra` 与 `antigravity_2/claude-opus-5-5`（稀缺少量额度）消耗在普通日常任务上！**
-2. **🔴 尖峰攻坚（额度未耗尽但任务极为复杂 `--tier apex`）**：仅在攻克极艰深理论原著、多源冲突的逐时风暴眼考证、核心概念系谱或枢纽大卡终审时，动用 **`codex/gpt-6-astra`**、**`antigravity_2/claude-opus-5-5`（稀缺）** 或 **`opencode/google/gemini-4-carbon#high`**。
-3. **🟡 额度耗尽兜底（切换至 `opencode`）**：
-   - **简单任务（`--tier fallback-simple`）**：统一用 **`opencode` / `deepseek/deepseek-flash#high`（`ds4.1f`）**；
-   - **复杂任务（`--tier fallback-complex`）**：优先用 **`opencode` / `google/gemini-4-argon#high`**，极高难度时再升至 **`google/gemini-4-carbon#high`**。
+1. **🟢 日常订阅主力层（默认优先）**：优先使用当前可用的 OpenAI/Codex（如 `gpt-6.2-sol` / `gpt-6.1-sol` / `gpt-6.1-terra` / `gpt-6-luna`）、Grok（`grok-4.7` / `build-fast`）与 Antigravity（`claude-sonnet-5-5`、`gemini-4-neon` / `hydrogen` / `argon`）常规主力模型。**严禁将稀缺旗舰（`gpt-6.2-astra` / `gpt-6-astra`、`claude-opus-5-5`）消耗在普通日常任务上！**
+2. **🔴 尖峰攻坚层（任务极为复杂时启用）**：仅在攻克极艰深理论原著、多源冲突的逐时风暴眼考证、核心概念系谱或枢纽大卡终审时，动用 **`gpt-6.2-astra`**、**`claude-opus-5-5`（稀缺）** 或 **`gemini-4-carbon`**。
+3. **🟡 跨池分流层（某主力池限流、触发 5h 窗口上限或配额耗尽时自动切换）**：
+   - **简单/常规任务**：优先分流至 **`gemini-3.8-flash`**（高思考）或 **`gpt-6-luna`**（中思考）；
+   - **复杂任务**：优先分流至 **`gemini-4-argon`** 或 **`gemini-4-neon`**（高思考），极高难度再升至 **`gemini-4-carbon`**。
 
-| Agent ID | 角色名称 | 🟢 日常订阅主力 (`subscription`) | 🔴 极复杂攻坚 (`apex`) | 🟡 额度耗尽兜底 (`fallback`) | 写目录边界 |
+| Agent ID | 角色名称 | 🟢 日常主力倾向 | 🔴 极复杂攻坚倾向 | 🟡 跨池分流倾向 | 写目录边界 |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| `source-extractor` | **原文提取与规整官** | `codex/gpt-6-luna`<br>`antigravity_2/gemini-4-argon` | `codex/gpt-6-astra` | 简：`ds4.1f`<br>繁：`gemini-4-argon` | `sources/*`, `inbox/*`, `BIBLIOGRAPHY_WISHLIST.md`, `scripts/*` |
-| `close-reader` | **全文精读与论断官**<br>*(禁 grep/shell/web)* | `antigravity_2/claude-sonnet-5-5`<br>`antigravity_2/gemini-4-hydrogen`<br>`codex/gpt-6.1-sol` | `antigravity_2/claude-opus-5-5`<br>`codex/gpt-6-astra`<br>`opencode/gemini-4-carbon` | 简：`ds4.1f`<br>繁：`gemini-4-argon` *(至 `carbon`)* | `reading-notes/*`, `historiography/claims/*` |
-| `web-scout` | **外网史料侦察官** | `grok/grok-4.7` & `build-fast`<br>`antigravity_2/claude-sonnet-5-5` | `opencode/gemini-4-carbon`<br>`codex/gpt-6-astra` | 简：`ds4.1f`<br>繁：`gemini-4-argon` *(至 `carbon`)* | `sources/web-archive/*`, `sources/WEB_REPOSITORIES.md`, `reading-notes/web-briefs/*`, `BIBLIOGRAPHY_WISHLIST.md` |
-| `chronicle-weaver` | **多尺度编年史官** | `codex/gpt-6.1-sol`<br>`antigravity_2/claude-sonnet-5-5` | `codex/gpt-6-astra` (`xhigh`)<br>`opencode/gemini-4-carbon` | 简：`ds4.1f`<br>繁：`gemini-4-argon` *(至 `carbon`)* | `timeline/*`, `cards/events/*` |
-| `graph-curator` | **图谱与卡片策展官** | `antigravity_2/claude-sonnet-5-5`<br>`codex/gpt-6.1-terra` | `antigravity_2/claude-opus-5-5`<br>`codex/gpt-6-astra`<br>`opencode/gemini-4-carbon` | 简：`ds4.1f`<br>繁：`gemini-4-argon` *(至 `carbon`)* | `cards/*`, `graph/*`, `historiography/debates/*`, `historiography/scholars/*`, `glossary/*` |
-| `dialectic-auditor` | **史学史对勘审计官**<br>*(异源交叉审计)* | `codex/gpt-6.1-sol` (`xhigh`)<br>`grok/grok-4.7` (`xhigh`)<br>`antigravity_2/claude-sonnet-5-5` | `antigravity_2/claude-opus-5-5`<br>`codex/gpt-6-astra` (`xhigh`)<br>`opencode/gemini-4-carbon` | 简：`ds4.1f`<br>繁：`gemini-4-argon` *(至 `carbon`)* | `audits/*` |
+| `source-extractor` | **原文提取与规整官** | `gpt-6-luna` / `gemini-4-argon` | `gpt-6.2-astra` | 简：`gemini-3.8-flash` · 繁：`gemini-4-argon` | `sources/*`, `inbox/*`, `BIBLIOGRAPHY_WISHLIST.md`, `scripts/*` |
+| `close-reader` | **全文精读与论断官**<br>*(禁 grep/shell/web)* | `claude-sonnet-5-5` / `gemini-4-hydrogen` / `gpt-6.1-sol` | `claude-opus-5-5` / `gpt-6.2-astra` / `gemini-4-carbon` | 简：`gemini-3.8-flash` · 繁：`gemini-4-argon` | `reading-notes/*`, `historiography/claims/*` |
+| `web-scout` | **外网史料侦察官** | `grok-4.7` & `build-fast` / `claude-sonnet-5-5` | `gemini-4-carbon` / `gpt-6.2-astra` | 简：`gemini-3.8-flash` · 繁：`gemini-4-argon` | `sources/web-archive/*`, `sources/WEB_REPOSITORIES.md`, `reading-notes/web-briefs/*`, `BIBLIOGRAPHY_WISHLIST.md` |
+| `chronicle-weaver` | **多尺度编年史官** | `gpt-6.2-sol` / `claude-sonnet-5-5` | `gpt-6.2-astra` (`xhigh`) | 简：`gemini-3.8-flash` · 繁：`gemini-4-argon` | `timeline/*`, `cards/events/*` |
+| `graph-curator` | **图谱与卡片策展官** | `claude-sonnet-5-5` / `gemini-4-neon` / `gpt-6.1-terra` | `claude-opus-5-5` / `gpt-6.2-astra` / `gemini-4-carbon` | 简：`gemini-3.8-flash` · 繁：`gemini-4-argon` | `cards/*`, `graph/*`, `historiography/debates/*`, `historiography/scholars/*`, `glossary/*` |
+| `dialectic-auditor` | **史学史对勘审计官**<br>*(异源交叉审计)* | `gpt-6.2-sol` (`xhigh`) / `grok-4.7` (`xhigh`) / `claude-sonnet-5-5` / `gemini-4-neon` | `claude-opus-5-5` / `gpt-6.2-astra` (`xhigh`) / `gemini-4-carbon` | 简：`gemini-3.8-flash` · 繁：`gemini-4-argon` | `audits/*` |
 
-### 编排与跨模型调度铁律
-1. **双通道派发与后置写边界验尸**：
-   - 优先通过 `delegate_task` 派发至 **`codex` / `grok` / `antigravity_2`** 订阅模型（可用 `python scripts/kb.py delegate-prompt <role> --slot <slot> --task "..."` 生成精简角色载荷），任务完成后用 `git status / git diff` 核验未越界写文件。
-   - 触发额度耗尽降级或需物理封锁 `grep/shell` 时，调用 `opencode` 对应槽位。
+### 原生编排与跨模型调度铁律
+1. **宿主原生派发、角色围栏注入与后置写边界验尸**：
+   - **角色规范注入**：派发任何子 Agent 时，在任务提示词开头要求其**先读取并严格遵守对应的 `agents/<role>.md`**（或直接附上其中的写目录围栏与禁令）。
+   - **客户端自适配**：
+     - **在 Paseo 中**：先按需调用 `list_profiles` / `list_providers` / `list_models` 确认可用模型，再直接调用 `create_agent`（`antigravity` / `codex` 设 `settings.modeId = "full-access"`，`grok` 设 `settings.features = { "auto_accept": true }`，后台任务可加 `background: true`）；收到完成回调后用 `archive_agent` 清理临时子会话（存在写冲突风险的并行任务可用 `create_workspace(isolation: "worktree")` 隔离）。
+     - **在 T3 Code 或其他客户端中**：直接使用宿主原生派发工具（如 `delegate_task`）和当前宿主已注册的 Provider 实例名及推理选项，无需额外转换脚本。
+   - **统一写边界验尸**：无论运行在哪个客户端，子 Agent 完成后主控官必须用 `git status / git diff` 核验未越界写文件。
 2. **异源模型交叉审计与精简缺陷报告（Cross-Family Defect-Only Audit）**：指派 `dialectic-auditor` 时必须选用与主撰写模型不同家族（Family）的模型；审计报告坚持 **Defect-Only（只列缺陷与替换矩阵）**，聚焦 `P0/P1/P2` 硬伤、越界论断与精确替换文本，不堆砌“通过项表扬”与冗余哈希表，且审计发现的 `P0/P1` 缺陷必须闭环回写修补并择优沉淀进 `benchmarks/suites/b4*` 金丝雀集。
 3. **章节级雷达定位与整章精读分离**：编排者（Orchestrator）可调用 `python scripts/kb.py locate-chapters "<关键词>"` 快速定位候选书目与章节（自动隔离 `needs_ocr: true` 的纯扫描空壳），再将目标整章分派给 `close-reader` 从头至尾顺序精读；`close-reader` 自身严禁调用搜索命令断章取义。
 
@@ -99,8 +102,9 @@
 - 编译单卡或多卡去重 1-Hop 防偏斜上下文包：`python scripts/kb.py pack PER-bukharin PER-stalin PER-uglanov`（单卡落盘加 `--write`）
 - 单进程全量同步别名、跨时期边表（`2.2 -> edges.jsonl`）与全库 `packs`：`python scripts/sync_graph_and_packs.py`
 - 全库一致性、外键、双历法与史学偏斜体检：`python scripts/kb.py audit-graph`
-- 查看各角色绑定的跨 Provider 模型矩阵：`python scripts/kb.py models`
-- 生成精简跨 Provider `delegate_task` 标准派发载荷：`python scripts/kb.py delegate-prompt <role> --slot <slot> --task "<具体任务>"`
+- 扫描 `inbox/` 生成轻量化清单：`python scripts/kb.py scan-inbox --write`
+- 归并候选事件 JSONL 至主时间线台账：`python scripts/kb.py merge-timeline`
+- Paseo 工作区快捷脚本见根目录 `paseo.json`（`audit-graph`、`sync-graph`、`bench-health`、`bench-run`、`compile-reader`；非 Paseo 客户端自动忽略）
 
 ---
 

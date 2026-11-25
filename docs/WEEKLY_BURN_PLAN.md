@@ -1,6 +1,6 @@
 # 周订阅额度饱和式推进总计划（Weekly Subscription Burn Master Plan）
 
-> **战略目标**：充分利用 `codex`（GPT 订阅）、`grok`（Grok 订阅）与 `antigravity_2`（Antigravity 订阅）三大周订阅池，通过**多波次、6角色流水线并发**，将 `inbox/` 中的 205 部文献宝藏与开放互联网一手档案系统转化为覆盖 **1861年农奴制改革与民粹派兴起 → 1929年斯大林击败布哈林** 的全尺度双历法编年、反偏斜知识图谱与多学派论断库，持续运转直至周订阅额度耗尽（或触发 OpenCode 兜底池）。
+> **战略目标**：充分利用当前可用订阅池（OpenAI/Codex、Grok、Antigravity 等），通过**多波次、6角色流水线并发**，将 `inbox/` 中的 205 部文献宝藏与开放互联网一手档案系统转化为覆盖 **1861年农奴制改革与民粹派兴起 → 1929年斯大林击败布哈林** 的全尺度双历法编年、反偏斜知识图谱与多学派论断库，持续运转直至触及设定的周订阅额度停机线。
 
 ---
 
@@ -8,11 +8,11 @@
 
 1. **小步稳态并发限流器（Paced Concurrency Governor：总并发 ≤ 4 路，严防打穿 5 小时滑动窗口！）**：
    - 实战教训：高并发洪峰会瞬间撞上 ChatGPT/Codex 等订阅池的 **5小时滑动窗口限额**（而非周总额度）。
-   - **硬性限流铁律**：必须等上一批在途任务排空后再发下一批，**每批总并发严格控制在 3–4 个任务以内**（例如：`codex` ≤ 1–2 路、`grok` ≤ 1 路、`antigravity_2` Gemini ≤ 2 路），细水长流吃满周额度。
-   - **Antigravity 配额结构**：`antigravity_2` 的 Claude 池极小（已耗尽停用）；同实例下的 **Gemini 池（`gemini-4-hydrogen` / `argon` / `3.8-flash`）** 充足，作为精读与建卡主力。
-2. **配额耗尽自动探测与平滑转移**：
+   - **硬性限流铁律**：必须等上一批在途任务排空后再发下一批，**每批总并发严格控制在 3–4 个任务以内**（例如：`codex` ≤ 1–2 路、`grok` ≤ 1 路、`antigravity` Gemini ≤ 2 路），细水长流吃满周额度。
+   - **Antigravity 配额结构**：`antigravity` 的 Claude Opus 池极小（严禁日常滥用）；同实例下的 **Gemini 池（`gemini-4-neon` / `hydrogen` / `argon` / `3.8-flash`）** 充足，作为精读与建卡主力。
+2. **配额耗尽自动探测、平滑转移与 Paseo 定时续跑**：
    - 状态实时记录于 [`config/campaign_state.json`](../config/campaign_state.json)。
-   - 若某订阅 Provider 返回周额度耗尽报错（`weekly usage` / `quota exceeded` / `rate limit`），立即将该 Provider 标记为 `exhausted`：优先将任务分流至其余尚有余量的订阅 Provider；当三大订阅池均耗尽时，按规则简单任务切 `opencode / deepseek-flash#high` (`ds4.1f`)、复杂任务切 `opencode / google/gemini-4-argon#high`（极难升 `carbon`）。
+   - 若某订阅 Provider 返回窗口/周额度耗尽报错（`weekly usage` / `quota exceeded` / `rate limit`），立即将该 Provider 标记为 `exhausted`，优先将任务分流至其余尚有余量的 Paseo 订阅池；如需等待 5 小时窗口重置后自动续跑，可使用 Paseo 原生 `create_schedule` / `create_heartbeat` 触发唤醒。
 3. **四阶滚动流水线（Pipelined Waves）**：
    - `Wave N` 提取书籍分章文本与一手档案 → `Wave N+1` 整章精读产出 `RN-*` 札记与 `CLM-*` 原子论断卡 → `Wave N+2` 织入 `L1–L3` 时间线、扩建 `cards/` 与 `DEB-*` 争鸣卡并编译 `pack` → `Wave N+3` 异源 `dialectic-auditor` 挑刺审计并修订落 Git 提交！
 

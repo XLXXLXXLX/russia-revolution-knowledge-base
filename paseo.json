@@ -1,0 +1,19 @@
+{
+  "scripts": {
+    "audit-graph": {
+      "command": "python scripts/kb.py audit-graph"
+    },
+    "sync-graph": {
+      "command": "python scripts/sync_graph_and_packs.py"
+    },
+    "bench-health": {
+      "command": "python benchmarks/run_benchmarks.py check-health"
+    },
+    "bench-run": {
+      "command": "python benchmarks/run_benchmarks.py run"
+    },
+    "compile-reader": {
+      "command": "python scripts/compile_reader.py"
+    }
+  }
+}

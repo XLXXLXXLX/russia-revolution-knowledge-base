@@ -23,8 +23,9 @@
 | :--- | :--- | :--- |
 | **独立顺读专题专著层（不提问直接通读）** | [`reader/`](./reader/README.md) / [`reader/SPEC.md`](./reader/SPEC.md) | 四编十五章《俄国革命与早期苏维埃体制（1861–1929）》高可读学术读本（手动无状态编译、正文与考证尾注分流） |
 | **通用框架子模块与项目配置** | [`framework/`](./framework/README.md) / [`kb_config.yaml`](./kb_config.yaml) | 可复用于一般历史学与社会学研究的通用知识库引擎、方法论文档与一键脚手架 |
-| **双模态交互总则与编排规范** | [`AGENTS.md`](./AGENTS.md) / [`.opencode/agents/`](./.opencode/agents/) | 对外讲史文风规范、6 大专职 Subagent 角色权限边界与五大史学铁律 |
-| **跨 Provider 模型路由表** | [`docs/MODEL_ROUTING.md`](./docs/MODEL_ROUTING.md) / [`config/agent_models.json`](./config/agent_models.json) | Antigravity / Codex / Grok / OpenCode 分层调度矩阵 |
+| **双模态交互总则与编排规范** | [`AGENTS.md`](./AGENTS.md) / [`agents/`](./agents/) | 对外讲史文风规范、6 大专职 Subagent 角色权限边界与五大史学铁律 |
+| **声明式模型路由策略** | [`docs/MODEL_ROUTING.md`](./docs/MODEL_ROUTING.md) | 客户端无关的三层算力原则与跨家族异源审计规则（适配 Paseo / T3 Code 等） |
+| **Paseo 工作区脚本配置** | [`paseo.json`](./paseo.json) | 图谱校验、同步、基准门禁与读本编译托管脚本（其他客户端自动忽略） |
 | **方法论与架构设计** | [`docs/ARCHITECTURE.md`](./docs/ARCHITECTURE.md) | 四级双历法时间线、反 N+1 偏斜图谱机制、暂缓向量化原则 |
 | **标准卡片与论断模板** | [`docs/TEMPLATES.md`](./docs/TEMPLATES.md) | `[T1]/[T2]/[T3]` 卡片、争鸣母题卡与原子论断卡规范 |
 | **概念系谱与反讽排雷总表** | [`glossary/CONCEPT_GENEALOGY_INDEX.md`](./glossary/CONCEPT_GENEALOGY_INDEX.md) | 27 个核心概念在 1860s–1929 七个时段的语义漂移与误读排雷 |
